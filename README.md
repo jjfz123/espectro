@@ -17,9 +17,9 @@ Los tests españoles actuales (afinidadpolitica.es y similares) cubren ~10 parti
 ```
 espectro/
 ├── data/                    Capa de datos (JSON validado por esquema)
-│   ├── ejes.json            6 ejes principales + sub-ejes de módulo
-│   ├── modulos.json         Módulos y sus reglas de desbloqueo
-│   ├── items/               Banco de ítems por módulo (semilla: 33; objetivo: 250-400)
+│   ├── ejes.json            6 ejes principales + 8 sub-ejes de módulo/transversales
+│   ├── modulos.json         14 módulos y sus reglas de desbloqueo (umbral, banda, CCAA)
+│   ├── items/               Banco de ítems por módulo (257 ítems; objetivo: 250-400)
 │   ├── partidos/            Un fichero por partido, con cita por posición
 │   └── schemas/             JSON Schema de cada entidad
 ├── src/engine/              Motor puro TypeScript, sin dependencias ni E/S
@@ -53,7 +53,7 @@ Cada resultado incluye cobertura (proporción de tus respuestas que el partido t
 
 ```bash
 npm install
-npm test              # 12 tests del motor
+npm test              # 14 tests del motor
 npm run typecheck
 npm run validate:data # esquemas + integridad referencial
 ```
@@ -62,10 +62,11 @@ El test más importante está en `tests/engine.test.ts` («tesis del proyecto»)
 
 ## Estado y hoja de ruta
 
-- [x] Motor de matching + ejes + módulos, testado y tipado
+- [x] Motor de matching + ejes + módulos, testado y tipado (incl. desbloqueo por banda y multi-CCAA)
 - [x] Modelo de datos con esquemas, citación por posición y niveles de confianza
 - [x] Banco semilla (33 ítems, 4 módulos) y partidos demo
-- [ ] **Fase 1:** frontend client-side (modo rápido), banco núcleo completo (80 → 35-40 ítems tras piloto), partidos con representación estatal/autonómica (`verificada`)
+- [x] Banco ampliado: **257 ítems, 14 módulos, 14 ejes**, redactados por familia ideológica con revisión metodológica adversarial ([docs/BANCO-ITEMS.md](docs/BANCO-ITEMS.md))
+- [ ] **Fase 1:** frontend client-side (modo rápido), selección del núcleo definitivo tras piloto, partidos con representación estatal/autonómica (`verificada`)
 - [ ] **Fase 2:** campaña de autoubicación a partidos (modelo Wahl-O-Mat), partidos sin escaño (`estimada`), módulos territoriales de las 17 CCAA + Ceuta y Melilla, integración de votaciones del Congreso como fuente
 - [ ] **Fase 3:** calibración con análisis de Mokken/IRT sobre datos anonimizados, selección adaptativa de ítems (CAT), cobertura de todo partido que concurra a cualquier elección (vía infoelectoral)
 

@@ -1,9 +1,486 @@
 [
-  { "id": "der-001", "texto": "El Estado debería reducirse al mínimo imprescindible: seguridad, justicia y poco más.", "modulo": "corrientes-derecha", "ejes": [{ "eje": "economico", "carga": 1 }], "polaridad": "positiva", "tags": ["libertarianismo"], "estado": "piloto" },
-  { "id": "der-002", "texto": "Las leyes españolas deben reflejar la moral cristiana que ha vertebrado históricamente el país.", "modulo": "corrientes-derecha", "ejes": [{ "eje": "tradicion-moral", "carga": 1 }], "polaridad": "positiva", "tags": ["confesional"], "estado": "piloto" },
-  { "id": "der-003", "texto": "Una derecha moderna debe defender sin complejos los derechos de las personas LGTB.", "modulo": "corrientes-derecha", "ejes": [{ "eje": "tradicion-moral", "carga": -1 }], "polaridad": "positiva", "tags": ["derecha-liberal", "lgtb"], "estado": "piloto" },
-  { "id": "der-004", "texto": "El proteccionismo comercial es legítimo cuando sirve para defender la producción y el empleo nacional.", "modulo": "corrientes-derecha", "ejes": [{ "eje": "economico", "carga": -0.5 }], "polaridad": "positiva", "tags": ["proteccionismo", "derecha-nacional"], "estado": "piloto", "notas": "Separa la derecha nacional-proteccionista de la liberal-librecambista." },
-  { "id": "der-005", "texto": "La unidad de España está por encima de cualquier reivindicación autonómica.", "modulo": "corrientes-derecha", "ejes": [{ "eje": "territorial", "carga": 1 }], "polaridad": "positiva", "tags": ["unidad"], "estado": "piloto" },
-  { "id": "der-006", "texto": "La tauromaquia y otras tradiciones deben protegerse por ley frente a las campañas animalistas.", "modulo": "corrientes-derecha", "ejes": [{ "eje": "tradicion-moral", "carga": 0.5 }], "polaridad": "positiva", "tags": ["tradiciones"], "estado": "piloto" },
-  { "id": "der-007", "texto": "El aborto debería estar prohibido salvo riesgo vital para la madre.", "modulo": "corrientes-derecha", "ejes": [{ "eje": "tradicion-moral", "carga": 1 }], "polaridad": "positiva", "tags": ["aborto"], "estado": "piloto" }
+  {
+    "id": "der-001",
+    "texto": "El Estado debería reducirse al mínimo imprescindible: seguridad, justicia y poco más.",
+    "modulo": "corrientes-derecha",
+    "ejes": [
+      {
+        "eje": "economico",
+        "carga": 1
+      }
+    ],
+    "polaridad": "positiva",
+    "tags": [
+      "libertarianismo"
+    ],
+    "estado": "piloto"
+  },
+  {
+    "id": "der-002",
+    "texto": "Las leyes españolas deben reflejar la moral cristiana que ha vertebrado históricamente el país.",
+    "modulo": "corrientes-derecha",
+    "ejes": [
+      {
+        "eje": "tradicion-moral",
+        "carga": 1
+      }
+    ],
+    "polaridad": "positiva",
+    "tags": [
+      "confesional"
+    ],
+    "estado": "piloto"
+  },
+  {
+    "id": "der-003",
+    "texto": "Una derecha moderna debe defender sin complejos los derechos de las personas LGTB.",
+    "modulo": "corrientes-derecha",
+    "ejes": [
+      {
+        "eje": "tradicion-moral",
+        "carga": -1
+      }
+    ],
+    "polaridad": "positiva",
+    "tags": [
+      "derecha-liberal",
+      "lgtb"
+    ],
+    "estado": "piloto"
+  },
+  {
+    "id": "der-004",
+    "texto": "El proteccionismo comercial es legítimo cuando sirve para defender la producción y el empleo nacional.",
+    "modulo": "corrientes-derecha",
+    "ejes": [
+      {
+        "eje": "economico",
+        "carga": -0.5
+      }
+    ],
+    "polaridad": "positiva",
+    "tags": [
+      "proteccionismo",
+      "derecha-nacional"
+    ],
+    "estado": "piloto",
+    "notas": "Separa la derecha nacional-proteccionista de la liberal-librecambista."
+  },
+  {
+    "id": "der-005",
+    "texto": "La unidad de España está por encima de cualquier reivindicación autonómica.",
+    "modulo": "corrientes-derecha",
+    "ejes": [
+      {
+        "eje": "territorial",
+        "carga": 1
+      }
+    ],
+    "polaridad": "positiva",
+    "tags": [
+      "unidad"
+    ],
+    "estado": "piloto"
+  },
+  {
+    "id": "der-006",
+    "texto": "La tauromaquia y otras tradiciones deben protegerse por ley frente a las campañas animalistas.",
+    "modulo": "corrientes-derecha",
+    "ejes": [
+      {
+        "eje": "tradicion-moral",
+        "carga": 0.5
+      }
+    ],
+    "polaridad": "positiva",
+    "tags": [
+      "tradiciones"
+    ],
+    "estado": "piloto"
+  },
+  {
+    "id": "der-007",
+    "texto": "El aborto debería estar prohibido salvo riesgo vital para la madre.",
+    "modulo": "corrientes-derecha",
+    "ejes": [
+      {
+        "eje": "tradicion-moral",
+        "carga": 1
+      }
+    ],
+    "polaridad": "positiva",
+    "tags": [
+      "aborto"
+    ],
+    "estado": "piloto"
+  },
+  {
+    "id": "der-008",
+    "texto": "La ley que regula la eutanasia debe ser derogada.",
+    "modulo": "corrientes-derecha",
+    "ejes": [
+      {
+        "eje": "tradicion-moral",
+        "carga": 1
+      }
+    ],
+    "polaridad": "negativa",
+    "tags": [
+      "eutanasia",
+      "bioetica",
+      "moral"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Democristianos y tradicionalistas (derogar, +2) frente a liberales-conservadores y tecnócratas (mantener la ley vigente, −1/−2); el PP queda en +1 (la recurrió pero no promete derogarla). Complementa al ítem existente de aborto con la otra frontera bioética. | Esperado: democracia cristiana +2, tradicionalismo/carlismo +2, Vox +2, PP +1, ala tecnócrata -1, Ciudadanos -2, PNV -1, PSOE -2. | Ciudadanos votó a favor de la ley de eutanasia (2021); PP y Vox la recurrieron al Tribunal Constitucional pero el PP no ha comprometido su derogación."
+  },
+  {
+    "id": "der-009",
+    "texto": "Debe eliminarse la casilla de asignación a la Iglesia católica en la declaración de la renta.",
+    "modulo": "corrientes-derecha",
+    "ejes": [
+      {
+        "eje": "laicismo",
+        "carga": -1
+      }
+    ],
+    "polaridad": "negativa",
+    "tags": [
+      "iglesia",
+      "financiacion",
+      "laicismo"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Democristianos y tradicionalistas (muy en contra) frente a liberales-conservadores laicos y tecnócratas (indiferentes o favorables). Marca el eje laicismo dentro de la derecha sin pasar por la moral sexual. | Esperado: tradicionalismo/carlismo -2, democracia cristiana -2, PP -1, neoconservadurismo -1, ala tecnócrata +0, Ciudadanos +1, PSOE +2."
+  },
+  {
+    "id": "der-010",
+    "texto": "La asignatura de Religión católica debe seguir ofertándose en los colegios públicos.",
+    "modulo": "corrientes-derecha",
+    "ejes": [
+      {
+        "eje": "laicismo",
+        "carga": 0.75
+      }
+    ],
+    "polaridad": "positiva",
+    "tags": [
+      "educacion",
+      "religion",
+      "laicismo"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Democristianos y tradicionalistas (+2, marco de los Acuerdos con la Santa Sede) frente a tecnócratas (0) y liberales tipo Cs (−1, religión fuera del horario lectivo). Separa el confesionalismo educativo del conservadurismo laico. | Esperado: democracia cristiana +2, tradicionalismo/carlismo +2, Vox +2, PP +1, ala tecnócrata +0, Ciudadanos -1, PSOE -2. | [Corregido en revisión: Doble barril leve: 'ofertarse' + 'con financiación estatal' son dos compromisos distintos (alguien puede aceptar la oferta pero no el pago estatal del profesorado). Como lo que discrimina es la presencia confesional en la escuela pública, dejo una sola idea y elimino la coletilla de financiación. Especifico 'católica' porque es lo que regulan los Acuerdos con la Santa Sede y lo que de verdad divide. Ejes y posiciones esperadas se mantienen.]"
+  },
+  {
+    "id": "der-011",
+    "texto": "El impuesto de sucesiones y donaciones debe suprimirse por completo.",
+    "modulo": "corrientes-derecha",
+    "ejes": [
+      {
+        "eje": "economico",
+        "carga": 1
+      }
+    ],
+    "polaridad": "negativa",
+    "tags": [
+      "impuestos",
+      "sucesiones",
+      "liberalismo-economico"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Liberalismo económico duro (supresión total: PP, Vox, neocons) frente a la economía social de mercado democristiana (mantenerlo para grandes patrimonios, 0) y al PNV, que lo conserva reducido en el marco foral (−1). | Esperado: conservadurismo liberal (PP) +2, Vox +2, neoconservadurismo +2, ala tecnócrata +1, Ciudadanos +1, democracia cristiana +0, PNV -1, PSOE -2."
+  },
+  {
+    "id": "der-012",
+    "texto": "Las grandes reformas económicas deben pactarse con los sindicatos y la patronal antes de aprobarse.",
+    "modulo": "corrientes-derecha",
+    "ejes": [
+      {
+        "eje": "economico",
+        "carga": -0.25
+      }
+    ],
+    "polaridad": "positiva",
+    "tags": [
+      "dialogo-social",
+      "sindicatos",
+      "economia-social-de-mercado"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Concertación social democristiana (+2, herencia de la economía social de mercado) frente al liberalismo duro y neocon (−1, el Parlamento no debe quedar condicionado por los agentes sociales) y a Vox (−2, rechazo de los sindicatos como interlocutores). | Esperado: democracia cristiana +2, PNV +2, PSOE +2, agrarismo conservador +1, PP +0, neoconservadurismo -1, Vox -2."
+  },
+  {
+    "id": "der-013",
+    "texto": "Las diputaciones provinciales deben suprimirse y sus funciones traspasarse a otras administraciones.",
+    "modulo": "corrientes-derecha",
+    "ejes": [],
+    "polaridad": "negativa",
+    "tags": [
+      "administracion",
+      "diputaciones",
+      "regeneracionismo"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Solo-matching (distinción no lineal): ala tecnócrata-regeneracionista (supresión, +2) frente al PP mainstream y sus barones (−2, las defienden como red de apoyo municipal). No proyecta bien en el eje territorial porque suprimirlas no es ni centralista ni descentralizador. | Esperado: ala tecnócrata +2, Ciudadanos +2, UPyD +2, PP -2, democracia cristiana -1, PSOE -1, Vox -1. | Propuesta clásica de UPyD y Ciudadanos; el PP la ha rechazado sistemáticamente por su implantación provincial. | [Corregido en revisión: El ítem es bueno y el estatus solo-matching (ejes []) está bien justificado: suprimir diputaciones no proyecta limpio en el eje territorial. Pero hay un error factual en posicionesEsperadas: el PSOE de Pedro Sánchez propuso suprimir las diputaciones en su programa de 2015-2016; asignarle −1 contradice esa posición conocida. Corregir PSOE de −1 a +1 (ambivalencia interna: los barones provinciales socialistas las defienden, la dirección propuso suprimirlas). El resto (Cs/UPyD +2, PP −2 por su implantación provincial, Vox −1 porque su recentralización elimina autonomías pero conserva la administración provincial) es correcto.]"
+  },
+  {
+    "id": "der-014",
+    "texto": "Los derechos históricos forales, como los conciertos vasco y navarro, deben mantenerse.",
+    "modulo": "corrientes-derecha",
+    "ejes": [
+      {
+        "eje": "territorial",
+        "carga": -0.5
+      }
+    ],
+    "polaridad": "positiva",
+    "tags": [
+      "fueros",
+      "concierto",
+      "territorial"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Tradicionalismo carlista (foralista histórico) y barones forales (UPN, PP vasco) a favor, frente a tecnócratas armonizadores (−1) y a Cs/Vox (supresión o revisión del cupo, −2). Separa dos derechas centralistas solo en apariencia idénticas. | Esperado: tradicionalismo/carlismo +2, PNV +2, UPN +2, democracia cristiana +1, PP +0, neoconservadurismo -1, Ciudadanos -2, Vox -2. | El carlismo es históricamente foralista; UPN defiende el Convenio navarro; Cs y Vox han propuesto revisar o suprimir el sistema de cupo."
+  },
+  {
+    "id": "der-015",
+    "texto": "España debe abandonar la Agenda 2030 como marco de sus políticas públicas.",
+    "modulo": "corrientes-derecha",
+    "ejes": [
+      {
+        "eje": "ecologia",
+        "carga": -0.5
+      },
+      {
+        "eje": "internacionalismo",
+        "carga": 0.5
+      }
+    ],
+    "polaridad": "negativa",
+    "tags": [
+      "agenda-2030",
+      "clima",
+      "guerra-cultural"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Frontera entre derecha convencional (asumirla 'corrigiendo excesos': PP −1, democristianos −2) y derecha radical (rechazo frontal: Vox +2); dentro de la familia, los neocons (+1) se acercan al rechazo y los tecnócratas se quedan en el consenso. | Esperado: Vox +2, neoconservadurismo +1, agrarismo conservador +0, PP -1, ala tecnócrata -1, democracia cristiana -2, PSOE -2."
+  },
+  {
+    "id": "der-016",
+    "texto": "España debe ampliar la contratación en origen de trabajadores extranjeros para cubrir vacantes del mercado laboral.",
+    "modulo": "corrientes-derecha",
+    "ejes": [
+      {
+        "eje": "social",
+        "carga": -0.25
+      },
+      {
+        "eje": "economico",
+        "carga": 0.25
+      }
+    ],
+    "polaridad": "positiva",
+    "tags": [
+      "inmigracion",
+      "mercado-laboral",
+      "contratacion-en-origen"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Inmigración ordenada y seleccionada por el mercado (agrarismo y tecnócratas +2, PP +1) frente a la restricción identitaria (Vox −1, neocons 0). Distingue la derecha económica pro-empresa de la derecha de la identidad. | Esperado: agrarismo conservador +2, ala tecnócrata +2, PP +1, democracia cristiana +1, PSOE +1, neoconservadurismo +0, Vox -1."
+  },
+  {
+    "id": "der-017",
+    "texto": "La política migratoria debe dar preferencia a personas de países culturalmente próximos, como los hispanoamericanos.",
+    "modulo": "corrientes-derecha",
+    "ejes": [
+      {
+        "eje": "social",
+        "carga": 0.75
+      }
+    ],
+    "polaridad": "positiva",
+    "tags": [
+      "inmigracion",
+      "identidad",
+      "hispanidad"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Criterio de afinidad cultural (neocons y Vox +2, PP +1) frente al universalismo democristiano de la dignidad de la persona (−1) y al criterio puramente laboral de los tecnócratas (0). | Esperado: neoconservadurismo +2, Vox +2, PP +1, ala tecnócrata +0, democracia cristiana -1, Ciudadanos -1, PSOE -2. | El PP ha propuesto priorizar la inmigración hispanoamericana por idioma y afinidad cultural."
+  },
+  {
+    "id": "der-018",
+    "texto": "Debe facilitarse la regularización de los inmigrantes que llevan años viviendo y trabajando en España.",
+    "modulo": "corrientes-derecha",
+    "ejes": [
+      {
+        "eje": "social",
+        "carga": -0.5
+      }
+    ],
+    "polaridad": "positiva",
+    "tags": [
+      "inmigracion",
+      "regularizacion",
+      "humanismo-cristiano"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Humanismo cristiano (democristianos +2, con respaldo eclesial a la ILP de regularización) frente a la derecha del orden (neocons −1, Vox −2); el PP queda dividido (0). Separa las dos almas de la derecha ante el inmigrante ya asentado. | Esperado: democracia cristiana +2, PSOE +2, PNV +1, agrarismo conservador +1, PP +0, neoconservadurismo -1, Vox -2. | La ILP de regularización extraordinaria (2024) fue respaldada por Cáritas y la Conferencia Episcopal y admitida a trámite con votos del PP."
+  },
+  {
+    "id": "der-019",
+    "texto": "La prisión permanente revisable debe eliminarse del Código Penal.",
+    "modulo": "corrientes-derecha",
+    "ejes": [
+      {
+        "eje": "social",
+        "carga": -0.75
+      }
+    ],
+    "polaridad": "negativa",
+    "tags": [
+      "penas",
+      "ley-y-orden",
+      "codigo-penal"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Punitivismo de toda la derecha española (mantenerla: −2) frente a la democracia cristiana vasca (el PNV pidió su derogación: +1) y al matiz humanista democristiano (−1). Separa PP y PNV, dos partidos de raíz democristiana, en ley y orden. | Esperado: PP -2, Vox -2, Ciudadanos -2, neoconservadurismo -2, democracia cristiana -1, PNV +1, PSOE +1, Podemos +2. | Pena introducida por el PP en 2015; el PNV votó en contra y ha registrado iniciativas para derogarla."
+  },
+  {
+    "id": "der-020",
+    "texto": "La inviolabilidad jurídica del Rey debe mantenerse tal y como la recoge la Constitución.",
+    "modulo": "corrientes-derecha",
+    "ejes": [
+      {
+        "eje": "monarquia",
+        "carga": 0.75
+      }
+    ],
+    "polaridad": "positiva",
+    "tags": [
+      "monarquia",
+      "corona",
+      "constitucion"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Monarquía como consenso intocable (PP, Vox, neocons +2) frente al regeneracionismo tecnócrata-liberal que aceptaría limitarla a los actos oficiales (Cs −1, tecnócratas 0). Mide adhesión a la Corona sin preguntar el burdo monarquía-sí-o-no. | Esperado: PP +2, Vox +2, neoconservadurismo +2, tradicionalismo/carlismo +1, democracia cristiana +1, ala tecnócrata +0, Ciudadanos -1, PSOE -1. | Cs propuso revisar el alcance de la inviolabilidad tras las polémicas de Juan Carlos I; el carlismo apoya la institución con reservas dinásticas."
+  },
+  {
+    "id": "der-021",
+    "texto": "España debe alinearse sin ambigüedades con Estados Unidos en los grandes conflictos internacionales.",
+    "modulo": "corrientes-derecha",
+    "ejes": [
+      {
+        "eje": "atlantismo",
+        "carga": 0.75
+      }
+    ],
+    "polaridad": "positiva",
+    "tags": [
+      "exterior",
+      "atlantismo",
+      "eeuu"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Atlantismo neocon estricto (+2, tradición Aznar-Azores) frente al multilateralismo democristiano de sensibilidad vaticana (0) y al soberanismo escéptico tradicionalista (−1); el PP mainstream se queda en +1. | Esperado: neoconservadurismo +2, PP +1, Ciudadanos +1, Vox +1, democracia cristiana +0, tradicionalismo/carlismo -1, PSOE -1, Podemos -2."
+  },
+  {
+    "id": "der-022",
+    "texto": "Deben ampliarse los regadíos y las grandes infraestructuras hidráulicas, como embalses y trasvases.",
+    "modulo": "corrientes-derecha",
+    "ejes": [
+      {
+        "eje": "ecologia",
+        "carga": -0.75
+      }
+    ],
+    "polaridad": "positiva",
+    "tags": [
+      "rural",
+      "agua",
+      "regadios",
+      "agrarismo"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Agrarismo conservador y PP levantino (trasvases, +2) frente al tecnócrata que condiciona por coste y sostenibilidad hídrica (+1) y al ecologismo (−2). Ancla la corriente agrarista sin repetir el ítem taurino existente. | Esperado: agrarismo conservador +2, PP +2, Vox +2, ala tecnócrata +1, democracia cristiana +1, PSOE +0, Sumar/verdes -2. | [Corregido en revisión: La cláusula final 'para garantizar el futuro del campo' es una justificación persuasiva que empuja al acuerdo (nadie está contra 'el futuro del campo'): sesgo de redacción clásico. La elimino y concreto con ejemplos neutros ('embalses y trasvases') que anclan la política real que divide (memorándum del Tajo-Segura). Ejes correctos (ecologia −0.75, ampliar regadío = productivismo) y posiciones plausibles; PSOE en 0 es defendible (hace regadíos pero recorta trasvases).]"
+  },
+  {
+    "id": "der-023",
+    "texto": "Deben endurecerse las restricciones legales a la caza.",
+    "modulo": "corrientes-derecha",
+    "ejes": [
+      {
+        "eje": "animalismo",
+        "carga": 0.75
+      }
+    ],
+    "polaridad": "negativa",
+    "tags": [
+      "caza",
+      "rural",
+      "animalismo"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Agrarismo conservador y tradicionalistas (muy en desacuerdo, la caza como gestión del territorio) frente a la derecha urbana liberal (indiferente, 0/−1) y al animalismo (+2). Mide el eje animalismo dentro de la derecha sin duplicar el ítem taurino. | Esperado: agrarismo conservador -2, Vox -2, PP -2, tradicionalismo/carlismo -2, democracia cristiana -1, Ciudadanos +0, PSOE +0, PACMA +2."
+  },
+  {
+    "id": "der-024",
+    "texto": "La gestación subrogada altruista debe ser legal en España.",
+    "modulo": "corrientes-derecha",
+    "ejes": [
+      {
+        "eje": "tradicion-moral",
+        "carga": -0.75
+      }
+    ],
+    "polaridad": "positiva",
+    "tags": [
+      "bioetica",
+      "gestacion-subrogada",
+      "familia"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Liberales (Cs +2, que la llevó en programa; tecnócratas +1) frente a democristianos y tradicionalistas (−2, dignidad de la persona) y PP (−1). Fractura no lineal valiosa: aquí Vox y el feminismo de izquierda coinciden en el no, así que el ítem no replica al de aborto ni al de eutanasia. | Esperado: Ciudadanos +2, ala tecnócrata +1, conservadurismo liberal (PP) -1, neoconservadurismo -1, democracia cristiana -2, tradicionalismo/carlismo -2, Vox -2, PSOE -2. | Cs propuso regular la gestación subrogada altruista; PP, Vox, PSOE y el movimiento feminista mayoritario se oponen. Tercera frontera bioética que separa al liberal del democristiano en dirección opuesta a la habitual. | [Añadido por el revisor para cubrir un hueco]"
+  },
+  {
+    "id": "der-025",
+    "texto": "Los padres deben poder autorizar previamente los talleres y charlas escolares sobre contenidos afectivo-sexuales.",
+    "modulo": "corrientes-derecha",
+    "ejes": [
+      {
+        "eje": "tradicion-moral",
+        "carga": 0.75
+      }
+    ],
+    "polaridad": "positiva",
+    "tags": [
+      "educacion",
+      "familia",
+      "pin-parental"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Tradicionalistas y Vox (+2, primacía educativa de la familia) y democristianos (+1) frente a tecnócratas y liberales (−1, la escuela no se veta) con el PP en un +1 incómodo (lo pactó en Murcia pero lo relativizó). Mide control moral parental sin pasar por la asignatura de Religión (der-103) ni por la moral cristiana del banco. | Esperado: Vox +2, tradicionalismo/carlismo +2, neoconservadurismo +1, democracia cristiana +1, PP +1, ala tecnócrata -1, Ciudadanos -1, PSOE -2. | Redactado sin la etiqueta 'pin parental' (palabra-bandera) y sin 'adoctrinamiento': describe el mecanismo (autorización previa) de forma que ambos bandos lo reconocen como neutro. | [Añadido por el revisor para cubrir un hueco]"
+  },
+  {
+    "id": "der-026",
+    "texto": "Los partidos que promueven la secesión de una parte de España deben poder ser ilegalizados.",
+    "modulo": "corrientes-derecha",
+    "ejes": [
+      {
+        "eje": "territorial",
+        "carga": 0.5
+      },
+      {
+        "eje": "social",
+        "carga": 0.5
+      }
+    ],
+    "polaridad": "negativa",
+    "tags": [
+      "partidos",
+      "unidad-nacional",
+      "pluralismo"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Frontera institucional entre derecha convencional y radical: Vox (+2, lo lleva en programa) frente a PP, democristianos y tecnócratas (−2, constitucionalismo pluralista: combatir la secesión con la ley, no proscribiendo idearios). Complementa a der-108: aquel marca la frontera climática, este la del pluralismo. No duplica 'unidad de España sobre reivindicación autonómica' (que mide prioridad, no proscripción). | Esperado: Vox +2, tradicionalismo/carlismo +1, neoconservadurismo +0, Ciudadanos -1, PP -2, democracia cristiana -2, ala tecnócrata -2, PSOE -2. | Vox ha propuesto la ilegalización de partidos separatistas; el PP la ha rechazado expresamente. Cs propuso endurecer la LO de partidos sin llegar a la proscripción por ideario (−1). | [Añadido por el revisor para cubrir un hueco]"
+  }
 ]

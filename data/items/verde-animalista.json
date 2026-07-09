@@ -1,0 +1,356 @@
+[
+  {
+    "id": "va-001",
+    "texto": "La ley debe reconocer a los animales como sujetos de derechos, y no solo protegerlos frente al maltrato.",
+    "modulo": "verde-animalista",
+    "ejes": [
+      {
+        "eje": "animalismo",
+        "carga": 1
+      }
+    ],
+    "polaridad": "positiva",
+    "tags": [
+      "animalismo",
+      "derechos-animales",
+      "bienestarismo"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Separa el animalismo de derechos (PACMA: los animales como sujetos jurídicos) del bienestarismo regulador (PSOE, ley de bienestar animal: proteger sin cambiar su estatus) y de la derecha, que los ve como recurso y tradición. | Esperado: PACMA +2, animalismo de derechos +2, Verdes Equo / Alianza Verde +1, ecosocialismo (Sumar/Podemos) +1, PSOE -1, PP -2, VOX -2. | Eje maestro derechos vs bienestarismo. El Código Civil ya declara a los animales 'seres sintientes' (2021), pero la subjetividad jurídica plena es la frontera que solo cruza el abolicionismo."
+  },
+  {
+    "id": "va-002",
+    "texto": "La caza regulada es una herramienta legítima para gestionar las poblaciones de fauna silvestre.",
+    "modulo": "verde-animalista",
+    "ejes": [
+      {
+        "eje": "animalismo",
+        "carga": -1
+      },
+      {
+        "eje": "social",
+        "carga": 0.25
+      }
+    ],
+    "polaridad": "positiva",
+    "tags": [
+      "caza",
+      "mundo-rural",
+      "animalismo"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Separa la abolición de la caza (PACMA) de la caza como gestión (agrarismo, derecha rural, PSOE de interior); dentro de la izquierda, distingue al ecosocialismo urbano (en contra) del PSOE con base rural (a favor). | Esperado: PACMA -2, Verdes Equo / Alianza Verde -1, ecosocialismo (Sumar/Podemos) -1, PSOE +1, Teruel Existe / España vaciada +2, PP +2, VOX +2. | Cruce clave con el agrarismo conservador: la exclusión de los perros de caza de la ley de bienestar animal (2023) fue exigencia del PSOE rural. | [Corregido en revisión: Doble barril real: 'gestionar la fauna' Y 'sostener el medio rural' son dos justificaciones distintas — un ecologista conservacionista puede aceptar la caza como control poblacional puntual y rechazar que 'sostenga' el medio rural, y un votante de Teruel Existe puede suscribir lo segundo dudando de lo primero. Se elimina el segundo barril; la dimensión rural ya la aporta la carga en 'social'. Posiciones esperadas correctas (la exclusión de los perros de caza de la ley de 2023 avala el PSOE +1). Signos de eje correctos (animalismo −1 = primacía de usos humanos; social +0.25 hacia TAN).]"
+  },
+  {
+    "id": "va-003",
+    "texto": "Las corridas de toros deben prohibirse por ley en toda España.",
+    "modulo": "verde-animalista",
+    "ejes": [
+      {
+        "eje": "animalismo",
+        "carga": 1
+      },
+      {
+        "eje": "social",
+        "carga": -0.25
+      }
+    ],
+    "polaridad": "negativa",
+    "tags": [
+      "tauromaquia",
+      "abolicionismo",
+      "animalismo"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: El ítem del banco mide la protección legal; este mide el umbral abolicionista: separa a los partidarios de solo desproteger o retirar fondos (PSOE, en desacuerdo con prohibir) de los abolicionistas (PACMA, Podemos, verdes). | Esperado: PACMA +2, ecosocialismo (Podemos/Sumar) +2, Verdes Equo / Alianza Verde +2, PSOE -1, PP -2, VOX -2. | Tres posiciones reales: abolir / desproteger (quitar estatus BIC y subvenciones, sin prohibir) / proteger. La posición intermedia responde -1 aquí y -2 al ítem de protección del banco."
+  },
+  {
+    "id": "va-004",
+    "texto": "No deben autorizarse nuevas explotaciones de ganadería intensiva de gran tamaño.",
+    "modulo": "verde-animalista",
+    "ejes": [
+      {
+        "eje": "ecologia",
+        "carga": 0.5
+      },
+      {
+        "eje": "animalismo",
+        "carga": 0.5
+      }
+    ],
+    "polaridad": "negativa",
+    "tags": [
+      "macrogranjas",
+      "ganaderia",
+      "agua"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Separa al PSOE (ambivalente: gobiernos autonómicos que las autorizan, distanciamiento en la polémica Garzón de 2022) del bloque verde-animalista unánime; y a VOX (defensa cerrada de la ganadería intensiva) del PP. | Esperado: PACMA +2, ecosocialismo (Sumar/Podemos) +2, Verdes Equo / Alianza Verde +2, Teruel Existe / España vaciada +1, PSOE +0, PP -1, VOX -2. | La España vaciada está aquí con los verdes (contaminación de acuíferos, no fija población), al contrario que en caza y lobo: útil para separar agrarismo de productivismo. | [Corregido en revisión: 'Macrogranja' es palabra-bandera acuñada por el campo ecologista y rechazada expresamente por el sector y por la derecha agraria ('no existen las macrogranjas'); viola la regla 2 porque un simpatizante de VOX no la firmaría como descripción neutra. Se sustituye por descripción funcional. El resto es sólido: polaridad negativa correcta, cargas correctas, y el cruce España vaciada (+1, acuíferos y despoblación) vs VOX (−2) está bien fundado en el episodio Garzón 2022 y en las posiciones de Teruel Existe.]"
+  },
+  {
+    "id": "va-005",
+    "texto": "Alargar la vida de las centrales nucleares es razonable como energía de transición para reducir emisiones.",
+    "modulo": "verde-animalista",
+    "ejes": [],
+    "polaridad": "positiva",
+    "tags": [
+      "nuclear",
+      "energia",
+      "ecomodernismo"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Solo-matching: separa a los ecomodernistas (sí, por el clima) de los verdes clásicos, ecosocialistas y decrecentistas (no); PP y VOX coinciden en el sí por motivos productivistas, por lo que la carga en el eje ecología sería no lineal. | Esperado: ecologismo de mercado / ecomodernismo +2, PP +2, VOX +2, PSOE -1, Verdes Equo / Alianza Verde -2, ecosocialismo (Sumar/Podemos) -2, decrecentismo -2, PACMA -1. | Referencia estable: calendario de cierre 2027-2035 pactado en 2019; el debate sobre prórrogas (Almaraz) define la frontera ecomodernista dentro del campo climático."
+  },
+  {
+    "id": "va-006",
+    "texto": "La protección del paisaje y del territorio rural debe poder frenar grandes proyectos de parques eólicos y solares.",
+    "modulo": "verde-animalista",
+    "ejes": [],
+    "polaridad": "negativa",
+    "tags": [
+      "renovables",
+      "territorio",
+      "espana-vaciada"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Solo-matching por no linealidad: el 'renovables sí, pero no así' une a España vaciada, decrecentistas y parte del ecologismo frente al despliegue masivo de PSOE y ecomodernistas; VOX coincide en el freno por motivos opuestos (antirrenovable). | Esperado: Teruel Existe / España vaciada +2, decrecentismo +1, VOX +1, Verdes Equo / Alianza Verde +0, ecosocialismo (Sumar/Podemos) +0, PSOE -2, ecologismo de mercado / ecomodernismo -2, PP -1. | Los verdes clásicos quedan tensionados: apoyan renovables pero distribuidas y con ordenación territorial; útil para distinguirlos del crecimiento verde socialdemócrata. | [Corregido en revisión: La subordinada 'que transforman el paisaje y el territorio rural' presupone el daño como hecho (aserción embebida, sesgo de aquiescencia tipo Kamoen-Holleman): un partidario del despliegue masivo no puede rechazar el ítem sin tragarse la premisa. Se reformula como disyuntiva de prioridades explícita. La estructura solo-matching es correcta y valiosa (VOX y España vaciada coinciden en el freno por motivos opuestos; verdes tensionados en 0). Matiz: VOX podría ser +2 en vez de +1 dada su hostilidad general a los 'molinos', pero la dirección es correcta.]"
+  },
+  {
+    "id": "va-007",
+    "texto": "Para afrontar la crisis ecológica, los países ricos deben reducir su producción y su consumo aunque el PIB deje de crecer.",
+    "modulo": "verde-animalista",
+    "ejes": [
+      {
+        "eje": "ecologia",
+        "carga": 1
+      },
+      {
+        "eje": "economico",
+        "carga": -0.25
+      }
+    ],
+    "polaridad": "negativa",
+    "tags": [
+      "decrecimiento",
+      "crecimiento-verde",
+      "pib"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: La línea maestra de la familia: decrecentistas (+2) frente a crecimiento verde (PSOE y ecomodernistas, en contra), con verdes clásicos y ecosocialistas en posición intermedia. | Esperado: decrecentismo +2, ecosocialismo (Sumar/Podemos) +1, Verdes Equo / Alianza Verde +1, PSOE -1, ecologismo de mercado / ecomodernismo -2, PP -2, PACMA +0."
+  },
+  {
+    "id": "va-008",
+    "texto": "La innovación tecnológica y los incentivos de mercado, más que los límites al consumo, deben liderar la lucha climática.",
+    "modulo": "verde-animalista",
+    "ejes": [
+      {
+        "eje": "economico",
+        "carga": 0.5
+      },
+      {
+        "eje": "ecologia",
+        "carga": -0.25
+      }
+    ],
+    "polaridad": "positiva",
+    "tags": [
+      "tecnooptimismo",
+      "mercado",
+      "clima"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Aísla el ecologismo de mercado del resto de la familia (verdes, ecosocialistas y decrecentistas rechazan que el mercado lidere) y distingue al PP climáticamente moderado de VOX, indiferente u hostil al propio marco climático. | Esperado: ecologismo de mercado / ecomodernismo +2, PP +1, PSOE +0, Verdes Equo / Alianza Verde -1, ecosocialismo (Sumar/Podemos) -2, decrecentismo -2, VOX +0."
+  },
+  {
+    "id": "va-009",
+    "texto": "Debe gravarse con impuestos el consumo de carne para reducir su impacto ambiental.",
+    "modulo": "verde-animalista",
+    "ejes": [
+      {
+        "eje": "ecologia",
+        "carga": 0.5
+      },
+      {
+        "eje": "animalismo",
+        "carga": 0.5
+      }
+    ],
+    "polaridad": "positiva",
+    "tags": [
+      "fiscalidad-verde",
+      "carne",
+      "ecotasa"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Ecotasa que muerde al consumidor: separa al verde convencido (PACMA, Equo, a favor) del ecosocialismo y la socialdemocracia, que rechazan fiscalidad verde regresiva sobre el consumo popular y prefieren gravar a las grandes industrias. | Esperado: PACMA +2, Verdes Equo / Alianza Verde +1, decrecentismo +1, ecosocialismo (Sumar/Podemos) -1, PSOE -1, PP -2, VOX -2. | Mide la disposición a que la transición cueste al consumidor: el mejor separador entre el votante verde programático y el votante social de izquierdas."
+  },
+  {
+    "id": "va-010",
+    "texto": "La experimentación con animales debe prohibirse también cuando se usa en investigación médica.",
+    "modulo": "verde-animalista",
+    "ejes": [
+      {
+        "eje": "animalismo",
+        "carga": 1
+      }
+    ],
+    "polaridad": "negativa",
+    "tags": [
+      "experimentacion-animal",
+      "abolicionismo",
+      "ciencia"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: El ítem más exigente del eje animalista: solo el abolicionismo estricto (PACMA) sostiene el acuerdo cuando el uso es médico; verdes y ecosocialistas aceptan la experimentación regulada con las 3R. Separa PACMA de todo su entorno verde. | Esperado: PACMA +2, animalismo de derechos +2, Verdes Equo / Alianza Verde -1, ecosocialismo (Sumar/Podemos) -1, PSOE -2, PP -2."
+  },
+  {
+    "id": "va-011",
+    "texto": "Especies como el lobo deben seguir estrictamente protegidas aunque causen pérdidas a la ganadería extensiva.",
+    "modulo": "verde-animalista",
+    "ejes": [
+      {
+        "eje": "animalismo",
+        "carga": 0.5
+      },
+      {
+        "eje": "ecologia",
+        "carga": 0.5
+      }
+    ],
+    "polaridad": "positiva",
+    "tags": [
+      "lobo",
+      "fauna-salvaje",
+      "ganaderia"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Cruce fauna salvaje / mundo rural: separa al bloque verde-animalista del agrarismo y la España vaciada; el PSOE queda partido entre su ala ambiental (inclusión del lobo en el LESPRE, 2021) y sus alcaldes de zonas ganaderas. | Esperado: PACMA +2, Verdes Equo / Alianza Verde +2, ecosocialismo (Sumar/Podemos) +1, PSOE +0, Teruel Existe / España vaciada -1, PP -2, VOX -2. | La desprotección del lobo al norte del Duero (2025, votos PP/VOX y otros) mantiene vivo el conflicto; formulado sin ley concreta para que envejezca bien."
+  },
+  {
+    "id": "va-012",
+    "texto": "Deben limitarse las plazas turísticas en las zonas saturadas, aunque el sector pierda ingresos.",
+    "modulo": "verde-animalista",
+    "ejes": [
+      {
+        "eje": "ecologia",
+        "carga": 0.5
+      },
+      {
+        "eje": "economico",
+        "carga": -0.5
+      }
+    ],
+    "polaridad": "negativa",
+    "tags": [
+      "turismo",
+      "decrecimiento",
+      "territorio"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Decrecimiento turístico: separa a la izquierda verde (topes administrativos) del modelo de crecimiento del sector (PP, VOX); dentro de la familia, el ecologismo de mercado prefiere tasas y precios antes que límites cuantitativos. | Esperado: decrecentismo +2, ecosocialismo (Sumar/Podemos) +2, Verdes Equo / Alianza Verde +2, PSOE +0, ecologismo de mercado / ecomodernismo -1, PP -1, VOX -2."
+  },
+  {
+    "id": "va-013",
+    "texto": "Deben construirse nuevos trasvases entre cuencas para garantizar el agua de los regadíos.",
+    "modulo": "verde-animalista",
+    "ejes": [
+      {
+        "eje": "ecologia",
+        "carga": -1
+      }
+    ],
+    "polaridad": "positiva",
+    "tags": [
+      "agua",
+      "trasvases",
+      "regadios"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Política hídrica: toda la familia verde en contra frente al 'agua para todos' de PP y VOX; separa además al PSOE (caudales ecológicos, recorte del Tajo-Segura) tanto de la derecha como del rechazo frontal verde. | Esperado: PP +2, VOX +2, PSOE -1, Verdes Equo / Alianza Verde -2, ecosocialismo (Sumar/Podemos) -2, decrecentismo -2, ecologismo de mercado / ecomodernismo -1. | El ecologismo de mercado matiza: rechaza megaobras subvencionadas pero por lógica de precios del agua, no de límites ecológicos; de ahí el -1 frente al -2 verde."
+  },
+  {
+    "id": "va-014",
+    "texto": "Los parques zoológicos deben cerrarse de forma progresiva, incluidos los que participan en programas de conservación de especies.",
+    "modulo": "verde-animalista",
+    "ejes": [
+      {
+        "eje": "animalismo",
+        "carga": 1
+      }
+    ],
+    "polaridad": "negativa",
+    "tags": [
+      "cautividad",
+      "zoos",
+      "animalismo"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Cautividad animal: separa al abolicionismo (PACMA: convertirlos en centros de recuperación) del ecologismo conservacionista, que admite zoos con función de conservación e investigación; la izquierda no animalista lo rechaza. | Esperado: PACMA +2, animalismo de derechos +2, Verdes Equo / Alianza Verde +0, ecosocialismo (Sumar/Podemos) +0, PSOE -1, PP -2. | Complementa a va-10 como segundo separador interno PACMA vs verdes; evita los circos con animales salvajes, ya prohibidos por la ley de bienestar animal de 2023. | [Corregido en revisión: Doble barril con divergencia real de posiciones: cerrar delfinarios tiene apoyo mucho más amplio (incluidos verdes conservacionistas e incluso parte del bienestarismo) que cerrar zoológicos con programas de conservación. El propio 0 asignado a Equo delata que el ítem obliga a promediar dos respuestas distintas. Se restringe a los zoológicos con la cláusula de conservación explícita, que es el test limpio abolicionismo vs conservacionismo y preserva exactamente la discriminación declarada (PACMA vs verdes). Polaridad negativa y carga animalismo +1 correctas.]"
+  },
+  {
+    "id": "va-015",
+    "texto": "El impuesto que paga el diésel debe subir hasta igualarse al de la gasolina, aunque encarezca repostar.",
+    "modulo": "verde-animalista",
+    "ejes": [
+      {
+        "eje": "ecologia",
+        "carga": 0.5
+      }
+    ],
+    "polaridad": "positiva",
+    "tags": [
+      "fiscalidad-verde",
+      "diesel",
+      "ecotasa"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: La otra ecotasa que muerde al consumidor, citada en el contexto de familia y ausente del borrador. Único ítem donde el ecologismo de mercado (señales de precio) y los verdes clásicos coinciden frente al ecosocialismo y el PSOE, que rechazan fiscalidad regresiva sobre el combustible (el PSOE lo propuso en 2018 y lo retiró). | Esperado: Verdes Equo / Alianza Verde +2, ecologismo de mercado / ecomodernismo +2, decrecentismo +2, ecosocialismo (Sumar/Podemos) -1, PSOE -1, PP -2, VOX -2. | Carga moderada (0.5) porque la no linealidad parcial (ecomodernistas con los verdes) atenúa su validez como indicador puro del eje; su valor principal es discriminar al verde programático del votante social, en pareja con va-09. | [Añadido por el revisor para cubrir un hueco]"
+  },
+  {
+    "id": "va-016",
+    "texto": "España debe autorizar el cultivo de transgénicos y de variedades obtenidas por edición genética.",
+    "modulo": "verde-animalista",
+    "ejes": [],
+    "polaridad": "positiva",
+    "tags": [
+      "transgenicos",
+      "agricultura",
+      "ecomodernismo"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Solo-matching por no linealidad: el sí une a ecomodernistas (herramienta climática y de reducción de fitosanitarios) con PP/VOX (productivismo agrario), y el no une a verdes clásicos, decrecentistas y PACMA. Segundo indicador de la frontera tecnológica dentro del campo verde, complementario de va-05 (nuclear) fuera del terreno energético. | Esperado: ecologismo de mercado / ecomodernismo +2, PP +2, VOX +1, PSOE +0, ecosocialismo (Sumar/Podemos) -1, Verdes Equo / Alianza Verde -2, decrecentismo -2, PACMA -1. | España es ya el mayor productor europeo de maíz Bt, lo que da realismo al debate; la regulación europea de las nuevas técnicas genómicas mantiene vivo el cleavage varios años. | [Añadido por el revisor para cubrir un hueco]"
+  },
+  {
+    "id": "va-017",
+    "texto": "Deben suprimirse los vuelos domésticos en las rutas con alternativa en tren de menos de tres horas.",
+    "modulo": "verde-animalista",
+    "ejes": [
+      {
+        "eje": "ecologia",
+        "carga": 0.75
+      }
+    ],
+    "polaridad": "negativa",
+    "tags": [
+      "aviacion",
+      "movilidad",
+      "decrecimiento"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Decrecimiento aplicado a la movilidad: separa a la izquierda verde (Sumar lo llevó en su programa de 2023, siguiendo el modelo francés) del PSOE, que lo rechazó, y dentro de la familia distingue la prohibición (verdes, decrecentistas) del instrumento de precio (ecologismo de mercado, en contra de suprimir por decreto). | Esperado: decrecentismo +2, ecosocialismo (Sumar/Podemos) +2, Verdes Equo / Alianza Verde +2, PACMA +1, PSOE -1, ecologismo de mercado / ecomodernismo -1, PP -2, VOX -2. | Umbral de tres horas tomado del debate real (propuesta de Sumar, precedente francés de 2h30); formulado sin cita de programa concreto para que envejezca bien. | [Añadido por el revisor para cubrir un hueco]"
+  },
+  {
+    "id": "va-018",
+    "texto": "La ganadería extensiva merece apoyo público como actividad que conserva el territorio.",
+    "modulo": "verde-animalista",
+    "ejes": [],
+    "polaridad": "positiva",
+    "tags": [
+      "ganaderia-extensiva",
+      "mundo-rural",
+      "animalismo"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Solo-matching por no linealidad: separa al abolicionismo animalista (contra toda ganadería, también la extensiva) del resto de la familia verde, que defiende la extensiva como aliada ambiental frente a la intensiva; a la vez, une a verdes, España vaciada y derecha en el sí, invirtiendo las coaliciones de va-04. Es el reverso en positivo de los separadores prohibicionistas va-10 y va-14. | Esperado: Verdes Equo / Alianza Verde +2, ecosocialismo (Sumar/Podemos) +2, Teruel Existe / España vaciada +2, PSOE +2, PP +1, PACMA -1, animalismo de derechos -2. | El único ítem donde PACMA queda solo frente a todo el arco, incluido su vecindario verde: máximo poder de matching para distinguir el voto animalista del voto ecologista. | [Añadido por el revisor para cubrir un hueco]"
+  }
+]

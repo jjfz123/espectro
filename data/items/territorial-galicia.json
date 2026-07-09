@@ -1,0 +1,96 @@
+[
+  {
+    "id": "gal-001",
+    "texto": "La norma oficial del gallego debería reformarse para aproximarla a la ortografía del portugués (reintegracionismo).",
+    "modulo": "territorial-galicia",
+    "ejes": [],
+    "polaridad": "positiva",
+    "tags": [
+      "reintegracionismo",
+      "lengua",
+      "lusofonía"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Matiz fino dentro del nacionalismo gallego: reintegracionistas (AGAL, sectores soberanistas) frente al oficialismo de la norma RAG que el BNG asume desde 2003; PSdeG y PP quedan fuera del debate. | Esperado: reintegracionismo (AGAL) +2, Nós-UP / soberanismo rupturista +2, BNG (base militante) +1, BNG (posición oficial) +0, PSdeG -1, PPdeG -1."
+  },
+  {
+    "id": "gal-002",
+    "texto": "Galicia, como territorio excedentario en producción eléctrica, debería tener una tarifa eléctrica propia más barata.",
+    "modulo": "territorial-galicia",
+    "ejes": [
+      {
+        "eje": "territorial",
+        "carga": -0.5
+      },
+      {
+        "eje": "economico",
+        "carga": -0.25
+      }
+    ],
+    "polaridad": "positiva",
+    "tags": [
+      "tarifa eléctrica",
+      "electrointensivas",
+      "espolio energético"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Bandera histórica del BNG (marco del espolio energético) frente a PSdeG y PPdeG, que se remiten al mercado eléctrico único; el PP gallego coquetea retóricamente pero no la asume. | Esperado: BNG +2, UPG +2, Sumar/Podemos Galicia +1, PSdeG +0, PPdeG +0, VOX -1."
+  },
+  {
+    "id": "gal-003",
+    "texto": "La gestión del litoral gallego y de sus concesiones (bateas, marisqueo) debe corresponder íntegramente a la Xunta, no al Estado.",
+    "modulo": "territorial-galicia",
+    "ejes": [
+      {
+        "eje": "territorial",
+        "carga": -0.5
+      }
+    ],
+    "polaridad": "positiva",
+    "tags": [
+      "litoral",
+      "bateas",
+      "competencias"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Une al BNG con el autonomismo práctico del PPdeG (ley gallega del litoral) frente al PSdeG y la derecha estatal centralista: separa el galeguismo institucional del alineamiento con Madrid. | Esperado: BNG +2, PPdeG +1, PSdeG -1, VOX -2, UPG +2."
+  },
+  {
+    "id": "gal-004",
+    "texto": "Deberían paralizarse los nuevos parques eólicos en Galicia mientras sus beneficios no reviertan en el propio territorio.",
+    "modulo": "territorial-galicia",
+    "ejes": [
+      {
+        "eje": "territorial",
+        "carga": -0.5
+      }
+    ],
+    "polaridad": "negativa",
+    "tags": [
+      "eólicos",
+      "espolio energético",
+      "medio rural"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: BNG y ecologismo gallego (moratoria, retorno al territorio) frente al desarrollismo eólico del PPdeG; el PSdeG queda entre ambos, separado del bloque soberanista. | Esperado: BNG +2, UPG +2, ecologismo gallego (Adega) +2, Sumar/Podemos Galicia +1, PSdeG -1, PPdeG -2. | [Corregido en revisión: La carga en 'ecologia' +0.25 es direccionalmente ambigua: paralizar renovables la firmaría también un votante productivista anti-eólicos (perfil Vox rural), y un ecologista pro-transición acelerada podría rechazarla; puntuar el acuerdo como 'ecologismo' introduce ruido en ambos sentidos. El motor real del ítem es el retorno territorial de los beneficios ('mientras no reviertan en el propio territorio'), así que se consolida todo en territorial −0.5 y se deja la lectura ecologista en las posicionesEsperadas (Adega +2). El condicional no es doble barril: la moratoria y su condición son una sola política.]"
+  },
+  {
+    "id": "gal-005",
+    "texto": "Deben eliminarse los topes legales que limitan las horas de enseñanza en gallego en las escuelas de Galicia.",
+    "modulo": "territorial-galicia",
+    "ejes": [
+      {
+        "eje": "territorial",
+        "carga": -0.5
+      }
+    ],
+    "polaridad": "negativa",
+    "tags": [
+      "gallego",
+      "escuela",
+      "plurilingüismo"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: BNG (+2, deroga el decreto de plurilingüismo y pide vehicularidad del gallego) frente a PPdeG (−2, autor de los topes de 2010) con PSdeG intermedio (0, crítico con el decreto pero sin asumir la inmersión); equivalente gallego de cat-01, que faltaba en el módulo. | Esperado: BNG +2, UPG +2, Sumar/Podemos Galicia +1, PSdeG +0, PPdeG -2, VOX -2. | Se habla de 'topes legales' como categoría, no del decreto 79/2010 por su nombre, para que sobreviva a reformas; vigente desde hace 15 años, no es coyuntural. | [Añadido por el revisor para cubrir un hueco]"
+  }
+]

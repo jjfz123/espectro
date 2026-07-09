@@ -1,0 +1,110 @@
+[
+  {
+    "id": "cat-001",
+    "texto": "La escuela catalana no debe estar obligada a impartir un porcentaje mínimo de horas en castellano.",
+    "modulo": "territorial-catalunya",
+    "ejes": [
+      {
+        "eje": "territorial",
+        "carga": -0.5
+      }
+    ],
+    "polaridad": "negativa",
+    "tags": [
+      "inmersión lingüística",
+      "escuela",
+      "catalán"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Bloque de la inmersión (ERC, Junts, CUP, Aliança, Comuns) frente a PSC (ambivalente) y PP/Vox/Cs (cuotas de castellano). Dentro del sistema catalán separa al PSC de sus socios soberanistas. | Esperado: ERC +2, Junts +2, CUP +2, Aliança Catalana +2, Comuns +1, PSC -1, PP -2, VOX -2."
+  },
+  {
+    "id": "cat-002",
+    "texto": "Cataluña debe recaudar y gestionar todos sus impuestos mediante una hacienda propia, al estilo del concierto vasco.",
+    "modulo": "territorial-catalunya",
+    "ejes": [
+      {
+        "eje": "territorial",
+        "carga": -0.75
+      }
+    ],
+    "polaridad": "positiva",
+    "tags": [
+      "financiación singular",
+      "hacienda propia",
+      "concierto"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Consenso independentista (ERC lo hizo bandera, Junts y AC lo asumen) frente a la ambigüedad del PSC y los Comuns y el rechazo de PP y Vox. | Esperado: ERC +2, Junts +2, Aliança Catalana +2, CUP +1, PSC +0, Comuns +0, PP -2, VOX -2."
+  },
+  {
+    "id": "cat-003",
+    "texto": "Ante conflictos políticos como el independentista, la amnistía es una salida mejor que la vía penal.",
+    "modulo": "territorial-catalunya",
+    "ejes": [
+      {
+        "eje": "territorial",
+        "carga": -0.5
+      }
+    ],
+    "polaridad": "positiva",
+    "tags": [
+      "amnistía",
+      "resolución de conflictos",
+      "procés"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Soberanismo y Comuns (principio general) frente a PP/Vox (rechazo frontal); el PSC la acepta como excepción, no como principio, lo que lo sitúa en un punto intermedio. | Esperado: ERC +2, Junts +2, CUP +2, Comuns +2, PSC +1, Aliança Catalana +1, PP -2, VOX -2. | Formulado como principio de resolución de conflictos para que no caduque con la ley concreta."
+  },
+  {
+    "id": "cat-004",
+    "texto": "La inmigración de origen musulmán es una amenaza para la identidad y la lengua catalanas.",
+    "modulo": "territorial-catalunya",
+    "ejes": [
+      {
+        "eje": "social",
+        "carga": 1
+      }
+    ],
+    "polaridad": "negativa",
+    "tags": [
+      "islam",
+      "inmigración",
+      "identidad"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Aísla a Aliança Catalana del resto del independentismo (ERC, CUP y oficialmente Junts rechazan el marco identitario-excluyente). Vox coincide en el fondo anti-islam pero no en la clave catalanista. | Esperado: Aliança Catalana +2, VOX +1, Junts -1, ERC -2, CUP -2, PSC -2, PP -1. | Mide la adhesión al marco de AC; redactado sin epítetos para que su votante lo suscriba y el resto lo rechace."
+  },
+  {
+    "id": "cat-005",
+    "texto": "El proyecto nacional catalán debe abarcar el conjunto de los Països Catalans, incluidos el País Valencià y las Illes Balears.",
+    "modulo": "territorial-catalunya",
+    "ejes": [],
+    "polaridad": "positiva",
+    "tags": [
+      "països catalans",
+      "pancatalanismo"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Pancatalanismo (CUP como eje político; ERC en lo cultural) frente al catalanismo restringido al Principat (Junts, Aliança Catalana). Solo-matching: no lineal respecto al eje territorial. | Esperado: CUP +2, ERC +1, Junts +0, Aliança Catalana -1, PSC -2, Comuns +0."
+  },
+  {
+    "id": "cat-006",
+    "texto": "La Generalitat debe asumir la competencia plena en materia de inmigración, incluida la gestión de permisos de residencia y expulsiones.",
+    "modulo": "territorial-catalunya",
+    "ejes": [
+      {
+        "eje": "territorial",
+        "carga": -0.5
+      }
+    ],
+    "polaridad": "positiva",
+    "tags": [
+      "inmigración",
+      "competencias",
+      "delegación 150.2"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Separa a Junts y Aliança Catalana (bandera actual, uso restrictivo de la competencia) de CUP y Comuns (recelan del marco de expulsiones aunque acepten descentralizar); el PSC pactó la delegación con Junts, frente al rechazo frontal de PP y Vox. Corta el soberanismo por un sitio distinto al de cat-04. | Esperado: Junts +2, Aliança Catalana +2, ERC +1, PSC +1, CUP +0, Comuns -1, PP -2, VOX -2. | Formulado como demanda competencial estable, no como la proposición de ley concreta de 2025; 'incluida la gestión de permisos y expulsiones' define el alcance de una sola competencia, no es doble barril. | [Añadido por el revisor para cubrir un hueco]"
+  }
+]

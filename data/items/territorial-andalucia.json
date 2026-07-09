@@ -1,0 +1,80 @@
+[
+  {
+    "id": "and-001",
+    "texto": "Andalucía es una nación, no simplemente una comunidad autónoma como las demás.",
+    "modulo": "territorial-andalucia",
+    "ejes": [
+      {
+        "eje": "territorial",
+        "carga": -0.5
+      }
+    ],
+    "polaridad": "positiva",
+    "tags": [
+      "nacion-andaluza",
+      "derecho-a-decidir"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Separa el andalucismo soberanista (Nación Andaluza, Adelante Andalucía: muy de acuerdo) del andalucismo institucional histórico (PA: nación sí, derecho a decidir tibio) y de PSOE-A/PP-A, que hablan de 'realidad nacional' como máximo o la rechazan. | Esperado: Nación Andaluza +2, Adelante Andalucía +2, Partido Andalucista (histórico) +1, IU Andalucía +0, PSOE-A -1, PP-A -2, Vox -2. | [Corregido en revisión: Doble barril de manual: 'Andalucía es una nación' Y 'debe poder decidir su encaje' son dos proposiciones que el propio campo discrimina reconoce que separan al PA histórico (nación sí, derecho a decidir tibio) — un votante andalucista institucional no puede responder. Además, el derecho a decidir genérico ya está en el núcleo ('referéndum de autodeterminación'), así que la segunda mitad duplica parcialmente el banco. Se conserva la mitad específicamente andaluza (la definición nacional), que discrimina NA/AA (+2) y PA (+2) frente a PSOE-A ('realidad nacional' como máximo, -1/0) y PP-A/Vox (-2). Con el derecho a decidir fuera, la carga territorial -1 es excesiva; se rebaja a -0.5.]"
+  },
+  {
+    "id": "and-002",
+    "texto": "Los grandes partidos estatales funcionan en Andalucía como sucursales que anteponen las órdenes de Madrid a los intereses andaluces.",
+    "modulo": "territorial-andalucia",
+    "ejes": [
+      {
+        "eje": "populismo",
+        "carga": 0.5
+      },
+      {
+        "eje": "territorial",
+        "carga": -0.25
+      }
+    ],
+    "polaridad": "positiva",
+    "tags": [
+      "sucursalismo",
+      "andalucismo"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Mide la adhesión al marco del 'sucursalismo', compartido por todo el andalucismo (NA, AA, PA histórico) frente a PSOE-A y PP-A; separa también a Adelante Andalucía de Podemos/IU Andalucía, que son precisamente federaciones de partidos estatales. | Esperado: Nación Andaluza +2, Adelante Andalucía +2, Partido Andalucista (histórico) +2, Podemos Andalucía -1, PSOE-A -2, PP-A -2."
+  },
+  {
+    "id": "and-003",
+    "texto": "Las grandes fincas improductivas de Andalucía deberían expropiarse para asentar en ellas cooperativas de jornaleros.",
+    "modulo": "territorial-andalucia",
+    "ejes": [
+      {
+        "eje": "economico",
+        "carga": -1
+      }
+    ],
+    "polaridad": "negativa",
+    "tags": [
+      "reforma-agraria",
+      "jornaleros",
+      "latifundio"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Separa el andalucismo jornalero (Nación Andaluza, SAT, tradición CUT: muy de acuerdo) de Adelante Andalucía (favorable pero más moderada), del andalucismo institucional interclasista (PA: en contra) y del PSOE-A, que abandonó la reforma agraria en los 80. | Esperado: Nación Andaluza +2, SAT +2, Adelante Andalucía +1, IU Andalucía +1, Partido Andalucista (histórico) -1, PSOE-A -2, PP-A -2. | Las ocupaciones de fincas del SAT/SOC (Marinaleda, Somonte) definen esta corriente."
+  },
+  {
+    "id": "and-004",
+    "texto": "En los barrios tensionados de las ciudades andaluzas, los ayuntamientos deberían poder cerrar pisos turísticos que ya operan con licencia.",
+    "modulo": "territorial-andalucia",
+    "ejes": [
+      {
+        "eje": "economico",
+        "carga": -0.5
+      }
+    ],
+    "polaridad": "negativa",
+    "tags": [
+      "turismo",
+      "vivienda",
+      "pisos-turisticos"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Turismo frente a vivienda en Sevilla, Málaga o Cádiz: el andalucismo soberanista y la izquierda urbana piden prohibición; PSOE-A regula sin prohibir; PP-A defiende el sector. Distingue AA/NA de todo el resto del arco andaluz. | Esperado: Adelante Andalucía +2, Nación Andaluza +2, Podemos/IU Andalucía +1, PSOE-A +0, Partido Andalucista (histórico) +0, PP-A -2. | [Corregido en revisión: El techo del ítem se ha hundido: los alcaldes del PP en Málaga y Sevilla han congelado o limitado ya las NUEVAS viviendas turísticas en zonas saturadas (Málaga suspendió inscripciones en decenas de barrios en 2024), de modo que 'prohibir nuevos pisos turísticos en ciudades tensionadas' lo puede suscribir medio arco andaluz y la posición esperada PP-A -2 es fácticamente errónea. Para restaurar la discriminación hay que mover la frontera al decrecimiento: cerrar los que YA operan, que sí separa a AA/NA e izquierda urbana (+2) de PSOE-A (-1/0, regula sin revocar) y PP-A (-2, seguridad jurídica del sector). Se elimina de paso la coletilla argumentativa 'aunque se resienta el sector', que introducía un segundo juicio en la misma frase.]"
+  }
+]

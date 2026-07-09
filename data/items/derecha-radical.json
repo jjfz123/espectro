@@ -1,0 +1,399 @@
+[
+  {
+    "id": "dr-001",
+    "texto": "El Estado debería nacionalizar la banca.",
+    "modulo": "derecha-radical",
+    "ejes": [
+      {
+        "eje": "economico",
+        "carga": -1
+      }
+    ],
+    "polaridad": "positiva",
+    "tags": [
+      "economia",
+      "banca",
+      "nacionalsindicalismo"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Separa el nacionalsindicalismo anticapitalista (Falange: nacionalización de la banca, +2) del liberalismo económico de VOX y SALF (−2); DN/E2000 quedan en posiciones intermedias. También conecta con la izquierda estatista, lo que ayuda a situar a la Falange fuera del eje izquierda-derecha clásico. | Esperado: Falange (FE-JONS / La Falange) +2, VOX -2, SALF -2, Democracia Nacional +1, España 2000 +1, Frente Obrero +2, PP -2. | Ítem heredero del punto 14 de la Falange original; distinto del ítem de planificación de corrientes-izquierda porque mide propiedad, no planificación."
+  },
+  {
+    "id": "dr-002",
+    "texto": "La ley debería obligar a las empresas a dar preferencia a los trabajadores españoles en la contratación.",
+    "modulo": "derecha-radical",
+    "ejes": [
+      {
+        "eje": "economico",
+        "carga": -0.5
+      },
+      {
+        "eje": "social",
+        "carga": 0.5
+      }
+    ],
+    "polaridad": "positiva",
+    "tags": [
+      "inmigracion",
+      "empleo",
+      "prioridad-nacional"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Préférence nationale lepenista: DN, E2000 y Falange (+2) aceptan intervenir el mercado laboral por criterio nacional; SALF (−1) y la derecha liberal lo rechazan por liberalismo económico; VOX queda en +1 (retórica sí, obligación legal a empresas dudosa). | Esperado: Democracia Nacional +2, España 2000 +2, Falange (FE-JONS / La Falange) +2, VOX +1, SALF -1, derecha radical liberal (tipo Wilders) +0, PP -2. | Distinto del ítem de proteccionismo comercial de corrientes-derecha: aquí se mide la prioridad nacional en el empleo, no los aranceles."
+  },
+  {
+    "id": "dr-003",
+    "texto": "España debería promover el retorno a sus países de origen también de los inmigrantes en situación regular.",
+    "modulo": "derecha-radical",
+    "ejes": [
+      {
+        "eje": "social",
+        "carga": 1
+      }
+    ],
+    "polaridad": "negativa",
+    "tags": [
+      "inmigracion",
+      "remigracion",
+      "identitarismo"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Mide el grado del discurso antiinmigración: la remigración de residentes legales separa a los identitarios (DN, E2000, Aliança Catalana +2) del control duro clásico de VOX (+1, adopta el término pero con matices) y del populismo de SALF (0, centrado en irregulares y delincuentes). | Esperado: Aliança Catalana +2, Democracia Nacional +2, España 2000 +2, VOX +1, SALF +0, nacional-catolicismo +1, PP -2. | El ítem de núcleo cubre la devolución de irregulares; este mide el escalón siguiente, que es el marcador identitario. | [Corregido en revisión: Dos correcciones. (1) Quitar el paréntesis '(remigración)': es jerga de movimiento que funciona como palabra-bandera — los afines responden a la etiqueta, no a la política descrita, y contamina la medición (efecto de encuadre). (2) Actualizar la hipótesis de VOX: desde 2025 VOX asume abiertamente la 'remigración masiva' de 7-8 millones incluyendo descendientes (rueda de prensa de Rocío de Meer, julio 2025; ver https://es.euronews.com/my-europe/2025/07/08/vox-propone-de-manera-abierta-deportar-de-manera-masiva-a-millones-de-inmigrantes y https://www.publico.es/politica/partidos/vox-apuesta-abiertamente-deportar-ocho-millones-migrantes-hijos.html), aunque Abascal luego matizó las cifras. VOX esperado +2, no +1. El ítem sigue discriminando: VOX/DN/E2000/AC (+2) vs SALF (0) y nacional-catolicismo (+1).]"
+  },
+  {
+    "id": "dr-004",
+    "texto": "La inmigración hispanoamericana debería recibir un trato preferente por su afinidad cultural y lingüística con España.",
+    "modulo": "derecha-radical",
+    "ejes": [],
+    "polaridad": "positiva",
+    "tags": [
+      "inmigracion",
+      "hispanidad",
+      "solo-matching"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Separa el hispanismo cultural (VOX +2, Falange +2, por la Hispanidad) del nativismo etnicista europeo (DN −1) y del nativismo catalán (Aliança Catalana −1). Solo-matching porque también los igualitaristas de izquierda responden en negativo por razones opuestas: la escala es no lineal. | Esperado: VOX +2, Falange (FE-JONS / La Falange) +2, nacional-catolicismo +1, Democracia Nacional -1, Aliança Catalana -1, SALF +0, PSOE -1. | VOX defiende explícitamente la preferencia por inmigración hispanoamericana; la Falange la enmarca en la Hispanidad."
+  },
+  {
+    "id": "dr-005",
+    "texto": "Debería prohibirse la construcción de nuevas mezquitas en España.",
+    "modulo": "derecha-radical",
+    "ejes": [
+      {
+        "eje": "social",
+        "carga": 1
+      }
+    ],
+    "polaridad": "negativa",
+    "tags": [
+      "islam",
+      "inmigracion",
+      "libertad-religiosa"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Marca el grado de islamofobia programática: identitarios, nacional-católicos y Aliança Catalana (+2) frente a la indiferencia liberal de SALF (−1) y el matiz de VOX (+1, propone cerrar mezquitas 'fundamentalistas' pero no la prohibición general). Nótese que la rama pro-LGTB tipo Wilders también apoya la prohibición. | Esperado: Aliança Catalana +2, Democracia Nacional +2, España 2000 +2, nacional-catolicismo +2, derecha radical liberal (tipo Wilders) +2, VOX +1, SALF -1, PP -2."
+  },
+  {
+    "id": "dr-006",
+    "texto": "Limitar la inmigración procedente de países musulmanes está justificado como forma de proteger los derechos del colectivo LGTB.",
+    "modulo": "derecha-radical",
+    "ejes": [],
+    "polaridad": "negativa",
+    "tags": [
+      "islam",
+      "lgtb",
+      "homonacionalismo",
+      "solo-matching"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Detecta el homonacionalismo (Wilders/ala AfD +2, Aliança Catalana +1 con marco feminista): la instrumentalización identitaria de derechos progresistas contra el islam. Los nacional-católicos y la Falange (−1) rechazan el marco LGTB aunque compartan la restricción; la izquierda (−2) rechaza la restricción aunque comparta los derechos. No lineal: solo-matching. | Esperado: derecha radical liberal (tipo Wilders) +2, Aliança Catalana +1, VOX +0, nacional-catolicismo -1, Falange (FE-JONS / La Falange) -1, SALF +0, PSOE -2. | [Corregido en revisión: Doble barril real que daña justo lo que el ítem quiere medir: 'mujeres y colectivo LGTB' son dos justificaciones separables. VOX y Aliança Catalana usan con frecuencia el marco femonacionalista (mujeres) sin el homonacionalista (LGTB); con la doble justificación, VOX o AC podrían responder +2 por la mitad 'mujeres' y el ítem dejaría de detectar homonacionalismo puro tipo Wilders. Reducido a LGTB, el corte es nítido: Wilders +2, AC 0/+1, VOX 0, nacional-católicos y Falange -1. Sigue siendo solo-matching correcto (la izquierda responde -2 por rechazar la restricción).]"
+  },
+  {
+    "id": "dr-007",
+    "texto": "Los contenidos sobre diversidad sexual y de género deberían eliminarse de la enseñanza obligatoria.",
+    "modulo": "derecha-radical",
+    "ejes": [
+      {
+        "eje": "tradicion-moral",
+        "carga": 1
+      },
+      {
+        "eje": "social",
+        "carga": 0.5
+      }
+    ],
+    "polaridad": "negativa",
+    "tags": [
+      "educacion",
+      "genero",
+      "lgtb",
+      "tradicionalismo"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Gradúa la posición ante la 'ideología de género': prohibición (nacional-católicos y VOX +2, con pin parental como precedente) frente a indiferencia liberal (SALF 0) y frente a la rama pro-LGTB de la derecha radical (−1). | Esperado: nacional-catolicismo +2, VOX +2, Falange (FE-JONS / La Falange) +1, Democracia Nacional +1, SALF +0, derecha radical liberal (tipo Wilders) -1, PP -1."
+  },
+  {
+    "id": "dr-008",
+    "texto": "La monarquía parlamentaria debe mantenerse como forma de Estado en España.",
+    "modulo": "derecha-radical",
+    "ejes": [
+      {
+        "eje": "monarquia",
+        "carga": 1
+      }
+    ],
+    "polaridad": "positiva",
+    "tags": [
+      "monarquia",
+      "forma-de-estado"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Distinción clave dentro de la familia: monárquicos (VOX +2, nacional-católicos +2) frente a republicanos de ultraderecha (Falange −2, España 2000 −2), un corte que el eje izquierda-derecha no captura. Aliança Catalana −2 por razones independentistas. | Esperado: VOX +2, nacional-catolicismo +2, PP +2, SALF +0, Democracia Nacional -1, España 2000 -2, Falange (FE-JONS / La Falange) -2, Aliança Catalana -2."
+  },
+  {
+    "id": "dr-009",
+    "texto": "España debería salir de la OTAN.",
+    "modulo": "derecha-radical",
+    "ejes": [
+      {
+        "eje": "atlantismo",
+        "carga": -1
+      }
+    ],
+    "polaridad": "negativa",
+    "tags": [
+      "otan",
+      "defensa",
+      "soberania"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Separa la salida de la OTAN (Falange +2, DN +1) del atlantismo condicionado de VOX (−1: permanecer exigiendo contrapartidas) y de SALF (−1). Coincide con la izquierda antimilitarista (PCE/IU +2), lo que sitúa a la Falange en su cuadrante propio. | Esperado: Falange (FE-JONS / La Falange) +2, Democracia Nacional +1, España 2000 +1, VOX -1, SALF -1, nacional-catolicismo -1, PCE/IU +2."
+  },
+  {
+    "id": "dr-010",
+    "texto": "España debería abandonar el euro y recuperar una moneda nacional propia.",
+    "modulo": "derecha-radical",
+    "ejes": [
+      {
+        "eje": "ue",
+        "carga": 1
+      }
+    ],
+    "polaridad": "negativa",
+    "tags": [
+      "ue",
+      "euro",
+      "soberania"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Gradúa el euroescepticismo: ruptura (Falange +2, salida del euro y de la UE) frente a reforma desde dentro tipo 'Europa de las naciones' (VOX −1, SALF −1). El ítem de núcleo sobre soberanía frente a Bruselas no distingue estos escalones; este sí. | Esperado: Falange (FE-JONS / La Falange) +2, Democracia Nacional +1, España 2000 +1, VOX -1, SALF -1, PP -2."
+  },
+  {
+    "id": "dr-011",
+    "texto": "El Estado español debería declararse oficialmente católico.",
+    "modulo": "derecha-radical",
+    "ejes": [
+      {
+        "eje": "laicismo",
+        "carga": 1
+      }
+    ],
+    "polaridad": "positiva",
+    "tags": [
+      "religion",
+      "confesionalidad",
+      "nacional-catolicismo"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Marcador puro del nacional-catolicismo (+2, Estado confesional) frente a la derecha radical aconfesional: VOX (−1, defiende raíces cristianas pero no confesionalidad), SALF (−1, indiferencia). Más exigente que el ítem de moral cristiana en las leyes ya existente. | Esperado: nacional-catolicismo +2, Falange (FE-JONS / La Falange) +1, VOX -1, Democracia Nacional +0, SALF -1, PP -2."
+  },
+  {
+    "id": "dr-012",
+    "texto": "Deberían eliminarse las subvenciones públicas a los partidos políticos.",
+    "modulo": "derecha-radical",
+    "ejes": [
+      {
+        "eje": "populismo",
+        "carga": 1
+      }
+    ],
+    "polaridad": "negativa",
+    "tags": [
+      "corrupcion",
+      "antipolitica",
+      "casta"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Marcador del populismo antipolítico de SALF (+2: la anticorrupción como programa casi único, por encima de la ideología) frente a los partidos ideológicos clásicos de la familia (VOX +1, Falange 0: para ellos la ideología sí importa) y frente al bipartidismo (−1). | Esperado: SALF +2, VOX +1, Democracia Nacional +1, Falange (FE-JONS / La Falange) +0, PP -1, PSOE -1. | [Corregido en revisión: El texto original sufre efecto techo por deseabilidad social: prácticamente cualquier votante (incluidos los de PP y PSOE) suscribe que acabar con la corrupción es lo más importante — es el clásico ítem consensual que no discrimina (Walgrave et al.). Las posiciones esperadas PP/PSOE -1 son irreales; serían +1. Se sustituye por la política concreta que solo firman los antipolíticos: eliminar la financiación pública de partidos, propuesta insignia de SALF/Alvise (+2), asumible a medias por VOX (+1), y rechazada por los partidos con estructura (PP/PSOE -2, Falange 0). Mantiene populismo +1 y polaridad negativa, y gana durabilidad y falsabilidad.]"
+  },
+  {
+    "id": "dr-013",
+    "texto": "El Parlamento de partidos debería sustituirse por una representación orgánica basada en municipios, familias y ámbitos profesionales.",
+    "modulo": "derecha-radical",
+    "ejes": [
+      {
+        "eje": "social",
+        "carga": 0.75
+      }
+    ],
+    "polaridad": "positiva",
+    "tags": [
+      "democracia-organica",
+      "falangismo",
+      "regimen"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Democracia orgánica: separa a la Falange (+2, rechazo del parlamentarismo liberal de partidos) del resto de la familia, que compite dentro del sistema de partidos (VOX −1, SALF −1 pese a su antipolítica, que es plebiscitaria y no corporativa). | Esperado: Falange (FE-JONS / La Falange) +2, nacional-catolicismo +1, VOX -1, Democracia Nacional +0, SALF -1, PP -2. | La tríada municipio-familia-sindicato/profesión identifica el modelo sin usar vocabulario peyorativo ni nostálgico."
+  },
+  {
+    "id": "dr-014",
+    "texto": "Trabajadores y empresarios de cada sector deberían integrarse en una única organización conjunta que armonice sus intereses bajo la dirección del Estado.",
+    "modulo": "derecha-radical",
+    "ejes": [],
+    "polaridad": "positiva",
+    "tags": [
+      "sindicato-vertical",
+      "corporativismo",
+      "falangismo",
+      "solo-matching"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Sindicato vertical nacionalsindicalista: solo la Falange responde +2. Rechazado por la derecha de mercado (VOX, SALF −2: libertad sindical y empresarial) y por la izquierda sindical (−2: niega el conflicto de clase). No lineal por diseño: solo-matching. | Esperado: Falange (FE-JONS / La Falange) +2, nacional-catolicismo +1, Democracia Nacional +0, VOX -2, SALF -2, PCE/IU -2."
+  },
+  {
+    "id": "dr-015",
+    "texto": "El franquismo dejó también aportaciones positivas que merecen reconocimiento en el debate público.",
+    "modulo": "derecha-radical",
+    "ejes": [
+      {
+        "eje": "social",
+        "carga": 0.5
+      }
+    ],
+    "polaridad": "positiva",
+    "tags": [
+      "memoria-historica",
+      "franquismo"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Análogo derecho del ítem 'balance de la URSS': separa la reivindicación abierta del franquismo (nacional-católicos, DN +2) de la posición de VOX (+1: rechaza las leyes de memoria pero evita la reivindicación explícita) y de SALF (0, sin marco histórico). La Falange en +1: reivindica el 18 de julio pero reprocha a Franco traicionar la revolución nacionalsindicalista. | Esperado: nacional-catolicismo +2, Democracia Nacional +2, España 2000 +1, Falange (FE-JONS / La Falange) +1, VOX +1, SALF +0, PP -1."
+  },
+  {
+    "id": "dr-016",
+    "texto": "Las comunidades con lengua propia deberían poder exigir su conocimiento a los inmigrantes como condición para acceder a ayudas públicas.",
+    "modulo": "derecha-radical",
+    "ejes": [
+      {
+        "eje": "territorial",
+        "carga": -0.5
+      },
+      {
+        "eje": "social",
+        "carga": 0.5
+      }
+    ],
+    "polaridad": "negativa",
+    "tags": [
+      "lengua",
+      "inmigracion",
+      "alianca-catalana",
+      "territorial"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Marcador de Aliança Catalana (+2: catalán como filtro nativista) frente a la ultraderecha españolista, que rechaza los requisitos lingüísticos autonómicos (VOX −2: solo el castellano). Mismo nativismo, marco nacional opuesto: es la distinción que define el caso único de AC. Junts +1 marca su ala dura. | Esperado: Aliança Catalana +2, Junts +1, ERC -1, VOX -2, Democracia Nacional -1, España 2000 -1, PSC/PSOE -1."
+  },
+  {
+    "id": "dr-017",
+    "texto": "España debería alinearse con Israel como aliado clave frente al islamismo.",
+    "modulo": "derecha-radical",
+    "ejes": [],
+    "polaridad": "positiva",
+    "tags": [
+      "israel",
+      "politica-exterior",
+      "islam",
+      "solo-matching"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Corta la familia por la mitad en política exterior: filosemitismo atlantista (VOX +2, homonacionalismo tipo Wilders +2, Aliança Catalana +1) frente a antisionismo identitario y falangista (DN −2, Falange −2). No lineal (la izquierda también responde −2 por razones propalestinas): solo-matching. | Esperado: VOX +2, derecha radical liberal (tipo Wilders) +2, Aliança Catalana +1, SALF +1, Falange (FE-JONS / La Falange) -2, Democracia Nacional -2, nacional-catolicismo +0, Podemos -2."
+  },
+  {
+    "id": "dr-018",
+    "texto": "La legislación específica sobre violencia de género debería sustituirse por una ley general de violencia intrafamiliar que no distinga según el sexo del agresor.",
+    "modulo": "derecha-radical",
+    "ejes": [
+      {
+        "eje": "social",
+        "carga": 0.5
+      },
+      {
+        "eje": "tradicion-moral",
+        "carga": 0.5
+      }
+    ],
+    "polaridad": "negativa",
+    "tags": [
+      "genero",
+      "violencia-de-genero",
+      "antifeminismo"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Marcador programático de VOX (derogación de la LIVG y ley de 'violencia intrafamiliar', +2) y de los nacional-católicos (+2) frente a la rama liberal pro-LGTB tipo Wilders (-1) y frente al PP (-1, que defiende el consenso de la LIVG). SALF +1: retórica antifeminista difusa sin programa. Separa dentro de la familia lo que dr-08 (currículo escolar) no separa: la posición ante la legislación penal de género. | Esperado: VOX +2, nacional-catolicismo +2, Falange (FE-JONS / La Falange) +1, Democracia Nacional +1, SALF +1, derecha radical liberal (tipo Wilders) -1, PP -1, PSOE -2. | Redactado en términos descriptivos de la propuesta real de VOX, sin 'ideología de género' ni otras palabras-bandera. Durable: define a la corriente desde 2019. | [Añadido por el revisor para cubrir un hueco]"
+  },
+  {
+    "id": "dr-019",
+    "texto": "España debería buscar la cooperación con Rusia en lugar de tratarla como una amenaza.",
+    "modulo": "derecha-radical",
+    "ejes": [
+      {
+        "eje": "atlantismo",
+        "carga": -0.5
+      }
+    ],
+    "polaridad": "positiva",
+    "tags": [
+      "rusia",
+      "politica-exterior",
+      "atlantismo"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Separa el prorrusismo identitario (DN +2, Falange +1, E2000 +1) del atlantismo antirruso de VOX (-1, que condenó la invasión de Ucrania y se alinea con el flanco atlantista de los Patriots). Ortogonal a dr-10: se puede querer salir de la OTAN sin ser prorruso y viceversa; juntos, ambos ítems mapean el cuadrante exterior completo de la familia. Ancla externa: PCE/IU +1 documenta la transversalidad del eje. | Esperado: Democracia Nacional +2, Falange (FE-JONS / La Falange) +1, España 2000 +1, derecha radical liberal (tipo Wilders) +1, VOX -1, SALF +0, PP -2, PCE/IU +1. | Formulación estructural (cooperación vs amenaza), no coyuntural sobre Ucrania o sanciones, para sobrevivir varios años. | [Añadido por el revisor para cubrir un hueco]"
+  },
+  {
+    "id": "dr-020",
+    "texto": "Las grandes decisiones políticas deberían someterse a referéndum vinculante en lugar de dejarse en manos de los partidos.",
+    "modulo": "derecha-radical",
+    "ejes": [
+      {
+        "eje": "populismo",
+        "carga": 0.75
+      }
+    ],
+    "polaridad": "positiva",
+    "tags": [
+      "democracia-directa",
+      "antipolitica",
+      "populismo"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Distingue las dos antipolíticas de la familia que dr-13 y dr-14 no separan entre sí: la plebiscitaria de SALF (+2, democracia directa digital) frente a la orgánica de la Falange (-1, que rechaza el plebiscitarismo liberal tanto como los partidos) y frente a VOX (-1, que recela de los referéndums por el precedente territorial catalán). Ancla externa Podemos +1 documenta la no exclusividad derechista del plebiscitarismo. | Esperado: SALF +2, Democracia Nacional +1, VOX -1, Falange (FE-JONS / La Falange) -1, nacional-catolicismo -1, PP -1, Podemos +1. | [Añadido por el revisor para cubrir un hueco]"
+  },
+  {
+    "id": "dr-021",
+    "texto": "Las comunidades autónomas deberían suprimirse y sustituirse por un Estado unitario con una sola administración.",
+    "modulo": "derecha-radical",
+    "ejes": [
+      {
+        "eje": "territorial",
+        "carga": 1
+      }
+    ],
+    "polaridad": "negativa",
+    "tags": [
+      "estado-unitario",
+      "recentralizacion"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: la recentralización radical (VOX, Falange, DN: supresión del Estado autonómico) frente al PP (reordenar competencias sin suprimir) y el resto del arco. Va más allá del ítem del núcleo de devolución de competencias. | Esperado: VOX +2, FE-JONS +2, DN +2, SALF +1, PP -1, PSOE -2, nacionalistas periféricos -2. | [Añadido a partir de un hueco señalado por el revisor]"
+  }
+]

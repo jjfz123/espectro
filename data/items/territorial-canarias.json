@@ -1,8 +1,185 @@
 [
-  { "id": "can-001", "texto": "El Régimen Económico y Fiscal de Canarias (REF) debe blindarse frente a cualquier armonización fiscal estatal o europea.", "modulo": "territorial-canarias", "ejes": [{ "eje": "territorial", "carga": -0.5 }], "polaridad": "positiva", "tags": ["ref", "fiscalidad"], "estado": "piloto" },
-  { "id": "can-002", "texto": "El descuento de residente del 75% en vuelos y barcos debe mantenerse intacto, cueste lo que cueste al Estado.", "modulo": "territorial-canarias", "ejes": [], "polaridad": "positiva", "tags": ["insularidad", "transporte"], "estado": "piloto", "notas": "Solo-matching: discrimina partidos insularistas de estatales." },
-  { "id": "can-003", "texto": "Canarias debe asumir competencias plenas sobre sus costas y sus aguas.", "modulo": "territorial-canarias", "ejes": [{ "eje": "territorial", "carga": -1 }], "polaridad": "positiva", "tags": ["competencias", "costas"], "estado": "piloto" },
-  { "id": "can-004", "texto": "La condición de región ultraperiférica de la UE debe traducirse en más excepciones a la normativa europea para Canarias.", "modulo": "territorial-canarias", "ejes": [{ "eje": "ue", "carga": 0.25 }], "polaridad": "positiva", "tags": ["rup", "ue"], "estado": "piloto" },
-  { "id": "can-005", "texto": "El reparto de menores migrantes llegados a Canarias debe ser obligatorio para todas las comunidades autónomas.", "modulo": "territorial-canarias", "ejes": [], "polaridad": "positiva", "tags": ["migracion", "frontera-sur"], "estado": "piloto", "notas": "Solo-matching: cruza el eje territorial y el social de forma no lineal." },
-  { "id": "can-006", "texto": "Canarias debería avanzar hacia un sistema de financiación propio, similar al concierto vasco.", "modulo": "territorial-canarias", "ejes": [{ "eje": "territorial", "carga": -1 }], "polaridad": "positiva", "tags": ["financiacion"], "estado": "piloto" }
+  {
+    "id": "can-001",
+    "texto": "El Régimen Económico y Fiscal de Canarias (REF) debe blindarse frente a cualquier armonización fiscal estatal o europea.",
+    "modulo": "territorial-canarias",
+    "ejes": [
+      {
+        "eje": "territorial",
+        "carga": -0.5
+      }
+    ],
+    "polaridad": "positiva",
+    "tags": [
+      "ref",
+      "fiscalidad"
+    ],
+    "estado": "piloto"
+  },
+  {
+    "id": "can-002",
+    "texto": "El descuento de residente del 75% en vuelos y barcos debe mantenerse intacto, cueste lo que cueste al Estado.",
+    "modulo": "territorial-canarias",
+    "ejes": [],
+    "polaridad": "positiva",
+    "tags": [
+      "insularidad",
+      "transporte"
+    ],
+    "estado": "piloto",
+    "notas": "Solo-matching: discrimina partidos insularistas de estatales."
+  },
+  {
+    "id": "can-003",
+    "texto": "Canarias debe asumir competencias plenas sobre sus costas y sus aguas.",
+    "modulo": "territorial-canarias",
+    "ejes": [
+      {
+        "eje": "territorial",
+        "carga": -1
+      }
+    ],
+    "polaridad": "positiva",
+    "tags": [
+      "competencias",
+      "costas"
+    ],
+    "estado": "piloto"
+  },
+  {
+    "id": "can-004",
+    "texto": "La condición de región ultraperiférica de la UE debe traducirse en más excepciones a la normativa europea para Canarias.",
+    "modulo": "territorial-canarias",
+    "ejes": [
+      {
+        "eje": "ue",
+        "carga": 0.25
+      }
+    ],
+    "polaridad": "positiva",
+    "tags": [
+      "rup",
+      "ue"
+    ],
+    "estado": "piloto"
+  },
+  {
+    "id": "can-005",
+    "texto": "El reparto de menores migrantes llegados a Canarias debe ser obligatorio para todas las comunidades autónomas.",
+    "modulo": "territorial-canarias",
+    "ejes": [],
+    "polaridad": "positiva",
+    "tags": [
+      "migracion",
+      "frontera-sur"
+    ],
+    "estado": "piloto",
+    "notas": "Solo-matching: cruza el eje territorial y el social de forma no lineal."
+  },
+  {
+    "id": "can-006",
+    "texto": "Canarias debería avanzar hacia un sistema de financiación propio, similar al concierto vasco.",
+    "modulo": "territorial-canarias",
+    "ejes": [
+      {
+        "eje": "territorial",
+        "carga": -1
+      }
+    ],
+    "polaridad": "positiva",
+    "tags": [
+      "financiacion"
+    ],
+    "estado": "piloto"
+  },
+  {
+    "id": "can-007",
+    "texto": "Canarias debe aprobar una moratoria turística que impida construir nuevas camas hoteleras y extrahoteleras en las islas.",
+    "modulo": "territorial-canarias",
+    "ejes": [
+      {
+        "eje": "ecologia",
+        "carga": 0.75
+      }
+    ],
+    "polaridad": "negativa",
+    "tags": [
+      "moratoria-turistica",
+      "modelo-economico",
+      "canarias"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: El gran discriminante intracanario: NC-bc, Drago y Podemos Canarias piden contención del modelo turístico; CC, ASG y PP defienden seguir creciendo. Separa los dos nacionalismos canarios entre sí, no frente al Estado. | Esperado: Nueva Canarias-bc +2, Proyecto Drago +2, Podemos Canarias +2, PSOE Canarias -1, AHI -1, Coalición Canaria -2, ASG -2, PP -2. | Las movilizaciones 'Canarias tiene un límite' (2024) pusieron moratoria y ecotasa en el centro del debate insular."
+  },
+  {
+    "id": "can-008",
+    "texto": "Un partido canario nunca debería pactar con la ultraderecha, ni siquiera a cambio de beneficios para las islas.",
+    "modulo": "territorial-canarias",
+    "ejes": [],
+    "polaridad": "negativa",
+    "tags": [
+      "pactos",
+      "ultraderecha",
+      "canarias"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: CC pragmática (no descarta acuerdos puntuales si benefician a Canarias, apoyó la investidura de Feijóo pese al bloque con Vox) frente a NC-bc, que hace del cordón sanitario un principio. ASG y AHI, pactistas de isla, cerca de CC. Solo-matching: no puntúa ejes. | Esperado: Nueva Canarias-bc +2, Podemos Canarias +2, PSOE Canarias +2, AHI +0, ASG -1, Coalición Canaria -1."
+  },
+  {
+    "id": "can-009",
+    "texto": "Los intereses de cada isla deben estar por encima de cualquier proyecto político para el conjunto de Canarias.",
+    "modulo": "territorial-canarias",
+    "ejes": [],
+    "polaridad": "positiva",
+    "tags": [
+      "insularismo",
+      "pleito-insular",
+      "canarias"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Insularismo de isla (ASG, AHI: la isla primero) frente a nacionalismo archipelágico unitario (NC-bc: Canarias como nación). CC, federación de insularismos con discurso nacional, queda en posición intermedia. Solo-matching: capta el viejo pleito insular. | Esperado: ASG +2, AHI +2, Coalición Canaria +1, PSOE Canarias -1, Podemos Canarias -1, Nueva Canarias-bc -2."
+  },
+  {
+    "id": "can-010",
+    "texto": "Ningún acuerdo de España con Marruecos sobre las aguas próximas a Canarias debería firmarse sin el visto bueno de las instituciones canarias.",
+    "modulo": "territorial-canarias",
+    "ejes": [
+      {
+        "eje": "territorial",
+        "carga": -0.5
+      }
+    ],
+    "polaridad": "negativa",
+    "tags": [
+      "marruecos",
+      "aguas",
+      "africa-occidental",
+      "canarias"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Une a todo el canarismo (CC, NC-bc, ASG, AHI) en la desconfianza hacia la diplomacia Madrid-Rabat (mediana marítima, Monte Tropic, giro sobre el Sáhara) y lo separa de PSOE y PP, que reservan la política exterior al Estado. | Esperado: Coalición Canaria +2, Nueva Canarias-bc +2, ASG +2, AHI +2, Podemos Canarias +1, PSOE Canarias -1, PP -1, Vox -2. | La delimitación de la mediana con Marruecos y el giro español sobre el Sáhara Occidental en 2022 provocaron rechazo transversal en el Parlamento de Canarias."
+  },
+  {
+    "id": "can-011",
+    "texto": "Canarias debería cobrar una tasa turística a los visitantes, destinada a la conservación del territorio.",
+    "modulo": "territorial-canarias",
+    "ejes": [
+      {
+        "eje": "ecologia",
+        "carga": 0.5
+      },
+      {
+        "eje": "economico",
+        "carga": -0.25
+      }
+    ],
+    "polaridad": "positiva",
+    "tags": [
+      "tasa-turistica",
+      "ecotasa",
+      "canarias"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Ángulo fiscal del mismo eje CC-NC que can-101, pero con poder discriminante añadido: separa también al PSOE canario (reticente a la ecotasa, -1) del bloque NC-bc/Drago/Podemos (+2), cosa que la moratoria no hace igual de bien. AHI -1 y ASG -2 completan el mapa insularista pro-desarrollo. | Esperado: Nueva Canarias-bc +2, Proyecto Drago +2, Podemos Canarias +2, PSOE Canarias -1, AHI -1, Coalición Canaria -2, ASG -2, PP -2. | La ecotasa fue exigencia central de las movilizaciones de 2024; CC y PP la rechazaron desde el Gobierno canario, NC y la izquierda la defienden. Baleares la aplica desde 2016, lo que da longevidad al debate. | [Añadido por el revisor para cubrir un hueco]"
+  }
 ]

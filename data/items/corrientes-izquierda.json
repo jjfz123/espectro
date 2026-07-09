@@ -1,10 +1,856 @@
 [
-  { "id": "izq-001", "texto": "La transformación social profunda solo llegará por una ruptura revolucionaria, no por reformas graduales.", "modulo": "corrientes-izquierda", "ejes": [{ "eje": "metodo-cambio", "carga": 1 }], "polaridad": "positiva", "tags": ["revolucion"], "estado": "piloto" },
-  { "id": "izq-002", "texto": "Un partido de vanguardia disciplinado es imprescindible para dirigir cualquier proceso revolucionario.", "modulo": "corrientes-izquierda", "ejes": [{ "eje": "organizacion", "carga": 1 }], "polaridad": "positiva", "tags": ["leninismo", "vanguardia"], "estado": "piloto" },
-  { "id": "izq-003", "texto": "La emancipación debe organizarse desde consejos y asambleas de base, nunca desde un partido dirigente.", "modulo": "corrientes-izquierda", "ejes": [{ "eje": "organizacion", "carga": -1 }], "polaridad": "positiva", "tags": ["consejismo", "anarquismo"], "estado": "piloto" },
-  { "id": "izq-004", "texto": "El balance histórico de la Unión Soviética fue, en conjunto, más positivo que negativo para la clase trabajadora.", "modulo": "corrientes-izquierda", "ejes": [], "polaridad": "positiva", "tags": ["urss", "estalinismo"], "estado": "piloto", "notas": "Ítem solo-matching: separa estalinismo de trotskismo/luxemburguismo sin cargar ejes." },
-  { "id": "izq-005", "texto": "La planificación pública debe sustituir al mercado en los sectores estratégicos de la economía.", "modulo": "corrientes-izquierda", "ejes": [{ "eje": "economico", "carga": -1 }], "polaridad": "positiva", "tags": ["planificacion"], "estado": "piloto" },
-  { "id": "izq-006", "texto": "Es legítimo construir el socialismo primero en el propio país antes que subordinarlo a una estrategia internacional.", "modulo": "corrientes-izquierda", "ejes": [], "polaridad": "positiva", "tags": ["socialismo-en-un-pais", "internacionalismo"], "estado": "piloto", "notas": "Solo-matching: socialismo en un país vs. internacionalismo." },
-  { "id": "izq-007", "texto": "El Estado, incluso uno obrero, es una estructura que hay que abolir, no conquistar.", "modulo": "corrientes-izquierda", "ejes": [{ "eje": "organizacion", "carga": -0.5 }], "polaridad": "positiva", "tags": ["anarcocomunismo"], "estado": "piloto" },
-  { "id": "izq-008", "texto": "La huelga de masas y la acción directa transforman más la sociedad que el trabajo parlamentario.", "modulo": "corrientes-izquierda", "ejes": [{ "eje": "metodo-cambio", "carga": 1 }], "polaridad": "positiva", "tags": ["luxemburguismo", "sindicalismo"], "estado": "piloto" }
+  {
+    "id": "izq-001",
+    "texto": "La transformación social profunda solo llegará por una ruptura revolucionaria, no por reformas graduales.",
+    "modulo": "corrientes-izquierda",
+    "ejes": [
+      {
+        "eje": "metodo-cambio",
+        "carga": 1
+      }
+    ],
+    "polaridad": "positiva",
+    "tags": [
+      "revolucion"
+    ],
+    "estado": "piloto"
+  },
+  {
+    "id": "izq-002",
+    "texto": "Un partido de vanguardia disciplinado es imprescindible para dirigir cualquier proceso revolucionario.",
+    "modulo": "corrientes-izquierda",
+    "ejes": [
+      {
+        "eje": "organizacion",
+        "carga": 1
+      }
+    ],
+    "polaridad": "positiva",
+    "tags": [
+      "leninismo",
+      "vanguardia"
+    ],
+    "estado": "piloto"
+  },
+  {
+    "id": "izq-003",
+    "texto": "La emancipación debe organizarse desde consejos y asambleas de base, nunca desde un partido dirigente.",
+    "modulo": "corrientes-izquierda",
+    "ejes": [
+      {
+        "eje": "organizacion",
+        "carga": -1
+      }
+    ],
+    "polaridad": "positiva",
+    "tags": [
+      "consejismo",
+      "anarquismo"
+    ],
+    "estado": "piloto"
+  },
+  {
+    "id": "izq-004",
+    "texto": "El balance histórico de la Unión Soviética fue, en conjunto, más positivo que negativo para la clase trabajadora.",
+    "modulo": "corrientes-izquierda",
+    "ejes": [],
+    "polaridad": "positiva",
+    "tags": [
+      "urss",
+      "estalinismo"
+    ],
+    "estado": "piloto",
+    "notas": "Ítem solo-matching: separa estalinismo de trotskismo/luxemburguismo sin cargar ejes."
+  },
+  {
+    "id": "izq-005",
+    "texto": "La planificación pública debe sustituir al mercado en los sectores estratégicos de la economía.",
+    "modulo": "corrientes-izquierda",
+    "ejes": [
+      {
+        "eje": "economico",
+        "carga": -1
+      }
+    ],
+    "polaridad": "positiva",
+    "tags": [
+      "planificacion"
+    ],
+    "estado": "piloto"
+  },
+  {
+    "id": "izq-006",
+    "texto": "Es legítimo construir el socialismo primero en el propio país antes que subordinarlo a una estrategia internacional.",
+    "modulo": "corrientes-izquierda",
+    "ejes": [],
+    "polaridad": "positiva",
+    "tags": [
+      "socialismo-en-un-pais",
+      "internacionalismo"
+    ],
+    "estado": "piloto",
+    "notas": "Solo-matching: socialismo en un país vs. internacionalismo."
+  },
+  {
+    "id": "izq-007",
+    "texto": "El Estado, incluso uno obrero, es una estructura que hay que abolir, no conquistar.",
+    "modulo": "corrientes-izquierda",
+    "ejes": [
+      {
+        "eje": "organizacion",
+        "carga": -0.5
+      }
+    ],
+    "polaridad": "positiva",
+    "tags": [
+      "anarcocomunismo"
+    ],
+    "estado": "piloto"
+  },
+  {
+    "id": "izq-008",
+    "texto": "La huelga de masas y la acción directa transforman más la sociedad que el trabajo parlamentario.",
+    "modulo": "corrientes-izquierda",
+    "ejes": [
+      {
+        "eje": "metodo-cambio",
+        "carga": 1
+      }
+    ],
+    "polaridad": "positiva",
+    "tags": [
+      "luxemburguismo",
+      "sindicalismo"
+    ],
+    "estado": "piloto"
+  },
+  {
+    "id": "izq-009",
+    "texto": "Los comunistas deben concurrir a las elecciones dentro de coaliciones amplias con otras fuerzas progresistas, como Izquierda Unida.",
+    "modulo": "corrientes-izquierda",
+    "ejes": [
+      {
+        "eje": "metodo-cambio",
+        "carga": -0.5
+      }
+    ],
+    "polaridad": "positiva",
+    "tags": [
+      "estrategia",
+      "frente-amplio",
+      "elecciones"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Separa PCE/IU (frente amplio) de PCTE, PCOE y Frente Obrero (pureza de clase, candidaturas propias); el trotskismo queda intermedio (apoyo crítico puntual sin integración estable). | Esperado: PCE/IU +2, eurocomunismo +2, Izquierda Revolucionaria +0, PCTE -2, Frente Obrero -2, PCOE -2. | El PCE concurre dentro de IU y del espacio Sumar; el PCTE presenta siempre candidaturas propias y rechaza el frente amplio como 'colaboración de clases'. | [Corregido en revisión: Ítem sólido y buen discriminador, pero 'al estilo de IU o Sumar' viola la regla de durabilidad: Sumar es una marca de 2023 que puede no existir en dos años. IU (fundada en 1986) basta como ancla. Las posicionesEsperadas son correctas (PCTE denuncia el frente amplio como colaboración de clases; el PCE concurre en IU). Carga metodo-cambio -0.5 coherente.]"
+  },
+  {
+    "id": "izq-010",
+    "texto": "Un partido comunista puede formar parte de un gobierno de coalición con la socialdemocracia sin renunciar a sus principios.",
+    "modulo": "corrientes-izquierda",
+    "ejes": [
+      {
+        "eje": "metodo-cambio",
+        "carga": -0.75
+      }
+    ],
+    "polaridad": "positiva",
+    "tags": [
+      "estrategia",
+      "gobierno",
+      "socialdemocracia"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Aísla al PCE (ministras comunistas en gobiernos de coalición) frente a TODAS las demás corrientes: PCTE, Frente Obrero y trotskismo coinciden en rechazar la gestión compartida con la socialdemocracia, aunque por razones distintas. | Esperado: PCE/IU +2, eurocomunismo +2, trotskismo (IR, Corriente Roja) -2, PCTE -2, Frente Obrero -2, luxemburguismo -1. | El PCE tuvo ministras en el gobierno de coalición 2020-2023; para el trotskismo participar en un gobierno del Estado burgués es 'ministerialismo'."
+  },
+  {
+    "id": "izq-011",
+    "texto": "España debe salir de la Unión Europea para poder romper con su marco económico.",
+    "modulo": "corrientes-izquierda",
+    "ejes": [
+      {
+        "eje": "ue",
+        "carga": 1
+      }
+    ],
+    "polaridad": "negativa",
+    "tags": [
+      "ue",
+      "soberania",
+      "estrategia"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Separa PCTE, Frente Obrero y hoxhaísmo (salida como precondición del socialismo) de PCE/IU (disputar y desobedecer los tratados desde dentro); el trotskismo apoya la ruptura pero por unos Estados Unidos Socialistas de Europa. | Esperado: PCTE +2, Frente Obrero +2, PCE(m-l)/hoxhaísmo +2, Izquierda Revolucionaria +1, PCE +0, IU/Sumar -1. | El PCE es muy crítico con los tratados pero su práctica dentro de IU/Sumar es de eurocrítica sin campaña de salida."
+  },
+  {
+    "id": "izq-012",
+    "texto": "La salida de la OTAN debe ser condición innegociable para apoyar o participar en cualquier gobierno.",
+    "modulo": "corrientes-izquierda",
+    "ejes": [
+      {
+        "eje": "atlantismo",
+        "carga": -1
+      }
+    ],
+    "polaridad": "negativa",
+    "tags": [
+      "otan",
+      "gobierno",
+      "antimilitarismo"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Todas las corrientes quieren salir de la OTAN, pero solo PCTE, Frente Obrero y trotskismo la elevan a condición innegociable; el PCE la subordinó de hecho a la participación en gobiernos de coalición. | Esperado: PCTE +2, Frente Obrero +2, trotskismo (IR) +2, PCOE +2, PCE -1, IU/Sumar -1. | Mide la jerarquía práctica de la reivindicación, no la reivindicación misma: el PCE mantiene 'OTAN no' en el programa pero gobernó sin exigirla."
+  },
+  {
+    "id": "izq-013",
+    "texto": "España debe limitar la entrada de trabajadores extranjeros para evitar que los salarios se presionen a la baja.",
+    "modulo": "corrientes-izquierda",
+    "ejes": [
+      {
+        "eje": "internacionalismo",
+        "carga": 0.5
+      },
+      {
+        "eje": "social",
+        "carga": 0.5
+      }
+    ],
+    "polaridad": "negativa",
+    "tags": [
+      "inmigracion",
+      "salarios",
+      "rojipardismo"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Marcador central del socialpatriotismo: Frente Obrero a favor de limitar; PCE y trotskismo defienden regularización e internacionalismo migratorio; el PCTE denuncia el uso patronal de la migración pero rechaza restringirla (por eso -1 y no -2). | Esperado: Frente Obrero +2, PCTE -1, PCE/IU -2, Izquierda Revolucionaria -2, PCE(m-l)/hoxhaísmo -2. | [Corregido en revisión: Doble barril clásico premisa+prescripción (Kamoen & Holleman): un militante del PCTE suscribe la premisa del ejército de reserva pero rechaza la prescripción, y no sabe qué contestar. Reformulo como directiva única con cláusula de propósito, que conserva el marco rojipardo sin obligar a evaluar dos proposiciones. Posiciones y ejes (internacionalismo +0.5, social +0.5) correctos.]"
+  },
+  {
+    "id": "izq-014",
+    "texto": "Las agendas feminista y LGTB actuales desvían a la clase trabajadora de la lucha económica.",
+    "modulo": "corrientes-izquierda",
+    "ejes": [
+      {
+        "eje": "tradicion-moral",
+        "carga": 0.5
+      },
+      {
+        "eje": "social",
+        "carga": 0.5
+      }
+    ],
+    "polaridad": "negativa",
+    "tags": [
+      "feminismo",
+      "lgtb",
+      "identidad"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Frente Obrero (rechazo frontal de la 'izquierda posmoderna') y PCTE (crítica a la 'política identitaria' desde el feminismo de clase, +1) frente a PCE e Izquierda Revolucionaria, que integran feminismo y derechos LGTB en el proyecto. | Esperado: Frente Obrero +2, PCTE +1, PCOE +1, PCE/IU -2, Izquierda Revolucionaria -2, luxemburguismo -2."
+  },
+  {
+    "id": "izq-015",
+    "texto": "La ley debe permitir cambiar el sexo registral por libre decisión de la persona, sin requisitos médicos.",
+    "modulo": "corrientes-izquierda",
+    "ejes": [
+      {
+        "eje": "tradicion-moral",
+        "carga": -0.75
+      }
+    ],
+    "polaridad": "positiva",
+    "tags": [
+      "trans",
+      "lgtb",
+      "derechos"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Más fino que el ítem LGTB del núcleo: separa PCE (apoyó la autodeterminación de género, con debate interno) y trotskismo (+2) del PCTE (crítico con la teoría queer, -1) y de Frente Obrero (rechazo, -2). | Esperado: trotskismo (IR, Corriente Roja) +2, PCE/IU +1, luxemburguismo +1, PCTE -1, PCOE -1, Frente Obrero -2."
+  },
+  {
+    "id": "izq-016",
+    "texto": "La banca y los grandes grupos empresariales deben ser expropiados sin indemnización a sus propietarios.",
+    "modulo": "corrientes-izquierda",
+    "ejes": [
+      {
+        "eje": "economico",
+        "carga": -1
+      },
+      {
+        "eje": "metodo-cambio",
+        "carga": 0.5
+      }
+    ],
+    "polaridad": "negativa",
+    "tags": [
+      "expropiacion",
+      "banca",
+      "propiedad"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Expropiación integral (PCTE, trotskismo, Frente Obrero, hoxhaísmo) frente a economía mixta con banca pública y nacionalizaciones negociadas (PCE/IU). El 'sin indemnización' es lo que separa; la nacionalización genérica ya está en el banco. | Esperado: PCTE +2, trotskismo (IR) +2, Frente Obrero +2, PCE(m-l)/hoxhaísmo +2, PCE +0, IU/Sumar -1."
+  },
+  {
+    "id": "izq-017",
+    "texto": "En la transición al socialismo puede mantenerse durante décadas un amplio sector privado subordinado a la planificación pública.",
+    "modulo": "corrientes-izquierda",
+    "ejes": [
+      {
+        "eje": "economico",
+        "carga": 0.25
+      },
+      {
+        "eje": "metodo-cambio",
+        "carga": -0.5
+      }
+    ],
+    "polaridad": "positiva",
+    "tags": [
+      "economia-mixta",
+      "transicion",
+      "planificacion"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Economía mixta bajo hegemonía pública (PCE, eurocomunismo; también el maoísmo con la 'nueva democracia') frente a la socialización sin etapas intermedias de PCTE y hoxhaísmo. | Esperado: PCE/IU +2, eurocomunismo +2, maoísmo +1, trotskismo -1, PCTE -2, PCE(m-l)/hoxhaísmo -2."
+  },
+  {
+    "id": "izq-018",
+    "texto": "Dentro de un partido comunista deben poder existir corrientes organizadas que defiendan públicamente posiciones propias.",
+    "modulo": "corrientes-izquierda",
+    "ejes": [
+      {
+        "eje": "organizacion",
+        "carga": -0.5
+      }
+    ],
+    "polaridad": "positiva",
+    "tags": [
+      "centralismo-democratico",
+      "democracia-interna",
+      "organizacion"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Grado de autoritarismo interno: luxemburguismo y sectores eurocomunistas admiten corrientes públicas; PCTE, PCOE y Frente Obrero aplican centralismo democrático estricto; el trotskismo admite tendencias internas pero exige unidad pública (0). | Esperado: luxemburguismo +2, PCE +1, trotskismo (IR) +0, PCTE -2, Frente Obrero -2, PCOE -2. | [Corregido en revisión: El constructo (autoritarismo interno) solo se alinea débilmente con el eje horizontalismo-vanguardismo: el propio borrador lo demuestra con el trotskismo, partidos de vanguardia que admiten tendencias internas. Con carga -0.75 un luxemburguista puro y un trotskista quedarían mal mapeados. Rebajo a -0.5. Además, PCE +1 es generoso: sus estatutos mantienen formalmente el centralismo democrático y prohíben fracciones organizadas, aunque tolere sensibilidades de facto; mejor hipótesis 0/+1.]"
+  },
+  {
+    "id": "izq-019",
+    "texto": "Los comunistas deben usar el parlamento solo como tribuna de denuncia, nunca para gestionar las instituciones.",
+    "modulo": "corrientes-izquierda",
+    "ejes": [
+      {
+        "eje": "metodo-cambio",
+        "carga": 0.5
+      }
+    ],
+    "polaridad": "negativa",
+    "tags": [
+      "parlamentarismo",
+      "tactica",
+      "instituciones"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Parlamentarismo como táctica de agitación (PCTE, Frente Obrero, hoxhaísmo; trotskismo cercano) frente al PCE/IU, que asume la gestión institucional y gubernamental como vía de transformación. | Esperado: PCTE +2, Frente Obrero +2, PCE(m-l)/hoxhaísmo +2, trotskismo (IR) +1, PCE -2, IU -2. | Complementa (no duplica) el ítem existente de huelga de masas vs parlamentarismo: aquí todos aceptan presentarse, la disputa es tribuna vs gestión."
+  },
+  {
+    "id": "izq-020",
+    "texto": "El balance de la etapa de Stalin al frente de la URSS es, en conjunto, positivo para el socialismo.",
+    "modulo": "corrientes-izquierda",
+    "ejes": [],
+    "polaridad": "positiva",
+    "tags": [
+      "urss",
+      "stalin",
+      "memoria-historica",
+      "solo-matching"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Solo-matching. Estalinismo, hoxhaísmo y Frente Obrero (+2) frente a trotskismo y luxemburguismo (-2); el PCE eurocomunista es crítico (-1) y el maoísmo matiza ('aciertos y errores', +1). Más fino que el ítem genérico de balance de la URSS. | Esperado: PCTE +2, PCOE +2, Frente Obrero +2, PCE(m-l)/hoxhaísmo +2, maoísmo +1, PCE -1, trotskismo (IR, Corriente Roja) -2, luxemburguismo -2."
+  },
+  {
+    "id": "izq-021",
+    "texto": "Trotski representó una oposición revolucionaria legítima frente a la burocratización de la URSS.",
+    "modulo": "corrientes-izquierda",
+    "ejes": [],
+    "polaridad": "positiva",
+    "tags": [
+      "trotski",
+      "urss",
+      "solo-matching"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Solo-matching. Marcador nítido del trotskismo (+2, con simpatía luxemburguista +1) frente a todo el campo marxista-leninista (PCTE, hoxhaísmo, maoísmo, Frente Obrero: -2); el PCE queda neutro. | Esperado: trotskismo (IR, Corriente Roja) +2, luxemburguismo +1, PCE +0, PCTE -2, maoísmo -2, PCE(m-l)/hoxhaísmo -2, Frente Obrero -2."
+  },
+  {
+    "id": "izq-022",
+    "texto": "La Revolución Cultural china fue un intento valioso de impedir la restauración del capitalismo.",
+    "modulo": "corrientes-izquierda",
+    "ejes": [],
+    "polaridad": "positiva",
+    "tags": [
+      "mao",
+      "china",
+      "solo-matching"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Solo-matching. Marcador del maoísmo (+2) frente al hoxhaísmo (que rompió con China, -2), al eurocomunismo (-2) y a los prosoviéticos (PCTE -1); el trotskismo la lee como pugna burocrática (-1). | Esperado: maoísmo +2, PCTE -1, trotskismo -1, Frente Obrero -1, PCE -2, PCE(m-l)/hoxhaísmo -2."
+  },
+  {
+    "id": "izq-023",
+    "texto": "Conquistar una república democrática ya sería un avance valioso, aunque todavía no fuera socialista.",
+    "modulo": "corrientes-izquierda",
+    "ejes": [
+      {
+        "eje": "monarquia",
+        "carga": -0.5
+      },
+      {
+        "eje": "metodo-cambio",
+        "carga": -0.5
+      }
+    ],
+    "polaridad": "positiva",
+    "tags": [
+      "republica",
+      "etapas",
+      "monarquia"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Etapismo republicano: PCE (III República como etapa de ruptura democrática) y PCE(m-l) (frente republicano popular) frente al PCTE ('república socialista o nada', sin etapas intermedias) y al trotskismo (revolución permanente, -1). | Esperado: PCE/IU +2, PCE(m-l)/hoxhaísmo +2, eurocomunismo +2, trotskismo (IR) -1, Frente Obrero -1, PCTE -2. | Alianza de respuesta poco intuitiva (PCE + hoxhaístas frente a PCTE + trotskistas) que rompe el continuo moderado-radical: buen ítem de matching."
+  },
+  {
+    "id": "izq-024",
+    "texto": "Los comunistas deben militar en los grandes sindicatos existentes, como CCOO y UGT, en lugar de construir sindicatos alternativos.",
+    "modulo": "corrientes-izquierda",
+    "ejes": [],
+    "polaridad": "positiva",
+    "tags": [
+      "sindicatos",
+      "ccoo",
+      "orientacion-masas"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Orientación a las masas vs pureza: PCE (CCOO) e Izquierda Revolucionaria (trabajo en los sindicatos mayoritarios) frente a Frente Obrero (denuncia a CCOO/UGT como burocracia pactista, -2); PCTE y Corriente Roja, ambivalentes con el 'sindicalismo de clase'. | Esperado: PCE +2, Izquierda Revolucionaria +2, PCTE +0, Corriente Roja +0, PCOE -1, Frente Obrero -2. | [Corregido en revisión: El constructo (orientación a masas vs. pureza sindical) es ortogonal al eje organizacion: el PCE, partido clásico de cuadros en CCOO, puntuaría hacia el polo 'horizontalista' y Frente Obrero, igual de vanguardista, hacia el contrario; la carga -0.5 contaminaría el mapa. Debe ser solo-matching (ejes vacíos). La construcción 'en lugar de' es una elección forzada, tolerable porque el tradeoff ES el constructo, aunque penaliza al militante que hace ambas cosas (PCTE en 0 lo recoge). CCOO y UGT son referencias durables. Posiciones verosímiles: FO denuncia a CCOO/UGT como sindicatos del régimen; IR practica el trabajo en sindicatos mayoritarios.]"
+  },
+  {
+    "id": "izq-025",
+    "texto": "La izquierda debe reivindicar la bandera y los símbolos de España como patrimonio también de la clase trabajadora.",
+    "modulo": "corrientes-izquierda",
+    "ejes": [
+      {
+        "eje": "internacionalismo",
+        "carga": 0.5
+      },
+      {
+        "eje": "territorial",
+        "carga": 0.25
+      }
+    ],
+    "polaridad": "positiva",
+    "tags": [
+      "simbolos",
+      "socialpatriotismo",
+      "nacion"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Marcador del socialpatriotismo de Frente Obrero ('no regalar la bandera a la derecha') frente al internacionalismo y la simbología republicana/plurinacional del PCE (-1) y del trotskismo (-2); el PCTE queda neutro (símbolos de clase, ni rojigualda ni periféricos). | Esperado: Frente Obrero +2, PCTE +0, PCE/IU -1, PCE(m-l)/hoxhaísmo -1, trotskismo (IR) -2, luxemburguismo -2. | [Corregido en revisión: Buen marcador del socialpatriotismo, y el -1 de los hoxhaístas es verificable (el PCE(m-l) ha denunciado por escrito la 'deriva nacionalchovinista' del PML(RC)). Pero la carga territorial +0.5 es excesiva: reivindicar la rojigualda como símbolo de clase no implica per se recentralizar competencias; la rebajo a +0.25 para no arrastrar a FO más al centralismo del que su programa justifica por esta vía (ya puntúa por otros ítems). Internacionalismo +0.5 correcto.]"
+  },
+  {
+    "id": "izq-026",
+    "texto": "Los procesos independentistas, como el catalán, son conflictos entre élites en los que la clase trabajadora no debe tomar partido.",
+    "modulo": "corrientes-izquierda",
+    "ejes": [
+      {
+        "eje": "territorial",
+        "carga": 0.5
+      }
+    ],
+    "polaridad": "negativa",
+    "tags": [
+      "autodeterminacion",
+      "cataluna",
+      "nacionalismos"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Lectura del independentismo: PCTE y Frente Obrero (pugna interburguesa que divide a la clase, +2) frente al trotskismo (apoyo activo al derecho a decidir como rebelión democrática, -2); el PCE, plurinacional pero federalista, en medio (-1). No duplica el ítem de referéndum del núcleo: aquí se mide el encuadre de clase. | Esperado: PCTE +2, Frente Obrero +2, PCOE +2, PCE/IU -1, Izquierda Revolucionaria -2, Corriente Roja -2."
+  },
+  {
+    "id": "izq-027",
+    "texto": "Las propuestas de decrecimiento económico van contra los intereses de la clase trabajadora.",
+    "modulo": "corrientes-izquierda",
+    "ejes": [
+      {
+        "eje": "ecologia",
+        "carga": -0.75
+      }
+    ],
+    "polaridad": "negativa",
+    "tags": [
+      "decrecimiento",
+      "productivismo",
+      "ecologia"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Productivismo obrerista (Frente Obrero +2; PCTE crítico del 'capitalismo verde' pero también del decrecimiento, +1) frente al ecosocialismo del PCE/IU (-1) y de sectores trotskistas (-1). | Esperado: Frente Obrero +2, PCTE +1, maoísmo +1, PCE/IU -1, trotskismo (IR) -1, luxemburguismo -1."
+  },
+  {
+    "id": "izq-028",
+    "texto": "La China actual ya no puede considerarse un país socialista.",
+    "modulo": "corrientes-izquierda",
+    "ejes": [],
+    "polaridad": "negativa",
+    "tags": [
+      "china",
+      "geopolitica",
+      "solo-matching"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Corta en diagonal el campo ML, complementando izq-112: PCTE (línea KKE: relaciones capitalistas de producción, +2), trotskismo (+2), maoísmo (restauración post-78, +2) y hoxhaísmo (+2) frente a PCOE, Frente Obrero y sectores del PCE que aceptan el 'socialismo con características chinas'. Verificado: resoluciones del CC del PCTE sostienen que China y EEUU 'se desarrollan bajo relaciones capitalistas de producción'. | Esperado: PCTE +2, trotskismo (IR, Corriente Roja) +2, maoísmo +2, PCE(m-l)/hoxhaísmo +2, PCE/IU -1, PCOE -1, Frente Obrero -1. | Fuente PCTE: resolución del CC sobre el Movimiento Comunista Internacional (pcte.es). Posiciones de PCOE y FO son hipótesis a calibrar. | [Añadido por el revisor para cubrir un hueco]"
+  },
+  {
+    "id": "izq-029",
+    "texto": "En un conflicto entre la OTAN y potencias como Rusia, los comunistas deben apoyar al bando enfrentado a Estados Unidos.",
+    "modulo": "corrientes-izquierda",
+    "ejes": [],
+    "polaridad": "positiva",
+    "tags": [
+      "campismo",
+      "imperialismo",
+      "geopolitica",
+      "solo-matching"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Divide el antiimperialismo en dos familias que izq-104 no distingue: campismo (PCOE, Frente Obrero, sectores de PCE/IU: +1/+2) frente a la tesis del conflicto interimperialista (PCTE por línea KKE, trotskismo, luxemburguismo: -2). Cruza en diagonal la división estalinismo/trotskismo de izq-112: PCTE y trotskistas coinciden aquí pese a odiarse allí. | Esperado: PCOE +2, Frente Obrero +1, PCE/IU +1, maoísmo +1, PCTE -2, trotskismo (IR) -2, luxemburguismo -2. | Redactado en abstracto ('potencias como Rusia') para sobrevivir al fin de la guerra de Ucrania. Solo-matching: el campismo no mapea linealmente en atlantismo (el PCTE es anti-OTAN y anti-campista a la vez). | [Añadido por el revisor para cubrir un hueco]"
+  },
+  {
+    "id": "izq-030",
+    "texto": "La decisión del PCE de aceptar el marco de la Constitución de 1978 fue un acierto histórico.",
+    "modulo": "corrientes-izquierda",
+    "ejes": [
+      {
+        "eje": "metodo-cambio",
+        "carga": -0.5
+      }
+    ],
+    "polaridad": "positiva",
+    "tags": [
+      "transicion",
+      "constitucion-78",
+      "memoria",
+      "pce"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: El marcador fundacional de todas las escisiones: aísla al PCE/eurocomunismo (defensa crítica de su papel en la Transición, +1/+2) de PCTE, PCOE, hoxhaísmo (que llamó al boicot constitucional), trotskismo y Frente Obrero, que leen 1978 como capitulación (-2). Referencia histórica, no coyuntural: durable indefinidamente. | Esperado: eurocomunismo +2, PCE/IU +1, PCTE -2, PCOE -2, PCE(m-l)/hoxhaísmo -2, trotskismo (IR) -2, Frente Obrero -2. | PCE en +1 y no +2: el PCE actual habla de 'superar el régimen del 78' pero reivindica su papel histórico; el ítem pregunta por la decisión de entonces, no por el presente. | [Añadido por el revisor para cubrir un hueco]"
+  },
+  {
+    "id": "izq-031",
+    "texto": "Los comunistas deben boicotear las elecciones en lugar de presentar candidaturas.",
+    "modulo": "corrientes-izquierda",
+    "ejes": [
+      {
+        "eje": "metodo-cambio",
+        "carga": 0.25
+      }
+    ],
+    "polaridad": "negativa",
+    "tags": [
+      "abstencionismo",
+      "boicot",
+      "elecciones",
+      "tactica"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Ítem-suelo que cubre el polo abstencionista exigido por el contexto y que izq-111 presupone vacío: la tradición del boicot activo (Reconstrucción Comunista lo defendió hasta 2019; sectores maoístas de la 'reconstitución') frente a TODOS los partidos que concurren (PCTE, PCE, FO, trotskismo, PCE(m-l): -2). Quien puntúe alto no encaja en ningún partido electoral, señal valiosa para el matching. | Esperado: maoísmo (línea reconstitución) +2, PCOE -1, PCTE -2, PCE/IU -2, Frente Obrero -2, trotskismo (IR) -2. | Verificado: RC/PML(RC) defendió el boicot electoral desde 2012 (reconstitucion.net, documento 'Ante el ciclo electoral de 2019') antes del giro que llevó a FO a concurrir. Carga metodo-cambio baja (+0.25) porque el boicot es marcador de nicho, no del continuo principal. | [Añadido por el revisor para cubrir un hueco]"
+  },
+  {
+    "id": "izq-032",
+    "texto": "La superación del capitalismo debe basarse en cooperativas gestionadas por sus propios trabajadores, más que en empresas nacionalizadas dirigidas por el Estado.",
+    "modulo": "corrientes-izquierda",
+    "ejes": [
+      {
+        "eje": "organizacion",
+        "carga": -1
+      }
+    ],
+    "polaridad": "positiva",
+    "tags": [
+      "autogestion",
+      "cooperativas",
+      "anarquismo",
+      "nacionalizacion"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Separa la tradición autogestionaria (CNT, CGT, municipalismo libertario: muy de acuerdo) del marxismo-leninismo (PCTE, PCE/IU: prefieren nacionalización estatal). Dentro de la izquierda es el clásico eje autogestión vs. estatismo. | Esperado: anarcosindicalismo (CNT/CGT) +2, anarcocomunismo +2, municipalismo libertario +2, CUP +1, PCE/IU -1, PCTE -2, PSOE +0. | No opone cooperativas a mercado sino a nacionalización: ambas opciones son de izquierda, lo que evita que el ítem se lea como antiizquierda."
+  },
+  {
+    "id": "izq-033",
+    "texto": "Los sindicatos deberían renunciar a las subvenciones públicas y financiarse únicamente con las cuotas de sus afiliados.",
+    "modulo": "corrientes-izquierda",
+    "ejes": [],
+    "polaridad": "negativa",
+    "tags": [
+      "anarcosindicalismo",
+      "sindicatos",
+      "autofinanciacion"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Separa el anarcosindicalismo (CNT y CGT hacen de la autofinanciación un principio identitario: muy de acuerdo) del sindicalismo institucional (CCOO, UGT) y de la izquierda que lo respalda (PSOE, PCE/IU: en desacuerdo). | Esperado: CNT +2, CGT +2, CUP +1, CCOO -2, UGT -2, PCE/IU -1, PSOE -2. | Parte de la derecha también recortaría subvenciones sindicales; dentro del módulo de izquierda el ítem mide independencia sindical, no antisindicalismo. | [Corregido en revisión: El texto es limpio, pero la carga en 'organizacion' contamina el eje: cualquier votante de derecha antisindical (VOX pide eliminar subvenciones a sindicatos) puntuaría muy de acuerdo y sería empujado hacia 'horizontalismo', que no es lo que piensa. La distinción autofinanciación es real pero no proyecta limpiamente sobre un eje lineal: debe ser solo-matching. Además, matiz fáctico: la autofinanciación de CGT es discutida (CNT le reprocha aceptar horas sindicales y recursos derivados de los comités); CGT en 1 sería más prudente que en 2.]"
+  },
+  {
+    "id": "izq-034",
+    "texto": "Los sindicatos deberían renunciar a presentarse a las elecciones de comités de empresa y organizarse solo mediante secciones sindicales y asambleas.",
+    "modulo": "corrientes-izquierda",
+    "ejes": [],
+    "polaridad": "negativa",
+    "tags": [
+      "anarcosindicalismo",
+      "comites-de-empresa",
+      "cnt-cgt"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Captura la línea divisoria histórica del anarcosindicalismo español: CNT rechaza los comités de empresa (muy de acuerdo) mientras que CGT nació precisamente de aceptar concurrir a ellos (muy en desacuerdo). CCOO/UGT también en desacuerdo. | Esperado: CNT +2, anarcocomunismo +1, CGT -2, CCOO -2, UGT -2, PCTE -2. | Solo-matching: la distinción CNT/CGT es interna al mismo cuadrante y no proyecta bien sobre ningún eje lineal."
+  },
+  {
+    "id": "izq-035",
+    "texto": "Los cargos electos de la izquierda deberían limitarse a ejecutar lo que decidan sus asambleas de base, sin margen para decidir por su cuenta.",
+    "modulo": "corrientes-izquierda",
+    "ejes": [],
+    "polaridad": "negativa",
+    "tags": [
+      "cup",
+      "mandato-asambleario",
+      "asamblearismo",
+      "elecciones"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Aísla el matiz CUP: participa en elecciones pero con mandato imperativo asambleario (muy de acuerdo). El anarquismo abstencionista rechaza concurrir incluso así (desacuerdo) y Podemos/IU defienden la autonomía de sus electos (desacuerdo). | Esperado: CUP +2, asamblearismo institucional +2, anarcocomunismo -1, CNT -1, Podemos -1, PCE/IU -1. | Solo-matching: acuerdo y desacuerdo llegan por motivos opuestos (electoralismo clásico vs. abstencionismo), es una distinción no lineal. | [Corregido en revisión: Fallo lógico en la redacción condicional: 'solo es coherente si...' es una condición necesaria que un abstencionista puede aceptar vacuamente ('nunca es coherente, así que la condición me da igual') o rechazar; el -1 esperado de CNT/anarcocomunismo es inestable porque acuerdo y desacuerdo dependen de cómo el usuario procese el condicional, no de su posición. Reformulado como mandato imperativo directo se conserva el matiz CUP y desaparece la ambigüedad. Con el nuevo texto la polaridad es negativa (restringe la autonomía de los electos), lo que además mejora el balance del conjunto.]"
+  },
+  {
+    "id": "izq-036",
+    "texto": "El sueldo de los cargos públicos electos debería limitarse por ley al salario medio de un trabajador.",
+    "modulo": "corrientes-izquierda",
+    "ejes": [
+      {
+        "eje": "populismo",
+        "carga": 0.5
+      },
+      {
+        "eje": "organizacion",
+        "carga": -0.25
+      }
+    ],
+    "polaridad": "negativa",
+    "tags": [
+      "cup",
+      "sueldo-limitado",
+      "cargos-publicos",
+      "antielitismo"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: CUP lo practica con sus diputados (muy de acuerdo) y Podemos tiene un límite más laxo (de acuerdo); PSOE y la izquierda clásica defienden retribuciones profesionales (desacuerdo). Separa asamblearismo de socialdemocracia. | Esperado: CUP +2, anarcosindicalismo (CNT/CGT) +1, Podemos +1, PCE/IU +0, PSOE -1, PP -2."
+  },
+  {
+    "id": "izq-037",
+    "texto": "Cualquier cargo electo debería poder ser revocado en todo momento por quienes lo eligieron.",
+    "modulo": "corrientes-izquierda",
+    "ejes": [
+      {
+        "eje": "organizacion",
+        "carga": -0.75
+      },
+      {
+        "eje": "populismo",
+        "carga": 0.25
+      }
+    ],
+    "polaridad": "positiva",
+    "tags": [
+      "revocabilidad",
+      "asamblearismo",
+      "democracia-directa"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Separa el asamblearismo y el anarquismo (revocabilidad permanente: muy de acuerdo) del modelo representativo clásico de PSOE/PP (mandato de 4 años: muy en desacuerdo); Podemos queda en posición intermedia (revocatorios puntuales). | Esperado: CUP +2, anarcocomunismo +2, municipalismo libertario +2, Podemos +1, PCE/IU +0, PSOE -2."
+  },
+  {
+    "id": "izq-038",
+    "texto": "El poder político debería construirse de abajo arriba: municipios y asambleas confederados libremente, sin un Estado central por encima.",
+    "modulo": "corrientes-izquierda",
+    "ejes": [
+      {
+        "eje": "territorial",
+        "carga": -0.5
+      },
+      {
+        "eje": "organizacion",
+        "carga": -0.75
+      }
+    ],
+    "polaridad": "positiva",
+    "tags": [
+      "municipalismo-libertario",
+      "confederalismo",
+      "federalismo-desde-abajo"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Separa el municipalismo libertario y el anarcocomunismo (muy de acuerdo) tanto del marxismo estatalista (PCTE/PCE: quieren conquistar el Estado) como del independentismo estatalista (ERC quiere otro Estado). CUP ambivalente: municipalista pero aspira a un Estado catalán. | Esperado: municipalismo libertario +2, anarcocomunismo +2, CUP +1, PCTE -2, PCE/IU -1, ERC -1, PSOE -2. | Complementa (no duplica) el ítem existente 'abolir el Estado no conquistarlo': aquí se mide el diseño institucional concreto (confederación municipal), no el antiestatismo abstracto. | [Corregido en revisión: El texto es bueno y NO duplica 'abolir el Estado' (mide diseño institucional), pero la carga territorial -1 está mal calibrada: el propio cuadro de posiciones lo delata, porque ERC —partido de máxima descentralización en el eje territorial— tiene esperado -1. Es decir, el ítem no mide descentralización sino antiestatismo: un independentista estatalista descentralizador lo rechaza. Territorial debe bajar a carga parcial y organizacion subir, que es lo que realmente captura (construcción de poder de abajo arriba).]"
+  },
+  {
+    "id": "izq-039",
+    "texto": "Ninguna organización política debería tener un líder permanente: los portavoces deben rotar y ser fácilmente sustituibles.",
+    "modulo": "corrientes-izquierda",
+    "ejes": [
+      {
+        "eje": "organizacion",
+        "carga": -0.75
+      }
+    ],
+    "polaridad": "negativa",
+    "tags": [
+      "liderazgo",
+      "rotacion-de-cargos",
+      "horizontalismo",
+      "populismo-de-izquierda"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: El contraste clave con el populismo de izquierda: anarquismo y CUP rechazan el liderazgo carismático y rotan portavoces (muy de acuerdo); Podemos se construyó sobre el hiperliderazgo (desacuerdo), igual que los partidos clásicos. | Esperado: CUP +2, anarcocomunismo +2, CGT +2, Podemos -1, PSOE -2, PCTE -1."
+  },
+  {
+    "id": "izq-040",
+    "texto": "Las fuerzas armadas deberían reducirse progresivamente hasta su completa disolución.",
+    "modulo": "corrientes-izquierda",
+    "ejes": [
+      {
+        "eje": "atlantismo",
+        "carga": -1
+      }
+    ],
+    "polaridad": "negativa",
+    "tags": [
+      "antimilitarismo",
+      "desmilitarizacion",
+      "ejercito"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Separa el antimilitarismo integral (anarquismo, CUP: abolir el ejército) de la izquierda que pide salir de la OTAN pero conservaría un ejército propio (PCE/IU, Podemos) y del atlantismo del PSOE. Va más allá del ítem OTAN del núcleo. | Esperado: anarcocomunismo +2, anarcosindicalismo (CNT/CGT) +2, CUP +2, Podemos -1, PCE/IU -1, PSOE -2."
+  },
+  {
+    "id": "izq-041",
+    "texto": "La izquierda debería oponerse a la creación de nuevos Estados nacionales, incluso en el caso de las naciones sin Estado.",
+    "modulo": "corrientes-izquierda",
+    "ejes": [],
+    "polaridad": "negativa",
+    "tags": [
+      "internacionalismo",
+      "antiestatismo",
+      "independentismo",
+      "cup"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: La gran fractura interna de la familia: anarquismo internacionalista (contra todo Estado, también uno catalán o vasco: muy de acuerdo) frente a CUP/ERC/EH Bildu (la independencia como emancipación: muy en desacuerdo). | Esperado: anarcocomunismo +2, CNT +2, CUP -2, ERC -2, EH Bildu -2, PSOE +1, PCE/IU +0. | Solo-matching obligatorio: un unionista de izquierda también puntúa alto pero por motivos opuestos (defensa del Estado existente), así que el ítem no debe cargar en ejes lineales. | [Corregido en revisión: La distinción (internacionalismo libertario vs. independentismo de la propia familia) es la más valiosa del borrador y solo-matching es la decisión correcta (el unionismo español también puntúa alto por motivos opuestos). Pero la redacción viola la evidencia de Kamoen & Holleman: es una aserción negada ('no es un camino... tampoco'), que eleva error de respuesta y sesgo hacia el desacuerdo. Reformular como afirmación directa conserva el contenido sin negaciones. PSOE +1 y PCE/IU 0 siguen siendo plausibles con el nuevo texto.]"
+  },
+  {
+    "id": "izq-042",
+    "texto": "Ocupar edificios que llevan años abandonados para convertirlos en centros sociales autogestionados es una forma legítima de acción política.",
+    "modulo": "corrientes-izquierda",
+    "ejes": [
+      {
+        "eje": "social",
+        "carga": -0.75
+      },
+      {
+        "eje": "economico",
+        "carga": -0.25
+      }
+    ],
+    "polaridad": "positiva",
+    "tags": [
+      "autonomismo",
+      "okupacion",
+      "centros-sociales",
+      "autogestion"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Marcador del autonomismo y la cultura okupa (CSOA), compartido por CUP y anarquismo (muy de acuerdo); la izquierda institucional es tibia (PCE/IU, Podemos) y el PSOE lo rechaza por respeto a la propiedad. | Esperado: autonomismo +2, anarcocomunismo +2, CUP +2, Podemos +1, PCE/IU +1, PSOE -1. | [Corregido en revisión: Tal como está, no discrimina: 'deberían poder convertirse' admite la lectura institucional blanda (cesión municipal de solares, programas tipo 'esto no es un solar') con la que hasta un votante del PSOE está de acuerdo; el -1 esperado del PSOE es probablemente erróneo con ese texto. Lo que separa autonomismo/CSOA de la izquierda institucional no es el fin (centros sociales) sino el medio (la ocupación sin permiso de la propiedad). Hay que nombrar la práctica; 'ocupar' no es palabra-bandera peyorativa, es el objeto medido.]"
+  },
+  {
+    "id": "izq-043",
+    "texto": "A largo plazo, la protección social debería organizarse mediante redes comunitarias de apoyo mutuo en lugar de gestionarse desde el Estado.",
+    "modulo": "corrientes-izquierda",
+    "ejes": [
+      {
+        "eje": "organizacion",
+        "carga": -0.75
+      }
+    ],
+    "polaridad": "positiva",
+    "tags": [
+      "apoyo-mutuo",
+      "anarcocomunismo",
+      "estado-del-bienestar"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Separa el anarquismo puro (apoyo mutuo kropotkiniano: muy de acuerdo) de toda la izquierda estatalista, incluida la CUP, que defiende servicios públicos fuertes aunque bajo control popular (desacuerdo). | Esperado: anarcocomunismo +2, anarcosindicalismo (CNT/CGT) +1, municipalismo libertario +1, CUP -1, PCE/IU -2, PSOE -2. | Un liberal antiestatal también podría puntuar alto; dentro del módulo de izquierda el ítem distingue anarquismo comunitario de socialismo de Estado. | [Corregido en revisión: Riesgo doble. (1) Caricatura involuntaria: CNT y CGT se movilizan hoy en defensa de la sanidad y pensiones públicas frente a recortes; sin marco temporal, un anarcosindicalista puede leer el ítem como desmantelamiento neoliberal del bienestar y responder en desacuerdo, rompiendo el +1/+2 esperado. (2) Contaminación: un liberal antiestatal puntúa +2 y la carga en organizacion lo etiqueta como horizontalista. El marco 'a largo plazo / en lugar de' separa el ideal kropotkiniano del recorte inmediato y mitiga (1); (2) es tolerable dentro del módulo pero justifica no subir la carga.]"
+  },
+  {
+    "id": "izq-044",
+    "texto": "Las funciones de la policía deberían reducirse progresivamente, trasladando la gestión de los conflictos a mecanismos comunitarios.",
+    "modulo": "corrientes-izquierda",
+    "ejes": [
+      {
+        "eje": "social",
+        "carga": -0.75
+      }
+    ],
+    "polaridad": "negativa",
+    "tags": [
+      "antipunitivismo",
+      "abolicionismo-policial",
+      "justicia-comunitaria",
+      "anarquismo"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Separa anarquismo y autonomismo (abolicionismo policial: muy de acuerdo) de la izquierda estatalista que defiende una policía pública reformada (PCE/IU, Podemos, PSOE: desacuerdo) y del marxismo-leninista, que aspira a un aparato coercitivo propio (PCTE: desacuerdo). CUP intermedia-alta (crítica de los Mossos, propuestas desmilitarizadoras). | Esperado: anarcocomunismo +2, autonomismo +2, CUP +1, Podemos -1, PCE/IU -1, PCTE -1, PSOE -2. | Cubre el hueco antipunitivista. Redacción gradualista ('reducirse progresivamente') para que sea contestable sin adherirse al maximalismo, preservando la discriminación. | [Añadido por el revisor para cubrir un hueco]"
+  },
+  {
+    "id": "izq-045",
+    "texto": "La izquierda debería asumir que hay que producir y consumir menos, aunque eso suponga renunciar al crecimiento económico.",
+    "modulo": "corrientes-izquierda",
+    "ejes": [
+      {
+        "eje": "ecologia",
+        "carga": 0.75
+      }
+    ],
+    "polaridad": "negativa",
+    "tags": [
+      "decrecimiento",
+      "ecologia-social",
+      "municipalismo-libertario",
+      "productivismo"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Separa la ecología social y el decrecentismo libertario (municipalismo libertario, sectores de CUP y CGT: de acuerdo) del productivismo obrerista clásico (PCTE: el desarrollo de las fuerzas productivas es central, muy en desacuerdo) y del crecimiento verde socialdemócrata (PSOE: desacuerdo). | Esperado: municipalismo libertario +2, CUP +1, anarcocomunismo +1, Podemos +0, PCE/IU +0, PCTE -2, PSOE -1. | Activa el eje 'ecologia', hasta ahora sin uso en la familia. Signo +0.75 correcto: el acuerdo apunta al polo ecologista (+1). | [Añadido por el revisor para cubrir un hueco]"
+  },
+  {
+    "id": "izq-046",
+    "texto": "La libertad plena de movimiento entre países debería reconocerse como un derecho de toda persona, sea cual sea su origen.",
+    "modulo": "corrientes-izquierda",
+    "ejes": [
+      {
+        "eje": "internacionalismo",
+        "carga": -0.75
+      },
+      {
+        "eje": "social",
+        "carga": -0.5
+      }
+    ],
+    "polaridad": "positiva",
+    "tags": [
+      "fronteras",
+      "internacionalismo",
+      "migraciones",
+      "anarquismo"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Separa el internacionalismo libertario (abolición de fronteras como principio: muy de acuerdo) de la izquierda que acepta la gestión estatal de flujos migratorios (PSOE) y del soberanismo obrerista que desconfía de la libre circulación bajo el capitalismo (PCTE). Complementa sin duplicar el ítem de devoluciones del núcleo, que mide política coyuntural y no el principio. | Esperado: anarcocomunismo +2, CNT +2, CUP +1, Podemos +1, PCE/IU +0, PSOE -1, PCTE -1. | Activa el eje 'internacionalismo' (signo negativo = polo internacionalista, correcto). Añade una positiva para compensar el balance de polaridad del conjunto. | [Añadido por el revisor para cubrir un hueco]"
+  }
 ]

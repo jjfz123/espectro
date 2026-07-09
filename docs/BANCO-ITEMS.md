@@ -83,4 +83,29 @@ Los ~6.300 partidos inscritos en el Registro del Ministerio del Interior no requ
 
 Esta sección se actualiza con cada ampliación; el recuento vivo lo da `npm run validate:data`.
 
-El banco semilla (33 ítems) se amplió con una tanda redactada por familias ideológicas y sometida a revisión metodológica adversarial (doble barril, sesgo de marco, caducidad, poder discriminante, signo de cargas, duplicados) antes de la integración. Las hipótesis de discriminación de cada ítem están en su campo `notas`, pendientes de verificación con fuentes primarias ítem a ítem (paso a `verificada` de las posiciones de partido correspondientes).
+El banco semilla (33 ítems) se amplió a **257 ítems** con una tanda redactada por familias ideológicas y sometida a revisión metodológica adversarial (doble barril, sesgo de marco, caducidad, poder discriminante, signo de cargas, duplicados) antes de la integración: 188 ítems de borrador, de los que 4 se eliminaron y 42 se corrigieron en revisión, más 39 ítems añadidos por los revisores para huecos detectados, un duplicado inter-familia descartado y 2 ítems de cierre de huecos. Las hipótesis de discriminación de cada ítem están en su campo `notas`, pendientes de verificación con fuentes primarias ítem a ítem (paso a `verificada` de las posiciones de partido correspondientes).
+
+| Módulo | Ítems | Módulo | Ítems |
+|---|---|---|---|
+| nucleo | 40 | nacionalismos-regionalismos | 17 |
+| corrientes-izquierda | 46 | verde-animalista | 18 |
+| socialdemocracia-reformismo | 23 | feminismos-moral | 14 |
+| centro-liberalismo | 20 | territorial-canarias | 11 |
+| corrientes-derecha | 26 | territorial-catalunya | 6 |
+| derecha-radical | 21 | territorial-euskadi-navarra | 6 |
+| | | territorial-galicia | 5 |
+| | | territorial-andalucia | 4 |
+
+Balance de polaridad: ~39% negativa (objetivo 50/50; corregir en las siguientes tandas). Ítems solo-matching: 47.
+
+### Backlog de huecos conocidos (señalados en revisión, pendientes de futuras tandas)
+
+- **Marxismo**: Cuba/Corea del Norte como referencias vivas (baja discriminación interna, prioridad baja).
+- **Anarquismo**: pedagogía libertaria; servicios municipalizados vs. cooperativizados.
+- **Liberalismo**: monarquía/república intra-liberal; dinero y banca central (patrón monetario, cripto) como marcador ancap puro.
+- **Derecha conservadora**: Estado del bienestar democristiano vs. liberalismo duro (cubierto solo oblicuamente).
+- **Derecha radical**: orden público duro (pena de muerte, prisión permanente ampliada) — excluido deliberadamente en esta tanda; chovinismo de bienestar (candidato a núcleo: toda la familia respondería igual).
+- **Nacionalismos**: grupos parlamentarios propios vs. integración en grupos estatales; república como componente del proyecto nacional periférico; PER/subsidio agrario andaluz como distinción no lineal.
+- **Verde-animalista**: ganadería extensiva como aliada ambiental (reverso en positivo de los prohibicionistas); festejos populares con animales (umbral intermedio); granjas peleteras (consenso creciente, prioridad baja).
+- **Feminismos/moral**: presencia institucional de la religión en actos de Estado; verificación de edad para pornografía (separaría a los liberales de PSOE y PP a la vez).
+- **Núcleo**: tercer indicador populista («no nos representan») para robustecer el eje populismo.

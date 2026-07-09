@@ -1,0 +1,422 @@
+[
+  {
+    "id": "sd-001",
+    "texto": "España debería iniciar la salida de la OTAN.",
+    "modulo": "socialdemocracia-reformismo",
+    "ejes": [
+      {
+        "eje": "atlantismo",
+        "carga": -1
+      }
+    ],
+    "polaridad": "negativa",
+    "tags": [
+      "otan",
+      "defensa",
+      "politica-exterior"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Podemos/IU (salida) frente a Sumar como coalición (ambigüedad, permanencia no cuestionada) y frente a PSOE e Izquierda Española (atlantistas claros). Es el eje atlantismo dentro de la izquierda. | Esperado: Podemos +2, PCE/IU (dentro de Sumar) +2, Sumar (dirección) +0, Más Madrid -1, PSOE (dirección) -2, Izquierda Española -2. | Hereda el «OTAN, de entrada no» y el «OTAN no» histórico; Yolanda Díaz declaró que la permanencia no se cuestiona, lo que retrata la ambigüedad de Sumar."
+  },
+  {
+    "id": "sd-002",
+    "texto": "España debe aumentar de forma sustancial su gasto en defensa durante los próximos años.",
+    "modulo": "socialdemocracia-reformismo",
+    "ejes": [
+      {
+        "eje": "atlantismo",
+        "carga": 1
+      }
+    ],
+    "polaridad": "positiva",
+    "tags": [
+      "defensa",
+      "otan",
+      "presupuestos"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: PSOE de gobierno (compromisos de gasto con la OTAN) frente a Sumar y Podemos (rechazo frontal al rearme). Izquierda Española queda más cerca del PSOE que del resto. | Esperado: PSOE (dirección) +1, PSOE (Izquierda Socialista) -1, Izquierda Española +1, Sumar -2, Más Madrid -1, Podemos -2. | El Gobierno PSOE asumió el objetivo del 2% del PIB de la OTAN pese al rechazo público de sus socios de Sumar."
+  },
+  {
+    "id": "sd-003",
+    "texto": "España debe apoyar con envío de armas a los países que se defienden de una invasión, como Ucrania.",
+    "modulo": "socialdemocracia-reformismo",
+    "ejes": [
+      {
+        "eje": "atlantismo",
+        "carga": 0.75
+      }
+    ],
+    "polaridad": "positiva",
+    "tags": [
+      "politica-exterior",
+      "ucrania",
+      "pacifismo"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: PSOE e Izquierda Española (sí rotundo) frente a Podemos e IU (no, «la guerra no se soluciona con más armas»); Sumar y Más Madrid en posición intermedia de aceptación reticente. | Esperado: PSOE (dirección) +2, Izquierda Española +2, Sumar +1, Más Madrid +1, Podemos -2, PCE/IU (dentro de Sumar) -2. | [Corregido en revisión: Defecto de marco evaluativo (Kamoen & Holleman): 'es coherente con los valores de la izquierda' no pregunta por la política sino por una identidad — un votante puede apoyar el envío de armas y a la vez negar que sea 'de izquierdas', o viceversa. Además el adjetivo 'democrático' precarga la respuesta. Se reformula como afirmación de política pública manteniendo el ejemplo Ucrania como ancla (el principio general sobrevive al fin de la guerra). Eje y signo correctos; posiciones esperadas verosímiles (PSOE/IE sí; Podemos e IU 'la guerra no se soluciona con más armas'; Sumar aceptación reticente).]"
+  },
+  {
+    "id": "sd-004",
+    "texto": "La Constitución debería reconocer a España como un Estado plurinacional.",
+    "modulo": "socialdemocracia-reformismo",
+    "ejes": [
+      {
+        "eje": "territorial",
+        "carga": -0.75
+      }
+    ],
+    "polaridad": "positiva",
+    "tags": [
+      "territorial",
+      "plurinacionalidad",
+      "constitucion"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Sumar, Podemos y Compromís (plurinacionalidad explícita) frente a Izquierda Española y el sector clásico del PSOE (nación única de ciudadanos); la dirección del PSOE y el PSC quedan en medio («nación de naciones» retórica sin reforma). | Esperado: Sumar +2, Podemos +2, Compromís +2, PSC +1, PSOE (dirección) +0, PSOE (sector clásico, p. ej. García-Page) -1, Izquierda Española -2."
+  },
+  {
+    "id": "sd-005",
+    "texto": "La financiación singular, como el concierto vasco, no debería extenderse a otras comunidades.",
+    "modulo": "socialdemocracia-reformismo",
+    "ejes": [
+      {
+        "eje": "territorial",
+        "carga": 0.75
+      }
+    ],
+    "polaridad": "negativa",
+    "tags": [
+      "financiacion-autonomica",
+      "concierto",
+      "igualdad-territorial"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Izquierda Española y el PSOE clásico (igualdad estricta, contra cupo/concierto) frente a PSC y Sumar (financiación singular para Cataluña como pacto legítimo); Podemos intermedio por su plurinacionalismo. | Esperado: Izquierda Española +2, PSOE (sector clásico) +1, PSOE (dirección) -1, PSC -2, Sumar -2, Podemos -1. | Distinto del ítem canario sobre financiación tipo concierto: aquí se mide el principio general de igualdad frente a singularidades. | [Corregido en revisión: Problema fáctico-lógico: tal como está redactado ('sin conciertos ni cupos singulares', en presente universal) implica derogar el concierto vasco y el convenio navarro, blindados en la disposición adicional primera de la Constitución — algo que casi ningún actor propone, ni siquiera el PSOE clásico, que defiende la igualdad pero no toca el régimen foral. Un votante socialista vasco quedaría atrapado. El debate real y duradero es la EXTENSIÓN de sistemas singulares (cupo/concierto catalán pactado en 2024). Se reformula sobre ese punto, que es exactamente la distinción de la familia (IE/PSOE clásico vs PSC/Sumar). Eje y signo correctos (acuerdo con el rechazo a extender = polo centralizador +0.75); polaridad negativa se mantiene. Ajuste de hipótesis: con el nuevo texto, PSOE (sector clásico) sube a +2 (Page, Lambán y Vara se han opuesto frontalmente al cupo catalán).]"
+  },
+  {
+    "id": "sd-006",
+    "texto": "En los grandes asuntos de Estado es preferible acordar con la derecha constitucionalista antes que depender de partidos independentistas.",
+    "modulo": "socialdemocracia-reformismo",
+    "ejes": [
+      {
+        "eje": "territorial",
+        "carga": 0.5
+      }
+    ],
+    "polaridad": "positiva",
+    "tags": [
+      "pactos",
+      "independentismo",
+      "gobernabilidad"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Separa nítidamente a Izquierda Española (+) y al sector clásico del PSOE del bloque sanchista, el PSC, Sumar y Podemos (−), que consideran legítima y preferible la mayoría plurinacional de izquierdas. | Esperado: Izquierda Española +2, PSOE (sector clásico) +1, PSOE (dirección) -2, PSC -2, Sumar -2, Podemos -2."
+  },
+  {
+    "id": "sd-007",
+    "texto": "Un partido de izquierdas nunca debería entrar en un gobierno de coalición con liberales o con el centroderecha.",
+    "modulo": "socialdemocracia-reformismo",
+    "ejes": [],
+    "polaridad": "negativa",
+    "tags": [
+      "pactos",
+      "coaliciones",
+      "estrategia"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Solo-matching: la tercera vía del PSOE e Izquierda Española admiten pactos transversales (−), mientras Podemos, IU y Sumar defienden gobernar solo con la izquierda (+). Distinción no lineal: los dos extremos del módulo coinciden frente al centro. | Esperado: Podemos +2, PCE/IU (dentro de Sumar) +2, Sumar +1, PSOE (Izquierda Socialista) +1, PSOE (dirección/tercera vía) -2, Izquierda Española -1. | El PSOE ha pactado con Ciudadanos (acuerdo de investidura de 2016) y gobierna con liberales en el Consejo Europeo; la izquierda alternativa lo considera línea roja."
+  },
+  {
+    "id": "sd-008",
+    "texto": "El Estado debe garantizar una renta básica universal e incondicional a toda la ciudadanía.",
+    "modulo": "socialdemocracia-reformismo",
+    "ejes": [
+      {
+        "eje": "economico",
+        "carga": -0.75
+      }
+    ],
+    "polaridad": "positiva",
+    "tags": [
+      "renta-basica",
+      "proteccion-social"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Podemos (RBU incondicional) frente al PSOE (Ingreso Mínimo Vital condicionado y comprobación de recursos); Sumar y Más Madrid en posiciones intermedias (prestaciones garantizadas, herencia universal). | Esperado: Podemos +2, Más Madrid +1, Sumar +0, PSOE (dirección) -1, Izquierda Española -1."
+  },
+  {
+    "id": "sd-009",
+    "texto": "Las prestaciones sociales de las personas en edad de trabajar deben estar condicionadas a buscar empleo o formarse.",
+    "modulo": "socialdemocracia-reformismo",
+    "ejes": [
+      {
+        "eje": "economico",
+        "carga": 0.5
+      }
+    ],
+    "polaridad": "negativa",
+    "tags": [
+      "proteccion-social",
+      "empleo",
+      "condicionalidad"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: PSOE e Izquierda Española (activación y condicionalidad, tradición del empleo garantizado) frente a Podemos (incondicionalidad) y, en menor grado, Sumar y Más Madrid. | Esperado: PSOE (dirección) +1, Izquierda Española +1, Sumar -1, Más Madrid -1, Podemos -2."
+  },
+  {
+    "id": "sd-010",
+    "texto": "Poner topes por ley a los precios del alquiler reduce la oferta de vivienda disponible.",
+    "modulo": "socialdemocracia-reformismo",
+    "ejes": [
+      {
+        "eje": "economico",
+        "carga": 0.75
+      }
+    ],
+    "polaridad": "negativa",
+    "tags": [
+      "vivienda",
+      "alquiler",
+      "regulacion"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Mide la adhesión al marco de la oferta: el sector socioliberal del PSOE lo comparte (+), la dirección lo rechaza con matices tras asumir los topes en zonas tensionadas, y Sumar, Podemos y Más Madrid lo rechazan frontalmente. | Esperado: PSOE (sector socioliberal) +1, PSOE (dirección) -1, Sumar -2, Podemos -2, Más Madrid -2, Izquierda Española +0. | El PSOE resistió años los topes (bono alquiler, incentivos fiscales) hasta cederlos en la ley de vivienda de la coalición; la fricción sigue viva. | [Corregido en revisión: Doble barril clásico: 'es contraproducente' (juicio) + 'porque reduce la oferta' (justificación causal). Un usuario puede rechazar los topes por otras razones sin comprar la tesis de la oferta, o aceptar la tesis empírica y aun así apoyar topes temporales. Dado que el propio campo discrimina declara que el ítem mide 'la adhesión al marco de la oferta', se deja solo la tesis causal, que es la que separa al sector socioliberal del PSOE del bloque Sumar/Podemos/Más Madrid. Eje, signo (+0.75, acuerdo = marco de mercado) y polaridad negativa se mantienen. Hechos de las notas verificados: el PSOE resistió los topes (bono joven de alquiler, incentivos fiscales) hasta la ley 12/2023 pactada con la coalición.]"
+  },
+  {
+    "id": "sd-011",
+    "texto": "El Estado debe crear una empresa pública de energía que compita con las grandes eléctricas privadas.",
+    "modulo": "socialdemocracia-reformismo",
+    "ejes": [
+      {
+        "eje": "economico",
+        "carga": -0.75
+      }
+    ],
+    "polaridad": "positiva",
+    "tags": [
+      "energia",
+      "empresa-publica",
+      "electricas"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Sumar, Más Madrid y Podemos (sí) frente a la tibieza de la dirección del PSOE, que solo lo aceptó sobre activos ya públicos y sin desplegarlo. Primer paso de la escala regulación → competidora pública → nacionalización. | Esperado: Sumar +2, Más Madrid +2, Podemos +2, PSOE (dirección) +0, PSOE (Izquierda Socialista) +1, Izquierda Española +1."
+  },
+  {
+    "id": "sd-012",
+    "texto": "Las grandes compañías eléctricas deberían pasar a ser de titularidad pública.",
+    "modulo": "socialdemocracia-reformismo",
+    "ejes": [
+      {
+        "eje": "economico",
+        "carga": -1
+      }
+    ],
+    "polaridad": "positiva",
+    "tags": [
+      "energia",
+      "nacionalizacion",
+      "electricas"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Podemos (nacionalización) frente a Sumar (empresa pública competidora, no expropiación) y frente al PSOE (regulación del mercado). Completa el tríptico con sd-11. | Esperado: Podemos +2, PCE/IU (dentro de Sumar) +1, Sumar (dirección) +0, Más Madrid -1, PSOE (dirección) -2, Izquierda Española -1. | Distinto del ítem de corrientes-izquierda sobre planificación: aquí se mide propiedad pública de un sector concreto, no la sustitución del mercado."
+  },
+  {
+    "id": "sd-013",
+    "texto": "Debería convocarse un referéndum para que la ciudadanía elija entre monarquía y república.",
+    "modulo": "socialdemocracia-reformismo",
+    "ejes": [
+      {
+        "eje": "monarquia",
+        "carga": -1
+      }
+    ],
+    "polaridad": "positiva",
+    "tags": [
+      "monarquia",
+      "republica",
+      "jefatura-estado"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Sumar y Podemos (referéndum ya) frente a la dirección del PSOE (republicanismo retórico, defensa práctica del pacto constitucional); el ala izquierda socialista queda en medio, retratando la tensión interna del PSOE. | Esperado: Podemos +2, Sumar +2, Más Madrid +1, PSOE (Izquierda Socialista/JSE) +1, PSOE (dirección) -1, Izquierda Española +1."
+  },
+  {
+    "id": "sd-014",
+    "texto": "España debería poner fin a los Acuerdos de 1979 con la Santa Sede.",
+    "modulo": "socialdemocracia-reformismo",
+    "ejes": [
+      {
+        "eje": "laicismo",
+        "carga": -1
+      }
+    ],
+    "polaridad": "negativa",
+    "tags": [
+      "laicismo",
+      "iglesia",
+      "concordato"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Izquierda Española, Podemos, Sumar y el ala izquierda del PSOE (denuncia del Concordato) frente a la dirección del PSOE, que lo promete en programas y nunca lo ejecuta desde el Gobierno. | Esperado: Izquierda Española +2, Podemos +2, Sumar +2, PSOE (Izquierda Socialista) +1, PSOE (dirección) +0."
+  },
+  {
+    "id": "sd-015",
+    "texto": "Quienes pagan por servicios sexuales deberían ser sancionados por la ley.",
+    "modulo": "socialdemocracia-reformismo",
+    "ejes": [],
+    "polaridad": "negativa",
+    "tags": [
+      "feminismo",
+      "prostitucion",
+      "abolicionismo"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Solo-matching: el PSOE (y previsiblemente Izquierda Española) es abolicionista sancionador, mientras Sumar y Más Madrid rechazan la vía punitiva y Podemos está internamente dividido. Distinción no lineal entre familias feministas. | Esperado: PSOE (dirección) +2, Izquierda Española +1, Podemos +0, Sumar -1, Más Madrid -1. | La proposición abolicionista del PSOE (2022) dividió a Unidas Podemos y fue rechazada por Más País y los comunes; el pulso feminista PSOE-Sumar persiste. | [Corregido en revisión: Doble barril: 'sancionar a quienes pagan' (medida concreta) + 'en la línea de abolir la prostitución' (adhesión a un marco). Se puede ser abolicionista y rechazar la vía punitiva contra el cliente — exactamente el matiz que distingue a parte de Sumar y los comunes — con lo que la coletilla contamina la medida. Se deja solo la sanción al cliente (modelo nórdico), que es lo votable y lo que dividió al Congreso en 2022 (proposición del PSOE rechazada con Más País, ERC y comunes en contra y Unidas Podemos dividido: hechos correctos). Solo-matching bien justificado: la división es transversal a los ejes. Polaridad negativa correcta.]"
+  },
+  {
+    "id": "sd-016",
+    "texto": "La política económica debe respetar los límites ecológicos del planeta aunque eso suponga renunciar a parte del crecimiento del PIB.",
+    "modulo": "socialdemocracia-reformismo",
+    "ejes": [
+      {
+        "eje": "ecologia",
+        "carga": 0.75
+      }
+    ],
+    "polaridad": "positiva",
+    "tags": [
+      "ecologia",
+      "decrecimiento",
+      "modelo-economico"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Ecosocialistas (Más Madrid, Sumar, Compromís: bienestar sobre PIB) frente al productivismo socialdemócrata del PSOE y de Izquierda Española (crecer para redistribuir). | Esperado: Más Madrid +2, Sumar +1, Compromís +1, Podemos +1, PSOE (dirección) -1, Izquierda Española -1."
+  },
+  {
+    "id": "sd-017",
+    "texto": "Deberían paralizarse las ampliaciones de grandes aeropuertos por su impacto climático.",
+    "modulo": "socialdemocracia-reformismo",
+    "ejes": [
+      {
+        "eje": "ecologia",
+        "carga": 1
+      }
+    ],
+    "polaridad": "negativa",
+    "tags": [
+      "ecologia",
+      "infraestructuras",
+      "clima"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Caso concreto que separa al PSOE y al PSC (pro ampliación de Barajas y El Prat como motor económico) de Más Madrid, Sumar y los comunes (moratoria climática). | Esperado: Más Madrid +2, Sumar +2, Compromís +1, Podemos +1, PSOE (dirección) -2, PSC -2, Izquierda Española -1."
+  },
+  {
+    "id": "sd-018",
+    "texto": "La izquierda gana cuando plantea la política como un enfrentamiento entre la gente corriente y las élites.",
+    "modulo": "socialdemocracia-reformismo",
+    "ejes": [
+      {
+        "eje": "populismo",
+        "carga": 0.75
+      }
+    ],
+    "polaridad": "positiva",
+    "tags": [
+      "estrategia",
+      "populismo",
+      "hegemonia"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Mide la hipótesis populista (Laclau): Podemos y el errejonismo originario (+) frente al partido clásico de afiliados del PSOE y al antipopulismo explícito de Izquierda Española (−); Sumar, equidistante. | Esperado: Podemos +2, Más Madrid (errejonismo) +1, Sumar +0, PSOE (dirección) -1, Izquierda Española -2. | [Corregido en revisión: Dos problemas: (1) doble barril comparativo — afirma la estrategia populista Y descarta la apelación clasista; (2) el término de contraste elegido ('apelar solo a la clase trabajadora') plantea el debate populismo-vs-clasismo, que es la frontera Podemos/IU propia del módulo de corrientes-izquierda, no la frontera con el partido clásico del PSOE que el campo discrimina dice medir. Se deja solo la afirmación de la hipótesis populista (Laclau/Errejón), que el PSOE y sobre todo Izquierda Española (antipopulista explícita) rechazarían por sí sola. No duplica el ítem del núcleo sobre élites: aquél mide una creencia descriptiva (élites coordinadas contra la gente), éste una apuesta estratégica normativa. Eje y carga (+0.75, polo antielitista) correctos.]"
+  },
+  {
+    "id": "sd-019",
+    "texto": "España debe defender un referéndum de autodeterminación para el Sáhara Occidental.",
+    "modulo": "socialdemocracia-reformismo",
+    "ejes": [
+      {
+        "eje": "internacionalismo",
+        "carga": -0.5
+      }
+    ],
+    "polaridad": "positiva",
+    "tags": [
+      "sahara",
+      "politica-exterior",
+      "internacionalismo"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: La dirección del PSOE (apoyo al plan de autonomía marroquí desde marzo de 2022, alineamiento con Rabat) frente a Sumar, Podemos, IU, Más Madrid y Compromís (referéndum, posición histórica de la ONU), con parte de las bases y territorios del PSOE incómodos. Hay votos reales en el Congreso condenando el giro, con el PSOE solo frente a sus socios. | Esperado: Podemos +2, PCE/IU (dentro de Sumar) +2, Sumar +2, Más Madrid +2, Compromís +2, PSOE (dirección) -1, Izquierda Española +1. | Duradero: el referéndum es la posición de la legalidad internacional desde 1991, así que el ítem no caduca con un gobierno. Usa el eje internacionalismo, vacío en el borrador; carga parcial (−0.5) porque también admite lectura de pura política exterior. | [Añadido por el revisor para cubrir un hueco]"
+  },
+  {
+    "id": "sd-020",
+    "texto": "La caza con fines recreativos debería prohibirse.",
+    "modulo": "socialdemocracia-reformismo",
+    "ejes": [
+      {
+        "eje": "animalismo",
+        "carga": 1
+      }
+    ],
+    "polaridad": "negativa",
+    "tags": [
+      "animalismo",
+      "caza",
+      "mundo-rural"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Podemos y Más Madrid (agenda de derechos de los animales) frente al PSOE, que protege la caza por su implantación rural (excluyó a los perros de caza de la ley de bienestar animal de 2023) y frente a Izquierda Española; Sumar queda en medio por la tensión entre sus componentes verdes y sus territorios rurales. | Esperado: Podemos +1, Más Madrid +1, Sumar +0, Compromís +0, PSOE (dirección) -2, Izquierda Española -1. | Cubre el eje animalismo, vacío en el borrador, y aporta un ítem de polaridad negativa. Complementa (no duplica) el ítem taurino de corrientes-derecha: aquí discrimina dentro de la izquierda. | [Añadido por el revisor para cubrir un hueco]"
+  },
+  {
+    "id": "sd-021",
+    "texto": "España debería aprobar una regularización extraordinaria de las personas migrantes que ya viven y trabajan en el país.",
+    "modulo": "socialdemocracia-reformismo",
+    "ejes": [
+      {
+        "eje": "social",
+        "carga": -0.5
+      }
+    ],
+    "polaridad": "positiva",
+    "tags": [
+      "inmigracion",
+      "regularizacion"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Sumar, Podemos, Más Madrid y Compromís (apoyo activo a la ILP de regularización extraordinaria) frente a la cautela de la dirección del PSOE (reforma reglamentaria y canales ordinarios, sin regularización masiva) e Izquierda Española (orden migratorio). Único ítem migratorio que separa dentro de la izquierda, cosa que el ítem de devoluciones del núcleo no hace. | Esperado: Podemos +2, Sumar +2, Más Madrid +2, Compromís +2, PSOE (dirección) +0, Izquierda Española -1. | Redacción de principio ('regularización extraordinaria' es figura estable, usada en 1991, 2000, 2005) para no atarse a la ILP concreta. Carga parcial en el eje social (polo GAL) porque la posición migratoria es el mejor indicador GAL-TAN disponible dentro de la familia. | [Añadido por el revisor para cubrir un hueco]"
+  },
+  {
+    "id": "sd-022",
+    "texto": "Un proyecto de izquierdas funciona mejor articulado en torno a un liderazgo fuerte que como partido tradicional de afiliados.",
+    "modulo": "socialdemocracia-reformismo",
+    "ejes": [],
+    "polaridad": "positiva",
+    "tags": [
+      "organizacion",
+      "liderazgo",
+      "hiperliderazgo"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Solo-matching (distinción no lineal): la cultura del hiperliderazgo (Podemos fundacional, Sumar como proyecto construido en torno a Yolanda Díaz) frente al partido clásico de estructura y afiliados (PSOE, PCE/IU) y al antipersonalismo de Izquierda Española. Cubre la distinción 'liderazgo carismático y hegemonía vs partido clásico' citada en el contexto de familia, que sd-18 no mide (aquél es discurso, éste es forma organizativa). | Esperado: Podemos +1, Sumar (dirección) +1, PSOE (dirección) -2, PCE/IU (dentro de Sumar) -2, Más Madrid +0, Izquierda Española -1. | Ejes vacíos deliberadamente: no mapea bien ni en 'organizacion' (cuyo polo +1 es vanguardismo leninista, no hiperliderazgo mediático) ni en 'populismo' sin ruido. Hipótesis a vigilar en pilotaje: el sanchismo también es leader-céntrico en la práctica, aunque su autoimagen declarada es la de partido de afiliados. | [Añadido por el revisor para cubrir un hueco]"
+  },
+  {
+    "id": "sd-023",
+    "texto": "Los impuestos extraordinarios a la banca y a las grandes energéticas deben convertirse en permanentes.",
+    "modulo": "socialdemocracia-reformismo",
+    "ejes": [
+      {
+        "eje": "economico",
+        "carga": -0.75
+      }
+    ],
+    "polaridad": "positiva",
+    "tags": [
+      "fiscalidad",
+      "banca",
+      "energeticas"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Sumar/Podemos (permanentes) del PSOE (temporales y negociables según coyuntura) y de la derecha (supresión); dentro de la izquierda mide la disposición a consolidar fiscalidad sobre el capital. | Esperado: Podemos +2, Sumar +2, IU +2, PSOE +1, IE +1, PP -2, VOX -2, Junts -2. | [Añadido a partir de un hueco señalado por el revisor]"
+  }
+]

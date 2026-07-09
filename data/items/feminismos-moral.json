@@ -1,0 +1,268 @@
+[
+  {
+    "id": "fem-001",
+    "texto": "Cualquier persona adulta debe poder cambiar su sexo en el registro civil por su sola voluntad, sin necesidad de informes médicos ni psicológicos.",
+    "modulo": "feminismos-moral",
+    "ejes": [
+      {
+        "eje": "social",
+        "carga": -1
+      },
+      {
+        "eje": "tradicion-moral",
+        "carga": -0.5
+      }
+    ],
+    "polaridad": "positiva",
+    "tags": [
+      "trans",
+      "autodeterminacion-genero",
+      "ley-trans"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: El GRAN corte intra-izquierda: Podemos/Sumar/ERC (+2) frente al feminismo clásico del PSOE (−1/−2); el PSOE oficial queda en un +1 incómodo. También separa PP (−1) de VOX (−2). | Esperado: Podemos +2, Sumar +2, ERC +2, PSOE (oficial) +1, feminismo clásico (Contra el Borrado, sector Calvo del PSOE) -2, Cs -1, PP -1, VOX -2. | Núcleo de la ley trans de 2023 (autodeterminación registral desde 16 años). El PSOE la votó pero con disidencias sonadas (Carmen Calvo). | [Corregido en revisión: El ítem es sólido y es el gran discriminante intra-izquierda, pero 'Cualquier persona' incluye implícitamente a los menores, que ya tienen su propio ítem (fem-02). Sin acotar la edad, un votante conservador responde a la lectura más dura (niños) y uno de Podemos a la lectura de la ley (16+), generando ruido de medición y solapamiento con fem-02. Acotado a adultos, el ítem queda limpio. Cargas correctas (acuerdo = GAL, antitradicionalismo). Posiciones plausibles; PP en −1 es defendible (rechaza la autodeterminación pero Feijóo evitó comprometerse a derogar la ley), aunque −2 también sería razonable.]"
+  },
+  {
+    "id": "fem-002",
+    "texto": "Los menores de 14 a 16 años deben poder modificar su sexo registral con el consentimiento de sus padres o tutores.",
+    "modulo": "feminismos-moral",
+    "ejes": [],
+    "polaridad": "positiva",
+    "tags": [
+      "trans",
+      "menores",
+      "autodeterminacion-genero"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Afina dentro del bloque pro-trans: Podemos/Sumar (+2) frente a un PSOE que lo aceptó a regañadientes (+1) y a la izquierda gender-critical (−2). Derecha unida en contra, por eso solo-matching. | Esperado: Podemos +2, Sumar +2, ERC +1, PSOE (oficial) +1, feminismo clásico (Feministas al Congreso) -2, PP -2, VOX -2. | Es lo que recoge la ley trans vigente para 14-16 años; mide la adhesión al detalle más contestado de la norma, no al principio general (fem-01)."
+  },
+  {
+    "id": "fem-003",
+    "texto": "La prostitución ejercida voluntariamente entre personas adultas debe regularse como un trabajo con derechos laborales y cotización.",
+    "modulo": "feminismos-moral",
+    "ejes": [],
+    "polaridad": "positiva",
+    "tags": [
+      "prostitucion",
+      "regulacionismo",
+      "trabajo-sexual"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Corte no lineal: anarcosindicalismo (CGT/OTRAS) y liberales a favor frente a PSOE, Podemos y feminismo clásico abolicionistas; PP y VOX en contra pero sin marco abolicionista. Separa Sumar (dividido) de Podemos. | Esperado: CGT / sindicato OTRAS (regulacionismo) +2, liberales (P-LIB, ala liberal de Cs) +2, sectores de Sumar +1, PSOE -2, Podemos -2, feminismo abolicionista -2, PP -1, VOX -1. | La votación de la ley abolicionista del PSOE (2022-2024) mostró la fractura real de la izquierda parlamentaria en este punto."
+  },
+  {
+    "id": "fem-004",
+    "texto": "La ley debe sancionar con multas a quienes paguen por mantener relaciones sexuales.",
+    "modulo": "feminismos-moral",
+    "ejes": [],
+    "polaridad": "negativa",
+    "tags": [
+      "prostitucion",
+      "abolicionismo",
+      "modelo-nordico"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Mide el abolicionismo activo (modelo nórdico): PSOE y feminismo clásico (+2) frente a regulacionistas y liberales (−2); Podemos a favor con matices y PP/VOX tibios, lo que lo separa de fem-03. | Esperado: PSOE +2, feminismo abolicionista +2, Podemos +1, PP +0, VOX -1, sectores regulacionistas de Sumar -1, CGT / OTRAS -2, liberales (P-LIB) -2. | Podemos es abolicionista oficial pero receló de la vía punitivista del PSOE; PP evita el modelo nórdico aunque rechaza la regulación."
+  },
+  {
+    "id": "fem-005",
+    "texto": "La ley que permite la eutanasia debe derogarse.",
+    "modulo": "feminismos-moral",
+    "ejes": [
+      {
+        "eje": "tradicion-moral",
+        "carga": 1
+      },
+      {
+        "eje": "laicismo",
+        "carga": 0.5
+      }
+    ],
+    "polaridad": "negativa",
+    "tags": [
+      "eutanasia",
+      "bioetica",
+      "final-de-vida"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Separa el bloque democristiano/tradicionalista (VOX +2, democristianos +2, PP +1) del consenso izquierda + liberales (Cs votó a favor de la ley, −2). Dentro de la derecha, distingue a los liberales de los confesionales. | Esperado: VOX +2, sector democristiano del PP +2, PP (oficial) +1, PNV -1, Ciudadanos -2, PSOE -2, Podemos -2. | La ley de eutanasia (2021) fue votada a favor por PSOE, UP, Cs, ERC, PNV y Bildu; PP y VOX en contra y recurrieron al TC. | [Corregido en revisión: Ambigüedad real: 'la regulación que permite la eutanasia EN LA SANIDAD PÚBLICA debe derogarse' admite la lectura de 'que siga siendo legal pero fuera de la pública' — un democristiano moderado y un liberal podrían marcar acuerdo por razones opuestas. La ley de 2021 regula la eutanasia como derecho, no solo su prestación pública. Eliminada la coletilla, el ítem mide lo que dice medir. Cargas correctas (acuerdo = tradicionalismo moral + confesionalismo) y es de los pocos ítems invertidos del módulo, lo que ayuda contra la aquiescencia. Posiciones acordes con la votación real de 2021.]"
+  },
+  {
+    "id": "fem-006",
+    "texto": "El aborto solo debe estar permitido en supuestos tasados, como la violación, el grave riesgo para la madre o la anomalía fetal grave.",
+    "modulo": "feminismos-moral",
+    "ejes": [
+      {
+        "eje": "tradicion-moral",
+        "carga": 1
+      }
+    ],
+    "polaridad": "negativa",
+    "tags": [
+      "aborto",
+      "supuestos",
+      "bioetica"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Gradúa la derecha en el aborto: democristianos del PP (+2, la vieja ley de 1985) frente al PP pragmático (0) y a VOX (+1, que preferiría ir más lejos). Liberales e izquierda unidos en contra. | Esperado: sector democristiano del PP +2, VOX +1, PP (oficial) +0, PNV -1, Ciudadanos -2, PSOE -2, Podemos -2. | Distinto del ítem existente de prohibición casi total: aquí se mide la posición intermedia (contrarreforma Gallardón, 2014). VOX en +1 porque lo apoyaría como paso, no como meta. | [Corregido en revisión: Dos defectos de redacción: (1) la coletilla 'y no libremente por plazos' añade una segunda proposición con negación (roza el doble barril y presupone que el encuestado conoce el sistema vigente); el 'solo' inicial ya excluye los plazos. (2) 'Malformación del feto' es léxico cargado; 'anomalía fetal grave' es el término clínico neutro. El contenido sí discrimina y no duplica el ítem existente de prohibición casi total ('salvo riesgo vital'): mide la posición intermedia tipo ley de 1985/contrarreforma de 2014. La hipótesis VOX +1 / democristianos +2 / PP oficial 0 es defendible (Feijóo ha dicho que no tocará la ley de plazos). Carga tradicion-moral +1 correcta.]"
+  },
+  {
+    "id": "fem-007",
+    "texto": "Los centros escolares deben pedir autorización previa a las familias antes de impartir a sus hijos talleres de educación afectivo-sexual.",
+    "modulo": "feminismos-moral",
+    "ejes": [
+      {
+        "eje": "tradicion-moral",
+        "carga": 0.75
+      },
+      {
+        "eje": "social",
+        "carga": 0.5
+      }
+    ],
+    "polaridad": "negativa",
+    "tags": [
+      "pin-parental",
+      "educacion",
+      "familia"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: El pin parental separa a VOX (+2) del PP (que lo aceptó en Murcia pero lo rehúye a nivel estatal, +1) y a ambos de Cs (−1) y de toda la izquierda (−2). | Esperado: VOX +2, entorno CONCAPA / Hazte Oír +2, PP +1, Ciudadanos -1, PSOE -2, Podemos -2, ERC -2. | Redactado sin la etiqueta 'pin parental' para que ambos bandos lo lean sin caricatura. Polaridad negativa: restringe la actividad escolar por defecto."
+  },
+  {
+    "id": "fem-008",
+    "texto": "La asignatura de religión confesional debe salir del horario lectivo de la escuela pública.",
+    "modulo": "feminismos-moral",
+    "ejes": [
+      {
+        "eje": "laicismo",
+        "carga": -1
+      }
+    ],
+    "polaridad": "negativa",
+    "tags": [
+      "laicismo",
+      "educacion",
+      "religion"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Eje laicismo escolar: IU/Podemos/ERC (+2) frente a PP/VOX/PNV (−2), con el PSOE en un +1 programático que nunca ejecuta del todo. Separa también a Cs (laicista tibio) del PP. | Esperado: IU/PCE +2, Podemos +2, ERC +2, PSOE +1, Ciudadanos +1, PNV -2, PP -2, VOX -2."
+  },
+  {
+    "id": "fem-009",
+    "texto": "España debe poner fin a los Acuerdos de 1979 con la Santa Sede que regulan la financiación y la presencia institucional de la Iglesia católica.",
+    "modulo": "feminismos-moral",
+    "ejes": [
+      {
+        "eje": "laicismo",
+        "carga": -1
+      }
+    ],
+    "polaridad": "negativa",
+    "tags": [
+      "laicismo",
+      "concordato",
+      "iglesia-estado"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: El laicismo duro: distingue a la izquierda republicana (IU/ERC +2) del PSOE (+1, lo aprueba en congresos pero no lo hace en el Gobierno) y a los democristianos (PNV, PP) del resto de la derecha laica. | Esperado: IU/PCE +2, Podemos +2, ERC +2, PSOE +1, Ciudadanos +0, PNV -2, PP -2, VOX -2. | Complementa a fem-09: quien apoya sacar la religión del aula pero no denunciar el Concordato es laicista moderado (PSOE) y no republicano-laicista (IU)."
+  },
+  {
+    "id": "fem-010",
+    "texto": "La ley debe exigir una presencia mínima de mujeres en los consejos de administración de las grandes empresas.",
+    "modulo": "feminismos-moral",
+    "ejes": [
+      {
+        "eje": "social",
+        "carga": -0.5
+      },
+      {
+        "eje": "economico",
+        "carga": -0.25
+      }
+    ],
+    "polaridad": "positiva",
+    "tags": [
+      "paridad",
+      "cuotas",
+      "igualdad"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Cuotas obligatorias: izquierda (+2) frente a liberales del mérito (Cs −1, P-LIB −2) y VOX (−2), con el PP en un 0 incómodo tras la directiva europea de paridad. Separa liberales de conservadores dentro de la derecha. | Esperado: PSOE +2, Sumar +2, Podemos +2, PP +0, Ciudadanos -1, liberales (P-LIB) -2, VOX -2. | La Ley de representación paritaria (2024) transpone la directiva europea; el PP evitó el frontal 'no' de VOX."
+  },
+  {
+    "id": "fem-011",
+    "texto": "El Código Penal debe mantener penas agravadas específicas cuando un hombre agrede a su pareja o expareja mujer.",
+    "modulo": "feminismos-moral",
+    "ejes": [],
+    "polaridad": "positiva",
+    "tags": [
+      "violencia-genero",
+      "codigo-penal",
+      "consenso"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Solo-matching nítido del consenso del Pacto de Estado contra la violencia de género: todo el arco (PSOE, PP, Cs, Podemos, PNV) en +2 frente a VOX (−2, 'violencia intrafamiliar') y a algún libertarianismo jurídico (−1). | Esperado: PSOE +2, PP +2, Podemos +2, Ciudadanos +2, PNV +2, VOX -2, libertarianismo jurídico (sectores de P-LIB) -1. | VOX es el único partido parlamentario que impugna la asimetría penal de la LO 1/2004; ítem de identificación pura, sin carga en el mapa."
+  },
+  {
+    "id": "fem-012",
+    "texto": "Las jóvenes de 16 y 17 años deben poder interrumpir su embarazo sin necesidad del consentimiento de sus padres.",
+    "modulo": "feminismos-moral",
+    "ejes": [
+      {
+        "eje": "social",
+        "carga": -0.5
+      },
+      {
+        "eje": "tradicion-moral",
+        "carga": -0.5
+      }
+    ],
+    "polaridad": "positiva",
+    "tags": [
+      "aborto",
+      "menores",
+      "bioetica"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Gradúa el bloque pro-plazos por un flanco distinto a fem-07: toda la izquierda (+2) frente a Cs (que aceptaba los plazos para adultas pero apoyó el consentimiento paterno de la reforma de 2015, −1) y al PP (−2, autor de esa exigencia). Separa así 'pro-plazos con tutela familiar' de 'pro-plazos pleno'. | Esperado: PSOE +2, Podemos +2, Sumar +2, ERC +2, Ciudadanos -1, PP -2, VOX -2. | La reforma de 2022 restauró lo que la ley de 2010 preveía y el PP suprimió en 2015. Formulado sin citar ninguna ley para que dure. | [Añadido por el revisor para cubrir un hueco]"
+  },
+  {
+    "id": "fem-013",
+    "texto": "El Código Penal debe dejar de castigar la ofensa a los sentimientos religiosos.",
+    "modulo": "feminismos-moral",
+    "ejes": [
+      {
+        "eje": "laicismo",
+        "carga": -1
+      }
+    ],
+    "polaridad": "negativa",
+    "tags": [
+      "laicismo",
+      "libertad-expresion",
+      "codigo-penal"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Tercer ángulo del eje laicismo (expresión, no escuela ni dinero): IU/ERC/Podemos (+2) frente a un PSOE que lo promete y no lo deroga (+1); y dentro de la derecha separa a los liberales (Cs +1, favorables a despenalizar) de PP y VOX (−2), que han defendido el art. 525 ante casos mediáticos. | Esperado: IU/PCE +2, Podemos +2, ERC +2, PSOE +1, Ciudadanos +1, PNV -1, PP -2, VOX -2. | Casos reales recurrentes (procesiones paródicas, artistas procesados) mantienen vivo el debate; la referencia al tipo penal es estructural, no coyuntural. | [Añadido por el revisor para cubrir un hueco]"
+  },
+  {
+    "id": "fem-014",
+    "texto": "La venta regulada de cannabis a personas adultas debe ser legal.",
+    "modulo": "feminismos-moral",
+    "ejes": [
+      {
+        "eje": "social",
+        "carga": -0.75
+      }
+    ],
+    "polaridad": "positiva",
+    "tags": [
+      "cannabis",
+      "moral-publica",
+      "drogas"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Corte intra-izquierda nítido que ningún otro ítem da: el PSOE se opone (−1, tumbó las proposiciones de regulación integral) frente a Podemos/Sumar/ERC (+2). E intra-derecha: Cs presentó su propia ley de regulación (+1) y los liberales están a favor (+2) frente a PP/VOX (−2). | Esperado: Podemos +2, Sumar +2, ERC +2, liberales (P-LIB) +2, Ciudadanos +1, PSOE -1, PP -2, VOX -2. | En 2021-2022 se debatieron en el Congreso las propuestas de regulación de Más País/Podemos y de Cs; el PSOE votó con PP y VOX contra la toma en consideración. Discriminante raro: junta a liberales con la izquierda alternativa contra los dos grandes polos del bipartidismo moral. | [Añadido por el revisor para cubrir un hueco]"
+  }
+]

@@ -1,0 +1,296 @@
+[
+  {
+    "id": "nac-001",
+    "texto": "Si el Estado rechaza de forma permanente un referéndum pactado, es legítimo que las instituciones de la nación abran una vía unilateral hacia la independencia.",
+    "modulo": "nacionalismos-regionalismos",
+    "ejes": [
+      {
+        "eje": "territorial",
+        "carga": -0.5
+      }
+    ],
+    "polaridad": "positiva",
+    "tags": [
+      "autodeterminación",
+      "unilateralidad",
+      "estrategia"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Separa unilateralistas (CUP, Junts, Aliança Catalana) de pactistas: ERC lo matiza tras el procés, PNV y BNG rechazan la vía unilateral. | Esperado: CUP +2, Junts +2, Aliança Catalana +2, ERC +1, EH Bildu +1, PNV -1, BNG +0, UPN -2. | Formulado como principio condicional para que no caduque; la no linealidad fina se recoge en posicionesEsperadas."
+  },
+  {
+    "id": "nac-002",
+    "texto": "El objetivo final para mi nación debe ser un Estado independiente, no un encaje pactado de más autogobierno dentro de España.",
+    "modulo": "nacionalismos-regionalismos",
+    "ejes": [
+      {
+        "eje": "territorial",
+        "carga": -1
+      }
+    ],
+    "polaridad": "positiva",
+    "tags": [
+      "independencia",
+      "confederalismo",
+      "foralismo"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Independentistas (ERC, Junts, CUP, EH Bildu) frente a confederalistas/foralistas (PNV, Geroa Bai, PDeCAT) y frente al foralismo españolista (UPN); BNG soberanista pero gradualista. | Esperado: EH Bildu +2, ERC +2, CUP +2, Junts +2, PNV -1, Geroa Bai -1, BNG +1, UPN -2."
+  },
+  {
+    "id": "nac-003",
+    "texto": "Quien no habla la lengua propia del territorio no puede considerarse plenamente miembro de la nación.",
+    "modulo": "nacionalismos-regionalismos",
+    "ejes": [
+      {
+        "eje": "social",
+        "carga": 0.5
+      }
+    ],
+    "polaridad": "negativa",
+    "tags": [
+      "nación cívica",
+      "nación etnocultural",
+      "lengua"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Concepción etnolingüística (Aliança Catalana, sectores tradicionalistas) frente a la definición cívica dominante en ERC, CUP, EH Bildu y BNG ('es de aquí quien vive y trabaja aquí'). | Esperado: Aliança Catalana +1, ERC -2, CUP -2, EH Bildu -1, PNV -1, BNG -2, UPN -2. | Los partidos estatales discrepan por rechazar el propio marco nacional; a efectos de matching quedan junto al polo cívico."
+  },
+  {
+    "id": "nac-004",
+    "texto": "Un partido nacionalista debe estar dispuesto a pactar con cualquier fuerza, de izquierda o de derecha, si eso amplía el autogobierno de su nación.",
+    "modulo": "nacionalismos-regionalismos",
+    "ejes": [],
+    "polaridad": "positiva",
+    "tags": [
+      "prioridad eje nacional",
+      "pactos",
+      "transversalidad"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Transversales que priorizan el eje nacional (PNV, Junts, PDeCAT) frente a quienes subordinan los pactos al eje izquierda-derecha (CUP, EH Bildu, BNG); ERC en posición intermedia. | Esperado: PNV +2, Junts +2, PDeCAT +2, ERC +0, EH Bildu -2, CUP -2, BNG -1. | [Corregido en revisión: La carga territorial −0.5 es un error de linealidad, no de signo: la CUP y Junts están ambos en el extremo descentralizador y responden en polos opuestos (−2 vs +2); puntuar el acuerdo como 'más descentralizador' desplazaría en el mapa a votantes de PNV/Junts frente a los de CUP/Bildu sin que difieran en el eje territorial. Es la definición de ítem no lineal: debe ser solo-matching (ejes: []). El texto y las posiciones esperadas son buenos; es de los ítems que mejor discriminan del borrador.]"
+  },
+  {
+    "id": "nac-005",
+    "texto": "La solidaridad entre territorios debe limitarse para que las comunidades que más aportan no pierdan posiciones de renta tras el reparto (principio de ordinalidad).",
+    "modulo": "nacionalismos-regionalismos",
+    "ejes": [
+      {
+        "eje": "territorial",
+        "carga": -0.5
+      },
+      {
+        "eje": "economico",
+        "carga": 0.25
+      }
+    ],
+    "polaridad": "negativa",
+    "tags": [
+      "ordinalidad",
+      "financiación",
+      "solidaridad interterritorial"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Nacionalismos de territorio contribuyente (ERC, Junts, PNV) frente a la izquierda soberanista solidarista (CUP, Bildu) y al nacionalismo de territorio receptor (BNG, que sale perdiendo con la ordinalidad). | Esperado: Junts +2, ERC +2, PNV +2, PDeCAT +2, CUP +0, EH Bildu +0, BNG -1, UPN +1."
+  },
+  {
+    "id": "nac-006",
+    "texto": "Bloquear la gobernabilidad de España es una herramienta legítima para forzar avances hacia la soberanía de mi nación.",
+    "modulo": "nacionalismos-regionalismos",
+    "ejes": [],
+    "polaridad": "positiva",
+    "tags": [
+      "estrategia",
+      "gobernabilidad",
+      "confrontación"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Estrategia de confrontación (Junts, Aliança Catalana, CUP) frente a pragmatismo institucional (PNV, ERC, Bildu, BNG, Geroa Bai). No lineal en el eje territorial: el PNV, muy soberanista, la rechaza; por eso es solo-matching. | Esperado: Junts +2, Aliança Catalana +2, CUP +1, ERC -1, PNV -2, EH Bildu -1, BNG -1, Geroa Bai -2. | [Corregido en revisión: Error de etiqueta de polaridad: 'es una herramienta legítima' propone permitir/legitimar, igual que nac-101 (marcado positiva con estructura idéntica). Que la acción legitimada sea obstructiva no convierte el ítem en polaridad negativa; la polaridad es de la formulación, no del contenido. Todo lo demás es correcto: solo-matching bien justificado (PNV muy soberanista pero −2), Junts +2 documentado (retirada de apoyo a Sánchez, votos con PP/Vox en 2024-25), ERC/Bildu −1 coherente con su apuesta por la gobernabilidad.]"
+  },
+  {
+    "id": "nac-007",
+    "texto": "Debe renunciarse a crear un Estado propio si eso supone quedar fuera de la Unión Europea.",
+    "modulo": "nacionalismos-regionalismos",
+    "ejes": [
+      {
+        "eje": "ue",
+        "carga": -0.5
+      }
+    ],
+    "polaridad": "negativa",
+    "tags": [
+      "europa",
+      "independencia",
+      "eurocrítica"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Europeístas incondicionales (PNV, Geroa Bai, ERC, Junts) frente a soberanistas eurocríticos que asumirían quedar fuera (CUP, sectores de Bildu, tradición eurocrítica del BNG). | Esperado: PNV +2, Geroa Bai +2, ERC +1, Junts +1, EH Bildu +0, CUP -2, BNG -1. | Para votantes no nacionalistas funciona como ítem de europeísmo genérico; la discriminación fina es intra-soberanista. | [Corregido en revisión: El original ('no merece la pena si... deja fuera') encierra una negación dentro de un condicional: para discrepar el usuario debe computar 'sí merece la pena aunque quede fuera', el patrón que Kamoen & Holleman muestran que degrada la validez. La reformulación elimina la negación interna manteniendo dirección: acuerdo = europeísta, así que la carga ue −0.5 y todas las posicionesEsperadas se conservan sin tocar (PNV +2, CUP −2). La polaridad sigue siendo negativa (renunciar/descartar), lo que además preserva el balance del conjunto.]"
+  },
+  {
+    "id": "nac-008",
+    "texto": "Cualquier comunidad que lo desee debería poder acordar con el Estado una hacienda propia de tipo concierto económico.",
+    "modulo": "nacionalismos-regionalismos",
+    "ejes": [
+      {
+        "eje": "territorial",
+        "carga": -0.5
+      }
+    ],
+    "polaridad": "positiva",
+    "tags": [
+      "concierto económico",
+      "financiación",
+      "foralismo"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Universalizadores del modelo de concierto (ERC, Junts, BNG) frente a los exclusivistas forales (PNV, UPN), que recelan de generalizar un régimen que consideran derecho histórico propio. No lineal: enfrenta a dos nacionalismos entre sí. | Esperado: ERC +2, Junts +2, BNG +1, EH Bildu +1, PNV -1, UPN -1, CUP +0."
+  },
+  {
+    "id": "nac-009",
+    "texto": "Un partido regionalista o insularista debe estar dispuesto a pactar con cualquier partido estatal, de izquierda o de derecha, si con ello consigue inversiones para su tierra.",
+    "modulo": "nacionalismos-regionalismos",
+    "ejes": [],
+    "polaridad": "positiva",
+    "tags": [
+      "pactismo",
+      "regionalismo",
+      "estrategia"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Pactismo puro (CC, PRC, PAR, ASG: sí rotundo) frente a lógica de frente de progreso (NC-bc, CHA, Compromís, Més: solo con la izquierda). Es la línea divisoria estratégica central de la familia. | Esperado: Coalición Canaria +2, PRC +2, PAR +2, ASG +2, Teruel Existe +1, Nueva Canarias-bc -2, CHA -2, Compromís -2. | CC apoyó la investidura de Feijóo en 2023 y negoció después con el PSOE; el PRC ha apoyado gobiernos de ambos colores. CHA y Compromís se definen explícitamente como fuerzas de progreso."
+  },
+  {
+    "id": "nac-010",
+    "texto": "El reparto de la financiación autonómica debe primar la despoblación, el envejecimiento y la dispersión por encima de la población real de cada territorio.",
+    "modulo": "nacionalismos-regionalismos",
+    "ejes": [],
+    "polaridad": "positiva",
+    "tags": [
+      "financiacion-autonomica",
+      "despoblacion"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Gran fractura interna de la familia: territorios despoblados (Teruel Existe, Soria ¡YA!, PRC, CHA, UPL) quieren criterios de coste de servicio; los infrafinanciados per cápita (Compromís, Més per Mallorca) exigen población real. Ítem no lineal: solo-matching. | Esperado: Teruel Existe +2, Soria ¡YA! +2, PRC +2, CHA +1, Coalición Canaria +1, Compromís -2, Més per Mallorca -1. | La 'infrafinanciación valenciana' es la bandera económica de Compromís; la España Vaciada defiende ponderar dispersión y envejecimiento."
+  },
+  {
+    "id": "nac-011",
+    "texto": "Mientras haya provincias sin un servicio ferroviario convencional en condiciones, el Estado no debería construir nuevas líneas de alta velocidad.",
+    "modulo": "nacionalismos-regionalismos",
+    "ejes": [
+      {
+        "eje": "ecologia",
+        "carga": 0.25
+      }
+    ],
+    "polaridad": "negativa",
+    "tags": [
+      "infraestructuras",
+      "tren",
+      "agravio-territorial"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: España Vaciada (tren convencional para Teruel y Soria: muy de acuerdo) frente a PRC, que lleva décadas exigiendo alta velocidad para Cantabria, y al PAR pro-AVE. Divide el agravio ferroviario en dos estrategias opuestas. | Esperado: Teruel Existe +2, Soria ¡YA! +2, CHA +1, Compromís +0, PRC -2, PAR -1, PP -1. | El 'tren digno' es reivindicación fundacional de Teruel Existe; Revilla ha condicionado apoyos parlamentarios al AVE a Santander. | [Corregido en revisión: El fondo es excelente: divide el agravio ferroviario en dos estrategias opuestas (tren convencional para TE/Soria ¡YA! vs. AVE para PRC, que ha condicionado apoyos parlamentarios al AVE a Santander) y es una de las pocas fracturas limpias dentro de la España despoblada. Pero 'tren digno' es literalmente el eslogan fundacional de Teruel Existe: usar el marco de una de las partes inclina la balanza (efecto de encuadre). Se sustituye por redacción descriptiva equivalente. Eje ecologia +0.25 correcto de signo (crítica ecologista al modelo AVE).]"
+  },
+  {
+    "id": "nac-012",
+    "texto": "Para tener voz en Madrid, un partido regionalista de izquierdas debe integrarse en las coaliciones electorales de la izquierda estatal.",
+    "modulo": "nacionalismos-regionalismos",
+    "ejes": [],
+    "polaridad": "positiva",
+    "tags": [
+      "coaliciones",
+      "estrategia",
+      "izquierda-territorial"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Divide la izquierda territorial: CHA e Iniciativa (concurrieron con Sumar) frente al ala nacionalista de Compromís y Més, recelosa, y frente a Adelante Andalucía y Nación Andaluza, que rechazan toda tutela estatal como 'sucursalismo'. NC-bc, aliada del PSOE, en posición intermedia. | Esperado: CHA +2, Iniciativa del Poble Valencià +2, Nueva Canarias-bc +1, Més-Compromís (ala Bloc) +0, Més per Mallorca +0, Adelante Andalucía -2, Nación Andaluza -2, Coalición Canaria -2. | En 2023 CHA, Compromís y Més negociaron su encaje en Sumar con tensiones internas; Teresa Rodríguez rompió con Podemos precisamente por la autonomía andaluza del proyecto."
+  },
+  {
+    "id": "nac-013",
+    "texto": "Lenguas propias como el aragonés o el leonés deben ser cooficiales en las zonas donde todavía se hablan.",
+    "modulo": "nacionalismos-regionalismos",
+    "ejes": [
+      {
+        "eje": "territorial",
+        "carga": -0.5
+      },
+      {
+        "eje": "social",
+        "carga": -0.25
+      }
+    ],
+    "polaridad": "positiva",
+    "tags": [
+      "lenguas",
+      "identidad",
+      "cooficialidad"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Dentro de Aragón separa nítidamente CHA (cooficialidad del aragonés y el catalán de Aragón) del PAR (contrario). También distingue UPL (llionés) y el regionalismo identitario del regionalismo pragmático sin eje lingüístico (PRC). | Esperado: CHA +2, UPL +2, Compromís +2, Nación Andaluza +1, PAR -1, PRC +0, PP -2."
+  },
+  {
+    "id": "nac-014",
+    "texto": "Las diputaciones provinciales deberían suprimirse, traspasando sus funciones a comunidades autónomas y ayuntamientos.",
+    "modulo": "nacionalismos-regionalismos",
+    "ejes": [],
+    "polaridad": "negativa",
+    "tags": [
+      "diputaciones",
+      "arquitectura-institucional"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Compromís, Més y CHA proponen suprimirlas; PAR, PRC y el provincialismo de la España Vaciada y UPL defienden la provincia como escudo del territorio. Distinción no lineal (también hubo centralistas partidarios de suprimirlas): solo-matching. | Esperado: Compromís +2, CHA +2, Més per Mallorca +2, PAR -2, PRC -1, UPL -1, Teruel Existe -1. | La supresión de diputaciones es posición programática histórica de Compromís y CHA."
+  },
+  {
+    "id": "nac-015",
+    "texto": "León, Zamora y Salamanca deberían separarse de Castilla y León para constituir una comunidad autónoma propia.",
+    "modulo": "nacionalismos-regionalismos",
+    "ejes": [
+      {
+        "eje": "territorial",
+        "carga": -0.5
+      }
+    ],
+    "polaridad": "positiva",
+    "tags": [
+      "leonesismo",
+      "region-leonesa",
+      "nueva-autonomia"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Es la razón de ser de UPL (+2) frente a PSOE y PP de Castilla y León (-2). Dentro de la propia España interior separa el leonesismo autonomista del provincialismo inversor de Soria ¡YA! (-1: quiere inversión en la comunidad actual, no romperla) y del agrarismo pragmático (PRC, 0). CHA, federalista de identidades, simpatiza (+1). | Esperado: UPL +2, CHA +1, Teruel Existe +0, PRC +0, Soria ¡YA! -1, PSOE -2, PP -2, Vox -2. | Desde 2020 decenas de plenos municipales leoneses, incluido el Ayuntamiento de León, han aprobado mociones pro-autonomía a iniciativa de UPL. Reivindicación estable desde 1983. | [Añadido por el revisor para cubrir un hueco]"
+  },
+  {
+    "id": "nac-016",
+    "texto": "Un partido nacido para luchar contra la despoblación no debe definirse ni de izquierdas ni de derechas.",
+    "modulo": "nacionalismos-regionalismos",
+    "ejes": [],
+    "polaridad": "negativa",
+    "tags": [
+      "despoblacion",
+      "transversalidad",
+      "espana-vaciada"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Sustituye al eliminado nac-202 midiendo la distinción que aquel fallaba: la transversalidad como identidad de Teruel Existe y Soria ¡YA! (+2) frente al regionalismo que sostiene que el territorio se defiende desde la izquierda (CHA, NC-bc, Compromís: -2). PRC pragmático-personalista cerca del sí. No lineal: solo-matching. | Esperado: Teruel Existe +2, Soria ¡YA! +2, PRC +1, UPL +1, CHA -2, Nueva Canarias-bc -2, Compromís -2, PSOE -1. | Teruel Existe y Soria ¡YA! rechazan explícitamente ubicarse en el eje izquierda-derecha; CHA se define como izquierda aragonesista desde su fundación. | [Añadido por el revisor para cubrir un hueco]"
+  },
+  {
+    "id": "nac-017",
+    "texto": "Los trasvases de agua entre cuencas, como los proyectados desde el Ebro, deben descartarse definitivamente.",
+    "modulo": "nacionalismos-regionalismos",
+    "ejes": [
+      {
+        "eje": "ecologia",
+        "carga": 0.5
+      }
+    ],
+    "polaridad": "negativa",
+    "tags": [
+      "agua",
+      "trasvases",
+      "aragonesismo"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Prueba la transversalidad territorial del aragonesismo: CHA (izquierda) y PAR (centro-derecha) coinciden en el rechazo al trasvase del Ebro pese a militar en bloques opuestos, y el PAR se separa aquí nítidamente de su socio natural PP ('agua para todos'). Compromís, cultura del agua, +1. No lineal en izquierda-derecha; la carga va al eje ecológico. | Esperado: CHA +2, PAR +2, Teruel Existe +2, Compromís +1, PSOE +0, PP -2, Vox -2. | La oposición al trasvase del PHN de 2001 es consenso fundacional del aragonesismo político y motivó manifestaciones masivas en Zaragoza; PP y Vox mantienen la bandera pro-trasvases en el arco levantino y murciano. | [Añadido por el revisor para cubrir un hueco]"
+  }
+]

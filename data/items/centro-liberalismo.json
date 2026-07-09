@@ -1,0 +1,382 @@
+[
+  {
+    "id": "lib-001",
+    "texto": "La financiación pública de la sanidad debería sustituirse por seguros privados, con ayudas públicas solo para quien no pueda pagarlos.",
+    "modulo": "centro-liberalismo",
+    "ejes": [
+      {
+        "eje": "economico",
+        "carga": 1
+      }
+    ],
+    "polaridad": "negativa",
+    "tags": [
+      "sanidad",
+      "estado-minimo",
+      "ancap-vs-socioliberal"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: El corte interno clave de la familia: ancap y liberal clásico duro (a favor) frente al socioliberal Estado-garante (muy en contra): Cs, UPyD y Volt defienden financiación pública universal aunque acepten gestión privada. No duplica el ítem del núcleo sobre gestión privada: aquí se pregunta por la financiación. | Esperado: anarcocapitalismo +2, P-LIB +2, liberalismo clásico +1, Ciudadanos -2, Volt España -2, UPyD -2, PP -1. | Complementa (no duplica) el ítem de núcleo sobre gestión privada: la línea socioliberal acepta gestión privada pero rechaza retirar la financiación pública."
+  },
+  {
+    "id": "lib-002",
+    "texto": "La seguridad y la justicia deberían poder prestarlas empresas privadas en competencia, sin monopolio estatal de policías y jueces.",
+    "modulo": "centro-liberalismo",
+    "ejes": [
+      {
+        "eje": "economico",
+        "carga": 1
+      }
+    ],
+    "polaridad": "positiva",
+    "tags": [
+      "ancap",
+      "justicia-privada",
+      "estado-minimo"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Separa al anarcocapitalista (privatizar TODO) del minarquista y del liberal clásico, para quienes seguridad y justicia son precisamente el núcleo irrenunciable del Estado. Va un paso más allá del ítem de Estado mínimo ya existente en corrientes-derecha. | Esperado: anarcocapitalismo +2, P-LIB +1, liberalismo clásico -2, Ciudadanos -2, PP -2, Vox -2. | El ítem de corrientes-derecha mide minarquismo (Estado limitado a seguridad/justicia); este mide el salto ancap: ni siquiera eso."
+  },
+  {
+    "id": "lib-003",
+    "texto": "El IRPF debería tener un tipo único para todas las rentas, en lugar de tramos progresivos.",
+    "modulo": "centro-liberalismo",
+    "ejes": [
+      {
+        "eje": "economico",
+        "carga": 1
+      }
+    ],
+    "polaridad": "negativa",
+    "tags": [
+      "fiscalidad",
+      "flat-tax",
+      "ancap-vs-socioliberal"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Impuesto plano vs fiscalidad moderada redistributiva: liberal clásico y ancap (a favor) frente a socioliberal (Cs, UPyD, Volt), que mantiene la progresividad aunque baje tipos. También acerca a Vox al polo liberal-fiscal. | Esperado: P-LIB +2, liberalismo clásico +2, Vox +1, PP +0, Ciudadanos -1, UPyD -2, Volt España -2. | [Corregido en revisión: El fondo es bueno (flat tax separa liberal duro de socioliberal), pero 'eliminando los tramos progresivos actuales' ancla el ítem a la estructura vigente ('actuales' caduca y añade un segundo verbo de acción). La reformulación mantiene una sola idea y la polaridad negativa. Ojo factual: el art. 31 CE exige progresividad global del sistema, así que un flat tax con mínimo exento es la versión realista; el texto corregido no lo excluye. Posiciones plausibles: Vox ha propuesto reducción drástica de tramos (+1 razonable), UPyD defendía progresividad explícita (-2 correcto).]"
+  },
+  {
+    "id": "lib-004",
+    "texto": "Cada familia debería recibir un cheque escolar para elegir colegio público, concertado o privado con financiación pública.",
+    "modulo": "centro-liberalismo",
+    "ejes": [
+      {
+        "eje": "economico",
+        "carga": 0.5
+      }
+    ],
+    "polaridad": "positiva",
+    "tags": [
+      "educacion",
+      "cheque-escolar",
+      "libre-eleccion"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Libre elección financiada (liberal clásico, P-LIB, Vox, a favor) frente a la prioridad de la red pública (PSOE, Volt, en contra); el socioliberal queda en apoyo tibio. Separa además al liberal del centroizquierda con el que comparte otras posiciones sociales. | Esperado: liberalismo clásico +2, P-LIB +2, Vox +2, Ciudadanos +1, PP +1, Volt España -1, PSOE -2."
+  },
+  {
+    "id": "lib-005",
+    "texto": "El sistema público de pensiones de reparto debería ir sustituyéndose por cuentas individuales de capitalización.",
+    "modulo": "centro-liberalismo",
+    "ejes": [
+      {
+        "eje": "economico",
+        "carga": 0.75
+      }
+    ],
+    "polaridad": "negativa",
+    "tags": [
+      "pensiones",
+      "capitalizacion",
+      "ancap-vs-socioliberal"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Capitalización vs reparto: liberal clásico y P-LIB (sustitución) frente a socioliberal (sistema mixto, capitalización solo complementaria) y frente a PP y Vox, que defienden el reparto público pese a su discurso de bajada de impuestos. | Esperado: P-LIB +2, liberalismo clásico +2, Ciudadanos +1, PP -1, Vox -1, PRC -1, PSOE -2."
+  },
+  {
+    "id": "lib-006",
+    "texto": "Deberían eliminarse la mayor parte de las restricciones urbanísticas que hoy limitan construir vivienda nueva.",
+    "modulo": "centro-liberalismo",
+    "ejes": [
+      {
+        "eje": "economico",
+        "carga": 0.75
+      },
+      {
+        "eje": "ecologia",
+        "carga": -0.25
+      }
+    ],
+    "polaridad": "negativa",
+    "tags": [
+      "vivienda",
+      "suelo",
+      "liberalizacion"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Respuesta de oferta (liberalizar suelo) frente a respuesta de intervención (controlar alquileres): toda la familia liberal a favor; separa además al liberal del ecologismo urbano y del PP, más continuista con el urbanismo regulado. | Esperado: P-LIB +2, liberalismo clásico +2, Ciudadanos +1, PP +1, Volt España +0, PSOE -1, Sumar/Podemos -2."
+  },
+  {
+    "id": "lib-007",
+    "texto": "Debería suprimirse la obligación de estar colegiado para ejercer una profesión.",
+    "modulo": "centro-liberalismo",
+    "ejes": [
+      {
+        "eje": "economico",
+        "carga": 0.5
+      }
+    ],
+    "polaridad": "negativa",
+    "tags": [
+      "anticorporativismo",
+      "colegios-profesionales"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Anticorporativismo: separa a toda la familia liberal (contra la colegiación obligatoria) del conservadurismo corporativista del PP y del statu quo del PSOE, que protegen los colegios. Distingue liberal de conservador-liberal en lo económico-gremial. | Esperado: P-LIB +2, liberalismo clásico +2, UPyD +1, Ciudadanos +1, PP -1, PSOE -1. | [Corregido en revisión: El contenido es excelente (anticorporativismo separa liberal de conservador-liberal), pero la redacción original contiene una negación en el enunciado ('no debería ser obligatorio'), y Kamoen & Holleman muestran que estar-en-desacuerdo-con-una-negación degrada la fiabilidad de la respuesta. La reformulación afirma la supresión directamente, mantiene una sola idea y conserva la polaridad negativa y la carga economico +0.5. Posiciones plausibles: la CNMC (y Cs/UPyD) han empujado en esa línea; PP y PSOE han protegido la colegiación.]"
+  },
+  {
+    "id": "lib-008",
+    "texto": "Habría que eliminar los límites de licencias de taxi y VTC y dejar competir a cualquiera que cumpla unos requisitos básicos.",
+    "modulo": "centro-liberalismo",
+    "ejes": [
+      {
+        "eje": "economico",
+        "carga": 0.75
+      }
+    ],
+    "polaridad": "negativa",
+    "tags": [
+      "anticorporativismo",
+      "taxi-vtc",
+      "competencia"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Caso VTC: liberales de todas las ramas (liberalizar) frente a la izquierda (defensa del sector del taxi) y frente a PP y PSOE, que mantienen el numerus clausus. Cs hizo bandera de la liberalización de las VTC. | Esperado: Ciudadanos +2, P-LIB +2, liberalismo clásico +2, PP +0, PSOE -1, Vox -1, Sumar/Podemos -2."
+  },
+  {
+    "id": "lib-009",
+    "texto": "La venta de cannabis a personas adultas debería ser legal y estar regulada, como la del alcohol o el tabaco.",
+    "modulo": "centro-liberalismo",
+    "ejes": [
+      {
+        "eje": "tradicion-moral",
+        "carga": -0.5
+      },
+      {
+        "eje": "social",
+        "carga": -0.25
+      }
+    ],
+    "polaridad": "positiva",
+    "tags": [
+      "libertades-personales",
+      "cannabis",
+      "liberal-vs-conservador"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Marca la frontera entre liberal progresista (Cs registró una ley de regulación integral del cannabis; Volt y P-LIB a favor) y conservador liberal (PP y Vox, en contra). Dentro de la izquierda también discrimina PSOE (reticente) de Sumar/Podemos. | Esperado: Ciudadanos +2, Volt España +2, P-LIB +2, Sumar/Podemos +2, liberalismo clásico +1, PSOE -1, PP -2, Vox -2."
+  },
+  {
+    "id": "lib-010",
+    "texto": "La legalización de las drogas debería alcanzar a todas las sustancias, no quedarse solo en el cannabis.",
+    "modulo": "centro-liberalismo",
+    "ejes": [
+      {
+        "eje": "tradicion-moral",
+        "carga": -0.5
+      }
+    ],
+    "polaridad": "positiva",
+    "tags": [
+      "libertades-personales",
+      "drogas",
+      "ancap-vs-socioliberal"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Distingue al libertario/ancap (legalización total como principio de propiedad sobre el propio cuerpo) del socioliberal, que apoya regular el cannabis pero rechaza el mercado libre de todas las drogas. También separa al antiprohibicionismo radical del pragmatismo sanitario de la izquierda. | Esperado: anarcocapitalismo +2, P-LIB +2, Ciudadanos -1, Volt España -1, Sumar/Podemos +0, PP -2, Vox -2."
+  },
+  {
+    "id": "lib-011",
+    "texto": "La prostitución ejercida voluntariamente debería regularse como un trabajo, con contrato y cotización a la Seguridad Social.",
+    "modulo": "centro-liberalismo",
+    "ejes": [
+      {
+        "eje": "tradicion-moral",
+        "carga": -0.5
+      }
+    ],
+    "polaridad": "positiva",
+    "tags": [
+      "libertades-personales",
+      "prostitucion",
+      "regulacionismo-vs-abolicionismo"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Regulacionismo liberal frente a abolicionismo: separa a liberales y ancaps (contrato entre adultos) del PSOE y el feminismo abolicionista (prohibir la demanda) y de los conservadores. Divide también internamente a Podemos/Sumar. | Esperado: P-LIB +2, anarcocapitalismo +2, Ciudadanos +1, liberalismo clásico +1, Sumar/Podemos -1, PP -1, Vox -1, PSOE (feminismo abolicionista) -2."
+  },
+  {
+    "id": "lib-012",
+    "texto": "La gestación subrogada altruista debería ser legal en España.",
+    "modulo": "centro-liberalismo",
+    "ejes": [
+      {
+        "eje": "tradicion-moral",
+        "carga": -0.5
+      },
+      {
+        "eje": "social",
+        "carga": -0.25
+      }
+    ],
+    "polaridad": "positiva",
+    "tags": [
+      "libertades-personales",
+      "gestacion-subrogada",
+      "bioetica"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Bandera histórica de Cs (llevó una ley de gestación subrogada altruista al Congreso): separa al liberal progresista tanto del feminismo abolicionista de PSOE y Podemos como del conservadurismo moral de PP y Vox. El ancap iría más lejos (también comercial). | Esperado: Ciudadanos +2, P-LIB +2, liberalismo clásico +1, PP -1, PSOE -2, Sumar/Podemos -2, Vox -2."
+  },
+  {
+    "id": "lib-013",
+    "texto": "España debería impulsar una federación europea, con un gobierno y un ejército comunes.",
+    "modulo": "centro-liberalismo",
+    "ejes": [
+      {
+        "eje": "ue",
+        "carga": -1
+      }
+    ],
+    "polaridad": "positiva",
+    "tags": [
+      "ue-federal",
+      "volt",
+      "ejercito-europeo"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: UE federal (Volt, y en menor medida Cs/UPyD) frente a UE de mercado del liberal clásico y frente al rechazo ancap a todo super-Estado. Es el ítem que identifica a Volt frente al resto de la familia liberal. | Esperado: Volt España +2, Ciudadanos +1, UPyD +1, PSOE +1, liberalismo clásico -1, P-LIB -2, Vox -2. | [Corregido en revisión: El ítem identifica a Volt como promete y la carga ue -1 tiene el signo correcto (acuerdo = más integración = polo europeísta). Pero la carga atlantismo +0.25 es conceptualmente errónea: el ejército europeo se defiende tanto desde el atlantismo (más gasto, pilar europeo de la OTAN) como desde la autonomía estratégica ANTI-atlantista (menos dependencia de EE.UU.); la relación no es monótona y contamina el eje. Eliminar la segunda carga y dejar solo ue -1. 'Gobierno y ejército comunes' roza el doble barril, pero es el paquete federal indivisible del programa de Volt: tolerable.]"
+  },
+  {
+    "id": "lib-014",
+    "texto": "Los ministerios más técnicos, como Economía o Sanidad, deberían confiarse a profesionales independientes y no a políticos de partido.",
+    "modulo": "centro-liberalismo",
+    "ejes": [],
+    "polaridad": "positiva",
+    "tags": [
+      "tecnocracia",
+      "expertos",
+      "solo-matching"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Identifica la corriente tecnocrática y el centrismo reformista frente a los partidos clásicos de cuadros (PP, PSOE) y frente a la izquierda, que ve la tecnocracia como despolitización neoliberal. Solo-matching: también hay antipolítica populista que asiente, así que no carga limpio en ningún eje. | Esperado: tecnocracia +2, UPyD +1, Ciudadanos +1, Volt España +1, PSOE -1, PP -1, Vox -1, Sumar/Podemos -2. | Distinción no lineal en el eje populismo (asienten tanto tecnócratas como antipolíticos), por eso va sin ejes."
+  },
+  {
+    "id": "lib-015",
+    "texto": "Es legítimo que un partido de ámbito regional apoye en Madrid a gobiernos de cualquier color a cambio de inversiones para su territorio.",
+    "modulo": "centro-liberalismo",
+    "ejes": [],
+    "polaridad": "positiva",
+    "tags": [
+      "regionalismo-pragmatico",
+      "prc",
+      "solo-matching"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Identifica el centrismo regionalista pragmático (PRC, Coalición Canaria: pactar con quien gobierne por inversiones) frente al centrismo españolista de UPyD/Cs (que lo ve como mercadeo territorial) y frente a los nacionalismos con proyecto ideológico. Distinción no lineal: por eso va sin ejes. | Esperado: PRC +2, Coalición Canaria +2, PNV +1, Teruel Existe +1, Ciudadanos -1, ERC -1, UPyD -2, Vox -2."
+  },
+  {
+    "id": "lib-016",
+    "texto": "Las diputaciones provinciales deberían suprimirse, traspasando sus funciones a comunidades y ayuntamientos.",
+    "modulo": "centro-liberalismo",
+    "ejes": [],
+    "polaridad": "negativa",
+    "tags": [
+      "regeneracion",
+      "administracion",
+      "upyd-cs"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Propuesta identitaria del centrismo reformista (UPyD la lanzó, Cs la asumió) frente a PP y PSOE, cuyas estructuras territoriales viven de las diputaciones. Separa al regeneracionismo centrista tanto del bipartidismo como del regionalismo provincialista. | Esperado: UPyD +2, Ciudadanos +2, PRC +0, PSOE -1, Vox -1, PP -2. | [Corregido en revisión: Dos defectos: (1) 'por ser una capa administrativa prescindible' incrusta la justificación como hecho consumado, redacción sesgada que un votante del PP no firmaría como neutra; se elimina. (2) Error factual por omisión que rompe la carga de eje: IU y Podemos llevan AÑOS pidiendo suprimir las diputaciones (falta Sumar/Podemos en +1/+2 en posicionesEsperadas), así que la relación con el eje economico NO es monótona: asienten regeneracionistas de centro Y la izquierda municipalista. Debe pasar a solo-matching (ejes: []). Con esas dos correcciones el ítem discrimina limpiamente regeneracionismo vs bipartidismo territorial.]"
+  },
+  {
+    "id": "lib-017",
+    "texto": "La eutanasia debería estar reconocida por ley como un derecho para enfermos que la soliciten de forma libre y reiterada.",
+    "modulo": "centro-liberalismo",
+    "ejes": [
+      {
+        "eje": "tradicion-moral",
+        "carga": -0.5
+      },
+      {
+        "eje": "social",
+        "carga": -0.25
+      }
+    ],
+    "polaridad": "positiva",
+    "tags": [
+      "libertades-personales",
+      "eutanasia",
+      "liberal-vs-conservador"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Separa al liberal progresista (Cs votó a favor de la ley de eutanasia de 2021; Volt a favor) del conservador liberal (PP la recurrió al Tribunal Constitucional; Vox pide derogarla). Dentro de la familia, el ancap asiente por autopropiedad del cuerpo aunque rechace que sea prestación pública. | Esperado: Ciudadanos +2, Volt España +2, PSOE +2, anarcocapitalismo +1, liberalismo clásico +1, PP -1, Vox -2. | Redactado sobre el principio (derecho reconocido por ley), no sobre la ley concreta de 2021, para que sobreviva a reformas. | [Añadido por el revisor para cubrir un hueco]"
+  },
+  {
+    "id": "lib-018",
+    "texto": "España debería ampliar de forma sustancial las vías legales de inmigración laboral para quien tenga una oferta de trabajo.",
+    "modulo": "centro-liberalismo",
+    "ejes": [
+      {
+        "eje": "social",
+        "carga": -0.5
+      }
+    ],
+    "polaridad": "positiva",
+    "tags": [
+      "inmigracion",
+      "visados",
+      "liberal-aperturista"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Separa al liberal aperturista (mercado de trabajo abierto: Volt, liberalismo clásico, socioliberales) del conservador restrictivo (PP tibio, Vox en contra). No duplica el ítem de núcleo sobre devoluciones: aquel mide la respuesta punitiva a la irregularidad, este la apertura de la vía legal. El mundo ancap queda dividido (fronteras abiertas rothbardianas vs propietarismo hoppeano), varianza esperada alta. | Esperado: Volt España +2, liberalismo clásico +2, Ciudadanos +1, PSOE +1, anarcocapitalismo +0, PP -1, Vox -2. | [Añadido por el revisor para cubrir un hueco]"
+  },
+  {
+    "id": "lib-019",
+    "texto": "La ley debería garantizar en toda España que el castellano sea lengua vehicular en la escuela, junto a las lenguas cooficiales.",
+    "modulo": "centro-liberalismo",
+    "ejes": [
+      {
+        "eje": "territorial",
+        "carga": 0.5
+      }
+    ],
+    "polaridad": "positiva",
+    "tags": [
+      "lengua",
+      "educacion",
+      "centrismo-espanolista"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Seña fundacional de Cs y UPyD: separa al centrista españolista del centrista regionalista pragmático (PRC, indiferente: en Cantabria no hay cooficialidad) y de los nacionalismos periféricos (PNV, ERC, en contra de imponerlo por ley estatal). También distingue a Cs/UPyD del PSOE, que remite la vehicularidad a las comunidades. | Esperado: Ciudadanos +2, UPyD +2, Vox +2, PP +1, PRC +0, PSOE -1, PNV -2, ERC -2. | La cláusula 'junto a las lenguas cooficiales' evita que el ítem se lea como supresión del catalán/euskera/gallego y mantiene la neutralidad exigida. | [Añadido por el revisor para cubrir un hueco]"
+  },
+  {
+    "id": "lib-020",
+    "texto": "La indemnización por despido debería sustituirse por un fondo individual que el trabajador conserva al cambiar de empresa (mochila austriaca).",
+    "modulo": "centro-liberalismo",
+    "ejes": [
+      {
+        "eje": "economico",
+        "carga": 0.5
+      }
+    ],
+    "polaridad": "negativa",
+    "tags": [
+      "laboral",
+      "mochila-austriaca",
+      "flexiseguridad"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: La propuesta laboral más identitaria del socioliberalismo español (bandera de Cs, presente en UPyD): separa al centro reformista tanto de la izquierda laboral (PSOE, Sumar: blindar la indemnización) como del PP, que nunca la ha implantado gobernando. Matiz interno: el ancap/P-LIB preferiría despido libre sin fondo obligatorio, de ahí un +1 y no +2. | Esperado: Ciudadanos +2, liberalismo clásico +2, UPyD +1, P-LIB +1, PP +0, Vox -1, PSOE -2, Sumar/Podemos -2. | [Añadido por el revisor para cubrir un hueco]"
+  }
+]

@@ -1,14 +1,721 @@
 [
-  { "id": "eco-001", "texto": "Los impuestos a las rentas más altas deberían subir de forma significativa.", "modulo": "nucleo", "ejes": [{ "eje": "economico", "carga": -1 }], "polaridad": "positiva", "tags": ["fiscalidad"], "estado": "piloto" },
-  { "id": "eco-002", "texto": "La gestión privada de servicios públicos como la sanidad mejora su eficiencia.", "modulo": "nucleo", "ejes": [{ "eje": "economico", "carga": 1 }], "polaridad": "positiva", "tags": ["sanidad", "privatizacion"], "estado": "piloto" },
-  { "id": "eco-003", "texto": "El salario mínimo debe seguir subiendo por ley aunque pueda costar empleo a corto plazo.", "modulo": "nucleo", "ejes": [{ "eje": "economico", "carga": -1 }], "polaridad": "positiva", "tags": ["laboral"], "estado": "piloto" },
-  { "id": "eco-004", "texto": "Reducir la deuda pública debe tener prioridad sobre aumentar el gasto social.", "modulo": "nucleo", "ejes": [{ "eje": "economico", "carga": 1 }], "polaridad": "positiva", "tags": ["deuda", "gasto"], "estado": "piloto" },
-  { "id": "soc-001", "texto": "Los derechos de las personas LGTB, incluido el matrimonio igualitario, deben mantenerse protegidos por ley.", "modulo": "nucleo", "ejes": [{ "eje": "social", "carga": -1 }], "polaridad": "positiva", "tags": ["lgtb"], "estado": "piloto" },
-  { "id": "soc-002", "texto": "La respuesta prioritaria a la inmigración irregular debe ser la devolución a los países de origen.", "modulo": "nucleo", "ejes": [{ "eje": "social", "carga": 1 }], "polaridad": "positiva", "tags": ["inmigracion"], "estado": "piloto" },
-  { "id": "soc-003", "texto": "Ampliar la videovigilancia en espacios públicos está justificado por la seguridad ciudadana.", "modulo": "nucleo", "ejes": [{ "eje": "social", "carga": 1 }], "polaridad": "positiva", "tags": ["seguridad", "privacidad"], "estado": "piloto" },
-  { "id": "ter-001", "texto": "Las comunidades autónomas deberían devolver competencias al Estado central.", "modulo": "nucleo", "ejes": [{ "eje": "territorial", "carga": 1 }], "polaridad": "positiva", "tags": ["competencias"], "estado": "piloto" },
-  { "id": "ter-002", "texto": "Los territorios que lo deseen deberían poder celebrar un referéndum de autodeterminación.", "modulo": "nucleo", "ejes": [{ "eje": "territorial", "carga": -1 }], "polaridad": "positiva", "tags": ["autodeterminacion"], "estado": "piloto" },
-  { "id": "ue-001", "texto": "La integración europea ha ido demasiado lejos: España debería recuperar soberanía frente a Bruselas.", "modulo": "nucleo", "ejes": [{ "eje": "ue", "carga": 1 }], "polaridad": "positiva", "tags": ["ue", "soberania"], "estado": "piloto" },
-  { "id": "ecl-001", "texto": "El cierre de las centrales más contaminantes debe acelerarse aunque encarezca la factura eléctrica.", "modulo": "nucleo", "ejes": [{ "eje": "ecologia", "carga": 1 }], "polaridad": "positiva", "tags": ["energia", "clima"], "estado": "piloto" },
-  { "id": "pop-001", "texto": "Las élites políticas y económicas actúan de forma coordinada en contra de la gente corriente.", "modulo": "nucleo", "ejes": [{ "eje": "populismo", "carga": 1 }], "polaridad": "positiva", "tags": ["elites"], "estado": "piloto" }
+  {
+    "id": "eco-001",
+    "texto": "Los impuestos a las rentas más altas deberían subir de forma significativa.",
+    "modulo": "nucleo",
+    "ejes": [
+      {
+        "eje": "economico",
+        "carga": -1
+      }
+    ],
+    "polaridad": "positiva",
+    "tags": [
+      "fiscalidad"
+    ],
+    "estado": "piloto"
+  },
+  {
+    "id": "eco-002",
+    "texto": "La gestión privada de servicios públicos como la sanidad mejora su eficiencia.",
+    "modulo": "nucleo",
+    "ejes": [
+      {
+        "eje": "economico",
+        "carga": 1
+      }
+    ],
+    "polaridad": "positiva",
+    "tags": [
+      "sanidad",
+      "privatizacion"
+    ],
+    "estado": "piloto"
+  },
+  {
+    "id": "eco-003",
+    "texto": "El salario mínimo debe seguir subiendo por ley aunque pueda costar empleo a corto plazo.",
+    "modulo": "nucleo",
+    "ejes": [
+      {
+        "eje": "economico",
+        "carga": -1
+      }
+    ],
+    "polaridad": "positiva",
+    "tags": [
+      "laboral"
+    ],
+    "estado": "piloto"
+  },
+  {
+    "id": "eco-004",
+    "texto": "Reducir la deuda pública debe tener prioridad sobre aumentar el gasto social.",
+    "modulo": "nucleo",
+    "ejes": [
+      {
+        "eje": "economico",
+        "carga": 1
+      }
+    ],
+    "polaridad": "positiva",
+    "tags": [
+      "deuda",
+      "gasto"
+    ],
+    "estado": "piloto"
+  },
+  {
+    "id": "soc-001",
+    "texto": "Los derechos de las personas LGTB, incluido el matrimonio igualitario, deben mantenerse protegidos por ley.",
+    "modulo": "nucleo",
+    "ejes": [
+      {
+        "eje": "social",
+        "carga": -1
+      }
+    ],
+    "polaridad": "positiva",
+    "tags": [
+      "lgtb"
+    ],
+    "estado": "piloto"
+  },
+  {
+    "id": "soc-002",
+    "texto": "La respuesta prioritaria a la inmigración irregular debe ser la devolución a los países de origen.",
+    "modulo": "nucleo",
+    "ejes": [
+      {
+        "eje": "social",
+        "carga": 1
+      }
+    ],
+    "polaridad": "positiva",
+    "tags": [
+      "inmigracion"
+    ],
+    "estado": "piloto"
+  },
+  {
+    "id": "soc-003",
+    "texto": "Ampliar la videovigilancia en espacios públicos está justificado por la seguridad ciudadana.",
+    "modulo": "nucleo",
+    "ejes": [
+      {
+        "eje": "social",
+        "carga": 1
+      }
+    ],
+    "polaridad": "positiva",
+    "tags": [
+      "seguridad",
+      "privacidad"
+    ],
+    "estado": "piloto"
+  },
+  {
+    "id": "ter-001",
+    "texto": "Las comunidades autónomas deberían devolver competencias al Estado central.",
+    "modulo": "nucleo",
+    "ejes": [
+      {
+        "eje": "territorial",
+        "carga": 1
+      }
+    ],
+    "polaridad": "positiva",
+    "tags": [
+      "competencias"
+    ],
+    "estado": "piloto"
+  },
+  {
+    "id": "ter-002",
+    "texto": "Los territorios que lo deseen deberían poder celebrar un referéndum de autodeterminación.",
+    "modulo": "nucleo",
+    "ejes": [
+      {
+        "eje": "territorial",
+        "carga": -1
+      }
+    ],
+    "polaridad": "positiva",
+    "tags": [
+      "autodeterminacion"
+    ],
+    "estado": "piloto"
+  },
+  {
+    "id": "ue-001",
+    "texto": "La integración europea ha ido demasiado lejos: España debería recuperar soberanía frente a Bruselas.",
+    "modulo": "nucleo",
+    "ejes": [
+      {
+        "eje": "ue",
+        "carga": 1
+      }
+    ],
+    "polaridad": "positiva",
+    "tags": [
+      "ue",
+      "soberania"
+    ],
+    "estado": "piloto"
+  },
+  {
+    "id": "ecl-001",
+    "texto": "El cierre de las centrales más contaminantes debe acelerarse aunque encarezca la factura eléctrica.",
+    "modulo": "nucleo",
+    "ejes": [
+      {
+        "eje": "ecologia",
+        "carga": 1
+      }
+    ],
+    "polaridad": "positiva",
+    "tags": [
+      "energia",
+      "clima"
+    ],
+    "estado": "piloto"
+  },
+  {
+    "id": "pop-001",
+    "texto": "Las élites políticas y económicas actúan de forma coordinada en contra de la gente corriente.",
+    "modulo": "nucleo",
+    "ejes": [
+      {
+        "eje": "populismo",
+        "carga": 1
+      }
+    ],
+    "polaridad": "positiva",
+    "tags": [
+      "elites"
+    ],
+    "estado": "piloto"
+  },
+  {
+    "id": "eco-005",
+    "texto": "El precio de los alquileres debe limitarse por ley en las zonas donde la vivienda está tensionada.",
+    "modulo": "nucleo",
+    "ejes": [
+      {
+        "eje": "economico",
+        "carga": -1
+      }
+    ],
+    "polaridad": "negativa",
+    "tags": [
+      "vivienda",
+      "alquiler",
+      "regulacion"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Separa Sumar/Podemos/ERC/Bildu (+2, impulsores de la ley de vivienda) del PSOE (+1, solo zonas tensionadas y con condiciones) y de PP/Vox/Junts (−2/−1, confían en aumentar oferta); PNV aplicó la ley con reticencia. | Esperado: Sumar/Podemos +2, ERC +2, EH Bildu +2, PSOE +1, PNV -1, Junts -1, PP -2, Vox -2."
+  },
+  {
+    "id": "eco-006",
+    "texto": "El Estado debe construir un gran parque público de vivienda en alquiler, aunque exija un fuerte aumento del gasto público.",
+    "modulo": "nucleo",
+    "ejes": [
+      {
+        "eje": "economico",
+        "carga": -0.75
+      }
+    ],
+    "polaridad": "positiva",
+    "tags": [
+      "vivienda",
+      "gasto-publico"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Separa a la izquierda (PSOE/Sumar/CUP, +2) de PP (−1, prefiere suelo y colaboración privada) y Vox (−1); dentro de la derecha, distingue al PP intervencionista-moderado de los liberales puros (−2). | Esperado: Sumar/Podemos +2, PSOE +2, CUP +2, PNV +1, PP -1, Vox -1, liberalismo (Cs) -1. | La cláusula 'aunque exija un fuerte aumento del gasto' evita el consenso retórico: todos dicen querer vivienda pública, pero solo la izquierda acepta el coste fiscal."
+  },
+  {
+    "id": "eco-007",
+    "texto": "Quien ocupe una vivienda sin título legal debe poder ser desalojado en pocos días mediante un procedimiento exprés.",
+    "modulo": "nucleo",
+    "ejes": [
+      {
+        "eje": "economico",
+        "carga": 0.5
+      },
+      {
+        "eje": "social",
+        "carga": 0.5
+      }
+    ],
+    "polaridad": "negativa",
+    "tags": [
+      "vivienda",
+      "ocupacion",
+      "propiedad"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Separa el bloque propietarista (PP/Vox/Cs/Junts/PNV, que impulsaron o apoyaron el desalojo exprés) del PSOE (−1, distingue okupación de vulnerabilidad) y de Sumar/CUP (−2, prioridad al realojo). | Esperado: Vox +2, PP +2, Junts +2, PNV +1, PSOE -1, Sumar/Podemos -2, CUP -2."
+  },
+  {
+    "id": "eco-008",
+    "texto": "La subida anual de todas las pensiones según el IPC debe mantenerse por ley, aunque haya que aumentar impuestos o cotizaciones.",
+    "modulo": "nucleo",
+    "ejes": [
+      {
+        "eje": "economico",
+        "carga": -0.75
+      }
+    ],
+    "polaridad": "positiva",
+    "tags": [
+      "pensiones",
+      "revalorizacion"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Separa PSOE/Sumar (+2) de PP (0, revaloriza pero rechaza subir cotizaciones) y de los liberales (−2, sostenibilidad primero); capta el chovinismo de bienestar de Vox (+1), que lo distingue de la derecha liberal. | Esperado: PSOE +2, Sumar/Podemos +2, EH Bildu +2, Vox +1, PP +0, liberalismo (Cs) -1. | El coste explícito ('aunque haya que aumentar impuestos') es lo que discrimina: la revalorización sin coste tiene apoyo casi unánime."
+  },
+  {
+    "id": "eco-009",
+    "texto": "El impuesto de sucesiones y donaciones debería suprimirse.",
+    "modulo": "nucleo",
+    "ejes": [
+      {
+        "eje": "economico",
+        "carga": 1
+      }
+    ],
+    "polaridad": "negativa",
+    "tags": [
+      "fiscalidad",
+      "sucesiones"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Separa PP/Vox/Cs (+2, lo bonifican al 99% donde gobiernan) del PSOE (−1, defiende armonizarlo) y de Sumar/IU (−2, quieren un mínimo estatal); PNV neutro por tener fiscalidad foral propia. | Esperado: Vox +2, PP +2, Ciudadanos +2, PNV +0, PSOE -1, Sumar/IU -2, EH Bildu -2."
+  },
+  {
+    "id": "eco-010",
+    "texto": "Hay que abaratar el coste del despido.",
+    "modulo": "nucleo",
+    "ejes": [
+      {
+        "eje": "economico",
+        "carga": 1
+      }
+    ],
+    "polaridad": "negativa",
+    "tags": [
+      "laboral",
+      "despido"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Separa el liberalismo (Cs +2, contrato único/mochila austriaca) del PP (+1, lo apoya sin abanderarlo) y de Vox (0, obrerismo retórico reciente); toda la izquierda en contra, con Sumar impulsando encarecerlo. | Esperado: Ciudadanos +2, PP +1, Vox +0, PNV +0, PSOE -2, Sumar/Podemos -2, Frente Obrero -2. | [Corregido en revisión: La cláusula final 'para favorecer la contratación' es un argumento persuasivo empíricamente disputado (efecto Kamoen & Holleman: la justificación en el enunciado infla el acuerdo y obliga al que discrepa a rechazar también la premisa). Sin ella el ítem discrimina igual y queda más corto y neutro. Cargas y polaridad correctas. Posiciones plausibles; Vox 0 defendible por su giro obrerista retórico, PP +1 porque evita abanderar el tema desde 2012.]"
+  },
+  {
+    "id": "eco-011",
+    "texto": "La jornada laboral máxima debe reducirse por ley sin rebaja de salario.",
+    "modulo": "nucleo",
+    "ejes": [
+      {
+        "eje": "economico",
+        "carga": -1
+      }
+    ],
+    "polaridad": "negativa",
+    "tags": [
+      "laboral",
+      "jornada"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Separa Sumar/PSOE/Bildu (+2, proyecto de las 37,5 horas) de Junts/PP/Vox (−2/−1, la tumbaron por las pymes); distingue a Junts del PNV (−1, negociador) dentro del nacionalismo de centro-derecha. | Esperado: Sumar/Podemos +2, PSOE +2, EH Bildu +2, ERC +2, PNV -1, PP -1, Junts -2, Vox -2."
+  },
+  {
+    "id": "eco-012",
+    "texto": "Los conciertos educativos con colegios privados deben eliminarse gradualmente.",
+    "modulo": "nucleo",
+    "ejes": [
+      {
+        "eje": "economico",
+        "carga": -0.5
+      },
+      {
+        "eje": "laicismo",
+        "carga": -0.5
+      }
+    ],
+    "polaridad": "negativa",
+    "tags": [
+      "educacion",
+      "concertada"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Separa Podemos/IU/CUP (+2, red única pública) del PSOE (−1, concertada como red complementaria) — clave dentro de la izquierda — y del bloque PP/Vox/PNV (−2; en Euskadi la concertada es mayoritaria). | Esperado: Sumar/Podemos/IU +2, CUP +2, ERC +1, PSOE -1, PNV -2, PP -2, Vox -2."
+  },
+  {
+    "id": "eco-013",
+    "texto": "La sanidad pública debe derivar pacientes a clínicas privadas cuando las listas de espera se alarguen.",
+    "modulo": "nucleo",
+    "ejes": [
+      {
+        "eje": "economico",
+        "carga": 1
+      }
+    ],
+    "polaridad": "positiva",
+    "tags": [
+      "sanidad",
+      "listas-espera",
+      "privada"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Separa PP/Vox/Cs (+2, colaboración público-privada estructural) del PSOE (0, la usa como parche pero no como modelo) y de Sumar/Bildu (−2, refuerzo exclusivo de lo público). | Esperado: PP +2, Ciudadanos +2, Vox +2, PNV +1, PSOE +0, Sumar/Podemos -2, EH Bildu -2. | No duplica el ítem existente de 'gestión privada de sanidad': aquí se mide la derivación puntual (conciertos asistenciales), que el PSOE practica pero la izquierda transformadora rechaza."
+  },
+  {
+    "id": "soc-004",
+    "texto": "España debería aprobar una regularización extraordinaria de los inmigrantes que ya viven y trabajan aquí.",
+    "modulo": "nucleo",
+    "ejes": [
+      {
+        "eje": "social",
+        "carga": -1
+      }
+    ],
+    "polaridad": "positiva",
+    "tags": [
+      "inmigracion",
+      "regularizacion"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Separa Sumar/ERC/Bildu/BNG (+2, ILP Regularización Ya) del PSOE (+1, apoyo condicionado), del PP (−1, votó tramitar la ILP pero rechaza regularizaciones masivas) y de Vox/Aliança Catalana (−2). | Esperado: Sumar/Podemos +2, ERC +2, EH Bildu +2, PSOE +1, PP -1, Junts -1, Vox -2, Aliança Catalana -2."
+  },
+  {
+    "id": "soc-005",
+    "texto": "La llegada de inmigrantes es necesaria para el futuro económico de España.",
+    "modulo": "nucleo",
+    "ejes": [
+      {
+        "eje": "social",
+        "carga": -0.75
+      }
+    ],
+    "polaridad": "positiva",
+    "tags": [
+      "inmigracion",
+      "demografia"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Parte a la derecha en dos: PP (+1, discurso demográfico-empresarial) frente a Vox/SALF/Aliança (−2, gran sustitución); también separa a Junts (−1, giro restrictivo) del PNV (+1, inmigración para sostener Euskadi). | Esperado: PSOE +2, Sumar/Podemos +2, PNV +1, PP +1, Junts -1, Vox -2, SALF -2."
+  },
+  {
+    "id": "soc-006",
+    "texto": "La prisión permanente revisable debería derogarse.",
+    "modulo": "nucleo",
+    "ejes": [
+      {
+        "eje": "social",
+        "carga": -1
+      }
+    ],
+    "polaridad": "negativa",
+    "tags": [
+      "justicia",
+      "penas"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Separa el bloque garantista (Sumar/ERC/Bildu/PNV, que la recurrieron al TC, +2/+1) del punitivo (PP/Vox/UPN, −2, quieren ampliarla); el PSOE (+1) queda entre ambos: la recurrió pero no la ha derogado. | Esperado: EH Bildu +2, ERC +2, Sumar/Podemos +2, PNV +1, PSOE +1, PP -2, Vox -2, UPN -2."
+  },
+  {
+    "id": "nuc-001",
+    "texto": "Los vocales judiciales del Consejo General del Poder Judicial deben ser elegidos por los propios jueces y no por el Parlamento.",
+    "modulo": "nucleo",
+    "ejes": [],
+    "polaridad": "positiva",
+    "tags": [
+      "justicia",
+      "cgpj",
+      "instituciones"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Separa PP/Vox/Cs (+2, elección corporativa como estándar europeo) de PSOE/Sumar (−2, legitimidad parlamentaria) y de ERC/Bildu (−2, desconfían de una judicatura conservadora autoelegida). | Esperado: PP +2, Ciudadanos +2, Vox +2, PNV -1, PSOE -2, Sumar/Podemos -2, ERC -2. | Solo-matching: ambos bloques invocan la 'despolitización' con mecanismos opuestos, así que no carga limpio en ningún eje principal, pero discrimina bloques con gran nitidez."
+  },
+  {
+    "id": "ter-003",
+    "texto": "Más comunidades autónomas deberían poder acceder a un sistema de financiación propio, similar al concierto vasco.",
+    "modulo": "nucleo",
+    "ejes": [
+      {
+        "eje": "territorial",
+        "carga": -0.75
+      }
+    ],
+    "polaridad": "positiva",
+    "tags": [
+      "territorial",
+      "financiacion",
+      "concierto"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Separa PNV/Junts/ERC (+2, financiación singular) de PP/Vox/Cs (−2, caja común e igualdad); parte al PSOE entre el PSC (+1, acuerdo con ERC) y los barones federales (0/−1); Compromís recela del privilegio catalán. | Esperado: PNV +2, Junts +2, ERC +2, PSC +1, PSOE +0, Compromís -1, PP -2, Vox -2."
+  },
+  {
+    "id": "ter-004",
+    "texto": "La ley debe garantizar que el castellano sea lengua vehicular en las aulas de todas las comunidades autónomas.",
+    "modulo": "nucleo",
+    "ejes": [
+      {
+        "eje": "territorial",
+        "carga": 1
+      }
+    ],
+    "polaridad": "positiva",
+    "tags": [
+      "territorial",
+      "lengua",
+      "educacion"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Separa Cs/Vox (+2, bandera fundacional) y PP (+2) del PSOE (−1, retiró la vehicularidad en la LOMLOE) y de ERC/Junts/Bildu/BNG (−2, inmersión como política propia). | Esperado: Ciudadanos +2, Vox +2, PP +2, PSOE -1, PNV -2, ERC -2, Junts -2, BNG -2."
+  },
+  {
+    "id": "ue-002",
+    "texto": "España debe apoyar que la UE avance hacia una federación política, cediendo más soberanía a las instituciones europeas.",
+    "modulo": "nucleo",
+    "ejes": [
+      {
+        "eje": "ue",
+        "carga": -1
+      }
+    ],
+    "polaridad": "positiva",
+    "tags": [
+      "ue",
+      "federalismo"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Separa federalistas (Cs +2, PSOE/Sumar +1) de europeístas de statu quo (PP 0) y de soberanistas (Vox/SALF −2); Podemos (−1) marca su euroescepticismo de izquierda frente a Sumar. | Esperado: Ciudadanos +2, PSOE +1, Sumar +1, ERC +1, PP +0, Podemos -1, Vox -2, SALF -2. | Complementa (no duplica) el ítem existente de 'recuperar soberanía frente a Bruselas': aquel mide euroescepticismo; este separa a los federalistas de los europeístas de statu quo."
+  },
+  {
+    "id": "ue-003",
+    "texto": "La Unión Europea debería crear un ejército común.",
+    "modulo": "nucleo",
+    "ejes": [
+      {
+        "eje": "ue",
+        "carga": -0.75
+      }
+    ],
+    "polaridad": "positiva",
+    "tags": [
+      "ue",
+      "defensa",
+      "autonomia-estrategica"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Triangula tres campos: europeístas de defensa (Cs/PSOE/PP, +2/+1), soberanistas pro-OTAN pero anti-federación (Vox, −2) y antimilitaristas (Podemos/Bildu, −2); separa Sumar (−1) de PSOE (+1) en el Gobierno de coalición. | Esperado: Ciudadanos +2, PSOE +1, PP +1, Sumar -1, Podemos -2, EH Bildu -2, Vox -2. | [Corregido en revisión: La carga atlantismo +0.5 contamina el eje: Vox respondería −2 (pro-OTAN pero anti-ejército federal) y puntuaría hacia el polo antimilitarista, y Podemos respondería −2 por la razón exactamente contraria; la carga solo funciona para la mitad izquierda del espectro. Dejarlo como ítem puro de integración europea en defensa (ue −0.75). El eje atlantismo queda cubierto por nuc-23 y el nuevo ítem OTAN propuesto. Texto y polaridad correctos.]"
+  },
+  {
+    "id": "ecl-002",
+    "texto": "Debe mantenerse la prohibición de vender coches nuevos de gasolina y diésel a partir de 2035.",
+    "modulo": "nucleo",
+    "ejes": [
+      {
+        "eje": "ecologia",
+        "carga": 1
+      }
+    ],
+    "polaridad": "negativa",
+    "tags": [
+      "clima",
+      "transporte",
+      "combustion"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Separa Sumar/Verdes (+2) del PSOE (+1, la asume con matices industriales), del PP (−1, pide revisarla en la UE) y de Vox/SALF (−2, derogación); es el ítem climático que mejor divide a PP y PSOE. | Esperado: Sumar/Podemos +2, Verdes Equo +2, PSOE +1, ERC +1, PP -1, Junts -1, Vox -2, SALF -2."
+  },
+  {
+    "id": "ecl-003",
+    "texto": "Deben subirse los impuestos a los combustibles fósiles para acelerar la transición ecológica.",
+    "modulo": "nucleo",
+    "ejes": [
+      {
+        "eje": "ecologia",
+        "carga": 0.75
+      }
+    ],
+    "polaridad": "positiva",
+    "tags": [
+      "clima",
+      "fiscalidad-verde"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Separa el ecologismo dispuesto a asumir costes (Verdes/Sumar, +2/+1) de la izquierda sensible a la regresividad (Podemos +1 con reparos) y de PP/Vox/Junts (−2/−1, defensa del automovilista y el transportista). | Esperado: Verdes Equo +2, Sumar +1, PSOE +1, Podemos +1, Junts -1, PP -2, Vox -2."
+  },
+  {
+    "id": "pop-002",
+    "texto": "Los grandes medios de comunicación están al servicio de las élites económicas, no de la información veraz.",
+    "modulo": "nucleo",
+    "ejes": [
+      {
+        "eje": "populismo",
+        "carga": 1
+      }
+    ],
+    "polaridad": "positiva",
+    "tags": [
+      "populismo",
+      "medios"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Ítem de herradura: agrupa a Podemos, Vox, Frente Obrero y SALF (+2) frente a PSOE/PP/Cs (−1/−2, defensa del pluralismo mediático); separa Podemos (+2) de Sumar (+1) y del PSOE (−1) dentro de la izquierda. | Esperado: Podemos +2, Vox +2, Frente Obrero +2, SALF +2, Sumar +1, PSOE -1, PP -1, Ciudadanos -2."
+  },
+  {
+    "id": "pop-003",
+    "texto": "Gobierne el PSOE o el PP, al final se aplican políticas muy parecidas.",
+    "modulo": "nucleo",
+    "ejes": [
+      {
+        "eje": "populismo",
+        "carga": 1
+      }
+    ],
+    "polaridad": "positiva",
+    "tags": [
+      "populismo",
+      "bipartidismo"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Mide antibipartidismo transversal: une a Podemos, CUP, Vox y Frente Obrero (+2) frente a PSOE/PP (−2); separa a Sumar (−1, socio de gobierno del PSOE) de Podemos (+2), distinción clave post-2023. | Esperado: Podemos +2, CUP +2, Vox +2, Frente Obrero +2, ERC +1, Sumar -1, PSOE -2, PP -2."
+  },
+  {
+    "id": "mon-001",
+    "texto": "La Jefatura del Estado debería ser un cargo elegido por la ciudadanía, no hereditario.",
+    "modulo": "nucleo",
+    "ejes": [
+      {
+        "eje": "monarquia",
+        "carga": -1
+      }
+    ],
+    "polaridad": "positiva",
+    "tags": [
+      "monarquia",
+      "republica",
+      "instituciones"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Carga el eje monarquía: republicanos declarados (Sumar/Podemos/ERC/Bildu/CUP, +2) frente a PP/Vox (−2); retrata la ambigüedad del PSOE (−1, republicanismo sentimental con lealtad práctica a la Corona) y del PNV (+1, accidentalista). | Esperado: Sumar/Podemos +2, ERC +2, EH Bildu +2, CUP +2, PNV +1, PSOE -1, PP -2, Vox -2."
+  },
+  {
+    "id": "def-001",
+    "texto": "España debería reducir su gasto militar.",
+    "modulo": "nucleo",
+    "ejes": [
+      {
+        "eje": "atlantismo",
+        "carga": -1
+      }
+    ],
+    "polaridad": "negativa",
+    "tags": [
+      "defensa",
+      "otan",
+      "gasto-militar"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Carga el eje atlantismo y rompe el bloque de investidura: Podemos/Bildu/CUP (+2, antimilitarismo) y Sumar (+2, contra el rearme) frente al PSOE (−2, compromisos OTAN) y a PP/Vox (−2, más defensa). | Esperado: Podemos +2, Sumar +2, EH Bildu +2, CUP +2, ERC +1, PSOE -2, PP -2, Vox -2."
+  },
+  {
+    "id": "lai-001",
+    "texto": "La asignatura de religión debe salir del horario lectivo de la escuela pública.",
+    "modulo": "nucleo",
+    "ejes": [
+      {
+        "eje": "laicismo",
+        "carga": -1
+      }
+    ],
+    "polaridad": "negativa",
+    "tags": [
+      "laicismo",
+      "educacion",
+      "religion"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Carga el eje laicismo: IU/Podemos/ERC/Bildu (+2, denuncia de los Acuerdos con la Santa Sede) frente a PP/Vox/PNV (−2, oferta obligatoria de religión); el PSOE (+1) queda retratado entre su programa laicista y su práctica de gobierno. | Esperado: Sumar/IU +2, Podemos +2, ERC +2, EH Bildu +2, PSOE +1, PNV -2, PP -2, Vox -2."
+  },
+  {
+    "id": "eco-014",
+    "texto": "Debe existir un impuesto permanente sobre las grandes fortunas.",
+    "modulo": "nucleo",
+    "ejes": [
+      {
+        "eje": "economico",
+        "carga": -1
+      }
+    ],
+    "polaridad": "positiva",
+    "tags": [
+      "fiscalidad",
+      "patrimonio",
+      "grandes-fortunas"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Separa el bloque de izquierda (PSOE/Sumar, +2, creadores del impuesto de solidaridad) de PP/Vox/Cs (−2, lo recurrieron y bonifican patrimonio donde gobiernan); PNV y Junts (−1) se despegan de la izquierda por autonomía fiscal y perfil empresarial pese a apoyar la investidura. | Esperado: Sumar/Podemos +2, PSOE +2, EH Bildu +2, PNV -1, Junts -1, PP -2, Vox -2, Ciudadanos -2. | Cubre el hueco 'patrimonio' pedido por la familia. 'Permanente' es la palabra que discrimina: el impuesto de solidaridad nació como temporal y la izquierda quiere consolidarlo. | [Añadido por el revisor para cubrir un hueco]"
+  },
+  {
+    "id": "eco-015",
+    "texto": "La edad legal de jubilación debería retrasarse a medida que aumenta la esperanza de vida.",
+    "modulo": "nucleo",
+    "ejes": [
+      {
+        "eje": "economico",
+        "carga": 0.75
+      }
+    ],
+    "polaridad": "negativa",
+    "tags": [
+      "pensiones",
+      "sostenibilidad",
+      "jubilacion"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Separa la derecha liberal (Cs +2, indexación automática) del PP (+1, lo insinúa sin abanderarlo) y sobre todo de Vox (−1, chovinismo de bienestar: defiende a 'nuestros mayores'); y al PSOE (−1, subió a 67 pero rechaza ir más allá) de Sumar/Bildu (−2, quieren recuperar los 65). | Esperado: Ciudadanos +2, PP +1, PNV +0, PSOE -1, Vox -1, Sumar/Podemos -2, EH Bildu -2. | Es el reverso de nuc-04: mide sostenibilidad por el lado del gasto. Ligar a esperanza de vida es la formulación estándar de la propuesta real, no una premisa persuasiva. | [Añadido por el revisor para cubrir un hueco]"
+  },
+  {
+    "id": "ter-005",
+    "texto": "La bandera de España debe ondear obligatoriamente en todos los edificios públicos.",
+    "modulo": "nucleo",
+    "ejes": [
+      {
+        "eje": "territorial",
+        "carga": 0.75
+      }
+    ],
+    "polaridad": "positiva",
+    "tags": [
+      "territorial",
+      "simbolos",
+      "bandera"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Separa PSOE (+1, defiende cumplir la ley de banderas) de ERC/Bildu/CUP (−2, ayuntamientos que la retiran) — algo que nuc-14 y nuc-15 no captan dentro de la izquierda —, y a PNV (−1, pragmatismo institucional) de Junts/ERC (−2) dentro del nacionalismo. | Esperado: Vox +2, PP +2, Ciudadanos +2, PSOE +1, PNV -1, ERC -2, EH Bildu -2, CUP -2. | Cubre el hueco 'símbolos'. Respondible por cualquiera y muy emocional: los ítems simbólicos discriminan mejor que los fiscales en el eje territorial para el votante medio. | [Añadido por el revisor para cubrir un hueco]"
+  },
+  {
+    "id": "def-002",
+    "texto": "España debería abandonar la OTAN.",
+    "modulo": "nucleo",
+    "ejes": [
+      {
+        "eje": "atlantismo",
+        "carga": -1
+      }
+    ],
+    "polaridad": "negativa",
+    "tags": [
+      "defensa",
+      "otan",
+      "atlantismo"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Separa el antimilitarismo consecuente (Podemos/Bildu/CUP/Frente Obrero, +2, 'OTAN No') de Sumar (0, asume la permanencia aunque critique el rearme) — la distinción Podemos/Sumar más nítida disponible — y del consenso atlantista PSOE/PP/Vox (−2). | Esperado: Podemos +2, EH Bildu +2, CUP +2, Frente Obrero +2, Sumar +0, PSOE -2, PP -2, Vox -2. | Ancla el polo −1 del eje atlantismo tal como está definido ('salida de la OTAN'), que nuc-23 (gasto) no cubre. Tras quitar la carga atlantista a nuc-17, el eje necesitaba un segundo ítem. | [Añadido por el revisor para cubrir un hueco]"
+  }
 ]

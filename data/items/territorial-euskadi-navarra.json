@@ -1,0 +1,106 @@
+[
+  {
+    "id": "eus-001",
+    "texto": "Navarra forma parte de la misma comunidad nacional que Euskadi (Euskal Herria).",
+    "modulo": "territorial-euskadi-navarra",
+    "ejes": [],
+    "polaridad": "positiva",
+    "tags": [
+      "navarra",
+      "euskal herria",
+      "territorialidad"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Gradiente clave del campo vasco-navarro: Bildu lo afirma sin matices, PNV y Geroa Bai lo matizan (respeto a la voluntad navarra), UPN y PSN lo rechazan frontalmente. Solo-matching por su no linealidad. | Esperado: EH Bildu +2, PNV +1, Geroa Bai +1, UPN -2, PSN-PSOE -2, PSE-EE -1, PP -2."
+  },
+  {
+    "id": "eus-002",
+    "texto": "El concierto económico vasco y el convenio navarro no deben poder recortarse ni armonizarse desde el Estado en ningún caso.",
+    "modulo": "territorial-euskadi-navarra",
+    "ejes": [
+      {
+        "eje": "territorial",
+        "carga": -0.5
+      }
+    ],
+    "polaridad": "negativa",
+    "tags": [
+      "concierto económico",
+      "convenio navarro",
+      "cupo"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Consenso interno vasco-navarro (PNV, Bildu, UPN, Geroa Bai, incluso PSE y PP vasco) frente a partidos y corrientes estatales que piden armonización fiscal (Vox, sectores centralistas de PP y de la izquierda estatal). | Esperado: PNV +2, EH Bildu +2, UPN +2, Geroa Bai +2, PSE-EE +1, PP vasco +1, VOX -2."
+  },
+  {
+    "id": "eus-003",
+    "texto": "El conocimiento del euskera debe ser requisito, y no solo mérito, para la mayoría de los empleos públicos en Euskadi.",
+    "modulo": "territorial-euskadi-navarra",
+    "ejes": [
+      {
+        "eje": "territorial",
+        "carga": -0.5
+      }
+    ],
+    "polaridad": "negativa",
+    "tags": [
+      "euskera",
+      "función pública",
+      "perfiles lingüísticos"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Bildu maximalista frente a PNV gradualista (perfiles progresivos); ambos frente a PSE (mérito, no requisito) y al rechazo de PP, UPN y Vox. | Esperado: EH Bildu +2, PNV +1, Geroa Bai +1, PSE-EE -1, PP vasco -2, UPN -2, Sumar/Podemos Euskadi +0."
+  },
+  {
+    "id": "eus-004",
+    "texto": "La política penitenciaria con los presos de ETA debe regirse por las reglas comunes de reinserción aplicables a cualquier otro preso.",
+    "modulo": "territorial-euskadi-navarra",
+    "ejes": [
+      {
+        "eje": "social",
+        "carga": -0.5
+      }
+    ],
+    "polaridad": "positiva",
+    "tags": [
+      "presos",
+      "memoria",
+      "normalización"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Consenso de normalización PNV-Bildu-PSE frente a la excepcionalidad penitenciaria defendida por PP, Vox y UPN; dentro del primer bloque, Bildu sin matices y PNV/PSE con condiciones. | Esperado: EH Bildu +2, PNV +1, PSE-EE +1, Geroa Bai +1, PP -2, UPN -2, VOX -2. | Redactado con neutralidad: apela a reglas comunes, no a gestos políticos; evita términos como 'acercamiento' ya caducados."
+  },
+  {
+    "id": "eus-005",
+    "texto": "Para el autogobierno vasco y navarro, actualizar los derechos históricos forales es mejor camino que proclamar una república independiente.",
+    "modulo": "territorial-euskadi-navarra",
+    "ejes": [],
+    "polaridad": "positiva",
+    "tags": [
+      "foralismo",
+      "república vasca",
+      "nuevo estatus"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Foralismo pactista (PNV, Geroa Bai; UPN coincide desde el españolismo foral) frente al rupturismo republicano de la izquierda abertzale (Bildu/Sortu). Solo-matching: PNV y UPN coinciden por razones opuestas. | Esperado: PNV +2, Geroa Bai +1, UPN +1, PSE-EE +1, EH Bildu -2, Sortu -2."
+  },
+  {
+    "id": "eus-006",
+    "texto": "Debe suprimirse la zonificación lingüística que limita la oficialidad del euskera a una parte de Navarra.",
+    "modulo": "territorial-euskadi-navarra",
+    "ejes": [
+      {
+        "eje": "territorial",
+        "carga": -0.25
+      }
+    ],
+    "polaridad": "negativa",
+    "tags": [
+      "euskera",
+      "navarra",
+      "zonificación"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Separa a los socios de gobierno navarros PSN (mantiene la zonificación, −1) y Geroa Bai/Bildu (supresión, +2), y a UPN (−2, la zonificación es suya) de todo el nacionalismo vasco; complementa a eus-01 (identidad) con una política concreta y durable (la Ley del Vascuence rige desde 1986). | Esperado: EH Bildu +2, Geroa Bai +2, PNV +2, Contigo-Zurekin/Podemos Navarra +1, PSN-PSOE -1, UPN -2, VOX -2. | [Añadido por el revisor para cubrir un hueco]"
+  }
+]
