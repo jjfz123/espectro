@@ -130,6 +130,36 @@ describe('modulosDesbloqueados', () => {
     const activos = modulosDesbloqueados(modulos, { economico: null }, {});
     expect(activos).toEqual(['nucleo']);
   });
+
+  it('eje-banda desbloquea dentro de la franja y no fuera', () => {
+    const banda: Modulo[] = [
+      {
+        id: 'sd',
+        nombre: 'sd',
+        desbloqueo: { tipo: 'eje-banda', eje: 'economico', min: -60, max: 5 },
+      },
+    ];
+    expect(modulosDesbloqueados(banda, { economico: -30 }, {})).toContain('sd');
+    expect(modulosDesbloqueados(banda, { economico: -60 }, {})).toContain('sd');
+    expect(modulosDesbloqueados(banda, { economico: 5 }, {})).toContain('sd');
+    expect(modulosDesbloqueados(banda, { economico: -75 }, {})).toEqual([]);
+    expect(modulosDesbloqueados(banda, { economico: 20 }, {})).toEqual([]);
+    expect(modulosDesbloqueados(banda, { economico: null }, {})).toEqual([]);
+  });
+
+  it('un módulo territorial puede cubrir varias CCAA', () => {
+    const multi: Modulo[] = [
+      {
+        id: 'eus-nav',
+        nombre: 'eus-nav',
+        desbloqueo: { tipo: 'ccaa', ccaa: ['euskadi', 'navarra'] },
+      },
+    ];
+    expect(modulosDesbloqueados(multi, {}, { ccaa: 'navarra' })).toContain('eus-nav');
+    expect(modulosDesbloqueados(multi, {}, { ccaa: 'euskadi' })).toContain('eus-nav');
+    expect(modulosDesbloqueados(multi, {}, { ccaa: 'madrid' })).toEqual([]);
+    expect(modulosDesbloqueados(multi, {}, {})).toEqual([]);
+  });
 });
 
 describe('tesis del proyecto: el módulo separa lo que el núcleo no puede', () => {

@@ -14,11 +14,19 @@
       "type": "object",
       "required": ["tipo"],
       "properties": {
-        "tipo": { "enum": ["siempre", "eje", "ccaa"] },
+        "tipo": { "enum": ["siempre", "eje", "eje-banda", "ccaa"] },
         "eje": { "type": "string" },
         "operador": { "enum": ["<=", ">="] },
         "umbral": { "type": "number", "minimum": -100, "maximum": 100 },
-        "ccaa": { "type": "string" }
+        "min": { "type": "number", "minimum": -100, "maximum": 100, "description": "eje-banda: límite inferior de la franja" },
+        "max": { "type": "number", "minimum": -100, "maximum": 100, "description": "eje-banda: límite superior de la franja" },
+        "ccaa": {
+          "oneOf": [
+            { "type": "string" },
+            { "type": "array", "items": { "type": "string" }, "minItems": 1 }
+          ],
+          "description": "Una CCAA o varias (módulos territoriales compartidos)"
+        }
       },
       "additionalProperties": false
     }

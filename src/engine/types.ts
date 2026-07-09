@@ -73,11 +73,15 @@ export interface Eje {
 }
 
 export interface Desbloqueo {
-  tipo: 'siempre' | 'eje' | 'ccaa';
+  tipo: 'siempre' | 'eje' | 'eje-banda' | 'ccaa';
   eje?: string;
   operador?: '<=' | '>=';
   umbral?: number;
-  ccaa?: string;
+  /** Para tipo "eje-banda": se desbloquea si min <= valor del eje <= max. */
+  min?: number;
+  max?: number;
+  /** Una CCAA o varias (p. ej. un módulo compartido Euskadi–Navarra). */
+  ccaa?: string | string[];
 }
 
 export interface Modulo {

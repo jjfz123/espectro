@@ -64,5 +64,45 @@
     "poloPositivo": "Tradicionalismo moral (derecha confesional)",
     "descripcion": "Sub-eje que separa la derecha liberal en costumbres de la derecha cristiana/tradicionalista.",
     "subEje": true
+  },
+  {
+    "id": "internacionalismo",
+    "nombre": "Internacionalismo",
+    "poloNegativo": "Internacionalismo (la estrategia y la solidaridad no tienen fronteras)",
+    "poloPositivo": "Soberanismo (la nación primero)",
+    "descripcion": "Sub-eje transversal: separa el internacionalismo (comunista clásico, europeísta federal) del socialismo en un país, el rojipardismo y los soberanismos.",
+    "subEje": true
+  },
+  {
+    "id": "monarquia",
+    "nombre": "Forma de la jefatura del Estado",
+    "poloNegativo": "República",
+    "poloPositivo": "Monarquía",
+    "descripcion": "Sub-eje transversal: republicanos hay en la izquierda, el falangismo y parte del liberalismo; la monarquía une a PP, VOX y sector del PSOE. Corta las familias por dentro.",
+    "subEje": true
+  },
+  {
+    "id": "atlantismo",
+    "nombre": "Defensa y OTAN",
+    "poloNegativo": "Antimilitarismo (salida de la OTAN, menos gasto militar)",
+    "poloPositivo": "Atlantismo (permanencia en la OTAN, más gasto en defensa)",
+    "descripcion": "Sub-eje transversal: separa PSOE de Podemos, VOX de la Falange, y al pacifismo de casi todo el mundo.",
+    "subEje": true
+  },
+  {
+    "id": "laicismo",
+    "nombre": "Religión y Estado",
+    "poloNegativo": "Laicismo estricto (denuncia del Concordato, sin religión en lo público)",
+    "poloPositivo": "Confesionalismo (presencia pública de la religión, acuerdos Iglesia-Estado)",
+    "descripcion": "Sub-eje transversal: separa el laicismo (IE, sector PSOE, izquierda) de la aconfesionalidad práctica (PP) y del nacional-catolicismo.",
+    "subEje": true
+  },
+  {
+    "id": "animalismo",
+    "nombre": "Estatus de los animales",
+    "poloNegativo": "Primacía de usos humanos y tradiciones (caza, toros, ganadería)",
+    "poloPositivo": "Derechos de los animales como sujetos",
+    "descripcion": "Sub-eje del módulo verde-animalista: separa el animalismo de derechos (PACMA) del bienestarismo regulador y del agrarismo tradicional.",
+    "subEje": true
   }
 ]

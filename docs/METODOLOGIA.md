@@ -45,7 +45,9 @@ Principio de diseño: **el número de preguntas necesarias crece con las distinc
 
 - **Núcleo** (siempre): 35-40 ítems finales que posicionan en los ejes principales. Es el «modo rápido» completo.
 - **Módulos por eje**: se desbloquean por posición (economico ≤ −40 → corrientes de la izquierda; ≥ +40 → corrientes de la derecha) y son siempre activables manualmente (`eleccionUsuario`), porque el interés no depende de la posición propia.
-- **Módulos territoriales**: se activan por la comunidad autónoma del usuario. El de Canarias sirve de plantilla: REF, insularidad, ultraperiferia, descuento de residente, frontera sur.
+- **Módulos por banda de eje** (`eje-banda`): las corrientes que viven en franjas intermedias —socialdemocracia y reformismo (economico ∈ [−60, 5]), centro y liberalismo (economico ∈ [−15, 60])— no pueden desbloquearse con un umbral de extremo. La banda captura al usuario cuya profundización natural no está en los polos. Las bandas se solapan deliberadamente: un usuario en −50 ve tanto «corrientes de la izquierda» como «socialdemocracia», porque esa frontera (¿comunista reformista o socialdemócrata radical?) es exactamente la que el módulo debe resolver.
+- **Módulos territoriales**: se activan por la comunidad autónoma del usuario (una o varias: Euskadi y Navarra comparten módulo). El de Canarias sirve de plantilla: REF, insularidad, ultraperiferia, descuento de residente, frontera sur.
+- **Módulos transversales**: feminismos y moral pública, y ecologismo/animalismo cortan las familias por dentro (el abolicionismo o la ley trans parten a la izquierda; la caza y la nuclear parten a la derecha y al ecologismo). Se desbloquean con umbrales laxos y quedan siempre disponibles a elección.
 
 Objetivo de banco: 250-400 ítems totales; un usuario en modo completo responde ~90-130. Precedentes de que el público objetivo completa tests largos: PolitiScales (117 ítems), LeftValues.
 

@@ -53,7 +53,9 @@ export interface ContextoUsuario {
  * - "siempre": el núcleo.
  * - "eje": profundización desbloqueada por la posición en un eje
  *   (p. ej. economico <= -40 → corrientes de la izquierda).
- * - "ccaa": módulo territorial según la comunidad del usuario.
+ * - "eje-banda": desbloqueo por franja (min <= valor <= max), para corrientes
+ *   que viven en zonas intermedias de un eje (socialdemocracia, centro liberal).
+ * - "ccaa": módulo territorial según la comunidad del usuario (una o varias).
  * Los módulos con `eleccionUsuario: true` pueden activarse además manualmente.
  */
 export function modulosDesbloqueados(
@@ -72,8 +74,18 @@ export function modulosDesbloqueados(
       if (typeof v === 'number') {
         ok = d.operador === '<=' ? v <= d.umbral : v >= d.umbral;
       }
-    } else if (d.tipo === 'ccaa' && d.ccaa) {
-      ok = contexto.ccaa === d.ccaa;
+    } else if (
+      d.tipo === 'eje-banda' &&
+      d.eje &&
+      typeof d.min === 'number' &&
+      typeof d.max === 'number'
+    ) {
+      const v = ejesUsuario[d.eje];
+      if (typeof v === 'number') {
+        ok = v >= d.min && v <= d.max;
+      }
+    } else if (d.tipo === 'ccaa' && d.ccaa && contexto.ccaa) {
+      ok = Array.isArray(d.ccaa) ? d.ccaa.includes(contexto.ccaa) : contexto.ccaa === d.ccaa;
     }
     if (ok) activos.push(m.id);
   }
