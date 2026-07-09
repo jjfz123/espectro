@@ -424,5 +424,31 @@
     ],
     "estado": "piloto",
     "notas": "Discrimina: el alineamiento con la derecha internacional MAGA/Patriots (VOX +2, SALF +1) frente al antiamericanismo falangista (-2), la ambivalencia identitaria (DN -1/0) y el atlantismo institucional del PP (-1). | Esperado: VOX +2, SALF +1, PP -1, FE-JONS -2, DN -1, PSOE -2. | [Solo-matching: el rechazo llega desde el europeísmo institucional Y desde el antiamericanismo ultra a la vez.]"
+  },
+  {
+    "id": "dr-024",
+    "texto": "En determinadas circunstancias, un régimen autoritario puede ser preferible a un sistema democrático.",
+    "modulo": "derecha-radical",
+    "ejes": [],
+    "polaridad": "positiva",
+    "tags": [
+      "democracia",
+      "autoritarismo"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: el separador operativo nº1 entre derecha radical (acepta la esencia democrática: VOX -1/-2) y extremismo neofascista/neonazi (+1/+2), según el criterio de Mudde aplicado a Vox (Revista Española de Ciencia Política, recyt.fecyt.es/index.php/recp/article/download/72190/pdf_156). Redacción tipo WVS/CIS. | Esperado: VOX -1, SALF -1, DN +1, neonazis +2, FE-JONS +1, PP -2. | [Solo-matching: el acuerdo también puede venir del autoritarismo de extrema izquierda; cargarlo sobre el eje social puntuaría en diagonal.]"
+  },
+  {
+    "id": "dr-025",
+    "texto": "La violencia nunca es un medio legítimo para conseguir objetivos políticos.",
+    "modulo": "derecha-radical",
+    "ejes": [],
+    "polaridad": "negativa",
+    "tags": [
+      "violencia-politica",
+      "democracia"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: el separador operativo nº2 de Mudde entre derecha radical y extremismo: el rechazo de la violencia política distingue a VOX/SALF/PP (+2) del entorno neonazi y del extremismo insurreccional de cualquier signo (-1/0). | Esperado: VOX +2, PP +2, SALF +2, DN 0, entorno neonazi -1. | [Solo-matching: el desacuerdo llega desde extremos de ambos polos. Ítem espejo (polaridad negativa) del dr-024.]"
   }
 ]
