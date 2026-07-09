@@ -35,7 +35,8 @@ export interface Respuesta {
 }
 
 export interface FuenteCita {
-  tipo: 'programa' | 'votacion' | 'declaracion' | 'autoubicacion' | 'estatutos' | 'otro';
+  /** 'redes': para micropartidos sin programa, a menudo la única fuente (URL + fecha). */
+  tipo: 'programa' | 'votacion' | 'declaracion' | 'autoubicacion' | 'estatutos' | 'redes' | 'otro';
   titulo?: string;
   url?: string;
   fecha?: string;
@@ -55,6 +56,10 @@ export interface Partido {
   nombre: string;
   siglas?: string;
   ambito: 'estatal' | 'autonomico' | 'insular' | 'local';
+  /** 'coalicion' para candidaturas paraguas (Sumar, EH Bildu, Por Andalucía). */
+  tipo?: 'partido' | 'coalicion';
+  /** ids de los partidos que integran la coalición. */
+  componentes?: string[];
   ccaa?: string[];
   confianza: Confianza;
   demo?: boolean;

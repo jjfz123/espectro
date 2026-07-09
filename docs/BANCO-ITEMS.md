@@ -72,6 +72,7 @@ Los ~6.300 partidos inscritos en el Registro del Ministerio del Interior no requ
 4. **Durabilidad**: nada de «el actual Gobierno» ni leyes coyunturales, salvo que definan la corriente; las divergencias se formulan como principios.
 5. **Hipótesis explícita**: `notas` documenta qué discrimina el ítem y las respuestas esperadas. Un ítem que no sabe decir a quién separa no entra.
 6. Todo ítem nuevo entra en `estado: "piloto"`; solo tras validación (discriminación real en datos + posiciones de partido verificadas) pasa a `activo`. Los retirados se marcan `retirado`, nunca se borran.
+7. **Equifinalidad**: si una misma respuesta puede llegar desde los dos polos del eje que el ítem carga, el ítem va **solo-matching** (`ejes: []`). Casos canónicos: cerrar fronteras (rojipardismo de izquierda económica *y* nativismo de derecha), abolicionismo de la prostitución (feminismo *y* conservadurismo moral), Palestina/Israel (izquierda pro-palestina *y* antisionismo ultra frente al sionismo de VOX *y* el atlantismo liberal), rechazo del alineamiento con Trump (europeísmo institucional *y* antiamericanismo falangista). El ítem sigue discriminando partidos —para eso está el matching por pares—, pero no puede empujar el mapa de nadie en una dirección que no es la suya. La auditoría de equifinalidad es parte obligatoria de la revisión de cada tanda; en la primera se corrigieron 6 ítems.
 
 ## 6. Flujo del usuario
 
@@ -109,3 +110,5 @@ Balance de polaridad: ~39% negativa (objetivo 50/50; corregir en las siguientes 
 - **Verde-animalista**: ganadería extensiva como aliada ambiental (reverso en positivo de los prohibicionistas); festejos populares con animales (umbral intermedio); granjas peleteras (consenso creciente, prioridad baja).
 - **Feminismos/moral**: presencia institucional de la religión en actos de Estado; verificación de edad para pornografía (separaría a los liberales de PSOE y PP a la vez).
 - **Núcleo**: tercer indicador populista («no nos representan») para robustecer el eje populismo.
+- **Voto protesta**: dejar escaños vacíos como protesta legítima (Escaños en Blanco) — un ítem solo-matching para el electorado antirrepresentativo.
+- **Geopolítica**: China (rivalidad sistémica vs. pragmatismo comercial vs. referente campista) como complemento de los ítems de Israel/Palestina, Rusia, Trump, Sáhara y Ucrania ya integrados.

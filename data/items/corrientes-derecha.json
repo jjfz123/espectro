@@ -272,11 +272,7 @@
     "ejes": [
       {
         "eje": "social",
-        "carga": -0.25
-      },
-      {
-        "eje": "economico",
-        "carga": 0.25
+        "carga": -0.5
       }
     ],
     "polaridad": "positiva",
@@ -286,7 +282,7 @@
       "contratacion-en-origen"
     ],
     "estado": "piloto",
-    "notas": "Discrimina: Inmigración ordenada y seleccionada por el mercado (agrarismo y tecnócratas +2, PP +1) frente a la restricción identitaria (Vox −1, neocons 0). Distingue la derecha económica pro-empresa de la derecha de la identidad. | Esperado: agrarismo conservador +2, ala tecnócrata +2, PP +1, democracia cristiana +1, PSOE +1, neoconservadurismo +0, Vox -1."
+    "notas": "Discrimina: Inmigración ordenada y seleccionada por el mercado (agrarismo y tecnócratas +2, PP +1) frente a la restricción identitaria (Vox −1, neocons 0). Distingue la derecha económica pro-empresa de la derecha de la identidad. | Esperado: agrarismo conservador +2, ala tecnócrata +2, PP +1, democracia cristiana +1, PSOE +1, neoconservadurismo +0, Vox -1. | [Auditoría de equifinalidad: Carga economico retirada: el acuerdo viene tanto del liberalismo pro-mercado como de la izquierda pro-migración; solo la dimensión GAL-TAN es unívoca.]"
   },
   {
     "id": "der-017",
@@ -426,12 +422,7 @@
     "id": "der-024",
     "texto": "La gestación subrogada altruista debe ser legal en España.",
     "modulo": "corrientes-derecha",
-    "ejes": [
-      {
-        "eje": "tradicion-moral",
-        "carga": -0.75
-      }
-    ],
+    "ejes": [],
     "polaridad": "positiva",
     "tags": [
       "bioetica",
@@ -439,7 +430,7 @@
       "familia"
     ],
     "estado": "piloto",
-    "notas": "Discrimina: Liberales (Cs +2, que la llevó en programa; tecnócratas +1) frente a democristianos y tradicionalistas (−2, dignidad de la persona) y PP (−1). Fractura no lineal valiosa: aquí Vox y el feminismo de izquierda coinciden en el no, así que el ítem no replica al de aborto ni al de eutanasia. | Esperado: Ciudadanos +2, ala tecnócrata +1, conservadurismo liberal (PP) -1, neoconservadurismo -1, democracia cristiana -2, tradicionalismo/carlismo -2, Vox -2, PSOE -2. | Cs propuso regular la gestación subrogada altruista; PP, Vox, PSOE y el movimiento feminista mayoritario se oponen. Tercera frontera bioética que separa al liberal del democristiano en dirección opuesta a la habitual. | [Añadido por el revisor para cubrir un hueco]"
+    "notas": "Discrimina: Liberales (Cs +2, que la llevó en programa; tecnócratas +1) frente a democristianos y tradicionalistas (−2, dignidad de la persona) y PP (−1). Fractura no lineal valiosa: aquí Vox y el feminismo de izquierda coinciden en el no, así que el ítem no replica al de aborto ni al de eutanasia. | Esperado: Ciudadanos +2, ala tecnócrata +1, conservadurismo liberal (PP) -1, neoconservadurismo -1, democracia cristiana -2, tradicionalismo/carlismo -2, Vox -2, PSOE -2. | Cs propuso regular la gestación subrogada altruista; PP, Vox, PSOE y el movimiento feminista mayoritario se oponen. Tercera frontera bioética que separa al liberal del democristiano en dirección opuesta a la habitual. | [Añadido por el revisor para cubrir un hueco] | [Auditoría de equifinalidad: Equifinalidad: el rechazo une a feminismo clásico y democristianos por razones opuestas. Solo-matching.]"
   },
   {
     "id": "der-025",

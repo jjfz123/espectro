@@ -200,12 +200,7 @@
     "id": "lib-011",
     "texto": "La prostitución ejercida voluntariamente debería regularse como un trabajo, con contrato y cotización a la Seguridad Social.",
     "modulo": "centro-liberalismo",
-    "ejes": [
-      {
-        "eje": "tradicion-moral",
-        "carga": -0.5
-      }
-    ],
+    "ejes": [],
     "polaridad": "positiva",
     "tags": [
       "libertades-personales",
@@ -213,22 +208,13 @@
       "regulacionismo-vs-abolicionismo"
     ],
     "estado": "piloto",
-    "notas": "Discrimina: Regulacionismo liberal frente a abolicionismo: separa a liberales y ancaps (contrato entre adultos) del PSOE y el feminismo abolicionista (prohibir la demanda) y de los conservadores. Divide también internamente a Podemos/Sumar. | Esperado: P-LIB +2, anarcocapitalismo +2, Ciudadanos +1, liberalismo clásico +1, Sumar/Podemos -1, PP -1, Vox -1, PSOE (feminismo abolicionista) -2."
+    "notas": "Discrimina: Regulacionismo liberal frente a abolicionismo: separa a liberales y ancaps (contrato entre adultos) del PSOE y el feminismo abolicionista (prohibir la demanda) y de los conservadores. Divide también internamente a Podemos/Sumar. | Esperado: P-LIB +2, anarcocapitalismo +2, Ciudadanos +1, liberalismo clásico +1, Sumar/Podemos -1, PP -1, Vox -1, PSOE (feminismo abolicionista) -2. | [Auditoría de equifinalidad: Equifinalidad: el desacuerdo viene a la vez del feminismo abolicionista (GAL) y del conservadurismo moral (TAN); cargarlo sobre tradicion-moral puntuaría como 'confesional' a una abolicionista. Solo-matching.]"
   },
   {
     "id": "lib-012",
     "texto": "La gestación subrogada altruista debería ser legal en España.",
     "modulo": "centro-liberalismo",
-    "ejes": [
-      {
-        "eje": "tradicion-moral",
-        "carga": -0.5
-      },
-      {
-        "eje": "social",
-        "carga": -0.25
-      }
-    ],
+    "ejes": [],
     "polaridad": "positiva",
     "tags": [
       "libertades-personales",
@@ -236,7 +222,7 @@
       "bioetica"
     ],
     "estado": "piloto",
-    "notas": "Discrimina: Bandera histórica de Cs (llevó una ley de gestación subrogada altruista al Congreso): separa al liberal progresista tanto del feminismo abolicionista de PSOE y Podemos como del conservadurismo moral de PP y Vox. El ancap iría más lejos (también comercial). | Esperado: Ciudadanos +2, P-LIB +2, liberalismo clásico +1, PP -1, PSOE -2, Sumar/Podemos -2, Vox -2."
+    "notas": "Discrimina: Bandera histórica de Cs (llevó una ley de gestación subrogada altruista al Congreso): separa al liberal progresista tanto del feminismo abolicionista de PSOE y Podemos como del conservadurismo moral de PP y Vox. El ancap iría más lejos (también comercial). | Esperado: Ciudadanos +2, P-LIB +2, liberalismo clásico +1, PP -1, PSOE -2, Sumar/Podemos -2, Vox -2. | [Auditoría de equifinalidad: Equifinalidad: el rechazo une a feminismo clásico y democristianos por razones opuestas. Solo-matching.]"
   },
   {
     "id": "lib-013",

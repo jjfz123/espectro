@@ -9,6 +9,8 @@
     "nombre": { "type": "string" },
     "siglas": { "type": "string" },
     "ambito": { "enum": ["estatal", "autonomico", "insular", "local"] },
+    "tipo": { "enum": ["partido", "coalicion"], "description": "coalicion = candidatura paraguas (Sumar, EH Bildu, Por Andalucía); sus componentes se listan aparte" },
+    "componentes": { "type": "array", "items": { "type": "string" }, "description": "ids de los partidos que integran la coalición" },
     "ccaa": { "type": "array", "items": { "type": "string" } },
     "confianza": {
       "enum": ["verificada", "estimada", "sin-datos"],
@@ -30,7 +32,7 @@
               "type": "object",
               "required": ["tipo"],
               "properties": {
-                "tipo": { "enum": ["programa", "votacion", "declaracion", "autoubicacion", "estatutos", "otro"] },
+                "tipo": { "enum": ["programa", "votacion", "declaracion", "autoubicacion", "estatutos", "redes", "otro"] },
                 "titulo": { "type": "string" },
                 "url": { "type": "string" },
                 "fecha": { "type": "string" },

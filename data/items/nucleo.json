@@ -717,5 +717,19 @@
     ],
     "estado": "piloto",
     "notas": "Discrimina: Separa el antimilitarismo consecuente (Podemos/Bildu/CUP/Frente Obrero, +2, 'OTAN No') de Sumar (0, asume la permanencia aunque critique el rearme) — la distinción Podemos/Sumar más nítida disponible — y del consenso atlantista PSOE/PP/Vox (−2). | Esperado: Podemos +2, EH Bildu +2, CUP +2, Frente Obrero +2, Sumar +0, PSOE -2, PP -2, Vox -2. | Ancla el polo −1 del eje atlantismo tal como está definido ('salida de la OTAN'), que nuc-23 (gasto) no cubre. Tras quitar la carga atlantista a nuc-17, el eje necesitaba un segundo ítem. | [Añadido por el revisor para cubrir un hueco]"
+  },
+  {
+    "id": "int-001",
+    "texto": "El reconocimiento del Estado palestino por parte de España fue un acierto.",
+    "modulo": "nucleo",
+    "ejes": [],
+    "polaridad": "positiva",
+    "tags": [
+      "palestina",
+      "israel",
+      "exterior"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: la posición ante Palestina/Israel corta el espectro de forma no lineal. | Esperado: PSOE +2, Sumar +2, Podemos +2, ERC/Bildu/BNG +2, IU +2, PP -1, VOX -2, IE 0, FE-JONS +1 (antisionismo tercerposicionista). | [Solo-matching por equifinalidad: el apoyo a Palestina une a la izquierda con el antisionismo de la extrema derecha clásica, y el apoyo a Israel une el giro sionista de VOX con sectores atlantistas: cargarlo sobre cualquier eje puntuaría al revés a alguno de ellos.]"
   }
 ]

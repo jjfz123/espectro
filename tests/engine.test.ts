@@ -7,6 +7,7 @@ import {
   rankingAfinidad,
   calcularEjes,
   modulosDesbloqueados,
+  partidosElegibles,
 } from '../src/engine/index.js';
 import type { Eje, Item, Modulo, Partido, Respuesta } from '../src/engine/index.js';
 
@@ -159,6 +160,39 @@ describe('modulosDesbloqueados', () => {
     expect(modulosDesbloqueados(multi, {}, { ccaa: 'euskadi' })).toContain('eus-nav');
     expect(modulosDesbloqueados(multi, {}, { ccaa: 'madrid' })).toEqual([]);
     expect(modulosDesbloqueados(multi, {}, {})).toEqual([]);
+  });
+});
+
+describe('partidosElegibles (ámbito electoral)', () => {
+  const base = { confianza: 'estimada' as const, posiciones: {} };
+  const estatal: Partido = { id: 'e', nombre: 'e', ambito: 'estatal', ...base };
+  const canario: Partido = { id: 'c', nombre: 'c', ambito: 'autonomico', ccaa: ['canarias'], ...base };
+  const gomero: Partido = { id: 'g', nombre: 'g', ambito: 'insular', ccaa: ['canarias'], ...base };
+  const localMadrid: Partido = { id: 'm', nombre: 'm', ambito: 'local', ccaa: ['madrid'], ...base };
+  const todos = [estatal, canario, gomero, localMadrid];
+
+  it('autonómicas en Canarias: estatales + autonómicos e insulares canarios', () => {
+    const ids = partidosElegibles(todos, { tipo: 'autonomicas', ccaa: 'canarias' }).map((p) => p.id);
+    expect(ids).toEqual(['e', 'c', 'g']);
+  });
+
+  it('generales en Madrid: los partidos canarios no aparecen; los locales tampoco', () => {
+    const ids = partidosElegibles(todos, { tipo: 'generales', ccaa: 'madrid' }).map((p) => p.id);
+    expect(ids).toEqual(['e']);
+  });
+
+  it('europeas: circunscripción única, entran todos', () => {
+    expect(partidosElegibles(todos, { tipo: 'europeas' })).toHaveLength(4);
+  });
+
+  it('municipales incluyen ámbito local de la CCAA', () => {
+    const ids = partidosElegibles(todos, { tipo: 'municipales', ccaa: 'madrid' }).map((p) => p.id);
+    expect(ids).toEqual(['e', 'm']);
+  });
+
+  it('sin CCAA conocida no se excluye a ningún partido regional', () => {
+    const ids = partidosElegibles(todos, { tipo: 'generales' }).map((p) => p.id);
+    expect(ids).toEqual(['e', 'c', 'g']);
   });
 });
 

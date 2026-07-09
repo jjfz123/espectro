@@ -61,7 +61,20 @@ Método mixto, por orden de preferencia:
 
 **La granularidad debe existir en ambos lados.** Si el test tiene ítems de módulo pero las posiciones de partido solo cubren el núcleo, el matching profundo se rompe: dos partidos comunistas contestan igual a «nacionalizar la banca» y divergen en «partido de vanguardia». El cuestionario a partidos y la codificación incluyen siempre los ítems de módulo relevantes para su familia.
 
+**Dichos y hechos: la posición revelada prevalece.** Cuando el programa o la retórica divergen de la conducta (votaciones, acción u omisión de gobierno), la posición se codifica por la **conducta**, y la divergencia se anota en la justificación. Ejemplos del patrón: partidos con retórica de protección social cuyo registro de votos en materia laboral apunta en otra dirección; programas de vivienda ambiciosos con ejecución escasa cuando se gobierna. La fuente `votacion` pesa más que `programa`, y `programa` más que `declaracion`, salvo que la declaración sea más reciente y reiterada. Nunca se codifica desde la caracterización que hacen los adversarios del partido.
+
+**Micropartidos y redes sociales.** Muchos partidos pequeños no publican programa, y posiciones enteras (p. ej. las posturas sobre cuestiones de género de algunos partidos comunistas menores, o las líneas de sus juventudes) solo existen en sus redes o comunicados. La fuente `redes` es citable con URL y fecha (idealmente con captura archivada en web.archive.org, porque las publicaciones se borran). Las posiciones de las organizaciones juveniles (CJC, etc.) sirven como **indicio** para el partido madre, se etiquetan como tales y nunca bastan solas para una posición `verificada`.
+
 El validador (`npm run validate:data`) exige que toda posición de un partido `verificada` lleve justificación o cita.
+
+## 5 bis. Ámbito electoral: generales, autonómicas, municipales y europeas
+
+El mismo banco sirve para cualquier convocatoria; lo que cambia es el **contexto**, no la fórmula:
+
+- `partidosElegibles(partidos, {tipo, ccaa})` decide qué partidos entran en el ranking: en autonómicas y generales, los estatales más los autonómicos/insulares de la comunidad del usuario; en europeas, todos (circunscripción única); en municipales, además los de ámbito local. Es una heurística v1 que la Fase 3 sustituirá por las candidaturas reales de cada convocatoria (infoelectoral).
+- **La fórmula de afinidad no cambia jamás con el ámbito**: mismos ítems, misma distancia Manhattan normalizada, mismas puntuaciones de eje. Filtrar partidos no altera la puntuación de ningún otro (la afinidad es por pares usuario–partido, no relativa al conjunto), así que añadir o quitar convocatorias no puede sesgar los resultados.
+- En autonómicas, el **módulo territorial** de la comunidad forma parte del núcleo efectivo (no es opcional), porque ahí viven los discriminantes de esa arena (moratoria turística CC/NC, concierto en Euskadi/Navarra, etc.).
+- Las **coaliciones** (Sumar, EH Bildu, Por Andalucía, Existe) se modelan con `tipo: "coalicion"` y `componentes: [ids]`: la coalición tiene ficha y posiciones propias (lo que se vota), y cada componente puede tener la suya (lo que se es). El usuario ve la coalición en el ranking electoral y puede desplegar sus componentes en la vista de detalle. Los partidos autonómicos sin representación en el Congreso (Adelante Andalucía, Nación Andaluza, extraparlamentarios de cualquier territorio) entran por la misma vía que los estatales: nivel de confianza según la fuente disponible, sin trato especial.
 
 ## 6. Sesgos conocidos y controles
 

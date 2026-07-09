@@ -250,12 +250,7 @@
     "id": "izq-015",
     "texto": "La ley debe permitir cambiar el sexo registral por libre decisión de la persona, sin requisitos médicos.",
     "modulo": "corrientes-izquierda",
-    "ejes": [
-      {
-        "eje": "tradicion-moral",
-        "carga": -0.75
-      }
-    ],
+    "ejes": [],
     "polaridad": "positiva",
     "tags": [
       "trans",
@@ -263,7 +258,7 @@
       "derechos"
     ],
     "estado": "piloto",
-    "notas": "Discrimina: Más fino que el ítem LGTB del núcleo: separa PCE (apoyó la autodeterminación de género, con debate interno) y trotskismo (+2) del PCTE (crítico con la teoría queer, -1) y de Frente Obrero (rechazo, -2). | Esperado: trotskismo (IR, Corriente Roja) +2, PCE/IU +1, luxemburguismo +1, PCTE -1, PCOE -1, Frente Obrero -2."
+    "notas": "Discrimina: Más fino que el ítem LGTB del núcleo: separa PCE (apoyó la autodeterminación de género, con debate interno) y trotskismo (+2) del PCTE (crítico con la teoría queer, -1) y de Frente Obrero (rechazo, -2). | Esperado: trotskismo (IR, Corriente Roja) +2, PCE/IU +1, luxemburguismo +1, PCTE -1, PCOE -1, Frente Obrero -2. | [Auditoría de equifinalidad: Equifinalidad: el desacuerdo dentro de la izquierda viene tanto del rojipardismo (tradicionalismo real) como del feminismo gender-critical (que no es tradicionalismo moral). Solo-matching.]"
   },
   {
     "id": "izq-016",

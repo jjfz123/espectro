@@ -282,16 +282,7 @@
     "id": "dr-016",
     "texto": "Las comunidades con lengua propia deberían poder exigir su conocimiento a los inmigrantes como condición para acceder a ayudas públicas.",
     "modulo": "derecha-radical",
-    "ejes": [
-      {
-        "eje": "territorial",
-        "carga": -0.5
-      },
-      {
-        "eje": "social",
-        "carga": 0.5
-      }
-    ],
+    "ejes": [],
     "polaridad": "negativa",
     "tags": [
       "lengua",
@@ -300,7 +291,7 @@
       "territorial"
     ],
     "estado": "piloto",
-    "notas": "Discrimina: Marcador de Aliança Catalana (+2: catalán como filtro nativista) frente a la ultraderecha españolista, que rechaza los requisitos lingüísticos autonómicos (VOX −2: solo el castellano). Mismo nativismo, marco nacional opuesto: es la distinción que define el caso único de AC. Junts +1 marca su ala dura. | Esperado: Aliança Catalana +2, Junts +1, ERC -1, VOX -2, Democracia Nacional -1, España 2000 -1, PSC/PSOE -1."
+    "notas": "Discrimina: Marcador de Aliança Catalana (+2: catalán como filtro nativista) frente a la ultraderecha españolista, que rechaza los requisitos lingüísticos autonómicos (VOX −2: solo el castellano). Mismo nativismo, marco nacional opuesto: es la distinción que define el caso único de AC. Junts +1 marca su ala dura. | Esperado: Aliança Catalana +2, Junts +1, ERC -1, VOX -2, Democracia Nacional -1, España 2000 -1, PSC/PSOE -1. | [Auditoría de equifinalidad: Equifinalidad: el desacuerdo viene del españolismo TAN (VOX) y del universalismo GAL a la vez; las cargas social/territorial puntuarían al revés a uno de los dos. Solo-matching: separa AC/Junts de VOX y de los estatales.]"
   },
   {
     "id": "dr-017",
@@ -395,5 +386,33 @@
     ],
     "estado": "piloto",
     "notas": "Discrimina: la recentralización radical (VOX, Falange, DN: supresión del Estado autonómico) frente al PP (reordenar competencias sin suprimir) y el resto del arco. Va más allá del ítem del núcleo de devolución de competencias. | Esperado: VOX +2, FE-JONS +2, DN +2, SALF +1, PP -1, PSOE -2, nacionalistas periféricos -2. | [Añadido a partir de un hueco señalado por el revisor]"
+  },
+  {
+    "id": "dr-022",
+    "texto": "España debe apoyar a Israel sin reservas frente a sus adversarios en Oriente Próximo.",
+    "modulo": "derecha-radical",
+    "ejes": [],
+    "polaridad": "positiva",
+    "tags": [
+      "israel",
+      "sionismo",
+      "exterior"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: el giro pro-Israel de VOX (documentable en declaraciones, votos y relaciones institucionales) frente al antisionismo falangista e identitario (tercera posición) y la indiferencia de SALF; dentro de la familia es EL separador geopolítico junto a Rusia. | Esperado: VOX +2, Aliança Catalana +2, PP +1, SALF 0, DN -2, FE-JONS -2. | [Solo-matching: no lineal. Posiciones de partido a codificar con declaraciones y votaciones, no solo programa.]"
+  },
+  {
+    "id": "dr-023",
+    "texto": "La política exterior española debería alinearse con la de gobiernos como el de Trump en Estados Unidos.",
+    "modulo": "derecha-radical",
+    "ejes": [],
+    "polaridad": "positiva",
+    "tags": [
+      "maga",
+      "eeuu",
+      "exterior"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: el alineamiento con la derecha internacional MAGA/Patriots (VOX +2, SALF +1) frente al antiamericanismo falangista (-2), la ambivalencia identitaria (DN -1/0) y el atlantismo institucional del PP (-1). | Esperado: VOX +2, SALF +1, PP -1, FE-JONS -2, DN -1, PSOE -2. | [Solo-matching: el rechazo llega desde el europeísmo institucional Y desde el antiamericanismo ultra a la vez.]"
   }
 ]
