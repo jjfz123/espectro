@@ -1,0 +1,260 @@
+{
+  "id": "mutualismo-proudhoniano",
+  "nombre": "Mutualismo",
+  "tipo": "referencia-doctrinal",
+  "definicion": "Tipo ideal proudhoniano de socialismo antiestatal y de mercado: posesión basada en uso, crédito mutuo, intercambio recíproco, asociaciones de trabajadores y una federación descentralizada sustituyen propiedad rentista, capitalismo y administración central.",
+  "variante": "Mutualismo proudhoniano clásico; las reconstrucciones mutualistas contemporáneas no forman una escuela única",
+  "periodo": "Siglo XIX–actualidad",
+  "confianza": "verificada",
+  "version": "1.0",
+  "revisado": "2026-07-09",
+  "facetasDefinitorias": ["economico", "estatismo", "poder-laboral", "democracia-directa", "institucionalismo"],
+  "sensibilidad": "normal",
+  "advertencia": "Es una referencia doctrinal, no un partido. No debe confundirse con anarcocapitalismo: critica la propiedad que permite renta, interés y apropiación del trabajo ajeno, y propone asociaciones y crédito mutuos. Proudhon varió entre anarquía y un federalismo con funciones públicas mínimas y sostuvo opiniones misóginas y antisemitas que no se convierten en rasgos del mutualismo ni se codifican. Quedan vacías energía, bioética, religión y geopolítica.",
+  "fuentesMarco": [
+    {
+      "tipo": "otro",
+      "titulo": "Pierre-Joseph Proudhon, What Is Property?",
+      "url": "https://www.marxists.org/reference/subject/economics/proudhon/property/",
+      "fecha": "1840",
+      "consultado": "2026-07-09"
+    },
+    {
+      "tipo": "otro",
+      "titulo": "Pierre-Joseph Proudhon, General Idea of the Revolution in the Nineteenth Century",
+      "url": "https://fair-use.org/p-j-proudhon/general-idea-of-the-revolution/",
+      "fecha": "1851",
+      "consultado": "2026-07-09"
+    },
+    {
+      "tipo": "otro",
+      "titulo": "Routledge Encyclopedia of Philosophy: Proudhon, Pierre-Joseph",
+      "url": "https://www.rep.routledge.com/articles/biographical/proudhon-pierre-joseph-1809-65/v-1",
+      "fecha": "1998",
+      "consultado": "2026-07-09"
+    }
+  ],
+  "reglaPublicacion": {
+    "minimoItems": 10,
+    "minimoCobertura": 0.55,
+    "umbralAfinidad": 74
+  },
+  "posiciones": {
+    "der-001": {
+      "valor": -1,
+      "justificacion": "El Estado mínimo del enunciado sigue reservando monopolios coercitivos; el mutualismo antiestatal quiere reemplazarlos por contratos, federaciones y asociaciones recíprocas.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "General Idea of the Revolution in the Nineteenth Century",
+        "url": "https://fair-use.org/p-j-proudhon/general-idea-of-the-revolution/",
+        "fecha": "1851",
+        "consultado": "2026-07-09"
+      }
+    },
+    "dem-011": {
+      "valor": 2,
+      "justificacion": "No se limita a reformar el parlamentarismo: pretende sustituir autoridad central y gobierno político por organización económica, contractual y federativa.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "General Idea of the Revolution in the Nineteenth Century",
+        "url": "https://fair-use.org/p-j-proudhon/general-idea-of-the-revolution/",
+        "fecha": "1851",
+        "consultado": "2026-07-09"
+      }
+    },
+    "dem-013": {
+      "valor": 2,
+      "justificacion": "La federación proudhoniana se construye mediante pactos concretos y poderes delegados y delimitados, no mediante representantes soberanos con mandato libre general.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "The Federative Principle",
+        "url": "https://theanarchistlibrary.org/library/pierre-joseph-proudhon-the-principle-of-federation",
+        "fecha": "1863",
+        "consultado": "2026-07-09"
+      }
+    },
+    "dem-017": {
+      "valor": 1,
+      "justificacion": "Prefiere federaciones locales y laborales a parlamento central, aunque no fija como única arquitectura posible el modelo exacto de consejos del enunciado.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "The Federative Principle",
+        "url": "https://theanarchistlibrary.org/library/pierre-joseph-proudhon-the-principle-of-federation",
+        "fecha": "1863",
+        "consultado": "2026-07-09"
+      }
+    },
+    "dem-019": {
+      "valor": -2,
+      "justificacion": "Un movimiento único que dirige el Estado concentra autoridad política y contradice reciprocidad, pluralidad asociativa y equilibrio federal.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "The Federative Principle",
+        "url": "https://theanarchistlibrary.org/library/pierre-joseph-proudhon-the-principle-of-federation",
+        "fecha": "1863",
+        "consultado": "2026-07-09"
+      }
+    },
+    "izq-032": {
+      "valor": 2,
+      "justificacion": "Su economía se basa en asociaciones de trabajadores, posesión y cooperación recíproca, no en empresas nacionalizadas administradas desde ministerios.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "General Idea of the Revolution in the Nineteenth Century",
+        "url": "https://fair-use.org/p-j-proudhon/general-idea-of-the-revolution/",
+        "fecha": "1851",
+        "consultado": "2026-07-09"
+      }
+    },
+    "izq-038": {
+      "valor": 2,
+      "justificacion": "El principio federativo construye el orden de abajo arriba mediante pactos entre grupos y territorios que conservan autonomía frente al centro.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "The Federative Principle",
+        "url": "https://theanarchistlibrary.org/library/pierre-joseph-proudhon-the-principle-of-federation",
+        "fecha": "1863",
+        "consultado": "2026-07-09"
+      }
+    },
+    "izq-043": {
+      "valor": 1,
+      "justificacion": "Confía la seguridad económica a sociedades de ayuda, asociaciones y reciprocidad, aunque distintas variantes admiten instituciones federales comunes y no solo redes informales.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Routledge Encyclopedia of Philosophy: Proudhon",
+        "url": "https://www.rep.routledge.com/articles/biographical/proudhon-pierre-joseph-1809-65/v-1",
+        "fecha": "1998",
+        "consultado": "2026-07-09"
+      }
+    },
+    "dr-001": {
+      "valor": -2,
+      "justificacion": "Frente a nacionalizar la banca, propone crédito y banca mutuos organizados por productores y asociaciones sin monopolio estatal del dinero.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "General Idea of the Revolution in the Nineteenth Century",
+        "url": "https://fair-use.org/p-j-proudhon/general-idea-of-the-revolution/",
+        "fecha": "1851",
+        "consultado": "2026-07-09"
+      }
+    },
+    "eco-001": {
+      "valor": -1,
+      "justificacion": "Comparte el objetivo igualitario, pero en su horizonte final sustituye fiscalidad estatal y rentas de propiedad por reciprocidad y crédito mutuo; el impuesto progresivo puede ser solo una medida transitoria.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "General Idea of the Revolution in the Nineteenth Century",
+        "url": "https://fair-use.org/p-j-proudhon/general-idea-of-the-revolution/",
+        "fecha": "1851",
+        "consultado": "2026-07-09"
+      }
+    },
+    "lab-005": {
+      "valor": 2,
+      "justificacion": "Las asociaciones económicas deben surgir de la libre iniciativa de productores y conservar autonomía frente a gobierno y partidos.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "General Idea of the Revolution in the Nineteenth Century",
+        "url": "https://fair-use.org/p-j-proudhon/general-idea-of-the-revolution/",
+        "fecha": "1851",
+        "consultado": "2026-07-09"
+      }
+    },
+    "lab-008": {
+      "valor": 1,
+      "justificacion": "Favorece que las asociaciones obreras gestionen sus empresas, pero mantiene intercambio y pluralidad de unidades productivas en lugar de exigir un sistema universal de consejos.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "General Idea of the Revolution in the Nineteenth Century",
+        "url": "https://fair-use.org/p-j-proudhon/general-idea-of-the-revolution/",
+        "fecha": "1851",
+        "consultado": "2026-07-09"
+      }
+    },
+    "lab-009": {
+      "valor": 1,
+      "justificacion": "Rechaza la fiscalidad coercitiva de la autoridad central, pero su crítica no sacraliza la propiedad capitalista: también denuncia propiedad rentista y explotación.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "What Is Property?",
+        "url": "https://www.marxists.org/reference/subject/economics/proudhon/property/",
+        "fecha": "1840",
+        "consultado": "2026-07-09"
+      }
+    },
+    "lab-010": {
+      "valor": -2,
+      "justificacion": "La defensa absoluta de propiedad privada que formula esta razón contradice la distinción mutualista entre posesión legítima y propiedad que permite renta y apropiación del trabajo ajeno.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "What Is Property?",
+        "url": "https://www.marxists.org/reference/subject/economics/proudhon/property/",
+        "fecha": "1840",
+        "consultado": "2026-07-09"
+      }
+    },
+    "lab-011": {
+      "valor": 2,
+      "justificacion": "Su objeción estructural es que redistribuir por impuestos no elimina propiedad rentista, monopolio del crédito ni control ajeno de los medios de trabajo.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "What Is Property?",
+        "url": "https://www.marxists.org/reference/subject/economics/proudhon/property/",
+        "fecha": "1840",
+        "consultado": "2026-07-09"
+      }
+    },
+    "lab-012": {
+      "valor": 1,
+      "justificacion": "Prefiere que recursos comunes y crédito se organicen por asociaciones y pactos federales, aunque no prescribe necesariamente una cuota profesional obligatoria uniforme.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "General Idea of the Revolution in the Nineteenth Century",
+        "url": "https://fair-use.org/p-j-proudhon/general-idea-of-the-revolution/",
+        "fecha": "1851",
+        "consultado": "2026-07-09"
+      }
+    },
+    "lab-016": {
+      "valor": -2,
+      "justificacion": "La dirección estatal de empresas reproduce centralización y monopolio; su alternativa son asociaciones autónomas y coordinación contractual.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "General Idea of the Revolution in the Nineteenth Century",
+        "url": "https://fair-use.org/p-j-proudhon/general-idea-of-the-revolution/",
+        "fecha": "1851",
+        "consultado": "2026-07-09"
+      }
+    },
+    "lab-017": {
+      "valor": 2,
+      "justificacion": "Entre empresa capitalista y ministerio, la unidad mutualista preferida es la asociación de trabajadores que posee y gestiona directamente su actividad.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "General Idea of the Revolution in the Nineteenth Century",
+        "url": "https://fair-use.org/p-j-proudhon/general-idea-of-the-revolution/",
+        "fecha": "1851",
+        "consultado": "2026-07-09"
+      }
+    }
+  }
+}

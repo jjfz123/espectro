@@ -1,0 +1,26 @@
+{
+  "id": "mas-madrid",
+  "nombre": "Más Madrid",
+  "siglas": "MM",
+  "ambito": "autonomico",
+  "tipo": "partido",
+  "ccaa": ["madrid"],
+  "confianza": "verificada",
+  "web": "https://masmadrid.org/",
+  "revisado": "2026-07-09",
+  "actividad": "activa",
+  "posiciones": {
+    "dem-001": {
+      "valor": 1,
+      "justificacion": "El programa autonómico propone ampliar instrumentos de participación directa y decisión ciudadana; no exige que toda decisión de gran alcance se someta habitualmente a referéndum.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa de Más Madrid para la Comunidad de Madrid 2023",
+        "url": "https://programa.masmadrid.org/pdf/Comunidad%20de%20Madrid/Programa%20M%C3%A1s%20Madrid%20-%20CM%202023.pdf",
+        "fecha": "2023-05",
+        "consultado": "2026-07-09"
+      }
+    }
+  }
+}

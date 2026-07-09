@@ -1,0 +1,181 @@
+{
+  "id": "volt-espana",
+  "nombre": "Volt España",
+  "siglas": "VOLT",
+  "ambito": "estatal",
+  "tipo": "partido",
+  "confianza": "verificada",
+  "web": "https://voltespana.org/",
+  "revisado": "2026-07-09",
+  "actividad": "activa",
+  "posiciones": {
+    "ue-002": {
+      "valor": 2,
+      "justificacion": "Su objetivo central es una Unión Europea federal y democrática con soberanía e instituciones comunes reforzadas.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Volt EUR Electoral Moonshot Programme 2024",
+        "url": "https://volteuropa.org/storage/pdf/eu-elections-2024/volt-eur-electoral-moonshot-program_v5-final-%281%29.pdf",
+        "fecha": "2024-05",
+        "consultado": "2026-07-09"
+      }
+    },
+    "lib-013": {
+      "valor": 2,
+      "justificacion": "Defiende una federación europea con gobierno democrático y política común de seguridad y defensa.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Volt EUR Electoral Moonshot Programme 2024",
+        "url": "https://volteuropa.org/storage/pdf/eu-elections-2024/volt-eur-electoral-moonshot-program_v5-final-%281%29.pdf",
+        "fecha": "2024-05",
+        "consultado": "2026-07-09"
+      }
+    },
+    "lab-001": {
+      "valor": 2,
+      "justificacion": "El programa protege negociación colectiva sectorial y refuerza organizaciones sindicales responsables y democráticas.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Volt EUR Electoral Moonshot Programme 2024",
+        "url": "https://volteuropa.org/storage/pdf/eu-elections-2024/volt-eur-electoral-moonshot-program_v5-final-%281%29.pdf",
+        "fecha": "2024-05",
+        "consultado": "2026-07-09"
+      }
+    },
+    "lab-002": {
+      "valor": 2,
+      "justificacion": "Propone representación de los trabajadores en los consejos de las empresas.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Volt EUR Electoral Moonshot Programme 2024",
+        "url": "https://volteuropa.org/storage/pdf/eu-elections-2024/volt-eur-electoral-moonshot-program_v5-final-%281%29.pdf",
+        "fecha": "2024-05",
+        "consultado": "2026-07-09"
+      }
+    },
+    "lab-006": {
+      "valor": -2,
+      "justificacion": "Defiende pluralidad de sindicatos democráticos y sujetos a rendición de cuentas, no una organización única integrada en el Estado.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Volt EUR Electoral Moonshot Programme 2024",
+        "url": "https://volteuropa.org/storage/pdf/eu-elections-2024/volt-eur-electoral-moonshot-program_v5-final-%281%29.pdf",
+        "fecha": "2024-05",
+        "consultado": "2026-07-09"
+      }
+    },
+    "ene-001": {
+      "valor": 1,
+      "justificacion": "Permite nuevas centrales solo si usan diseños inherentemente seguros y resultan necesarias para objetivos climáticos; no da una autorización incondicional.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Volt EUR Electoral Moonshot Programme 2024",
+        "url": "https://volteuropa.org/storage/pdf/eu-elections-2024/volt-eur-electoral-moonshot-program_v5-final-%281%29.pdf",
+        "fecha": "2024-05",
+        "consultado": "2026-07-09"
+      }
+    },
+    "ene-002": {
+      "valor": 2,
+      "justificacion": "Admite la nuclear en la transición bajo condiciones de seguridad, residuos, costes completos y utilidad climática, coincidentes con el carácter condicionado del ítem.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Volt EUR Electoral Moonshot Programme 2024",
+        "url": "https://volteuropa.org/storage/pdf/eu-elections-2024/volt-eur-electoral-moonshot-program_v5-final-%281%29.pdf",
+        "fecha": "2024-05",
+        "consultado": "2026-07-09"
+      }
+    },
+    "ene-003": {
+      "valor": -1,
+      "justificacion": "Acepta prolongar reactores existentes cuando superen controles y sean necesarios para el clima, por lo que no respalda descartar de antemano toda prórroga del calendario español.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Volt EUR Electoral Moonshot Programme 2024",
+        "url": "https://volteuropa.org/storage/pdf/eu-elections-2024/volt-eur-electoral-moonshot-program_v5-final-%281%29.pdf",
+        "fecha": "2024-05",
+        "consultado": "2026-07-09"
+      }
+    },
+    "ene-009": {
+      "valor": 2,
+      "justificacion": "Propone financiar investigación en fisión avanzada, reactores más seguros y fusión.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Volt EUR Electoral Moonshot Programme 2024",
+        "url": "https://volteuropa.org/storage/pdf/eu-elections-2024/volt-eur-electoral-moonshot-program_v5-final-%281%29.pdf",
+        "fecha": "2024-05",
+        "consultado": "2026-07-09"
+      }
+    },
+    "geo-004": {
+      "valor": 2,
+      "justificacion": "Defiende una unión europea de defensa capaz de sostenerse con autonomía estratégica y un pilar europeo propio.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Volt EUR Electoral Moonshot Programme 2024",
+        "url": "https://volteuropa.org/storage/pdf/eu-elections-2024/volt-eur-electoral-moonshot-program_v5-final-%281%29.pdf",
+        "fecha": "2024-05",
+        "consultado": "2026-07-09"
+      }
+    },
+    "def-002": {
+      "valor": -2,
+      "justificacion": "Considera que la OTAN debe seguir siendo la columna vertebral de la disuasión mientras se refuerza el pilar europeo; no propone salir de ella.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Volt EUR Electoral Moonshot Programme 2024",
+        "url": "https://volteuropa.org/storage/pdf/eu-elections-2024/volt-eur-electoral-moonshot-program_v5-final-%281%29.pdf",
+        "fecha": "2024-05",
+        "consultado": "2026-07-09"
+      }
+    },
+    "geo-005": {
+      "valor": 2,
+      "justificacion": "Mantiene disuasión nuclear europea y aliada mientras existan arsenales adversarios y no haya una arquitectura de seguridad sustitutiva creíble.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Volt EUR Electoral Moonshot Programme 2024",
+        "url": "https://volteuropa.org/storage/pdf/eu-elections-2024/volt-eur-electoral-moonshot-program_v5-final-%281%29.pdf",
+        "fecha": "2024-05",
+        "consultado": "2026-07-09"
+      }
+    },
+    "geo-006": {
+      "valor": -1,
+      "justificacion": "Aspira a una prohibición final y verificable, pero la condiciona a una alternativa de seguridad creíble; no respalda ratificarla ahora pese a la oposición aliada.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Volt EUR Electoral Moonshot Programme 2024",
+        "url": "https://volteuropa.org/storage/pdf/eu-elections-2024/volt-eur-electoral-moonshot-program_v5-final-%281%29.pdf",
+        "fecha": "2024-05",
+        "consultado": "2026-07-09"
+      }
+    },
+    "dem-014": {
+      "valor": 2,
+      "justificacion": "La Asamblea General de toda la membresía es soberana, decide las líneas principales y elige y puede destituir a los órganos.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "estatutos",
+        "titulo": "Estatutos de Volt España 2025",
+        "url": "https://voltespana.org/storage/pdf/estatutos-de-volt-espana-2025.pdf",
+        "fecha": "2025",
+        "consultado": "2026-07-09"
+      }
+    }
+  }
+}

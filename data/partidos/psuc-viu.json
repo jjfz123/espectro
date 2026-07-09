@@ -1,0 +1,169 @@
+{
+  "id": "psuc-viu",
+  "nombre": "Partit Socialista Unificat de Catalunya Viu",
+  "siglas": "PSUC Viu",
+  "ambito": "autonomico",
+  "tipo": "partido",
+  "ccaa": ["catalunya"],
+  "confianza": "verificada",
+  "web": "https://psuc.org/",
+  "revisado": "2026-07-09",
+  "actividad": "activa",
+  "excepcionCatalogo": {
+    "motivo": "comunista-activa",
+    "justificacion": "Se incorpora por la excepción de cobertura de organizaciones comunistas activas. El PSUC Viu mantiene actividad propia, pero sus estatutos ceden la concurrencia electoral directa a EUiA y no debe mostrarse como papeleta separada.",
+    "fuente": {
+      "tipo": "declaracion",
+      "titulo": "Anem a guanyar el dret a viure (a una casa) en PAU",
+      "url": "https://psuc.org/2026/04/30/anem-a-guanyar-el-dret-a-viure-a-una-casa-en-pau/",
+      "fecha": "2026-04-30",
+      "consultado": "2026-07-09"
+    }
+  },
+  "posiciones": {
+    "izq-005": {
+      "valor": 2,
+      "justificacion": "Propone superar la mera redistribución mediante un Estado que planifique democráticamente la economía en dirección al socialismo.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Democratitzar l’economia per avançar en igualtat",
+        "url": "https://psuc.org/2023/04/28/democratitzar-leconomia-per-avancar-en-igualtat/",
+        "fecha": "2023-04-28",
+        "consultado": "2026-07-09"
+      }
+    },
+    "izq-009": {
+      "valor": 2,
+      "justificacion": "Defiende articular todas las fuerzas de izquierda transformadora y las luchas obreras, populares y sociales sobre una base programática común.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Democratitzar l’economia per avançar en igualtat",
+        "url": "https://psuc.org/2023/04/28/democratitzar-leconomia-per-avancar-en-igualtat/",
+        "fecha": "2023-04-28",
+        "consultado": "2026-07-09"
+      }
+    },
+    "izq-010": {
+      "valor": 2,
+      "justificacion": "Valora medidas obtenidas por el Gobierno de coalición progresista y en 2025 pide preservar ese gobierno como vía de ampliación de derechos laborales y sociales.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "La PAU primer, habitatge, treball i una vida digna",
+        "url": "https://psuc.org/2025/05/01/la-pau-primer-habitatge-treball-i-una-vida-digna/",
+        "fecha": "2025-05-01",
+        "consultado": "2026-07-09"
+      }
+    },
+    "lab-001": {
+      "valor": 2,
+      "justificacion": "Celebra la recuperación de la prevalencia salarial de los convenios sectoriales y de la ultraactividad como refuerzo de la negociación colectiva.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Democratitzar l’economia per avançar en igualtat",
+        "url": "https://psuc.org/2023/04/28/democratitzar-leconomia-per-avancar-en-igualtat/",
+        "fecha": "2023-04-28",
+        "consultado": "2026-07-09"
+      }
+    },
+    "eco-011": {
+      "valor": 2,
+      "justificacion": "Reclama reducir la jornada laboral sin pérdida salarial y en 2025 concreta su apoyo a las 37,5 horas semanales.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "La PAU primer, habitatge, treball i una vida digna",
+        "url": "https://psuc.org/2025/05/01/la-pau-primer-habitatge-treball-i-una-vida-digna/",
+        "fecha": "2025-05-01",
+        "consultado": "2026-07-09"
+      }
+    },
+    "sd-008": {
+      "valor": 2,
+      "justificacion": "Su propuesta económica incluye expresamente aplicar una renta básica universal en Catalunya.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Democratitzar l’economia per avançar en igualtat",
+        "url": "https://psuc.org/2023/04/28/democratitzar-leconomia-per-avancar-en-igualtat/",
+        "fecha": "2023-04-28",
+        "consultado": "2026-07-09"
+      }
+    },
+    "dr-001": {
+      "valor": 1,
+      "justificacion": "Defiende crear una banca pública, aunque la fuente no propone nacionalizar todo el sector bancario; por eso el apoyo al enunciado total es parcial.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Democratitzar l’economia per avançar en igualtat",
+        "url": "https://psuc.org/2023/04/28/democratitzar-leconomia-per-avancar-en-igualtat/",
+        "fecha": "2023-04-28",
+        "consultado": "2026-07-09"
+      }
+    },
+    "lab-016": {
+      "valor": 1,
+      "justificacion": "Plantea planificación democrática y remunicipalización de agua, electricidad y vivienda; apoya dirección pública en ámbitos estratégicos, sin formular una regla universal para toda empresa estratégica.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Democratitzar l’economia per avançar en igualtat",
+        "url": "https://psuc.org/2023/04/28/democratitzar-leconomia-per-avancar-en-igualtat/",
+        "fecha": "2023-04-28",
+        "consultado": "2026-07-09"
+      }
+    },
+    "sd-002": {
+      "valor": -2,
+      "justificacion": "Rechaza la carrera de rearme exigida por la OTAN y advierte que desviaría recursos de servicios públicos y derechos sociales.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "La PAU primer, habitatge, treball i una vida digna",
+        "url": "https://psuc.org/2025/05/01/la-pau-primer-habitatge-treball-i-una-vida-digna/",
+        "fecha": "2025-05-01",
+        "consultado": "2026-07-09"
+      }
+    },
+    "dem-015": {
+      "valor": 2,
+      "justificacion": "Sus estatutos articulan centralismo democrático, disciplina consciente, unidad de acción y obligación de aplicar los acuerdos mayoritarios.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "estatutos",
+        "titulo": "Propuesta de Estatutos del XVI Congreso del PSUC Viu",
+        "url": "https://psuc.org/wp-content/uploads/2017/06/Propuesta-ESTATUTOS-XVI-CONGRESO.docx.pdf",
+        "fecha": "2017-06",
+        "consultado": "2026-07-09"
+      }
+    },
+    "izq-018": {
+      "valor": -2,
+      "justificacion": "Los estatutos prohíben las fracciones, corrientes o tendencias organizadas, aunque admiten plataformas puntuales de opinión durante ciertos debates.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "estatutos",
+        "titulo": "Propuesta de Estatutos del XVI Congreso del PSUC Viu",
+        "url": "https://psuc.org/wp-content/uploads/2017/06/Propuesta-ESTATUTOS-XVI-CONGRESO.docx.pdf",
+        "fecha": "2017-06",
+        "consultado": "2026-07-09"
+      }
+    },
+    "izq-031": {
+      "valor": -2,
+      "justificacion": "Los estatutos ceden expresamente la concurrencia electoral y presencia institucional directa a EUiA, lo que demuestra una estrategia electoral unitaria, no boicot general.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "estatutos",
+        "titulo": "Propuesta de Estatutos del XVI Congreso del PSUC Viu",
+        "url": "https://psuc.org/wp-content/uploads/2017/06/Propuesta-ESTATUTOS-XVI-CONGRESO.docx.pdf",
+        "fecha": "2017-06",
+        "consultado": "2026-07-09"
+      }
+    }
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "id": "lab",
+  "nombre": "Langile Abertzaleen Batzordeak",
+  "siglas": "LAB",
+  "ambito": "territorial",
+  "ccaa": ["euskadi", "navarra"],
+  "confianza": "verificada",
+  "web": "https://www.lab.eus/es/",
+  "revisado": "2026-07-09",
+  "advertencia": "La similitud doctrinal no acredita implantación en tu empresa ni constituye una recomendación de afiliación.",
+  "posiciones": {
+    "lab-005": {
+      "valor": 2,
+      "justificacion": "Se presenta como sindicato independiente y de contrapoder; no se infiere de ello una mezcla financiera concreta.",
+      "calidadEvidencia": "alta",
+      "fuente": { "tipo": "declaracion", "titulo": "Asamblea intercongresual de LAB", "url": "https://www.lab.eus/es/lab-reitera-su-apuesta-por-el-proceso-de-transformacion-de-euskal-herria-en-su-asamblea-intercongresual/", "fecha": "2025", "consultado": "2026-07-09" }
+    },
+    "lab-016": {
+      "valor": 1,
+      "justificacion": "Su proyecto ecosocialista refuerza propiedad y servicios públicos y formas comunitarias, sin equivaler a dirección estatal exclusiva de toda empresa estratégica.",
+      "calidadEvidencia": "media",
+      "fuente": { "tipo": "programa", "titulo": "Asamblea intercongresual de LAB", "url": "https://www.lab.eus/es/lab-reitera-su-apuesta-por-el-proceso-de-transformacion-de-euskal-herria-en-su-asamblea-intercongresual/", "fecha": "2025", "consultado": "2026-07-09" }
+    },
+    "lab-023": {
+      "valor": -2,
+      "justificacion": "Declara una transformación independentista, ecosocialista, feminista y antirracista de Euskal Herria.",
+      "calidadEvidencia": "alta",
+      "fuente": { "tipo": "programa", "titulo": "Asamblea intercongresual de LAB", "url": "https://www.lab.eus/es/lab-reitera-su-apuesta-por-el-proceso-de-transformacion-de-euskal-herria-en-su-asamblea-intercongresual/", "fecha": "2025", "consultado": "2026-07-09" }
+    },
+    "lab-024": {
+      "valor": 2,
+      "justificacion": "Reclama expresamente un marco vasco propio de relaciones laborales y protección social.",
+      "calidadEvidencia": "alta",
+      "fuente": { "tipo": "programa", "titulo": "Asamblea intercongresual de LAB", "url": "https://www.lab.eus/es/lab-reitera-su-apuesta-por-el-proceso-de-transformacion-de-euskal-herria-en-su-asamblea-intercongresual/", "fecha": "2025", "consultado": "2026-07-09" }
+    },
+    "lab-025": {
+      "valor": 2,
+      "justificacion": "Su sistema de afiliación publica cuotas progresivas e incluye un fondo de lucha para sostener conflictos.",
+      "calidadEvidencia": "alta",
+      "fuente": { "tipo": "declaracion", "titulo": "Afiliación y cuotas de LAB", "url": "https://www.lab.eus/es/afiliatu/", "fecha": "2026", "consultado": "2026-07-09" }
+    }
+  }
+}

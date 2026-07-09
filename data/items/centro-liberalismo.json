@@ -238,7 +238,7 @@
   },
   {
     "id": "lib-013",
-    "texto": "España debería impulsar una federación europea, con un gobierno y un ejército comunes.",
+    "texto": "España debería impulsar una federación europea con un gobierno común elegido democráticamente.",
     "modulo": "centro-liberalismo",
     "ejes": [
       {
@@ -253,7 +253,7 @@
       "ejercito-europeo"
     ],
     "estado": "piloto",
-    "notas": "Discrimina: UE federal (Volt, y en menor medida Cs/UPyD) frente a UE de mercado del liberal clásico y frente al rechazo ancap a todo super-Estado. Es el ítem que identifica a Volt frente al resto de la familia liberal. | Esperado: Volt España +2, Ciudadanos +1, UPyD +1, PSOE +1, liberalismo clásico -1, P-LIB -2, Vox -2. | [Corregido en revisión: El ítem identifica a Volt como promete y la carga ue -1 tiene el signo correcto (acuerdo = más integración = polo europeísta). Pero la carga atlantismo +0.25 es conceptualmente errónea: el ejército europeo se defiende tanto desde el atlantismo (más gasto, pilar europeo de la OTAN) como desde la autonomía estratégica ANTI-atlantista (menos dependencia de EE.UU.); la relación no es monótona y contamina el eje. Eliminar la segunda carga y dejar solo ue -1. 'Gobierno y ejército comunes' roza el doble barril, pero es el paquete federal indivisible del programa de Volt: tolerable.]"
+    "notas": "Discrimina una federación política europea —Volt y federalistas— de una UE solo intergubernamental o de mercado y del rechazo ancap a un supraestado. La defensa común se mide aparte en geo-004."
   },
   {
     "id": "lib-014",

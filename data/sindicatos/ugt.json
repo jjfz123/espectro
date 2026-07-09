@@ -1,0 +1,48 @@
+{
+  "id": "ugt",
+  "nombre": "Unión General de Trabajadoras y Trabajadores",
+  "siglas": "UGT",
+  "ambito": "estatal",
+  "confianza": "verificada",
+  "web": "https://www.ugt.es/",
+  "revisado": "2026-07-09",
+  "advertencia": "La similitud doctrinal no acredita implantación en tu empresa ni constituye una recomendación de afiliación.",
+  "posiciones": {
+    "lab-001": {
+      "valor": 2,
+      "justificacion": "El programa de acción da centralidad a los convenios y a la negociación colectiva de ámbito suficiente.",
+      "calidadEvidencia": "alta",
+      "fuente": { "tipo": "programa", "titulo": "Programa de Acción del 44.º Congreso", "url": "https://www.ugt.es/sites/default/files/RESOLUCIONES-44C-PROGRAMA-DE_ACCION.pdf", "fecha": "2024", "consultado": "2026-07-09" }
+    },
+    "lab-002": {
+      "valor": 2,
+      "justificacion": "Propone regular la participación de trabajadores en la empresa mediante cogestión y codeterminación.",
+      "calidadEvidencia": "alta",
+      "fuente": { "tipo": "programa", "titulo": "Programa de Acción del 44.º Congreso", "url": "https://www.ugt.es/sites/default/files/RESOLUCIONES-44C-PROGRAMA-DE_ACCION.pdf", "fecha": "2024", "consultado": "2026-07-09" }
+    },
+    "lab-004": {
+      "valor": -2,
+      "justificacion": "Los estatutos admiten cuotas, donaciones, legados, subvenciones e ingresos de representación pública.",
+      "calidadEvidencia": "alta",
+      "fuente": { "tipo": "estatutos", "titulo": "Estatutos y normas del 44.º Congreso", "url": "https://www.ugt.es/sites/default/files/RESOLUCIONES-44C-ESTATUTOS-REGLAMENTO-NORMAS.pdf", "fecha": "2024", "consultado": "2026-07-09" }
+    },
+    "lab-005": {
+      "valor": 2,
+      "justificacion": "Proclama independencia respecto de gobiernos, partidos, religiones, administraciones y patronales.",
+      "calidadEvidencia": "alta",
+      "fuente": { "tipo": "estatutos", "titulo": "Estatutos y normas del 44.º Congreso", "url": "https://www.ugt.es/sites/default/files/RESOLUCIONES-44C-ESTATUTOS-REGLAMENTO-NORMAS.pdf", "fecha": "2024", "consultado": "2026-07-09" }
+    },
+    "lab-019": {
+      "valor": 2,
+      "justificacion": "Su financiación estatutaria es mixta y la organización publica cuentas, compatible con subvención reglada y transparencia.",
+      "calidadEvidencia": "alta",
+      "fuente": { "tipo": "otro", "titulo": "Nuestras cuentas", "url": "https://ugt.es/index.php/nuestras-cuentas-0", "fecha": "2024", "consultado": "2026-07-09" }
+    },
+    "lab-023": {
+      "valor": -2,
+      "justificacion": "Su programa fundamental formula un proyecto social, económico y europeo general, no limitado a condiciones laborales.",
+      "calidadEvidencia": "alta",
+      "fuente": { "tipo": "programa", "titulo": "Programa Fundamental del 44.º Congreso", "url": "https://www.ugt.es/sites/default/files/RESOLUCIONES-44C-PROGRAMA-FUNDAMENTAL.pdf", "fecha": "2024", "consultado": "2026-07-09" }
+    }
+  }
+}

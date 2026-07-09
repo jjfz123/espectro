@@ -1,0 +1,204 @@
+{
+  "id": "pcpe",
+  "nombre": "Partido Comunista de los Pueblos de España",
+  "siglas": "PCPE",
+  "ambito": "estatal",
+  "tipo": "partido",
+  "confianza": "verificada",
+  "web": "https://pcpe.es/",
+  "revisado": "2026-07-09",
+  "actividad": "activa",
+  "excepcionCatalogo": {
+    "motivo": "comunista-activa",
+    "justificacion": "Se incorpora por la excepción de cobertura de organizaciones comunistas activas. La actividad de su Comité Central en 2026 no equivale por sí sola a concurrir con siglas propias en una elección concreta.",
+    "fuente": {
+      "tipo": "declaracion",
+      "titulo": "Celebrado el IV Pleno del Comité Central del PCPE",
+      "url": "https://pcpe.es/celebrado-el-iv-pleno-del-comite-central-del-pcpe/",
+      "fecha": "2026-01-26",
+      "consultado": "2026-07-09"
+    }
+  },
+  "posiciones": {
+    "izq-001": {
+      "valor": 2,
+      "justificacion": "Se define marxista-leninista y plantea superar el capitalismo mediante una alternativa socialista, no limitarse a su gestión reformada.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "autoubicacion",
+        "titulo": "Sobre el PCPE",
+        "url": "https://pcpe.es/sobre-el-pcpe/",
+        "fecha": "2014-05-09",
+        "consultado": "2026-07-09"
+      }
+    },
+    "izq-011": {
+      "valor": 2,
+      "justificacion": "El programa conjunto PCPE-PCPC exige de forma explícita la salida de la Unión Europea y del euro.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral PCPE-PCPC para las elecciones europeas de 2024",
+        "url": "https://pcpe.es/wp-content/uploads/2024/05/Programa-electoral-2024.-COMPLETO-VOTA-1.pdf",
+        "fecha": "2024-05",
+        "consultado": "2026-07-09"
+      }
+    },
+    "def-001": {
+      "valor": 2,
+      "justificacion": "Propone una reducción drástica del presupuesto militar.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral PCPE-PCPC para las elecciones europeas de 2024",
+        "url": "https://pcpe.es/wp-content/uploads/2024/05/Programa-electoral-2024.-COMPLETO-VOTA-1.pdf",
+        "fecha": "2024-05",
+        "consultado": "2026-07-09"
+      }
+    },
+    "def-002": {
+      "valor": 2,
+      "justificacion": "La salida de la OTAN y el cierre de bases militares extranjeras figuran como puntos irrenunciables del programa electoral.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral PCPE-PCPC para las elecciones europeas de 2024",
+        "url": "https://pcpe.es/wp-content/uploads/2024/05/Programa-electoral-2024.-COMPLETO-VOTA-1.pdf",
+        "fecha": "2024-05",
+        "consultado": "2026-07-09"
+      }
+    },
+    "geo-003": {
+      "valor": 2,
+      "justificacion": "Propone el retorno inmediato de todas las tropas desplegadas fuera de España y el cese de la ayuda militar en los conflictos citados.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral PCPE-PCPC para las elecciones europeas de 2024",
+        "url": "https://pcpe.es/wp-content/uploads/2024/05/Programa-electoral-2024.-COMPLETO-VOTA-1.pdf",
+        "fecha": "2024-05",
+        "consultado": "2026-07-09"
+      }
+    },
+    "dr-001": {
+      "valor": 2,
+      "justificacion": "Reclama nacionalizar todo el sector financiero, incluida la banca y los seguros.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral PCPE-PCPC para las elecciones europeas de 2024",
+        "url": "https://pcpe.es/wp-content/uploads/2024/05/Programa-electoral-2024.-COMPLETO-VOTA-1.pdf",
+        "fecha": "2024-05",
+        "consultado": "2026-07-09"
+      }
+    },
+    "lab-016": {
+      "valor": 2,
+      "justificacion": "Incluye la nacionalización de energía, obras públicas y grandes cadenas de distribución alimentaria entre los sectores estratégicos.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral PCPE-PCPC para las elecciones europeas de 2024",
+        "url": "https://pcpe.es/wp-content/uploads/2024/05/Programa-electoral-2024.-COMPLETO-VOTA-1.pdf",
+        "fecha": "2024-05",
+        "consultado": "2026-07-09"
+      }
+    },
+    "eco-006": {
+      "valor": 2,
+      "justificacion": "Propone un parque público de vivienda social suficiente y expropiar viviendas de fondos buitre, SAREB y banca.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral PCPE-PCPC para las elecciones europeas de 2024",
+        "url": "https://pcpe.es/wp-content/uploads/2024/05/Programa-electoral-2024.-COMPLETO-VOTA-1.pdf",
+        "fecha": "2024-05",
+        "consultado": "2026-07-09"
+      }
+    },
+    "mon-001": {
+      "valor": 2,
+      "justificacion": "El programa reclama una república y denuncia expresamente la monarquía y el marco constitucional de 1978.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral PCPE-PCPC para las elecciones europeas de 2024",
+        "url": "https://pcpe.es/wp-content/uploads/2024/05/Programa-electoral-2024.-COMPLETO-VOTA-1.pdf",
+        "fecha": "2024-05",
+        "consultado": "2026-07-09"
+      }
+    },
+    "ter-002": {
+      "valor": 2,
+      "justificacion": "Reconoce explícitamente el derecho de libre autodeterminación de los pueblos.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral PCPE-PCPC para las elecciones europeas de 2024",
+        "url": "https://pcpe.es/wp-content/uploads/2024/05/Programa-electoral-2024.-COMPLETO-VOTA-1.pdf",
+        "fecha": "2024-05",
+        "consultado": "2026-07-09"
+      }
+    },
+    "eco-012": {
+      "valor": 2,
+      "justificacion": "Propone cancelar inmediatamente todos los conciertos educativos con la enseñanza privada.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral PCPE-PCPC para las elecciones europeas de 2024",
+        "url": "https://pcpe.es/wp-content/uploads/2024/05/Programa-electoral-2024.-COMPLETO-VOTA-1.pdf",
+        "fecha": "2024-05",
+        "consultado": "2026-07-09"
+      }
+    },
+    "lai-001": {
+      "valor": 2,
+      "justificacion": "Defiende una educación íntegramente pública y laica; esta formulación es incompatible con mantener religión confesional dentro del horario lectivo público.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral PCPE-PCPC para las elecciones europeas de 2024",
+        "url": "https://pcpe.es/wp-content/uploads/2024/05/Programa-electoral-2024.-COMPLETO-VOTA-1.pdf",
+        "fecha": "2024-05",
+        "consultado": "2026-07-09"
+      }
+    },
+    "izq-019": {
+      "valor": 2,
+      "justificacion": "Su programa de 2023 subordina la presencia institucional a la organización exterior y la concibe principalmente como altavoz político, no como vía de gestión transformadora.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral del PCPE para las elecciones generales de 2023",
+        "url": "https://pcpe.es/wp-content/uploads/2023/06/Programa-electoral_removed.pdf",
+        "fecha": "2023-06",
+        "consultado": "2026-07-09"
+      }
+    },
+    "izq-024": {
+      "valor": 1,
+      "justificacion": "Declara que su militancia debe trabajar con orientación clasista en las expresiones sindicales y organizaciones de base donde esté la clase trabajadora; no lo restringe literalmente a CCOO y UGT.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "autoubicacion",
+        "titulo": "Sobre el PCPE",
+        "url": "https://pcpe.es/sobre-el-pcpe/",
+        "fecha": "2014-05-09",
+        "consultado": "2026-07-09"
+      }
+    },
+    "izq-031": {
+      "valor": -2,
+      "justificacion": "Aunque aplicó voto nulo táctico en las generales de 2023, presentó candidatura conjunta en las europeas de 2024; por tanto no defiende boicotear toda elección como regla.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral PCPE-PCPC para las elecciones europeas de 2024",
+        "url": "https://pcpe.es/wp-content/uploads/2024/05/Programa-electoral-2024.-COMPLETO-VOTA-1.pdf",
+        "fecha": "2024-05",
+        "consultado": "2026-07-09"
+      }
+    }
+  }
+}

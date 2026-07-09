@@ -25,7 +25,8 @@ export function Metodologia({ alVolver, alBorrarDatos }: Props) {
           opción «sin opinión» separada. El punto neutral es una posición real y cuenta para
           el cálculo; «sin opinión» expresa que no tienes postura y se excluye. La literatura
           sobre VAAs muestra que confundir ambas cosas en el punto medio degrada la validez
-          del test. Cada ítem puede marcarse además como importante, y pasa a pesar el doble.
+          del test. Cada ítem puede marcarse además como importante: pesa el doble al comparar
+          organizaciones, pero no desplaza tu perfil ideológico personal.
         </p>
       </section>
 
@@ -56,13 +57,13 @@ export function Metodologia({ alVolver, alBorrarDatos }: Props) {
           Cada eje puntúa de −100 a +100 agregando tus respuestas según la carga de cada ítem
           sobre ese eje:
         </p>
-        <code className="formula">ejeₖ = 100 · Σ wᵢ·uᵢ·cᵢₖ / Σ wᵢ·2·|cᵢₖ|</code>
+        <code className="formula">facetaₖ = 100 · Σ uᵢ·cᵢₖ / Σ 2·|cᵢₖ|</code>
         <p>
-          Los seis ejes principales (económico, GAL–TAN, territorial, integración europea,
-          ecologismo y populismo) están anclados en las dimensiones del Chapel Hill Expert
-          Survey; los sub-ejes solo se miden en los módulos de profundización. Un eje sin
-          ítems respondidos devuelve «sin datos»: no se inventa una posición. Existen además
-          ítems «solo-matching» que discriminan entre partidos sin puntuar ningún eje.
+          Cada faceta conserva sus polos, su número de respuestas y su cobertura; no se reduce
+          todo a un único eje izquierda–derecha. Un eje sin ítems respondidos devuelve «sin
+          datos» y una medida con poca evidencia se marca como provisional. Existen además
+          ítems «solo-matching» que separan razones o propuestas concretas sin forzarlas a una
+          geometría lineal.
         </p>
       </section>
 
@@ -90,8 +91,18 @@ export function Metodologia({ alVolver, alBorrarDatos }: Props) {
           y la divergencia se anota.
         </p>
         <p>
-          En esta versión de demostración el banco de partidos contiene únicamente dos
-          partidos ficticios, marcados como «demo» en todos los resultados.
+          Partido y candidatura son objetos distintos. El catálogo electoral se construye a
+          partir de convocatorias fechadas, resultados oficiales y un umbral declarado; una
+          coalición no transmite automáticamente sus posiciones a sus componentes. Los
+          perfiles ficticios usados por las pruebas no entran en el producto.
+        </p>
+        <p>
+          Para partidos donde importa la distancia entre lo prometido y lo ejecutado se
+          muestran dos marcadores: programa o posición oficial, y conducta, votaciones o
+          discurso recientes. Las capas no se promedian y la segunda no rellena sus huecos con
+          la primera. Los compromisos se auditan uno a uno como cumplidos, parciales,
+          bloqueados, incumplidos o todavía no evaluables; no se inventa un porcentaje global
+          de cumplimiento.
         </p>
       </section>
 

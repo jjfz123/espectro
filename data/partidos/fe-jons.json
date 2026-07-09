@@ -1,0 +1,229 @@
+{
+  "id": "fe-jons",
+  "nombre": "Falange Española de las JONS",
+  "siglas": "FE-JONS",
+  "ambito": "estatal",
+  "tipo": "partido",
+  "confianza": "verificada",
+  "web": "https://falange.es/",
+  "revisado": "2026-07-09",
+  "actividad": "activa",
+  "posiciones": {
+    "dem-011": {
+      "valor": 2,
+      "justificacion": "Su programa de 2026 rechaza el parlamentarismo de partidos y propone sustituirlo por una democracia nacionalsindicalista de representación directa.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral FE de las JONS Andalucía 2026",
+        "url": "https://falange.es/wp-content/uploads/2026/05/PROGRAMA-ELECTORAL-FEdelasJONS_ANDALUCIA-2026.pdf",
+        "fecha": "2026-05",
+        "consultado": "2026-07-09"
+      }
+    },
+    "dem-018": {
+      "valor": 2,
+      "justificacion": "Propone representación política articulada desde barrio o municipio, comarca y lugar de trabajo, en vez de intermediación de partidos.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral FE de las JONS Andalucía 2026",
+        "url": "https://falange.es/wp-content/uploads/2026/05/PROGRAMA-ELECTORAL-FEdelasJONS_ANDALUCIA-2026.pdf",
+        "fecha": "2026-05",
+        "consultado": "2026-07-09"
+      }
+    },
+    "dem-019": {
+      "valor": 2,
+      "justificacion": "Describe su modelo como democracia «sin intermediarios ni partidos», incompatible con competencia permanente de varias formaciones.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral FE de las JONS Andalucía 2026",
+        "url": "https://falange.es/wp-content/uploads/2026/05/PROGRAMA-ELECTORAL-FEdelasJONS_ANDALUCIA-2026.pdf",
+        "fecha": "2026-05",
+        "consultado": "2026-07-09"
+      }
+    },
+    "ter-001": {
+      "valor": 2,
+      "justificacion": "Abjura del Estado autonómico, propone cerrar sus instituciones y devolver competencias esenciales a ministerios estatales.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral FE de las JONS Andalucía 2026",
+        "url": "https://falange.es/wp-content/uploads/2026/05/PROGRAMA-ELECTORAL-FEdelasJONS_ANDALUCIA-2026.pdf",
+        "fecha": "2026-05",
+        "consultado": "2026-07-09"
+      }
+    },
+    "dr-021": {
+      "valor": 2,
+      "justificacion": "Su programa electoral declara como fin acabar con la Junta y con el sistema de comunidades autónomas.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral FE de las JONS Andalucía 2026",
+        "url": "https://falange.es/wp-content/uploads/2026/05/PROGRAMA-ELECTORAL-FEdelasJONS_ANDALUCIA-2026.pdf",
+        "fecha": "2026-05",
+        "consultado": "2026-07-09"
+      }
+    },
+    "ue-001": {
+      "valor": 2,
+      "justificacion": "Su página doctrinal vigente reclama recuperar soberanía mediante la salida de la Unión Europea.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Nuestras ideas: soberanía",
+        "url": "https://falange.es/nuestras-ideas/",
+        "fecha": "2026",
+        "consultado": "2026-07-09"
+      }
+    },
+    "ue-002": {
+      "valor": -2,
+      "justificacion": "La salida de la UE es incompatible con avanzar hacia una federación europea mediante más cesión de soberanía.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Nuestras ideas: soberanía",
+        "url": "https://falange.es/nuestras-ideas/",
+        "fecha": "2026",
+        "consultado": "2026-07-09"
+      }
+    },
+    "izq-011": {
+      "valor": 2,
+      "justificacion": "Defiende expresamente abandonar la Unión Europea y la moneda común para recuperar soberanía económica.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Nuestras ideas: soberanía",
+        "url": "https://falange.es/nuestras-ideas/",
+        "fecha": "2026",
+        "consultado": "2026-07-09"
+      }
+    },
+    "def-002": {
+      "valor": 2,
+      "justificacion": "Incluye de forma inequívoca la salida de la OTAN entre sus medidas de soberanía.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Nuestras ideas: soberanía",
+        "url": "https://falange.es/nuestras-ideas/",
+        "fecha": "2026",
+        "consultado": "2026-07-09"
+      }
+    },
+    "dr-001": {
+      "valor": 2,
+      "justificacion": "Reclama al Estado la nacionalización de la banca y del crédito y propone una banca pública sindical.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral FE de las JONS Andalucía 2026",
+        "url": "https://falange.es/wp-content/uploads/2026/05/PROGRAMA-ELECTORAL-FEdelasJONS_ANDALUCIA-2026.pdf",
+        "fecha": "2026-05",
+        "consultado": "2026-07-09"
+      }
+    },
+    "lab-016": {
+      "valor": 2,
+      "justificacion": "Defiende la propiedad pública nacional de recursos energéticos y la nacionalización o participación estatal en sectores estratégicos.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral FE de las JONS Andalucía 2026",
+        "url": "https://falange.es/wp-content/uploads/2026/05/PROGRAMA-ELECTORAL-FEdelasJONS_ANDALUCIA-2026.pdf",
+        "fecha": "2026-05",
+        "consultado": "2026-07-09"
+      }
+    },
+    "lab-006": {
+      "valor": 2,
+      "justificacion": "El programa pide sindicalización única y no partidista en distintos sectores profesionales; se codifica el monopolio representativo, no una posición histórica heredada.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral FE de las JONS Andalucía 2026",
+        "url": "https://falange.es/wp-content/uploads/2026/05/PROGRAMA-ELECTORAL-FEdelasJONS_ANDALUCIA-2026.pdf",
+        "fecha": "2026-05",
+        "consultado": "2026-07-09"
+      }
+    },
+    "ene-001": {
+      "valor": 2,
+      "justificacion": "El programa de 2026 plantea recuperar centrales nucleares dentro de una combinación con hidráulica y renovables.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral FE de las JONS Andalucía 2026",
+        "url": "https://falange.es/wp-content/uploads/2026/05/PROGRAMA-ELECTORAL-FEdelasJONS_ANDALUCIA-2026.pdf",
+        "fecha": "2026-05",
+        "consultado": "2026-07-09"
+      }
+    },
+    "ene-003": {
+      "valor": -2,
+      "justificacion": "La recuperación de generación nuclear contradice mantener el calendario vigente de cierre sin prórrogas.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral FE de las JONS Andalucía 2026",
+        "url": "https://falange.es/wp-content/uploads/2026/05/PROGRAMA-ELECTORAL-FEdelasJONS_ANDALUCIA-2026.pdf",
+        "fecha": "2026-05",
+        "consultado": "2026-07-09"
+      }
+    },
+    "dr-002": {
+      "valor": 2,
+      "justificacion": "Reclama contratación preferente de españoles en industria, agricultura y servicios públicos.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral FE de las JONS Andalucía 2026",
+        "url": "https://falange.es/wp-content/uploads/2026/05/PROGRAMA-ELECTORAL-FEdelasJONS_ANDALUCIA-2026.pdf",
+        "fecha": "2026-05",
+        "consultado": "2026-07-09"
+      }
+    },
+    "dr-003": {
+      "valor": 2,
+      "justificacion": "Su plan de remigración de 2026 dice expresamente que se aplicaría con independencia de la nacionalidad y de la situación jurídica de las personas inmigrantes.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral FE de las JONS Andalucía 2026",
+        "url": "https://falange.es/wp-content/uploads/2026/05/PROGRAMA-ELECTORAL-FEdelasJONS_ANDALUCIA-2026.pdf",
+        "fecha": "2026-05",
+        "consultado": "2026-07-09"
+      }
+    },
+    "der-007": {
+      "valor": 2,
+      "justificacion": "El programa afirma que abolirá el aborto; es una posición aún más restrictiva que limitarlo a los supuestos del enunciado.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral FE de las JONS Andalucía 2026",
+        "url": "https://falange.es/wp-content/uploads/2026/05/PROGRAMA-ELECTORAL-FEdelasJONS_ANDALUCIA-2026.pdf",
+        "fecha": "2026-05",
+        "consultado": "2026-07-09"
+      }
+    },
+    "fem-006": {
+      "valor": 2,
+      "justificacion": "La abolición programática del aborto implica acuerdo con una restricción al menos tan intensa como la formulada en este ítem.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral FE de las JONS Andalucía 2026",
+        "url": "https://falange.es/wp-content/uploads/2026/05/PROGRAMA-ELECTORAL-FEdelasJONS_ANDALUCIA-2026.pdf",
+        "fecha": "2026-05",
+        "consultado": "2026-07-09"
+      }
+    }
+  }
+}

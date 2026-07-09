@@ -1,4 +1,7 @@
 name: CI
+permissions:
+  contents: read
+
 on:
   push:
     branches: [main]
@@ -14,6 +17,8 @@ jobs:
           node-version: 22
           cache: npm
       - run: npm ci
+      - run: npm --prefix web ci
       - run: npm run typecheck
       - run: npm test
       - run: npm run validate:data
+      - run: npm run web:build

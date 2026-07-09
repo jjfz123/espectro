@@ -1,0 +1,200 @@
+{
+  "id": "extremadura-2025-12",
+  "nombre": "Elecciones autonómicas de Extremadura del 21 de diciembre de 2025",
+  "tipo": "autonomicas",
+  "fecha": "2025-12-21",
+  "territorio": "extremadura",
+  "camara": "Asamblea de Extremadura",
+  "umbralPorcentaje": 0.02,
+  "denominador": {
+    "tipo": "votos-a-candidaturas",
+    "valor": 524837
+  },
+  "totalCandidaturasOficiales": 11,
+  "fuente": {
+    "titulo": "Resultados definitivos de las elecciones autonómicas de Extremadura",
+    "url": "https://doe.juntaex.es/pdfs/doe/2026/80o/26AC0001.pdf",
+    "consultado": "2026-07-09"
+  },
+  "fuentesAdicionales": [
+    {
+      "titulo": "Proclamación e identidad de candidaturas de Extremadura",
+      "url": "https://www.juntaelectoralcentral.es/cs/jec/informacion/enlaces/CoalicionesEXT_2025",
+      "consultado": "2026-07-09"
+    }
+  ],
+  "nota": "El porcentaje usa como denominador 524.837 votos a candidaturas en toda la comunidad. Una relación con un componente identifica la candidatura, pero no transfiere sus posiciones al perfil de la coalición. Naturaleza de la convocatoria en el inventario: anticipada.",
+  "candidaturas": [
+    {
+      "id": "ext-2025-pp",
+      "nombre": "PARTIDO POPULAR",
+      "votos": 228991,
+      "porcentaje": 43.63088,
+      "territorios": [
+        "extremadura"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [
+        {
+          "perfilId": "pp",
+          "relacion": "misma-organizacion"
+        }
+      ],
+      "nota": "Naturaleza inventariada: partido. Vigencia comprobada: electoral-2025. Tratamiento previsto: perfil-reutilizable."
+    },
+    {
+      "id": "ext-2025-psoe",
+      "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+      "votos": 136838,
+      "porcentaje": 26.072476,
+      "territorios": [
+        "extremadura"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [
+        {
+          "perfilId": "psoe",
+          "relacion": "misma-organizacion"
+        }
+      ],
+      "nota": "Naturaleza inventariada: partido. Vigencia comprobada: electoral-2025. Tratamiento previsto: perfil-reutilizable."
+    },
+    {
+      "id": "ext-2025-vox",
+      "nombre": "VOX",
+      "votos": 89768,
+      "porcentaje": 17.103977,
+      "territorios": [
+        "extremadura"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [
+        {
+          "perfilId": "vox",
+          "relacion": "misma-organizacion"
+        }
+      ],
+      "nota": "Naturaleza inventariada: partido. Vigencia comprobada: electoral-2025. Tratamiento previsto: perfil-reutilizable."
+    },
+    {
+      "id": "ext-2025-unidas",
+      "nombre": "UNIDAS POR EXTREMADURA PODEMOS IZQUIERDA UNIDA ALIANZA VERDE",
+      "votos": 54541,
+      "porcentaje": 10.391988,
+      "territorios": [
+        "extremadura"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [
+        {
+          "perfilId": "podemos",
+          "relacion": "componente",
+          "nota": "Podemos figura como componente de esta candidatura fechada; sus posiciones no se atribuyen automáticamente a la coalición."
+        },
+        {
+          "perfilId": "alianza-verde",
+          "relacion": "componente",
+          "nota": "Alianza Verde figura como componente de esta candidatura fechada; sus posiciones no se atribuyen automáticamente a la coalición."
+        }
+      ],
+      "nota": "Naturaleza inventariada: coalicion-electoral. Vigencia comprobada: electoral-2025. Tratamiento previsto: perfil-especifico."
+    },
+    {
+      "id": "ext-2025-juntos-levanta",
+      "nombre": "JUNTOS POR EXTREMADURA-LEVANTA EXTREMADURA",
+      "votos": 4181,
+      "porcentaje": 0.796628,
+      "territorios": [
+        "extremadura"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [],
+      "nota": "Naturaleza inventariada: coalicion-electoral. Vigencia comprobada: electoral-2025. Tratamiento previsto: perfil-especifico."
+    },
+    {
+      "id": "ext-2025-nex",
+      "nombre": "NUEVO EXTREMEÑISMO-ADELANTE EXTREMADURA",
+      "votos": 3200,
+      "porcentaje": 0.609713,
+      "territorios": [
+        "extremadura"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [],
+      "nota": "Naturaleza inventariada: partido-o-candidatura. Vigencia comprobada: electoral-2025. Tratamiento previsto: perfil-especifico."
+    },
+    {
+      "id": "ext-2025-pacma",
+      "nombre": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
+      "votos": 2302,
+      "porcentaje": 0.438612,
+      "territorios": [
+        "extremadura"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [
+        {
+          "perfilId": "pacma",
+          "relacion": "misma-organizacion"
+        }
+      ],
+      "nota": "Naturaleza inventariada: partido. Vigencia comprobada: electoral-2025. Tratamiento previsto: perfil-reutilizable."
+    },
+    {
+      "id": "ext-2025-extremadura-unida",
+      "nombre": "EXTREMADURA UNIDA",
+      "votos": 1548,
+      "porcentaje": 0.294949,
+      "territorios": [
+        "extremadura"
+      ],
+      "circunscripciones": [
+        "Cáceres"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [],
+      "nota": "Naturaleza inventariada: partido. Vigencia comprobada: electoral-2025. Tratamiento previsto: perfil-especifico."
+    },
+    {
+      "id": "ext-2025-cs",
+      "nombre": "CIUDADANOS-PARTIDO DE LA CIUDADANÍA",
+      "votos": 1331,
+      "porcentaje": 0.253603,
+      "territorios": [
+        "extremadura"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [
+        {
+          "perfilId": "ciudadanos",
+          "relacion": "misma-organizacion"
+        }
+      ],
+      "nota": "Naturaleza inventariada: partido. Vigencia comprobada: electoral-2025. Tratamiento previsto: perfil-reutilizable."
+    },
+    {
+      "id": "ext-2025-ued-syt",
+      "nombre": "UNA EXTREMADURA DIGNA-SOBERANÍA Y TRABAJO",
+      "votos": 1221,
+      "porcentaje": 0.232644,
+      "territorios": [
+        "extremadura"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [],
+      "nota": "Naturaleza inventariada: coalicion-electoral. Vigencia comprobada: electoral-2025. Tratamiento previsto: perfil-especifico."
+    },
+    {
+      "id": "ext-2025-mas-justo",
+      "nombre": "POR UN MUNDO MÁS JUSTO",
+      "votos": 916,
+      "porcentaje": 0.17453,
+      "territorios": [
+        "extremadura"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [],
+      "nota": "Naturaleza inventariada: partido. Vigencia comprobada: electoral-2025. Tratamiento previsto: perfil-reutilizable."
+    }
+  ]
+}

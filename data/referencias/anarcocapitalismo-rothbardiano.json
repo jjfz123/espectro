@@ -1,0 +1,296 @@
+{
+  "id": "anarcocapitalismo-rothbardiano",
+  "nombre": "Anarcocapitalismo",
+  "tipo": "referencia-doctrinal",
+  "definicion": "Tipo ideal rothbardiano que rechaza el Estado, la tributación obligatoria y los monopolios públicos de policía, justicia y defensa, y propone sustituirlos por propiedad privada, contrato, arbitraje y proveedores en competencia.",
+  "variante": "Tradición rothbardiana; no representa todas las variantes libertarias de mercado",
+  "periodo": "Siglo XX–actualidad",
+  "confianza": "verificada",
+  "version": "1.0",
+  "revisado": "2026-07-09",
+  "facetasDefinitorias": ["economico", "estatismo", "institucionalismo"],
+  "sensibilidad": "normal",
+  "advertencia": "Es un tipo ideal doctrinal, no un partido español ni una identidad asignada. P-LIB conserva un Estado mínimo para seguridad, justicia y defensa y por ello se codifica como minarquista, no como anarcocapitalista. Las posiciones sobre fronteras, aborto, religión o cultura varían entre autores y se dejan sin especificar.",
+  "fuentesMarco": [
+    {
+      "tipo": "otro",
+      "titulo": "Murray N. Rothbard, For a New Liberty: The Libertarian Manifesto",
+      "url": "https://mises.org/library/book/new-liberty-libertarian-manifesto",
+      "fecha": "1973",
+      "consultado": "2026-07-09"
+    },
+    {
+      "tipo": "otro",
+      "titulo": "Murray N. Rothbard, Society Without a State",
+      "url": "https://mises.org/mises-daily/society-without-state",
+      "consultado": "2026-07-09"
+    }
+  ],
+  "reglaPublicacion": {
+    "minimoItems": 8,
+    "minimoCobertura": 0.45,
+    "umbralAfinidad": 72
+  },
+  "posiciones": {
+    "eco-001": {
+      "valor": -2,
+      "justificacion": "Rechaza la tributación obligatoria, por lo que también rechaza elevar de forma significativa el impuesto sobre rentas altas.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "For a New Liberty: The Libertarian Manifesto",
+        "url": "https://mises.org/library/book/new-liberty-libertarian-manifesto",
+        "fecha": "1973",
+        "consultado": "2026-07-09"
+      }
+    },
+    "eco-002": {
+      "valor": 2,
+      "justificacion": "Su regla general es provisión privada y competitiva de servicios, incluida la asistencia sanitaria, frente al monopolio estatal.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "For a New Liberty: The Libertarian Manifesto",
+        "url": "https://mises.org/library/book/new-liberty-libertarian-manifesto",
+        "fecha": "1973",
+        "consultado": "2026-07-09"
+      }
+    },
+    "eco-003": {
+      "valor": -2,
+      "justificacion": "Considera el salario una relación contractual y rechaza que el Estado imponga un mínimo legal.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "For a New Liberty: The Libertarian Manifesto",
+        "url": "https://mises.org/library/book/new-liberty-libertarian-manifesto",
+        "fecha": "1973",
+        "consultado": "2026-07-09"
+      }
+    },
+    "der-001": {
+      "valor": -1,
+      "justificacion": "Coincide en reducir radicalmente el Estado, pero el enunciado conserva precisamente policía y justicia, monopolios que esta variante quiere abolir.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Society Without a State",
+        "url": "https://mises.org/mises-daily/society-without-state",
+        "consultado": "2026-07-09"
+      }
+    },
+    "lib-001": {
+      "valor": 1,
+      "justificacion": "Apoya sustituir financiación pública por seguros privados, pero el enunciado retiene ayudas estatales residuales que el tipo ideal no admite como solución final.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "For a New Liberty: The Libertarian Manifesto",
+        "url": "https://mises.org/library/book/new-liberty-libertarian-manifesto",
+        "fecha": "1973",
+        "consultado": "2026-07-09"
+      }
+    },
+    "lib-002": {
+      "valor": 2,
+      "justificacion": "La competencia privada en policía, tribunales, protección y arbitraje es una diferencia definitoria frente al minarquismo.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Society Without a State",
+        "url": "https://mises.org/mises-daily/society-without-state",
+        "consultado": "2026-07-09"
+      }
+    },
+    "lib-003": {
+      "valor": 1,
+      "justificacion": "Prefiere un impuesto plano a uno progresivo como reducción relativa de la carga, pero su posición final es abolir el IRPF, por lo que el acuerdo no es máximo.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "For a New Liberty: The Libertarian Manifesto",
+        "url": "https://mises.org/library/book/new-liberty-libertarian-manifesto",
+        "fecha": "1973",
+        "consultado": "2026-07-09"
+      }
+    },
+    "lib-005": {
+      "valor": 2,
+      "justificacion": "Rechaza el reparto público obligatorio y favorece ahorro, propiedad y provisión individual o contractual para la jubilación.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "For a New Liberty: The Libertarian Manifesto",
+        "url": "https://mises.org/library/book/new-liberty-libertarian-manifesto",
+        "fecha": "1973",
+        "consultado": "2026-07-09"
+      }
+    },
+    "lib-007": {
+      "valor": 2,
+      "justificacion": "La colegiación obligatoria es una barrera coercitiva de entrada incompatible con libertad de asociación y competencia.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "For a New Liberty: The Libertarian Manifesto",
+        "url": "https://mises.org/library/book/new-liberty-libertarian-manifesto",
+        "fecha": "1973",
+        "consultado": "2026-07-09"
+      }
+    },
+    "lib-008": {
+      "valor": 2,
+      "justificacion": "Rechaza límites numéricos de licencias y privilegios gremiales, manteniendo solo responsabilidad por daños y contratos.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "For a New Liberty: The Libertarian Manifesto",
+        "url": "https://mises.org/library/book/new-liberty-libertarian-manifesto",
+        "fecha": "1973",
+        "consultado": "2026-07-09"
+      }
+    },
+    "lib-009": {
+      "valor": 2,
+      "justificacion": "Rechaza la prohibición penal del consumo y comercio voluntario de cannabis entre personas adultas.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "For a New Liberty: The Libertarian Manifesto",
+        "url": "https://mises.org/library/book/new-liberty-libertarian-manifesto",
+        "fecha": "1973",
+        "consultado": "2026-07-09"
+      }
+    },
+    "lib-010": {
+      "valor": 2,
+      "justificacion": "El antiprohibicionismo se extiende a todas las sustancias mientras no exista agresión contra terceros.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "For a New Liberty: The Libertarian Manifesto",
+        "url": "https://mises.org/library/book/new-liberty-libertarian-manifesto",
+        "fecha": "1973",
+        "consultado": "2026-07-09"
+      }
+    },
+    "lib-011": {
+      "valor": 1,
+      "justificacion": "Apoya contratos voluntarios entre adultos, pero la cotización obligatoria a un sistema estatal impide un acuerdo máximo con toda la frase.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "For a New Liberty: The Libertarian Manifesto",
+        "url": "https://mises.org/library/book/new-liberty-libertarian-manifesto",
+        "fecha": "1973",
+        "consultado": "2026-07-09"
+      }
+    },
+    "lab-004": {
+      "valor": 2,
+      "justificacion": "Acepta sindicatos voluntarios, pero exige que se sostengan mediante afiliación y servicios sin subvención o privilegio estatal.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "For a New Liberty: The Libertarian Manifesto",
+        "url": "https://mises.org/library/book/new-liberty-libertarian-manifesto",
+        "fecha": "1973",
+        "consultado": "2026-07-09"
+      }
+    },
+    "lab-005": {
+      "valor": 2,
+      "justificacion": "La asociación laboral debe ser independiente de gobiernos y partidos y carecer de facultades coercitivas sobre no miembros.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "For a New Liberty: The Libertarian Manifesto",
+        "url": "https://mises.org/library/book/new-liberty-libertarian-manifesto",
+        "fecha": "1973",
+        "consultado": "2026-07-09"
+      }
+    },
+    "lab-006": {
+      "valor": -2,
+      "justificacion": "Un sindicato único reconocido e integrado por el Estado contradice libertad de asociación, competencia y ausencia de monopolios legales.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "For a New Liberty: The Libertarian Manifesto",
+        "url": "https://mises.org/library/book/new-liberty-libertarian-manifesto",
+        "fecha": "1973",
+        "consultado": "2026-07-09"
+      }
+    },
+    "lab-009": {
+      "valor": 2,
+      "justificacion": "La tributación se caracteriza como apropiación coercitiva y no como intercambio voluntario.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "For a New Liberty: The Libertarian Manifesto",
+        "url": "https://mises.org/library/book/new-liberty-libertarian-manifesto",
+        "fecha": "1973",
+        "consultado": "2026-07-09"
+      }
+    },
+    "lab-010": {
+      "valor": 2,
+      "justificacion": "La objeción fiscal definitoria parte de propiedad, consentimiento individual y rechazo de financiar servicios mediante coacción.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "For a New Liberty: The Libertarian Manifesto",
+        "url": "https://mises.org/library/book/new-liberty-libertarian-manifesto",
+        "fecha": "1973",
+        "consultado": "2026-07-09"
+      }
+    },
+    "dem-011": {
+      "valor": 2,
+      "justificacion": "No busca reformar el parlamentarismo estatal, sino sustituir la soberanía política por un orden jurídico y contractual sin Estado.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Society Without a State",
+        "url": "https://mises.org/mises-daily/society-without-state",
+        "consultado": "2026-07-09"
+      }
+    },
+    "izq-007": {
+      "valor": 2,
+      "justificacion": "Coincide en que cualquier Estado debe abolirse, aunque su fundamento sea propiedad privada y no emancipación socialista.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Society Without a State",
+        "url": "https://mises.org/mises-daily/society-without-state",
+        "consultado": "2026-07-09"
+      }
+    },
+    "geo-003": {
+      "valor": 2,
+      "justificacion": "La tradición rothbardiana defiende no intervención y rechaza guerras estatales en el extranjero; la defensa contractual frente a agresión no desaparece.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "For a New Liberty: The Libertarian Manifesto",
+        "url": "https://mises.org/library/book/new-liberty-libertarian-manifesto",
+        "fecha": "1973",
+        "consultado": "2026-07-09"
+      }
+    },
+    "rel-001": {
+      "valor": -2,
+      "justificacion": "Rechaza que una autoridad promueva ateísmo o excluya asociaciones religiosas pacíficas; libertad de conciencia y contrato se aplican a creyentes y no creyentes.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "For a New Liberty: The Libertarian Manifesto",
+        "url": "https://mises.org/library/book/new-liberty-libertarian-manifesto",
+        "fecha": "1973",
+        "consultado": "2026-07-09"
+      }
+    }
+  }
+}

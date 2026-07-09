@@ -76,5 +76,45 @@
     ],
     "estado": "piloto",
     "notas": "Discrimina: Turismo frente a vivienda en Sevilla, Málaga o Cádiz: el andalucismo soberanista y la izquierda urbana piden prohibición; PSOE-A regula sin prohibir; PP-A defiende el sector. Distingue AA/NA de todo el resto del arco andaluz. | Esperado: Adelante Andalucía +2, Nación Andaluza +2, Podemos/IU Andalucía +1, PSOE-A +0, Partido Andalucista (histórico) +0, PP-A -2. | [Corregido en revisión: El techo del ítem se ha hundido: los alcaldes del PP en Málaga y Sevilla han congelado o limitado ya las NUEVAS viviendas turísticas en zonas saturadas (Málaga suspendió inscripciones en decenas de barrios en 2024), de modo que 'prohibir nuevos pisos turísticos en ciudades tensionadas' lo puede suscribir medio arco andaluz y la posición esperada PP-A -2 es fácticamente errónea. Para restaurar la discriminación hay que mover la frontera al decrecimiento: cerrar los que YA operan, que sí separa a AA/NA e izquierda urbana (+2) de PSOE-A (-1/0, regula sin revocar) y PP-A (-2, seguridad jurídica del sector). Se elimina de paso la coletilla argumentativa 'aunque se resienta el sector', que introducía un segundo juicio en la misma frase.]"
+  },
+  {
+    "id": "and-005",
+    "texto": "El Estado debería reconocer una compensación adicional para Andalucía por la llamada deuda histórica, aunque considere liquidado el acuerdo de 2010.",
+    "modulo": "territorial-andalucia",
+    "ejes": [],
+    "polaridad": "positiva",
+    "tags": ["deuda-historica", "financiacion", "estatuto-andalucia"],
+    "estado": "piloto",
+    "notas": "Solo-matching: la disposición adicional segunda del Estatuto reguló asignaciones excepcionales y la Junta da por saldado en 2010 aquel acuerdo mediante bienes; el ítem pregunta si debe reabrirse o ampliarse, sin presentar una deuda jurídica vigente como hecho indiscutido."
+  },
+  {
+    "id": "and-006",
+    "texto": "Andalucía debería negociar bilateralmente con el Estado una financiación singular propia, aunque el resto de comunidades no participe en el acuerdo.",
+    "modulo": "territorial-andalucia",
+    "ejes": [{ "eje": "territorial", "carga": -0.75 }],
+    "polaridad": "positiva",
+    "tags": ["financiacion-singular", "bilateralidad", "autogobierno"],
+    "estado": "piloto",
+    "notas": "Distingue bilateralidad financiera de defender más recursos dentro del régimen común multilateral; no presupone concierto fiscal ni independencia."
+  },
+  {
+    "id": "and-007",
+    "texto": "El andalucismo debería definirse explícitamente de izquierdas, en lugar de presentarse como una causa transversal a todas las ideologías.",
+    "modulo": "territorial-andalucia",
+    "ejes": [],
+    "polaridad": "positiva",
+    "tags": ["andalucismo", "izquierda", "transversalidad"],
+    "estado": "piloto",
+    "notas": "Solo-matching: separa andalucismo soberanista de izquierdas, regionalismo pragmático y proyectos transversales sin convertir la identidad andaluza en posición económica automática."
+  },
+  {
+    "id": "and-008",
+    "texto": "La pertenencia a la comunidad política andaluza debería depender de vivir y participar en Andalucía, no del origen familiar ni de una identidad cultural heredada.",
+    "modulo": "territorial-andalucia",
+    "ejes": [],
+    "polaridad": "positiva",
+    "tags": ["nacion-civica", "pertenencia", "andalucismo"],
+    "estado": "piloto",
+    "notas": "Solo-matching: mide concepción cívica frente a etnocultural de pertenencia y se interpreta con inmigración y pluralismo; no carga el eje territorial porque ambas pueden pedir el mismo autogobierno."
   }
 ]

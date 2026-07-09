@@ -93,7 +93,7 @@
   {
     "id": "fem-006",
     "texto": "El aborto solo debe estar permitido en supuestos tasados, como la violación, el grave riesgo para la madre o la anomalía fetal grave.",
-    "modulo": "feminismos-moral",
+    "modulo": "nucleo",
     "ejes": [
       {
         "eje": "tradicion-moral",
@@ -151,7 +151,7 @@
       "educacion",
       "religion"
     ],
-    "estado": "piloto",
+    "estado": "retirado",
     "notas": "Discrimina: Eje laicismo escolar: IU/Podemos/ERC (+2) frente a PP/VOX/PNV (−2), con el PSOE en un +1 programático que nunca ejecuta del todo. Separa también a Cs (laicista tibio) del PP. | Esperado: IU/PCE +2, Podemos +2, ERC +2, PSOE +1, Ciudadanos +1, PNV -2, PP -2, VOX -2."
   },
   {
@@ -270,5 +270,42 @@
     ],
     "estado": "piloto",
     "notas": "Discrimina: Corte intra-izquierda nítido que ningún otro ítem da: el PSOE se opone (−1, tumbó las proposiciones de regulación integral) frente a Podemos/Sumar/ERC (+2). E intra-derecha: Cs presentó su propia ley de regulación (+1) y los liberales están a favor (+2) frente a PP/VOX (−2). | Esperado: Podemos +2, Sumar +2, ERC +2, liberales (P-LIB) +2, Ciudadanos +1, PSOE -1, PP -2, VOX -2. | En 2021-2022 se debatieron en el Congreso las propuestas de regulación de Más País/Podemos y de Cs; el PSOE votó con PP y VOX contra la toma en consideración. Discriminante raro: junta a liberales con la izquierda alternativa contra los dos grandes polos del bipartidismo moral. | [Añadido por el revisor para cubrir un hueco]"
+  },
+  {
+    "id": "rel-001",
+    "texto": "El Estado debería promover activamente el ateísmo y excluir a las organizaciones religiosas de la vida pública.",
+    "modulo": "feminismos-moral",
+    "ejes": [
+      { "eje": "laicismo", "carga": -1 },
+      { "eje": "libertad-conciencia", "carga": -1 }
+    ],
+    "polaridad": "negativa",
+    "tags": ["ateismo-estado", "religion", "vida-publica"],
+    "estado": "piloto",
+    "notas": "Ancla el extremo de ateísmo de Estado y lo separa del laicismo que protege la libertad religiosa privada y asociativa."
+  },
+  {
+    "id": "rel-002",
+    "texto": "El Estado debe ser aconfesional: no adoptar una religión oficial y permitir la expresión pública de todas dentro de la ley.",
+    "modulo": "feminismos-moral",
+    "ejes": [{ "eje": "libertad-conciencia", "carga": 1 }],
+    "polaridad": "positiva",
+    "tags": ["aconfesionalidad", "libertad-religiosa"],
+    "estado": "piloto",
+    "notas": "Punto central del continuo institucional. No carga laicismo porque el acuerdo con una posición central no debe empujar hacia un polo; sí aporta al eje independiente de libertad de conciencia."
+  },
+  {
+    "id": "rel-003",
+    "texto": "Las autoridades religiosas deberían poder impedir la aprobación de leyes contrarias a su doctrina.",
+    "modulo": "feminismos-moral",
+    "ejes": [
+      { "eje": "laicismo", "carga": 1 },
+      { "eje": "pluralismo-institucional", "carga": -0.5 },
+      { "eje": "libertad-conciencia", "carga": -1 }
+    ],
+    "polaridad": "positiva",
+    "tags": ["teocracia", "veto-religioso", "leyes"],
+    "estado": "piloto",
+    "notas": "Ancla teocrática explícita, distinta de una confesionalidad simbólica sin poder jurídico del clero."
   }
 ]

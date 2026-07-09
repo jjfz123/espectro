@@ -1,0 +1,265 @@
+{
+  "id": "p-lib",
+  "nombre": "Partido Libertario",
+  "siglas": "P-LIB",
+  "ambito": "estatal",
+  "tipo": "partido",
+  "confianza": "verificada",
+  "web": "https://www.p-lib.es/",
+  "revisado": "2026-07-09",
+  "actividad": "activa",
+  "posiciones": {
+    "lib-002": {
+      "valor": 1,
+      "justificacion": "Abre justicia y seguridad a arbitraje y provisión privada y quiere devolver funciones a la sociedad civil, pero conserva justicia, orden y defensa estatales como último garante: es minarquista, no anarcocapitalista.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa Político Marco vigente del Partido Libertario",
+        "url": "https://www.p-lib.es/wp-content/uploads/2025/12/PPM-vigente.pdf",
+        "fecha": "2025-12",
+        "consultado": "2026-07-09"
+      }
+    },
+    "lib-003": {
+      "valor": 2,
+      "justificacion": "Propone una fiscalidad proporcional, simple y fuertemente limitada frente a la progresividad por tramos.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa Político Marco vigente del Partido Libertario",
+        "url": "https://www.p-lib.es/wp-content/uploads/2025/12/PPM-vigente.pdf",
+        "fecha": "2025-12",
+        "consultado": "2026-07-09"
+      }
+    },
+    "lib-013": {
+      "valor": 1,
+      "justificacion": "Apoya integración europea y funciones comunes democráticas, incluida defensa, pero exige una estructura subsidiaria, limitada y de competencias mínimas.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa Político Marco vigente del Partido Libertario",
+        "url": "https://www.p-lib.es/wp-content/uploads/2025/12/PPM-vigente.pdf",
+        "fecha": "2025-12",
+        "consultado": "2026-07-09"
+      }
+    },
+    "lib-018": {
+      "valor": 2,
+      "justificacion": "Reconoce un derecho amplio de las personas pacíficas a instalarse y trabajar, condicionado al respeto de personas, contratos y propiedad.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa Político Marco vigente del Partido Libertario",
+        "url": "https://www.p-lib.es/wp-content/uploads/2025/12/PPM-vigente.pdf",
+        "fecha": "2025-12",
+        "consultado": "2026-07-09"
+      }
+    },
+    "ue-002": {
+      "valor": 1,
+      "justificacion": "Favorece una integración europea funcional con instituciones comunes, pero su federalismo limita estrictamente competencias y poder fiscal supranacional.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa Político Marco vigente del Partido Libertario",
+        "url": "https://www.p-lib.es/wp-content/uploads/2025/12/PPM-vigente.pdf",
+        "fecha": "2025-12",
+        "consultado": "2026-07-09"
+      }
+    },
+    "mon-001": {
+      "valor": 2,
+      "justificacion": "Prefiere expresamente una república y una jefatura del Estado no hereditaria.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa Político Marco vigente del Partido Libertario",
+        "url": "https://www.p-lib.es/wp-content/uploads/2025/12/PPM-vigente.pdf",
+        "fecha": "2025-12",
+        "consultado": "2026-07-09"
+      }
+    },
+    "lab-004": {
+      "valor": 2,
+      "justificacion": "Defiende sindicatos sostenidos voluntariamente por afiliados y servicios, independientes de subvenciones públicas.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Devolver a los trabajadores el poder sobre su vida",
+        "url": "https://www.p-lib.es/2026/05/01/devolver-a-los-trabajadores-el-poder-sobre-su-vida/",
+        "fecha": "2026-05-01",
+        "consultado": "2026-07-09"
+      }
+    },
+    "lab-005": {
+      "valor": 2,
+      "justificacion": "Reivindica sindicatos independientes del Gobierno, de partidos y de la financiación estatal.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Devolver a los trabajadores el poder sobre su vida",
+        "url": "https://www.p-lib.es/2026/05/01/devolver-a-los-trabajadores-el-poder-sobre-su-vida/",
+        "fecha": "2026-05-01",
+        "consultado": "2026-07-09"
+      }
+    },
+    "lab-006": {
+      "valor": -2,
+      "justificacion": "Su libertad de asociación excluye un sindicato único reconocido e integrado por el Estado.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa Político Marco vigente del Partido Libertario",
+        "url": "https://www.p-lib.es/wp-content/uploads/2025/12/PPM-vigente.pdf",
+        "fecha": "2025-12",
+        "consultado": "2026-07-09"
+      }
+    },
+    "lab-009": {
+      "valor": 1,
+      "justificacion": "Describe la imposición como exacción coercitiva y éticamente problemática, pero acepta una tributación mínima para las funciones del Estado minarquista; por eso no recibe apoyo máximo.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa Político Marco vigente del Partido Libertario",
+        "url": "https://www.p-lib.es/wp-content/uploads/2025/12/PPM-vigente.pdf",
+        "fecha": "2025-12",
+        "consultado": "2026-07-09"
+      }
+    },
+    "lab-010": {
+      "valor": 2,
+      "justificacion": "La objeción fiscal se fundamenta expresamente en propiedad, no agresión y consentimiento individual para financiar servicios colectivos.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa Político Marco vigente del Partido Libertario",
+        "url": "https://www.p-lib.es/wp-content/uploads/2025/12/PPM-vigente.pdf",
+        "fecha": "2025-12",
+        "consultado": "2026-07-09"
+      }
+    },
+    "ene-002": {
+      "valor": 2,
+      "justificacion": "La posición energética del partido considera la nuclear una energía verde y defiende mantenerla bajo requisitos técnicos y de seguridad.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Pedro Sánchez miente: la causa de fondo del apagón es el mercantilismo",
+        "url": "https://www.p-lib.es/2025/04/30/pedro-sanchez-miente-la-causa-de-fondo-del-apagon-es-el-mercantilismo/",
+        "fecha": "2025-04-30",
+        "consultado": "2026-07-09"
+      }
+    },
+    "ene-004": {
+      "valor": -2,
+      "justificacion": "Propone desnacionalizar el sistema eléctrico y que las infraestructuras respondan a propiedad y responsabilidad privadas, no a titularidad pública de la red.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Pedro Sánchez miente: la causa de fondo del apagón es el mercantilismo",
+        "url": "https://www.p-lib.es/2025/04/30/pedro-sanchez-miente-la-causa-de-fondo-del-apagon-es-el-mercantilismo/",
+        "fecha": "2025-04-30",
+        "consultado": "2026-07-09"
+      }
+    },
+    "ene-005": {
+      "valor": 2,
+      "justificacion": "Defiende generación y comercialización descentralizadas en competencia y alejadas de planificación y control político.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Pedro Sánchez miente: la causa de fondo del apagón es el mercantilismo",
+        "url": "https://www.p-lib.es/2025/04/30/pedro-sanchez-miente-la-causa-de-fondo-del-apagon-es-el-mercantilismo/",
+        "fecha": "2025-04-30",
+        "consultado": "2026-07-09"
+      }
+    },
+    "ene-007": {
+      "valor": -2,
+      "justificacion": "Su propuesta es desnacionalizar y abrir el sector a competencia privada, no crear una generadora y comercializadora estatal.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Pedro Sánchez miente: la causa de fondo del apagón es el mercantilismo",
+        "url": "https://www.p-lib.es/2025/04/30/pedro-sanchez-miente-la-causa-de-fondo-del-apagon-es-el-mercantilismo/",
+        "fecha": "2025-04-30",
+        "consultado": "2026-07-09"
+      }
+    },
+    "geo-003": {
+      "valor": 2,
+      "justificacion": "Su doctrina exterior es no intervencionista y considera legítima la guerra solo como defensa objetiva frente a una agresión.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa Político Marco vigente del Partido Libertario",
+        "url": "https://www.p-lib.es/wp-content/uploads/2025/12/PPM-vigente.pdf",
+        "fecha": "2025-12",
+        "consultado": "2026-07-09"
+      }
+    },
+    "geo-014": {
+      "valor": -2,
+      "justificacion": "Rechaza la conscripción como trabajo forzoso y exige unas fuerzas de defensa profesionales y voluntarias.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa Político Marco vigente del Partido Libertario",
+        "url": "https://www.p-lib.es/wp-content/uploads/2025/12/PPM-vigente.pdf",
+        "fecha": "2025-12",
+        "consultado": "2026-07-09"
+      }
+    },
+    "sd-019": {
+      "valor": 2,
+      "justificacion": "Propone un referéndum saharaui bajo supervisión internacional, con garantías de censo y derechos.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa Político Marco vigente del Partido Libertario",
+        "url": "https://www.p-lib.es/wp-content/uploads/2025/12/PPM-vigente.pdf",
+        "fecha": "2025-12",
+        "consultado": "2026-07-09"
+      }
+    },
+    "rel-001": {
+      "valor": -2,
+      "justificacion": "Rechaza tanto la imposición religiosa como la atea y protege libertad de creer, no creer y asociarse.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa Político Marco vigente del Partido Libertario",
+        "url": "https://www.p-lib.es/wp-content/uploads/2025/12/PPM-vigente.pdf",
+        "fecha": "2025-12",
+        "consultado": "2026-07-09"
+      }
+    },
+    "rel-002": {
+      "valor": 2,
+      "justificacion": "Defiende separación completa entre Iglesias y Estado junto a libertad de expresión religiosa y atea dentro de los derechos individuales.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa Político Marco vigente del Partido Libertario",
+        "url": "https://www.p-lib.es/wp-content/uploads/2025/12/PPM-vigente.pdf",
+        "fecha": "2025-12",
+        "consultado": "2026-07-09"
+      }
+    },
+    "fem-009": {
+      "valor": 2,
+      "justificacion": "Pide terminar con privilegios concordatarios y vaticanos y separar por completo confesiones e instituciones estatales.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa Político Marco vigente del Partido Libertario",
+        "url": "https://www.p-lib.es/wp-content/uploads/2025/12/PPM-vigente.pdf",
+        "fecha": "2025-12",
+        "consultado": "2026-07-09"
+      }
+    }
+  }
+}

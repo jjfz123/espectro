@@ -1,0 +1,157 @@
+{
+  "id": "movimiento-sumar",
+  "nombre": "Movimiento Sumar",
+  "siglas": "MS",
+  "ambito": "estatal",
+  "tipo": "partido",
+  "confianza": "verificada",
+  "web": "https://movimientosumar.es/",
+  "revisado": "2026-07-09",
+  "actividad": "activa",
+  "posiciones": {
+    "lab-001": {
+      "valor": 2,
+      "justificacion": "El documento político sitúa los convenios y la negociación colectiva sectorial en el centro de su modelo laboral.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Documento Político de la Asamblea de Movimiento Sumar",
+        "url": "https://movimientosumar.es/transparencia/wp-content/uploads/sites/6/2025/05/Documento_Politico_Asamblea_Mov_Sumar_2025.pdf",
+        "fecha": "2025-05",
+        "consultado": "2026-07-09"
+      }
+    },
+    "lab-002": {
+      "valor": 2,
+      "justificacion": "Propone democracia en las empresas y participación de las plantillas en sus órganos y decisiones.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Documento Político de la Asamblea de Movimiento Sumar",
+        "url": "https://movimientosumar.es/transparencia/wp-content/uploads/sites/6/2025/05/Documento_Politico_Asamblea_Mov_Sumar_2025.pdf",
+        "fecha": "2025-05",
+        "consultado": "2026-07-09"
+      }
+    },
+    "sd-002": {
+      "valor": -2,
+      "justificacion": "Rechaza que el incremento del gasto militar y la confrontación entre bloques sean el eje de la política exterior.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Documento Político de la Asamblea de Movimiento Sumar",
+        "url": "https://movimientosumar.es/transparencia/wp-content/uploads/sites/6/2025/05/Documento_Politico_Asamblea_Mov_Sumar_2025.pdf",
+        "fecha": "2025-05",
+        "consultado": "2026-07-09"
+      }
+    },
+    "geo-003": {
+      "valor": 1,
+      "justificacion": "Su orientación pacifista y no violenta favorece la no participación en guerras; el valor es condicionado porque no formula una renuncia absoluta ante cualquier solicitud aliada.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Documento Político de la Asamblea de Movimiento Sumar",
+        "url": "https://movimientosumar.es/transparencia/wp-content/uploads/sites/6/2025/05/Documento_Politico_Asamblea_Mov_Sumar_2025.pdf",
+        "fecha": "2025-05",
+        "consultado": "2026-07-09"
+      }
+    },
+    "geo-004": {
+      "valor": 1,
+      "justificacion": "Defiende autonomía estratégica europea y menor dependencia de Estados Unidos, aunque no detalla en la fuente todo el diseño de una defensa común.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Documento Político de la Asamblea de Movimiento Sumar",
+        "url": "https://movimientosumar.es/transparencia/wp-content/uploads/sites/6/2025/05/Documento_Politico_Asamblea_Mov_Sumar_2025.pdf",
+        "fecha": "2025-05",
+        "consultado": "2026-07-09"
+      }
+    },
+    "sd-019": {
+      "valor": 2,
+      "justificacion": "Reivindica la libre autodeterminación del Sáhara Occidental y la responsabilidad española como potencia administradora.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Documento Político de la Asamblea de Movimiento Sumar",
+        "url": "https://movimientosumar.es/transparencia/wp-content/uploads/sites/6/2025/05/Documento_Politico_Asamblea_Mov_Sumar_2025.pdf",
+        "fecha": "2025-05",
+        "consultado": "2026-07-09"
+      }
+    },
+    "fem-009": {
+      "valor": 2,
+      "justificacion": "Propone terminar con los acuerdos y privilegios confesionales de la Iglesia católica.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Documento Político de la Asamblea de Movimiento Sumar",
+        "url": "https://movimientosumar.es/transparencia/wp-content/uploads/sites/6/2025/05/Documento_Politico_Asamblea_Mov_Sumar_2025.pdf",
+        "fecha": "2025-05",
+        "consultado": "2026-07-09"
+      }
+    },
+    "rel-001": {
+      "valor": -2,
+      "justificacion": "Su propuesta es un Estado laico con libertad de conciencia, no la promoción estatal del ateísmo ni la exclusión de organizaciones religiosas.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Documento Político de la Asamblea de Movimiento Sumar",
+        "url": "https://movimientosumar.es/transparencia/wp-content/uploads/sites/6/2025/05/Documento_Politico_Asamblea_Mov_Sumar_2025.pdf",
+        "fecha": "2025-05",
+        "consultado": "2026-07-09"
+      }
+    },
+    "rel-002": {
+      "valor": 1,
+      "justificacion": "El modelo laico y de libertad de conciencia es compatible con la expresión religiosa dentro de la ley, aunque el documento enfatiza más la eliminación de privilegios que la formulación exacta del ítem.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Documento Político de la Asamblea de Movimiento Sumar",
+        "url": "https://movimientosumar.es/transparencia/wp-content/uploads/sites/6/2025/05/Documento_Politico_Asamblea_Mov_Sumar_2025.pdf",
+        "fecha": "2025-05",
+        "consultado": "2026-07-09"
+      }
+    },
+    "dem-008": {
+      "valor": 2,
+      "justificacion": "Defiende instituciones democráticas e independencia judicial junto a mecanismos de control y desbloqueo.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Documento Político de la Asamblea de Movimiento Sumar",
+        "url": "https://movimientosumar.es/transparencia/wp-content/uploads/sites/6/2025/05/Documento_Politico_Asamblea_Mov_Sumar_2025.pdf",
+        "fecha": "2025-05",
+        "consultado": "2026-07-09"
+      }
+    },
+    "dem-011": {
+      "valor": -1,
+      "justificacion": "Busca ampliar y republicanizar la democracia, pero preserva instituciones representativas; no propone sustituir sin más el sistema parlamentario por un modelo no parlamentario.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Documento Político de la Asamblea de Movimiento Sumar",
+        "url": "https://movimientosumar.es/transparencia/wp-content/uploads/sites/6/2025/05/Documento_Politico_Asamblea_Mov_Sumar_2025.pdf",
+        "fecha": "2025-05",
+        "consultado": "2026-07-09"
+      }
+    },
+    "dem-014": {
+      "valor": 1,
+      "justificacion": "Los estatutos exigen ratificar internamente acuerdos para formar gobierno, pero la coordinación general se elige de forma indirecta y no toda decisión estratégica pasa necesariamente por votación universal.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "estatutos",
+        "titulo": "Estatutos de Movimiento Sumar tras la Asamblea de 2025",
+        "url": "https://movimientosumar.es/transparencia/wp-content/uploads/sites/6/2025/07/Estatutos-tras-Asamblea-2025_DEF.pdf",
+        "fecha": "2025-07",
+        "consultado": "2026-07-09"
+      }
+    }
+  }
+}

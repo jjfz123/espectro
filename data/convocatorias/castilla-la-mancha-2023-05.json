@@ -1,0 +1,266 @@
+{
+  "id": "castilla-la-mancha-2023-05",
+  "nombre": "Elecciones autonómicas de Castilla-La Mancha del 28 de mayo de 2023",
+  "tipo": "autonomicas",
+  "fecha": "2023-05-28",
+  "territorio": "castilla-la-mancha",
+  "camara": "Cortes de Castilla-La Mancha",
+  "umbralPorcentaje": 0.02,
+  "denominador": {
+    "tipo": "votos-a-candidaturas",
+    "valor": 1072883
+  },
+  "totalCandidaturasOficiales": 14,
+  "fuente": {
+    "titulo": "Resultados definitivos de las elecciones autonómicas de Castilla-La Mancha",
+    "url": "https://www.juntaelectoralcentral.es/cs/jec/documentos/Resultados%20definitivos%20Castilla%20La%20Mancha.pdf",
+    "consultado": "2026-07-09"
+  },
+  "nota": "El porcentaje usa como denominador 1.072.883 votos a candidaturas en toda la comunidad. Una relación con un componente identifica la candidatura, pero no transfiere sus posiciones al perfil de la coalición. Naturaleza de la convocatoria en el inventario: ordinaria.",
+  "candidaturas": [
+    {
+      "id": "clm-2023-psoe",
+      "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+      "votos": 490288,
+      "porcentaje": 45.69818,
+      "territorios": [
+        "castilla-la-mancha"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [
+        {
+          "perfilId": "psoe",
+          "relacion": "misma-organizacion"
+        }
+      ],
+      "nota": "Naturaleza inventariada: partido. Vigencia comprobada: posterior-verificada. Tratamiento previsto: perfil-reutilizable."
+    },
+    {
+      "id": "clm-2023-pp",
+      "nombre": "PARTIDO POPULAR",
+      "votos": 366312,
+      "porcentaje": 34.142772,
+      "territorios": [
+        "castilla-la-mancha"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [
+        {
+          "perfilId": "pp",
+          "relacion": "misma-organizacion"
+        }
+      ],
+      "nota": "Naturaleza inventariada: partido. Vigencia comprobada: posterior-verificada. Tratamiento previsto: perfil-reutilizable."
+    },
+    {
+      "id": "clm-2023-vox",
+      "nombre": "VOX",
+      "votos": 139607,
+      "porcentaje": 13.012323,
+      "territorios": [
+        "castilla-la-mancha"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [
+        {
+          "perfilId": "vox",
+          "relacion": "misma-organizacion"
+        }
+      ],
+      "nota": "Naturaleza inventariada: partido. Vigencia comprobada: posterior-verificada. Tratamiento previsto: perfil-reutilizable."
+    },
+    {
+      "id": "clm-2023-unidas",
+      "nombre": "UNIDAS PODEMOS CASTILLA-LA MANCHA",
+      "votos": 45317,
+      "porcentaje": 4.223853,
+      "territorios": [
+        "castilla-la-mancha"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [
+        {
+          "perfilId": "podemos",
+          "relacion": "componente",
+          "nota": "Podemos figura como componente de esta candidatura fechada; sus posiciones no se atribuyen automáticamente a la coalición."
+        }
+      ],
+      "nota": "Naturaleza inventariada: coalicion-electoral. Vigencia comprobada: matrices-verificadas. Tratamiento previsto: perfil-especifico."
+    },
+    {
+      "id": "clm-2023-cs",
+      "nombre": "CIUDADANOS-PARTIDO DE LA CIUDADANÍA",
+      "votos": 10885,
+      "porcentaje": 1.014556,
+      "territorios": [
+        "castilla-la-mancha"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [
+        {
+          "perfilId": "ciudadanos",
+          "relacion": "misma-organizacion"
+        }
+      ],
+      "nota": "Naturaleza inventariada: partido. Vigencia comprobada: posterior-verificada. Tratamiento previsto: perfil-reutilizable."
+    },
+    {
+      "id": "clm-2023-pacma",
+      "nombre": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
+      "votos": 10727,
+      "porcentaje": 0.999829,
+      "territorios": [
+        "castilla-la-mancha"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [
+        {
+          "perfilId": "pacma",
+          "relacion": "misma-organizacion"
+        }
+      ],
+      "nota": "Naturaleza inventariada: partido. Vigencia comprobada: posterior-verificada. Tratamiento previsto: perfil-reutilizable."
+    },
+    {
+      "id": "clm-2023-pais-gestores",
+      "nombre": "PAÍS CON GESTORES",
+      "votos": 2151,
+      "porcentaje": 0.200488,
+      "territorios": [
+        "castilla-la-mancha"
+      ],
+      "circunscripciones": [
+        "Albacete",
+        "Cuenca",
+        "Guadalajara",
+        "Toledo"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [],
+      "nota": "Naturaleza inventariada: partido-o-candidatura. Vigencia comprobada: no-comprobada. Tratamiento previsto: inventario-sin-datos."
+    },
+    {
+      "id": "clm-2023-cuenca-ev",
+      "nombre": "+CUENCA AHORA-ESPAÑA VACIADA",
+      "votos": 1984,
+      "porcentaje": 0.184922,
+      "territorios": [
+        "castilla-la-mancha"
+      ],
+      "circunscripciones": [
+        "Cuenca"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [],
+      "nota": "Naturaleza inventariada: coalicion-electoral. Vigencia comprobada: matrices-verificadas. Tratamiento previsto: perfil-especifico."
+    },
+    {
+      "id": "clm-2023-ev",
+      "nombre": "ESPAÑA VACIADA",
+      "votos": 1670,
+      "porcentaje": 0.155655,
+      "territorios": [
+        "castilla-la-mancha"
+      ],
+      "circunscripciones": [
+        "Toledo"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [],
+      "nota": "Naturaleza inventariada: partido-o-candidatura. Vigencia comprobada: posterior-verificada. Tratamiento previsto: perfil-especifico."
+    },
+    {
+      "id": "clm-2023-pcas-rc",
+      "nombre": "PARTIDO CASTELLANO-TIERRA COMUNERA-RECORTES CERO",
+      "votos": 1345,
+      "porcentaje": 0.125363,
+      "territorios": [
+        "castilla-la-mancha"
+      ],
+      "circunscripciones": [
+        "Cuenca",
+        "Guadalajara",
+        "Toledo"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [
+        {
+          "perfilId": "recortes-cero",
+          "relacion": "componente",
+          "nota": "Recortes Cero figura como componente de esta candidatura fechada; sus posiciones no se atribuyen automáticamente a la coalición."
+        }
+      ],
+      "nota": "Naturaleza inventariada: coalicion-o-candidatura-conjunta. Vigencia comprobada: matrices-verificadas. Tratamiento previsto: perfil-especifico."
+    },
+    {
+      "id": "clm-2023-pcpe",
+      "nombre": "PARTIDO COMUNISTA DE LOS PUEBLOS DE ESPAÑA",
+      "votos": 989,
+      "porcentaje": 0.092182,
+      "territorios": [
+        "castilla-la-mancha"
+      ],
+      "circunscripciones": [
+        "Toledo"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [
+        {
+          "perfilId": "pcpe",
+          "relacion": "misma-organizacion"
+        }
+      ],
+      "nota": "Naturaleza inventariada: partido. Vigencia comprobada: posterior-verificada. Tratamiento previsto: perfil-reutilizable."
+    },
+    {
+      "id": "clm-2023-aqui-ahora",
+      "nombre": "AQUÍ AHORA",
+      "votos": 724,
+      "porcentaje": 0.067482,
+      "territorios": [
+        "castilla-la-mancha"
+      ],
+      "circunscripciones": [
+        "Toledo"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [],
+      "nota": "Naturaleza inventariada: partido-o-candidatura. Vigencia comprobada: no-comprobada. Tratamiento previsto: inventario-sin-datos."
+    },
+    {
+      "id": "clm-2023-tu-patria",
+      "nombre": "TÚpatria",
+      "votos": 585,
+      "porcentaje": 0.054526,
+      "territorios": [
+        "castilla-la-mancha"
+      ],
+      "circunscripciones": [
+        "Cuenca"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [],
+      "nota": "Naturaleza inventariada: partido-o-candidatura. Vigencia comprobada: no-comprobada. Tratamiento previsto: inventario-sin-datos."
+    },
+    {
+      "id": "clm-2023-fe",
+      "nombre": "FALANGE ESPAÑOLA DE LAS JONS",
+      "votos": 299,
+      "porcentaje": 0.027869,
+      "territorios": [
+        "castilla-la-mancha"
+      ],
+      "circunscripciones": [
+        "Guadalajara"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [
+        {
+          "perfilId": "fe-jons",
+          "relacion": "misma-organizacion"
+        }
+      ],
+      "nota": "Naturaleza inventariada: partido. Vigencia comprobada: posterior-verificada. Tratamiento previsto: perfil-reutilizable."
+    }
+  ]
+}

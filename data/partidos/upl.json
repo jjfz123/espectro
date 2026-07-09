@@ -1,0 +1,85 @@
+{
+  "id": "upl",
+  "nombre": "Unión del Pueblo Leonés",
+  "siglas": "UPL",
+  "ambito": "autonomico",
+  "tipo": "partido",
+  "ccaa": ["castilla-y-leon"],
+  "confianza": "verificada",
+  "web": "https://www.upl.es/",
+  "revisado": "2026-07-10",
+  "actividad": "activa",
+  "posiciones": {
+    "nac-002": {
+      "valor": -2,
+      "justificacion": "Reivindica una comunidad autónoma para León, Zamora y Salamanca dentro de la unidad de España; rechaza presentar el leonesismo de UPL como un proyecto independentista.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Preguntas frecuentes de Unión del Pueblo Leonés",
+        "url": "https://www.upl.es/preguntas-frecuentes/",
+        "consultado": "2026-07-10"
+      }
+    },
+    "nac-010": {
+      "valor": 1,
+      "justificacion": "Pide graduar fondos, ayudas y bonificaciones por pérdida de población, envejecimiento y baja densidad, aunque no formula todo el sistema de financiación autonómica exactamente con la prioridad absoluta del enunciado.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral autonómico de UPL 2026",
+        "url": "https://www.upl.es/wp-content/uploads/2026/02/Programa-2026-UPL-autonomicas.pdf",
+        "fecha": "2026-02",
+        "consultado": "2026-07-10"
+      }
+    },
+    "nac-014": {
+      "valor": -2,
+      "justificacion": "Propone elegir directamente a los diputados provinciales, una reforma que presupone conservar las diputaciones en lugar de suprimirlas.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa de UPL para las elecciones generales de 2023",
+        "url": "https://www.upl.es/wp-content/uploads/2023/07/programa_upl_140723.pdf",
+        "fecha": "2023-07-14",
+        "consultado": "2026-07-10"
+      }
+    },
+    "nac-015": {
+      "valor": 2,
+      "justificacion": "Constituir una comunidad autónoma propia para la Región Leonesa, integrada por León, Zamora y Salamanca, es el objetivo central e irrenunciable del programa.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral autonómico de UPL 2026",
+        "url": "https://www.upl.es/wp-content/uploads/2026/02/Programa-2026-UPL-autonomicas.pdf",
+        "fecha": "2026-02",
+        "consultado": "2026-07-10"
+      }
+    },
+    "dem-001": {
+      "valor": 1,
+      "justificacion": "Solicitó una consulta popular sobre la creación de la comunidad autónoma leonesa; acredita decisión directa para este cambio mayor, no referéndums habituales sobre toda cuestión de alcance.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "UPL solicitará una consulta popular en León, Zamora y Salamanca",
+        "url": "https://www.upl.es/celebracion-consulta-popular/",
+        "fecha": "2025-09-26",
+        "consultado": "2026-07-10"
+      }
+    },
+    "dem-012": {
+      "valor": 2,
+      "justificacion": "Fundamenta su propuesta autonómica en los artículos 2 y 143 de la Constitución y pide tramitarla por los cauces institucionales previstos.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral autonómico de UPL 2026",
+        "url": "https://www.upl.es/wp-content/uploads/2026/02/Programa-2026-UPL-autonomicas.pdf",
+        "fecha": "2026-02",
+        "consultado": "2026-07-10"
+      }
+    }
+  }
+}

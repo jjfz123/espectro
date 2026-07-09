@@ -15,13 +15,13 @@
       "defensa",
       "politica-exterior"
     ],
-    "estado": "piloto",
+    "estado": "retirado",
     "notas": "Discrimina: Podemos/IU (salida) frente a Sumar como coalición (ambigüedad, permanencia no cuestionada) y frente a PSOE e Izquierda Española (atlantistas claros). Es el eje atlantismo dentro de la izquierda. | Esperado: Podemos +2, PCE/IU (dentro de Sumar) +2, Sumar (dirección) +0, Más Madrid -1, PSOE (dirección) -2, Izquierda Española -2. | Hereda el «OTAN, de entrada no» y el «OTAN no» histórico; Yolanda Díaz declaró que la permanencia no se cuestiona, lo que retrata la ambigüedad de Sumar."
   },
   {
     "id": "sd-002",
     "texto": "España debe aumentar de forma sustancial su gasto en defensa durante los próximos años.",
-    "modulo": "socialdemocracia-reformismo",
+    "modulo": "nucleo",
     "ejes": [
       {
         "eje": "atlantismo",
@@ -329,28 +329,6 @@
     ],
     "estado": "piloto",
     "notas": "Discrimina: Mide la hipótesis populista (Laclau): Podemos y el errejonismo originario (+) frente al partido clásico de afiliados del PSOE y al antipopulismo explícito de Izquierda Española (−); Sumar, equidistante. | Esperado: Podemos +2, Más Madrid (errejonismo) +1, Sumar +0, PSOE (dirección) -1, Izquierda Española -2. | [Corregido en revisión: Dos problemas: (1) doble barril comparativo — afirma la estrategia populista Y descarta la apelación clasista; (2) el término de contraste elegido ('apelar solo a la clase trabajadora') plantea el debate populismo-vs-clasismo, que es la frontera Podemos/IU propia del módulo de corrientes-izquierda, no la frontera con el partido clásico del PSOE que el campo discrimina dice medir. Se deja solo la afirmación de la hipótesis populista (Laclau/Errejón), que el PSOE y sobre todo Izquierda Española (antipopulista explícita) rechazarían por sí sola. No duplica el ítem del núcleo sobre élites: aquél mide una creencia descriptiva (élites coordinadas contra la gente), éste una apuesta estratégica normativa. Eje y carga (+0.75, polo antielitista) correctos.]"
-  },
-  {
-    "id": "sd-019",
-    "texto": "España debe defender un referéndum de autodeterminación para el Sáhara Occidental.",
-    "modulo": "socialdemocracia-reformismo",
-    "ejes": [
-      {
-        "eje": "internacionalismo",
-        "carga": -0.5
-      }
-    ],
-    "polaridad": "positiva",
-    "tags": [
-      "sahara",
-      "politica-exterior",
-      "internacionalismo"
-    ],
-    "estado": "piloto",
-    "notas": "Discrimina: La dirección del PSOE (apoyo al plan de autonomía marroquí desde marzo de 2022, alineamiento con Rabat) frente a Sumar, Podemos, IU, Más Madrid y Compromís (referéndum, posición histórica de la ONU), con parte de las bases y territorios del PSOE incómodos. Hay votos reales en el Congreso condenando el giro, con el PSOE solo frente a sus socios. | Esperado: Podemos +2, PCE/IU (dentro de Sumar) +2, Sumar +2, Más Madrid +2, Compromís +2, PSOE (dirección) -1, Izquierda Española +1. | Duradero: el referéndum es la posición de la legalidad internacional desde 1991, así que el ítem no caduca con un gobierno. Usa el eje internacionalismo, vacío en el borrador; carga parcial (−0.5) porque también admite lectura de pura política exterior. | [Añadido por el revisor para cubrir un hueco]",
-    "terminos": [
-      "autodeterminacion"
-    ]
   },
   {
     "id": "sd-020",

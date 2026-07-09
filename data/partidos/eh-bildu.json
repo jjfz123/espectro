@@ -1,0 +1,182 @@
+{
+  "id": "eh-bildu",
+  "nombre": "Euskal Herria Bildu",
+  "siglas": "EH Bildu",
+  "ambito": "autonomico",
+  "tipo": "coalicion",
+  "ccaa": ["euskadi", "navarra"],
+  "confianza": "verificada",
+  "web": "https://ehbildu.eus/",
+  "revisado": "2026-07-09",
+  "actividad": "activa",
+  "posiciones": {
+    "nac-001": {
+      "valor": 1,
+      "justificacion": "Su estrategia prevé un proceso democrático y popular, con unilateralidad o desobediencia condicionadas por el bloqueo; no propone automatizarlas ante cualquier desacuerdo.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Ponencia política del III Congreso de EH Bildu",
+        "url": "https://ehbildu.eus/media/dokumentuak/albisteak/es-1729252550.pdf",
+        "fecha": "2024",
+        "consultado": "2026-07-09"
+      }
+    },
+    "nac-002": {
+      "valor": 2,
+      "justificacion": "Su horizonte declarado es una república confederal soberana de Euskal Herria.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Ponencia política del III Congreso de EH Bildu",
+        "url": "https://ehbildu.eus/media/dokumentuak/albisteak/es-1729252550.pdf",
+        "fecha": "2024",
+        "consultado": "2026-07-09"
+      }
+    },
+    "sd-004": {
+      "valor": 2,
+      "justificacion": "La propuesta confederal parte del reconocimiento de distintas naciones y sujetos políticos dentro del Estado actual.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Ponencia política del III Congreso de EH Bildu",
+        "url": "https://ehbildu.eus/media/dokumentuak/albisteak/es-1729252550.pdf",
+        "fecha": "2024",
+        "consultado": "2026-07-09"
+      }
+    },
+    "eus-001": {
+      "valor": 2,
+      "justificacion": "Incluye Navarra como parte constitutiva de Euskal Herria y de su proyecto nacional.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Ponencia política del III Congreso de EH Bildu",
+        "url": "https://ehbildu.eus/media/dokumentuak/albisteak/es-1729252550.pdf",
+        "fecha": "2024",
+        "consultado": "2026-07-09"
+      }
+    },
+    "eus-002": {
+      "valor": 2,
+      "justificacion": "Defiende Concierto y Convenio como instrumentos bilaterales de soberanía fiscal y se opone a su recorte unilateral estatal.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Ponencia política del III Congreso de EH Bildu",
+        "url": "https://ehbildu.eus/media/dokumentuak/albisteak/es-1729252550.pdf",
+        "fecha": "2024",
+        "consultado": "2026-07-09"
+      }
+    },
+    "eus-003": {
+      "valor": 2,
+      "justificacion": "Defiende perfiles lingüísticos efectivos y el euskera como requisito proporcional en la mayoría de servicios públicos, no solo como mérito general.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Ponencia política del III Congreso de EH Bildu",
+        "url": "https://ehbildu.eus/media/dokumentuak/albisteak/es-1729252550.pdf",
+        "fecha": "2024",
+        "consultado": "2026-07-09"
+      }
+    },
+    "eus-004": {
+      "valor": 2,
+      "justificacion": "Reclama aplicar legalidad penitenciaria ordinaria, reinserción y fin de medidas excepcionales para estos presos.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Ponencia política del III Congreso de EH Bildu",
+        "url": "https://ehbildu.eus/media/dokumentuak/albisteak/es-1729252550.pdf",
+        "fecha": "2024",
+        "consultado": "2026-07-09"
+      }
+    },
+    "eus-005": {
+      "valor": -2,
+      "justificacion": "Aunque emplea instrumentos forales, su horizonte no es actualizar derechos históricos dentro de España sino una república confederal soberana.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Ponencia política del III Congreso de EH Bildu",
+        "url": "https://ehbildu.eus/media/dokumentuak/albisteak/es-1729252550.pdf",
+        "fecha": "2024",
+        "consultado": "2026-07-09"
+      }
+    },
+    "eus-006": {
+      "valor": 2,
+      "justificacion": "Defiende terminar con la zonificación lingüística navarra y extender la oficialidad efectiva del euskera.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Ponencia política del III Congreso de EH Bildu",
+        "url": "https://ehbildu.eus/media/dokumentuak/albisteak/es-1729252550.pdf",
+        "fecha": "2024",
+        "consultado": "2026-07-09"
+      }
+    },
+    "eus-008": {
+      "valor": 2,
+      "justificacion": "La Declaración del Dieciocho de Octubre define como inamovible y permanente el compromiso del independentismo de izquierdas con vías exclusivamente pacíficas y democráticas.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Declaración del Dieciocho de Octubre, leída conjuntamente por Sortu y la coordinación general de EH Bildu",
+        "url": "https://sortu.eus/es/noticias/urriaren-hemezortziko-adierazpena",
+        "fecha": "2021-10-18",
+        "consultado": "2026-07-10"
+      }
+    },
+    "eus-009": {
+      "valor": 2,
+      "justificacion": "La declaración conjunta hace una mención específica a las víctimas causadas por ETA, reconoce su sufrimiento, afirma que nunca debió producirse y se compromete con su memoria; la ponencia vigente extiende reconocimiento y reparación a todas las víctimas.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Declaración del Dieciocho de Octubre, leída conjuntamente por Sortu y la coordinación general de EH Bildu",
+        "url": "https://sortu.eus/es/noticias/urriaren-hemezortziko-adierazpena",
+        "fecha": "2021-10-18",
+        "consultado": "2026-07-10"
+      }
+    },
+    "eus-010": {
+      "valor": 2,
+      "justificacion": "Defiende ampliar el reconocimiento y la reparación de las víctimas de vulneraciones cometidas por agentes del Estado y equiparar sus derechos indemnizatorios.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "EH Bildu aboga por cambiar la ley de reconocimiento y reparación a las víctimas del Estado",
+        "url": "https://ehbildu.eus/herriak/legebiltzarra/es/noticias/eh-bildu-aboga-por-cambiar-la-ley-de-reconocimiento-y-reparacion-a-las-victimas-del-estado-para-que-ninguna-sea-excluida",
+        "fecha": "2025-10-01",
+        "consultado": "2026-07-10"
+      }
+    },
+    "def-002": {
+      "valor": 2,
+      "justificacion": "Considera la autonomía estratégica europea incompatible con pertenecer a la OTAN y mantiene una posición de salida de la alianza.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Pernando Barrena: la autonomía estratégica europea es incompatible con la OTAN",
+        "url": "https://ehbildu.eus/es/noticias/pernando-barrena-la-autonomia-estrategica-europea-es-totalmente-incompatible-con-la-pertenencia-a-un-esquema-militar-como-es-la-otan",
+        "fecha": "2025-03-25",
+        "consultado": "2026-07-09"
+      }
+    },
+    "dem-014": {
+      "valor": 2,
+      "justificacion": "Los estatutos federales aplican una persona, un voto y decisiones directas de bilkides, con mecanismos de revocación y límites al peso de los partidos componentes.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "estatutos",
+        "titulo": "Estatutos de EH Bildu",
+        "url": "https://ehbildu.eus/dokumentuak/gardentasuna/Estatutos_2025.pdf",
+        "fecha": "2025",
+        "consultado": "2026-07-09"
+      }
+    }
+  }
+}

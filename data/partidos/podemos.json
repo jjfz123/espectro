@@ -1,0 +1,145 @@
+{
+  "id": "podemos",
+  "nombre": "Podemos",
+  "siglas": "PODEMOS",
+  "ambito": "estatal",
+  "tipo": "partido",
+  "confianza": "verificada",
+  "web": "https://podemos.info/",
+  "revisado": "2026-07-09",
+  "actividad": "activa",
+  "posiciones": {
+    "sd-002": {
+      "valor": -2,
+      "justificacion": "El programa prioriza desmilitarización y traslado de recursos desde estructuras militares hacia una política común de paz y seguridad.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa de Podemos para las elecciones europeas de 2024",
+        "url": "https://podemos.info/wp-content/uploads/2024/05/Programa-PODEMOS-elecciones-europeas-2024.pdf",
+        "fecha": "2024-05",
+        "consultado": "2026-07-09"
+      }
+    },
+    "ene-002": {
+      "valor": -2,
+      "justificacion": "Exige excluir la fisión nuclear de la taxonomía europea de inversiones sostenibles.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa de Podemos para las elecciones europeas de 2024",
+        "url": "https://podemos.info/wp-content/uploads/2024/05/Programa-PODEMOS-elecciones-europeas-2024.pdf",
+        "fecha": "2024-05",
+        "consultado": "2026-07-09"
+      }
+    },
+    "ene-003": {
+      "valor": 1,
+      "justificacion": "Propone abandonar la fisión nuclear; coincide con no prorrogar el parque, aunque la fuente no vincula literalmente el abandono al calendario español vigente.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa de Podemos para las elecciones europeas de 2024",
+        "url": "https://podemos.info/wp-content/uploads/2024/05/Programa-PODEMOS-elecciones-europeas-2024.pdf",
+        "fecha": "2024-05",
+        "consultado": "2026-07-09"
+      }
+    },
+    "ene-004": {
+      "valor": 2,
+      "justificacion": "Defiende redes energéticas públicas dentro de un sistema renovable y distribuido.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa de Podemos para las elecciones europeas de 2024",
+        "url": "https://podemos.info/wp-content/uploads/2024/05/Programa-PODEMOS-elecciones-europeas-2024.pdf",
+        "fecha": "2024-05",
+        "consultado": "2026-07-09"
+      }
+    },
+    "geo-003": {
+      "valor": 1,
+      "justificacion": "Su programa de paz, desmilitarización y no subordinación a bloques favorece renunciar a guerras exteriores, pero no formula una prohibición absoluta en toda circunstancia aliada.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa de Podemos para las elecciones europeas de 2024",
+        "url": "https://podemos.info/wp-content/uploads/2024/05/Programa-PODEMOS-elecciones-europeas-2024.pdf",
+        "fecha": "2024-05",
+        "consultado": "2026-07-09"
+      }
+    },
+    "geo-004": {
+      "valor": 2,
+      "justificacion": "Propone una política europea común y una fuerza europea defensiva que termine con la subordinación a Estados Unidos, bajo control democrático.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa de Podemos para las elecciones europeas de 2024",
+        "url": "https://podemos.info/wp-content/uploads/2024/05/Programa-PODEMOS-elecciones-europeas-2024.pdf",
+        "fecha": "2024-05",
+        "consultado": "2026-07-09"
+      }
+    },
+    "geo-005": {
+      "valor": -2,
+      "justificacion": "La adhesión al tratado de prohibición y la eliminación de arsenales son incompatibles con mantener como política propia el paraguas nuclear aliado.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa de Podemos para las elecciones europeas de 2024",
+        "url": "https://podemos.info/wp-content/uploads/2024/05/Programa-PODEMOS-elecciones-europeas-2024.pdf",
+        "fecha": "2024-05",
+        "consultado": "2026-07-09"
+      }
+    },
+    "geo-006": {
+      "valor": 2,
+      "justificacion": "Defiende la prohibición de las armas nucleares y la adhesión al Tratado sobre la Prohibición de las Armas Nucleares.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa de Podemos para las elecciones europeas de 2024",
+        "url": "https://podemos.info/wp-content/uploads/2024/05/Programa-PODEMOS-elecciones-europeas-2024.pdf",
+        "fecha": "2024-05",
+        "consultado": "2026-07-09"
+      }
+    },
+    "geo-009": {
+      "valor": 1,
+      "justificacion": "Exige control democrático y consulta ciudadana para operaciones militares de gran alcance; el apoyo es parcial porque el ítem exige además un referéndum vinculante en cada operación de combate.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa de Podemos para las elecciones europeas de 2024",
+        "url": "https://podemos.info/wp-content/uploads/2024/05/Programa-PODEMOS-elecciones-europeas-2024.pdf",
+        "fecha": "2024-05",
+        "consultado": "2026-07-09"
+      }
+    },
+    "sd-019": {
+      "valor": 2,
+      "justificacion": "Defiende explícitamente un referéndum de autodeterminación para el Sáhara Occidental y relaciones con la RASD.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa de Podemos para las elecciones europeas de 2024",
+        "url": "https://podemos.info/wp-content/uploads/2024/05/Programa-PODEMOS-elecciones-europeas-2024.pdf",
+        "fecha": "2024-05",
+        "consultado": "2026-07-09"
+      }
+    },
+    "dem-014": {
+      "valor": 2,
+      "justificacion": "La Asamblea Ciudadana de inscritos decide estrategia, programas, listas y pactos mediante votaciones vinculantes.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "estatutos",
+        "titulo": "Documentos de la V Asamblea Ciudadana de Podemos",
+        "url": "https://podemos.info/eu/documentos/",
+        "fecha": "2025-04",
+        "consultado": "2026-07-09"
+      }
+    }
+  }
+}

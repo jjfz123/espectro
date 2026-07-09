@@ -1,0 +1,192 @@
+{
+  "id": "posi",
+  "nombre": "Partido Obrero Socialista Internacionalista",
+  "siglas": "POSI",
+  "ambito": "estatal",
+  "tipo": "partido",
+  "confianza": "verificada",
+  "web": "https://posicuarta.org/",
+  "revisado": "2026-07-09",
+  "actividad": "activa",
+  "excepcionCatalogo": {
+    "motivo": "comunista-activa",
+    "justificacion": "Se incorpora por la excepción de cobertura de organizaciones comunistas activas. Su conferencia política de 2025 acredita actividad del POSI, pero su última candidatura propia verificada en esta revisión es de 2011.",
+    "fuente": {
+      "tipo": "declaracion",
+      "titulo": "Informe presentado en la Conferencia del POSI",
+      "url": "https://posicuarta.org/cartasblog/wp-content/uploads/2025/10/Carta-Semanal-1066-cast.pdf",
+      "fecha": "2025-10-22",
+      "consultado": "2026-07-09"
+    }
+  },
+  "posiciones": {
+    "izq-001": {
+      "valor": 2,
+      "justificacion": "Se define como partido socialista revolucionario y sostiene la actualidad de la revolución proletaria frente a la simple humanización del capitalismo.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "autoubicacion",
+        "titulo": "Qué es el POSI y por qué lucha",
+        "url": "https://posicuarta.org/cartasblog/que-es-el-posi-y-por-que-lucha/",
+        "fecha": "2021-03-16",
+        "consultado": "2026-07-09"
+      }
+    },
+    "izq-002": {
+      "valor": 2,
+      "justificacion": "Considera que solo la acción y la organización de un partido obrero pueden resolver los problemas de explotación y opresión.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "autoubicacion",
+        "titulo": "Qué es el POSI y por qué lucha",
+        "url": "https://posicuarta.org/cartasblog/que-es-el-posi-y-por-que-lucha/",
+        "fecha": "2021-03-16",
+        "consultado": "2026-07-09"
+      }
+    },
+    "izq-016": {
+      "valor": 2,
+      "justificacion": "Su objetivo socialista incluye acabar con la propiedad privada de los grandes medios de producción y nacionalizar banca y grandes empresas.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "autoubicacion",
+        "titulo": "Qué es el POSI y por qué lucha",
+        "url": "https://posicuarta.org/cartasblog/que-es-el-posi-y-por-que-lucha/",
+        "fecha": "2021-03-16",
+        "consultado": "2026-07-09"
+      }
+    },
+    "izq-021": {
+      "valor": 2,
+      "justificacion": "Se declara sección española de la IV Internacional fundada por Trotski y contrapone esa tradición a la degeneración estalinista.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Declaración del Congreso del Partido Obrero Socialista Internacionalista",
+        "url": "https://posicuarta.org/cartasblog/declaracion-del-congreso-del-partido-obrero-socialista-internacionalista/",
+        "fecha": "2018-05-14",
+        "consultado": "2026-07-09"
+      }
+    },
+    "izq-024": {
+      "valor": 2,
+      "justificacion": "Afirma que sus militantes trabajan en CCOO o UGT y rechaza abandonar esos sindicatos para construir centrales radicales separadas.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "autoubicacion",
+        "titulo": "Qué es el POSI y por qué lucha",
+        "url": "https://posicuarta.org/cartasblog/que-es-el-posi-y-por-que-lucha/",
+        "fecha": "2021-03-16",
+        "consultado": "2026-07-09"
+      }
+    },
+    "izq-011": {
+      "valor": 1,
+      "justificacion": "Sostiene que la Unión Europea no es reformable y combate sus tratados e instituciones; la formulación localizada pide derogarlos, no usa literalmente una salida estatal inmediata.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "autoubicacion",
+        "titulo": "Qué es el POSI y por qué lucha",
+        "url": "https://posicuarta.org/cartasblog/que-es-el-posi-y-por-que-lucha/",
+        "fecha": "2021-03-16",
+        "consultado": "2026-07-09"
+      }
+    },
+    "def-002": {
+      "valor": 2,
+      "justificacion": "Defiende la disolución de la OTAN y la salida inmediata de España de la alianza.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "autoubicacion",
+        "titulo": "Qué es el POSI y por qué lucha",
+        "url": "https://posicuarta.org/cartasblog/que-es-el-posi-y-por-que-lucha/",
+        "fecha": "2021-03-16",
+        "consultado": "2026-07-09"
+      }
+    },
+    "mon-001": {
+      "valor": 2,
+      "justificacion": "Considera incompatible la monarquía con la democracia y defiende una unión libre de repúblicas.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Declaración del Congreso del Partido Obrero Socialista Internacionalista",
+        "url": "https://posicuarta.org/cartasblog/declaracion-del-congreso-del-partido-obrero-socialista-internacionalista/",
+        "fecha": "2018-05-14",
+        "consultado": "2026-07-09"
+      }
+    },
+    "ter-002": {
+      "valor": 2,
+      "justificacion": "Defiende que los pueblos catalán, vasco, gallego y otros decidan libremente su futuro.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "autoubicacion",
+        "titulo": "Qué es el POSI y por qué lucha",
+        "url": "https://posicuarta.org/cartasblog/que-es-el-posi-y-por-que-lucha/",
+        "fecha": "2021-03-16",
+        "consultado": "2026-07-09"
+      }
+    },
+    "dem-005": {
+      "valor": 2,
+      "justificacion": "Su propuesta republicana incluye expresamente una justicia basada en la elección democrática de jueces y fiscales.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Declaración del Congreso del Partido Obrero Socialista Internacionalista",
+        "url": "https://posicuarta.org/cartasblog/declaracion-del-congreso-del-partido-obrero-socialista-internacionalista/",
+        "fecha": "2018-05-14",
+        "consultado": "2026-07-09"
+      }
+    },
+    "dr-001": {
+      "valor": 2,
+      "justificacion": "Propone nacionalizar la banca junto con grandes empresas energéticas y de comunicaciones.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Declaración del Congreso del Partido Obrero Socialista Internacionalista",
+        "url": "https://posicuarta.org/cartasblog/declaracion-del-congreso-del-partido-obrero-socialista-internacionalista/",
+        "fecha": "2018-05-14",
+        "consultado": "2026-07-09"
+      }
+    },
+    "lab-005": {
+      "valor": 2,
+      "justificacion": "Rechaza la integración de los sindicatos en organismos del Estado y defiende la independencia de las organizaciones obreras.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "autoubicacion",
+        "titulo": "Qué es el POSI y por qué lucha",
+        "url": "https://posicuarta.org/cartasblog/que-es-el-posi-y-por-que-lucha/",
+        "fecha": "2021-03-16",
+        "consultado": "2026-07-09"
+      }
+    },
+    "lab-009": {
+      "valor": -2,
+      "justificacion": "No rechaza los impuestos por principio: propone un impuesto fuertemente progresivo sobre renta y beneficios empresariales, aunque quiera eliminar la carga sobre el salario.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "autoubicacion",
+        "titulo": "Qué es el POSI y por qué lucha",
+        "url": "https://posicuarta.org/cartasblog/que-es-el-posi-y-por-que-lucha/",
+        "fecha": "2021-03-16",
+        "consultado": "2026-07-09"
+      }
+    },
+    "izq-031": {
+      "valor": -2,
+      "justificacion": "El POSI ha presentado candidaturas propias, incluida una proclamada para las generales de 2011; su actividad electoral histórica contradice el boicot como regla doctrinal permanente, aunque no prueba una papeleta reciente.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Proclamación de candidatura del POSI para las elecciones generales de 2011",
+        "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2011-17267",
+        "fecha": "2011-10-31",
+        "consultado": "2026-07-09"
+      }
+    }
+  }
+}

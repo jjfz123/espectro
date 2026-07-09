@@ -3,30 +3,23 @@
  * y los partidos en tiempo de build. No hay ninguna petición de red en
  * ejecución: todo viaja dentro del propio bundle (requisito de privacidad).
  */
-import type { Eje, Item, Modulo, Partido, Valor } from '@engine';
+import { itemVisible } from '@engine';
+import type {
+  ConvocatoriaElectoral,
+  Eje,
+  Item,
+  Modulo,
+  Partido,
+  PerfilAfinidad,
+  ReferenciaDoctrinal,
+  Sindicato,
+  Valor,
+} from '@engine';
 import type { TipoEleccion } from '@engine';
 
 import ejesJson from '@data/ejes.json';
 import modulosJson from '@data/modulos.json';
 import glosarioJson from '@data/glosario.json';
-
-import itemsNucleo from '@data/items/nucleo.json';
-import itemsCorrientesIzquierda from '@data/items/corrientes-izquierda.json';
-import itemsSocialdemocracia from '@data/items/socialdemocracia-reformismo.json';
-import itemsCentroLiberalismo from '@data/items/centro-liberalismo.json';
-import itemsCorrientesDerecha from '@data/items/corrientes-derecha.json';
-import itemsDerechaRadical from '@data/items/derecha-radical.json';
-import itemsNacionalismos from '@data/items/nacionalismos-regionalismos.json';
-import itemsVerdeAnimalista from '@data/items/verde-animalista.json';
-import itemsFeminismosMoral from '@data/items/feminismos-moral.json';
-import itemsTerritorialAndalucia from '@data/items/territorial-andalucia.json';
-import itemsTerritorialCanarias from '@data/items/territorial-canarias.json';
-import itemsTerritorialCatalunya from '@data/items/territorial-catalunya.json';
-import itemsTerritorialEuskadiNavarra from '@data/items/territorial-euskadi-navarra.json';
-import itemsTerritorialGalicia from '@data/items/territorial-galicia.json';
-
-import partidoDemoConsejista from '@data/partidos/demo-consejista.json';
-import partidoDemoVanguardia from '@data/partidos/demo-vanguardia.json';
 
 export const EJES = ejesJson as unknown as Eje[];
 
@@ -34,22 +27,18 @@ export const MODULOS = ([...(modulosJson as unknown as Modulo[])] as Modulo[]).s
   (a, b) => (a.orden ?? 99) - (b.orden ?? 99),
 );
 
-const bancoBruto = [
-  ...itemsNucleo,
-  ...itemsCorrientesIzquierda,
-  ...itemsSocialdemocracia,
-  ...itemsCentroLiberalismo,
-  ...itemsCorrientesDerecha,
-  ...itemsDerechaRadical,
-  ...itemsNacionalismos,
-  ...itemsVerdeAnimalista,
-  ...itemsFeminismosMoral,
-  ...itemsTerritorialAndalucia,
-  ...itemsTerritorialCanarias,
-  ...itemsTerritorialCatalunya,
-  ...itemsTerritorialEuskadiNavarra,
-  ...itemsTerritorialGalicia,
-] as unknown as Item[];
+const modulosItems = import.meta.glob('../../data/items/*.json', {
+  eager: true,
+  import: 'default',
+}) as Record<string, unknown>;
+
+/**
+ * El manifiesto se genera desde el propio directorio para que un JSON nuevo no
+ * pueda validar en CI y quedar accidentalmente fuera del producto.
+ */
+const bancoBruto = Object.entries(modulosItems)
+  .sort(([rutaA], [rutaB]) => rutaA.localeCompare(rutaB))
+  .flatMap(([, contenido]) => contenido as Item[]);
 
 /** Banco completo, sin los ítems retirados. */
 export const ITEMS: Item[] = bancoBruto.filter((i) => i.estado !== 'retirado');
@@ -68,7 +57,48 @@ export const ITEMS_POR_MODULO: ReadonlyMap<string, Item[]> = (() => {
 
 export const MODULO_POR_ID: ReadonlyMap<string, Modulo> = new Map(MODULOS.map((m) => [m.id, m]));
 
-export const PARTIDOS = [partidoDemoConsejista, partidoDemoVanguardia] as unknown as Partido[];
+const modulosPartidos = import.meta.glob('../../data/partidos/*.json', {
+  eager: true,
+  import: 'default',
+}) as Record<string, unknown>;
+
+const todosLosPartidos: Partido[] = Object.entries(modulosPartidos)
+  .filter(([ruta]) => !ruta.split('/').at(-1)?.startsWith('_'))
+  .sort(([rutaA], [rutaB]) => rutaA.localeCompare(rutaB))
+  .map(([, contenido]) => contenido as Partido);
+
+/** Los perfiles ficticios solo sirven para tests y no entran en producción. */
+export const PARTIDOS: Partido[] = todosLosPartidos.filter((partido) => !partido.demo);
+
+const modulosConvocatorias = import.meta.glob('../../data/convocatorias/*.json', {
+  eager: true,
+  import: 'default',
+}) as Record<string, unknown>;
+
+export const CONVOCATORIAS: ConvocatoriaElectoral[] = Object.entries(modulosConvocatorias)
+  .filter(([ruta]) => !ruta.split('/').at(-1)?.startsWith('_'))
+  .sort(([rutaA], [rutaB]) => rutaA.localeCompare(rutaB))
+  .map(([, contenido]) => contenido as ConvocatoriaElectoral);
+
+const modulosReferencias = import.meta.glob('../../data/referencias/*.json', {
+  eager: true,
+  import: 'default',
+}) as Record<string, unknown>;
+
+export const REFERENCIAS: ReferenciaDoctrinal[] = Object.entries(modulosReferencias)
+  .filter(([ruta]) => !ruta.split('/').at(-1)?.startsWith('_'))
+  .sort(([rutaA], [rutaB]) => rutaA.localeCompare(rutaB))
+  .map(([, contenido]) => contenido as ReferenciaDoctrinal);
+
+const modulosSindicatos = import.meta.glob('../../data/sindicatos/*.json', {
+  eager: true,
+  import: 'default',
+}) as Record<string, unknown>;
+
+export const SINDICATOS: Sindicato[] = Object.entries(modulosSindicatos)
+  .filter(([ruta]) => !ruta.split('/').at(-1)?.startsWith('_'))
+  .sort(([rutaA], [rutaB]) => rutaA.localeCompare(rutaB))
+  .map(([, contenido]) => contenido as Sindicato);
 
 /* ————— Glosario ————— */
 
@@ -91,20 +121,51 @@ export function terminosDeItem(item: Item): TerminoGlosario[] {
     .filter((t): t is TerminoGlosario => t !== undefined);
 }
 
-export const ITEMS_NUCLEO: Item[] = ITEMS_POR_MODULO.get('nucleo') ?? [];
+/**
+ * Ampliación de 2026: diez discriminantes generales añadidos al final del
+ * recorrido rápido. Mantener el orden explícito evita desplazar las primeras
+ * cuarenta preguntas en sesiones ya empezadas.
+ */
+export const IDS_AMPLIACION_NUCLEO = [
+  'dem-011',
+  'dem-014',
+  'dem-021',
+  'lab-006',
+  'ene-001',
+  'sd-002',
+  'fem-006',
+  'geo-002',
+  'geo-005',
+  'va-001',
+] as const;
+
+const idsAmpliacionNucleo = new Set<string>(IDS_AMPLIACION_NUCLEO);
+const nucleoCompleto = ITEMS_POR_MODULO.get('nucleo') ?? [];
+
+export const ITEMS_NUCLEO: Item[] = [
+  ...nucleoCompleto.filter((item) => !idsAmpliacionNucleo.has(item.id)),
+  ...IDS_AMPLIACION_NUCLEO.map((id) => ITEM_POR_ID.get(id)).filter(
+    (item): item is Item => item !== undefined,
+  ),
+];
 
 /**
  * Secuencia de ítems de una sesión: el núcleo y, detrás, los módulos activos
  * en su orden natural.
  */
-export function secuenciaItems(modulosActivos: string[]): Item[] {
+export { itemVisible };
+
+export function secuenciaItems(
+  modulosActivos: string[],
+  respuestas: Readonly<Record<string, Valor | null>> = {},
+): Item[] {
   const activos = new Set(modulosActivos);
   const secuencia: Item[] = [...ITEMS_NUCLEO];
   for (const m of MODULOS) {
     if (m.id === 'nucleo' || !activos.has(m.id)) continue;
     secuencia.push(...(ITEMS_POR_MODULO.get(m.id) ?? []));
   }
-  return secuencia;
+  return secuencia.filter((item) => itemVisible(item, respuestas));
 }
 
 /* ————— Vocabulario de la interfaz ————— */
@@ -161,12 +222,14 @@ export function nombreComunidad(id: string): string | undefined {
  * Nombre de partido para la interfaz: los partidos de demostración llevan
  * «(DEMO)» en el propio dato, pero en pantalla ya lo señala la insignia.
  */
-export function nombrePartido(partido: Partido): string {
-  const nombre = partido.demo
-    ? partido.nombre.replace(/\s*\(DEMO\)\s*/g, ' ').trim()
-    : partido.nombre;
-  return partido.siglas ? `${nombre} (${partido.siglas})` : nombre;
+export function nombrePerfil(perfil: PerfilAfinidad): string {
+  const nombre = perfil.demo
+    ? perfil.nombre.replace(/\s*\(DEMO\)\s*/g, ' ').trim()
+    : perfil.nombre;
+  return perfil.siglas ? `${nombre} (${perfil.siglas})` : nombre;
 }
+
+export const nombrePartido = nombrePerfil;
 
 export const URL_REPOSITORIO = 'https://github.com/jjfz123/espectro';
 

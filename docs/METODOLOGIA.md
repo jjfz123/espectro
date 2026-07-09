@@ -25,31 +25,37 @@ Por qué Manhattan y no euclídea para el ranking: es el método de Wahl-O-Mat y
 
 **Cobertura.** `cobertura = ítems comparados / ítems respondidos`. Si es < 0,5 o hay < 10 ítems comparados, el resultado se marca `bajaCobertura` y la interfaz debe mostrarlo con aviso explícito (no ocultarlo: honestidad antes que limpieza estética). Esto es crítico para partidos de nivel `estimada` con pocas posiciones conocidas.
 
-## 3. Mapa ideológico: puntuación por eje
+## 3. Perfil ideológico: puntuación por faceta
 
 Para cada eje k:
 
 ```
-ejeₖ = 100 · Σᵢ wᵢ·uᵢ·cᵢₖ / Σᵢ wᵢ·2·|cᵢₖ|
+facetaₖ = 100 · Σᵢ uᵢ·cᵢₖ / Σᵢ 2·|cᵢₖ|
 ```
 
-donde `cᵢₖ ∈ [−1, 1]` es la carga del ítem i sobre el eje k. Rango −100..+100. Un eje sin ítems respondidos devuelve `null`: no se inventa una posición.
+donde `cᵢₖ ∈ [−1, 1]` es la carga del ítem i sobre la faceta k. Rango −100..+100. La prioridad declarada (`wᵢ`) no interviene aquí: importa al comparar partidos o sindicatos, pero no debe mover la identidad política de la persona. Una faceta sin ítems respondidos devuelve `null`: no se inventa una posición.
 
-Los seis ejes principales (económico, GAL-TAN, territorial, UE, ecologismo, populismo) están anclados en las dimensiones del Chapel Hill Expert Survey; los sub-ejes (método de cambio, modelo organizativo, moral pública) solo se miden en módulos de profundización.
+Los seis ejes principales (económico, GAL-TAN, territorial, UE, ecologismo, populismo) parten de dimensiones comparables con CHES. El modo exhaustivo añade facetas que no deben colapsarse en izquierda/derecha: método de cambio, pluralismo institucional, formas de decisión, poder laboral, estatismo, religión y libertad de conciencia, nuclear civil, uso de fuerza, armas nucleares y otras. Todas son escalas **exploratorias** hasta completar entrevistas cognitivas y calibración.
+
+**Jerarquía del resultado.** El mapa personal es anterior e independiente de cualquier partido. Una persona puede quedar cerca de un arquetipo doctrinal —por ejemplo, anarcocapitalismo, consejismo o ecologismo pronuclear— aunque ninguna candidatura disponible lo represente. La interfaz muestra primero facetas y cobertura, después el razonamiento pregunta → faceta y solo al final organizaciones comparables. Un eje sin evidencia suficiente queda `null`; no se rellena con cero ni con el partido más próximo.
 
 **Ítems solo-matching** (`ejes: []`): afirmaciones que discriminan fuertemente entre partidos (p. ej. el balance de la URSS separa estalinismo de trotskismo) pero cuya proyección sobre un eje continuo sería forzada. Cuentan para el matching, no para el mapa. Este mecanismo es el que permite granularidad sin inflar el número de ejes.
+
+**Ítems solo-mapa** (`uso: "solo-mapa"`): anclas doctrinales o límites no electorales que pueden describir al usuario, pero que el validador prohíbe usar para recomendar partidos o sindicatos reales. Evitan fabricar una posición partidaria para llenar una casilla extrema.
+
+**Equifinalidad y motivos.** Una misma respuesta puede proceder de razones incompatibles: «los impuestos son un robo» puede expresar propiedad individual absoluta, crítica socialista a la propiedad, autogestión fiscal o protesta por el uso concreto del gasto. La pregunta de entrada no carga un eje; activa seguimientos de motivo. Los seguimientos no deben multiplicar el peso del tema: antes del lanzamiento se sustituirán los grupos Likert provisionales por selección principal + confirmación contrastiva o por normalización de grupo.
 
 ## 4. Arquitectura modular y desbloqueo
 
 Principio de diseño: **el número de preguntas necesarias crece con las distinciones que se quieren hacer, no con el número de partidos.** Veinte ítems donde los partidos realmente divergen separan más que cien genéricos.
 
-- **Núcleo** (siempre): 35-40 ítems finales que posicionan en los ejes principales. Es el «modo rápido» completo.
+- **Núcleo** (siempre): exactamente 50 preguntas generales que posicionan en los ejes principales. El modo rápido termina en un perfil provisional y permite continuar al exhaustivo conservando respuestas.
 - **Módulos por eje**: se desbloquean por posición (economico ≤ −40 → corrientes de la izquierda; ≥ +40 → corrientes de la derecha) y son siempre activables manualmente (`eleccionUsuario`), porque el interés no depende de la posición propia.
 - **Módulos por banda de eje** (`eje-banda`): las corrientes que viven en franjas intermedias —socialdemocracia y reformismo (economico ∈ [−60, 5]), centro y liberalismo (economico ∈ [−15, 60])— no pueden desbloquearse con un umbral de extremo. La banda captura al usuario cuya profundización natural no está en los polos. Las bandas se solapan deliberadamente: un usuario en −50 ve tanto «corrientes de la izquierda» como «socialdemocracia», porque esa frontera (¿comunista reformista o socialdemócrata radical?) es exactamente la que el módulo debe resolver.
 - **Módulos territoriales**: se activan por la comunidad autónoma del usuario (una o varias: Euskadi y Navarra comparten módulo). El de Canarias sirve de plantilla: REF, insularidad, ultraperiferia, descuento de residente, frontera sur.
 - **Módulos transversales**: feminismos y moral pública, y ecologismo/animalismo cortan las familias por dentro (el abolicionismo o la ley trans parten a la izquierda; la caza y la nuclear parten a la derecha y al ecologismo). Se desbloquean con umbrales laxos y quedan siempre disponibles a elección.
 
-Objetivo de banco: 250-400 ítems totales; un usuario en modo completo responde ~90-130. Precedentes de que el público objetivo completa tests largos: PolitiScales (117 ítems), LeftValues.
+El banco puede superar el recorrido de una persona: los módulos, condiciones y retiradas evitan responderlo entero. La duración se calcula con preguntas realmente visibles y se comunica antes de continuar. Que existan tests largos no sustituye las pruebas de abandono y comprensión del piloto.
 
 ## 5. Posicionamiento de partidos
 
@@ -61,20 +67,33 @@ Método mixto, por orden de preferencia:
 
 **La granularidad debe existir en ambos lados.** Si el test tiene ítems de módulo pero las posiciones de partido solo cubren el núcleo, el matching profundo se rompe: dos partidos comunistas contestan igual a «nacionalizar la banca» y divergen en «partido de vanguardia». El cuestionario a partidos y la codificación incluyen siempre los ítems de módulo relevantes para su familia.
 
-**Dichos y hechos: la posición revelada prevalece.** Cuando el programa o la retórica divergen de la conducta (votaciones, acción u omisión de gobierno), la posición se codifica por la **conducta**, y la divergencia se anota en la justificación. Ejemplos del patrón: partidos con retórica de protección social cuyo registro de votos en materia laboral apunta en otra dirección; programas de vivienda ambiciosos con ejecución escasa cuando se gobierna. La fuente `votacion` pesa más que `programa`, y `programa` más que `declaracion`, salvo que la declaración sea más reciente y reiterada. Nunca se codifica desde la caracterización que hacen los adversarios del partido.
+**Programa, voto y conducta no son intercambiables.** Una tesis normativa se codifica primero con el programa o autoubicación vigente; una tesis sobre una votación se codifica con el registro parlamentario. Para PSOE, PP, VOX y Sumar —y cualquier otro caso donde la evidencia lo justifique— `dobleLectura` conserva dos marcadores: programa/posición oficial y conducta, votaciones o discurso recientes. No se promedian. La capa observada solo contiene posiciones con evidencia propia y nunca rellena sus huecos desde el programa. El ranking declara qué marcador ordena y la vista «por qué coincide» enseña las dos tablas.
+
+Los compromisos gubernamentales se auditan ítem por ítem como `cumplido`, `parcial`, `bloqueado`, `incumplido` o `no-evaluable`. Un bloqueo parlamentario no es lo mismo que renunciar a un compromiso, y una declaración no equivale a una ley ejecutada. No se publica un porcentaje agregado de «programa cumplido» salvo que exista un protocolo de codificación completo, predefinido y reproducible.
+
+Cada posición guarda calidad de evidencia propia, título, URL, fecha de la fuente y fecha de consulta. La confianza global de una organización no convierte sus casillas desconocidas en neutrales. Los perfiles declaran además actividad y fecha de revisión para no presentar una escisión histórica o marca inactiva como candidatura actual.
 
 **Micropartidos y redes sociales.** Muchos partidos pequeños no publican programa, y posiciones enteras (p. ej. las posturas sobre cuestiones de género de algunos partidos comunistas menores, o las líneas de sus juventudes) solo existen en sus redes o comunicados. La fuente `redes` es citable con URL y fecha (idealmente con captura archivada en web.archive.org, porque las publicaciones se borran). Las posiciones de las organizaciones juveniles (CJC, etc.) sirven como **indicio** para el partido madre, se etiquetan como tales y nunca bastan solas para una posición `verificada`.
 
-El validador (`npm run validate:data`) exige que toda posición de un partido `verificada` lleve justificación o cita.
+El validador (`npm run validate:data`) exige que toda posición `verificada` lleve justificación, calidad de evidencia y fuente titulada, enlazada y con fecha de consulta. La fecha de publicación se conserva con la precisión real cuando existe; no se sustituye fraudulentamente por la fecha de consulta. También rechaza claves JSON duplicadas, posiciones sobre ítems retirados y usos partidistas de anclas `solo-mapa`.
 
 ## 5 bis. Ámbito electoral: generales, autonómicas, municipales y europeas
 
 El mismo banco sirve para cualquier convocatoria; lo que cambia es el **contexto**, no la fórmula:
 
-- `partidosElegibles(partidos, {tipo, ccaa})` decide qué partidos entran en el ranking: en autonómicas y generales, los estatales más los autonómicos/insulares de la comunidad del usuario; en europeas, todos (circunscripción única); en municipales, además los de ámbito local. Es una heurística v1 que la Fase 3 sustituirá por las candidaturas reales de cada convocatoria (infoelectoral).
+- `seleccionarPartidosElectorales(partidos, convocatorias, {tipo, ccaa})` busca primero la última convocatoria versionada aplicable. Las candidaturas entran por el umbral declarado del 0,02 % o por una excepción explícita (`historica-activa` o `comunista-activa`). Solo se rankean las que ya están vinculadas a un perfil documentado; las demás cuentan en la cobertura del catálogo y no reciben posiciones inventadas.
+- Si todavía falta una convocatoria para el contexto, el motor devuelve `metodo: heuristica-ambito` y la interfaz lo advierte. La heurística sirve para seguir trabajando, pero nunca se presenta como papeleta real.
 - **La fórmula de afinidad no cambia jamás con el ámbito**: mismos ítems, misma distancia Manhattan normalizada, mismas puntuaciones de eje. Filtrar partidos no altera la puntuación de ningún otro (la afinidad es por pares usuario–partido, no relativa al conjunto), así que añadir o quitar convocatorias no puede sesgar los resultados.
-- En autonómicas, el **módulo territorial** de la comunidad forma parte del núcleo efectivo (no es opcional), porque ahí viven los discriminantes de esa arena (moratoria turística CC/NC, concierto en Euskadi/Navarra, etc.).
+- En el modo exhaustivo, el **módulo territorial** de la comunidad se recomienda porque ahí viven los discriminantes de esa arena (moratoria turística CC/NC, concierto en Euskadi/Navarra, etc.). El modo rápido conserva exactamente sus 50 preguntas generales y no absorbe módulos autonómicos.
 - Las **coaliciones** (Sumar, EH Bildu, Por Andalucía, Existe) se modelan con `tipo: "coalicion"` y `componentes: [ids]`: la coalición tiene ficha y posiciones propias (lo que se vota), y cada componente puede tener la suya (lo que se es). El usuario ve la coalición en el ranking electoral y puede desplegar sus componentes en la vista de detalle. Los partidos autonómicos sin representación en el Congreso (Adelante Andalucía, Nación Andaluza, extraparlamentarios de cualquier territorio) entran por la misma vía que los estatales: nivel de confianza según la fuente disponible, sin trato especial.
+
+Cada convocatoria conserva fecha, denominador, votos, porcentaje, motivo de inclusión, territorios cubiertos y fuente oficial. Un agregado por CCAA no prueba presencia en cada provincia: la interfaz expresa ese límite. Partido, coalición, candidatura y marca sucesora son relaciones distintas (`misma-organizacion`, `coalicion`, `componente`, `sucesora`) y ninguna de ellas hereda posiciones automáticamente.
+
+## 5 ter. Sindicatos y representación laboral
+
+Los sindicatos nunca comparten ranking con partidos. El resultado «Tu modelo de representación laboral» usa únicamente respuestas del bloque laboral y muestra primero facetas —poder en la empresa, negociación/conflicto, financiación, autonomía, pluralismo, organización y propiedad—. Después puede comparar con organizaciones documentadas, siempre con cobertura y fuentes.
+
+Una similitud sindical no es recomendación de afiliación: la utilidad práctica depende de empresa, sector, territorio y presencia real, datos que el cuestionario todavía no recoge. Los sindicatos territoriales se filtran por CCAA cuando se conoce; la falta de sector se advierte. Ausencia de evidencia queda sin posición, nunca en `0`.
 
 ## 6. Sesgos conocidos y controles
 
@@ -82,10 +101,13 @@ El mismo banco sirve para cualquier convocatoria; lo que cambia es el **contexto
 - **Polaridad**: formular en positivo («permitir») o negativo («prohibir») altera sistemáticamente las respuestas. Control: campo `polaridad` en cada ítem y equilibrio de signos en el banco (objetivo ~50/50; la semilla actual está sesgada a positiva y debe corregirse al crecer).
 - **Punto medio / satisficing**: mitigado con la opción «sin opinión» y con redacción de una sola idea por ítem, sin dobles negaciones.
 - **Efecto del modelo espacial**: mitigado publicando fórmulas, código y datos, y no cambiando el modelo entre elecciones sin justificación pública.
+- **Equifinalidad**: una respuesta compartida por ideologías distintas solo carga una faceta si la relación es monotónica. Si no, se convierte en solo-matching o activa un seguimiento de motivo.
+- **Doble peso**: pares inversos, duplicados entre módulos y cuatro justificaciones de una misma pregunta no pueden contarse como evidencias independientes. El validador retiene IDs retirados para trazabilidad y el piloto audita grupos temáticos.
+- **Etiquetas identitarias**: un arquetipo próximo es una descripción condicional, no un diagnóstico ni una pertenencia. Debe mostrar distancia, cobertura y facetas que contradicen la etiqueta.
 
 ## 7. Calibración y mejora continua
 
-1. **Piloto**: banco inicial de ~80 ítems de núcleo en estado `piloto`; tras el piloto se promocionan a `activo` los 35-40 con mejor discriminación y se retiran los redundantes (`retirado`, nunca se borran: trazabilidad).
+1. **Piloto**: el núcleo rápido conserva exactamente 50 preguntas seleccionadas por discriminación y equilibrio de facetas; las redundantes se marcan `retirado`, nunca se borran, para mantener trazabilidad.
 2. **Análisis de escalas**: Mokken/IRT sobre respuestas **anonimizadas y agregadas** para verificar que los ítems de cada eje escalan juntos (propuesta de Germann & Méndez para VAAs). Si un eje no escala, se rediseñan sus ítems o se retira el eje del mapa (el ranking por % no depende del modelo espacial y sobrevive).
 3. **Adaptativo (CAT)**: con parámetros IRT estimados, seleccionar en el modo completo el siguiente ítem más informativo para la zona del espacio donde está el usuario, reduciendo longitud sin perder precisión.
 4. **Post-electoral**: recodificación de posiciones tras cada ciclo (programas nuevos, votaciones de la legislatura) con historial versionado en git.

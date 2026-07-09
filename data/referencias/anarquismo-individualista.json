@@ -1,0 +1,308 @@
+{
+  "id": "anarquismo-individualista",
+  "nombre": "Anarquismo individualista",
+  "tipo": "referencia-doctrinal",
+  "definicion": "Tipo ideal tuckeriano de socialismo anarquista de mercado: soberanía individual, asociación voluntaria, defensa competitiva, banca libre y posesión por ocupación y uso sustituyen al Estado y a los monopolios legales de dinero, tierra, aranceles y patentes.",
+  "variante": "Tradición estadounidense de Benjamin Tucker; Spooner, Warren y el egoísmo stirneriano presentan diferencias",
+  "periodo": "Siglo XIX–principios del XX, con continuidades actuales",
+  "confianza": "verificada",
+  "version": "1.0",
+  "revisado": "2026-07-09",
+  "facetasDefinitorias": ["estatismo", "economico", "institucionalismo", "libertades-civiles", "poder-laboral"],
+  "sensibilidad": "normal",
+  "advertencia": "Es una referencia doctrinal, no una identidad personal ni un partido. No equivale a anarcocapitalismo rothbardiano: Tucker se denominaba socialista, quería que el trabajo recibiera su producto completo y esperaba abolir renta, interés y beneficio monopolistas mediante libertad económica. Las ramas naturalista, egoísta y mutualista discrepan en propiedad y ética. No se heredan posiciones sobre migración, género, religión, aborto, ecología, guerra o nuclear.",
+  "fuentesMarco": [
+    {
+      "tipo": "otro",
+      "titulo": "Benjamin Tucker, Instead of a Book, by a Man Too Busy to Write One",
+      "url": "https://theanarchistlibrary.org/library/benjamin-tucker-instead-of-a-book",
+      "fecha": "1897",
+      "consultado": "2026-07-09"
+    },
+    {
+      "tipo": "otro",
+      "titulo": "Lysander Spooner, No Treason No. VI: The Constitution of No Authority",
+      "url": "https://www.fourmilab.ch/etexts/www/NoTreason/NoTreason.html",
+      "fecha": "1870",
+      "consultado": "2026-07-09"
+    },
+    {
+      "tipo": "otro",
+      "titulo": "Stanford Encyclopedia of Philosophy: Anarchism",
+      "url": "https://plato.stanford.edu/entries/anarchism/",
+      "fecha": "2025-12-04",
+      "consultado": "2026-07-09"
+    }
+  ],
+  "reglaPublicacion": {
+    "minimoItems": 12,
+    "minimoCobertura": 0.55,
+    "umbralAfinidad": 76
+  },
+  "posiciones": {
+    "der-001": {
+      "valor": -1,
+      "justificacion": "Coincide con reducir el Estado, pero rechaza también sus monopolios mínimos de policía y justicia financiados por impuestos y los sustituye por protección voluntaria.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Instead of a Book: State Socialism and Anarchism",
+        "url": "https://theanarchistlibrary.org/library/benjamin-tucker-instead-of-a-book",
+        "fecha": "1897",
+        "consultado": "2026-07-09"
+      }
+    },
+    "dem-011": {
+      "valor": 2,
+      "justificacion": "No pretende reformar el parlamento: niega autoridad política no consentida y sustituye gobierno por contratos y asociaciones voluntarias.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "No Treason No. VI: The Constitution of No Authority",
+        "url": "https://www.fourmilab.ch/etexts/www/NoTreason/NoTreason.html",
+        "fecha": "1870",
+        "consultado": "2026-07-09"
+      }
+    },
+    "dem-013": {
+      "valor": 1,
+      "justificacion": "Toda delegación legítima deriva de consentimiento y contrato revocable; aun así, la corriente no exige conservar un cuerpo de representantes públicos con mandato imperativo.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "No Treason No. VI: The Constitution of No Authority",
+        "url": "https://www.fourmilab.ch/etexts/www/NoTreason/NoTreason.html",
+        "fecha": "1870",
+        "consultado": "2026-07-09"
+      }
+    },
+    "dem-015": {
+      "valor": -2,
+      "justificacion": "La disciplina pública impuesta por una dirección sobre el individuo contradice soberanía personal, libertad de salida y asociación voluntaria.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Instead of a Book: The Individual, Society, and the State",
+        "url": "https://theanarchistlibrary.org/library/benjamin-tucker-instead-of-a-book",
+        "fecha": "1897",
+        "consultado": "2026-07-09"
+      }
+    },
+    "dem-019": {
+      "valor": -2,
+      "justificacion": "Un movimiento único que dirige un Estado constituye una concentración extrema de autoridad incompatible con igual libertad y pluralidad de asociaciones.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Instead of a Book: The Individual, Society, and the State",
+        "url": "https://theanarchistlibrary.org/library/benjamin-tucker-instead-of-a-book",
+        "fecha": "1897",
+        "consultado": "2026-07-09"
+      }
+    },
+    "izq-032": {
+      "valor": 1,
+      "justificacion": "Prefiere cooperativas y asociaciones voluntarias a empresas estatales, pero no exige que toda producción adopte propiedad colectiva de sus trabajadores.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Instead of a Book: State Socialism and Anarchism",
+        "url": "https://theanarchistlibrary.org/library/benjamin-tucker-instead-of-a-book",
+        "fecha": "1897",
+        "consultado": "2026-07-09"
+      }
+    },
+    "izq-038": {
+      "valor": 1,
+      "justificacion": "Rechaza un Estado central y favorece asociaciones libres de abajo arriba, pero el municipio y la asamblea territorial no son unidades obligatorias de esta variante individualista.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Instead of a Book: The Individual, Society, and the State",
+        "url": "https://theanarchistlibrary.org/library/benjamin-tucker-instead-of-a-book",
+        "fecha": "1897",
+        "consultado": "2026-07-09"
+      }
+    },
+    "izq-039": {
+      "valor": 1,
+      "justificacion": "La autoridad permanente de un líder contradice la soberanía individual; la corriente, no obstante, no prescribe una regla organizativa uniforme de rotación de portavoces.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Instead of a Book: The Individual, Society, and the State",
+        "url": "https://theanarchistlibrary.org/library/benjamin-tucker-instead-of-a-book",
+        "fecha": "1897",
+        "consultado": "2026-07-09"
+      }
+    },
+    "dr-001": {
+      "valor": -2,
+      "justificacion": "Se opone tanto al monopolio bancario privilegiado como a una banca estatal; propone libertad de emisión y crédito competitivo o mutual.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Instead of a Book: Money and Interest",
+        "url": "https://theanarchistlibrary.org/library/benjamin-tucker-instead-of-a-book",
+        "fecha": "1897",
+        "consultado": "2026-07-09"
+      }
+    },
+    "eco-001": {
+      "valor": -2,
+      "justificacion": "Rechaza la tributación obligatoria, incluida la progresiva, y pretende eliminar desigualdad de privilegio mediante abolición de monopolios y libre acceso al crédito y a la tierra en uso.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Instead of a Book: Resistance to Taxation",
+        "url": "https://theanarchistlibrary.org/library/benjamin-tucker-instead-of-a-book",
+        "fecha": "1897",
+        "consultado": "2026-07-09"
+      }
+    },
+    "eco-003": {
+      "valor": -2,
+      "justificacion": "El salario debe resultar del contrato en un mercado liberado de monopolios, no de un mínimo impuesto por legislación estatal.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Instead of a Book: State Socialism and Anarchism",
+        "url": "https://theanarchistlibrary.org/library/benjamin-tucker-instead-of-a-book",
+        "fecha": "1897",
+        "consultado": "2026-07-09"
+      }
+    },
+    "lab-004": {
+      "valor": 2,
+      "justificacion": "Admite sindicatos y asociaciones solo como organizaciones voluntarias sostenidas por sus miembros, sin subsidio ni privilegio estatal.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Instead of a Book: State Socialism and Anarchism",
+        "url": "https://theanarchistlibrary.org/library/benjamin-tucker-instead-of-a-book",
+        "fecha": "1897",
+        "consultado": "2026-07-09"
+      }
+    },
+    "lab-005": {
+      "valor": 2,
+      "justificacion": "La asociación laboral debe ser independiente de gobierno y partido y no puede imponer obligaciones a quien no consienta pertenecer.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Instead of a Book: State Socialism and Anarchism",
+        "url": "https://theanarchistlibrary.org/library/benjamin-tucker-instead-of-a-book",
+        "fecha": "1897",
+        "consultado": "2026-07-09"
+      }
+    },
+    "lab-006": {
+      "valor": -2,
+      "justificacion": "Un sindicato único reconocido por el Estado es un monopolio legal y una negación directa de libre asociación y competencia entre formas organizativas.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Instead of a Book: State Socialism and Anarchism",
+        "url": "https://theanarchistlibrary.org/library/benjamin-tucker-instead-of-a-book",
+        "fecha": "1897",
+        "consultado": "2026-07-09"
+      }
+    },
+    "lab-009": {
+      "valor": 2,
+      "justificacion": "Tucker describe la recaudación forzosa como la invasión primaria sobre la que descansan los monopolios estatales y defiende sustituirla por pago voluntario.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Instead of a Book: Resistance to Taxation",
+        "url": "https://theanarchistlibrary.org/library/benjamin-tucker-instead-of-a-book",
+        "fecha": "1897",
+        "consultado": "2026-07-09"
+      }
+    },
+    "lab-010": {
+      "valor": 1,
+      "justificacion": "Comparte la objeción al pago coercitivo sin consentimiento, pero su propiedad legítima se limita por igual libertad, ocupación y uso y no coincide con un derecho capitalista absoluto.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Instead of a Book: Land and Rent; Resistance to Taxation",
+        "url": "https://theanarchistlibrary.org/library/benjamin-tucker-instead-of-a-book",
+        "fecha": "1897",
+        "consultado": "2026-07-09"
+      }
+    },
+    "lab-012": {
+      "valor": 1,
+      "justificacion": "Prefiere aportaciones voluntarias a asociaciones y proveedores elegidos, pero rechaza también que una organización profesional imponga una cuota obligatoria general.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Instead of a Book: Voluntary Taxation",
+        "url": "https://theanarchistlibrary.org/library/benjamin-tucker-instead-of-a-book",
+        "fecha": "1897",
+        "consultado": "2026-07-09"
+      }
+    },
+    "lab-016": {
+      "valor": -2,
+      "justificacion": "La dirección estatal de cualquier empresa estratégica constituye el monopolio más concentrado; prefiere producción voluntaria, cooperativa o individual en competencia.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Instead of a Book: State Socialism and Anarchism",
+        "url": "https://theanarchistlibrary.org/library/benjamin-tucker-instead-of-a-book",
+        "fecha": "1897",
+        "consultado": "2026-07-09"
+      }
+    },
+    "lab-017": {
+      "valor": 1,
+      "justificacion": "Una cooperativa de trabajadores es preferible a un ministerio y plenamente compatible con la doctrina, pero no exige transferir por ley toda gran empresa a esa única forma.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Instead of a Book: State Socialism and Anarchism",
+        "url": "https://theanarchistlibrary.org/library/benjamin-tucker-instead-of-a-book",
+        "fecha": "1897",
+        "consultado": "2026-07-09"
+      }
+    },
+    "lib-002": {
+      "valor": 2,
+      "justificacion": "La protección y resolución de conflictos deben prestarse mediante asociaciones voluntarias o proveedores competitivos, sin monopolio fiscal de policía y tribunales.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Instead of a Book: Competitive Protection",
+        "url": "https://theanarchistlibrary.org/library/benjamin-tucker-instead-of-a-book",
+        "fecha": "1897",
+        "consultado": "2026-07-09"
+      }
+    },
+    "lib-007": {
+      "valor": 2,
+      "justificacion": "La colegiación obligatoria es un privilegio monopolista y una barrera estatal de entrada incompatible con libre trabajo y asociación.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Instead of a Book: State Socialism and Anarchism",
+        "url": "https://theanarchistlibrary.org/library/benjamin-tucker-instead-of-a-book",
+        "fecha": "1897",
+        "consultado": "2026-07-09"
+      }
+    },
+    "lib-008": {
+      "valor": 2,
+      "justificacion": "Rechaza límites de licencias creados para proteger una renta monopolista; mantendría solo responsabilidad contractual y por daños.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Instead of a Book: State Socialism and Anarchism",
+        "url": "https://theanarchistlibrary.org/library/benjamin-tucker-instead-of-a-book",
+        "fecha": "1897",
+        "consultado": "2026-07-09"
+      }
+    }
+  }
+}

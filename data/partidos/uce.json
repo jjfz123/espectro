@@ -1,0 +1,120 @@
+{
+  "id": "uce",
+  "nombre": "Unificación Comunista de España",
+  "siglas": "UCE",
+  "ambito": "estatal",
+  "tipo": "partido",
+  "confianza": "verificada",
+  "web": "https://uce.es/",
+  "revisado": "2026-07-09",
+  "actividad": "activa",
+  "excepcionCatalogo": {
+    "motivo": "comunista-activa",
+    "justificacion": "Se incorpora por la excepción de cobertura de organizaciones comunistas activas. Su actividad propia y pertenencia fundadora a Recortes Cero no permiten trasladar automáticamente a UCE todo el programa de la coalición, ni a la inversa.",
+    "fuente": {
+      "tipo": "autoubicacion",
+      "titulo": "Conócenos: ¿Qué es UCE?",
+      "url": "https://uce.es/conocenos/",
+      "fecha": "2026-07-02",
+      "consultado": "2026-07-09"
+    }
+  },
+  "posiciones": {
+    "izq-001": {
+      "valor": 2,
+      "justificacion": "UCE se define actualmente como partido revolucionario cuyo objetivo es una sociedad sin clases ni explotación y presenta su proyecto como una transformación democrática y socialista.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "autoubicacion",
+        "titulo": "Conócenos: ¿Qué es UCE?",
+        "url": "https://uce.es/conocenos/",
+        "fecha": "2026-07-02",
+        "consultado": "2026-07-09"
+      }
+    },
+    "izq-009": {
+      "valor": 2,
+      "justificacion": "La organización afirma que impulsó Recortes Cero junto a otras entidades con el objetivo explícito de formar un frente amplio de unidad y en 2026 volvió a defender alianzas electorales amplias.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "autoubicacion",
+        "titulo": "Conócenos: historia de UCE y nacimiento de Recortes Cero",
+        "url": "https://uce.es/conocenos/",
+        "fecha": "2026-07-02",
+        "consultado": "2026-07-09"
+      }
+    },
+    "eco-001": {
+      "valor": 2,
+      "justificacion": "En su campaña aragonesa de 2026 reclama una reforma fiscal progresiva, frente a las rebajas a las rentas más altas, para financiar sanidad y educación públicas.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "UCE apoya el manifiesto de Recortes Cero pidiendo el voto para la Chunta",
+        "url": "https://uce.es/actualidad/unificacion-comunista-apoyo-chunta-aragonesista-manifiesto/",
+        "fecha": "2026-02-06",
+        "consultado": "2026-07-09"
+      }
+    },
+    "eco-006": {
+      "valor": 2,
+      "justificacion": "Su presentación programática actual reclama de forma expresa un parque público de vivienda para afrontar el empobrecimiento causado por los precios residenciales.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "autoubicacion",
+        "titulo": "Conócenos: la transformación que defendemos",
+        "url": "https://uce.es/conocenos/",
+        "fecha": "2026-07-02",
+        "consultado": "2026-07-09"
+      }
+    },
+    "eco-008": {
+      "valor": 2,
+      "justificacion": "Defiende blindar constitucionalmente las pensiones y en 2026 reiteró que deben protegerse frente a recortes y privatización.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "UCE apoya el manifiesto de Recortes Cero pidiendo el voto para la Chunta",
+        "url": "https://uce.es/actualidad/unificacion-comunista-apoyo-chunta-aragonesista-manifiesto/",
+        "fecha": "2026-02-06",
+        "consultado": "2026-07-09"
+      }
+    },
+    "lab-009": {
+      "valor": -2,
+      "justificacion": "Su defensa explícita de una reforma fiscal progresiva para sostener servicios públicos contradice un rechazo de los impuestos como robo por principio.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "UCE apoya el manifiesto de Recortes Cero pidiendo el voto para la Chunta",
+        "url": "https://uce.es/actualidad/unificacion-comunista-apoyo-chunta-aragonesista-manifiesto/",
+        "fecha": "2026-02-06",
+        "consultado": "2026-07-09"
+      }
+    },
+    "sd-002": {
+      "valor": -2,
+      "justificacion": "El manifiesto respaldado por UCE en 2026 rechaza destinar el 5 % del PIB al rearme porque lo considera una amenaza para la paz y para el gasto social.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "UCE apoya el manifiesto de Recortes Cero pidiendo el voto para la Chunta",
+        "url": "https://uce.es/actualidad/unificacion-comunista-apoyo-chunta-aragonesista-manifiesto/",
+        "fecha": "2026-02-06",
+        "consultado": "2026-07-09"
+      }
+    },
+    "izq-031": {
+      "valor": -2,
+      "justificacion": "UCE es parte activa y fundadora de Recortes Cero y en 2026 participó en campaña pidiendo el voto para CHA, por lo que no sostiene un boicot electoral general.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "UCE apoya el manifiesto de Recortes Cero pidiendo el voto para la Chunta",
+        "url": "https://uce.es/actualidad/unificacion-comunista-apoyo-chunta-aragonesista-manifiesto/",
+        "fecha": "2026-02-06",
+        "consultado": "2026-07-09"
+      }
+    }
+  }
+}

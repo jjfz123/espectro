@@ -1,0 +1,49 @@
+{
+  "id": "ela",
+  "nombre": "Eusko Langileen Alkartasuna - Solidaridad de los Trabajadores Vascos",
+  "siglas": "ELA",
+  "ambito": "territorial",
+  "ccaa": ["euskadi", "navarra"],
+  "confianza": "verificada",
+  "web": "https://www.ela.eus/",
+  "revisado": "2026-07-09",
+  "advertencia": "La similitud doctrinal no acredita implantación en tu empresa ni constituye una recomendación de afiliación.",
+  "posiciones": {
+    "lab-004": {
+      "valor": 1,
+      "justificacion": "Declara un 92 % de ingresos propios y alta autonomía financiera, pero esa cifra no equivale literalmente a financiación solo por cuotas.",
+      "calidadEvidencia": "alta",
+      "fuente": { "tipo": "declaracion", "titulo": "Datos del XVI Congreso Confederal", "url": "https://www.ela.eus/es/kongresua/noticias/ela-tiene-3-234-afiliadas-mas-que-en-anterior-congreso", "fecha": "2025-06", "consultado": "2026-07-09" }
+    },
+    "lab-005": {
+      "valor": 2,
+      "justificacion": "La independencia partidaria y el sindicalismo de contrapoder son principios expresos de su ponencia congresual.",
+      "calidadEvidencia": "alta",
+      "fuente": { "tipo": "programa", "titulo": "Ponencia del XVI Congreso", "url": "https://www.ela.eus/es/kongresua/documentos/ponencia-16-congreso.pdf", "fecha": "2025-06", "consultado": "2026-07-09" }
+    },
+    "lab-016": {
+      "valor": 1,
+      "justificacion": "Propone aumentar el control público de sectores económicos y financieros, sin que la fuente implique ministerializar toda empresa estratégica.",
+      "calidadEvidencia": "media",
+      "fuente": { "tipo": "programa", "titulo": "Ponencia del XVI Congreso", "url": "https://www.ela.eus/es/kongresua/documentos/ponencia-16-congreso.pdf", "fecha": "2025-06", "consultado": "2026-07-09" }
+    },
+    "lab-023": {
+      "valor": -2,
+      "justificacion": "Su ponencia formula un proyecto social, ecológico, feminista y soberanista general, no limitado a las relaciones laborales.",
+      "calidadEvidencia": "alta",
+      "fuente": { "tipo": "programa", "titulo": "Ponencia del XVI Congreso", "url": "https://www.ela.eus/es/kongresua/documentos/ponencia-16-congreso.pdf", "fecha": "2025-06", "consultado": "2026-07-09" }
+    },
+    "lab-024": {
+      "valor": 2,
+      "justificacion": "Vincula su acción sindical a soberanía y república vasca, con ámbito propio de negociación y protección social.",
+      "calidadEvidencia": "alta",
+      "fuente": { "tipo": "programa", "titulo": "Resolución sobre soberanía del XVI Congreso", "url": "https://www.ela.eus/es/kongresua/noticias/ela-aprueba-su-apuesta-por-avanzar-hacia-la-soberania-basada-en-la-justicia-social", "fecha": "2025-06", "consultado": "2026-07-09" }
+    },
+    "lab-025": {
+      "valor": 2,
+      "justificacion": "Mantiene una caja de resistencia como instrumento estructural para sostener huelgas y capacidad negociadora.",
+      "calidadEvidencia": "alta",
+      "fuente": { "tipo": "programa", "titulo": "Ponencia del XVI Congreso", "url": "https://www.ela.eus/es/kongresua/documentos/ponencia-16-congreso.pdf", "fecha": "2025-06", "consultado": "2026-07-09" }
+    }
+  }
+}

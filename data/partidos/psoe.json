@@ -1,0 +1,145 @@
+{
+  "id": "psoe",
+  "nombre": "Partido Socialista Obrero Español",
+  "siglas": "PSOE",
+  "ambito": "estatal",
+  "tipo": "partido",
+  "confianza": "verificada",
+  "web": "https://www.psoe.es/",
+  "revisado": "2026-07-09",
+  "actividad": "activa",
+  "posiciones": {
+    "sd-002": {
+      "valor": 2,
+      "justificacion": "La resolución congresual respalda el cumplimiento de los compromisos de defensa y el objetivo de gasto aliado, por lo que apoya un aumento sustancial en los próximos años.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Resolución del 41.º Congreso Federal del PSOE",
+        "url": "https://41congreso.psoe.es/wp-content/uploads/2024/12/RESOLUCION-41Congreso.pdf",
+        "fecha": "2024-12",
+        "consultado": "2026-07-09"
+      }
+    },
+    "dem-008": {
+      "valor": 2,
+      "justificacion": "El documento congresual defiende expresamente la separación de poderes y los contrapesos del Estado democrático.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Resolución del 41.º Congreso Federal del PSOE",
+        "url": "https://41congreso.psoe.es/wp-content/uploads/2024/12/RESOLUCION-41Congreso.pdf",
+        "fecha": "2024-12",
+        "consultado": "2026-07-09"
+      }
+    },
+    "lab-001": {
+      "valor": 1,
+      "justificacion": "Propone reforzar la negociación colectiva y una nueva ley sobre la materia; el apoyo es claro, aunque la fuente no formula literalmente la prevalencia en todo caso sobre el acuerdo individual.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Resolución del 41.º Congreso Federal del PSOE",
+        "url": "https://41congreso.psoe.es/wp-content/uploads/2024/12/RESOLUCION-41Congreso.pdf",
+        "fecha": "2024-12",
+        "consultado": "2026-07-09"
+      }
+    },
+    "lab-006": {
+      "valor": -2,
+      "justificacion": "Defiende pluralismo sindical y diálogo social entre organizaciones diferenciadas, no un sindicato único integrado en el Estado.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Resolución del 41.º Congreso Federal del PSOE",
+        "url": "https://41congreso.psoe.es/wp-content/uploads/2024/12/RESOLUCION-41Congreso.pdf",
+        "fecha": "2024-12",
+        "consultado": "2026-07-09"
+      }
+    },
+    "ene-003": {
+      "valor": 2,
+      "justificacion": "Mantiene el calendario acordado de cierre ordenado del parque nuclear dentro de la transición energética.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Resolución del 41.º Congreso Federal del PSOE",
+        "url": "https://41congreso.psoe.es/wp-content/uploads/2024/12/RESOLUCION-41Congreso.pdf",
+        "fecha": "2024-12",
+        "consultado": "2026-07-09"
+      }
+    },
+    "def-002": {
+      "valor": -2,
+      "justificacion": "La resolución reafirma la pertenencia y los compromisos de España en la OTAN; no propone abandonarla.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Resolución del 41.º Congreso Federal del PSOE",
+        "url": "https://41congreso.psoe.es/wp-content/uploads/2024/12/RESOLUCION-41Congreso.pdf",
+        "fecha": "2024-12",
+        "consultado": "2026-07-09"
+      }
+    },
+    "rel-001": {
+      "valor": -2,
+      "justificacion": "Su laicidad protege la libertad de conciencia y la igualdad entre convicciones; no busca promover el ateísmo ni expulsar organizaciones religiosas de la vida pública.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Resolución del 41.º Congreso Federal del PSOE",
+        "url": "https://41congreso.psoe.es/wp-content/uploads/2024/12/RESOLUCION-41Congreso.pdf",
+        "fecha": "2024-12",
+        "consultado": "2026-07-09"
+      }
+    },
+    "rel-002": {
+      "valor": 2,
+      "justificacion": "Defiende un Estado aconfesional, neutralidad institucional e igualdad de creencias y convicciones dentro de la libertad de conciencia.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Resolución del 41.º Congreso Federal del PSOE",
+        "url": "https://41congreso.psoe.es/wp-content/uploads/2024/12/RESOLUCION-41Congreso.pdf",
+        "fecha": "2024-12",
+        "consultado": "2026-07-09"
+      }
+    },
+    "fem-009": {
+      "valor": 1,
+      "justificacion": "Propone revisar el marco concordatario, derogar el acuerdo de enseñanza y asuntos culturales y avanzar a la autofinanciación eclesial; el ítem abarca el conjunto de acuerdos, por eso el apoyo es condicionado.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Resolución del 41.º Congreso Federal del PSOE",
+        "url": "https://41congreso.psoe.es/wp-content/uploads/2024/12/RESOLUCION-41Congreso.pdf",
+        "fecha": "2024-12",
+        "consultado": "2026-07-09"
+      }
+    },
+    "dem-014": {
+      "valor": 1,
+      "justificacion": "Los estatutos exigen consulta vinculante de la militancia para determinados acuerdos de gobierno e investidura, aunque no para toda decisión estratégica sin excepción.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "estatutos",
+        "titulo": "Estatutos Federales aprobados en el 41.º Congreso",
+        "url": "https://41congreso.psoe.es/wp-content/uploads/2025/03/ESTATUTOS41o-CF.pdf",
+        "fecha": "2025-03",
+        "consultado": "2026-07-09"
+      }
+    },
+    "dem-015": {
+      "valor": 2,
+      "justificacion": "Permite corrientes de opinión, pero exige unidad de acción y disciplina pública una vez adoptadas las decisiones orgánicas.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "estatutos",
+        "titulo": "Estatutos Federales aprobados en el 41.º Congreso",
+        "url": "https://41congreso.psoe.es/wp-content/uploads/2025/03/ESTATUTOS41o-CF.pdf",
+        "fecha": "2025-03",
+        "consultado": "2026-07-09"
+      }
+    }
+  }
+}

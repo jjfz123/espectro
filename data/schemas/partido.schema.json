@@ -18,7 +18,59 @@
     },
     "demo": { "type": "boolean", "description": "true = partido ficticio de demostración; prohibido en producción" },
     "registroMir": { "type": "string", "description": "Referencia en el Registro de Partidos del Ministerio del Interior" },
-    "web": { "type": "string" },
+    "web": { "type": "string", "format": "uri", "pattern": "^https://" },
+    "revisado": { "type": "string", "format": "date", "description": "Fecha de corte documental del perfil completo" },
+    "actividad": { "enum": ["activa", "incierta", "inactiva", "historica"], "description": "No confundir un perfil doctrinal o histórico con una candidatura vigente" },
+    "excepcionCatalogo": {
+      "type": "object",
+      "required": ["motivo", "justificacion", "fuente"],
+      "properties": {
+        "motivo": { "enum": ["comunista-activa", "historica-activa"] },
+        "justificacion": { "type": "string", "minLength": 30, "maxLength": 500 },
+        "fuente": {
+          "type": "object",
+          "required": ["tipo", "titulo", "url", "consultado"],
+          "properties": {
+            "tipo": { "enum": ["programa", "votacion", "declaracion", "autoubicacion", "estatutos", "redes", "otro"] },
+            "titulo": { "type": "string" },
+            "url": { "type": "string", "format": "uri", "pattern": "^https://" },
+            "fecha": { "type": "string", "pattern": "^[0-9]{4}(-[0-9]{2}(-[0-9]{2})?)?$" },
+            "consultado": { "type": "string", "format": "date" },
+            "cita": { "type": "string", "maxLength": 500 }
+          },
+          "additionalProperties": false
+        }
+      },
+      "additionalProperties": false
+    },
+    "dobleLectura": {
+      "type": "object",
+      "required": ["etiquetaBase", "descripcionBase", "contraste"],
+      "properties": {
+        "etiquetaBase": { "type": "string", "minLength": 3 },
+        "descripcionBase": { "type": "string", "minLength": 20 },
+        "contraste": {
+          "type": "object",
+          "required": ["etiqueta", "descripcion", "hasta", "advertencia", "posiciones"],
+          "properties": {
+            "etiqueta": { "type": "string", "minLength": 3 },
+            "descripcion": { "type": "string", "minLength": 20 },
+            "desde": { "type": "string", "format": "date" },
+            "hasta": { "type": "string", "format": "date" },
+            "advertencia": { "type": "string", "minLength": 30 },
+            "posiciones": { "$ref": "#/definitions/posiciones" }
+          },
+          "additionalProperties": false
+        }
+      },
+      "additionalProperties": false
+    },
+    "posiciones": {
+      "$ref": "#/definitions/posiciones"
+    }
+  },
+  "additionalProperties": false,
+  "definitions": {
     "posiciones": {
       "type": "object",
       "patternProperties": {
@@ -28,14 +80,17 @@
           "properties": {
             "valor": { "type": "integer", "minimum": -2, "maximum": 2 },
             "justificacion": { "type": "string", "maxLength": 500 },
+            "calidadEvidencia": { "enum": ["alta", "media", "baja"] },
+            "estadoCompromiso": { "enum": ["cumplido", "parcial", "bloqueado", "incumplido", "no-evaluable"] },
             "fuente": {
               "type": "object",
               "required": ["tipo"],
               "properties": {
                 "tipo": { "enum": ["programa", "votacion", "declaracion", "autoubicacion", "estatutos", "redes", "otro"] },
                 "titulo": { "type": "string" },
-                "url": { "type": "string" },
-                "fecha": { "type": "string" },
+                "url": { "type": "string", "format": "uri", "pattern": "^https://" },
+                "fecha": { "type": "string", "pattern": "^[0-9]{4}(-[0-9]{2}(-[0-9]{2})?)?$", "description": "Fecha con la precisión publicada por la fuente: AAAA, AAAA-MM o AAAA-MM-DD" },
+                "consultado": { "type": "string", "format": "date" },
                 "cita": { "type": "string", "maxLength": 500 }
               },
               "additionalProperties": false
@@ -46,6 +101,5 @@
       },
       "additionalProperties": false
     }
-  },
-  "additionalProperties": false
+  }
 }

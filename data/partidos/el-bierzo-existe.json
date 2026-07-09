@@ -1,0 +1,13 @@
+{
+  "id": "el-bierzo-existe",
+  "nombre": "El Bierzo Existe",
+  "siglas": "BEX",
+  "ambito": "autonomico",
+  "tipo": "partido",
+  "ccaa": ["castilla-y-leon"],
+  "confianza": "sin-datos",
+  "web": "https://www.elbierzoexiste.org/",
+  "revisado": "2026-07-10",
+  "actividad": "activa",
+  "posiciones": {}
+}

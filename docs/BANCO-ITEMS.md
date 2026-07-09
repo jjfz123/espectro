@@ -8,7 +8,7 @@ El error de los tests existentes no es tener «pocas preguntas»: es tener pregu
 
 Formalmente: el banco no es una lista de temas, es una **matriz de distinciones**. Cada par de corrientes vecinas (PCTE/PCE, ERC/Junts, PNV/Bildu, democristiano/liberal-conservador, VOX/Falange, CC/NC…) define una fila; cada fila exige al menos dos ítems donde ese par diverge de forma documentable. La cobertura del test no se mide en «número de preguntas» sino en **pares vecinos separados**.
 
-De ahí las cifras del proyecto: núcleo de 35-40 ítems (suficiente para el ranking electoral grueso, el «modo rápido») + módulos de profundización de 12-25 ítems por familia, hasta un banco total de 250-400. Un usuario del modo completo responde ~90-130: el núcleo más los módulos que le tocan (por posición, por comunidad autónoma o por elección propia). Nadie responde el banco entero.
+De ahí la arquitectura: núcleo estable de 50 preguntas generales (modo rápido) + módulos de profundización por familia, institución, tema y territorio. El banco puede ser mucho mayor que cualquier recorrido: condiciones y selección modular impiden que una persona lo responda entero.
 
 ## 2. El método de las distinciones: cómo nace un ítem
 
@@ -77,28 +77,30 @@ Los ~6.300 partidos inscritos en el Registro del Ministerio del Interior no requ
 
 ## 6. Flujo del usuario
 
-- **Modo rápido**: núcleo (35-40 ítems), ranking + mapa de 6 ejes. ~8 minutos.
-- **Modo completo**: el núcleo desbloquea módulos según la posición (bandas y umbrales, ver METODOLOGIA §4) y la comunidad autónoma; todos los módulos son además activables a mano — el interés por una familia no depende de pertenecer a ella. ~90-130 ítems, con progreso guardado localmente.
+- **Modo rápido**: 50 preguntas generales, perfil provisional y ranking con cobertura e incertidumbre explícitas.
+- **Modo exhaustivo**: conserva las 50 respuestas compatibles y añade una selección ciega de módulos según posición y CCAA; puede personalizarse sin revelar qué sugirió el cálculo. Las preguntas condicionales solo aparecen cuando aclaran un motivo. La interfaz calcula la duración sobre el itinerario visible y guarda el progreso localmente.
 - Cada módulo respondido añade sub-ejes al mapa y afina el ranking (los partidos pequeños de esa familia dejan de empatar con los grandes).
 
 ## 7. Estado actual del banco
 
 Esta sección se actualiza con cada ampliación; el recuento vivo lo da `npm run validate:data`.
 
-El banco semilla (33 ítems) se amplió a **257 ítems** con una tanda redactada por familias ideológicas y sometida a revisión metodológica adversarial (doble barril, sesgo de marco, caducidad, poder discriminante, signo de cargas, duplicados) antes de la integración: 188 ítems de borrador, de los que 4 se eliminaron y 42 se corrigieron en revisión, más 39 ítems añadidos por los revisores para huecos detectados, un duplicado inter-familia descartado y 2 ítems de cierre de huecos. Las hipótesis de discriminación de cada ítem están en su campo `notas`, pendientes de verificación con fuentes primarias ítem a ítem (paso a `verificada` de las posiciones de partido correspondientes).
+El banco contiene **342 registros versionados**: 328 vigentes y 14 retirados que se conservan para trazabilidad. Entre los vigentes hay 243 ítems de eje, 67 solo-matching, 10 seguimientos condicionales y 8 solo-mapa. Toda entrada debe declarar en `notas` qué discrimina, qué coincidencias por motivos distintos son posibles y qué no debe inferirse; el esquema y el validador lo exigen.
 
 | Módulo | Ítems | Módulo | Ítems |
 |---|---|---|---|
-| nucleo | 40 | nacionalismos-regionalismos | 17 |
-| corrientes-izquierda | 46 | verde-animalista | 18 |
-| socialdemocracia-reformismo | 23 | feminismos-moral | 14 |
+| nucleo | 50 | nacionalismos-regionalismos | 17 |
+| corrientes-izquierda | 43 | verde-animalista | 16 |
+| socialdemocracia-reformismo | 21 | feminismos-moral | 16 |
 | centro-liberalismo | 20 | territorial-canarias | 11 |
-| corrientes-derecha | 26 | territorial-catalunya | 6 |
-| derecha-radical | 21 | territorial-euskadi-navarra | 6 |
+| corrientes-derecha | 24 | territorial-catalunya | 6 |
+| derecha-radical | 20 | territorial-euskadi-navarra | 6 |
 | | | territorial-galicia | 5 |
-| | | territorial-andalucia | 4 |
+| territorial-andalucia | 4 | democracia-instituciones | 20 |
+| trabajo-estado-sindicatos | 25 | energia-modelo-productivo | 12 |
+| geopolitica-defensa | 16 | limites-antipluralismo | 6 |
 
-Balance de polaridad: ~39% negativa (objetivo 50/50; corregir en las siguientes tandas). Ítems solo-matching: 47.
+Balance de polaridad vigente: 212 formulaciones positivas y 116 negativas (~35 % negativas). Sigue siendo una deuda del piloto; no se corrige invirtiendo frases mecánicamente, sino probando equivalencia de marco y retirando duplicados.
 
 ### Backlog de huecos conocidos (señalados en revisión, pendientes de futuras tandas)
 

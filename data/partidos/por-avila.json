@@ -1,0 +1,62 @@
+{
+  "id": "por-avila",
+  "nombre": "Por Ávila",
+  "siglas": "XAV",
+  "ambito": "autonomico",
+  "tipo": "partido",
+  "ccaa": ["castilla-y-leon"],
+  "confianza": "verificada",
+  "web": "https://poravila.es/",
+  "revisado": "2026-07-10",
+  "actividad": "activa",
+  "posiciones": {
+    "eco-006": {
+      "valor": 1,
+      "justificacion": "Propone aumentar y crear parque público de alquiler para jóvenes y hogares con menos recursos, sin cuantificar un aumento de gasto de la magnitud extrema del enunciado.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa de Por Ávila para las Cortes de Castilla y León 2022",
+        "url": "https://poravila.es/wp-content/uploads/2022/01/programaCyL22_13F_XAV.pdf",
+        "fecha": "2022-01",
+        "consultado": "2026-07-10"
+      }
+    },
+    "nac-010": {
+      "valor": 1,
+      "justificacion": "Pide que la asignación autonómica de fondos atienda la dispersión geográfica y el coste de los servicios, aunque no antepone expresamente los tres criterios del enunciado a la población real.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa de Por Ávila para las Cortes de Castilla y León 2022",
+        "url": "https://poravila.es/wp-content/uploads/2022/01/programaCyL22_13F_XAV.pdf",
+        "fecha": "2022-01",
+        "consultado": "2026-07-10"
+      }
+    },
+    "nac-011": {
+      "valor": -1,
+      "justificacion": "Defiende mejorar el tren convencional, pero simultáneamente estudiar una conexión de Ávila a la alta velocidad; por tanto no pide detener nuevas conexiones AVE hasta resolver la red convencional.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa de Por Ávila para las Cortes de Castilla y León 2022",
+        "url": "https://poravila.es/wp-content/uploads/2022/01/programaCyL22_13F_XAV.pdf",
+        "fecha": "2022-01",
+        "consultado": "2026-07-10"
+      }
+    },
+    "nac-016": {
+      "valor": 2,
+      "justificacion": "Se presenta como formación provincial y transversal y solicita expresamente el voto de abulenses de izquierdas, derechas y centro para defender la provincia.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Pascual pide el voto a los abulenses decepcionados por los partidos de siempre",
+        "url": "https://poravila.es/pascual-pide-el-voto-a-los-abulenses-que-estan-decepcionados-por-los-partidos-de-siempre-para-seguir-siendo-la-voz-reivindicativa-de-la-provincia",
+        "fecha": "2026-03-13",
+        "consultado": "2026-07-10"
+      }
+    }
+  }
+}

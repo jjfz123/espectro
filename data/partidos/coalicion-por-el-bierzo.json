@@ -1,0 +1,50 @@
+{
+  "id": "coalicion-por-el-bierzo",
+  "nombre": "Coalición por El Bierzo",
+  "siglas": "CB",
+  "ambito": "autonomico",
+  "tipo": "coalicion",
+  "componentes": ["partido-del-bierzo", "el-bierzo-existe"],
+  "ccaa": ["castilla-y-leon"],
+  "confianza": "verificada",
+  "web": "https://www.coalicionporelbierzo.org/",
+  "revisado": "2026-07-10",
+  "actividad": "activa",
+  "posiciones": {
+    "nac-009": {
+      "valor": 1,
+      "justificacion": "Se define más allá de ideologías y ha negociado acuerdos programáticos con bloques distintos, aunque esa práctica local no demuestra una disponibilidad literalmente ilimitada ante cualquier partido estatal.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Razón de ser de Coalición por El Bierzo",
+        "url": "https://www.coalicionporelbierzo.org/conocenos/razon-de-ser/",
+        "consultado": "2026-07-10"
+      }
+    },
+    "nac-015": {
+      "valor": 0,
+      "justificacion": "Acepta estudiar una provincia berciana en una autonomía leonesa, en Castilla y León o en Galicia, pero subordina cualquiera de esos encajes a la elección de la población berciana.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Posición de Coalición por El Bierzo en el encaje territorial berciano",
+        "url": "https://www.coalicionporelbierzo.org/blog/2021/01/30/posicion-de-coalicion-por-el-bierzo-en-el-encaje-territorial-berciano/",
+        "fecha": "2021-01-30",
+        "consultado": "2026-07-10"
+      }
+    },
+    "dem-001": {
+      "valor": 1,
+      "justificacion": "Sostiene que el encaje territorial de El Bierzo debe decidirlo en último término la población berciana; es una consulta para esta decisión mayor, no una propuesta de referéndum habitual sobre toda materia.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Posición de Coalición por El Bierzo en el encaje territorial berciano",
+        "url": "https://www.coalicionporelbierzo.org/blog/2021/01/30/posicion-de-coalicion-por-el-bierzo-en-el-encaje-territorial-berciano/",
+        "fecha": "2021-01-30",
+        "consultado": "2026-07-10"
+      }
+    }
+  }
+}

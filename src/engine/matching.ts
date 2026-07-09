@@ -1,4 +1,11 @@
-import type { Partido, Respuesta, ResultadoAfinidad, DetalleItem, Valor } from './types.js';
+import type {
+  DetalleItem,
+  Partido,
+  PerfilAfinidad,
+  Respuesta,
+  ResultadoAfinidad,
+  Valor,
+} from './types.js';
 
 /** Distancia máxima entre dos posiciones en la escala [-2, 2]. */
 const DISTANCIA_MAXIMA = 4;
@@ -8,6 +15,22 @@ export interface OpcionesAfinidad {
   umbralCobertura?: number;
   /** Nº mínimo de ítems comparados para no marcar bajaCobertura (def. 10). */
   minimoItems?: number;
+}
+
+/**
+ * Proyección auditable de la segunda lectura de un partido. Devuelve solo las
+ * posiciones observadas: no rellena silenciosamente sus huecos con programa.
+ */
+export function perfilContraste(partido: Partido): PerfilAfinidad | undefined {
+  if (!partido.dobleLectura) return undefined;
+  return {
+    id: partido.id,
+    nombre: partido.nombre,
+    siglas: partido.siglas,
+    confianza: partido.confianza,
+    web: partido.web,
+    posiciones: partido.dobleLectura.contraste.posiciones,
+  };
 }
 
 /**
@@ -25,7 +48,7 @@ export interface OpcionesAfinidad {
  */
 export function calcularAfinidad(
   respuestas: Respuesta[],
-  partido: Partido,
+  entidad: PerfilAfinidad,
   opciones: OpcionesAfinidad = {},
 ): ResultadoAfinidad {
   const umbral = opciones.umbralCobertura ?? 0.5;
@@ -40,7 +63,7 @@ export function calcularAfinidad(
   let sumaPesos = 0;
 
   for (const r of contestadas) {
-    const pos = partido.posiciones[r.itemId];
+    const pos = entidad.posiciones[r.itemId];
     if (!pos) continue;
     const peso = r.importante ? 2 : 1;
     const distancia = Math.abs(r.valor - pos.valor);
@@ -49,7 +72,7 @@ export function calcularAfinidad(
     detalle.push({
       itemId: r.itemId,
       valorUsuario: r.valor,
-      valorPartido: pos.valor,
+      valorEntidad: pos.valor,
       distancia,
       peso,
       justificacion: pos.justificacion,
@@ -63,27 +86,39 @@ export function calcularAfinidad(
     sumaPesos > 0 ? 100 * (1 - sumaDistancias / (sumaPesos * DISTANCIA_MAXIMA)) : 0;
 
   return {
-    partidoId: partido.id,
+    entidadId: entidad.id,
     puntuacion: redondear(puntuacion, 1),
     itemsComparados,
     itemsRespondidos: contestadas.length,
     cobertura: redondear(cobertura, 3),
-    confianza: partido.confianza,
+    confianza: entidad.confianza,
     bajaCobertura: cobertura < umbral || itemsComparados < minimo,
     detalle,
   };
 }
 
-/** Ranking de afinidad, de mayor a menor. Los `sin-datos` no se puntúan. */
+/**
+ * Ranking de afinidad, de mayor a menor.
+ *
+ * Los resultados con cobertura suficiente se muestran primero. Los de baja
+ * cobertura siguen disponibles por transparencia, pero no pueden adelantar a
+ * una comparación sustentada en datos suficientes. Los partidos sin ningún
+ * ítem comparable quedan al final y la interfaz debe tratarlos como «sin
+ * datos», nunca como una afinidad del 0 %.
+ */
 export function rankingAfinidad(
   respuestas: Respuesta[],
-  partidos: Partido[],
+  entidades: PerfilAfinidad[],
   opciones: OpcionesAfinidad = {},
 ): ResultadoAfinidad[] {
-  return partidos
-    .filter((p) => p.confianza !== 'sin-datos')
-    .map((p) => calcularAfinidad(respuestas, p, opciones))
-    .sort((a, b) => b.puntuacion - a.puntuacion);
+  return entidades
+    .filter((entidad) => entidad.confianza !== 'sin-datos')
+    .map((entidad) => calcularAfinidad(respuestas, entidad, opciones))
+    .sort((a, b) => {
+      const categoriaA = a.itemsComparados === 0 ? 2 : a.bajaCobertura ? 1 : 0;
+      const categoriaB = b.itemsComparados === 0 ? 2 : b.bajaCobertura ? 1 : 0;
+      return categoriaA - categoriaB || b.puntuacion - a.puntuacion;
+    });
 }
 
 function redondear(n: number, decimales: number): number {

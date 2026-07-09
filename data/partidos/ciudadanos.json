@@ -1,0 +1,121 @@
+{
+  "id": "ciudadanos",
+  "nombre": "Ciudadanos-Partido de la Ciudadanía",
+  "siglas": "Cs",
+  "ambito": "estatal",
+  "tipo": "partido",
+  "confianza": "verificada",
+  "web": "https://www.ciudadanos-cs.org/",
+  "revisado": "2026-07-09",
+  "actividad": "activa",
+  "posiciones": {
+    "ue-002": {
+      "valor": 2,
+      "justificacion": "El programa europeo propone avanzar hacia una unión política federal y compartir más soberanía en instituciones comunes.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral de Ciudadanos para las europeas de 2024",
+        "url": "https://www.ciudadanos-cs.org/var/public/documentos/2024-05/programa-electoral-9j-europeas.pdf",
+        "fecha": "2024-05",
+        "consultado": "2026-07-09"
+      }
+    },
+    "lib-013": {
+      "valor": 2,
+      "justificacion": "Defiende una federación europea democrática con gobierno y capacidades comunes.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral de Ciudadanos para las europeas de 2024",
+        "url": "https://www.ciudadanos-cs.org/var/public/documentos/2024-05/programa-electoral-9j-europeas.pdf",
+        "fecha": "2024-05",
+        "consultado": "2026-07-09"
+      }
+    },
+    "geo-004": {
+      "valor": 1,
+      "justificacion": "Apoya defensa y ejército comunes europeos, coordinados con la OTAN; el apoyo es condicionado porque no plantea separar esa capacidad de la arquitectura atlántica.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral de Ciudadanos para las europeas de 2024",
+        "url": "https://www.ciudadanos-cs.org/var/public/documentos/2024-05/programa-electoral-9j-europeas.pdf",
+        "fecha": "2024-05",
+        "consultado": "2026-07-09"
+      }
+    },
+    "def-002": {
+      "valor": -2,
+      "justificacion": "Integra la defensa común europea dentro de la OTAN y no propone abandonar la alianza.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral de Ciudadanos para las europeas de 2024",
+        "url": "https://www.ciudadanos-cs.org/var/public/documentos/2024-05/programa-electoral-9j-europeas.pdf",
+        "fecha": "2024-05",
+        "consultado": "2026-07-09"
+      }
+    },
+    "dem-008": {
+      "valor": 2,
+      "justificacion": "Su definición liberal progresista preserva separación de poderes, Estado de derecho e instituciones representativas.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "estatutos",
+        "titulo": "Estatutos de Ciudadanos-Partido de la Ciudadanía",
+        "url": "https://www.ciudadanos-cs.org/estatutos",
+        "fecha": "2024",
+        "consultado": "2026-07-09"
+      }
+    },
+    "dem-011": {
+      "valor": -2,
+      "justificacion": "Se organiza como partido liberal de democracia parlamentaria y persigue reformas institucionales, no sustituir el sistema representativo.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "estatutos",
+        "titulo": "Estatutos de Ciudadanos-Partido de la Ciudadanía",
+        "url": "https://www.ciudadanos-cs.org/estatutos",
+        "fecha": "2024",
+        "consultado": "2026-07-09"
+      }
+    },
+    "dem-012": {
+      "valor": 2,
+      "justificacion": "Su proyecto se formula dentro del constitucionalismo, el Estado de derecho y procedimientos representativos.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "estatutos",
+        "titulo": "Estatutos de Ciudadanos-Partido de la Ciudadanía",
+        "url": "https://www.ciudadanos-cs.org/estatutos",
+        "fecha": "2024",
+        "consultado": "2026-07-09"
+      }
+    },
+    "dem-014": {
+      "valor": -1,
+      "justificacion": "La afiliación elige directamente secretaría general y comité, pero la Asamblea General ordinaria es delegada y no toda decisión estratégica se somete a voto universal.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "estatutos",
+        "titulo": "Estatutos de Ciudadanos-Partido de la Ciudadanía",
+        "url": "https://www.ciudadanos-cs.org/estatutos",
+        "fecha": "2024",
+        "consultado": "2026-07-09"
+      }
+    },
+    "dem-015": {
+      "valor": 2,
+      "justificacion": "Los estatutos imponen unidad de acción pública una vez adoptadas las decisiones, aun con debate interno previo.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "estatutos",
+        "titulo": "Estatutos de Ciudadanos-Partido de la Ciudadanía",
+        "url": "https://www.ciudadanos-cs.org/estatutos",
+        "fecha": "2024",
+        "consultado": "2026-07-09"
+      }
+    }
+  }
+}

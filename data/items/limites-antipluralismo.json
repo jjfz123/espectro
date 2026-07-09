@@ -1,0 +1,84 @@
+[
+  {
+    "id": "lim-001",
+    "texto": "Una organización política debería reconocer una dirección incuestionable cuya interpretación doctrinal obligue a todos sus miembros.",
+    "modulo": "limites-antipluralismo",
+    "ejes": [
+      { "eje": "organizacion", "carga": 1 },
+      { "eje": "pluralismo-institucional", "carga": -1 }
+    ],
+    "uso": "solo-mapa",
+    "polaridad": "positiva",
+    "tags": ["culto-direccion", "disciplina", "antipluralismo"],
+    "estado": "piloto",
+    "notas": "Control no electoral sobre dirección infalible. No debe asociarse automáticamente con ningún partido español ni mostrarse como recomendación."
+  },
+  {
+    "id": "lim-002",
+    "texto": "Provocar deliberadamente un colapso social mediante violencia política puede ser legítimo si permite construir después un nuevo orden.",
+    "modulo": "limites-antipluralismo",
+    "ejes": [
+      { "eje": "uso-fuerza", "carga": 1 },
+      { "eje": "pluralismo-institucional", "carga": -1 }
+    ],
+    "uso": "solo-mapa",
+    "polaridad": "positiva",
+    "tags": ["aceleracionismo", "violencia-politica", "colapso"],
+    "estado": "piloto",
+    "notas": "Arquetipo de aceleracionismo violento redactado sin propaganda, nombres ni detalles operativos. Requiere revisión ética antes de activarse."
+  },
+  {
+    "id": "lim-003",
+    "texto": "La lucha armada debería ser la forma principal de acción política, y el resto de actividades quedar subordinadas a ella.",
+    "modulo": "limites-antipluralismo",
+    "ejes": [
+      { "eje": "uso-fuerza", "carga": 1 },
+      { "eje": "institucionalismo", "carga": -1 },
+      { "eje": "organizacion", "carga": 0.75 }
+    ],
+    "uso": "solo-mapa",
+    "polaridad": "positiva",
+    "tags": ["militarizacion", "lucha-armada", "organizacion"],
+    "estado": "piloto",
+    "notas": "Distingue la militarización doctrinal de aceptar autodefensa o violencia solo en circunstancias excepcionales. Nunca usar para matching electoral."
+  },
+  {
+    "id": "lim-004",
+    "texto": "Una guerra nuclear entre grandes potencias podría abrir una oportunidad aceptable para una reconstrucción política revolucionaria.",
+    "modulo": "limites-antipluralismo",
+    "ejes": [
+      { "eje": "armas-nucleares", "carga": 1 },
+      { "eje": "uso-fuerza", "carga": 1 }
+    ],
+    "uso": "solo-mapa",
+    "polaridad": "positiva",
+    "tags": ["guerra-nuclear", "colapso", "reconstruccion"],
+    "estado": "piloto",
+    "notas": "Arquetipo histórico minoritario; no equivale al trotskismo general ni a ninguna organización española verificada. Revisión ética obligatoria."
+  },
+  {
+    "id": "lim-005",
+    "texto": "Quienes se opongan al nuevo orden político deberían perder sus derechos de asociación y expresión aunque no hayan cometido delitos violentos.",
+    "modulo": "limites-antipluralismo",
+    "ejes": [{ "eje": "pluralismo-institucional", "carga": -1 }],
+    "uso": "solo-mapa",
+    "polaridad": "negativa",
+    "tags": ["derechos-oposicion", "represion", "pluralismo"],
+    "estado": "piloto",
+    "notas": "Control directo de derechos de oposición, aplicable a cualquier signo doctrinal sin etiquetar al encuestado."
+  },
+  {
+    "id": "lim-006",
+    "texto": "Incluso una transformación revolucionaria debe proteger a la población civil y permitir la crítica pública de sus dirigentes.",
+    "modulo": "limites-antipluralismo",
+    "ejes": [
+      { "eje": "pluralismo-institucional", "carga": 1 },
+      { "eje": "uso-fuerza", "carga": -0.5 }
+    ],
+    "uso": "solo-mapa",
+    "polaridad": "positiva",
+    "tags": ["proteccion-civil", "critica", "salvaguarda"],
+    "estado": "piloto",
+    "notas": "Salvaguarda inversa para reducir aquiescencia. No convierte por sí sola una doctrina en democrática; se interpreta junto a mecanismos concretos."
+  }
+]

@@ -11,6 +11,9 @@
     "test": "vitest run",
     "typecheck": "tsc --noEmit",
     "validate:data": "node scripts/validate-data.mjs",
+    "catalogo:partidos": "node scripts/importar-registro-partidos.mjs",
+    "resultados:generales": "node scripts/importar-resultados-generales.mjs",
+    "resultados:autonomicas": "node scripts/importar-candidaturas-autonomicas.mjs",
     "web:build": "npm --prefix web run build"
   },
   "devDependencies": {

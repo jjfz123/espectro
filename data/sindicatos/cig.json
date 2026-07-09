@@ -1,0 +1,49 @@
+{
+  "id": "cig",
+  "nombre": "Confederación Intersindical Galega",
+  "siglas": "CIG",
+  "ambito": "autonomico",
+  "ccaa": ["galicia"],
+  "confianza": "verificada",
+  "web": "https://www.cig.gal/",
+  "revisado": "2026-07-09",
+  "advertencia": "La similitud doctrinal no acredita implantación en tu empresa ni constituye una recomendación de afiliación.",
+  "posiciones": {
+    "lab-004": {
+      "valor": -1,
+      "justificacion": "Las cuotas dominan sus cuentas, pero también registra subvenciones, participación institucional y convenios; no es financiación exclusivamente afiliativa.",
+      "calidadEvidencia": "alta",
+      "fuente": { "tipo": "otro", "titulo": "Libro del IX Congreso y cuentas de 2024", "url": "https://www.cig.gal/files/documentos/Doc_CIG/ProbaBaixa_2025_09_30_Libro_IX_Congreso_CIG.pdf", "fecha": "2025", "consultado": "2026-07-09" }
+    },
+    "lab-005": {
+      "valor": 2,
+      "justificacion": "Los estatutos declaran soberanía e independencia de partidos y poderes económicos o religiosos.",
+      "calidadEvidencia": "alta",
+      "fuente": { "tipo": "estatutos", "titulo": "Libro del IX Congreso", "url": "https://www.cig.gal/files/documentos/Doc_CIG/ProbaBaixa_2025_09_30_Libro_IX_Congreso_CIG.pdf", "fecha": "2025", "consultado": "2026-07-09" }
+    },
+    "lab-019": {
+      "valor": 2,
+      "justificacion": "Acepta una mezcla reglada de cuotas, subvenciones e ingresos institucionales y publica importes consolidados en sus cuentas congresuales.",
+      "calidadEvidencia": "alta",
+      "fuente": { "tipo": "otro", "titulo": "Libro del IX Congreso y cuentas de 2024", "url": "https://www.cig.gal/files/documentos/Doc_CIG/ProbaBaixa_2025_09_30_Libro_IX_Congreso_CIG.pdf", "fecha": "2025", "consultado": "2026-07-09" }
+    },
+    "lab-023": {
+      "valor": -2,
+      "justificacion": "Formula un proyecto gallego soberano, sostenible y de transformación antineoliberal que excede las relaciones laborales.",
+      "calidadEvidencia": "alta",
+      "fuente": { "tipo": "programa", "titulo": "Libro del IX Congreso", "url": "https://www.cig.gal/files/documentos/Doc_CIG/ProbaBaixa_2025_09_30_Libro_IX_Congreso_CIG.pdf", "fecha": "2025", "consultado": "2026-07-09" }
+    },
+    "lab-024": {
+      "valor": 2,
+      "justificacion": "Defiende un marco gallego propio de relaciones laborales, ligado a soberanía y capacidad de decisión en Galicia.",
+      "calidadEvidencia": "alta",
+      "fuente": { "tipo": "programa", "titulo": "Libro del IX Congreso", "url": "https://www.cig.gal/files/documentos/Doc_CIG/ProbaBaixa_2025_09_30_Libro_IX_Congreso_CIG.pdf", "fecha": "2025", "consultado": "2026-07-09" }
+    },
+    "lab-016": {
+      "valor": 1,
+      "justificacion": "Propone servicios públicos, reindustrialización y mayor control colectivo, sin que la fuente justifique dirección estatal exclusiva de toda empresa estratégica.",
+      "calidadEvidencia": "media",
+      "fuente": { "tipo": "programa", "titulo": "Libro del IX Congreso", "url": "https://www.cig.gal/files/documentos/Doc_CIG/ProbaBaixa_2025_09_30_Libro_IX_Congreso_CIG.pdf", "fecha": "2025", "consultado": "2026-07-09" }
+    }
+  }
+}

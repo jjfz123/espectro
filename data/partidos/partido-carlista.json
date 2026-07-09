@@ -1,0 +1,144 @@
+{
+  "id": "partido-carlista",
+  "nombre": "Partido Carlista",
+  "siglas": "PC",
+  "ambito": "estatal",
+  "tipo": "partido",
+  "confianza": "verificada",
+  "web": "https://partidocarlista.com/",
+  "revisado": "2026-07-09",
+  "actividad": "activa",
+  "excepcionCatalogo": {
+    "motivo": "historica-activa",
+    "justificacion": "Organización activa que convocó congreso extraordinario para 2026 y mantiene actividad pública; se incluye como perfil histórico-activo separado, no como candidatura presumida en cualquier papeleta.",
+    "fuente": {
+      "tipo": "otro",
+      "titulo": "Convocatoria de Congreso Extraordinario del Partido Carlista",
+      "url": "https://partidocarlista.com/wp-content/uploads/2025/12/Fed96Congreso-Extraordinario-dic-25-1.pdf",
+      "fecha": "2025-12-09",
+      "consultado": "2026-07-09"
+    }
+  },
+  "posiciones": {
+    "dem-001": {
+      "valor": 2,
+      "justificacion": "Su documento ideológico reivindica consultas, asambleas deliberantes y democracia directa y participativa desde el municipio.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Documento de la Comisión ideológica del XII Congreso Federal",
+        "url": "https://partidocarlista.com/comision/",
+        "fecha": "2009",
+        "consultado": "2026-07-09"
+      }
+    },
+    "dem-010": {
+      "valor": 2,
+      "justificacion": "Se compromete con libertad de expresión, manifestación y opinión de toda opción política y rechaza autoritarismo, totalitarismo y dogmatismo.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Documento de la Comisión ideológica del XII Congreso Federal",
+        "url": "https://partidocarlista.com/comision/",
+        "fecha": "2009",
+        "consultado": "2026-07-09"
+      }
+    },
+    "dem-011": {
+      "valor": 2,
+      "justificacion": "Exige derogar la Constitución de 1978 y sustituir el marco por un proceso constituyente confederal.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Documento de la Comisión ideológica del XII Congreso Federal",
+        "url": "https://partidocarlista.com/comision/",
+        "fecha": "2009",
+        "consultado": "2026-07-09"
+      }
+    },
+    "dem-020": {
+      "valor": 2,
+      "justificacion": "Formula explícitamente un proceso democrático y constituyente para acordar el nuevo marco confederal.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Documento de la Comisión ideológica del XII Congreso Federal",
+        "url": "https://partidocarlista.com/comision/",
+        "fecha": "2009",
+        "consultado": "2026-07-09"
+      }
+    },
+    "mon-001": {
+      "valor": 1,
+      "justificacion": "Se declara accidentalista entre monarquía y república, pero exige que la jefatura del Estado obedezca a elección democrática directa mediante referéndum; el acuerdo es alto con el principio electivo, no absoluto con la forma republicana.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Documento de la Comisión ideológica del XII Congreso Federal",
+        "url": "https://partidocarlista.com/comision/",
+        "fecha": "2009",
+        "consultado": "2026-07-09"
+      }
+    },
+    "sd-004": {
+      "valor": 2,
+      "justificacion": "Reconoce pueblos y naciones de las Españas y propone una vinculación federal o confederal libre entre ellos.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Documento de la Comisión ideológica del XII Congreso Federal",
+        "url": "https://partidocarlista.com/comision/",
+        "fecha": "2009",
+        "consultado": "2026-07-09"
+      }
+    },
+    "ter-002": {
+      "valor": 2,
+      "justificacion": "Su identidad vigente vincula la reconstrucción confederal al derecho de autodeterminación de los pueblos y naciones del Estado.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Quiénes somos: proyecto confederal y autodeterminación",
+        "url": "https://partidocarlista.com/quienes-somos/",
+        "fecha": "2009",
+        "consultado": "2026-07-09"
+      }
+    },
+    "izq-032": {
+      "valor": 1,
+      "justificacion": "La autogestión obrera y social es uno de sus cuatro principios y se opone tanto al capitalismo como al mando burocrático; no se puntúa con +2 porque el texto no ordena que toda gran empresa se convierta necesariamente en cooperativa.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Documento de la Comisión ideológica del XII Congreso Federal",
+        "url": "https://partidocarlista.com/comision/",
+        "fecha": "2009",
+        "consultado": "2026-07-09"
+      }
+    },
+    "lab-004": {
+      "valor": 2,
+      "justificacion": "La organización declara sostenerse mediante cuotas de militantes y donaciones, coherente con financiación voluntaria y no subvencionada.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Documento de la Comisión ideológica del XII Congreso Federal",
+        "url": "https://partidocarlista.com/comision/",
+        "fecha": "2009",
+        "consultado": "2026-07-09"
+      }
+    },
+    "izq-005": {
+      "valor": 1,
+      "justificacion": "La ponencia socialista aprobada en 2021 busca superar el capitalismo y entregar poder económico a la mayoría trabajadora, pero no establece que toda coordinación de los sectores estratégicos deba sustituir por completo al mercado.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "La construcción del Socialismo en tiempos de la globalización neoliberal, XV Congreso Federal",
+        "url": "https://partidocarlista.com/ideologia-la-construccion-del-socialismo-en-tiempos-de-la-globalizacion-neoliberal/",
+        "fecha": "2021-11-14",
+        "consultado": "2026-07-09"
+      }
+    }
+  }
+}

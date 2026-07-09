@@ -17,7 +17,8 @@
     "estado": "piloto",
     "terminos": [
       "ref-canario"
-    ]
+    ],
+    "notas": "Separa defensa de singularidad fiscal canaria frente a armonización estatal/europea; puede unir partidos canarios de distinto signo económico."
   },
   {
     "id": "can-002",
@@ -47,7 +48,8 @@
       "competencias",
       "costas"
     ],
-    "estado": "piloto"
+    "estado": "piloto",
+    "notas": "Ancla ampliación competencial canaria sobre costas y aguas frente a reserva estatal; discrimina autonomismo/canarismo sin presuponer independencia."
   },
   {
     "id": "can-004",
@@ -67,7 +69,8 @@
     "estado": "piloto",
     "terminos": [
       "region-ultraperiferica"
-    ]
+    ],
+    "notas": "Mide preferencia por excepciones europeas ligadas a ultraperiferia frente a aplicación uniforme; no equivale a rechazo general de la UE."
   },
   {
     "id": "can-005",
@@ -99,7 +102,8 @@
     "estado": "piloto",
     "terminos": [
       "concierto-economico"
-    ]
+    ],
+    "notas": "Separa soberanía fiscal canaria de financiación común; el acuerdo no identifica por sí solo nacionalismo, pues también puede apoyarse desde regionalismo pragmático."
   },
   {
     "id": "can-007",

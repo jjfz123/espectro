@@ -1,46 +1,142 @@
-import type { Eje, Item, Modulo, Respuesta } from './types.js';
+import type { Eje, Item, Modulo, Respuesta, ResultadoFaceta, Valor } from './types.js';
+
+export interface OpcionesFacetas {
+  /** Nº mínimo de preguntas con opinión para considerar estable una faceta (def. 3). */
+  minimoItems?: number;
+  /** Proporción mínima de carga disponible respondida (def. 0.5). */
+  umbralCobertura?: number;
+}
+
+/** Acumulador interno de una faceta. */
+interface AcumuladorFaceta {
+  numerador: number;
+  cargaRespondida: number;
+  cargaDisponible: number;
+  itemsRespondidos: Set<string>;
+  itemsDisponibles: Set<string>;
+}
+
+/**
+ * Calcula el perfil personal por facetas con evidencia explícita.
+ *
+ * Los `items` recibidos son las preguntas administradas o disponibles en el
+ * recorrido actual. «Sin opinión» cuenta como disponible, pero no como
+ * respondida. La prioridad `importante` se ignora deliberadamente: expresa
+ * saliencia para el matching, no una posición ideológica distinta.
+ */
+export function calcularFacetas(
+  respuestas: Respuesta[],
+  items: Item[],
+  ejes: Eje[],
+  opciones: OpcionesFacetas = {},
+): ResultadoFaceta[] {
+  const minimoItems = opciones.minimoItems ?? 3;
+  const umbralCobertura = opciones.umbralCobertura ?? 0.5;
+  const idsEjes = new Set(ejes.map((eje) => eje.id));
+  const respuestaPorItem = new Map(respuestas.map((respuesta) => [respuesta.itemId, respuesta]));
+  const acumuladores = new Map<string, AcumuladorFaceta>();
+
+  for (const eje of ejes) {
+    acumuladores.set(eje.id, {
+      numerador: 0,
+      cargaRespondida: 0,
+      cargaDisponible: 0,
+      itemsRespondidos: new Set(),
+      itemsDisponibles: new Set(),
+    });
+  }
+
+  for (const item of items) {
+    const respuesta = respuestaPorItem.get(item.id);
+    const valor = respuesta?.valor;
+
+    for (const carga of item.ejes) {
+      if (!idsEjes.has(carga.eje) || !Number.isFinite(carga.carga) || carga.carga === 0) continue;
+      const acumulador = acumuladores.get(carga.eje);
+      if (!acumulador) continue;
+
+      const cargaAbsoluta = Math.abs(carga.carga);
+      acumulador.itemsDisponibles.add(item.id);
+      acumulador.cargaDisponible += cargaAbsoluta;
+
+      if (!esRespuestaConOpinion(valor)) continue;
+      acumulador.itemsRespondidos.add(item.id);
+      acumulador.cargaRespondida += cargaAbsoluta;
+      acumulador.numerador += valor * carga.carga;
+    }
+  }
+
+  return ejes.map((eje) => {
+    const acumulador = acumuladores.get(eje.id);
+    if (!acumulador) return facetaVacia(eje.id);
+
+    const denominador = 2 * acumulador.cargaRespondida;
+    const cobertura =
+      acumulador.cargaDisponible > 0
+        ? acumulador.cargaRespondida / acumulador.cargaDisponible
+        : 0;
+    const itemsRespondidos = acumulador.itemsRespondidos.size;
+
+    return {
+      facetaId: eje.id,
+      valor: denominador > 0 ? redondear((100 * acumulador.numerador) / denominador, 1) : null,
+      itemsRespondidos,
+      itemsDisponibles: acumulador.itemsDisponibles.size,
+      cargaRespondida: redondear(acumulador.cargaRespondida, 4),
+      cargaDisponible: redondear(acumulador.cargaDisponible, 4),
+      numerador: redondear(acumulador.numerador, 4),
+      denominador: redondear(denominador, 4),
+      cobertura: redondear(cobertura, 3),
+      coberturaSuficiente: itemsRespondidos >= minimoItems && cobertura >= umbralCobertura,
+    };
+  });
+}
 
 /**
  * Puntuación del usuario en cada eje, en [-100, 100]:
  *
- *   ejeₖ = 100 · Σ wᵢ·uᵢ·cᵢₖ / Σ wᵢ·2·|cᵢₖ|
+ *   ejeₖ = 100 · Σ uᵢ·cᵢₖ / Σ 2·|cᵢₖ|
  *
  * donde cᵢₖ es la carga del ítem i sobre el eje k. Los ítems «sin opinión»
  * y los solo-matching (ejes vacíos) no contribuyen. Un eje sin ítems
- * respondidos devuelve null (no se inventa una posición).
+ * respondidos devuelve null (no se inventa una posición). La prioridad
+ * `importante` no altera el perfil personal; se reserva para el matching.
+ *
+ * API compacta conservada por compatibilidad. Para mostrar evidencia y
+ * cobertura debe usarse `calcularFacetas`.
  */
 export function calcularEjes(
   respuestas: Respuesta[],
   items: Item[],
   ejes: Eje[],
 ): Record<string, number | null> {
-  const porItem = new Map(items.map((i) => [i.id, i]));
-  const num: Record<string, number> = {};
-  const den: Record<string, number> = {};
-  for (const eje of ejes) {
-    num[eje.id] = 0;
-    den[eje.id] = 0;
-  }
+  return Object.fromEntries(
+    calcularFacetas(respuestas, items, ejes).map((faceta) => [faceta.facetaId, faceta.valor]),
+  );
+}
 
-  for (const r of respuestas) {
-    if (r.valor === null) continue;
-    const item = porItem.get(r.itemId);
-    if (!item) continue;
-    const peso = r.importante ? 2 : 1;
-    for (const carga of item.ejes) {
-      if (!(carga.eje in num)) continue;
-      num[carga.eje] = (num[carga.eje] ?? 0) + peso * r.valor * carga.carga;
-      den[carga.eje] = (den[carga.eje] ?? 0) + peso * 2 * Math.abs(carga.carga);
-    }
-  }
+function esRespuestaConOpinion(valor: Respuesta['valor'] | undefined): valor is Valor {
+  return typeof valor === 'number';
+}
 
-  const resultado: Record<string, number | null> = {};
-  for (const eje of ejes) {
-    const d = den[eje.id] ?? 0;
-    const n = num[eje.id] ?? 0;
-    resultado[eje.id] = d > 0 ? Math.round((100 * n) / d * 10) / 10 : null;
-  }
-  return resultado;
+function facetaVacia(facetaId: string): ResultadoFaceta {
+  return {
+    facetaId,
+    valor: null,
+    itemsRespondidos: 0,
+    itemsDisponibles: 0,
+    cargaRespondida: 0,
+    cargaDisponible: 0,
+    numerador: 0,
+    denominador: 0,
+    cobertura: 0,
+    coberturaSuficiente: false,
+  };
+}
+
+function redondear(valor: number, decimales: number): number {
+  const factor = 10 ** decimales;
+  return Math.round(valor * factor) / factor;
 }
 
 export interface ContextoUsuario {
@@ -86,6 +182,22 @@ export function modulosDesbloqueados(
       }
     } else if (d.tipo === 'ccaa' && d.ccaa && contexto.ccaa) {
       ok = Array.isArray(d.ccaa) ? d.ccaa.includes(contexto.ccaa) : contexto.ccaa === d.ccaa;
+    } else if (
+      d.tipo === 'eje-o-ccaa' &&
+      d.eje &&
+      d.operador &&
+      typeof d.umbral === 'number'
+    ) {
+      const valor = ejesUsuario[d.eje];
+      const cumpleEje =
+        typeof valor === 'number' &&
+        (d.operador === '<=' ? valor <= d.umbral : valor >= d.umbral);
+      const cumpleCcaa =
+        Boolean(contexto.ccaa && d.ccaa) &&
+        (Array.isArray(d.ccaa)
+          ? d.ccaa.includes(contexto.ccaa ?? '')
+          : contexto.ccaa === d.ccaa);
+      ok = cumpleEje || cumpleCcaa;
     }
     if (ok) activos.push(m.id);
   }

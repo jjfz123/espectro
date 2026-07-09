@@ -1,0 +1,228 @@
+{
+  "id": "pcoe",
+  "nombre": "Partido Comunista Obrero Español",
+  "siglas": "PCOE",
+  "ambito": "estatal",
+  "tipo": "partido",
+  "confianza": "verificada",
+  "web": "https://pcoe.net/",
+  "revisado": "2026-07-09",
+  "actividad": "activa",
+  "excepcionCatalogo": {
+    "motivo": "comunista-activa",
+    "justificacion": "Se incorpora por la excepción de cobertura de organizaciones comunistas activas. Su actividad pública en 2026 acredita continuidad organizativa, pero no una candidatura propia vigente en toda convocatoria.",
+    "fuente": {
+      "tipo": "declaracion",
+      "titulo": "Por la salida de la OTAN y la UE",
+      "url": "https://pcoe.net/actualidad/actualidad-nacional/por-la-salida-de-la-otan-y-la-ue/",
+      "fecha": "2026-04-25",
+      "consultado": "2026-07-09"
+    }
+  },
+  "posiciones": {
+    "izq-001": {
+      "valor": 2,
+      "justificacion": "El programa del XVII Congreso contrapone explícitamente revolución y reformismo y plantea sustituir el capitalismo por una república socialista.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "La España por la que hoy luchamos: programa del XVII Congreso del PCOE",
+        "url": "https://pcoe.net/wp-content/uploads/2024/10/Programa-del-PCOE-XVII-Congreso.pdf",
+        "fecha": "2024-10",
+        "consultado": "2026-07-09"
+      }
+    },
+    "izq-002": {
+      "valor": 2,
+      "justificacion": "Define al partido comunista como vanguardia marxista-leninista necesaria para unificar políticamente a la clase trabajadora.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "La España por la que hoy luchamos: programa del XVII Congreso del PCOE",
+        "url": "https://pcoe.net/wp-content/uploads/2024/10/Programa-del-PCOE-XVII-Congreso.pdf",
+        "fecha": "2024-10",
+        "consultado": "2026-07-09"
+      }
+    },
+    "izq-005": {
+      "valor": 2,
+      "justificacion": "Propone producción planificada, nacionalización y control obrero de la banca y de una extensa relación de sectores básicos y estratégicos.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "La España por la que hoy luchamos: programa del XVII Congreso del PCOE",
+        "url": "https://pcoe.net/wp-content/uploads/2024/10/Programa-del-PCOE-XVII-Congreso.pdf",
+        "fecha": "2024-10",
+        "consultado": "2026-07-09"
+      }
+    },
+    "izq-011": {
+      "valor": 2,
+      "justificacion": "Incluye entre sus medidas la salida de la Unión Europea y mantiene esa desvinculación como principio de política exterior.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "La España por la que hoy luchamos: programa del XVII Congreso del PCOE",
+        "url": "https://pcoe.net/wp-content/uploads/2024/10/Programa-del-PCOE-XVII-Congreso.pdf",
+        "fecha": "2024-10",
+        "consultado": "2026-07-09"
+      }
+    },
+    "def-002": {
+      "valor": 2,
+      "justificacion": "Propone la salida de España de la OTAN y la desaparición de las alianzas militares internacionales.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "La España por la que hoy luchamos: programa del XVII Congreso del PCOE",
+        "url": "https://pcoe.net/wp-content/uploads/2024/10/Programa-del-PCOE-XVII-Congreso.pdf",
+        "fecha": "2024-10",
+        "consultado": "2026-07-09"
+      }
+    },
+    "dem-011": {
+      "valor": 2,
+      "justificacion": "El documento plantea sustituir el parlamentarismo y las instituciones estatales actuales por nuevas instituciones de poder de la clase trabajadora.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "La España por la que hoy luchamos: programa del XVII Congreso del PCOE",
+        "url": "https://pcoe.net/wp-content/uploads/2024/10/Programa-del-PCOE-XVII-Congreso.pdf",
+        "fecha": "2024-10",
+        "consultado": "2026-07-09"
+      }
+    },
+    "dem-017": {
+      "valor": 2,
+      "justificacion": "Sitúa la unión de comités de empresa, asambleas y movimiento vecinal como base de órganos de poder que sustituyan el parlamentarismo vigente.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "La España por la que hoy luchamos: programa del XVII Congreso del PCOE",
+        "url": "https://pcoe.net/wp-content/uploads/2024/10/Programa-del-PCOE-XVII-Congreso.pdf",
+        "fecha": "2024-10",
+        "consultado": "2026-07-09"
+      }
+    },
+    "dem-019": {
+      "valor": 2,
+      "justificacion": "Defiende una forma estatal dirigida por la vanguardia marxista-leninista y rechaza el pluralismo competitivo como fundamento del nuevo poder; se codifica el diseño institucional sin trasladar su retórica coercitiva.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "La España por la que hoy luchamos: programa del XVII Congreso del PCOE",
+        "url": "https://pcoe.net/wp-content/uploads/2024/10/Programa-del-PCOE-XVII-Congreso.pdf",
+        "fecha": "2024-10",
+        "consultado": "2026-07-09"
+      }
+    },
+    "dem-015": {
+      "valor": 2,
+      "justificacion": "Su centralismo democrático exige que la minoría se subordine a la mayoría y que los acuerdos aprobados sean obligatorios para la organización.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "La España por la que hoy luchamos: programa del XVII Congreso del PCOE",
+        "url": "https://pcoe.net/wp-content/uploads/2024/10/Programa-del-PCOE-XVII-Congreso.pdf",
+        "fecha": "2024-10",
+        "consultado": "2026-07-09"
+      }
+    },
+    "izq-019": {
+      "valor": 2,
+      "justificacion": "Solo considera oportuno usar el Parlamento en circunstancias concretas y con la condición de que sirva para desarrollar el movimiento obrero y popular.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "La España por la que hoy luchamos: programa del XVII Congreso del PCOE",
+        "url": "https://pcoe.net/wp-content/uploads/2024/10/Programa-del-PCOE-XVII-Congreso.pdf",
+        "fecha": "2024-10",
+        "consultado": "2026-07-09"
+      }
+    },
+    "izq-031": {
+      "valor": -2,
+      "justificacion": "El programa acepta un aprovechamiento electoral y parlamentario táctico en determinadas circunstancias, de modo que no convierte el boicot en regla absoluta.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "La España por la que hoy luchamos: programa del XVII Congreso del PCOE",
+        "url": "https://pcoe.net/wp-content/uploads/2024/10/Programa-del-PCOE-XVII-Congreso.pdf",
+        "fecha": "2024-10",
+        "consultado": "2026-07-09"
+      }
+    },
+    "lab-005": {
+      "valor": 2,
+      "justificacion": "Reclama que la organización obrera en los centros de trabajo se realice sin intervención del Estado ni de la patronal.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "La España por la que hoy luchamos: programa del XVII Congreso del PCOE",
+        "url": "https://pcoe.net/wp-content/uploads/2024/10/Programa-del-PCOE-XVII-Congreso.pdf",
+        "fecha": "2024-10",
+        "consultado": "2026-07-09"
+      }
+    },
+    "lab-008": {
+      "valor": 2,
+      "justificacion": "Atribuye a comités, consejos y asambleas de los centros de trabajo la capacidad de producir y dirigir la producción bajo control obrero.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "La España por la que hoy luchamos: programa del XVII Congreso del PCOE",
+        "url": "https://pcoe.net/wp-content/uploads/2024/10/Programa-del-PCOE-XVII-Congreso.pdf",
+        "fecha": "2024-10",
+        "consultado": "2026-07-09"
+      }
+    },
+    "ter-002": {
+      "valor": 2,
+      "justificacion": "Defiende el derecho de autodeterminación, incluida la independencia y la libertad de separación, para Cataluña, Euskal Herria y Galicia.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "La España por la que hoy luchamos: programa del XVII Congreso del PCOE",
+        "url": "https://pcoe.net/wp-content/uploads/2024/10/Programa-del-PCOE-XVII-Congreso.pdf",
+        "fecha": "2024-10",
+        "consultado": "2026-07-09"
+      }
+    },
+    "eco-011": {
+      "valor": 2,
+      "justificacion": "Propone una jornada laboral de 25 horas semanales, muy por debajo del máximo actual y sin plantear rebaja salarial.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "La España por la que hoy luchamos: programa del XVII Congreso del PCOE",
+        "url": "https://pcoe.net/wp-content/uploads/2024/10/Programa-del-PCOE-XVII-Congreso.pdf",
+        "fecha": "2024-10",
+        "consultado": "2026-07-09"
+      }
+    },
+    "geo-001": {
+      "valor": 2,
+      "justificacion": "Define su política exterior como no alineada y reclama eliminar los bloques militares.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "La España por la que hoy luchamos: programa del XVII Congreso del PCOE",
+        "url": "https://pcoe.net/wp-content/uploads/2024/10/Programa-del-PCOE-XVII-Congreso.pdf",
+        "fecha": "2024-10",
+        "consultado": "2026-07-09"
+      }
+    },
+    "geo-003": {
+      "valor": 2,
+      "justificacion": "Pide el regreso inmediato de las tropas españolas desplegadas en el extranjero en misiones vinculadas a alianzas militares.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "La España por la que hoy luchamos: programa del XVII Congreso del PCOE",
+        "url": "https://pcoe.net/wp-content/uploads/2024/10/Programa-del-PCOE-XVII-Congreso.pdf",
+        "fecha": "2024-10",
+        "consultado": "2026-07-09"
+      }
+    }
+  }
+}

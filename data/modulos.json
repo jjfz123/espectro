@@ -2,7 +2,7 @@
   {
     "id": "nucleo",
     "nombre": "Núcleo",
-    "descripcion": "35-40 ítems finales que posicionan en los ejes principales y sirven para el matching electoral rápido.",
+    "descripcion": "50 ítems generales que posicionan en los ejes principales y sirven para el perfil y el matching electoral provisional.",
     "orden": 1,
     "desbloqueo": { "tipo": "siempre" }
   },
@@ -52,7 +52,7 @@
     "descripcion": "Vía unilateral/pactada, independencia/confederalismo/foralismo, nación cívica/cultural, pactismo territorial y España vaciada. Común a todos los nacionalismos periféricos y regionalismos.",
     "orden": 7,
     "eleccionUsuario": true,
-    "desbloqueo": { "tipo": "eje", "eje": "territorial", "operador": "<=", "umbral": -30 }
+    "desbloqueo": { "tipo": "eje-o-ccaa", "eje": "territorial", "operador": "<=", "umbral": -30, "ccaa": ["andalucia", "castilla-y-leon", "catalunya"] }
   },
   {
     "id": "verde-animalista",
@@ -89,7 +89,7 @@
   {
     "id": "territorial-euskadi-navarra",
     "nombre": "Territorial: Euskadi y Navarra",
-    "descripcion": "Concierto económico, foralismo vs. república vasca, Navarra en Euskal Herria, euskera en la función pública.",
+    "descripcion": "Concierto económico, foralismo y soberanía, Navarra en Euskal Herria, euskera, memoria, víctimas, violencia y estrategia democrática.",
     "orden": 12,
     "eleccionUsuario": true,
     "desbloqueo": { "tipo": "ccaa", "ccaa": ["euskadi", "navarra"] }
@@ -109,5 +109,45 @@
     "orden": 14,
     "eleccionUsuario": true,
     "desbloqueo": { "tipo": "ccaa", "ccaa": "andalucia" }
+  },
+  {
+    "id": "democracia-instituciones",
+    "nombre": "Democracia, instituciones y toma de decisiones",
+    "descripcion": "Parlamentarismo y sus alternativas, democracia directa, revocación, reelección, separación de poderes, elección de jueces, organización interna y arquitectura territorial unitaria, autonómica, federal o confederal.",
+    "orden": 15,
+    "eleccionUsuario": true,
+    "desbloqueo": { "tipo": "siempre" }
+  },
+  {
+    "id": "trabajo-estado-sindicatos",
+    "nombre": "Trabajo, Estado y sindicatos",
+    "descripcion": "Poder en el centro de trabajo, autonomía sindical, cogestión, corporativismo, sindicalismo revolucionario y distintos motivos para rechazar impuestos o intervención estatal.",
+    "orden": 16,
+    "eleccionUsuario": true,
+    "desbloqueo": { "tipo": "siempre" }
+  },
+  {
+    "id": "energia-modelo-productivo",
+    "nombre": "Energía y modelo productivo",
+    "descripcion": "Energía nuclear civil, renovables, propiedad de la red, límites al consumo y distintas estrategias climáticas sin identificar ecologismo con antinuclearismo.",
+    "orden": 17,
+    "eleccionUsuario": true,
+    "desbloqueo": { "tipo": "siempre" }
+  },
+  {
+    "id": "geopolitica-defensa",
+    "nombre": "Geopolítica, defensa y paz",
+    "descripcion": "Pacifismo, intervención, neutralidad, OTAN, armas nucleares, Sáhara Occidental, reclamaciones históricas e hipótesis de integración ibérica.",
+    "orden": 18,
+    "eleccionUsuario": true,
+    "desbloqueo": { "tipo": "siempre" }
+  },
+  {
+    "id": "limites-antipluralismo",
+    "nombre": "Límites del pluralismo y del uso de la violencia",
+    "descripcion": "Bloque opcional de investigación sobre concentración extrema de poder, culto a la dirección y aceleración violenta del colapso. Solo alimenta el mapa; nunca recomienda partidos u organizaciones reales.",
+    "orden": 19,
+    "eleccionUsuario": true,
+    "desbloqueo": { "tipo": "manual" }
   }
 ]

@@ -1,0 +1,320 @@
+{
+  "id": "aragon-2026-02",
+  "nombre": "Elecciones autonómicas de Aragón del 8 de febrero de 2026",
+  "tipo": "autonomicas",
+  "fecha": "2026-02-08",
+  "territorio": "aragon",
+  "camara": "Cortes de Aragón",
+  "umbralPorcentaje": 0.02,
+  "denominador": {
+    "tipo": "votos-a-candidaturas",
+    "valor": 660984
+  },
+  "totalCandidaturasOficiales": 15,
+  "fuente": {
+    "titulo": "Resultados definitivos de las elecciones autonómicas de Aragón",
+    "url": "https://www.juntaelectoralcentral.es/cs/jec/documentos/ARAGON_2026_resumen_resultados.pdf",
+    "consultado": "2026-07-09"
+  },
+  "fuentesAdicionales": [
+    {
+      "titulo": "Proclamación e identidad de candidaturas de Aragón",
+      "url": "https://www.juntaelectoralcentral.es/cs/jec/elecciones/Arag%C3%B3n-febrero2026?p=1392649314000",
+      "consultado": "2026-07-09"
+    }
+  ],
+  "nota": "El porcentaje usa como denominador 660.984 votos a candidaturas en toda la comunidad. Una relación con un componente identifica la candidatura, pero no transfiere sus posiciones al perfil de la coalición. Naturaleza de la convocatoria en el inventario: anticipada.",
+  "candidaturas": [
+    {
+      "id": "ara-2026-partido-popular",
+      "nombre": "PARTIDO POPULAR",
+      "votos": 228388,
+      "porcentaje": 34.552727,
+      "territorios": [
+        "aragon"
+      ],
+      "circunscripciones": [
+        "Huesca",
+        "Teruel",
+        "Zaragoza"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [
+        {
+          "perfilId": "pp",
+          "relacion": "misma-organizacion"
+        }
+      ],
+      "nota": "Naturaleza inventariada: partido. Vigencia comprobada: electoral-2026. Tratamiento previsto: perfil-reutilizable."
+    },
+    {
+      "id": "ara-2026-partido-socialista-obrero-espanol",
+      "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+      "votos": 162925,
+      "porcentaje": 24.648857,
+      "territorios": [
+        "aragon"
+      ],
+      "circunscripciones": [
+        "Huesca",
+        "Teruel",
+        "Zaragoza"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [
+        {
+          "perfilId": "psoe",
+          "relacion": "misma-organizacion"
+        }
+      ],
+      "nota": "Naturaleza inventariada: partido. Vigencia comprobada: electoral-2026. Tratamiento previsto: perfil-reutilizable."
+    },
+    {
+      "id": "ara-2026-vox",
+      "nombre": "VOX",
+      "votos": 119281,
+      "porcentaje": 18.045974,
+      "territorios": [
+        "aragon"
+      ],
+      "circunscripciones": [
+        "Huesca",
+        "Teruel",
+        "Zaragoza"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [
+        {
+          "perfilId": "vox",
+          "relacion": "misma-organizacion"
+        }
+      ],
+      "nota": "Naturaleza inventariada: partido. Vigencia comprobada: electoral-2026. Tratamiento previsto: perfil-reutilizable."
+    },
+    {
+      "id": "ara-2026-chunta-aragonesista",
+      "nombre": "CHUNTA ARAGONESISTA",
+      "votos": 65118,
+      "porcentaje": 9.851676,
+      "territorios": [
+        "aragon"
+      ],
+      "circunscripciones": [
+        "Huesca",
+        "Teruel",
+        "Zaragoza"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [],
+      "nota": "Naturaleza inventariada: partido-territorial. Vigencia comprobada: electoral-2026. Tratamiento previsto: perfil-especifico."
+    },
+    {
+      "id": "ara-2026-aragon-existe-coalicion-existe",
+      "nombre": "ARAGÓN EXISTE / COALICIÓN EXISTE",
+      "votos": 23616,
+      "porcentaje": 3.572855,
+      "territorios": [
+        "aragon"
+      ],
+      "circunscripciones": [
+        "Huesca",
+        "Teruel",
+        "Zaragoza"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [],
+      "nota": "Naturaleza inventariada: coalicion-electoral. Vigencia comprobada: electoral-2026. Tratamiento previsto: perfil-especifico."
+    },
+    {
+      "id": "ara-2026-izquierda-unida-movimiento-sumar",
+      "nombre": "IZQUIERDA UNIDA-MOVIMIENTO SUMAR",
+      "votos": 19832,
+      "porcentaje": 3.000375,
+      "territorios": [
+        "aragon"
+      ],
+      "circunscripciones": [
+        "Huesca",
+        "Teruel",
+        "Zaragoza"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [
+        {
+          "perfilId": "movimiento-sumar",
+          "relacion": "componente",
+          "nota": "Movimiento Sumar figura como componente de esta candidatura fechada; sus posiciones no se atribuyen automáticamente a la coalición."
+        }
+      ],
+      "nota": "Naturaleza inventariada: coalicion-electoral. Vigencia comprobada: electoral-2026. Tratamiento previsto: perfil-especifico."
+    },
+    {
+      "id": "ara-2026-se-acabo-la-fiesta",
+      "nombre": "SE ACABÓ LA FIESTA",
+      "votos": 18256,
+      "porcentaje": 2.761943,
+      "territorios": [
+        "aragon"
+      ],
+      "circunscripciones": [
+        "Huesca",
+        "Teruel",
+        "Zaragoza"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [],
+      "nota": "Naturaleza inventariada: partido-o-candidatura. Vigencia comprobada: electoral-2026. Tratamiento previsto: perfil-reutilizable."
+    },
+    {
+      "id": "ara-2026-partido-aragones",
+      "nombre": "PARTIDO ARAGONÉS",
+      "votos": 8329,
+      "porcentaje": 1.260091,
+      "territorios": [
+        "aragon"
+      ],
+      "circunscripciones": [
+        "Huesca",
+        "Teruel",
+        "Zaragoza"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [],
+      "nota": "Naturaleza inventariada: partido-territorial. Vigencia comprobada: electoral-2026. Tratamiento previsto: perfil-especifico."
+    },
+    {
+      "id": "ara-2026-podemos-alianza-verde",
+      "nombre": "PODEMOS ALIANZA VERDE",
+      "votos": 6478,
+      "porcentaje": 0.980054,
+      "territorios": [
+        "aragon"
+      ],
+      "circunscripciones": [
+        "Huesca",
+        "Teruel",
+        "Zaragoza"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [
+        {
+          "perfilId": "podemos",
+          "relacion": "componente",
+          "nota": "Podemos figura como componente de esta candidatura fechada; sus posiciones no se atribuyen automáticamente a la coalición."
+        },
+        {
+          "perfilId": "alianza-verde",
+          "relacion": "componente",
+          "nota": "Alianza Verde figura como componente de esta candidatura fechada; sus posiciones no se atribuyen automáticamente a la coalición."
+        }
+      ],
+      "nota": "Naturaleza inventariada: coalicion-electoral. Vigencia comprobada: electoral-2026. Tratamiento previsto: perfil-especifico."
+    },
+    {
+      "id": "ara-2026-escanos-en-blanco-para-dejar-escanos-vacios",
+      "nombre": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACÍOS",
+      "votos": 4238,
+      "porcentaje": 0.641165,
+      "territorios": [
+        "aragon"
+      ],
+      "circunscripciones": [
+        "Huesca",
+        "Teruel",
+        "Zaragoza"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [],
+      "nota": "Naturaleza inventariada: partido. Vigencia comprobada: electoral-2026. Tratamiento previsto: perfil-reutilizable."
+    },
+    {
+      "id": "ara-2026-partido-animalista-con-el-medio-ambiente",
+      "nombre": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
+      "votos": 2742,
+      "porcentaje": 0.414836,
+      "territorios": [
+        "aragon"
+      ],
+      "circunscripciones": [
+        "Huesca",
+        "Teruel",
+        "Zaragoza"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [
+        {
+          "perfilId": "pacma",
+          "relacion": "misma-organizacion"
+        }
+      ],
+      "nota": "Naturaleza inventariada: partido. Vigencia comprobada: electoral-2026. Tratamiento previsto: perfil-reutilizable."
+    },
+    {
+      "id": "ara-2026-por-un-mundo-mas-justo",
+      "nombre": "POR UN MUNDO MÁS JUSTO",
+      "votos": 535,
+      "porcentaje": 0.08094,
+      "territorios": [
+        "aragon"
+      ],
+      "circunscripciones": [
+        "Huesca y Zaragoza"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [],
+      "nota": "Naturaleza inventariada: partido. Vigencia comprobada: electoral-2026. Tratamiento previsto: perfil-reutilizable."
+    },
+    {
+      "id": "ara-2026-partido-comunista-de-los-trabajadores-de-espana",
+      "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
+      "votos": 518,
+      "porcentaje": 0.078368,
+      "territorios": [
+        "aragon"
+      ],
+      "circunscripciones": [
+        "Zaragoza"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [
+        {
+          "perfilId": "pcte",
+          "relacion": "misma-organizacion"
+        }
+      ],
+      "nota": "Naturaleza inventariada: partido. Vigencia comprobada: electoral-2026. Tratamiento previsto: perfil-reutilizable."
+    },
+    {
+      "id": "ara-2026-coalicion-aragonesa",
+      "nombre": "COALICIÓN ARAGONESA",
+      "votos": 500,
+      "porcentaje": 0.075645,
+      "territorios": [
+        "aragon"
+      ],
+      "circunscripciones": [
+        "Huesca",
+        "Teruel",
+        "Zaragoza"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [],
+      "nota": "Naturaleza inventariada: coalicion-electoral. Vigencia comprobada: electoral-2026. Tratamiento previsto: inventario-sin-datos."
+    },
+    {
+      "id": "ara-2026-entre-todos-bajo-baix-cinca",
+      "nombre": "ENTRE TODOS BAJO/BAIX CINCA",
+      "votos": 228,
+      "porcentaje": 0.034494,
+      "territorios": [
+        "aragon"
+      ],
+      "circunscripciones": [
+        "Huesca"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [],
+      "nota": "Naturaleza inventariada: partido-o-candidatura. Vigencia comprobada: electoral-2026. Tratamiento previsto: inventario-sin-datos."
+    }
+  ]
+}

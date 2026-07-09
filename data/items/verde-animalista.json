@@ -2,7 +2,7 @@
   {
     "id": "va-001",
     "texto": "La ley debe reconocer a los animales como sujetos de derechos, y no solo protegerlos frente al maltrato.",
-    "modulo": "verde-animalista",
+    "modulo": "nucleo",
     "ejes": [
       {
         "eje": "animalismo",
@@ -91,15 +91,20 @@
     "id": "va-005",
     "texto": "Alargar la vida de las centrales nucleares es razonable como energía de transición para reducir emisiones.",
     "modulo": "verde-animalista",
-    "ejes": [],
+    "ejes": [
+      {
+        "eje": "energia-nuclear",
+        "carga": 0.75
+      }
+    ],
     "polaridad": "positiva",
     "tags": [
       "nuclear",
       "energia",
       "ecomodernismo"
     ],
-    "estado": "piloto",
-    "notas": "Discrimina: Solo-matching: separa a los ecomodernistas (sí, por el clima) de los verdes clásicos, ecosocialistas y decrecentistas (no); PP y VOX coinciden en el sí por motivos productivistas, por lo que la carga en el eje ecología sería no lineal. | Esperado: ecologismo de mercado / ecomodernismo +2, PP +2, VOX +2, PSOE -1, Verdes Equo / Alianza Verde -2, ecosocialismo (Sumar/Podemos) -2, decrecentismo -2, PACMA -1. | Referencia estable: calendario de cierre 2027-2035 pactado en 2019; el debate sobre prórrogas (Almaraz) define la frontera ecomodernista dentro del campo climático."
+    "estado": "retirado",
+    "notas": "Retirado antes del piloto por duplicar en sentido inverso ene-003. La prórroga del parque se pregunta una sola vez en el módulo universal de energía para no sobreponderar nuclear."
   },
   {
     "id": "va-006",
@@ -135,8 +140,8 @@
       "crecimiento-verde",
       "pib"
     ],
-    "estado": "piloto",
-    "notas": "Discrimina: La línea maestra de la familia: decrecentistas (+2) frente a crecimiento verde (PSOE y ecomodernistas, en contra), con verdes clásicos y ecosocialistas en posición intermedia. | Esperado: decrecentismo +2, ecosocialismo (Sumar/Podemos) +1, Verdes Equo / Alianza Verde +1, PSOE -1, ecologismo de mercado / ecomodernismo -2, PP -2, PACMA +0."
+    "estado": "retirado",
+    "notas": "Retirado antes del piloto por duplicar casi literalmente ene-010. El umbral más moderado de aceptar menor crecimiento permanece en sd-016 como contraste distinto."
   },
   {
     "id": "va-008",

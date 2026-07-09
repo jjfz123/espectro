@@ -1,0 +1,54 @@
+{
+  "id": "cnt",
+  "nombre": "Confederación Nacional del Trabajo",
+  "siglas": "CNT",
+  "ambito": "estatal",
+  "confianza": "verificada",
+  "web": "https://www.cnt.es/",
+  "revisado": "2026-07-09",
+  "advertencia": "La similitud doctrinal no acredita implantación en tu empresa ni constituye una recomendación de afiliación.",
+  "posiciones": {
+    "lab-004": {
+      "valor": 2,
+      "justificacion": "Sus acuerdos prohíben subvenciones públicas o empresariales y basan la financiación en cuotas y actividad propia.",
+      "calidadEvidencia": "alta",
+      "fuente": { "tipo": "estatutos", "titulo": "Acuerdos del XII Congreso Confederal", "url": "https://www.cnt.es/wp-content/uploads/2025/03/Acuerdos-del-XII-Congreso-Confederal-Canovelles-2022.pdf", "fecha": "2022", "consultado": "2026-07-09" }
+    },
+    "lab-005": {
+      "valor": 2,
+      "justificacion": "Afirma autonomía respecto del Estado, partidos, patronales y otras instituciones de poder.",
+      "calidadEvidencia": "alta",
+      "fuente": { "tipo": "programa", "titulo": "Principios, tácticas y finalidades", "url": "https://www.cnt.es/wp-content/uploads/2024/11/PRINCIPIOS-TACTICAS-Y-FINALIDADES-2.pdf", "fecha": "2024", "consultado": "2026-07-09" }
+    },
+    "lab-008": {
+      "valor": 2,
+      "justificacion": "Su finalidad incluye control de la producción por trabajadores y autogestión, no dirección por propietarios o ministerios.",
+      "calidadEvidencia": "alta",
+      "fuente": { "tipo": "programa", "titulo": "Principios, tácticas y finalidades", "url": "https://www.cnt.es/wp-content/uploads/2024/11/PRINCIPIOS-TACTICAS-Y-FINALIDADES-2.pdf", "fecha": "2024", "consultado": "2026-07-09" }
+    },
+    "lab-018": {
+      "valor": 2,
+      "justificacion": "Su proyecto anarcosindicalista atribuye a las organizaciones de trabajadores funciones sociales y políticas hoy ejercidas por Estado y partidos.",
+      "calidadEvidencia": "alta",
+      "fuente": { "tipo": "programa", "titulo": "Principios, tácticas y finalidades", "url": "https://www.cnt.es/wp-content/uploads/2024/11/PRINCIPIOS-TACTICAS-Y-FINALIDADES-2.pdf", "fecha": "2024", "consultado": "2026-07-09" }
+    },
+    "lab-021": {
+      "valor": 2,
+      "justificacion": "La negociación debe quedar controlada por las asambleas y las personas afectadas, sin una capa permanente que las sustituya.",
+      "calidadEvidencia": "alta",
+      "fuente": { "tipo": "estatutos", "titulo": "Acuerdos del XII Congreso Confederal", "url": "https://www.cnt.es/wp-content/uploads/2025/03/Acuerdos-del-XII-Congreso-Confederal-Canovelles-2022.pdf", "fecha": "2022", "consultado": "2026-07-09" }
+    },
+    "lab-023": {
+      "valor": -2,
+      "justificacion": "Se define como organización de transformación social anticapitalista y antiestatal, no como sindicato limitado a condiciones laborales.",
+      "calidadEvidencia": "alta",
+      "fuente": { "tipo": "programa", "titulo": "Principios, tácticas y finalidades", "url": "https://www.cnt.es/wp-content/uploads/2024/11/PRINCIPIOS-TACTICAS-Y-FINALIDADES-2.pdf", "fecha": "2024", "consultado": "2026-07-09" }
+    },
+    "lab-026": {
+      "valor": 1,
+      "justificacion": "Prioriza secciones y asambleas y rechaza que intermediarios permanentes sustituyan a las personas afectadas; la táctica concreta puede variar localmente.",
+      "calidadEvidencia": "media",
+      "fuente": { "tipo": "estatutos", "titulo": "Acuerdos del XII Congreso Confederal", "url": "https://www.cnt.es/wp-content/uploads/2025/03/Acuerdos-del-XII-Congreso-Confederal-Canovelles-2022.pdf", "fecha": "2022", "consultado": "2026-07-09" }
+    }
+  }
+}

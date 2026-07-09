@@ -1,0 +1,140 @@
+[
+  {
+    "id": "ene-001",
+    "texto": "España debería autorizar la construcción de nuevas centrales nucleares para producir electricidad con bajas emisiones.",
+    "modulo": "nucleo",
+    "ejes": [{ "eje": "energia-nuclear", "carga": 1 }],
+    "polaridad": "positiva",
+    "tags": ["nuclear", "clima", "electricidad"],
+    "estado": "piloto",
+    "notas": "Separa ampliación nuclear de simple prórroga de centrales existentes; no carga ecología porque existen motivos climáticos y productivistas para el sí."
+  },
+  {
+    "id": "ene-002",
+    "texto": "La taxonomía europea de inversión sostenible debería incluir las actividades nucleares que cumplan sus requisitos técnicos y de gestión de residuos.",
+    "modulo": "energia-modelo-productivo",
+    "ejes": [{ "eje": "energia-nuclear", "carga": 1 }],
+    "polaridad": "positiva",
+    "tags": ["nuclear-verde", "taxonomia", "residuos"],
+    "estado": "piloto",
+    "notas": "Captura ecologismo pronuclear con el alcance real de la taxonomía europea: determinadas actividades bajo requisitos, no toda la tecnología sin condiciones; evita identificar toda defensa nuclear con productivismo."
+  },
+  {
+    "id": "ene-003",
+    "texto": "España debería mantener el calendario vigente de cierre del parque nuclear y descartar nuevas prórrogas.",
+    "modulo": "energia-modelo-productivo",
+    "ejes": [{ "eje": "energia-nuclear", "carga": -1 }],
+    "polaridad": "negativa",
+    "tags": ["cierre-nuclear", "licencias"],
+    "estado": "piloto",
+    "notas": "Ancla la política de cierre frente a prorrogar el parque existente, separada de construir nuevas centrales y de la taxonomía verde. La fecha del calendario debe versionarse en cada elección."
+  },
+  {
+    "id": "ene-004",
+    "texto": "La red de transporte y distribución eléctrica debería ser de propiedad pública.",
+    "modulo": "energia-modelo-productivo",
+    "ejes": [
+      { "eje": "economico", "carga": -1 },
+      { "eje": "estatismo", "carga": 0.75 }
+    ],
+    "polaridad": "positiva",
+    "tags": ["energia-publica", "red-electrica"],
+    "estado": "piloto",
+    "notas": "Distingue propiedad pública de la infraestructura de red frente a regulación de una red privada; se separa de la propiedad de generadoras y comercializadoras."
+  },
+  {
+    "id": "ene-005",
+    "texto": "La generación y comercialización de electricidad deberían realizarse principalmente por empresas privadas en competencia.",
+    "modulo": "energia-modelo-productivo",
+    "ejes": [
+      { "eje": "economico", "carga": 0.75 },
+      { "eje": "estatismo", "carga": -0.75 }
+    ],
+    "polaridad": "positiva",
+    "tags": ["mercado-energia", "competencia"],
+    "estado": "piloto",
+    "notas": "Ancla provisión competitiva privada sin incluir la red monopolística ni presuponer una tecnología; se contrasta con empresa pública y no con regulación en abstracto."
+  },
+  {
+    "id": "ene-006",
+    "texto": "La factura eléctrica doméstica debería encarecerse por tramos a partir de un mínimo vital, ajustando los tramos al tamaño del hogar.",
+    "modulo": "energia-modelo-productivo",
+    "ejes": [
+      { "eje": "ecologia", "carga": 0.75 },
+      { "eje": "estatismo", "carga": 0.5 }
+    ],
+    "polaridad": "negativa",
+    "tags": ["consumo", "racionamiento", "clima"],
+    "estado": "piloto",
+    "notas": "Mide una tarifa progresiva real con mínimo vital y ajuste por hogar, no racionamiento físico. Introduce un coste para consumos altos sin confundirlos automáticamente con renta alta."
+  },
+  {
+    "id": "ene-007",
+    "texto": "Debería existir una empresa pública de generación y comercialización de energía que compita con las privadas.",
+    "modulo": "energia-modelo-productivo",
+    "ejes": [
+      { "eje": "economico", "carga": -0.5 },
+      { "eje": "estatismo", "carga": 0.5 }
+    ],
+    "polaridad": "positiva",
+    "tags": ["energia-publica", "empresas-energeticas"],
+    "estado": "piloto",
+    "notas": "Distingue una empresa pública que compite de nacionalizar todo el sector y de la titularidad de la red; permite apoyar provisión mixta sin atribuir monopolio estatal."
+  },
+  {
+    "id": "ene-008",
+    "texto": "Debería aprobarse un mapa estatal, coordinado con las comunidades autónomas, de zonas preferentes para grandes instalaciones renovables.",
+    "modulo": "energia-modelo-productivo",
+    "ejes": [
+      { "eje": "estatismo", "carga": 0.75 },
+      { "eje": "ecologia", "carga": 0.5 }
+    ],
+    "polaridad": "positiva",
+    "tags": ["renovables", "planificacion", "suelo"],
+    "estado": "piloto",
+    "notas": "Separa planificación territorial coordinada de despliegue decidido caso a caso o solo por mercado; no atribuye al Estado central competencias exclusivas que corresponden a otros niveles."
+  },
+  {
+    "id": "ene-009",
+    "texto": "El Estado debería financiar programas específicos de I+D en reactores modulares y otras tecnologías nucleares avanzadas.",
+    "modulo": "energia-modelo-productivo",
+    "ejes": [
+      { "eje": "energia-nuclear", "carga": 0.75 },
+      { "eje": "estatismo", "carga": 0.25 }
+    ],
+    "polaridad": "positiva",
+    "tags": ["nuclear", "investigacion", "financiacion-publica"],
+    "estado": "piloto",
+    "notas": "Distingue apoyo público a investigación nuclear de autorizar inmediatamente nuevas centrales; no usa «prioritaria» sin indicar frente a qué gasto."
+  },
+  {
+    "id": "ene-010",
+    "texto": "España debería reducir deliberadamente su producción material y su consumo para cumplir los límites ecológicos.",
+    "modulo": "energia-modelo-productivo",
+    "ejes": [{ "eje": "ecologia", "carga": 1 }],
+    "polaridad": "negativa",
+    "tags": ["decrecimiento", "consumo", "produccion"],
+    "estado": "piloto",
+    "notas": "Ancla decrecentista clara; comprobar duplicados en verde-animalista antes de promoción."
+  },
+  {
+    "id": "ene-011",
+    "texto": "El crecimiento económico puede continuar si la innovación reduce suficientemente el uso de materiales y las emisiones.",
+    "modulo": "energia-modelo-productivo",
+    "ejes": [{ "eje": "ecologia", "carga": -0.75 }],
+    "polaridad": "positiva",
+    "tags": ["crecimiento-verde", "innovacion"],
+    "estado": "piloto",
+    "notas": "Contrapunto ecomodernista al decrecimiento; la carga moderada reconoce que también puede sostenerse desde ecologismo tecnológico."
+  },
+  {
+    "id": "ene-012",
+    "texto": "Las comunidades locales deberían tener capacidad de veto sobre grandes infraestructuras energéticas en su territorio.",
+    "modulo": "energia-modelo-productivo",
+    "ejes": [],
+    "polaridad": "positiva",
+    "tags": ["veto-local", "infraestructuras", "territorio"],
+    "estado": "piloto",
+    "notas": "Solo-matching: aplica subsidiariedad y veto local a un conflicto material. Un Estado fuerte puede garantizarlo y una comunidad puede decidir mediante representantes, así que no mide antiestatismo ni democracia directa automáticamente."
+  }
+]

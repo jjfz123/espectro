@@ -1,0 +1,194 @@
+{
+  "id": "recortes-cero",
+  "nombre": "Recortes Cero",
+  "siglas": "RECORTES CERO",
+  "ambito": "estatal",
+  "tipo": "coalicion",
+  "componentes": ["uce"],
+  "confianza": "verificada",
+  "web": "https://recortescero.es/",
+  "revisado": "2026-07-09",
+  "actividad": "activa",
+  "posiciones": {
+    "eco-001": {
+      "valor": 2,
+      "justificacion": "Su programa de 2023 propone elevar sustancialmente la tributación de bancos, monopolios y multinacionales y subir el IRPF de las grandes fortunas.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral de Recortes Cero para las elecciones generales del 23-J",
+        "url": "https://recortescero.es/wp-content/uploads/2023/07/PROG.-23J.pdf",
+        "fecha": "2023-07",
+        "consultado": "2026-07-09"
+      }
+    },
+    "eco-003": {
+      "valor": 2,
+      "justificacion": "Propone que ningún salario quede por debajo de 1.200 euros, lo que implica una subida legal y política del suelo salarial.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral de Recortes Cero para las elecciones generales del 23-J",
+        "url": "https://recortescero.es/wp-content/uploads/2023/07/PROG.-23J.pdf",
+        "fecha": "2023-07",
+        "consultado": "2026-07-09"
+      }
+    },
+    "eco-005": {
+      "valor": 2,
+      "justificacion": "Plantea limitar por ley los alquileres para que no superen el 25 % del salario medio de cada barrio, distrito o localidad.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral de Recortes Cero para las elecciones generales del 23-J",
+        "url": "https://recortescero.es/wp-content/uploads/2023/07/PROG.-23J.pdf",
+        "fecha": "2023-07",
+        "consultado": "2026-07-09"
+      }
+    },
+    "eco-006": {
+      "valor": 2,
+      "justificacion": "Propone triplicar la construcción de vivienda pública hasta alcanzar el 15 % de la oferta y dedicar la mitad al alquiler social.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral de Recortes Cero para las elecciones generales del 23-J",
+        "url": "https://recortescero.es/wp-content/uploads/2023/07/PROG.-23J.pdf",
+        "fecha": "2023-07",
+        "consultado": "2026-07-09"
+      }
+    },
+    "eco-008": {
+      "valor": 2,
+      "justificacion": "Defiende blindar constitucionalmente las pensiones públicas para impedir su recorte o privatización y garantizar una pensión mínima.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral de Recortes Cero para las elecciones generales del 23-J",
+        "url": "https://recortescero.es/wp-content/uploads/2023/07/PROG.-23J.pdf",
+        "fecha": "2023-07",
+        "consultado": "2026-07-09"
+      }
+    },
+    "lab-009": {
+      "valor": -2,
+      "justificacion": "Su programa se apoya expresamente en aumentar impuestos progresivos a grandes empresas y fortunas, por lo que no considera ilegítimo el impuesto en sí mismo.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral de Recortes Cero para las elecciones generales del 23-J",
+        "url": "https://recortescero.es/wp-content/uploads/2023/07/PROG.-23J.pdf",
+        "fecha": "2023-07",
+        "consultado": "2026-07-09"
+      }
+    },
+    "dem-002": {
+      "valor": 2,
+      "justificacion": "Propone asambleas de electores facultadas para destituir a cargos que incumplan flagrantemente su programa, un mecanismo explícito de revocación.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral de Recortes Cero para las elecciones generales del 23-J",
+        "url": "https://recortescero.es/wp-content/uploads/2023/07/PROG.-23J.pdf",
+        "fecha": "2023-07",
+        "consultado": "2026-07-09"
+      }
+    },
+    "dem-025": {
+      "valor": 1,
+      "justificacion": "Pide reformar la ley electoral para ampliar la representatividad de los distintos sectores sociales; la fuente no concreta un sistema de proporcionalidad máxima.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral de Recortes Cero para las elecciones generales del 23-J",
+        "url": "https://recortescero.es/wp-content/uploads/2023/07/PROG.-23J.pdf",
+        "fecha": "2023-07",
+        "consultado": "2026-07-09"
+      }
+    },
+    "soc-001": {
+      "valor": 2,
+      "justificacion": "El programa reclama ampliar derechos y libertades y destaca expresamente la defensa de los derechos LGTBI frente a los ataques de la ultraderecha.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral de Recortes Cero para las elecciones generales del 23-J",
+        "url": "https://recortescero.es/wp-content/uploads/2023/07/PROG.-23J.pdf",
+        "fecha": "2023-07",
+        "consultado": "2026-07-09"
+      }
+    },
+    "ene-001": {
+      "valor": -2,
+      "justificacion": "Su programa estatal de 2023 rechaza la energía nuclear y propone cerrar definitivamente todas las centrales en dos años.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral de Recortes Cero para las elecciones generales del 23-J",
+        "url": "https://recortescero.es/wp-content/uploads/2023/07/PROG.-23J.pdf",
+        "fecha": "2023-07",
+        "consultado": "2026-07-09"
+      }
+    },
+    "ene-003": {
+      "valor": 2,
+      "justificacion": "La propuesta de clausurar todas las centrales en dos años es incompatible con nuevas prórrogas y respalda, como mínimo, mantener el calendario de cierre sin ampliarlo.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral de Recortes Cero para las elecciones generales del 23-J",
+        "url": "https://recortescero.es/wp-content/uploads/2023/07/PROG.-23J.pdf",
+        "fecha": "2023-07",
+        "consultado": "2026-07-09"
+      }
+    },
+    "sd-002": {
+      "valor": -2,
+      "justificacion": "Se opone a elevar el presupuesto militar por mandato de Estados Unidos y cuestiona la ampliación del escudo antimisiles en Rota.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral de Recortes Cero para las elecciones generales del 23-J",
+        "url": "https://recortescero.es/wp-content/uploads/2023/07/PROG.-23J.pdf",
+        "fecha": "2023-07",
+        "consultado": "2026-07-09"
+      }
+    },
+    "sd-003": {
+      "valor": 2,
+      "justificacion": "Ante la invasión rusa de Ucrania, el programa respalda explícitamente medidas de autodefensa del país invadido, incluido el envío de armas.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral de Recortes Cero para las elecciones generales del 23-J",
+        "url": "https://recortescero.es/wp-content/uploads/2023/07/PROG.-23J.pdf",
+        "fecha": "2023-07",
+        "consultado": "2026-07-09"
+      }
+    },
+    "izq-009": {
+      "valor": 2,
+      "justificacion": "Propone un frente amplio que reúna al 90 % de la sociedad contra bancos, monopolios y recortes, respetando la pluralidad territorial y social.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral de Recortes Cero para las elecciones generales del 23-J",
+        "url": "https://recortescero.es/wp-content/uploads/2023/07/PROG.-23J.pdf",
+        "fecha": "2023-07",
+        "consultado": "2026-07-09"
+      }
+    },
+    "izq-031": {
+      "valor": -2,
+      "justificacion": "Recortes Cero presentó candidatura en las generales de 2023 y en las europeas de 2024, lo que contradice el boicot electoral como principio general.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "BOE: candidaturas proclamadas para las elecciones al Parlamento Europeo de 2024",
+        "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-9687",
+        "fecha": "2024-05-14",
+        "consultado": "2026-07-09"
+      }
+    }
+  }
+}

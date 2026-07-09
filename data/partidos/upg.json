@@ -1,0 +1,193 @@
+{
+  "id": "upg",
+  "nombre": "Unión do Povo Galego",
+  "siglas": "UPG",
+  "ambito": "autonomico",
+  "tipo": "partido",
+  "ccaa": ["galicia"],
+  "confianza": "verificada",
+  "web": "https://upg.gal/",
+  "revisado": "2026-07-09",
+  "actividad": "activa",
+  "excepcionCatalogo": {
+    "motivo": "comunista-activa",
+    "justificacion": "Se incorpora por la excepción de cobertura de organizaciones comunistas activas. La UPG es un partido componente del BNG y todos sus militantes pertenecen también al frente; no debe competir con el BNG como si fueran papeletas distintas.",
+    "fuente": {
+      "tipo": "autoubicacion",
+      "titulo": "UPG: o partido da patria e do socialismo",
+      "url": "https://upg.gal/upg-o-partido-da-patria-e-do-socialismo/",
+      "fecha": "2025-09-23",
+      "consultado": "2026-07-09"
+    }
+  },
+  "posiciones": {
+    "izq-001": {
+      "valor": 2,
+      "justificacion": "Define como única vía para transformar radicalmente Galicia una ruptura democrática con el régimen español, un proceso constituyente propio y la construcción del socialismo.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "autoubicacion",
+        "titulo": "UPG: o partido da patria e do socialismo",
+        "url": "https://upg.gal/upg-o-partido-da-patria-e-do-socialismo/",
+        "fecha": "2025-09-23",
+        "consultado": "2026-07-09"
+      }
+    },
+    "izq-005": {
+      "valor": 2,
+      "justificacion": "Su programa defiende nacionalizar grandes empresas y reorganizar la economía gallega al servicio de la planificación y de las clases trabajadoras.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa da UPG, ratificado en el XVI Congreso",
+        "url": "https://upg.gal/upg-o-partido-da-patria-e-do-socialismo/programa-da-upg/",
+        "fecha": "2024-07-07",
+        "consultado": "2026-07-09"
+      }
+    },
+    "izq-009": {
+      "valor": 2,
+      "justificacion": "Desde 1982 se integra en el BNG y lo respalda como frente nacionalista, democrático y plural para agrupar esfuerzos hacia la soberanía.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "autoubicacion",
+        "titulo": "UPG: o partido da patria e do socialismo",
+        "url": "https://upg.gal/upg-o-partido-da-patria-e-do-socialismo/",
+        "fecha": "2025-09-23",
+        "consultado": "2026-07-09"
+      }
+    },
+    "izq-018": {
+      "valor": -2,
+      "justificacion": "Los estatutos prohíben expresamente las fracciones internas por considerarlas contrarias al centralismo democrático y a la unidad del partido.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "estatutos",
+        "titulo": "Estatutos da UPG",
+        "url": "https://upg.gal/upg-o-partido-da-patria-e-do-socialismo/estatutos-da-upg/",
+        "fecha": "2021-01-18",
+        "consultado": "2026-07-09"
+      }
+    },
+    "dem-015": {
+      "valor": 2,
+      "justificacion": "Su centralismo democrático combina discusión y crítica internas con unidad de acción, disciplina y subordinación de la minoría a la mayoría después de decidir.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "estatutos",
+        "titulo": "Estatutos da UPG",
+        "url": "https://upg.gal/upg-o-partido-da-patria-e-do-socialismo/estatutos-da-upg/",
+        "fecha": "2021-01-18",
+        "consultado": "2026-07-09"
+      }
+    },
+    "nac-001": {
+      "valor": 2,
+      "justificacion": "Defiende la ruptura democrática con el régimen español y la asunción unilateral de soberanía mediante un proceso constituyente gallego propio.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "autoubicacion",
+        "titulo": "UPG: o partido da patria e do socialismo",
+        "url": "https://upg.gal/upg-o-partido-da-patria-e-do-socialismo/",
+        "fecha": "2025-09-23",
+        "consultado": "2026-07-09"
+      }
+    },
+    "nac-002": {
+      "valor": 2,
+      "justificacion": "Su objetivo estratégico declarado es un Estado gallego independiente, democrático y popular como condición para construir el socialismo en Galicia.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "autoubicacion",
+        "titulo": "UPG: o partido da patria e do socialismo",
+        "url": "https://upg.gal/upg-o-partido-da-patria-e-do-socialismo/",
+        "fecha": "2025-09-23",
+        "consultado": "2026-07-09"
+      }
+    },
+    "ter-002": {
+      "valor": 2,
+      "justificacion": "La UPG nació con el objetivo de la autodeterminación gallega y mantiene la soberanía nacional como eje de su programa político.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "60 años de lucha por la soberanía de Galicia y el socialismo: XVI Congreso",
+        "url": "https://upg.gal/60-anos-loita-pola-soberania-da-galiza-socialismo-xvi-congreso-da-upg/",
+        "fecha": "2024-07-05",
+        "consultado": "2026-07-09"
+      }
+    },
+    "nac-008": {
+      "valor": 2,
+      "justificacion": "Su Comité Central propuso expresamente un nuevo modelo de financiación gallego basado en el concierto económico.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Documento aprobado por el Comité Central de la UPG del 20 de enero de 2024",
+        "url": "https://upg.gal/documento-aprobado-no-comite-central-do-20-xaneiro-2024/",
+        "fecha": "2024-01-20",
+        "consultado": "2026-07-09"
+      }
+    },
+    "lab-016": {
+      "valor": 2,
+      "justificacion": "El programa propone nacionalizar las grandes empresas y su línea de 2024 reclama mayor iniciativa pública y una empresa pública de energía.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa da UPG, ratificado en el XVI Congreso",
+        "url": "https://upg.gal/upg-o-partido-da-patria-e-do-socialismo/programa-da-upg/",
+        "fecha": "2024-07-07",
+        "consultado": "2026-07-09"
+      }
+    },
+    "def-002": {
+      "valor": 2,
+      "justificacion": "En 2025 reafirmó su oposición a la OTAN y pidió construir un movimiento que defendiera su disolución.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Sobre a nova conxuntura política internacional",
+        "url": "https://upg.gal/sobre-a-nova-conxuntura-politica-internacional/",
+        "fecha": "2025-03-14",
+        "consultado": "2026-07-09"
+      }
+    },
+    "sd-002": {
+      "valor": -2,
+      "justificacion": "Rechaza el aumento del gasto militar español y la desviación de recursos sociales hacia armamento y defensa.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Sobre a nova conxuntura política internacional",
+        "url": "https://upg.gal/sobre-a-nova-conxuntura-politica-internacional/",
+        "fecha": "2025-03-14",
+        "consultado": "2026-07-09"
+      }
+    },
+    "geo-003": {
+      "valor": 1,
+      "justificacion": "Defiende desarme, diálogo y solución pacífica de los conflictos; la fuente no formula literalmente una prohibición absoluta de toda intervención exterior solicitada por aliados.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Sobre a nova conxuntura política internacional",
+        "url": "https://upg.gal/sobre-a-nova-conxuntura-politica-internacional/",
+        "fecha": "2025-03-14",
+        "consultado": "2026-07-09"
+      }
+    },
+    "izq-031": {
+      "valor": -2,
+      "justificacion": "Todos sus militantes forman parte del BNG, frente con el que la UPG interviene electoralmente; por tanto no defiende un boicot general a las elecciones.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "autoubicacion",
+        "titulo": "UPG: o partido da patria e do socialismo",
+        "url": "https://upg.gal/upg-o-partido-da-patria-e-do-socialismo/",
+        "fecha": "2025-09-23",
+        "consultado": "2026-07-09"
+      }
+    }
+  }
+}

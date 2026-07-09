@@ -1,0 +1,216 @@
+{
+  "id": "navarra-2023-05",
+  "nombre": "Elecciones autonómicas de Navarra del 28 de mayo de 2023",
+  "tipo": "autonomicas",
+  "fecha": "2023-05-28",
+  "territorio": "navarra",
+  "camara": "Parlamento de Navarra",
+  "umbralPorcentaje": 0.02,
+  "denominador": {
+    "tipo": "votos-a-candidaturas",
+    "valor": 324001
+  },
+  "totalCandidaturasOficiales": 11,
+  "fuente": {
+    "titulo": "Resultados definitivos de las elecciones autonómicas de Navarra",
+    "url": "https://www.navarra.es/es/-/nota-prensa/el-recuento-del-voto-pendiente-de-las-elecciones-al-parlamento-no-altera-el-reparto-de-escanos?print=true",
+    "consultado": "2026-07-10"
+  },
+  "fuentesAdicionales": [
+    {
+      "titulo": "Proclamación e identidad de candidaturas de Navarra",
+      "url": "https://www.navarra.es/es/-/nota-prensa/el-bon-publica-el-listado-con-816-candidaturas-a-las-elecciones-al-parlamento-municipios-y-concejos-del-proximo-28-de-mayo",
+      "consultado": "2026-07-10"
+    }
+  ],
+  "nota": "El porcentaje usa como denominador 324.001 votos a candidaturas en toda la comunidad. Una relación con un componente identifica la candidatura, pero no transfiere sus posiciones al perfil de la coalición. Naturaleza de la convocatoria en el inventario: ordinaria.",
+  "candidaturas": [
+    {
+      "id": "nav-2023-upn",
+      "nombre": "UPN",
+      "votos": 92392,
+      "porcentaje": 28.515961,
+      "escanos": 15,
+      "territorios": [
+        "navarra"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [
+        {
+          "perfilId": "upn",
+          "relacion": "misma-organizacion"
+        }
+      ],
+      "nota": "Naturaleza inventariada: partido. Vigencia comprobada: representacion-2023. Tratamiento previsto: perfil-reutilizable."
+    },
+    {
+      "id": "nav-2023-psn",
+      "nombre": "PSN-PSOE",
+      "votos": 68247,
+      "porcentaje": 21.063824,
+      "escanos": 11,
+      "territorios": [
+        "navarra"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [
+        {
+          "perfilId": "psoe",
+          "relacion": "organizacion-territorial",
+          "nota": "La candidatura corresponde a la organización territorial del perfil estatal; comparte identidad orgánica, no una matriz autonómica copiada."
+        }
+      ],
+      "nota": "Naturaleza inventariada: federacion-territorial. Vigencia comprobada: representacion-2023. Tratamiento previsto: perfil-reutilizable."
+    },
+    {
+      "id": "nav-2023-eh-bildu",
+      "nombre": "EH Bildu",
+      "votos": 56535,
+      "porcentaje": 17.44902,
+      "escanos": 9,
+      "territorios": [
+        "navarra"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [
+        {
+          "perfilId": "eh-bildu",
+          "relacion": "misma-organizacion"
+        }
+      ],
+      "nota": "Naturaleza inventariada: federacion. Vigencia comprobada: representacion-2023. Tratamiento previsto: perfil-reutilizable."
+    },
+    {
+      "id": "nav-2023-geroa-bai",
+      "nombre": "Geroa Bai",
+      "votos": 43660,
+      "porcentaje": 13.475267,
+      "escanos": 7,
+      "territorios": [
+        "navarra"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [
+        {
+          "perfilId": "eaj-pnv",
+          "relacion": "componente",
+          "nota": "EAJ-PNV de Navarra figura como componente de esta candidatura fechada; sus posiciones no se atribuyen automáticamente a la coalición."
+        }
+      ],
+      "nota": "Naturaleza inventariada: coalicion-estable. Vigencia comprobada: representacion-2023. Tratamiento previsto: perfil-especifico."
+    },
+    {
+      "id": "nav-2023-ppn",
+      "nombre": "PPN",
+      "votos": 24019,
+      "porcentaje": 7.413249,
+      "escanos": 3,
+      "territorios": [
+        "navarra"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [
+        {
+          "perfilId": "pp",
+          "relacion": "organizacion-territorial",
+          "nota": "La candidatura corresponde a la organización territorial del perfil estatal; comparte identidad orgánica, no una matriz autonómica copiada."
+        }
+      ],
+      "nota": "Naturaleza inventariada: organizacion-territorial. Vigencia comprobada: representacion-2023. Tratamiento previsto: perfil-reutilizable."
+    },
+    {
+      "id": "nav-2023-contigo",
+      "nombre": "Contigo Navarra-Zurekin Nafarroa",
+      "votos": 20095,
+      "porcentaje": 6.202141,
+      "escanos": 3,
+      "territorios": [
+        "navarra"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [
+        {
+          "perfilId": "podemos",
+          "relacion": "componente",
+          "nota": "Podemos Navarra figura como componente de esta candidatura fechada; sus posiciones no se atribuyen automáticamente a la coalición."
+        }
+      ],
+      "nota": "Naturaleza inventariada: coalicion-electoral. Vigencia comprobada: representacion-2023. Tratamiento previsto: perfil-especifico."
+    },
+    {
+      "id": "nav-2023-vox",
+      "nombre": "Vox",
+      "votos": 14197,
+      "porcentaje": 4.381777,
+      "escanos": 2,
+      "territorios": [
+        "navarra"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [
+        {
+          "perfilId": "vox",
+          "relacion": "misma-organizacion"
+        }
+      ],
+      "nota": "Naturaleza inventariada: partido. Vigencia comprobada: representacion-2023. Tratamiento previsto: perfil-reutilizable."
+    },
+    {
+      "id": "nav-2023-pumj",
+      "nombre": "Por Un Mundo Más Justo",
+      "votos": 1740,
+      "porcentaje": 0.537035,
+      "escanos": 0,
+      "territorios": [
+        "navarra"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [],
+      "nota": "Naturaleza inventariada: partido. Vigencia comprobada: posterior-verificada. Tratamiento previsto: perfil-especifico."
+    },
+    {
+      "id": "nav-2023-cs",
+      "nombre": "Ciudadanos",
+      "votos": 1273,
+      "porcentaje": 0.3929,
+      "escanos": 0,
+      "territorios": [
+        "navarra"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [
+        {
+          "perfilId": "ciudadanos",
+          "relacion": "misma-organizacion"
+        }
+      ],
+      "nota": "Naturaleza inventariada: partido. Vigencia comprobada: posterior-verificada. Tratamiento previsto: perfil-reutilizable."
+    },
+    {
+      "id": "nav-2023-eguzkilore",
+      "nombre": "Eguzkilore",
+      "votos": 1261,
+      "porcentaje": 0.389196,
+      "escanos": 0,
+      "territorios": [
+        "navarra"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [],
+      "nota": "Naturaleza inventariada: partido-o-candidatura. Vigencia comprobada: posterior-no-verificada. Tratamiento previsto: inventario-sin-datos."
+    },
+    {
+      "id": "nav-2023-voluntad-foral",
+      "nombre": "Voluntad Foral-Nabarra Gurea",
+      "votos": 582,
+      "porcentaje": 0.179629,
+      "escanos": 0,
+      "territorios": [
+        "navarra"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [],
+      "nota": "Naturaleza inventariada: partido-o-plataforma. Vigencia comprobada: posterior-verificada. Tratamiento previsto: perfil-especifico."
+    }
+  ]
+}

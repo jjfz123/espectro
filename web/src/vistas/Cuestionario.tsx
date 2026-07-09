@@ -2,7 +2,7 @@ import { useEffect, useRef, useState } from 'react';
 import type { Valor } from '@engine';
 import { BarraProgreso } from '../componentes/BarraProgreso';
 import { Likert } from '../componentes/Likert';
-import { MODULO_POR_ID, pad2, secuenciaItems, terminosDeItem } from '../datos';
+import { ITEM_POR_ID, etiquetaValor, pad2, secuenciaItems, terminosDeItem } from '../datos';
 import type { Accion, Estado } from '../estado';
 
 interface Props {
@@ -19,11 +19,10 @@ const VALORES_TECLA: Record<string, Valor> = {
 };
 
 export function Cuestionario({ estado, despachar }: Props) {
-  const secuencia = secuenciaItems(estado.modulosActivos);
+  const secuencia = secuenciaItems(estado.modulosActivos, estado.respuestas);
   const item = secuencia[estado.indice];
   const encabezadoRef = useRef<HTMLHeadingElement>(null);
   const marcaGlosarioRef = useRef<HTMLButtonElement>(null);
-  const montadoRef = useRef(false);
   const [glosarioAbierto, setGlosarioAbierto] = useState(false);
 
   const itemId = item?.id;
@@ -31,11 +30,11 @@ export function Cuestionario({ estado, despachar }: Props) {
 
   useEffect(() => {
     setGlosarioAbierto(false);
-    if (montadoRef.current) {
+    const frame = window.requestAnimationFrame(() => {
+      window.scrollTo({ top: 0, behavior: 'auto' });
       encabezadoRef.current?.focus({ preventScroll: true });
-    } else {
-      montadoRef.current = true;
-    }
+    });
+    return () => window.cancelAnimationFrame(frame);
   }, [itemId]);
 
   useEffect(() => {
@@ -56,10 +55,10 @@ export function Cuestionario({ estado, despachar }: Props) {
         despachar({ tipo: 'responder', itemId, valor: VALORES_TECLA[e.key] ?? 0 });
       } else if (e.key === '0') {
         despachar({ tipo: 'responder', itemId, valor: null });
-      } else if (e.key === 'ArrowLeft') {
+      } else if (e.key === 'ArrowLeft' && !estado.editando) {
         despachar({ tipo: 'anterior' });
       } else if (e.key === 'ArrowRight' && respondido) {
-        despachar({ tipo: 'siguiente' });
+        despachar({ tipo: estado.editando ? 'terminar-edicion' : 'siguiente' });
       } else {
         return;
       }
@@ -67,7 +66,7 @@ export function Cuestionario({ estado, despachar }: Props) {
     };
     window.addEventListener('keydown', alPulsar);
     return () => window.removeEventListener('keydown', alPulsar);
-  }, [itemId, respondido, glosarioAbierto, despachar]);
+  }, [itemId, respondido, glosarioAbierto, estado.editando, despachar]);
 
   if (!item || !itemId) {
     return (
@@ -82,24 +81,43 @@ export function Cuestionario({ estado, despachar }: Props) {
 
   const valor = estado.respuestas[itemId];
   const importante = Boolean(estado.importantes[itemId]);
-  const modulo = MODULO_POR_ID.get(item.modulo);
   const terminos = terminosDeItem(item);
+  const itemPadre = item.condicion ? ITEM_POR_ID.get(item.condicion.itemId) : undefined;
+  const respuestaPadre = item.condicion
+    ? estado.respuestas[item.condicion.itemId]
+    : undefined;
   const esUltimo = estado.indice === secuencia.length - 1;
   const etiquetaSiguiente = !esUltimo
     ? 'Siguiente'
-    : estado.modo === 'completo' && estado.modulosActivos.length === 0
-      ? 'Terminar el núcleo'
-      : 'Ver resultados';
+    : estado.modo === 'rapido' && estado.modulosActivos.length === 0
+      ? 'Finalizar modo rápido'
+      : estado.modo === 'completo' && estado.modulosActivos.length === 0
+        ? 'Terminar el núcleo'
+        : 'Ver resultados';
 
   return (
     <div className="contenedor">
       <BarraProgreso modulosActivos={estado.modulosActivos} respuestas={estado.respuestas} />
       <div className="cuestionario-meta">
-        <span className="kicker">{modulo?.nombre ?? item.modulo}</span>
+        <span className="kicker">
+          {estado.editando
+            ? 'Corrigiendo una respuesta'
+            : item.modulo === 'nucleo'
+              ? 'Cuestionario · modo rápido'
+              : 'Cuestionario · profundización'}
+        </span>
         <span className="numeracion">
           <strong>{pad2(estado.indice + 1)}</strong> / {pad2(secuencia.length)}
         </span>
       </div>
+
+      {itemPadre && typeof respuestaPadre === 'number' ? (
+        <p className="seguimiento-contexto">
+          <strong>Pregunta de seguimiento.</strong> Has respondido «{etiquetaValor(respuestaPadre)}»
+          a «{itemPadre.texto}». Esta pregunta aclara el motivo sin cambiar la intensidad de tu
+          respuesta anterior.
+        </p>
+      ) : null}
 
       <h1 className="item-texto" ref={encabezadoRef} tabIndex={-1}>
         {item.texto}
@@ -174,21 +192,25 @@ export function Cuestionario({ estado, despachar }: Props) {
       </div>
 
       <div className="cuestionario-nav">
-        <button
-          type="button"
-          className="boton boton--secundario"
-          onClick={() => despachar({ tipo: 'anterior' })}
-          disabled={estado.indice === 0}
-        >
-          Anterior
-        </button>
+        {estado.editando ? null : (
+          <button
+            type="button"
+            className="boton boton--secundario"
+            onClick={() => despachar({ tipo: 'anterior' })}
+            disabled={estado.indice === 0}
+          >
+            Anterior
+          </button>
+        )}
         <button
           type="button"
           className="boton"
-          onClick={() => despachar({ tipo: 'siguiente' })}
+          onClick={() =>
+            despachar({ tipo: estado.editando ? 'terminar-edicion' : 'siguiente' })
+          }
           disabled={!respondido}
         >
-          {etiquetaSiguiente}
+          {estado.editando ? 'Guardar y volver a la revisión' : etiquetaSiguiente}
         </button>
       </div>
 

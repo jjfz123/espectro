@@ -1,0 +1,29 @@
+{
+  "id": "solidaridad",
+  "nombre": "Solidaridad",
+  "ambito": "estatal",
+  "confianza": "verificada",
+  "web": "https://sindicatosolidaridad.es/",
+  "revisado": "2026-07-09",
+  "advertencia": "La similitud doctrinal no acredita implantación en tu empresa ni constituye una recomendación de afiliación; la documentación disponible sobre su modelo productivo es limitada.",
+  "posiciones": {
+    "lab-004": {
+      "valor": 1,
+      "justificacion": "Ha defendido públicamente vivir de cuotas, pero sus estatutos permiten también donaciones y subvenciones; se codifica apoyo moderado y evidencia conflictiva.",
+      "calidadEvidencia": "media",
+      "fuente": { "tipo": "declaracion", "titulo": "Posición sobre financiación y transparencia sindical", "url": "https://sindicatosolidaridad.es/ley-transparencia/", "fecha": "2022", "consultado": "2026-07-09" }
+    },
+    "lab-020": {
+      "valor": 2,
+      "justificacion": "Sus estatutos incluyen representación, negociación colectiva y participación en elecciones laborales.",
+      "calidadEvidencia": "alta",
+      "fuente": { "tipo": "estatutos", "titulo": "Estatutos modificados", "url": "https://sindicatosolidaridad.es/wp-content/uploads/2025/05/ESTATUTOS.pdf", "fecha": "2025-05", "consultado": "2026-07-09" }
+    },
+    "lab-023": {
+      "valor": -1,
+      "justificacion": "Sus fines y actividad pública adoptan posiciones generales sobre economía nacional, autónomos y políticas públicas; el programa productivo detallado sigue incompleto.",
+      "calidadEvidencia": "media",
+      "fuente": { "tipo": "estatutos", "titulo": "Estatutos modificados", "url": "https://sindicatosolidaridad.es/wp-content/uploads/2025/05/ESTATUTOS.pdf", "fecha": "2025-05", "consultado": "2026-07-09" }
+    }
+  }
+}

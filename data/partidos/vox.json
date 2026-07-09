@@ -1,0 +1,458 @@
+{
+  "id": "vox",
+  "nombre": "VOX",
+  "siglas": "VOX",
+  "ambito": "estatal",
+  "tipo": "partido",
+  "confianza": "verificada",
+  "web": "https://www.voxespana.es/",
+  "revisado": "2026-07-09",
+  "actividad": "activa",
+  "dobleLectura": {
+    "etiquetaBase": "Programa y posición oficial",
+    "descripcionBase": "Programa general de 2023, programa europeo de 2024 y declaraciones oficiales identificadas por fecha.",
+    "contraste": {
+      "etiqueta": "Conducta y discurso recientes",
+      "descripcion": "Votaciones, iniciativas y declaraciones de 2026, conservadas como una segunda capa independiente.",
+      "desde": "2026-02-03",
+      "hasta": "2026-07-09",
+      "advertencia": "Esta capa no se promedia con el programa ni rellena sus huecos. ACOM es una asociación externa que se declara independiente: no se atribuye a ACOM la dirección de VOX ni un giro causal sin evidencia primaria.",
+      "posiciones": {
+        "dr-003": {
+          "valor": 1,
+          "justificacion": "En 2026 VOX volvió a defender la salida de determinadas personas con residencia legal —delincuentes graves o reincidentes, quienes rechacen integrarse o dependan de ayudas según su formulación—, pero no el retorno indistinto de toda la inmigración regular. Por eso el apoyo al enunciado general es parcial.",
+          "calidadEvidencia": "alta",
+          "fuente": {
+            "tipo": "declaracion",
+            "titulo": "Rechazo de VOX a la regularización extraordinaria y categorías de retorno",
+            "url": "https://www.voxespana.es/grupo_parlamentario/actividad-parlamentaria/regularizacion-masiva-rechazo-frontal-de-vox-al-plan-de-sustitucion-demografica-del-gobierno-y-una-advertencia-la-inmigracion-masiva-sobrecarga-de-manera-terminal-los-servicios-publicos-esencial-20260203",
+            "fecha": "2026-02-03",
+            "consultado": "2026-07-09"
+          }
+        },
+        "lab-006": {
+          "valor": -2,
+          "justificacion": "Su iniciativa de 2026 reclama pluralismo y acceso de sindicatos con menor implantación a la representación; es lo contrario de reconocer una única organización sindical por sector.",
+          "calidadEvidencia": "alta",
+          "fuente": {
+            "tipo": "declaracion",
+            "titulo": "García Gomis defiende un modelo de representación sindical más libre",
+            "url": "https://www.voxespana.es/grupo_parlamentario/actividad-parlamentaria/garcia-gomis-defiende-un-modelo-de-representacion-sindical-mas-libre-cierran-con-llave-el-pluralismo-en-el-mundo-laboral-20260610",
+            "fecha": "2026-06-10",
+            "consultado": "2026-07-09"
+          }
+        },
+        "dr-017": {
+          "valor": 2,
+          "justificacion": "En 2026 defendió mantener la cooperación militar y tecnológica con Israel y lo trató como socio de seguridad frente a amenazas armadas e islamistas.",
+          "calidadEvidencia": "alta",
+          "fuente": {
+            "tipo": "declaracion",
+            "titulo": "VOX defiende la cooperación con Israel frente al embargo",
+            "url": "https://www.voxespana.es/grupo_parlamentario/actividad-parlamentaria/asarta-denuncia-que-el-embargo-a-israel-pone-en-riesgo-la-seguridad-nacional-es-una-desconexion-tecnologica-suicida-20260304",
+            "fecha": "2026-03-04",
+            "consultado": "2026-07-09"
+          }
+        },
+        "dr-022": {
+          "valor": 1,
+          "justificacion": "La actuación reciente es claramente favorable a Israel y contraria a sanciones y embargos, pero no se codifica como apoyo literalmente «sin reservas»: el propio grupo distingue conductas ilícitas perseguibles y la evidencia no elimina todo límite jurídico.",
+          "calidadEvidencia": "media",
+          "fuente": {
+            "tipo": "declaracion",
+            "titulo": "VOX rechaza el embargo y defiende la cooperación de seguridad con Israel",
+            "url": "https://www.voxespana.es/grupo_parlamentario/actividad-parlamentaria/asarta-denuncia-que-el-embargo-a-israel-pone-en-riesgo-la-seguridad-nacional-es-una-desconexion-tecnologica-suicida-20260304",
+            "fecha": "2026-03-04",
+            "consultado": "2026-07-09"
+          }
+        }
+      }
+    }
+  },
+  "posiciones": {
+    "nuc-001": {
+      "valor": 2,
+      "justificacion": "Propone que los vocales del CGPJ sean designados o propuestos por jueces y magistrados, no por reparto parlamentario.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral de VOX para las elecciones generales de 2023",
+        "url": "https://www.voxespana.es/wp-content/uploads/2023/07/Programa-VOX-2023-con-menos-peso.pdf",
+        "fecha": "2023-07",
+        "consultado": "2026-07-09"
+      }
+    },
+    "dem-005": {
+      "valor": -2,
+      "justificacion": "La selección de vocales judiciales del CGPJ por los propios jueces no es elección popular directa de jueces superiores.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Propuesta de VOX para volver al sistema de elección judicial del CGPJ",
+        "url": "https://www.voxespana.es/grupo_parlamentario/actividad-parlamentaria/vuelta-a-la-ley-de-1980-y-mas-requisitos-para-la-imparcialidad-la-propuesta-de-vox-para-renovar-el-cgpj-20231204",
+        "fecha": "2023-12-04",
+        "consultado": "2026-07-09"
+      }
+    },
+    "dem-008": {
+      "valor": 2,
+      "justificacion": "Su programa fundamenta la reforma del CGPJ en la independencia judicial y en evitar la injerencia partidista.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral de VOX para las elecciones generales de 2023",
+        "url": "https://www.voxespana.es/wp-content/uploads/2023/07/Programa-VOX-2023-con-menos-peso.pdf",
+        "fecha": "2023-07",
+        "consultado": "2026-07-09"
+      }
+    },
+    "ter-001": {
+      "valor": 2,
+      "justificacion": "Plantea devolver al Estado competencias esenciales, desmontar el sistema autonómico y centralizar sanidad, educación y justicia.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral de VOX para las elecciones generales de 2023",
+        "url": "https://www.voxespana.es/wp-content/uploads/2023/07/Programa-VOX-2023-con-menos-peso.pdf",
+        "fecha": "2023-07",
+        "consultado": "2026-07-09"
+      }
+    },
+    "ter-002": {
+      "valor": -2,
+      "justificacion": "Rechaza la autodeterminación territorial y propone sancionar e ilegalizar organizaciones secesionistas.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral de VOX para las elecciones generales de 2023",
+        "url": "https://www.voxespana.es/wp-content/uploads/2023/07/Programa-VOX-2023-con-menos-peso.pdf",
+        "fecha": "2023-07",
+        "consultado": "2026-07-09"
+      }
+    },
+    "ue-001": {
+      "valor": 2,
+      "justificacion": "Su programa europeo reclama devolver soberanía a las naciones y limitar la centralización política de la Unión.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral de VOX para las elecciones europeas de 2024",
+        "url": "https://www.voxespana.es/wp-content/uploads/2024/05/PROGRAMA-ELECTORAL-VOX-ELECCIONES-EUROPEAS-1.pdf",
+        "fecha": "2024-05",
+        "consultado": "2026-07-09"
+      }
+    },
+    "ue-002": {
+      "valor": -2,
+      "justificacion": "Rechaza una federación europea que absorba más soberanía nacional.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral de VOX para las elecciones europeas de 2024",
+        "url": "https://www.voxespana.es/wp-content/uploads/2024/05/PROGRAMA-ELECTORAL-VOX-ELECCIONES-EUROPEAS-1.pdf",
+        "fecha": "2024-05",
+        "consultado": "2026-07-09"
+      }
+    },
+    "def-002": {
+      "valor": -1,
+      "justificacion": "No propone una salida incondicional de la OTAN: exige que el Tratado cubra Ceuta y Melilla y deja la pertenencia sujeta a que la alianza proteja los intereses nacionales.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral de VOX para las elecciones generales de 2023",
+        "url": "https://www.voxespana.es/wp-content/uploads/2023/07/Programa-VOX-2023-con-menos-peso.pdf",
+        "fecha": "2023-07",
+        "consultado": "2026-07-09"
+      }
+    },
+    "der-005": {
+      "valor": 2,
+      "justificacion": "Sitúa la unidad nacional por encima del autogobierno y propone suspender autonomías usadas, a su juicio, contra la unidad de España.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral de VOX para las elecciones generales de 2023",
+        "url": "https://www.voxespana.es/wp-content/uploads/2023/07/Programa-VOX-2023-con-menos-peso.pdf",
+        "fecha": "2023-07",
+        "consultado": "2026-07-09"
+      }
+    },
+    "der-007": {
+      "valor": 2,
+      "justificacion": "Propone derogar la ley de aborto libre y proteger la vida desde la concepción; la posición es al menos tan restrictiva como el supuesto planteado por el ítem.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral de VOX para las elecciones generales de 2023",
+        "url": "https://www.voxespana.es/wp-content/uploads/2023/07/Programa-VOX-2023-con-menos-peso.pdf",
+        "fecha": "2023-07",
+        "consultado": "2026-07-09"
+      }
+    },
+    "der-008": {
+      "valor": 2,
+      "justificacion": "Incluye expresamente la derogación de la ley de eutanasia y su sustitución por cuidados paliativos.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral de VOX para las elecciones generales de 2023",
+        "url": "https://www.voxespana.es/wp-content/uploads/2023/07/Programa-VOX-2023-con-menos-peso.pdf",
+        "fecha": "2023-07",
+        "consultado": "2026-07-09"
+      }
+    },
+    "der-015": {
+      "valor": 2,
+      "justificacion": "Promete retirar el apoyo público a la implementación de la Agenda 2030 y rechaza su uso como marco político.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral de VOX para las elecciones generales de 2023",
+        "url": "https://www.voxespana.es/wp-content/uploads/2023/07/Programa-VOX-2023-con-menos-peso.pdf",
+        "fecha": "2023-07",
+        "consultado": "2026-07-09"
+      }
+    },
+    "der-017": {
+      "valor": 2,
+      "justificacion": "Da prioridad migratoria explícita a nacionales de la Iberosfera por idioma, historia y cultura compartidos.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral de VOX para las elecciones generales de 2023",
+        "url": "https://www.voxespana.es/wp-content/uploads/2023/07/Programa-VOX-2023-con-menos-peso.pdf",
+        "fecha": "2023-07",
+        "consultado": "2026-07-09"
+      }
+    },
+    "der-025": {
+      "valor": 2,
+      "justificacion": "Propone conocimiento previo y aceptación de las familias antes de que sus hijos reciban cualquier contenido afectivo-sexual o ideológico en el aula.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral de VOX para las elecciones generales de 2023",
+        "url": "https://www.voxespana.es/wp-content/uploads/2023/07/Programa-VOX-2023-con-menos-peso.pdf",
+        "fecha": "2023-07",
+        "consultado": "2026-07-09"
+      }
+    },
+    "der-026": {
+      "valor": 2,
+      "justificacion": "Propone ilegalizar partidos, asociaciones u ONG que persigan la secesión territorial.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral de VOX para las elecciones generales de 2023",
+        "url": "https://www.voxespana.es/wp-content/uploads/2023/07/Programa-VOX-2023-con-menos-peso.pdf",
+        "fecha": "2023-07",
+        "consultado": "2026-07-09"
+      }
+    },
+    "dr-003": {
+      "valor": 1,
+      "justificacion": "Su programa incluye expulsar a residentes legales en categorías concretas —delitos graves o reincidencia—, no retornar indistintamente a toda persona inmigrante regular.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral de VOX para las elecciones generales de 2023",
+        "url": "https://www.voxespana.es/wp-content/uploads/2023/07/Programa-VOX-2023-con-menos-peso.pdf",
+        "fecha": "2023-07",
+        "consultado": "2026-07-09"
+      }
+    },
+    "dr-004": {
+      "valor": 2,
+      "justificacion": "La prioridad explícita para la Iberosfera coincide directamente con el enunciado.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral de VOX para las elecciones generales de 2023",
+        "url": "https://www.voxespana.es/wp-content/uploads/2023/07/Programa-VOX-2023-con-menos-peso.pdf",
+        "fecha": "2023-07",
+        "consultado": "2026-07-09"
+      }
+    },
+    "dr-012": {
+      "valor": 2,
+      "justificacion": "Propone acabar con la financiación pública de los partidos y consultar esa supresión al conjunto del electorado.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral de VOX para las elecciones generales de 2023",
+        "url": "https://www.voxespana.es/wp-content/uploads/2023/07/Programa-VOX-2023-con-menos-peso.pdf",
+        "fecha": "2023-07",
+        "consultado": "2026-07-09"
+      }
+    },
+    "dr-018": {
+      "valor": 2,
+      "justificacion": "Propone derogar la legislación específica de violencia de género y sustituirla por protección frente a la violencia doméstica sin asimetría penal por sexo.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral de VOX para las elecciones generales de 2023",
+        "url": "https://www.voxespana.es/wp-content/uploads/2023/07/Programa-VOX-2023-con-menos-peso.pdf",
+        "fecha": "2023-07",
+        "consultado": "2026-07-09"
+      }
+    },
+    "dr-021": {
+      "valor": 2,
+      "justificacion": "Su programa propone desmontar el Estado autonómico y centralizar la administración y los servicios esenciales.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral de VOX para las elecciones generales de 2023",
+        "url": "https://www.voxespana.es/wp-content/uploads/2023/07/Programa-VOX-2023-con-menos-peso.pdf",
+        "fecha": "2023-07",
+        "consultado": "2026-07-09"
+      }
+    },
+    "dr-017": {
+      "valor": 2,
+      "justificacion": "En una declaración institucional de 2023 vinculó el apoyo a Israel con la respuesta frente a Hamás y la amenaza del islamismo radical.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Declaración de VOX en apoyo al Estado y al pueblo de Israel ante los ataques de Hamás",
+        "url": "https://www.voxespana.es/noticias/vox-propone-parlamento-andalucia-declaracion-institucional-apoyo-estado-pueblo-israel-ante-ataques-terroristas-hamas-20231010",
+        "fecha": "2023-10-10",
+        "consultado": "2026-07-09"
+      }
+    },
+    "dr-022": {
+      "valor": 1,
+      "justificacion": "Mantiene un apoyo fuerte a Israel y a su derecho de defensa, pero la evidencia no permite transformar «apoyo» en adhesión literalmente carente de toda reserva jurídica o humanitaria.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Declaración de VOX en apoyo al Estado y al pueblo de Israel ante los ataques de Hamás",
+        "url": "https://www.voxespana.es/noticias/vox-propone-parlamento-andalucia-declaracion-institucional-apoyo-estado-pueblo-israel-ante-ataques-terroristas-hamas-20231010",
+        "fecha": "2023-10-10",
+        "consultado": "2026-07-09"
+      }
+    },
+    "ene-001": {
+      "valor": 2,
+      "justificacion": "Defiende ampliar la generación nuclear e implantar reactores modulares en emplazamientos energéticos existentes.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral de VOX para las elecciones generales de 2023",
+        "url": "https://www.voxespana.es/wp-content/uploads/2023/07/Programa-VOX-2023-con-menos-peso.pdf",
+        "fecha": "2023-07",
+        "consultado": "2026-07-09"
+      }
+    },
+    "ene-003": {
+      "valor": -2,
+      "justificacion": "Propone extender la vida útil de las centrales existentes, de modo que rechaza mantener sin prórrogas el calendario actual de cierre.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral de VOX para las elecciones generales de 2023",
+        "url": "https://www.voxespana.es/wp-content/uploads/2023/07/Programa-VOX-2023-con-menos-peso.pdf",
+        "fecha": "2023-07",
+        "consultado": "2026-07-09"
+      }
+    },
+    "ene-009": {
+      "valor": 2,
+      "justificacion": "Incluye de forma expresa el desarrollo e implantación de reactores modulares pequeños.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral de VOX para las elecciones generales de 2023",
+        "url": "https://www.voxespana.es/wp-content/uploads/2023/07/Programa-VOX-2023-con-menos-peso.pdf",
+        "fecha": "2023-07",
+        "consultado": "2026-07-09"
+      }
+    },
+    "lab-004": {
+      "valor": 2,
+      "justificacion": "Exige que sindicatos y patronales se sostengan con financiación de sus integrantes y no con subvenciones públicas.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral de VOX para las elecciones generales de 2023",
+        "url": "https://www.voxespana.es/wp-content/uploads/2023/07/Programa-VOX-2023-con-menos-peso.pdf",
+        "fecha": "2023-07",
+        "consultado": "2026-07-09"
+      }
+    },
+    "lab-006": {
+      "valor": -2,
+      "justificacion": "Aunque critica a las centrales mayoritarias, su modelo reciente defiende pluralidad de sindicatos y menores barreras de representación, no un sindicato único estatal.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "García Gomis defiende un modelo de representación sindical más libre",
+        "url": "https://www.voxespana.es/grupo_parlamentario/actividad-parlamentaria/garcia-gomis-defiende-un-modelo-de-representacion-sindical-mas-libre-cierran-con-llave-el-pluralismo-en-el-mundo-laboral-20260610",
+        "fecha": "2026-06-10",
+        "consultado": "2026-07-09"
+      }
+    },
+    "lab-019": {
+      "valor": -2,
+      "justificacion": "No propone subvenciones auditadas en igualdad, sino eliminar todas las subvenciones públicas a sindicatos y patronales.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral de VOX para las elecciones generales de 2023",
+        "url": "https://www.voxespana.es/wp-content/uploads/2023/07/Programa-VOX-2023-con-menos-peso.pdf",
+        "fecha": "2023-07",
+        "consultado": "2026-07-09"
+      }
+    },
+    "fem-005": {
+      "valor": 2,
+      "justificacion": "Propone derogar la ley de eutanasia y reforzar cuidados paliativos.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral de VOX para las elecciones generales de 2023",
+        "url": "https://www.voxespana.es/wp-content/uploads/2023/07/Programa-VOX-2023-con-menos-peso.pdf",
+        "fecha": "2023-07",
+        "consultado": "2026-07-09"
+      }
+    },
+    "fem-006": {
+      "valor": 2,
+      "justificacion": "Busca derogar la ley de plazos y proteger la vida desde la concepción; su posición es como mínimo favorable a una regulación limitada a supuestos tasados.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral de VOX para las elecciones generales de 2023",
+        "url": "https://www.voxespana.es/wp-content/uploads/2023/07/Programa-VOX-2023-con-menos-peso.pdf",
+        "fecha": "2023-07",
+        "consultado": "2026-07-09"
+      }
+    },
+    "fem-007": {
+      "valor": 2,
+      "justificacion": "Garantiza la aceptación parental previa de cualquier contenido afectivo-sexual impartido a menores en el aula.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral de VOX para las elecciones generales de 2023",
+        "url": "https://www.voxespana.es/wp-content/uploads/2023/07/Programa-VOX-2023-con-menos-peso.pdf",
+        "fecha": "2023-07",
+        "consultado": "2026-07-09"
+      }
+    },
+    "fem-011": {
+      "valor": -2,
+      "justificacion": "Propone derogar la asimetría penal por sexo de la ley de violencia de género y sustituirla por protección ante la violencia doméstica.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral de VOX para las elecciones generales de 2023",
+        "url": "https://www.voxespana.es/wp-content/uploads/2023/07/Programa-VOX-2023-con-menos-peso.pdf",
+        "fecha": "2023-07",
+        "consultado": "2026-07-09"
+      }
+    }
+  }
+}

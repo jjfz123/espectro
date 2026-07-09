@@ -21,6 +21,20 @@
     "descripcion": "El eje distintivo del sistema de partidos español, ortogonal al izquierda-derecha."
   },
   {
+    "id": "modelo-territorial",
+    "nombre": "Arquitectura territorial",
+    "poloNegativo": "Pacto confederal entre territorios soberanos",
+    "poloPositivo": "Estado unitario y centralizado",
+    "descripcion": "Subtipo del eje territorial: distingue confederación, federación, Estado autonómico y modelo unitario. La independencia, la asimetría y el procedimiento de secesión se miden aparte.",
+    "subEje": true,
+    "referencias": [
+      { "valor": -100, "etiqueta": "Confederación" },
+      { "valor": -35, "etiqueta": "Federación" },
+      { "valor": 35, "etiqueta": "Estado autonómico" },
+      { "valor": 100, "etiqueta": "Estado unitario" }
+    ]
+  },
+  {
     "id": "ue",
     "nombre": "Integración europea",
     "poloNegativo": "Europeísmo (más integración)",
@@ -51,10 +65,10 @@
   },
   {
     "id": "organizacion",
-    "nombre": "Modelo organizativo (izquierda)",
-    "poloNegativo": "Horizontalismo, consejos y asambleas",
-    "poloPositivo": "Vanguardismo, partido dirigente",
-    "descripcion": "Sub-eje que separa leninismo/estalinismo/maoísmo de luxemburguismo, consejismo y anarcocomunismo.",
+    "nombre": "Organización interna",
+    "poloNegativo": "Horizontalismo, asambleas y poder de las bases",
+    "poloPositivo": "Centralización, disciplina y dirección jerárquica",
+    "descripcion": "Sub-eje transversal para partidos, movimientos y sindicatos: quién decide, cómo se elige la dirección y cuánto obliga la disciplina interna.",
     "subEje": true
   },
   {
@@ -92,10 +106,17 @@
   {
     "id": "laicismo",
     "nombre": "Religión y Estado",
-    "poloNegativo": "Laicismo estricto (denuncia del Concordato, sin religión en lo público)",
-    "poloPositivo": "Confesionalismo (presencia pública de la religión, acuerdos Iglesia-Estado)",
-    "descripcion": "Sub-eje transversal: separa el laicismo (IE, sector PSOE, izquierda) de la aconfesionalidad práctica (PP) y del nacional-catolicismo.",
-    "subEje": true
+    "poloNegativo": "Ateísmo de Estado",
+    "poloPositivo": "Teocracia",
+    "descripcion": "Continuo institucional de cinco referencias: ateísmo de Estado, laicismo, aconfesionalidad, confesionalidad y teocracia. No mide la fe personal.",
+    "subEje": true,
+    "referencias": [
+      { "valor": -100, "etiqueta": "Ateísmo de Estado" },
+      { "valor": -50, "etiqueta": "Laicismo" },
+      { "valor": 0, "etiqueta": "Aconfesionalidad" },
+      { "valor": 50, "etiqueta": "Confesionalidad" },
+      { "valor": 100, "etiqueta": "Teocracia" }
+    ]
   },
   {
     "id": "animalismo",
@@ -103,6 +124,102 @@
     "poloNegativo": "Primacía de usos humanos y tradiciones (caza, toros, ganadería)",
     "poloPositivo": "Derechos de los animales como sujetos",
     "descripcion": "Sub-eje del módulo verde-animalista: separa el animalismo de derechos (PACMA) del bienestarismo regulador y del agrarismo tradicional.",
+    "subEje": true
+  },
+  {
+    "id": "institucionalismo",
+    "nombre": "Relación con el orden parlamentario",
+    "poloNegativo": "Ruptura o sustitución del orden parlamentario",
+    "poloPositivo": "Reforma dentro del orden constitucional",
+    "descripcion": "Distingue la aceptación del marco parlamentario liberal de las propuestas que quieren sustituirlo, sin presuponer si la alternativa es más participativa o más autoritaria.",
+    "subEje": true
+  },
+  {
+    "id": "democracia-directa",
+    "nombre": "Forma de decisión democrática",
+    "poloNegativo": "Representación y delegación estable",
+    "poloPositivo": "Decisión directa, mandato y revocación",
+    "descripcion": "Referendos, iniciativa popular, mandato imperativo, revocación y elección directa frente a la delegación en representantes.",
+    "subEje": true
+  },
+  {
+    "id": "pluralismo-institucional",
+    "nombre": "Pluralismo y contrapesos",
+    "poloNegativo": "Concentración del poder político",
+    "poloPositivo": "Separación de poderes y contrapesos",
+    "descripcion": "Independencia judicial, oposición legal, controles al ejecutivo y distribución institucional del poder.",
+    "subEje": true
+  },
+  {
+    "id": "estatismo",
+    "nombre": "Papel directivo del Estado",
+    "poloNegativo": "Autonomía social y antiestatismo",
+    "poloPositivo": "Dirección y planificación estatal",
+    "descripcion": "Mide cuánto debe dirigir el Estado la vida económica y social; es distinto de quién posee la riqueza y evita confundir antiestatismos de signos opuestos.",
+    "subEje": true
+  },
+  {
+    "id": "poder-laboral",
+    "nombre": "Poder colectivo en el trabajo",
+    "poloNegativo": "Relación laboral individual y dirección empresarial",
+    "poloPositivo": "Negociación, cogestión y control colectivo de trabajadores",
+    "descripcion": "Capacidad de sindicatos, comités y plantillas para negociar, vetar o dirigir decisiones en los centros de trabajo.",
+    "subEje": true
+  },
+  {
+    "id": "autonomia-sindical",
+    "nombre": "Autonomía sindical",
+    "poloNegativo": "Integración o subordinación al Estado",
+    "poloPositivo": "Autonomía frente a Estado, empresas y partidos",
+    "descripcion": "Separa el corporativismo estatal de los modelos sindicales autónomos, aunque ambos puedan defender organización colectiva.",
+    "subEje": true
+  },
+  {
+    "id": "energia-nuclear",
+    "nombre": "Energía nuclear civil",
+    "poloNegativo": "Abandono de la energía nuclear",
+    "poloPositivo": "Mantenimiento y expansión nuclear",
+    "descripcion": "Eje independiente del ecologismo general: distingue decrecentismo antinuclear, renovabilismo y ecologismo pronuclear.",
+    "subEje": true
+  },
+  {
+    "id": "uso-fuerza",
+    "nombre": "Uso de la fuerza militar",
+    "poloNegativo": "Pacifismo y no intervención",
+    "poloPositivo": "Intervención y disuasión militar",
+    "descripcion": "Disponibilidad para emplear fuerza militar, separada de la pertenencia a la OTAN o de la orientación geopolítica concreta.",
+    "subEje": true
+  },
+  {
+    "id": "armas-nucleares",
+    "nombre": "Armas nucleares",
+    "poloNegativo": "Desarme y prohibición nuclear",
+    "poloPositivo": "Disuasión y capacidad nuclear",
+    "descripcion": "Aceptación de paraguas nucleares, disuasión aliada o arsenal propio frente al desarme unilateral o multilateral.",
+    "subEje": true
+  },
+  {
+    "id": "implicacion-internacional",
+    "nombre": "Implicación internacional",
+    "poloNegativo": "Aislacionismo o neutralidad estricta",
+    "poloPositivo": "Cooperación y compromiso multilateral",
+    "descripcion": "Grado de participación política exterior; no presupone apoyo a una alianza militar determinada.",
+    "subEje": true
+  },
+  {
+    "id": "libertad-conciencia",
+    "nombre": "Libertad de conciencia",
+    "poloNegativo": "Imposición o represión estatal de creencias",
+    "poloPositivo": "Libertad de creer, no creer y cambiar de convicción",
+    "descripcion": "Complementa el eje institucional de religión: permite distinguir laicismo liberal de ateísmo de Estado, y confesionalidad tolerante de teocracia coercitiva.",
+    "subEje": true
+  },
+  {
+    "id": "libertades-civiles",
+    "nombre": "Libertades civiles y protesta",
+    "poloNegativo": "Prevención y potestades amplias de seguridad",
+    "poloPositivo": "Garantías de privacidad, información y protesta",
+    "descripcion": "Equilibrio entre seguridad pública y derechos de reunión, información, privacidad e identificación. No presupone una posición económica ni territorial.",
     "subEje": true
   }
 ]

@@ -1,0 +1,215 @@
+{
+  "id": "crt",
+  "nombre": "Corriente Revolucionaria de Trabajadores y Trabajadoras",
+  "siglas": "CRT",
+  "ambito": "estatal",
+  "confianza": "verificada",
+  "web": "https://crtweb.org/",
+  "revisado": "2026-07-09",
+  "actividad": "activa",
+  "excepcionCatalogo": {
+    "motivo": "comunista-activa",
+    "justificacion": "Se incorpora por la excepción de cobertura de organizaciones comunistas activas y por su candidatura europea de 2024. La CRT se autodenomina organización, por lo que no se fuerza la etiqueta de partido.",
+    "fuente": {
+      "tipo": "autoubicacion",
+      "titulo": "¿Qué es y por qué lucha la CRT?",
+      "url": "https://crtweb.org/por-que-luchamos/",
+      "fecha": "2026",
+      "consultado": "2026-07-09"
+    }
+  },
+  "posiciones": {
+    "izq-001": {
+      "valor": 2,
+      "justificacion": "Se define como organización anticapitalista y revolucionaria orientada a una revolución socialista internacional.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "autoubicacion",
+        "titulo": "¿Qué es y por qué lucha la CRT?",
+        "url": "https://crtweb.org/por-que-luchamos/",
+        "fecha": "2026",
+        "consultado": "2026-07-09"
+      }
+    },
+    "izq-002": {
+      "valor": 2,
+      "justificacion": "Busca construir una organización revolucionaria centralizada democráticamente, con programa y estrategia comunes.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "autoubicacion",
+        "titulo": "¿Qué es y por qué lucha la CRT?",
+        "url": "https://crtweb.org/por-que-luchamos/",
+        "fecha": "2026",
+        "consultado": "2026-07-09"
+      }
+    },
+    "dem-015": {
+      "valor": 2,
+      "justificacion": "Describe su centralización democrática como libertad plena de debate interno seguida de intervención unificada en la lucha política.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "autoubicacion",
+        "titulo": "¿Qué es y por qué lucha la CRT?",
+        "url": "https://crtweb.org/por-que-luchamos/",
+        "fecha": "2026",
+        "consultado": "2026-07-09"
+      }
+    },
+    "izq-005": {
+      "valor": 2,
+      "justificacion": "Propone nacionalización, planificación científica y gestión democrática desde abajo de los sectores decisivos.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Ocho propuestas de la CRT para las elecciones europeas de 2024",
+        "url": "https://crtweb.org/programa-elecciones-europeas/",
+        "fecha": "2024-05",
+        "consultado": "2026-07-09"
+      }
+    },
+    "izq-019": {
+      "valor": 2,
+      "justificacion": "Declara que no pretende transformar la UE desde sus instituciones y presenta la candidatura para hacer oír una voz anticapitalista y promover movilización y autoorganización.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Ocho propuestas de la CRT para las elecciones europeas de 2024",
+        "url": "https://crtweb.org/programa-elecciones-europeas/",
+        "fecha": "2024-05",
+        "consultado": "2026-07-09"
+      }
+    },
+    "izq-031": {
+      "valor": -2,
+      "justificacion": "Presentó candidatura propia a las elecciones europeas de 2024, por lo que no sostiene un boicot electoral general.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Ocho propuestas de la CRT para las elecciones europeas de 2024",
+        "url": "https://crtweb.org/programa-elecciones-europeas/",
+        "fecha": "2024-05",
+        "consultado": "2026-07-09"
+      }
+    },
+    "dem-002": {
+      "valor": 2,
+      "justificacion": "Propone que todos los cargos sean electivos y revocables por sus electores.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Ocho propuestas de la CRT para las elecciones europeas de 2024",
+        "url": "https://crtweb.org/programa-elecciones-europeas/",
+        "fecha": "2024-05",
+        "consultado": "2026-07-09"
+      }
+    },
+    "izq-036": {
+      "valor": 2,
+      "justificacion": "Plantea que ningún cargo de la Unión Europea cobre más que el salario promedio de un trabajador.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Ocho propuestas de la CRT para las elecciones europeas de 2024",
+        "url": "https://crtweb.org/programa-elecciones-europeas/",
+        "fecha": "2024-05",
+        "consultado": "2026-07-09"
+      }
+    },
+    "lab-008": {
+      "valor": 2,
+      "justificacion": "Reclama nacionalizar banca y empresas estratégicas bajo control de trabajadores y usuarios y planificar desde abajo.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Ocho propuestas de la CRT para las elecciones europeas de 2024",
+        "url": "https://crtweb.org/programa-elecciones-europeas/",
+        "fecha": "2024-05",
+        "consultado": "2026-07-09"
+      }
+    },
+    "def-002": {
+      "valor": 2,
+      "justificacion": "Su programa exige terminar con la expansión y la presencia de la OTAN y retirar las fuerzas ligadas a esa política militar.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Ocho propuestas de la CRT para las elecciones europeas de 2024",
+        "url": "https://crtweb.org/programa-elecciones-europeas/",
+        "fecha": "2024-05",
+        "consultado": "2026-07-09"
+      }
+    },
+    "sd-002": {
+      "valor": -2,
+      "justificacion": "Rechaza el rearme y los presupuestos militaristas, con la consigna de no destinar más recursos a esa escalada.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Ocho propuestas de la CRT para las elecciones europeas de 2024",
+        "url": "https://crtweb.org/programa-elecciones-europeas/",
+        "fecha": "2024-05",
+        "consultado": "2026-07-09"
+      }
+    },
+    "geo-003": {
+      "valor": 2,
+      "justificacion": "Pide retirar tropas y militares desplegados en el extranjero, detener envíos de armas y rechazar la política de bloques.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Ocho propuestas de la CRT para las elecciones europeas de 2024",
+        "url": "https://crtweb.org/programa-elecciones-europeas/",
+        "fecha": "2024-05",
+        "consultado": "2026-07-09"
+      }
+    },
+    "eco-001": {
+      "valor": 2,
+      "justificacion": "Propone financiar servicios públicos mediante impuestos a las grandes fortunas.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Ocho propuestas de la CRT para las elecciones europeas de 2024",
+        "url": "https://crtweb.org/programa-elecciones-europeas/",
+        "fecha": "2024-05",
+        "consultado": "2026-07-09"
+      }
+    },
+    "eco-011": {
+      "valor": 2,
+      "justificacion": "Defiende reducir la jornada y repartir las horas de trabajo sin reducción salarial.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Ocho propuestas de la CRT para las elecciones europeas de 2024",
+        "url": "https://crtweb.org/programa-elecciones-europeas/",
+        "fecha": "2024-05",
+        "consultado": "2026-07-09"
+      }
+    },
+    "izq-046": {
+      "valor": 2,
+      "justificacion": "Exige libertad de movimiento, cierre de los CIE y plenos derechos de ciudadanía y trabajo para todas las personas migrantes.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Ocho propuestas de la CRT para las elecciones europeas de 2024",
+        "url": "https://crtweb.org/programa-elecciones-europeas/",
+        "fecha": "2024-05",
+        "consultado": "2026-07-09"
+      }
+    },
+    "ter-002": {
+      "valor": 2,
+      "justificacion": "Defiende expresamente el derecho de autodeterminación de pueblos como el catalán y el vasco.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Ocho propuestas de la CRT para las elecciones europeas de 2024",
+        "url": "https://crtweb.org/programa-elecciones-europeas/",
+        "fecha": "2024-05",
+        "consultado": "2026-07-09"
+      }
+    }
+  }
+}

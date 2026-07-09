@@ -58,12 +58,7 @@
     "id": "eus-004",
     "texto": "La política penitenciaria con los presos de ETA debe regirse por las reglas comunes de reinserción aplicables a cualquier otro preso.",
     "modulo": "territorial-euskadi-navarra",
-    "ejes": [
-      {
-        "eje": "social",
-        "carga": -0.5
-      }
-    ],
+    "ejes": [],
     "polaridad": "positiva",
     "tags": [
       "presos",
@@ -71,7 +66,7 @@
       "normalización"
     ],
     "estado": "piloto",
-    "notas": "Discrimina: Consenso de normalización PNV-Bildu-PSE frente a la excepcionalidad penitenciaria defendida por PP, Vox y UPN; dentro del primer bloque, Bildu sin matices y PNV/PSE con condiciones. | Esperado: EH Bildu +2, PNV +1, PSE-EE +1, Geroa Bai +1, PP -2, UPN -2, VOX -2. | Redactado con neutralidad: apela a reglas comunes, no a gestos políticos; evita términos como 'acercamiento' ya caducados."
+    "notas": "Solo-matching: separa normalización penitenciaria, condiciones adicionales y excepcionalidad, sin proyectarlo sobre el eje social/cultural ni deducirlo del soberanismo. | Esperado: EH Bildu +2, PNV +1, PSE-EE +1, Geroa Bai +1, PP -2, UPN -2, VOX -2. | Redactado con neutralidad: apela a reglas comunes, no a gestos políticos; evita términos como 'acercamiento' ya caducados."
   },
   {
     "id": "eus-005",
@@ -111,5 +106,75 @@
     "terminos": [
       "zonificacion-euskera"
     ]
+  },
+  {
+    "id": "eus-007",
+    "texto": "La actuación de ETA fue injusta e ilegítima; sus objetivos políticos no atenúan esa valoración.",
+    "modulo": "territorial-euskadi-navarra",
+    "ejes": [],
+    "polaridad": "positiva",
+    "tags": [
+      "ETA",
+      "evaluación histórica",
+      "legitimidad de la violencia"
+    ],
+    "estado": "piloto",
+    "notas": "Evalúa el juicio histórico sobre ETA, no el objetivo independentista. No se deduce una respuesta ni del soberanismo ni del españolismo. | Evidencia directa: EAJ-PNV +2 y UPN +2. EH Bildu no recibe valor: su Declaración del Dieciocho de Octubre reconoce específicamente el sufrimiento causado por ETA y afirma que nunca debió producirse, pero no adopta esta calificación completa; ausencia de dato no significa desacuerdo. | Solo matching y solo módulo territorial exhaustivo."
+  },
+  {
+    "id": "eus-008",
+    "texto": "Cualquier proyecto sobre el estatus político de Euskadi o Navarra debe perseguirse exclusivamente por vías pacíficas y democráticas.",
+    "modulo": "territorial-euskadi-navarra",
+    "ejes": [],
+    "polaridad": "positiva",
+    "tags": [
+      "estrategia democrática",
+      "no violencia",
+      "estatus político"
+    ],
+    "estado": "piloto",
+    "notas": "Separa la estrategia presente y futura de la valoración del pasado. Permite registrar expresamente el compromiso democrático de una formación soberanista sin inferirlo de su posición territorial. | Evidencia directa: EAJ-PNV +2 y EH Bildu +2. No se fuerza valor para otras formaciones sin una formulación suficientemente próxima. | Solo matching y solo módulo territorial exhaustivo."
+  },
+  {
+    "id": "eus-009",
+    "texto": "Las instituciones deben preservar específicamente la memoria de las víctimas de ETA y reparar el daño que sufrieron, además de reconocer otras vulneraciones de derechos.",
+    "modulo": "territorial-euskadi-navarra",
+    "ejes": [],
+    "polaridad": "positiva",
+    "tags": [
+      "víctimas de ETA",
+      "memoria",
+      "reparación"
+    ],
+    "estado": "piloto",
+    "notas": "Mide reconocimiento y reparación específicos sin obligar a excluir a otras víctimas. No mezcla memoria con política penitenciaria. | Evidencia directa: EAJ-PNV +2, EH Bildu +2 y UPN +2. La puntuación de EH Bildu procede de una declaración conjunta leída por su coordinador general y de su ponencia vigente, no de su soberanismo. | Solo matching y solo módulo territorial exhaustivo."
+  },
+  {
+    "id": "eus-010",
+    "texto": "Las políticas públicas de memoria deben reconocer y reparar también a quienes sufrieron vulneraciones de derechos cometidas por agentes del Estado.",
+    "modulo": "territorial-euskadi-navarra",
+    "ejes": [],
+    "polaridad": "positiva",
+    "tags": [
+      "víctimas del Estado",
+      "memoria inclusiva",
+      "reparación"
+    ],
+    "estado": "piloto",
+    "notas": "Complementa la memoria específica de las víctimas de ETA y evita presentar ambas preguntas como alternativas excluyentes. | Evidencia directa: EAJ-PNV +2 y EH Bildu +2. No se atribuye posición a UPN por mera oposición a la izquierda abertzale. | Solo matching y solo módulo territorial exhaustivo."
+  },
+  {
+    "id": "eus-011",
+    "texto": "Reconocer otras vulneraciones de derechos no debe utilizarse para minimizar, justificar o legitimar la violencia de ETA.",
+    "modulo": "territorial-euskadi-navarra",
+    "ejes": [],
+    "polaridad": "positiva",
+    "tags": [
+      "memoria crítica",
+      "no justificación",
+      "ETA"
+    ],
+    "estado": "piloto",
+    "notas": "Distingue memoria inclusiva de equivalencia causal o justificación. No presupone que reconocer víctimas del Estado minimice a las de ETA. | Evidencia directa: EAJ-PNV +2. Para EH Bildu se conserva ausencia de dato porque sus fuentes verificadas no formulan este criterio de no minimización en términos equivalentes. | Solo matching y solo módulo territorial exhaustivo."
   }
 ]

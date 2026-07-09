@@ -1,0 +1,36 @@
+{
+  "id": "uso",
+  "nombre": "Unión Sindical Obrera",
+  "siglas": "USO",
+  "ambito": "estatal",
+  "confianza": "verificada",
+  "web": "https://www.uso.es/",
+  "revisado": "2026-07-09",
+  "advertencia": "La similitud doctrinal no acredita implantación en tu empresa ni constituye una recomendación de afiliación.",
+  "posiciones": {
+    "lab-004": {
+      "valor": 2,
+      "justificacion": "Su principio público de autofinanciación sostiene que la actividad ordinaria debe vivir de cuotas de afiliación.",
+      "calidadEvidencia": "alta",
+      "fuente": { "tipo": "declaracion", "titulo": "Qué es la USO", "url": "https://www.uso.es/que-es-la-uso/", "fecha": "2026", "consultado": "2026-07-09" }
+    },
+    "lab-005": {
+      "valor": 2,
+      "justificacion": "Se declara independiente de gobiernos, partidos y patronales.",
+      "calidadEvidencia": "alta",
+      "fuente": { "tipo": "estatutos", "titulo": "Estatutos del XII Congreso", "url": "https://www.uso.es/wp-content/uploads/2022/05/sindicato-uso-Estatutos-12Congreso.pdf", "fecha": "2022", "consultado": "2026-07-09" }
+    },
+    "lab-020": {
+      "valor": 2,
+      "justificacion": "Participa en elecciones laborales y reclama que más organizaciones puedan promoverlas en un sistema plural.",
+      "calidadEvidencia": "alta",
+      "fuente": { "tipo": "declaracion", "titulo": "Regeneración democrática sindical en España", "url": "https://www.uso.es/regeneracion-democratica-sindical-en-espana/", "fecha": "2026", "consultado": "2026-07-09" }
+    },
+    "lab-025": {
+      "valor": 2,
+      "justificacion": "Mantiene una caja de resistencia financiada por la organización para sostener conflictos prolongados.",
+      "calidadEvidencia": "alta",
+      "fuente": { "tipo": "declaracion", "titulo": "Qué es la USO", "url": "https://www.uso.es/que-es-la-uso/", "fecha": "2026", "consultado": "2026-07-09" }
+    }
+  }
+}

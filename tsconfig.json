@@ -7,7 +7,14 @@
     "noUncheckedIndexedAccess": true,
     "skipLibCheck": true,
     "noEmit": true,
-    "resolveJsonModule": true
+    "resolveJsonModule": true,
+    "types": ["node"],
+    "baseUrl": ".",
+    "paths": {
+      "@engine": ["src/engine/index.ts"],
+      "@engine/*": ["src/engine/*"],
+      "@data/*": ["data/*"]
+    }
   },
-  "include": ["src", "tests"]
+  "include": ["src", "tests", "types"]
 }

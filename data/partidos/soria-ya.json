@@ -1,0 +1,110 @@
+{
+  "id": "soria-ya",
+  "nombre": "Soria ¡YA!",
+  "siglas": "SY",
+  "ambito": "autonomico",
+  "tipo": "partido",
+  "ccaa": ["castilla-y-leon"],
+  "confianza": "verificada",
+  "web": "https://soriaya.org/",
+  "revisado": "2026-07-10",
+  "actividad": "activa",
+  "posiciones": {
+    "eco-006": {
+      "valor": 2,
+      "justificacion": "Propone vivienda pública en todas las comarcas y al menos cuatro viviendas públicas en cada municipio, incluso en los de menor tamaño.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral de Soria ¡YA! para Castilla y León 2026",
+        "url": "https://soriaya.org/wp-content/uploads/2026/03/Programa-Soria-Ya-2026.pdf",
+        "fecha": "2026-02",
+        "consultado": "2026-07-10"
+      }
+    },
+    "ene-007": {
+      "valor": 2,
+      "justificacion": "Propone una empresa pública o semipública autonómica de generación renovable y el impulso de comunidades energéticas locales.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral de Soria ¡YA! para Castilla y León 2026",
+        "url": "https://soriaya.org/wp-content/uploads/2026/03/Programa-Soria-Ya-2026.pdf",
+        "fecha": "2026-02",
+        "consultado": "2026-07-10"
+      }
+    },
+    "nac-010": {
+      "valor": 2,
+      "justificacion": "Exige que los fondos públicos no se repartan solo por habitantes y que incorporen despoblación, envejecimiento, evolución demográfica y coste de la dispersión.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral de Soria ¡YA! para Castilla y León 2026",
+        "url": "https://soriaya.org/wp-content/uploads/2026/03/Programa-Soria-Ya-2026.pdf",
+        "fecha": "2026-02",
+        "consultado": "2026-07-10"
+      }
+    },
+    "nac-011": {
+      "valor": 0,
+      "justificacion": "Prioriza recuperar y modernizar el ferrocarril convencional, pero reclama también conexión de Soria con la alta velocidad; no adopta la moratoria general del enunciado.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Soria ¡YA! convoca para exigir un ferrocarril digno para la provincia",
+        "url": "https://soriaya.org/soria-ya-convoca-a-la-ciudadania-soriana-a-manifestarse-el-11-de-julio-para-exigir-un-ferrocarril-digno-para-la-provincia/",
+        "fecha": "2025",
+        "consultado": "2026-07-10"
+      }
+    },
+    "nac-015": {
+      "valor": -1,
+      "justificacion": "Sus estatutos adoptan como marco propio la autonomía de Castilla y León y su programa actúa dentro de esa comunidad; no formula, sin embargo, un veto expreso al proyecto leonés.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "estatutos",
+        "titulo": "Estatutos del partido político Soria ¡YA!",
+        "url": "https://soriaya.org/wp-content/uploads/2024/09/2024-09-30-Estatutos-partido-politico-Soria-YA.pdf",
+        "fecha": "2024-09-30",
+        "consultado": "2026-07-10"
+      }
+    },
+    "nac-016": {
+      "valor": 2,
+      "justificacion": "Declara la transversalidad entre ideologías como valor y dirige su acción al conjunto de la ciudadanía, sin apropiación del bien común por una ideología.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "estatutos",
+        "titulo": "Estatutos del partido político Soria ¡YA!",
+        "url": "https://soriaya.org/wp-content/uploads/2024/09/2024-09-30-Estatutos-partido-politico-Soria-YA.pdf",
+        "fecha": "2024-09-30",
+        "consultado": "2026-07-10"
+      }
+    },
+    "dem-014": {
+      "valor": -1,
+      "justificacion": "Toda la afiliación integra el Congreso, pero la estrategia electoral y los pactos se delegan en la Asamblea Plenaria y la dirección; las consultas generales son posibles, no obligatorias para toda decisión estratégica.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "estatutos",
+        "titulo": "Estatutos del partido político Soria ¡YA!",
+        "url": "https://soriaya.org/wp-content/uploads/2024/09/2024-09-30-Estatutos-partido-politico-Soria-YA.pdf",
+        "fecha": "2024-09-30",
+        "consultado": "2026-07-10"
+      }
+    },
+    "dem-015": {
+      "valor": 1,
+      "justificacion": "Una vez adoptada una decisión por el órgano competente, sus estatutos exigen unidad de acción y disciplina a afiliados, cargos y representantes, dentro de una estructura interna democrática.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "estatutos",
+        "titulo": "Estatutos del partido político Soria ¡YA!",
+        "url": "https://soriaya.org/wp-content/uploads/2024/09/2024-09-30-Estatutos-partido-politico-Soria-YA.pdf",
+        "fecha": "2024-09-30",
+        "consultado": "2026-07-10"
+      }
+    }
+  }
+}

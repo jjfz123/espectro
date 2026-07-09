@@ -109,5 +109,35 @@
     ],
     "estado": "piloto",
     "notas": "Discrimina: Separa a Junts y Aliança Catalana (bandera actual, uso restrictivo de la competencia) de CUP y Comuns (recelan del marco de expulsiones aunque acepten descentralizar); el PSC pactó la delegación con Junts, frente al rechazo frontal de PP y Vox. Corta el soberanismo por un sitio distinto al de cat-04. | Esperado: Junts +2, Aliança Catalana +2, ERC +1, PSC +1, CUP +0, Comuns -1, PP -2, VOX -2. | Formulado como demanda competencial estable, no como la proposición de ley concreta de 2025; 'incluida la gestión de permisos y expulsiones' define el alcance de una sola competencia, no es doble barril. | [Añadido por el revisor para cubrir un hueco]"
+  },
+  {
+    "id": "cat-007",
+    "texto": "En un referéndum acordado y con garantías, una victoria del no debería cerrar la vía independentista durante al menos una generación.",
+    "modulo": "territorial-catalunya",
+    "ejes": [],
+    "polaridad": "positiva",
+    "tags": ["referendum", "independencia", "mandato-democratico"],
+    "estado": "piloto",
+    "notas": "Solo-matching: mide duración y reversibilidad del mandato, no apoyo o rechazo a la independencia. Un independentista puede aceptar el cierre temporal y un no independentista rechazar fijar una generación."
+  },
+  {
+    "id": "cat-008",
+    "texto": "En una Cataluña independiente, catalán, castellano y aranés deberían conservar reconocimiento oficial allí donde corresponda.",
+    "modulo": "territorial-catalunya",
+    "ejes": [],
+    "polaridad": "positiva",
+    "tags": ["cooficialidad", "castellano", "aranes", "independencia"],
+    "estado": "piloto",
+    "notas": "Solo-matching: distingue modelos lingüísticos dentro del independentismo y evita inferirlos de querer un Estado propio o de apoyar la inmersión actual."
+  },
+  {
+    "id": "cat-009",
+    "texto": "Tras una eventual independencia, los partidos contrarios a ella deberían poder competir y gobernar si ganan elecciones libres.",
+    "modulo": "territorial-catalunya",
+    "ejes": [{ "eje": "pluralismo-institucional", "carga": 1 }],
+    "polaridad": "positiva",
+    "tags": ["pluralismo", "oposicion", "independencia"],
+    "estado": "piloto",
+    "notas": "Salvaguarda pluralista aplicable a independentismos de izquierda y derecha; no atribuye antipluralismo por defender unilateralidad ni puntúa la preferencia territorial."
   }
 ]

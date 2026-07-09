@@ -1,0 +1,122 @@
+{
+  "id": "junts",
+  "nombre": "Junts per Catalunya",
+  "siglas": "Junts",
+  "ambito": "autonomico",
+  "tipo": "partido",
+  "ccaa": ["catalunya"],
+  "confianza": "verificada",
+  "web": "https://junts.cat/",
+  "revisado": "2026-07-09",
+  "actividad": "activa",
+  "posiciones": {
+    "nac-001": {
+      "valor": 1,
+      "justificacion": "Mantiene confrontación y legitimidad del 1-O, pero su estrategia combina presión, negociación y construcción de poder sin automatizar la unilateralidad ante cualquier bloqueo.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Ponència 1: estratègia, Congrés Nacional de Junts",
+        "url": "https://web.junts.cat/wp-content/uploads/2024/10/Ponencia-1.pdf",
+        "fecha": "2024-10",
+        "consultado": "2026-07-09"
+      }
+    },
+    "nac-002": {
+      "valor": 2,
+      "justificacion": "Su objetivo declarado es constituir Catalunya como Estado independiente.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Ponència 1: estratègia, Congrés Nacional de Junts",
+        "url": "https://web.junts.cat/wp-content/uploads/2024/10/Ponencia-1.pdf",
+        "fecha": "2024-10",
+        "consultado": "2026-07-09"
+      }
+    },
+    "nac-005": {
+      "valor": 2,
+      "justificacion": "Defiende expresamente ordinalidad y bilateralidad en la financiación catalana.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Ponència 2: model de país, Congrés Nacional de Junts",
+        "url": "https://web.junts.cat/wp-content/uploads/2024/10/Ponencia_2.pdf",
+        "fecha": "2024-10",
+        "consultado": "2026-07-09"
+      }
+    },
+    "cat-001": {
+      "valor": 2,
+      "justificacion": "Defiende inmersión, catalán vehicular y protección reforzada frente a porcentajes estatales de castellano.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Ponència 2: model de país, Congrés Nacional de Junts",
+        "url": "https://web.junts.cat/wp-content/uploads/2024/10/Ponencia_2.pdf",
+        "fecha": "2024-10",
+        "consultado": "2026-07-09"
+      }
+    },
+    "cat-002": {
+      "valor": 2,
+      "justificacion": "Reclama hacienda propia catalana y recaudación plena.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Ponència 2: model de país, Congrés Nacional de Junts",
+        "url": "https://web.junts.cat/wp-content/uploads/2024/10/Ponencia_2.pdf",
+        "fecha": "2024-10",
+        "consultado": "2026-07-09"
+      }
+    },
+    "cat-004": {
+      "valor": -1,
+      "justificacion": "Plantea integración con derechos, deberes y exigencia lingüística, pero no identifica a toda inmigración musulmana como amenaza por su religión.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Ponència 2: model de país, Congrés Nacional de Junts",
+        "url": "https://web.junts.cat/wp-content/uploads/2024/10/Ponencia_2.pdf",
+        "fecha": "2024-10",
+        "consultado": "2026-07-09"
+      }
+    },
+    "cat-006": {
+      "valor": 2,
+      "justificacion": "Reclama la delegación integral a la Generalitat de permisos, residencia y ejecución de la política migratoria.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Delegació integral de les competències d'immigració a la Generalitat",
+        "url": "https://junts.cat/actualitat/junts-per-catalunya-sabste-despres-de-pactar-la-delegacio-integral-de-les-competencies-dimmigracio-a-la-generalitat-i-la-publicacio-immediata-de-les-balances-fiscals/",
+        "fecha": "2025-01-09",
+        "consultado": "2026-07-09"
+      }
+    },
+    "dem-014": {
+      "valor": 1,
+      "justificacion": "Su estructura combina congreso, consejo nacional, ejecutiva y mecanismos de participación; no todas las decisiones quedan reservadas a un voto universal de afiliados.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "estatutos",
+        "titulo": "Ponència 3: organització, Congrés Nacional de Junts",
+        "url": "https://web.junts.cat/wp-content/uploads/2024/10/Ponencia-3.pdf",
+        "fecha": "2024-10",
+        "consultado": "2026-07-09"
+      }
+    },
+    "dem-015": {
+      "valor": 1,
+      "justificacion": "La ponencia organizativa prevé coordinación y disciplina pública del espacio, dentro de órganos congresuales y de participación.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "estatutos",
+        "titulo": "Ponència 3: organització, Congrés Nacional de Junts",
+        "url": "https://web.junts.cat/wp-content/uploads/2024/10/Ponencia-3.pdf",
+        "fecha": "2024-10",
+        "consultado": "2026-07-09"
+      }
+    }
+  }
+}

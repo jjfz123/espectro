@@ -1,0 +1,97 @@
+{
+  "id": "pacma",
+  "nombre": "Partido Animalista con el Medio Ambiente",
+  "siglas": "PACMA",
+  "ambito": "estatal",
+  "tipo": "partido",
+  "confianza": "verificada",
+  "web": "https://pacma.es/",
+  "revisado": "2026-07-09",
+  "actividad": "activa",
+  "posiciones": {
+    "va-001": {
+      "valor": 2,
+      "justificacion": "Su programa animalista reclama reconocimiento jurídico reforzado de los animales como sujetos y no solo protección frente al maltrato.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa de PACMA para las elecciones europeas de 2024",
+        "url": "https://pacma.es/wp-content/uploads/2024/05/PE_EUROPA_9J24.pdf",
+        "fecha": "2024-05",
+        "consultado": "2026-07-09"
+      }
+    },
+    "va-002": {
+      "valor": -2,
+      "justificacion": "Rechaza la caza recreativa y no la acepta como herramienta ordinaria de gestión de fauna.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa de PACMA para las elecciones europeas de 2024",
+        "url": "https://pacma.es/wp-content/uploads/2024/05/PE_EUROPA_9J24.pdf",
+        "fecha": "2024-05",
+        "consultado": "2026-07-09"
+      }
+    },
+    "va-003": {
+      "valor": 2,
+      "justificacion": "Defiende la prohibición legal de la tauromaquia en todo el Estado.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa de PACMA para las elecciones europeas de 2024",
+        "url": "https://pacma.es/wp-content/uploads/2024/05/PE_EUROPA_9J24.pdf",
+        "fecha": "2024-05",
+        "consultado": "2026-07-09"
+      }
+    },
+    "sd-020": {
+      "valor": 2,
+      "justificacion": "Su programa exige prohibir la caza con fines recreativos.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa de PACMA para las elecciones europeas de 2024",
+        "url": "https://pacma.es/wp-content/uploads/2024/05/PE_EUROPA_9J24.pdf",
+        "fecha": "2024-05",
+        "consultado": "2026-07-09"
+      }
+    },
+    "ene-002": {
+      "valor": -2,
+      "justificacion": "Considera la nuclear una tecnología insostenible y arriesgada y rechaza presentarla como inversión verde.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa de PACMA para las elecciones europeas de 2024",
+        "url": "https://pacma.es/wp-content/uploads/2024/05/PE_EUROPA_9J24.pdf",
+        "fecha": "2024-05",
+        "consultado": "2026-07-09"
+      }
+    },
+    "ene-003": {
+      "valor": 1,
+      "justificacion": "Propone abandonar la energía nuclear y sustituirla por renovables; coincide con no conceder nuevas prórrogas, aunque no ata su calendario al vigente de forma literal.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa de PACMA para las elecciones europeas de 2024",
+        "url": "https://pacma.es/wp-content/uploads/2024/05/PE_EUROPA_9J24.pdf",
+        "fecha": "2024-05",
+        "consultado": "2026-07-09"
+      }
+    },
+    "lai-001": {
+      "valor": 2,
+      "justificacion": "Defiende una escuela pública laica, incompatible con mantener la enseñanza confesional dentro del horario lectivo.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa de PACMA para las elecciones europeas de 2024",
+        "url": "https://pacma.es/wp-content/uploads/2024/05/PE_EUROPA_9J24.pdf",
+        "fecha": "2024-05",
+        "consultado": "2026-07-09"
+      }
+    }
+  }
+}

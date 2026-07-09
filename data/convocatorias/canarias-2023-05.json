@@ -1,0 +1,467 @@
+{
+  "id": "canarias-2023-05",
+  "nombre": "Elecciones autonómicas de Canarias del 28 de mayo de 2023",
+  "tipo": "autonomicas",
+  "fecha": "2023-05-28",
+  "territorio": "canarias",
+  "camara": "Parlamento de Canarias",
+  "umbralPorcentaje": 0.02,
+  "denominador": {
+    "tipo": "votos-a-candidaturas",
+    "valor": 1794261
+  },
+  "totalCandidaturasOficiales": 26,
+  "fuente": {
+    "titulo": "Resultados definitivos de las elecciones autonómicas de Canarias",
+    "url": "https://www.gobiernodecanarias.org/boc/2023/121/008.html",
+    "consultado": "2026-07-09"
+  },
+  "fuentesAdicionales": [
+    {
+      "titulo": "Corrección oficial de resultados de Canarias",
+      "url": "https://www.gobiernodecanarias.org/boc/archivo/2023/157/pda/002.html",
+      "consultado": "2026-07-09"
+    }
+  ],
+  "nota": "El porcentaje usa como denominador 1.794.261 votos a candidaturas en toda la comunidad. Una relación con un componente identifica la candidatura, pero no transfiere sus posiciones al perfil de la coalición. Naturaleza de la convocatoria en el inventario: ordinaria-doble-voto-autonomico-insular.",
+  "candidaturas": [
+    {
+      "id": "can-2023-partido-socialista-obrero-espanol",
+      "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+      "votos": 543780,
+      "porcentaje": 30.306628,
+      "territorios": [
+        "canarias"
+      ],
+      "circunscripciones": [
+        "autonómica + 7 islas"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [
+        {
+          "perfilId": "psoe",
+          "relacion": "misma-organizacion"
+        }
+      ],
+      "nota": "Naturaleza inventariada: partido. Vigencia comprobada: representacion-2023-2027. Tratamiento previsto: perfil-reutilizable."
+    },
+    {
+      "id": "can-2023-coalicion-canaria",
+      "nombre": "COALICIÓN CANARIA",
+      "votos": 376599,
+      "porcentaje": 20.989087,
+      "territorios": [
+        "canarias"
+      ],
+      "circunscripciones": [
+        "autonómica + 6 islas"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [
+        {
+          "perfilId": "coalicion-canaria",
+          "relacion": "misma-organizacion"
+        }
+      ],
+      "nota": "Naturaleza inventariada: coalicion-electoral. Vigencia comprobada: representacion-2023-2027. Tratamiento previsto: perfil-especifico."
+    },
+    {
+      "id": "can-2023-partido-popular",
+      "nombre": "PARTIDO POPULAR",
+      "votos": 360069,
+      "porcentaje": 20.067816,
+      "territorios": [
+        "canarias"
+      ],
+      "circunscripciones": [
+        "autonómica + 7 islas"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [
+        {
+          "perfilId": "pp",
+          "relacion": "misma-organizacion"
+        }
+      ],
+      "nota": "Naturaleza inventariada: partido. Vigencia comprobada: representacion-2023-2027. Tratamiento previsto: perfil-reutilizable."
+    },
+    {
+      "id": "can-2023-vox",
+      "nombre": "VOX",
+      "votos": 143625,
+      "porcentaje": 8.004688,
+      "territorios": [
+        "canarias"
+      ],
+      "circunscripciones": [
+        "autonómica + 7 islas"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [
+        {
+          "perfilId": "vox",
+          "relacion": "misma-organizacion"
+        }
+      ],
+      "nota": "Naturaleza inventariada: partido. Vigencia comprobada: representacion-2023-2027. Tratamiento previsto: perfil-reutilizable."
+    },
+    {
+      "id": "can-2023-nueva-canarias",
+      "nombre": "NUEVA CANARIAS",
+      "votos": 137400,
+      "porcentaje": 7.657749,
+      "territorios": [
+        "canarias"
+      ],
+      "circunscripciones": [
+        "autonómica + 5 islas"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [],
+      "nota": "Naturaleza inventariada: partido-o-candidatura. Vigencia comprobada: representacion-2023-2027. Tratamiento previsto: perfil-especifico."
+    },
+    {
+      "id": "can-2023-unidas-si-podemos",
+      "nombre": "UNIDAS SÍ PODEMOS",
+      "votos": 65333,
+      "porcentaje": 3.641221,
+      "territorios": [
+        "canarias"
+      ],
+      "circunscripciones": [
+        "autonómica + 6 islas"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [
+        {
+          "perfilId": "podemos",
+          "relacion": "componente",
+          "nota": "Podemos figura como componente de esta candidatura fechada; sus posiciones no se atribuyen automáticamente a la coalición."
+        }
+      ],
+      "nota": "Naturaleza inventariada: coalicion-electoral. Vigencia comprobada: matrices-verificadas. Tratamiento previsto: perfil-especifico."
+    },
+    {
+      "id": "can-2023-drago-verdes-canarias",
+      "nombre": "DRAGO VERDES CANARIAS",
+      "votos": 59291,
+      "porcentaje": 3.30448,
+      "territorios": [
+        "canarias"
+      ],
+      "circunscripciones": [
+        "autonómica + 5 islas"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [
+        {
+          "perfilId": "verdes-equo",
+          "relacion": "componente",
+          "nota": "Verdes Equo Canarias figura como componente de esta candidatura fechada; sus posiciones no se atribuyen automáticamente a la coalición."
+        }
+      ],
+      "nota": "Naturaleza inventariada: coalicion-electoral. Vigencia comprobada: matrices-verificadas. Tratamiento previsto: perfil-especifico."
+    },
+    {
+      "id": "can-2023-unidos-por-gran-canaria",
+      "nombre": "UNIDOS POR GRAN CANARIA",
+      "votos": 30913,
+      "porcentaje": 1.722882,
+      "territorios": [
+        "canarias"
+      ],
+      "circunscripciones": [
+        "autonómica y Gran Canaria"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [],
+      "nota": "Naturaleza inventariada: partido-o-candidatura. Vigencia comprobada: no-comprobada. Tratamiento previsto: perfil-especifico."
+    },
+    {
+      "id": "can-2023-partido-animalista-con-el-medio-ambiente",
+      "nombre": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
+      "votos": 22993,
+      "porcentaje": 1.281475,
+      "territorios": [
+        "canarias"
+      ],
+      "circunscripciones": [
+        "autonómica, Gran Canaria y Tenerife"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [
+        {
+          "perfilId": "pacma",
+          "relacion": "misma-organizacion"
+        }
+      ],
+      "nota": "Naturaleza inventariada: partido. Vigencia comprobada: posterior-verificada. Tratamiento previsto: perfil-reutilizable."
+    },
+    {
+      "id": "can-2023-ciudadanos-partido-de-la-ciudadania",
+      "nombre": "CIUDADANOS PARTIDO DE LA CIUDADANÍA",
+      "votos": 7058,
+      "porcentaje": 0.393365,
+      "territorios": [
+        "canarias"
+      ],
+      "circunscripciones": [
+        "autonómica, Gran Canaria y Tenerife"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [
+        {
+          "perfilId": "ciudadanos",
+          "relacion": "misma-organizacion"
+        }
+      ],
+      "nota": "Naturaleza inventariada: partido. Vigencia comprobada: posterior-verificada. Tratamiento previsto: perfil-reutilizable."
+    },
+    {
+      "id": "can-2023-agrupacion-socialista-gomera",
+      "nombre": "AGRUPACIÓN SOCIALISTA GOMERA",
+      "votos": 6765,
+      "porcentaje": 0.377035,
+      "territorios": [
+        "canarias"
+      ],
+      "circunscripciones": [
+        "La Gomera"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [],
+      "nota": "Naturaleza inventariada: partido-territorial. Vigencia comprobada: representacion-2023-2027. Tratamiento previsto: perfil-especifico."
+    },
+    {
+      "id": "can-2023-asambleas-municipales-de-fuerteventura",
+      "nombre": "ASAMBLEAS MUNICIPALES DE FUERTEVENTURA",
+      "votos": 5948,
+      "porcentaje": 0.331501,
+      "territorios": [
+        "canarias"
+      ],
+      "circunscripciones": [
+        "autonómica y Fuerteventura"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [],
+      "nota": "Naturaleza inventariada: partido-o-candidatura. Vigencia comprobada: no-comprobada. Tratamiento previsto: perfil-especifico."
+    },
+    {
+      "id": "can-2023-partido-nacionalista-canario",
+      "nombre": "PARTIDO NACIONALISTA CANARIO",
+      "votos": 4812,
+      "porcentaje": 0.268188,
+      "territorios": [
+        "canarias"
+      ],
+      "circunscripciones": [
+        "autonómica, Gran Canaria, Lanzarote y Tenerife"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [],
+      "nota": "Naturaleza inventariada: partido-territorial. Vigencia comprobada: no-comprobada. Tratamiento previsto: perfil-especifico."
+    },
+    {
+      "id": "can-2023-reunir-canarias-sostenible",
+      "nombre": "REUNIR CANARIAS SOSTENIBLE",
+      "votos": 4310,
+      "porcentaje": 0.24021,
+      "territorios": [
+        "canarias"
+      ],
+      "circunscripciones": [
+        "autonómica + 4 islas"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [],
+      "nota": "Naturaleza inventariada: coalicion-electoral. Vigencia comprobada: no-comprobada. Tratamiento previsto: inventario-sin-datos."
+    },
+    {
+      "id": "can-2023-ahora-canarias-partido-comunista-del-pueblo-cana",
+      "nombre": "AHORA CANARIAS-PARTIDO COMUNISTA DEL PUEBLO CANARIO",
+      "votos": 4262,
+      "porcentaje": 0.237535,
+      "territorios": [
+        "canarias"
+      ],
+      "circunscripciones": [
+        "autonómica, Gran Canaria y Tenerife"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [
+        {
+          "perfilId": "pcpc",
+          "relacion": "componente",
+          "nota": "Partido Comunista del Pueblo Canario figura como componente de esta candidatura fechada; sus posiciones no se atribuyen automáticamente a la coalición."
+        }
+      ],
+      "nota": "Naturaleza inventariada: coalicion-electoral. Vigencia comprobada: no-comprobada. Tratamiento previsto: perfil-especifico."
+    },
+    {
+      "id": "can-2023-hablemos-ahora",
+      "nombre": "HABLEMOS AHORA",
+      "votos": 4030,
+      "porcentaje": 0.224605,
+      "territorios": [
+        "canarias"
+      ],
+      "circunscripciones": [
+        "Gran Canaria"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [],
+      "nota": "Naturaleza inventariada: partido-o-candidatura. Vigencia comprobada: no-comprobada. Tratamiento previsto: inventario-sin-datos."
+    },
+    {
+      "id": "can-2023-ahora-tu",
+      "nombre": "AHORA TÚ",
+      "votos": 3846,
+      "porcentaje": 0.21435,
+      "territorios": [
+        "canarias"
+      ],
+      "circunscripciones": [
+        "autonómica"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [],
+      "nota": "Naturaleza inventariada: coalicion-electoral. Vigencia comprobada: no-comprobada. Tratamiento previsto: inventario-sin-datos."
+    },
+    {
+      "id": "can-2023-mas-canarias",
+      "nombre": "MÁS CANARIAS",
+      "votos": 3830,
+      "porcentaje": 0.213458,
+      "territorios": [
+        "canarias"
+      ],
+      "circunscripciones": [
+        "autonómica, Lanzarote, La Palma y Tenerife"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [],
+      "nota": "Naturaleza inventariada: partido-o-candidatura. Vigencia comprobada: no-comprobada. Tratamiento previsto: inventario-sin-datos."
+    },
+    {
+      "id": "can-2023-tercera-edad-en-accion",
+      "nombre": "TERCERA EDAD EN ACCIÓN",
+      "votos": 1898,
+      "porcentaje": 0.105782,
+      "territorios": [
+        "canarias"
+      ],
+      "circunscripciones": [
+        "El Hierro, Gran Canaria y Tenerife"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [],
+      "nota": "Naturaleza inventariada: partido. Vigencia comprobada: actividad-organizativa-verificada. Tratamiento previsto: perfil-especifico."
+    },
+    {
+      "id": "can-2023-agrupacion-herrena-independiente",
+      "nombre": "AGRUPACIÓN HERREÑA INDEPENDIENTE",
+      "votos": 1660,
+      "porcentaje": 0.092517,
+      "territorios": [
+        "canarias"
+      ],
+      "circunscripciones": [
+        "El Hierro"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [],
+      "nota": "Naturaleza inventariada: partido-territorial. Vigencia comprobada: representacion-2023-2027. Tratamiento previsto: perfil-especifico."
+    },
+    {
+      "id": "can-2023-iniciativa-por-la-gomera",
+      "nombre": "INICIATIVA POR LA GOMERA",
+      "votos": 1312,
+      "porcentaje": 0.073122,
+      "territorios": [
+        "canarias"
+      ],
+      "circunscripciones": [
+        "La Gomera"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [],
+      "nota": "Naturaleza inventariada: partido-o-candidatura. Vigencia comprobada: no-comprobada. Tratamiento previsto: inventario-sin-datos."
+    },
+    {
+      "id": "can-2023-pais-con-gestores",
+      "nombre": "PAÍS CON GESTORES",
+      "votos": 1210,
+      "porcentaje": 0.067437,
+      "territorios": [
+        "canarias"
+      ],
+      "circunscripciones": [
+        "autonómica"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [],
+      "nota": "Naturaleza inventariada: partido-o-candidatura. Vigencia comprobada: no-comprobada. Tratamiento previsto: inventario-sin-datos."
+    },
+    {
+      "id": "can-2023-asamblea-herrena",
+      "nombre": "ASAMBLEA HERREÑA",
+      "votos": 1089,
+      "porcentaje": 0.060694,
+      "territorios": [
+        "canarias"
+      ],
+      "circunscripciones": [
+        "El Hierro"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [],
+      "nota": "Naturaleza inventariada: partido-o-candidatura. Vigencia comprobada: no-comprobada. Tratamiento previsto: inventario-sin-datos."
+    },
+    {
+      "id": "can-2023-movimiento-alternativo-electoral",
+      "nombre": "MOVIMIENTO ALTERNATIVO ELECTORAL",
+      "votos": 778,
+      "porcentaje": 0.04336,
+      "territorios": [
+        "canarias"
+      ],
+      "circunscripciones": [
+        "La Palma"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [],
+      "nota": "Naturaleza inventariada: partido-o-candidatura. Vigencia comprobada: no-comprobada. Tratamiento previsto: inventario-sin-datos."
+    },
+    {
+      "id": "can-2023-contigo-somos-democracia",
+      "nombre": "CONTIGO SOMOS DEMOCRÁCIA",
+      "votos": 732,
+      "porcentaje": 0.040797,
+      "territorios": [
+        "canarias"
+      ],
+      "circunscripciones": [
+        "Fuerteventura y Gran Canaria"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [],
+      "nota": "Naturaleza inventariada: partido-o-candidatura. Vigencia comprobada: no-comprobada. Tratamiento previsto: inventario-sin-datos."
+    },
+    {
+      "id": "can-2023-union-democratica-de-canarias",
+      "nombre": "UNIÓN DEMOCRÁTICA DE CANARIAS",
+      "votos": 718,
+      "porcentaje": 0.040016,
+      "territorios": [
+        "canarias"
+      ],
+      "circunscripciones": [
+        "Tenerife"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [],
+      "nota": "Naturaleza inventariada: partido-o-candidatura. Vigencia comprobada: no-comprobada. Tratamiento previsto: inventario-sin-datos."
+    }
+  ]
+}

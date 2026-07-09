@@ -1,0 +1,301 @@
+[
+  {
+    "id": "lab-001",
+    "texto": "Los convenios colectivos de sector deberían prevalecer sobre los acuerdos individuales entre una empresa y cada trabajador.",
+    "modulo": "trabajo-estado-sindicatos",
+    "ejes": [{ "eje": "poder-laboral", "carga": 1 }],
+    "polaridad": "positiva",
+    "tags": ["convenios", "negociacion-colectiva"],
+    "estado": "piloto",
+    "notas": "Mide primacía colectiva frente a contratación individual sin presuponer propiedad pública."
+  },
+  {
+    "id": "lab-002",
+    "texto": "Las plantillas deberían elegir una parte sustancial del órgano de dirección de las grandes empresas.",
+    "modulo": "trabajo-estado-sindicatos",
+    "ejes": [{ "eje": "poder-laboral", "carga": 1 }],
+    "polaridad": "positiva",
+    "tags": ["cogestion", "empresa"],
+    "estado": "piloto",
+    "notas": "Distingue cogestión laboral de nacionalización y de dirección exclusiva de propietarios."
+  },
+  {
+    "id": "lab-003",
+    "texto": "La dirección de una empresa debe corresponder a sus propietarios y gestores, no a órganos elegidos por la plantilla.",
+    "modulo": "trabajo-estado-sindicatos",
+    "ejes": [{ "eje": "poder-laboral", "carga": -1 }],
+    "polaridad": "negativa",
+    "tags": ["empresa", "propiedad", "direccion"],
+    "estado": "retirado",
+    "notas": "Retirado antes del piloto: era el inverso casi exacto de lab-002 y daba doble peso a cogestión frente a dirección empresarial."
+  },
+  {
+    "id": "lab-004",
+    "texto": "Los sindicatos deberían financiarse únicamente con cuotas y servicios pagados por sus afiliados.",
+    "modulo": "trabajo-estado-sindicatos",
+    "ejes": [],
+    "polaridad": "negativa",
+    "tags": ["sindicatos", "financiacion", "autonomia"],
+    "estado": "piloto",
+    "notas": "Solo-matching equifinal: puede apoyarse por autonomía frente al Estado, igualdad competitiva, rechazo fiscal o reducción del papel sindical; requiere seguimiento de motivo y no puntúa autonomía por sí sola."
+  },
+  {
+    "id": "lab-005",
+    "texto": "Los sindicatos deben conservar plena independencia respecto del Gobierno y de los partidos políticos.",
+    "modulo": "trabajo-estado-sindicatos",
+    "ejes": [{ "eje": "autonomia-sindical", "carga": 1 }],
+    "polaridad": "positiva",
+    "tags": ["sindicatos", "partidos", "autonomia"],
+    "estado": "piloto",
+    "notas": "Indicador general de autonomía; necesita combinarse con ítems de financiación y representación para discriminar respuestas de deseabilidad social."
+  },
+  {
+    "id": "lab-006",
+    "texto": "El Estado debería reconocer una única organización sindical representativa por sector e integrarla en la gestión económica.",
+    "modulo": "nucleo",
+    "ejes": [
+      { "eje": "autonomia-sindical", "carga": -1 },
+      { "eje": "estatismo", "carga": 0.75 }
+    ],
+    "polaridad": "positiva",
+    "tags": ["sindicato-unico", "corporativismo", "estado"],
+    "estado": "piloto",
+    "notas": "Distingue corporativismo estatal de pluralismo sindical y de sindicalismo autónomo."
+  },
+  {
+    "id": "lab-007",
+    "texto": "Representantes de trabajadores y empresas deberían acordar con el Gobierno planes económicos vinculantes para cada sector.",
+    "modulo": "trabajo-estado-sindicatos",
+    "ejes": [
+      { "eje": "estatismo", "carga": 0.75 },
+      { "eje": "poder-laboral", "carga": 0.5 }
+    ],
+    "polaridad": "positiva",
+    "tags": ["concertacion", "corporativismo", "planificacion"],
+    "estado": "piloto",
+    "notas": "Mapea concertación y planificación tripartita. Pactar con el Estado no prueba subordinación sindical, por lo que no resta autonomía; se diferencia del sindicato único integrado."
+  },
+  {
+    "id": "lab-008",
+    "texto": "Consejos elegidos en los centros de trabajo deberían dirigir la producción y la inversión en lugar de propietarios privados o ministerios.",
+    "modulo": "trabajo-estado-sindicatos",
+    "ejes": [
+      { "eje": "poder-laboral", "carga": 1 },
+      { "eje": "estatismo", "carga": -0.75 }
+    ],
+    "polaridad": "positiva",
+    "tags": ["consejos-trabajadores", "sindicalismo-revolucionario"],
+    "estado": "piloto",
+    "notas": "Mide control productivo por consejos laborales, separado de sustituir parlamentos o partidos. Puede unir consejismo marxista y sindicalismo revolucionario por fundamentos distintos."
+  },
+  {
+    "id": "lab-009",
+    "texto": "Cobrar impuestos mediante la coacción legal del Estado es, en esencia, una forma de robo.",
+    "modulo": "trabajo-estado-sindicatos",
+    "ejes": [],
+    "polaridad": "negativa",
+    "tags": ["impuestos", "estado", "equifinalidad"],
+    "estado": "piloto",
+    "notas": "Ítem deliberadamente solo-matching: pueden aprobarlo libertarios de mercado, antiestatistas de izquierda y corrientes nacionalistas por motivos incompatibles. Las subpreguntas aclaran el motivo."
+  },
+  {
+    "id": "lab-010",
+    "texto": "Mi rechazo a los impuestos se debe a que la propiedad privada no debería financiar servicios colectivos sin consentimiento individual.",
+    "modulo": "trabajo-estado-sindicatos",
+    "ejes": [
+      { "eje": "economico", "carga": 1 },
+      { "eje": "estatismo", "carga": -1 }
+    ],
+    "condicion": { "itemId": "lab-009", "valores": [1, 2] },
+    "polaridad": "negativa",
+    "tags": ["impuestos", "propiedad", "libertarismo"],
+    "estado": "piloto",
+    "notas": "Subpregunta condicional que identifica la justificación propietarista/individualista sin inferirla de lab-009."
+  },
+  {
+    "id": "lab-011",
+    "texto": "Mi objeción principal es que gravar salarios no cambia quién posee y dirige las grandes empresas.",
+    "modulo": "trabajo-estado-sindicatos",
+    "ejes": [
+      { "eje": "economico", "carga": -1 },
+      { "eje": "poder-laboral", "carga": 0.75 }
+    ],
+    "condicion": { "itemId": "lab-009", "valores": [1, 2] },
+    "polaridad": "negativa",
+    "tags": ["impuestos", "propiedad-social", "explotacion"],
+    "estado": "piloto",
+    "notas": "Seguimiento condicional para la crítica socialista de la fiscalidad como sustituto insuficiente de transformar propiedad y control, sin presuponer la palabra «explotación»."
+  },
+  {
+    "id": "lab-012",
+    "texto": "Los impuestos estatales deberían sustituirse por aportaciones gestionadas directamente por organizaciones profesionales y laborales.",
+    "modulo": "trabajo-estado-sindicatos",
+    "ejes": [
+      { "eje": "estatismo", "carga": -0.75 },
+      { "eje": "autonomia-sindical", "carga": 0.75 }
+    ],
+    "condicion": { "itemId": "lab-009", "valores": [1, 2] },
+    "polaridad": "negativa",
+    "tags": ["impuestos", "corporaciones", "autogestion"],
+    "estado": "piloto",
+    "notas": "Subpregunta condicional para alternativas sindicales/corporativas no administradas por la hacienda estatal; no presupone sindicato único."
+  },
+  {
+    "id": "lab-013",
+    "texto": "Mi objeción es la cantidad y el uso actual de los impuestos, no la existencia de impuestos en sí misma.",
+    "modulo": "trabajo-estado-sindicatos",
+    "ejes": [],
+    "condicion": { "itemId": "lab-009", "valores": [1, 2] },
+    "polaridad": "negativa",
+    "tags": ["impuestos", "pragmatismo"],
+    "estado": "piloto",
+    "notas": "Control condicional para distinguir rechazo doctrinal de protesta fiscal coyuntural. Solo-matching."
+  },
+  {
+    "id": "lab-014",
+    "texto": "El derecho de huelga debería incluir los servicios esenciales siempre que se mantengan mínimos para proteger vidas.",
+    "modulo": "trabajo-estado-sindicatos",
+    "ejes": [{ "eje": "poder-laboral", "carga": 0.75 }],
+    "polaridad": "positiva",
+    "tags": ["huelga", "servicios-esenciales"],
+    "estado": "piloto",
+    "notas": "Introduce salvaguarda concreta para evitar que la respuesta mida solo preocupación por daños graves."
+  },
+  {
+    "id": "lab-015",
+    "texto": "El Gobierno debería poder suspender una huelga cuando cause pérdidas económicas graves al país.",
+    "modulo": "trabajo-estado-sindicatos",
+    "ejes": [
+      { "eje": "poder-laboral", "carga": -1 },
+      { "eje": "estatismo", "carga": 0.5 }
+    ],
+    "polaridad": "negativa",
+    "tags": ["huelga", "gobierno"],
+    "estado": "piloto",
+    "notas": "Mide prioridad del orden económico sobre autonomía del conflicto laboral."
+  },
+  {
+    "id": "lab-016",
+    "texto": "Las empresas estratégicas deberían estar dirigidas por el Estado aunque pudieran operar de forma rentable en manos privadas.",
+    "modulo": "trabajo-estado-sindicatos",
+    "ejes": [
+      { "eje": "estatismo", "carga": 1 },
+      { "eje": "economico", "carga": -0.75 }
+    ],
+    "polaridad": "positiva",
+    "tags": ["empresas-publicas", "sectores-estrategicos"],
+    "estado": "piloto",
+    "notas": "Añade un coste de oportunidad para separar dirección estatal doctrinal de nacionalización por fallo de mercado."
+  },
+  {
+    "id": "lab-017",
+    "texto": "Las grandes empresas privadas deberían transferirse a cooperativas gestionadas por sus trabajadores, no a ministerios estatales.",
+    "modulo": "trabajo-estado-sindicatos",
+    "ejes": [
+      { "eje": "economico", "carga": -1 },
+      { "eje": "poder-laboral", "carga": 1 },
+      { "eje": "estatismo", "carga": -1 }
+    ],
+    "polaridad": "positiva",
+    "tags": ["cooperativas", "autogestion", "propiedad"],
+    "estado": "piloto",
+    "notas": "Separa socialización autogestionaria de nacionalización estatal y de propiedad capitalista."
+  },
+  {
+    "id": "lab-018",
+    "texto": "Los sindicatos deberían sustituir a los partidos como principal vía de representación política de los trabajadores.",
+    "modulo": "trabajo-estado-sindicatos",
+    "ejes": [
+      { "eje": "poder-laboral", "carga": 1 },
+      { "eje": "institucionalismo", "carga": -0.75 }
+    ],
+    "polaridad": "positiva",
+    "tags": ["sindicatos", "representacion", "sindicalismo-revolucionario"],
+    "estado": "piloto",
+    "notas": "Distingue sindicalismo político/revolucionario de sindicalismo reivindicativo dentro del parlamentarismo."
+  },
+  {
+    "id": "lab-019",
+    "texto": "Los sindicatos deberían poder recibir subvenciones públicas bajo reglas iguales, auditoría y publicación de cuentas.",
+    "modulo": "trabajo-estado-sindicatos",
+    "ejes": [],
+    "condicion": { "itemId": "lab-004", "valores": [-2, -1] },
+    "polaridad": "positiva",
+    "tags": ["sindicatos", "financiacion-publica", "transparencia"],
+    "estado": "piloto",
+    "notas": "Seguimiento de financiación mixta para quien rechaza la regla de solo cuotas. Separa aceptación reglada y transparente de dependencia discrecional; no mide autonomía política automáticamente."
+  },
+  {
+    "id": "lab-020",
+    "texto": "Toda la plantilla debería poder votar a sus representantes laborales, esté afiliada o no a un sindicato.",
+    "modulo": "trabajo-estado-sindicatos",
+    "ejes": [{ "eje": "poder-laboral", "carga": 0.5 }],
+    "polaridad": "positiva",
+    "tags": ["elecciones-sindicales", "comite-empresa", "representacion"],
+    "estado": "piloto",
+    "notas": "Distingue representación unitaria elegida por toda la plantilla de representación basada solo en afiliación; no equivale a más democracia interna del sindicato."
+  },
+  {
+    "id": "lab-021",
+    "texto": "La plantilla afectada debería ratificar mediante votación el convenio alcanzado por sus representantes.",
+    "modulo": "trabajo-estado-sindicatos",
+    "ejes": [
+      { "eje": "poder-laboral", "carga": 0.5 },
+      { "eje": "democracia-directa", "carga": 0.5 }
+    ],
+    "polaridad": "positiva",
+    "tags": ["convenio", "ratificacion", "democracia-laboral"],
+    "estado": "piloto",
+    "notas": "Mide quién decide al final de una negociación: plantilla afectada frente a autonomía del representante. No se infiere de participar o no en elecciones sindicales."
+  },
+  {
+    "id": "lab-022",
+    "texto": "Un sindicato debería poder apoyar públicamente a un partido si su afiliación lo aprueba en una votación.",
+    "modulo": "trabajo-estado-sindicatos",
+    "ejes": [],
+    "polaridad": "positiva",
+    "tags": ["sindicatos", "partidos", "autonomia-politica"],
+    "estado": "piloto",
+    "notas": "Solo-matching: distingue independencia entendida como no subordinación de independencia entendida como separación absoluta; la aprobación democrática no prueba control partidario."
+  },
+  {
+    "id": "lab-023",
+    "texto": "Los sindicatos deberían limitarse a salarios y condiciones laborales, sin adoptar posiciones políticas generales.",
+    "modulo": "trabajo-estado-sindicatos",
+    "ejes": [],
+    "polaridad": "negativa",
+    "tags": ["sindicalismo-profesional", "sindicalismo-sociopolitico"],
+    "estado": "piloto",
+    "notas": "Solo-matching: separa sindicalismo profesional/reivindicativo de sindicalismo sociopolítico. No presupone mayor o menor eficacia laboral ni una ideología concreta."
+  },
+  {
+    "id": "lab-024",
+    "texto": "Cada comunidad política debería poder establecer un marco propio de negociación colectiva y protección laboral.",
+    "modulo": "trabajo-estado-sindicatos",
+    "ejes": [{ "eje": "territorial", "carga": -0.75 }],
+    "polaridad": "positiva",
+    "tags": ["marco-laboral", "territorio", "negociacion-colectiva"],
+    "estado": "piloto",
+    "notas": "Separa marcos laborales territoriales propios de legislación y concertación uniformes a escala estatal; no implica necesariamente secesión política."
+  },
+  {
+    "id": "lab-025",
+    "texto": "Una parte fija de las cuotas sindicales debería reservarse para sostener a quienes participan en huelgas prolongadas.",
+    "modulo": "trabajo-estado-sindicatos",
+    "ejes": [{ "eje": "poder-laboral", "carga": 0.5 }],
+    "polaridad": "positiva",
+    "tags": ["caja-resistencia", "huelga", "cuotas"],
+    "estado": "piloto",
+    "notas": "Mide institucionalizar una caja de resistencia frente a asistencia ad hoc o prioridad de servicios; discrimina capacidad de conflicto sin suponer rechazo de negociación."
+  },
+  {
+    "id": "lab-026",
+    "texto": "La representación laboral debería basarse principalmente en secciones de afiliados, no en comités elegidos por toda la plantilla.",
+    "modulo": "trabajo-estado-sindicatos",
+    "ejes": [],
+    "polaridad": "negativa",
+    "tags": ["seccion-sindical", "comite-empresa", "afiliacion"],
+    "estado": "piloto",
+    "notas": "Solo-matching: contrapone representación por secciones afiliadas y comité unitario sin afirmar que una sea siempre más democrática; la práctica puede combinar ambas."
+  }
+]

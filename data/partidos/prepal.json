@@ -1,0 +1,49 @@
+{
+  "id": "prepal",
+  "nombre": "Partido Regionalista del País Leonés",
+  "siglas": "PREPAL",
+  "ambito": "autonomico",
+  "tipo": "partido",
+  "ccaa": ["castilla-y-leon"],
+  "confianza": "verificada",
+  "revisado": "2026-07-10",
+  "actividad": "activa",
+  "posiciones": {
+    "nac-002": {
+      "valor": -2,
+      "justificacion": "Define la Región Reino Leonés como parte íntegra de España y de la Unión Europea; su objetivo es una autonomía propia, no un Estado independiente.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "XLV años Partido Regionalista del País Leonés PREPAL",
+        "url": "https://www.heraldodeleon.es/articulo/cartas-al-director/xlv-anos-partido-regionalista-pais-leones-prepal/20250919151954048119.html",
+        "fecha": "2025-09-19",
+        "consultado": "2026-07-10"
+      }
+    },
+    "nac-015": {
+      "valor": 2,
+      "justificacion": "Promueve expresamente una comunidad autónoma triprovincial para Salamanca, Zamora y León, a la que denomina Región Reino Leonés.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Estatuto Comunidad Autónoma Región Reino Leonés (anteproyecto)",
+        "url": "https://eldiadezamora.es/archive/43796/estatuto-comunidad-autonoma-region-reino-leones-anteproyecto",
+        "fecha": "2022-04-23",
+        "consultado": "2026-07-10"
+      }
+    },
+    "dem-012": {
+      "valor": 2,
+      "justificacion": "Plantea impulsar el estatuto leonés con la Constitución de 1978, el Gobierno, la Corona y las Cortes, mediante tramitación, debate y aprobación institucional.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "XLV años Partido Regionalista del País Leonés PREPAL",
+        "url": "https://www.heraldodeleon.es/articulo/cartas-al-director/xlv-anos-partido-regionalista-pais-leones-prepal/20250919151954048119.html",
+        "fecha": "2025-09-19",
+        "consultado": "2026-07-10"
+      }
+    }
+  }
+}

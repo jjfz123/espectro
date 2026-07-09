@@ -1,0 +1,25 @@
+{
+  "id": "referencia-ejemplo",
+  "nombre": "Referencia de ejemplo",
+  "tipo": "referencia-doctrinal",
+  "definicion": "Tipo ideal no electoral utilizado únicamente como plantilla editorial.",
+  "confianza": "estimada",
+  "version": "1.0",
+  "revisado": "2026-07-09",
+  "facetasDefinitorias": ["economico"],
+  "advertencia": "Una similitud doctrinal parcial no determina la identidad política de ninguna persona.",
+  "fuentesMarco": [
+    {
+      "tipo": "otro",
+      "titulo": "Fuente doctrinal de ejemplo",
+      "url": "https://example.com/",
+      "consultado": "2026-07-09"
+    }
+  ],
+  "reglaPublicacion": {
+    "minimoItems": 3,
+    "minimoCobertura": 0.5,
+    "umbralAfinidad": 70
+  },
+  "posiciones": {}
+}

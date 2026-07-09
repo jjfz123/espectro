@@ -1,0 +1,386 @@
+{
+  "id": "nacion-andaluza",
+  "nombre": "Nación Andaluza",
+  "siglas": "N.A.",
+  "ambito": "autonomico",
+  "tipo": "partido",
+  "ccaa": ["andalucia"],
+  "confianza": "verificada",
+  "web": "https://nacionandaluza.org/",
+  "revisado": "2026-07-09",
+  "actividad": "activa",
+  "posiciones": {
+    "and-001": {
+      "valor": 2,
+      "justificacion": "Toda su candidatura de 2026 parte de Andalucía como nación y sujeto soberano con derecho a la autodeterminación y a la independencia.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Sembrando Revolución Andaluza: programa para las elecciones andaluzas de 2026",
+        "url": "https://nacionandaluza.org/wp-content/uploads/2026/04/maquetado-largo-pliegos.pdf",
+        "fecha": "2026-04",
+        "consultado": "2026-07-09"
+      }
+    },
+    "and-003": {
+      "valor": 2,
+      "justificacion": "Propone expropiar fincas de más de 120 hectáreas y tierras infrautilizadas para incorporarlas a un banco público y explotarlas colectivamente por cooperativas trabajadoras.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Sembrando Revolución Andaluza: programa para las elecciones andaluzas de 2026",
+        "url": "https://nacionandaluza.org/wp-content/uploads/2026/04/maquetado-largo-pliegos.pdf",
+        "fecha": "2026-04",
+        "consultado": "2026-07-09"
+      }
+    },
+    "izq-001": {
+      "valor": 2,
+      "justificacion": "Se presenta en 2026 como alternativa independentista, socialista y revolucionaria, con ruptura democrática, proceso constituyente propio y transformación de la propiedad.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Sembrando Revolución Andaluza: programa para las elecciones andaluzas de 2026",
+        "url": "https://nacionandaluza.org/wp-content/uploads/2026/04/maquetado-largo-pliegos.pdf",
+        "fecha": "2026-04",
+        "consultado": "2026-07-09"
+      }
+    },
+    "nac-001": {
+      "valor": 1,
+      "justificacion": "Propone iniciar un proceso constituyente nacional andaluz y ejercer soberanía plena sin supeditarlo a una reforma estatal; no explicita el umbral concreto de bloqueo previo del enunciado.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Sembrando Revolución Andaluza: programa para las elecciones andaluzas de 2026",
+        "url": "https://nacionandaluza.org/wp-content/uploads/2026/04/maquetado-largo-pliegos.pdf",
+        "fecha": "2026-04",
+        "consultado": "2026-07-09"
+      }
+    },
+    "nac-002": {
+      "valor": 2,
+      "justificacion": "La independencia y una República Andaluza de Trabajadoras constituyen su objetivo final explícito, no solo un incremento pactado de autogobierno.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Sembrando Revolución Andaluza: programa para las elecciones andaluzas de 2026",
+        "url": "https://nacionandaluza.org/wp-content/uploads/2026/04/maquetado-largo-pliegos.pdf",
+        "fecha": "2026-04",
+        "consultado": "2026-07-09"
+      }
+    },
+    "ter-002": {
+      "valor": 2,
+      "justificacion": "Defiende el derecho de autodeterminación e independencia de Andalucía y el derecho de autodeterminación de otros pueblos sin injerencias.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Sembrando Revolución Andaluza: programa para las elecciones andaluzas de 2026",
+        "url": "https://nacionandaluza.org/wp-content/uploads/2026/04/maquetado-largo-pliegos.pdf",
+        "fecha": "2026-04",
+        "consultado": "2026-07-09"
+      }
+    },
+    "izq-011": {
+      "valor": 2,
+      "justificacion": "Su posición oficial reclama expresamente la salida de Andalucía de la Unión Europea y del euro, vinculada a la independencia del Estado español.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Nación Andaluza ante los comicios al Parlamento Europeo del 9 de junio",
+        "url": "https://nacionandaluza.org/2024/05/14/nacion-andaluza-ante-los-comicios-al-parlamento-europeo-del-9-de-junio/",
+        "fecha": "2024-05-14",
+        "consultado": "2026-07-09"
+      }
+    },
+    "dem-001": {
+      "valor": 2,
+      "justificacion": "Propone someter a referéndum popular las medidas que impliquen cambios importantes de las administraciones, la política o la forma de vida.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Sembrando Revolución Andaluza: programa para las elecciones andaluzas de 2026",
+        "url": "https://nacionandaluza.org/wp-content/uploads/2026/04/maquetado-largo-pliegos.pdf",
+        "fecha": "2026-04",
+        "consultado": "2026-07-09"
+      }
+    },
+    "dem-002": {
+      "valor": 2,
+      "justificacion": "Incluye expresamente el derecho de revocación de los cargos electos andaluces y la creación de los mecanismos para hacerlo efectivo.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Sembrando Revolución Andaluza: programa para las elecciones andaluzas de 2026",
+        "url": "https://nacionandaluza.org/wp-content/uploads/2026/04/maquetado-largo-pliegos.pdf",
+        "fecha": "2026-04",
+        "consultado": "2026-07-09"
+      }
+    },
+    "dem-011": {
+      "valor": 2,
+      "justificacion": "Busca sustituir el encaje autonómico y parlamentario actual por un proceso constituyente nacional y una República Andaluza soberana.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Sembrando Revolución Andaluza: programa para las elecciones andaluzas de 2026",
+        "url": "https://nacionandaluza.org/wp-content/uploads/2026/04/maquetado-largo-pliegos.pdf",
+        "fecha": "2026-04",
+        "consultado": "2026-07-09"
+      }
+    },
+    "dem-025": {
+      "valor": 2,
+      "justificacion": "Propone una circunscripción única andaluza y derogar la fórmula D’Hondt para ajustar la representación institucional a las opiniones de los votantes.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Sembrando Revolución Andaluza: programa para las elecciones andaluzas de 2026",
+        "url": "https://nacionandaluza.org/wp-content/uploads/2026/04/maquetado-largo-pliegos.pdf",
+        "fecha": "2026-04",
+        "consultado": "2026-07-09"
+      }
+    },
+    "mon-001": {
+      "valor": 2,
+      "justificacion": "Su forma de Estado propuesta es una república andaluza y rechaza la jefatura hereditaria vinculada a la monarquía española.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Sembrando Revolución Andaluza: programa para las elecciones andaluzas de 2026",
+        "url": "https://nacionandaluza.org/wp-content/uploads/2026/04/maquetado-largo-pliegos.pdf",
+        "fecha": "2026-04",
+        "consultado": "2026-07-09"
+      }
+    },
+    "eco-001": {
+      "valor": 2,
+      "justificacion": "Quiere revertir las rebajas autonómicas del IRPF a las rentas altas y las bonificaciones de patrimonio y sucesiones que benefician a quienes más tienen.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Sembrando Revolución Andaluza: programa para las elecciones andaluzas de 2026",
+        "url": "https://nacionandaluza.org/wp-content/uploads/2026/04/maquetado-largo-pliegos.pdf",
+        "fecha": "2026-04",
+        "consultado": "2026-07-09"
+      }
+    },
+    "lab-009": {
+      "valor": -2,
+      "justificacion": "Su programa mantiene y eleva impuestos progresivos y crea una Hacienda andaluza recaudadora; por tanto no considera el impuesto un robo por principio.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Sembrando Revolución Andaluza: programa para las elecciones andaluzas de 2026",
+        "url": "https://nacionandaluza.org/wp-content/uploads/2026/04/maquetado-largo-pliegos.pdf",
+        "fecha": "2026-04",
+        "consultado": "2026-07-09"
+      }
+    },
+    "dr-001": {
+      "valor": 2,
+      "justificacion": "Propone una banca pública andaluza y la nacionalización de la banca privada de carácter andaluz.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Sembrando Revolución Andaluza: programa para las elecciones andaluzas de 2026",
+        "url": "https://nacionandaluza.org/wp-content/uploads/2026/04/maquetado-largo-pliegos.pdf",
+        "fecha": "2026-04",
+        "consultado": "2026-07-09"
+      }
+    },
+    "eco-005": {
+      "valor": 2,
+      "justificacion": "Defiende fijar precios máximos de alquiler y venta de viviendas, fincas y locales según la zona y prohibir alquileres de temporada en áreas tensionadas.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Sembrando Revolución Andaluza: programa para las elecciones andaluzas de 2026",
+        "url": "https://nacionandaluza.org/wp-content/uploads/2026/04/maquetado-largo-pliegos.pdf",
+        "fecha": "2026-04",
+        "consultado": "2026-07-09"
+      }
+    },
+    "eco-006": {
+      "valor": 2,
+      "justificacion": "Propone utilizar solares de grandes propietarios para edificar vivienda pública de alquiler y ampliar residencias y alojamientos públicos.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Sembrando Revolución Andaluza: programa para las elecciones andaluzas de 2026",
+        "url": "https://nacionandaluza.org/wp-content/uploads/2026/04/maquetado-largo-pliegos.pdf",
+        "fecha": "2026-04",
+        "consultado": "2026-07-09"
+      }
+    },
+    "eco-011": {
+      "valor": 2,
+      "justificacion": "Plantea implantar una jornada laboral semanal de 30 horas y ampliar las vacaciones a 45 días.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Sembrando Revolución Andaluza: programa para las elecciones andaluzas de 2026",
+        "url": "https://nacionandaluza.org/wp-content/uploads/2026/04/maquetado-largo-pliegos.pdf",
+        "fecha": "2026-04",
+        "consultado": "2026-07-09"
+      }
+    },
+    "eco-012": {
+      "valor": 2,
+      "justificacion": "Exige anular todos los conciertos educativos con instituciones privadas.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Sembrando Revolución Andaluza: programa para las elecciones andaluzas de 2026",
+        "url": "https://nacionandaluza.org/wp-content/uploads/2026/04/maquetado-largo-pliegos.pdf",
+        "fecha": "2026-04",
+        "consultado": "2026-07-09"
+      }
+    },
+    "lab-016": {
+      "valor": 2,
+      "justificacion": "Propone nacionalizar las fuentes de energía con recursos andaluces, la banca privada andaluza y mantener o recuperar empresas y servicios estratégicos en manos públicas.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Sembrando Revolución Andaluza: programa para las elecciones andaluzas de 2026",
+        "url": "https://nacionandaluza.org/wp-content/uploads/2026/04/maquetado-largo-pliegos.pdf",
+        "fecha": "2026-04",
+        "consultado": "2026-07-09"
+      }
+    },
+    "lab-024": {
+      "valor": 2,
+      "justificacion": "Defiende un marco andaluz de relaciones laborales, un Estatuto Andaluz de los Trabajadores y legislación laboral propia.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Sembrando Revolución Andaluza: programa para las elecciones andaluzas de 2026",
+        "url": "https://nacionandaluza.org/wp-content/uploads/2026/04/maquetado-largo-pliegos.pdf",
+        "fecha": "2026-04",
+        "consultado": "2026-07-09"
+      }
+    },
+    "lai-001": {
+      "valor": 2,
+      "justificacion": "Propone suprimir las materias de religión de todos los programas educativos andaluces.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Sembrando Revolución Andaluza: programa para las elecciones andaluzas de 2026",
+        "url": "https://nacionandaluza.org/wp-content/uploads/2026/04/maquetado-largo-pliegos.pdf",
+        "fecha": "2026-04",
+        "consultado": "2026-07-09"
+      }
+    },
+    "fem-009": {
+      "valor": 2,
+      "justificacion": "Establece que la futura república no tendrá acuerdos con el Vaticano ni privilegios para la Iglesia católica u otra confesión.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Sembrando Revolución Andaluza: programa para las elecciones andaluzas de 2026",
+        "url": "https://nacionandaluza.org/wp-content/uploads/2026/04/maquetado-largo-pliegos.pdf",
+        "fecha": "2026-04",
+        "consultado": "2026-07-09"
+      }
+    },
+    "ene-001": {
+      "valor": -2,
+      "justificacion": "Declara Andalucía nación no nuclear, reclama clausurar El Cabril y prohíbe almacenar o transportar armamento radiactivo, por lo que rechaza nuevas centrales.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Sembrando Revolución Andaluza: programa para las elecciones andaluzas de 2026",
+        "url": "https://nacionandaluza.org/wp-content/uploads/2026/04/maquetado-largo-pliegos.pdf",
+        "fecha": "2026-04",
+        "consultado": "2026-07-09"
+      }
+    },
+    "def-002": {
+      "valor": 2,
+      "justificacion": "Su programa exige cerrar instalaciones militares estadounidenses, británicas y españolas y proclama «OTAN fuera de Andalucía».",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Sembrando Revolución Andaluza: programa para las elecciones andaluzas de 2026",
+        "url": "https://nacionandaluza.org/wp-content/uploads/2026/04/maquetado-largo-pliegos.pdf",
+        "fecha": "2026-04",
+        "consultado": "2026-07-09"
+      }
+    },
+    "geo-005": {
+      "valor": -2,
+      "justificacion": "Rechaza que Andalucía dependa de la disuasión nuclear aliada: quiere un territorio libre de armas nucleares y prohíbe el tránsito de submarinos nucleares.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Sembrando Revolución Andaluza: programa para las elecciones andaluzas de 2026",
+        "url": "https://nacionandaluza.org/wp-content/uploads/2026/04/maquetado-largo-pliegos.pdf",
+        "fecha": "2026-04",
+        "consultado": "2026-07-09"
+      }
+    },
+    "sd-019": {
+      "valor": 2,
+      "justificacion": "Reconoce la RASD y la soberanía del pueblo saharaui, junto con el derecho general de los pueblos a la autodeterminación sin injerencias.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Sembrando Revolución Andaluza: programa para las elecciones andaluzas de 2026",
+        "url": "https://nacionandaluza.org/wp-content/uploads/2026/04/maquetado-largo-pliegos.pdf",
+        "fecha": "2026-04",
+        "consultado": "2026-07-09"
+      }
+    },
+    "int-001": {
+      "valor": 1,
+      "justificacion": "Apoya el reconocimiento de Palestina, aunque su programa va más allá y propone un único Estado palestino entre el Jordán y el Mediterráneo; el ítem no capta esa diferencia.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Sembrando Revolución Andaluza: programa para las elecciones andaluzas de 2026",
+        "url": "https://nacionandaluza.org/wp-content/uploads/2026/04/maquetado-largo-pliegos.pdf",
+        "fecha": "2026-04",
+        "consultado": "2026-07-09"
+      }
+    },
+    "soc-004": {
+      "valor": 2,
+      "justificacion": "Propone regularizar a las trabajadoras sin papeles que ya se encuentren en Andalucía y dar nacionalidad andaluza tras dos años de empadronamiento.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Sembrando Revolución Andaluza: programa para las elecciones andaluzas de 2026",
+        "url": "https://nacionandaluza.org/wp-content/uploads/2026/04/maquetado-largo-pliegos.pdf",
+        "fecha": "2026-04",
+        "consultado": "2026-07-09"
+      }
+    },
+    "va-003": {
+      "valor": 2,
+      "justificacion": "El programa abole expresamente los espectáculos con animales, incluidas corridas y encierros de toros.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Sembrando Revolución Andaluza: programa para las elecciones andaluzas de 2026",
+        "url": "https://nacionandaluza.org/wp-content/uploads/2026/04/maquetado-largo-pliegos.pdf",
+        "fecha": "2026-04",
+        "consultado": "2026-07-09"
+      }
+    },
+    "izq-031": {
+      "valor": -2,
+      "justificacion": "Aunque llamó a abstenerse en las europeas de 2024, presentó candidatura propia en las ocho provincias andaluzas en 2026; su táctica no es un boicot a toda elección.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "BOJA: candidaturas proclamadas para las elecciones al Parlamento de Andalucía de 2026",
+        "url": "https://www.juntadeandalucia.es/boja/2026/75/c01/1",
+        "fecha": "2026-04-21",
+        "consultado": "2026-07-09"
+      }
+    }
+  }
+}

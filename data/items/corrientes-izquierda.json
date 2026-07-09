@@ -13,7 +13,8 @@
     "tags": [
       "revolucion"
     ],
-    "estado": "piloto"
+    "estado": "piloto",
+    "notas": "Ancla ruptura revolucionaria frente a reforma gradual; no determina por sí sola si la alternativa es pluralista, consejista o de partido dirigente."
   },
   {
     "id": "izq-002",
@@ -33,7 +34,8 @@
     "estado": "piloto",
     "terminos": [
       "partido-de-vanguardia"
-    ]
+    ],
+    "notas": "Separa leninismo y centralización revolucionaria de consejismo, luxemburguismo y anarquismo; se combina con pluralismo y revocabilidad para evitar identificar disciplina con autoritarismo automáticamente."
   },
   {
     "id": "izq-003",
@@ -53,7 +55,8 @@
     "estado": "piloto",
     "terminos": [
       "asamblearismo"
-    ]
+    ],
+    "notas": "Ancla organización desde consejos y asambleas frente a partido dirigente; puede unir tradiciones libertarias y marxistas consejistas por razones doctrinales distintas."
   },
   {
     "id": "izq-004",
@@ -85,7 +88,8 @@
     "estado": "piloto",
     "terminos": [
       "planificacion-economica"
-    ]
+    ],
+    "notas": "Separa planificación pública de coordinación por mercado, pero no distingue propiedad estatal, control obrero o planificación democrática; esas razones se miden en otros ítems."
   },
   {
     "id": "izq-006",
@@ -117,7 +121,8 @@
     "tags": [
       "anarcocomunismo"
     ],
-    "estado": "piloto"
+    "estado": "piloto",
+    "notas": "Distingue abolición antiestatal de conquista o transformación del Estado; el acuerdo puede proceder de anarquismo o comunismo libertario y no implica una economía de mercado."
   },
   {
     "id": "izq-008",
@@ -137,7 +142,8 @@
     "estado": "piloto",
     "terminos": [
       "accion-directa"
-    ]
+    ],
+    "notas": "Separa primacía de acción directa y huelga de masas frente a estrategia parlamentaria; pueden coincidir sindicalistas revolucionarios, luxemburguistas y anarquistas por razones diferentes."
   },
   {
     "id": "izq-009",
@@ -609,7 +615,7 @@
       "sindicatos",
       "autofinanciacion"
     ],
-    "estado": "piloto",
+    "estado": "retirado",
     "notas": "Discrimina: Separa el anarcosindicalismo (CNT y CGT hacen de la autofinanciación un principio identitario: muy de acuerdo) del sindicalismo institucional (CCOO, UGT) y de la izquierda que lo respalda (PSOE, PCE/IU: en desacuerdo). | Esperado: CNT +2, CGT +2, CUP +1, CCOO -2, UGT -2, PCE/IU -1, PSOE -2. | Parte de la derecha también recortaría subvenciones sindicales; dentro del módulo de izquierda el ítem mide independencia sindical, no antisindicalismo. | [Corregido en revisión: El texto es limpio, pero la carga en 'organizacion' contamina el eje: cualquier votante de derecha antisindical (VOX pide eliminar subvenciones a sindicatos) puntuaría muy de acuerdo y sería empujado hacia 'horizontalismo', que no es lo que piensa. La distinción autofinanciación es real pero no proyecta limpiamente sobre un eje lineal: debe ser solo-matching. Además, matiz fáctico: la autofinanciación de CGT es discutida (CNT le reprocha aceptar horas sindicales y recursos derivados de los comités); CGT en 1 sería más prudente que en 2.]"
   },
   {
@@ -638,7 +644,7 @@
       "asamblearismo",
       "elecciones"
     ],
-    "estado": "piloto",
+    "estado": "retirado",
     "notas": "Discrimina: Aísla el matiz CUP: participa en elecciones pero con mandato imperativo asambleario (muy de acuerdo). El anarquismo abstencionista rechaza concurrir incluso así (desacuerdo) y Podemos/IU defienden la autonomía de sus electos (desacuerdo). | Esperado: CUP +2, asamblearismo institucional +2, anarcocomunismo -1, CNT -1, Podemos -1, PCE/IU -1. | Solo-matching: acuerdo y desacuerdo llegan por motivos opuestos (electoralismo clásico vs. abstencionismo), es una distinción no lineal. | [Corregido en revisión: Fallo lógico en la redacción condicional: 'solo es coherente si...' es una condición necesaria que un abstencionista puede aceptar vacuamente ('nunca es coherente, así que la condición me da igual') o rechazar; el -1 esperado de CNT/anarcocomunismo es inestable porque acuerdo y desacuerdo dependen de cómo el usuario procese el condicional, no de su posición. Reformulado como mandato imperativo directo se conserva el matiz CUP y desaparece la ambigüedad. Con el nuevo texto la polaridad es negativa (restringe la autonomía de los electos), lo que además mejora el balance del conjunto.]"
   },
   {
@@ -664,29 +670,6 @@
     ],
     "estado": "piloto",
     "notas": "Discrimina: CUP lo practica con sus diputados (muy de acuerdo) y Podemos tiene un límite más laxo (de acuerdo); PSOE y la izquierda clásica defienden retribuciones profesionales (desacuerdo). Separa asamblearismo de socialdemocracia. | Esperado: CUP +2, anarcosindicalismo (CNT/CGT) +1, Podemos +1, PCE/IU +0, PSOE -1, PP -2."
-  },
-  {
-    "id": "izq-037",
-    "texto": "Cualquier cargo electo debería poder ser revocado en todo momento por quienes lo eligieron.",
-    "modulo": "corrientes-izquierda",
-    "ejes": [
-      {
-        "eje": "organizacion",
-        "carga": -0.75
-      },
-      {
-        "eje": "populismo",
-        "carga": 0.25
-      }
-    ],
-    "polaridad": "positiva",
-    "tags": [
-      "revocabilidad",
-      "asamblearismo",
-      "democracia-directa"
-    ],
-    "estado": "piloto",
-    "notas": "Discrimina: Separa el asamblearismo y el anarquismo (revocabilidad permanente: muy de acuerdo) del modelo representativo clásico de PSOE/PP (mandato de 4 años: muy en desacuerdo); Podemos queda en posición intermedia (revocatorios puntuales). | Esperado: CUP +2, anarcocomunismo +2, municipalismo libertario +2, Podemos +1, PCE/IU +0, PSOE -2."
   },
   {
     "id": "izq-038",

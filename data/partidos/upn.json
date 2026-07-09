@@ -1,0 +1,158 @@
+{
+  "id": "upn",
+  "nombre": "Unión del Pueblo Navarro",
+  "siglas": "UPN",
+  "ambito": "autonomico",
+  "tipo": "partido",
+  "ccaa": ["navarra"],
+  "confianza": "verificada",
+  "web": "https://www.upn.org/",
+  "revisado": "2026-07-09",
+  "actividad": "activa",
+  "posiciones": {
+    "nac-001": {
+      "valor": -2,
+      "justificacion": "Rechaza cualquier apertura unilateral hacia la independencia y sitúa la acción territorial dentro de la Constitución y el Amejoramiento.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral de UPN para Navarra 2023",
+        "url": "https://elecciones.upn.org/programa/",
+        "fecha": "2023",
+        "consultado": "2026-07-09"
+      }
+    },
+    "nac-002": {
+      "valor": -2,
+      "justificacion": "Define Navarra como comunidad foral propia e integrada en España, no como parte de un futuro Estado vasco independiente.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Principios y valores de Unión del Pueblo Navarro",
+        "url": "https://www.upn.org/principios-y-valores/",
+        "fecha": "2026",
+        "consultado": "2026-07-09"
+      }
+    },
+    "eus-001": {
+      "valor": -2,
+      "justificacion": "Niega que Navarra deba integrarse en una misma comunidad política nacional con Euskadi.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Principios y valores de Unión del Pueblo Navarro",
+        "url": "https://www.upn.org/principios-y-valores/",
+        "fecha": "2026",
+        "consultado": "2026-07-09"
+      }
+    },
+    "eus-002": {
+      "valor": 2,
+      "justificacion": "Defiende el Convenio navarro como pacto bilateral esencial del régimen foral frente a recortes o armonización unilateral.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral de UPN para Navarra 2023",
+        "url": "https://elecciones.upn.org/programa/",
+        "fecha": "2023",
+        "consultado": "2026-07-09"
+      }
+    },
+    "eus-003": {
+      "valor": -2,
+      "justificacion": "Rechaza convertir el euskera en requisito general para la mayoría del empleo público y prioriza mérito o necesidad concreta del puesto.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral de UPN para Navarra 2023",
+        "url": "https://elecciones.upn.org/programa/",
+        "fecha": "2023",
+        "consultado": "2026-07-09"
+      }
+    },
+    "eus-004": {
+      "valor": -2,
+      "justificacion": "Su política de memoria y víctimas se opone a presentar la política penitenciaria de ETA como mera aplicación ordinaria sin condiciones o memoria específica.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral de UPN para Navarra 2023",
+        "url": "https://elecciones.upn.org/programa/",
+        "fecha": "2023",
+        "consultado": "2026-07-09"
+      }
+    },
+    "eus-005": {
+      "valor": 2,
+      "justificacion": "Sitúa la defensa y actualización del régimen foral dentro de España como su vía de autogobierno.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Principios y valores de Unión del Pueblo Navarro",
+        "url": "https://www.upn.org/principios-y-valores/",
+        "fecha": "2026",
+        "consultado": "2026-07-09"
+      }
+    },
+    "eus-006": {
+      "valor": -2,
+      "justificacion": "Defiende mantener la zonificación y la voluntariedad territorial del euskera en Navarra.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral de UPN para Navarra 2023",
+        "url": "https://elecciones.upn.org/programa/",
+        "fecha": "2023",
+        "consultado": "2026-07-09"
+      }
+    },
+    "eus-007": {
+      "valor": 2,
+      "justificacion": "Califica a ETA como banda terrorista, combate su enaltecimiento y exige esclarecimiento y responsabilidad por sus atentados; su valoración histórica es inequívocamente condenatoria.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral de UPN para las elecciones generales de 2023",
+        "url": "https://www.upn.org/wp-content/uploads/2023/07/Programa-Generales-23J_V2-1.pdf",
+        "fecha": "2023",
+        "consultado": "2026-07-10"
+      }
+    },
+    "eus-009": {
+      "valor": 2,
+      "justificacion": "Propone proteger de forma específica a las víctimas de ETA mediante reparación, esclarecimiento de atentados pendientes y medidas contra homenajes o enaltecimiento.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral de UPN para las elecciones generales de 2023",
+        "url": "https://www.upn.org/wp-content/uploads/2023/07/Programa-Generales-23J_V2-1.pdf",
+        "fecha": "2023",
+        "consultado": "2026-07-10"
+      }
+    },
+    "der-014": {
+      "valor": 2,
+      "justificacion": "El régimen foral y el Convenio navarro son elementos centrales e irrenunciables de su propuesta.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral de UPN para Navarra 2023",
+        "url": "https://elecciones.upn.org/programa/",
+        "fecha": "2023",
+        "consultado": "2026-07-09"
+      }
+    },
+    "dem-014": {
+      "valor": 1,
+      "justificacion": "Su congreso y sus procesos internos permiten elección directa por la afiliación, aunque no convierten toda decisión estratégica en consulta vinculante universal.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "estatutos",
+        "titulo": "Estatutos de Unión del Pueblo Navarro",
+        "url": "https://www.upn.org/estatutos/",
+        "fecha": "2026",
+        "consultado": "2026-07-09"
+      }
+    }
+  }
+}

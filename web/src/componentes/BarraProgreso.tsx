@@ -1,4 +1,4 @@
-import { ITEMS_POR_MODULO, MODULOS } from '../datos';
+import { ITEMS_POR_MODULO, MODULOS, itemVisible } from '../datos';
 import type { Valor } from '@engine';
 
 interface Props {
@@ -13,9 +13,11 @@ interface Props {
 export function BarraProgreso({ modulosActivos, respuestas }: Props) {
   const activos = new Set(modulosActivos);
   const segmentos = MODULOS.filter((m) => m.id === 'nucleo' || activos.has(m.id)).map((m) => {
-    const items = ITEMS_POR_MODULO.get(m.id) ?? [];
+    const items = (ITEMS_POR_MODULO.get(m.id) ?? []).filter((item) =>
+      itemVisible(item, respuestas),
+    );
     const respondidos = items.filter((i) => i.id in respuestas).length;
-    return { id: m.id, nombre: m.nombre, total: items.length, respondidos };
+    return { id: m.id, total: items.length, respondidos };
   });
 
   const total = segmentos.reduce((s, x) => s + x.total, 0);
@@ -30,12 +32,12 @@ export function BarraProgreso({ modulosActivos, respuestas }: Props) {
       aria-valuenow={hechos}
       aria-label={`Progreso: ${hechos} de ${total} ítems respondidos`}
     >
-      {segmentos.map((s) => (
+      {segmentos.map((s, indice) => (
         <div
           key={s.id}
           className="progreso-seg"
           style={{ flexGrow: s.total }}
-          title={`${s.nombre}: ${s.respondidos} de ${s.total}`}
+          title={`Bloque ${indice + 1}: ${s.respondidos} de ${s.total}`}
         >
           <span style={{ width: `${s.total > 0 ? (100 * s.respondidos) / s.total : 0}%` }} />
         </div>

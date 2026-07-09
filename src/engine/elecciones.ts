@@ -8,26 +8,186 @@ export interface ContextoEleccion {
   ccaa?: string;
 }
 
+export type MotivoInclusionCandidatura =
+  | 'umbral'
+  | 'historica-activa'
+  | 'comunista-activa';
+
+export interface RelacionPerfilCandidatura {
+  perfilId: string;
+  /**
+   * La relación solo identifica actores: nunca hereda posiciones entre una
+   * coalición y sus componentes, ni entre una marca histórica y una sucesora.
+   */
+  relacion:
+    | 'misma-organizacion'
+    | 'organizacion-territorial'
+    | 'coalicion'
+    | 'componente'
+    | 'sucesora';
+  nota?: string;
+}
+
+export interface CandidaturaElectoral {
+  id: string;
+  codigoOficial?: string;
+  siglas?: string;
+  nombre: string;
+  votos: number;
+  porcentaje: number;
+  escanos?: number;
+  /** CCAA en las que la fuente registra votos para esta candidatura. */
+  territorios?: string[];
+  /** Provincias, islas u otras circunscripciones dentro de la convocatoria. */
+  circunscripciones?: string[];
+  /** Denominaciones distintas cuando no existió una papeleta territorial única. */
+  variantesPapeleta?: Record<string, string>;
+  motivoInclusion: MotivoInclusionCandidatura;
+  perfilRelaciones: RelacionPerfilCandidatura[];
+  nota?: string;
+}
+
+export interface ConvocatoriaElectoral {
+  id: string;
+  nombre: string;
+  tipo: TipoEleccion;
+  fecha: string;
+  /** `espana` para una convocatoria estatal; si no, id normalizado de CCAA. */
+  territorio: string;
+  camara?: string;
+  umbralPorcentaje: number;
+  denominador: {
+    tipo: 'votos-a-candidaturas' | 'votos-validos';
+    valor: number;
+  };
+  totalCandidaturasOficiales: number;
+  fuente: {
+    titulo: string;
+    url: string;
+    fechaDatos?: string;
+    consultado: string;
+  };
+  fuentesAdicionales?: Array<{
+    titulo: string;
+    url: string;
+    fechaDatos?: string;
+    consultado: string;
+  }>;
+  nota?: string;
+  candidaturas: CandidaturaElectoral[];
+}
+
+export interface SeleccionElectoral {
+  partidos: Partido[];
+  /** Formaciones activas añadidas por excepción, nunca presentadas como papeleta. */
+  partidosFueraConvocatoria: Partido[];
+  /** Ausente cuando todavía no hay una convocatoria documentada para el contexto. */
+  convocatoria?: ConvocatoriaElectoral;
+  candidaturas: CandidaturaElectoral[];
+  /** Candidaturas seleccionadas que ya tienen al menos un perfil comparable. */
+  candidaturasConPerfil: number;
+  /** Perfiles enlazados a la selección, antes de descartar inactivos o históricos. */
+  perfilesEnlazados: number;
+  metodo: 'convocatoria-documentada' | 'heuristica-ambito';
+}
+
+function vigentes(partidos: Partido[]): Partido[] {
+  return partidos.filter(
+    (partido) =>
+      !partido.demo && partido.actividad !== 'inactiva' && partido.actividad !== 'historica',
+  );
+}
+
+function porAmbito(partidos: Partido[], ctx: ContextoEleccion): Partido[] {
+  if (ctx.tipo === 'europeas') return partidos;
+  return partidos.filter((p) => {
+    if (p.ambito === 'estatal') return true;
+    if (p.ambito === 'local' && ctx.tipo !== 'municipales') return false;
+    if (!ctx.ccaa) return true;
+    return p.ccaa?.includes(ctx.ccaa) ?? false;
+  });
+}
+
+function ultimaConvocatoria(
+  convocatorias: readonly ConvocatoriaElectoral[],
+  ctx: ContextoEleccion,
+): ConvocatoriaElectoral | undefined {
+  return convocatorias
+    .filter((convocatoria) => {
+      if (convocatoria.tipo !== ctx.tipo) return false;
+      if (ctx.tipo === 'autonomicas') {
+        return Boolean(ctx.ccaa) && convocatoria.territorio === ctx.ccaa;
+      }
+      return convocatoria.territorio === 'espana';
+    })
+    .sort((a, b) => b.fecha.localeCompare(a.fecha))[0];
+}
+
+/**
+ * Selecciona el universo y devuelve también su procedencia. Así la interfaz
+ * puede distinguir una convocatoria comprobada de una mera heurística.
+ */
+export function seleccionarPartidosElectorales(
+  partidos: Partido[],
+  convocatorias: readonly ConvocatoriaElectoral[],
+  ctx: ContextoEleccion,
+): SeleccionElectoral {
+  const partidosVigentes = vigentes(partidos);
+  const convocatoria = ultimaConvocatoria(convocatorias, ctx);
+  if (!convocatoria) {
+    return {
+      partidos: porAmbito(partidosVigentes, ctx),
+      partidosFueraConvocatoria: [],
+      candidaturas: [],
+      candidaturasConPerfil: 0,
+      perfilesEnlazados: 0,
+      metodo: 'heuristica-ambito',
+    };
+  }
+
+  const candidaturas = convocatoria.candidaturas.filter(
+    (candidatura) =>
+      !ctx.ccaa ||
+      convocatoria.tipo !== 'generales' ||
+      candidatura.territorios?.includes(ctx.ccaa),
+  );
+  const ids = new Set(
+    candidaturas.flatMap((candidatura) =>
+      candidatura.perfilRelaciones.map((relacion) => relacion.perfilId),
+    ),
+  );
+  const seleccionados = partidosVigentes.filter((partido) => ids.has(partido.id));
+  const idsDisponibles = new Set(seleccionados.map((partido) => partido.id));
+  const partidosFueraConvocatoria = porAmbito(partidosVigentes, ctx).filter(
+    (partido) => partido.excepcionCatalogo && !ids.has(partido.id),
+  );
+
+  return {
+    partidos: seleccionados,
+    partidosFueraConvocatoria,
+    convocatoria,
+    candidaturas,
+    candidaturasConPerfil: candidaturas.filter((candidatura) =>
+      candidatura.perfilRelaciones.some((relacion) => idsDisponibles.has(relacion.perfilId)),
+    ).length,
+    perfilesEnlazados: ids.size,
+    metodo: 'convocatoria-documentada',
+  };
+}
+
 /**
  * Partidos que tiene sentido mostrar y rankear en una elección dada.
  *
- * Heurística v1 (pendiente de sustituirse por datos reales de candidaturas
- * de infoelectoral en la Fase 3):
+ * Heurística de respaldo cuando aún no existe una convocatoria versionada:
  * - europeas: circunscripción única, entran todos.
  * - generales/autonomicas: estatales + autonómicos/insulares de la CCAA del usuario.
  * - municipales: además los de ámbito local de esa CCAA (sin datos de municipio
  *   el filtrado fino aún no es posible).
  *
- * IMPORTANTE: no toca la fórmula de afinidad ni las puntuaciones de eje —
- * solo decide QUÉ partidos entran en el ranking. La afinidad de cada partido
- * se calcula exactamente igual en cualquier ámbito electoral.
+ * La interfaz no debe llamarla «papeleta». Para contextos con resultados
+ * oficiales se usa `seleccionarPartidosElectorales`. Ninguna de las dos rutas
+ * toca la fórmula de afinidad ni las puntuaciones de faceta.
  */
 export function partidosElegibles(partidos: Partido[], ctx: ContextoEleccion): Partido[] {
-  if (ctx.tipo === 'europeas') return [...partidos];
-  return partidos.filter((p) => {
-    if (p.ambito === 'estatal') return true;
-    if (p.ambito === 'local' && ctx.tipo !== 'municipales') return false;
-    if (!ctx.ccaa) return true; // sin CCAA conocida no se excluye a nadie
-    return p.ccaa?.includes(ctx.ccaa) ?? false;
-  });
+  return porAmbito(vigentes(partidos), ctx);
 }

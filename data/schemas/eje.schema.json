@@ -10,7 +10,21 @@
     "poloNegativo": { "type": "string", "description": "Significado de -100" },
     "poloPositivo": { "type": "string", "description": "Significado de +100" },
     "descripcion": { "type": "string" },
-    "subEje": { "type": "boolean", "description": "true si solo se mide en módulos de profundización" }
+    "subEje": { "type": "boolean", "description": "true si solo se mide en módulos de profundización" },
+    "referencias": {
+      "type": "array",
+      "minItems": 2,
+      "items": {
+        "type": "object",
+        "required": ["valor", "etiqueta"],
+        "properties": {
+          "valor": { "type": "number", "minimum": -100, "maximum": 100 },
+          "etiqueta": { "type": "string", "minLength": 2 }
+        },
+        "additionalProperties": false
+      },
+      "description": "Hitos orientativos de lectura; no son casillas ni sustituyen la puntuación continua"
+    }
   },
   "additionalProperties": false
 }

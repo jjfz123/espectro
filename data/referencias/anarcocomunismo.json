@@ -1,0 +1,224 @@
+{
+  "id": "anarcocomunismo",
+  "nombre": "Anarcocomunismo",
+  "tipo": "referencia-doctrinal",
+  "definicion": "Tipo ideal kropotkiniano que propone abolir Estado, capitalismo, propiedad lucrativa y trabajo asalariado, socializar los recursos y organizar producción, consumo y cuidados mediante comunas, asociaciones y federaciones libres.",
+  "variante": "Comunismo anarquista clásico de Kropotkin; no equivale a todo comunismo libertario contemporáneo",
+  "periodo": "Finales del siglo XIX–actualidad",
+  "confianza": "verificada",
+  "version": "1.0",
+  "revisado": "2026-07-09",
+  "facetasDefinitorias": ["economico", "estatismo", "institucionalismo", "democracia-directa", "poder-laboral"],
+  "sensibilidad": "normal",
+  "advertencia": "Es una referencia doctrinal no electoral, no una identidad asignada ni una descripción de CNT, CGT u otra organización real. Kropotkin no agota el anarcocomunismo: existen diferencias sobre organización específica, sindicalismo, transición, violencia defensiva y formas de coordinación. No se codifican energía nuclear, religión, aborto, política territorial ni armas nucleares porque no forman una posición definitoria común.",
+  "fuentesMarco": [
+    {
+      "tipo": "otro",
+      "titulo": "Pëtr Kropotkin, The Conquest of Bread",
+      "url": "https://theanarchistlibrary.org/library/petr-kropotkin-the-conquest-of-bread",
+      "fecha": "1892",
+      "consultado": "2026-07-09"
+    },
+    {
+      "tipo": "otro",
+      "titulo": "Pëtr Kropotkin, The State: Its Historic Role",
+      "url": "https://www.theanarchistlibrary.org/library/petr-kropotkin-the-state-its-historic-role",
+      "fecha": "1896",
+      "consultado": "2026-07-09"
+    },
+    {
+      "tipo": "otro",
+      "titulo": "Stanford Encyclopedia of Philosophy: Anarchism",
+      "url": "https://plato.stanford.edu/entries/anarchism/",
+      "fecha": "2025-12-04",
+      "consultado": "2026-07-09"
+    }
+  ],
+  "reglaPublicacion": {
+    "minimoItems": 10,
+    "minimoCobertura": 0.55,
+    "umbralAfinidad": 74
+  },
+  "posiciones": {
+    "der-001": {
+      "valor": -1,
+      "justificacion": "Coincide en vaciar radicalmente al Estado, pero no conserva como monopolios residuales la seguridad y la justicia: su horizonte es abolir la institución estatal completa.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "The State: Its Historic Role",
+        "url": "https://www.theanarchistlibrary.org/library/petr-kropotkin-the-state-its-historic-role",
+        "fecha": "1896",
+        "consultado": "2026-07-09"
+      }
+    },
+    "izq-003": {
+      "valor": 2,
+      "justificacion": "La transformación se atribuye a la iniciativa directa de comunas, grupos y federaciones, no a un partido que conquiste el Estado y gobierne en nombre de las bases.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "The State: Its Historic Role",
+        "url": "https://www.theanarchistlibrary.org/library/petr-kropotkin-the-state-its-historic-role",
+        "fecha": "1896",
+        "consultado": "2026-07-09"
+      }
+    },
+    "dem-011": {
+      "valor": 2,
+      "justificacion": "No busca reformar el parlamentarismo estatal, sino sustituir Estado y representación profesional por asociación directa y federación libre.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "The State: Its Historic Role",
+        "url": "https://www.theanarchistlibrary.org/library/petr-kropotkin-the-state-its-historic-role",
+        "fecha": "1896",
+        "consultado": "2026-07-09"
+      }
+    },
+    "dem-013": {
+      "valor": 2,
+      "justificacion": "Cuando la coordinación directa no es posible, Kropotkin concibe delegados enviados para un asunto concreto, con instrucciones y retorno con una propuesta contractual, no legisladores autónomos.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "The Conquest of Bread",
+        "url": "https://theanarchistlibrary.org/library/petr-kropotkin-the-conquest-of-bread",
+        "fecha": "1892",
+        "consultado": "2026-07-09"
+      }
+    },
+    "dem-017": {
+      "valor": 1,
+      "justificacion": "Apoya comunas, asociaciones laborales y federaciones en lugar del parlamento, aunque el tipo ideal no exige que toda unidad política adopte exactamente el formato dual de consejos locales y laborales del ítem.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "The Conquest of Bread",
+        "url": "https://theanarchistlibrary.org/library/petr-kropotkin-the-conquest-of-bread",
+        "fecha": "1892",
+        "consultado": "2026-07-09"
+      }
+    },
+    "dem-019": {
+      "valor": -2,
+      "justificacion": "Un movimiento único que dirige un Estado reproduce las dos autoridades que esta doctrina pretende abolir: monopolio político y aparato estatal.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Anarchist Communism: Its Basis and Principles",
+        "url": "https://theanarchistlibrary.org/library/petr-kropotkin-anarchist-communism-its-basis-and-principles",
+        "fecha": "1891",
+        "consultado": "2026-07-09"
+      }
+    },
+    "izq-032": {
+      "valor": 1,
+      "justificacion": "Prefiere producción autogestionada y federada a empresas estatales, pero su comunismo de recursos comunes no se reduce a cooperativas propietarias separadas que intercambien entre sí.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "The Conquest of Bread",
+        "url": "https://theanarchistlibrary.org/library/petr-kropotkin-the-conquest-of-bread",
+        "fecha": "1892",
+        "consultado": "2026-07-09"
+      }
+    },
+    "izq-038": {
+      "valor": 2,
+      "justificacion": "Su arquitectura política característica son comunas y asociaciones libres confederadas, incluso a través de fronteras, sin un Estado central por encima.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "The Conquest of Bread",
+        "url": "https://theanarchistlibrary.org/library/petr-kropotkin-the-conquest-of-bread",
+        "fecha": "1892",
+        "consultado": "2026-07-09"
+      }
+    },
+    "izq-043": {
+      "valor": 2,
+      "justificacion": "Sitúa la provisión social en asociaciones, comunas, solidaridad y ayuda mutua, no en una administración estatal separada de la comunidad.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "The Conquest of Bread",
+        "url": "https://theanarchistlibrary.org/library/petr-kropotkin-the-conquest-of-bread",
+        "fecha": "1892",
+        "consultado": "2026-07-09"
+      }
+    },
+    "izq-044": {
+      "valor": 2,
+      "justificacion": "La policía forma parte del aparato coercitivo que sostiene privilegios; la resolución de necesidades y conflictos debe desplazarse hacia organización y responsabilidad comunitarias.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "The Conquest of Bread",
+        "url": "https://theanarchistlibrary.org/library/petr-kropotkin-the-conquest-of-bread",
+        "fecha": "1892",
+        "consultado": "2026-07-09"
+      }
+    },
+    "lab-008": {
+      "valor": 2,
+      "justificacion": "Propone que asociaciones federadas de quienes trabajan administren ferrocarriles, fábricas y producción en lugar de propietarios capitalistas o ministerios.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "The Conquest of Bread",
+        "url": "https://theanarchistlibrary.org/library/petr-kropotkin-the-conquest-of-bread",
+        "fecha": "1892",
+        "consultado": "2026-07-09"
+      }
+    },
+    "lab-009": {
+      "valor": 1,
+      "justificacion": "Rechaza la exacción del Estado y su aparato fiscal, pero no porque la propiedad capitalista sea inviolable: propone sustituir ambos por provisión común y asociación libre.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "The Conquest of Bread",
+        "url": "https://theanarchistlibrary.org/library/petr-kropotkin-the-conquest-of-bread",
+        "fecha": "1892",
+        "consultado": "2026-07-09"
+      }
+    },
+    "lab-010": {
+      "valor": -2,
+      "justificacion": "La razón individual-propietaria del enunciado contradice la socialización de tierra, vivienda, fábricas y medios de subsistencia que define esta corriente.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "The Conquest of Bread",
+        "url": "https://theanarchistlibrary.org/library/petr-kropotkin-the-conquest-of-bread",
+        "fecha": "1892",
+        "consultado": "2026-07-09"
+      }
+    },
+    "lab-016": {
+      "valor": -2,
+      "justificacion": "Socializar una empresa no significa ponerla bajo un ministerio: rechaza que el Estado dirija los sectores estratégicos y propone federaciones autogestionadas.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "The State: Its Historic Role",
+        "url": "https://www.theanarchistlibrary.org/library/petr-kropotkin-the-state-its-historic-role",
+        "fecha": "1896",
+        "consultado": "2026-07-09"
+      }
+    },
+    "lab-017": {
+      "valor": 2,
+      "justificacion": "Entre propiedad privada capitalista y dirección ministerial, elige asociaciones de productores y comunidades que administran directamente los medios socializados.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "The Conquest of Bread",
+        "url": "https://theanarchistlibrary.org/library/petr-kropotkin-the-conquest-of-bread",
+        "fecha": "1892",
+        "consultado": "2026-07-09"
+      }
+    }
+  }
+}

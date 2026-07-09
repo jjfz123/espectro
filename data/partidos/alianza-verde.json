@@ -1,0 +1,49 @@
+{
+  "id": "alianza-verde",
+  "nombre": "Alianza Verde",
+  "siglas": "AV",
+  "ambito": "estatal",
+  "tipo": "partido",
+  "confianza": "verificada",
+  "web": "https://alianzaverde.es/",
+  "revisado": "2026-07-09",
+  "actividad": "activa",
+  "posiciones": {
+    "ene-001": {
+      "valor": -2,
+      "justificacion": "Su campaña por un futuro libre de nucleares rechaza construir nueva capacidad de fisión.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Jornada parlamentaria sobre un futuro libre de nucleares",
+        "url": "https://www.alianzaverde.es/news/jornada-parlamentaria-sobre-un-futuro-libre-de-nucleares/",
+        "fecha": "2026-01-30",
+        "consultado": "2026-07-09"
+      }
+    },
+    "ene-002": {
+      "valor": -2,
+      "justificacion": "Rechaza presentar la energía nuclear como sostenible y defiende sustituirla por renovables.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Jornada parlamentaria sobre un futuro libre de nucleares",
+        "url": "https://www.alianzaverde.es/news/jornada-parlamentaria-sobre-un-futuro-libre-de-nucleares/",
+        "fecha": "2026-01-30",
+        "consultado": "2026-07-09"
+      }
+    },
+    "ene-003": {
+      "valor": 2,
+      "justificacion": "Defiende cumplir el calendario de cierre y se opone expresamente a nuevas prórrogas, incluida la solicitada para Almaraz.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Jornada parlamentaria sobre un futuro libre de nucleares",
+        "url": "https://www.alianzaverde.es/news/jornada-parlamentaria-sobre-un-futuro-libre-de-nucleares/",
+        "fecha": "2026-01-30",
+        "consultado": "2026-07-09"
+      }
+    }
+  }
+}

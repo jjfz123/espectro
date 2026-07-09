@@ -1,0 +1,133 @@
+{
+  "id": "izquierda-espanola",
+  "nombre": "Izquierda Española",
+  "siglas": "IZQESP",
+  "ambito": "estatal",
+  "tipo": "partido",
+  "confianza": "verificada",
+  "web": "https://www.izqesp.es/",
+  "revisado": "2026-07-09",
+  "actividad": "activa",
+  "posiciones": {
+    "ter-001": {
+      "valor": 2,
+      "justificacion": "Su declaración programática defiende un modelo estatal unitario y la recuperación de capacidad política común frente a la dispersión autonómica.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Estatutos y declaración programática de Izquierda Española",
+        "url": "https://www.izqesp.es/docs/Estatutos%20Izquierda%20Espan%CC%83ola.pdf",
+        "fecha": "2022",
+        "consultado": "2026-07-09"
+      }
+    },
+    "sd-004": {
+      "valor": -2,
+      "justificacion": "Rechaza una definición plurinacional y formula España como comunidad política unitaria de ciudadanos.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Estatutos y declaración programática de Izquierda Española",
+        "url": "https://www.izqesp.es/docs/Estatutos%20Izquierda%20Espan%CC%83ola.pdf",
+        "fecha": "2022",
+        "consultado": "2026-07-09"
+      }
+    },
+    "dem-008": {
+      "valor": 2,
+      "justificacion": "Defiende expresamente la separación de poderes y una justicia independiente dentro del Estado democrático y social de derecho.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Estatutos y declaración programática de Izquierda Española",
+        "url": "https://www.izqesp.es/docs/Estatutos%20Izquierda%20Espan%CC%83ola.pdf",
+        "fecha": "2022",
+        "consultado": "2026-07-09"
+      }
+    },
+    "dem-011": {
+      "valor": -2,
+      "justificacion": "Su modelo es de democracia representativa y elecciones proporcionales dentro del Estado de derecho, no de sustitución del parlamentarismo por otro principio de representación.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Estatutos y declaración programática de Izquierda Española",
+        "url": "https://www.izqesp.es/docs/Estatutos%20Izquierda%20Espan%CC%83ola.pdf",
+        "fecha": "2022",
+        "consultado": "2026-07-09"
+      }
+    },
+    "dem-012": {
+      "valor": 2,
+      "justificacion": "Sitúa las reformas en el marco del Estado democrático y social de derecho y de procedimientos constitucionales representativos.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Estatutos y declaración programática de Izquierda Española",
+        "url": "https://www.izqesp.es/docs/Estatutos%20Izquierda%20Espan%CC%83ola.pdf",
+        "fecha": "2022",
+        "consultado": "2026-07-09"
+      }
+    },
+    "dem-014": {
+      "valor": -1,
+      "justificacion": "Las decisiones supremas corresponden a un Congreso de delegados y la secretaría general concurre en lista al ejecutivo; no se someten todas las decisiones estratégicas a voto directo universal de afiliados.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "estatutos",
+        "titulo": "Estatutos y declaración programática de Izquierda Española",
+        "url": "https://www.izqesp.es/docs/Estatutos%20Izquierda%20Espan%CC%83ola.pdf",
+        "fecha": "2022",
+        "consultado": "2026-07-09"
+      }
+    },
+    "lab-001": {
+      "valor": 2,
+      "justificacion": "Su declaración protege expresamente la negociación colectiva como institución central de las relaciones laborales.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Estatutos y declaración programática de Izquierda Española",
+        "url": "https://www.izqesp.es/docs/Estatutos%20Izquierda%20Espan%CC%83ola.pdf",
+        "fecha": "2022",
+        "consultado": "2026-07-09"
+      }
+    },
+    "lab-016": {
+      "valor": 2,
+      "justificacion": "Reconoce iniciativa económica pública e intervención estatal directa en sectores y empresas estratégicas.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Estatutos y declaración programática de Izquierda Española",
+        "url": "https://www.izqesp.es/docs/Estatutos%20Izquierda%20Espan%CC%83ola.pdf",
+        "fecha": "2022",
+        "consultado": "2026-07-09"
+      }
+    },
+    "rel-001": {
+      "valor": -2,
+      "justificacion": "Defiende laicidad y libertad de conciencia, no ateísmo obligatorio ni exclusión de organizaciones religiosas.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Estatutos y declaración programática de Izquierda Española",
+        "url": "https://www.izqesp.es/docs/Estatutos%20Izquierda%20Espan%CC%83ola.pdf",
+        "fecha": "2022",
+        "consultado": "2026-07-09"
+      }
+    },
+    "rel-002": {
+      "valor": 2,
+      "justificacion": "Formula un Estado laico que protege la libertad de conciencia y la igualdad de ciudadanía con independencia de las creencias.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Estatutos y declaración programática de Izquierda Española",
+        "url": "https://www.izqesp.es/docs/Estatutos%20Izquierda%20Espan%CC%83ola.pdf",
+        "fecha": "2022",
+        "consultado": "2026-07-09"
+      }
+    }
+  }
+}

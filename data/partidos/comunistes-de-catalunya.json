@@ -1,0 +1,229 @@
+{
+  "id": "comunistes-de-catalunya",
+  "nombre": "Comunistes de Catalunya",
+  "siglas": "Comunistes",
+  "ambito": "autonomico",
+  "tipo": "partido",
+  "ccaa": ["catalunya"],
+  "confianza": "verificada",
+  "web": "https://comunistes.cat/",
+  "revisado": "2026-07-09",
+  "actividad": "activa",
+  "excepcionCatalogo": {
+    "motivo": "comunista-activa",
+    "justificacion": "Se incorpora por la excepción de cobertura de organizaciones comunistas activas. Su actividad y sus acuerdos electorales se acreditan por separado; la excepción no la convierte en una papeleta autónoma en cada convocatoria.",
+    "fuente": {
+      "tipo": "declaracion",
+      "titulo": "Comunistes de Catalunya hace pública la documentación final de su III Congreso",
+      "url": "https://comunistes.cat/comunistes-de-catalunya-fa-publica-la-documentacio-final-del-seu-3r-congres/",
+      "fecha": "2025-03-27",
+      "consultado": "2026-07-09"
+    }
+  },
+  "posiciones": {
+    "izq-001": {
+      "valor": 2,
+      "justificacion": "Se presenta como partido alternativo al capitalismo que busca preparar una ruptura revolucionaria y una sociedad socialista sin explotación.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "autoubicacion",
+        "titulo": "Pren partit: socialisme",
+        "url": "https://comunistes.cat/pren-partit/",
+        "fecha": "2026",
+        "consultado": "2026-07-09"
+      }
+    },
+    "izq-002": {
+      "valor": 2,
+      "justificacion": "Su presentación doctrinal define expresamente al Partido Comunista como vanguardia de la lucha de la clase trabajadora y espacio de organización para la transformación.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "autoubicacion",
+        "titulo": "Pren partit: el futuro es comunista",
+        "url": "https://comunistes.cat/pren-partit/",
+        "fecha": "2026",
+        "consultado": "2026-07-09"
+      }
+    },
+    "izq-018": {
+      "valor": -2,
+      "justificacion": "Sus principios organizativos establecen expresamente la inexistencia de fracciones o corrientes organizadas tras la deliberación interna.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "estatutos",
+        "titulo": "Vida de Partit: principios organizativos",
+        "url": "https://comunistes.cat/vida-partit/",
+        "fecha": "2025-03-27",
+        "consultado": "2026-07-09"
+      }
+    },
+    "dem-015": {
+      "valor": 2,
+      "justificacion": "Combina debate y dirección colectiva con unidad de acción, subordinación de estructuras y disciplina consciente una vez adoptadas las decisiones.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "estatutos",
+        "titulo": "Vida de Partit: principios organizativos",
+        "url": "https://comunistes.cat/vida-partit/",
+        "fecha": "2025-03-27",
+        "consultado": "2026-07-09"
+      }
+    },
+    "eco-003": {
+      "valor": 2,
+      "justificacion": "Su programa europeo propone fijar el salario mínimo en el 60 % del salario medio de cada nación o región.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "25 medidas prioritarias para las elecciones europeas de 2024",
+        "url": "https://drive.google.com/file/d/1fnE6JuQE4p5elVxSx_B2j3DHrsdXKW9a/view?usp=drive_link",
+        "fecha": "2024-05-22",
+        "consultado": "2026-07-09"
+      }
+    },
+    "eco-011": {
+      "valor": 2,
+      "justificacion": "Propone una jornada máxima europea de 35 horas e impulsar estudios para avanzar hacia 32 horas.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "25 medidas prioritarias para las elecciones europeas de 2024",
+        "url": "https://drive.google.com/file/d/1fnE6JuQE4p5elVxSx_B2j3DHrsdXKW9a/view?usp=drive_link",
+        "fecha": "2024-05-22",
+        "consultado": "2026-07-09"
+      }
+    },
+    "dr-001": {
+      "valor": 1,
+      "justificacion": "Defiende nacionalizar de manera irreversible los bancos que reciban ayudas públicas; el apoyo es claro pero no alcanza literalmente a toda la banca sin condición.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "25 medidas prioritarias para las elecciones europeas de 2024",
+        "url": "https://drive.google.com/file/d/1fnE6JuQE4p5elVxSx_B2j3DHrsdXKW9a/view?usp=drive_link",
+        "fecha": "2024-05-22",
+        "consultado": "2026-07-09"
+      }
+    },
+    "izq-046": {
+      "valor": 2,
+      "justificacion": "Rechaza la Europa fortaleza, reclama vías seguras, derogar la externalización del control fronterizo, reconvertir Frontex y cerrar los CIE.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "25 medidas prioritarias para las elecciones europeas de 2024",
+        "url": "https://drive.google.com/file/d/1fnE6JuQE4p5elVxSx_B2j3DHrsdXKW9a/view?usp=drive_link",
+        "fecha": "2024-05-22",
+        "consultado": "2026-07-09"
+      }
+    },
+    "lai-001": {
+      "valor": 2,
+      "justificacion": "Propone una carta europea que garantice una educación pública, gratuita, inclusiva y expresamente laica.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "25 medidas prioritarias para las elecciones europeas de 2024",
+        "url": "https://drive.google.com/file/d/1fnE6JuQE4p5elVxSx_B2j3DHrsdXKW9a/view?usp=drive_link",
+        "fecha": "2024-05-22",
+        "consultado": "2026-07-09"
+      }
+    },
+    "soc-001": {
+      "valor": 2,
+      "justificacion": "Defiende armonizar al alza los derechos LGTBI, combatir los delitos de odio y despatologizar a las personas trans.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "25 medidas prioritarias para las elecciones europeas de 2024",
+        "url": "https://drive.google.com/file/d/1fnE6JuQE4p5elVxSx_B2j3DHrsdXKW9a/view?usp=drive_link",
+        "fecha": "2024-05-22",
+        "consultado": "2026-07-09"
+      }
+    },
+    "ene-001": {
+      "valor": -2,
+      "justificacion": "El programa propone un sistema energético totalmente renovable y el desmantelamiento de las centrales nucleares, por lo que rechaza construir nuevas plantas.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "25 medidas prioritarias para las elecciones europeas de 2024",
+        "url": "https://drive.google.com/file/d/1fnE6JuQE4p5elVxSx_B2j3DHrsdXKW9a/view?usp=drive_link",
+        "fecha": "2024-05-22",
+        "consultado": "2026-07-09"
+      }
+    },
+    "ene-003": {
+      "valor": 2,
+      "justificacion": "Su demanda de desmantelar las nucleares descarta nuevas prórrogas y apoya, como mínimo, mantener el calendario de cierre vigente.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "25 medidas prioritarias para las elecciones europeas de 2024",
+        "url": "https://drive.google.com/file/d/1fnE6JuQE4p5elVxSx_B2j3DHrsdXKW9a/view?usp=drive_link",
+        "fecha": "2024-05-22",
+        "consultado": "2026-07-09"
+      }
+    },
+    "sd-019": {
+      "valor": 2,
+      "justificacion": "Propone reconocer a la República Árabe Saharaui Democrática y el derecho de autodeterminación saharaui conforme a las resoluciones de Naciones Unidas.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "25 medidas prioritarias para las elecciones europeas de 2024",
+        "url": "https://drive.google.com/file/d/1fnE6JuQE4p5elVxSx_B2j3DHrsdXKW9a/view?usp=drive_link",
+        "fecha": "2024-05-22",
+        "consultado": "2026-07-09"
+      }
+    },
+    "ter-002": {
+      "valor": 2,
+      "justificacion": "Reclama el reconocimiento de las naciones sin Estado y el derecho de autodeterminación de los pueblos.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "25 medidas prioritarias para las elecciones europeas de 2024",
+        "url": "https://drive.google.com/file/d/1fnE6JuQE4p5elVxSx_B2j3DHrsdXKW9a/view?usp=drive_link",
+        "fecha": "2024-05-22",
+        "consultado": "2026-07-09"
+      }
+    },
+    "lab-016": {
+      "valor": 2,
+      "justificacion": "Defiende el control público de los sectores estratégicos y eliminar las barreras europeas a la nacionalización y municipalización de servicios públicos.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "25 medidas prioritarias para las elecciones europeas de 2024",
+        "url": "https://drive.google.com/file/d/1fnE6JuQE4p5elVxSx_B2j3DHrsdXKW9a/view?usp=drive_link",
+        "fecha": "2024-05-22",
+        "consultado": "2026-07-09"
+      }
+    },
+    "geo-013": {
+      "valor": 1,
+      "justificacion": "Condiciona los acuerdos internacionales al respeto de los derechos humanos y exige embargo de armas a Israel; la fuente no formula una prohibición universal con el mismo detalle.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "25 medidas prioritarias para las elecciones europeas de 2024",
+        "url": "https://drive.google.com/file/d/1fnE6JuQE4p5elVxSx_B2j3DHrsdXKW9a/view?usp=drive_link",
+        "fecha": "2024-05-22",
+        "consultado": "2026-07-09"
+      }
+    },
+    "izq-031": {
+      "valor": -2,
+      "justificacion": "En 2024 alcanzó un acuerdo electoral con ERC y presentó una candidata comunista en su lista, por lo que no sostiene el boicot electoral general.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Comunistes de Catalunya ante la convocatoria electoral del 12 de mayo",
+        "url": "https://comunistes.cat/convocatoria-electoral/",
+        "fecha": "2024-04-22",
+        "consultado": "2026-07-09"
+      }
+    }
+  }
+}

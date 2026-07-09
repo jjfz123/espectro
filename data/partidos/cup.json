@@ -1,0 +1,134 @@
+{
+  "id": "cup",
+  "nombre": "Candidatura d'Unitat Popular",
+  "siglas": "CUP",
+  "ambito": "autonomico",
+  "tipo": "partido",
+  "ccaa": ["catalunya"],
+  "confianza": "verificada",
+  "web": "https://cup.cat/",
+  "revisado": "2026-07-09",
+  "actividad": "activa",
+  "posiciones": {
+    "nac-001": {
+      "valor": 2,
+      "justificacion": "Defiende ruptura y desobediencia cuando el bloqueo institucional impide ejercer la soberanía catalana.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Ponència final del Procés de Garbí",
+        "url": "https://procesdegarbi.cup.cat/wp-content/uploads/2024/09/PONENCIA-FINAL-AN-CUP.pdf",
+        "fecha": "2024-09",
+        "consultado": "2026-07-09"
+      }
+    },
+    "nac-002": {
+      "valor": 2,
+      "justificacion": "Sitúa como objetivo la independencia de los Països Catalans dentro de un proyecto socialista.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Ponència final del Procés de Garbí",
+        "url": "https://procesdegarbi.cup.cat/wp-content/uploads/2024/09/PONENCIA-FINAL-AN-CUP.pdf",
+        "fecha": "2024-09",
+        "consultado": "2026-07-09"
+      }
+    },
+    "nac-003": {
+      "valor": -2,
+      "justificacion": "Formula una comunidad nacional cívica y antirracista y defiende plenos derechos de la población migrante.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Ponència final del Procés de Garbí",
+        "url": "https://procesdegarbi.cup.cat/wp-content/uploads/2024/09/PONENCIA-FINAL-AN-CUP.pdf",
+        "fecha": "2024-09",
+        "consultado": "2026-07-09"
+      }
+    },
+    "cat-001": {
+      "valor": 2,
+      "justificacion": "Defiende el catalán como lengua vertebradora y el modelo de inmersión sin cuota estatal mínima de castellano.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Ponència final del Procés de Garbí",
+        "url": "https://procesdegarbi.cup.cat/wp-content/uploads/2024/09/PONENCIA-FINAL-AN-CUP.pdf",
+        "fecha": "2024-09",
+        "consultado": "2026-07-09"
+      }
+    },
+    "cat-004": {
+      "valor": -2,
+      "justificacion": "Su ponencia es antirracista y no considera a la inmigración musulmana una amenaza nacional por su origen religioso.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Ponència final del Procés de Garbí",
+        "url": "https://procesdegarbi.cup.cat/wp-content/uploads/2024/09/PONENCIA-FINAL-AN-CUP.pdf",
+        "fecha": "2024-09",
+        "consultado": "2026-07-09"
+      }
+    },
+    "cat-005": {
+      "valor": 2,
+      "justificacion": "Su ámbito nacional declarado comprende el conjunto de los Països Catalans.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Ponència final del Procés de Garbí",
+        "url": "https://procesdegarbi.cup.cat/wp-content/uploads/2024/09/PONENCIA-FINAL-AN-CUP.pdf",
+        "fecha": "2024-09",
+        "consultado": "2026-07-09"
+      }
+    },
+    "def-002": {
+      "valor": 2,
+      "justificacion": "Se opone a la OTAN y a la militarización y defiende abandonar la alianza.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Ponència final del Procés de Garbí",
+        "url": "https://procesdegarbi.cup.cat/wp-content/uploads/2024/09/PONENCIA-FINAL-AN-CUP.pdf",
+        "fecha": "2024-09",
+        "consultado": "2026-07-09"
+      }
+    },
+    "dem-003": {
+      "valor": 2,
+      "justificacion": "Sus estatutos fijan rotación y límites temporales para responsabilidades y cargos, incluso si conservasen apoyo electoral.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "estatutos",
+        "titulo": "Estatuts de la Candidatura d'Unitat Popular",
+        "url": "https://procesdegarbi.cup.cat/wp-content/uploads/2024/07/ESTATUS-V1.pdf",
+        "fecha": "2024-07",
+        "consultado": "2026-07-09"
+      }
+    },
+    "dem-014": {
+      "valor": 2,
+      "justificacion": "La Asamblea Nacional y las asambleas territoriales adoptan las decisiones estratégicas bajo una estructura asamblearia.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "estatutos",
+        "titulo": "Estatuts de la Candidatura d'Unitat Popular",
+        "url": "https://procesdegarbi.cup.cat/wp-content/uploads/2024/07/ESTATUS-V1.pdf",
+        "fecha": "2024-07",
+        "consultado": "2026-07-09"
+      }
+    },
+    "dem-015": {
+      "valor": -1,
+      "justificacion": "Su arquitectura asamblearia limita la autonomía disciplinaria de una dirección central, aunque las decisiones colectivas sí vinculan a sus cargos.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "estatutos",
+        "titulo": "Estatuts de la Candidatura d'Unitat Popular",
+        "url": "https://procesdegarbi.cup.cat/wp-content/uploads/2024/07/ESTATUS-V1.pdf",
+        "fecha": "2024-07",
+        "consultado": "2026-07-09"
+      }
+    }
+  }
+}

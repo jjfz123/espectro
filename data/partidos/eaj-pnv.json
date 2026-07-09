@@ -1,0 +1,230 @@
+{
+  "id": "eaj-pnv",
+  "nombre": "Euzko Alderdi Jeltzalea-Partido Nacionalista Vasco",
+  "siglas": "EAJ-PNV",
+  "ambito": "autonomico",
+  "tipo": "partido",
+  "ccaa": ["euskadi", "navarra"],
+  "confianza": "verificada",
+  "web": "https://www.eaj-pnv.eus/",
+  "revisado": "2026-07-09",
+  "actividad": "activa",
+  "posiciones": {
+    "nac-001": {
+      "valor": -1,
+      "justificacion": "Su vía vigente prioriza pacto bilateral, actualización estatutaria y derechos históricos, no una apertura unilateral automática ante el bloqueo.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral EAJ-PNV 21A 2024",
+        "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21243/pdf/programa-electoral-21a",
+        "fecha": "2024",
+        "consultado": "2026-07-09"
+      }
+    },
+    "nac-002": {
+      "valor": -1,
+      "justificacion": "Reconoce nación y derecho a decidir, pero el programa inmediato elige un nuevo pacto de autogobierno dentro de un marco bilateral, no fija una república independiente como única meta cerrada.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral EAJ-PNV 21A 2024",
+        "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21243/pdf/programa-electoral-21a",
+        "fecha": "2024",
+        "consultado": "2026-07-09"
+      }
+    },
+    "nac-007": {
+      "valor": 2,
+      "justificacion": "Su estrategia vincula el futuro vasco a la integración europea y al protagonismo de las naciones sin Estado dentro de Europa.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa de EAJ-PNV para las elecciones europeas de 2024",
+        "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21326/pdf/programa-europeas-2024",
+        "fecha": "2024",
+        "consultado": "2026-07-09"
+      }
+    },
+    "eus-001": {
+      "valor": 1,
+      "justificacion": "Incluye Navarra en la comunidad histórica vasca, condicionando cualquier articulación política a la voluntad democrática navarra.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral EAJ-PNV 21A 2024",
+        "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21243/pdf/programa-electoral-21a",
+        "fecha": "2024",
+        "consultado": "2026-07-09"
+      }
+    },
+    "eus-002": {
+      "valor": 2,
+      "justificacion": "Defiende con máxima intensidad el Concierto y el Convenio como pactos bilaterales protegidos frente a armonización unilateral.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral EAJ-PNV 21A 2024",
+        "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21243/pdf/programa-electoral-21a",
+        "fecha": "2024",
+        "consultado": "2026-07-09"
+      }
+    },
+    "eus-003": {
+      "valor": 1,
+      "justificacion": "Defiende normalización y perfiles lingüísticos en la administración, pero con graduación por puesto; no acredita exigir euskera en toda plaza pública.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral EAJ-PNV 21A 2024",
+        "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21243/pdf/programa-electoral-21a",
+        "fecha": "2024",
+        "consultado": "2026-07-09"
+      }
+    },
+    "eus-004": {
+      "valor": 1,
+      "justificacion": "Defiende un sistema penitenciario orientado a la reinserción y a la justicia restaurativa, con aplicación individualizada y atención al reconocimiento del daño; coincide con las reglas comunes, pero mantiene condiciones explícitas.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral EAJ-PNV 21A 2024",
+        "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21243/pdf/programa-electoral-21a",
+        "fecha": "2024",
+        "consultado": "2026-07-10"
+      }
+    },
+    "eus-005": {
+      "valor": 2,
+      "justificacion": "Sitúa la actualización de derechos históricos y un pacto estatutario bilateral como vía prioritaria para ampliar el autogobierno.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral EAJ-PNV 21A 2024",
+        "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21243/pdf/programa-electoral-21a",
+        "fecha": "2024",
+        "consultado": "2026-07-09"
+      }
+    },
+    "eus-007": {
+      "valor": 2,
+      "justificacion": "Su acuerdo de gobierno rechaza que ningún contexto, teoría del conflicto u objetivo político pueda minimizar, justificar o legitimar la violencia de ETA y denuncia expresamente su ilegitimidad.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa de Gobierno Euskadi 2020-2024 acordado por EAJ-PNV y PSE-EE",
+        "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/18493/pdf/programa-de-gobierno-euskadi-2020",
+        "fecha": "2020",
+        "consultado": "2026-07-10"
+      }
+    },
+    "eus-008": {
+      "valor": 2,
+      "justificacion": "Vincula la convivencia y cualquier proyecto político al diálogo, los derechos humanos y la cultura democrática, y califica toda violencia como radicalmente injusta.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral EAJ-PNV 21A 2024",
+        "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21243/pdf/programa-electoral-21a",
+        "fecha": "2024",
+        "consultado": "2026-07-10"
+      }
+    },
+    "eus-009": {
+      "valor": 2,
+      "justificacion": "Defiende memoria crítica, reconocimiento y reparación de las víctimas de ETA dentro de una memoria plural que no olvide ni justifique la violencia.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa de Gobierno Euskadi 2020-2024 acordado por EAJ-PNV y PSE-EE",
+        "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/18493/pdf/programa-de-gobierno-euskadi-2020",
+        "fecha": "2020",
+        "consultado": "2026-07-10"
+      }
+    },
+    "eus-010": {
+      "valor": 2,
+      "justificacion": "Su programa vigente propone una memoria inclusiva y la reparación de todas las víctimas; su actividad posterior incluye expresamente a víctimas de violencia de Estado.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "EAJ-PNV subraya que el Palacio de La Cumbre debe ser un espacio para la memoria inclusiva",
+        "url": "https://www.eaj-pnv.eus/es/noticias/56325/eaj-pnv-subraya-que-el-palacio-de-la-cumbre-debe-s/",
+        "fecha": "2025-01-27",
+        "consultado": "2026-07-10"
+      }
+    },
+    "eus-011": {
+      "valor": 2,
+      "justificacion": "Afirma expresamente que denunciar vulneraciones de signo diferente no puede invocarse para minimizar, justificar o legitimar la violencia de ETA.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa de Gobierno Euskadi 2020-2024 acordado por EAJ-PNV y PSE-EE",
+        "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/18493/pdf/programa-de-gobierno-euskadi-2020",
+        "fecha": "2020",
+        "consultado": "2026-07-10"
+      }
+    },
+    "der-014": {
+      "valor": 2,
+      "justificacion": "Los derechos históricos y el sistema foral constituyen la base jurídica de su propuesta de autogobierno.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral EAJ-PNV 21A 2024",
+        "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21243/pdf/programa-electoral-21a",
+        "fecha": "2024",
+        "consultado": "2026-07-09"
+      }
+    },
+    "def-002": {
+      "valor": -2,
+      "justificacion": "En 2026 define la OTAN como marco de seguridad vigente y pide reforzar su pilar europeo, no abandonarla.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Oihane Agirregoitia: la OTAN es nuestro marco de seguridad, pero necesitamos más Europa",
+        "url": "https://www.eaj-pnv.eus/es/noticias/57437/oihane-agirregoitia-a-dia-de-hoy-la-otan-es-nuestr/",
+        "fecha": "2026-01-13",
+        "consultado": "2026-07-09"
+      }
+    },
+    "geo-004": {
+      "valor": 2,
+      "justificacion": "Reclama un pilar europeo de seguridad mucho más autónomo y menos dependiente de Estados Unidos, aun dentro del marco atlántico actual.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Oihane Agirregoitia: la OTAN es nuestro marco de seguridad, pero necesitamos más Europa",
+        "url": "https://www.eaj-pnv.eus/es/noticias/57437/oihane-agirregoitia-a-dia-de-hoy-la-otan-es-nuestr/",
+        "fecha": "2026-01-13",
+        "consultado": "2026-07-09"
+      }
+    },
+    "dem-014": {
+      "valor": 1,
+      "justificacion": "Sus estatutos combinan asambleas municipales y territoriales con órganos nacionales y participación militante, pero no someten toda decisión estratégica a referéndum de toda la afiliación.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "estatutos",
+        "titulo": "Estatutos Nacionales de EAJ-PNV",
+        "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21676/pdf/estatutos-nacionales-2025",
+        "fecha": "2025",
+        "consultado": "2026-07-09"
+      }
+    },
+    "dem-015": {
+      "valor": 1,
+      "justificacion": "La estructura escalonada y los compromisos de afiliación sostienen una acción pública cohesionada, con contrapesos territoriales internos.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "estatutos",
+        "titulo": "Estatutos Nacionales de EAJ-PNV",
+        "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21676/pdf/estatutos-nacionales-2025",
+        "fecha": "2025",
+        "consultado": "2026-07-09"
+      }
+    }
+  }
+}

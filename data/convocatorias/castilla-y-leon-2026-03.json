@@ -1,0 +1,529 @@
+{
+  "id": "castilla-y-leon-2026-03",
+  "nombre": "Elecciones autonómicas de Castilla y León del 15 de marzo de 2026",
+  "tipo": "autonomicas",
+  "fecha": "2026-03-15",
+  "territorio": "castilla-y-leon",
+  "camara": "Cortes de Castilla y León",
+  "umbralPorcentaje": 0.02,
+  "denominador": {
+    "tipo": "votos-a-candidaturas",
+    "valor": 1236753
+  },
+  "totalCandidaturasOficiales": 28,
+  "fuente": {
+    "titulo": "Resultados definitivos de las elecciones autonómicas de Castilla y León",
+    "url": "https://bocyl.jcyl.es/html/2026/04/29/html/BOCYL-D-29042026-80-13.do",
+    "consultado": "2026-07-09"
+  },
+  "fuentesAdicionales": [
+    {
+      "titulo": "Proclamación e identidad de candidaturas de Castilla y León",
+      "url": "https://bocyl.jcyl.es/boletin.do?fechaBoletin=17%2F02%2F2026",
+      "consultado": "2026-07-09"
+    }
+  ],
+  "nota": "El porcentaje usa como denominador 1.236.753 votos a candidaturas en toda la comunidad. Una relación con un componente identifica la candidatura, pero no transfiere sus posiciones al perfil de la coalición. Naturaleza de la convocatoria en el inventario: fin-de-legislatura.",
+  "candidaturas": [
+    {
+      "id": "cyl-2026-pp",
+      "nombre": "PARTIDO POPULAR",
+      "votos": 444296,
+      "porcentaje": 35.924392,
+      "territorios": [
+        "castilla-y-leon"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [
+        {
+          "perfilId": "pp",
+          "relacion": "misma-organizacion"
+        }
+      ],
+      "nota": "Naturaleza inventariada: partido. Vigencia comprobada: electoral-2026. Tratamiento previsto: perfil-reutilizable."
+    },
+    {
+      "id": "cyl-2026-psoe",
+      "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+      "votos": 386774,
+      "porcentaje": 31.273342,
+      "territorios": [
+        "castilla-y-leon"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [
+        {
+          "perfilId": "psoe",
+          "relacion": "misma-organizacion"
+        }
+      ],
+      "nota": "Naturaleza inventariada: partido. Vigencia comprobada: electoral-2026. Tratamiento previsto: perfil-reutilizable."
+    },
+    {
+      "id": "cyl-2026-vox",
+      "nombre": "VOX",
+      "votos": 237100,
+      "porcentaje": 19.171168,
+      "territorios": [
+        "castilla-y-leon"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [
+        {
+          "perfilId": "vox",
+          "relacion": "misma-organizacion"
+        }
+      ],
+      "nota": "Naturaleza inventariada: partido. Vigencia comprobada: electoral-2026. Tratamiento previsto: perfil-reutilizable."
+    },
+    {
+      "id": "cyl-2026-upl",
+      "nombre": "UNIÓN DEL PUEBLO LEONÉS",
+      "votos": 54096,
+      "porcentaje": 4.374034,
+      "territorios": [
+        "castilla-y-leon"
+      ],
+      "circunscripciones": [
+        "León",
+        "Salamanca",
+        "Zamora"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [
+        {
+          "perfilId": "upl",
+          "relacion": "misma-organizacion"
+        }
+      ],
+      "nota": "Naturaleza inventariada: partido. Vigencia comprobada: electoral-2026. Tratamiento previsto: perfil-especifico."
+    },
+    {
+      "id": "cyl-2026-iu-ms-vq",
+      "nombre": "IZQUIERDA UNIDA-MOVIMIENTO SUMAR-VERDES EQUO",
+      "votos": 28255,
+      "porcentaje": 2.284611,
+      "territorios": [
+        "castilla-y-leon"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [
+        {
+          "perfilId": "movimiento-sumar",
+          "relacion": "componente",
+          "nota": "Movimiento Sumar figura como componente de esta candidatura fechada; sus posiciones no se atribuyen automáticamente a la coalición."
+        },
+        {
+          "perfilId": "verdes-equo",
+          "relacion": "componente",
+          "nota": "Verdes Equo figura como componente de esta candidatura fechada; sus posiciones no se atribuyen automáticamente a la coalición."
+        }
+      ],
+      "nota": "Naturaleza inventariada: coalicion-electoral. Vigencia comprobada: electoral-2026. Tratamiento previsto: perfil-especifico."
+    },
+    {
+      "id": "cyl-2026-salf",
+      "nombre": "SE ACABÓ LA FIESTA",
+      "votos": 17554,
+      "porcentaje": 1.419362,
+      "territorios": [
+        "castilla-y-leon"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [],
+      "nota": "Naturaleza inventariada: partido. Vigencia comprobada: electoral-2026. Tratamiento previsto: perfil-reutilizable."
+    },
+    {
+      "id": "cyl-2026-xav",
+      "nombre": "POR ÁVILA",
+      "votos": 11518,
+      "porcentaje": 0.93131,
+      "territorios": [
+        "castilla-y-leon"
+      ],
+      "circunscripciones": [
+        "Ávila",
+        "Valladolid"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [
+        {
+          "perfilId": "por-avila",
+          "relacion": "misma-organizacion"
+        }
+      ],
+      "nota": "Naturaleza inventariada: partido. Vigencia comprobada: electoral-2026. Tratamiento previsto: perfil-especifico."
+    },
+    {
+      "id": "cyl-2026-podemos-av",
+      "nombre": "PODEMOS-ALIANZA VERDE CYL 2026",
+      "votos": 9597,
+      "porcentaje": 0.775984,
+      "territorios": [
+        "castilla-y-leon"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [
+        {
+          "perfilId": "podemos",
+          "relacion": "componente",
+          "nota": "Podemos figura como componente de esta candidatura fechada; sus posiciones no se atribuyen automáticamente a la coalición."
+        },
+        {
+          "perfilId": "alianza-verde",
+          "relacion": "componente",
+          "nota": "Alianza Verde figura como componente de esta candidatura fechada; sus posiciones no se atribuyen automáticamente a la coalición."
+        }
+      ],
+      "nota": "Naturaleza inventariada: coalicion-electoral. Vigencia comprobada: electoral-2026. Tratamiento previsto: perfil-especifico."
+    },
+    {
+      "id": "cyl-2026-soria-ya",
+      "nombre": "SORIA ¡YA!",
+      "votos": 9145,
+      "porcentaje": 0.739436,
+      "territorios": [
+        "castilla-y-leon"
+      ],
+      "circunscripciones": [
+        "Soria"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [
+        {
+          "perfilId": "soria-ya",
+          "relacion": "misma-organizacion"
+        }
+      ],
+      "nota": "Naturaleza inventariada: partido-o-candidatura. Vigencia comprobada: electoral-2026. Tratamiento previsto: perfil-especifico."
+    },
+    {
+      "id": "cyl-2026-pacma",
+      "nombre": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
+      "votos": 5267,
+      "porcentaje": 0.425873,
+      "territorios": [
+        "castilla-y-leon"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [
+        {
+          "perfilId": "pacma",
+          "relacion": "misma-organizacion"
+        }
+      ],
+      "nota": "Naturaleza inventariada: partido. Vigencia comprobada: electoral-2026. Tratamiento previsto: perfil-reutilizable."
+    },
+    {
+      "id": "cyl-2026-eb",
+      "nombre": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACÍOS",
+      "votos": 4861,
+      "porcentaje": 0.393045,
+      "territorios": [
+        "castilla-y-leon"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [],
+      "nota": "Naturaleza inventariada: partido. Vigencia comprobada: electoral-2026. Tratamiento previsto: perfil-reutilizable."
+    },
+    {
+      "id": "cyl-2026-cs",
+      "nombre": "CIUDADANOS-PARTIDO DE LA CIUDADANÍA",
+      "votos": 4509,
+      "porcentaje": 0.364584,
+      "territorios": [
+        "castilla-y-leon"
+      ],
+      "circunscripciones": [
+        "Ávila",
+        "Burgos",
+        "León",
+        "Salamanca",
+        "Soria",
+        "Valladolid",
+        "Zamora"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [
+        {
+          "perfilId": "ciudadanos",
+          "relacion": "misma-organizacion"
+        }
+      ],
+      "nota": "Naturaleza inventariada: partido. Vigencia comprobada: electoral-2026. Tratamiento previsto: perfil-reutilizable."
+    },
+    {
+      "id": "cyl-2026-nueve",
+      "nombre": "NUEVE CASTILLA Y LEÓN",
+      "votos": 3858,
+      "porcentaje": 0.311946,
+      "territorios": [
+        "castilla-y-leon"
+      ],
+      "circunscripciones": [
+        "Ávila",
+        "León",
+        "Salamanca",
+        "Segovia",
+        "Soria",
+        "Valladolid",
+        "Zamora"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [],
+      "nota": "Naturaleza inventariada: partido-o-candidatura. Vigencia comprobada: electoral-2026. Tratamiento previsto: inventario-sin-datos."
+    },
+    {
+      "id": "cyl-2026-vbm",
+      "nombre": "VÍA BURGALESA MUNICIPALISTA",
+      "votos": 3621,
+      "porcentaje": 0.292783,
+      "territorios": [
+        "castilla-y-leon"
+      ],
+      "circunscripciones": [
+        "Burgos"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [],
+      "nota": "Naturaleza inventariada: coalicion-electoral. Vigencia comprobada: electoral-2026. Tratamiento previsto: perfil-especifico."
+    },
+    {
+      "id": "cyl-2026-pcas-tc",
+      "nombre": "PARTIDO CASTELLANO-TIERRA COMUNERA",
+      "votos": 3137,
+      "porcentaje": 0.253648,
+      "territorios": [
+        "castilla-y-leon"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [],
+      "nota": "Naturaleza inventariada: partido. Vigencia comprobada: electoral-2026. Tratamiento previsto: perfil-especifico."
+    },
+    {
+      "id": "cyl-2026-bierzo",
+      "nombre": "COALICIÓN POR EL BIERZO",
+      "votos": 1992,
+      "porcentaje": 0.161067,
+      "territorios": [
+        "castilla-y-leon"
+      ],
+      "circunscripciones": [
+        "León"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [
+        {
+          "perfilId": "coalicion-por-el-bierzo",
+          "relacion": "misma-organizacion"
+        },
+        {
+          "perfilId": "partido-del-bierzo",
+          "relacion": "componente",
+          "nota": "Partido de El Bierzo figura como componente de esta candidatura fechada; sus posiciones no se atribuyen automáticamente a la coalición."
+        },
+        {
+          "perfilId": "el-bierzo-existe",
+          "relacion": "componente",
+          "nota": "El Bierzo Existe figura como componente de esta candidatura fechada; sus posiciones no se atribuyen automáticamente a la coalición."
+        }
+      ],
+      "nota": "Naturaleza inventariada: federacion-de-partidos. Vigencia comprobada: electoral-2026. Tratamiento previsto: perfil-especifico."
+    },
+    {
+      "id": "cyl-2026-pcte",
+      "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
+      "votos": 1744,
+      "porcentaje": 0.141014,
+      "territorios": [
+        "castilla-y-leon"
+      ],
+      "circunscripciones": [
+        "Burgos",
+        "León",
+        "Palencia",
+        "Salamanca",
+        "Valladolid"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [
+        {
+          "perfilId": "pcte",
+          "relacion": "misma-organizacion"
+        }
+      ],
+      "nota": "Naturaleza inventariada: partido. Vigencia comprobada: electoral-2026. Tratamiento previsto: perfil-reutilizable."
+    },
+    {
+      "id": "cyl-2026-vamos-palencia",
+      "nombre": "VAMOS PALENCIA",
+      "votos": 1668,
+      "porcentaje": 0.134869,
+      "territorios": [
+        "castilla-y-leon"
+      ],
+      "circunscripciones": [
+        "Palencia"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [],
+      "nota": "Naturaleza inventariada: partido-o-candidatura. Vigencia comprobada: electoral-2026. Tratamiento previsto: inventario-sin-datos."
+    },
+    {
+      "id": "cyl-2026-mas-justo",
+      "nombre": "POR UN MUNDO MÁS JUSTO",
+      "votos": 1664,
+      "porcentaje": 0.134546,
+      "territorios": [
+        "castilla-y-leon"
+      ],
+      "circunscripciones": [
+        "Burgos",
+        "Palencia",
+        "Salamanca",
+        "Segovia",
+        "Valladolid",
+        "Zamora"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [],
+      "nota": "Naturaleza inventariada: partido. Vigencia comprobada: electoral-2026. Tratamiento previsto: perfil-reutilizable."
+    },
+    {
+      "id": "cyl-2026-ev",
+      "nombre": "ESPAÑA VACIADA",
+      "votos": 1125,
+      "porcentaje": 0.090964,
+      "territorios": [
+        "castilla-y-leon"
+      ],
+      "circunscripciones": [
+        "Palencia",
+        "Salamanca"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [],
+      "nota": "Naturaleza inventariada: partido-o-candidatura. Vigencia comprobada: electoral-2026. Tratamiento previsto: perfil-especifico."
+    },
+    {
+      "id": "cyl-2026-ad-ev",
+      "nombre": "AHORA DECIDE-ESPAÑA VACIADA",
+      "votos": 1000,
+      "porcentaje": 0.080857,
+      "territorios": [
+        "castilla-y-leon"
+      ],
+      "circunscripciones": [
+        "Zamora"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [],
+      "nota": "Naturaleza inventariada: coalicion-electoral. Vigencia comprobada: electoral-2026. Tratamiento previsto: perfil-especifico."
+    },
+    {
+      "id": "cyl-2026-mev",
+      "nombre": "MUNICIPALISTAS-ESPAÑA VACIADA",
+      "votos": 953,
+      "porcentaje": 0.077057,
+      "territorios": [
+        "castilla-y-leon"
+      ],
+      "circunscripciones": [
+        "Valladolid"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [],
+      "nota": "Naturaleza inventariada: coalicion-electoral. Vigencia comprobada: electoral-2026. Tratamiento previsto: perfil-especifico."
+    },
+    {
+      "id": "cyl-2026-pancal-urci",
+      "nombre": "PARTIDO NACIONALISTA DE CASTILLA Y LEÓN-UNIÓN REFORMISTA CIUDADANA",
+      "votos": 940,
+      "porcentaje": 0.076005,
+      "territorios": [
+        "castilla-y-leon"
+      ],
+      "circunscripciones": [
+        "Palencia",
+        "Salamanca",
+        "Valladolid",
+        "Zamora"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [],
+      "nota": "Naturaleza inventariada: partido-o-candidatura. Vigencia comprobada: electoral-2026. Tratamiento previsto: inventario-sin-datos."
+    },
+    {
+      "id": "cyl-2026-fe",
+      "nombre": "FALANGE ESPAÑOLA DE LAS J.O.N.S.",
+      "votos": 810,
+      "porcentaje": 0.065494,
+      "territorios": [
+        "castilla-y-leon"
+      ],
+      "circunscripciones": [
+        "Ávila",
+        "Palencia",
+        "Valladolid"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [
+        {
+          "perfilId": "fe-jons",
+          "relacion": "misma-organizacion"
+        }
+      ],
+      "nota": "Naturaleza inventariada: partido. Vigencia comprobada: electoral-2026. Tratamiento previsto: perfil-reutilizable."
+    },
+    {
+      "id": "cyl-2026-decide-nueve",
+      "nombre": "DECIDE NUEVE CYL",
+      "votos": 501,
+      "porcentaje": 0.040509,
+      "territorios": [
+        "castilla-y-leon"
+      ],
+      "circunscripciones": [
+        "Burgos"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [],
+      "nota": "Naturaleza inventariada: coalicion-electoral. Vigencia comprobada: electoral-2026. Tratamiento previsto: inventario-sin-datos."
+    },
+    {
+      "id": "cyl-2026-alantre",
+      "nombre": "PROYECTO ALANTRE",
+      "votos": 391,
+      "porcentaje": 0.031615,
+      "territorios": [
+        "castilla-y-leon"
+      ],
+      "circunscripciones": [
+        "León"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [],
+      "nota": "Naturaleza inventariada: partido-o-candidatura. Vigencia comprobada: electoral-2026. Tratamiento previsto: inventario-sin-datos."
+    },
+    {
+      "id": "cyl-2026-prepal",
+      "nombre": "PARTIDO REGIONALISTA DEL PAÍS LEONÉS",
+      "votos": 254,
+      "porcentaje": 0.020538,
+      "territorios": [
+        "castilla-y-leon"
+      ],
+      "circunscripciones": [
+        "León"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [
+        {
+          "perfilId": "prepal",
+          "relacion": "misma-organizacion"
+        }
+      ],
+      "nota": "Naturaleza inventariada: partido. Vigencia comprobada: electoral-2026. Tratamiento previsto: inventario-sin-datos."
+    }
+  ]
+}

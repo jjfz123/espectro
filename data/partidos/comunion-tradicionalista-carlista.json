@@ -1,0 +1,168 @@
+{
+  "id": "comunion-tradicionalista-carlista",
+  "nombre": "Comunión Tradicionalista Carlista",
+  "siglas": "CTC",
+  "ambito": "estatal",
+  "tipo": "partido",
+  "confianza": "verificada",
+  "web": "https://www.carlistas.es/",
+  "revisado": "2026-07-09",
+  "actividad": "activa",
+  "excepcionCatalogo": {
+    "motivo": "historica-activa",
+    "justificacion": "Organización carlista con actividad pública acreditada en 2026, incluida como perfil doctrinal activo fuera del umbral ordinario; no implica que figure en la papeleta de la convocatoria elegida.",
+    "fuente": {
+      "tipo": "declaracion",
+      "titulo": "Declaración de la CTC ante las elecciones andaluzas de 2026",
+      "url": "https://www.carlistas.es/2026/05/24/andalucia-occidental-carlista-comunicado-declaracion-elecciones-andalucia-2026/",
+      "fecha": "2026-05-24",
+      "consultado": "2026-07-09"
+    }
+  },
+  "posiciones": {
+    "mon-001": {
+      "valor": -2,
+      "justificacion": "Sus principios vigentes defienden una monarquía hereditaria, no una jefatura del Estado elegida por la ciudadanía.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Los 12 principios fundamentales del Carlismo",
+        "url": "https://www.carlistas.es/2014/02/18/los-12-principios-fundamentales-del-carlismo/",
+        "fecha": "2024-07-29",
+        "consultado": "2026-07-09"
+      }
+    },
+    "dem-011": {
+      "valor": 2,
+      "justificacion": "Rechaza la partitocracia liberal y propone restaurar un orden de representación orgánica distinto del parlamentarismo vigente.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Declaración de la CTC ante las elecciones andaluzas de 2026",
+        "url": "https://www.carlistas.es/2026/05/24/andalucia-occidental-carlista-comunicado-declaracion-elecciones-andalucia-2026/",
+        "fecha": "2026-05-24",
+        "consultado": "2026-07-09"
+      }
+    },
+    "dem-018": {
+      "valor": 2,
+      "justificacion": "Sus Cortes tradicionales estarían formadas por procuradores enviados por instituciones sociales y cuerpos intermedios, no por listas de partidos.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Los 12 principios fundamentales del Carlismo",
+        "url": "https://www.carlistas.es/2014/02/18/los-12-principios-fundamentales-del-carlismo/",
+        "fecha": "2024-07-29",
+        "consultado": "2026-07-09"
+      }
+    },
+    "dem-013": {
+      "valor": 2,
+      "justificacion": "Los procuradores de sus Cortes tradicionales quedan expresamente sometidos a mandato imperativo.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Los 12 principios fundamentales del Carlismo",
+        "url": "https://www.carlistas.es/2014/02/18/los-12-principios-fundamentales-del-carlismo/",
+        "fecha": "2024-07-29",
+        "consultado": "2026-07-09"
+      }
+    },
+    "der-002": {
+      "valor": 2,
+      "justificacion": "Afirma que gobernantes y orden político deben someterse a la ley de Dios y restaurar un orden social cristiano.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Declaración de la CTC ante las elecciones andaluzas de 2026",
+        "url": "https://www.carlistas.es/2026/05/24/andalucia-occidental-carlista-comunicado-declaracion-elecciones-andalucia-2026/",
+        "fecha": "2026-05-24",
+        "consultado": "2026-07-09"
+      }
+    },
+    "dr-011": {
+      "valor": 2,
+      "justificacion": "Sus principios establecen una forma política oficialmente católica y subordinada al orden cristiano. Esto acredita confesionalidad, no que una autoridad clerical tenga automáticamente soberanía teocrática.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Los 12 principios fundamentales del Carlismo",
+        "url": "https://www.carlistas.es/2014/02/18/los-12-principios-fundamentales-del-carlismo/",
+        "fecha": "2024-07-29",
+        "consultado": "2026-07-09"
+      }
+    },
+    "rel-002": {
+      "valor": -2,
+      "justificacion": "No defiende aconfesionalidad: reclama un orden social y político católico explícito.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Los 12 principios fundamentales del Carlismo",
+        "url": "https://www.carlistas.es/2014/02/18/los-12-principios-fundamentales-del-carlismo/",
+        "fecha": "2024-07-29",
+        "consultado": "2026-07-09"
+      }
+    },
+    "der-014": {
+      "valor": 2,
+      "justificacion": "Los Fueros son uno de sus cuatro lemas y sus principios los presentan como garantía de libertad territorial dentro de la unidad.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Los 12 principios fundamentales del Carlismo",
+        "url": "https://www.carlistas.es/2014/02/18/los-12-principios-fundamentales-del-carlismo/",
+        "fecha": "2024-07-29",
+        "consultado": "2026-07-09"
+      }
+    },
+    "der-007": {
+      "valor": 2,
+      "justificacion": "La declaración de 2026 considera el aborto incompatible con el orden natural y cristiano y pide derogar esas leyes; su posición es más restrictiva que el mínimo formulado en el ítem.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Declaración de la CTC ante las elecciones andaluzas de 2026",
+        "url": "https://www.carlistas.es/2026/05/24/andalucia-occidental-carlista-comunicado-declaracion-elecciones-andalucia-2026/",
+        "fecha": "2026-05-24",
+        "consultado": "2026-07-09"
+      }
+    },
+    "der-008": {
+      "valor": 2,
+      "justificacion": "La declaración vigente exige combatir y derogar la eutanasia, no limitarse a la objeción de conciencia.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Declaración de la CTC ante las elecciones andaluzas de 2026",
+        "url": "https://www.carlistas.es/2026/05/24/andalucia-occidental-carlista-comunicado-declaracion-elecciones-andalucia-2026/",
+        "fecha": "2026-05-24",
+        "consultado": "2026-07-09"
+      }
+    },
+    "fem-005": {
+      "valor": 2,
+      "justificacion": "Pide derogar la eutanasia por considerarla contraria a la ley natural y al orden cristiano.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Declaración de la CTC ante las elecciones andaluzas de 2026",
+        "url": "https://www.carlistas.es/2026/05/24/andalucia-occidental-carlista-comunicado-declaracion-elecciones-andalucia-2026/",
+        "fecha": "2026-05-24",
+        "consultado": "2026-07-09"
+      }
+    },
+    "fem-006": {
+      "valor": 2,
+      "justificacion": "Su posición de derogación y protección de la vida desde la concepción es al menos tan restrictiva como permitir el aborto solo en supuestos tasados.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Declaración de la CTC ante las elecciones andaluzas de 2026",
+        "url": "https://www.carlistas.es/2026/05/24/andalucia-occidental-carlista-comunicado-declaracion-elecciones-andalucia-2026/",
+        "fecha": "2026-05-24",
+        "consultado": "2026-07-09"
+      }
+    }
+  }
+}

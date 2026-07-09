@@ -1,0 +1,380 @@
+{
+  "id": "comunitat-valenciana-2023-05",
+  "nombre": "Elecciones autonómicas de Comunitat Valenciana del 28 de mayo de 2023",
+  "tipo": "autonomicas",
+  "fecha": "2023-05-28",
+  "territorio": "comunitat-valenciana",
+  "camara": "Les Corts Valencianes",
+  "umbralPorcentaje": 0.02,
+  "denominador": {
+    "tipo": "votos-a-candidaturas",
+    "valor": 2435951
+  },
+  "totalCandidaturasOficiales": 19,
+  "fuente": {
+    "titulo": "Resultados definitivos de las elecciones autonómicas de Comunitat Valenciana",
+    "url": "https://www.juntaelectoralcentral.es/cs/jec/documentos/VALENCIA_2023_Resultados.pdf",
+    "consultado": "2026-07-09"
+  },
+  "nota": "El porcentaje usa como denominador 2.435.951 votos a candidaturas en toda la comunidad. Una relación con un componente identifica la candidatura, pero no transfiere sus posiciones al perfil de la coalición. Naturaleza de la convocatoria en el inventario: ordinaria.",
+  "candidaturas": [
+    {
+      "id": "val-2023-partido-popular",
+      "nombre": "Partido Popular",
+      "votos": 881893,
+      "porcentaje": 36.203232,
+      "territorios": [
+        "comunitat-valenciana"
+      ],
+      "circunscripciones": [
+        "Alicante",
+        "Castellón",
+        "Valencia"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [
+        {
+          "perfilId": "pp",
+          "relacion": "misma-organizacion"
+        }
+      ],
+      "nota": "Naturaleza inventariada: partido. Vigencia comprobada: representacion-2023-2027. Tratamiento previsto: perfil-reutilizable."
+    },
+    {
+      "id": "val-2023-partido-socialista-obrero-espanol",
+      "nombre": "Partido Socialista Obrero Español",
+      "votos": 708142,
+      "porcentaje": 29.070453,
+      "territorios": [
+        "comunitat-valenciana"
+      ],
+      "circunscripciones": [
+        "Alicante",
+        "Castellón",
+        "Valencia"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [
+        {
+          "perfilId": "psoe",
+          "relacion": "misma-organizacion"
+        }
+      ],
+      "nota": "Naturaleza inventariada: federacion-territorial. Vigencia comprobada: representacion-2023-2027. Tratamiento previsto: perfil-reutilizable."
+    },
+    {
+      "id": "val-2023-compromis-mes-iniciativa-verdsequo",
+      "nombre": "Compromís: Més-Iniciativa-Verdsequo",
+      "votos": 357989,
+      "porcentaje": 14.696067,
+      "territorios": [
+        "comunitat-valenciana"
+      ],
+      "circunscripciones": [
+        "Alicante",
+        "Castellón",
+        "Valencia"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [
+        {
+          "perfilId": "verdes-equo",
+          "relacion": "componente",
+          "nota": "VerdsEquo figura como componente de esta candidatura fechada; sus posiciones no se atribuyen automáticamente a la coalición."
+        }
+      ],
+      "nota": "Naturaleza inventariada: coalicion-electoral. Vigencia comprobada: representacion-2023-2027; matrices-verificadas. Tratamiento previsto: perfil-especifico."
+    },
+    {
+      "id": "val-2023-vox",
+      "nombre": "Vox",
+      "votos": 310184,
+      "porcentaje": 12.733589,
+      "territorios": [
+        "comunitat-valenciana"
+      ],
+      "circunscripciones": [
+        "Alicante",
+        "Castellón",
+        "Valencia"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [
+        {
+          "perfilId": "vox",
+          "relacion": "misma-organizacion"
+        }
+      ],
+      "nota": "Naturaleza inventariada: partido. Vigencia comprobada: representacion-2023-2027. Tratamiento previsto: perfil-reutilizable."
+    },
+    {
+      "id": "val-2023-unides-podem-esquerra-unida",
+      "nombre": "Unides Podem-Esquerra Unida",
+      "votos": 88152,
+      "porcentaje": 3.618792,
+      "territorios": [
+        "comunitat-valenciana"
+      ],
+      "circunscripciones": [
+        "Alicante",
+        "Castellón",
+        "Valencia"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [
+        {
+          "perfilId": "podemos",
+          "relacion": "componente",
+          "nota": "Podem figura como componente de esta candidatura fechada; sus posiciones no se atribuyen automáticamente a la coalición."
+        }
+      ],
+      "nota": "Naturaleza inventariada: coalicion-electoral. Vigencia comprobada: matrices-verificadas. Tratamiento previsto: perfil-especifico."
+    },
+    {
+      "id": "val-2023-ciudadanos-partido-de-la-ciudadania",
+      "nombre": "Ciudadanos-Partido de la Ciudadanía",
+      "votos": 37095,
+      "porcentaje": 1.522814,
+      "territorios": [
+        "comunitat-valenciana"
+      ],
+      "circunscripciones": [
+        "Alicante",
+        "Castellón",
+        "Valencia"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [
+        {
+          "perfilId": "ciudadanos",
+          "relacion": "misma-organizacion"
+        }
+      ],
+      "nota": "Naturaleza inventariada: partido. Vigencia comprobada: posterior-verificada. Tratamiento previsto: perfil-reutilizable."
+    },
+    {
+      "id": "val-2023-partido-animalista-con-el-medio-ambiente",
+      "nombre": "Partido Animalista con el Medio Ambiente",
+      "votos": 20836,
+      "porcentaje": 0.855354,
+      "territorios": [
+        "comunitat-valenciana"
+      ],
+      "circunscripciones": [
+        "Alicante y Valencia"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [
+        {
+          "perfilId": "pacma",
+          "relacion": "misma-organizacion"
+        }
+      ],
+      "nota": "Naturaleza inventariada: partido. Vigencia comprobada: posterior-verificada. Tratamiento previsto: perfil-reutilizable."
+    },
+    {
+      "id": "val-2023-los-verdes-ecopacifistas-centro-moderado",
+      "nombre": "Los Verdes-Ecopacifistas (CENTRO MODERADO)",
+      "votos": 4846,
+      "porcentaje": 0.198937,
+      "territorios": [
+        "comunitat-valenciana"
+      ],
+      "circunscripciones": [
+        "Alicante"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [],
+      "nota": "Naturaleza inventariada: partido-o-candidatura. Vigencia comprobada: no-comprobada. Tratamiento previsto: inventario-sin-datos."
+    },
+    {
+      "id": "val-2023-esquerra-republicana-del-pais-valencia",
+      "nombre": "Esquerra Republicana del País Valencià",
+      "votos": 4570,
+      "porcentaje": 0.187606,
+      "territorios": [
+        "comunitat-valenciana"
+      ],
+      "circunscripciones": [
+        "Alicante",
+        "Castellón",
+        "Valencia"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [],
+      "nota": "Naturaleza inventariada: partido-territorial. Vigencia comprobada: posterior-verificada. Tratamiento previsto: perfil-especifico."
+    },
+    {
+      "id": "val-2023-coalicio-units",
+      "nombre": "Coalició Units",
+      "votos": 4266,
+      "porcentaje": 0.175127,
+      "territorios": [
+        "comunitat-valenciana"
+      ],
+      "circunscripciones": [
+        "Alicante",
+        "Castellón",
+        "Valencia"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [],
+      "nota": "Naturaleza inventariada: coalicion-electoral. Vigencia comprobada: no-comprobada. Tratamiento previsto: inventario-sin-datos."
+    },
+    {
+      "id": "val-2023-partido-comunista-de-los-pueblos-de-espana",
+      "nombre": "Partido Comunista de los Pueblos de España",
+      "votos": 3815,
+      "porcentaje": 0.156612,
+      "territorios": [
+        "comunitat-valenciana"
+      ],
+      "circunscripciones": [
+        "Alicante",
+        "Castellón",
+        "Valencia"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [
+        {
+          "perfilId": "pcpe",
+          "relacion": "misma-organizacion"
+        }
+      ],
+      "nota": "Naturaleza inventariada: partido. Vigencia comprobada: posterior-verificada. Tratamiento previsto: perfil-reutilizable."
+    },
+    {
+      "id": "val-2023-recortes-cero",
+      "nombre": "Recortes Cero",
+      "votos": 2926,
+      "porcentaje": 0.120117,
+      "territorios": [
+        "comunitat-valenciana"
+      ],
+      "circunscripciones": [
+        "Alicante",
+        "Castellón",
+        "Valencia"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [
+        {
+          "perfilId": "recortes-cero",
+          "relacion": "misma-organizacion"
+        }
+      ],
+      "nota": "Naturaleza inventariada: coalicion-electoral. Vigencia comprobada: posterior-verificada. Tratamiento previsto: perfil-reutilizable."
+    },
+    {
+      "id": "val-2023-decidix",
+      "nombre": "Decidix",
+      "votos": 2373,
+      "porcentaje": 0.097416,
+      "territorios": [
+        "comunitat-valenciana"
+      ],
+      "circunscripciones": [
+        "Alicante",
+        "Castellón",
+        "Valencia"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [],
+      "nota": "Naturaleza inventariada: partido-o-candidatura. Vigencia comprobada: no-comprobada. Tratamiento previsto: inventario-sin-datos."
+    },
+    {
+      "id": "val-2023-escanos-en-blanco-para-dejar-escanos-vacios",
+      "nombre": "Escaños en Blanco para Dejar Escaños Vacíos",
+      "votos": 2090,
+      "porcentaje": 0.085798,
+      "territorios": [
+        "comunitat-valenciana"
+      ],
+      "circunscripciones": [
+        "Valencia"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [],
+      "nota": "Naturaleza inventariada: partido. Vigencia comprobada: posterior-verificada. Tratamiento previsto: perfil-reutilizable."
+    },
+    {
+      "id": "val-2023-republica-valenciana-partit-valencianiste-europe",
+      "nombre": "República Valenciana / Partit Valencianiste Europeu",
+      "votos": 1745,
+      "porcentaje": 0.071635,
+      "territorios": [
+        "comunitat-valenciana"
+      ],
+      "circunscripciones": [
+        "Alicante",
+        "Castellón",
+        "Valencia"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [],
+      "nota": "Naturaleza inventariada: partido-o-candidatura. Vigencia comprobada: no-comprobada. Tratamiento previsto: perfil-especifico."
+    },
+    {
+      "id": "val-2023-alianza-por-el-comercio-y-la-vivienda",
+      "nombre": "Alianza por el Comercio y la Vivienda",
+      "votos": 1689,
+      "porcentaje": 0.069336,
+      "territorios": [
+        "comunitat-valenciana"
+      ],
+      "circunscripciones": [
+        "Alicante",
+        "Castellón",
+        "Valencia"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [],
+      "nota": "Naturaleza inventariada: partido-o-candidatura. Vigencia comprobada: no-comprobada. Tratamiento previsto: inventario-sin-datos."
+    },
+    {
+      "id": "val-2023-por-un-mundo-mas-justo",
+      "nombre": "Por un Mundo Más Justo",
+      "votos": 1373,
+      "porcentaje": 0.056364,
+      "territorios": [
+        "comunitat-valenciana"
+      ],
+      "circunscripciones": [
+        "Valencia"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [],
+      "nota": "Naturaleza inventariada: partido. Vigencia comprobada: posterior-verificada. Tratamiento previsto: perfil-reutilizable."
+    },
+    {
+      "id": "val-2023-centrats-en-la-nostra-terra",
+      "nombre": "Centrats en la Nostra Terra",
+      "votos": 1326,
+      "porcentaje": 0.054435,
+      "territorios": [
+        "comunitat-valenciana"
+      ],
+      "circunscripciones": [
+        "Castellón"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [],
+      "nota": "Naturaleza inventariada: coalicion-electoral. Vigencia comprobada: no-comprobada. Tratamiento previsto: inventario-sin-datos."
+    },
+    {
+      "id": "val-2023-partido-alicantino-regionalista-esperanza-ciudad",
+      "nombre": "Partido Alicantino Regionalista - Esperanza Ciudadana",
+      "votos": 641,
+      "porcentaje": 0.026314,
+      "territorios": [
+        "comunitat-valenciana"
+      ],
+      "circunscripciones": [
+        "Alicante"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [],
+      "nota": "Naturaleza inventariada: partido-o-candidatura. Vigencia comprobada: no-comprobada. Tratamiento previsto: inventario-sin-datos."
+    }
+  ]
+}

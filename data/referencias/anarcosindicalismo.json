@@ -1,0 +1,277 @@
+{
+  "id": "anarcosindicalismo",
+  "nombre": "Anarcosindicalismo y sindicalismo revolucionario libertario",
+  "tipo": "referencia-doctrinal",
+  "definicion": "Tipo ideal que combina sindicalismo de clase, acción directa y lucha cotidiana con una estrategia revolucionaria: los sindicatos y consejos federados sustituyen capitalismo, Estado y partidos y administran directamente producción y vida social.",
+  "variante": "Anarcosindicalismo AIT; el sindicalismo revolucionario no anarquista y las prácticas de CGT u otros sindicatos pueden diferir",
+  "periodo": "Finales del siglo XIX–actualidad",
+  "confianza": "verificada",
+  "version": "1.0",
+  "revisado": "2026-07-09",
+  "facetasDefinitorias": ["autonomia-sindical", "poder-laboral", "estatismo", "institucionalismo", "organizacion"],
+  "sensibilidad": "normal",
+  "advertencia": "Es una referencia doctrinal no electoral. No describe automáticamente a CNT, CNT-AIT, CGT o Solidaridad Obrera: son sindicatos reales con estatutos y tácticas propias y permanecen en un catálogo separado. La variante AIT rechaza subvenciones y elecciones a comités de empresa; CGT participa en elecciones sindicales, por lo que no debe heredar este vector. Tampoco se imputan posiciones nucleares, religiosas, territoriales o bioéticas.",
+  "fuentesMarco": [
+    {
+      "tipo": "otro",
+      "titulo": "Rudolf Rocker, Anarcho-Syndicalism: Theory and Practice",
+      "url": "https://theanarchistlibrary.org/library/rudolf-rocker-anarchosyndicalism",
+      "fecha": "1938",
+      "consultado": "2026-07-09"
+    },
+    {
+      "tipo": "estatutos",
+      "titulo": "Statutes of the International Workers’ Association",
+      "url": "https://iwa-ait.org/content/statutes",
+      "fecha": "2022-12-10",
+      "consultado": "2026-07-09"
+    }
+  ],
+  "reglaPublicacion": {
+    "minimoItems": 12,
+    "minimoCobertura": 0.55,
+    "umbralAfinidad": 76
+  },
+  "posiciones": {
+    "izq-003": {
+      "valor": 2,
+      "justificacion": "La emancipación corresponde a las organizaciones económicas de los trabajadores y a consejos libres, sin subordinación a autoridad o partido político.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "estatutos",
+        "titulo": "Principles of Anarcho-Syndicalism, IWA Statutes",
+        "url": "https://iwa-ait.org/content/statutes",
+        "fecha": "2022-12-10",
+        "consultado": "2026-07-09"
+      }
+    },
+    "dem-011": {
+      "valor": 2,
+      "justificacion": "Rechaza toda actividad parlamentaria y no pretende conquistar el poder estatal, sino abolir las funciones del Estado y reorganizar la sociedad desde sindicatos y consejos.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "estatutos",
+        "titulo": "Principles of Anarcho-Syndicalism, IWA Statutes",
+        "url": "https://iwa-ait.org/content/statutes",
+        "fecha": "2022-12-10",
+        "consultado": "2026-07-09"
+      }
+    },
+    "dem-017": {
+      "valor": 2,
+      "justificacion": "Su alternativa explícita son órganos económicos y comunidades dirigidos por trabajadores que forman un sistema de consejos libres sin autoridad partidaria.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "estatutos",
+        "titulo": "Principles of Anarcho-Syndicalism, IWA Statutes",
+        "url": "https://iwa-ait.org/content/statutes",
+        "fecha": "2022-12-10",
+        "consultado": "2026-07-09"
+      }
+    },
+    "dem-018": {
+      "valor": 2,
+      "justificacion": "Sustituye la política de Estado y partidos por organizaciones de productores, ramas industriales, comunidades y federaciones económicas.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "estatutos",
+        "titulo": "Principles of Anarcho-Syndicalism, IWA Statutes",
+        "url": "https://iwa-ait.org/content/statutes",
+        "fecha": "2022-12-10",
+        "consultado": "2026-07-09"
+      }
+    },
+    "dem-019": {
+      "valor": -2,
+      "justificacion": "Rechaza tanto el Estado como que una organización política unificada se coloque por encima de sindicatos, consejos y comunidades autónomas.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "estatutos",
+        "titulo": "Principles of Anarcho-Syndicalism, IWA Statutes",
+        "url": "https://iwa-ait.org/content/statutes",
+        "fecha": "2022-12-10",
+        "consultado": "2026-07-09"
+      }
+    },
+    "dem-015": {
+      "valor": -2,
+      "justificacion": "Su federalismo rechaza el centralismo y la disciplina rígida que subordina a las bases; la coordinación se apoya en mandato, autonomía y acuerdos revocables.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "estatutos",
+        "titulo": "Principles of Anarcho-Syndicalism, IWA Statutes",
+        "url": "https://iwa-ait.org/content/statutes",
+        "fecha": "2022-12-10",
+        "consultado": "2026-07-09"
+      }
+    },
+    "izq-031": {
+      "valor": 2,
+      "justificacion": "La variante AIT rechaza expresamente la actividad parlamentaria y la colaboración legislativa como vía de emancipación.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "estatutos",
+        "titulo": "Principles of Anarcho-Syndicalism, IWA Statutes",
+        "url": "https://iwa-ait.org/content/statutes",
+        "fecha": "2022-12-10",
+        "consultado": "2026-07-09"
+      }
+    },
+    "izq-034": {
+      "valor": 2,
+      "justificacion": "Rechaza la colaboración de clase mediante comités diseñados por el Estado y cita específicamente las elecciones a comités de empresa como práctica incompatible.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "estatutos",
+        "titulo": "Goals and Objectives, IWA Statutes",
+        "url": "https://iwa-ait.org/content/statutes",
+        "fecha": "2022-12-10",
+        "consultado": "2026-07-09"
+      }
+    },
+    "izq-038": {
+      "valor": 2,
+      "justificacion": "Se organiza explícitamente de abajo arriba mediante una federación amplia de grupos, sindicatos y comunidades autónomas, sin centro estatal superior.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "estatutos",
+        "titulo": "Principles of Anarcho-Syndicalism, IWA Statutes",
+        "url": "https://iwa-ait.org/content/statutes",
+        "fecha": "2022-12-10",
+        "consultado": "2026-07-09"
+      }
+    },
+    "izq-039": {
+      "valor": 2,
+      "justificacion": "Los estatutos exigen rotación de la secretaría, limitan a dos mandatos consecutivos y prevén su revocación por referéndum de las secciones.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "estatutos",
+        "titulo": "Secretariat and Recallability, IWA Statutes",
+        "url": "https://iwa-ait.org/content/statutes",
+        "fecha": "2022-12-10",
+        "consultado": "2026-07-09"
+      }
+    },
+    "lab-004": {
+      "valor": 2,
+      "justificacion": "La AIT se financia mediante cuotas de sus secciones y rechaza subvenciones y profesionales sindicales pagados como fuentes de dependencia institucional.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "estatutos",
+        "titulo": "Finances and Goals, IWA Statutes",
+        "url": "https://iwa-ait.org/content/statutes",
+        "fecha": "2022-12-10",
+        "consultado": "2026-07-09"
+      }
+    },
+    "lab-005": {
+      "valor": 2,
+      "justificacion": "Prohíbe el control partidario de los sindicatos y rechaza su incorporación al Estado, haciendo de la independencia una condición central.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "estatutos",
+        "titulo": "Goals and Objectives, IWA Statutes",
+        "url": "https://iwa-ait.org/content/statutes",
+        "fecha": "2022-12-10",
+        "consultado": "2026-07-09"
+      }
+    },
+    "lab-006": {
+      "valor": -2,
+      "justificacion": "Una organización sindical única reconocida e integrada por el Estado es precisamente el corporativismo y la colaboración de clase que esta tradición rechaza.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "estatutos",
+        "titulo": "Goals and Objectives, IWA Statutes",
+        "url": "https://iwa-ait.org/content/statutes",
+        "fecha": "2022-12-10",
+        "consultado": "2026-07-09"
+      }
+    },
+    "lab-008": {
+      "valor": 2,
+      "justificacion": "Los trabajadores organizados deben tomar tierra y fábricas y administrar conjuntamente producción y distribución mediante órganos autónomos y planes acordados.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "estatutos",
+        "titulo": "Principles of Anarcho-Syndicalism, IWA Statutes",
+        "url": "https://iwa-ait.org/content/statutes",
+        "fecha": "2022-12-10",
+        "consultado": "2026-07-09"
+      }
+    },
+    "lab-012": {
+      "valor": 1,
+      "justificacion": "En una sociedad sin Estado, la provisión colectiva pasa a organizaciones laborales y comunitarias; la fuente no prescribe una única fórmula equivalente a aportaciones profesionales obligatorias.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "estatutos",
+        "titulo": "Principles of Anarcho-Syndicalism, IWA Statutes",
+        "url": "https://iwa-ait.org/content/statutes",
+        "fecha": "2022-12-10",
+        "consultado": "2026-07-09"
+      }
+    },
+    "lab-016": {
+      "valor": -2,
+      "justificacion": "Rechaza que decretos gubernamentales o ministerios administren la economía: la dirección corresponde a grupos, fábricas y ramas autogestionadas.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "estatutos",
+        "titulo": "Principles of Anarcho-Syndicalism, IWA Statutes",
+        "url": "https://iwa-ait.org/content/statutes",
+        "fecha": "2022-12-10",
+        "consultado": "2026-07-09"
+      }
+    },
+    "lab-018": {
+      "valor": 2,
+      "justificacion": "Atribuye a las organizaciones económicas de los trabajadores, no a los partidos, la lucha transformadora y la futura administración social.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "estatutos",
+        "titulo": "Principles of Anarcho-Syndicalism, IWA Statutes",
+        "url": "https://iwa-ait.org/content/statutes",
+        "fecha": "2022-12-10",
+        "consultado": "2026-07-09"
+      }
+    },
+    "lab-026": {
+      "valor": 2,
+      "justificacion": "La representación se construye en organizaciones sindicales de afiliados y acción directa, no en comités unitarios constituidos mediante el mecanismo electoral estatal.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "estatutos",
+        "titulo": "Goals and Objectives, IWA Statutes",
+        "url": "https://iwa-ait.org/content/statutes",
+        "fecha": "2022-12-10",
+        "consultado": "2026-07-09"
+      }
+    },
+    "izq-040": {
+      "valor": 0,
+      "justificacion": "Quiere abolir los ejércitos permanentes, pero contempla milicias obreras controladas por sindicatos para defender una revolución; por eso no equivale a desarme completo e inmediato.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "estatutos",
+        "titulo": "Principles of Anarcho-Syndicalism, IWA Statutes",
+        "url": "https://iwa-ait.org/content/statutes",
+        "fecha": "2022-12-10",
+        "consultado": "2026-07-09"
+      }
+    },
+    "geo-003": {
+      "valor": 1,
+      "justificacion": "Combate guerra y militarismo y propone huelga general y embargo de materiales bélicos, pero admite ayudar a defender a trabajadores inmersos en una revolución social.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "estatutos",
+        "titulo": "Principles of Anarcho-Syndicalism, IWA Statutes",
+        "url": "https://iwa-ait.org/content/statutes",
+        "fecha": "2022-12-10",
+        "consultado": "2026-07-09"
+      }
+    }
+  }
+}

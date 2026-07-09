@@ -1,0 +1,43 @@
+{
+  "id": "csif",
+  "nombre": "Central Sindical Independiente y de Funcionarios",
+  "siglas": "CSIF",
+  "ambito": "estatal",
+  "sectores": ["administraciones-publicas", "servicios-publicos", "empresa-privada"],
+  "confianza": "verificada",
+  "web": "https://www.csif.es/",
+  "revisado": "2026-07-09",
+  "advertencia": "La similitud doctrinal no acredita implantación en tu empresa ni constituye una recomendación de afiliación.",
+  "posiciones": {
+    "lab-004": {
+      "valor": -1,
+      "justificacion": "Las cuotas son su fuente principal, pero las cuentas también registran servicios y subvenciones; no es un modelo exclusivamente de cuotas.",
+      "calidadEvidencia": "alta",
+      "fuente": { "tipo": "otro", "titulo": "Cuentas auditadas de 2024", "url": "https://www.csif.es/es/articulo/nacional/general/74168", "fecha": "2025", "consultado": "2026-07-09" }
+    },
+    "lab-005": {
+      "valor": 2,
+      "justificacion": "Se define independiente de partidos y organizaciones extrasindicales.",
+      "calidadEvidencia": "alta",
+      "fuente": { "tipo": "estatutos", "titulo": "Portal de transparencia y estatutos", "url": "https://www.csif.es/es/noticia/portada/nacional/articulo/37655", "fecha": "2024", "consultado": "2026-07-09" }
+    },
+    "lab-019": {
+      "valor": 1,
+      "justificacion": "Recibe subvenciones junto a ingresos propios y publica estructura y cuentas auditadas; la fuente respalda aceptación transparente, no una preferencia sobre reparto.",
+      "calidadEvidencia": "alta",
+      "fuente": { "tipo": "otro", "titulo": "Cuentas auditadas de 2024", "url": "https://www.csif.es/es/articulo/nacional/general/74168", "fecha": "2025", "consultado": "2026-07-09" }
+    },
+    "lab-020": {
+      "valor": 2,
+      "justificacion": "Su actividad se articula mediante elecciones, mesas de negociación y representación del personal afiliado o no.",
+      "calidadEvidencia": "alta",
+      "fuente": { "tipo": "declaracion", "titulo": "Portal de transparencia y organización", "url": "https://www.csif.es/es/noticia/portada/nacional/articulo/37655", "fecha": "2024", "consultado": "2026-07-09" }
+    },
+    "lab-023": {
+      "valor": 1,
+      "justificacion": "Su orientación pública es profesional y sectorial; no consta un proyecto integral de propiedad o sustitución del sistema económico.",
+      "calidadEvidencia": "media",
+      "fuente": { "tipo": "declaracion", "titulo": "Portal de transparencia y organización", "url": "https://www.csif.es/es/noticia/portada/nacional/articulo/37655", "fecha": "2024", "consultado": "2026-07-09" }
+    }
+  }
+}

@@ -13,7 +13,8 @@
     "tags": [
       "fiscalidad"
     ],
-    "estado": "piloto"
+    "estado": "piloto",
+    "notas": "Ancla redistribución fiscal progresiva frente a menor presión sobre rentas altas; no distingue por sí sola socialdemocracia, socialismo o fiscalismo populista."
   },
   {
     "id": "eco-002",
@@ -30,7 +31,8 @@
       "sanidad",
       "privatizacion"
     ],
-    "estado": "piloto"
+    "estado": "piloto",
+    "notas": "Separa confianza en gestión privada de preferencia por provisión pública; el ejemplo sanitario concreta el coste, aunque propiedad y financiación se afinan en módulos."
   },
   {
     "id": "eco-003",
@@ -46,7 +48,8 @@
     "tags": [
       "laboral"
     ],
-    "estado": "piloto"
+    "estado": "piloto",
+    "notas": "Ancla protección salarial por ley aun con un coste laboral alegado; separa intervención laboral de fijación principalmente contractual o de mercado."
   },
   {
     "id": "eco-004",
@@ -63,7 +66,8 @@
       "deuda",
       "gasto"
     ],
-    "estado": "piloto"
+    "estado": "piloto",
+    "notas": "Fuerza una prioridad entre consolidación fiscal y gasto social; discrimina austeridad frente a expansión social sin asumir una cifra concreta de deuda."
   },
   {
     "id": "soc-001",
@@ -79,7 +83,8 @@
     "tags": [
       "lgtb"
     ],
-    "estado": "piloto"
+    "estado": "piloto",
+    "notas": "Ancla protección jurídica de derechos LGTB frente a su reversión; separa liberalismo social y progresismo de conservadurismo moral, no posiciones económicas."
   },
   {
     "id": "soc-002",
@@ -95,7 +100,8 @@
     "tags": [
       "inmigracion"
     ],
-    "estado": "piloto"
+    "estado": "piloto",
+    "notas": "Separa prioridad de devolución y control fronterizo de regularización/acogida; las razones laborales, identitarias o humanitarias requieren los módulos de profundización."
   },
   {
     "id": "soc-003",
@@ -105,6 +111,10 @@
       {
         "eje": "social",
         "carga": 1
+      },
+      {
+        "eje": "libertades-civiles",
+        "carga": -0.75
       }
     ],
     "polaridad": "positiva",
@@ -112,7 +122,8 @@
       "seguridad",
       "privacidad"
     ],
-    "estado": "piloto"
+    "estado": "piloto",
+    "notas": "Fuerza el intercambio seguridad-privacidad y aporta una ancla preliminar de libertades civiles; no equivale por sí solo a una ideología económica ni basta para estabilizar la faceta."
   },
   {
     "id": "ter-001",
@@ -122,13 +133,18 @@
       {
         "eje": "territorial",
         "carga": 1
+      },
+      {
+        "eje": "modelo-territorial",
+        "carga": 0.5
       }
     ],
     "polaridad": "positiva",
     "tags": [
       "competencias"
     ],
-    "estado": "piloto"
+    "estado": "piloto",
+    "notas": "Ancla recentralización competencial frente a autonomía; se completa con autodeterminación y modelos federales para no reducir todo el eje territorial a centralismo/independencia."
   },
   {
     "id": "ter-002",
@@ -147,7 +163,8 @@
     "estado": "piloto",
     "terminos": [
       "autodeterminacion"
-    ]
+    ],
+    "notas": "Ancla capacidad de decidir mediante referéndum frente a integridad territorial estatal; el acuerdo no determina si se prefiere independencia, federación o permanencia."
   },
   {
     "id": "ue-001",
@@ -164,7 +181,8 @@
       "ue",
       "soberania"
     ],
-    "estado": "piloto"
+    "estado": "piloto",
+    "notas": "Ancla soberanía estatal frente a mayor integración europea; puede unir izquierdas y derechas euroescépticas por razones incompatibles que se afinan después."
   },
   {
     "id": "ecl-001",
@@ -181,7 +199,8 @@
       "energia",
       "clima"
     ],
-    "estado": "piloto"
+    "estado": "piloto",
+    "notas": "Fuerza un coste material para medir prioridad climática frente a precio inmediato; no confunde esta decisión con apoyo o rechazo a energía nuclear."
   },
   {
     "id": "pop-001",
@@ -197,7 +216,8 @@
     "tags": [
       "elites"
     ],
-    "estado": "piloto"
+    "estado": "piloto",
+    "notas": "Indicador de marco pueblo-élite: puede aparecer en populismos de distinto signo, por lo que se interpreta como eje propio y nunca como izquierda o derecha económica."
   },
   {
     "id": "eco-005",
@@ -512,8 +532,8 @@
       "defensa",
       "autonomia-estrategica"
     ],
-    "estado": "piloto",
-    "notas": "Discrimina: Triangula tres campos: europeístas de defensa (Cs/PSOE/PP, +2/+1), soberanistas pro-OTAN pero anti-federación (Vox, −2) y antimilitaristas (Podemos/Bildu, −2); separa Sumar (−1) de PSOE (+1) en el Gobierno de coalición. | Esperado: Ciudadanos +2, PSOE +1, PP +1, Sumar -1, Podemos -2, EH Bildu -2, Vox -2. | [Corregido en revisión: La carga atlantismo +0.5 contamina el eje: Vox respondería −2 (pro-OTAN pero anti-ejército federal) y puntuaría hacia el polo antimilitarista, y Podemos respondería −2 por la razón exactamente contraria; la carga solo funciona para la mitad izquierda del espectro. Dejarlo como ítem puro de integración europea en defensa (ue −0.75). El eje atlantismo queda cubierto por nuc-23 y el nuevo ítem OTAN propuesto. Texto y polaridad correctos.]"
+    "estado": "retirado",
+    "notas": "Retirado antes del piloto por solaparse con geo-004. La autonomía estratégica europea se pregunta en geopolítica; la federación política permanece separada de un ejército común."
   },
   {
     "id": "ecl-002",

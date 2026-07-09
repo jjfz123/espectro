@@ -1,0 +1,714 @@
+{
+  "id": "congreso-2023-07",
+  "nombre": "Elecciones generales al Congreso de los Diputados de julio de 2023",
+  "tipo": "generales",
+  "fecha": "2023-07-23",
+  "territorio": "espana",
+  "camara": "Congreso de los Diputados",
+  "umbralPorcentaje": 0.02,
+  "denominador": {
+    "tipo": "votos-a-candidaturas",
+    "valor": 24487414
+  },
+  "totalCandidaturasOficiales": 59,
+  "fuente": {
+    "titulo": "Base de datos de resultados electorales, fichero TOTA (Congreso 2023-07)",
+    "url": "https://infoelectoral.interior.gob.es/estaticos/docxl/apliextr/02202307_TOTA.zip",
+    "fechaDatos": "2023-11-10",
+    "consultado": "2026-07-09"
+  },
+  "candidaturas": [
+    {
+      "id": "congreso-2023-07-pp",
+      "codigoOficial": "000005",
+      "siglas": "PP",
+      "nombre": "PARTIDO POPULAR",
+      "votos": 8160837,
+      "porcentaje": 33.326659,
+      "escanos": 137,
+      "territorios": [
+        "andalucia",
+        "aragon",
+        "asturias",
+        "canarias",
+        "cantabria",
+        "castilla-la-mancha",
+        "castilla-y-leon",
+        "catalunya",
+        "ceuta",
+        "comunitat-valenciana",
+        "euskadi",
+        "extremadura",
+        "galicia",
+        "illes-balears",
+        "la-rioja",
+        "madrid",
+        "melilla",
+        "murcia",
+        "navarra"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [
+        {
+          "perfilId": "pp",
+          "relacion": "misma-organizacion"
+        }
+      ]
+    },
+    {
+      "id": "congreso-2023-07-psoe",
+      "codigoOficial": "000002",
+      "siglas": "PSOE",
+      "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+      "votos": 7821718,
+      "porcentaje": 31.941789,
+      "escanos": 121,
+      "territorios": [
+        "andalucia",
+        "aragon",
+        "asturias",
+        "canarias",
+        "cantabria",
+        "castilla-la-mancha",
+        "castilla-y-leon",
+        "catalunya",
+        "ceuta",
+        "comunitat-valenciana",
+        "euskadi",
+        "extremadura",
+        "galicia",
+        "illes-balears",
+        "la-rioja",
+        "madrid",
+        "melilla",
+        "murcia",
+        "navarra"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [
+        {
+          "perfilId": "psoe",
+          "relacion": "misma-organizacion"
+        }
+      ]
+    },
+    {
+      "id": "congreso-2023-07-vox",
+      "codigoOficial": "000006",
+      "siglas": "VOX",
+      "nombre": "VOX",
+      "votos": 3057000,
+      "porcentaje": 12.483964,
+      "escanos": 33,
+      "territorios": [
+        "andalucia",
+        "aragon",
+        "asturias",
+        "canarias",
+        "cantabria",
+        "castilla-la-mancha",
+        "castilla-y-leon",
+        "catalunya",
+        "ceuta",
+        "comunitat-valenciana",
+        "euskadi",
+        "extremadura",
+        "galicia",
+        "illes-balears",
+        "la-rioja",
+        "madrid",
+        "melilla",
+        "murcia",
+        "navarra"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [
+        {
+          "perfilId": "vox",
+          "relacion": "misma-organizacion"
+        }
+      ]
+    },
+    {
+      "id": "congreso-2023-07-sumar",
+      "codigoOficial": "000010",
+      "siglas": "SUMAR",
+      "nombre": "SUMAR",
+      "votos": 3044996,
+      "porcentaje": 12.434943,
+      "escanos": 31,
+      "territorios": [
+        "andalucia",
+        "aragon",
+        "asturias",
+        "canarias",
+        "cantabria",
+        "castilla-la-mancha",
+        "castilla-y-leon",
+        "catalunya",
+        "ceuta",
+        "comunitat-valenciana",
+        "euskadi",
+        "extremadura",
+        "galicia",
+        "illes-balears",
+        "la-rioja",
+        "madrid",
+        "melilla",
+        "murcia",
+        "navarra"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": []
+    },
+    {
+      "id": "congreso-2023-07-erc",
+      "codigoOficial": "000050",
+      "siglas": "ERC",
+      "nombre": "ESQUERRA REPUBLICANA DE CATALUNYA",
+      "votos": 466020,
+      "porcentaje": 1.9031,
+      "escanos": 7,
+      "territorios": [
+        "catalunya"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [
+        {
+          "perfilId": "erc",
+          "relacion": "misma-organizacion"
+        }
+      ]
+    },
+    {
+      "id": "congreso-2023-07-jxcat-junts",
+      "codigoOficial": "000057",
+      "siglas": "JxCAT - JUNTS",
+      "nombre": "JUNTS PER CATALUNYA - JUNTS",
+      "votos": 395429,
+      "porcentaje": 1.614825,
+      "escanos": 7,
+      "territorios": [
+        "catalunya"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [
+        {
+          "perfilId": "junts",
+          "relacion": "misma-organizacion"
+        }
+      ]
+    },
+    {
+      "id": "congreso-2023-07-eh-bildu",
+      "codigoOficial": "000071",
+      "siglas": "EH Bildu",
+      "nombre": "EUSKAL HERRIA BILDU",
+      "votos": 335129,
+      "porcentaje": 1.368577,
+      "escanos": 6,
+      "territorios": [
+        "euskadi",
+        "navarra"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [
+        {
+          "perfilId": "eh-bildu",
+          "relacion": "misma-organizacion"
+        }
+      ]
+    },
+    {
+      "id": "congreso-2023-07-eaj-pnv",
+      "codigoOficial": "000075",
+      "siglas": "EAJ-PNV",
+      "nombre": "EUZKO ALDERDI JELTZALEA-PARTIDO NACIONALISTA VASCO",
+      "votos": 277289,
+      "porcentaje": 1.132374,
+      "escanos": 5,
+      "territorios": [
+        "euskadi"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [
+        {
+          "perfilId": "eaj-pnv",
+          "relacion": "misma-organizacion"
+        }
+      ]
+    },
+    {
+      "id": "congreso-2023-07-pacma",
+      "codigoOficial": "000007",
+      "siglas": "PACMA",
+      "nombre": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
+      "votos": 169237,
+      "porcentaje": 0.691118,
+      "escanos": 0,
+      "territorios": [
+        "andalucia",
+        "aragon",
+        "asturias",
+        "canarias",
+        "cantabria",
+        "castilla-la-mancha",
+        "castilla-y-leon",
+        "catalunya",
+        "comunitat-valenciana",
+        "euskadi",
+        "extremadura",
+        "galicia",
+        "illes-balears",
+        "la-rioja",
+        "madrid",
+        "melilla",
+        "murcia",
+        "navarra"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [
+        {
+          "perfilId": "pacma",
+          "relacion": "misma-organizacion"
+        }
+      ]
+    },
+    {
+      "id": "congreso-2023-07-b-n-g",
+      "codigoOficial": "000065",
+      "siglas": "B.N.G.",
+      "nombre": "BLOQUE NACIONALISTA GALEGO",
+      "votos": 153995,
+      "porcentaje": 0.628874,
+      "escanos": 1,
+      "territorios": [
+        "galicia"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [
+        {
+          "perfilId": "bng",
+          "relacion": "misma-organizacion"
+        }
+      ]
+    },
+    {
+      "id": "congreso-2023-07-cca",
+      "codigoOficial": "000031",
+      "siglas": "CCa",
+      "nombre": "COALICIÓN CANARIA",
+      "votos": 116363,
+      "porcentaje": 0.475195,
+      "escanos": 1,
+      "territorios": [
+        "canarias"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [
+        {
+          "perfilId": "coalicion-canaria",
+          "relacion": "misma-organizacion"
+        }
+      ]
+    },
+    {
+      "id": "congreso-2023-07-cup-pr",
+      "codigoOficial": "000053",
+      "siglas": "CUP-PR",
+      "nombre": "CANDIDATURA D'UNITAT POPULAR-PER LA RUPTURA",
+      "votos": 99644,
+      "porcentaje": 0.406919,
+      "escanos": 0,
+      "territorios": [
+        "catalunya"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [
+        {
+          "perfilId": "cup",
+          "relacion": "misma-organizacion"
+        }
+      ]
+    },
+    {
+      "id": "congreso-2023-07-u-p-n",
+      "codigoOficial": "000074",
+      "siglas": "U.P.N.",
+      "nombre": "UNION DEL PUEBLO NAVARRO",
+      "votos": 52188,
+      "porcentaje": 0.213122,
+      "escanos": 1,
+      "territorios": [
+        "navarra"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [
+        {
+          "perfilId": "upn",
+          "relacion": "misma-organizacion"
+        }
+      ]
+    },
+    {
+      "id": "congreso-2023-07-fo",
+      "codigoOficial": "000001",
+      "siglas": "FO",
+      "nombre": "FRENTE OBRERO",
+      "votos": 46274,
+      "porcentaje": 0.188971,
+      "escanos": 0,
+      "territorios": [
+        "andalucia",
+        "aragon",
+        "asturias",
+        "canarias",
+        "cantabria",
+        "castilla-la-mancha",
+        "castilla-y-leon",
+        "catalunya",
+        "ceuta",
+        "comunitat-valenciana",
+        "euskadi",
+        "extremadura",
+        "galicia",
+        "illes-balears",
+        "la-rioja",
+        "madrid",
+        "murcia",
+        "navarra"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": []
+    },
+    {
+      "id": "congreso-2023-07-nc-bc",
+      "codigoOficial": "000032",
+      "siglas": "NC-bc",
+      "nombre": "NUEVA CANARIAS - BLOQUE CANARISTA",
+      "votos": 45595,
+      "porcentaje": 0.186198,
+      "escanos": 0,
+      "territorios": [
+        "canarias"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": []
+    },
+    {
+      "id": "congreso-2023-07-pdecat-e-ciu",
+      "codigoOficial": "000055",
+      "siglas": "PDeCAT-E-CiU",
+      "nombre": "PARTIT DEMÒCRATA EUROPEU CATALÀ-ESPAI CIU",
+      "votos": 32016,
+      "porcentaje": 0.130745,
+      "escanos": 0,
+      "territorios": [
+        "catalunya"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": []
+    },
+    {
+      "id": "congreso-2023-07-recortes-cero",
+      "codigoOficial": "000009",
+      "siglas": "RECORTES CERO",
+      "nombre": "RECORTES CERO",
+      "votos": 23421,
+      "porcentaje": 0.095645,
+      "escanos": 0,
+      "territorios": [
+        "andalucia",
+        "aragon",
+        "asturias",
+        "canarias",
+        "cantabria",
+        "castilla-la-mancha",
+        "castilla-y-leon",
+        "catalunya",
+        "ceuta",
+        "comunitat-valenciana",
+        "euskadi",
+        "extremadura",
+        "galicia",
+        "illes-balears",
+        "la-rioja",
+        "madrid",
+        "melilla",
+        "murcia",
+        "navarra"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": []
+    },
+    {
+      "id": "congreso-2023-07-pum-j",
+      "codigoOficial": "000003",
+      "siglas": "PUM+J",
+      "nombre": "POR UN MUNDO MÁS JUSTO",
+      "votos": 23290,
+      "porcentaje": 0.09511,
+      "escanos": 0,
+      "territorios": [
+        "andalucia",
+        "aragon",
+        "asturias",
+        "canarias",
+        "castilla-la-mancha",
+        "castilla-y-leon",
+        "ceuta",
+        "comunitat-valenciana",
+        "euskadi",
+        "extremadura",
+        "galicia",
+        "la-rioja",
+        "madrid",
+        "melilla",
+        "navarra"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": []
+    },
+    {
+      "id": "congreso-2023-07-u-p-l",
+      "codigoOficial": "000039",
+      "siglas": "U.P.L.",
+      "nombre": "UNIÓN DEL PUEBLO LEONÉS",
+      "votos": 23201,
+      "porcentaje": 0.094747,
+      "escanos": 0,
+      "territorios": [
+        "castilla-y-leon"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [
+        {
+          "perfilId": "upl",
+          "relacion": "misma-organizacion"
+        }
+      ]
+    },
+    {
+      "id": "congreso-2023-07-existe",
+      "codigoOficial": "000023",
+      "siglas": "EXISTE",
+      "nombre": "ARAGÓN EXISTE - COALICIÓN EXISTE",
+      "votos": 20440,
+      "porcentaje": 0.083471,
+      "escanos": 0,
+      "territorios": [
+        "aragon"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": []
+    },
+    {
+      "id": "congreso-2023-07-pcte",
+      "codigoOficial": "000015",
+      "siglas": "PCTE",
+      "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
+      "votos": 18218,
+      "porcentaje": 0.074397,
+      "escanos": 0,
+      "territorios": [
+        "andalucia",
+        "aragon",
+        "asturias",
+        "cantabria",
+        "castilla-la-mancha",
+        "castilla-y-leon",
+        "catalunya",
+        "euskadi",
+        "galicia",
+        "illes-balears",
+        "la-rioja",
+        "madrid",
+        "navarra"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [
+        {
+          "perfilId": "pcte",
+          "relacion": "misma-organizacion"
+        }
+      ]
+    },
+    {
+      "id": "congreso-2023-07-gbai",
+      "codigoOficial": "000073",
+      "siglas": "GBAI",
+      "nombre": "GEROA BAI",
+      "votos": 9938,
+      "porcentaje": 0.040584,
+      "escanos": 0,
+      "territorios": [
+        "navarra"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": []
+    },
+    {
+      "id": "congreso-2023-07-sy",
+      "codigoOficial": "000043",
+      "siglas": "SY",
+      "nombre": "SORIA ¡YA!",
+      "votos": 9697,
+      "porcentaje": 0.0396,
+      "escanos": 0,
+      "territorios": [
+        "castilla-y-leon"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [
+        {
+          "perfilId": "soria-ya",
+          "relacion": "misma-organizacion"
+        }
+      ]
+    },
+    {
+      "id": "congreso-2023-07-adelante-andalucia",
+      "codigoOficial": "000012",
+      "siglas": "ADELANTE ANDALUCÍA",
+      "nombre": "ADELANTE ANDALUCÍA",
+      "votos": 9191,
+      "porcentaje": 0.037534,
+      "escanos": 0,
+      "territorios": [
+        "andalucia"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": []
+    },
+    {
+      "id": "congreso-2023-07-escanos-en-blanco",
+      "codigoOficial": "000014",
+      "siglas": "ESCAÑOS EN BLANCO",
+      "nombre": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACÍOS",
+      "votos": 8448,
+      "porcentaje": 0.034499,
+      "escanos": 0,
+      "territorios": [
+        "andalucia",
+        "aragon",
+        "castilla-la-mancha",
+        "castilla-y-leon",
+        "catalunya",
+        "euskadi",
+        "la-rioja",
+        "murcia"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": []
+    },
+    {
+      "id": "congreso-2023-07-jm",
+      "codigoOficial": "000018",
+      "siglas": "JM+",
+      "nombre": "JAÉN MERECE MÁS",
+      "votos": 8293,
+      "porcentaje": 0.033866,
+      "escanos": 0,
+      "territorios": [
+        "andalucia"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": []
+    },
+    {
+      "id": "congreso-2023-07-xav",
+      "codigoOficial": "000035",
+      "siglas": "XAV",
+      "nombre": "POR ÁVILA",
+      "votos": 7362,
+      "porcentaje": 0.030064,
+      "escanos": 0,
+      "territorios": [
+        "castilla-y-leon"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [
+        {
+          "perfilId": "por-avila",
+          "relacion": "misma-organizacion"
+        }
+      ]
+    },
+    {
+      "id": "congreso-2023-07-bqex",
+      "codigoOficial": "000062",
+      "siglas": "BQEX",
+      "nombre": "BLOQUE EXTREMEÑO",
+      "votos": 5807,
+      "porcentaje": 0.023714,
+      "escanos": 0,
+      "territorios": [
+        "extremadura"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": []
+    },
+    {
+      "id": "congreso-2023-07-cj",
+      "codigoOficial": "000013",
+      "siglas": "CJ",
+      "nombre": "CAMINANDO JUNTOS",
+      "votos": 5620,
+      "porcentaje": 0.022951,
+      "escanos": 0,
+      "territorios": [
+        "andalucia",
+        "castilla-y-leon",
+        "comunitat-valenciana",
+        "murcia"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": []
+    },
+    {
+      "id": "congreso-2023-07-fe-de-las-jons",
+      "codigoOficial": "000019",
+      "siglas": "FE de las JONS",
+      "nombre": "FALANGE ESPAÑOLA DE LAS J.O.N.S.",
+      "votos": 4683,
+      "porcentaje": 0.019124,
+      "escanos": 0,
+      "territorios": [
+        "andalucia",
+        "aragon",
+        "castilla-la-mancha",
+        "castilla-y-leon",
+        "comunitat-valenciana",
+        "madrid",
+        "murcia"
+      ],
+      "motivoInclusion": "historica-activa",
+      "perfilRelaciones": [
+        {
+          "perfilId": "fe-jons",
+          "relacion": "misma-organizacion"
+        }
+      ]
+    },
+    {
+      "id": "congreso-2023-07-ahora-canarias-pcpc",
+      "codigoOficial": "000034",
+      "siglas": "AHORA CANARIAS-PCPC",
+      "nombre": "AHORA CANARIAS-PARTIDO COMUNISTA DEL PUEBLO CANARIO",
+      "votos": 1674,
+      "porcentaje": 0.006836,
+      "escanos": 0,
+      "territorios": [
+        "canarias"
+      ],
+      "motivoInclusion": "comunista-activa",
+      "perfilRelaciones": [
+        {
+          "perfilId": "pcpc",
+          "relacion": "componente",
+          "nota": "El nombre oficial de la candidatura identifica al PCPC como componente; no se heredan posiciones de la coalición."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,218 @@
+{
+  "id": "pp",
+  "nombre": "Partido Popular",
+  "siglas": "PP",
+  "ambito": "estatal",
+  "tipo": "partido",
+  "confianza": "verificada",
+  "web": "https://www.pp.es/",
+  "revisado": "2026-07-09",
+  "actividad": "activa",
+  "dobleLectura": {
+    "etiquetaBase": "Posición nacional declarada",
+    "descripcionBase": "Programa, ponencia y declaraciones oficiales del Partido Popular en el ámbito estatal.",
+    "contraste": {
+      "etiqueta": "Votaciones y actuación reciente",
+      "descripcion": "Contraste separado con decisiones parlamentarias del grupo estatal; no se promedia con la posición declarada.",
+      "desde": "2026-04-20",
+      "hasta": "2026-07-09",
+      "advertencia": "Una enmienda contra el blindaje constitucional del aborto no equivale por sí sola a defender que solo sea legal en supuestos tasados. Las medidas autonómicas se documentan aparte y no se atribuyen automáticamente al PP nacional.",
+      "posiciones": {
+        "fem-006": {
+          "valor": -1,
+          "justificacion": "El Grupo Popular pidió devolver la reforma que pretendía garantizar constitucionalmente la interrupción voluntaria del embarazo. Es un contraste parcial frente a su aceptación nacional de la ley de plazos: rechaza el blindaje constitucional, pero la propia enmienda no propone volver a un sistema exclusivo de supuestos.",
+          "calidadEvidencia": "media",
+          "fuente": {
+            "tipo": "votacion",
+            "titulo": "Enmiendas a la totalidad al proyecto de reforma del artículo 43 de la Constitución",
+            "url": "https://www.congreso.es/ca/busqueda-de-publicaciones?_publicaciones_id_texto=BOCG-15-A-92-2.CODI.&_publicaciones_legislatura=XV&_publicaciones_mode=mostrarTextoIntegro&p_p_id=publicaciones&p_p_lifecycle=0&p_p_mode=view&p_p_state=normal",
+            "fecha": "2026-04-23",
+            "consultado": "2026-07-09"
+          }
+        }
+      }
+    }
+  },
+  "posiciones": {
+    "nuc-001": {
+      "valor": 2,
+      "justificacion": "Propone que los vocales judiciales del CGPJ sean elegidos por los jueces, en lugar de por reparto parlamentario.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Ponencia Política del 21.º Congreso Nacional del PP",
+        "url": "https://www.pp.es/storage/2025/06/21_Congreso_Ponencia_Politica.pdf",
+        "fecha": "2025-06",
+        "consultado": "2026-07-09"
+      }
+    },
+    "sd-002": {
+      "valor": 2,
+      "justificacion": "Considera indispensable cumplir los compromisos de capacidades y gasto asumidos en la OTAN.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Ponencia Política del 21.º Congreso Nacional del PP",
+        "url": "https://www.pp.es/storage/2025/06/21_Congreso_Ponencia_Politica.pdf",
+        "fecha": "2025-06",
+        "consultado": "2026-07-09"
+      }
+    },
+    "def-002": {
+      "valor": -2,
+      "justificacion": "Define la OTAN como una alianza indispensable para la seguridad de España y Europa.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Ponencia Política del 21.º Congreso Nacional del PP",
+        "url": "https://www.pp.es/storage/2025/06/21_Congreso_Ponencia_Politica.pdf",
+        "fecha": "2025-06",
+        "consultado": "2026-07-09"
+      }
+    },
+    "geo-004": {
+      "valor": 1,
+      "justificacion": "Apoya reforzar capacidades europeas de defensa, pero como pilar complementario de la OTAN y no como ruptura completa de la dependencia aliada.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Ponencia Política del 21.º Congreso Nacional del PP",
+        "url": "https://www.pp.es/storage/2025/06/21_Congreso_Ponencia_Politica.pdf",
+        "fecha": "2025-06",
+        "consultado": "2026-07-09"
+      }
+    },
+    "dem-005": {
+      "valor": -2,
+      "justificacion": "Su reforma judicial entrega la elección de vocales judiciales a los propios jueces, no al sufragio directo ciudadano.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Ponencia Política del 21.º Congreso Nacional del PP",
+        "url": "https://www.pp.es/storage/2025/06/21_Congreso_Ponencia_Politica.pdf",
+        "fecha": "2025-06",
+        "consultado": "2026-07-09"
+      }
+    },
+    "dem-008": {
+      "valor": 2,
+      "justificacion": "La ponencia defiende la separación de poderes, la independencia judicial y los contrapesos constitucionales.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Ponencia Política del 21.º Congreso Nacional del PP",
+        "url": "https://www.pp.es/storage/2025/06/21_Congreso_Ponencia_Politica.pdf",
+        "fecha": "2025-06",
+        "consultado": "2026-07-09"
+      }
+    },
+    "dem-011": {
+      "valor": -2,
+      "justificacion": "Se define como partido de democracia constitucional y representativa y propone reformas dentro del parlamentarismo.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Ponencia Política del 21.º Congreso Nacional del PP",
+        "url": "https://www.pp.es/storage/2025/06/21_Congreso_Ponencia_Politica.pdf",
+        "fecha": "2025-06",
+        "consultado": "2026-07-09"
+      }
+    },
+    "dem-012": {
+      "valor": 2,
+      "justificacion": "Sitúa los cambios políticos en la Constitución, el Estado de derecho y los procedimientos de la democracia representativa.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Ponencia Política del 21.º Congreso Nacional del PP",
+        "url": "https://www.pp.es/storage/2025/06/21_Congreso_Ponencia_Politica.pdf",
+        "fecha": "2025-06",
+        "consultado": "2026-07-09"
+      }
+    },
+    "dem-014": {
+      "valor": -1,
+      "justificacion": "La afiliación participa en la elección de compromisarios, pero el Congreso delegado adopta las decisiones y elige la presidencia; no toda estrategia se vota directamente por toda la militancia.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "estatutos",
+        "titulo": "Estatutos del 21.º Congreso Nacional del PP",
+        "url": "https://www.pp.es/storage/2025/06/250616-PONENCIA-ESTATUTOS.-21-Congreso-PP.pdf",
+        "fecha": "2025-06",
+        "consultado": "2026-07-09"
+      }
+    },
+    "dem-015": {
+      "valor": 2,
+      "justificacion": "Los estatutos exigen unidad de acción y permiten sancionar corrientes organizadas que quebranten la disciplina del partido.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "estatutos",
+        "titulo": "Estatutos del 21.º Congreso Nacional del PP",
+        "url": "https://www.pp.es/storage/2025/06/250616-PONENCIA-ESTATUTOS.-21-Congreso-PP.pdf",
+        "fecha": "2025-06",
+        "consultado": "2026-07-09"
+      }
+    },
+    "lab-006": {
+      "valor": -2,
+      "justificacion": "Su modelo de diálogo social reconoce pluralidad de sindicatos y organizaciones empresariales, no una organización sindical única integrada en el Estado.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Ponencia Política del 21.º Congreso Nacional del PP",
+        "url": "https://www.pp.es/storage/2025/06/21_Congreso_Ponencia_Politica.pdf",
+        "fecha": "2025-06",
+        "consultado": "2026-07-09"
+      }
+    },
+    "fem-006": {
+      "valor": -2,
+      "justificacion": "La dirección nacional acepta la regulación por plazos vigente y afirma que no coaccionará a quien interrumpa el embarazo conforme a la ley; por tanto, no propone limitarlo únicamente a violación, riesgo grave o anomalía fetal.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Feijóo: posición nacional sobre la regulación de la interrupción voluntaria del embarazo",
+        "url": "https://www.pp.es/actualidad/articulos/feijoo-urge-al-gobierno-dar-explicaciones-por-casi-300000-euros-gastados-por/",
+        "fecha": "2023-02-15",
+        "consultado": "2026-07-09"
+      }
+    },
+    "fem-012": {
+      "valor": -2,
+      "justificacion": "El PP nacional rechaza que las jóvenes de 16 y 17 años aborten sin consentimiento paterno, aunque acepte la ley de plazos para las adultas.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Feijóo: posición nacional sobre la regulación de la interrupción voluntaria del embarazo",
+        "url": "https://www.pp.es/actualidad/articulos/feijoo-urge-al-gobierno-dar-explicaciones-por-casi-300000-euros-gastados-por/",
+        "fecha": "2023-02-15",
+        "consultado": "2026-07-09"
+      }
+    },
+    "ene-001": {
+      "valor": 2,
+      "justificacion": "Defiende neutralidad tecnológica, continuidad del parque y autorización de nueva capacidad nuclear segura.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Ponencia Política del 21.º Congreso Nacional del PP",
+        "url": "https://www.pp.es/storage/2025/06/21_Congreso_Ponencia_Politica.pdf",
+        "fecha": "2025-06",
+        "consultado": "2026-07-09"
+      }
+    },
+    "ene-003": {
+      "valor": -2,
+      "justificacion": "Propone revisar el calendario de cierre y prolongar centrales que superen las evaluaciones de seguridad.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Ponencia Política del 21.º Congreso Nacional del PP",
+        "url": "https://www.pp.es/storage/2025/06/21_Congreso_Ponencia_Politica.pdf",
+        "fecha": "2025-06",
+        "consultado": "2026-07-09"
+      }
+    }
+  }
+}

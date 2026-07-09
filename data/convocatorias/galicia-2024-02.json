@@ -1,0 +1,223 @@
+{
+  "id": "galicia-2024-02",
+  "nombre": "Elecciones autonómicas de Galicia del 18 de febrero de 2024",
+  "tipo": "autonomicas",
+  "fecha": "2024-02-18",
+  "territorio": "galicia",
+  "camara": "Parlamento de Galicia",
+  "umbralPorcentaje": 0.02,
+  "denominador": {
+    "tipo": "votos-a-candidaturas",
+    "valor": 1488705
+  },
+  "totalCandidaturasOficiales": 11,
+  "fuente": {
+    "titulo": "Resultados definitivos de las elecciones autonómicas de Galicia",
+    "url": "https://www.xunta.gal/dog/Publicados/2024/20240306/AnuncioG2453-050324-1_es.html",
+    "consultado": "2026-07-10"
+  },
+  "fuentesAdicionales": [
+    {
+      "titulo": "Proclamación e identidad de candidaturas de Galicia",
+      "url": "https://eleccions2024.xunta.gal/Eleccions2024_31_c-Candidaturas_proclamadas.html",
+      "consultado": "2026-07-10"
+    },
+    {
+      "titulo": "Corrección oficial de resultados de Galicia",
+      "url": "https://www.xunta.gal/dog/Publicados/2024/20240308/AnuncioG2453-070324-1_es.html",
+      "consultado": "2026-07-10"
+    }
+  ],
+  "nota": "El porcentaje usa como denominador 1.488.705 votos a candidaturas en toda la comunidad. Una relación con un componente identifica la candidatura, pero no transfiere sus posiciones al perfil de la coalición. Naturaleza de la convocatoria en el inventario: anticipada.",
+  "candidaturas": [
+    {
+      "id": "gal-2024-pp",
+      "nombre": "PARTIDO POPULAR (PP)",
+      "votos": 711713,
+      "porcentaje": 47.807524,
+      "escanos": 40,
+      "territorios": [
+        "galicia"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [
+        {
+          "perfilId": "pp",
+          "relacion": "misma-organizacion"
+        }
+      ],
+      "nota": "Naturaleza inventariada: partido. Vigencia comprobada: representacion-2024. Tratamiento previsto: perfil-reutilizable."
+    },
+    {
+      "id": "gal-2024-bng",
+      "nombre": "BLOQUE NACIONALISTA GALEGO (BNG)",
+      "votos": 470692,
+      "porcentaje": 31.617547,
+      "escanos": 25,
+      "territorios": [
+        "galicia"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [
+        {
+          "perfilId": "bng",
+          "relacion": "misma-organizacion"
+        }
+      ],
+      "nota": "Naturaleza inventariada: frente. Vigencia comprobada: representacion-2024. Tratamiento previsto: perfil-reutilizable."
+    },
+    {
+      "id": "gal-2024-psdeg",
+      "nombre": "PARTIDO DOS SOCIALISTAS DE GALICIA-PSOE (PSdeG-PSOE)",
+      "votos": 211361,
+      "porcentaje": 14.197642,
+      "escanos": 9,
+      "territorios": [
+        "galicia"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [
+        {
+          "perfilId": "psoe",
+          "relacion": "organizacion-territorial",
+          "nota": "La candidatura corresponde a la organización territorial del perfil estatal; comparte identidad orgánica, no una matriz autonómica copiada."
+        }
+      ],
+      "nota": "Naturaleza inventariada: federacion-territorial. Vigencia comprobada: representacion-2024. Tratamiento previsto: perfil-reutilizable."
+    },
+    {
+      "id": "gal-2024-vox",
+      "nombre": "VOX (VOX)",
+      "votos": 34045,
+      "porcentaje": 2.286887,
+      "escanos": 0,
+      "territorios": [
+        "galicia"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [
+        {
+          "perfilId": "vox",
+          "relacion": "misma-organizacion"
+        }
+      ],
+      "nota": "Naturaleza inventariada: partido. Vigencia comprobada: posterior-verificada. Tratamiento previsto: perfil-reutilizable."
+    },
+    {
+      "id": "gal-2024-sumar",
+      "nombre": "SUMAR GALICIA (SUMAR GALICIA)",
+      "votos": 29009,
+      "porcentaje": 1.948606,
+      "escanos": 0,
+      "territorios": [
+        "galicia"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [
+        {
+          "perfilId": "movimiento-sumar",
+          "relacion": "componente",
+          "nota": "Movimiento Sumar figura como componente de esta candidatura fechada; sus posiciones no se atribuyen automáticamente a la coalición."
+        }
+      ],
+      "nota": "Naturaleza inventariada: coalicion-o-candidatura. Vigencia comprobada: matriz-verificada. Tratamiento previsto: perfil-especifico."
+    },
+    {
+      "id": "gal-2024-do",
+      "nombre": "DEMOCRACIA OURENSANA (DO)",
+      "votos": 15442,
+      "porcentaje": 1.037277,
+      "escanos": 1,
+      "territorios": [
+        "galicia"
+      ],
+      "circunscripciones": [
+        "Ourense"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [],
+      "nota": "Naturaleza inventariada: partido-provincial. Vigencia comprobada: representacion-2024. Tratamiento previsto: perfil-especifico."
+    },
+    {
+      "id": "gal-2024-pacma",
+      "nombre": "PARTIDO ANIMALISTA CONTRA O MALTRATO ANIMAL (PACMA)",
+      "votos": 5932,
+      "porcentaje": 0.398467,
+      "escanos": 0,
+      "territorios": [
+        "galicia"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [
+        {
+          "perfilId": "pacma",
+          "relacion": "misma-organizacion"
+        }
+      ],
+      "nota": "Naturaleza inventariada: partido. Vigencia comprobada: posterior-verificada. Tratamiento previsto: perfil-reutilizable."
+    },
+    {
+      "id": "gal-2024-podemos-av",
+      "nombre": "PODEMOS GALICIA (Podemos-Alianza Verde)",
+      "votos": 4420,
+      "porcentaje": 0.296902,
+      "escanos": 0,
+      "territorios": [
+        "galicia"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [
+        {
+          "perfilId": "podemos",
+          "relacion": "componente",
+          "nota": "Podemos figura como componente de esta candidatura fechada; sus posiciones no se atribuyen automáticamente a la coalición."
+        },
+        {
+          "perfilId": "alianza-verde",
+          "relacion": "componente",
+          "nota": "Alianza Verde figura como componente de esta candidatura fechada; sus posiciones no se atribuyen automáticamente a la coalición."
+        }
+      ],
+      "nota": "Naturaleza inventariada: coalicion-electoral. Vigencia comprobada: matrices-verificadas. Tratamiento previsto: perfil-especifico."
+    },
+    {
+      "id": "gal-2024-escanos-branco",
+      "nombre": "ESCANOS EN BRANCO (ESCAÑOS EN BLANCO)",
+      "votos": 2884,
+      "porcentaje": 0.193725,
+      "escanos": 0,
+      "territorios": [
+        "galicia"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [],
+      "nota": "Naturaleza inventariada: partido. Vigencia comprobada: posterior-no-verificada. Tratamiento previsto: inventario-sin-datos."
+    },
+    {
+      "id": "gal-2024-ecg",
+      "nombre": "ESPAZO COMÚN GALEGUISTA (ECG)",
+      "votos": 1635,
+      "porcentaje": 0.109827,
+      "escanos": 0,
+      "territorios": [
+        "galicia"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [],
+      "nota": "Naturaleza inventariada: coalicion-electoral. Vigencia comprobada: continuidad-conjunta-no-verificada. Tratamiento previsto: inventario-sin-datos."
+    },
+    {
+      "id": "gal-2024-pumj",
+      "nombre": "POR UN MUNDO MÁIS XUSTO (PUM+J)",
+      "votos": 1572,
+      "porcentaje": 0.105595,
+      "escanos": 0,
+      "territorios": [
+        "galicia"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [],
+      "nota": "Naturaleza inventariada: partido. Vigencia comprobada: posterior-verificada. Tratamiento previsto: perfil-especifico."
+    }
+  ]
+}

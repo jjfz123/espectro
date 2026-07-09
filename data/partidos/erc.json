@@ -1,0 +1,122 @@
+{
+  "id": "erc",
+  "nombre": "Esquerra Republicana de Catalunya",
+  "siglas": "ERC",
+  "ambito": "autonomico",
+  "tipo": "partido",
+  "ccaa": ["catalunya"],
+  "confianza": "verificada",
+  "web": "https://www.esquerra.cat/",
+  "revisado": "2026-07-09",
+  "actividad": "activa",
+  "posiciones": {
+    "nac-001": {
+      "valor": 1,
+      "justificacion": "Mantiene abierta una vía propia hacia la independencia ante un bloqueo permanente, pero su estrategia vigente la condiciona a ampliar mayoría social, acumular fuerza y escoger la oportunidad.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Ponència estratègica aprovada del XXX Congrés Nacional d'ERC",
+        "url": "https://static.esquerra.cat/uploads/20250324/30cgn-ponencia-estrategica-aprovada.pdf",
+        "fecha": "2025-03-15",
+        "consultado": "2026-07-09"
+      }
+    },
+    "nac-002": {
+      "valor": 2,
+      "justificacion": "Define como objetivo una república catalana independiente.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Ponència política aprovada del XXX Congrés Nacional d'ERC",
+        "url": "https://static.esquerra.cat/uploads/20250324/30cgn-ponencia-politica-aprovada.pdf",
+        "fecha": "2025-03-15",
+        "consultado": "2026-07-09"
+      }
+    },
+    "nac-003": {
+      "valor": -2,
+      "justificacion": "Formula la nación y la ciudadanía en términos cívicos e inclusivos y rechaza que el origen o la lengua materna excluyan de la comunidad nacional.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Ponència política aprovada del XXX Congrés Nacional d'ERC",
+        "url": "https://static.esquerra.cat/uploads/20250324/30cgn-ponencia-politica-aprovada.pdf",
+        "fecha": "2025-03-15",
+        "consultado": "2026-07-09"
+      }
+    },
+    "cat-001": {
+      "valor": 2,
+      "justificacion": "Defiende la inmersión y el catalán como lengua vertebradora, sin un porcentaje estatal mínimo obligatorio de castellano.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Ponència política aprovada del XXX Congrés Nacional d'ERC",
+        "url": "https://static.esquerra.cat/uploads/20250324/30cgn-ponencia-politica-aprovada.pdf",
+        "fecha": "2025-03-15",
+        "consultado": "2026-07-09"
+      }
+    },
+    "cat-002": {
+      "valor": 2,
+      "justificacion": "Reclama capacidad catalana para recaudar y gestionar todos los tributos mediante una hacienda propia.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Ponència política aprovada del XXX Congrés Nacional d'ERC",
+        "url": "https://static.esquerra.cat/uploads/20250324/30cgn-ponencia-politica-aprovada.pdf",
+        "fecha": "2025-03-15",
+        "consultado": "2026-07-09"
+      }
+    },
+    "cat-004": {
+      "valor": -2,
+      "justificacion": "Rechaza la xenofobia y plantea una política inclusiva hacia la población musulmana y migrante; no la considera en sí una amenaza nacional.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Ponència política aprovada del XXX Congrés Nacional d'ERC",
+        "url": "https://static.esquerra.cat/uploads/20250324/30cgn-ponencia-politica-aprovada.pdf",
+        "fecha": "2025-03-15",
+        "consultado": "2026-07-09"
+      }
+    },
+    "cat-005": {
+      "valor": 1,
+      "justificacion": "Reconoce el marco nacional de los Països Catalans, respetando los ritmos y decisiones propias de cada territorio.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Ponència política aprovada del XXX Congrés Nacional d'ERC",
+        "url": "https://static.esquerra.cat/uploads/20250324/30cgn-ponencia-politica-aprovada.pdf",
+        "fecha": "2025-03-15",
+        "consultado": "2026-07-09"
+      }
+    },
+    "cat-006": {
+      "valor": 1,
+      "justificacion": "Defiende más capacidad catalana sobre acogida, permisos e integración, pero la evidencia no permite atribuirle sin matiz el polo completo de permisos y expulsiones del ítem.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Ponència política aprovada del XXX Congrés Nacional d'ERC",
+        "url": "https://static.esquerra.cat/uploads/20250324/30cgn-ponencia-politica-aprovada.pdf",
+        "fecha": "2025-03-15",
+        "consultado": "2026-07-09"
+      }
+    },
+    "dem-014": {
+      "valor": 1,
+      "justificacion": "Sus estatutos prevén congreso, consultas y participación vinculante de la militancia, aunque no toda decisión estratégica se somete automáticamente al voto de todas las personas afiliadas.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "estatutos",
+        "titulo": "Estatuts d'Esquerra Republicana de Catalunya",
+        "url": "https://static.esquerra.cat/arxius/textosbasics/estatuts_2025.pdf",
+        "fecha": "2025",
+        "consultado": "2026-07-09"
+      }
+    }
+  }
+}

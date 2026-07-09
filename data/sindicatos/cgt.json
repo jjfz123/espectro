@@ -1,0 +1,48 @@
+{
+  "id": "cgt",
+  "nombre": "Confederación General del Trabajo",
+  "siglas": "CGT",
+  "ambito": "estatal",
+  "confianza": "verificada",
+  "web": "https://cgt.es/",
+  "revisado": "2026-07-09",
+  "advertencia": "La similitud doctrinal no acredita implantación en tu empresa ni constituye una recomendación de afiliación.",
+  "posiciones": {
+    "lab-004": {
+      "valor": 1,
+      "justificacion": "Una publicación oficial de 2026 reivindica cuotas y rechaza subvenciones; acuerdos anteriores admitían ayudas objetivas, por lo que la evidencia de ejecución es mixta.",
+      "calidadEvidencia": "media",
+      "fuente": { "tipo": "declaracion", "titulo": "Rojo y Negro, junio de 2026", "url": "https://cgt.es/wp-content/uploads/2026/06/ryn-412-junio.pdf", "fecha": "2026-06", "consultado": "2026-07-09" }
+    },
+    "lab-005": {
+      "valor": 2,
+      "justificacion": "Se define autónoma y al margen de gobiernos, partidos y empresas.",
+      "calidadEvidencia": "alta",
+      "fuente": { "tipo": "estatutos", "titulo": "Acuerdos del XIX Congreso Confederal", "url": "https://cgt.es/wp-content/uploads/2023/05/2022-XIX-Congreso-Confederal-Zaragoza.pdf", "fecha": "2022", "consultado": "2026-07-09" }
+    },
+    "lab-008": {
+      "valor": 2,
+      "justificacion": "Su programa propone autogestión de producción, distribución y consumo por las personas trabajadoras.",
+      "calidadEvidencia": "alta",
+      "fuente": { "tipo": "programa", "titulo": "Acuerdos del XIX Congreso Confederal", "url": "https://cgt.es/wp-content/uploads/2023/05/2022-XIX-Congreso-Confederal-Zaragoza.pdf", "fecha": "2022", "consultado": "2026-07-09" }
+    },
+    "lab-020": {
+      "valor": 2,
+      "justificacion": "Participa expresamente en elecciones de comités y combina representación unitaria, negociación y acción directa.",
+      "calidadEvidencia": "alta",
+      "fuente": { "tipo": "programa", "titulo": "Acuerdos del XIX Congreso Confederal", "url": "https://cgt.es/wp-content/uploads/2023/05/2022-XIX-Congreso-Confederal-Zaragoza.pdf", "fecha": "2022", "consultado": "2026-07-09" }
+    },
+    "lab-021": {
+      "valor": 1,
+      "justificacion": "La asamblea y el sindicato de base ocupan el centro de la decisión; la documentación revisada no fija ratificación universal de todo convenio.",
+      "calidadEvidencia": "media",
+      "fuente": { "tipo": "estatutos", "titulo": "Acuerdos del XIX Congreso Confederal", "url": "https://cgt.es/wp-content/uploads/2023/05/2022-XIX-Congreso-Confederal-Zaragoza.pdf", "fecha": "2022", "consultado": "2026-07-09" }
+    },
+    "lab-023": {
+      "valor": -2,
+      "justificacion": "Se define anarcosindicalista, autogestionaria, ecologista e internacionalista, con proyecto de transformación social general.",
+      "calidadEvidencia": "alta",
+      "fuente": { "tipo": "programa", "titulo": "Acuerdos del XIX Congreso Confederal", "url": "https://cgt.es/wp-content/uploads/2023/05/2022-XIX-Congreso-Confederal-Zaragoza.pdf", "fecha": "2022", "consultado": "2026-07-09" }
+    }
+  }
+}

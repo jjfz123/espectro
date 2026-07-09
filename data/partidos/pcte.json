@@ -1,0 +1,228 @@
+{
+  "id": "pcte",
+  "nombre": "Partido Comunista de los Trabajadores de España",
+  "siglas": "PCTE",
+  "ambito": "estatal",
+  "tipo": "partido",
+  "confianza": "verificada",
+  "web": "https://www.pcte.es/",
+  "revisado": "2026-07-09",
+  "actividad": "activa",
+  "excepcionCatalogo": {
+    "motivo": "comunista-activa",
+    "justificacion": "Se incorpora por la excepción de cobertura de organizaciones comunistas activas. La celebración de su III Congreso acredita continuidad organizativa, no presencia automática en cada papeleta.",
+    "fuente": {
+      "tipo": "declaracion",
+      "titulo": "El PCTE celebra su III Congreso bajo el lema «Un partido para luchar en todas las condiciones»",
+      "url": "https://www.pcte.es/notas-de-prensa/el-pcte-celebra-su-iii-congreso-bajo-el-lema-un-partido-para-luchar-en-todas-las-condiciones/",
+      "fecha": "2025-10-30",
+      "consultado": "2026-07-09"
+    }
+  },
+  "posiciones": {
+    "izq-001": {
+      "valor": 2,
+      "justificacion": "El III Congreso fija como tarea histórica del partido la organización de la revolución socialista y rechaza que una mejor gestión del capitalismo sea una alternativa suficiente.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "El PCTE celebra su III Congreso: un partido para luchar en todas las condiciones",
+        "url": "https://www.pcte.es/notas-de-prensa/el-pcte-celebra-su-iii-congreso-bajo-el-lema-un-partido-para-luchar-en-todas-las-condiciones/",
+        "fecha": "2025-10-30",
+        "consultado": "2026-07-09"
+      }
+    },
+    "izq-002": {
+      "valor": 2,
+      "justificacion": "Define como imprescindible un partido marxista-leninista independiente, altamente organizado y con presencia dirigente en los frentes de masas.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "El PCTE celebra su III Congreso: un partido para luchar en todas las condiciones",
+        "url": "https://www.pcte.es/notas-de-prensa/el-pcte-celebra-su-iii-congreso-bajo-el-lema-un-partido-para-luchar-en-todas-las-condiciones/",
+        "fecha": "2025-10-30",
+        "consultado": "2026-07-09"
+      }
+    },
+    "izq-005": {
+      "valor": 2,
+      "justificacion": "Su programa de lucha propone poder obrero, economía planificada y socialización de los medios de producción concentrados.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa de lucha 2023-2027",
+        "url": "https://www.pcte.es/wp-content/uploads/2023/07/PROGRAMA%20DE%20LUCHA%202023-2027.pdf",
+        "fecha": "2023-07",
+        "consultado": "2026-07-09"
+      }
+    },
+    "izq-011": {
+      "valor": 2,
+      "justificacion": "Exige la salida unilateral de la Unión Europea y del euro, vinculada a un proceso de implantación del poder obrero.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa de lucha 2023-2027",
+        "url": "https://www.pcte.es/wp-content/uploads/2023/07/PROGRAMA%20DE%20LUCHA%202023-2027.pdf",
+        "fecha": "2023-07",
+        "consultado": "2026-07-09"
+      }
+    },
+    "def-002": {
+      "valor": 2,
+      "justificacion": "Defiende la salida unilateral de la OTAN, el cierre de bases extranjeras y la desvinculación de las alianzas que considera imperialistas.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Ante el 40 aniversario del referéndum sobre la permanencia de España en la OTAN",
+        "url": "https://www.pcte.es/notas-de-prensa/ante-el-40-aniversario-del-referendum-sobre-la-permanencia-de-espana-en-la-otan/",
+        "fecha": "2026-03-12",
+        "consultado": "2026-07-09"
+      }
+    },
+    "sd-002": {
+      "valor": -2,
+      "justificacion": "Rechaza la militarización de la economía y los aumentos de gasto comprometidos por los gobiernos en la OTAN.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Ante el 40 aniversario del referéndum sobre la permanencia de España en la OTAN",
+        "url": "https://www.pcte.es/notas-de-prensa/ante-el-40-aniversario-del-referendum-sobre-la-permanencia-de-espana-en-la-otan/",
+        "fecha": "2026-03-12",
+        "consultado": "2026-07-09"
+      }
+    },
+    "izq-019": {
+      "valor": 2,
+      "justificacion": "Presenta su candidatura para difundir un programa de oposición y sostiene que no puede realizarse una política obrera desde el Gobierno aceptando el marco institucional capitalista.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa de lucha 2023-2027",
+        "url": "https://www.pcte.es/wp-content/uploads/2023/07/PROGRAMA%20DE%20LUCHA%202023-2027.pdf",
+        "fecha": "2023-07",
+        "consultado": "2026-07-09"
+      }
+    },
+    "izq-031": {
+      "valor": -2,
+      "justificacion": "El propio programa explica que concurre a las elecciones generales para dar a conocer sus objetivos, por lo que no sostiene un boicot electoral permanente.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa de lucha 2023-2027",
+        "url": "https://www.pcte.es/wp-content/uploads/2023/07/PROGRAMA%20DE%20LUCHA%202023-2027.pdf",
+        "fecha": "2023-07",
+        "consultado": "2026-07-09"
+      }
+    },
+    "lab-005": {
+      "valor": 2,
+      "justificacion": "Reclama una organización política y sindical de clase independiente de los gobiernos y de las distintas variantes de gestión capitalista.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Declaración del Comité Central del PCTE ante el Primero de Mayo de 2026",
+        "url": "https://www.pcte.es/comunicados-centrales/declaracion-del-comite-central-del-pcte-ante-el-primero-de-mayo-de-2026/",
+        "fecha": "2026-04-28",
+        "consultado": "2026-07-09"
+      }
+    },
+    "lab-008": {
+      "valor": 2,
+      "justificacion": "Aspira al control obrero de la industria y de los sectores estratégicos, con participación efectiva de los trabajadores en la dirección económica.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa de lucha 2023-2027",
+        "url": "https://www.pcte.es/wp-content/uploads/2023/07/PROGRAMA%20DE%20LUCHA%202023-2027.pdf",
+        "fecha": "2023-07",
+        "consultado": "2026-07-09"
+      }
+    },
+    "lab-016": {
+      "valor": 2,
+      "justificacion": "Propone colocar las empresas energéticas bajo propiedad estatal y control obrero para cubrir necesidades populares.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa de lucha 2023-2027",
+        "url": "https://www.pcte.es/wp-content/uploads/2023/07/PROGRAMA%20DE%20LUCHA%202023-2027.pdf",
+        "fecha": "2023-07",
+        "consultado": "2026-07-09"
+      }
+    },
+    "dem-002": {
+      "valor": 2,
+      "justificacion": "Exige regular expresamente la revocación de todos los cargos públicos en todos los niveles y mecanismos de rendición de cuentas.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa de lucha 2023-2027",
+        "url": "https://www.pcte.es/wp-content/uploads/2023/07/PROGRAMA%20DE%20LUCHA%202023-2027.pdf",
+        "fecha": "2023-07",
+        "consultado": "2026-07-09"
+      }
+    },
+    "eco-011": {
+      "valor": 2,
+      "justificacion": "Propone reducir progresivamente la jornada sin merma salarial, con un máximo inicial de 35 horas semanales.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa de lucha 2023-2027",
+        "url": "https://www.pcte.es/wp-content/uploads/2023/07/PROGRAMA%20DE%20LUCHA%202023-2027.pdf",
+        "fecha": "2023-07",
+        "consultado": "2026-07-09"
+      }
+    },
+    "eco-012": {
+      "valor": 2,
+      "justificacion": "Defiende expulsar a las empresas privadas de la educación y un sistema único, público y gratuito, una posición más amplia que la eliminación gradual de conciertos.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa de lucha 2023-2027",
+        "url": "https://www.pcte.es/wp-content/uploads/2023/07/PROGRAMA%20DE%20LUCHA%202023-2027.pdf",
+        "fecha": "2023-07",
+        "consultado": "2026-07-09"
+      }
+    },
+    "fem-009": {
+      "valor": 2,
+      "justificacion": "Propone romper el Concordato con el Vaticano y terminar con los privilegios institucionales de la Iglesia católica.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa de lucha 2023-2027",
+        "url": "https://www.pcte.es/wp-content/uploads/2023/07/PROGRAMA%20DE%20LUCHA%202023-2027.pdf",
+        "fecha": "2023-07",
+        "consultado": "2026-07-09"
+      }
+    },
+    "geo-003": {
+      "valor": 2,
+      "justificacion": "Propone paralizar toda participación de tropas españolas en misiones que califica de imperialistas y retirar los despliegues exteriores ligados a OTAN y UE.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa de lucha 2023-2027",
+        "url": "https://www.pcte.es/wp-content/uploads/2023/07/PROGRAMA%20DE%20LUCHA%202023-2027.pdf",
+        "fecha": "2023-07",
+        "consultado": "2026-07-09"
+      }
+    },
+    "izq-024": {
+      "valor": 1,
+      "justificacion": "Llama a reforzar posiciones clasistas dentro de las organizaciones sindicales existentes, aunque no limita esa táctica exclusivamente a CCOO y UGT.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa de lucha 2023-2027",
+        "url": "https://www.pcte.es/wp-content/uploads/2023/07/PROGRAMA%20DE%20LUCHA%202023-2027.pdf",
+        "fecha": "2023-07",
+        "consultado": "2026-07-09"
+      }
+    }
+  }
+}

@@ -13,7 +13,8 @@
     "tags": [
       "libertarianismo"
     ],
-    "estado": "piloto"
+    "estado": "piloto",
+    "notas": "Ancla el Estado mínimo y separa libertarismo/minarquismo de conservadurismo intervencionista y democracia cristiana; no basta para identificar anarcocapitalismo, que exige preguntas sobre abolición y provisión privada de justicia y seguridad."
   },
   {
     "id": "der-002",
@@ -29,7 +30,8 @@
     "tags": [
       "confesional"
     ],
-    "estado": "piloto"
+    "estado": "piloto",
+    "notas": "Separa confesionalismo y tradicionalismo cristiano de derechas aconfesionales o laicas; debe interpretarse junto a libertad religiosa para no confundir moral pública con teocracia."
   },
   {
     "id": "der-003",
@@ -46,7 +48,8 @@
       "derecha-liberal",
       "lgtb"
     ],
-    "estado": "piloto"
+    "estado": "piloto",
+    "notas": "Separa una derecha liberal en costumbres de conservadurismo moral; el acuerdo no determina por sí solo una posición económica."
   },
   {
     "id": "der-004",
@@ -80,7 +83,8 @@
     "tags": [
       "unidad"
     ],
-    "estado": "piloto"
+    "estado": "piloto",
+    "notas": "Ancla recentralización y prioridad de la unidad estatal frente a autonomismo, foralismo o soberanismo; no presupone una política económica concreta."
   },
   {
     "id": "der-006",
@@ -96,7 +100,8 @@
     "tags": [
       "tradiciones"
     ],
-    "estado": "piloto"
+    "estado": "piloto",
+    "notas": "Distingue protección legal de tradiciones frente a animalismo; puede unir corrientes económicas distintas y por eso solo carga moderadamente tradición moral."
   },
   {
     "id": "der-007",
@@ -112,7 +117,8 @@
     "tags": [
       "aborto"
     ],
-    "estado": "piloto"
+    "estado": "piloto",
+    "notas": "Ancla la posición provida más restrictiva y separa tradicionalismo/democracia cristiana de conservadurismo pragmático y liberalismo en costumbres."
   },
   {
     "id": "der-008",
@@ -168,7 +174,7 @@
       "religion",
       "laicismo"
     ],
-    "estado": "piloto",
+    "estado": "retirado",
     "notas": "Discrimina: Democristianos y tradicionalistas (+2, marco de los Acuerdos con la Santa Sede) frente a tecnócratas (0) y liberales tipo Cs (−1, religión fuera del horario lectivo). Separa el confesionalismo educativo del conservadurismo laico. | Esperado: democracia cristiana +2, tradicionalismo/carlismo +2, Vox +2, PP +1, ala tecnócrata +0, Ciudadanos -1, PSOE -2. | [Corregido en revisión: Doble barril leve: 'ofertarse' + 'con financiación estatal' son dos compromisos distintos (alguien puede aceptar la oferta pero no el pago estatal del profesorado). Como lo que discrimina es la presencia confesional en la escuela pública, dejo una sola idea y elimino la coletilla de financiación. Especifico 'católica' porque es lo que regulan los Acuerdos con la Santa Sede y lo que de verdad divide. Ejes y posiciones esperadas se mantienen.]"
   },
   {
@@ -187,7 +193,7 @@
       "sucesiones",
       "liberalismo-economico"
     ],
-    "estado": "piloto",
+    "estado": "retirado",
     "notas": "Discrimina: Liberalismo económico duro (supresión total: PP, Vox, neocons) frente a la economía social de mercado democristiana (mantenerlo para grandes patrimonios, 0) y al PNV, que lo conserva reducido en el marco foral (−1). | Esperado: conservadurismo liberal (PP) +2, Vox +2, neoconservadurismo +2, ala tecnócrata +1, Ciudadanos +1, democracia cristiana +0, PNV -1, PSOE -2."
   },
   {

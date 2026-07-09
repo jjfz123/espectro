@@ -147,7 +147,7 @@
       "monarquia",
       "forma-de-estado"
     ],
-    "estado": "piloto",
+    "estado": "retirado",
     "notas": "Discrimina: Distinción clave dentro de la familia: monárquicos (VOX +2, nacional-católicos +2) frente a republicanos de ultraderecha (Falange −2, España 2000 −2), un corte que el eje izquierda-derecha no captura. Aliança Catalana −2 por razones independentistas. | Esperado: VOX +2, nacional-catolicismo +2, PP +2, SALF +0, Democracia Nacional -1, España 2000 -2, Falange (FE-JONS / La Falange) -2, Aliança Catalana -2."
   },
   {
@@ -166,7 +166,7 @@
       "defensa",
       "soberania"
     ],
-    "estado": "piloto",
+    "estado": "retirado",
     "notas": "Discrimina: Separa la salida de la OTAN (Falange +2, DN +1) del atlantismo condicionado de VOX (−1: permanecer exigiendo contrapartidas) y de SALF (−1). Coincide con la izquierda antimilitarista (PCE/IU +2), lo que sitúa a la Falange en su cuadrante propio. | Esperado: Falange (FE-JONS / La Falange) +2, Democracia Nacional +1, España 2000 +1, VOX -1, SALF -1, nacional-catolicismo -1, PCE/IU +2."
   },
   {
@@ -242,7 +242,7 @@
       "falangismo",
       "regimen"
     ],
-    "estado": "piloto",
+    "estado": "retirado",
     "notas": "Discrimina: Democracia orgánica: separa a la Falange (+2, rechazo del parlamentarismo liberal de partidos) del resto de la familia, que compite dentro del sistema de partidos (VOX −1, SALF −1 pese a su antipolítica, que es plebiscitaria y no corporativa). | Esperado: Falange (FE-JONS / La Falange) +2, nacional-catolicismo +1, VOX -1, Democracia Nacional +0, SALF -1, PP -2. | La tríada municipio-familia-sindicato/profesión identifica el modelo sin usar vocabulario peyorativo ni nostálgico.",
     "terminos": [
       "democracia-organica"
@@ -378,10 +378,14 @@
   {
     "id": "dr-021",
     "texto": "Las comunidades autónomas deberían suprimirse y sustituirse por un Estado unitario con una sola administración.",
-    "modulo": "derecha-radical",
+    "modulo": "democracia-instituciones",
     "ejes": [
       {
         "eje": "territorial",
+        "carga": 1
+      },
+      {
+        "eje": "modelo-territorial",
         "carga": 1
       }
     ],
@@ -391,7 +395,7 @@
       "recentralizacion"
     ],
     "estado": "piloto",
-    "notas": "Discrimina: la recentralización radical (VOX, Falange, DN: supresión del Estado autonómico) frente al PP (reordenar competencias sin suprimir) y el resto del arco. Va más allá del ítem del núcleo de devolución de competencias. | Esperado: VOX +2, FE-JONS +2, DN +2, SALF +1, PP -1, PSOE -2, nacionalistas periféricos -2. | [Añadido a partir de un hueco señalado por el revisor]"
+    "notas": "Polo unitario del subtipo territorial, formulado como pérdida del poder legislativo autonómico y no como mera devolución de algunas competencias. Se administra en el bloque institucional general para que el modelo unitario no se mida solo a quienes desbloquean derecha radical. | Esperado: VOX +2, FE-JONS +2, DN +2, SALF +1, PP -1, PSOE -2, nacionalistas periféricos -2."
   },
   {
     "id": "dr-022",

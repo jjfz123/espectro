@@ -24,7 +24,7 @@ export function Portada({ estado, despachar, alAbrirMetodologia }: Props) {
   const [modo, setModo] = useState<Modo>(estado.modo);
 
   const respondidas = Object.keys(estado.respuestas).length;
-  const totalSecuencia = secuenciaItems(estado.modulosActivos).length;
+  const totalSecuencia = secuenciaItems(estado.modulosActivos, estado.respuestas).length;
   const hayProgreso = respondidas > 0;
 
   const empezar = () => {
@@ -63,7 +63,7 @@ export function Portada({ estado, despachar, alAbrirMetodologia }: Props) {
           </div>
           <div className="cifra">
             <strong>{PARTIDOS.length}</strong>
-            <span>partidos (demo)</span>
+            <span>perfiles reales en revisión</span>
           </div>
         </div>
       </section>
@@ -127,8 +127,8 @@ export function Portada({ estado, despachar, alAbrirMetodologia }: Props) {
               />
               <span className="modo-nombre">Rápido</span>
               <span className="modo-detalle">
-                Solo el núcleo: {ITEMS_NUCLEO.length} ítems. Ranking de afinidad por partido
-                y mapa de ejes principales.
+                Solo el núcleo: {ITEMS_NUCLEO.length} preguntas generales. Al terminar puedes
+                ver un perfil provisional o continuar al exhaustivo sin repetir respuestas.
               </span>
             </label>
             <label className="modo" data-activo={modo === 'completo'}>
@@ -139,10 +139,11 @@ export function Portada({ estado, despachar, alAbrirMetodologia }: Props) {
                 checked={modo === 'completo'}
                 onChange={() => setModo('completo')}
               />
-              <span className="modo-nombre">Mapa completo</span>
+              <span className="modo-nombre">Exhaustivo</span>
               <span className="modo-detalle">
-                El núcleo más los módulos que se desbloquean según tus posiciones, entre 90 y
-                130 ítems. La taxonomía fina: corrientes, sub-ejes y tu comunidad.
+                El núcleo más una profundización adaptada: instituciones, corrientes,
+                sub-ejes, territorio e internacional. La duración exacta se muestra antes de
+                continuar y las categorías permanecen ocultas mientras respondes.
               </span>
             </label>
           </div>
@@ -188,8 +189,8 @@ export function Portada({ estado, despachar, alAbrirMetodologia }: Props) {
           </button>
           <span className="nota-al-margen">
             {modo === 'rapido'
-              ? `${ITEMS_NUCLEO.length} ítems, aproximadamente uno por minuto.`
-              : `${ITEMS_NUCLEO.length} ítems de núcleo; los módulos se eligen después.`}
+              ? `${ITEMS_NUCLEO.length} preguntas; afinidad, cobertura e incertidumbre se revelan solo al terminar.`
+              : `${ITEMS_NUCLEO.length} ítems de núcleo; la profundización se prepara después.`}
           </span>
         </div>
       </section>

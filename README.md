@@ -17,10 +17,11 @@ Los tests españoles actuales (afinidadpolitica.es y similares) cubren ~10 parti
 ```
 espectro/
 ├── data/                    Capa de datos (JSON validado por esquema)
-│   ├── ejes.json            6 ejes principales + 8 sub-ejes de módulo/transversales
-│   ├── modulos.json         14 módulos y sus reglas de desbloqueo (umbral, banda, CCAA)
-│   ├── items/               Banco de ítems por módulo (257 ítems; objetivo: 250-400)
+│   ├── ejes.json            6 ejes principales + facetas transversales y de profundización
+│   ├── modulos.json         19 módulos y sus reglas de desbloqueo (umbral, banda, CCAA, manual)
+│   ├── items/               Banco versionado (342 registros; 328 vigentes y 14 retirados)
 │   ├── partidos/            Un fichero por partido, con cita por posición
+│   ├── sindicatos/          Perfiles separados del ranking electoral
 │   └── schemas/             JSON Schema de cada entidad
 ├── src/engine/              Motor puro TypeScript, sin dependencias ni E/S
 │   ├── matching.ts          Afinidad: Manhattan normalizada + pesos + cobertura
@@ -35,7 +36,7 @@ El motor no sabe nada de HTTP ni de DOM: se importa igual desde un frontend web 
 
 ## Cómo funciona
 
-**Dos modos de uso.** *Rápido*: solo el núcleo (~35-40 ítems finales), matching electoral estilo Wahl-O-Mat. *Mapa completo*: el núcleo desbloquea módulos de profundización según dónde caigas (izquierda económica fuerte → «corrientes de la izquierda»; derecha fuerte → «corrientes de la derecha»; tu comunidad → módulo territorial), hasta ~90-130 ítems para quien quiera la taxonomía fina.
+**Dos modos de uso.** *Rápido*: 50 preguntas generales y perfil provisional. Desde ahí se puede continuar al *exhaustivo*, que conserva todas las respuestas compatibles y añade módulos universales, ideológicos y territoriales. Las subpreguntas aparecen solo cuando una respuesta necesita aclarar el motivo; las categorías, cargas y aproximaciones permanecen ocultas hasta terminar.
 
 **Escala de respuesta.** Likert de 5 puntos (−2..+2) **más «sin opinión»**, separada del neutral y excluida del cálculo. Cada ítem puede marcarse como *importante* (peso ×2).
 
@@ -47,13 +48,13 @@ afinidad = 100 · (1 − Σ wᵢ·|uᵢ − pᵢ| / (Σ wᵢ · 4))
 
 Cada resultado incluye cobertura (proporción de tus respuestas que el partido tiene posicionadas), bandera de baja cobertura, nivel de confianza y el **detalle ítem a ítem con la justificación y la cita de fuente** del partido: el «por qué coincide» es parte del contrato.
 
-**Mapa ideológico.** Puntuación −100..+100 en cada eje (económico, GAL-TAN, territorial, UE, ecologismo, populismo) y en los sub-ejes de módulo (método de cambio, modelo organizativo, moral pública). Los ítems *solo-matching* (`ejes: []`) discriminan entre partidos sin contaminar el mapa.
+**Mapa personal antes que partidos.** La posición del usuario se calcula aunque ningún partido la represente. Primero se muestran dimensiones y facetas con cobertura; después, por separado, similitud sindical y afinidad electoral. Los ítems *solo-matching* (`ejes: []`) separan organizaciones sin forzar una carga lineal; los ítems `solo-mapa` describen arquetipos doctrinales pero están vetados para recomendar organizaciones reales.
 
 ## Empezar
 
 ```bash
 npm install
-npm test              # 14 tests del motor
+npm test              # motor, itinerario, persistencia y casos límite
 npm run typecheck
 npm run validate:data # esquemas + integridad referencial
 ```
@@ -65,8 +66,10 @@ El test más importante está en `tests/engine.test.ts` («tesis del proyecto»)
 - [x] Motor de matching + ejes + módulos, testado y tipado (incl. desbloqueo por banda y multi-CCAA)
 - [x] Modelo de datos con esquemas, citación por posición y niveles de confianza
 - [x] Banco semilla (33 ítems, 4 módulos) y partidos demo
-- [x] Banco ampliado: **257 ítems, 14 módulos, 14 ejes**, redactados por familia ideológica con revisión metodológica adversarial ([docs/BANCO-ITEMS.md](docs/BANCO-ITEMS.md))
-- [ ] **Fase 1:** frontend client-side (modo rápido), selección del núcleo definitivo tras piloto, partidos con representación estatal/autonómica (`verificada`)
+- [x] Banco ampliado: **342 registros, 19 módulos, 25 ejes/facetas**, con hipótesis de discriminación obligatoria y revisión adversarial ([docs/BANCO-ITEMS.md](docs/BANCO-ITEMS.md))
+- [x] Frontend client-side: modo rápido y exhaustivo, itinerario condicional, revisión editable, resultados sin falsos ceros y persistencia defensiva
+- [x] Primera capa sindical independiente: 11 organizaciones con evidencia por posición y advertencias de territorio/cobertura
+- [ ] **Fase 1:** selección del núcleo definitivo tras entrevistas/piloto y partidos con representación estatal/autonómica (`verificada`)
 - [ ] **Fase 2:** campaña de autoubicación a partidos (modelo Wahl-O-Mat), partidos sin escaño (`estimada`), módulos territoriales de las 17 CCAA + Ceuta y Melilla, integración de votaciones del Congreso como fuente
 - [ ] **Fase 3:** calibración con análisis de Mokken/IRT sobre datos anonimizados, selección adaptativa de ítems (CAT), cobertura de todo partido que concurra a cualquier elección (vía infoelectoral)
 

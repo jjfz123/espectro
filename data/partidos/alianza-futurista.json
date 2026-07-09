@@ -1,0 +1,97 @@
+{
+  "id": "alianza-futurista",
+  "nombre": "Alianza Futurista",
+  "siglas": "ALFA",
+  "ambito": "estatal",
+  "tipo": "partido",
+  "confianza": "verificada",
+  "web": "https://alianzafuturista.org/",
+  "revisado": "2026-07-09",
+  "actividad": "activa",
+  "posiciones": {
+    "sd-008": {
+      "valor": 2,
+      "justificacion": "Su declaración de principios incorpora una renta básica universal como pieza del modelo tecnoprogresista.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Declaración de principios de Alianza Futurista, versión 3.3",
+        "url": "https://alianzafuturista.org/assets/alianza-futurista---ddp-3.3.pdf",
+        "fecha": "2026",
+        "consultado": "2026-07-09"
+      }
+    },
+    "dem-001": {
+      "valor": 1,
+      "justificacion": "Favorece consultas y referéndums para decisiones relevantes, aunque no exige que toda decisión de gran alcance se someta habitualmente a voto directo.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Declaración de principios de Alianza Futurista, versión 3.3",
+        "url": "https://alianzafuturista.org/assets/alianza-futurista---ddp-3.3.pdf",
+        "fecha": "2026",
+        "consultado": "2026-07-09"
+      }
+    },
+    "ene-001": {
+      "valor": 2,
+      "justificacion": "Propone autorizar nueva nuclear avanzada, incluido el desarrollo de reactores de torio.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Declaración de principios de Alianza Futurista, versión 3.3",
+        "url": "https://alianzafuturista.org/assets/alianza-futurista---ddp-3.3.pdf",
+        "fecha": "2026",
+        "consultado": "2026-07-09"
+      }
+    },
+    "ene-003": {
+      "valor": -2,
+      "justificacion": "Defiende prolongar las centrales de uranio hasta su límite técnico seguro, por lo que rechaza descartar toda prórroga del calendario vigente.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Declaración de principios de Alianza Futurista, versión 3.3",
+        "url": "https://alianzafuturista.org/assets/alianza-futurista---ddp-3.3.pdf",
+        "fecha": "2026",
+        "consultado": "2026-07-09"
+      }
+    },
+    "ene-009": {
+      "valor": 2,
+      "justificacion": "Propone inversión pública en investigación de torio y otras tecnologías nucleares avanzadas.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Declaración de principios de Alianza Futurista, versión 3.3",
+        "url": "https://alianzafuturista.org/assets/alianza-futurista---ddp-3.3.pdf",
+        "fecha": "2026",
+        "consultado": "2026-07-09"
+      }
+    },
+    "rel-001": {
+      "valor": -2,
+      "justificacion": "Declara neutralidad religiosa y política del Estado, incompatible con promover ateísmo oficial o excluir asociaciones religiosas.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Declaración de principios de Alianza Futurista, versión 3.3",
+        "url": "https://alianzafuturista.org/assets/alianza-futurista---ddp-3.3.pdf",
+        "fecha": "2026",
+        "consultado": "2026-07-09"
+      }
+    },
+    "rel-003": {
+      "valor": -2,
+      "justificacion": "La neutralidad religiosa que proclama excluye cualquier veto legislativo de autoridades confesionales.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Declaración de principios de Alianza Futurista, versión 3.3",
+        "url": "https://alianzafuturista.org/assets/alianza-futurista---ddp-3.3.pdf",
+        "fecha": "2026",
+        "consultado": "2026-07-09"
+      }
+    }
+  }
+}

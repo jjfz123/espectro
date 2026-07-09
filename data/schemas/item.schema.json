@@ -3,7 +3,7 @@
   "$id": "item.schema.json",
   "title": "Ítem (afirmación) del banco de preguntas",
   "type": "object",
-  "required": ["id", "texto", "modulo", "ejes"],
+  "required": ["id", "texto", "modulo", "ejes", "notas"],
   "properties": {
     "id": { "type": "string", "pattern": "^[a-z0-9-]+$" },
     "texto": { "type": "string", "minLength": 15 },
@@ -23,9 +23,33 @@
     },
     "polaridad": { "enum": ["positiva", "negativa"], "description": "Para equilibrar el signo de las afirmaciones del banco" },
     "terminos": { "type": "array", "items": { "type": "string" }, "description": "ids de términos del glosario (data/glosario.json) que el ítem usa y la interfaz debe explicar" },
+    "condicion": {
+      "type": "object",
+      "required": ["itemId", "valores"],
+      "properties": {
+        "itemId": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+        "valores": {
+          "type": "array",
+          "items": { "type": "integer", "minimum": -2, "maximum": 2 },
+          "minItems": 1,
+          "uniqueItems": true
+        }
+      },
+      "additionalProperties": false,
+      "description": "Subpregunta: solo se muestra cuando la respuesta al ítem padre coincide con uno de estos valores."
+    },
+    "uso": {
+      "enum": ["normal", "solo-mapa"],
+      "default": "normal",
+      "description": "solo-mapa = contribuye a ejes, pero se prohíbe usarlo para recomendar partidos o sindicatos reales"
+    },
     "tags": { "type": "array", "items": { "type": "string" } },
     "estado": { "enum": ["activo", "piloto", "retirado"], "default": "piloto" },
-    "notas": { "type": "string" }
+    "notas": {
+      "type": "string",
+      "minLength": 25,
+      "description": "Hipótesis de discriminación: qué dimensión o contraste mide, qué coincidencias por motivos distintos son posibles y qué no debe inferirse de la respuesta."
+    }
   },
   "additionalProperties": false
 }

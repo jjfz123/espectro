@@ -1,0 +1,218 @@
+{
+  "id": "coalicion-canaria",
+  "nombre": "Coalición Canaria",
+  "siglas": "CCa",
+  "ambito": "autonomico",
+  "tipo": "partido",
+  "ccaa": ["canarias"],
+  "confianza": "verificada",
+  "web": "https://coalicioncanaria.org/",
+  "revisado": "2026-07-10",
+  "actividad": "activa",
+  "posiciones": {
+    "nac-002": {
+      "valor": -2,
+      "justificacion": "Su fin vigente es la plena autonomía interna y el máximo autogobierno, manteniendo a Canarias como comunidad autónoma integrada en España, no como Estado independiente.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "estatutos",
+        "titulo": "Declaración de principios, valores y fines fundamentales de Coalición Canaria",
+        "url": "https://coalicioncanaria.org/wp-content/uploads/2025/10/1.-Declaracion-de-principios-valores-y-fines-fundamentales-del-Partido.pdf",
+        "fecha": "2025-10",
+        "consultado": "2026-07-10"
+      }
+    },
+    "nac-004": {
+      "valor": 1,
+      "justificacion": "Prioriza el autogobierno canario y negocia con partidos de ambos bloques estatales, pero mantiene líneas rojas explícitas ante fuerzas que considera extremas.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Acuerdos de Coalición Canaria",
+        "url": "https://coalicioncanaria.org/acuerdos/",
+        "fecha": "2023-12-12",
+        "consultado": "2026-07-10"
+      }
+    },
+    "nac-006": {
+      "valor": -2,
+      "justificacion": "Se compromete a contribuir a la gobernabilidad estatal desde la moderación y usa la negociación de investiduras y presupuestos, no el bloqueo, para obtener compromisos canarios.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Manifiesto Coalición por Canarias para las elecciones generales de 2023",
+        "url": "https://coalicioncanaria.org/wp-content/uploads/2023/06/COALICION_POR_CANARIAS.pdf",
+        "fecha": "2023-06-26",
+        "consultado": "2026-07-10"
+      }
+    },
+    "nac-009": {
+      "valor": 1,
+      "justificacion": "Ha alcanzado acuerdos estatales con PP y PSOE para obtener compromisos canarios, aunque excluye apoyar gobiernos integrados por Vox o Sumar y por ello no cumple el «cualquier partido» literal.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "CC no apoyará un Gobierno en el que esté Vox o Sumar",
+        "url": "https://coalicioncanaria.org/cc-no-apoyara-un-gobierno-en-el-que-este-vox-o-sumar/",
+        "fecha": "2023-07-24",
+        "consultado": "2026-07-10"
+      }
+    },
+    "dem-001": {
+      "valor": 1,
+      "justificacion": "Defiende el derecho del pueblo canario a decidir los asuntos vitales para su futuro, sin convertir toda decisión política de alcance en referéndum habitual.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "estatutos",
+        "titulo": "Declaración de principios, valores y fines fundamentales de Coalición Canaria",
+        "url": "https://coalicioncanaria.org/wp-content/uploads/2025/10/1.-Declaracion-de-principios-valores-y-fines-fundamentales-del-Partido.pdf",
+        "fecha": "2025-10",
+        "consultado": "2026-07-10"
+      }
+    },
+    "can-001": {
+      "valor": 2,
+      "justificacion": "Trata el REF como fuero esencial, pide reforzar su singularidad frente al sistema común y reclama autonomía canaria para decidirlo y gestionarlo.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Resolución del VIII Congreso Nacional sobre el REF",
+        "url": "https://coalicioncanaria.org/wp-content/uploads/2025/04/Propuesta-de-resolucion.-REF.pdf",
+        "fecha": "2025-04",
+        "consultado": "2026-07-10"
+      }
+    },
+    "can-002": {
+      "valor": 2,
+      "justificacion": "Exige preservar el descuento de residente del 75 % y vigilar que reduzca realmente el precio de los billetes en lugar de engrosar márgenes empresariales.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Canarias por delante: programa electoral 2023-2027",
+        "url": "https://coalicioncanaria.org/wp-content/uploads/cc-pdf/programas-electorales/00%20Programa%20Electoral%20Elecciones%20auton%C3%B3micas%20y%20municipales%202023.pdf",
+        "fecha": "2023-04",
+        "consultado": "2026-07-10"
+      }
+    },
+    "can-003": {
+      "valor": 2,
+      "justificacion": "Defiende el mar como parte del territorio canario y reclama completar la gestión de costas, litoral y competencias ejercitables en el espacio marino.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "estatutos",
+        "titulo": "Declaración de principios, valores y fines fundamentales de Coalición Canaria",
+        "url": "https://coalicioncanaria.org/wp-content/uploads/2025/10/1.-Declaracion-de-principios-valores-y-fines-fundamentales-del-Partido.pdf",
+        "fecha": "2025-10",
+        "consultado": "2026-07-10"
+      }
+    },
+    "can-004": {
+      "valor": 2,
+      "justificacion": "Pide preservar y ampliar el tratamiento específico y las modulaciones normativas y presupuestarias de Canarias como región ultraperiférica de la UE.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Canarias por delante: programa electoral 2023-2027",
+        "url": "https://coalicioncanaria.org/wp-content/uploads/cc-pdf/programas-electorales/00%20Programa%20Electoral%20Elecciones%20auton%C3%B3micas%20y%20municipales%202023.pdf",
+        "fecha": "2023-04",
+        "consultado": "2026-07-10"
+      }
+    },
+    "can-005": {
+      "valor": 2,
+      "justificacion": "Propone modificar la legislación para que todas las comunidades participen obligatoriamente en la acogida, formación e integración de menores migrantes llegados a territorios frontera.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Canarias por delante: programa electoral 2023-2027",
+        "url": "https://coalicioncanaria.org/wp-content/uploads/cc-pdf/programas-electorales/00%20Programa%20Electoral%20Elecciones%20auton%C3%B3micas%20y%20municipales%202023.pdf",
+        "fecha": "2023-04",
+        "consultado": "2026-07-10"
+      }
+    },
+    "can-006": {
+      "valor": 1,
+      "justificacion": "Aspira a una administración tributaria canaria y mayor capacidad decisoria sobre su régimen fiscal, pero mantiene separada la financiación común y no formula un concierto idéntico al vasco.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Canarias por delante: programa electoral 2023-2027",
+        "url": "https://coalicioncanaria.org/wp-content/uploads/cc-pdf/programas-electorales/00%20Programa%20Electoral%20Elecciones%20auton%C3%B3micas%20y%20municipales%202023.pdf",
+        "fecha": "2023-04",
+        "consultado": "2026-07-10"
+      }
+    },
+    "can-007": {
+      "valor": -2,
+      "justificacion": "Rechaza una moratoria turística general: propone que el planeamiento establezca crecimiento cero solo en áreas saturadas y porcentajes de crecimiento en otras.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Turismo aclara que no contempla una moratoria general del uso turístico de viviendas",
+        "url": "https://www3.gobiernodecanarias.org/noticias/hemeroteca/tag/moratoria-turistica/",
+        "fecha": "2023",
+        "consultado": "2026-07-10"
+      }
+    },
+    "can-008": {
+      "valor": 2,
+      "justificacion": "Mantiene como línea roja no apoyar un Gobierno estatal del que forme parte Vox, aunque sí negocie con el PP cuando Vox no integra el ejecutivo propuesto.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "CC no apoyará un Gobierno en el que esté Vox o Sumar",
+        "url": "https://coalicioncanaria.org/cc-no-apoyara-un-gobierno-en-el-que-este-vox-o-sumar/",
+        "fecha": "2023-07-24",
+        "consultado": "2026-07-10"
+      }
+    },
+    "can-009": {
+      "valor": -2,
+      "justificacion": "Reconoce identidades insulares, pero afirma un solo pueblo canario y un proyecto archipielágico común en igualdad y equilibrio; rechaza que cada isla prime sobre Canarias.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "estatutos",
+        "titulo": "Declaración de principios, valores y fines fundamentales de Coalición Canaria",
+        "url": "https://coalicioncanaria.org/wp-content/uploads/2025/10/1.-Declaracion-de-principios-valores-y-fines-fundamentales-del-Partido.pdf",
+        "fecha": "2025-10",
+        "consultado": "2026-07-10"
+      }
+    },
+    "can-010": {
+      "valor": 2,
+      "justificacion": "Exige que Canarias participe en las negociaciones con Marruecos sobre delimitación de aguas y en las decisiones internacionales que afecten directamente al archipiélago.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "CC denuncia que se impida a Canarias participar en las negociaciones con Marruecos",
+        "url": "https://coalicioncanaria.org/cc-denuncia-la-alianza-del-psoe-con-vox-para-impedir-el-desarrollo-del-estatuto-de-autonomia/",
+        "fecha": "2022-07-15",
+        "consultado": "2026-07-10"
+      }
+    },
+    "can-011": {
+      "valor": -2,
+      "justificacion": "La posición nacional rechaza una tasa general por pernoctación y prefiere el IGIC y tasas por servicios concretos en espacios protegidos; no adopta la ecotasa turística autonómica del enunciado.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "Diario de Sesiones del Parlamento de Canarias: tributo a estancias turísticas",
+        "url": "https://www.parcan.es/pub/ds.py/2024/34/12/",
+        "fecha": "2024-04-24",
+        "consultado": "2026-07-10"
+      }
+    },
+    "sd-019": {
+      "valor": 2,
+      "justificacion": "Mantiene que el pueblo saharaui debe decidir su futuro mediante un referéndum de autodeterminación conforme a las resoluciones de Naciones Unidas.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Resolución del VIII Congreso Nacional en favor del pueblo saharaui",
+        "url": "https://coalicioncanaria.org/wp-content/uploads/2025/04/PONENCIA-IDENTIDAD-CANARIA-Y-RES.pdf",
+        "fecha": "2025-04",
+        "consultado": "2026-07-10"
+      }
+    }
+  }
+}

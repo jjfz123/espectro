@@ -1,0 +1,347 @@
+{
+  "id": "andalucia-2026-05",
+  "nombre": "Elecciones autonómicas de Andalucía del 17 de mayo de 2026",
+  "tipo": "autonomicas",
+  "fecha": "2026-05-17",
+  "territorio": "andalucia",
+  "camara": "Parlamento de Andalucía",
+  "umbralPorcentaje": 0.02,
+  "denominador": {
+    "tipo": "votos-a-candidaturas",
+    "valor": 4157536
+  },
+  "totalCandidaturasOficiales": 27,
+  "fuente": {
+    "titulo": "Resultados definitivos de las elecciones autonómicas de Andalucía",
+    "url": "https://www.juntadeandalucia.es/boja/2026/108/BOJA26-108-00091-7541-01_00338776.pdf",
+    "consultado": "2026-07-09"
+  },
+  "fuentesAdicionales": [
+    {
+      "titulo": "Proclamación e identidad de candidaturas de Andalucía",
+      "url": "https://www.juntaelectoralcentral.es/cs/jec/documentos/andalucia_2026_candidaturas_proclamadas.pdf",
+      "consultado": "2026-07-09"
+    }
+  ],
+  "nota": "El porcentaje usa como denominador 4.157.536 votos a candidaturas en toda la comunidad. Una relación con un componente identifica la candidatura, pero no transfiere sus posiciones al perfil de la coalición. Naturaleza de la convocatoria en el inventario: anticipada-fin-de-ciclo. La suma de filas publicada difiere del denominador oficial en 3 votos; se conserva el denominador declarado y se documenta el descuadre.",
+  "candidaturas": [
+    {
+      "id": "and-2026-pp",
+      "nombre": "PARTIDO POPULAR",
+      "votos": 1744728,
+      "porcentaje": 41.965433,
+      "territorios": [
+        "andalucia"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [
+        {
+          "perfilId": "pp",
+          "relacion": "misma-organizacion"
+        }
+      ],
+      "nota": "Naturaleza inventariada: partido. Vigencia comprobada: electoral-2026. Tratamiento previsto: perfil-reutilizable."
+    },
+    {
+      "id": "and-2026-psoe-a",
+      "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL DE ANDALUCÍA",
+      "votos": 955584,
+      "porcentaje": 22.984383,
+      "territorios": [
+        "andalucia"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [
+        {
+          "perfilId": "psoe",
+          "relacion": "organizacion-territorial",
+          "nota": "La candidatura corresponde a la organización territorial del perfil estatal; comparte identidad orgánica, no una matriz autonómica copiada."
+        }
+      ],
+      "nota": "Naturaleza inventariada: federacion-territorial. Vigencia comprobada: electoral-2026. Tratamiento previsto: perfil-reutilizable."
+    },
+    {
+      "id": "and-2026-vox",
+      "nombre": "VOX",
+      "votos": 580293,
+      "porcentaje": 13.957618,
+      "territorios": [
+        "andalucia"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [
+        {
+          "perfilId": "vox",
+          "relacion": "misma-organizacion"
+        }
+      ],
+      "nota": "Naturaleza inventariada: partido. Vigencia comprobada: electoral-2026. Tratamiento previsto: perfil-reutilizable."
+    },
+    {
+      "id": "and-2026-adelante",
+      "nombre": "ADELANTE ANDALUCÍA",
+      "votos": 403560,
+      "porcentaje": 9.706711,
+      "territorios": [
+        "andalucia"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [],
+      "nota": "Naturaleza inventariada: partido. Vigencia comprobada: electoral-2026. Tratamiento previsto: perfil-especifico."
+    },
+    {
+      "id": "and-2026-por-andalucia",
+      "nombre": "POR ANDALUCÍA: IZQUIERDA UNIDA ANDALUCÍA–PODEMOS–MOVIMIENTO SUMAR–INICIATIVA DEL PUEBLO ANDALUZ–VERDES EQUO–ALTERNATIVA REPUBLICANA–ALIANZA VERDE",
+      "votos": 266213,
+      "porcentaje": 6.403144,
+      "territorios": [
+        "andalucia"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [
+        {
+          "perfilId": "podemos",
+          "relacion": "componente",
+          "nota": "Podemos figura como componente de esta candidatura fechada; sus posiciones no se atribuyen automáticamente a la coalición."
+        },
+        {
+          "perfilId": "movimiento-sumar",
+          "relacion": "componente",
+          "nota": "Movimiento Sumar figura como componente de esta candidatura fechada; sus posiciones no se atribuyen automáticamente a la coalición."
+        },
+        {
+          "perfilId": "verdes-equo",
+          "relacion": "componente",
+          "nota": "Verdes Equo figura como componente de esta candidatura fechada; sus posiciones no se atribuyen automáticamente a la coalición."
+        },
+        {
+          "perfilId": "alianza-verde",
+          "relacion": "componente",
+          "nota": "Alianza Verde figura como componente de esta candidatura fechada; sus posiciones no se atribuyen automáticamente a la coalición."
+        }
+      ],
+      "nota": "Naturaleza inventariada: coalicion-electoral. Vigencia comprobada: electoral-2026. Tratamiento previsto: perfil-especifico."
+    },
+    {
+      "id": "and-2026-salf",
+      "nombre": "SE ACABÓ LA FIESTA",
+      "votos": 106322,
+      "porcentaje": 2.557332,
+      "territorios": [
+        "andalucia"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [],
+      "nota": "Naturaleza inventariada: partido. Vigencia comprobada: electoral-2026. Tratamiento previsto: perfil-reutilizable."
+    },
+    {
+      "id": "and-2026-pacma",
+      "nombre": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
+      "votos": 25374,
+      "porcentaje": 0.610313,
+      "territorios": [
+        "andalucia"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [
+        {
+          "perfilId": "pacma",
+          "relacion": "misma-organizacion"
+        }
+      ],
+      "nota": "Naturaleza inventariada: partido. Vigencia comprobada: electoral-2026. Tratamiento previsto: perfil-reutilizable."
+    },
+    {
+      "id": "and-2026-100x100",
+      "nombre": "100X100 UNIDOS",
+      "votos": 14786,
+      "porcentaje": 0.355643,
+      "territorios": [
+        "andalucia"
+      ],
+      "circunscripciones": [
+        "Cádiz"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [],
+      "nota": "Naturaleza inventariada: partido-o-candidatura. Vigencia comprobada: electoral-2026. Tratamiento previsto: inventario-sin-datos."
+    },
+    {
+      "id": "and-2026-andalucistas",
+      "nombre": "ANDALUCISTAS PUEBLO ANDALUZ",
+      "votos": 12157,
+      "porcentaje": 0.292409,
+      "territorios": [
+        "andalucia"
+      ],
+      "variantesPapeleta": {
+        "Almería": "ANDALUCISTAS - PUEBLO ANDALUZ",
+        "Cádiz": "ANDALUCISTAS - PUEBLO ANDALUZ - ANDALUCÍA POR SÍ - ANDALUCISTAS LINENSES",
+        "Córdoba": "ANDALUCISTAS - PUEBLO ANDALUZ - ANDALUCÍA, ENTRE TODOS - ANDALUCÍA POR SÍ",
+        "Granada": "ANDALUCISTAS - PUEBLO ANDALUZ - CONVERGENCIA ANDALUZA - COMPROMISO POR ANDALUCÍA - ANDALUCÍA POR SÍ",
+        "Huelva": "ANDALUCISTAS - PUEBLO ANDALUZ - ANDALUCÍA POR SÍ",
+        "Jaén": "ANDALUCISTAS - PUEBLO ANDALUZ - ANDALUCÍA POR SÍ – STOP BIOGAS",
+        "Málaga": "ANDALUCISTAS - PUEBLO ANDALUZ - ANDALUCÍA POR SÍ",
+        "Sevilla": "ANDALUCISTAS - PUEBLO ANDALUZ - ANDALUCÍA POR SÍ – FORO MONTELLANO"
+      },
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [],
+      "nota": "Naturaleza inventariada: coalicion-electoral. Vigencia comprobada: electoral-2026. Tratamiento previsto: perfil-especifico."
+    },
+    {
+      "id": "and-2026-eb",
+      "nombre": "ESCAÑOS EN BLANCO PARA DEJAR ESCAÑOS VACÍOS",
+      "votos": 9347,
+      "porcentaje": 0.224821,
+      "territorios": [
+        "andalucia"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [],
+      "nota": "Naturaleza inventariada: partido. Vigencia comprobada: electoral-2026. Tratamiento previsto: perfil-reutilizable."
+    },
+    {
+      "id": "and-2026-jaen-mas",
+      "nombre": "JAÉN MERECE MÁS",
+      "votos": 7993,
+      "porcentaje": 0.192253,
+      "territorios": [
+        "andalucia"
+      ],
+      "circunscripciones": [
+        "Jaén"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [],
+      "nota": "Naturaleza inventariada: partido-o-candidatura. Vigencia comprobada: electoral-2026. Tratamiento previsto: perfil-especifico."
+    },
+    {
+      "id": "and-2026-pcpa",
+      "nombre": "PARTIDO COMUNISTA DEL PUEBLO ANDALUZ",
+      "votos": 5716,
+      "porcentaje": 0.137485,
+      "territorios": [
+        "andalucia"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [],
+      "nota": "Naturaleza inventariada: partido. Vigencia comprobada: electoral-2026. Tratamiento previsto: perfil-especifico."
+    },
+    {
+      "id": "and-2026-fe",
+      "nombre": "FALANGE ESPAÑOLA DE LAS JONS",
+      "votos": 4995,
+      "porcentaje": 0.120143,
+      "territorios": [
+        "andalucia"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [
+        {
+          "perfilId": "fe-jons",
+          "relacion": "misma-organizacion"
+        }
+      ],
+      "nota": "Naturaleza inventariada: partido. Vigencia comprobada: electoral-2026. Tratamiento previsto: perfil-reutilizable."
+    },
+    {
+      "id": "and-2026-mas-justo",
+      "nombre": "POR UN MUNDO MÁS JUSTO",
+      "votos": 4790,
+      "porcentaje": 0.115212,
+      "territorios": [
+        "andalucia"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [],
+      "nota": "Naturaleza inventariada: partido. Vigencia comprobada: electoral-2026. Tratamiento previsto: perfil-reutilizable."
+    },
+    {
+      "id": "and-2026-autonomos",
+      "nombre": "PARTIDO AUTÓNOMOS",
+      "votos": 3752,
+      "porcentaje": 0.090246,
+      "territorios": [
+        "andalucia"
+      ],
+      "circunscripciones": [
+        "Almería",
+        "Cádiz",
+        "Málaga",
+        "Sevilla"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [],
+      "nota": "Naturaleza inventariada: partido-o-candidatura. Vigencia comprobada: electoral-2026. Tratamiento previsto: inventario-sin-datos."
+    },
+    {
+      "id": "and-2026-nacion-andaluza",
+      "nombre": "NACIÓN ANDALUZA",
+      "votos": 3004,
+      "porcentaje": 0.072254,
+      "territorios": [
+        "andalucia"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [
+        {
+          "perfilId": "nacion-andaluza",
+          "relacion": "misma-organizacion"
+        }
+      ],
+      "nota": "Naturaleza inventariada: partido. Vigencia comprobada: electoral-2026. Tratamiento previsto: perfil-especifico."
+    },
+    {
+      "id": "and-2026-huelva-existe",
+      "nombre": "HUELVA EXISTE",
+      "votos": 2148,
+      "porcentaje": 0.051665,
+      "territorios": [
+        "andalucia"
+      ],
+      "circunscripciones": [
+        "Huelva"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [],
+      "nota": "Naturaleza inventariada: coalicion-electoral. Vigencia comprobada: electoral-2026. Tratamiento previsto: inventario-sin-datos."
+    },
+    {
+      "id": "and-2026-pcte",
+      "nombre": "PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA",
+      "votos": 1792,
+      "porcentaje": 0.043102,
+      "territorios": [
+        "andalucia"
+      ],
+      "circunscripciones": [
+        "Córdoba",
+        "Granada",
+        "Sevilla"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [
+        {
+          "perfilId": "pcte",
+          "relacion": "misma-organizacion"
+        }
+      ],
+      "nota": "Naturaleza inventariada: partido. Vigencia comprobada: electoral-2026. Tratamiento previsto: perfil-reutilizable."
+    },
+    {
+      "id": "and-2026-poder-andaluz",
+      "nombre": "PODER ANDALUZ",
+      "votos": 1084,
+      "porcentaje": 0.026073,
+      "territorios": [
+        "andalucia"
+      ],
+      "circunscripciones": [
+        "Sevilla"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [],
+      "nota": "Naturaleza inventariada: partido-o-candidatura. Vigencia comprobada: electoral-2026. Tratamiento previsto: inventario-sin-datos."
+    }
+  ]
+}

@@ -14,7 +14,7 @@
       "type": "object",
       "required": ["tipo"],
       "properties": {
-        "tipo": { "enum": ["siempre", "eje", "eje-banda", "ccaa"] },
+        "tipo": { "enum": ["siempre", "eje", "eje-banda", "ccaa", "eje-o-ccaa", "manual"] },
         "eje": { "type": "string" },
         "operador": { "enum": ["<=", ">="] },
         "umbral": { "type": "number", "minimum": -100, "maximum": 100 },
@@ -28,6 +28,24 @@
           "description": "Una CCAA o varias (módulos territoriales compartidos)"
         }
       },
+      "allOf": [
+        {
+          "if": { "properties": { "tipo": { "const": "eje" } } },
+          "then": { "required": ["eje", "operador", "umbral"] }
+        },
+        {
+          "if": { "properties": { "tipo": { "const": "eje-banda" } } },
+          "then": { "required": ["eje", "min", "max"] }
+        },
+        {
+          "if": { "properties": { "tipo": { "const": "ccaa" } } },
+          "then": { "required": ["ccaa"] }
+        },
+        {
+          "if": { "properties": { "tipo": { "const": "eje-o-ccaa" } } },
+          "then": { "required": ["eje", "operador", "umbral", "ccaa"] }
+        }
+      ],
       "additionalProperties": false
     }
   },

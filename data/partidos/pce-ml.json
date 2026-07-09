@@ -1,0 +1,144 @@
+{
+  "id": "pce-ml",
+  "nombre": "Partido Comunista de España (marxista-leninista)",
+  "siglas": "PCE(m-l)",
+  "ambito": "estatal",
+  "tipo": "partido",
+  "confianza": "verificada",
+  "web": "https://pceml.info/",
+  "revisado": "2026-07-09",
+  "actividad": "activa",
+  "excepcionCatalogo": {
+    "motivo": "comunista-activa",
+    "justificacion": "Se incorpora por la excepción de cobertura de organizaciones comunistas activas. Su declaración y movilización del Primero de Mayo de 2026 acreditan actividad, no concurrencia electoral propia reciente.",
+    "fuente": {
+      "tipo": "declaracion",
+      "titulo": "1º de Mayo: la clase obrera contra la guerra imperialista",
+      "url": "https://pceml.info/1o-de-mayo-la-clase-obrera-contra-la-guerra-imperialista/",
+      "fecha": "2026-04",
+      "consultado": "2026-07-09"
+    }
+  },
+  "posiciones": {
+    "izq-001": {
+      "valor": 2,
+      "justificacion": "Los estatutos definen al partido como marxista-leninista y orientado a una transformación revolucionaria hacia el socialismo.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "estatutos",
+        "titulo": "Estatutos aprobados en el III (VIII) Congreso",
+        "url": "https://pceml.info/wp-content/uploads/2016/08/ESTATUTOS2014_def.pdf",
+        "fecha": "2014",
+        "consultado": "2026-07-09"
+      }
+    },
+    "izq-002": {
+      "valor": 2,
+      "justificacion": "Su estructura estatutaria adopta centralismo democrático, dirección colectiva y disciplina como rasgos del partido revolucionario.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "estatutos",
+        "titulo": "Estatutos aprobados en el III (VIII) Congreso",
+        "url": "https://pceml.info/wp-content/uploads/2016/08/ESTATUTOS2014_def.pdf",
+        "fecha": "2014",
+        "consultado": "2026-07-09"
+      }
+    },
+    "izq-018": {
+      "valor": -2,
+      "justificacion": "Los estatutos prohíben la formación de fracciones permanentes dentro del partido.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "estatutos",
+        "titulo": "Estatutos aprobados en el III (VIII) Congreso",
+        "url": "https://pceml.info/wp-content/uploads/2016/08/ESTATUTOS2014_def.pdf",
+        "fecha": "2014",
+        "consultado": "2026-07-09"
+      }
+    },
+    "dem-015": {
+      "valor": 2,
+      "justificacion": "Combina libertad de discusión con obligatoriedad de los acuerdos, unidad de acción y disciplina consciente tras la decisión.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "estatutos",
+        "titulo": "Estatutos aprobados en el III (VIII) Congreso",
+        "url": "https://pceml.info/wp-content/uploads/2016/08/ESTATUTOS2014_def.pdf",
+        "fecha": "2014",
+        "consultado": "2026-07-09"
+      }
+    },
+    "izq-023": {
+      "valor": 2,
+      "justificacion": "Su táctica electoral de 2023 prioriza abrir paso a una república y una constitución republicana como avance político, sin presentarlas como el socialismo ya realizado.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Ante las próximas elecciones autonómicas y municipales",
+        "url": "https://pceml.info/ante-las-proximas-elecciones-autonomicas-y-municipales/",
+        "fecha": "2023-04-19",
+        "consultado": "2026-07-09"
+      }
+    },
+    "mon-001": {
+      "valor": 2,
+      "justificacion": "Defiende sustituir la monarquía por una república y dotarla de una nueva constitución.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Ante las próximas elecciones autonómicas y municipales",
+        "url": "https://pceml.info/ante-las-proximas-elecciones-autonomicas-y-municipales/",
+        "fecha": "2023-04-19",
+        "consultado": "2026-07-09"
+      }
+    },
+    "izq-031": {
+      "valor": -2,
+      "justificacion": "En 2023 calificó la abstención como un error y llamó expresamente a votar de forma táctica contra la derecha y el fascismo.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Ante las próximas elecciones autonómicas y municipales",
+        "url": "https://pceml.info/ante-las-proximas-elecciones-autonomicas-y-municipales/",
+        "fecha": "2023-04-19",
+        "consultado": "2026-07-09"
+      }
+    },
+    "izq-019": {
+      "valor": 1,
+      "justificacion": "Acepta el voto y la intervención electoral como una táctica subordinada a una alternativa popular y republicana, no como fin suficiente en sí mismo.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Ante las próximas elecciones autonómicas y municipales",
+        "url": "https://pceml.info/ante-las-proximas-elecciones-autonomicas-y-municipales/",
+        "fecha": "2023-04-19",
+        "consultado": "2026-07-09"
+      }
+    },
+    "def-002": {
+      "valor": 2,
+      "justificacion": "Mantiene el rechazo a la OTAN y reclama una política exterior independiente de sus estructuras militares.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Informe aprobado por el Pleno Ampliado del Comité Central del PCE(m-l)",
+        "url": "https://pceml.info/informe-aprobado-por-el-pleno-ampliado-del-comite-central-del-pcem-l/",
+        "fecha": "2025-04-04",
+        "consultado": "2026-07-09"
+      }
+    },
+    "sd-002": {
+      "valor": -2,
+      "justificacion": "El informe del Comité Central rechaza el rearme europeo y el aumento del gasto militar asociado a los compromisos atlánticos.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Informe aprobado por el Pleno Ampliado del Comité Central del PCE(m-l)",
+        "url": "https://pceml.info/informe-aprobado-por-el-pleno-ampliado-del-comite-central-del-pcem-l/",
+        "fecha": "2025-04-04",
+        "consultado": "2026-07-09"
+      }
+    }
+  }
+}

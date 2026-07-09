@@ -1,0 +1,261 @@
+{
+  "id": "euskadi-2024-04",
+  "nombre": "Elecciones autonómicas de Euskadi del 21 de abril de 2024",
+  "tipo": "autonomicas",
+  "fecha": "2024-04-21",
+  "territorio": "euskadi",
+  "camara": "Parlamento Vasco",
+  "umbralPorcentaje": 0.02,
+  "denominador": {
+    "tipo": "votos-a-candidaturas",
+    "valor": 1052170
+  },
+  "totalCandidaturasOficiales": 14,
+  "fuente": {
+    "titulo": "Resultados definitivos de las elecciones autonómicas de Euskadi",
+    "url": "https://www.euskadi.eus/contenidos/informacion/w_in_24_pv_resultados/es_def/adjuntos/informe-elecciones-parlamento-vasco_2024.pdf",
+    "consultado": "2026-07-10"
+  },
+  "fuentesAdicionales": [
+    {
+      "titulo": "Proclamación e identidad de candidaturas de Euskadi",
+      "url": "https://www.euskadi.eus/elecciones-parlamento-vasco-2024-candidaturas-presentadas/web01-a3haup24/es/",
+      "consultado": "2026-07-10"
+    }
+  ],
+  "nota": "El porcentaje usa como denominador 1.052.170 votos a candidaturas en toda la comunidad. Una relación con un componente identifica la candidatura, pero no transfiere sus posiciones al perfil de la coalición. Naturaleza de la convocatoria en el inventario: fin-de-legislatura.",
+  "candidaturas": [
+    {
+      "id": "eus-2024-eaj-pnv",
+      "nombre": "EAJ-PNV",
+      "votos": 370554,
+      "porcentaje": 35.218073,
+      "escanos": 27,
+      "territorios": [
+        "euskadi"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [
+        {
+          "perfilId": "eaj-pnv",
+          "relacion": "misma-organizacion"
+        }
+      ],
+      "nota": "Naturaleza inventariada: partido. Vigencia comprobada: representacion-2024. Tratamiento previsto: perfil-reutilizable."
+    },
+    {
+      "id": "eus-2024-eh-bildu",
+      "nombre": "EH BILDU",
+      "votos": 341735,
+      "porcentaje": 32.479067,
+      "escanos": 27,
+      "territorios": [
+        "euskadi"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [
+        {
+          "perfilId": "eh-bildu",
+          "relacion": "misma-organizacion"
+        }
+      ],
+      "nota": "Naturaleza inventariada: federacion. Vigencia comprobada: representacion-2024. Tratamiento previsto: perfil-reutilizable."
+    },
+    {
+      "id": "eus-2024-pse",
+      "nombre": "PSE-EE/PSOE",
+      "votos": 149660,
+      "porcentaje": 14.223937,
+      "escanos": 12,
+      "territorios": [
+        "euskadi"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [
+        {
+          "perfilId": "psoe",
+          "relacion": "organizacion-territorial",
+          "nota": "La candidatura corresponde a la organización territorial del perfil estatal; comparte identidad orgánica, no una matriz autonómica copiada."
+        }
+      ],
+      "nota": "Naturaleza inventariada: federacion-territorial. Vigencia comprobada: representacion-2024. Tratamiento previsto: perfil-reutilizable."
+    },
+    {
+      "id": "eus-2024-pp",
+      "nombre": "PP",
+      "votos": 97149,
+      "porcentaje": 9.233204,
+      "escanos": 7,
+      "territorios": [
+        "euskadi"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [
+        {
+          "perfilId": "pp",
+          "relacion": "misma-organizacion"
+        }
+      ],
+      "nota": "Naturaleza inventariada: partido. Vigencia comprobada: representacion-2024. Tratamiento previsto: perfil-reutilizable."
+    },
+    {
+      "id": "eus-2024-sumar",
+      "nombre": "SUMAR",
+      "votos": 35092,
+      "porcentaje": 3.335202,
+      "escanos": 1,
+      "territorios": [
+        "euskadi"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [
+        {
+          "perfilId": "movimiento-sumar",
+          "relacion": "organizacion-territorial",
+          "nota": "La candidatura corresponde a la organización territorial del perfil estatal; comparte identidad orgánica, no una matriz autonómica copiada."
+        }
+      ],
+      "nota": "Naturaleza inventariada: candidatura. Vigencia comprobada: representacion-2024. Tratamiento previsto: perfil-reutilizable."
+    },
+    {
+      "id": "eus-2024-podemos-av",
+      "nombre": "PODEMOS-AHAL DUGU - ALIANZA VERDE",
+      "votos": 23679,
+      "porcentaje": 2.250492,
+      "escanos": 0,
+      "territorios": [
+        "euskadi"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [
+        {
+          "perfilId": "podemos",
+          "relacion": "componente",
+          "nota": "Podemos figura como componente de esta candidatura fechada; sus posiciones no se atribuyen automáticamente a la coalición."
+        },
+        {
+          "perfilId": "alianza-verde",
+          "relacion": "componente",
+          "nota": "Alianza Verde figura como componente de esta candidatura fechada; sus posiciones no se atribuyen automáticamente a la coalición."
+        }
+      ],
+      "nota": "Naturaleza inventariada: coalicion-electoral. Vigencia comprobada: matrices-verificadas. Tratamiento previsto: perfil-especifico."
+    },
+    {
+      "id": "eus-2024-vox",
+      "nombre": "VOX",
+      "votos": 21396,
+      "porcentaje": 2.033512,
+      "escanos": 1,
+      "territorios": [
+        "euskadi"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [
+        {
+          "perfilId": "vox",
+          "relacion": "misma-organizacion"
+        }
+      ],
+      "nota": "Naturaleza inventariada: partido. Vigencia comprobada: representacion-2024. Tratamiento previsto: perfil-reutilizable."
+    },
+    {
+      "id": "eus-2024-pacma",
+      "nombre": "PACMA",
+      "votos": 5481,
+      "porcentaje": 0.520923,
+      "escanos": 0,
+      "territorios": [
+        "euskadi"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [
+        {
+          "perfilId": "pacma",
+          "relacion": "misma-organizacion"
+        }
+      ],
+      "nota": "Naturaleza inventariada: partido. Vigencia comprobada: posterior-verificada. Tratamiento previsto: perfil-reutilizable."
+    },
+    {
+      "id": "eus-2024-eb-az",
+      "nombre": "EB-AZ",
+      "votos": 3072,
+      "porcentaje": 0.291968,
+      "escanos": 0,
+      "territorios": [
+        "euskadi"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [],
+      "nota": "Naturaleza inventariada: partido. Vigencia comprobada: posterior-no-verificada. Tratamiento previsto: inventario-sin-datos."
+    },
+    {
+      "id": "eus-2024-pumj",
+      "nombre": "PUM+J",
+      "votos": 1628,
+      "porcentaje": 0.154728,
+      "escanos": 0,
+      "territorios": [
+        "euskadi"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [],
+      "nota": "Naturaleza inventariada: partido. Vigencia comprobada: posterior-verificada. Tratamiento previsto: perfil-especifico."
+    },
+    {
+      "id": "eus-2024-izan",
+      "nombre": "IZAN",
+      "votos": 1412,
+      "porcentaje": 0.134199,
+      "escanos": 0,
+      "territorios": [
+        "euskadi"
+      ],
+      "circunscripciones": [
+        "Bizkaia",
+        "Gipuzkoa"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [],
+      "nota": "Naturaleza inventariada: partido-o-candidatura. Vigencia comprobada: posterior-no-verificada. Tratamiento previsto: inventario-sin-datos."
+    },
+    {
+      "id": "eus-2024-pcte",
+      "nombre": "PCTE / ELAK",
+      "votos": 660,
+      "porcentaje": 0.062728,
+      "escanos": 0,
+      "territorios": [
+        "euskadi"
+      ],
+      "circunscripciones": [
+        "Bizkaia"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [
+        {
+          "perfilId": "pcte",
+          "relacion": "misma-organizacion"
+        }
+      ],
+      "nota": "Naturaleza inventariada: partido. Vigencia comprobada: posterior-verificada. Tratamiento previsto: perfil-reutilizable."
+    },
+    {
+      "id": "eus-2024-ph",
+      "nombre": "PH",
+      "votos": 471,
+      "porcentaje": 0.044765,
+      "escanos": 0,
+      "territorios": [
+        "euskadi"
+      ],
+      "circunscripciones": [
+        "Bizkaia"
+      ],
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [],
+      "nota": "Naturaleza inventariada: partido. Vigencia comprobada: posterior-verificada. Tratamiento previsto: perfil-especifico."
+    }
+  ]
+}

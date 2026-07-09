@@ -1,0 +1,48 @@
+{
+  "id": "ccoo",
+  "nombre": "Comisiones Obreras",
+  "siglas": "CCOO",
+  "ambito": "estatal",
+  "confianza": "verificada",
+  "web": "https://www.ccoo.es/",
+  "revisado": "2026-07-09",
+  "advertencia": "La similitud doctrinal no acredita implantación en tu empresa ni constituye una recomendación de afiliación.",
+  "posiciones": {
+    "lab-001": {
+      "valor": 2,
+      "justificacion": "La ponencia confederal sitúa la negociación colectiva sectorial y la extensión de su cobertura entre los instrumentos centrales de acción sindical.",
+      "calidadEvidencia": "alta",
+      "fuente": { "tipo": "programa", "titulo": "Ponencia del 13.º Congreso Confederal", "url": "https://13congreso.ccoo.es/be1b4a5cd3c174a02deb83dd1aeea0a5000001.pdf", "fecha": "2025", "consultado": "2026-07-09" }
+    },
+    "lab-004": {
+      "valor": -2,
+      "justificacion": "Sus estatutos permiten cuotas, servicios, ingresos institucionales y subvenciones finalistas; no defiende una financiación únicamente por cuotas.",
+      "calidadEvidencia": "alta",
+      "fuente": { "tipo": "estatutos", "titulo": "Estatutos del 13.º Congreso Confederal", "url": "https://13congreso.ccoo.es/b756818638e40f806b5c63147454c52a000001.pdf", "fecha": "2025", "consultado": "2026-07-09" }
+    },
+    "lab-005": {
+      "valor": 2,
+      "justificacion": "Los estatutos declaran independencia respecto del Estado, poderes económicos y partidos políticos.",
+      "calidadEvidencia": "alta",
+      "fuente": { "tipo": "estatutos", "titulo": "Estatutos del 13.º Congreso Confederal", "url": "https://13congreso.ccoo.es/b756818638e40f806b5c63147454c52a000001.pdf", "fecha": "2025", "consultado": "2026-07-09" }
+    },
+    "lab-019": {
+      "valor": 2,
+      "justificacion": "Admite financiación pública finalista bajo control y publica información económica en su portal de transparencia.",
+      "calidadEvidencia": "alta",
+      "fuente": { "tipo": "otro", "titulo": "Portal de transparencia confederal", "url": "https://transparencia.ccoo.es/comision_ejecutiva_confederal", "fecha": "2024", "consultado": "2026-07-09" }
+    },
+    "lab-020": {
+      "valor": 2,
+      "justificacion": "Participa en la representación unitaria y defiende elecciones y negociación para el conjunto de las plantillas.",
+      "calidadEvidencia": "alta",
+      "fuente": { "tipo": "programa", "titulo": "Ponencia del 13.º Congreso Confederal", "url": "https://13congreso.ccoo.es/be1b4a5cd3c174a02deb83dd1aeea0a5000001.pdf", "fecha": "2025", "consultado": "2026-07-09" }
+    },
+    "lab-023": {
+      "valor": -2,
+      "justificacion": "Su horizonte estatutario y su programa social, económico y constitucional exceden salarios y condiciones de trabajo.",
+      "calidadEvidencia": "alta",
+      "fuente": { "tipo": "estatutos", "titulo": "Estatutos del 13.º Congreso Confederal", "url": "https://13congreso.ccoo.es/b756818638e40f806b5c63147454c52a000001.pdf", "fecha": "2025", "consultado": "2026-07-09" }
+    }
+  }
+}

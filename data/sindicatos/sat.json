@@ -1,0 +1,37 @@
+{
+  "id": "sat",
+  "nombre": "Sindicato Andaluz de Trabajadores y Trabajadoras",
+  "siglas": "SAT",
+  "ambito": "autonomico",
+  "ccaa": ["andalucia"],
+  "confianza": "verificada",
+  "web": "https://sindicatoandaluz.info/",
+  "revisado": "2026-07-09",
+  "advertencia": "La similitud doctrinal no acredita implantación en tu empresa ni constituye una recomendación de afiliación.",
+  "posiciones": {
+    "lab-005": {
+      "valor": 2,
+      "justificacion": "Sus estatutos proclaman independencia respecto de instituciones, partidos, patronales y grupos de presión.",
+      "calidadEvidencia": "alta",
+      "fuente": { "tipo": "estatutos", "titulo": "Estatutos del IV Congreso", "url": "https://sindicatoandaluz.info/estatutos-2025/", "fecha": "2025", "consultado": "2026-07-09" }
+    },
+    "lab-021": {
+      "valor": 2,
+      "justificacion": "La asamblea es la base de decisión, con cargos revocables y límites temporales; respalda control de base sobre acuerdos que afectan a la plantilla.",
+      "calidadEvidencia": "media",
+      "fuente": { "tipo": "estatutos", "titulo": "Estatutos del IV Congreso", "url": "https://sindicatoandaluz.info/estatutos-2025/", "fecha": "2025", "consultado": "2026-07-09" }
+    },
+    "lab-023": {
+      "valor": -2,
+      "justificacion": "Se define de clase, anticapitalista, soberanista, feminista y ecológico: su ámbito político declarado excede la negociación laboral.",
+      "calidadEvidencia": "alta",
+      "fuente": { "tipo": "estatutos", "titulo": "Estatutos del IV Congreso", "url": "https://sindicatoandaluz.info/estatutos-2025/", "fecha": "2025", "consultado": "2026-07-09" }
+    },
+    "lab-024": {
+      "valor": 2,
+      "justificacion": "Su soberanismo andaluz y su proyecto de república andaluza implican un marco propio de decisión social y laboral.",
+      "calidadEvidencia": "alta",
+      "fuente": { "tipo": "estatutos", "titulo": "Estatutos del IV Congreso", "url": "https://sindicatoandaluz.info/estatutos-2025/", "fecha": "2025", "consultado": "2026-07-09" }
+    }
+  }
+}

@@ -1,0 +1,158 @@
+{
+  "id": "bng",
+  "nombre": "Bloque Nacionalista Galego",
+  "siglas": "BNG",
+  "ambito": "autonomico",
+  "tipo": "coalicion",
+  "ccaa": ["galicia"],
+  "confianza": "verificada",
+  "web": "https://www.bng.gal/",
+  "revisado": "2026-07-09",
+  "actividad": "activa",
+  "posiciones": {
+    "ter-002": {
+      "valor": 2,
+      "justificacion": "Reconoce a Galicia como nación y defiende su derecho de autodeterminación mediante decisión democrática.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Documentos definitivos da XVIII Asemblea Nacional do BNG",
+        "url": "https://www.bng.gal/media/bnggaliza/files/2025/02/07/documentos_xviii_asemblea_definitivos_corrixido.pdf",
+        "fecha": "2025-02-07",
+        "consultado": "2026-07-09"
+      }
+    },
+    "sd-004": {
+      "valor": 2,
+      "justificacion": "Su concepción del Estado reconoce expresamente el carácter nacional de Galicia y la pluralidad de naciones.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Documentos definitivos da XVIII Asemblea Nacional do BNG",
+        "url": "https://www.bng.gal/media/bnggaliza/files/2025/02/07/documentos_xviii_asemblea_definitivos_corrixido.pdf",
+        "fecha": "2025-02-07",
+        "consultado": "2026-07-09"
+      }
+    },
+    "nac-002": {
+      "valor": 1,
+      "justificacion": "Mantiene la soberanía estatal gallega como horizonte, mientras su práctica inmediata prioriza avance nacional, autogobierno y acumulación de mayorías.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Documentos definitivos da XVIII Asemblea Nacional do BNG",
+        "url": "https://www.bng.gal/media/bnggaliza/files/2025/02/07/documentos_xviii_asemblea_definitivos_corrixido.pdf",
+        "fecha": "2025-02-07",
+        "consultado": "2026-07-09"
+      }
+    },
+    "nac-007": {
+      "valor": -1,
+      "justificacion": "Es crítico con la UE neoliberal, pero actúa por una Europa de pueblos; no convierte la pertenencia europea en veto absoluto al ejercicio de soberanía.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Documentos definitivos da XVIII Asemblea Nacional do BNG",
+        "url": "https://www.bng.gal/media/bnggaliza/files/2025/02/07/documentos_xviii_asemblea_definitivos_corrixido.pdf",
+        "fecha": "2025-02-07",
+        "consultado": "2026-07-09"
+      }
+    },
+    "nac-008": {
+      "valor": 2,
+      "justificacion": "Propone incorporar al Estatuto un concierto económico gallego y plena capacidad fiscal propia.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "O BNG propón reformar o Estatuto para incluír un concerto económico",
+        "url": "https://www.bng.gal/articulo/novas/bng-propon-reformar-estatuto-incluir-concerto-economico-darlle-galiza-chave-seus-cartos/20250111141812039512.html",
+        "fecha": "2025-01-11",
+        "consultado": "2026-07-09"
+      }
+    },
+    "gal-001": {
+      "valor": 0,
+      "justificacion": "El frente adopta la normativa oficial gallega vigente: contiene sensibilidades lusistas, pero no hace del reintegracionismo ortográfico la posición común del BNG.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Documentos definitivos da XVIII Asemblea Nacional do BNG",
+        "url": "https://www.bng.gal/media/bnggaliza/files/2025/02/07/documentos_xviii_asemblea_definitivos_corrixido.pdf",
+        "fecha": "2025-02-07",
+        "consultado": "2026-07-09"
+      }
+    },
+    "gal-002": {
+      "valor": 2,
+      "justificacion": "Defiende una tarifa eléctrica gallega más baja ligada a la condición de territorio excedentario en producción.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Documentos definitivos da XVIII Asemblea Nacional do BNG",
+        "url": "https://www.bng.gal/media/bnggaliza/files/2025/02/07/documentos_xviii_asemblea_definitivos_corrixido.pdf",
+        "fecha": "2025-02-07",
+        "consultado": "2026-07-09"
+      }
+    },
+    "gal-003": {
+      "valor": 2,
+      "justificacion": "Reclama competencia gallega plena sobre costa, litoral y sus aprovechamientos.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Documentos definitivos da XVIII Asemblea Nacional do BNG",
+        "url": "https://www.bng.gal/media/bnggaliza/files/2025/02/07/documentos_xviii_asemblea_definitivos_corrixido.pdf",
+        "fecha": "2025-02-07",
+        "consultado": "2026-07-09"
+      }
+    },
+    "gal-004": {
+      "valor": 2,
+      "justificacion": "Propone frenar la implantación eólica depredadora hasta asegurar planificación pública, retorno local y protección territorial.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Documentos definitivos da XVIII Asemblea Nacional do BNG",
+        "url": "https://www.bng.gal/media/bnggaliza/files/2025/02/07/documentos_xviii_asemblea_definitivos_corrixido.pdf",
+        "fecha": "2025-02-07",
+        "consultado": "2026-07-09"
+      }
+    },
+    "gal-005": {
+      "valor": 2,
+      "justificacion": "Defiende plena normalización y enseñanza en gallego sin topes estatales o autonómicos que limiten sus horas.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Documentos definitivos da XVIII Asemblea Nacional do BNG",
+        "url": "https://www.bng.gal/media/bnggaliza/files/2025/02/07/documentos_xviii_asemblea_definitivos_corrixido.pdf",
+        "fecha": "2025-02-07",
+        "consultado": "2026-07-09"
+      }
+    },
+    "def-002": {
+      "valor": 2,
+      "justificacion": "La posición común de la XVIII Asemblea es contraria a la OTAN y a la militarización.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Documentos definitivos da XVIII Asemblea Nacional do BNG",
+        "url": "https://www.bng.gal/media/bnggaliza/files/2025/02/07/documentos_xviii_asemblea_definitivos_corrixido.pdf",
+        "fecha": "2025-02-07",
+        "consultado": "2026-07-09"
+      }
+    },
+    "dem-014": {
+      "valor": 2,
+      "justificacion": "La Asemblea Nacional y el Consello Nacional estructuran un frente plural de base asamblearia con intervención decisoria de la militancia y colectivos.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "estatutos",
+        "titulo": "Documentos definitivos da XVIII Asemblea Nacional do BNG",
+        "url": "https://www.bng.gal/media/bnggaliza/files/2025/02/07/documentos_xviii_asemblea_definitivos_corrixido.pdf",
+        "fecha": "2025-02-07",
+        "consultado": "2026-07-09"
+      }
+    }
+  }
+}

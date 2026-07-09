@@ -1,0 +1,30 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "catalogo-formaciones.schema.json",
+  "title": "Catálogo público del Registro de Partidos Políticos",
+  "type": "object",
+  "required": ["fuente", "aplicacion", "consultado", "alcance", "total", "registros"],
+  "properties": {
+    "fuente": { "type": "string", "format": "uri", "pattern": "^https://" },
+    "aplicacion": { "type": "string", "format": "uri", "pattern": "^https://" },
+    "consultado": { "type": "string", "format": "date" },
+    "alcance": { "type": "string", "minLength": 30 },
+    "encabezadosOriginales": { "type": "array", "items": { "type": "string" } },
+    "total": { "type": "integer", "minimum": 1 },
+    "registros": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["denominacion", "siglas", "fechaInscripcion"],
+        "properties": {
+          "denominacion": { "type": "string", "minLength": 1 },
+          "siglas": { "type": ["string", "null"] },
+          "fechaInscripcion": { "type": ["string", "null"], "pattern": "^[0-9]{4}-[0-9]{2}-[0-9]{2}$" }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

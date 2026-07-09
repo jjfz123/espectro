@@ -1,0 +1,25 @@
+{
+  "id": "partido-del-bierzo",
+  "nombre": "Partido de El Bierzo",
+  "siglas": "PB",
+  "ambito": "autonomico",
+  "tipo": "partido",
+  "ccaa": ["castilla-y-leon"],
+  "confianza": "verificada",
+  "web": "https://www.partidodeelbierzo.org/",
+  "revisado": "2026-07-10",
+  "actividad": "activa",
+  "posiciones": {
+    "nac-015": {
+      "valor": 0,
+      "justificacion": "Su proyecto propio es una Región de El Bierzo con administración común y límites que atraviesan las provincias actuales; no equivale ni a asumir ni a negar sin matices la autonomía triprovincial leonesa.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Quiénes somos y programa del Partido de El Bierzo",
+        "url": "https://www.partidodeelbierzo.org/quienes-somos/",
+        "consultado": "2026-07-10"
+      }
+    }
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "id": "verdes-equo",
+  "nombre": "Verdes Equo (marca política Partido Verde)",
+  "siglas": "VERDES EQUO",
+  "ambito": "estatal",
+  "tipo": "partido",
+  "confianza": "verificada",
+  "web": "https://verdesequo.es/",
+  "revisado": "2026-07-09",
+  "actividad": "activa",
+  "posiciones": {
+    "ene-001": {
+      "valor": -2,
+      "justificacion": "Su transición energética excluye la nuclear y, por tanto, rechaza autorizar nuevas centrales.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Clima y energía de Verdes Equo",
+        "url": "https://verdesequo.es/clima-y-energia",
+        "fecha": "2026-07-09",
+        "consultado": "2026-07-09"
+      }
+    },
+    "ene-002": {
+      "valor": -2,
+      "justificacion": "No considera la nuclear parte de una inversión sostenible y propone una transición sin ella.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Clima y energía de Verdes Equo",
+        "url": "https://verdesequo.es/clima-y-energia",
+        "fecha": "2026-07-09",
+        "consultado": "2026-07-09"
+      }
+    },
+    "ene-003": {
+      "valor": 1,
+      "justificacion": "Defiende cerrar el parque y transitar a renovables; coincide con no conceder nuevas prórrogas, aunque la página no fija literalmente el calendario gubernamental vigente.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Clima y energía de Verdes Equo",
+        "url": "https://verdesequo.es/clima-y-energia",
+        "fecha": "2026-07-09",
+        "consultado": "2026-07-09"
+      }
+    },
+    "sd-002": {
+      "valor": -2,
+      "justificacion": "Las bases programáticas rechazan el rearme y el aumento de gasto ofensivo como respuesta a la inseguridad internacional.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Bases programáticas continuas de Verdes Equo",
+        "url": "https://asamblea.verdesequo.es/wp-content/uploads/2025/11/Programa-Electoral-Continuo-VQ-VF.pdf",
+        "fecha": "2025-11",
+        "consultado": "2026-07-09"
+      }
+    },
+    "geo-003": {
+      "valor": 1,
+      "justificacion": "Prioriza paz, seguridad humana y resolución multilateral frente al uso militar; el valor no es máximo porque el documento vivo no formula una renuncia absoluta a cualquier guerra solicitada por aliados.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Bases programáticas continuas de Verdes Equo",
+        "url": "https://asamblea.verdesequo.es/wp-content/uploads/2025/11/Programa-Electoral-Continuo-VQ-VF.pdf",
+        "fecha": "2025-11",
+        "consultado": "2026-07-09"
+      }
+    },
+    "dem-014": {
+      "valor": 2,
+      "justificacion": "Los estatutos permiten consultas vinculantes de toda la afiliación sobre decisiones políticas, activables con un umbral de miembros.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "estatutos",
+        "titulo": "Estatutos de Verdes Equo publicados en 2020",
+        "url": "https://verdesequo.es/wp-content/uploads/2021/03/ESTATUTOS-2020-V3CC.pdf",
+        "fecha": "2020",
+        "consultado": "2026-07-09"
+      }
+    }
+  }
+}

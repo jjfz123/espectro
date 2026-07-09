@@ -6,13 +6,26 @@
  */
 import type { Valor } from '@engine';
 import type { TipoEleccion } from '@engine';
-import { secuenciaItems } from './datos';
+import {
+  COMUNIDADES,
+  ITEMS,
+  ITEM_POR_ID,
+  MODULO_POR_ID,
+  itemVisible,
+  secuenciaItems,
+} from './datos';
 
-export type Fase = 'portada' | 'cuestionario' | 'modulos' | 'resultados';
+export type Fase =
+  | 'portada'
+  | 'cuestionario'
+  | 'fin-rapido'
+  | 'modulos'
+  | 'revision'
+  | 'resultados';
 export type Modo = 'rapido' | 'completo';
 
 export interface Estado {
-  version: 1;
+  version: 2;
   fase: Fase;
   /** '' = el usuario prefiere no indicar comunidad. */
   ccaa: string;
@@ -26,10 +39,12 @@ export interface Estado {
   modulosActivos: string[];
   /** Posición actual dentro de la secuencia de ítems. */
   indice: number;
+  /** La pregunta actual se abrió desde la revisión final. */
+  editando: boolean;
 }
 
 export const ESTADO_INICIAL: Estado = {
-  version: 1,
+  version: 2,
   fase: 'portada',
   ccaa: '',
   eleccion: 'generales',
@@ -38,30 +53,63 @@ export const ESTADO_INICIAL: Estado = {
   importantes: {},
   modulosActivos: [],
   indice: 0,
+  editando: false,
 };
 
 export type Accion =
   | { tipo: 'empezar'; ccaa: string; eleccion: TipoEleccion; modo: Modo }
+  | { tipo: 'actualizar-contexto'; ccaa: string; eleccion: TipoEleccion }
   | { tipo: 'continuar' }
   | { tipo: 'responder'; itemId: string; valor: Valor | null }
   | { tipo: 'marcar-importante'; itemId: string; importante: boolean }
   | { tipo: 'anterior' }
   | { tipo: 'siguiente' }
   | { tipo: 'confirmar-modulos'; seleccion: string[] }
+  | { tipo: 'ver-perfil-provisional' }
+  | { tipo: 'continuar-exhaustivo' }
   | { tipo: 'ir-a-modulos' }
+  | { tipo: 'ir-a-revision' }
+  | { tipo: 'editar-respuesta'; itemId: string }
+  | { tipo: 'terminar-edicion' }
   | { tipo: 'ir-a-resultados' }
   | { tipo: 'ir-a-portada' }
   | { tipo: 'reiniciar' }
   | { tipo: 'borrar-todo' };
 
 function primerSinResponder(estado: Estado): number {
-  const secuencia = secuenciaItems(estado.modulosActivos);
+  const secuencia = secuenciaItems(estado.modulosActivos, estado.respuestas);
   const i = secuencia.findIndex((item) => !(item.id in estado.respuestas));
   return i === -1 ? Math.max(0, secuencia.length - 1) : i;
 }
 
 function todoRespondido(estado: Estado): boolean {
-  return secuenciaItems(estado.modulosActivos).every((item) => item.id in estado.respuestas);
+  return secuenciaItems(estado.modulosActivos, estado.respuestas).every(
+    (item) => item.id in estado.respuestas,
+  );
+}
+
+function faseTrasCompletar(estado: Estado): Fase {
+  if (estado.modo === 'rapido' && estado.modulosActivos.length === 0) return 'fin-rapido';
+  if (estado.modo === 'completo' && estado.modulosActivos.length === 0) return 'modulos';
+  return 'resultados';
+}
+
+function limpiarCondicionalesOcultas(
+  respuestas: Record<string, Valor | null>,
+  importantes: Record<string, boolean>,
+): void {
+  let huboCambios = true;
+  while (huboCambios) {
+    huboCambios = false;
+    for (const item of ITEMS) {
+      if (!item.condicion || itemVisible(item, respuestas)) continue;
+      if (item.id in respuestas) {
+        delete respuestas[item.id];
+        huboCambios = true;
+      }
+      delete importantes[item.id];
+    }
+  }
 }
 
 export function reductor(estado: Estado, accion: Accion): Estado {
@@ -75,18 +123,26 @@ export function reductor(estado: Estado, accion: Accion): Estado {
         fase: 'cuestionario',
       };
 
+    case 'actualizar-contexto':
+      return { ...estado, ccaa: accion.ccaa, eleccion: accion.eleccion };
+
     case 'continuar': {
       if (todoRespondido(estado)) {
-        return { ...estado, fase: estado.modo === 'completo' && estado.modulosActivos.length === 0 ? 'modulos' : 'resultados' };
+        return { ...estado, fase: faseTrasCompletar(estado) };
       }
       return { ...estado, fase: 'cuestionario', indice: primerSinResponder(estado) };
     }
 
-    case 'responder':
+    case 'responder': {
+      const respuestas = { ...estado.respuestas, [accion.itemId]: accion.valor };
+      const importantes = { ...estado.importantes };
+      limpiarCondicionalesOcultas(respuestas, importantes);
       return {
         ...estado,
-        respuestas: { ...estado.respuestas, [accion.itemId]: accion.valor },
+        respuestas,
+        importantes,
       };
+    }
 
     case 'marcar-importante': {
       const importantes = { ...estado.importantes };
@@ -99,15 +155,12 @@ export function reductor(estado: Estado, accion: Accion): Estado {
       return estado.indice > 0 ? { ...estado, indice: estado.indice - 1 } : estado;
 
     case 'siguiente': {
-      const secuencia = secuenciaItems(estado.modulosActivos);
+      if (estado.editando) return { ...estado, fase: 'revision', editando: false };
+      const secuencia = secuenciaItems(estado.modulosActivos, estado.respuestas);
       if (estado.indice < secuencia.length - 1) {
         return { ...estado, indice: estado.indice + 1 };
       }
-      // Fin de la secuencia: en modo completo y sin módulos elegidos aún,
-      // toca la pantalla de desbloqueo; si no, los resultados.
-      const fase: Fase =
-        estado.modo === 'completo' && estado.modulosActivos.length === 0 ? 'modulos' : 'resultados';
-      return { ...estado, fase };
+      return { ...estado, fase: faseTrasCompletar(estado) };
     }
 
     case 'confirmar-modulos': {
@@ -116,14 +169,34 @@ export function reductor(estado: Estado, accion: Accion): Estado {
       return { ...siguiente, fase: 'cuestionario', indice: primerSinResponder(siguiente) };
     }
 
+    case 'ver-perfil-provisional':
+      return { ...estado, fase: 'resultados', editando: false };
+
+    case 'continuar-exhaustivo':
+      return { ...estado, modo: 'completo', fase: 'modulos', editando: false };
+
     case 'ir-a-modulos':
-      return { ...estado, fase: 'modulos' };
+      return { ...estado, modo: 'completo', fase: 'modulos', editando: false };
+
+    case 'ir-a-revision':
+      return { ...estado, fase: 'revision', editando: false };
+
+    case 'editar-respuesta': {
+      const indice = secuenciaItems(estado.modulosActivos, estado.respuestas).findIndex(
+        (item) => item.id === accion.itemId,
+      );
+      if (indice === -1) return estado;
+      return { ...estado, fase: 'cuestionario', indice, editando: true };
+    }
+
+    case 'terminar-edicion':
+      return { ...estado, fase: 'revision', editando: false };
 
     case 'ir-a-resultados':
-      return { ...estado, fase: 'resultados' };
+      return { ...estado, fase: 'resultados', editando: false };
 
     case 'ir-a-portada':
-      return { ...estado, fase: 'portada' };
+      return { ...estado, fase: 'portada', editando: false };
 
     case 'reiniciar':
       return { ...ESTADO_INICIAL, ccaa: estado.ccaa, eleccion: estado.eleccion, modo: estado.modo };
@@ -137,7 +210,14 @@ export function reductor(estado: Estado, accion: Accion): Estado {
 
 export const CLAVE_ALMACEN = 'espectro.v1';
 
-const FASES: Fase[] = ['portada', 'cuestionario', 'modulos', 'resultados'];
+const FASES: Fase[] = [
+  'portada',
+  'cuestionario',
+  'fin-rapido',
+  'modulos',
+  'revision',
+  'resultados',
+];
 const MODOS: Modo[] = ['rapido', 'completo'];
 const ELECCIONES_VALIDAS: TipoEleccion[] = ['generales', 'autonomicas', 'municipales', 'europeas'];
 const VALORES_VALIDOS = new Set([-2, -1, 0, 1, 2, null]);
@@ -147,12 +227,16 @@ export function cargarEstado(): Estado {
     const crudo = localStorage.getItem(CLAVE_ALMACEN);
     if (!crudo) return ESTADO_INICIAL;
     const datos = JSON.parse(crudo) as Partial<Estado>;
-    if (datos.version !== 1) return ESTADO_INICIAL;
+    const versionGuardada = (datos as { version?: unknown }).version;
+    if (versionGuardada !== 1 && versionGuardada !== 2) return ESTADO_INICIAL;
 
     const estado: Estado = {
       ...ESTADO_INICIAL,
       fase: FASES.includes(datos.fase as Fase) ? (datos.fase as Fase) : 'portada',
-      ccaa: typeof datos.ccaa === 'string' ? datos.ccaa : '',
+      ccaa:
+        typeof datos.ccaa === 'string' && COMUNIDADES.some((comunidad) => comunidad.id === datos.ccaa)
+          ? datos.ccaa
+          : '',
       eleccion: ELECCIONES_VALIDAS.includes(datos.eleccion as TipoEleccion)
         ? (datos.eleccion as TipoEleccion)
         : 'generales',
@@ -160,25 +244,30 @@ export function cargarEstado(): Estado {
       respuestas: {},
       importantes: {},
       modulosActivos: Array.isArray(datos.modulosActivos)
-        ? datos.modulosActivos.filter((m): m is string => typeof m === 'string')
+        ? [...new Set(datos.modulosActivos)].filter(
+            (m): m is string =>
+              typeof m === 'string' && m !== 'nucleo' && MODULO_POR_ID.has(m),
+          )
         : [],
       indice: typeof datos.indice === 'number' && datos.indice >= 0 ? Math.floor(datos.indice) : 0,
+      editando: datos.editando === true,
     };
 
     if (datos.respuestas && typeof datos.respuestas === 'object') {
       for (const [id, valor] of Object.entries(datos.respuestas)) {
-        if (VALORES_VALIDOS.has(valor as Valor | null)) {
+        if (ITEM_POR_ID.has(id) && VALORES_VALIDOS.has(valor as Valor | null)) {
           estado.respuestas[id] = valor as Valor | null;
         }
       }
     }
     if (datos.importantes && typeof datos.importantes === 'object') {
       for (const [id, marcado] of Object.entries(datos.importantes)) {
-        if (marcado === true) estado.importantes[id] = true;
+        if (marcado === true && ITEM_POR_ID.has(id)) estado.importantes[id] = true;
       }
     }
 
-    const secuencia = secuenciaItems(estado.modulosActivos);
+    limpiarCondicionalesOcultas(estado.respuestas, estado.importantes);
+    const secuencia = secuenciaItems(estado.modulosActivos, estado.respuestas);
     if (estado.indice >= secuencia.length) estado.indice = Math.max(0, secuencia.length - 1);
     if (estado.fase !== 'portada' && Object.keys(estado.respuestas).length === 0 && estado.fase !== 'cuestionario') {
       estado.fase = 'portada';
@@ -189,12 +278,14 @@ export function cargarEstado(): Estado {
   }
 }
 
-export function guardarEstado(estado: Estado): void {
+export function guardarEstado(estado: Estado): boolean {
   try {
     localStorage.setItem(CLAVE_ALMACEN, JSON.stringify(estado));
+    return true;
   } catch {
     // Sin almacenamiento disponible (modo privado restrictivo): la sesión
     // funciona igual, solo que no se conserva al recargar.
+    return false;
   }
 }
 

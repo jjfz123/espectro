@@ -1,0 +1,168 @@
+{
+  "id": "pce",
+  "nombre": "Partido Comunista de España",
+  "siglas": "PCE",
+  "ambito": "estatal",
+  "tipo": "partido",
+  "confianza": "verificada",
+  "web": "https://www.pce.es/",
+  "revisado": "2026-07-09",
+  "actividad": "activa",
+  "excepcionCatalogo": {
+    "motivo": "comunista-activa",
+    "justificacion": "Se incorpora por la excepción de cobertura de organizaciones comunistas activas. Esta excepción acredita actividad y autodefinición actuales, pero no implica candidatura propia en la convocatoria electoral seleccionada.",
+    "fuente": {
+      "tipo": "autoubicacion",
+      "titulo": "Partido Comunista de España: actualidad y definición del partido",
+      "url": "https://www.pce.es/",
+      "fecha": "2026-06-28",
+      "consultado": "2026-07-09"
+    }
+  },
+  "posiciones": {
+    "izq-001": {
+      "valor": 1,
+      "justificacion": "El PCE mantiene como horizonte la ruptura democrática y el socialismo, pero su estrategia documentada combina acumulación institucional, reformas y movilización; por eso el apoyo a que solo una ruptura produzca cambios profundos es condicionado.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Documento político del XXI Congreso del PCE",
+        "url": "https://cyl.pce.es/media/documents/DOCUMENTO_POLITICO_PCE_XXI_CONGRESO.pdf",
+        "fecha": "2022-07",
+        "consultado": "2026-07-09"
+      }
+    },
+    "izq-009": {
+      "valor": 2,
+      "justificacion": "Su estrategia impulsa una articulación confederal y plural que trascienda una mera coalición, incorporando partidos, colectivos y activistas en torno a un programa común de ruptura democrática.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Documento político del XXI Congreso del PCE",
+        "url": "https://cyl.pce.es/media/documents/DOCUMENTO_POLITICO_PCE_XXI_CONGRESO.pdf",
+        "fecha": "2022-07",
+        "consultado": "2026-07-09"
+      }
+    },
+    "izq-010": {
+      "valor": 2,
+      "justificacion": "El partido defiende expresamente su participación en el Gobierno de coalición progresista como instrumento para aplicar reformas y mejorar la correlación de fuerzas sin abandonar su horizonte propio.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Impulsar el programa del Gobierno progresista y acabar con la desestabilización golpista",
+        "url": "https://www.pce.es/impulsar-el-programa-del-gobierno-progresista-y-acabar-con-la-desestabilizacion-golpista-tras-haber-evitado-un-gobierno-reaccionario/",
+        "fecha": "2023-11-20",
+        "consultado": "2026-07-09"
+      }
+    },
+    "izq-018": {
+      "valor": -2,
+      "justificacion": "Los estatutos prohíben expresamente fracciones, corrientes y tendencias organizadas permanentes, aunque permiten plataformas temporales de opinión en procesos concretos.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "estatutos",
+        "titulo": "Estatutos del XXI Congreso del PCE",
+        "url": "https://pce.es/media/uploads/2023/03/01/54c6add68fa5402e804c25e12c7a76c0.pdf",
+        "fecha": "2022-07",
+        "consultado": "2026-07-09"
+      }
+    },
+    "dem-014": {
+      "valor": 1,
+      "justificacion": "Los estatutos prevén referéndum de toda la militancia para cuestiones que afecten a la línea estratégica, pero no exigen una votación universal para cada decisión estratégica ordinaria.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "estatutos",
+        "titulo": "Estatutos del XXI Congreso del PCE",
+        "url": "https://pce.es/media/uploads/2023/03/01/54c6add68fa5402e804c25e12c7a76c0.pdf",
+        "fecha": "2022-07",
+        "consultado": "2026-07-09"
+      }
+    },
+    "dem-015": {
+      "valor": 2,
+      "justificacion": "El centralismo democrático estatutario combina deliberación previa con unidad de acción, disciplina consciente y vinculación de toda la militancia a las decisiones adoptadas.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "estatutos",
+        "titulo": "Estatutos del XXI Congreso del PCE",
+        "url": "https://pce.es/media/uploads/2023/03/01/54c6add68fa5402e804c25e12c7a76c0.pdf",
+        "fecha": "2022-07",
+        "consultado": "2026-07-09"
+      }
+    },
+    "mon-001": {
+      "valor": 2,
+      "justificacion": "Propone una república federal y democrática en la que la población elija también la jefatura del Estado.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Documento político del XXI Congreso del PCE",
+        "url": "https://cyl.pce.es/media/documents/DOCUMENTO_POLITICO_PCE_XXI_CONGRESO.pdf",
+        "fecha": "2022-07",
+        "consultado": "2026-07-09"
+      }
+    },
+    "dem-020": {
+      "valor": 2,
+      "justificacion": "Vincula la ruptura democrática republicana a un proceso constituyente participativo y a un bloque plural de partidos, colectivos y personas independientes.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Documento político del XXI Congreso del PCE",
+        "url": "https://cyl.pce.es/media/documents/DOCUMENTO_POLITICO_PCE_XXI_CONGRESO.pdf",
+        "fecha": "2022-07",
+        "consultado": "2026-07-09"
+      }
+    },
+    "def-002": {
+      "valor": 2,
+      "justificacion": "Su documento de paz y seguridad reclama la disolución o el abandono de la OTAN y el repliegue de las bases estadounidenses.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Por una política de paz, seguridad compartida y desarme",
+        "url": "https://pce.es/media/uploads/2025/03/18/eb561045a6d54ac6a9869c0b0e20f93e.pdf",
+        "fecha": "2025-03",
+        "consultado": "2026-07-09"
+      }
+    },
+    "sd-002": {
+      "valor": -2,
+      "justificacion": "El documento rechaza cualquier subida del gasto militar y propone destinar esos recursos a necesidades sociales y a una política de seguridad compartida.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Por una política de paz, seguridad compartida y desarme",
+        "url": "https://pce.es/media/uploads/2025/03/18/eb561045a6d54ac6a9869c0b0e20f93e.pdf",
+        "fecha": "2025-03",
+        "consultado": "2026-07-09"
+      }
+    },
+    "geo-006": {
+      "valor": 1,
+      "justificacion": "Propone promover un tratado internacional de prohibición y destrucción de todo el arsenal nuclear mundial; la fuente apoya el objetivo, aunque no formula literalmente la ratificación española del TPNW contra la posición aliada.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Por una política de paz, seguridad compartida y desarme",
+        "url": "https://pce.es/media/uploads/2025/03/18/eb561045a6d54ac6a9869c0b0e20f93e.pdf",
+        "fecha": "2025-03",
+        "consultado": "2026-07-09"
+      }
+    },
+    "izq-031": {
+      "valor": -2,
+      "justificacion": "Su participación continuada en coaliciones electorales y en gobiernos contradice el boicot electoral como principio general.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Impulsar el programa del Gobierno progresista y acabar con la desestabilización golpista",
+        "url": "https://www.pce.es/impulsar-el-programa-del-gobierno-progresista-y-acabar-con-la-desestabilizacion-golpista-tras-haber-evitado-un-gobierno-reaccionario/",
+        "fecha": "2023-11-20",
+        "consultado": "2026-07-09"
+      }
+    }
+  }
+}
