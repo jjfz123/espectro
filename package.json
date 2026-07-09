@@ -10,7 +10,8 @@
   "scripts": {
     "test": "vitest run",
     "typecheck": "tsc --noEmit",
-    "validate:data": "node scripts/validate-data.mjs"
+    "validate:data": "node scripts/validate-data.mjs",
+    "web:build": "npm --prefix web run build"
   },
   "devDependencies": {
     "@types/node": "^26.1.1",
