@@ -1,0 +1,30 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "item.schema.json",
+  "title": "Ítem (afirmación) del banco de preguntas",
+  "type": "object",
+  "required": ["id", "texto", "modulo", "ejes"],
+  "properties": {
+    "id": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+    "texto": { "type": "string", "minLength": 15 },
+    "modulo": { "type": "string" },
+    "ejes": {
+      "type": "array",
+      "description": "Cargas del ítem sobre los ejes. Puede estar vacío: ítems solo-matching que discriminan entre partidos sin puntuar ejes.",
+      "items": {
+        "type": "object",
+        "required": ["eje", "carga"],
+        "properties": {
+          "eje": { "type": "string" },
+          "carga": { "type": "number", "minimum": -1, "maximum": 1 }
+        },
+        "additionalProperties": false
+      }
+    },
+    "polaridad": { "enum": ["positiva", "negativa"], "description": "Para equilibrar el signo de las afirmaciones del banco" },
+    "tags": { "type": "array", "items": { "type": "string" } },
+    "estado": { "enum": ["activo", "piloto", "retirado"], "default": "piloto" },
+    "notas": { "type": "string" }
+  },
+  "additionalProperties": false
+}

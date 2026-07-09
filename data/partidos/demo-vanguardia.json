@@ -1,0 +1,30 @@
+{
+  "id": "demo-vanguardia",
+  "nombre": "Partido Vanguardia Obrera (DEMO)",
+  "siglas": "PVO",
+  "ambito": "estatal",
+  "confianza": "estimada",
+  "demo": true,
+  "posiciones": {
+    "eco-001": { "valor": 2, "justificacion": "DEMO: fiscalidad fuertemente progresiva.", "fuente": { "tipo": "otro", "cita": "Partido ficticio de demostración." } },
+    "eco-002": { "valor": -2 },
+    "eco-003": { "valor": 2 },
+    "eco-004": { "valor": -2 },
+    "soc-001": { "valor": 1 },
+    "soc-002": { "valor": -2 },
+    "soc-003": { "valor": 0 },
+    "ter-001": { "valor": 0 },
+    "ter-002": { "valor": 1 },
+    "ue-001": { "valor": 2 },
+    "ecl-001": { "valor": 1 },
+    "pop-001": { "valor": 2 },
+    "izq-001": { "valor": 2, "justificacion": "DEMO: tesis rupturista clásica." },
+    "izq-002": { "valor": 2, "justificacion": "DEMO: centralismo democrático y partido de vanguardia." },
+    "izq-003": { "valor": -2 },
+    "izq-004": { "valor": 1 },
+    "izq-005": { "valor": 2 },
+    "izq-006": { "valor": 1 },
+    "izq-007": { "valor": -2 },
+    "izq-008": { "valor": 0 }
+  }
+}

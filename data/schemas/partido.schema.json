@@ -1,0 +1,49 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "partido.schema.json",
+  "title": "Partido político",
+  "type": "object",
+  "required": ["id", "nombre", "ambito", "confianza", "posiciones"],
+  "properties": {
+    "id": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+    "nombre": { "type": "string" },
+    "siglas": { "type": "string" },
+    "ambito": { "enum": ["estatal", "autonomico", "insular", "local"] },
+    "ccaa": { "type": "array", "items": { "type": "string" } },
+    "confianza": {
+      "enum": ["verificada", "estimada", "sin-datos"],
+      "description": "verificada: autoubicación del partido o codificación experta con cita. estimada: inferida de programa/estatutos/actividad. sin-datos: listado sin matching."
+    },
+    "demo": { "type": "boolean", "description": "true = partido ficticio de demostración; prohibido en producción" },
+    "registroMir": { "type": "string", "description": "Referencia en el Registro de Partidos del Ministerio del Interior" },
+    "web": { "type": "string" },
+    "posiciones": {
+      "type": "object",
+      "patternProperties": {
+        "^[a-z0-9-]+$": {
+          "type": "object",
+          "required": ["valor"],
+          "properties": {
+            "valor": { "type": "integer", "minimum": -2, "maximum": 2 },
+            "justificacion": { "type": "string", "maxLength": 500 },
+            "fuente": {
+              "type": "object",
+              "required": ["tipo"],
+              "properties": {
+                "tipo": { "enum": ["programa", "votacion", "declaracion", "autoubicacion", "estatutos", "otro"] },
+                "titulo": { "type": "string" },
+                "url": { "type": "string" },
+                "fecha": { "type": "string" },
+                "cita": { "type": "string", "maxLength": 500 }
+              },
+              "additionalProperties": false
+            }
+          },
+          "additionalProperties": false
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,30 @@
+{
+  "id": "demo-consejista",
+  "nombre": "Corriente Consejista Libertaria (DEMO)",
+  "siglas": "CCL",
+  "ambito": "estatal",
+  "confianza": "estimada",
+  "demo": true,
+  "posiciones": {
+    "eco-001": { "valor": 2 },
+    "eco-002": { "valor": -2 },
+    "eco-003": { "valor": 2 },
+    "eco-004": { "valor": -2 },
+    "soc-001": { "valor": 2 },
+    "soc-002": { "valor": -2 },
+    "soc-003": { "valor": -2 },
+    "ter-001": { "valor": -1 },
+    "ter-002": { "valor": 2 },
+    "ue-001": { "valor": 1 },
+    "ecl-001": { "valor": 2 },
+    "pop-001": { "valor": 1 },
+    "izq-001": { "valor": 2, "justificacion": "DEMO: ruptura sí, pero desde abajo." },
+    "izq-002": { "valor": -2, "justificacion": "DEMO: rechazo frontal del partido de vanguardia." },
+    "izq-003": { "valor": 2 },
+    "izq-004": { "valor": -2 },
+    "izq-005": { "valor": 1 },
+    "izq-006": { "valor": -2 },
+    "izq-007": { "valor": 2 },
+    "izq-008": { "valor": 2 }
+  }
+}

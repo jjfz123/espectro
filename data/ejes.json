@@ -1,0 +1,68 @@
+[
+  {
+    "id": "economico",
+    "nombre": "Eje económico",
+    "poloNegativo": "Izquierda económica (redistribución, intervención estatal)",
+    "poloPositivo": "Derecha económica (mercado, baja fiscalidad)",
+    "descripcion": "Impuestos, gasto social, regulación laboral, papel del Estado en la economía."
+  },
+  {
+    "id": "social",
+    "nombre": "Eje social/cultural (GAL–TAN)",
+    "poloNegativo": "Verde/Alternativo/Libertario (GAL)",
+    "poloPositivo": "Tradicional/Autoritario/Nacionalista (TAN)",
+    "descripcion": "Inmigración, derechos LGTB, orden público, moral pública. Segunda dimensión del CHES."
+  },
+  {
+    "id": "territorial",
+    "nombre": "Eje territorial",
+    "poloNegativo": "Máxima descentralización, incluido derecho a decidir",
+    "poloPositivo": "Máxima centralización estatal",
+    "descripcion": "El eje distintivo del sistema de partidos español, ortogonal al izquierda-derecha."
+  },
+  {
+    "id": "ue",
+    "nombre": "Integración europea",
+    "poloNegativo": "Europeísmo (más integración)",
+    "poloPositivo": "Euroescepticismo (menos integración)",
+    "descripcion": "Cesión de soberanía, normativa europea, ampliación."
+  },
+  {
+    "id": "ecologia",
+    "nombre": "Ecologismo",
+    "poloNegativo": "Productivismo (crecimiento primero)",
+    "poloPositivo": "Ecologismo (transición ambiental primero)",
+    "descripcion": "Transición energética, protección ambiental frente a coste económico."
+  },
+  {
+    "id": "populismo",
+    "nombre": "Populismo",
+    "poloNegativo": "Pluralismo institucional",
+    "poloPositivo": "Antielitismo (pueblo frente a élites)",
+    "descripcion": "Actitud hacia élites, instituciones y mediación política."
+  },
+  {
+    "id": "metodo-cambio",
+    "nombre": "Método de cambio (izquierda)",
+    "poloNegativo": "Reformismo gradual",
+    "poloPositivo": "Ruptura revolucionaria",
+    "descripcion": "Sub-eje del módulo de corrientes de la izquierda.",
+    "subEje": true
+  },
+  {
+    "id": "organizacion",
+    "nombre": "Modelo organizativo (izquierda)",
+    "poloNegativo": "Horizontalismo, consejos y asambleas",
+    "poloPositivo": "Vanguardismo, partido dirigente",
+    "descripcion": "Sub-eje que separa leninismo/estalinismo/maoísmo de luxemburguismo, consejismo y anarcocomunismo.",
+    "subEje": true
+  },
+  {
+    "id": "tradicion-moral",
+    "nombre": "Moral pública (derecha)",
+    "poloNegativo": "Libertario en costumbres (línea liberal / pro-LGTB)",
+    "poloPositivo": "Tradicionalismo moral (derecha confesional)",
+    "descripcion": "Sub-eje que separa la derecha liberal en costumbres de la derecha cristiana/tradicionalista.",
+    "subEje": true
+  }
+]

@@ -1,0 +1,23 @@
+{
+  "id": "id-en-minusculas-con-guiones",
+  "nombre": "Nombre oficial en el Registro de Partidos",
+  "siglas": "SIGLAS",
+  "ambito": "estatal | autonomico | insular | local",
+  "ccaa": ["canarias"],
+  "confianza": "verificada | estimada | sin-datos",
+  "registroMir": "Nº de inscripción en el Registro del Ministerio del Interior",
+  "web": "https://...",
+  "posiciones": {
+    "eco-001": {
+      "valor": 0,
+      "justificacion": "Máx. 500 caracteres. Idealmente redactada por el propio partido (modelo Wahl-O-Mat).",
+      "fuente": {
+        "tipo": "programa | votacion | declaracion | autoubicacion | estatutos | otro",
+        "titulo": "Programa electoral generales 20XX, pág. N / Votación nº X Congreso",
+        "url": "https://...",
+        "fecha": "AAAA-MM-DD",
+        "cita": "Extracto textual verificable (máx. 500 caracteres, modelo EU&I)."
+      }
+    }
+  }
+}

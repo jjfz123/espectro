@@ -1,0 +1,33 @@
+[
+  {
+    "id": "nucleo",
+    "nombre": "Núcleo",
+    "descripcion": "35-40 ítems finales que posicionan en los ejes principales y sirven para el matching electoral rápido.",
+    "orden": 1,
+    "desbloqueo": { "tipo": "siempre" }
+  },
+  {
+    "id": "corrientes-izquierda",
+    "nombre": "Corrientes de la izquierda",
+    "descripcion": "Reforma/revolución, vanguardia/consejos, plan/mercado, internacionalismo, balance de la URSS. Separa marxismo-leninismo, maoísmo, trotskismo, luxemburguismo, anarcocomunismo y socialdemocracia.",
+    "orden": 2,
+    "eleccionUsuario": true,
+    "desbloqueo": { "tipo": "eje", "eje": "economico", "operador": "<=", "umbral": -40 }
+  },
+  {
+    "id": "corrientes-derecha",
+    "nombre": "Corrientes de la derecha",
+    "descripcion": "Tradicionalismo confesional vs. libertarianismo, proteccionismo nacional vs. libre mercado, derecha liberal en costumbres (línea pro-LGTB) vs. derecha moral.",
+    "orden": 3,
+    "eleccionUsuario": true,
+    "desbloqueo": { "tipo": "eje", "eje": "economico", "operador": ">=", "umbral": 40 }
+  },
+  {
+    "id": "territorial-canarias",
+    "nombre": "Territorial: Canarias",
+    "descripcion": "REF, insularidad, ultraperiferia, descuento de residente, frontera sur. Plantilla replicable para el resto de CCAA.",
+    "orden": 4,
+    "eleccionUsuario": true,
+    "desbloqueo": { "tipo": "ccaa", "ccaa": "canarias" }
+  }
+]

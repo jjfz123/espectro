@@ -1,0 +1,27 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "modulo.schema.json",
+  "title": "Módulo de ítems",
+  "type": "object",
+  "required": ["id", "nombre", "desbloqueo"],
+  "properties": {
+    "id": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+    "nombre": { "type": "string" },
+    "descripcion": { "type": "string" },
+    "orden": { "type": "integer" },
+    "eleccionUsuario": { "type": "boolean", "description": "El usuario puede activarlo manualmente aunque no se desbloquee" },
+    "desbloqueo": {
+      "type": "object",
+      "required": ["tipo"],
+      "properties": {
+        "tipo": { "enum": ["siempre", "eje", "ccaa"] },
+        "eje": { "type": "string" },
+        "operador": { "enum": ["<=", ">="] },
+        "umbral": { "type": "number", "minimum": -100, "maximum": 100 },
+        "ccaa": { "type": "string" }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}

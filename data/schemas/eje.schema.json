@@ -1,0 +1,16 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "eje.schema.json",
+  "title": "Eje ideológico",
+  "type": "object",
+  "required": ["id", "nombre", "poloNegativo", "poloPositivo"],
+  "properties": {
+    "id": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+    "nombre": { "type": "string" },
+    "poloNegativo": { "type": "string", "description": "Significado de -100" },
+    "poloPositivo": { "type": "string", "description": "Significado de +100" },
+    "descripcion": { "type": "string" },
+    "subEje": { "type": "boolean", "description": "true si solo se mide en módulos de profundización" }
+  },
+  "additionalProperties": false
+}
