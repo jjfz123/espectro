@@ -1,0 +1,164 @@
+[
+  {
+    "id": "democracia-organica",
+    "termino": "Democracia orgánica",
+    "definicion": "Sistema de representación del franquismo en el que la participación política no pasaba por partidos y sufragio universal, sino por las llamadas «entidades naturales»: la familia, el municipio y el sindicato oficial. Sus defensores la presentan como alternativa al parlamentarismo de partidos; en la práctica histórica excluyó el pluralismo político.",
+    "url": "https://es.wikipedia.org/wiki/Democracia_org%C3%A1nica"
+  },
+  {
+    "id": "sindicato-vertical",
+    "termino": "Sindicato vertical",
+    "definicion": "Modelo sindical del nacionalsindicalismo y del franquismo: una única organización obligatoria por sector que integra juntos a trabajadores y empresarios, en lugar de sindicatos de clase independientes de la patronal. Es la propuesta laboral histórica del falangismo.",
+    "url": "https://es.wikipedia.org/wiki/Organizaci%C3%B3n_Sindical_Espa%C3%B1ola"
+  },
+  {
+    "id": "partido-de-vanguardia",
+    "termino": "Partido de vanguardia",
+    "definicion": "En la tradición leninista, partido de revolucionarios organizados y disciplinados que dirige a la clase trabajadora en el proceso revolucionario. Sus críticos dentro de la propia izquierda (consejismo, anarquismo) lo consideran germen de burocratización; para el leninismo es condición de victoria.",
+    "url": "https://es.wikipedia.org/wiki/Partido_de_vanguardia"
+  },
+  {
+    "id": "asamblearismo",
+    "termino": "Asamblearismo",
+    "definicion": "Forma de organización en la que las decisiones se toman en asambleas abiertas de base, no por dirigentes o comités permanentes. Se asocia al anarquismo y a movimientos como el 15-M; en España la practica institucionalmente la CUP.",
+    "url": "https://es.wikipedia.org/wiki/Asamblear%C3%ADsmo"
+  },
+  {
+    "id": "accion-directa",
+    "termino": "Acción directa",
+    "definicion": "Actuar sin intermediarios institucionales para lograr fines políticos o laborales: huelgas, boicots, ocupaciones. En la tradición anarcosindicalista se opone a la acción parlamentaria y a la negociación delegada. No implica necesariamente violencia, aunque a veces se confunde con ella.",
+    "url": "https://es.wikipedia.org/wiki/Acci%C3%B3n_directa"
+  },
+  {
+    "id": "planificacion-economica",
+    "termino": "Planificación económica",
+    "definicion": "Organización de la producción mediante un plan público (qué, cuánto y dónde se produce) en lugar de dejarla al mercado. Puede ser total (economías de tipo soviético) o parcial (sectores estratégicos planificados y resto de mercado).",
+    "url": "https://es.wikipedia.org/wiki/Econom%C3%ADa_planificada"
+  },
+  {
+    "id": "socialismo-en-un-pais",
+    "termino": "Socialismo en un solo país",
+    "definicion": "Tesis asociada a Stalin: es posible y prioritario construir el socialismo dentro de las fronteras de un país, sin esperar a la revolución mundial. Se opone al internacionalismo de la revolución permanente defendido por Trotski. La disputa sigue dividiendo a las corrientes comunistas.",
+    "url": "https://es.wikipedia.org/wiki/Socialismo_en_un_solo_pa%C3%ADs"
+  },
+  {
+    "id": "autodeterminacion",
+    "termino": "Derecho de autodeterminación",
+    "definicion": "Derecho de un pueblo a decidir su estatus político, incluida la posibilidad de formar un Estado propio. En derecho internacional se reconoce con claridad para casos coloniales; su aplicación a territorios de Estados democráticos (Cataluña, Euskadi, Escocia, Quebec) es jurídicamente discutida — ahí está exactamente el debate político.",
+    "url": "https://es.wikipedia.org/wiki/Derecho_de_autodeterminaci%C3%B3n"
+  },
+  {
+    "id": "concierto-economico",
+    "termino": "Concierto económico (y convenio navarro)",
+    "definicion": "Sistema de financiación propio de Euskadi (concierto) y Navarra (convenio): sus haciendas recaudan casi todos los impuestos y pagan al Estado una cantidad («cupo» o «aportación») por los servicios comunes. Sus defensores lo consideran un derecho histórico reconocido en la Constitución; sus críticos, un privilegio respecto a la financiación del resto de comunidades.",
+    "url": "https://es.wikipedia.org/wiki/Concierto_econ%C3%B3mico"
+  },
+  {
+    "id": "ref-canario",
+    "termino": "REF (Régimen Económico y Fiscal de Canarias)",
+    "definicion": "Conjunto de especialidades económicas y fiscales de Canarias reconocidas por su lejanía e insularidad: impuestos indirectos propios más bajos que el IVA (IGIC), incentivos a la inversión y compensaciones al transporte. No es un sistema de financiación como el concierto vasco: Canarias sigue en el régimen común.",
+    "url": "https://es.wikipedia.org/wiki/R%C3%A9gimen_Econ%C3%B3mico_y_Fiscal_de_Canarias"
+  },
+  {
+    "id": "region-ultraperiferica",
+    "termino": "Región ultraperiférica (RUP)",
+    "definicion": "Estatus que la UE reconoce a territorios europeos alejados del continente (Canarias, Madeira, Azores, departamentos franceses de ultramar): permite excepciones a las normas europeas y ayudas específicas por sus desventajas estructurales permanentes.",
+    "url": "https://es.wikipedia.org/wiki/Regi%C3%B3n_ultraperif%C3%A9rica"
+  },
+  {
+    "id": "reintegracionismo",
+    "termino": "Reintegracionismo",
+    "definicion": "Corriente lingüística que sostiene que el gallego y el portugués son variantes de una misma lengua, y que el gallego debería escribirse con una ortografía próxima a la portuguesa. Se opone a la norma oficial (aislacionista) de la Real Academia Galega. Tiene ecos políticos en parte del nacionalismo gallego.",
+    "url": "https://es.wikipedia.org/wiki/Reintegracionismo"
+  },
+  {
+    "id": "foralismo",
+    "termino": "Foralismo / derechos históricos",
+    "definicion": "Defensa de los fueros: los regímenes jurídicos e instituciones propias que ciertos territorios (Euskadi, Navarra) mantuvieron históricamente y que la Constitución «ampara y respeta» en su disposición adicional primera. El foralismo busca ampliar el autogobierno actualizando esos derechos, sin necesidad de independencia; fue también bandera del carlismo.",
+    "url": "https://es.wikipedia.org/wiki/Derechos_hist%C3%B3ricos_(Espa%C3%B1a)"
+  },
+  {
+    "id": "ordinalidad",
+    "termino": "Principio de ordinalidad",
+    "definicion": "Criterio según el cual la solidaridad entre territorios no debería alterar su orden: una comunidad que aporta más de lo que recibe no debería quedar, tras la redistribución, por detrás en financiación por habitante de las que reciben. Lo reivindican sobre todo Cataluña y otros territorios contribuyentes netos; sus críticos alegan que limita la redistribución.",
+    "url": "https://es.wikipedia.org/wiki/Balanza_fiscal"
+  },
+  {
+    "id": "gestacion-subrogada",
+    "termino": "Gestación subrogada",
+    "definicion": "Técnica en la que una mujer gesta un bebé para otras personas. En España está prohibida; el debate distingue la modalidad «altruista» (sin pago, solo compensación) de la comercial. La divide de forma peculiar: la defienden sectores liberales y la rechazan a la vez el feminismo clásico y el conservadurismo moral, por razones opuestas.",
+    "url": "https://es.wikipedia.org/wiki/Gestaci%C3%B3n_subrogada"
+  },
+  {
+    "id": "autodeterminacion-genero",
+    "termino": "Autodeterminación de género",
+    "definicion": "Principio por el que una persona puede cambiar su sexo registral por su sola voluntad manifestada, sin informes médicos ni psicológicos. Es el núcleo de la «ley trans» española de 2023 y el punto exacto que divide tanto a la izquierda (feminismo clásico crítico vs. feminismo interseccional favorable) como a la derecha.",
+    "url": "https://es.wikipedia.org/wiki/Autodeterminaci%C3%B3n_de_g%C3%A9nero"
+  },
+  {
+    "id": "mochila-austriaca",
+    "termino": "Mochila austriaca",
+    "definicion": "Sistema laboral en el que la empresa aporta cada mes a un fondo individual del trabajador, que este conserva al cambiar de empleo y puede cobrar si es despedido o al jubilarse; sustituye (total o parcialmente) a la indemnización por despido. Propuesta identitaria del socioliberalismo español.",
+    "url": "https://es.wikipedia.org/wiki/Mochila_austriaca"
+  },
+  {
+    "id": "impuesto-plano",
+    "termino": "Impuesto plano (tipo único)",
+    "definicion": "IRPF con un solo porcentaje para todas las rentas, en lugar de tramos crecientes (progresividad). Sus defensores alegan sencillez y neutralidad; sus críticos, que renuncia a la redistribución: con tipo único, quien más gana deja de pagar proporcionalmente más.",
+    "url": "https://es.wikipedia.org/wiki/Impuesto_plano"
+  },
+  {
+    "id": "pensiones-capitalizacion",
+    "termino": "Capitalización vs. reparto (pensiones)",
+    "definicion": "En el sistema de reparto (el español), las cotizaciones de los trabajadores de hoy pagan las pensiones de los jubilados de hoy. En el de capitalización, cada persona acumula su propio fondo invertido. La disputa: el reparto depende de la demografía; la capitalización, de los mercados, y la transición entre sistemas es costosa.",
+    "url": "https://es.wikipedia.org/wiki/Sistema_de_pensiones"
+  },
+  {
+    "id": "educacion-concertada",
+    "termino": "Educación concertada",
+    "definicion": "Colegios de titularidad privada (mayoritariamente religiosos en España) financiados con dinero público mediante «conciertos». Es la vía intermedia entre pública y privada, y uno de los ejes del debate educativo: libertad de elección de las familias frente a prioridad de la red pública.",
+    "url": "https://es.wikipedia.org/wiki/Educaci%C3%B3n_concertada"
+  },
+  {
+    "id": "agenda-2030",
+    "termino": "Agenda 2030",
+    "definicion": "Plan de la ONU (2015) con 17 Objetivos de Desarrollo Sostenible: pobreza, clima, igualdad, etc. En la política española funciona además como símbolo: la derecha radical la rechaza en bloque como agenda globalista, mientras el resto del arco la asume con distintos grados de entusiasmo.",
+    "url": "https://es.wikipedia.org/wiki/Objetivos_de_Desarrollo_Sostenible"
+  },
+  {
+    "id": "amnistia",
+    "termino": "Amnistía",
+    "definicion": "Extinción por ley de la responsabilidad penal por ciertos hechos pasados, que se consideran no perseguibles en adelante; a diferencia del indulto (que perdona la pena a una persona concreta condenada), borra el reproche penal de una categoría de hechos. Su constitucionalidad y oportunidad en el caso del procés es objeto de disputa jurídica y política.",
+    "url": "https://es.wikipedia.org/wiki/Amnist%C3%ADa"
+  },
+  {
+    "id": "decrecimiento",
+    "termino": "Decrecimiento",
+    "definicion": "Corriente que sostiene que el crecimiento económico ilimitado es incompatible con los límites del planeta, y que las economías ricas deben reducir de forma planificada producción y consumo priorizando el bienestar. Se opone tanto al productivismo clásico como al «crecimiento verde».",
+    "url": "https://es.wikipedia.org/wiki/Decrecimiento"
+  },
+  {
+    "id": "edicion-genetica",
+    "termino": "Edición genética",
+    "definicion": "Técnicas (como CRISPR) que modifican el ADN de plantas o animales con precisión. En agricultura, la UE debate si las nuevas técnicas deben regularse como los transgénicos clásicos o de forma más laxa; el ecologismo está dividido entre el rechazo y el uso como herramienta climática.",
+    "url": "https://es.wikipedia.org/wiki/Edici%C3%B3n_gen%C3%A9tica"
+  },
+  {
+    "id": "zonificacion-euskera",
+    "termino": "Zonificación lingüística de Navarra",
+    "definicion": "La ley foral divide Navarra en tres zonas (vascófona, mixta y no vascófona) con distintos derechos lingüísticos y presencia del euskera en escuela y administración según la zona. Mantenerla, suavizarla o suprimirla (oficialidad en toda Navarra) es uno de los ejes de la política navarra.",
+    "url": "https://es.wikipedia.org/wiki/Ley_Foral_del_Vascuence"
+  },
+  {
+    "id": "bateas",
+    "termino": "Bateas",
+    "definicion": "Plataformas flotantes de cultivo de mejillón y otros moluscos, características de las rías gallegas. Su regulación (ocupación del litoral, relevo generacional, convivencia con otros usos del mar) es un asunto económico y político propio de Galicia.",
+    "url": "https://es.wikipedia.org/wiki/Batea_(acuicultura)"
+  },
+  {
+    "id": "ley-plazos",
+    "termino": "Ley de plazos vs. ley de supuestos (aborto)",
+    "definicion": "Una ley de plazos permite abortar libremente durante las primeras semanas (en España, 14). Una ley de supuestos solo lo permite en casos tasados (violación, riesgo para la madre, malformación), como la española de 1985. Volver a supuestos o mantener plazos es la frontera del debate.",
+    "url": "https://es.wikipedia.org/wiki/Interrupci%C3%B3n_voluntaria_del_embarazo_en_Espa%C3%B1a"
+  }
+]

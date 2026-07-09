@@ -22,8 +22,18 @@ export interface Item {
   ejes: CargaEje[];
   polaridad?: 'positiva' | 'negativa';
   tags?: string[];
+  /** ids de términos del glosario que la interfaz debe explicar junto al ítem. */
+  terminos?: string[];
   estado?: 'activo' | 'piloto' | 'retirado';
   notas?: string;
+}
+
+/** Entrada del glosario: definición de consenso + enlace de referencia. */
+export interface Termino {
+  id: string;
+  termino: string;
+  definicion: string;
+  url: string;
 }
 
 export interface Respuesta {

@@ -14,7 +14,10 @@
       "ref",
       "fiscalidad"
     ],
-    "estado": "piloto"
+    "estado": "piloto",
+    "terminos": [
+      "ref-canario"
+    ]
   },
   {
     "id": "can-002",
@@ -61,7 +64,10 @@
       "rup",
       "ue"
     ],
-    "estado": "piloto"
+    "estado": "piloto",
+    "terminos": [
+      "region-ultraperiferica"
+    ]
   },
   {
     "id": "can-005",
@@ -90,7 +96,10 @@
     "tags": [
       "financiacion"
     ],
-    "estado": "piloto"
+    "estado": "piloto",
+    "terminos": [
+      "concierto-economico"
+    ]
   },
   {
     "id": "can-007",

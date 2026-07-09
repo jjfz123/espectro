@@ -30,7 +30,10 @@
       "leninismo",
       "vanguardia"
     ],
-    "estado": "piloto"
+    "estado": "piloto",
+    "terminos": [
+      "partido-de-vanguardia"
+    ]
   },
   {
     "id": "izq-003",
@@ -47,7 +50,10 @@
       "consejismo",
       "anarquismo"
     ],
-    "estado": "piloto"
+    "estado": "piloto",
+    "terminos": [
+      "asamblearismo"
+    ]
   },
   {
     "id": "izq-004",
@@ -76,7 +82,10 @@
     "tags": [
       "planificacion"
     ],
-    "estado": "piloto"
+    "estado": "piloto",
+    "terminos": [
+      "planificacion-economica"
+    ]
   },
   {
     "id": "izq-006",
@@ -89,7 +98,10 @@
       "internacionalismo"
     ],
     "estado": "piloto",
-    "notas": "Solo-matching: socialismo en un país vs. internacionalismo."
+    "notas": "Solo-matching: socialismo en un país vs. internacionalismo.",
+    "terminos": [
+      "socialismo-en-un-pais"
+    ]
   },
   {
     "id": "izq-007",
@@ -122,7 +134,10 @@
       "luxemburguismo",
       "sindicalismo"
     ],
-    "estado": "piloto"
+    "estado": "piloto",
+    "terminos": [
+      "accion-directa"
+    ]
   },
   {
     "id": "izq-009",
@@ -258,7 +273,10 @@
       "derechos"
     ],
     "estado": "piloto",
-    "notas": "Discrimina: Más fino que el ítem LGTB del núcleo: separa PCE (apoyó la autodeterminación de género, con debate interno) y trotskismo (+2) del PCTE (crítico con la teoría queer, -1) y de Frente Obrero (rechazo, -2). | Esperado: trotskismo (IR, Corriente Roja) +2, PCE/IU +1, luxemburguismo +1, PCTE -1, PCOE -1, Frente Obrero -2. | [Auditoría de equifinalidad: Equifinalidad: el desacuerdo dentro de la izquierda viene tanto del rojipardismo (tradicionalismo real) como del feminismo gender-critical (que no es tradicionalismo moral). Solo-matching.]"
+    "notas": "Discrimina: Más fino que el ítem LGTB del núcleo: separa PCE (apoyó la autodeterminación de género, con debate interno) y trotskismo (+2) del PCTE (crítico con la teoría queer, -1) y de Frente Obrero (rechazo, -2). | Esperado: trotskismo (IR, Corriente Roja) +2, PCE/IU +1, luxemburguismo +1, PCTE -1, PCOE -1, Frente Obrero -2. | [Auditoría de equifinalidad: Equifinalidad: el desacuerdo dentro de la izquierda viene tanto del rojipardismo (tradicionalismo real) como del feminismo gender-critical (que no es tradicionalismo moral). Solo-matching.]",
+    "terminos": [
+      "autodeterminacion-genero"
+    ]
   },
   {
     "id": "izq-016",
@@ -304,7 +322,10 @@
       "planificacion"
     ],
     "estado": "piloto",
-    "notas": "Discrimina: Economía mixta bajo hegemonía pública (PCE, eurocomunismo; también el maoísmo con la 'nueva democracia') frente a la socialización sin etapas intermedias de PCTE y hoxhaísmo. | Esperado: PCE/IU +2, eurocomunismo +2, maoísmo +1, trotskismo -1, PCTE -2, PCE(m-l)/hoxhaísmo -2."
+    "notas": "Discrimina: Economía mixta bajo hegemonía pública (PCE, eurocomunismo; también el maoísmo con la 'nueva democracia') frente a la socialización sin etapas intermedias de PCTE y hoxhaísmo. | Esperado: PCE/IU +2, eurocomunismo +2, maoísmo +1, trotskismo -1, PCTE -2, PCE(m-l)/hoxhaísmo -2.",
+    "terminos": [
+      "planificacion-economica"
+    ]
   },
   {
     "id": "izq-018",
@@ -483,7 +504,10 @@
       "ecologia"
     ],
     "estado": "piloto",
-    "notas": "Discrimina: Productivismo obrerista (Frente Obrero +2; PCTE crítico del 'capitalismo verde' pero también del decrecimiento, +1) frente al ecosocialismo del PCE/IU (-1) y de sectores trotskistas (-1). | Esperado: Frente Obrero +2, PCTE +1, maoísmo +1, PCE/IU -1, trotskismo (IR) -1, luxemburguismo -1."
+    "notas": "Discrimina: Productivismo obrerista (Frente Obrero +2; PCTE crítico del 'capitalismo verde' pero también del decrecimiento, +1) frente al ecosocialismo del PCE/IU (-1) y de sectores trotskistas (-1). | Esperado: Frente Obrero +2, PCTE +1, maoísmo +1, PCE/IU -1, trotskismo (IR) -1, luxemburguismo -1.",
+    "terminos": [
+      "decrecimiento"
+    ]
   },
   {
     "id": "izq-028",

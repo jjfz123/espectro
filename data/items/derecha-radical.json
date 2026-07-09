@@ -243,7 +243,10 @@
       "regimen"
     ],
     "estado": "piloto",
-    "notas": "Discrimina: Democracia orgánica: separa a la Falange (+2, rechazo del parlamentarismo liberal de partidos) del resto de la familia, que compite dentro del sistema de partidos (VOX −1, SALF −1 pese a su antipolítica, que es plebiscitaria y no corporativa). | Esperado: Falange (FE-JONS / La Falange) +2, nacional-catolicismo +1, VOX -1, Democracia Nacional +0, SALF -1, PP -2. | La tríada municipio-familia-sindicato/profesión identifica el modelo sin usar vocabulario peyorativo ni nostálgico."
+    "notas": "Discrimina: Democracia orgánica: separa a la Falange (+2, rechazo del parlamentarismo liberal de partidos) del resto de la familia, que compite dentro del sistema de partidos (VOX −1, SALF −1 pese a su antipolítica, que es plebiscitaria y no corporativa). | Esperado: Falange (FE-JONS / La Falange) +2, nacional-catolicismo +1, VOX -1, Democracia Nacional +0, SALF -1, PP -2. | La tríada municipio-familia-sindicato/profesión identifica el modelo sin usar vocabulario peyorativo ni nostálgico.",
+    "terminos": [
+      "democracia-organica"
+    ]
   },
   {
     "id": "dr-014",
@@ -258,7 +261,10 @@
       "solo-matching"
     ],
     "estado": "piloto",
-    "notas": "Discrimina: Sindicato vertical nacionalsindicalista: solo la Falange responde +2. Rechazado por la derecha de mercado (VOX, SALF −2: libertad sindical y empresarial) y por la izquierda sindical (−2: niega el conflicto de clase). No lineal por diseño: solo-matching. | Esperado: Falange (FE-JONS / La Falange) +2, nacional-catolicismo +1, Democracia Nacional +0, VOX -2, SALF -2, PCE/IU -2."
+    "notas": "Discrimina: Sindicato vertical nacionalsindicalista: solo la Falange responde +2. Rechazado por la derecha de mercado (VOX, SALF −2: libertad sindical y empresarial) y por la izquierda sindical (−2: niega el conflicto de clase). No lineal por diseño: solo-matching. | Esperado: Falange (FE-JONS / La Falange) +2, nacional-catolicismo +1, Democracia Nacional +0, VOX -2, SALF -2, PCE/IU -2.",
+    "terminos": [
+      "sindicato-vertical"
+    ]
   },
   {
     "id": "dr-015",

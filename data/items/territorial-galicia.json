@@ -11,7 +11,10 @@
       "lusofonía"
     ],
     "estado": "piloto",
-    "notas": "Discrimina: Matiz fino dentro del nacionalismo gallego: reintegracionistas (AGAL, sectores soberanistas) frente al oficialismo de la norma RAG que el BNG asume desde 2003; PSdeG y PP quedan fuera del debate. | Esperado: reintegracionismo (AGAL) +2, Nós-UP / soberanismo rupturista +2, BNG (base militante) +1, BNG (posición oficial) +0, PSdeG -1, PPdeG -1."
+    "notas": "Discrimina: Matiz fino dentro del nacionalismo gallego: reintegracionistas (AGAL, sectores soberanistas) frente al oficialismo de la norma RAG que el BNG asume desde 2003; PSdeG y PP quedan fuera del debate. | Esperado: reintegracionismo (AGAL) +2, Nós-UP / soberanismo rupturista +2, BNG (base militante) +1, BNG (posición oficial) +0, PSdeG -1, PPdeG -1.",
+    "terminos": [
+      "reintegracionismo"
+    ]
   },
   {
     "id": "gal-002",
@@ -53,7 +56,10 @@
       "competencias"
     ],
     "estado": "piloto",
-    "notas": "Discrimina: Une al BNG con el autonomismo práctico del PPdeG (ley gallega del litoral) frente al PSdeG y la derecha estatal centralista: separa el galeguismo institucional del alineamiento con Madrid. | Esperado: BNG +2, PPdeG +1, PSdeG -1, VOX -2, UPG +2."
+    "notas": "Discrimina: Une al BNG con el autonomismo práctico del PPdeG (ley gallega del litoral) frente al PSdeG y la derecha estatal centralista: separa el galeguismo institucional del alineamiento con Madrid. | Esperado: BNG +2, PPdeG +1, PSdeG -1, VOX -2, UPG +2.",
+    "terminos": [
+      "bateas"
+    ]
   },
   {
     "id": "gal-004",

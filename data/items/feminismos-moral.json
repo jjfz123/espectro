@@ -34,7 +34,10 @@
       "autodeterminacion-genero"
     ],
     "estado": "piloto",
-    "notas": "Discrimina: Afina dentro del bloque pro-trans: Podemos/Sumar (+2) frente a un PSOE que lo aceptó a regañadientes (+1) y a la izquierda gender-critical (−2). Derecha unida en contra, por eso solo-matching. | Esperado: Podemos +2, Sumar +2, ERC +1, PSOE (oficial) +1, feminismo clásico (Feministas al Congreso) -2, PP -2, VOX -2. | Es lo que recoge la ley trans vigente para 14-16 años; mide la adhesión al detalle más contestado de la norma, no al principio general (fem-01)."
+    "notas": "Discrimina: Afina dentro del bloque pro-trans: Podemos/Sumar (+2) frente a un PSOE que lo aceptó a regañadientes (+1) y a la izquierda gender-critical (−2). Derecha unida en contra, por eso solo-matching. | Esperado: Podemos +2, Sumar +2, ERC +1, PSOE (oficial) +1, feminismo clásico (Feministas al Congreso) -2, PP -2, VOX -2. | Es lo que recoge la ley trans vigente para 14-16 años; mide la adhesión al detalle más contestado de la norma, no al principio general (fem-01).",
+    "terminos": [
+      "autodeterminacion-genero"
+    ]
   },
   {
     "id": "fem-003",
@@ -104,7 +107,10 @@
       "bioetica"
     ],
     "estado": "piloto",
-    "notas": "Discrimina: Gradúa la derecha en el aborto: democristianos del PP (+2, la vieja ley de 1985) frente al PP pragmático (0) y a VOX (+1, que preferiría ir más lejos). Liberales e izquierda unidos en contra. | Esperado: sector democristiano del PP +2, VOX +1, PP (oficial) +0, PNV -1, Ciudadanos -2, PSOE -2, Podemos -2. | Distinto del ítem existente de prohibición casi total: aquí se mide la posición intermedia (contrarreforma Gallardón, 2014). VOX en +1 porque lo apoyaría como paso, no como meta. | [Corregido en revisión: Dos defectos de redacción: (1) la coletilla 'y no libremente por plazos' añade una segunda proposición con negación (roza el doble barril y presupone que el encuestado conoce el sistema vigente); el 'solo' inicial ya excluye los plazos. (2) 'Malformación del feto' es léxico cargado; 'anomalía fetal grave' es el término clínico neutro. El contenido sí discrimina y no duplica el ítem existente de prohibición casi total ('salvo riesgo vital'): mide la posición intermedia tipo ley de 1985/contrarreforma de 2014. La hipótesis VOX +1 / democristianos +2 / PP oficial 0 es defendible (Feijóo ha dicho que no tocará la ley de plazos). Carga tradicion-moral +1 correcta.]"
+    "notas": "Discrimina: Gradúa la derecha en el aborto: democristianos del PP (+2, la vieja ley de 1985) frente al PP pragmático (0) y a VOX (+1, que preferiría ir más lejos). Liberales e izquierda unidos en contra. | Esperado: sector democristiano del PP +2, VOX +1, PP (oficial) +0, PNV -1, Ciudadanos -2, PSOE -2, Podemos -2. | Distinto del ítem existente de prohibición casi total: aquí se mide la posición intermedia (contrarreforma Gallardón, 2014). VOX en +1 porque lo apoyaría como paso, no como meta. | [Corregido en revisión: Dos defectos de redacción: (1) la coletilla 'y no libremente por plazos' añade una segunda proposición con negación (roza el doble barril y presupone que el encuestado conoce el sistema vigente); el 'solo' inicial ya excluye los plazos. (2) 'Malformación del feto' es léxico cargado; 'anomalía fetal grave' es el término clínico neutro. El contenido sí discrimina y no duplica el ítem existente de prohibición casi total ('salvo riesgo vital'): mide la posición intermedia tipo ley de 1985/contrarreforma de 2014. La hipótesis VOX +1 / democristianos +2 / PP oficial 0 es defendible (Feijóo ha dicho que no tocará la ley de plazos). Carga tradicion-moral +1 correcta.]",
+    "terminos": [
+      "ley-plazos"
+    ]
   },
   {
     "id": "fem-007",

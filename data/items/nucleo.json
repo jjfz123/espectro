@@ -144,7 +144,10 @@
     "tags": [
       "autodeterminacion"
     ],
-    "estado": "piloto"
+    "estado": "piloto",
+    "terminos": [
+      "autodeterminacion"
+    ]
   },
   {
     "id": "ue-001",

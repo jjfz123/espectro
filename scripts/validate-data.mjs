@@ -17,6 +17,7 @@ const validaEje = ajv.compile(leer('data/schemas/eje.schema.json'));
 const validaModulo = ajv.compile(leer('data/schemas/modulo.schema.json'));
 const validaItem = ajv.compile(leer('data/schemas/item.schema.json'));
 const validaPartido = ajv.compile(leer('data/schemas/partido.schema.json'));
+const validaTermino = ajv.compile(leer('data/schemas/termino.schema.json'));
 
 const errores = [];
 const fallo = (donde, detalle) => errores.push(`- ${donde}: ${detalle}`);
@@ -40,8 +41,19 @@ for (const m of modulos) {
 }
 const idsModulos = new Set(modulos.map((m) => m.id));
 
-// 3. Ítems
+// 3. Glosario
+const terminos = leer('data/glosario.json');
+const idsTerminos = new Set();
+for (const t of terminos) {
+  const donde = `glosario.json (${t.id ?? '?'})`;
+  if (!validaTermino(t)) fallo(donde, ajvErrores(validaTermino));
+  if (idsTerminos.has(t.id)) fallo(donde, 'id duplicado');
+  idsTerminos.add(t.id);
+}
+
+// 4. Ítems
 const idsItems = new Set();
+const terminosUsados = new Set();
 for (const fichero of readdirSync(join(raiz, 'data/items'))) {
   if (!fichero.endsWith('.json')) continue;
   const items = leer(`data/items/${fichero}`);
@@ -54,10 +66,17 @@ for (const fichero of readdirSync(join(raiz, 'data/items'))) {
     for (const c of item.ejes ?? []) {
       if (!idsEjes.has(c.eje)) fallo(donde, `eje inexistente: ${c.eje}`);
     }
+    for (const t of item.terminos ?? []) {
+      if (!idsTerminos.has(t)) fallo(donde, `término de glosario inexistente: ${t}`);
+      terminosUsados.add(t);
+    }
   }
 }
+for (const t of idsTerminos) {
+  if (!terminosUsados.has(t)) fallo(`glosario.json (${t})`, 'término sin ningún ítem que lo use');
+}
 
-// 4. Partidos (los ficheros que empiezan por "_" son plantillas y se omiten)
+// 5. Partidos (los ficheros que empiezan por "_" son plantillas y se omiten)
 let nPartidos = 0;
 for (const fichero of readdirSync(join(raiz, 'data/partidos'))) {
   if (!fichero.endsWith('.json') || fichero.startsWith('_')) continue;
@@ -82,5 +101,5 @@ if (errores.length > 0) {
   process.exit(1);
 }
 console.log(
-  `✓ Datos válidos: ${ejes.length} ejes, ${modulos.length} módulos, ${idsItems.size} ítems, ${nPartidos} partidos.`,
+  `✓ Datos válidos: ${ejes.length} ejes, ${modulos.length} módulos, ${idsItems.size} ítems, ${terminos.length} términos de glosario, ${nPartidos} partidos.`,
 );

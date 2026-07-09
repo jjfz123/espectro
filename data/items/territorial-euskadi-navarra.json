@@ -30,7 +30,10 @@
       "cupo"
     ],
     "estado": "piloto",
-    "notas": "Discrimina: Consenso interno vasco-navarro (PNV, Bildu, UPN, Geroa Bai, incluso PSE y PP vasco) frente a partidos y corrientes estatales que piden armonización fiscal (Vox, sectores centralistas de PP y de la izquierda estatal). | Esperado: PNV +2, EH Bildu +2, UPN +2, Geroa Bai +2, PSE-EE +1, PP vasco +1, VOX -2."
+    "notas": "Discrimina: Consenso interno vasco-navarro (PNV, Bildu, UPN, Geroa Bai, incluso PSE y PP vasco) frente a partidos y corrientes estatales que piden armonización fiscal (Vox, sectores centralistas de PP y de la izquierda estatal). | Esperado: PNV +2, EH Bildu +2, UPN +2, Geroa Bai +2, PSE-EE +1, PP vasco +1, VOX -2.",
+    "terminos": [
+      "concierto-economico"
+    ]
   },
   {
     "id": "eus-003",
@@ -82,7 +85,10 @@
       "nuevo estatus"
     ],
     "estado": "piloto",
-    "notas": "Discrimina: Foralismo pactista (PNV, Geroa Bai; UPN coincide desde el españolismo foral) frente al rupturismo republicano de la izquierda abertzale (Bildu/Sortu). Solo-matching: PNV y UPN coinciden por razones opuestas. | Esperado: PNV +2, Geroa Bai +1, UPN +1, PSE-EE +1, EH Bildu -2, Sortu -2."
+    "notas": "Discrimina: Foralismo pactista (PNV, Geroa Bai; UPN coincide desde el españolismo foral) frente al rupturismo republicano de la izquierda abertzale (Bildu/Sortu). Solo-matching: PNV y UPN coinciden por razones opuestas. | Esperado: PNV +2, Geroa Bai +1, UPN +1, PSE-EE +1, EH Bildu -2, Sortu -2.",
+    "terminos": [
+      "foralismo"
+    ]
   },
   {
     "id": "eus-006",
@@ -101,6 +107,9 @@
       "zonificación"
     ],
     "estado": "piloto",
-    "notas": "Discrimina: Separa a los socios de gobierno navarros PSN (mantiene la zonificación, −1) y Geroa Bai/Bildu (supresión, +2), y a UPN (−2, la zonificación es suya) de todo el nacionalismo vasco; complementa a eus-01 (identidad) con una política concreta y durable (la Ley del Vascuence rige desde 1986). | Esperado: EH Bildu +2, Geroa Bai +2, PNV +2, Contigo-Zurekin/Podemos Navarra +1, PSN-PSOE -1, UPN -2, VOX -2. | [Añadido por el revisor para cubrir un hueco]"
+    "notas": "Discrimina: Separa a los socios de gobierno navarros PSN (mantiene la zonificación, −1) y Geroa Bai/Bildu (supresión, +2), y a UPN (−2, la zonificación es suya) de todo el nacionalismo vasco; complementa a eus-01 (identidad) con una política concreta y durable (la Ley del Vascuence rige desde 1986). | Esperado: EH Bildu +2, Geroa Bai +2, PNV +2, Contigo-Zurekin/Podemos Navarra +1, PSN-PSOE -1, UPN -2, VOX -2. | [Añadido por el revisor para cubrir un hueco]",
+    "terminos": [
+      "zonificacion-euskera"
+    ]
   }
 ]

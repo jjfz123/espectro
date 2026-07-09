@@ -54,7 +54,10 @@
       "ancap-vs-socioliberal"
     ],
     "estado": "piloto",
-    "notas": "Discrimina: Impuesto plano vs fiscalidad moderada redistributiva: liberal clásico y ancap (a favor) frente a socioliberal (Cs, UPyD, Volt), que mantiene la progresividad aunque baje tipos. También acerca a Vox al polo liberal-fiscal. | Esperado: P-LIB +2, liberalismo clásico +2, Vox +1, PP +0, Ciudadanos -1, UPyD -2, Volt España -2. | [Corregido en revisión: El fondo es bueno (flat tax separa liberal duro de socioliberal), pero 'eliminando los tramos progresivos actuales' ancla el ítem a la estructura vigente ('actuales' caduca y añade un segundo verbo de acción). La reformulación mantiene una sola idea y la polaridad negativa. Ojo factual: el art. 31 CE exige progresividad global del sistema, así que un flat tax con mínimo exento es la versión realista; el texto corregido no lo excluye. Posiciones plausibles: Vox ha propuesto reducción drástica de tramos (+1 razonable), UPyD defendía progresividad explícita (-2 correcto).]"
+    "notas": "Discrimina: Impuesto plano vs fiscalidad moderada redistributiva: liberal clásico y ancap (a favor) frente a socioliberal (Cs, UPyD, Volt), que mantiene la progresividad aunque baje tipos. También acerca a Vox al polo liberal-fiscal. | Esperado: P-LIB +2, liberalismo clásico +2, Vox +1, PP +0, Ciudadanos -1, UPyD -2, Volt España -2. | [Corregido en revisión: El fondo es bueno (flat tax separa liberal duro de socioliberal), pero 'eliminando los tramos progresivos actuales' ancla el ítem a la estructura vigente ('actuales' caduca y añade un segundo verbo de acción). La reformulación mantiene una sola idea y la polaridad negativa. Ojo factual: el art. 31 CE exige progresividad global del sistema, así que un flat tax con mínimo exento es la versión realista; el texto corregido no lo excluye. Posiciones plausibles: Vox ha propuesto reducción drástica de tramos (+1 razonable), UPyD defendía progresividad explícita (-2 correcto).]",
+    "terminos": [
+      "impuesto-plano"
+    ]
   },
   {
     "id": "lib-004",
@@ -73,7 +76,10 @@
       "libre-eleccion"
     ],
     "estado": "piloto",
-    "notas": "Discrimina: Libre elección financiada (liberal clásico, P-LIB, Vox, a favor) frente a la prioridad de la red pública (PSOE, Volt, en contra); el socioliberal queda en apoyo tibio. Separa además al liberal del centroizquierda con el que comparte otras posiciones sociales. | Esperado: liberalismo clásico +2, P-LIB +2, Vox +2, Ciudadanos +1, PP +1, Volt España -1, PSOE -2."
+    "notas": "Discrimina: Libre elección financiada (liberal clásico, P-LIB, Vox, a favor) frente a la prioridad de la red pública (PSOE, Volt, en contra); el socioliberal queda en apoyo tibio. Separa además al liberal del centroizquierda con el que comparte otras posiciones sociales. | Esperado: liberalismo clásico +2, P-LIB +2, Vox +2, Ciudadanos +1, PP +1, Volt España -1, PSOE -2.",
+    "terminos": [
+      "educacion-concertada"
+    ]
   },
   {
     "id": "lib-005",
@@ -92,7 +98,10 @@
       "ancap-vs-socioliberal"
     ],
     "estado": "piloto",
-    "notas": "Discrimina: Capitalización vs reparto: liberal clásico y P-LIB (sustitución) frente a socioliberal (sistema mixto, capitalización solo complementaria) y frente a PP y Vox, que defienden el reparto público pese a su discurso de bajada de impuestos. | Esperado: P-LIB +2, liberalismo clásico +2, Ciudadanos +1, PP -1, Vox -1, PRC -1, PSOE -2."
+    "notas": "Discrimina: Capitalización vs reparto: liberal clásico y P-LIB (sustitución) frente a socioliberal (sistema mixto, capitalización solo complementaria) y frente a PP y Vox, que defienden el reparto público pese a su discurso de bajada de impuestos. | Esperado: P-LIB +2, liberalismo clásico +2, Ciudadanos +1, PP -1, Vox -1, PRC -1, PSOE -2.",
+    "terminos": [
+      "pensiones-capitalizacion"
+    ]
   },
   {
     "id": "lib-006",
@@ -222,7 +231,10 @@
       "bioetica"
     ],
     "estado": "piloto",
-    "notas": "Discrimina: Bandera histórica de Cs (llevó una ley de gestación subrogada altruista al Congreso): separa al liberal progresista tanto del feminismo abolicionista de PSOE y Podemos como del conservadurismo moral de PP y Vox. El ancap iría más lejos (también comercial). | Esperado: Ciudadanos +2, P-LIB +2, liberalismo clásico +1, PP -1, PSOE -2, Sumar/Podemos -2, Vox -2. | [Auditoría de equifinalidad: Equifinalidad: el rechazo une a feminismo clásico y democristianos por razones opuestas. Solo-matching.]"
+    "notas": "Discrimina: Bandera histórica de Cs (llevó una ley de gestación subrogada altruista al Congreso): separa al liberal progresista tanto del feminismo abolicionista de PSOE y Podemos como del conservadurismo moral de PP y Vox. El ancap iría más lejos (también comercial). | Esperado: Ciudadanos +2, P-LIB +2, liberalismo clásico +1, PP -1, PSOE -2, Sumar/Podemos -2, Vox -2. | [Auditoría de equifinalidad: Equifinalidad: el rechazo une a feminismo clásico y democristianos por razones opuestas. Solo-matching.]",
+    "terminos": [
+      "gestacion-subrogada"
+    ]
   },
   {
     "id": "lib-013",
@@ -363,6 +375,9 @@
       "flexiseguridad"
     ],
     "estado": "piloto",
-    "notas": "Discrimina: La propuesta laboral más identitaria del socioliberalismo español (bandera de Cs, presente en UPyD): separa al centro reformista tanto de la izquierda laboral (PSOE, Sumar: blindar la indemnización) como del PP, que nunca la ha implantado gobernando. Matiz interno: el ancap/P-LIB preferiría despido libre sin fondo obligatorio, de ahí un +1 y no +2. | Esperado: Ciudadanos +2, liberalismo clásico +2, UPyD +1, P-LIB +1, PP +0, Vox -1, PSOE -2, Sumar/Podemos -2. | [Añadido por el revisor para cubrir un hueco]"
+    "notas": "Discrimina: La propuesta laboral más identitaria del socioliberalismo español (bandera de Cs, presente en UPyD): separa al centro reformista tanto de la izquierda laboral (PSOE, Sumar: blindar la indemnización) como del PP, que nunca la ha implantado gobernando. Matiz interno: el ancap/P-LIB preferiría despido libre sin fondo obligatorio, de ahí un +1 y no +2. | Esperado: Ciudadanos +2, liberalismo clásico +2, UPyD +1, P-LIB +1, PP +0, Vox -1, PSOE -2, Sumar/Podemos -2. | [Añadido por el revisor para cubrir un hueco]",
+    "terminos": [
+      "mochila-austriaca"
+    ]
   }
 ]

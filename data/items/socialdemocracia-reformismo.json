@@ -347,7 +347,10 @@
       "internacionalismo"
     ],
     "estado": "piloto",
-    "notas": "Discrimina: La dirección del PSOE (apoyo al plan de autonomía marroquí desde marzo de 2022, alineamiento con Rabat) frente a Sumar, Podemos, IU, Más Madrid y Compromís (referéndum, posición histórica de la ONU), con parte de las bases y territorios del PSOE incómodos. Hay votos reales en el Congreso condenando el giro, con el PSOE solo frente a sus socios. | Esperado: Podemos +2, PCE/IU (dentro de Sumar) +2, Sumar +2, Más Madrid +2, Compromís +2, PSOE (dirección) -1, Izquierda Española +1. | Duradero: el referéndum es la posición de la legalidad internacional desde 1991, así que el ítem no caduca con un gobierno. Usa el eje internacionalismo, vacío en el borrador; carga parcial (−0.5) porque también admite lectura de pura política exterior. | [Añadido por el revisor para cubrir un hueco]"
+    "notas": "Discrimina: La dirección del PSOE (apoyo al plan de autonomía marroquí desde marzo de 2022, alineamiento con Rabat) frente a Sumar, Podemos, IU, Más Madrid y Compromís (referéndum, posición histórica de la ONU), con parte de las bases y territorios del PSOE incómodos. Hay votos reales en el Congreso condenando el giro, con el PSOE solo frente a sus socios. | Esperado: Podemos +2, PCE/IU (dentro de Sumar) +2, Sumar +2, Más Madrid +2, Compromís +2, PSOE (dirección) -1, Izquierda Española +1. | Duradero: el referéndum es la posición de la legalidad internacional desde 1991, así que el ítem no caduca con un gobierno. Usa el eje internacionalismo, vacío en el borrador; carga parcial (−0.5) porque también admite lectura de pura política exterior. | [Añadido por el revisor para cubrir un hueco]",
+    "terminos": [
+      "autodeterminacion"
+    ]
   },
   {
     "id": "sd-020",

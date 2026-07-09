@@ -240,7 +240,10 @@
       "territorial"
     ],
     "estado": "piloto",
-    "notas": "Discrimina: Tradicionalismo carlista (foralista histórico) y barones forales (UPN, PP vasco) a favor, frente a tecnócratas armonizadores (−1) y a Cs/Vox (supresión o revisión del cupo, −2). Separa dos derechas centralistas solo en apariencia idénticas. | Esperado: tradicionalismo/carlismo +2, PNV +2, UPN +2, democracia cristiana +1, PP +0, neoconservadurismo -1, Ciudadanos -2, Vox -2. | El carlismo es históricamente foralista; UPN defiende el Convenio navarro; Cs y Vox han propuesto revisar o suprimir el sistema de cupo."
+    "notas": "Discrimina: Tradicionalismo carlista (foralista histórico) y barones forales (UPN, PP vasco) a favor, frente a tecnócratas armonizadores (−1) y a Cs/Vox (supresión o revisión del cupo, −2). Separa dos derechas centralistas solo en apariencia idénticas. | Esperado: tradicionalismo/carlismo +2, PNV +2, UPN +2, democracia cristiana +1, PP +0, neoconservadurismo -1, Ciudadanos -2, Vox -2. | El carlismo es históricamente foralista; UPN defiende el Convenio navarro; Cs y Vox han propuesto revisar o suprimir el sistema de cupo.",
+    "terminos": [
+      "foralismo"
+    ]
   },
   {
     "id": "der-015",
@@ -263,7 +266,10 @@
       "guerra-cultural"
     ],
     "estado": "piloto",
-    "notas": "Discrimina: Frontera entre derecha convencional (asumirla 'corrigiendo excesos': PP −1, democristianos −2) y derecha radical (rechazo frontal: Vox +2); dentro de la familia, los neocons (+1) se acercan al rechazo y los tecnócratas se quedan en el consenso. | Esperado: Vox +2, neoconservadurismo +1, agrarismo conservador +0, PP -1, ala tecnócrata -1, democracia cristiana -2, PSOE -2."
+    "notas": "Discrimina: Frontera entre derecha convencional (asumirla 'corrigiendo excesos': PP −1, democristianos −2) y derecha radical (rechazo frontal: Vox +2); dentro de la familia, los neocons (+1) se acercan al rechazo y los tecnócratas se quedan en el consenso. | Esperado: Vox +2, neoconservadurismo +1, agrarismo conservador +0, PP -1, ala tecnócrata -1, democracia cristiana -2, PSOE -2.",
+    "terminos": [
+      "agenda-2030"
+    ]
   },
   {
     "id": "der-016",
@@ -430,7 +436,10 @@
       "familia"
     ],
     "estado": "piloto",
-    "notas": "Discrimina: Liberales (Cs +2, que la llevó en programa; tecnócratas +1) frente a democristianos y tradicionalistas (−2, dignidad de la persona) y PP (−1). Fractura no lineal valiosa: aquí Vox y el feminismo de izquierda coinciden en el no, así que el ítem no replica al de aborto ni al de eutanasia. | Esperado: Ciudadanos +2, ala tecnócrata +1, conservadurismo liberal (PP) -1, neoconservadurismo -1, democracia cristiana -2, tradicionalismo/carlismo -2, Vox -2, PSOE -2. | Cs propuso regular la gestación subrogada altruista; PP, Vox, PSOE y el movimiento feminista mayoritario se oponen. Tercera frontera bioética que separa al liberal del democristiano en dirección opuesta a la habitual. | [Añadido por el revisor para cubrir un hueco] | [Auditoría de equifinalidad: Equifinalidad: el rechazo une a feminismo clásico y democristianos por razones opuestas. Solo-matching.]"
+    "notas": "Discrimina: Liberales (Cs +2, que la llevó en programa; tecnócratas +1) frente a democristianos y tradicionalistas (−2, dignidad de la persona) y PP (−1). Fractura no lineal valiosa: aquí Vox y el feminismo de izquierda coinciden en el no, así que el ítem no replica al de aborto ni al de eutanasia. | Esperado: Ciudadanos +2, ala tecnócrata +1, conservadurismo liberal (PP) -1, neoconservadurismo -1, democracia cristiana -2, tradicionalismo/carlismo -2, Vox -2, PSOE -2. | Cs propuso regular la gestación subrogada altruista; PP, Vox, PSOE y el movimiento feminista mayoritario se oponen. Tercera frontera bioética que separa al liberal del democristiano en dirección opuesta a la habitual. | [Añadido por el revisor para cubrir un hueco] | [Auditoría de equifinalidad: Equifinalidad: el rechazo une a feminismo clásico y democristianos por razones opuestas. Solo-matching.]",
+    "terminos": [
+      "gestacion-subrogada"
+    ]
   },
   {
     "id": "der-025",

@@ -22,6 +22,7 @@
       }
     },
     "polaridad": { "enum": ["positiva", "negativa"], "description": "Para equilibrar el signo de las afirmaciones del banco" },
+    "terminos": { "type": "array", "items": { "type": "string" }, "description": "ids de términos del glosario (data/glosario.json) que el ítem usa y la interfaz debe explicar" },
     "tags": { "type": "array", "items": { "type": "string" } },
     "estado": { "enum": ["activo", "piloto", "retirado"], "default": "piloto" },
     "notas": { "type": "string" }
