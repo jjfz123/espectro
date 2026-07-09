@@ -628,6 +628,102 @@ h3 {
   color: var(--tinta-suave);
 }
 
+/* ————— Glosario del ítem ————— */
+
+.glosario-marca {
+  appearance: none;
+  display: inline-grid;
+  place-content: center;
+  width: 1.3rem;
+  height: 1.3rem;
+  margin-left: 0.55rem;
+  vertical-align: 0.3em;
+  background: none;
+  border: 1px solid var(--filete-fuerte);
+  border-radius: 50%;
+  font-family: var(--sans);
+  font-size: 0.72rem;
+  font-weight: 600;
+  line-height: 1;
+  color: var(--tinta-suave);
+  cursor: pointer;
+}
+
+.glosario-marca:hover {
+  border-color: var(--acento);
+  color: var(--acento);
+}
+
+.glosario-marca[aria-expanded='true'] {
+  background: var(--tinta);
+  border-color: var(--tinta);
+  color: var(--papel);
+}
+
+.glosario-panel {
+  border: 1px solid var(--filete);
+  border-left: 3px solid var(--filete-fuerte);
+  border-radius: 2px;
+  padding: 0.85rem 1.1rem 1rem;
+  margin: -0.9rem 0 2rem;
+  font-size: 0.88rem;
+}
+
+.glosario-panel[hidden] {
+  display: none;
+}
+
+.glosario-cabecera {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 1rem;
+  margin-bottom: 0.55rem;
+}
+
+.glosario-cerrar {
+  appearance: none;
+  background: none;
+  border: none;
+  padding: 0;
+  font: inherit;
+  font-size: 0.78rem;
+  color: var(--tinta-suave);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  cursor: pointer;
+}
+
+.glosario-cerrar:hover {
+  color: var(--acento);
+}
+
+.glosario-panel dl {
+  margin: 0;
+}
+
+.glosario-panel dt {
+  font-family: var(--serif);
+  font-size: 0.98rem;
+  font-weight: 700;
+}
+
+.glosario-panel dd {
+  margin: 0.2rem 0 0;
+  max-width: 68ch;
+  line-height: 1.5;
+}
+
+.glosario-panel dd a {
+  white-space: nowrap;
+}
+
+.glosario-entrada + .glosario-entrada {
+  margin-top: 0.8rem;
+  padding-top: 0.8rem;
+  border-top: 1px solid var(--filete);
+}
+
 .importante-fila {
   border-top: 1px solid var(--filete);
   margin-top: 1.4rem;
@@ -1141,9 +1237,11 @@ h3 {
 }
 
 .celda-peso {
+  display: block;
   color: var(--acento);
   font-size: 0.75rem;
   white-space: nowrap;
+  margin-top: 0.1rem;
 }
 
 .celda-dist {

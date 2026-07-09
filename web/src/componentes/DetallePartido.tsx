@@ -65,7 +65,7 @@ export function DetallePartido({ resultado, partido }: Props) {
                       <td className="celda-valor">
                         {etiquetaValor(d.valorUsuario)}
                         {d.peso === 2 ? (
-                          <span className="celda-peso"> · importa el doble</span>
+                          <span className="celda-peso">importa el doble</span>
                         ) : null}
                       </td>
                       <td className="celda-valor">{etiquetaValor(d.valorPartido)}</td>

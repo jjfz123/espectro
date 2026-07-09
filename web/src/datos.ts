@@ -8,6 +8,7 @@ import type { TipoEleccion } from '@engine';
 
 import ejesJson from '@data/ejes.json';
 import modulosJson from '@data/modulos.json';
+import glosarioJson from '@data/glosario.json';
 
 import itemsNucleo from '@data/items/nucleo.json';
 import itemsCorrientesIzquierda from '@data/items/corrientes-izquierda.json';
@@ -68,6 +69,27 @@ export const ITEMS_POR_MODULO: ReadonlyMap<string, Item[]> = (() => {
 export const MODULO_POR_ID: ReadonlyMap<string, Modulo> = new Map(MODULOS.map((m) => [m.id, m]));
 
 export const PARTIDOS = [partidoDemoConsejista, partidoDemoVanguardia] as unknown as Partido[];
+
+/* ————— Glosario ————— */
+
+export interface TerminoGlosario {
+  id: string;
+  termino: string;
+  definicion: string;
+  url: string;
+}
+
+export const GLOSARIO_POR_ID: ReadonlyMap<string, TerminoGlosario> = new Map(
+  (glosarioJson as TerminoGlosario[]).map((t) => [t.id, t]),
+);
+
+/** Términos del glosario que usa un ítem, en el orden en que los declara. */
+export function terminosDeItem(item: Item): TerminoGlosario[] {
+  if (!item.terminos) return [];
+  return item.terminos
+    .map((id) => GLOSARIO_POR_ID.get(id))
+    .filter((t): t is TerminoGlosario => t !== undefined);
+}
 
 export const ITEMS_NUCLEO: Item[] = ITEMS_POR_MODULO.get('nucleo') ?? [];
 

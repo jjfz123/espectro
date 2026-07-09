@@ -1,8 +1,8 @@
-import { useEffect, useRef } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import type { Valor } from '@engine';
 import { BarraProgreso } from '../componentes/BarraProgreso';
 import { Likert } from '../componentes/Likert';
-import { MODULO_POR_ID, pad2, secuenciaItems } from '../datos';
+import { MODULO_POR_ID, pad2, secuenciaItems, terminosDeItem } from '../datos';
 import type { Accion, Estado } from '../estado';
 
 interface Props {
@@ -22,12 +22,15 @@ export function Cuestionario({ estado, despachar }: Props) {
   const secuencia = secuenciaItems(estado.modulosActivos);
   const item = secuencia[estado.indice];
   const encabezadoRef = useRef<HTMLHeadingElement>(null);
+  const marcaGlosarioRef = useRef<HTMLButtonElement>(null);
   const montadoRef = useRef(false);
+  const [glosarioAbierto, setGlosarioAbierto] = useState(false);
 
   const itemId = item?.id;
   const respondido = itemId !== undefined && itemId in estado.respuestas;
 
   useEffect(() => {
+    setGlosarioAbierto(false);
     if (montadoRef.current) {
       encabezadoRef.current?.focus({ preventScroll: true });
     } else {
@@ -39,6 +42,14 @@ export function Cuestionario({ estado, despachar }: Props) {
     if (!itemId) return;
     const alPulsar = (e: KeyboardEvent) => {
       if (e.altKey || e.ctrlKey || e.metaKey) return;
+      if (e.key === 'Escape') {
+        if (glosarioAbierto) {
+          setGlosarioAbierto(false);
+          marcaGlosarioRef.current?.focus();
+          e.preventDefault();
+        }
+        return;
+      }
       const destino = e.target as HTMLElement | null;
       if (destino && ['INPUT', 'SELECT', 'TEXTAREA'].includes(destino.tagName)) return;
       if (e.key in VALORES_TECLA) {
@@ -56,7 +67,7 @@ export function Cuestionario({ estado, despachar }: Props) {
     };
     window.addEventListener('keydown', alPulsar);
     return () => window.removeEventListener('keydown', alPulsar);
-  }, [itemId, respondido, despachar]);
+  }, [itemId, respondido, glosarioAbierto, despachar]);
 
   if (!item || !itemId) {
     return (
@@ -72,6 +83,7 @@ export function Cuestionario({ estado, despachar }: Props) {
   const valor = estado.respuestas[itemId];
   const importante = Boolean(estado.importantes[itemId]);
   const modulo = MODULO_POR_ID.get(item.modulo);
+  const terminos = terminosDeItem(item);
   const esUltimo = estado.indice === secuencia.length - 1;
   const etiquetaSiguiente = !esUltimo
     ? 'Siguiente'
@@ -91,7 +103,56 @@ export function Cuestionario({ estado, despachar }: Props) {
 
       <h1 className="item-texto" ref={encabezadoRef} tabIndex={-1}>
         {item.texto}
+        {terminos.length > 0 ? (
+          <button
+            type="button"
+            ref={marcaGlosarioRef}
+            className="glosario-marca"
+            aria-expanded={glosarioAbierto}
+            aria-controls="glosario-panel"
+            aria-label={`Qué significa: ${terminos.map((t) => t.termino).join(', ')}`}
+            onClick={() => setGlosarioAbierto((abierto) => !abierto)}
+          >
+            <span aria-hidden="true">?</span>
+          </button>
+        ) : null}
       </h1>
+
+      {terminos.length > 0 ? (
+        <aside
+          id="glosario-panel"
+          className="glosario-panel"
+          aria-label="Glosario"
+          hidden={!glosarioAbierto}
+        >
+          <div className="glosario-cabecera">
+            <span className="kicker">Del glosario</span>
+            <button
+              type="button"
+              className="glosario-cerrar"
+              onClick={() => {
+                setGlosarioAbierto(false);
+                marcaGlosarioRef.current?.focus();
+              }}
+            >
+              Cerrar
+            </button>
+          </div>
+          <dl>
+            {terminos.map((t) => (
+              <div key={t.id} className="glosario-entrada">
+                <dt>{t.termino}</dt>
+                <dd>
+                  {t.definicion}{' '}
+                  <a href={t.url} target="_blank" rel="noopener noreferrer">
+                    Ver en Wikipedia
+                  </a>
+                </dd>
+              </div>
+            ))}
+          </dl>
+        </aside>
+      ) : null}
 
       <Likert
         valor={valor}
