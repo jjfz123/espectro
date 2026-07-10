@@ -1,0 +1,244 @@
+{
+  "id": "europeas-2024-06",
+  "nombre": "Elecciones al Parlamento Europeo del 9 de junio de 2024 (España)",
+  "tipo": "europeas",
+  "fecha": "2024-06-09",
+  "territorio": "espana",
+  "camara": "Parlamento Europeo",
+  "umbralPorcentaje": 0.02,
+  "denominador": {
+    "tipo": "votos-a-candidaturas",
+    "valor": 17307411
+  },
+  "totalCandidaturasOficiales": 34,
+  "fuente": {
+    "titulo": "Resultados elecciones Europeas 9J (elDiario.es, con datos del Ministerio del Interior)",
+    "url": "https://elecciones.eldiario.es/europeas/9-junio-2024",
+    "consultado": "2026-07-10"
+  },
+  "fuentesAdicionales": [
+    {
+      "titulo": "Acuerdo de la Junta Electoral Central de 27 de junio de 2024 con los resultados oficiales y escaños (BOE-A-2024-13092)",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-13092",
+      "fechaDatos": "2024-06-27",
+      "consultado": "2026-07-10"
+    },
+    {
+      "titulo": "Estas son las 34 candidaturas que se presentan a las elecciones europeas (Civio)",
+      "url": "https://civio.es/el-boe-nuestro-de-cada-dia/2024/05/14/candidaturas-proclamadas-elecciones-europeas-2024/",
+      "fechaDatos": "2024-05-14",
+      "consultado": "2026-07-10"
+    },
+    {
+      "titulo": "Resultados Elecciones Europeas 2024 en España (Público)",
+      "url": "https://www.publico.es/resultados-elecciones/europeas/2024/espana",
+      "consultado": "2026-07-10"
+    }
+  ],
+  "nota": "Circunscripción única nacional (61 escaños, sistema D'Hondt sin umbral legal). El denominador de votos a candidaturas (17.307.411) se deriva de los totales del escrutinio publicado por elDiario.es con datos del Ministerio del Interior: 17.554.385 votantes menos 123.354 nulos (17.431.031 válidos) menos 123.620 blancos. CORTE DOCUMENTADO: se incluyen las 9 candidaturas con escaño más las dos siguientes con más del 0,5% (PACMA y Ciudadanos); las ~23 candidaturas restantes suman 385.466 votos (2,23% del total a candidaturas) y no se detallan porque desde el entorno de codificación no fue posible acceder a cifras verificables fila a fila (los ficheros TOTA de infoelectoral y el BOE no eran accesibles; los porcentajes sí se contrastaron con prensa). Las cifras de PP, PSOE, SALF, Podemos y Junts UE están confirmadas literalmente por las fuentes citadas; las de VOX, Ahora Repúblicas, Sumar, CEUS, PACMA y Ciudadanos proceden de síntesis de prensa coherente con los porcentajes oficiales (±0,01 puntos). Pendiente de contraste con el fichero oficial 07202406_TOTA cuando sea accesible: el escrutinio general definitivo de la JEC puede diferir marginalmente. Una relación con un componente identifica la candidatura, pero no transfiere posiciones entre coalición y componentes.",
+  "candidaturas": [
+    {
+      "id": "europeas-2024-06-pp",
+      "siglas": "PP",
+      "nombre": "PARTIDO POPULAR",
+      "votos": 5963074,
+      "porcentaje": 34.453876,
+      "escanos": 22,
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [
+        {
+          "perfilId": "pp",
+          "relacion": "misma-organizacion"
+        }
+      ]
+    },
+    {
+      "id": "europeas-2024-06-psoe",
+      "siglas": "PSOE",
+      "nombre": "PARTIDO SOCIALISTA OBRERO ESPAÑOL",
+      "votos": 5261293,
+      "porcentaje": 30.399076,
+      "escanos": 20,
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [
+        {
+          "perfilId": "psoe",
+          "relacion": "misma-organizacion"
+        }
+      ]
+    },
+    {
+      "id": "europeas-2024-06-vox",
+      "siglas": "VOX",
+      "nombre": "VOX",
+      "votos": 1678218,
+      "porcentaje": 9.696528,
+      "escanos": 6,
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [
+        {
+          "perfilId": "vox",
+          "relacion": "misma-organizacion"
+        }
+      ],
+      "nota": "Cifra de votos tomada de síntesis de prensa coherente con el porcentaje oficial (9,6%); pendiente de contraste con el fichero TOTA oficial."
+    },
+    {
+      "id": "europeas-2024-06-ahora-republicas",
+      "siglas": "AHORA REPÚBLICAS",
+      "nombre": "AHORA REPÚBLICAS",
+      "votos": 855985,
+      "porcentaje": 4.945771,
+      "escanos": 3,
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [
+        {
+          "perfilId": "erc",
+          "relacion": "componente",
+          "nota": "ERC integra la coalición Ahora Repúblicas; sus posiciones no se atribuyen automáticamente a la candidatura."
+        },
+        {
+          "perfilId": "eh-bildu",
+          "relacion": "componente",
+          "nota": "EH Bildu integra la coalición Ahora Repúblicas; sus posiciones no se atribuyen automáticamente a la candidatura."
+        },
+        {
+          "perfilId": "bng",
+          "relacion": "componente",
+          "nota": "El BNG integra la coalición Ahora Repúblicas; sus posiciones no se atribuyen automáticamente a la candidatura."
+        }
+      ],
+      "nota": "Coalición de ERC, EH Bildu, BNG y Ara Més (esta última sin perfil propio en el catálogo). Cifra de votos de síntesis de prensa coherente con el porcentaje oficial (4,91%); pendiente de contraste con el fichero TOTA oficial."
+    },
+    {
+      "id": "europeas-2024-06-sumar",
+      "siglas": "SUMAR",
+      "nombre": "SUMAR",
+      "votos": 811545,
+      "porcentaje": 4.689003,
+      "escanos": 3,
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [
+        {
+          "perfilId": "movimiento-sumar",
+          "relacion": "componente",
+          "nota": "Movimiento Sumar integra la coalición electoral Sumar de 2024; sus posiciones no se atribuyen automáticamente a la candidatura."
+        },
+        {
+          "perfilId": "mas-madrid",
+          "relacion": "componente",
+          "nota": "Más Madrid integra la coalición electoral Sumar de 2024; sus posiciones no se atribuyen automáticamente a la candidatura."
+        },
+        {
+          "perfilId": "verdes-equo",
+          "relacion": "componente",
+          "nota": "Verdes Equo integra la coalición electoral Sumar de 2024; sus posiciones no se atribuyen automáticamente a la candidatura."
+        }
+      ],
+      "nota": "Coalición que integró además a Izquierda Unida, Catalunya en Comú, Compromís, Chunta Aragonesista y otras formaciones sin perfil propio en el catálogo. Cifra de votos de síntesis de prensa coherente con el porcentaje oficial (4,65%); pendiente de contraste con el fichero TOTA oficial."
+    },
+    {
+      "id": "europeas-2024-06-salf",
+      "siglas": "SALF",
+      "nombre": "SE ACABÓ LA FIESTA",
+      "votos": 800763,
+      "porcentaje": 4.626706,
+      "escanos": 3,
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [
+        {
+          "perfilId": "salf",
+          "relacion": "misma-organizacion",
+          "nota": "La candidatura de 2024 fue una agrupación de electores; el perfil corresponde al partido inscrito el 31 de enero de 2025 que continúa el mismo proyecto, marca y liderazgo de Alvise Pérez."
+        }
+      ],
+      "nota": "Cifra confirmada por prensa (El Español, 11-6-2024: 800.763 votos, 4,59% sobre válidos). Dos de sus tres eurodiputados (Nora Junco y Diego Solier) rompieron con Alvise Pérez en 2025; el perfil enlazado documenta el proyecto de Pérez, no a los eurodiputados escindidos."
+    },
+    {
+      "id": "europeas-2024-06-podemos",
+      "siglas": "PODEMOS",
+      "nombre": "PODEMOS",
+      "votos": 571902,
+      "porcentaje": 3.304376,
+      "escanos": 2,
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [
+        {
+          "perfilId": "podemos",
+          "relacion": "misma-organizacion"
+        }
+      ]
+    },
+    {
+      "id": "europeas-2024-06-junts-ue",
+      "siglas": "JUNTS UE",
+      "nombre": "JUNTS I LLIURES PER EUROPA",
+      "votos": 443275,
+      "porcentaje": 2.561186,
+      "escanos": 1,
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [
+        {
+          "perfilId": "junts",
+          "relacion": "componente",
+          "nota": "Junts impulsa y encabeza la candidatura Junts i Lliures per Europa; la composición completa de la coalición no se ha verificado, por lo que no se registra identidad plena."
+        }
+      ],
+      "nota": "Cifra confirmada por Maldita.es (17-6-2024: 443.275 votos, de ellos 12.350 fuera de Catalunya)."
+    },
+    {
+      "id": "europeas-2024-06-ceus",
+      "siglas": "CEUS",
+      "nombre": "COALICIÓN POR UNA EUROPA SOLIDARIA",
+      "votos": 281064,
+      "porcentaje": 1.623952,
+      "escanos": 1,
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [
+        {
+          "perfilId": "eaj-pnv",
+          "relacion": "componente",
+          "nota": "EAJ-PNV encabeza la coalición CEUS; sus posiciones no se atribuyen automáticamente a la candidatura."
+        },
+        {
+          "perfilId": "coalicion-canaria",
+          "relacion": "componente",
+          "nota": "Coalición Canaria integra la coalición CEUS; sus posiciones no se atribuyen automáticamente a la candidatura."
+        }
+      ],
+      "nota": "Coalición que integró además otras formaciones regionalistas sin perfil propio en el catálogo. Cifra de votos de síntesis de prensa coherente con el porcentaje oficial (1,61%); pendiente de contraste con el fichero TOTA oficial."
+    },
+    {
+      "id": "europeas-2024-06-pacma",
+      "siglas": "PACMA",
+      "nombre": "PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE",
+      "votos": 134425,
+      "porcentaje": 0.77669,
+      "escanos": 0,
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [
+        {
+          "perfilId": "pacma",
+          "relacion": "misma-organizacion"
+        }
+      ],
+      "nota": "Cifra de votos de síntesis de prensa coherente con el porcentaje oficial (0,77%); pendiente de contraste con el fichero TOTA oficial."
+    },
+    {
+      "id": "europeas-2024-06-cs",
+      "siglas": "Cs",
+      "nombre": "CIUDADANOS-PARTIDO DE LA CIUDADANÍA",
+      "votos": 120401,
+      "porcentaje": 0.695662,
+      "escanos": 0,
+      "motivoInclusion": "umbral",
+      "perfilRelaciones": [
+        {
+          "perfilId": "ciudadanos",
+          "relacion": "misma-organizacion"
+        }
+      ],
+      "nota": "Perdió los 8 escaños de 2019 (0,69% de los válidos según rtvc.es). Cifra de votos de síntesis de prensa coherente con el porcentaje oficial; pendiente de contraste con el fichero TOTA oficial."
+    }
+  ]
+}

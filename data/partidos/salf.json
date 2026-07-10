@@ -1,0 +1,325 @@
+{
+  "id": "salf",
+  "nombre": "Se Acabó La Fiesta",
+  "siglas": "SALF",
+  "ambito": "estatal",
+  "tipo": "partido",
+  "confianza": "estimada",
+  "registroMir": "Inscrito como partido político el 31 de enero de 2025; concurrió a las europeas de junio de 2024 como agrupación de electores con la misma marca",
+  "web": "https://www.seacabolafiesta.com/",
+  "revisado": "2026-07-10",
+  "actividad": "activa",
+  "autodescripcion": {
+    "texto": "El proyecto se presenta como un movimiento anticorrupción ajeno al eje izquierda-derecha: su líder, Alvise Pérez, rechaza las etiquetas ideológicas y sostiene que las ideologías «únicamente sirven para engañar a tontos y paletos». Se describe como una candidatura ciudadana contra la «partitocracia» y la corrupción, con la deportación de la inmigración ilegal, la salida de la UE vía referéndum y la supresión de la financiación pública de partidos, sindicatos y medios como propuestas centrales.",
+    "fuente": {
+      "tipo": "declaracion",
+      "titulo": "Alvise Pérez: «Las ideologías únicamente sirven para engañar a tontos y paletos» (entrevista en The Objective)",
+      "url": "https://theobjective.com/espana/politica/2025-11-04/alvise-perez-ideologias-enganar-tontos-entrevista/",
+      "fecha": "2025-11-04",
+      "cita": "Las ideologías únicamente sirven para engañar a tontos y paletos"
+    }
+  },
+  "clasificacion": [
+    {
+      "etiqueta": "ultraderechista",
+      "explicacion": "Término con el que la prensa internacional de referencia sitúa el proyecto en el campo de la ultraderecha: combina un discurso duro contra la inmigración, el punitivismo penal y la impugnación en bloque de partidos, medios e instituciones, difundido desde canales digitales propios. El propio partido rechaza esta etiqueta y se declara ajeno a las ideologías.",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "De Telegram al Parlamento Europeo: el fenómeno del ultraderechista español Alvise Pérez (France 24)",
+        "url": "https://www.france24.com/es/europa/20240613-de-telegram-al-parlamento-europeo-el-fen%C3%B3meno-del-ultraderechista-espa%C3%B1ol-alvise-p%C3%A9rez",
+        "fecha": "2024-06-13"
+      }
+    },
+    {
+      "etiqueta": "populismo de extrema derecha",
+      "explicacion": "Caracterización usada por la investigación académica sobre su canal de Telegram: una apelación al pueblo frente a unas élites presentadas como corruptas (populismo), combinada con posiciones propias de la extrema derecha en inmigración y castigo penal. Un estudio complementario de la misma universidad detecta discurso de odio encubierto en el 37,64% de los mensajes analizados del canal.",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Estrategias populistas de extrema derecha en redes sociales. El caso del canal de Telegram «Alvise Pérez» (Universidad de Sevilla, depósito idus)",
+        "url": "https://idus.us.es/items/18ba6e24-e72c-49ee-8546-c89f20426e0e"
+      }
+    },
+    {
+      "etiqueta": "alt-right (derecha alternativa)",
+      "explicacion": "Etiqueta aplicada por la prensa internacional al describir su irrupción electoral: una derecha nacida fuera de los partidos convencionales que hace política principalmente a través de redes y canales de mensajería, con estilo agresivo contra medios y adversarios y desconfianza sistemática hacia las instituciones representativas.",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Spain's Alt-Right Scored an Electoral Upset via Telegram (Jacobin)",
+        "url": "https://jacobin.com/2024/06/spain-alt-right-alvise-telegram",
+        "fecha": "2024-06"
+      }
+    }
+  ],
+  "posiciones": {
+    "pop-001": {
+      "valor": 2,
+      "justificacion": "Su diagnóstico central es que la corrupción ha pasado «de excepción a mecanismo central» de la administración: presenta al Gobierno, a los grandes partidos, y a parte de jueces y medios como un entramado coordinado contra el ciudadano. Es el marco pueblo-élite en su versión más nítida. Posición del proyecto de Alvise Pérez, no de los eurodiputados escindidos en 2025.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Alvise Pérez denuncia la corrupción sistémica y detalla su hoja de ruta política y electoral (Moncloa.com)",
+        "url": "https://www.moncloa.com/2025/12/23/alvise-perez-corrupcion-3349502/",
+        "fecha": "2025-12-23",
+        "consultado": "2026-07-10"
+      }
+    },
+    "pop-002": {
+      "valor": 2,
+      "justificacion": "Trata sistemáticamente a la prensa convencional como parte del entramado de poder: tras declarar en el Supremo despidió a los periodistas al grito de «medios subvencionados, parásitos, delincuentes de la mafia de la información», y propone retirar toda financiación pública a los medios. Sus canales propios nacen como alternativa a una prensa que considera comprada.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Alvise la lía ante los medios e insulta a periodistas tras declarar en el Supremo por presunta financiación ilegal (lavozdelsur.es)",
+        "url": "https://www.lavozdelsur.es/actualidad/politica/alvise-lia-medios-insulta-periodistas-declarar-en-supremo-por-presunta-financiacion-ilegal_338006_102.html",
+        "consultado": "2026-07-10",
+        "cita": "Fuera, fuera, medios subvencionados, parásitos, delincuentes de la mafia de la información"
+      }
+    },
+    "pop-003": {
+      "valor": 2,
+      "justificacion": "Describe la alternancia PSOE-PP como un pacto de impunidad recíproca —«hoy por ti, mañana por mí»— en el que las investigaciones se bloquean y las condenas se indultan con independencia de quién gobierne: para SALF ambos partidos son el mismo régimen clientelar.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Alvise Pérez denuncia la corrupción sistémica y detalla su hoja de ruta política y electoral (Moncloa.com)",
+        "url": "https://www.moncloa.com/2025/12/23/alvise-perez-corrupcion-3349502/",
+        "fecha": "2025-12-23",
+        "consultado": "2026-07-10",
+        "cita": "hoy por ti, mañana por mí"
+      }
+    },
+    "dr-012": {
+      "valor": 2,
+      "justificacion": "Propuesta insignia desde el lanzamiento nacional del partido en Vistalegre: eliminar la financiación pública de partidos, sindicatos y medios de comunicación, porque «cada uno debe pagar sus propias estructuras, como hace cualquier ciudadano».",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Alvise Pérez lanza su candidatura a las elecciones generales con deportaciones masivas y un referéndum de salida de la UE como ejes de programa (Demócrata)",
+        "url": "https://www.democrata.es/politica/alvise-perez-acabo-fiesta-elecciones-generales-deportaciones-referendum-ue/",
+        "fecha": "2025-10",
+        "consultado": "2026-07-10",
+        "cita": "cada uno debe pagar sus propias estructuras, como hace cualquier ciudadano"
+      }
+    },
+    "dr-020": {
+      "valor": 1,
+      "justificacion": "Propone someter a referéndum la mayor decisión política disponible —la permanencia de España en la UE— y practica un plebiscitarismo digital permanente con sus seguidores frente a la mediación de los partidos. No consta, sin embargo, un modelo institucional articulado de referendos vinculantes generales, por eso no alcanza el máximo.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Entrevista a Alvise Pérez en The Objective: reclama un referéndum sobre la permanencia de España en la UE",
+        "url": "https://theobjective.com/espana/politica/2025-11-04/alvise-perez-ideologias-enganar-tontos-entrevista/",
+        "fecha": "2025-11-04",
+        "consultado": "2026-07-10"
+      }
+    },
+    "ue-001": {
+      "valor": 2,
+      "justificacion": "Reclama un referéndum sobre la permanencia de España en la UE en el que votaría por la salida, para orientar a España hacia una unión con los países iberoamericanos; en Vistalegre acusó a la UE de haber «traicionado sus principios fundacionales» con una «visión globalista». Va más allá de recuperar soberanía: propone salir.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Entrevista a Alvise Pérez en The Objective: referéndum de salida de la UE y unión iberoamericana",
+        "url": "https://theobjective.com/espana/politica/2025-11-04/alvise-perez-ideologias-enganar-tontos-entrevista/",
+        "fecha": "2025-11-04",
+        "consultado": "2026-07-10"
+      }
+    },
+    "ue-002": {
+      "valor": -2,
+      "justificacion": "Quien propone un referéndum de salida de la UE y denuncia su «visión globalista» rechaza frontalmente que España ceda más soberanía hacia una federación política europea.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Alvise arranca su carrera a las generales apostando por deportaciones masivas y un referéndum de salida de la UE (El Independiente)",
+        "url": "https://www.elindependiente.com/espana/2025/10/12/alvise-arranca-su-carrera-a-las-generales-apostando-por-deportaciones-masivas-y-un-referendum-de-salida-de-la-ue/",
+        "fecha": "2025-10-12",
+        "consultado": "2026-07-10"
+      }
+    },
+    "eco-001": {
+      "valor": -2,
+      "justificacion": "Su contrato electoral de Castilla y León promete «la mayor revolución fiscal en la historia autonómica» con el tramo autonómico del IRPF al 0% por debajo de 35.000 euros y supresión del impuesto sobre el patrimonio: la dirección es bajar impuestos, no subirlos a las rentas altas. Programa autonómico extrapolado con cautela: SALF carece de programa fiscal estatal articulado.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Contrato Electoral SALF Castilla y León 2026 (PDF alojado por The Objective)",
+        "url": "https://theobjective.com/wp-content/uploads/2026/03/Programa-electoral-CyL-de-Alvise-Pe%CC%81rez.pdf",
+        "fecha": "2026-03",
+        "consultado": "2026-07-10",
+        "cita": "la mayor revolución fiscal en la historia autonómica: el dinero donde mejor está es en el bolsillo de quienes lo ganan honradamente, no en manos de políticos despilfarradores"
+      }
+    },
+    "eco-014": {
+      "valor": -2,
+      "justificacion": "Su contrato electoral de Castilla y León propone suprimir el impuesto sobre el patrimonio «para que quienes ahorran e invierten aquí no huyan a otras comunidades»: lo contrario de consolidar un impuesto permanente a las grandes fortunas. Programa autonómico; la extrapolación estatal se advierte, aunque la lógica antifiscal es constante en su discurso.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Contrato Electoral SALF Castilla y León 2026 (PDF alojado por The Objective)",
+        "url": "https://theobjective.com/wp-content/uploads/2026/03/Programa-electoral-CyL-de-Alvise-Pe%CC%81rez.pdf",
+        "fecha": "2026-03",
+        "consultado": "2026-07-10"
+      }
+    },
+    "eco-009": {
+      "valor": 1,
+      "justificacion": "Su contrato electoral de Castilla y León promete que «nadie perderá lo heredado por culpa del fisco», en la línea de vaciar sucesiones y donaciones; no consta una propuesta estatal explícita de supresión total del impuesto, por eso no alcanza el máximo.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Contrato Electoral SALF Castilla y León 2026 (PDF alojado por The Objective)",
+        "url": "https://theobjective.com/wp-content/uploads/2026/03/Programa-electoral-CyL-de-Alvise-Pe%CC%81rez.pdf",
+        "fecha": "2026-03",
+        "consultado": "2026-07-10",
+        "cita": "nadie perderá lo heredado por culpa del fisco"
+      }
+    },
+    "lab-009": {
+      "valor": 1,
+      "justificacion": "Tras admitir haber cobrado 100.000 euros sin factura llamó «mafia» a Hacienda y animó públicamente a la elusión: «Todo impuesto que podáis evitar pagar, no lo paguéis». Aun así, su crítica explícita apunta al uso corrupto de lo recaudado más que a la ilegitimidad de todo impuesto (propone IRPF autonómico al 0% solo bajo 35.000 euros, no abolir la tributación), por eso no llega al máximo.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Alvise Pérez admite que cobró en negro: «Todo impuesto que podáis evitar pagar, no lo paguéis, que se acabe la fiesta» (Telecinco)",
+        "url": "https://www.telecinco.es/noticias/espana/20240926/alvise-perez-admite-cobro-negro-impuesto-pagueis_18_013561378.html",
+        "fecha": "2024-09-26",
+        "consultado": "2026-07-10",
+        "cita": "Todo impuesto que podáis evitar pagar, no lo paguéis, que se acabe la fiesta"
+      }
+    },
+    "soc-002": {
+      "valor": 2,
+      "justificacion": "En el lanzamiento nacional del partido prometió «el mayor plan de deportación masiva de inmigrantes ilegales», financiado con los fondos de cooperación internacional, empezando por Marruecos y con los buques de la Armada expulsando en lugar de escoltando: la devolución es su respuesta prioritaria declarada a la inmigración irregular.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Alvise reúne a 5.000 «ardillas» en Vistalegre y promete la deportación masiva de inmigrantes (The Objective)",
+        "url": "https://theobjective.com/espana/politica/2025-10-12/alvise-vistalegre-deportacion-inmigrantes/",
+        "fecha": "2025-10-12",
+        "consultado": "2026-07-10"
+      }
+    },
+    "soc-004": {
+      "valor": -2,
+      "justificacion": "Participó como referente en la marcha madrileña de mayo de 2026 marcada por el rechazo a la regularización extraordinaria en vigor desde abril, pidiendo la dimisión del Gobierno que la impulsó; su alternativa declarada es la deportación, no la regularización.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Miles de personas marchan en Madrid para pedir la dimisión de Pedro Sánchez: «España está secuestrada por una mafia corrupta» (Infobae)",
+        "url": "https://www.infobae.com/espana/2026/05/23/miles-de-personas-marchan-en-madrid-para-pedir-la-dimision-de-pedro-sanchez-espana-esta-secuestrada-por-una-mafia-corrupta/",
+        "fecha": "2026-05-23",
+        "consultado": "2026-07-10"
+      }
+    },
+    "soc-005": {
+      "valor": -1,
+      "justificacion": "Su marco público liga la «inmigración masiva e ilegal» con la delincuencia —«no es un delito de odio: es un puto deber moral», escribió— y hace de la deportación su bandera, lo que choca con presentar la llegada de inmigrantes como necesidad económica. No consta, sin embargo, un pronunciamiento económico específico, por eso el valor moderado y la calidad baja.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "redes",
+        "titulo": "Publicación de Alvise Pérez en X vinculando inmigración masiva e ilegal con delincuencia",
+        "url": "https://x.com/Alvise_oficial_/status/2049139354119864755",
+        "fecha": "2026",
+        "consultado": "2026-07-10",
+        "cita": "Relacionar la inmigración masiva e ilegal con el incremento de diversos delitos no es un delito de odio: es un puto deber moral"
+      }
+    },
+    "dr-003": {
+      "valor": 0,
+      "justificacion": "Su plan de deportación se formula expresamente sobre la inmigración ilegal y la delincuencia: no consta propuesta de promover el retorno de inmigrantes en situación regular, el escalón identitario que sí defienden otras formaciones de su espacio. Posición moderadora documentada, no un hueco.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Alvise reúne a 5.000 «ardillas» en Vistalegre y promete la deportación masiva de inmigrantes (The Objective)",
+        "url": "https://theobjective.com/espana/politica/2025-10-12/alvise-vistalegre-deportacion-inmigrantes/",
+        "fecha": "2025-10-12",
+        "consultado": "2026-07-10"
+      }
+    },
+    "soc-006": {
+      "valor": -1,
+      "justificacion": "Su discurso penal es abiertamente punitivista —«mano dura contra la delincuencia, la corrupción y la inmigración ilegal», macrocárcel inspirada en el modelo de Bukele, imprescriptibilidad de la corrupción—, incompatible con derogar la prisión permanente revisable; al no constar pronunciamiento específico sobre esa figura, el valor es moderado y la calidad baja.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Entrevista a Alvise Pérez: «Mano dura contra la delincuencia, la corrupción y la inmigración ilegal» (Alicante al Día)",
+        "url": "https://alicantealdia.es/entrevista-a-alvise-perez-mano-dura-contra-la-delincuencia-la-corrupcion-y-la-inmigracion-ilegal/",
+        "consultado": "2026-07-10",
+        "cita": "Mano dura contra la delincuencia, la corrupción y la inmigración ilegal"
+      }
+    },
+    "dr-022": {
+      "valor": 0,
+      "justificacion": "Posición oscilante documentada: en campaña dijo que España no puede estar «a merced de los intereses de Estados Unidos, Ucrania, Rusia, China o Israel» y que no quería ser «la prostituta» de Israel; ya como eurodiputado respaldó a Israel ante el pleno. Ni apoyo «sin reservas» estable ni antisionismo: neutral con evidencia.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "El «faker» a sueldo Alvise apoya ahora a Israel tras decir en campaña que no quiere ser «su prostituta» (OKDiario)",
+        "url": "https://okdiario.com/espana/faker-sueldo-alvise-apoya-ahora-israel-decir-campana-que-no-quiere-ser-prostituta-13479574",
+        "consultado": "2026-07-10"
+      }
+    },
+    "dr-024": {
+      "valor": -2,
+      "justificacion": "En entrevista se declara demócrata y rechaza justificar dictadura alguna, situando su combate en la «partitocracia criminal» y no en el sistema democrático como tal. Se codifica solo su declaración citable; las causas judiciales abiertas no constituyen una posición y no se usan aquí.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Alvise: «Yo no debería existir, hago de justiciero, para eso está la Policía. ¿Qué puto sentido tiene que yo lo haga?» (entrevista en El Español)",
+        "url": "https://www.elespanol.com/espana/politica/20240623/alvise-no-deberia-existir-hago-justiciero-policia-puto-sentido-haga/864663974_0.html",
+        "fecha": "2024-06-23",
+        "consultado": "2026-07-10"
+      }
+    },
+    "dr-025": {
+      "valor": 1,
+      "justificacion": "Declaración citable de deferencia a los cauces institucionales frente a la acción directa: «Yo no debería existir, hago de justiciero, para eso está la Policía». No consta una declaración específica sobre la violencia política; el Supremo investiga desde 2026 si instó al acoso contra los eurodiputados escindidos, hecho en instrucción que no se codifica como posición. Por eso el acuerdo no alcanza el máximo.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Alvise: «Yo no debería existir, hago de justiciero, para eso está la Policía. ¿Qué puto sentido tiene que yo lo haga?» (entrevista en El Español)",
+        "url": "https://www.elespanol.com/espana/politica/20240623/alvise-no-deberia-existir-hago-justiciero-policia-puto-sentido-haga/864663974_0.html",
+        "fecha": "2024-06-23",
+        "consultado": "2026-07-10",
+        "cita": "Yo no debería existir, hago de justiciero, para eso está la Policía. ¿Qué puto sentido tiene que yo lo haga?"
+      }
+    },
+    "sd-003": {
+      "valor": -1,
+      "justificacion": "Posición revelada por los votos, anteriores a la escisión: los tres eurodiputados de SALF —Pérez incluido— votaron contra la resolución de apoyo continuado de la UE a Ucrania (17-7-2024, aprobada 495-137) y Pérez votó después contra la ayuda económica (10-2024). Matiza el rechazo su declaración de septiembre de 2024 a favor del uso de armas aliadas en territorio ruso: por eso -1 y no -2.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "Vox, Podemos y Alvise se desligan del rechazo europeo al viaje de Orbán a Moscú y del apoyo a Ucrania (Libertad Digital)",
+        "url": "https://www.libertaddigital.com/espana/2024-07-18/vox-podemos-y-alvise-se-desligan-del-rechazo-europeo-al-viaje-de-orban-a-moscu-y-del-apoyo-a-ucrania-7148725/",
+        "fecha": "2024-07-18",
+        "consultado": "2026-07-10"
+      }
+    },
+    "dr-019": {
+      "valor": 0,
+      "justificacion": "Conducta mixta revelada en el PE: evitó votar la condena de la ocupación rusa de Crimea (sus dos compañeros, ya distanciados, votaron a favor), votó contra la comisión del Escudo de la Democracia que señalaba la desinformación rusa y contra resoluciones de apoyo a Ucrania; pero declaró apoyo al uso de armas aliadas en territorio ruso. Ni atlantismo antirruso ni prorrusismo articulado.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "La actividad de Alvise en el Parlamento Europeo (Newtral)",
+        "url": "https://www.newtral.es/alvise-parlamento-europeo/20250219/",
+        "fecha": "2025-02-19",
+        "consultado": "2026-07-10"
+      }
+    },
+    "izq-036": {
+      "valor": 0,
+      "justificacion": "Posición revelada: pese al gesto de sortear su sueldo entre seguidores, en octubre de 2024 votó en contra de recortar los privilegios económicos de los eurodiputados. El voto manda sobre el gesto discursivo: ni defensa articulada de limitar por ley los sueldos públicos ni oposición declarada.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "Alvise vota en contra de recortar los privilegios de los eurodiputados y de enviar ayuda económica a Ucrania (El Español)",
+        "url": "https://www.elespanol.com/espana/politica/20241024/alvise-vota-recortar-privilegios-eurodiputados-enviar-ayuda-economica-ucrania/895910634_0.html",
+        "fecha": "2024-10-24",
+        "consultado": "2026-07-10"
+      }
+    }
+  }
+}

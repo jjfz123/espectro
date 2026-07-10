@@ -130,7 +130,13 @@
         "castilla-y-leon"
       ],
       "motivoInclusion": "umbral",
-      "perfilRelaciones": [],
+      "perfilRelaciones": [
+        {
+          "perfilId": "salf",
+          "relacion": "misma-organizacion",
+          "nota": "Perfil del proyecto de Alvise Pérez; los eurodiputados escindidos en 2025 no quedan representados por él."
+        }
+      ],
       "nota": "Naturaleza inventariada: partido. Vigencia comprobada: electoral-2026. Tratamiento previsto: perfil-reutilizable."
     },
     {
