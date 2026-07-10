@@ -1,0 +1,166 @@
+{
+  "id": "compromis",
+  "nombre": "Compromís",
+  "siglas": "Compromís",
+  "ambito": "autonomico",
+  "tipo": "coalicion",
+  "ccaa": [
+    "comunitat-valenciana"
+  ],
+  "confianza": "verificada",
+  "web": "https://compromis.net/",
+  "revisado": "2026-07-10",
+  "actividad": "activa",
+  "autodescripcion": {
+    "texto": "Compromís se presenta como la organización unitaria del valencianismo de izquierdas desde una perspectiva feminista, ecologista, diversa y antifascista. Es, formalmente, una coalición electoral integrada por Més-Compromís (heredera del Bloc Nacionalista Valencià), Iniciativa del Poble Valencià (de perfil ecosocialista) y els Verds del País Valencià (ecologistas), junto a independientes; no se ha refundado como partido único pese al debate de integración abierto en 2024. Ese proceso quedó paralizado en 2025, cuando Més-Compromís abandonó el grupo parlamentario de Sumar en el Congreso mientras Iniciativa del Poble Valencià permanecía en él, evidenciando que la coalición conserva hoy tensiones internas de encaje.",
+    "fuente": {
+      "tipo": "otro",
+      "titulo": "Qui som (Compromís, web oficial)",
+      "url": "https://compromis.net/info/qui-som/"
+    }
+  },
+  "clasificacion": [
+    {
+      "etiqueta": "nacionalismo valenciano de izquierdas (\"tercera vía\" del valencianismo)",
+      "explicacion": "Etiqueta con la que el análisis politológico describe a Compromís dentro del nacionalismo valenciano: una vía distinta tanto del regionalismo conservador (UV) como del nacionalismo de fractura de los años 80-90, que desde 2021 desplaza el énfasis del eje identitario hacia el eje social (feminismo, ecologismo, progresismo) sin abandonar el valencianismo.",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Compromís y el nacionalismo valenciano (Numinis, Revista de Filosofía)",
+        "url": "https://www.numinisrevista.com/2023/10/compromis-y-el-nacionalismo-valenciano.html",
+        "fecha": "2023-10"
+      }
+    }
+  ],
+  "posiciones": {
+    "nac-010": {
+      "valor": -2,
+      "justificacion": "La infrafinanciación valenciana per cápita es la bandera económica histórica de Compromís, que puso como precio a su apoyo a la investidura de Sánchez en 2023 el reconocimiento y la condonación de 46.000 millones de euros de \"deuda histórica\" derivada de haber recibido durante años menos recursos por habitante que la media; reclama un reparto por población real, no un criterio que priorice la despoblación o la dispersión de otros territorios.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Compromís pone precio a la investidura de Sánchez: perdonar 46.000 millones de deuda histórica valenciana",
+        "url": "https://www.elespanol.com/valencia/20231002/compromis-pone-precio-investidura-sanchez-perdonar-millones-deuda-historica/798920354_0.html",
+        "fecha": "2023-10-02",
+        "consultado": "2026-07-10"
+      }
+    },
+    "ter-003": {
+      "valor": -1,
+      "justificacion": "Frente a un sistema de tipo concierto vasco extendido a más comunidades, Compromís reclama en su lugar un fondo de nivelación transitorio dentro del sistema común y la condonación de la deuda histórica valenciana: recela de blindar regímenes fiscales singulares para otros territorios (como el catalán) mientras la Comunitat Valenciana sigue infrafinanciada dentro del sistema común.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Compromís pone precio a la investidura de Sánchez: perdonar 46.000 millones de deuda histórica valenciana",
+        "url": "https://www.elespanol.com/valencia/20231002/compromis-pone-precio-investidura-sanchez-perdonar-millones-deuda-historica/798920354_0.html",
+        "fecha": "2023-10-02",
+        "consultado": "2026-07-10"
+      }
+    },
+    "nac-014": {
+      "valor": 2,
+      "justificacion": "Compromís considera las diputaciones provinciales instituciones \"anacrónicas\" y \"caducas\" y llevó al Senado, con apoyo de Unidos Podemos y ERC, una propuesta para iniciar los trámites de su supresión; plantea además reformar la ley de bases de régimen local para que cada autonomía pueda decidir su propia organización territorial y eliminarlas.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Compromís insta a PSOE y Podemos a abrir las puertas en el Congreso a la eliminación de las diputaciones provinciales",
+        "url": "https://www.eldiario.es/comunitat-valenciana/politica/compromis-psoe-podemos-congreso-diputaciones_1_1924638.html",
+        "consultado": "2026-07-10"
+      }
+    },
+    "nac-009": {
+      "valor": -2,
+      "justificacion": "Compromís se define explícitamente como fuerza de progreso: Joan Baldoví ha descartado pactar con Vox y sitúa el objetivo estratégico en \"sumar con el Partido Socialista y con una amplia mayoría ciudadana\" para desalojar a la derecha y la extrema derecha de las instituciones, no en buscar inversiones pactando con cualquier partido estatal sea cual sea su signo.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Baldoví considera legítimo desplazar al PP y Vox de los gobiernos",
+        "url": "https://www.democrata.es/comunitat-valenciana/baldovi-considera-legitimo-desplazar-pp-vox-gobiernos-desconoce-planes-mocion-torrent/",
+        "consultado": "2026-07-10"
+      }
+    },
+    "nac-012": {
+      "valor": 0,
+      "justificacion": "Posición interna dividida y no resuelta: en junio de 2025 Més-Compromís (socio mayoritario) decidió abandonar el grupo parlamentario Plurinacional Sumar en el Congreso y pasar al Grupo Mixto, mientras Iniciativa del Poble Valencià, el otro componente de la coalición, permaneció integrada en Sumar. Compromís como coalición no tiene hoy una respuesta unificada sobre integrarse en las coaliciones estatales de izquierda.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "La diputada de Compromís Àgueda Micó formaliza su salida de Sumar y pasa al Grupo Mixto en el Congreso",
+        "url": "https://www.eldiario.es/comunitat-valenciana/politica/diputada-compromis-agueda-mico-formaliza-salida-sumar-pasa-grupo-mixto-congreso_1_12435167.html",
+        "fecha": "2025-06",
+        "consultado": "2026-07-10"
+      }
+    },
+    "sd-004": {
+      "valor": 2,
+      "justificacion": "Compromís articula su estrategia de alianzas explícitamente en torno a un \"frente plurinacional\" con ERC, Bildu y otras fuerzas nacionalistas de izquierda, reclamando el reconocimiento constitucional de España como Estado plurinacional frente al marco de nación única.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "El mapa del frente plurinacional que propone Compromís desde el «país valencià»: de ERC a Bildu y con Sumar marginado (El Debate)",
+        "url": "https://www.eldebate.com/espana/comunidad-valenciana/20260601/mapa-frente-plurinacional-propone-compromis-desde-pais-valencia-erc-bildu-sumar-marginado_422924.html",
+        "fecha": "2026-06-01",
+        "consultado": "2026-07-10"
+      }
+    },
+    "sd-017": {
+      "valor": 1,
+      "justificacion": "Tras las inundaciones de la DANA de octubre de 2024, Compromís exigió \"poner en cuarentena\" la ampliación del aeropuerto de Manises (Valencia) por la vulnerabilidad climática evidenciada, pidiendo condicionar cualquier ampliación a criterios estrictos de sostenibilidad y resiliencia; es una exigencia de revisión del proyecto concreto, no un rechazo absoluto y permanente a toda ampliación aeroportuaria en general.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Compromís exige revisar la ampliación del Aeropuerto de Valencia tras las inundaciones de la DANA",
+        "url": "https://www.moncloa.com/2024/12/02/compromis-exige-revisar-la-ampliacion-del-aeropuerto-de-valencia-tras-las-inundaciones-de-la-dana-3041114/",
+        "fecha": "2024-12-02",
+        "consultado": "2026-07-10"
+      }
+    },
+    "sd-016": {
+      "valor": 1,
+      "justificacion": "Su programa de 2023 (un millar de propuestas) se articula explícitamente para \"situar el bienestar en el centro\", no el crecimiento del PIB por sí mismo, combinando el eje social con el ecológico; no llega a formular un programa de decrecimiento explícito, de ahí el valor moderado.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Compromís presenta un millar de propuestas electorales para fortalecer servicios públicos y situar el \"bienestar en el centro\"",
+        "url": "https://www.eldiario.es/comunitat-valenciana/politica/compromis-presenta-millar-propuestas-electorales-fortalecer-servicios-publicos-situar-bienestar-centro_1_10181326.html",
+        "fecha": "2023",
+        "consultado": "2026-07-10"
+      }
+    },
+    "soc-004": {
+      "valor": 2,
+      "justificacion": "Compromís votó a favor de tramitar la ILP de regularización extraordinaria de personas migrantes que ya viven y trabajan en España (abril de 2024), junto a Sumar, Podemos, ERC y EH Bildu.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "El Congreso apoya la iniciativa popular para regularizar a cientos de miles de migrantes que ya viven y trabajan en España",
+        "url": "https://www.eldiario.es/desalambre/congreso-apoyara-iniciativa-popular-regularizar-cientos-miles-migrantes-viven-espana_1_11273877.html",
+        "fecha": "2024-04-09",
+        "consultado": "2026-07-10"
+      }
+    },
+    "mon-001": {
+      "valor": 1,
+      "justificacion": "Compromís no acudió a la jura de la Constitución de la princesa Leonor en 2023, alegando que \"no nos representa este acto en el siglo XXI\": un gesto de distancia institucional frente a la Corona, aunque no equivale a una campaña legislativa activa y explícita por la abolición de la monarquía, de ahí el valor moderado.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Compromís no acudirá a la jura de la Constitución de la Princesa Leonor: \"No nos representa este acto en el siglo XXI\"",
+        "url": "https://www.eldiario.es/comunitat-valenciana/compromis-no-acudira-jura-constitucion-princesa-leonor-no-representa-acto-siglo-xxi_1_10640537.html",
+        "fecha": "2023-10-29",
+        "consultado": "2026-07-10",
+        "cita": "No nos representa este acto en el siglo XXI"
+      }
+    },
+    "lai-001": {
+      "valor": 2,
+      "justificacion": "Diputados de Compromís, junto a Unidas Podemos, impulsaron y procesaron en la Comisión de Educación del Congreso la Proposición No de Ley respaldada por Europa Laica y más de 40 colectivos para sacar la religión confesional del currículo y del horario lectivo de los centros públicos.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "En la Comisión de Educación del Congreso de los Diputados la Proposición No de Ley-PNL, impulsada por Europa Laica y más de 40 colectivos por una escuela pública y laica",
+        "url": "https://laicismo.org/en-la-comision-de-educacion-del-congreso-de-diputados-la-proposicion-no-de-ley-pnl-impulsada-por-europa-laica-y-mas-de-40-colectivos-por-una-escuela-publica-y-laica/174057",
+        "consultado": "2026-07-10"
+      }
+    }
+  }
+}

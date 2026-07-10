@@ -105,7 +105,12 @@
         "Zaragoza"
       ],
       "motivoInclusion": "umbral",
-      "perfilRelaciones": [],
+      "perfilRelaciones": [
+        {
+          "perfilId": "chunta-aragonesista",
+          "relacion": "misma-organizacion"
+        }
+      ],
       "nota": "Naturaleza inventariada: partido-territorial. Vigencia comprobada: electoral-2026. Tratamiento previsto: perfil-especifico."
     },
     {
@@ -123,7 +128,7 @@
       ],
       "motivoInclusion": "umbral",
       "perfilRelaciones": [],
-      "nota": "Naturaleza inventariada: coalicion-electoral. Vigencia comprobada: electoral-2026. Tratamiento previsto: perfil-especifico."
+      "nota": "Naturaleza inventariada: coalicion-electoral. Vigencia comprobada: electoral-2026. Tratamiento previsto: perfil-especifico. Identidad verificada: marca del espacio España Vaciada/Teruel Existe, sin relación orgánica con Chunta Aragonesista; no debe enlazarse al perfil chunta-aragonesista."
     },
     {
       "id": "ara-2026-izquierda-unida-movimiento-sumar",
@@ -162,7 +167,12 @@
         "Zaragoza"
       ],
       "motivoInclusion": "umbral",
-      "perfilRelaciones": [],
+      "perfilRelaciones": [
+        {
+          "perfilId": "salf",
+          "relacion": "misma-organizacion"
+        }
+      ],
       "nota": "Naturaleza inventariada: partido-o-candidatura. Vigencia comprobada: electoral-2026. Tratamiento previsto: perfil-reutilizable."
     },
     {

@@ -1,0 +1,264 @@
+{
+  "id": "nueva-canarias",
+  "nombre": "Nueva Canarias-Bloque Canarista",
+  "siglas": "NC-bc",
+  "ambito": "autonomico",
+  "tipo": "partido",
+  "ccaa": [
+    "canarias"
+  ],
+  "confianza": "verificada",
+  "web": "https://www.nuevacanariasbc.org/",
+  "revisado": "2026-07-10",
+  "actividad": "activa",
+  "registroMir": "Fundado en 2005 como escisión del sector nacionalista de izquierda de Coalición Canaria/ICAN; perdió la condición registral por no renovar documentación y se reinscribió como Nueva Canarias-Bloque Canarista para concurrir en 2023. En enero de 2025, el Bloque Nacionalista Rural (Gáldar) y hasta 13 asambleas locales grancanarias (Agaete, Agüimes, Guía, Firgas, Valsequillo, Tejeda…) rompieron con NC-bc y constituyeron a lo largo de 2025 Municipalistas Primero Canarias, que en junio de 2026 pactó una «confluencia nacionalista» municipal con Coalición Canaria. La marca, la personalidad jurídica y el grupo parlamentario NC-bc continuaron sin alteración; en el VI Congreso Nacional (julio de 2025) Román Rodríguez dejó la presidencia tras veinte años y Luis Campos asumió la secretaría general, reorganizando el partido de cara a 2027. Una encuesta de enero de 2026 seguía atribuyendo a NC-bc en torno al 7,4% y 4-5 escaños.",
+  "autodescripcion": {
+    "texto": "Se define como organización de izquierdas, nacionalista, ecologista y feminista. Su VI Congreso Nacional (julio de 2025) reafirmó el carácter de izquierda del proyecto, el compromiso de buscar alianzas en ese espacio político y el rechazo frontal a la ultraderecha y a sus políticas «reaccionarias, racistas, xenófobas, sexistas, homófobas y antibienestar».",
+    "fuente": {
+      "tipo": "declaracion",
+      "titulo": "Nueva Canarias anuncia que se reafirmará en su VI Congreso como organización de izquierdas, nacionalista, ecologista y feminista (eldiario.es)",
+      "url": "https://www.eldiario.es/canariasahora/politica/nueva-canarias-anuncia-reafirmara-vi-congreso-organizacion-izquierdas-nacionalista-ecologista-feminista_1_12478851.html",
+      "fecha": "2025-07",
+      "cita": "reaccionarias, racistas, xenófobas, sexistas, homófobas y antibienestar"
+    }
+  },
+  "clasificacion": [
+    {
+      "etiqueta": "nueva izquierda nacionalista canaria",
+      "explicacion": "Corriente del nacionalismo canario situada a la izquierda del espectro político: reivindica mayor autogobierno y singularidad fiscal para Canarias desde una agenda progresista, ecologista y feminista. La investigación académica la distingue así del regionalismo más transversal y pactista de Coalición Canaria, formación de la que Nueva Canarias se escindió en 2005 y con la que ha llegado a coincidir o a enfrentarse según el momento.",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Nueva Canarias: creación y evolución de la nueva izquierda nacionalista canaria (2005-2022), Alberto Javier Báez García (Universidad de La Laguna / Asociación Española de Ciencia Política y de la Administración)",
+        "url": "https://aecpa.es/es-es/nueva-canarias-creacion-y-evolucion-de-la-nueva-izquierda-nacionalist/congress-papers/2767/"
+      }
+    }
+  ],
+  "posiciones": {
+    "can-002": {
+      "valor": 2,
+      "justificacion": "En una polémica sobre el tratamiento parlamentario del descuento de residente del 75%, Nueva Canarias avisó de que «no es una medida graciosa» sino un derecho consolidado de la ciudadanía canaria por su condición de insularidad, y reclamó blindarlo frente a cualquier intento de condicionarlo o recortarlo.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "'No es una medida graciosa': Nueva Canarias, preocupada por el tratamiento que le dio el Congreso a la bonificación del 75% para residentes (eldiario.es)",
+        "url": "https://www.eldiario.es/canariasahora/politica/no-medida-graciosa-nueva-canarias-preocupada-tratamiento-le-dio-congreso-bonificacion-75-residentes_1_9171491.html",
+        "consultado": "2026-07-10",
+        "cita": "No es una medida graciosa"
+      }
+    },
+    "can-001": {
+      "valor": 1,
+      "justificacion": "No consta una declaración específica sobre armonización fiscal europea, pero NC reclama sistemáticamente reponer bonificaciones ligadas al REF que el Estado recorta -como la deducción al combustible profesional-, denunciando cualquier erosión de las singularidades fiscales canarias frente a decisiones estatales, aunque sin formular el enunciado maximalista del ítem.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "NC reclama reponer la bonificación al combustible profesional y la deducción fiscal por la inflación (nuevacanariasbc.org)",
+        "url": "https://www.nuevacanariasbc.org/blog/2026/02/13/nc-reclama-reponer-la-bonificacion-al-combustible-profesional-y-la-deduccion-fiscal-por-la-inflacion/",
+        "fecha": "2026-02-13",
+        "consultado": "2026-07-10"
+      }
+    },
+    "can-007": {
+      "valor": 2,
+      "justificacion": "Luis Campos exigió, ya por quinta vez, una moratoria temporal a nuevas autorizaciones turísticas hasta la aprobación de la nueva ley, y NC-bc propuso en el Parlamento canario una moratoria de camas adaptada a cada isla junto con la descalificación de suelo turístico no desarrollado, para frenar la expansión del modelo actual.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "NC-BC propone siete medidas contra la masificación turística (nuevacanariasbc.org)",
+        "url": "https://www.nuevacanariasbc.org/blog/2024/04/22/nc-bc-propone-siete-medidas-contra-la-masificacion-turistica/",
+        "fecha": "2024-04-22",
+        "consultado": "2026-07-10"
+      }
+    },
+    "can-008": {
+      "valor": 2,
+      "justificacion": "El portavoz Luis Campos afirma que «no es modo canario pactar con la extrema derecha que niega las autonomías», ni con quien defiende el racismo, niega el cambio climático o combate la violencia machista; NC ha afeado repetidamente a Coalición Canaria sus pactos municipales con Vox, calificándolos de estrategia premeditada de colaboración.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Nueva Canarias afea el tercer pacto de Coalición Canaria con Vox: 'Canarias no puede ser gobernada desde el odio' (eldiario.es)",
+        "url": "https://www.eldiario.es/canariasahora/politica/nueva-canarias-afea-tercer-pacto-coalicion-canaria-vox-canarias-no-gobernada-odio_1_12124085.html",
+        "fecha": "2025",
+        "consultado": "2026-07-10",
+        "cita": "no es modo canario pactar con la extrema derecha que niega las autonomías"
+      }
+    },
+    "can-009": {
+      "valor": -2,
+      "justificacion": "NC se construyó desde 2005 como proyecto de izquierda para el conjunto del archipiélago, no isla a isla. En enero de 2025 esa apuesta fue precisamente lo que provocó la ruptura de hasta 13 asambleas locales grancanarias (Bloque Nacionalista Rural y otras), que crearon Municipalistas Primero Canarias reclamando anteponer la identidad municipalista e insular al proyecto regional de NC.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "El Bloque Nacionalista Rural rompe con Nueva Canarias por unanimidad en asamblea (fuerteventuradigital.com)",
+        "url": "https://www.fuerteventuradigital.com/articulo/politica/golpe-nacionalismo-gran-canaria-salida-bnr-nueva-canarias/20250130100523004808.html",
+        "fecha": "2025-01-30",
+        "consultado": "2026-07-10"
+      }
+    },
+    "can-010": {
+      "valor": 2,
+      "justificacion": "NC ha planteado en el Congreso, a través de su portavoz Pedro Quevedo, interpelaciones urgentes sobre las relaciones entre España y Marruecos y su impacto en Canarias, mostrando preocupación por la falta de un acuerdo Madrid-Rabat sobre la mediana marítima frente a la expansión de las leyes marroquíes de delimitación de aguas.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Los puntos calientes en la relación entre Canarias, Marruecos y el Sáhara (eldiario.es)",
+        "url": "https://www.eldiario.es/canariasahora/internacional/puntos-calientes-relacion-canarias-marruecos-sahara_1_8862394.html",
+        "consultado": "2026-07-10"
+      }
+    },
+    "can-011": {
+      "valor": 2,
+      "justificacion": "NC ha presentado proposiciones de ley para una ecotasa turística en 2015, 2019 y 2024, siempre rechazadas por CC (según los años, también por PP, PSOE o ASG). En 2024 retó a CC a llevar al Parlamento su propia ecotasa por pernoctación calificando su inacción de «puro postureo», reclamando que lo recaudado se destine a infraestructuras y espacios naturales.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "El Parlamento canario desoye a los isleños y rechaza la tasa turística (Infobae)",
+        "url": "https://www.infobae.com/espana/2024/04/24/el-parlamento-canario-desoye-a-los-islenos-y-rechaza-la-tasa-turistica/",
+        "fecha": "2024-04-24",
+        "consultado": "2026-07-10"
+      }
+    },
+    "ter-001": {
+      "valor": -2,
+      "justificacion": "Rechaza expresamente el programa «regresivo y centralista» de la ultraderecha —recentralizar competencias y eliminar comunidades autónomas— y presenta la defensa y ampliación del autogobierno canario como línea roja de cualquier pacto; devolver competencias al Estado central es la antítesis de su proyecto.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Nueva Canarias considera que un pacto entre PP y Vox pondría en riesgo «el autogobierno y la democracia» (eldiario.es)",
+        "url": "https://www.eldiario.es/canariasahora/nueva-canarias-considera-pacto-pp-vox-pondria-riesgo-autogobierno-democracia_1_12446080.html",
+        "consultado": "2026-07-10"
+      }
+    },
+    "nac-009": {
+      "valor": -2,
+      "justificacion": "NC hace del cordón sanitario a la ultraderecha un principio y ha denunciado que los pactos regionalistas 'sin más' con cualquier partido, como los de CC, blanquean a Vox; su VI Congreso Nacional (2025) reafirmó la apuesta por alianzas exclusivamente en el espacio de la izquierda, no un pactismo transversal orientado a obtener inversiones a cualquier precio.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Nueva Canarias anuncia que se reafirmará en su VI Congreso como organización de izquierdas, nacionalista, ecologista y feminista (eldiario.es)",
+        "url": "https://www.eldiario.es/canariasahora/politica/nueva-canarias-anuncia-reafirmara-vi-congreso-organizacion-izquierdas-nacionalista-ecologista-feminista_1_12478851.html",
+        "fecha": "2025-07",
+        "consultado": "2026-07-10"
+      }
+    },
+    "nac-012": {
+      "valor": 1,
+      "justificacion": "NC concurrió en coalición con Sumar a las elecciones europeas de junio de 2024, integrándose en una candidatura estatal de izquierdas para tener voz en Bruselas; su VI Congreso (2025) ratifica el compromiso de buscar alianzas en el espacio de la izquierda estatal, aunque mantiene marca y grupo parlamentario propios en Canarias en lugar de integrarse de forma permanente.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Nueva Canarias cierra un acuerdo con Sumar para concurrir juntos a las elecciones europeas (Canarias7)",
+        "url": "https://www.canarias7.es/politica/nueva-canarias-cierra-acuerdo-sumar-concurrir-juntos-20240426185917-nt.html",
+        "fecha": "2024-04-26",
+        "consultado": "2026-07-10"
+      }
+    },
+    "nac-016": {
+      "valor": -2,
+      "justificacion": "Román Rodríguez, presidente de NC, defiende que existan dos nacionalismos canarios distintos porque hay divergencias reales de fiscalidad, vivienda, modelo turístico, energías renovables y blanqueo de la ultraderecha: NC coincide con la izquierda insular y estatal, mientras CC lo hace con la derecha española o local. Rechaza así la transversalidad como principio fundacional.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Pluralidad nacionalista, también en Canarias (blog de Nueva Canarias, artículo de Román Rodríguez)",
+        "url": "https://www.nuevacanariasbc.org/blog/2025/02/16/pluralidad-nacionalista-tambien-en-canarias/",
+        "fecha": "2025-02-16",
+        "consultado": "2026-07-10"
+      }
+    },
+    "eco-005": {
+      "valor": 2,
+      "justificacion": "Carmen Hernández (NC) defendió declarar zonas tensionadas en Canarias, señalando que en Navarra los precios del alquiler bajaron un 7% y en Cataluña un 4,7% en su primer año de aplicación; criticó que la propuesta del Gobierno CC-PP, dotada con solo 1,8 millones de euros, carece de financiación suficiente para abordar el problema.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Carmen Hernández: 'Canarias necesita declarar las zonas tensionadas para frenar la expulsión' de los residentes (nuevacanariasbc.org)",
+        "url": "https://www.nuevacanariasbc.org/blog/2026/06/18/canarias-necesita-declarar-las-zonas-tensionadas-para-frenar-la-expulsion-de-los-residentes/",
+        "fecha": "2026-06-18",
+        "consultado": "2026-07-10",
+        "cita": "Canarias necesita declarar las zonas tensionadas para frenar la expulsión"
+      }
+    },
+    "eco-006": {
+      "valor": 2,
+      "justificacion": "NC defiende ampliar el parque público de vivienda en alquiler hasta un horizonte de 40.000 viviendas públicas en Canarias, muy por encima del actual, y critica que las medidas del Gobierno CC-PP no ofrezcan la financiación ni la seguridad jurídica necesarias para incorporar viviendas privadas al alquiler asequible.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Carmen Hernández: 'Canarias necesita declarar las zonas tensionadas para frenar la expulsión' de los residentes (nuevacanariasbc.org)",
+        "url": "https://www.nuevacanariasbc.org/blog/2026/06/18/canarias-necesita-declarar-las-zonas-tensionadas-para-frenar-la-expulsion-de-los-residentes/",
+        "fecha": "2026-06-18",
+        "consultado": "2026-07-10"
+      }
+    },
+    "eco-008": {
+      "valor": 2,
+      "justificacion": "Nueva Canarias, con Pedro Quevedo en el Congreso, apoyó la reforma de 2021 que garantiza por ley la revalorización de las pensiones conforme al IPC, junto a PSOE, Podemos, ERC, PNV, Compromís y otros; el mecanismo frente al que después PP, Vox y sectores liberales han presentado reparos de sostenibilidad.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "El Congreso aprueba la reforma que garantiza la revalorización de las pensiones según el IPC (eldiario.es)",
+        "url": "https://www.eldiario.es/politica/congreso-aprueba-reforma-garantiza-revalorizacion-pensiones-ipc_1_8548144.html",
+        "fecha": "2021",
+        "consultado": "2026-07-10"
+      }
+    },
+    "eco-009": {
+      "valor": -2,
+      "justificacion": "El anterior Gobierno canario del Pacto de las Flores (PSOE, Nueva Canarias, Podemos y ASG) calculó que la bonificación del impuesto de sucesiones y donaciones costaría a Canarias 40 millones de euros anuales en recaudación, en un contexto crítico con esa rebaja que el Gobierno CC-PP amplió después al 99,9% mediante el Decreto-ley 5/2023.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Canarias pierde 36 millones en un año por la bonificación del impuesto de sucesiones de CC y el PP (eldiario.es)",
+        "url": "https://www.eldiario.es/canariasahora/economia/bonificacion-impuesto-sucesiones-cc-pp-reduce-43-recaudacion-canarias_1_12147442.html",
+        "consultado": "2026-07-10"
+      }
+    },
+    "soc-001": {
+      "valor": 2,
+      "justificacion": "Representantes de Nueva Canarias, como Carmen Hernández, celebraron en el Parlamento canario la aprobación por unanimidad de la ley autonómica de reconocimiento de derechos de las personas trans, en una votación conjunta de todos los grupos -incluido el PP- que hizo de Canarias una de las pioneras en España.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "Colectivos LGTBI celebran la votación en el Parlamento regional: 'Canarias ha dicho alto y claro que una ley trans es posible' (eldiario.es)",
+        "url": "https://www.eldiario.es/canariasahora/politica/colectivos-lgtbi-celebran-votacion-parlamento-regional-canarias-dicho-alto-claro-ley-trans-posible_1_7974676.html",
+        "consultado": "2026-07-10"
+      }
+    },
+    "soc-002": {
+      "valor": -2,
+      "justificacion": "NC enmarca la respuesta a la inmigración en la acogida, la regularización y el reparto solidario, no en la devolución: ha denunciado que gobernar 'desde el odio' hacia los migrantes -en alusión a los pactos de CC con Vox durante la crisis de menores no acompañados- traiciona los valores de convivencia que reclama para Canarias.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Nueva Canarias afea el tercer pacto de Coalición Canaria con Vox: 'Canarias no puede ser gobernada desde el odio' (eldiario.es)",
+        "url": "https://www.eldiario.es/canariasahora/politica/nueva-canarias-afea-tercer-pacto-coalicion-canaria-vox-canarias-no-gobernada-odio_1_12124085.html",
+        "fecha": "2025",
+        "consultado": "2026-07-10"
+      }
+    },
+    "soc-004": {
+      "valor": 2,
+      "justificacion": "NC calificó de «inadmisible» que la regularización extraordinaria de personas migrantes excluyera a las personas saharauis y exigió rectificar, mostrando un apoyo activo al mecanismo de regularización que reclama ampliar, no limitar, alineado con su defensa histórica de la causa saharaui.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Nueva Canarias ve 'inadmisible' excluir a los saharauis de la regularización, y exigirá rectificar (eldiario.es)",
+        "url": "https://www.eldiario.es/canariasahora/politica/nueva-canarias-inadmisible-exclusion-saharauis-regularizacion_1_13158085.html",
+        "consultado": "2026-07-10",
+        "cita": "inadmisible"
+      }
+    },
+    "soc-006": {
+      "valor": 2,
+      "justificacion": "Los diputados de Nueva Canarias se sumaron en junio de 2015 al recurso de inconstitucionalidad contra la prisión permanente revisable presentado junto a PSOE, Izquierda Plural, UPyD, Compromís, PNV y BNG, alegando que la pena vulnera los principios de reeducación y reinserción social; el Constitucional acabó avalándola en 2021.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "El Tribunal Constitucional avala la prisión permanente revisable (Público)",
+        "url": "https://www.publico.es/politica/tribunal-constitucional-avala-prision-permanente-revisable.html",
+        "fecha": "2021-10",
+        "consultado": "2026-07-10"
+      }
+    }
+  }
+}

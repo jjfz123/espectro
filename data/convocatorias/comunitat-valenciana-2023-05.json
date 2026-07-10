@@ -78,6 +78,11 @@
       "motivoInclusion": "umbral",
       "perfilRelaciones": [
         {
+          "perfilId": "compromis",
+          "relacion": "coalicion",
+          "nota": "Perfil propio de la coalición Compromís (Més-Compromís, Iniciativa del Poble Valencià y VerdsEquo), con posiciones documentadas independientes de sus componentes."
+        },
+        {
           "perfilId": "verdes-equo",
           "relacion": "componente",
           "nota": "VerdsEquo figura como componente de esta candidatura fechada; sus posiciones no se atribuyen automáticamente a la coalición."

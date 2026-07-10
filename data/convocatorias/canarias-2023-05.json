@@ -117,7 +117,13 @@
         "autonómica + 5 islas"
       ],
       "motivoInclusion": "umbral",
-      "perfilRelaciones": [],
+      "perfilRelaciones": [
+        {
+          "perfilId": "nueva-canarias",
+          "relacion": "misma-organizacion",
+          "nota": "Denominación de papeleta del partido reinscrito como Nueva Canarias-Bloque Canarista para las elecciones de 2023: misma organización."
+        }
+      ],
       "nota": "Naturaleza inventariada: partido-o-candidatura. Vigencia comprobada: representacion-2023-2027. Tratamiento previsto: perfil-especifico."
     },
     {

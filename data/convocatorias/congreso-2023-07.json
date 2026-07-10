@@ -159,7 +159,39 @@
         "navarra"
       ],
       "motivoInclusion": "umbral",
-      "perfilRelaciones": []
+      "perfilRelaciones": [
+        {
+          "perfilId": "movimiento-sumar",
+          "relacion": "coalicion",
+          "nota": "Movimiento Sumar es la organización matriz de la candidatura Sumar de 2023; sus posiciones documentadas no se atribuyen automáticamente al resto de la coalición."
+        },
+        {
+          "perfilId": "mas-madrid",
+          "relacion": "componente",
+          "nota": "Más Madrid figura como componente de esta candidatura fechada; sus posiciones no se atribuyen automáticamente a la coalición."
+        },
+        {
+          "perfilId": "verdes-equo",
+          "relacion": "componente",
+          "nota": "Verdes Equo figura como componente de esta candidatura fechada; sus posiciones no se atribuyen automáticamente a la coalición."
+        },
+        {
+          "perfilId": "iu",
+          "relacion": "componente",
+          "nota": "Izquierda Unida figura como componente de esta candidatura fechada; sus posiciones no se atribuyen automáticamente a la coalición."
+        },
+        {
+          "perfilId": "compromis",
+          "relacion": "componente",
+          "nota": "Compromís figura como componente formal de la coalición registrada de 2023; sus posiciones no se atribuyen automáticamente a la coalición."
+        },
+        {
+          "perfilId": "chunta-aragonesista",
+          "relacion": "componente",
+          "nota": "Chunta Aragonesista figura como componente formal de la coalición registrada de 2023 (obtuvo escaño dentro de ella); sus posiciones no se atribuyen automáticamente a la coalición."
+        }
+      ],
+      "nota": "Coalición que integró además a Catalunya en Comú y otras formaciones sin perfil propio en el catálogo; Podemos concurrió en puestos pactados de las listas sin constar como parte formal de la coalición registrada (extremo pendiente de verificación con la documentación de la JEC). Cifra de síntesis pendiente de contraste con el fichero TOTA oficial."
     },
     {
       "id": "congreso-2023-07-erc",
@@ -379,7 +411,12 @@
         "navarra"
       ],
       "motivoInclusion": "umbral",
-      "perfilRelaciones": []
+      "perfilRelaciones": [
+        {
+          "perfilId": "frente-obrero",
+          "relacion": "misma-organizacion"
+        }
+      ]
     },
     {
       "id": "congreso-2023-07-nc-bc",
@@ -393,7 +430,13 @@
         "canarias"
       ],
       "motivoInclusion": "umbral",
-      "perfilRelaciones": []
+      "perfilRelaciones": [
+        {
+          "perfilId": "nueva-canarias",
+          "relacion": "misma-organizacion",
+          "nota": "Nueva Canarias-Bloque Canarista es la denominación registral del partido desde su reinscripción para 2023; «Bloque Canarista» forma parte del nombre y de la marca electoral, no es una organización aparte con personalidad propia."
+        }
+      ]
     },
     {
       "id": "congreso-2023-07-pdecat-e-ciu",
@@ -407,7 +450,13 @@
         "catalunya"
       ],
       "motivoInclusion": "umbral",
-      "perfilRelaciones": []
+      "perfilRelaciones": [
+        {
+          "perfilId": "pdecat",
+          "relacion": "misma-organizacion",
+          "nota": "El PDeCAT acordó su disolución el 28 de octubre de 2023, meses después de esta candidatura; el perfil enlazado documenta su etapa activa bajo esta marca, no una candidatura vigente (actividad: historica)."
+        }
+      ]
     },
     {
       "id": "congreso-2023-07-recortes-cero",
@@ -439,7 +488,12 @@
         "navarra"
       ],
       "motivoInclusion": "umbral",
-      "perfilRelaciones": []
+      "perfilRelaciones": [
+        {
+          "perfilId": "recortes-cero",
+          "relacion": "misma-organizacion"
+        }
+      ]
     },
     {
       "id": "congreso-2023-07-pum-j",
@@ -500,7 +554,8 @@
         "aragon"
       ],
       "motivoInclusion": "umbral",
-      "perfilRelaciones": []
+      "perfilRelaciones": [],
+      "nota": "Identidad verificada: marca del espacio España Vaciada/Teruel Existe, sin relación orgánica con Chunta Aragonesista; no debe enlazarse al perfil chunta-aragonesista."
     },
     {
       "id": "congreso-2023-07-pcte",
@@ -545,7 +600,18 @@
         "navarra"
       ],
       "motivoInclusion": "umbral",
-      "perfilRelaciones": []
+      "perfilRelaciones": [
+        {
+          "perfilId": "geroa-bai",
+          "relacion": "coalicion",
+          "nota": "Perfil propio de la coalición Geroa Bai, con posiciones documentadas independientes de sus componentes."
+        },
+        {
+          "perfilId": "eaj-pnv",
+          "relacion": "componente",
+          "nota": "EAJ-PNV de Navarra figura como componente de esta candidatura fechada; sus posiciones no se atribuyen automáticamente a la coalición."
+        }
+      ]
     },
     {
       "id": "congreso-2023-07-sy",
@@ -578,7 +644,12 @@
         "andalucia"
       ],
       "motivoInclusion": "umbral",
-      "perfilRelaciones": []
+      "perfilRelaciones": [
+        {
+          "perfilId": "adelante-andalucia",
+          "relacion": "misma-organizacion"
+        }
+      ]
     },
     {
       "id": "congreso-2023-07-escanos-en-blanco",

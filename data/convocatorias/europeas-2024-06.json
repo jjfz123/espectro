@@ -133,9 +133,29 @@
           "perfilId": "verdes-equo",
           "relacion": "componente",
           "nota": "Verdes Equo integra la coalición electoral Sumar de 2024; sus posiciones no se atribuyen automáticamente a la candidatura."
+        },
+        {
+          "perfilId": "iu",
+          "relacion": "componente",
+          "nota": "Izquierda Unida integra la coalición electoral Sumar de 2024; sus posiciones no se atribuyen automáticamente a la candidatura."
+        },
+        {
+          "perfilId": "compromis",
+          "relacion": "componente",
+          "nota": "Compromís integra la coalición electoral Sumar de 2024; sus posiciones no se atribuyen automáticamente a la candidatura."
+        },
+        {
+          "perfilId": "chunta-aragonesista",
+          "relacion": "componente",
+          "nota": "Chunta Aragonesista integra la coalición electoral Sumar de 2024; sus posiciones no se atribuyen automáticamente a la candidatura."
+        },
+        {
+          "perfilId": "nueva-canarias",
+          "relacion": "componente",
+          "nota": "Nueva Canarias-Bloque Canarista cerró en abril de 2024 un acuerdo con Sumar para concurrir juntas a estas europeas; sus posiciones no se atribuyen automáticamente a la candidatura."
         }
       ],
-      "nota": "Coalición que integró además a Izquierda Unida, Catalunya en Comú, Compromís, Chunta Aragonesista y otras formaciones sin perfil propio en el catálogo. Cifra de votos de síntesis de prensa coherente con el porcentaje oficial (4,65%); pendiente de contraste con el fichero TOTA oficial."
+      "nota": "Coalición que integró además a Catalunya en Comú y otras formaciones sin perfil propio en el catálogo. Cifra de votos de síntesis de prensa coherente con el porcentaje oficial (4,65%); pendiente de contraste con el fichero TOTA oficial."
     },
     {
       "id": "europeas-2024-06-salf",

@@ -163,7 +163,13 @@
         "catalunya"
       ],
       "motivoInclusion": "umbral",
-      "perfilRelaciones": [],
+      "perfilRelaciones": [
+        {
+          "perfilId": "alianca-catalana",
+          "relacion": "misma-organizacion",
+          "nota": "ALIANÇA.CAT es la denominación de papeleta de Aliança Catalana en 2024: misma organización, liderada por Sílvia Orriols."
+        }
+      ],
       "nota": "Naturaleza inventariada: partido. Vigencia comprobada: representacion-2024. Tratamiento previsto: perfil-especifico."
     },
     {
@@ -225,7 +231,12 @@
         "catalunya"
       ],
       "motivoInclusion": "umbral",
-      "perfilRelaciones": [],
+      "perfilRelaciones": [
+        {
+          "perfilId": "frente-obrero",
+          "relacion": "misma-organizacion"
+        }
+      ],
       "nota": "Naturaleza inventariada: partido. Vigencia comprobada: posterior-verificada. Tratamiento previsto: perfil-especifico."
     },
     {

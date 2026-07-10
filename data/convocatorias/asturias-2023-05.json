@@ -98,7 +98,13 @@
         "Oriente"
       ],
       "motivoInclusion": "umbral",
-      "perfilRelaciones": [],
+      "perfilRelaciones": [
+        {
+          "perfilId": "iu",
+          "relacion": "organizacion-territorial",
+          "nota": "IU-Asturies integra esta candidatura conjunta con Más País e IAS; ninguno de estos dos últimos tiene perfil propio en el catálogo y sus posiciones no se atribuyen a IU."
+        }
+      ],
       "nota": "Naturaleza inventariada: coalicion-electoral. Vigencia comprobada: representacion-2023-2027; matrices-verificadas. Tratamiento previsto: perfil-especifico."
     },
     {

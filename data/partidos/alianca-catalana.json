@@ -1,0 +1,572 @@
+{
+  "id": "alianca-catalana",
+  "nombre": "Aliança Catalana",
+  "siglas": "AC",
+  "ambito": "autonomico",
+  "tipo": "partido",
+  "ccaa": ["catalunya"],
+  "confianza": "verificada",
+  "web": "https://aliancacatalana.cat/",
+  "revisado": "2026-07-10",
+  "actividad": "activa",
+  "autodescripcion": {
+    "texto": "Aliança Catalana se presenta en su propia web como «el centre-dreta independentista» (el centro-derecha independentista), organizada en torno a cuatro ejes que titulan su página de inicio: Independència, Economia Productiva, Seguretat i Família. Su manifiesto es explícito sobre el método para lograr la independencia: no un proceso pactado ni gradual, sino una declaración unilateral defendida hasta expulsar al Estado español de Cataluña. Sus estatutos fijan que el catalán debe ser la única lengua oficial y que trabajarán para que sea necesario para vivir y desarrollarse en Cataluña. El partido rechaza la etiqueta de extrema derecha con la que lo describe la prensa.",
+    "fuente": {
+      "tipo": "otro",
+      "titulo": "Independència i país (web oficial d'Aliança Catalana)",
+      "url": "https://aliancacatalana.cat/independencia-i-pais/",
+      "cita": "Declararem unilateralment la independència i la defensarem fins expulsar definitivament l'Estat espanyol de Catalunya."
+    }
+  },
+  "clasificacion": [
+    {
+      "etiqueta": "extrema derecha independentista",
+      "explicacion": "Calificación usada de forma consistente por la prensa catalana e internacional para describir una combinación poco habitual en Europa: un programa identitario, antiinmigración y de mano dura propio de la derecha radical, unido al apoyo incondicional a la independencia de Cataluña, una causa que en España han encarnado sobre todo formaciones de izquierdas (ERC, CUP) o transversales (Junts).",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Far-right pro-independence Aliança Catalana wins parliament seats for first time (Catalan News)",
+        "url": "https://www.catalannews.com/politics/item/far-right-pro-independence-alianca-catalana-wins-parliament-seats-for-first-time",
+        "fecha": "2024-05-13"
+      }
+    },
+    {
+      "etiqueta": "nativismo",
+      "explicacion": "En ciencia política, el nativismo combina nacionalismo y xenofobia: la idea de que el Estado debe pertenecer al grupo nacional considerado autóctono y de que la inmigración amenaza esa comunidad. Un artículo académico revisado por pares sitúa a Aliança Catalana y a Vox dentro de esa misma familia nativista por su política migratoria, pero documenta que divergen radicalmente en género, cambio climático, derechos LGTB+ y, sobre todo, en la cuestión nacional catalana.",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Aliança Catalana and Vox in Catalonia: united in nativism, divided by the nation (Regional & Federal Studies)",
+        "url": "https://www.tandfonline.com/doi/full/10.1080/13597566.2025.2581974",
+        "fecha": "2025-11-04"
+      }
+    },
+    {
+      "etiqueta": "islamófoba",
+      "explicacion": "Término usado por análisis políticos para describir el papel central que el rechazo al islam ocupa en su programa: moratoria de mezquitas, cierre de centros de culto musulmanes y un discurso que presenta la inmigración musulmana como amenaza. La Generalitat sancionó a su líder con 10.001 euros por declaraciones de 2022 sobre la inmigración musulmana, sanción que el partido presenta como censura política.",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Aliança Catalana: una ultraderecha independentista e islamófoba (Viento Sur)",
+        "url": "https://vientosur.info/alianca-catalana-una-ultraderecha-independentista-e-islamofoba/",
+        "fecha": "2024"
+      }
+    },
+    {
+      "etiqueta": "homonacionalismo / femonacionalismo",
+      "explicacion": "Términos académicos (a partir del concepto de «homonationalism» de Jasbir Puar) para la instrumentalización de los derechos LGTB y de las mujeres como argumento contra el islam y la inmigración musulmana, en lugar de una defensa consistente de esos derechos frente a cualquier discurso conservador. La prensa catalana ha documentado que Aliança Catalana usa explícitamente este marco para diferenciarse de Vox, aunque en diciembre de 2025 votó junto a Vox y el PP contra la ley catalana de derechos LGTBI.",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Drets de les dones, nació, islamofòbia, seguretat...: què uneix i què separa Vox i Aliança Catalana? (ElNacional.cat)",
+        "url": "https://www.elnacional.cat/ca/politica/drets-dones-nacio-islamofobia-seguretat-uneix-separa-vox-alianca-catalana_1512499_102.html"
+      }
+    }
+  ],
+  "posiciones": {
+    "ter-001": {
+      "valor": -2,
+      "justificacion": "Como partido independentista maximalista, Aliança Catalana defiende lo contrario de una recentralización: su manifiesto fundacional compromete al partido a declarar unilateralmente la independencia y «expulsar definitivament l'Estat espanyol de Catalunya», el punto más alejado posible de devolver competencias.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Independència i país (web oficial d'Aliança Catalana)",
+        "url": "https://aliancacatalana.cat/independencia-i-pais/",
+        "consultado": "2026-07-10"
+      }
+    },
+    "ter-002": {
+      "valor": 2,
+      "justificacion": "AC no solo acepta un referéndum de autodeterminación: su manifiesto va más allá y compromete a declarar la independencia unilateralmente si el Estado lo bloquea, lo que implica a fortiori el acuerdo con la celebración de un referéndum.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Independència i país (web oficial d'Aliança Catalana)",
+        "url": "https://aliancacatalana.cat/independencia-i-pais/",
+        "consultado": "2026-07-10"
+      }
+    },
+    "ter-004": {
+      "valor": -2,
+      "justificacion": "El programa de AC defiende la primacía del catalán en la escuela y las instituciones y se posiciona contra el bilingüismo en Cataluña, justo lo contrario de garantizar por ley el castellano como lengua vehicular en toda España.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "¿Qué dice el programa electoral de Aliança Catalana? (El Debate)",
+        "url": "https://www.eldebate.com/espana/cataluna/20240512/dice-programa-electoral-alianca-catalana-cns_196403.html",
+        "fecha": "2024-05-12",
+        "consultado": "2026-07-10"
+      }
+    },
+    "ter-005": {
+      "valor": -2,
+      "justificacion": "Como alcaldesa de Ripoll, Sílvia Orriols desafió una orden judicial que le daba 24 horas para colgar la bandera de España en el ayuntamiento, alegando en noviembre de 2023 que «no hay ninguna en el ayuntamiento»: una conducta de incumplimiento, no solo una posición retórica.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "La ultra Sílvia Orriols desafía a la justicia: sigue sin colgar la bandera de España porque «no hay ninguna en el ayuntamiento» (Crónica Global)",
+        "url": "https://cronicaglobal.elespanol.com/politica/20231115/la-silvia-orriols-la-justicia-espana-ayuntamiento/809919049_0.html",
+        "fecha": "2023-11-15",
+        "consultado": "2026-07-10"
+      }
+    },
+    "cat-001": {
+      "valor": 2,
+      "justificacion": "El programa de AC rechaza el bilingüismo y defiende que el catalán sea imprescindible en escuelas, universidades y centros de salud, por lo que se opone a que la escuela catalana esté obligada a reservar un porcentaje de horas en castellano.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Aliança Catalana (AC): propuestas electorales (VotoBrújula)",
+        "url": "https://www.votobrujula.es/partidos/alianca-catalana",
+        "fecha": "2024",
+        "consultado": "2026-07-10"
+      }
+    },
+    "der-005": {
+      "valor": -2,
+      "justificacion": "Un partido cuyo objetivo declarado es la independencia unilateral de Cataluña no puede sostener que la unidad de España esté por encima de cualquier reivindicación autonómica; es la negación directa de su razón de ser.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Independència i país (web oficial d'Aliança Catalana)",
+        "url": "https://aliancacatalana.cat/independencia-i-pais/",
+        "consultado": "2026-07-10"
+      }
+    },
+    "dr-021": {
+      "valor": -2,
+      "justificacion": "AC no defiende un Estado unitario con una sola administración: defiende la independencia de Cataluña como Estado propio, la posición contraria más radical posible a suprimir las comunidades autónomas en favor de un Estado unitario español.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Independència i país (web oficial d'Aliança Catalana)",
+        "url": "https://aliancacatalana.cat/independencia-i-pais/",
+        "consultado": "2026-07-10"
+      }
+    },
+    "der-026": {
+      "valor": -2,
+      "justificacion": "AC es en sí misma una formación secesionista; no consta que respalde la ilegalización de partidos independentistas, algo que la afectaría directamente a ella misma. Es una inferencia razonable desde su identidad fundacional, sin cita explícita del partido sobre esta propuesta concreta (que en España defiende Vox).",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Independència i país (web oficial d'Aliança Catalana)",
+        "url": "https://aliancacatalana.cat/independencia-i-pais/",
+        "consultado": "2026-07-10"
+      }
+    },
+    "nac-001": {
+      "valor": 2,
+      "justificacion": "El manifiesto de AC no se limita a aceptar la vía unilateral si el Estado bloquea un referéndum pactado: la propone directamente como método, sin condicionarla a un intento previo de acuerdo.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Independència i país (web oficial d'Aliança Catalana)",
+        "url": "https://aliancacatalana.cat/independencia-i-pais/",
+        "consultado": "2026-07-10"
+      }
+    },
+    "nac-002": {
+      "valor": 2,
+      "justificacion": "A diferencia de ERC o Junts, que en la práctica reciente han admitido vías de negociación y encaje, AC no defiende el «procés» ni un encaje pactado: su objetivo declarado es un Estado catalán independiente como culminación de lo que llama un proceso de liberación nacional.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Independència i país (web oficial d'Aliança Catalana)",
+        "url": "https://aliancacatalana.cat/independencia-i-pais/",
+        "consultado": "2026-07-10"
+      }
+    },
+    "nac-003": {
+      "valor": 1,
+      "justificacion": "Orriols ha descrito Cataluña como «un grup ètnic», una concepción etnolingüística de la nación distinta de la definición cívica de ERC o la CUP. No consta, sin embargo, que el partido niegue explícitamente la pertenencia plena a quien no habla catalán, de ahí un valor moderado y no máximo.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "La alcaldesa ultra de Ripoll, Sílvia Orriols, considera que Cataluña es \"un grupo étnico\" (Crónica Global)",
+        "url": "https://cronicaglobal.elespanol.com/politica/20240409/orriols-responde-propuesta-sanitario-alianca-catalana-no/846415361_0.html",
+        "fecha": "2024-04-09",
+        "consultado": "2026-07-10"
+      }
+    },
+    "nac-006": {
+      "valor": -1,
+      "justificacion": "Contra lo que su retórica fundacional sugeriría, en su primer año y medio en el Parlament (2024-2025) AC aparcó la reivindicación independentista, no respaldó las mociones de Vox (a menudo se abstuvo) y ni siquiera presentó iniciativas propias reclamando el Estado propio; según el CEO, solo el 48% de sus votantes ve la independencia como la mejor opción. Es una moderación real de la conducta observada frente al maximalismo esperado.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Aliança Catalana aparca la independència i negocia prioritàriament amb Vox al parlament (VilaWeb)",
+        "url": "https://www.vilaweb.cat/noticies/alianca-catalana-independencia-negocia-prioritariament-vox-parlament/",
+        "fecha": "2025",
+        "consultado": "2026-07-10"
+      }
+    },
+    "dr-003": {
+      "valor": 1,
+      "justificacion": "El programa de AC pide deportar a inmigrantes delincuentes, repatriar a los irregulares y que los menores extranjeros no acompañados regresen con sus familias a su país, y su ideólogo Jordi Aragonès propuso en enero de 2024 la «remigración» como línea del partido; no consta en el programa el retorno indistinto de todo residente legal, el escalón más duro de otros identitarios europeos, por eso no alcanza el máximo.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Aliança Catalana (AC): qué es, ideología independentista (politicaelectoral.com)",
+        "url": "https://www.politicaelectoral.com/en/spain/party/alianca-catalana",
+        "fecha": "2024",
+        "consultado": "2026-07-10"
+      }
+    },
+    "dr-005": {
+      "valor": 2,
+      "justificacion": "En enero de 2025 Orriols llevó al Parlament una moción que exigía una moratoria a la instalación de nuevas mezquitas en Cataluña, el cierre de los centros de culto musulmanes que no se comprometieran a combatir el islamismo radical y la supresión de toda subvención a entidades islámicas; solo PP y Vox la apoyaron parcialmente. En Ripoll prometió además iniciar los trámites para cerrar la mezquita vinculada a la radicalización de los autores del 17-A.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "PP y Vox se alían con Sílvia Orriols para intentar cerrar mezquitas en Catalunya (Ara)",
+        "url": "https://es.ara.cat/politica/parlament-de-catalunya/pp-vox-alian-silvia-orriols-cerrar-mezquitas-catalunya_1_5270650.html",
+        "fecha": "2025-01",
+        "consultado": "2026-07-10"
+      }
+    },
+    "soc-002": {
+      "valor": 2,
+      "justificacion": "El eje migratorio del programa de AC es la moratoria a la inmigración económica, el cierre de fronteras y la devolución/repatriación de irregulares como respuesta prioritaria, no la acogida o regularización.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Aliança Catalana (AC): qué es, ideología independentista (politicaelectoral.com)",
+        "url": "https://www.politicaelectoral.com/en/spain/party/alianca-catalana",
+        "fecha": "2024",
+        "consultado": "2026-07-10"
+      }
+    },
+    "soc-004": {
+      "valor": -2,
+      "justificacion": "El programa de AC apuesta por la deportación de irregulares y por endurecer el acceso al empadronamiento y las ayudas, no por regularizar a quien ya vive y trabaja en Cataluña; el partido queda fuera del consenso que en el Congreso respaldó tramitar la ILP «Regularización Ya» de 2024.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Cataluña vive una explosión de moras y Sílvia Orriols hace un comentario racista que se hace viral (Infobae)",
+        "url": "https://www.infobae.com/espana/2025/07/31/cataluna-vive-una-explosion-de-moras-y-silvia-orriols-hace-un-comentario-racista-que-se-hace-viral-ni-que-lo-jures/",
+        "fecha": "2025-07-31",
+        "consultado": "2026-07-10"
+      }
+    },
+    "soc-005": {
+      "valor": -1,
+      "justificacion": "AC pide una moratoria migratoria y el cierre de fronteras a la inmigración económica «hasta que Cataluña tenga capacidad de integrar» a los extranjeros y hasta que bajen el paro y suban los salarios; no niega toda utilidad económica futura de la inmigración, pero la condiciona con dureza, de ahí un rechazo moderado y no absoluto.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Què proposa Aliança Catalana? (e-noticies.cat)",
+        "url": "https://e-noticies.cat/opinio/que-proposa-alianca-catalana",
+        "consultado": "2026-07-10"
+      }
+    },
+    "izq-013": {
+      "valor": 2,
+      "justificacion": "El fundamento declarado de su moratoria migratoria es en buena parte laboral: limitar la entrada de trabajadores extranjeros mientras el paro no baje y los salarios catalanes no suban, exactamente el razonamiento salarial del ítem, unido a su argumento de capacidad de asimilación lingüística.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Què proposa Aliança Catalana? (e-noticies.cat)",
+        "url": "https://e-noticies.cat/opinio/que-proposa-alianca-catalana",
+        "consultado": "2026-07-10"
+      }
+    },
+    "soc-001": {
+      "valor": -1,
+      "justificacion": "El 17-12-2025 AC votó junto a Vox y PP (24 votos) contra la ley catalana de derechos LGTBI (aprobada 107-24), que amplía el régimen sancionador y prohíbe las terapias de conversión. Ese voto contradice su discurso homonacionalista de defensa LGTB frente al islam (Orriols colgó la bandera LGTB en el Ayuntamiento de Ripoll en 2023); no consta, en cambio, que pida derogar el matrimonio igualitario.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "El Parlament aprova la llei de l'erradicació de l'LGBTI-fòbia amb els vots de PSC, Junts, ERC, Comuns i CUP (ACN)",
+        "url": "https://www.acn.cat/new/el-parlament-aprova-la-llei-de-lerradicacio-de-llgbti-fobia-amb-els-vots-de-psc-junts-erc-comuns-i-cup/texts",
+        "fecha": "2025-12-17",
+        "consultado": "2026-07-10"
+      }
+    },
+    "cat-004": {
+      "valor": 2,
+      "justificacion": "Orriols fue sancionada con 10.001 euros por la Generalitat por sus declaraciones de 2022: «permitir la entrada masiva de inmigrantes musulmanes es un error que podríamos pagar caro» porque «los musulmanes no reconocen las democracias europeas ni nuestras leyes civiles»; en el Parlament ha sostenido que «el islam es incompatible con los valores occidentales». El marco de la inmigración musulmana como amenaza identitaria es el núcleo de su discurso.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "La sanción de 10.000 euros a Sílvia Orriols (Aliança Catalana) por unas declaraciones sobre migración en 2022 (Maldita.es)",
+        "url": "https://maldita.es/malditateexplica/20240829/sancion-silvia-orriols-declaraciones-migracion/",
+        "fecha": "2024-08-29",
+        "consultado": "2026-07-10",
+        "cita": "Permitir la entrada masiva de inmigrantes musulmanes es un error que podríamos pagar caro"
+      }
+    },
+    "der-017": {
+      "valor": -1,
+      "justificacion": "A diferencia de VOX, que prioriza explícitamente a la Iberosfera, la prensa describe a AC como «hispanófoba»: su nativismo se construye en torno a la lengua y la cultura catalanas, no a una afinidad hispánica compartida con España o Hispanoamérica. No consta una declaración expresa rechazando la preferencia hispanoamericana en concreto, de ahí un valor moderado.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "La hispanofobia de Sílvia Orriols: rechaza ir a la misa con León XIV porque la bendición no será en catalán (El Debate)",
+        "url": "https://www.eldebate.com/espana/cataluna/20260602/hispanofobia-silvia-orriols-rechaza-misa-leon-xiv-porque-bendicion-no-sera-catalan_424178.html",
+        "fecha": "2026-06-02",
+        "consultado": "2026-07-10"
+      }
+    },
+    "eco-007": {
+      "valor": 2,
+      "justificacion": "AC reclama desahucios exprés en 48 horas contra la ocupación ilegal y penas más duras para los ocupas, más allá incluso del plazo de «pocos días» que plantea el ítem.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Aliança Catalana pide «desokupaciones» en 48 horas y penas más duras para los infractores (The Objective)",
+        "url": "https://theobjective.com/espana/politica/2025-06-26/alianca-catalana-desokupaciones-48-horas/",
+        "fecha": "2025-06-26",
+        "consultado": "2026-07-10"
+      }
+    },
+    "fem-001": {
+      "valor": -2,
+      "justificacion": "La ley catalana de derechos LGTBI de diciembre de 2025, que AC votó en contra junto a Vox y el PP, reconoce el derecho a la libre autodeterminación de la identidad de género; Orriols calificó ese tipo de enfoque de «paternalista» e «ingeniería social», el rechazo más claro posible al cambio registral por sola voluntad sin informes médicos.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "El Parlament aprova la llei de l'erradicació de l'LGBTI-fòbia amb els vots de PSC, Junts, ERC, Comuns i CUP (ACN)",
+        "url": "https://www.acn.cat/new/el-parlament-aprova-la-llei-de-lerradicacio-de-llgbti-fobia-amb-els-vots-de-psc-junts-erc-comuns-i-cup/texts",
+        "fecha": "2025-12-17",
+        "consultado": "2026-07-10"
+      }
+    },
+    "fem-007": {
+      "valor": 1,
+      "justificacion": "El programa educativo de AC resume su modelo en «l'escola ensenya, la família educa» y el partido votó contra una moción de PSC, ERC, Comuns y CUP para implantar educación sexual integral desde la primera infancia. Su programa apenas concreta un mecanismo formal de autorización previa, de ahí un valor moderado y no máximo.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Aliança Catalana reprodueix el discurs educatiu més reaccionari (El Diari de l'Educació)",
+        "url": "https://diarieducacio.cat/alianca-catalana-reprodueix-el-discurs-educatiu-mes-reaccionari/",
+        "fecha": "2024-05-07",
+        "consultado": "2026-07-10"
+      }
+    },
+    "der-025": {
+      "valor": 1,
+      "justificacion": "Misma evidencia que fem-007: el lema «l'escola ensenya, la família educa» y el voto contrario a la moción de educación sexual integral apuntan a favor de la autorización parental previa, aunque sin un desarrollo programático detallado del mecanismo concreto.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Aliança Catalana reprodueix el discurs educatiu més reaccionari (El Diari de l'Educació)",
+        "url": "https://diarieducacio.cat/alianca-catalana-reprodueix-el-discurs-educatiu-mes-reaccionari/",
+        "fecha": "2024-05-07",
+        "consultado": "2026-07-10"
+      }
+    },
+    "dr-015": {
+      "valor": -2,
+      "justificacion": "La propia Orriols usa la oposición al franquismo como uno de los tres rasgos con los que diferencia a AC de VOX (junto a la defensa de los derechos LGTB y su feminismo), lo que excluye cualquier reivindicación de aportaciones positivas de la dictadura.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Drets de les dones, nació, islamofòbia, seguretat...: què uneix i què separa Vox i Aliança Catalana? (ElNacional.cat)",
+        "url": "https://www.elnacional.cat/ca/politica/drets-dones-nacio-islamofobia-seguretat-uneix-separa-vox-alianca-catalana_1512499_102.html",
+        "consultado": "2026-07-10"
+      }
+    },
+    "eco-001": {
+      "valor": -2,
+      "justificacion": "El programa fiscal de AC para las elecciones de 2024 propone reducir el número de tramos del IRPF y ajustarlos por inflación, bajar las cuotas de autónomos y eliminar impuestos «contrarios al ahorro» como sucesiones y patrimonio: la dirección contraria a subir de forma significativa la fiscalidad de las rentas altas.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Apujar o baixar impostos? Això defensa cadascun dels partits a Catalunya (e-noticies.cat)",
+        "url": "https://e-noticies.cat/politica/pujar-baixar-impostos-aixo-defensa-partits-cataluna-eleccions-catalanes-12m",
+        "fecha": "2024",
+        "consultado": "2026-07-10"
+      }
+    },
+    "eco-005": {
+      "valor": -2,
+      "justificacion": "AC presenta su modelo de vivienda a partir de la libertad económica, la protección de la propiedad y la iniciativa privada —«el fracaso no es del mercado, es del Estado»—, atribuyendo la escasez a las políticas intervencionistas y sin incluir topes legales al precio del alquiler.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Aliança Catalana explica sus propuestas de vivienda en la casa de los burgueses catalanes (Crónica Global)",
+        "url": "https://cronicaglobal.elespanol.com/business/20250626/alianca-catalana-explica-propuestas-vivienda-burgueses-catalanes/1003742668880_0.html",
+        "fecha": "2025-06-26",
+        "consultado": "2026-07-10"
+      }
+    },
+    "eco-006": {
+      "valor": -2,
+      "justificacion": "Orriols rechazó explícitamente la construcción masiva de parque público: «La solució no pot passar per anar construint 50.000 o 100.000 pisos amb els diners públics dels catalans», justo lo contrario de lo que plantea el ítem.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Aliança Catalana explica sus propuestas de vivienda en la casa de los burgueses catalanes (Crónica Global)",
+        "url": "https://cronicaglobal.elespanol.com/business/20250626/alianca-catalana-explica-propuestas-vivienda-burgueses-catalanes/1003742668880_0.html",
+        "fecha": "2025-06-26",
+        "consultado": "2026-07-10",
+        "cita": "La solució no pot passar per anar construint 50.000 o 100.000 pisos amb els diners públics dels catalans"
+      }
+    },
+    "eco-009": {
+      "valor": 2,
+      "justificacion": "El programa fiscal de AC pide eliminar los impuestos que consideran «contrarios al ahorro», entre ellos explícitamente el de sucesiones y donaciones.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Apujar o baixar impostos? Això defensa cadascun dels partits a Catalunya (e-noticies.cat)",
+        "url": "https://e-noticies.cat/politica/pujar-baixar-impostos-aixo-defensa-partits-cataluna-eleccions-catalanes-12m",
+        "fecha": "2024",
+        "consultado": "2026-07-10"
+      }
+    },
+    "eco-014": {
+      "valor": -2,
+      "justificacion": "El mismo programa fiscal incluye eliminar el impuesto sobre el patrimonio entre los «contrarios al ahorro», lo opuesto a consolidar un impuesto permanente sobre las grandes fortunas.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Apujar o baixar impostos? Això defensa cadascun dels partits a Catalunya (e-noticies.cat)",
+        "url": "https://e-noticies.cat/politica/pujar-baixar-impostos-aixo-defensa-partits-cataluna-eleccions-catalanes-12m",
+        "fecha": "2024",
+        "consultado": "2026-07-10"
+      }
+    },
+    "der-004": {
+      "valor": 1,
+      "justificacion": "Pese a su retórica general de libre mercado, el programa de AC combina la defensa de la economía de mercado con un proteccionismo declarado hacia las empresas catalanas y el objetivo de llevar la industria al 25% del PIB en 2030, una política industrial activa que matiza su liberalismo económico y evita que todas sus posiciones económicas queden en el extremo de mercado.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Aliança Catalana (AC): qué es, ideología independentista (politicaelectoral.com)",
+        "url": "https://www.politicaelectoral.com/en/spain/party/alianca-catalana",
+        "fecha": "2024",
+        "consultado": "2026-07-10"
+      }
+    },
+    "mon-001": {
+      "valor": 1,
+      "justificacion": "En una entrevista, Orriols se declaró «totalment antimonàrquica», aunque encuadra la cuestión en torno a un hipotético Estado catalán («sempre es pot enderrocar una monarquia; la qüestió és ser un Estat») más que en una posición meditada sobre la reforma de la Corona española, de ahí un valor moderado.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Un breu viatge a la Catalunya polèmica (Revista Mirall)",
+        "url": "https://revistamirall.com/2025/09/22/un-breu-viatge-a-la-catalunya-polemica/",
+        "fecha": "2025-09-22",
+        "consultado": "2026-07-10",
+        "cita": "Sóc totalment antimonàrquica eh... que quedi clar!"
+      }
+    },
+    "sd-013": {
+      "valor": 2,
+      "justificacion": "Orriols se declara «totalment antimonàrquica» y enmarca su rechazo a la Corona en términos de legitimidad («sempre es pot enderrocar una monarquia»), lo que implica un apoyo claro a que la ciudadanía pueda elegir entre monarquía y república en referéndum.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Un breu viatge a la Catalunya polèmica (Revista Mirall)",
+        "url": "https://revistamirall.com/2025/09/22/un-breu-viatge-a-la-catalunya-polemica/",
+        "fecha": "2025-09-22",
+        "consultado": "2026-07-10",
+        "cita": "Sóc totalment antimonàrquica eh... que quedi clar!"
+      }
+    },
+    "dr-017": {
+      "valor": 2,
+      "justificacion": "Orriols ha exhibido la bandera de Israel en la sala de prensa del Parlament en más de una ocasión (octubre de 2024 y mayo de 2025) y enmarca a Israel como el único baluarte democrático y occidental frente al islamismo en Oriente Próximo.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Una bandera israeliana al Parlament (en.ara.cat)",
+        "url": "https://en.ara.cat/politics/an-israeli-flag-in-parliament_129_5390223.html",
+        "consultado": "2026-07-10"
+      }
+    },
+    "dr-022": {
+      "valor": 2,
+      "justificacion": "Orriols ha declarado su «admiración» por Netanyahu y su partido difunde ante la militancia el marco «la victòria d'Israel és la victòria de Catalunya» en plena guerra de Gaza, un alineamiento sin matices ni condiciones documentadas con Israel frente a sus adversarios.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "\"The victory of Israel is the victory of Catalonia\": How Aliança Catalana justifies the war in Gaza to the militancy (en.ara.cat)",
+        "url": "https://en.ara.cat/politics/israel-s-victory-is-catalonia-s-victory-this-is-how-the-catalan-alliance-defends-the-war-in-gaza-to-militants_1_5526903.html",
+        "consultado": "2026-07-10"
+      }
+    },
+    "int-001": {
+      "valor": -2,
+      "justificacion": "Cuando España reconoció el Estado palestino en mayo de 2024, Orriols se opuso públicamente calificándolo de reconocimiento de un «estat palestí fictici» y afirmando que los catalanes «no fem regals al terrorisme islàmic».",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "redes",
+        "titulo": "Publicación de Sílvia Orriols (@orriolsderipoll) sobre el reconocimiento del Estado palestino, recogida por Help Catalonia en X",
+        "url": "https://x.com/CataloniaHelp2/status/1794377196385321067",
+        "fecha": "2024-05",
+        "consultado": "2026-07-10",
+        "cita": "opposes the recognition of a fictional palestinian state. We Catalans do not recognize nor give away to islamic terrorism"
+      }
+    },
+    "dr-004": {
+      "valor": -1,
+      "justificacion": "A diferencia del hispanismo explícito de VOX, la prensa describe a AC como «hispanófoba»: su identitarismo se construye alrededor de la lengua y la cultura catalanas específicamente, no de una afinidad hispanoamericana o hispánica compartida.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Los historiadores desmontan la hispanofobia de Orriols: Cataluña habla español desde hace más de 500 años (El Debate)",
+        "url": "https://www.eldebate.com/espana/cataluna/20260430/historiadores-desmontan-hispanofobia-orriols-cataluna-habla-espanol-desde-hace-500-anos_412479.html",
+        "fecha": "2026-04-30",
+        "consultado": "2026-07-10"
+      }
+    },
+    "dr-006": {
+      "valor": 2,
+      "justificacion": "Fuentes académicas y de prensa documentan que AC defiende explícitamente los derechos LGTB y del feminismo como argumento contra el islam, replicando el marco de Wilders o Le Pen: sostiene que «la homofobia y el sexismo aumentan porque importamos inmigración de países donde la homofobia y el sexismo están presentes». Su voto de diciembre de 2025 contra la ley LGTBI catalana muestra el carácter instrumental de ese marco.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "L'ideari xenòfob d'Aliança Catalana, un partit alineat amb l'onada reaccionària global (3CatInfo)",
+        "url": "https://www.3cat.cat/3catinfo/lideari-xenofob-dalianca-catalana-un-partit-alineat-amb-lonada-reaccionaria-global/noticia/3298353/",
+        "consultado": "2026-07-10"
+      }
+    },
+    "dr-016": {
+      "valor": 2,
+      "justificacion": "AC propone actualizar la Llei de Política Lingüística para exigir el conocimiento del catalán como requisito para obtener permisos de trabajo, y su discurso vincula explícitamente el acceso a ayudas sociales con la integración lingüística: el catalán como filtro nativista frente a la inmigración.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Aliança Catalana (AC): propuestas electorales (VotoBrújula)",
+        "url": "https://www.votobrujula.es/partidos/alianca-catalana",
+        "fecha": "2024",
+        "consultado": "2026-07-10"
+      }
+    },
+    "pop-003": {
+      "valor": 1,
+      "justificacion": "Orriols construye buena parte de su discurso parlamentario en torno a «acabar amb tot aquest sistema de partitocràcia» y presenta a los partidos del «règim del 78» como intercambiables entre sí. La evidencia documenta ese marco frente al sistema de partidos catalán (PSC, ERC, Junts), no una declaración específica sobre PSOE y PP a escala estatal, de ahí un valor moderado y una calidad de evidencia baja.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Contundent discurs de Sílvia Orriols contra Salvador Illa: acabarem amb la partitocràcia (XCatalunya.cat)",
+        "url": "https://xcatalunya.cat/actualitat/contundent-discurs-silvia-orriols-contra-salvador-illa-acabarem-partitocracia",
+        "consultado": "2026-07-10"
+      }
+    },
+    "lib-017": {
+      "valor": 2,
+      "justificacion": "El 15 de abril de 2026 el Parlament aprobó, con el voto de AC junto a PSC, Junts, ERC, Comuns y CUP, tramitar en el Congreso una reforma para agilizar el acceso a la eutanasia; la diputada de AC Rosa Maria Subirana defendió que la propuesta «no promou la mort, sinó la dignitat». Es una de las posiciones morales del partido más alejadas del bloque conservador clásico.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "El Ple aprova tramitar per lectura única la proposta per portar al Congrés la reforma de la llei sobre l'eutanàsia (Parlament de Catalunya)",
+        "url": "https://www.parlament.cat/web/actualitat/noticies/index.html?p_format=D&p_id=358071392",
+        "fecha": "2026-04-15",
+        "consultado": "2026-07-10",
+        "cita": "no promou la mort, sinó la dignitat"
+      }
+    },
+    "fem-005": {
+      "valor": -2,
+      "justificacion": "El mismo voto de abril de 2026, en el que AC respaldó agilizar (no derogar) el acceso a la eutanasia, contradice directamente la derogación de la ley que plantea este ítem.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "El Ple aprova tramitar per lectura única la proposta per portar al Congrés la reforma de la llei sobre l'eutanàsia (Parlament de Catalunya)",
+        "url": "https://www.parlament.cat/web/actualitat/noticies/index.html?p_format=D&p_id=358071392",
+        "fecha": "2026-04-15",
+        "consultado": "2026-07-10"
+      }
+    }
+  }
+}

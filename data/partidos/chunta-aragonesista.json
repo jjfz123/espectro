@@ -1,0 +1,162 @@
+{
+  "id": "chunta-aragonesista",
+  "nombre": "Chunta Aragonesista",
+  "siglas": "CHA",
+  "ambito": "autonomico",
+  "tipo": "partido",
+  "ccaa": [
+    "aragon"
+  ],
+  "confianza": "verificada",
+  "web": "https://www.chunta.org/",
+  "revisado": "2026-07-10",
+  "actividad": "activa",
+  "autodescripcion": {
+    "texto": "CHA se define como partido de izquierda aragonesista desde su fundación en 1986: nacionalismo aragonés de izquierdas, ecologista y feminista, que reivindica a Aragón como nación dentro de un Estado español federal y plurinacional, defiende el derecho de autodeterminación de los pueblos ejercido dentro de la legalidad y ha gobernado en coalición con PSOE, Podemos y PAR en Aragón (2019-2023) y con Sumar en el Congreso (2023-2026).",
+    "fuente": {
+      "tipo": "otro",
+      "titulo": "Quiénes somos (Chunta Aragonesista, web oficial)",
+      "url": "https://www.chunta.org/quienes-somos/"
+    }
+  },
+  "clasificacion": [
+    {
+      "etiqueta": "nacionalismo periférico de izquierdas",
+      "explicacion": "Etiqueta académica que sitúa a CHA junto a otros nacionalismos de izquierda del norte de España (BNG, EH Bildu): combinan identidad regional propia, autonomía discursiva respecto a las direcciones estatales y un programa centrado en problemas territoriales concretos (despoblación, financiación, servicios) más que en la construcción de un relato identitario cerrado.",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Le nationalisme aragonais de Chunta Aragonesista (CHA), Michel Martínez Pérez (Dialnet)",
+        "url": "https://dialnet.unirioja.es/servlet/articulo?codigo=4369868"
+      }
+    }
+  ],
+  "posiciones": {
+    "nac-017": {
+      "valor": 2,
+      "justificacion": "El rechazo al trasvase del Ebro es consenso fundacional del aragonesismo político: CHA impulsó ya en 1993 el primer \"cruce del Ebro\" simbólico en Zaragoza contra el proyecto, participó en las multitudinarias movilizaciones de 2000-2001 contra el Plan Hidrológico Nacional, y su portavoz ha declarado \"venga de donde venga, nosotros rechazaremos el trasvase\".",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Chunta Aragonesista: Siempre contra el trasvase, sin ambigüedades",
+        "url": "https://www.chunta.org/siempre-contra-el-trasvase-sin-ambiguedades/",
+        "consultado": "2026-07-10",
+        "cita": "Venga de donde venga, nosotros rechazaremos el trasvase"
+      }
+    },
+    "nac-013": {
+      "valor": 2,
+      "justificacion": "CHA se opuso en 2013 a la ley autonómica que rebautizó el catalán y el aragonés como \"LAPAO\" y \"LAPAPYP\" para evitar su cooficialidad, y en 2016, ya en el Gobierno de coalición con Javier Lambán (PSOE), Podemos e Izquierda Unida, impulsó la reforma que devolvió a ambas lenguas su nombre y su reconocimiento como lenguas propias de Aragón; su programa histórico va más allá y reclama la cooficialidad plena en las zonas donde se hablan, todavía no alcanzada.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "El PSOE reconoce el catalán como \"lengua propia\" de Aragón",
+        "url": "https://www.elespanol.com/espana/20160120/95990441_0.html",
+        "fecha": "2016-01-20",
+        "consultado": "2026-07-10"
+      }
+    },
+    "nac-010": {
+      "valor": 1,
+      "justificacion": "CHA reclama que el sistema de financiación autonómica y los objetivos de estabilidad presupuestaria reconozcan que la despoblación, el envejecimiento, la dispersión y la baja densidad de Aragón encarecen estructuralmente la prestación de servicios esenciales (sanidad, educación, servicios sociales); pide que ese déficit diferenciado se compense, sin formular la reivindicación como exclusión total del criterio de población real.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "CHA exige un déficit diferenciado para Aragón y activar el artículo 108",
+        "url": "https://www.ondaaragonesa.com/noticias/cha-exige-deficit-diferenciado-aragon-activar-articulo-108/20260707123106008729.html",
+        "fecha": "2026-07-07",
+        "consultado": "2026-07-10"
+      }
+    },
+    "nac-012": {
+      "valor": 2,
+      "justificacion": "CHA integró el Gobierno de coalición de Aragón junto a PSOE, Podemos y PAR entre 2019 y 2023, y concurrió a las elecciones generales de julio de 2023 dentro de la coalición Sumar, obteniendo representación en el Congreso (Jorge Pueyo) como parte del Grupo Parlamentario Plurinacional Sumar.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "CHA en el Congreso (Grupo Parlamentario Plurinacional Sumar)",
+        "url": "https://www.chunta.org/cha-en-el-congreso/",
+        "consultado": "2026-07-10"
+      }
+    },
+    "nac-009": {
+      "valor": -2,
+      "justificacion": "A diferencia del pactismo puro de otros regionalismos (CC, PAR, PRC), CHA ha vinculado sistemáticamente su presencia institucional a coaliciones de izquierda (gobierno PSOE-Podemos-CHA-PAR 2019-2023; integración en Sumar en 2023) y en la negociación de la izquierda aragonesa de cara a 2026 mantuvo el criterio de que una candidatura conjunta debía ser \"de todas las fuerzas políticas y sin consignas de Madrid\", no un pacto de conveniencia con cualquier partido con independencia de su signo.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "La izquierda en Aragón: negociando como nunca, separados como siempre (lamarea.com)",
+        "url": "https://www.lamarea.com/2026/01/20/aragon-izquierda-elecciones/",
+        "fecha": "2026-01-20",
+        "consultado": "2026-07-10"
+      }
+    },
+    "nac-002": {
+      "valor": -1,
+      "justificacion": "CHA reivindica el derecho de autodeterminación del pueblo aragonés y afirma que \"Aragón es una nación\", pero su propuesta concreta para las Cortes Generales es una reforma constitucional hacia un modelo federal, cooperativo y solidario con más competencias para los territorios, no la independencia como objetivo final declarado: defiende el derecho en abstracto dentro de un horizonte de autogobierno pactado.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "\"Aragón es una nación\": Chunta reivindica el derecho de autodeterminación del pueblo aragonés",
+        "url": "https://www.hoyaragon.es/articulo/noticias-aragon/aragon-es-una-nacion-chunta-reivindica-el-derecho-de-autodeterminacion-del-pueblo-aragones/20171103021208054573.html",
+        "fecha": "2017-11-03",
+        "consultado": "2026-07-10"
+      }
+    },
+    "dem-033": {
+      "valor": 2,
+      "justificacion": "CHA defiende una reforma constitucional desde el aragonesismo que persiga \"un modelo federal, cooperativo y solidario\", con más competencias transferidas a las \"entidades federadas\" dentro de un Estado plurinacional, no la independencia ni la ruptura del marco común.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Chunta Aragonesista: Un Estatuto que cumplir",
+        "url": "https://www.chunta.org/un-estatuto-que-cumplir/",
+        "consultado": "2026-07-10"
+      }
+    },
+    "mon-001": {
+      "valor": 2,
+      "justificacion": "CHA tiene una tradición republicana consolidada: su grupo municipal en el Ayuntamiento de Barbastro instó al pleno a solicitar a las Cortes Generales iniciar la reforma constitucional para proclamar la República Federal, coherente con su defensa histórica de una jefatura del Estado democráticamente elegida y no hereditaria.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Círculo Republicano (CHA Barbastro)",
+        "url": "https://chabarbastro.wordpress.com/tag/circulo-republicano/",
+        "consultado": "2026-07-10"
+      }
+    },
+    "lai-001": {
+      "valor": 2,
+      "justificacion": "CHA figura entre las organizaciones firmantes de la campaña unitaria \"Por una escuela pública y laica. Religión fuera de la escuela\", que reclama sacar la asignatura de religión confesional del horario lectivo de los centros públicos.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Campaña unitaria 2025 «Por una escuela pública y laica. Religión fuera de la escuela»",
+        "url": "https://laicismo.org/campana-unitaria-2025-por-una-escuela-publica-y-laica-religion-fuera-de-la-escuela/",
+        "fecha": "2025",
+        "consultado": "2026-07-10"
+      }
+    },
+    "eco-014": {
+      "valor": 1,
+      "justificacion": "CHA (integrada en Sumar Aragón) defiende \"una fiscalidad justa y progresiva que sustente un modelo de protección social basado en la garantía de derechos y servicios públicos\"; la fuente respalda una orientación fiscal progresiva general, sin detallar un compromiso explícito y específico con un impuesto permanente sobre grandes fortunas, de ahí el valor moderado.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Sumar Aragón defiende una fiscalidad justa y progresiva que sustente un modelo de protección social basado en la garantía de derechos y servicios públicos",
+        "url": "https://www.chunta.org/sumar-aragon-defiende-una-fiscalidad-justa-y-progresiva-que-sustente-un-modelo-de-proteccion-social-basado-en-la-garantia-de-derechos-y-servicios-publicos/",
+        "consultado": "2026-07-10"
+      }
+    },
+    "fem-011": {
+      "valor": 2,
+      "justificacion": "CHA reafirma sistemáticamente su compromiso con la lucha contra la violencia hacia las mujeres tras cada asesinato machista y pide reforzar (no derogar) las medidas del Pacto de Estado y la legislación específica de violencia de género: de acuerdo con mantener las penas agravadas específicas que el ítem plantea.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "CHA condena el último asesinato machista ocurrido en Sevilla y reafirma su compromiso con la lucha contra la violencia contra las mujeres",
+        "url": "https://www.chunta.org/cha-condena-el-ultimo-asesinato-machista-ocurrido-en-sevilla-y-reafirma-su-compromiso-con-la-lucha-contra-la-violencia-contra-las-mujeres/",
+        "consultado": "2026-07-10"
+      }
+    }
+  }
+}

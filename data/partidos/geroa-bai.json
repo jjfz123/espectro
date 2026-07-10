@@ -1,0 +1,117 @@
+{
+  "id": "geroa-bai",
+  "nombre": "Geroa Bai",
+  "ambito": "autonomico",
+  "tipo": "coalicion",
+  "componentes": [
+    "eaj-pnv"
+  ],
+  "ccaa": [
+    "navarra"
+  ],
+  "confianza": "verificada",
+  "web": "https://geroabai.eus/",
+  "revisado": "2026-07-10",
+  "actividad": "activa",
+  "autodescripcion": {
+    "texto": "Geroa Bai se define como una coalición navarrista, progresista, ecologista y nacionalista vasca no independentista, que aspira a una Navarra \"soberana, social y verde\" construida desde el \"consenso con ambición\", con Europa como referencia política supraestatal. Está formada actualmente por Geroa Socialverdes (partido de ideología socialverde fundado en 2020 por la expresidenta Uxue Barkos), EAJ-PNV y Atarrabia Taldea, además de independientes; Batzarre, que en su día fue uno de sus componentes, se integró después en otra candidatura y ya no forma parte de la coalición.",
+    "fuente": {
+      "tipo": "otro",
+      "titulo": "Geroa Bai, a por una Navarra \"soberana, social y verde\" desde el consenso (geroabai.eus)",
+      "url": "https://geroabai.eus/es/actualidad/geroa-bai-a-por-una-navarra-soberana-social-y-verde-desde-el-consenso"
+    }
+  },
+  "clasificacion": [
+    {
+      "etiqueta": "nacionalismo vasco moderado / foralismo pactista",
+      "explicacion": "Etiqueta académica que sitúa a Geroa Bai (con el PNV como principal componente en Navarra) dentro del nacionalismo vasco moderado: defiende el autogobierno y la identidad nacional vasco-navarra mediante la actualización pactada de derechos históricos forales, no mediante la ruptura unilateral o la proclamación de independencia, a diferencia del nacionalismo vasco de corte más rupturista.",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "La nación dividida. El nacionalismo vasco moderado frente al nacionalismo vasco radical (Dialnet)",
+        "url": "https://dialnet.unirioja.es/descarga/articulo/5302771.pdf"
+      }
+    }
+  ],
+  "posiciones": {
+    "nac-002": {
+      "valor": -1,
+      "justificacion": "Uxue Barkos, cabeza visible de Geroa Bai, ha declarado explícitamente que \"en Navarra no estamos por el independentismo, hay otras prioridades\", situando la soberanía fiscal y social por delante de la construcción de un Estado propio como objetivo final: la coalición reúne a independentistas y no independentistas que conviven bajo un mismo proyecto navarrista, sin fijar la independencia como meta compartida.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Uxue Barkos: \"En Navarra no estamos por el independentismo, hay otras prioridades\"",
+        "url": "https://www.publico.es/politica/uxue-barkos-navarra-independentismo-hay-prioridades.html",
+        "consultado": "2026-07-10",
+        "cita": "En Navarra no estamos por el independentismo, hay otras prioridades"
+      }
+    },
+    "eus-005": {
+      "valor": 1,
+      "justificacion": "Coherente con su rechazo a situar la independencia como prioridad (\"hay otras prioridades\"), Geroa Bai prioriza actualizar el autogobierno foral y la posición de Navarra como sujeto político dentro de España antes que proclamar una república independiente; no formula, sin embargo, una defensa doctrinal explícita y detallada de la vía foral frente a la republicana, de ahí el valor moderado.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Uxue Barkos: \"En Navarra no estamos por el independentismo, hay otras prioridades\"",
+        "url": "https://www.publico.es/politica/uxue-barkos-navarra-independentismo-hay-prioridades.html",
+        "consultado": "2026-07-10"
+      }
+    },
+    "eus-006": {
+      "valor": 2,
+      "justificacion": "Geroa Bai apuesta explícitamente por eliminar la zonificación lingüística vigente desde la Ley del Vascuence de 1986, que limita la oficialidad del euskera a una parte de Navarra, y reclama que se valore como mérito en el acceso a la administración pública en toda la Comunidad Foral, adaptando el marco legal a la realidad sociolingüística actual.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Geroa Bai apuesta por eliminar la zonificación lingüística y que se valore el euskera como mérito en toda Navarra",
+        "url": "https://geroabai.eus/es/actualidad/geroa-bai-apuesta-por-eliminar-la-zonificacion-lingueistica-y-que-se-valore-el-euskera-como-merito-en-toda-navarra",
+        "consultado": "2026-07-10"
+      }
+    },
+    "eus-003": {
+      "valor": -1,
+      "justificacion": "Posición moderadora documentada: Geroa Bai no pide que el euskera sea requisito obligatorio para la mayoría de los empleos públicos, sino que se valore expresamente \"como mérito\" en el acceso a la función pública en toda Navarra; su propia formulación se opone literalmente a convertirlo en un requisito general, aunque reclama ampliar su peso y su reconocimiento.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Geroa Bai apuesta por eliminar la zonificación lingüística y que se valore el euskera como mérito en toda Navarra",
+        "url": "https://geroabai.eus/es/actualidad/geroa-bai-apuesta-por-eliminar-la-zonificacion-lingueistica-y-que-se-valore-el-euskera-como-merito-en-toda-navarra",
+        "consultado": "2026-07-10"
+      }
+    },
+    "nac-007": {
+      "valor": 2,
+      "justificacion": "Geroa Bai sitúa \"Europa como centro de referencia política supraestatal\" entre sus líneas de trabajo fundamentales, en línea con el europeísmo incondicional típico del nacionalismo vasco moderado (PNV), que nunca ha planteado un horizonte de autogobierno que suponga quedar fuera de la Unión Europea.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Geroa Bai, a por una Navarra \"soberana, social y verde\" desde el consenso (geroabai.eus)",
+        "url": "https://geroabai.eus/es/actualidad/geroa-bai-a-por-una-navarra-soberana-social-y-verde-desde-el-consenso",
+        "consultado": "2026-07-10"
+      }
+    },
+    "nac-009": {
+      "valor": -1,
+      "justificacion": "En sus tres últimas legislaturas (2015, 2019 y 2023) Geroa Bai ha optado sistemáticamente por gobiernos de coalición progresista con el PSN y la izquierda navarra (Contigo-Zurekin/Podemos), en vez de negociar indistintamente con UPN o el PP a cambio de inversiones para Navarra; en 2023 dio luz verde al pacto con el PSN y Contigo para que Chivite continuara como presidenta.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Navarra volverá a tener Gobierno progresista: Geroa Bai da luz verde al pacto con el PSN y Contigo para que Chivite siga siendo presidenta",
+        "url": "https://www.eldiario.es/navarra/navarra-volvera-gobierno-progresista-geroa-bai-da-luz-verde-pacto-psn-chivite-siga-presidenta_1_10432586.html",
+        "fecha": "2023-08",
+        "consultado": "2026-07-10"
+      }
+    },
+    "nac-010": {
+      "valor": 1,
+      "justificacion": "Geroa Bai apuesta por una \"buena financiación local\" y \"más servicios\" como vía para \"atajar\" la despoblación en las zonas rurales de Navarra, reconociendo un problema de coste de servicio ligado al territorio, sin formular la reivindicación como sustitución del criterio de población real por el de despoblación.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Geroa Bai apuesta por una \"buena financiación local\" y \"más servicios\" para \"atajar\" la despoblación",
+        "url": "https://www.noticiasdenavarra.com/elecciones-en-navarra/2023/05/18/geroa-bai-despoblacion-6817860.html",
+        "fecha": "2023-05-18",
+        "consultado": "2026-07-10"
+      }
+    }
+  }
+}

@@ -92,6 +92,11 @@
       "motivoInclusion": "umbral",
       "perfilRelaciones": [
         {
+          "perfilId": "geroa-bai",
+          "relacion": "coalicion",
+          "nota": "Perfil propio de la coalición Geroa Bai, con posiciones documentadas independientes de sus componentes."
+        },
+        {
           "perfilId": "eaj-pnv",
           "relacion": "componente",
           "nota": "EAJ-PNV de Navarra figura como componente de esta candidatura fechada; sus posiciones no se atribuyen automáticamente a la coalición."
