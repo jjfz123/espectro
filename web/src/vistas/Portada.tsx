@@ -45,9 +45,11 @@ export function Portada({ estado, despachar, alAbrirMetodologia }: Props) {
         <h1 className="titular">Un mapa fino del espectro político español.</h1>
         <p className="entradilla">
           Los tests de afinidad existentes cubren unos diez partidos y dos ejes. Espectro
-          está diseñado para el registro completo: distingue al leninista del consejista y a
-          la derecha confesional de la liberal, y trata la dimensión territorial como lo que
-          es, la que explica el sistema de partidos español.
+          está diseñado para el espectro completo: capta los matices que separan a partidos
+          y corrientes que suelen meterse en el mismo saco —dentro de la izquierda, del
+          centro y de la derecha—, incluye a las formaciones pequeñas y territoriales, y
+          trata la dimensión territorial como lo que es: la que explica el sistema de
+          partidos español.
         </p>
         <div className="cifras">
           <div className="cifra">
