@@ -449,7 +449,7 @@ export function MapaPolitico({ facetasUsuario }: Props) {
           {partidosDentro} de {TOTAL_PARTIDOS_CATALOGO} partidos y {referenciasDentro} de{' '}
           {TOTAL_REFERENCIAS_CATALOGO} referencias doctrinales del catálogo.{' '}
           {partidosFuera + referenciasFuera > 0
-            ? `Quedan fuera ${partidosFuera} partidos y ${referenciasFuera} referencias porque su evidencia documentada no alcanza el mínimo en los tres ejes (al menos 3 ítems con carga por eje y la mitad de la carga del banco): antes que estimar su posición, no se dibuja.`
+            ? `Quedan fuera ${partidosFuera} partidos y ${referenciasFuera} referencias porque su evidencia documentada no alcanza el mínimo en los tres ejes (al menos 4 posiciones documentadas con carga por eje): antes que estimar su posición, no se dibuja.`
             : ''}
         </p>
         {EXCLUIDAS_MAPA.length > 0 ? (
