@@ -16,7 +16,7 @@
       "descripcion": "Votaciones, iniciativas y declaraciones de 2026, conservadas como una segunda capa independiente.",
       "desde": "2026-02-03",
       "hasta": "2026-07-09",
-      "advertencia": "Esta capa no se promedia con el programa ni rellena sus huecos. ACOM es una asociación externa que se declara independiente: no se atribuye a ACOM la dirección de VOX ni un giro causal sin evidencia primaria.",
+      "advertencia": "Esta capa no se promedia con el programa ni rellena sus huecos. ACOM es una asociación externa que se declara independiente: no se atribuye a ACOM la dirección de VOX ni un giro causal sin evidencia primaria. El Acuerdo de Gobierno y Estabilidad para Andalucía (2 de julio de 2026) es la primera entrada de VOX en un gobierno autonómico y se cita explícitamente como tal, sin generalizarlo a otros territorios donde VOX no gobierna.",
       "posiciones": {
         "dr-003": {
           "valor": 1,
@@ -64,6 +64,55 @@
             "url": "https://www.voxespana.es/grupo_parlamentario/actividad-parlamentaria/asarta-denuncia-que-el-embargo-a-israel-pone-en-riesgo-la-seguridad-nacional-es-una-desconexion-tecnologica-suicida-20260304",
             "fecha": "2026-03-04",
             "consultado": "2026-07-09"
+          }
+        },
+        "soc-002": {
+          "valor": 2,
+          "justificacion": "VOX entró por primera vez en un gobierno autonómico al firmar el 2 de julio de 2026 el «Acuerdo de Gobierno y Estabilidad para Andalucía» con el PP, que consagra el «rechazo frontal» a la inmigración irregular y un plan de retorno y repatriación como principio de gobierno, no solo como programa electoral.",
+          "calidadEvidencia": "alta",
+          "fuente": {
+            "tipo": "otro",
+            "titulo": "Vox impone su agenda en Andalucía: 150 medidas con prioridad nacional y auditoría del gasto en inmigración (Moncloa.com)",
+            "url": "https://www.moncloa.com/2026/07/04/medidas-pacto-pp-vox-andalucia-3394305",
+            "fecha": "2026-07-04",
+            "consultado": "2026-07-10"
+          }
+        },
+        "der-015": {
+          "valor": 2,
+          "justificacion": "Logró que el Gobierno andaluz se declare «libre de cargas autonómicas derivadas del Pacto Verde o la Agenda 2030», trasladando a la acción de gobierno autonómico el rechazo a la Agenda 2030 que ya defendía su programa nacional de 2023.",
+          "calidadEvidencia": "alta",
+          "fuente": {
+            "tipo": "otro",
+            "titulo": "Las claves del pacto PP-Vox en Andalucía: más toros, menos inmigración y prioridad nacional (The Objective)",
+            "url": "https://theobjective.com/espana/andalucia/2026-07-02/claves-pacto-pp-vox-andalucia/",
+            "fecha": "2026-07-02",
+            "consultado": "2026-07-10"
+          }
+        },
+        "lab-004": {
+          "valor": 1,
+          "justificacion": "Su pacto de gobierno en Andalucía recorta un 50% las subvenciones a sindicatos y patronal, un paso hacia la autofinanciación pero más moderado que su programa nacional, que exige eliminar por completo las subvenciones públicas a sindicatos y patronal.",
+          "calidadEvidencia": "alta",
+          "fuente": {
+            "tipo": "otro",
+            "titulo": "Estas son las claves del pacto entre el PP y Vox en Andalucía (Libertad Digital)",
+            "url": "https://www.libertaddigital.com/andalucia/2026-07-03/estas-son-las-claves-del-pacto-entre-el-pp-y-vox-en-andalucia-7430263/",
+            "fecha": "2026-07-03",
+            "consultado": "2026-07-10"
+          }
+        },
+        "eco-007": {
+          "valor": 2,
+          "justificacion": "Manuel Gavira, vicepresidente de la Junta por VOX tras el pacto de julio de 2026, anunció que «a los okupas se les acabó el chollo» y que Andalucía impulsará desahucios exprés: la misma línea de desalojo acelerado de su programa nacional, ahora como acción de gobierno autonómico.",
+          "calidadEvidencia": "alta",
+          "fuente": {
+            "tipo": "declaracion",
+            "titulo": "Manuel Gavira, vicepresidente: «A los okupas se les acabó el chollo, Andalucía impulsará desahucios exprés» (El Mira)",
+            "url": "https://www.elmira.es/articulo/andalucia/manuel-gavira-vicepresidente-okupas-acabo-chollo-andalucia-impulsara-desahucios-expres/20260705123506566478.html",
+            "fecha": "2026-07-05",
+            "consultado": "2026-07-10",
+            "cita": "A los okupas se les acabó el chollo, Andalucía impulsará desahucios exprés"
           }
         }
       }

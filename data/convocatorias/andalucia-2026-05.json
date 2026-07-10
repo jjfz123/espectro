@@ -86,7 +86,12 @@
         "andalucia"
       ],
       "motivoInclusion": "umbral",
-      "perfilRelaciones": [],
+      "perfilRelaciones": [
+        {
+          "perfilId": "adelante-andalucia",
+          "relacion": "misma-organizacion"
+        }
+      ],
       "nota": "Naturaleza inventariada: partido. Vigencia comprobada: electoral-2026. Tratamiento previsto: perfil-especifico."
     },
     {
@@ -99,6 +104,11 @@
       ],
       "motivoInclusion": "umbral",
       "perfilRelaciones": [
+        {
+          "perfilId": "por-andalucia",
+          "relacion": "coalicion",
+          "nota": "Perfil propio de la candidatura fechada de 2026, con posiciones documentadas independientes de sus componentes."
+        },
         {
           "perfilId": "podemos",
           "relacion": "componente",

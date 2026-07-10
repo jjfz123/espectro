@@ -16,7 +16,7 @@
       "descripcion": "Contraste separado con decisiones parlamentarias del grupo estatal; no se promedia con la posición declarada.",
       "desde": "2026-04-20",
       "hasta": "2026-07-09",
-      "advertencia": "Una enmienda contra el blindaje constitucional del aborto no equivale por sí sola a defender que solo sea legal en supuestos tasados. Las medidas autonómicas se documentan aparte y no se atribuyen automáticamente al PP nacional.",
+      "advertencia": "Una enmienda contra el blindaje constitucional del aborto no equivale por sí sola a defender que solo sea legal en supuestos tasados. Las medidas de un gobierno autonómico del PP se citan solo cuando están explícitamente etiquetadas como tales (mismo partido, mismo registro, sin marca propia) y nunca se generalizan sin más al conjunto de barones regionales.",
       "posiciones": {
         "fem-006": {
           "valor": -1,
@@ -28,6 +28,42 @@
             "url": "https://www.congreso.es/ca/busqueda-de-publicaciones?_publicaciones_id_texto=BOCG-15-A-92-2.CODI.&_publicaciones_legislatura=XV&_publicaciones_mode=mostrarTextoIntegro&p_p_id=publicaciones&p_p_lifecycle=0&p_p_mode=view&p_p_state=normal",
             "fecha": "2026-04-23",
             "consultado": "2026-07-09"
+          }
+        },
+        "soc-002": {
+          "valor": 2,
+          "justificacion": "El Gobierno andaluz del PP pactó el 2 de julio de 2026 con VOX un «Acuerdo de Gobierno y Estabilidad para Andalucía» que incluye el «rechazo frontal» a la llegada de más inmigración irregular y un plan de retorno y repatriación: más duro y sin matices que la posición nacional declarada (visado por puntos + expulsión de reincidentes).",
+          "calidadEvidencia": "alta",
+          "fuente": {
+            "tipo": "otro",
+            "titulo": "El pacto PP-Vox en Andalucía asume las tesis de la extrema derecha: «rechazo frontal» a niños migrantes (elDiario.es)",
+            "url": "https://www.eldiario.es/andalucia/consulta-pacto-pp-vox-andalucia-consagra-prioridad-nacional_1_13352537.html",
+            "fecha": "2026-07-03",
+            "consultado": "2026-07-10"
+          }
+        },
+        "der-015": {
+          "valor": 1,
+          "justificacion": "En el mismo pacto de gobierno, el PP andaluz aceptó declarar a la Junta «libre de cargas autonómicas derivadas del Pacto Verde o la Agenda 2030» para proteger al sector primario; es una concesión al planteamiento de VOX limitada al ámbito autonómico, no un abandono nacional de la Agenda 2030.",
+          "calidadEvidencia": "alta",
+          "fuente": {
+            "tipo": "otro",
+            "titulo": "Las claves del pacto PP-Vox en Andalucía: más toros, menos inmigración y prioridad nacional (The Objective)",
+            "url": "https://theobjective.com/espana/andalucia/2026-07-02/claves-pacto-pp-vox-andalucia/",
+            "fecha": "2026-07-02",
+            "consultado": "2026-07-10"
+          }
+        },
+        "lab-004": {
+          "valor": 1,
+          "justificacion": "El pacto de gobierno andaluz con VOX recorta un 50% las subvenciones a sindicatos y organizaciones empresariales: un paso hacia la autofinanciación, aunque no la elimina por completo como pide VOX en su programa nacional.",
+          "calidadEvidencia": "alta",
+          "fuente": {
+            "tipo": "otro",
+            "titulo": "Estas son las claves del pacto entre el PP y Vox en Andalucía (Libertad Digital)",
+            "url": "https://www.libertaddigital.com/andalucia/2026-07-03/estas-son-las-claves-del-pacto-entre-el-pp-y-vox-en-andalucia-7430263/",
+            "fecha": "2026-07-03",
+            "consultado": "2026-07-10"
           }
         }
       }

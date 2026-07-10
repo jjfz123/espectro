@@ -1,0 +1,195 @@
+{
+  "id": "por-andalucia",
+  "nombre": "Por Andalucía",
+  "siglas": "Por And.",
+  "ambito": "autonomico",
+  "tipo": "coalicion",
+  "componentes": ["podemos", "movimiento-sumar", "verdes-equo", "alianza-verde"],
+  "ccaa": ["andalucia"],
+  "confianza": "verificada",
+  "web": "https://porandalucia.org/",
+  "revisado": "2026-07-10",
+  "actividad": "activa",
+  "posiciones": {
+    "and-001": {
+      "valor": 1,
+      "justificacion": "Su candidatura de 2026, encabezada por Antonio Maíllo, reivindica el 4 de diciembre como «Día de la Nacionalidad Andaluza» y el reconocimiento de la identidad histórica y cultural andaluza, pero lo hace con el término constitucional «nacionalidad» dentro de España, no equiparando a Andalucía con una nación soberana como hace Adelante Andalucía.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral de Por Andalucía para las elecciones autonómicas de 2026 (El Debate)",
+        "url": "https://www.eldebate.com/espana/andalucia/20260511/este-programa-electoral-andalucia-elecciones-autonomicas-este-2026-cns_413937.html",
+        "fecha": "2026-05",
+        "consultado": "2026-07-10"
+      }
+    },
+    "nac-002": {
+      "valor": -2,
+      "justificacion": "Su eje territorial para 2026 es «más autogobierno» mediante el desarrollo del Estatuto de 2007 y la reivindicación de un Estado federal y plurinacional, «sin romper el marco constitucional»: descarta expresamente la independencia como objetivo.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral de Por Andalucía para las elecciones autonómicas de 2026 (El Debate)",
+        "url": "https://www.eldebate.com/espana/andalucia/20260511/este-programa-electoral-andalucia-elecciones-autonomicas-este-2026-cns_413937.html",
+        "fecha": "2026-05",
+        "consultado": "2026-07-10"
+      }
+    },
+    "dem-033": {
+      "valor": 2,
+      "justificacion": "Reivindica explícitamente el modelo de Estado federal como horizonte territorial, combinado con un reparto competencial más claro dentro del marco constitucional.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral de Por Andalucía para las elecciones autonómicas de 2026 (El Debate)",
+        "url": "https://www.eldebate.com/espana/andalucia/20260511/este-programa-electoral-andalucia-elecciones-autonomicas-este-2026-cns_413937.html",
+        "fecha": "2026-05",
+        "consultado": "2026-07-10"
+      }
+    },
+    "ter-003": {
+      "valor": 1,
+      "justificacion": "Antonio Maíllo sitúa la «mejora de la financiación autonómica» como uno de los ejes de su andalucismo del siglo XXI y ha propuesto gravar a «los súper ricos» y una «negociación positiva» del sistema; la fuente no formula literalmente un modelo tipo concierto vasco, de ahí el valor moderado.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Maíllo aprobará un nuevo modelo de financiación para frenar la «asfixia» y «privatización» de las universidades públicas (Diario Avanza)",
+        "url": "https://www.diarioavanza.es/articulo/andalucia/maillo-aprobara-nuevo-modelo-financiacion-frenar-asfixia-privatizacion-universidades-publicas/20260507212650020211.html",
+        "fecha": "2026-05-07",
+        "consultado": "2026-07-10"
+      }
+    },
+    "def-002": {
+      "valor": 2,
+      "justificacion": "Su programa de gobierno de 2026 incluye el «desmantelamiento de las bases militares de Rota y Morón» en el bloque de defensa y ampliación del autogobierno andaluz; su candidato Antonio Maíllo recordó que su organización lleva «40 años» diciendo «OTAN no, bases fuera».",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Maíllo pide reconvertir Rota y Morón en bases de ayuda humanitaria, garantizando los puestos de trabajo (Infobae)",
+        "url": "https://www.infobae.com/espana/agencias/2026/03/09/maillo-pide-reconvertir-rota-y-moron-en-bases-de-ayuda-humanitaria-garantizando-los-puestos-de-trabajo/",
+        "fecha": "2026-03-09",
+        "consultado": "2026-07-10"
+      }
+    },
+    "mon-001": {
+      "valor": 2,
+      "justificacion": "Defiende un modelo de Estado federal, solidario y republicano en el que la jefatura del Estado sea elegida democráticamente, frente a la jefatura hereditaria.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "El Acuerdo de Gobierno en Andalucía y la laicidad, por Miguel Ángel López Muñoz (laicismo.org)",
+        "url": "https://laicismo.org/el-acuerdo-de-gobierno-en-andalucia-y-la-laicidad-por-miguel-angel-lopez-munoz/",
+        "fecha": "2026-07",
+        "consultado": "2026-07-10"
+      }
+    },
+    "eco-001": {
+      "valor": 2,
+      "justificacion": "Sus 23 enmiendas al presupuesto andaluz de 2026 proponían derogar todas las rebajas fiscales aprobadas en Andalucía —que benefician sobre todo a las rentas altas— e implantar nuevas medidas fiscales, con un incremento de ingresos calculado en 8.190 millones de euros.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Andalucía apuesta por unos presupuestos expansivos que blindan las rebajas fiscales para captar las rentas de los más ricos (elDiario.es)",
+        "url": "https://www.eldiario.es/andalucia/andalucia-apuesta-presupuestos-expansivos-blindan-rebajas-fiscales-captar-rentas-ricos_1_11914472.html",
+        "fecha": "2026",
+        "consultado": "2026-07-10"
+      }
+    },
+    "eco-009": {
+      "valor": -2,
+      "justificacion": "Sus enmiendas presupuestarias de 2026 piden derogar todas las rebajas fiscales aprobadas en Andalucía, entre ellas la bonificación del 99% del impuesto de sucesiones y donaciones: busca revertir su supresión de facto, no ampliarla.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "El Consejo de Gobierno rechaza las enmiendas al presupuesto que proponen subir impuestos (Junta de Andalucía)",
+        "url": "https://www.juntadeandalucia.es/organismos/consejo/sesion/detalle/629605.html",
+        "fecha": "2026",
+        "consultado": "2026-07-10"
+      }
+    },
+    "eco-014": {
+      "valor": 2,
+      "justificacion": "Antonio Maíllo ha propuesto establecer impuestos a «los súper ricos» como parte de su reforma de la financiación andaluza, en línea con sus enmiendas presupuestarias para revertir rebajas fiscales a las grandes fortunas.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Maíllo aprobará un nuevo modelo de financiación para frenar la «asfixia» y «privatización» de las universidades públicas (Diario Avanza)",
+        "url": "https://www.diarioavanza.es/articulo/andalucia/maillo-aprobara-nuevo-modelo-financiacion-frenar-asfixia-privatizacion-universidades-publicas/20260507212650020211.html",
+        "fecha": "2026-05-07",
+        "consultado": "2026-07-10"
+      }
+    },
+    "eco-005": {
+      "valor": 2,
+      "justificacion": "Su candidato planteó vetar los nuevos pisos turísticos en zonas tensionadas y se compromete a declarar «con urgencia» zonas de mercado tensionado en todos los municipios donde los precios sean inasumibles, lo que permite fijar topes máximos al alquiler.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Maíllo plantea vetar nuevos pisos turísticos en zonas tensionadas de Andalucía (The Objective)",
+        "url": "https://theobjective.com/espana/andalucia/2026-05-08/maillo-vetar-pisos-turisticos-zonas-tensionadas/",
+        "fecha": "2026-05-08",
+        "consultado": "2026-07-10"
+      }
+    },
+    "eco-006": {
+      "valor": 2,
+      "justificacion": "Su programa de 2026 plantea, entre 25 propuestas clave, destinar el 20% del PIB a sanidad y contempla un parque público residencial, además de moratoria de licencias turísticas para frenar la presión sobre la vivienda.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Por Andalucía plantea en Granada limitar el precio del alquiler, una moratoria de licencias turísticas y un parque público residencial (Ahora Granada)",
+        "url": "https://www.ahoragranada.com/noticias/por-andalucia-plantea-en-granada-limitar-el-precio-del-alquiler-una-moratoria-de-licencias-turisticas-y-un-parque-publico-residencial/",
+        "fecha": "2026",
+        "consultado": "2026-07-10"
+      }
+    },
+    "eco-013": {
+      "valor": -2,
+      "justificacion": "Propone recuperar servicios privatizados eliminando en el menor plazo posible los conciertos con la medicina privada, no descarta expropiar temporalmente hospitales concertados «mientras se construye un centro público» y quiere destinar el 20% del PIB a sanidad pública con 8.000 profesionales más.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Por Andalucía lanza 25 propuestas clave para 17M: 20% del PIB a sanidad y \"comprar solo para vivir\" en zonas tensionadas (Última Hora)",
+        "url": "https://www.ultimahora.es/noticias/comunidades/2026/04/27/2618027/por-andalucia-lanza-propuestas-clave-para-17m-del-pib-sanidad-comprar-solo-vivir-zonas-tensionadas.html",
+        "fecha": "2026-04-27",
+        "consultado": "2026-07-10"
+      }
+    },
+    "soc-001": {
+      "valor": 2,
+      "justificacion": "Su programa de 2026 refuerza la aplicación de las leyes LGTBI y trans vigentes en Andalucía y añade medidas de protección frente a la discriminación y el acoso escolar por orientación o identidad, en términos prácticamente idénticos a los de Adelante Andalucía pero como candidatura propia y separada.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Por Andalucía incluye medidas LGTBI en su programa centradas en derechos y servicios públicos (Togayther)",
+        "url": "https://www.togayther.es/noticias/igualdad/programa-lgtbi-por-andalucia-elecciones-2026/",
+        "fecha": "2026",
+        "consultado": "2026-07-10"
+      }
+    },
+    "soc-004": {
+      "valor": 2,
+      "justificacion": "Defendió junto a PSOE-A y Adelante Andalucía la regularización extraordinaria de personas migrantes que ya viven y trabajan en Andalucía, en pleno proceso electoral de 2026.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "La regularización de migrantes aterriza en una Andalucía inmersa en la campaña electoral (elDiario.es)",
+        "url": "https://www.eldiario.es/andalucia/regularizacion-migrantes-aterriza-andalucia-inmersa-campana-electoral-no-vengo-destrozar-pais_1_13156064.html",
+        "fecha": "2026",
+        "consultado": "2026-07-10"
+      }
+    },
+    "va-002": {
+      "valor": 1,
+      "justificacion": "A diferencia de Adelante Andalucía, no plantea acabar con la caza: propone reformar el Consejo Andaluz de Bienestar Animal para una composición paritaria entre organizaciones de derechos de los animales, criadores, cazadores y administración, y reforzar la inspección; acepta la caza regulada como parte del reparto, con más control.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Estas son las propuestas electorales de Por Andalucía en materia de caza (Federación Andaluza de Caza)",
+        "url": "https://fac.es/prensa/estas-son-las-propuestas-electorales-de-por-andalucia-en-materia-de-caza/",
+        "fecha": "2026",
+        "consultado": "2026-07-10"
+      }
+    }
+  }
+}

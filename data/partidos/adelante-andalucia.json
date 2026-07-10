@@ -1,0 +1,192 @@
+{
+  "id": "adelante-andalucia",
+  "nombre": "Adelante Andalucía",
+  "siglas": "AA",
+  "ambito": "autonomico",
+  "tipo": "partido",
+  "ccaa": ["andalucia"],
+  "confianza": "verificada",
+  "web": "https://adelanteandalucia.org/",
+  "revisado": "2026-07-10",
+  "actividad": "activa",
+  "posiciones": {
+    "and-001": {
+      "valor": 2,
+      "justificacion": "Candidatura de 2026: se define como heredera de la «tercera ola del andalucismo», con perfil soberanista e izquierdista propio, y su objetivo declarado es una Andalucía libre y soberana dentro de un horizonte plurinacional y confederal, no una comunidad autónoma más.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Apuntes sobre las tres olas del andalucismo (Adelante Andalucía)",
+        "url": "https://adelanteandalucia.org/apuntes-sobre-las-tres-olas-del-andalucismo/",
+        "consultado": "2026-07-10"
+      }
+    },
+    "nac-002": {
+      "valor": 2,
+      "justificacion": "Su horizonte explícito para la candidatura de 2026 es una Andalucía «libre, soberana e independiente», no solo un encaje pactado de más autogobierno dentro de España.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Quiénes somos (Adelante Andalucía)",
+        "url": "https://adelanteandalucia.org/quienes-somos/",
+        "consultado": "2026-07-10"
+      }
+    },
+    "dem-034": {
+      "valor": 2,
+      "justificacion": "Enmarca su proyecto de independencia andaluza dentro de «una España plurinacional y confederal»: instituciones comunes con competencias delegadas por territorios soberanos, no un Estado unitario ni una federación con competencias garantizadas centralmente.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Quiénes somos (Adelante Andalucía)",
+        "url": "https://adelanteandalucia.org/quienes-somos/",
+        "consultado": "2026-07-10"
+      }
+    },
+    "and-002": {
+      "valor": 2,
+      "justificacion": "Se constituyó en 2021 como sujeto político autónomo andaluz frente a la «tesis centralista» de las direcciones estatales, y su campaña de 2026 (candidato José Ignacio García) insiste en romper con el marco político «marcado por Madrid»; a diferencia de Por Andalucía, no es una coalición de secciones autonómicas de partidos de ámbito estatal.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Elecciones Andalucía: quién es José Ignacio García, el candidato de Adelante Andalucía (Demócrata)",
+        "url": "https://www.democrata.es/elecciones/andalucia-2026/quien-es-jose-ignacio-garcia-adelante-andalucia/",
+        "fecha": "2026",
+        "consultado": "2026-07-10"
+      }
+    },
+    "def-002": {
+      "valor": 2,
+      "justificacion": "En 2026 exigió expulsar al Ejército de EEUU de las bases de Rota y Morón, alineándose con la plataforma «OTAN no, bases fuera»; pide además un plan de empleo alternativo para las localidades afectadas.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Adelante Andalucía exige «echar al Ejército de EEUU» de las bases de Rota y Morón (The Objective)",
+        "url": "https://theobjective.com/espana/2026-03-04/adelante-pide-echa-ejercito-de-eeuu-bases-de-rota-moron/",
+        "fecha": "2026-03-04",
+        "consultado": "2026-07-10",
+        "cita": "Adelante pide «echar al Ejército de EEUU» de las bases de Rota y Morón"
+      }
+    },
+    "eco-005": {
+      "valor": 2,
+      "justificacion": "Su programa de 2026 propone un tope al precio de los alquileres equivalente a un máximo del 20% del salario mínimo del distrito, barrio o municipio.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Adelante Andalucía desvela su programa: reforma fiscal, tope a los alquileres y fin de las externalizaciones (Demócrata)",
+        "url": "https://www.democrata.es/elecciones/andalucia-2026/adelante-andalucia-desvela-su-programa-reforma-fiscal-tope-a-los-alquileres-y-fin-de-las-externalizaciones/",
+        "fecha": "2026",
+        "consultado": "2026-07-10"
+      }
+    },
+    "eco-006": {
+      "valor": 2,
+      "justificacion": "Propone incorporar el 100% de los pisos de la Sareb al parque público de vivienda en alquiler, además de ampliar de forma general dicho parque.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Adelante Andalucía desvela su programa: reforma fiscal, tope a los alquileres y fin de las externalizaciones (Demócrata)",
+        "url": "https://www.democrata.es/elecciones/andalucia-2026/adelante-andalucia-desvela-su-programa-reforma-fiscal-tope-a-los-alquileres-y-fin-de-las-externalizaciones/",
+        "fecha": "2026",
+        "consultado": "2026-07-10"
+      }
+    },
+    "eco-013": {
+      "valor": -2,
+      "justificacion": "Propone un sistema sanitario 100% público, universal y participativo, centrado en la atención primaria, eliminando de forma progresiva los conciertos con sanidad privada y las externalizaciones: lo contrario de derivar pacientes a clínicas privadas cuando se alarguen las listas de espera.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Adelante Andalucía desvela su programa: reforma fiscal, tope a los alquileres y fin de las externalizaciones (Demócrata)",
+        "url": "https://www.democrata.es/elecciones/andalucia-2026/adelante-andalucia-desvela-su-programa-reforma-fiscal-tope-a-los-alquileres-y-fin-de-las-externalizaciones/",
+        "fecha": "2026",
+        "consultado": "2026-07-10"
+      }
+    },
+    "eco-009": {
+      "valor": -2,
+      "justificacion": "Defendió en sus enmiendas al presupuesto andaluz eliminar las bonificaciones en Sucesiones, Patrimonio y Transmisiones Patrimoniales para ingresar 860 millones más: busca revertir la supresión de facto del impuesto, no ampliarla.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Agencia Tributaria propia, inspectores inmobiliarios y tromba de impuestos: las ideas económicas de Adelante Andalucía (Libre Mercado)",
+        "url": "https://www.libertaddigital.com/libremercado/2026-05-18/una-agencia-tributaria-propia-inspectores-inmobiliarios-y-todo-tipo-de-impuestos-las-ideas-de-adelante-andalucia-7406081/",
+        "fecha": "2026-05-18",
+        "consultado": "2026-07-10"
+      }
+    },
+    "eco-014": {
+      "valor": 2,
+      "justificacion": "Su programa de 2026 incluye un impuesto andaluz de reparto de la riqueza dirigido a grandes fortunas y grandes propiedades inmobiliarias y agrarias, con una agencia tributaria propia para gestionarlo.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Adelante Andalucía desvela su programa: reforma fiscal, tope a los alquileres y fin de las externalizaciones (Demócrata)",
+        "url": "https://www.democrata.es/elecciones/andalucia-2026/adelante-andalucia-desvela-su-programa-reforma-fiscal-tope-a-los-alquileres-y-fin-de-las-externalizaciones/",
+        "fecha": "2026",
+        "consultado": "2026-07-10"
+      }
+    },
+    "va-002": {
+      "valor": -2,
+      "justificacion": "Su programa de 2026 propone reducir las temporadas de caza, retirar la rehala y la montería del Patrimonio Cultural de Andalucía y abrir vías hacia una gestión ecológica del medio natural sin necesidad de caza: no la trata como herramienta legítima de gestión de poblaciones.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Análisis del programa electoral de Adelante Andalucía en materia de caza (Federación Andaluza de Caza)",
+        "url": "https://fac.es/prensa/analisis-programa-electoral-adelante-andalucia-en-materia-caza/",
+        "fecha": "2026",
+        "consultado": "2026-07-10"
+      }
+    },
+    "soc-001": {
+      "valor": 2,
+      "justificacion": "Su programa de 2026 refuerza la aplicación de las leyes LGTBI y trans vigentes en Andalucía y añade medidas de protección frente a la discriminación y el acoso escolar por orientación o identidad.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Adelante Andalucía plantea un programa con medidas LGTBI centradas en derechos y servicios públicos (Togayther)",
+        "url": "https://www.togayther.es/noticias/igualdad/programa-lgtbi-adelante-andalucia-elecciones-2026/",
+        "fecha": "2026",
+        "consultado": "2026-07-10"
+      }
+    },
+    "soc-004": {
+      "valor": 2,
+      "justificacion": "Defendió junto a PSOE-A y Por Andalucía la regularización extraordinaria de personas migrantes que ya viven y trabajan en Andalucía, en pleno proceso electoral de 2026.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "La regularización de migrantes aterriza en una Andalucía inmersa en la campaña electoral (elDiario.es)",
+        "url": "https://www.eldiario.es/andalucia/regularizacion-migrantes-aterriza-andalucia-inmersa-campana-electoral-no-vengo-destrozar-pais_1_13156064.html",
+        "fecha": "2026",
+        "consultado": "2026-07-10"
+      }
+    },
+    "fem-007": {
+      "valor": -2,
+      "justificacion": "Su programa apuesta por incorporar la diversidad afectivo-sexual y de género de forma transversal en el sistema educativo, sin supeditarla a autorización previa familia por familia; se infiere desacuerdo con el enunciado, aunque la fuente no aborda literalmente la autorización previa.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Adelante Andalucía plantea un programa con medidas LGTBI centradas en derechos y servicios públicos (Togayther)",
+        "url": "https://www.togayther.es/noticias/igualdad/programa-lgtbi-adelante-andalucia-elecciones-2026/",
+        "fecha": "2026",
+        "consultado": "2026-07-10"
+      }
+    },
+    "lai-001": {
+      "valor": 2,
+      "justificacion": "Ante la invitación de la Consejería a celebrar en los colegios actividades sobre música de Semana Santa, Adelante Andalucía respondió que «en los Colegios Públicos no se debe visitar capillas, como dicta el PP» y recordó que un tercio del alumnado andaluz no cursa religión; posición coherente con sacar la asignatura del horario lectivo, aunque la fuente no lo formula en esos términos exactos.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Izquierda ... contra la Junta de Andalucía por sugerir a los colegios celebrar actividades de Semana Santa (Hispanidad)",
+        "url": "https://www.hispanidad.com/sociedad/izquierda-enloquece-contra-junta-andalucia-por-sugerir-colegios-celebrar-actividades-relacionadas-con-musica-semana-santa_12049513_102.html",
+        "fecha": "2026",
+        "consultado": "2026-07-10"
+      }
+    }
+  }
+}

@@ -8,7 +8,72 @@
   "web": "https://www.psoe.es/",
   "revisado": "2026-07-10",
   "actividad": "activa",
+  "dobleLectura": {
+    "etiquetaBase": "Programa y compromisos reiterados",
+    "descripcionBase": "Resoluciones congresuales, programa electoral y declaraciones públicas reiteradas de Pedro Sánchez y del PSOE.",
+    "contraste": {
+      "etiqueta": "Gobierno y tramitación parlamentaria reciente",
+      "descripcion": "Estado real de la acción de gobierno y de la tramitación en las Cortes durante 2026, con los compromisos auditados ítem a ítem; no se promedia con el programa ni rellena sus huecos.",
+      "desde": "2024-10-28",
+      "hasta": "2026-07-09",
+      "advertencia": "Un bloqueo parlamentario o un pacto de coalición no equivale a renunciar a un compromiso, pero tampoco a cumplirlo: esta capa documenta la distancia entre la promesa reiterada y el resultado verificable, sin inventar un porcentaje global de cumplimiento.",
+      "posiciones": {
+        "dem-021": {
+          "valor": -1,
+          "estadoCompromiso": "bloqueado",
+          "justificacion": "Pese al compromiso reiterado de derogar la ley mordaza, la norma sigue casi íntegra en vigor tras once años: la reforma obtuvo la toma en consideración en octubre de 2024 con el bloque de investidura, pero lleva más de un año encallada por vetos cruzados de PNV y Podemos, y en julio de 2026 es Sumar (vía Compromís) quien presiona al PSOE para desbloquearla, no al revés.",
+          "calidadEvidencia": "alta",
+          "fuente": {
+            "tipo": "otro",
+            "titulo": "La ley mordaza cumple su undécimo aniversario con su derogación estancada en el Congreso (elDiario.es)",
+            "url": "https://www.eldiario.es/politica/ley-mordaza-cumple-undecimo-aniversario-derogacion-estancada-congreso_1_13279703.html",
+            "fecha": "2026",
+            "consultado": "2026-07-10"
+          }
+        },
+        "eco-006": {
+          "valor": 1,
+          "estadoCompromiso": "parcial",
+          "justificacion": "El compromiso de 183.000 viviendas públicas de alquiler avanza muy por debajo de lo prometido: según datos del Ministerio de Vivienda a 30 de abril de 2026 hay 120.479 viviendas «movilizadas» (en distintas fases, no entregadas) y otras cifras públicas sitúan lo realmente entregado en torno al 5,5% del objetivo desde el primer gran anuncio de abril de 2023.",
+          "calidadEvidencia": "alta",
+          "fuente": {
+            "tipo": "otro",
+            "titulo": "De las 184.000 viviendas prometidas por Sánchez solo se ha entregado el 5,5% (El Debate)",
+            "url": "https://www.eldebate.com/economia/20241004/184000-viviendas-prometidas-sanchez-solo-entregado-55_232548.html",
+            "fecha": "2024-10-04",
+            "consultado": "2026-07-10"
+          }
+        },
+        "sd-023": {
+          "valor": 1,
+          "estadoCompromiso": "parcial",
+          "justificacion": "El compromiso de mantener como permanentes los gravámenes a la banca y a las energéticas se cumplió solo a medias: la Ley 7/2024 consolidó el impuesto a la banca, pero el de las energéticas decayó cuando PP, Vox, Junts y PNV tumbaron su prórroga y el Gobierno no volvió a intentarlo.",
+          "calidadEvidencia": "alta",
+          "fuente": {
+            "tipo": "otro",
+            "titulo": "Entra en vigor la Ley 7/2024: nuevos impuestos a la banca y las multinacionales, y derogación del impuesto a las energéticas",
+            "url": "https://www.eldiariodemadrid.es/articulo/madrid/entra-vigor-ley-7-2024-nuevos-impuestos-banca-multinacionales-derogacion-impuesto-energeticas/20241222093229086418.html",
+            "fecha": "2024-12-22",
+            "consultado": "2026-07-10"
+          }
+        }
+      }
+    }
+  },
   "posiciones": {
+    "dem-021": {
+      "valor": 2,
+      "justificacion": "Compromiso público reiterado desde la oposición: en marzo de 2015 Sánchez prometió derogar la ley mordaza «cuando gobernemos», y en abril de 2018, en vísperas de la moción de censura, la situó como una de las dos primeras leyes que impulsaría si llegaba al Gobierno.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Cuando Pedro Sánchez prometía en 2015 derogar la ley mordaza (Maldita.es)",
+        "url": "https://maldita.es/malditahemeroteca/20230314/sanchez-2015-derogar-ley-mordaza/",
+        "fecha": "2015-03-26",
+        "consultado": "2026-07-10",
+        "cita": "La Ley Mordaza y la reforma del Código Penal han sido aprobadas por la apisonadora del PP. Las derogaremos cuando gobernemos."
+      }
+    },
     "sd-002": {
       "valor": 2,
       "justificacion": "La resolución congresual respalda el cumplimiento de los compromisos de defensa y el objetivo de gasto aliado, por lo que apoya un aumento sustancial en los próximos años.",

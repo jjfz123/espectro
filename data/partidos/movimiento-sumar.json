@@ -8,7 +8,58 @@
   "web": "https://movimientosumar.es/",
   "revisado": "2026-07-10",
   "actividad": "activa",
+  "dobleLectura": {
+    "etiquetaBase": "Programa electoral de 2023",
+    "descripcionBase": "«Un Programa para ti», programa de Sumar para las elecciones generales del 23J de 2023.",
+    "contraste": {
+      "etiqueta": "Gobierno y tramitación parlamentaria reciente",
+      "descripcion": "Estado real de la tramitación en las Cortes durante la coalición de gobierno con el PSOE hasta 2026; no se promedia con el programa ni rellena sus huecos.",
+      "desde": "2024-10-28",
+      "hasta": "2026-07-09",
+      "advertencia": "Sumar comparte Consejo de Ministros con el PSOE pero no controla la agenda legislativa ni los vetos de otros socios de investidura: un bloqueo por terceros no equivale a incumplir el propio compromiso, pero tampoco lo cumple.",
+      "posiciones": {
+        "dem-021": {
+          "valor": 1,
+          "estadoCompromiso": "bloqueado",
+          "justificacion": "Sumar mantiene viva la presión por la derogación: en julio de 2026 su grupo, a través de Compromís, exige al PSOE reactivar la tramitación, encallada desde hace más de un año por vetos cruzados de PNV y Podemos. La ley sigue casi íntegra en vigor once años después, por lo que el resultado verificable no alcanza el compromiso del programa.",
+          "calidadEvidencia": "alta",
+          "fuente": {
+            "tipo": "otro",
+            "titulo": "Sumar presiona al PSOE para desbloquear la derogación de la ley mordaza estancada por los vetos de PNV y Podemos (Moncloa.com)",
+            "url": "https://www.moncloa.com/2026/07/01/sumar-ley-mordaza-bloqueada-congreso-3392990/",
+            "fecha": "2026-07-01",
+            "consultado": "2026-07-10"
+          }
+        },
+        "sd-023": {
+          "valor": 1,
+          "estadoCompromiso": "parcial",
+          "justificacion": "Sumar logró en el pacto de coalición mantener ambos gravámenes y arrancó al PSOE en noviembre de 2024 conservar el impuesto a la banca, pero el de las energéticas decayó por el acuerdo del PSOE con Junts y PNV, en contra del criterio de Sumar: cumplimiento solo parcial de lo pactado.",
+          "calidadEvidencia": "alta",
+          "fuente": {
+            "tipo": "otro",
+            "titulo": "PSOE y Sumar logran un acuerdo para mantener el impuesto a la banca y desatascar la reforma fiscal (elEconomista)",
+            "url": "https://www.eleconomista.es/economia/noticias/13078978/11/24/el-congreso-desconvoca-a-ultima-hora-la-comision-en-la-que-se-iba-a-votar-la-reforma-fiscal.html",
+            "fecha": "2024-11",
+            "consultado": "2026-07-10"
+          }
+        }
+      }
+    }
+  },
   "posiciones": {
+    "dem-021": {
+      "valor": 2,
+      "justificacion": "Su programa electoral de 2023 comprometía reformar y derogar «aquellos aspectos de la normativa vigente que limitan los derechos de reunión y libertad de expresión (la ley mordaza y el Código Penal)», con modelos policiales menos agresivos y respetuosos con la protesta pacífica.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Sumar pide derogar la ley mordaza, eliminar las injurias al rey y un consejo de medios en el plan de regeneración (elDiario.es)",
+        "url": "https://www.eldiario.es/politica/sumar-pide-derogar-ley-mordaza-eliminar-injurias-rey-consejo-medios-plan-regeneracion_1_11524023.html",
+        "fecha": "2023",
+        "consultado": "2026-07-10"
+      }
+    },
     "lab-001": {
       "valor": 2,
       "justificacion": "El documento político sitúa los convenios y la negociación colectiva sectorial en el centro de su modelo laboral.",
