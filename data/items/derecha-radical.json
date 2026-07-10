@@ -450,5 +450,23 @@
     ],
     "estado": "piloto",
     "notas": "Discrimina: el separador operativo nº2 de Mudde entre derecha radical y extremismo: el rechazo de la violencia política distingue a VOX/SALF/PP (+2) del entorno neonazi y del extremismo insurreccional de cualquier signo (-1/0). | Esperado: VOX +2, PP +2, SALF +2, DN 0, entorno neonazi -1. | [Solo-matching: el desacuerdo llega desde extremos de ambos polos. Ítem espejo (polaridad negativa) del dr-024.]"
+  },
+  {
+    "id": "dr-026",
+    "texto": "El sindicalismo nacional debería organizar solo a quienes producen en cada rama, sin integrar a los empresarios en su misma organización.",
+    "modulo": "derecha-radical",
+    "ejes": [],
+    "polaridad": "positiva",
+    "tags": [
+      "sindicato-vertical",
+      "nacionalsindicalismo",
+      "falangismo",
+      "solo-matching"
+    ],
+    "estado": "piloto",
+    "terminos": [
+      "sindicato-vertical"
+    ],
+    "notas": "Discrimina dentro del propio falangismo: separa el nacionalsindicalismo radicalizado/antipatronal del corporativismo mixto que describe dr-014 (más próximo al nacional-catolicismo y al franquismo histórico). FUENTE ÚNICA DE FIABILIDAD MEDIA (nodulo.org): hipótesis piloto hasta contrastar con fuente académica antes de pasar a 'activo'. Equifinalidad: el anarcosindicalismo también rechaza integrar a empresarios, por motivos de clase e internacionalistas — por eso solo-matching. Esperado: falangismo radicalizado +1/+2, corporativismo clásico/nacional-catolicismo -1/-2, VOX -2, CNT/CGT +1 (por motivo distinto), CCOO/UGT -1."
   }
 ]
