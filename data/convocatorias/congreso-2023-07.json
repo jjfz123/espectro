@@ -702,13 +702,8 @@
         "canarias"
       ],
       "motivoInclusion": "comunista-activa",
-      "perfilRelaciones": [
-        {
-          "perfilId": "pcpc",
-          "relacion": "componente",
-          "nota": "El nombre oficial de la candidatura identifica al PCPC como componente; no se heredan posiciones de la coalición."
-        }
-      ]
+      "perfilRelaciones": [],
+      "nota": "El PCPC del nombre oficial es el Partido Comunista del Pueblo Canario, aún sin perfil propio; no debe enlazarse con el perfil pcpc (Partit Comunista del Poble de Catalunya), que es otra organización."
     }
   ]
 }

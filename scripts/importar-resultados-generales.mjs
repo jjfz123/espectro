@@ -79,13 +79,9 @@ const RELACIONES_POR_SIGLAS = {
   XAV: [{ perfilId: 'por-avila', relacion: 'misma-organizacion' }],
   PCTE: [{ perfilId: 'pcte', relacion: 'misma-organizacion' }],
   'FE de las JONS': [{ perfilId: 'fe-jons', relacion: 'misma-organizacion' }],
-  'AHORA CANARIAS-PCPC': [
-    {
-      perfilId: 'pcpc',
-      relacion: 'componente',
-      nota: 'El nombre oficial de la candidatura identifica al PCPC como componente; no se heredan posiciones de la coalición.',
-    },
-  ],
+  // AHORA CANARIAS-PCPC queda sin relación: su componente es el Partido
+  // Comunista del Pueblo Canario, distinto del perfil pcpc (Partit Comunista
+  // del Poble de Catalunya).
 };
 
 const EXCEPCIONES = {

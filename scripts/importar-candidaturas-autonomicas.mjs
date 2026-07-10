@@ -169,9 +169,9 @@ const COMPONENTES_POR_CANDIDATURA = {
   'ast-2023-verdes-equo-asturias-asturies': [['Verdes Equo', 'verdes-equo']],
   'can-2023-unidas-si-podemos': [['Podemos', 'podemos']],
   'can-2023-drago-verdes-canarias': [['Verdes Equo Canarias', 'verdes-equo']],
-  'can-2023-ahora-canarias-partido-comunista-del-pueblo-cana': [
-    ['Partido Comunista del Pueblo Canario', 'pcpc'],
-  ],
+  // El Partido Comunista del Pueblo Canario no tiene perfil propio; el id
+  // pcpc pertenece al Partit Comunista del Poble de Catalunya y no debe usarse.
+  'can-2023-ahora-canarias-partido-comunista-del-pueblo-cana': [],
   'cnt-2023-podemos-izquierda-unida': [['Podemos', 'podemos']],
   'cyl-2026-bierzo': [
     ['Partido de El Bierzo', 'partido-del-bierzo'],

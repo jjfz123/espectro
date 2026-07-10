@@ -289,14 +289,8 @@
         "autonómica, Gran Canaria y Tenerife"
       ],
       "motivoInclusion": "umbral",
-      "perfilRelaciones": [
-        {
-          "perfilId": "pcpc",
-          "relacion": "componente",
-          "nota": "Partido Comunista del Pueblo Canario figura como componente de esta candidatura fechada; sus posiciones no se atribuyen automáticamente a la coalición."
-        }
-      ],
-      "nota": "Naturaleza inventariada: coalicion-electoral. Vigencia comprobada: no-comprobada. Tratamiento previsto: perfil-especifico."
+      "perfilRelaciones": [],
+      "nota": "Naturaleza inventariada: coalicion-electoral. Vigencia comprobada: no-comprobada. Tratamiento previsto: perfil-especifico. El componente es el Partido Comunista del Pueblo Canario, aún sin perfil propio; no debe enlazarse con el perfil pcpc (Partit Comunista del Poble de Catalunya), que es otra organización."
     },
     {
       "id": "can-2023-hablemos-ahora",
