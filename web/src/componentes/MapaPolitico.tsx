@@ -14,6 +14,7 @@ import {
   TOTAL_REFERENCIAS_CATALOGO,
 } from '../mapaEspacial';
 import type { EntidadMapa } from '../mapaEspacial';
+import { ALTO_LINEA_ZONA, capaCorrientes } from '../zonasCorrientes';
 
 /** El visor 3D (three/R3F/drei) carga solo si el usuario lo pide. */
 const Mapa3D = lazy(() => import('./Mapa3D'));
@@ -306,6 +307,69 @@ function EsquinasPlano({ esquinas }: { esquinas: [string, string, string, string
   );
 }
 
+/**
+ * Capa de corrientes de fondo: teselación por vecino más cercano de las
+ * referencias doctrinales incluidas (zonasCorrientes.ts). Se pinta en dos
+ * partes para respetar el orden de capas: los tintes y fronteras van bajo la
+ * estructura del plano, y los rótulos de zona sobre ella pero SIEMPRE detrás
+ * de los puntos y rótulos de partidos. Todo es decorativo-orientativo: fuera
+ * del árbol de accesibilidad, con el nombre completo en el tooltip nativo.
+ */
+function CapaCorrientes({ par, parte }: { par: ParEjes; parte: 'fondo' | 'rotulos' }) {
+  const capa = capaCorrientes(
+    par.id,
+    par.x,
+    par.y,
+    MARGEN,
+    LADO,
+    rectsEsquinas(ESQUINAS[par.id] ?? ESQUINAS['economico-social']!),
+  );
+  if (capa.zonas.length === 0) return null;
+  if (parte === 'fondo') {
+    return (
+      <g className="mapa-zonas" aria-hidden="true">
+        {capa.zonas.map((zona) => (
+          <path
+            key={zona.id}
+            className="mapa-zona"
+            data-tono={zona.tono}
+            d={zona.d}
+            shapeRendering="crispEdges"
+          >
+            <title>{`${zona.nombre} — referencia doctrinal más cercana en esta zona del plano`}</title>
+          </path>
+        ))}
+        {capa.bordes ? <path className="mapa-zonas__borde" d={capa.bordes} /> : null}
+      </g>
+    );
+  }
+  return (
+    <g className="mapa-zonas__rotulos" aria-hidden="true">
+      {capa.zonas.map((zona) =>
+        zona.etiqueta ? (
+          <text
+            key={zona.id}
+            className="mapa-zona__nombre"
+            x={zona.etiqueta.x}
+            y={zona.etiqueta.y}
+            textAnchor="middle"
+          >
+            {zona.etiqueta.lineas.map((linea, indice) => (
+              <tspan
+                key={indice}
+                x={zona.etiqueta!.x}
+                dy={indice === 0 ? 0 : ALTO_LINEA_ZONA}
+              >
+                {linea}
+              </tspan>
+            ))}
+          </text>
+        ) : null,
+      )}
+    </g>
+  );
+}
+
 /** Polos del eje vertical (arriba/abajo) y horizontal alrededor del plano. */
 function PolosPlano({ ejeX, ejeY, children }: { ejeX: Eje; ejeY: Eje; children: ReactNode }) {
   return (
@@ -336,9 +400,11 @@ function PolosPlano({ ejeX, ejeY, children }: { ejeX: Eje; ejeY: Eje; children: 
 function Brujula({
   puntos,
   descripcionId,
+  corrientes,
 }: {
   puntos: PuntoPlano[];
   descripcionId: string;
+  corrientes: boolean;
 }) {
   /* En la brújula solo se rotulan tú y los partidos (siglas cortas): los
      nombres largos de las referencias doctrinales saturaban el plano y
@@ -369,8 +435,10 @@ function Brujula({
         <rect className="mapa-plano__lavado--il" x={MARGEN} y={TOTAL / 2} width={mitad} height={mitad} />
         <rect className="mapa-plano__lavado--dl" x={TOTAL / 2} y={TOTAL / 2} width={mitad} height={mitad} />
       </g>
+      {corrientes ? <CapaCorrientes par={PARES[0]!} parte="fondo" /> : null}
       <EstructuraPlano />
       <EsquinasPlano esquinas={ESQUINAS['economico-social']!} />
+      {corrientes ? <CapaCorrientes par={PARES[0]!} parte="rotulos" /> : null}
       {puntos.map((punto) => {
         const etiqueta = etiquetas.get(punto.id);
         return (
@@ -424,6 +492,10 @@ export function MapaPolitico({ facetasUsuario }: Props) {
   const [parId, setParId] = useState(PARES[0]?.id ?? 'economico-social');
   const [seleccion, setSeleccion] = useState<string | null>(null);
   const [ver3D, setVer3D] = useState(false);
+  /* Corrientes de fondo: activadas por defecto. Verificado en capturas a
+     390px: la capa no satura en móvil porque las zonas pequeñas eliden su
+     rótulo solas; si el catálogo crece, hay menos rótulos, no más. */
+  const [verCorrientes, setVerCorrientes] = useState(true);
 
   const par = PARES.find((p) => p.id === parId) ?? PARES[0]!;
   const ejePorId = useMemo(() => new Map(EJES_MAPA.map((eje) => [eje.id, eje])), []);
@@ -473,6 +545,7 @@ export function MapaPolitico({ facetasUsuario }: Props) {
 
   const partidosDentro = ENTIDADES_MAPA.filter((e) => e.tipo === 'partido').length;
   const referenciasDentro = ENTIDADES_MAPA.filter((e) => e.tipo === 'referencia').length;
+  const hayCorrientes = referenciasDentro > 0;
   const partidosFuera = TOTAL_PARTIDOS_CATALOGO - partidosDentro;
   const referenciasFuera = TOTAL_REFERENCIAS_CATALOGO - referenciasDentro;
 
@@ -549,9 +622,30 @@ export function MapaPolitico({ facetasUsuario }: Props) {
         a punto, está más abajo en «En detalle».
       </p>
 
+      {hayCorrientes ? (
+        <div className="mapa-corrientes-control">
+          <label className="mapa-corrientes-control__toggle">
+            <input
+              type="checkbox"
+              checked={verCorrientes}
+              onChange={(evento) => setVerCorrientes(evento.target.checked)}
+            />
+            <span>Mostrar corrientes de fondo</span>
+          </label>
+          <span className="mapa-corrientes-control__nota">
+            Zonas orientativas: cada nombre marca la referencia doctrinal más cercana, medida
+            con el mismo instrumento que tú.
+          </span>
+        </div>
+      ) : null}
+
       <div className="mapa-plano mapa-plano--brujula">
         <PolosPlano ejeX={ejeEconomia} ejeY={ejeSociedad}>
-          <Brujula puntos={puntosBrujula} descripcionId={brujulaDescId} />
+          <Brujula
+            puntos={puntosBrujula}
+            descripcionId={brujulaDescId}
+            corrientes={hayCorrientes && verCorrientes}
+          />
         </PolosPlano>
       </div>
 
@@ -611,7 +705,11 @@ export function MapaPolitico({ facetasUsuario }: Props) {
           para los partidos y para las referencias doctrinales. Elige el cruce y toca
           cualquier punto para leerlo.
         </span>
-        <AyudaEjes ejes={EJES_MAPA} etiqueta="Qué mide cada eje, con su nombre académico" />
+        <AyudaEjes
+          ejes={EJES_MAPA}
+          etiqueta="Qué mide cada eje, con su nombre académico"
+          nota="Sobre las corrientes de fondo: cada zona del plano se nombra por la referencia doctrinal más cercana, con posición calculada desde sus textos. El número de zonas crece a medida que el catálogo de referencias supera el umbral de evidencia."
+        />
       </div>
 
       <fieldset className="mapa-pares">
@@ -657,8 +755,10 @@ export function MapaPolitico({ facetasUsuario }: Props) {
               width={LADO}
               height={LADO}
             />
+            {hayCorrientes && verCorrientes ? <CapaCorrientes par={par} parte="fondo" /> : null}
             <EstructuraPlano />
             <EsquinasPlano esquinas={ESQUINAS[par.id] ?? ESQUINAS['economico-social']!} />
+            {hayCorrientes && verCorrientes ? <CapaCorrientes par={par} parte="rotulos" /> : null}
 
             {puntos.map((punto) => {
               const etiqueta = etiquetas.get(punto.id);

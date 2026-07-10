@@ -9,6 +9,8 @@ interface Props {
   etiqueta?: string;
   /** Rótulo del panel (kicker). */
   titulo?: string;
+  /** Nota final opcional del panel (cuerpo menor, tinta suave). */
+  nota?: string;
 }
 
 /**
@@ -17,7 +19,7 @@ interface Props {
  * van los nombres y polos llanos; la jerga politológica («¿qué es GAL-TAN?»)
  * vive solo aquí dentro, como nota de los textos de lecturaEjes.ts.
  */
-export function AyudaEjes({ ejes, etiqueta, titulo = 'Qué mide cada eje' }: Props) {
+export function AyudaEjes({ ejes, etiqueta, titulo = 'Qué mide cada eje', nota }: Props) {
   const idPanel = useId();
   const [abierta, setAbierta] = useState(false);
   const botonRef = useRef<HTMLButtonElement>(null);
@@ -66,6 +68,7 @@ export function AyudaEjes({ ejes, etiqueta, titulo = 'Qué mide cada eje' }: Pro
             </div>
           ))}
         </dl>
+        {nota ? <p className="glosario-panel__nota">{nota}</p> : null}
       </aside>
     </>
   );

@@ -1003,6 +1003,17 @@ h3 {
   border-top: 1px solid var(--filete);
 }
 
+/* Nota final del panel de ayuda: cuerpo menor, tinta suave, con filete. */
+.glosario-panel__nota {
+  margin: 0.8rem 0 0;
+  padding-top: 0.8rem;
+  border-top: 1px solid var(--filete);
+  max-width: 68ch;
+  color: var(--tinta-suave);
+  font-size: 0.78rem;
+  line-height: 1.5;
+}
+
 /* Variante compacta del «?» para notas y cabeceras de fila. */
 .glosario-marca--mini {
   width: 1.35rem;
@@ -2183,6 +2194,91 @@ h3 {
   .mapa-plano__lavado--dl {
     fill: #d3b06b;
   }
+}
+
+/*
+ * Corrientes de fondo: teselación por vecino más cercano de las referencias
+ * doctrinales (zonasCorrientes.ts). Tintes de tinta apenas perceptibles que
+ * modulan el lavado (o el papel) sin salirse de papel/tinta+carmín, una
+ * frontera punteada finísima y el nombre de la corriente en versalitas de
+ * tinta muy suave. Nada de esta capa compite con puntos ni rótulos.
+ */
+.mapa-zona {
+  fill: var(--tinta);
+  fill-opacity: 0;
+}
+
+.mapa-zona[data-tono='1'] {
+  fill-opacity: 0.02;
+}
+
+.mapa-zona[data-tono='2'] {
+  fill-opacity: 0.04;
+}
+
+.mapa-zona[data-tono='3'] {
+  fill-opacity: 0.06;
+}
+
+.mapa-zonas__borde {
+  fill: none;
+  stroke: var(--filete);
+  stroke-width: 0.75;
+  stroke-dasharray: 1.5 2.5;
+}
+
+.mapa-zona__nombre {
+  font-family: var(--sans);
+  font-size: 9px;
+  font-variant-caps: all-small-caps;
+  letter-spacing: 0.09em;
+  fill: var(--tinta-suave);
+  fill-opacity: 0.75;
+  pointer-events: none;
+}
+
+@media (prefers-color-scheme: dark) {
+  .mapa-zona[data-tono='1'] {
+    fill-opacity: 0.035;
+  }
+
+  .mapa-zona[data-tono='2'] {
+    fill-opacity: 0.07;
+  }
+
+  .mapa-zona[data-tono='3'] {
+    fill-opacity: 0.105;
+  }
+}
+
+/* Toggle compartido de la capa de corrientes (brújula y planos detallados). */
+.mapa-corrientes-control {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.35rem 1rem;
+  margin-top: 1rem;
+  font-size: 0.82rem;
+}
+
+.mapa-corrientes-control__toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.mapa-corrientes-control__toggle input {
+  accent-color: var(--acento);
+  margin: 0;
+}
+
+.mapa-corrientes-control__nota {
+  max-width: 52ch;
+  color: var(--tinta-suave);
+  font-size: 0.78rem;
+  line-height: 1.4;
 }
 
 /* Descriptores de esquina: tipografía pequeña, tinta suave, sin valoración.
