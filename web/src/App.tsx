@@ -21,7 +21,7 @@ const Resultados = lazy(() =>
 
 function VistaCargando() {
   return (
-    <div className="contenedor vista-cargando" role="status">
+    <div className="contenedor vista-cargando vista-cargando--vista" role="status">
       <p className="kicker">Resultados</p>
       <p>Preparando tu perfil y tus afinidades…</p>
     </div>

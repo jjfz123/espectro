@@ -261,6 +261,69 @@ function Estructura({ tema }: { tema: Tema }) {
   );
 }
 
+/**
+ * Anticolisión rótulo-polo: tras cada fotograma dibujado se comparan los
+ * rectángulos reales en pantalla de las etiquetas de puntos (selección,
+ * vecinos con distancia, hover) con los rótulos de polos; el polo pisado
+ * cede (se atenúa vía .cubo3d-polo--cedido) mientras dure el solape. Al
+ * medir el DOM ya proyectado funciona con cualquier ángulo de cámara y con
+ * etiquetas multilínea. La comprobación va acompasada al bucle bajo demanda
+ * (si nada se mueve, nada se mide) y limitada a unas pocas por segundo.
+ */
+function AnticolisionPolos() {
+  const gl = useThree((estado) => estado.gl);
+  const trasUltimoFotograma = useRef<ReturnType<typeof setTimeout> | null>(null);
+  const ultimaPeriodica = useRef(0);
+
+  const comprobar = () => {
+    // Los Html de drei no cuelgan del padre directo del canvas: se busca
+    // desde la raíz del componente (.cubo3d), que los contiene a todos.
+    const raiz = gl.domElement.closest('.cubo3d') ?? document.body;
+    const rectsVisibles = (selector: string) =>
+      Array.from(raiz.querySelectorAll<HTMLElement>(selector))
+        .map((el) => ({ el, rect: el.getBoundingClientRect() }))
+        .filter(({ rect }) => rect.width > 0 && rect.height > 0);
+    const etiquetas = rectsVisibles('.cubo3d-etiqueta');
+    const MARGEN = 2; // «rozarse» también cuenta como pisar.
+    for (const { el, rect } of rectsVisibles('.cubo3d-polo')) {
+      const pisado = etiquetas.some(
+        ({ rect: otro }) =>
+          rect.left < otro.right + MARGEN &&
+          otro.left - MARGEN < rect.right &&
+          rect.top < otro.bottom + MARGEN &&
+          otro.top - MARGEN < rect.bottom,
+      );
+      el.classList.toggle('cubo3d-polo--cedido', pisado);
+    }
+  };
+
+  /* Con frameloop bajo demanda no se puede confiar solo en el fotograma
+     actual: los Html de drei fijan su transformación durante el propio
+     fotograma. Cada fotograma reprograma una comprobación de cierre a los
+     80 ms (siempre hay una medición del estado final, aunque la escena se
+     pare) y, mientras el movimiento es sostenido (autorrotación, órbita),
+     una comprobación periódica mantiene los polos al día. */
+  useEffect(() => {
+    const inicial = setTimeout(comprobar, 120);
+    return () => {
+      clearTimeout(inicial);
+      if (trasUltimoFotograma.current !== null) clearTimeout(trasUltimoFotograma.current);
+    };
+    // `comprobar` es estable a efectos prácticos: solo lee del DOM.
+  }, []);
+
+  useFrame(() => {
+    if (trasUltimoFotograma.current !== null) clearTimeout(trasUltimoFotograma.current);
+    trasUltimoFotograma.current = setTimeout(comprobar, 80);
+    const ahora = performance.now();
+    if (ahora - ultimaPeriodica.current >= 150) {
+      ultimaPeriodica.current = ahora;
+      requestAnimationFrame(comprobar);
+    }
+  });
+  return null;
+}
+
 function EtiquetasEjes({ ejes }: { ejes: Eje[] }) {
   const [economico, social, territorial] = ejes;
   if (!economico || !social || !territorial) return null;
@@ -599,6 +662,7 @@ export default function Mapa3D({ ejes, valoresUsuario, usuarioProvisional, entid
             grupo={grupoRef}
             inmediata={menosMovimiento}
           />
+          <AnticolisionPolos />
           <OrbitControls
             makeDefault
             enablePan={false}

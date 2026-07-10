@@ -113,6 +113,14 @@ main:focus {
   padding-block: 3rem;
 }
 
+/* Mientras se descarga el chunk de una vista completa, el aviso ocupa casi
+   todo el alto: el pie queda fuera del primer viewport y no hay salto de
+   maquetación (CLS) cuando la vista real lo empuja hacia abajo. */
+.vista-cargando--vista {
+  min-height: 85vh;
+  min-height: 85dvh;
+}
+
 .vista-cargando p:last-child {
   margin-top: 0.6rem;
   font-family: var(--serif);
@@ -2539,6 +2547,19 @@ h3 {
   stroke-width: 3px;
 }
 
+/* Rótulo elidido por falta de hueco en un cúmulo (solo referencias
+   doctrinales): aparece al pasar el puntero, al enfocar con teclado o al
+   seleccionar el punto; mientras tanto queda el rombo con su tooltip. */
+.mapa-punto__rotulo--elidido {
+  display: none;
+}
+
+.mapa-punto:hover .mapa-punto__rotulo--elidido,
+.mapa-punto:focus .mapa-punto__rotulo--elidido,
+.mapa-punto[data-seleccionado='true'] .mapa-punto__rotulo--elidido {
+  display: block;
+}
+
 .mapa-punto[data-tipo='usuario'] .mapa-punto__rotulo {
   fill: var(--acento);
   font-weight: 700;
@@ -2746,6 +2767,13 @@ h3 {
   width: max-content;
   pointer-events: none;
   user-select: none;
+}
+
+/* El polo cede cuando una etiqueta de punto lo pisa (anticolisión medida
+   sobre los rectángulos reales en pantalla, Mapa3D.AnticolisionPolos): el
+   dato manda sobre la orientación, que reaparece al despejarse. */
+.cubo3d-polo--cedido {
+  opacity: 0.12;
 }
 
 .cubo3d-etiqueta {
@@ -3173,9 +3201,72 @@ dl.definiciones dd {
   }
 }
 
+/* ————— Targets táctiles (auditoría Lighthouse/WCAG 2.5.8) —————
+   Con puntero grueso los controles alcanzan >=44px de alto sin alterar la
+   densidad editorial con ratón: crece la zona de pulsación (relleno, o área
+   invisible en los botones «?»), no el dibujo. Los puntos de datos de los
+   planos SVG quedan fuera a propósito: su tamaño y posición son información
+   y ampliarlos falsearía el mapa (excepción de presentación esencial). */
+@media (pointer: coarse) {
+  .boton,
+  .likert-opcion,
+  .sin-opinion,
+  .importante,
+  .mapa-corrientes-control__toggle {
+    min-height: 44px;
+  }
+
+  .mapa-pares label {
+    min-height: 44px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .cabecera-nav button,
+  .pie-enlaces button,
+  .pie-enlaces a,
+  .boton--terciario,
+  .glosario-cerrar {
+    padding-block: 0.8rem;
+    margin-block: -0.5rem;
+  }
+
+  .marca {
+    padding-block: 0.6rem;
+    margin-block: -0.6rem;
+  }
+
+  /* Separación extra para que las zonas ampliadas no se solapen al partir
+     en dos líneas. */
+  .pie-enlaces {
+    row-gap: 0.9rem;
+  }
+
+  /* Botones «?» del glosario y de la ayuda de ejes: área invisible de
+     pulsación alrededor del círculo dibujado. */
+  .glosario-marca {
+    position: relative;
+  }
+
+  .glosario-marca::after {
+    content: '';
+    position: absolute;
+    inset: -9px;
+  }
+
+  .glosario-marca--mini::after {
+    inset: -12px;
+  }
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .barra > span,
   .progreso-seg > span {
     transition: width 0.35s ease;
+  }
+
+  .cubo3d-polo {
+    transition: opacity 0.25s ease;
   }
 }

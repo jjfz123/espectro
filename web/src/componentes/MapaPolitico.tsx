@@ -86,6 +86,12 @@ interface EtiquetaColocada {
   x: number;
   y: number;
   anclaje: 'start' | 'end' | 'middle';
+  /**
+   * Sin hueco limpio ni con el abanico completo: el rótulo permanente se
+   * elide y solo aparece al pasar el puntero o enfocar el punto (solo
+   * referencias doctrinales; los partidos conservan rótulo siempre).
+   */
+  elidida?: boolean;
 }
 
 interface Rect {
@@ -116,10 +122,60 @@ function rectsEsquinas(esquinas: [string, string, string, string]): Rect[] {
 }
 
 /**
- * Colocación de rótulos con desplazamiento simple: cada etiqueta prueba
- * derecha, izquierda, arriba y abajo del punto, y después desplazamientos
- * verticales crecientes, hasta no chocar con las ya colocadas, con las zonas
- * reservadas (esquinas) ni salirse.
+ * Anchura estimada de un rótulo en unidades del plano (fuente sans de 10.5px
+ * con halo de papel de 3px): por clases de carácter en lugar de una media
+ * única, que subestimaba las siglas en mayúsculas y dejaba que rótulos
+ * vecinos se rozaran en los cúmulos.
+ */
+function anchoRotulo(texto: string): number {
+  let ancho = 0;
+  for (const caracter of texto) {
+    if ("ilíìîïjt.,;:'’ ()".includes(caracter)) ancho += 3.4;
+    else if ('mwMW'.includes(caracter)) ancho += 9.4;
+    else if (/[A-ZÁÉÍÓÚÑÜ]/.test(caracter)) ancho += 7.3;
+    else if (caracter === '…') ancho += 8;
+    else ancho += 5.9;
+  }
+  return ancho + 7;
+}
+
+/**
+ * Direcciones del abanico radial, de la más legible (horizontal) a la
+ * vertical. En SVG la y crece hacia abajo; el signo solo cambia el lado.
+ */
+const ANGULOS_RADIALES = [
+  0,
+  Math.PI,
+  -Math.PI / 6,
+  Math.PI / 6,
+  Math.PI - Math.PI / 6,
+  Math.PI + Math.PI / 6,
+  -Math.PI / 3,
+  Math.PI / 3,
+  Math.PI - Math.PI / 3,
+  Math.PI + Math.PI / 3,
+  -Math.PI / 2,
+  Math.PI / 2,
+];
+
+/**
+ * Radios del abanico, siempre con línea guía al punto. Los dos últimos son
+ * escapes largos para los cúmulos del borde cuando el catálogo crece: antes
+ * de pisar otro rótulo, un partido puede rotularse a media plana.
+ */
+const RADIOS_ABANICO = [20, 32, 46, 62, 80, 100, 122, 146];
+
+/**
+ * Colocación de rótulos con desplazamiento radial: cada etiqueta prueba
+ * derecha, izquierda, arriba y abajo del punto y, si no hay hueco, un
+ * abanico de anillos crecientes alrededor (primero en horizontal, después
+ * diagonales y verticales), hasta no chocar con las ya colocadas, con las
+ * zonas reservadas (esquinas) ni salirse. En los cúmulos del borde —AA,
+ * Podemos y las referencias abajo a la izquierda— el abanico reparte los
+ * rótulos alrededor en lugar de apilarlos en una escalera que acababa
+ * rozándose; la línea guía (etiquetaLejana) une cada rótulo desplazado con
+ * su punto. Si ni aun así hay hueco limpio, se elige el candidato con menos
+ * solape en vez de pisar siempre a la derecha del punto.
  */
 function colocarEtiquetas(
   puntos: PuntoPlano[],
@@ -135,35 +191,39 @@ function colocarEtiquetas(
       alto: 14,
     })),
   ];
-  const ALTO = 12;
+  const ALTO = 13;
+
+  const rectDe = (candidato: EtiquetaColocada, ancho: number): Rect => {
+    const x0 =
+      candidato.anclaje === 'start'
+        ? candidato.x
+        : candidato.anclaje === 'end'
+          ? candidato.x - ancho
+          : candidato.x - ancho / 2;
+    return { x: x0, y: candidato.y - ALTO + 2, ancho, alto: ALTO };
+  };
 
   for (const punto of puntos) {
-    const ancho = punto.etiqueta.length * 6.4 + 4;
+    const ancho = anchoRotulo(punto.etiqueta);
     const candidatos: EtiquetaColocada[] = [
       { x: punto.cx + 9, y: punto.cy + 4, anclaje: 'start' },
       { x: punto.cx - 9, y: punto.cy + 4, anclaje: 'end' },
       { x: punto.cx, y: punto.cy - 11, anclaje: 'middle' },
       { x: punto.cx, y: punto.cy + 18, anclaje: 'middle' },
     ];
-    for (let paso = 1; paso <= 10; paso += 1) {
-      candidatos.push({ x: punto.cx + 9, y: punto.cy + 4 + paso * ALTO, anclaje: 'start' });
-      candidatos.push({ x: punto.cx - 9, y: punto.cy + 4 - paso * ALTO, anclaje: 'end' });
-      /* Escapes hacia arriba-derecha y abajo-izquierda: en los cúmulos
-         pegados a una esquina (frecuentes en Sociedad × Territorio) los
-         cuatro primeros candidatos y los pasos anteriores se agotan. */
-      candidatos.push({ x: punto.cx + 9, y: punto.cy + 4 - paso * ALTO, anclaje: 'start' });
-      candidatos.push({ x: punto.cx - 9, y: punto.cy + 4 + paso * ALTO, anclaje: 'end' });
+    for (const radio of RADIOS_ABANICO) {
+      for (const angulo of ANGULOS_RADIALES) {
+        const dx = Math.cos(angulo) * radio;
+        const dy = Math.sin(angulo) * radio;
+        const anclaje: EtiquetaColocada['anclaje'] =
+          Math.abs(dx) < radio * 0.4 ? 'middle' : dx > 0 ? 'start' : 'end';
+        candidatos.push({ x: punto.cx + dx, y: punto.cy + dy + 4, anclaje });
+      }
     }
 
     let elegido: EtiquetaColocada | null = null;
     for (const candidato of candidatos) {
-      const x0 =
-        candidato.anclaje === 'start'
-          ? candidato.x
-          : candidato.anclaje === 'end'
-            ? candidato.x - ancho
-            : candidato.x - ancho / 2;
-      const rect: Rect = { x: x0, y: candidato.y - ALTO + 2, ancho, alto: ALTO };
+      const rect = rectDe(candidato, ancho);
       const dentro = rect.x >= 2 && rect.x + rect.ancho <= TOTAL - 2 && rect.y >= 1 && rect.y + rect.alto <= TOTAL - 1;
       if (dentro && !ocupados.some((otro) => chocan(rect, otro))) {
         ocupados.push(rect);
@@ -171,7 +231,36 @@ function colocarEtiquetas(
         break;
       }
     }
-    colocadas.set(punto.id, elegido ?? { x: punto.cx + 9, y: punto.cy + 4, anclaje: 'start' });
+    if (!elegido && punto.tipo === 'referencia') {
+      /* Referencia sin hueco ni con el abanico completo: se elide el rótulo
+         permanente (queda el rombo con tooltip, hover, foco y lectura al
+         seleccionar) en lugar de pisar a otro. El rótulo de hover se pinta
+         pegado al punto: el solape transitorio es preferible a uno fijo. */
+      elegido = { x: punto.cx + 9, y: punto.cy + 4, anclaje: 'start', elidida: true };
+    } else if (!elegido) {
+      let mejorPenalizacion = Infinity;
+      for (const candidato of candidatos) {
+        const rect = rectDe(candidato, ancho);
+        /* Salirse del plano pesa el triple que pisar otro rótulo. */
+        const fueraX = Math.max(0, 2 - rect.x) + Math.max(0, rect.x + rect.ancho - (TOTAL - 2));
+        const fueraY = Math.max(0, 1 - rect.y) + Math.max(0, rect.y + rect.alto - (TOTAL - 1));
+        let penalizacion = (fueraX * rect.alto + fueraY * rect.ancho) * 3;
+        for (const otro of ocupados) {
+          const solapeX =
+            Math.min(rect.x + rect.ancho, otro.x + otro.ancho) - Math.max(rect.x, otro.x);
+          const solapeY =
+            Math.min(rect.y + rect.alto, otro.y + otro.alto) - Math.max(rect.y, otro.y);
+          if (solapeX > 0 && solapeY > 0) penalizacion += solapeX * solapeY;
+        }
+        if (penalizacion < mejorPenalizacion) {
+          mejorPenalizacion = penalizacion;
+          elegido = candidato;
+        }
+      }
+      elegido = elegido ?? candidatos[0]!;
+      ocupados.push(rectDe(elegido, ancho));
+    }
+    colocadas.set(punto.id, elegido);
   }
   return colocadas;
 }
@@ -773,7 +862,11 @@ export function MapaPolitico({ facetasUsuario }: Props) {
                   role="button"
                   tabIndex={0}
                   aria-pressed={seleccionado}
-                  aria-label={`${punto.nombre}${punto.tipo === 'referencia' ? ' (referencia doctrinal, no votable)' : ''}`}
+                  aria-label={
+                    punto.tipo === 'usuario'
+                      ? 'Tú: tu posición'
+                      : `${punto.nombre}${punto.tipo === 'referencia' ? ' (referencia doctrinal, no votable)' : ''}`
+                  }
                   onClick={(evento) => {
                     evento.stopPropagation();
                     setSeleccion(seleccionado ? null : punto.id);
@@ -786,7 +879,7 @@ export function MapaPolitico({ facetasUsuario }: Props) {
                   }}
                 >
                   <title>{punto.nombre}</title>
-                  {etiqueta && etiquetaLejana(etiqueta, punto) ? (
+                  {etiqueta && !etiqueta.elidida && etiquetaLejana(etiqueta, punto) ? (
                     <line
                       className="mapa-punto__guia"
                       x1={punto.cx}
@@ -817,7 +910,9 @@ export function MapaPolitico({ facetasUsuario }: Props) {
                   )}
                   {etiqueta ? (
                     <text
-                      className="mapa-punto__rotulo"
+                      className={`mapa-punto__rotulo${
+                        etiqueta.elidida ? ' mapa-punto__rotulo--elidido' : ''
+                      }`}
                       x={etiqueta.x}
                       y={etiqueta.y}
                       textAnchor={etiqueta.anclaje}

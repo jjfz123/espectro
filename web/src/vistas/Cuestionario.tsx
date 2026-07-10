@@ -24,12 +24,20 @@ export function Cuestionario({ estado, despachar }: Props) {
   const encabezadoRef = useRef<HTMLHeadingElement>(null);
   const marcaGlosarioRef = useRef<HTMLButtonElement>(null);
   const [glosarioAbierto, setGlosarioAbierto] = useState(false);
+  /**
+   * Anuncio para lectores de pantalla al responder con los atajos 1-5/0:
+   * con el foco en el encabezado, marcar el radio no produce ninguna
+   * locución; esta región viva confirma qué quedó registrado. Al responder
+   * pulsando el propio radio el lector ya lo anuncia y aquí no se escribe.
+   */
+  const [anuncio, setAnuncio] = useState('');
 
   const itemId = item?.id;
   const respondido = itemId !== undefined && itemId in estado.respuestas;
 
   useEffect(() => {
     setGlosarioAbierto(false);
+    setAnuncio('');
     const frame = window.requestAnimationFrame(() => {
       window.scrollTo({ top: 0, behavior: 'auto' });
       encabezadoRef.current?.focus({ preventScroll: true });
@@ -52,9 +60,12 @@ export function Cuestionario({ estado, despachar }: Props) {
       const destino = e.target as HTMLElement | null;
       if (destino && ['INPUT', 'SELECT', 'TEXTAREA'].includes(destino.tagName)) return;
       if (e.key in VALORES_TECLA) {
-        despachar({ tipo: 'responder', itemId, valor: VALORES_TECLA[e.key] ?? 0 });
+        const valorTecla = VALORES_TECLA[e.key] ?? 0;
+        despachar({ tipo: 'responder', itemId, valor: valorTecla });
+        setAnuncio(`Respondida: ${etiquetaValor(valorTecla)}.`);
       } else if (e.key === '0') {
         despachar({ tipo: 'responder', itemId, valor: null });
+        setAnuncio('Respondida: sin opinión.');
       } else if (e.key === 'ArrowLeft' && !estado.editando) {
         despachar({ tipo: 'anterior' });
       } else if (e.key === 'ArrowRight' && respondido) {
@@ -217,6 +228,10 @@ export function Cuestionario({ estado, despachar }: Props) {
       <p className="atajos">
         Atajos de teclado: <kbd>1</kbd>–<kbd>5</kbd> escala · <kbd>0</kbd> sin opinión ·{' '}
         <kbd>←</kbd> <kbd>→</kbd> navegar
+      </p>
+
+      <p className="solo-lectores" role="status">
+        {anuncio}
       </p>
     </div>
   );
