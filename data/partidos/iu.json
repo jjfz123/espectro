@@ -1,0 +1,351 @@
+{
+  "id": "iu",
+  "nombre": "Izquierda Unida",
+  "siglas": "IU",
+  "ambito": "estatal",
+  "tipo": "partido",
+  "confianza": "verificada",
+  "web": "https://izquierdaunida.org/",
+  "revisado": "2026-07-10",
+  "actividad": "activa",
+  "autodescripcion": {
+    "texto": "Izquierda Unida se define en sus estatutos federales como un Movimiento Político y Social de carácter anticapitalista, organizado como una federación de partidos, colectivos y personas a título individual, cuyo objetivo es transformar el orden capitalista en un país socialista, feminista, plural, republicano, laico, federal y plurinacional. Concurre a las elecciones generales integrada en la coalición Movimiento Sumar, pero conserva estructura, congresos (Asambleas Federales) y coordinación federal propios, actualmente bajo Antonio Maíllo.",
+    "fuente": {
+      "tipo": "estatutos",
+      "titulo": "Estatutos de Izquierda Unida, aprobados en la XIII Asamblea Federal",
+      "url": "https://izquierdaunida.org/wp-content/uploads/2024/10/ESTATUTOS-APROBADOS-XIII-ASAMBLEA_ALL.pdf",
+      "fecha": "2024-05"
+    }
+  },
+  "posiciones": {
+    "eco-004": {
+      "valor": -1,
+      "justificacion": "Doctrinalmente rechaza priorizar la reducción de deuda sobre el gasto social, pero su experiencia real de gobierno matiza esa posición: como vicepresidencia de la Junta de Andalucía (2012-2015), IU tuvo que asumir recortes presupuestarios impuestos externamente pese a su oposición, sin lograr revertirlos desde dentro del Ejecutivo.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "El precedente andaluz PSOE-IU: un recordatorio de aciertos y fallos para el nuevo Gobierno",
+        "url": "https://www.lamarea.com/2020/01/17/el-precedente-andaluz-psoe-iu-un-recordatorio-de-aciertos-y-fallos-para-el-nuevo-gobierno/",
+        "fecha": "2020-01-17",
+        "consultado": "2026-07-10"
+      }
+    },
+    "eco-001": {
+      "valor": 2,
+      "justificacion": "Su propuesta de reforma fiscal de noviembre de 2025 plantea aumentar de forma sustancial la contribución de las rentas altas y las grandes empresas, con una recaudación adicional calculada en 111.000 millones de euros anuales, el 95% del esfuerzo a cargo de quienes más tienen.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Nuestra propuesta de reforma fiscal justa. Hacia la suficiencia, equidad y la lucha contra el fraude",
+        "url": "https://izquierdaunida.org/2025/11/05/nuestra-propuesta-de-reforma-fiscal-justa-hacia-la-suficiencia-equidad-y-la-lucha-contra-el-fraude/",
+        "fecha": "2025-11-05",
+        "consultado": "2026-07-10"
+      }
+    },
+    "eco-002": {
+      "valor": -2,
+      "justificacion": "IU fue, junto al BNG, de los pocos grupos que votaron en contra de la Ley 15/1997, que abrió la gestión privada dentro de la sanidad pública; desde el Gobierno de coalición ha seguido exigiendo derogarla «directamente» por considerar que la entrada de gestión privada no mejora sino que debilita el sistema público.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Unidas Podemos presiona al PSOE para derogar «directamente» la Ley 15/1997 que permite gestión privada en la sanidad pública",
+        "url": "https://isanidad.com/242298/unidas-podemos-presiona-psoe-derogar-directamente-ley-15-1997-permite-gestion-privada-sanidad-publica/",
+        "fecha": "2023-02",
+        "consultado": "2026-07-10"
+      }
+    },
+    "eco-003": {
+      "valor": 2,
+      "justificacion": "La federación de IU en Castilla y León reclamó fijar el SMI en 1.273 euros para 2026 —un 7,5% más—, por encima de la subida del 3,1% (1.221 euros) finalmente pactada por el Gobierno de coalición del que IU forma parte, sin condicionar el incremento a su posible efecto sobre el empleo.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "IU Castilla y León defiende incrementar la subida del salario Mínimo Interprofesional (SMI) un 7,5% para 2026",
+        "url": "https://www.tercerainformacion.es/articulo/actualidad/05/12/2025/iu-castilla-y-leon-defiende-incrementar-la-subida-del-salario-minimo-interprofesional-smi-un-75-para-2026/",
+        "fecha": "2025-12-05",
+        "consultado": "2026-07-10"
+      }
+    },
+    "eco-005": {
+      "valor": 2,
+      "justificacion": "Ovidio Zapico, único consejero autonómico de IU (Vivienda de Asturias), aplica y defiende la declaración de zonas de mercado tensionado para topar el precio del alquiler, y denuncia que la mayoría de comunidades gobernadas por la derecha ni siquiera aplican esa herramienta de la Ley de Vivienda.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Ovidio Zapico, consejero de Vivienda de Asturias: «Hay una ausencia total de políticas de vivienda en las comunidades donde gobierna la derecha»",
+        "url": "https://www.publico.es/economia/vivienda/hay-ausencia-total-politicas-vivienda-comunidades-gobierna-derecha.html",
+        "fecha": "2026-01-29",
+        "consultado": "2026-07-10",
+        "cita": "Hay una ausencia total de políticas de vivienda en las comunidades donde gobierna la derecha"
+      }
+    },
+    "eco-006": {
+      "valor": 2,
+      "justificacion": "Como consejero de Vivienda de Asturias, Zapico impulsa un modelo que fortalece el parque público de vivienda en alquiler asequible con protección permanente, resumido en su propia declaración de que ese modelo sitúa la vivienda como un derecho y no como un negocio.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "«Nuestro modelo sitúa la vivienda como un derecho, no como un negocio»",
+        "url": "https://www.orm.es/programas/tarde-abierta/entrevista-ovidio-zapico-consejero-de-ordenacion-del-territorio-y-vivienda-del-principado-de-asturias/",
+        "fecha": "2025",
+        "consultado": "2026-07-10",
+        "cita": "Nuestro modelo sitúa la vivienda como un derecho, no como un negocio"
+      }
+    },
+    "eco-009": {
+      "valor": -2,
+      "justificacion": "IU, entonces integrada en Unidas Podemos, rechazó por «injusto» el intento constante de la derecha y la ultraderecha de eliminar por completo el impuesto de sucesiones y donaciones, y planteó en su lugar modificarlo para reforzar su progresividad.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Unidas Podemos plantea modificaciones al Impuesto de Sucesiones y Donaciones y rechaza por «injusto» el constante intento de la derecha y la ultraderecha para eliminarlo por completo",
+        "url": "https://izquierdaunida.org/2021/03/23/unidas-podemos-plantea-modificaciones-al-impuesto-de-sucesiones-y-donaciones-y-rechaza-por-injusto-el-constante-intento-de-la-derecha-y-la-ultraderecha-para-eliminarlo-por-completo/",
+        "fecha": "2021-03-23",
+        "consultado": "2026-07-10"
+      }
+    },
+    "eco-011": {
+      "valor": 2,
+      "justificacion": "IU llamó a movilizarse a favor de la ley de reducción de la jornada laboral, y su coordinador federal, Antonio Maíllo, junto al secretario general de CCOO, exigió tramitarla «por vía de urgencia» para que las 37,5 horas semanales sin rebaja salarial fueran realidad antes del 1 de enero de 2026.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Izquierda Unida llama a movilizarse a favor de la Ley por la reducción de jornada",
+        "url": "https://izquierdaunida.org/2025/09/09/izquierda-unida-llama-a-movilizarse-a-favor-de-la-ley-por-la-reduccion-de-jornada/",
+        "fecha": "2025-09-09",
+        "consultado": "2026-07-10"
+      }
+    },
+    "eco-013": {
+      "valor": -2,
+      "justificacion": "En coherencia con su rechazo histórico a la Ley 15/1997, IU exige derogarla «directamente» en vez de mantener la derivación de pacientes a la sanidad privada concertada cuando se alargan las listas de espera, práctica a la que se opone como modelo de gestión del sistema público.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Unidas Podemos presiona al PSOE para derogar «directamente» la Ley 15/1997 que permite gestión privada en la sanidad pública",
+        "url": "https://isanidad.com/242298/unidas-podemos-presiona-psoe-derogar-directamente-ley-15-1997-permite-gestion-privada-sanidad-publica/",
+        "fecha": "2023-02",
+        "consultado": "2026-07-10"
+      }
+    },
+    "eco-014": {
+      "valor": 2,
+      "justificacion": "Su reforma fiscal de noviembre de 2025 incluye nuevos gravámenes permanentes sobre grandes fortunas y patrimonios, y en mayo de 2026 IU registró junto a Movimiento Sumar una proposición de ley para crear un impuesto estatal permanente sobre las grandes herencias y donaciones superiores a un millón de euros.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Izquierda Unida impulsa una proposición de ley para crear un Impuesto a las Grandes Herencias y Donaciones por encima del millón de euros",
+        "url": "https://izquierdaunida.org/2026/05/22/izquierda-unida-impulsa-una-proposicion-de-ley-para-crear-un-impuesto-a-las-grandes-herencias-y-donaciones-por-encima-del-millon-de-euros/",
+        "fecha": "2026-05-22",
+        "consultado": "2026-07-10"
+      }
+    },
+    "lab-016": {
+      "valor": 2,
+      "justificacion": "Tras el apagón de abril de 2025, IU reivindicó en un comunicado que «un instrumento como REE es estratégico y debe volver a ser 100% público», subrayando la importancia de la planificación pública frente a la lógica de mercado en empresas estratégicas.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Comunicado | Frente al apagón, todo el poder para lo público",
+        "url": "https://izquierdaunida.org/2025/04/29/comunicado-frente-al-apagon-todo-el-poder-para-lo-publico/",
+        "fecha": "2025-04-29",
+        "consultado": "2026-07-10",
+        "cita": "Un instrumento como REE es estratégico y debe volver a ser 100% público"
+      }
+    },
+    "soc-001": {
+      "valor": 2,
+      "justificacion": "Su documento programático sobre derechos LGTBI reivindica la conquista de la igualdad real, incluido el matrimonio igualitario, como parte de su proyecto feminista y de ampliación de derechos.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Un país que lucha por los derechos LGTBI: por la conquista de la igualdad real",
+        "url": "https://izquierdaunida.org/wp-content/uploads/2019/04/14-Derechos-LGTBI.pdf",
+        "fecha": "2019-04",
+        "consultado": "2026-07-10"
+      }
+    },
+    "soc-002": {
+      "valor": -2,
+      "justificacion": "Su programa de derechos de personas migrantes y refugiadas reclama el cierre de los CIE y el fin de las devoluciones en caliente, apostando por un modelo de derechos y vías seguras y legales en lugar de que la devolución sea la respuesta prioritaria a la inmigración irregular.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "15 Derechos de personas migrantes y refugiadas",
+        "url": "https://izquierdaunida.org/wp-content/uploads/2019/04/15-Derechos-de-migrantes-y-personas-refugiadas.pdf",
+        "fecha": "2019-04",
+        "consultado": "2026-07-10"
+      }
+    },
+    "soc-004": {
+      "valor": 2,
+      "justificacion": "IU de Navarra se sumó activamente a la recogida de firmas de la Iniciativa Legislativa Popular «Esenciales» para una regularización extraordinaria de personas migrantes, campaña que superaría después el medio millón de firmas y que el Congreso aprobó tramitar en abril de 2024.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Izquierda Unida se suma a la Iniciativa Legislativa Popular para una «regularización extraordinaria» de migrantes en España",
+        "url": "https://www.pamplonaactual.com/articulo/politica/navarra-iun-suma-iniciativa-legislativa-popular-regularizacion-extraordinaria-migrantes-espana/20220518115505301923.html",
+        "fecha": "2022-05-18",
+        "consultado": "2026-07-10"
+      }
+    },
+    "soc-006": {
+      "valor": 2,
+      "justificacion": "Como parte de la coalición Unidos Podemos, IU votó a favor de la proposición del PNV para derogar la prisión permanente revisable, posición que ha mantenido en las legislaturas posteriores sin plantear revertirla.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "El Congreso vota contra la prisión permanente revisable con acusaciones a PP y Cs de «utilizar a las víctimas»",
+        "url": "https://www.infolibre.es/noticias/politica/2018/03/15/debate_derogacion_prision_permanente_revisable_80676_1012.html",
+        "fecha": "2018-03-15",
+        "consultado": "2026-07-10"
+      }
+    },
+    "fem-001": {
+      "valor": 2,
+      "justificacion": "Su documento de derechos LGTBI reclama la despatologización de las identidades trans y defiende el derecho a decidir libremente sobre el propio cuerpo y al cambio de nombre y sexo en documentos oficiales, en línea con la autodeterminación de género sin informes médicos.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Un país que lucha por los derechos LGTBI: por la conquista de la igualdad real",
+        "url": "https://izquierdaunida.org/wp-content/uploads/2019/04/14-Derechos-LGTBI.pdf",
+        "fecha": "2019-04",
+        "consultado": "2026-07-10"
+      }
+    },
+    "fem-012": {
+      "valor": 1,
+      "justificacion": "Sus comunicados feministas reclaman el aborto plenamente garantizado en la sanidad pública y sostienen que las mujeres no necesitan tutelas ni coacciones para decidir sobre la maternidad, pero no se pronuncian de forma literal sobre el supuesto concreto del consentimiento paterno para menores de 16 y 17 años.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Blindar el derecho al aborto en la constitución: una cuestión de justicia social",
+        "url": "https://izquierdaunida.org/2025/10/20/blindar-el-derecho-al-aborto-en-la-constitucion-una-cuestion-de-justicia-social/",
+        "fecha": "2025-10-20",
+        "consultado": "2026-07-10"
+      }
+    },
+    "fem-014": {
+      "valor": 2,
+      "justificacion": "IU defiende una regulación integral del cannabis basada en el modelo de clubes sociales de cultivo colectivo, y participó desde el Grupo Plurinacional Sumar en el registro de una proposición de ley de regulación integral del cannabis para personas adultas.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Proposición de Ley de regulación integral del cannabis (BOCG, Congreso, XV Legislatura, Grupo Plurinacional Sumar)",
+        "url": "https://www.congreso.es/public_oficiales/L15/CONG/BOCG/B/BOCG-15-B-49-1.PDF",
+        "fecha": "2024",
+        "consultado": "2026-07-10"
+      }
+    },
+    "lib-017": {
+      "valor": 2,
+      "justificacion": "IU, integrada en el grupo parlamentario de Unidas Podemos durante la legislatura 2019-2023, apoyó la Ley Orgánica 3/2021 de regulación de la eutanasia, aprobada por el Congreso con 198 votos a favor y 142 en contra; ninguna fuerza de la actual coalición de izquierdas ha planteado revertirla.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "El pleno del Congreso aprueba definitivamente la Ley de la Eutanasia",
+        "url": "https://www.elespanol.com/espana/20210318/pleno-congreso-aprueba-definitivamente-ley-eutanasia/566943771_0.html",
+        "fecha": "2021-03-18",
+        "consultado": "2026-07-10"
+      }
+    },
+    "va-003": {
+      "valor": 1,
+      "justificacion": "Agrupaciones locales de IU (como IU Alcalá) han rechazado destinar dinero público a la tauromaquia y han reclamado el fin de las corridas, en línea con el impulso animalista que, junto a Podemos, ha incorporado con entusiasmo a su programa; no consta una campaña estatal unificada por una prohibición legal total en toda España.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Izquierda Unida Alcalá anuncia que «no dará ni un euro público» a tauromaquia y convertirá la plaza de toros en un gran recinto libre de tortura animal para conciertos y otros espectáculos",
+        "url": "https://www.tercerainformacion.es/articulo/actualidad/21/05/2023/izquierda-unida-alcala-anuncia-que-no-dara-ni-un-euro-publico-a-tauromaquia-y-convertira-la-plaza-de-toros-en-un-gran-recinto-libre-de-tortura-animal-para-conciertos-y-otros-espectaculos/",
+        "fecha": "2023-05-21",
+        "consultado": "2026-07-10"
+      }
+    },
+    "dem-033": {
+      "valor": 2,
+      "justificacion": "Sus estatutos federales definen a IU como una organización que persigue un Estado social y democrático de derecho republicano, laico, federal, plurinacional y solidario, con el modelo federal como horizonte constitucional explícito («Horizonte República»).",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "estatutos",
+        "titulo": "Estatutos de Izquierda Unida, aprobados en la XIII Asamblea Federal",
+        "url": "https://izquierdaunida.org/wp-content/uploads/2024/10/ESTATUTOS-APROBADOS-XIII-ASAMBLEA_ALL.pdf",
+        "fecha": "2024-05",
+        "consultado": "2026-07-10"
+      }
+    },
+    "ter-001": {
+      "valor": -2,
+      "justificacion": "Su modelo estatutario apunta a un Estado federal y plurinacional que amplía el autogobierno de los territorios; devolver competencias al Estado central sería contrario al sentido de su proyecto de «Horizonte República» federal.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "estatutos",
+        "titulo": "Estatutos de Izquierda Unida, aprobados en la XIII Asamblea Federal",
+        "url": "https://izquierdaunida.org/wp-content/uploads/2024/10/ESTATUTOS-APROBADOS-XIII-ASAMBLEA_ALL.pdf",
+        "fecha": "2024-05",
+        "consultado": "2026-07-10"
+      }
+    },
+    "ter-002": {
+      "valor": 1,
+      "justificacion": "Su entonces coordinador general, Alberto Garzón, rechazó la declaración unilateral de independencia catalana de 2017 por producirse «al margen» de media población catalana, y defendió trabajar por una reforma constitucional hacia una república federal y plurinacional que reconociera un derecho de autodeterminación pactado con el Estado, no una vía unilateral.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Garzón rechaza la independencia catalana y llama a trabajar por una República Federal",
+        "url": "https://www.publico.es/politica/garzon-rechaza-independencia-catalana-llama-republica-federal.html",
+        "fecha": "2017-10-27",
+        "consultado": "2026-07-10"
+      }
+    },
+    "ter-004": {
+      "valor": -2,
+      "justificacion": "IU, entonces integrada en el grupo parlamentario de Unidas Podemos, coenmendó junto a PSOE y ERC la «ley Celaá» (LOMLOE) para suprimir la garantía legal del castellano como lengua vehicular única en la enseñanza, rechazando así imponerlo por ley en todas las comunidades autónomas.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "La Comisión de Educación del Congreso aprueba eliminar el castellano como lengua vehicular en la «ley Celaá»",
+        "url": "https://confilegal.com/20201106-la-comision-de-educacion-del-congreso-aprueba-eliminar-el-castellano-como-lengua-vehicular-en-la-ley-celaa/",
+        "fecha": "2020-11-06",
+        "consultado": "2026-07-10"
+      }
+    },
+    "cat-003": {
+      "valor": 2,
+      "justificacion": "Su portavoz parlamentario, Enrique Santiago, valoró el acuerdo sobre la ley de amnistía como un avance que «sin duda» normalizaba la situación en Cataluña con un texto conforme a la Constitución, defendiendo la vía política y no penal para el conflicto catalán.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Enrique Santiago señala que el nuevo acuerdo en la ley de amnistía «avanza sin duda en normalizar la situación en Cataluña» con un texto «conforme a la Constitución y a la legislación europea»",
+        "url": "https://izquierdaunida.org/2024/03/07/enrique-santiago-senala-que-el-nuevo-acuerdo-en-la-ley-de-amnistia-avanza-sin-duda-en-normalizar-la-situacion-en-cataluna-con-un-texto-conforme-a-la-constitucion-y-a-la-legi/",
+        "fecha": "2024-03-07",
+        "consultado": "2026-07-10",
+        "cita": "Avanza sin duda en normalizar la situación en Cataluña"
+      }
+    },
+    "sd-004": {
+      "valor": 2,
+      "justificacion": "Sus estatutos federales definen expresamente el horizonte de IU como un Estado plurinacional dentro de una república federal, laica y solidaria: la plurinacionalidad forma parte de su autodefinición estatutaria, no solo de un programa coyuntural.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "estatutos",
+        "titulo": "Estatutos de Izquierda Unida, aprobados en la XIII Asamblea Federal",
+        "url": "https://izquierdaunida.org/wp-content/uploads/2024/10/ESTATUTOS-APROBADOS-XIII-ASAMBLEA_ALL.pdf",
+        "fecha": "2024-05",
+        "consultado": "2026-07-10"
+      }
+    },
+    "sd-006": {
+      "valor": -2,
+      "justificacion": "Su portavoz Enrique Santiago explicó en el Congreso que IU «no frustró» la renovación del Poder Judicial, «pero tampoco votamos a favor de un pacto PP-PSOE con importantes deficiencias», mostrando su rechazo a primar los grandes acuerdos con la derecha constitucionalista frente a la cooperación con las fuerzas plurinacionales.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Enrique Santiago explica en el Congreso que «no frustramos la renovación imprescindible del Poder Judicial, pero tampoco votamos a favor de un pacto PP-PSOE con importantes deficiencias»",
+        "url": "https://izquierdaunida.org/2024/07/04/enrique-santiago-explica-en-el-congreso-que-no-frustramos-la-renovacion-imprescindible-del-poder-judicial-pero-tampoco-votamos-a-favor-de-un-pacto-pp-psoe-con-importantes-deficiencias/",
+        "fecha": "2024-07-04",
+        "consultado": "2026-07-10",
+        "cita": "No frustramos la renovación imprescindible del Poder Judicial, pero tampoco votamos a favor de un pacto PP-PSOE con importantes deficiencias"
+      }
+    }
+  }
+}

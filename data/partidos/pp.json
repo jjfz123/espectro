@@ -480,6 +480,189 @@
         "consultado": "2026-07-10",
         "cita": "Feijóo asegura que quienes no defiendan el Estado de las autonomías «no quieren mucho a España»"
       }
+    },
+    "eco-008": {
+      "valor": 1,
+      "justificacion": "En noviembre de 2025 Feijóo anunció una proposición de ley para garantizar por ley la subida de pensiones según el IPC en 2026 incluso con Presupuestos prorrogados; un fact-check confirmó que el PP también votó a favor de la revalorización en 2025 tras separarla del decreto ómnibus. Acuerdo parcial: el PP votó en 2021 contra el mecanismo que vinculó por primera vez esa revalorización al IPC, y el ítem añade subir impuestos o cotizaciones para sostenerla, algo que el PP no respalda.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "FACT-CHECK: En 2025 el PP también apoyó la revalorización de las pensiones (Newtral)",
+        "url": "https://www.newtral.es/pp-revalorizacion-pensiones-minguez-factcheck/20260302/",
+        "fecha": "2026-03-02",
+        "consultado": "2026-07-10"
+      }
+    },
+    "eco-011": {
+      "valor": -1,
+      "justificacion": "El 10-09-2025 el Congreso tumbó la reducción de la jornada laboral máxima a 37,5 horas con los votos en contra de PP, Vox y Junts. El PP centró su rechazo en el procedimiento —una reforma sin el respaldo de la CEOE— más que en oponerse de fondo a jornadas más cortas, y reconoció después haberse equivocado con el bloqueo pese a defender, al menos nominalmente, la semana de cuatro días. Por eso -1 y no -2: desacuerdo con la vía, no rechazo cerrado del objetivo.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "El Congreso tumba la reducción de la jornada con los votos en contra de PP, Vox y Junts (The Objective)",
+        "url": "https://theobjective.com/espana/politica/2025-09-10/congreso-reduccion-jornada-laboral-pp-vox-junts/",
+        "fecha": "2025-09-10",
+        "consultado": "2026-07-10"
+      }
+    },
+    "eco-002": {
+      "valor": 1,
+      "justificacion": "El documento marco de febrero de 2026 para los pactos autonómicos del PP sitúa la sanidad pública como «uno de los pilares esenciales del bienestar compartido», centrado en plantillas, atención primaria y prevención, no en una tesis general de que la gestión privada mejora la eficiencia de lo público. Matiza el ítem: sus gobiernos sí usan de forma estructural conciertos y derivaciones sanitarias privadas (ver eco-013), pero el programa no defiende la privatización como principio general.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "El PP prioriza el refuerzo de la sanidad pública como eje de sus acuerdos autonómicos (Diariofarma)",
+        "url": "https://diariofarma.com/2026/02/24/el-pp-prioriza-el-refuerzo-de-la-sanidad-publica-como-eje-de-sus-acuerdos-autonomicos",
+        "fecha": "2026-02-24",
+        "consultado": "2026-07-10"
+      }
+    },
+    "eco-015": {
+      "valor": 2,
+      "justificacion": "La Ley 23/2013, aprobada por el Gobierno de Rajoy (PP), introdujo el Factor de Sostenibilidad y previó que desde 2027 los parámetros del sistema de pensiones se revisen cada cinco años según la evolución de la esperanza de vida. En 2025 Feijóo respaldó además el nuevo decreto de reforma de pensiones que incentiva alargar la vida laboral hasta los 72 años, alegando que el acuerdo previo entre patronal y sindicatos era «aval suficiente» para que el PP se posicionara a favor.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "Ley 23/2013, de 23 de diciembre, reguladora del Factor de Sostenibilidad y del Índice de Revalorización del Sistema de Pensiones de la Seguridad Social (BOE)",
+        "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2013-13617",
+        "fecha": "2013-12-23",
+        "consultado": "2026-07-10"
+      }
+    },
+    "eco-012": {
+      "valor": -2,
+      "justificacion": "Lejos de aceptar su eliminación gradual, el PP pide ampliar los conciertos educativos más allá de la enseñanza obligatoria: en Euskadi reclamó concertar también la etapa de 0 a 2 años ante las listas de espera en las «haurreskolak» (julio de 2024), y en 2025 su Comisión de Educación respaldó extender la concertación al Bachillerato en Aragón.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "El PP pide ampliar los conciertos educativos en Euskadi más allá de la enseñanza obligatoria (elDiario.es)",
+        "url": "https://www.eldiario.es/euskadi/pp-pide-ampliar-conciertos-educativos-euskadi-ensenanza-obligatoria_1_11490843.html",
+        "fecha": "2024-07-01",
+        "consultado": "2026-07-10"
+      }
+    },
+    "eco-003": {
+      "valor": -1,
+      "justificacion": "En las Cortes de Castilla y León (14-06-2023) el PP rechazó una iniciativa socialista para seguir subiendo el SMI hasta el 60% del salario medio, pero matizó explícitamente que «no están en contra de la subida del salario mínimo, sino de cómo se está haciendo», defendiendo en su lugar un «pacto de rentas». Es un desacuerdo condicionado al mecanismo y a quién asume el coste, no un rechazo de fondo a que el salario mínimo siga subiendo.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "PP y Vox rechazan la subida del salario mínimo en las Cortes (Leonoticias)",
+        "url": "https://www.leonoticias.com/castillayleon/pp-vox-rechazan-subida-salario-minimo-cortes-20230614140831-nt.html",
+        "fecha": "2023-06-14",
+        "consultado": "2026-07-10",
+        "cita": "no estamos en contra de la subida del salario mínimo, sino de cómo se está haciendo"
+      }
+    },
+    "dr-018": {
+      "valor": -1,
+      "justificacion": "En febrero de 2025 el PP votó junto a PSOE, Sumar, ERC, Junts, PNV, Bildu y Podemos a favor de renovar el Pacto de Estado contra la Violencia de Género en el Congreso; solo Vox votó en contra por considerarlo injusto para los hombres. El PP no acompañó a Vox en cuestionar el marco específico de violencia de género ni propuso sustituirlo por una ley general de violencia intrafamiliar, aunque en pactos autonómicos con Vox ha aceptado en ocasiones lenguaje próximo al de esa formación.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "Todos los partidos, salvo Vox, respaldan el Pacto de Estado contra la Violencia de Género (The Objective)",
+        "url": "https://theobjective.com/espana/politica/2025-02-17/partidos-pacto-estado-violencia-genero/",
+        "fecha": "2025-02-17",
+        "consultado": "2026-07-10"
+      }
+    },
+    "lib-017": {
+      "valor": -1,
+      "justificacion": "El PP recurrió sin éxito la ley de eutanasia ante el Tribunal Constitucional, pero en la antesala de su Congreso de julio de 2025 Feijóo no se comprometió a derogarla: dijo que pediría informes al Comité de Bioética una vez en el Gobierno y decidiría después, anticipando «ajustes» más que una derogación completa; su programa de 2023 se limitó a reforzar los cuidados paliativos. Es una posición más abierta que la de Vox, que sí propone derogarla.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Aborto, eutanasia, vientres de alquiler... el PP más conservador quiere fijar el rumbo moral a Feijóo en el congreso de julio (El Independiente)",
+        "url": "https://www.elindependiente.com/espana/2025/05/19/aborto-eutanasia-vientres-de-alquiler-el-pp-mas-conservador-quiere-fijar-el-rumbo-moral-a-feijoo-en-el-congreso-de-julio/",
+        "fecha": "2025-05-19",
+        "consultado": "2026-07-10"
+      }
+    },
+    "dr-005": {
+      "valor": -1,
+      "justificacion": "En julio de 2026 el Ayuntamiento de Sevilla, gobernado por el PP, valoró positivamente en términos urbanísticos el proyecto de una mezquita y centro cultural islámico en el Polígono Sur, mientras Vox —socio del PP en el Ayuntamiento y en la Junta de Andalucía— anunció que emprendería «todas las acciones judiciales, políticas y administrativas necesarias» para frenarlo. El choque evidenció que el PP no comparte el rechazo frontal de Vox a nuevas mezquitas.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "El proyecto de una mezquita en Sevilla, primera bronca del futuro vicepresidente andaluz de Vox al PP de Moreno (elDiario.es)",
+        "url": "https://www.eldiario.es/sevilla/proyecto-mezquita-sevilla-primera-bronca-futuro-vicepresidente-andaluz-vox-pp-moreno_1_13366084.html",
+        "fecha": "2026-07-09",
+        "consultado": "2026-07-10"
+      }
+    },
+    "va-003": {
+      "valor": -2,
+      "justificacion": "El Gobierno de Rajoy (PP) aprobó la Ley 18/2013, de 12 de noviembre, que declara la tauromaquia patrimonio cultural español precisamente para blindarla frente a prohibiciones autonómicas (como la catalana de 2010); lejos de apoyar una prohibición estatal, el PP la excluyó por ley del ámbito que las comunidades autónomas pueden prohibir.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "Ley 18/2013, de 12 de noviembre, para la regulación de la Tauromaquia como patrimonio cultural (BOE)",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2013-11837",
+        "fecha": "2013-11-12",
+        "consultado": "2026-07-10"
+      }
+    },
+    "der-014": {
+      "valor": 2,
+      "justificacion": "En un acto ante empresarios vascos en Bilbao (07-07-2026), Feijóo afirmó que quienes no estén dispuestos a defender el Estado de las autonomías, ni los estatutos, «ni las foralidades de Euskadi y Navarra, no quieren mucho a España», y sostuvo que defender la unidad del Estado es compatible con proteger el autogobierno vasco y navarro, «amparado por la Constitución y por la disposición adicional que reconoce sus derechos históricos».",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Feijóo asegura que quienes no defiendan el Estado de las autonomías «no quieren mucho a España» (El Debate)",
+        "url": "https://www.eldebate.com/espana/20260707/feijoo-asegura-quienes-no-defiendan-estado-autonomias-no-quieren-mucho-espana_437075.html",
+        "fecha": "2026-07-07",
+        "consultado": "2026-07-10",
+        "cita": "ni las foralidades de Euskadi y Navarra... no quieren mucho a España"
+      }
+    },
+    "dr-021": {
+      "valor": -2,
+      "justificacion": "En el mismo acto de julio de 2026, Feijóo recordó que buena parte de su carrera la pasó liderando la Xunta de Galicia y rechazó explícitamente las acusaciones de mantener una visión centralista del país, defendiendo el Estado de las autonomías frente a quienes «usan las instituciones para dividir, separar o debilitar» el proyecto común. Es la posición contraria a sustituir las comunidades autónomas por un Estado unitario con una sola administración.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Feijóo dice que quienes no estén dispuestos a defender el Estado de las autonomías «no quieren mucho a España» (Lanza Digital)",
+        "url": "https://www.lanzadigital.com/nacional/feijoo-dice-que-quienes-no-esten-dispuestos-a-defender-el-estado-de-las-autonomias-no-quieren-mucho-a-espana/",
+        "fecha": "2026-07-07",
+        "consultado": "2026-07-10"
+      }
+    },
+    "sd-005": {
+      "valor": 2,
+      "justificacion": "Desde el acuerdo PSC-ERC de 2024, Feijóo rechaza extender el modelo de concierto o cupo a Cataluña o a cualquier otra comunidad, defendiendo negociar la financiación de forma multilateral en el CPFF; acepta el concierto vasco y el convenio navarro como hecho foral histórico, pero no como modelo generalizable a otros territorios.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Feijóo se planta ante la burguesía catalana: rechaza el cupo y avisa que no les va «a pedir favores ni a regalarlos» (El Debate)",
+        "url": "https://www.eldebate.com/espana/cataluna/20260603/feijoo-planta-ante-burguesia-catalana-rechaza-cupo-avisa-no-les-pedir-favores-regalarlos_424489.html",
+        "fecha": "2026-06-03",
+        "consultado": "2026-07-10"
+      }
+    },
+    "sd-006": {
+      "valor": 1,
+      "justificacion": "El PP se define de forma reiterada como «la alternativa constitucional al PSOE, la alternativa de gestión al PNV y la alternativa moral a Bildu» (16.º Congreso del PP Vasco, 04-11-2023), autodefinición que mantiene en 2026 frente a la dependencia del PSOE de partidos independentistas para gobernar. No es rechazo absoluto al diálogo puntual con el PNV: Feijóo se abrió a pactar con PNV y Junts una moción de censura instrumental; por eso +1 y no +2.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Feijóo: «El PP es la alternativa constitucional al PSOE, la alternativa de gestión al PNV y la alternativa moral a Bildu» (pp.es)",
+        "url": "https://www.pp.es/actualidad-noticia/feijoo-pp-es-alternativa-constitucional-al-psoe-alternativa-gestion-al-pnv",
+        "fecha": "2023-11-04",
+        "consultado": "2026-07-10"
+      }
+    },
+    "cat-001": {
+      "valor": -2,
+      "justificacion": "El programa del 23J garantiza que, en las comunidades autónomas con más de una lengua oficial —incluida Cataluña—, el castellano tenga también la consideración de lengua vehicular; el PP recurrió además la LOMLOE por eliminar esa garantía. No acepta por tanto que la escuela catalana quede exenta de un mínimo de horas lectivas en castellano.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "El español como lengua vehicular y los referéndums, delito: el programa electoral del PP (Ara, citando el programa del 23J)",
+        "url": "https://es.ara.cat/politica/elecciones-generales/espanol-lengua-vehicular-referendums-delito-programa-electoral-pp_1_4754849.html",
+        "fecha": "2023-07",
+        "consultado": "2026-07-10",
+        "cita": "Garantizaremos que, en las comunidades autónomas con más de una lengua oficial, ambas tendrán la consideración de vehiculares de acuerdo con el patrón de equilibrio lingüístico"
+      }
     }
   }
 }

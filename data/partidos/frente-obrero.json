@@ -394,6 +394,81 @@
         "url": "https://e-noticies.cat/es/politica/frente-obrero-roberto-vaquero-crece-cataluna",
         "consultado": "2026-07-10"
       }
+    },
+    "soc-001": {
+      "valor": -1,
+      "justificacion": "Su programa no pide expresamente derogar el matrimonio igualitario ya vigente, pero encuadra «el feminismo hegemónico y el lobby LGTBI» como un fenómeno sistémico que no tiene nada de progreso, que adoctrina en las escuelas y «pervierte» la sociedad, y reclama derogar las leyes basadas en discriminación positiva. Esa hostilidad de bloque a la agenda de derechos LGTB, sin un ataque explícito y localizado al matrimonio como derecho adquirido, matiza el desacuerdo por debajo del máximo.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Nuestro Programa — Frente Obrero («Recuperemos España»)",
+        "url": "https://frenteobrero.es/nuestro-programa-2/",
+        "consultado": "2026-07-10",
+        "cita": "El feminismo hegemónico y el lobby LGTBI son algo sistémico que no tiene nada de progreso, adoctrinan a los niños en las escuelas y pervierten nuestra sociedad."
+      }
+    },
+    "fem-010": {
+      "valor": -2,
+      "justificacion": "Su programa pide expresamente la derogación parcial o total de todas las leyes basadas en la discriminación positiva y la supresión de los cupos, presentando la paridad por cuota como ilegítima; la cuota de mujeres en consejos de administración es exactamente ese punto programático.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Nuestro Programa — Frente Obrero («Recuperemos España»)",
+        "url": "https://frenteobrero.es/nuestro-programa-2/",
+        "consultado": "2026-07-10",
+        "cita": "Derogación parcial o total de todas las leyes basadas en la discriminación positiva [...] Supresión de los cupos."
+      }
+    },
+    "soc-002": {
+      "valor": 2,
+      "justificacion": "Su presidente cuestiona la lógica de regularizar a quien ha entrado de forma irregular y defiende que lo correcto es que regrese a su país de origen y siga cauces legales; en noviembre de 2025 acusó incluso a VOX de ocultar «la masividad» del modelo migratorio y de quedarse corto centrándose solo en la inmigración ilegal, mostrando que para él la devolución no es una medida más entre otras sino la respuesta prioritaria frente a la irregularidad.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Roberto Vaquero acusa a Vox de ocultar «la masividad» del modelo migratorio y de proponer medidas insuficientes (El Diario de Madrid)",
+        "url": "https://www.eldiariodemadrid.es/articulo/politica/vaquero-acusa-vox-masividad-modelo-migratorio/20251118222003114413.html",
+        "fecha": "2025-11-18",
+        "consultado": "2026-07-10"
+      }
+    },
+    "izq-042": {
+      "valor": 2,
+      "justificacion": "Posición revelada: en 2020 el propio Frente Obrero okupó la sede de Unicaja en Valencia como centro social «Esperanza Obrera», defendiendo la «recuperación» de un espacio bancario abandonado; desalojados, okuparon después otro edificio en desuso y criticaron la denuncia que forzó su desalojo. Es la acción que describe el ítem, y una posición contraestereotipo frente a sus posiciones sobre género e inmigración.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "El Frente Obrero okupa la vieja sede de Unicaja en Valencia y monta un banco de alimentos con albergue (El Español)",
+        "url": "https://www.elespanol.com/espana/comunidad-valenciana/20201214/frente-obrero-okupa-unicaja-valencia-alimentos-albergue/543446401_0.html",
+        "fecha": "2020-12-14",
+        "consultado": "2026-07-10",
+        "cita": "A nosotros nos parece indigno que cualquier familia tenga que dormir aquí. No queremos suplantar el papel de las instituciones, sino que la gente tenga un trabajo digno y se gane la vida y no tenga que recurrir a esto bajo ningún concepto."
+      }
+    },
+    "eco-002": {
+      "valor": -2,
+      "justificacion": "Frente a la confianza en que la gestión privada mejora la eficiencia, su posición es la nacionalización de los sectores estratégicos, con la sanidad como ejemplo explícito, para librarla de lo que llaman «chiringuitos» al servicio de entidades privadas que lucran con la salud de la gente.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "redes",
+        "titulo": "Publicación de Frente Obrero España en X sobre la nacionalización de los sectores estratégicos y la sanidad pública",
+        "url": "https://x.com/frenteobreroesp/status/1364884170506436610",
+        "fecha": "2021-02",
+        "consultado": "2026-07-10",
+        "cita": "Nacionalización de los sectores estratégicos del país para ponerlos al servicio del pueblo para tener una sanidad pública digna contra los chiringuitos que sirven a entidades privadas que juegan con nuestra salud."
+      }
+    },
+    "eco-013": {
+      "valor": -2,
+      "justificacion": "La misma publicación que fija su posición sobre nacionalizar la sanidad rechaza explícitamente que sirva a «chiringuitos» privados, lo contrario de institucionalizar la derivación de pacientes a la privada cuando se alargan las listas de espera.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "redes",
+        "titulo": "Publicación de Frente Obrero España en X sobre la nacionalización de los sectores estratégicos y la sanidad pública",
+        "url": "https://x.com/frenteobreroesp/status/1364884170506436610",
+        "fecha": "2021-02",
+        "consultado": "2026-07-10",
+        "cita": "Nacionalización de los sectores estratégicos del país para ponerlos al servicio del pueblo para tener una sanidad pública digna contra los chiringuitos que sirven a entidades privadas que juegan con nuestra salud."
+      }
     }
   }
 }

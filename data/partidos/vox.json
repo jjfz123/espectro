@@ -126,6 +126,19 @@
             "consultado": "2026-07-10",
             "cita": "A los okupas se les acabó el chollo, Andalucía impulsará desahucios exprés"
           }
+        },
+        "eco-010": {
+          "valor": -1,
+          "justificacion": "En febrero de 2026, ante la crítica del economista Pepe García Domínguez, el grupo parlamentario de VOX negó públicamente proponer «en ningún caso» reducir la indemnización por despido: un giro discursivo de moderación frente al propio programa económico de 2023, que unifica y abarata esa indemnización a 20 días por año trabajado.",
+          "calidadEvidencia": "alta",
+          "fuente": {
+            "tipo": "declaracion",
+            "titulo": "Vox responde a Pepe García Domínguez: «En ningún caso propone eliminar el SMI o reducir la indemnización por despido» (Libre Mercado)",
+            "url": "https://www.libertaddigital.com/libremercado/2026-02-18/vox-responde-a-pepe-garcia-dominguez-en-ningun-caso-propone-eliminar-el-smi-o-reducir-la-indemnizacion-por-despido-7361567/",
+            "fecha": "2026-02-18",
+            "consultado": "2026-07-10",
+            "cita": "En ningún caso propone eliminar el SMI o reducir la indemnización por despido"
+          }
         }
       }
     }
@@ -590,6 +603,282 @@
         "fecha": "2024-02-09",
         "consultado": "2026-07-10",
         "cita": "VOX exige que la subida del SMI vaya aparejada de bonificaciones en las cotizaciones a la seguridad social para las empresas que contraten de manera indefinida"
+      }
+    },
+    "eco-002": {
+      "valor": 2,
+      "justificacion": "Su programa refuerza los conciertos con la sanidad privada y reclama una gestión eficiente en la derivación de pacientes a centros privados cuando se alargan las listas de espera, además de plantear un «descuelgue» voluntario del sistema público con deducción fiscal para quien opte por sanidad privada.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "VOX reclama una gestión eficiente y el cumplimiento estricto de la ley en la derivación de servicios sanitarios a la sanidad privada",
+        "url": "https://www.voxespana.es/noticias/vox-reclama-una-gestion-eficiente-y-el-cumplimiento-estricto-de-la-ley-en-la-derivacion-de-servicios-sanitarios-a-la-sanidad-privada-20250310?provincia=murcia",
+        "fecha": "2025-03-10",
+        "consultado": "2026-07-10"
+      }
+    },
+    "eco-006": {
+      "valor": -1,
+      "justificacion": "Su programa de vivienda de 2025 propone multiplicar el presupuesto público de vivienda (del 1,12% actual al entorno del 13% de los años 60, cifra propia) para «inundar» España de vivienda protegida: contradice el recorte indiscriminado del Estado. Pero el modelo no es construcción y titularidad pública para alquiler, sino colaboración público-privada orientada a la propiedad, con criterio de arraigo, y rechaza los topes al alquiler.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "El plan económico de Vox: recortes en lo público, priorizar españoles en vivienda y auditar y deportar inmigrantes (Demócrata)",
+        "url": "https://www.democrata.es/politica/plan-economico-vox-recortes-publico-priorizar-espanoles-vivienda-auditar-deportar-inmigrantes/",
+        "fecha": "2025-06-29",
+        "consultado": "2026-07-10"
+      }
+    },
+    "eco-008": {
+      "valor": -1,
+      "justificacion": "En febrero de 2026 VOX fue el único grupo que votó en contra de la revalorización legal de las pensiones (2,7% general), por la situación financiera «preocupante» del sistema a medio plazo; su programa no defiende la subida por ley a cualquier coste fiscal, sino un sistema mixto de capitalización (mayores de 45 años seguirían en el reparto, sin tocar pensiones ya causadas), pero rechaza el mandato de subida por IPC «aunque haya que aumentar impuestos o cotizaciones».",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "El Congreso aprueba la revalorización de las pensiones con Vox como el único voto en contra",
+        "url": "https://www.newtral.es/revalorizacion-pensiones-congreso/20260226/",
+        "fecha": "2026-02-26",
+        "consultado": "2026-07-10"
+      }
+    },
+    "eco-010": {
+      "valor": 2,
+      "justificacion": "Su programa económico de 2023 propone unificar la indemnización por despido de todos los contratos indefinidos a 20 días por año trabajado con un máximo de 12 meses (frente a los 33 días/24 meses vigentes en el despido improcedente), abaratando expresamente ese coste; quienes ya estuvieran contratados conservarían lo acumulado con la normativa anterior.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "El programa económico de Vox: ajustar el gasto 24.000 millones y abaratar el despido (Público)",
+        "url": "https://www.publico.es/politica/programa-economico-vox-ajustar-gasto-24-000-millones-abaratar-despido.html",
+        "fecha": "2023-07",
+        "consultado": "2026-07-10"
+      }
+    },
+    "der-004": {
+      "valor": 1,
+      "justificacion": "Su programa de 2023 plantea reforzar los controles fronterizos, aranceles a mercancías de Marruecos y de terceros países como China para evitar la competencia desleal con la producción española, y prioridad a empresas que tributen en España en la contratación pública. Pero VOX rechaza la etiqueta de «proteccionismo» (la reformula como «soberanía productiva») y en 2025 fue tibio ante los aranceles de Trump al campo español, lo que matiza un apoyo no incondicional.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "El programa económico de Vox y su lío con el liberalismo económico: bajadas de impuestos pero proteccionista frente a la globalización (El Blog Salmón)",
+        "url": "https://www.elblogsalmon.com/entorno/vox-auge-extrana-combinacion-bajadas-impuestos-proteccionismo-que-suma-votos",
+        "fecha": "2023",
+        "consultado": "2026-07-10"
+      }
+    },
+    "izq-005": {
+      "valor": -2,
+      "justificacion": "Su programa de 2023 se articula en torno a la reducción del tamaño del Estado, la liberalización y la bajada de impuestos, con el mercado y la libre empresa como motor de la economía; su «plan nacional de soberanía estratégica» para explotar recursos naturales busca garantizar el acceso a esos recursos, no sustituir el mercado por planificación pública en sectores estratégicos.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Bajada radical de impuestos, drástica reducción del gasto político ineficaz, simplificación de trámites… así es el programa económico de VOX para el 23J (voxespana.es)",
+        "url": "https://www.voxespana.es/actualidad/bajada-radical-de-impuestos-drastica-reduccion-del-gasto-politico-ineficaz-simplificacion-de-tramites-asi-es-el-programa-economico-de-vox-para-el-23j-20230707",
+        "fecha": "2023-07-07",
+        "consultado": "2026-07-10"
+      }
+    },
+    "sd-011": {
+      "valor": -2,
+      "justificacion": "VOX ha rechazado consistentemente las propuestas de empresa pública de energía: votó en contra de la proposición de ley de Unidas Podemos en el Congreso en 2022 junto a PSOE, PP, Cs y PNV, y ha repetido el rechazo en asambleas autonómicas cuando otros grupos lo han planteado.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "La propuesta de creación de una empresa pública de energía, rechazada por PSOE, PP, Cs, Vox y PNV",
+        "url": "https://www.tercerainformacion.es/articulo/actualidad/24/02/2022/la-propuesta-de-creacion-de-una-empresa-publica-de-energia-rechazada-por-psoe-pp-cs-vox-y-pnv/",
+        "fecha": "2022-02-24",
+        "consultado": "2026-07-10"
+      }
+    },
+    "sd-012": {
+      "valor": -2,
+      "justificacion": "VOX votó en el Senado en 2025 en contra de que la red de distribución eléctrica sea de titularidad pública, en línea con su rechazo reiterado a cualquier fórmula de nacionalización del sector eléctrico.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "PSOE, Partido Popular y VOX votan en el Senado en contra de que la red de distribución sea de titularidad pública",
+        "url": "https://www.energias-renovables.com/panorama/psoe-pp-y-vox-votan-en-contra-20250619",
+        "fecha": "2025-06-19",
+        "consultado": "2026-07-10"
+      }
+    },
+    "dr-005": {
+      "valor": 1,
+      "justificacion": "En julio de 2026 VOX anunció que estudiaría todas las vías políticas, administrativas y judiciales para paralizar una mezquita en el Polígono Sur de Sevilla, vinculándolo a su rechazo a la «islamización» de los barrios; es una actuación concreta contra un proyecto determinado, no todavía una propuesta legislativa de prohibición general en toda España.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Vox quiere frenar la mezquita del Polígono Sur de Sevilla: «Estamos en contra de la islamización de barrios»",
+        "url": "https://www.elmira.es/articulo/sevilla/vox-quiere-frenar-mezquita-poligono-sur-sevilla-estamos-islamizacion-barrios/20260708133009566784.html",
+        "fecha": "2026-07-08",
+        "consultado": "2026-07-10"
+      }
+    },
+    "dr-007": {
+      "valor": 1,
+      "justificacion": "Su programa de 2023 exige el conocimiento y consentimiento previo de las familias antes de que sus hijos reciban cualquier contenido afectivo-sexual o ideológico en el aula («pin parental»); es un modelo de veto o consentimiento paterno, no necesariamente la eliminación de esos contenidos para todo el alumnado.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral de VOX para las elecciones generales de 2023",
+        "url": "https://www.voxespana.es/wp-content/uploads/2023/07/Programa-VOX-2023-con-menos-peso.pdf",
+        "fecha": "2023-07",
+        "consultado": "2026-07-09"
+      }
+    },
+    "dr-015": {
+      "valor": 1,
+      "justificacion": "VOX no fija una posición oficial sobre Franco («Vox no tiene una posición sobre Franco», Abascal, 2019), pero su secretario general Ortega Smith ha reconocido públicamente aspectos que valora como positivos del franquismo, como «la Seguridad Social o las obras públicas, de las que aún nos beneficiamos»; es una posición mixta, no una reivindicación oficial ni un rechazo.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "El discurso y la posición de Vox sobre el franquismo (Maldita.es)",
+        "url": "https://maldita.es/index.php/malditahemeroteca/20220714/el-discurso-y-la-posicion-de-vox-sobre-el-franquismo/",
+        "fecha": "2022-07-14",
+        "consultado": "2026-07-10"
+      }
+    },
+    "fem-001": {
+      "valor": -2,
+      "justificacion": "VOX ha llevado a comisión una iniciativa para derogar la ley trans (Ley 4/2023) y pide al PP su apoyo para derogar también la legislación trans autonómica, rechazando el cambio registral de sexo por sola voluntad sin informes médicos o psicológicos.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "VOX lleva a comisión una iniciativa para derogar la ley trans y pide al PP su apoyo para derogar la legislación trans en las autonomías",
+        "url": "https://www.voxespana.es/noticias/vox-lleva-a-comision-una-iniciativa-para-derogar-la-ley-trans-y-pide-al-pp-su-apoyo-para-derogar-la-legislacion-trans-en-las-autonomias-20251006",
+        "fecha": "2025-10-06",
+        "consultado": "2026-07-10"
+      }
+    },
+    "va-002": {
+      "valor": 2,
+      "justificacion": "VOX defiende la caza regulada como herramienta esencial de gestión cinegética y control de poblaciones frente al «ecologismo radical», y ha reafirmado en el Congreso su compromiso con la caza social y con una ley de caza única para toda España.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Vox reafirma en el Congreso su compromiso con la caza social",
+        "url": "https://www.miciudadreal.es/2026/06/10/vox-reafirma-en-el-congreso-su-compromiso-con-la-caza-social/",
+        "fecha": "2026-06-10",
+        "consultado": "2026-07-10"
+      }
+    },
+    "soc-005": {
+      "valor": -2,
+      "justificacion": "En febrero de 2026 VOX rechazó frontalmente la regularización masiva y advirtió de que «la inmigración masiva sobrecarga de manera terminal los servicios públicos esenciales», un marco que niega que la llegada de inmigrantes sea necesaria para el futuro económico del país.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "REGULARIZACIÓN MASIVA | Rechazo frontal de VOX al plan de sustitución demográfica del Gobierno",
+        "url": "https://www.voxespana.es/grupo_parlamentario/actividad-parlamentaria/regularizacion-masiva-rechazo-frontal-de-vox-al-plan-de-sustitucion-demografica-del-gobierno-y-una-advertencia-la-inmigracion-masiva-sobrecarga-de-manera-terminal-los-servicios-publicos-esencial-20260203",
+        "fecha": "2026-02-03",
+        "consultado": "2026-07-10"
+      }
+    },
+    "izq-013": {
+      "valor": 2,
+      "justificacion": "En una iniciativa presentada en la Comisión de Trabajo en diciembre de 2025, VOX sostiene que la llegada de un número «altísimo» de personas dispuestas a empleos de baja cualificación genera una presión a la baja «muy agresiva» sobre las condiciones laborales y explica en buena medida el estancamiento salarial, y reclama frenar la inmigración masiva también por esa razón económica.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Vox culpa a la inmigración del estancamiento de los salarios y pide cesar la llegada «masiva» de extranjeros (Forbes España)",
+        "url": "https://forbes.es/economia/841921/vox-culpa-a-la-inmigracion-del-estancamiento-de-los-salarios-y-pide-cesar-la-llegada-masiva-de-extranjeros/",
+        "fecha": "2025-12-08",
+        "consultado": "2026-07-10"
+      }
+    },
+    "der-014": {
+      "valor": -2,
+      "justificacion": "La medida n.º 10 de las «100 medidas urgentes» de VOX defiende la «supresión del Concierto Económico Vasco y el Convenio Navarro y la incorporación de ambas regiones y sus diputaciones forales al Régimen Común»; ya en 2019 el análisis periodístico lo señalaba como el único partido con representación claramente contrario al autogobierno foral.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "100 medidas urgentes de VOX para España (medida n.º 10)",
+        "url": "https://www.voxespana.es/wp-content/uploads/2018/10/VOX-100-medidas-corregidas.pdf",
+        "fecha": "2018-10",
+        "consultado": "2026-07-10"
+      }
+    },
+    "ter-003": {
+      "valor": -2,
+      "justificacion": "VOX no solo se opone a extender el concierto vasco a otras comunidades: su programa plantea directamente suprimirlo junto con el convenio navarro e incorporar ambos territorios al régimen común de financiación, la posición contraria más radical posible al ítem.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "100 medidas urgentes de VOX para España (medida n.º 10)",
+        "url": "https://www.voxespana.es/wp-content/uploads/2018/10/VOX-100-medidas-corregidas.pdf",
+        "fecha": "2018-10",
+        "consultado": "2026-07-10"
+      }
+    },
+    "sd-005": {
+      "valor": 2,
+      "justificacion": "Coherente con su propuesta de suprimir el propio concierto vasco y el convenio navarro e integrar ambos territorios en el régimen común, VOX respalda con más fuerza aún la idea de que esa financiación singular no se extienda a otras comunidades.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "100 medidas urgentes de VOX para España (medida n.º 10)",
+        "url": "https://www.voxespana.es/wp-content/uploads/2018/10/VOX-100-medidas-corregidas.pdf",
+        "fecha": "2018-10",
+        "consultado": "2026-07-10"
+      }
+    },
+    "nac-008": {
+      "valor": -2,
+      "justificacion": "VOX rechaza que exista siquiera el concierto vasco o el convenio navarro actuales, que propone suprimir e incorporar al régimen común; a fortiori se opone a que cualquier otra comunidad pueda pactar una hacienda propia de ese tipo.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "100 medidas urgentes de VOX para España (medida n.º 10)",
+        "url": "https://www.voxespana.es/wp-content/uploads/2018/10/VOX-100-medidas-corregidas.pdf",
+        "fecha": "2018-10",
+        "consultado": "2026-07-10"
+      }
+    },
+    "eus-002": {
+      "valor": -2,
+      "justificacion": "VOX fue el único grupo que votó en contra en el Senado de la tramitación del nuevo concierto y cupo vasco y del convenio navarro en 2023, y sus enmiendas califican el sistema de «privilegio», «agravio» o «fraude»; su posición es justo la contraria a blindarlo frente a cualquier recorte o armonización estatal.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "El Senado acuerda la tramitación «exprés» del cupo vasco y el Convenio navarro",
+        "url": "https://www.deia.eus/politica/2023/03/08/senado-acuerda-tramitacion-expres-cupo-6542643.html",
+        "fecha": "2023-03-08",
+        "consultado": "2026-07-10"
+      }
+    },
+    "ter-004": {
+      "valor": 2,
+      "justificacion": "El Congreso aprobó en 2024 una iniciativa no de ley de VOX para garantizar el uso del español como lengua vehicular común en todo el territorio nacional, denunciando que buena parte de la población de comunidades bilingües no puede escolarizar a sus hijos en la lengua oficial del Estado.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "Aprobada la iniciativa de VOX para que se garantice el uso del español en todo el territorio nacional",
+        "url": "https://www.voxespana.es/grupo_parlamentario/actividad-parlamentaria/aprobada-la-iniciativa-de-vox-para-que-se-garantice-el-uso-del-espanol-en-todo-el-territorio-nacional-20240409",
+        "fecha": "2024-04-09",
+        "consultado": "2026-07-10"
+      }
+    },
+    "ter-005": {
+      "valor": 2,
+      "justificacion": "VOX defiende el cumplimiento estricto de la Ley 39/1981, que obliga a que la bandera de España ondee en el exterior y ocupe el lugar preferente en todos los edificios de las administraciones públicas, y ha fiscalizado su incumplimiento en centros educativos y edificios oficiales.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "VOX defiende el cumplimiento de la ley y las banderas oficiales, primando la de España, en los edificios públicos",
+        "url": "https://www.voxespana.es/noticias/vox-defiende-el-cumplimiento-de-la-ley-y-las-banderas-oficiales-primando-la-de-espana-en-los-edificios-publicos-20250626?provincia=santa-cruz-de-tenerife",
+        "fecha": "2025-06-26",
+        "consultado": "2026-07-10"
+      }
+    },
+    "lib-019": {
+      "valor": 2,
+      "justificacion": "Coherente con la iniciativa aprobada en el Congreso en 2024 sobre el uso del español como lengua común, VOX respalda que la ley garantice el castellano como lengua vehicular en la escuela en toda España, junto a las lenguas cooficiales.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "Aprobada la iniciativa de VOX para que se garantice el uso del español en todo el territorio nacional",
+        "url": "https://www.voxespana.es/grupo_parlamentario/actividad-parlamentaria/aprobada-la-iniciativa-de-vox-para-que-se-garantice-el-uso-del-espanol-en-todo-el-territorio-nacional-20240409",
+        "fecha": "2024-04-09",
+        "consultado": "2026-07-10"
       }
     }
   }

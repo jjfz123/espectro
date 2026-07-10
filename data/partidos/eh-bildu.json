@@ -329,6 +329,292 @@
         "consultado": "2026-07-10",
         "cita": "PSOE, PP y Vox tumban en el Congreso la primera ley para despenalizar todos los usos del cannabis"
       }
+    },
+    "eco-012": {
+      "valor": -1,
+      "justificacion": "En 2022 pactó con el Gobierno Vasco (PNV) la renovación al 100% de la financiación de la concertada, mayoritariamente ikastolas —vehículo histórico de la escolarización en euskera—, y en Navarra se sumó a Geroa Bai y UPN para exigir que no se cerraran unidades en ikastolas. Matiz: no defiende la concertada en general (critica blindar modelos que no euskaldunizan), por lo que su rechazo a «eliminar gradualmente» los conciertos es parcial, no pleno.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "El Gobierno vasco y EH Bildu acuerdan la «renovación» de la financiación de la concertada y ahondan en la sintonía educativa (elDiario.es)",
+        "url": "https://www.eldiario.es/euskadi/gobierno-vasco-eh-bildu-acuerdan-renovacion-financiacion-concertada-ahondan-sintonia-educativa_1_8734094.html",
+        "fecha": "2022-02-10",
+        "consultado": "2026-07-10"
+      }
+    },
+    "dr-001": {
+      "valor": 0,
+      "justificacion": "Su demanda concreta es recuperar el control público y democrático de Kutxabank —banco de origen vasco cuyas accionistas son fundaciones bancarias, no el Estado— a escala vasca, no que el Estado español nacionalice la banca en general; Otxandiano defendió el «control público de Kutxabank» y planteó nacionalizar su filial Cajasur si EH Bildu gobierna en Euskadi. El desajuste de escala y actor no permite codificar acuerdo ni desacuerdo con el ítem tal como está formulado.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Bildu nacionalizará Cajasur si gana las elecciones vascas para las que es el favorito (Andalucía Información)",
+        "url": "https://www.andaluciainformacion.es/articulo/cordoba/bildu-nacionalizara-cajasur-si-gana-las-elecciones-vascas-para-las-que-es-el-favorito/202404111122512629708.html",
+        "fecha": "2024-04-11",
+        "consultado": "2026-07-10"
+      }
+    },
+    "va-012": {
+      "valor": 2,
+      "justificacion": "Como oposición municipal en Donostia (gobernada por el PNV), EH Bildu exige la caducidad de licencias para reducir progresivamente los pisos turísticos, ampliar las zonas donde se limitan y una moratoria de nuevos hoteles, denunciando que la ciudad pasó de 9.100 a 19.828 plazas turísticas entre 2016 y 2024. El PGOU de enero de 2026 que restringe nuevos alojamientos turísticos salió adelante con el apoyo de todos los grupos, incluido EH Bildu.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "EH Bildu denuncia al Gobierno de Donostia por permitir que se implanten pisos turísticos (Naiz)",
+        "url": "https://www.naiz.eus/en/info/noticia/20251114/eh-bildu-denuncia-al-gobierno-de-donostia-por-permitir-que-se-implanten-pisos-turisticos",
+        "fecha": "2025-11-14",
+        "consultado": "2026-07-10"
+      }
+    },
+    "eco-002": {
+      "valor": -2,
+      "justificacion": "Su programa sanitario declara el objetivo de «acabar con la privatización» y revertir los servicios de Osakidetza externalizados en los últimos años (atención domiciliaria, urgencias, transporte sanitario programado, limpieza, equipos biomédicos), rechazando que la gestión privada mejore la eficiencia del servicio público.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "21-A: Bildu manda un mensaje claro sobre su plan sanitario: «Acabar con la privatización» (Diariofarma)",
+        "url": "https://diariofarma.com/2024/04/04/21-a-bildu-manda-un-mensaje-claro-sobre-su-plan-sanitario-acabar-con-la-privatizacion",
+        "fecha": "2024-04-04",
+        "consultado": "2026-07-10"
+      }
+    },
+    "eco-013": {
+      "valor": -2,
+      "justificacion": "Ante la decisión de Osakidetza de derivar a la sanidad privada a pacientes en listas de espera, su parlamentaria Rebeka Ubera denunció que la medida «privatiza en la práctica un servicio que ha de ser público» y sirve para «aumentar el negocio de las clínicas privadas»; su alternativa es reforzar la red pública, no derivar a la privada.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Osakidetza decide derivar a la red privada pacientes en listas de espera ante las críticas de Bildu (Crónica Vasca)",
+        "url": "https://cronicavasca.elespanol.com/politica/20230921/bildu-denuncia-la-decision-de-osakidetza-paciente/796170545_0.html",
+        "fecha": "2023-09-21",
+        "consultado": "2026-07-10",
+        "cita": "privatiza en la práctica un servicio que ha de ser público"
+      }
+    },
+    "eco-015": {
+      "valor": -2,
+      "justificacion": "Reclama subir de inmediato las pensiones mínimas a 1.080 euros y rechaza cualquier incremento de la edad de jubilación; ante la reforma que incentiva prolongar voluntariamente la vida laboral hasta los 72 años, su portavoz de pensiones advirtió que «empuja a quienes tienen pensiones más bajas a alargar su jubilación para complementarla». Es una reforma sobre prolongación voluntaria, no sobre la edad legal automática, pero la posición de fondo (no tocarla) es consistente con el ítem.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "El Gobierno y el PP sacan adelante la reforma de las pensiones para incentivar el trabajo hasta los 72 años (El Salto)",
+        "url": "https://www.elsaltodiario.com/pensiones/gobierno-pp-sacaran-adelante-una-reforma-incentivar-trabajo-72-anos",
+        "fecha": "2025-01-23",
+        "consultado": "2026-07-10"
+      }
+    },
+    "eco-010": {
+      "valor": -2,
+      "justificacion": "Llevó al Congreso junto a ERC y BNG una proposición para recuperar la indemnización de 45 días por año trabajado en los despidos improcedentes (frente a los 33 días actuales), es decir, para encarecer el despido en lugar de abaratarlo; fue rechazada.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "ERC, Bildu y BNG llevan al Congreso su reforma laboral para recuperar la indemnización de 45 días por despido (Forbes España)",
+        "url": "https://forbes.es/ultima-hora/246547/erc-bildu-y-bng-llevan-al-congreso-su-reforma-laboral-para-recuperar-la-indemnizacion-de-45-dias-por-despido/",
+        "fecha": "2023-03-14",
+        "consultado": "2026-07-10"
+      }
+    },
+    "eco-007": {
+      "valor": -2,
+      "justificacion": "Votó por error, junto a otras fuerzas, una enmienda del PNV que permitió juicios exprés para desalojar okupas; su portavoz en el Congreso pidió disculpas públicamente: «Asumimos el error, lo lamentamos, pedimos disculpas por ello e intentaremos revertirlo y enmendarlo lo antes posible, en coherencia con la posición que siempre hemos mantenido cuando se ha planteado esta medida».",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "ERC y EH Bildu no pararán hasta revertir su error que permite acelerar el desalojo de okupas (Infobae)",
+        "url": "https://www.infobae.com/espana/2024/11/23/erc-y-eh-bildu-no-pararan-hasta-revertir-su-error-que-permite-acelerar-el-desalojo-de-okupas-vamos-a-intentarlo-en-cada-oportunidad-que-tengamos/",
+        "fecha": "2024-11-23",
+        "consultado": "2026-07-10",
+        "cita": "Asumimos el error, lo lamentamos, pedimos disculpas por ello e intentaremos revertirlo y enmendarlo lo antes posible"
+      }
+    },
+    "va-002": {
+      "valor": 1,
+      "justificacion": "Su parlamentaria Itxaso Etxebarria defendió que «el colectivo de caza debe quedarse tranquilo, porque no hay oposición a la caza en ningún caso», reconociendo la caza regulada como herramienta de gestión de fauna en el medio rural; votó en contra de la reforma de 2025 no por rechazo a la caza en sí, sino por rebajar la edad mínima de los menores acompañantes sin licencia.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "Ley de Caza: el Parlamento Vasco aprueba la figura del acompañante sin licencia (Noticias de Gipuzkoa)",
+        "url": "https://www.noticiasdegipuzkoa.eus/sociedad/2025/03/20/ley-caza-parlamento-vasco-aprueba-9421787.html",
+        "fecha": "2025-03-20",
+        "consultado": "2026-07-10",
+        "cita": "el colectivo de caza debe quedarse tranquilo, porque no hay oposición a la caza en ningún caso"
+      }
+    },
+    "va-003": {
+      "valor": 0,
+      "justificacion": "Posición contextual y dividida, no una prohibición nacional uniforme: el gobierno de EH Bildu en Donostia (2011-2015) impidió de facto las corridas en Illumbe por «maltrato animal» (anulado judicialmente en 2016), mientras su propio alcalde de Pamplona, Joseba Asirón, defendió mantener encierros y corridas por la tradición local. A nivel estatal apoyó retirar la protección de «patrimonio cultural» a la tauromaquia, sin imponer una prohibición uniforme para España.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Asirón: prohibir los toros en Pamplona sería tan ridículo como implantar un encierro en Donostia (Noticias de Navarra)",
+        "url": "https://www.noticiasdenavarra.com/navarra/2015/08/17/asiron-prohibir-toros-pamplona-seria-2858431.html",
+        "fecha": "2015-08-17",
+        "consultado": "2026-07-10",
+        "cita": "Prohibir los toros en Pamplona sería tan ridículo como implantar un encierro en Donostia"
+      }
+    },
+    "izq-044": {
+      "valor": -1,
+      "justificacion": "Pide una «reflexión profunda» sobre el modelo policial y más control democrático sobre la Ertzaintza —a la que acusa de tener un sector «ultraderechizado»—, reduciendo su peso frente a las policías municipales, que refuerza en los ayuntamientos que gobierna (nuevas plantillas de policía de proximidad). No plantea reducir progresivamente las funciones policiales ni sustituirlas por mecanismos comunitarios, sino reformar y descentralizar el modelo.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "El PNV ve parte de la sociedad educada en el odio a la policía; EH Bildu, un sector de la Ertzaintza ultraderechizado (Press Digital)",
+        "url": "https://www.pressdigital.es/articulo/politica/2026-05-30/5901079-pnv-ve-parte-sociedad-educada-odio-policia-eh-bildu-sector-ertzaintza-ultraderechizado",
+        "fecha": "2026-05-30",
+        "consultado": "2026-07-10"
+      }
+    },
+    "der-019": {
+      "valor": 2,
+      "justificacion": "Apoyó de forma reiterada la derogación de la prisión permanente revisable, incluida la toma en consideración parlamentaria de 2017-2018 junto a PSOE, Unidos Podemos, PNV y ERC.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "La izquierda y los nacionalistas imponen la derogación de la prisión permanente revisable (El Español)",
+        "url": "https://www.elespanol.com/espana/20180315/girauta-psoe-abstenga-prision-permanente-salvan-no/292221122_0.html",
+        "fecha": "2018-03-15",
+        "consultado": "2026-07-10"
+      }
+    },
+    "soc-002": {
+      "valor": -2,
+      "justificacion": "Abandonó el pleno del Parlamento de Navarra para impedir el debate de una moción de Vox que pedía la expulsión inmediata de inmigrantes irregulares, y votó en contra de ella junto a UPN, PSN, Geroa Bai, PPN y Contigo-Zurekin; su parlamentario Javier Arza declaró: «cerramos la puerta al fascismo».",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Tres partidos abandonan el Parlamento de Navarra para impedir el debate de inmigración que llevaba Vox (OK Diario Navarra)",
+        "url": "https://navarra.okdiario.com/articulo/politica/tres-partidos-abandonan-parlamento-navarra-impedir-debate-inmigracion-que-llevaba-vox/20250206153641580285.html",
+        "fecha": "2025-02-06",
+        "consultado": "2026-07-10",
+        "cita": "cerramos la puerta al fascismo"
+      }
+    },
+    "soc-003": {
+      "valor": -2,
+      "justificacion": "Calificó de «exagerado» e «impropio» el aumento de cámaras de videovigilancia en Pamplona, argumentando que viola la privacidad y que responde a «la obsesión de la derecha por imponer un control social a la ciudadanía» más que a necesidades reales de seguridad.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Bildu se opone a las cámaras de seguridad en Pamplona: «Obsesión por imponer un control» (El Español Navarra)",
+        "url": "https://navarra.elespanol.com/articulo/pamplona/eh-bildu-pamplona-critica-aumento-exagerado-camaras-ciudad/20220330132014401956.html",
+        "fecha": "2022-03-30",
+        "consultado": "2026-07-10"
+      }
+    },
+    "der-026": {
+      "valor": -2,
+      "justificacion": "El PP se abstuvo ante una iniciativa de Vox en el Senado para ilegalizar a EH Bildu, que decayó; su diputada Marije Fullaondo, exdirigente de la ilegalizada Batasuna, respondió: «fueron ilegalizados pero se levantaron y salieron reforzados», rechazando de raíz que partidos independentistas puedan ilegalizarse.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "El PP se abstiene ante la iniciativa de Vox en el Senado para ilegalizar a EH Bildu (elDiario.es)",
+        "url": "https://www.eldiario.es/politica/pp-abstiene-iniciativa-vox-senado-ilegalizar-eh-bildu-hoy-dia-no-llevarse-cabo_1_13182770.html",
+        "fecha": "2026-04-29",
+        "consultado": "2026-07-10",
+        "cita": "fueron ilegalizados pero se levantaron y salieron reforzados"
+      }
+    },
+    "fem-007": {
+      "valor": -2,
+      "justificacion": "Frente al intento de imponer el «pin parental» sobre los talleres de educación afectivo-sexual (programa Skolae), su parlamentaria Bakartxo Ruiz sostuvo que la autorización previa de las familias «no puede enmascararse dentro de la libertad de elección de padres y madres», calificando la ofensiva contra Skolae de «caza de brujas».",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Navarra se opone al veto educativo que plantea Vox contra Skolae (Noticias de Navarra)",
+        "url": "https://www.noticiasdenavarra.com/sociedad/2020/01/21/navarra-opone-veto-educativo-plantea-2319014.html",
+        "fecha": "2020-01-21",
+        "consultado": "2026-07-10",
+        "cita": "no puede enmascararse dentro de la libertad de elección de padres y madres"
+      }
+    },
+    "dr-007": {
+      "valor": -2,
+      "justificacion": "Votó a favor de la ley que castiga con penas de cárcel las terapias de conversión LGTBI; su diputada Isabel Pozueta defendió que «no existe consentimiento cuando la persona está inmersa en un entorno que le dice que su forma de ser es un error o una enfermedad», posición incompatible con retirar de la enseñanza obligatoria los contenidos sobre diversidad sexual y de género.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "El Congreso aprueba la ley que castiga con cárcel las terapias de conversión LGTBI (elDiario.es)",
+        "url": "https://www.eldiario.es/sociedad/congreso-aprueba-ley-castiga-carcel-terapias-conversion-lgtbi_1_13331523.html",
+        "fecha": "2026-06-25",
+        "consultado": "2026-07-10",
+        "cita": "no existe consentimiento cuando la persona está inmersa en un entorno que le dice que su forma de ser es un error o una enfermedad"
+      }
+    },
+    "dem-033": {
+      "valor": -1,
+      "justificacion": "No rechaza el federalismo como algo indeseable, pero lo considera un techo insuficiente frente a su propio horizonte confederal: su coordinador general Pello Otxandiano reclama ir «más allá», hacia un Estado confederal; el PSE-EE, socio de gobierno del PNV, advierte a PNV y EH Bildu de no buscar «soberanías imaginarias» al reformar el Estatuto, señal de que su proyecto excede el marco de un federalismo clásico dentro de la Constitución sin llegar a oponerse a él de plano.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Otxandiano: «Es momento de avanzar hacia un Estado confederal dentro de la Constitución» (Infobae)",
+        "url": "https://www.infobae.com/espana/agencias/2024/12/01/otxandiano-es-momento-de-avanzar-hacia-un-estado-confederal-dentro-de-la-constitucion/",
+        "fecha": "2024-12-01",
+        "consultado": "2026-07-10"
+      }
+    },
+    "dem-034": {
+      "valor": 2,
+      "justificacion": "Su coordinador general Pello Otxandiano defendió explícitamente avanzar «hacia un Estado confederal dentro de la Constitución», es decir, aceptando un modelo confederal de territorios como reforma alcanzable dentro del marco jurídico vigente, coherente con la propuesta de «nuevo estatus» y relación confederal basada en bilateralidad de su programa electoral.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Otxandiano: «Es momento de avanzar hacia un Estado confederal dentro de la Constitución» (Infobae)",
+        "url": "https://www.infobae.com/espana/agencias/2024/12/01/otxandiano-es-momento-de-avanzar-hacia-un-estado-confederal-dentro-de-la-constitucion/",
+        "fecha": "2024-12-01",
+        "consultado": "2026-07-10",
+        "cita": "Es momento de avanzar hacia un Estado confederal dentro de la Constitución"
+      }
+    },
+    "cat-003": {
+      "valor": 2,
+      "justificacion": "Votó a favor de la Ley Orgánica de amnistía; su diputado Jon Iñarritu la defendió como «una respuesta necesaria a la represión sufrida por todos los exiliados, presos, multados y condenados que han luchado pacíficamente por el derecho a la autodeterminación», vinculando explícitamente la amnistía catalana con su propio marco de autodeterminación.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "El Gobierno y sus socios aprueban la ley de amnistía en el Congreso tras un choque directo con diputados de Vox (El Independiente)",
+        "url": "https://www.elindependiente.com/espana/2024/05/30/el-gobierno-y-sus-socios-aprueban-la-ley-de-amnistia-en-el-congreso-tras-un-choque-directo-con-diputados-de-vox/",
+        "fecha": "2024-05-30",
+        "consultado": "2026-07-10",
+        "cita": "una respuesta necesaria a la represión sufrida por todos los exiliados, presos, multados y condenados que han luchado pacíficamente por el derecho a la autodeterminación"
+      }
+    },
+    "der-014": {
+      "valor": 2,
+      "justificacion": "Calificó de «grave ataque» a los «derechos históricos» de Navarra la sentencia del Tribunal Constitucional que anuló parte de la reforma del Fuero Nuevo, sosteniendo que es «inadmisible» equiparar Navarra a otras comunidades autónomas porque tiene competencias históricas propias en materia civil; defiende mantener y blindar los conciertos y fueros frente a la recentralización, aunque los conciba como base de partida hacia la soberanía, no como techo final.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "EH Bildu considera un «grave ataque» a los «derechos históricos» de Navarra la sentencia del TC sobre el Fuero Nuevo (elDiario.es)",
+        "url": "https://www.eldiario.es/politica/eh-bildu-considera-grave-ataque-derechos-historicos-navarra-sentencia-tc-fuero-nuevo_1_8334214.html",
+        "fecha": "2021-09-24",
+        "consultado": "2026-07-10"
+      }
+    },
+    "ter-004": {
+      "valor": -2,
+      "justificacion": "Rompió el consenso de la ley vasca de Educación cuando el PNV y el PSE-EE pactaron in extremis que el castellano fuera también lengua vehicular junto al euskera; EH Bildu solo respaldaba el texto si el euskera era la única lengua vehicular, y se desmarcó del acuerdo educativo.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Cisma por la Ley de Educación: PNV y PSE mantienen los modelos lingüísticos y Bildu se desmarca (Crónica Vasca)",
+        "url": "https://cronicavasca.elespanol.com/politica/20231121/cisma-ley-educacion-pnv-pse-linguisticos-bildu/811418884_0.html",
+        "fecha": "2023-11-21",
+        "consultado": "2026-07-10"
+      }
+    },
+    "ter-005": {
+      "valor": -2,
+      "justificacion": "Sus senadores calificaron de «inconstitucional» la proposición de ley del PP para sancionar a cargos y funcionarios que no exhibieran la bandera de España, en la misma línea que ERC y sectores del PSOE.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "El Senado comienza a tramitar una ley del PP sobre la bandera de España (Deia)",
+        "url": "https://www.deia.eus/politica/2026/02/04/senado-comienza-tramitar-ley-pp-bandera-espana-10656529.html",
+        "fecha": "2026-02-04",
+        "consultado": "2026-07-10"
+      }
     }
   }
 }

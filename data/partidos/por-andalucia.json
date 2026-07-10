@@ -190,6 +190,102 @@
         "fecha": "2026",
         "consultado": "2026-07-10"
       }
+    },
+    "lib-017": {
+      "valor": 2,
+      "justificacion": "Inmaculada Nieto, entonces portavoz de Unidas Podemos y referente de la coalición, denunció que la lentitud de la Junta de Andalucía en crear la Comisión de Garantía y Evaluación de la eutanasia escondía un «sesgo ideológico», exigiendo la aplicación plena de un derecho ya reconocido por la ley estatal de 2021, sin restricciones añadidas por la comunidad autónoma.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Andalucía y Madrid torpedean la Ley de Eutanasia obligando a reescribir los testamentos vitales (El Salto)",
+        "url": "https://www.elsaltodiario.com/eutanasia/andalucia-madrid-torpedean-ley-eutanasia-obligando-reescribir-testamentos-vitales",
+        "fecha": "2021-10-20",
+        "consultado": "2026-07-10"
+      }
+    },
+    "fem-012": {
+      "valor": 2,
+      "justificacion": "La supresión del consentimiento paterno para que las menores de 16 y 17 años puedan abortar fue una reforma impulsada por Unidas Podemos desde el Ministerio de Igualdad dentro del Gobierno de coalición (Ley Orgánica 1/2023), que derogó el requisito introducido por el PP en 2015; Podemos es uno de los componentes de Por Andalucía.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "El Parlamento aprueba la reforma de la Ley del Aborto que permite abortar a menores sin consentimiento paterno (Servimedia)",
+        "url": "https://www.servimedia.es/noticias/congreso-aprueba-reforma-ley-aborto-permite-abortar-jovenes-16-17-anos-consentimiento-paterno/3567383",
+        "fecha": "2023-02",
+        "consultado": "2026-07-10"
+      }
+    },
+    "lib-009": {
+      "valor": 1,
+      "justificacion": "IU defiende una «regulación integral del cannabis y sustancias derivadas» centrada en el club social de cultivo colectivo y el derecho al autocultivo, no en una venta comercial abierta equivalente a la del alcohol o el tabaco que formula literalmente el ítem: hay acuerdo con legalizar y regular el acceso, pero no con ese modelo concreto de venta.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Izquierda Unida en Sumar aboga por la regulación integral (Soft Secrets)",
+        "url": "https://softsecrets.com/es-ES/articulo/izquierda-unida-en-sumar-aboga-por-la-regulacion",
+        "fecha": "2023-07",
+        "consultado": "2026-07-10"
+      }
+    },
+    "va-003": {
+      "valor": 0,
+      "justificacion": "IU rechazó en mayo de 2026 la reapertura de la Escuela Municipal de Tauromaquia de Jerez y ya impulsó en 2018 retirarle la financiación pública, pero esa acción se limita a cortar subvenciones y espacios municipales, no a exigir una prohibición legal de las corridas en toda España; la propia coalición muestra fisuras internas, con un representante de IU en la RTVA que ha defendido mantener programación taurina.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Izquierda Unida rechaza la reapertura de la Escuela Municipal de Tauromaquia de Jerez (Andalucía Información)",
+        "url": "https://www.andaluciainformacion.es/articulo/jerez/izquierda-unida-rechaza-reapertura-escuela-municipal-tauromaquia-jerez/202605141556193386741.html",
+        "fecha": "2026-05-14",
+        "consultado": "2026-07-10"
+      }
+    },
+    "ene-007": {
+      "valor": 2,
+      "justificacion": "El programa de gobierno de Por Andalucía para el 17M de 2026 incluye la creación de una Empresa Pública de Energía que actúe como comercializadora para evitar «abusos del oligopolio eléctrico privado» y garantizar un suministro mínimo a la clase trabajadora y la población vulnerable, dentro de un modelo energético «público, limpio y descentralizado».",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Por Andalucía apuesta por los tejados solares y la creación de una Empresa Pública de Energía para «democratizar» el sector fotovoltaico (El Independiente de Granada)",
+        "url": "https://www.elindependientedegranada.es/politica/andalucia-apuesta-tejados-solares-creacion-empresa-publica-energia-democratizar-sector",
+        "fecha": "2026-05",
+        "consultado": "2026-07-10"
+      }
+    },
+    "eco-012": {
+      "valor": 1,
+      "justificacion": "Toni Valero, coordinador general de IU Andalucía, presentó en Cádiz una PNL por la «eliminación paulatina de los conciertos educativos» y el refuerzo de la pública; en paralelo, Verdes Equo Andalucía exige no ampliar ninguna línea concertada y destinar los fondos públicos solo a la red pública. Son señales convergentes pero desiguales: ninguna de las dos formulaciones consta como compromiso unificado y explícito de toda la coalición para 2026.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Valero (IU) presenta en Cádiz una PNL para la eliminación paulatina de los conciertos educativos y el refuerzo de la educación pública (Asturias Laica)",
+        "url": "https://asturiaslaica.com/2025/04/04/valero-iumpresenta-en-cadiz-una-pnl-para-la-eliminacion-paulatina-de-los-conciertos-educativos-y-el-refuerzo-de-la-educacion-publica/",
+        "fecha": "2025-04-04",
+        "consultado": "2026-07-10"
+      }
+    },
+    "sd-009": {
+      "valor": -1,
+      "justificacion": "Podemos tumbó en el Congreso en enero de 2024 el decreto que reformaba el subsidio de desempleo por incluir un endurecimiento del régimen sancionador a quien rechazara ofertas de empleo; su rechazo se dirigió a agravar una condicionalidad ya existente, no a suprimirla por completo, lo que matiza el desacuerdo con el ítem.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "El rechazo de Podemos tumba en el Congreso la reforma del subsidio de desempleo (elDiario.es)",
+        "url": "https://www.eldiario.es/politica/confirma-no-tumba-decreto-subsidios-desempleo_1_10826150.html",
+        "fecha": "2024-01",
+        "consultado": "2026-07-10"
+      }
+    },
+    "and-004": {
+      "valor": 2,
+      "justificacion": "El programa de Por Andalucía para el 17M de 2026 no se limita a vetar licencias turísticas nuevas: Maíllo prometió revertir a uso residencial los pisos turísticos ya existentes en las zonas declaradas tensionadas, calificándolos de «incompatibles con la vivienda».",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Maíllo promete prohibir pisos turísticos en zonas saturadas y reversión a uso residencial (La Noción)",
+        "url": "https://www.lanocion.es/andalucia/20260505/maillo-promete-prohibir-pisos-turisticos-en-z111-9511z.html",
+        "fecha": "2026-05-05",
+        "consultado": "2026-07-10"
+      }
     }
   }
 }

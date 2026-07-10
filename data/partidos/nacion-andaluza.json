@@ -381,6 +381,65 @@
         "fecha": "2026-04-21",
         "consultado": "2026-07-09"
       }
+    },
+    "soc-001": {
+      "valor": 2,
+      "justificacion": "Nación Andaluza organiza y respalda anualmente un Orgullo andaluz «de clase, socialista y antiimperialista» y reivindica el legado de su cofundador, el activista LGTB Gabi Lima (LIGAN); politiza los derechos LGTB en clave de clase, pero no plantea revertirlos.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Nación Andaluza ante el 28 de junio Por un Día del Orgullo andaluz, de clase, socialista y antiimperialista",
+        "url": "https://nacionandaluza.org/2023/06/27/nacion-andaluza-ante-el-28-de-junio-por-un-dia-del-orgullo-andaluz-de-clase-socialista-y-antiimperialista/",
+        "fecha": "2023-06-27",
+        "consultado": "2026-07-10"
+      }
+    },
+    "izq-014": {
+      "valor": -2,
+      "justificacion": "Se define como organización «independentista, socialista y feminista» cuya liberación «será también feminista y sensible a todos los ejes de opresión»: integra el feminismo y el antagonismo LGTB en la lucha de clase en vez de tratarlos como una desviación de ella.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Quiénes somos - Nación Andaluza",
+        "url": "https://nacionandaluza.org/quienes-somos/",
+        "consultado": "2026-07-10"
+      }
+    },
+    "izq-042": {
+      "valor": 1,
+      "justificacion": "Ante los desahucios y la okupación por necesidad, sostiene que «el problema de la vivienda no es que haya ocupaciones, sino que decenas de miles de familias andaluzas no pueden acceder a ella» y rechaza criminalizar la pobreza, aunque no formula la ocupación de centros sociales autogestionados como reivindicación explícita.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Nación Andaluza por una política de vivienda al servicio del Pueblo Trabajador Andaluz",
+        "url": "https://nacionandaluza.org/2022/01/13/nacion-andaluza-por-una-politica-de-vivienda-al-servicio-del-pueblo-trabajador-andaluz/",
+        "fecha": "2022-01-13",
+        "consultado": "2026-07-10"
+      }
+    },
+    "der-018": {
+      "valor": 2,
+      "justificacion": "Su programa de 2026 va más allá de «facilitar»: propone regularizar directamente a las trabajadoras sin papeles ya presentes en Andalucía y concederles la nacionalidad andaluza tras solo dos años de empadronamiento.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Sembrando Revolución Andaluza: programa para las elecciones andaluzas de 2026",
+        "url": "https://nacionandaluza.org/wp-content/uploads/2026/04/maquetado-largo-pliegos.pdf",
+        "fecha": "2026-04",
+        "consultado": "2026-07-10"
+      }
+    },
+    "sd-021": {
+      "valor": 1,
+      "justificacion": "Su programa reclama regularizar a las trabajadoras migrantes ya asentadas en Andalucía y darles nacionalidad andaluza, pero como candidatura independentista no formula esa medida como una ley que deba aprobar España, sujeto que fija literalmente el ítem.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Sembrando Revolución Andaluza: programa para las elecciones andaluzas de 2026",
+        "url": "https://nacionandaluza.org/wp-content/uploads/2026/04/maquetado-largo-pliegos.pdf",
+        "fecha": "2026-04",
+        "consultado": "2026-07-10"
+      }
     }
   }
 }

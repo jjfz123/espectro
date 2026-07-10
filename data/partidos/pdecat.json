@@ -1,0 +1,223 @@
+{
+  "id": "pdecat",
+  "nombre": "Partit Demòcrata Europeu Català",
+  "siglas": "PDeCAT",
+  "ambito": "autonomico",
+  "tipo": "partido",
+  "ccaa": [
+    "catalunya"
+  ],
+  "confianza": "estimada",
+  "registroMir": "Admitido en el Registro de Partidos Políticos el 29/09/2016; el Congrés Nacional acordó su disolución el 28/10/2023 y los tribunales declararon su quiebra en noviembre de 2023. Se cataloga como perfil histórico, no como candidatura vigente.",
+  "web": "https://www.partitdemocrata.cat/",
+  "revisado": "2026-07-10",
+  "actividad": "historica",
+  "autodescripcion": {
+    "texto": "Formació democràtica, catalanista, independentista, europeista i humanista, hereva de la tasca de construcció nacional de Convergència Democràtica de Catalunya, que es va situar en la 'centralitat política, socioliberal i transformadora'.",
+    "fuente": {
+      "tipo": "declaracion",
+      "titulo": "El PDECat se presenta como el partido de la 'centralidad política' y 'éticamente impoluto'",
+      "url": "https://cronicaglobal.elespanol.com/politica/20170513/el-pdecat-presenta-centralidad-politica-eticamente-impoluto/215728451_0.html",
+      "fecha": "2017-05-13"
+    }
+  },
+  "posiciones": {
+    "eco-001": {
+      "valor": -1,
+      "justificacion": "Su Primera Conferència Ideològica (2017) reclamaba una fiscalidad 'progresiva y equitativa', pero siempre subordinada a 'incentivar la actividad económica y defender a pymes y autónomos'; su presidente además defendió públicamente eliminar el impuesto de sucesiones. El conjunto apunta a rechazo de subidas significativas sobre rentas altas, no a impulsarlas.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "El PDECat se presenta como el partido de la 'centralidad política' y 'éticamente impoluto'",
+        "url": "https://cronicaglobal.elespanol.com/politica/20170513/el-pdecat-presenta-centralidad-politica-eticamente-impoluto/215728451_0.html",
+        "fecha": "2017-05-13",
+        "consultado": "2026-07-10",
+        "cita": "fiscalitat i hisenda justa, eficient, progressiva i equitativa que incentivi l'activitat econòmica i defensi les pimes i autònoms"
+      }
+    },
+    "eco-005": {
+      "valor": -1,
+      "justificacion": "Su diputado Ferran Bel anunció el voto en contra de la Ley de Vivienda estatal de 2023 alegando invasión de competencias autonómicas en la fijación de zonas tensionadas y objetivos de política de vivienda, no un rechazo de fondo a limitar precios como tal.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "PP, Vox, Ciudadanos, PNV, Junts y PDeCAT rechazan la Ley de Vivienda: \"Invade competencias\"",
+        "url": "https://www.elespanol.com/espana/politica/20230427/pp-ciudadanos-pnv-junts-pdecat-vivienda-invade/759424267_0.html",
+        "fecha": "2023-04-27",
+        "consultado": "2026-07-10"
+      }
+    },
+    "eco-007": {
+      "valor": 2,
+      "justificacion": "PDeCAT fue autor y registró en el Congreso una proposición de ley para desalojar en 48 horas a quienes ocupan viviendas de particulares, ONG y administraciones, con apoyo posterior de PP, Ciudadanos y PNV.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "PDeCAT registra una ley para desalojar okupas en 48 horas y dar competencias a vecinos y ayuntamientos",
+        "url": "https://www.idealista.com/news/inmobiliario/vivienda/2022/05/31/796964-pdecat-registra-una-ley-para-desalojar-okupas-en-48-horas-y-dar-de-competencias-a-vecinos-y",
+        "fecha": "2022-05-31",
+        "consultado": "2026-07-10"
+      }
+    },
+    "eco-009": {
+      "valor": 2,
+      "justificacion": "Su presidente, David Bonvehí, afirmó que el partido trabajaría para eliminar el impuesto de sucesiones y donaciones, tras criticar su incremento en los presupuestos catalanes de 2020.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "PDeCAT dice que trabajará para \"eliminar\" el impuesto de Sucesiones",
+        "url": "https://www.moncloa.com/pdecat-eliminar-impuestos-sucesiones/",
+        "fecha": "2020",
+        "consultado": "2026-07-10"
+      }
+    },
+    "eco-012": {
+      "valor": -2,
+      "justificacion": "Su programa de 2023 defiende expresamente renovar los conciertos educativos, garantizar la gratuidad de la escuela concertada y asegurar que su financiación cubra las inversiones necesarias, en la línea de la libertad de elección de centro por las familias.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "La equidad educativa en los programas electorales: ¿qué proponen los partidos?",
+        "url": "https://www.equitat.org/es/blog/la-equidad-educativa-en-los-programas-electorales-que-proponen-los-partidos",
+        "fecha": "2023",
+        "consultado": "2026-07-10"
+      }
+    },
+    "eco-014": {
+      "valor": -1,
+      "justificacion": "Se opuso a una primera votación de junio de 2022 alegando que, con una reforma fiscal pendiente, \"no es el momento\"; en la votación pública por llamamiento de noviembre de 2022 pasó a abstenerse, dejando avanzar el impuesto (entonces temporal) sin respaldarlo activamente.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "El Congreso aprueba el impuesto a grandes fortunas y lo remite al Senado",
+        "url": "https://www.idealista.com/news/finanzas/economia/2022/11/25/800323-el-congreso-aprueba-el-impuesto-a-grandes-fortunas-y-lo-remite-al-senado",
+        "fecha": "2022-11-25",
+        "consultado": "2026-07-10"
+      }
+    },
+    "lib-017": {
+      "valor": 2,
+      "justificacion": "PDeCAT votó a favor de la Ley Orgánica de Regulación de la Eutanasia, aprobada en marzo de 2021, que la configura como derecho para quien la solicita de forma libre y reiterada.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "Los partidos que votaron sí a la eutanasia en España (Hispanidad)",
+        "url": "https://www.hispanidad.com/hemeroteca/confidencial/psoe-podemos-bng-erc-junts-catalunya-pdecat-mas-pais-bildu-pnv-nueva-canarias-coalicion-canaria-cup-cs-partidos-responsables-aprobacion-eutanasia-en-espana_12024792_102.html",
+        "fecha": "2021-03",
+        "consultado": "2026-07-10",
+        "cita": "PSOE, Podemos, BNG, ERC, Junts per Catalunya, PDeCAT, Más País, Bildu, PNV, Nueva Canarias, Coalición Canaria, CUP y Cs"
+      }
+    },
+    "fem-001": {
+      "valor": 0,
+      "justificacion": "Voto interno dividido en la ley trans: de sus cuatro diputados, Sergi Miquel votó a favor de la autodeterminación registral sin informes médicos, mientras Concep Cañadell, Genís Boadella y Ferran Bel se abstuvieron. Sin bandera de partido, posición neta ambigua.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "La votación de la ley trans divide más a la derecha que a la izquierda",
+        "url": "https://www.publico.es/politica/votacion-ley-trans-divide-derecha-izquierda.html",
+        "fecha": "2022-12",
+        "consultado": "2026-07-10"
+      }
+    },
+    "soc-006": {
+      "valor": 2,
+      "justificacion": "PDeCAT votó junto a PSOE, Unidos Podemos, PNV, ERC y Bildu para rechazar dos enmiendas de PP y Ciudadanos que buscaban bloquear la tramitación de una proposición del PNV para derogar la prisión permanente revisable.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "PP y Ciudadanos pierden la votación en el Congreso para endurecer la prisión permanente revisable",
+        "url": "https://www.eldiario.es/politica/pp-oposicion-victimas-permanente-revisable_1_2227447.html",
+        "fecha": "2018-03-15",
+        "consultado": "2026-07-10"
+      }
+    },
+    "der-026": {
+      "valor": -2,
+      "justificacion": "Su diputado Ferran Bel respondió a una moción de Vox para ilegalizar partidos independentistas (Bildu, ERC, Junts, CUP) acusando a quienes proponen esa ilegalización de hacer más daño a España que los propios partidos independentistas.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Hasta el PP quiere partidos independentistas en el Congreso",
+        "url": "https://www.moncloa.com/2023/02/09/hasta-el-pp-quiere-partidos-independentistas-en-el-congreso-1841330/",
+        "fecha": "2023-02-09",
+        "consultado": "2026-07-10",
+        "cita": "Hacen mucho más daño a España ustedes que cualquiera de los que nos subimos a esta tribuna"
+      }
+    },
+    "fem-012": {
+      "valor": -1,
+      "justificacion": "En la votación final de la reforma del aborto (16-02-2023), que permite abortar a las jóvenes de 16 y 17 años sin consentimiento paterno, Ferran Bel votó en contra y los otros tres diputados de PDeCAT se abstuvieron.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "El Congreso da luz verde definitiva a la reforma del aborto y a la Ley Trans",
+        "url": "https://www.elindependiente.com/espana/2023/02/16/el-congreso-da-luz-verde-definitiva-a-la-reforma-del-aborto-y-a-la-ley-trans/",
+        "fecha": "2023-02-16",
+        "consultado": "2026-07-10"
+      }
+    },
+    "nac-001": {
+      "valor": -1,
+      "justificacion": "En octubre de 2017 su Comité Ejecutivo evitó respaldar de forma explícita una declaración unilateral de independencia; su coordinadora Marta Pascal y el conseller Santi Vila presionaron para convocar elecciones en lugar de declarar la ruptura, mostrando resistencia interna a automatizar la vía unilateral.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Bajas en el PDeCAT por el bloqueo a la declaración de independencia",
+        "url": "https://www.elconfidencialdigital.com/articulo/politica/Bajas-PDeCAT-bloqueo-declaracion-independencia/20171018205134087112.html",
+        "fecha": "2017-10-18",
+        "consultado": "2026-07-10"
+      }
+    },
+    "nac-002": {
+      "valor": 1,
+      "justificacion": "Se autodefine como partido independentista y su programa de 2023 reclama un referéndum para decidir la independencia, pero su propio programa insiste en dejar atrás la \"confrontación estéril\" y prioriza vías dialogadas, una posición más matizada que la ruptura frontal.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "El programa del PDeCAT quiere la independencia dejando atrás la \"confrontación estéril\"",
+        "url": "https://www.elconfidencialdigital.com/articulo/actualidad/programa-pdecat-quiere-independencia-dejando-atras-confrontacion-esteril/20210129183123209683.html",
+        "fecha": "2021-01-29",
+        "consultado": "2026-07-10",
+        "cita": "confrontación estéril"
+      }
+    },
+    "cat-002": {
+      "valor": 2,
+      "justificacion": "Su programa electoral de 2023 reclama que Cataluña disponga de una hacienda propia resultante de un nuevo concierto económico singular, con recaudación y gestión propias al estilo del concierto vasco.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral del PDECat - Eleccions Generals 2023",
+        "url": "https://www.studocu.com/es/document/universidad-de-castilla-la-mancha/derecho-constitucional-ii/492561342-programa-electoral-del-pdecat/19039518",
+        "fecha": "2023-07",
+        "consultado": "2026-07-10"
+      }
+    },
+    "cat-003": {
+      "valor": 2,
+      "justificacion": "Su programa de 2023 sostiene literalmente que gestionar el presente exige aprobar la amnistía, calificándola de \"solución más justa y adecuada\" y de \"único camino\" para normalizar el país, frente a los procesos penales abiertos por el 1-O.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral del PDECat - Eleccions Generals 2023",
+        "url": "https://www.studocu.com/es/document/universidad-de-castilla-la-mancha/derecho-constitucional-ii/492561342-programa-electoral-del-pdecat/19039518",
+        "fecha": "2023-07",
+        "consultado": "2026-07-10",
+        "cita": "Aquesta és la solució més justa i adequada que s'ha d'aprovar. [...] L'amnistia és l'únic camí per redreçar la situació."
+      }
+    },
+    "ter-002": {
+      "valor": 1,
+      "justificacion": "Su programa de 2023 reclama volver a las urnas en un referéndum de independencia, pero lo condiciona expresamente a que sea \"acordado e internacionalmente reconocido\", no una consulta unilateral.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral del PDECat - Eleccions Generals 2023",
+        "url": "https://www.studocu.com/es/document/universidad-de-castilla-la-mancha/derecho-constitucional-ii/492561342-programa-electoral-del-pdecat/19039518",
+        "fecha": "2023-07",
+        "consultado": "2026-07-10"
+      }
+    }
+  }
+}

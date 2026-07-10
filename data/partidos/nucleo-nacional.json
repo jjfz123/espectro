@@ -161,6 +161,66 @@
         "consultado": "2026-07-10"
       }
     },
+    "der-001": {
+      "valor": -2,
+      "justificacion": "En el vídeo de presentación del partido, Iván Rico sostiene que derecha e izquierda parten por igual de las «falsas premisas» del liberalismo y el marxismo, que a su juicio sirven para destruir las naciones; el Estado reducido al mínimo que plantea el ítem es precisamente el modelo liberal que rechaza de forma expresa junto al colectivismo marxista.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Iván Rico se quita la máscara para lanzar el partido Noviembre Nacional (El Español, vídeo de presentación del partido)",
+        "url": "https://www.elespanol.com/reportajes/20260707/ivan-rico-administrativo-ultra-hijo-exconcejal-pp-quita-mascara-lanzar-partido-noviembre-nacional/1003744311510_0.html",
+        "fecha": "2026-07-07",
+        "consultado": "2026-07-10"
+      }
+    },
+    "izq-005": {
+      "valor": -2,
+      "justificacion": "Su rechazo expreso del marxismo, presentado en el mismo vídeo de lanzamiento como una de las dos «falsas premisas» que hay que combatir, excluye la planificación pública sustitutiva del mercado propia de esa tradición; su modelo económico se declara comunitarista y corporativo, no colectivista.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Iván Rico se quita la máscara para lanzar el partido Noviembre Nacional (El Español, vídeo de presentación del partido)",
+        "url": "https://www.elespanol.com/reportajes/20260707/ivan-rico-administrativo-ultra-hijo-exconcejal-pp-quita-mascara-lanzar-partido-noviembre-nacional/1003744311510_0.html",
+        "fecha": "2026-07-07",
+        "consultado": "2026-07-10"
+      }
+    },
+    "izq-016": {
+      "valor": -2,
+      "justificacion": "La expropiación sin indemnización es una medida clásica del ideario marxista que rechaza expresamente en su vídeo de lanzamiento; además su modelo comunitarista integra a empresarios y trabajadores en un mismo cuerpo bajo dirección estatal, no suprime la propiedad privada de bancos y grandes empresas.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Iván Rico se quita la máscara para lanzar el partido Noviembre Nacional (El Español, vídeo de presentación del partido)",
+        "url": "https://www.elespanol.com/reportajes/20260707/ivan-rico-administrativo-ultra-hijo-exconcejal-pp-quita-mascara-lanzar-partido-noviembre-nacional/1003744311510_0.html",
+        "fecha": "2026-07-07",
+        "consultado": "2026-07-10"
+      }
+    },
+    "eco-002": {
+      "valor": 1,
+      "justificacion": "Un reportaje sobre el grupo lo describe, a diferencia de otras formaciones de ultraderecha con retórica obrerista, como «abiertamente procapitalista, favorable a la libre empresa y la fiscalidad baja»; esa orientación general hacia la libre empresa apunta a una confianza mayor en la gestión privada que en la pública, aunque no hay una declaración específica sobre sanidad, de ahí el valor moderado.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Así es Núcleo Nacional, el grupo fascista al que se atribuyen tres agresiones en Xixón (Nortes)",
+        "url": "https://www.nortes.me/2024/09/17/asi-es-nucleo-nacional-el-grupo-fascista-al-que-se-atribuyen-tres-agresiones-en-xixon/",
+        "fecha": "2024-09-17",
+        "consultado": "2026-07-10"
+      }
+    },
+    "eco-014": {
+      "valor": -1,
+      "justificacion": "El mismo reportaje caracteriza al grupo como «favorable a la libre empresa y la fiscalidad baja», a diferencia de otras formaciones de ultraderecha con discurso social; esa orientación hacia la baja fiscalidad es difícil de compatibilizar con un impuesto permanente sobre las grandes fortunas, aunque la fuente no se pronuncia sobre esta figura fiscal en concreto, de ahí el valor moderado.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Así es Núcleo Nacional, el grupo fascista al que se atribuyen tres agresiones en Xixón (Nortes)",
+        "url": "https://www.nortes.me/2024/09/17/asi-es-nucleo-nacional-el-grupo-fascista-al-que-se-atribuyen-tres-agresiones-en-xixon/",
+        "fecha": "2024-09-17",
+        "consultado": "2026-07-10"
+      }
+    },
     "ter-002": {
       "valor": -2,
       "justificacion": "Mantiene una posición declarada firme contra el separatismo y nació como movimiento en las protestas contra la amnistía al independentismo catalán; un referéndum de autodeterminación es incompatible con su nacionalismo identitario español.",
@@ -190,6 +250,28 @@
       "fuente": {
         "tipo": "otro",
         "titulo": "Núcleo Nacional — Wikipedia (postulados y bases ideológicas declarados)",
+        "url": "https://es.wikipedia.org/wiki/N%C3%BAcleo_Nacional",
+        "consultado": "2026-07-10"
+      }
+    },
+    "der-026": {
+      "valor": 2,
+      "justificacion": "Su identidad fundacional es el rechazo de la amnistía al procés y su nacionalismo identitario sitúa la secesión como amenaza a la nación, ya documentado en su oposición al referéndum de autodeterminación (ter-002) y en su origen frente a la amnistía (cat-003); quien sostiene que un referéndum pactado de independencia es incompatible con su proyecto sostiene con mayor razón que los partidos que promueven la secesión puedan ser ilegalizados.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Núcleo Nacional — Wikipedia (origen en las protestas de Ferraz contra la amnistía)",
+        "url": "https://es.wikipedia.org/wiki/N%C3%BAcleo_Nacional",
+        "consultado": "2026-07-10"
+      }
+    },
+    "dem-035": {
+      "valor": -2,
+      "justificacion": "Si ya rechaza que un referéndum pactado de autodeterminación sea una vía legítima hacia la independencia (ter-002), con mayor razón rechaza que cualquier territorio pueda ejercer unilateralmente un derecho legal de salida sin acuerdo del resto en un modelo confederal, todavía más laxo que el actual Estado autonómico que ya combate.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Núcleo Nacional — Wikipedia (origen en las protestas de Ferraz y postulados declarados)",
         "url": "https://es.wikipedia.org/wiki/N%C3%BAcleo_Nacional",
         "consultado": "2026-07-10"
       }

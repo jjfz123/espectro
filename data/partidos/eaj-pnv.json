@@ -377,6 +377,167 @@
         "consultado": "2026-07-10",
         "cita": "las políticas prohibicionistas no dan buenos resultados"
       }
+    },
+    "eco-004": {
+      "valor": -1,
+      "justificacion": "Los presupuestos vascos del Gobierno PNV-PSE marcan máximos históricos de gasto social (16.378 M€ en 2026, con récord en Osakidetza) mientras el lehendakari Pradales reserva expresamente el endeudamiento a la inversión productiva y no al gasto corriente: en la práctica rechaza el dilema de anteponer la reducción de deuda al gasto social, prefiriendo compatibilizar ambos con disciplina.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "El Consejo de Gobierno aprueba el Proyecto de Presupuestos Generales de Euskadi para 2026, que asciende a 16.378 millones de euros, para resolver los problemas reales de la ciudadanía",
+        "url": "https://www.eaj-pnv.eus/es/noticias/57147/el-consejo-de-gobierno-aprueba-el-proyecto-de-pres/",
+        "fecha": "2025-10-28",
+        "consultado": "2026-07-10",
+        "cita": "el endeudamiento se activará solo para la inversión de carácter productivo y no para hacer frente al gasto corriente"
+      }
+    },
+    "eco-009": {
+      "valor": -1,
+      "justificacion": "En 2018 el PNV votó en contra de la proposición de Ciudadanos para suprimir el Impuesto de Sucesiones y Donaciones; su portavoz económica calificó la iniciativa de ataque a la regulación foral vigente en Euskadi y Navarra, que ya aplica tipos muy reducidos para parientes cercanos por decisión propia, no por mandato estatal.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "PSOE, Unidos Podemos, ERC, PDeCAT y PNV rechazan en el Congreso la supresión del Impuesto de Sucesiones",
+        "url": "https://www.eleconomista.es/economia/noticias/9487721/10/18/PSOE-Unidos-Podemos-ERC-PDeCAT-y-PNV-rechazan-en-el-Congreso-la-supresion-del-Impuesto-de-Sucesiones.html",
+        "fecha": "2018-10-30",
+        "consultado": "2026-07-10",
+        "cita": "ataque a la regulación foral"
+      }
+    },
+    "eco-007": {
+      "valor": 1,
+      "justificacion": "El PNV impulsó y logró aprobar en el Congreso (noviembre 2024) una reforma de la LECrim para agilizar los desahucios por okupación mediante allanamiento de morada. Meses después (mayo 2026) se abstuvo en la ley antiokupas, más amplia, del PP: su diputado Legarda avisó de que el problema es real pero no puede abordarse ignorando situaciones de vulnerabilidad ni con acusaciones desproporcionadas (Infobae, 19-05-2026).",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "El PNV logra aprobar juicios rápidos para desahucios por okupación, en contra del Gobierno",
+        "url": "https://www.telemadrid.es/programas/telenoticias-2/El-PNV-logra-aprobar-juicios-rapidos-para-desahucios-por-okupacion-en-contra-del-Gobierno-2-2725247504--20241115085047.html",
+        "fecha": "2024-11-15",
+        "consultado": "2026-07-10"
+      }
+    },
+    "der-012": {
+      "valor": 2,
+      "justificacion": "El PNV defiende sistemáticamente la concertación social vasca: en 2025 instó a Confebask y a los cuatro sindicatos (ELA, LAB, CCOO, UGT) a negociar el salario mínimo vasco sin líneas rojas en la Mesa de Diálogo Social, en línea con el acuerdo interprofesional de 2017 que ya fijó la prevalencia de la negociación colectiva vasca. Prioriza el pacto entre agentes sociales sobre la imposición legislativa.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "El PNV defiende un SMI vasco e insta a Confebask y a los sindicatos a negociar sin \"líneas rojas\"",
+        "url": "https://www.deia.eus/politica/2025/10/20/pnv-defiende-smi-vasco-insta-10242053.html",
+        "fecha": "2025-10-20",
+        "consultado": "2026-07-10",
+        "cita": "negociar sin líneas rojas"
+      }
+    },
+    "fem-010": {
+      "valor": 2,
+      "justificacion": "El PNV votó a favor de la Ley Orgánica de representación paritaria (julio 2024), que exige una presencia mínima de mujeres (hasta el 40%) en los consejos de administración de las grandes empresas cotizadas, junto a PSOE, Sumar, ERC, Junts, EH Bildu, Podemos, BNG y CC; solo PP y Vox votaron en contra.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "El Congreso aprueba la ley de paridad eliminando los cambios del PP en el Senado",
+        "url": "https://www.infobae.com/espana/2024/07/23/el-congreso-aprueba-la-ley-de-paridad-eliminando-los-cambios-del-pp-en-el-senado/",
+        "fecha": "2024-07-23",
+        "consultado": "2026-07-10"
+      }
+    },
+    "fem-012": {
+      "valor": 2,
+      "justificacion": "El PNV votó a favor de la reforma de la ley del aborto (diciembre 2022) que permite a las menores de 16 y 17 años interrumpir su embarazo sin consentimiento paterno, junto a PSOE, Unidas Podemos, ERC, EH Bildu, Más País y Compromís; PP, Vox, Cs y Navarra Suma votaron en contra.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "El Parlamento aprueba la reforma de la Ley del Aborto que permite abortar a menores sin consentimiento paterno",
+        "url": "https://www.servimedia.es/noticias/congreso-aprueba-reforma-ley-aborto-permite-abortar-jovenes-16-17-anos-consentimiento-paterno/3567383",
+        "fecha": "2022-12-15",
+        "consultado": "2026-07-10"
+      }
+    },
+    "fem-007": {
+      "valor": -1,
+      "justificacion": "Cuando un instituto público de Vitoria concedió veto parental a tres sesiones de educación afectivo-sexual (2024), el Departamento de Educación del Gobierno vasco (PNV-PSE) calificó la decisión de error y obligó a rectificar: esas clases son curriculares y obligatorias, sin necesidad de autorización previa de las familias, conforme a la ley vasca de Educación y al Lomloe.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "El instituto de Vitoria que concedió veto parental a la educación sexual rectifica y hace obligatorias esas clases",
+        "url": "https://www.eldiario.es/euskadi/instituto-vitoria-concedio-veto-parental-educacion-sexual-rectifica-obligatorias-clases_1_10941706.html",
+        "fecha": "2024-02-21",
+        "consultado": "2026-07-10"
+      }
+    },
+    "soc-001": {
+      "valor": 2,
+      "justificacion": "Los diputados de EAJ-PNV votaron a favor de la ley que instauró el matrimonio igualitario en 2005, con voto libre pero favorable de todo el grupo; el propio partido celebró la legalización en su web como un avance de derechos.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Legalizado el matrimonio entre homosexuales",
+        "url": "https://www.eaj-pnv.eus/noticias/legalizado-matrimonio-entre-homosexuales_8072.html",
+        "fecha": "2005-07",
+        "consultado": "2026-07-10"
+      }
+    },
+    "ter-003": {
+      "valor": -1,
+      "justificacion": "El PNV, custodio del cupo, ve con recelo la financiación singular reclamada por Cataluña y su posible generalización: teme que extender fórmulas de tipo concierto a otras comunidades diluya o dañe el sistema vasco, cuya exclusividad defiende como derecho histórico foral de Euskadi y Navarra, no como una fórmula exportable a cualquier comunidad.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "El PNV, custodio del cupo, recela de la \"financiación singular\" para Cataluña: \"Puede dañar lo nuestro\"",
+        "url": "https://www.elespanol.com/espana/20240623/pnv-custodio-cupo-recela-financiacion-singular-cataluna-puede-danar/864414055_0.html",
+        "fecha": "2024-06-23",
+        "consultado": "2026-07-10",
+        "cita": "puede dañar lo nuestro"
+      }
+    },
+    "nac-008": {
+      "valor": -1,
+      "justificacion": "El PNV sostiene que el Concierto Económico es un derecho histórico anclado en la disposición adicional primera de la Constitución, exclusivo de los territorios forales vascos y navarro, no un formato disponible para cualquier comunidad que lo solicite; de ahí su recelo ante la financiación singular de Cataluña, que teme que erosione ese carácter exclusivo.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "El PNV, custodio del cupo, recela de la \"financiación singular\" para Cataluña: \"Puede dañar lo nuestro\"",
+        "url": "https://www.elespanol.com/espana/20240623/pnv-custodio-cupo-recela-financiacion-singular-cataluna-puede-danar/864414055_0.html",
+        "fecha": "2024-06-23",
+        "consultado": "2026-07-10"
+      }
+    },
+    "sd-005": {
+      "valor": 1,
+      "justificacion": "El PNV recela de que la financiación singular catalana se homologue o extienda a partir del concierto vasco, por temor a que la comparación termine dañando su propio modelo; sin bloquear la negociación entre Cataluña y el Estado, defiende que el concierto y el convenio son fórmulas forales propias y no una plantilla generalizable a otras comunidades.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "El PNV, custodio del cupo, recela de la \"financiación singular\" para Cataluña: \"Puede dañar lo nuestro\"",
+        "url": "https://www.elespanol.com/espana/20240623/pnv-custodio-cupo-recela-financiacion-singular-cataluna-puede-danar/864414055_0.html",
+        "fecha": "2024-06-23",
+        "consultado": "2026-07-10"
+      }
+    },
+    "dem-034": {
+      "valor": 1,
+      "justificacion": "El PNV defendió en el Parlamento Vasco (2017, recogiendo la propuesta del lehendakari Urkullu) la fórmula confederal --\"estados que conservan su soberanía y se rigen por unas determinadas leyes comunes\", con la UE como referencia-- como vía para resolver el encaje territorial. Su programa vigente (2024) opta a corto plazo por un pacto bilateral y una actualización estatutaria, más moderados que esa aspiración confederal de fondo.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Egibar: \"La fórmula de un Estado confederal puede ser la vía para salir del laberinto político territorial del Estado español\"",
+        "url": "https://www.eaj-pnv.eus/noticias/egibar-formula-estado-confederal-puede_45998.html",
+        "fecha": "2017-09-21",
+        "consultado": "2026-07-10",
+        "cita": "estados que conservan su soberanía y se rigen por unas determinadas leyes comunes"
+      }
+    },
+    "sd-004": {
+      "valor": 2,
+      "justificacion": "El acuerdo de investidura entre EAJ-PNV y PSOE (noviembre 2023) incluye expresamente negociar el reconocimiento de la plurinacionalidad del Estado y el carácter nacional de Euskadi como base de un nuevo estatus: fue condición central que el PNV puso para apoyar la investidura de Sánchez.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Acuerdo de investidura EAJ-PNV / PSOE",
+        "url": "https://www.eaj-pnv.eus/es/documentos/21097/acuerdo-de-investidura-eaj-pnv-psoe",
+        "fecha": "2023-11-09",
+        "consultado": "2026-07-10"
+      }
     }
   }
 }

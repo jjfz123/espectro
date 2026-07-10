@@ -43,6 +43,19 @@
             "fecha": "2024-11",
             "consultado": "2026-07-10"
           }
+        },
+        "eco-012": {
+          "valor": -1,
+          "estadoCompromiso": "incumplido",
+          "justificacion": "El acuerdo de investidura PSOE-Sumar de octubre de 2023 ya contemplaba aumentar los conciertos educativos, y en octubre de 2024 el Ministerio de Educación confirmó que subiría la financiación de los centros concertados (a cambio de eliminar cuotas y garantizar la gratuidad real): la conducta del Gobierno de coalición fue la contraria a lo que Sumar reclamaba esas mismas semanas, no una reducción gradual de los conciertos.",
+          "calidadEvidencia": "alta",
+          "fuente": {
+            "tipo": "otro",
+            "titulo": "PSOE-Sumar, un acuerdo de investidura que contempla aumentar los conciertos educativos (El Diario de la Educación)",
+            "url": "https://eldiariodelaeducacion.com/2023/10/25/psoe-sumar-un-acuerdo-de-investidura-que-contempla-aumentar-los-conciertos-educativos/",
+            "fecha": "2023-10-25",
+            "consultado": "2026-07-10"
+          }
         }
       }
     }
@@ -431,6 +444,297 @@
         "fecha": "2024-12-23",
         "consultado": "2026-07-10",
         "cita": "Sumar reconoce desgaste y apuesta por una república federal y plurinacional"
+      }
+    },
+    "eco-002": {
+      "valor": -2,
+      "justificacion": "Yolanda Díaz exigió en diciembre de 2025 investigar las privatizaciones sanitarias en todo el país a raíz del caso del Hospital de Torrejón, afirmando que «nuestra salud no puede estar en manos privadas» y que la sanidad «no puede ser un negocio»: rechaza frontalmente que la gestión privada mejore la eficiencia del sistema.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Yolanda Díaz exige investigar las privatizaciones en sanidad en todo el país tras el caso del Hospital de Torrejón (Infobae)",
+        "url": "https://www.infobae.com/espana/agencias/2025/12/05/yolanda-diaz-exige-investigar-las-privatizaciones-en-sanidad-en-todo-el-pais-tras-el-caso-del-hospital-de-torrejon/",
+        "fecha": "2025-12-05",
+        "consultado": "2026-07-10",
+        "cita": "Nuestra salud no puede estar en manos privadas"
+      }
+    },
+    "eco-004": {
+      "valor": -1,
+      "justificacion": "Sumar acepta que España debe mantenerse dentro de los márgenes de déficit y deuda pactados con la UE (sus ministros aprueban en Consejo de Ministros las sucesivas sendas de estabilidad), pero rechaza subordinar el gasto social a ese objetivo: sostiene que cumplir esos márgenes exige revisar la progresividad fiscal, no contener el gasto, para no repetir la austeridad de 2008. Ni rechazo pleno a la disciplina fiscal ni prioridad del ajuste sobre lo social: posición intermedia.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "El debate europeo sobre el regreso a la austeridad sobrevuela la negociación de los Presupuestos entre PSOE y Sumar (Público)",
+        "url": "https://www.publico.es/politica/debate-europeo-sobre-regreso-austeridad-sobrevuela-negociacion-presupuestos-psoe-sumar.html",
+        "fecha": "2024-01-30",
+        "consultado": "2026-07-10"
+      }
+    },
+    "der-012": {
+      "valor": 2,
+      "justificacion": "Práctica constante de Yolanda Díaz como ministra de Trabajo: la reforma laboral de 2021 (Real Decreto-ley 32/2021) se negoció y cerró con CEOE, CEPYME, CCOO y UGT antes de su aprobación en Consejo de Ministros, uno de los trece pactos de diálogo social de la legislatura; el propio Gobierno la presentó como fruto del acuerdo entre Ejecutivo, sindicatos y patronal, no como una reforma impuesta unilateralmente.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "El Gobierno aprueba la reforma del mercado laboral para acabar con la precariedad y la temporalidad (La Moncloa)",
+        "url": "https://www.lamoncloa.gob.es/consejodeministros/resumenes/Paginas/2021/281221-rp-cministros.aspx",
+        "fecha": "2021-12-28",
+        "consultado": "2026-07-10"
+      }
+    },
+    "eco-012": {
+      "valor": 1,
+      "justificacion": "Sumar se opone a que el Gobierno amplíe la financiación de la concertada: en octubre de 2024 su diputado de IU Toni Valero reclamó dirigir el esfuerzo presupuestario a la escuela pública y no a los centros concertados, advirtiendo de que financiar más a centros que incumplen la ley premia a quien no respeta la normativa educativa. No llega a pedir la eliminación de los conciertos, pero rechaza cualquier ampliación (contrástese con la conducta real de gobierno en dobleLectura).",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Sumar pide al Gobierno que el Estado refuerce a la escuela pública y no a la concertada (Infobae)",
+        "url": "https://www.infobae.com/espana/agencias/2024/10/23/sumar-pide-al-gobierno-que-el-estado-refuerce-a-la-escuela-publica-y-no-a-la-concertada/",
+        "fecha": "2024-10-23",
+        "consultado": "2026-07-10"
+      }
+    },
+    "sd-011": {
+      "valor": 2,
+      "justificacion": "El Documento Político de Sumar incluye la creación de una empresa pública de energía, de titularidad estatal, que gestione las centrales hidroeléctricas a medida que venzan las concesiones y compita con las eléctricas privadas; Yolanda Díaz relanzó la propuesta en 2023 aprovechando la entrada de la SEPI en el capital de Telefónica.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Yolanda Díaz impulsa su plan para crear una empresa pública de energía tras la compra de Telefónica (OKDiario)",
+        "url": "https://okdiario.com/espana/yolanda-diaz-impulsa-plan-crear-empresa-publica-energia-compra-telefonica-12103959",
+        "fecha": "2023-12-21",
+        "consultado": "2026-07-10"
+      }
+    },
+    "ene-007": {
+      "valor": 2,
+      "justificacion": "Misma propuesta que sd-011 aplicada al módulo energético: el Documento Político plantea una empresa pública de generación y comercialización (arrancando por las hidroeléctricas al vencer sus concesiones) que compita con las privadas, no que las sustituya.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Yolanda Díaz impulsa su plan para crear una empresa pública de energía tras la compra de Telefónica (OKDiario)",
+        "url": "https://okdiario.com/espana/yolanda-diaz-impulsa-plan-crear-empresa-publica-energia-compra-telefonica-12103959",
+        "fecha": "2023-12-21",
+        "consultado": "2026-07-10"
+      }
+    },
+    "sd-012": {
+      "valor": 1,
+      "justificacion": "Su propuesta concreta y documentada no es expropiar las eléctricas ya existentes, sino crear una nueva empresa pública que compita con ellas (ver sd-011/ene-007); solo tras el apagón de abril de 2025 Yolanda Díaz reclamó que la red de transporte —no la generación en manos privadas— pasara a «manos públicas» por ser un monopolio natural. Apuesta por una presencia pública fuerte, pero no ha formulado el traspaso a titularidad pública de las grandes compañías eléctricas como tales.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Yolanda Díaz se apoya en el apagón para exigir al Gobierno que la red eléctrica pase «a manos públicas» como un sector estratégico (El Economista)",
+        "url": "https://www.eleconomista.es/energia/noticias/13340994/04/25/sumar-pide-la-depuracion-de-responsabilidades-del-oligopolio-energetico-tras-el-apagon-y-hacer-que-la-red-electrica-sea-100-publica.html",
+        "fecha": "2025-04-30",
+        "consultado": "2026-07-10"
+      }
+    },
+    "ene-005": {
+      "valor": -1,
+      "justificacion": "Rechaza que la generación y comercialización eléctrica deban ser «principalmente» privadas, pero su propuesta documentada (empresa pública que compita con las privadas, ver sd-011/ene-007) asume un mercado mixto en el que las empresas privadas siguen operando, no la sustitución del sector privado por un monopolio estatal.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Yolanda Díaz impulsa su plan para crear una empresa pública de energía tras la compra de Telefónica (OKDiario)",
+        "url": "https://okdiario.com/espana/yolanda-diaz-impulsa-plan-crear-empresa-publica-energia-compra-telefonica-12103959",
+        "fecha": "2023-12-21",
+        "consultado": "2026-07-10"
+      }
+    },
+    "ene-004": {
+      "valor": 2,
+      "justificacion": "Tras el apagón peninsular del 28 de abril de 2025, Yolanda Díaz reclamó explícitamente que la red eléctrica de transporte y distribución pasara a «manos públicas» por tratarse de un sector estratégico y un monopolio natural, y Sumar pidió que la red fuera «100% pública».",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Yolanda Díaz se apoya en el apagón para exigir al Gobierno que la red eléctrica pase «a manos públicas» como un sector estratégico (El Economista)",
+        "url": "https://www.eleconomista.es/energia/noticias/13340994/04/25/sumar-pide-la-depuracion-de-responsabilidades-del-oligopolio-energetico-tras-el-apagon-y-hacer-que-la-red-electrica-sea-100-publica.html",
+        "fecha": "2025-04-30",
+        "consultado": "2026-07-10",
+        "cita": "que la red eléctrica pase a estar en «manos públicas»"
+      }
+    },
+    "fem-010": {
+      "valor": 2,
+      "justificacion": "Su grupo parlamentario votó a favor de la Ley Orgánica 2/2024 de representación paritaria (cuota mínima del 40% de mujeres en los consejos de administración de sociedades cotizadas y grandes empresas), aprobada el 27 de junio de 2024 con el voto en contra de PP y Vox; su portavoz pidió además ir más allá con más derechos de conciliación para todas las mujeres.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "El Congreso aprueba la ley de paridad con el voto en contra de PP y Vox (The Objective)",
+        "url": "https://theobjective.com/espana/politica/2024-06-27/congreso-aprueba-paridad-pp-vox/",
+        "fecha": "2024-06-27",
+        "consultado": "2026-07-10"
+      }
+    },
+    "izq-046": {
+      "valor": -1,
+      "justificacion": "Yolanda Díaz avaló en marzo de 2025 el acuerdo entre PSOE y Junts que refuerza el control fronterizo y migratorio (traspaso de competencias, gestión de expulsiones), argumentando que «respeta los derechos humanos»: defiende un modelo de acogida y regularización, pero no una libertad de movimiento sin control estatal de fronteras.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Yolanda Díaz conocía el acuerdo entre PSOE y Junts y apunta que «no altera las competencias del Estado» en inmigración (Infobae)",
+        "url": "https://www.infobae.com/espana/agencias/2025/03/04/yolanda-diaz-conocia-el-acuerdo-entre-psoe-y-junts-y-apunta-que-no-altera-las-competencias-del-estado-en-inmigracion/",
+        "fecha": "2025-03-04",
+        "consultado": "2026-07-10"
+      }
+    },
+    "soc-002": {
+      "valor": -2,
+      "justificacion": "Yolanda Díaz rechazó en agosto de 2024 que la respuesta a la inmigración irregular sean las devoluciones masivas, calificando esa vía de «recetas de la derecha» que han «fracasado», y abogó en su lugar por tramitar la regularización extraordinaria en curso en el Congreso.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Díaz rechaza «seguir las recetas de la derecha» y aboga por la regularización de inmigrantes (The Objective)",
+        "url": "https://theobjective.com/espana/politica/2024-08-29/yolanda-diaz-deportaciones-regularizacion-inmigrantes/",
+        "fecha": "2024-08-29",
+        "consultado": "2026-07-10",
+        "cita": "seguir las recetas de la derecha"
+      }
+    },
+    "dr-003": {
+      "valor": -2,
+      "justificacion": "Su rechazo a las devoluciones masivas (ver soc-002) es incompatible con promover, además, el retorno de inmigrantes en situación regular: Sumar defiende la regularización de quienes ya trabajan y residen en España, no su retorno al país de origen.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Díaz rechaza «seguir las recetas de la derecha» y aboga por la regularización de inmigrantes (The Objective)",
+        "url": "https://theobjective.com/espana/politica/2024-08-29/yolanda-diaz-deportaciones-regularizacion-inmigrantes/",
+        "fecha": "2024-08-29",
+        "consultado": "2026-07-10"
+      }
+    },
+    "der-018": {
+      "valor": 2,
+      "justificacion": "Votó a favor de tramitar la ILP de regularización extraordinaria de personas migrantes (09-04-2024) y Yolanda Díaz reclamó públicamente aprobarla para dar papeles a cientos de miles de trabajadores esenciales sin derechos garantizados que ya viven y trabajan en España.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "El Congreso aprueba debatir la ILP sobre la regularización extraordinaria de personas migrantes (La Marea)",
+        "url": "https://www.lamarea.com/2024/04/09/el-congreso-aprueba-debatir-la-ilp-sobre-la-regularizacion-extraordinaria-de-personas-migrantes/",
+        "fecha": "2024-04-09",
+        "consultado": "2026-07-10"
+      }
+    },
+    "fem-012": {
+      "valor": 2,
+      "justificacion": "Sus fuerzas integrantes (Unidas Podemos y las confluencias que después se integran en Sumar) impulsaron y votaron la Ley Orgánica 1/2023, que devolvió a las jóvenes de 16 y 17 años la capacidad de decidir sobre la interrupción de su embarazo sin consentimiento paterno o materno; ninguna organización de Sumar ha propuesto revertirlo.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "Ley Orgánica 1/2023, de 28 de febrero, de salud sexual y reproductiva y de la interrupción voluntaria del embarazo (BOE)",
+        "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2023-5364",
+        "fecha": "2023-02-28",
+        "consultado": "2026-07-10"
+      }
+    },
+    "der-019": {
+      "valor": 2,
+      "justificacion": "Incluyó la derogación de la prisión permanente revisable entre sus primeras propuestas programáticas en mayo de 2023 (misma posición que soc-006); sus organizaciones integrantes la mantienen desde el recurso de inconstitucionalidad de 2015.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Sumar pide derogar la prisión permanente revisable y cerrar los centros de inmigrantes (The Objective)",
+        "url": "https://theobjective.com/espana/politica/2023-05-02/sumar-derogar-prision-permanente-revisable-cerrar-centros-inmigrantes/",
+        "fecha": "2023-05-02",
+        "consultado": "2026-07-10"
+      }
+    },
+    "cat-006": {
+      "valor": 1,
+      "justificacion": "Yolanda Díaz avaló en marzo de 2025 el pacto PSOE-Junts para traspasar a la Generalitat la gestión de permisos de residencia y expulsiones, y en la votación de septiembre de 2025 la inmensa mayoría del Grupo Plurinacional Sumar (incluida IU) votó a favor de tramitarlo; solo dos de sus diputados (Compromís y Chunta Aragonesista) rompieron la disciplina de voto y lo rechazaron, por lo que la iniciativa cayó por 177 votos en contra frente a 173 a favor.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "El Congreso veta el traspaso de inmigración a Cataluña: Podemos y dos diputados de Sumar se suman al rechazo y abren una grieta entre el Gobierno y Junts (Infobae)",
+        "url": "https://www.infobae.com/espana/2025/09/23/el-congreso-veta-al-traspaso-de-inmigracion-a-cataluna-con-177-votos-en-contra-podemos-y-dos-diputados-de-sumar-se-suman-al-rechazo-y-abren-una-grieta-entre-el-gobierno-y-junts/",
+        "fecha": "2025-09-23",
+        "consultado": "2026-07-10"
+      }
+    },
+    "ter-003": {
+      "valor": 0,
+      "justificacion": "Posición internamente dividida y no resuelta: Catalunya en Comú, la principal confluencia de Sumar en Cataluña, respalda una financiación singular para Cataluña, mientras Compromís y Chunta Aragonesista (también del Grupo Plurinacional) rechazan cualquier trato singular si no se corrige antes la infrafinanciación de sus propios territorios (Comunidad Valenciana y Aragón). Sumar no tiene una posición unificada sobre extender el modelo a más comunidades.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "La financiación singular para Cataluña profundiza la división en Sumar (Mundiario)",
+        "url": "https://www.mundiario.com/articulo/politica/financiacion-singular-cataluna-profundiza-division-sumar/20240807183302315076.html",
+        "fecha": "2024-08-07",
+        "consultado": "2026-07-10"
+      }
+    },
+    "sd-005": {
+      "valor": -1,
+      "justificacion": "Ninguna fuerza del Grupo Plurinacional defiende limitar la financiación singular al País Vasco: Comuns la reclama para Cataluña y Compromís/Chunta Aragonesista exigen que se extienda también a sus territorios infrafinanciados si se aplica a Cataluña; la división interna es sobre el cómo y el orden, no sobre mantenerla como privilegio exclusivamente vasco (ver ter-003).",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "La financiación singular para Cataluña profundiza la división en Sumar (Mundiario)",
+        "url": "https://www.mundiario.com/articulo/politica/financiacion-singular-cataluna-profundiza-division-sumar/20240807183302315076.html",
+        "fecha": "2024-08-07",
+        "consultado": "2026-07-10"
+      }
+    },
+    "dem-034": {
+      "valor": -2,
+      "justificacion": "Al constituir su grupo parlamentario en agosto de 2023, Sumar abandonó deliberadamente la denominación «confederal» que había usado Unidas Podemos y la sustituyó por «Grupo Parlamentario Plurinacional»: su horizonte declarado (ver dem-033) es una reforma constitucional federal, no una confederación de territorios soberanos que deleguen competencias limitadas en instituciones comunes.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Sumar refuerza su identidad «plurinacional» con su nuevo grupo parlamentario (Mundiario)",
+        "url": "https://www.mundiario.com/articulo/politica/sumar-refuerza-identidad-plurinacional-nuevo-grupo-parlamentario/20230813190654277263.html",
+        "fecha": "2023-08-13",
+        "consultado": "2026-07-10"
+      }
+    },
+    "dem-035": {
+      "valor": -2,
+      "justificacion": "Su modelo declarado es un Estado federal y plurinacional (ver dem-033/dem-034), no una confederación con derecho legal de salida para sus territorios: el propio programa del 23J descarta el referéndum de autodeterminación y plantea una consulta pactada de ratificación (ver ter-002), incompatible con reconocer de antemano un derecho unilateral de salida.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "El programa de Sumar: sin referéndum pero con consulta sobre la mesa de diálogo (ARA)",
+        "url": "https://es.ara.cat/politica/elecciones-generales/programa-sumar-referendum-consulta-mesa-dialogo_1_4754782.html",
+        "fecha": "2023-07",
+        "consultado": "2026-07-10"
+      }
+    },
+    "nac-002": {
+      "valor": -2,
+      "justificacion": "Su horizonte declarado no es la independencia sino la reforma constitucional hacia una república federal y plurinacional (ver dem-033); el programa del 23J no incluye un referéndum de autodeterminación, sino una consulta pactada para ratificar el acuerdo de la mesa de diálogo: un encaje de más autogobierno dentro de España, no un Estado independiente.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "El programa de Sumar: sin referéndum pero con consulta sobre la mesa de diálogo (ARA)",
+        "url": "https://es.ara.cat/politica/elecciones-generales/programa-sumar-referendum-consulta-mesa-dialogo_1_4754782.html",
+        "fecha": "2023-07",
+        "consultado": "2026-07-10"
+      }
+    },
+    "izq-038": {
+      "valor": -1,
+      "justificacion": "Su modelo territorial es la reforma federal del Estado (ver dem-033/dem-034), con instituciones comunes fuertes, no la disolución del poder central en municipios y asambleas confederadas libremente: al formar su grupo parlamentario en 2023 abandonó expresamente la terminología «confederal» que usaba Unidas Podemos.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Sumar refuerza su identidad «plurinacional» con su nuevo grupo parlamentario (Mundiario)",
+        "url": "https://www.mundiario.com/articulo/politica/sumar-refuerza-identidad-plurinacional-nuevo-grupo-parlamentario/20230813190654277263.html",
+        "fecha": "2023-08-13",
+        "consultado": "2026-07-10"
+      }
+    },
+    "der-014": {
+      "valor": 1,
+      "justificacion": "Su modelo de federalismo asimétrico reconoce un estatus diferenciado a las nacionalidades históricas y ninguna de sus fuerzas ha cuestionado la vigencia del concierto vasco o el convenio navarro; su debate interno sobre financiación singular (ver ter-003/sd-005) discute extender un trato similar a otros territorios, no suprimir los regímenes forales existentes. Inferencia razonada a falta de una declaración específica sobre el concierto vasco-navarro.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Sumar refuerza su identidad «plurinacional» con su nuevo grupo parlamentario (Mundiario)",
+        "url": "https://www.mundiario.com/articulo/politica/sumar-refuerza-identidad-plurinacional-nuevo-grupo-parlamentario/20230813190654277263.html",
+        "fecha": "2023-08-13",
+        "consultado": "2026-07-10"
       }
     }
   }

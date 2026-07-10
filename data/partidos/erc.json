@@ -245,6 +245,187 @@
         "fecha": "2018-03-15",
         "consultado": "2026-07-10"
       }
+    },
+    "eco-004": {
+      "valor": 1,
+      "justificacion": "El 10-01-2024 ERC votó a favor de los objetivos de estabilidad presupuestaria y deuda 2024-2026 (déficit del 3% en 2024 al 2,5% en 2026), junto a PSOE, Sumar, PNV, Junts, Bildu, CC y BNG, paso previo para tramitar los Presupuestos. Fue un apoyo instrumental y condicionado a sus propias exigencias (financiación singular, inversión), no una adhesión ideológica a que la deuda deba primar sobre el gasto social como principio general: por eso +1 y no +2.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "El Congreso aprueba los objetivos de déficit y abre camino a los Presupuestos de 2024 (elEconomista)",
+        "url": "https://www.eleconomista.es/economia/noticias/12618160/01/24/el-congreso-aprueba-los-objetivos-de-deficit-y-abre-camino-a-los-presupuestos-de-2024.html",
+        "fecha": "2024-01-10",
+        "consultado": "2026-07-10"
+      }
+    },
+    "eco-007": {
+      "valor": 0,
+      "justificacion": "El 14-11-2024 ERC votó, junto a PP, Junts, PNV, UPN y CC, una enmienda del PNV que incluye la usurpación de vivienda entre los delitos con juicio rápido, agilizando el desalojo de okupas a semanas. Días después ERC (como Bildu) reconoció el voto como un «error» y anunció que intentaría revertirlo, sin éxito por falta de mayoría. Evidencia mixta -voto real a favor seguido de repudio público inmediato-, de ahí el 0.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "Bildu y ERC votan en el Congreso junto al PP, Junts y PNV una reforma para agilizar los desahucios de 'okupas' (El Español)",
+        "url": "https://www.elespanol.com/espana/politica/20241114/bildu-erc-votan-congreso-junto-pp-junts-pnv-cambio-legal-agilizar-desahucios/901160469_0.html",
+        "fecha": "2024-11-14",
+        "consultado": "2026-07-10"
+      }
+    },
+    "eco-009": {
+      "valor": -2,
+      "justificacion": "Frente a las propuestas de Junts, PP y Ciudadanos de reducir o eliminar el impuesto de sucesiones en Catalunya, ERC se sitúa junto a PSC, Comuns y CUP defendiendo mantener o incrementar este tributo por su función redistributiva: rechaza su supresión.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Sucesiones, el impuesto redistributivo que las derechas quieren reducir o eliminar en Catalunya (Público)",
+        "url": "https://www.publico.es/politica/sucesiones-impuesto-redistributivo-derechas-quieren-reducir-eliminar-catalunya.html",
+        "fecha": "2024-05-08",
+        "consultado": "2026-07-10"
+      }
+    },
+    "eco-010": {
+      "valor": -2,
+      "justificacion": "ERC, junto a Bildu y BNG, registró en marzo de 2023 una proposición de ley integral que deroga la reforma laboral de 2012 y recupera la indemnización de 45 días de salario por año en el despido improcedente (frente a los 33 días vigentes): posición opuesta a abaratar el despido.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "ERC, Bildu y BNG llevan al Congreso su reforma laboral para recuperar la indemnización de 45 días por despido (Forbes España)",
+        "url": "https://forbes.es/ultima-hora/246547/erc-bildu-y-bng-llevan-al-congreso-su-reforma-laboral-para-recuperar-la-indemnizacion-de-45-dias-por-despido/",
+        "fecha": "2023-03-12",
+        "consultado": "2026-07-10"
+      }
+    },
+    "eco-012": {
+      "valor": 0,
+      "justificacion": "El acuerdo de Pressupostos 2026 entre el Govern y ERC (19-05-2026) crea 250 aulas de acogida en centros públicos, pero también 150 en concertados y 50 en FP: la negociación de ERC no busca eliminar la financiación a la concertada sino ampliarla en paralelo a la pública, en contraste con su discurso previo pidiendo reducir su oferta en zonas tensionadas. Evidencia mixta entre pedir menos conciertos y, en la práctica negociadora, sostenerlos: de ahí el 0.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "El president Illa i Oriol Junqueras signen l'acord per impulsar els Pressupostos per al 2026 (govern.cat)",
+        "url": "https://govern.cat/salapremsa/notes-premsa/824904/el-president-illa-i-oriol-junqueras-signen-l-acord-per-impulsar-els-pressupostos-per-al-2026",
+        "fecha": "2026-05-19",
+        "consultado": "2026-07-10"
+      }
+    },
+    "fem-007": {
+      "valor": -2,
+      "justificacion": "El portavoz de ERC en el Congreso, Gabriel Rufián, calificó el veto parental impulsado por Vox de «pin neandertal», «otro intento más de la ultraderecha por volver a tiempos pasados»; posición coherente con el apoyo de ERC a la LOMLOE, que en 2020 eliminó la posibilidad de exigir autorización previa de las familias para actividades curriculares como la educación afectivo-sexual.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "¿Pin parental, pin Abascal o veto parental? (El Plural)",
+        "url": "https://www.elplural.com/politica/espana/pin-parental-pin-abascal-veto-parental_231579102",
+        "fecha": "2020",
+        "consultado": "2026-07-10",
+        "cita": "pin neandertal"
+      }
+    },
+    "fem-012": {
+      "valor": 2,
+      "justificacion": "El 16 de febrero de 2023 el Congreso aprobó definitivamente la reforma que elimina la obligación de consentimiento paterno para que las jóvenes de 16 y 17 años interrumpan su embarazo, con 185 votos a favor y solo la oposición de PP, Vox y Cs; ERC apoyó la norma en el pleno.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "El Congreso aprueba la reforma de la ley del aborto con 185 votos: sólo se oponen PP, Vox y Cs (El Español)",
+        "url": "https://www.elespanol.com/espana/politica/20230216/congreso-aprueba-reforma-aborto-pp-vox-cs/741925881_0.html",
+        "fecha": "2023-02-16",
+        "consultado": "2026-07-10"
+      }
+    },
+    "soc-002": {
+      "valor": -2,
+      "justificacion": "ERC presiona por ampliar la regularización de migrantes: en 2024 firmó junto a Bildu, Podemos y BNG una enmienda para eliminar cualquier fecha límite en la regularización extraordinaria, y en 2025 valoró que la propuesta revisada del PSOE (con corte en marzo de 2025) «va en la buena dirección». Rechaza que la devolución sea la respuesta prioritaria a la inmigración irregular, aunque aceptó pragmáticamente una versión acotada en el tiempo frente a su demanda inicial sin límites.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "La nueva propuesta para regularizar a migrantes del PSOE atrae a Sumar, ERC o Bildu pero no a Podemos (Público)",
+        "url": "https://www.publico.es/politica/congreso/nueva-propuesta-regularizar-migrantes-psoe-atrae-sumar-erc-bildu-pero-podemos.html",
+        "fecha": "2025-06-12",
+        "consultado": "2026-07-10"
+      }
+    },
+    "nac-013": {
+      "valor": 1,
+      "justificacion": "ERC firmó y votó a favor de la reforma del Reglamento del Congreso (180 a favor, 170 en contra, 21-09-2023) que permite usar catalán, euskera, gallego y aranés en la actividad parlamentaria, y habilita también el bable y el aragonés, aunque estas dos, al no ser lenguas oficiales, requieren traducción. Apoya extender el reconocimiento institucional a lenguas minoritarias, pero el logro se queda en un uso tolerado y no en la plena cooficialidad territorial que pide el ítem: por eso +1 y no +2.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "El Congreso aprueba el uso de las lenguas cooficiales, en directo (elDiario.es)",
+        "url": "https://www.eldiario.es/politica/congreso-aprueba-lenguas-cooficiales-directo_6_10525819.html",
+        "fecha": "2023-09-21",
+        "consultado": "2026-07-10"
+      }
+    },
+    "ter-002": {
+      "valor": 2,
+      "justificacion": "La ponència estratègica aprovada por el XXX Congrés Nacional apuesta explícitamente por un referèndum d'autodeterminació pactado con el Estado (con umbrales orientativos del 50% de participación y 55% de apoyo al sí, según el modelo de Montenegro) como vía para negociar la independencia: apoyo pleno a que los territorios que lo deseen puedan celebrar ese referéndum.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Ponència estratègica aprovada del XXX Congrés Nacional d'ERC",
+        "url": "https://static.esquerra.cat/uploads/20250324/30cgn-ponencia-estrategica-aprovada.pdf",
+        "fecha": "2025-03-15",
+        "consultado": "2026-07-10"
+      }
+    },
+    "ter-003": {
+      "valor": 1,
+      "justificacion": "ERC negoció y condicionó la investidura de Salvador Illa (agosto de 2024) a un «concierto económico solidario»/financiación singular que traslada el modelo del concierto vasco a Catalunya (recaudación, gestión y liquidación de todos los impuestos). El Gobierno lo presentó como un modelo «generalizable» a otras comunidades que lo soliciten, y ERC no se opuso a ese marco, aunque su demanda nuclear era la financiación catalana y no un principio universal para todas las CCAA: por eso +1 y no +2.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "¿Qué es un concierto económico? Las claves del acuerdo entre PSOE y ERC (Artículo 14)",
+        "url": "https://www.articulo14.es/politica/que-es-un-concierto-economico-las-claves-del-acuerdo-entre-psoe-y-erc-20240730.html",
+        "fecha": "2024-07-30",
+        "consultado": "2026-07-10"
+      }
+    },
+    "ter-004": {
+      "valor": -2,
+      "justificacion": "ERC votó junto a PSOE y Podemos la enmienda de la LOMLOE (05-11-2020) que suprime la mención del castellano como lengua «vehicular», remitiendo la garantía lingüística a las comunidades autónomas: rechaza frontalmente que la ley deba garantizar el castellano como vehicular en las aulas de todas las comunidades.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "PSOE, Podemos y ERC aprueban que el castellano deje de ser lengua vehicular en la Educación (El Independiente)",
+        "url": "https://www.elindependiente.com/espana/2020/11/05/psoe-podemos-y-erc-aprueban-que-el-castellano-deje-de-ser-lengua-vehicular-en-la-educacion/",
+        "fecha": "2020-11-05",
+        "consultado": "2026-07-10"
+      }
+    },
+    "ter-005": {
+      "valor": -2,
+      "justificacion": "Ante la proposición del PP en el Senado (tramitación iniciada en febrero de 2026) para sancionar a cargos y funcionarios que no respeten la bandera española, los senadores de ERC calificaron la norma de inconstitucional y denunciaron el «totalitarismo» de imponer una «sumisión simbólica» incompatible con la libertad ideológica y el pluralismo político.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "El Senado tramita una ley para sancionar a cargos y funcionarios que no respeten la bandera española (Noticias de Álava)",
+        "url": "https://www.noticiasdealava.eus/politica/2026/02/04/senado-comienza-tramitar-ley-pp-bandera-espana-10656526.html",
+        "fecha": "2026-02-04",
+        "consultado": "2026-07-10"
+      }
+    },
+    "cat-003": {
+      "valor": 2,
+      "justificacion": "ERC negoció y votó a favor de la ley de amnistía del procés (30-05-2024), presentándola como la salida política y jurídica al conflicto catalán frente a la vía penal: una solución pactada con el Estado, no una ruptura unilateral.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "El Congreso aprueba definitivamente la ley de amnistía con 177 votos a favor y 172 en contra (COPE)",
+        "url": "https://www.cope.es/actualidad/espana/noticias/congreso-aprueba-ley-amnistia-20240530_3324407",
+        "fecha": "2024-05-30",
+        "consultado": "2026-07-10"
+      }
+    },
+    "sd-004": {
+      "valor": 1,
+      "justificacion": "ERC y Bildu reclamaron conjuntamente «el reconocimiento de Catalunya y Euskal Herria como naciones», en línea con una lógica plurinacional. ERC no rechaza el reconocimiento constitucional de la plurinacionalidad como avance, aunque su objetivo final siga siendo la independencia y no la permanencia en un Estado plurinacional español: por eso +1 y no +2.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Junqueras y Otegi abordan la situación internacional y profundizar en la relación de ERC y Bildu (Infobae)",
+        "url": "https://www.infobae.com/espana/agencias/2026/03/10/junqueras-y-otegi-abordan-la-situacion-internacional-y-profundizar-en-la-relacion-de-erc-y-bildu/",
+        "fecha": "2026-03-10",
+        "consultado": "2026-07-10"
+      }
     }
   }
 }

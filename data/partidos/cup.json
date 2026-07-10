@@ -129,6 +129,242 @@
         "fecha": "2024-07",
         "consultado": "2026-07-09"
       }
+    },
+    "eco-005": {
+      "valor": 2,
+      "justificacion": "Apoyó junto a ERC, JxCat y els Comuns la ley catalana de 2020 que limita por ley el precio del alquiler en las zonas tensionadas y reclama ir más allá, prohibiendo la compra especulativa de vivienda.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "Qui ha limitat el preu del lloguer a Catalunya?",
+        "url": "https://www.verificat.cat/qui-ha-limitat-el-preu-del-lloguer-a-catalunya/",
+        "fecha": "2020-09",
+        "consultado": "2026-07-10"
+      }
+    },
+    "eco-006": {
+      "valor": 1,
+      "justificacion": "Su Pla Independitza't (2024) propone ampliar el parque público de vivienda movilizando más de 400.000 pisos vacíos de grandes tenedores; prioriza la movilización de vivienda existente sobre la obra nueva, un matiz frente al ítem.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "La CUP proposa d'ampliar el parc públic d'habitatge amb més de 400.000 pisos buits",
+        "url": "https://www.vilaweb.cat/noticies/cup-habitatge-pisos-buits-eleccions-catalunya-2024/",
+        "fecha": "2024",
+        "consultado": "2026-07-10"
+      }
+    },
+    "eco-007": {
+      "valor": -2,
+      "justificacion": "Exige a las instituciones garantizar el derecho a la vivienda y frenar la represión contra quienes ocupan viviendas vacías, defendiendo la desobediencia a normas que anteponen la especulación al derecho a un techo digno; se opone al desalojo exprés.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Des de la CUP-CC i la CUP Capgirem Barcelona exigim a les institucions que garanteixin el dret a l'habitatge, i aturin la repressió",
+        "url": "https://cup.cat/cup-cc-cup-capgirem-barcelona-exigim-institucions/",
+        "consultado": "2026-07-10"
+      }
+    },
+    "eco-009": {
+      "valor": -2,
+      "justificacion": "Votó junto a PSC, ERC y els Comuns para tumbar la propuesta del PP de suprimir el impuesto de sucesiones y donaciones en el Parlament, y reclama recuperar su regulación anterior a 2010.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "PSC, ERC, Comuns i CUP tomben la supressió de l'impost de successions i donacions del PP al Parlament",
+        "url": "https://www.elnacional.cat/ca/politica/psc-erc-comuns-cup-tomben-supressio-impost-successions-donacions-pp-parlament_1599479_102.html",
+        "consultado": "2026-07-10"
+      }
+    },
+    "eco-013": {
+      "valor": -2,
+      "justificacion": "Mantiene una campaña activa para exigir la prohibición de la actividad privada dentro de los centros sanitarios públicos, defendiendo un modelo 100% público sin derivación de pacientes a la privada.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "La CUP intensifica la campanya per exigir la prohibició de l'activitat privada als centres sanitaris públics",
+        "url": "https://cup.cat/noticia/la-cup-intensifica-la-campanya-exigir-la-prohibicio-de-lactivitat-privada-als-centres",
+        "consultado": "2026-07-10"
+      }
+    },
+    "eco-014": {
+      "valor": 2,
+      "justificacion": "En las negociaciones presupuestarias con el Govern ha reclamado de forma reiterada la creación de un impuesto propio sobre las grandes fortunas, entre otras medidas fiscales sobre las rentas y patrimonios más altos.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "La proposta del govern a la CUP: impost als grans vaixells i esperar a la consulta sobre els Jocs Olímpics",
+        "url": "https://www.vilaweb.cat/noticies/la-proposta-del-govern-a-la-cup-impost-als-grans-vaixells-i-esperar-a-la-consulta-sobre-els-jocs-olimpics/",
+        "consultado": "2026-07-10"
+      }
+    },
+    "eco-004": {
+      "valor": -2,
+      "justificacion": "Como socio prioritario del Govern en 2016 negoció que el pago de la deuda pública no tuviera prioridad sobre el gasto social, y ha exigido frenar los recortes y las privatizaciones encubiertas por la austeridad.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "El Govern deixa d'imposar-se l'austeritat de què feia bandera",
+        "url": "https://www.ara.cat/politica/govern-deixa-dimposar-se-lausteritat-bandera_1_1473002.html",
+        "fecha": "2016",
+        "consultado": "2026-07-10"
+      }
+    },
+    "ene-004": {
+      "valor": 2,
+      "justificacion": "Propone una empresa energética pública catalana con control público de todo el ciclo —generación, distribución y comercialización— para garantizar la energía como derecho y no como mercancía.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "La CUP proposa una energètica pública que garanteixi el dret a l'energia i faci front a l'oligopoli",
+        "url": "https://biosca.cup.cat/noticia/la-cup-proposa-una-energetica-publica-que-garanteixi-el-dret-lenergia-i-faci-front",
+        "consultado": "2026-07-10"
+      }
+    },
+    "sd-012": {
+      "valor": 2,
+      "justificacion": "Votó por el control público pleno de la red eléctrica, propuesta que solo respaldaron ERC, els Comuns y la CUP y que rechazó el bloque de PSC, Junts, PP y Vox; su objetivo declarado es acabar con el oligopolio eléctrico privado.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "La CUP arrenca el compromís d'una transició energètica pública i arrelada al territori, però la cambra blinda l'oligopoli de la xarxa elèctrica",
+        "url": "https://cup.cat/la-cup-arrenca-el-compromis-duna-transicio-energetica-publica-i-arrelada-al-territori-pero-la-cambra-blinda-loligopoli-de-la-xarxa-electrica/",
+        "consultado": "2026-07-10"
+      }
+    },
+    "sd-008": {
+      "valor": 2,
+      "justificacion": "Ha planteado a JxCat y ERC establecer una renta básica universal e incondicional para combatir la pobreza extrema, e incluyó un plan piloto de renta básica en su acuerdo de investidura con ERC.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "La CUP repta JxCat i ERC a establir una renda bàsica universal per lluitar contra 'l'extrema pobresa'",
+        "url": "https://www.vilaweb.cat/noticies/cup-repta-jxcat-erc-renda-basica-universal-extrema-pobresa/",
+        "consultado": "2026-07-10"
+      }
+    },
+    "izq-042": {
+      "valor": 2,
+      "justificacion": "Asambleas locales de la CUP han dado apoyo explícito a la ocupación de edificios abandonados para abrir centros sociales autogestionados (p. ej. el CSO Ca la Bandida), defendiéndolos como espacios de poder popular y organización vecinal.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Comunicat de suport al CSO Ca la Bandida",
+        "url": "https://corbera.cup.cat/noticia/comunicat-de-suport-al-cso-ca-la-bandida",
+        "consultado": "2026-07-10"
+      }
+    },
+    "fem-001": {
+      "valor": 2,
+      "justificacion": "Votó a favor de la ley catalana de erradicación de la LGTBI-fòbia, que reconoce la autodeterminación de género; su diputada la valoró como una regulación mucho más potente y lamentó que no fuera aún más ambiciosa por los límites impuestos por PSC y Junts.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "La llei de l'erradicació de l'LGBTI-fòbia tira endavant amb els vots de PSC, Junts, ERC, Comuns i CUP",
+        "url": "https://www.larepublica.cat/noticies/politica/la-llei-de-lerradicacio-de-llgbti-fobia-tira-endavant-amb-els-vots-de-psc-junts-erc-comuns-i-cup/",
+        "consultado": "2026-07-10"
+      }
+    },
+    "fem-012": {
+      "valor": 2,
+      "justificacion": "Registró en el Parlament una proposición de ley sobre la efectividad del derecho al aborto que va más allá del ítem: mantiene sin consentimiento paterno el derecho ya vigente a partir de los 16 años y lo extiende, con matices, desde los 12.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Proposició de llei catalana sobre l'efectivitat del dret a l'avortament",
+        "url": "https://cup.cat/wp-content/uploads/2024/03/202DCD00008-Proposicio-de-llei-CATALANA-SOBRE-LEFECTIVITAT-DEL-DRET-A-LAVORTAMENT.pdf",
+        "fecha": "2024-03",
+        "consultado": "2026-07-10"
+      }
+    },
+    "fem-014": {
+      "valor": 2,
+      "justificacion": "Se ha opuesto a ordenanzas municipales que restringen los clubes sociales de cannabis, defendiendo la regulación frente a la prohibición y citando modelos internacionales de regulación como referencia.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "La CUP s'oposa a l'ordenança que pràcticament prohibeix els clubs socials de cànnabis",
+        "url": "https://mataro.cup.cat/noticia/la-cup-soposa-lordenan%C3%A7a-que-pr%C3%A0cticament-prohibeix-els-clubs-socials-de-c%C3%A0nnabis",
+        "consultado": "2026-07-10"
+      }
+    },
+    "soc-004": {
+      "valor": 2,
+      "justificacion": "Su diputada defendió tener todas las competencias en inmigración para 'acollir millor' y demandó una ILP de regularización extraordinaria de personas migrantes, además del cierre de los CIE.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "La CUP vol les competències en immigració per 'tancar CIES' i 'acollir millor'",
+        "url": "https://e-noticies.cat/politica/cup-competencies-immigracio-tancar-cies-acollir-millor",
+        "consultado": "2026-07-10"
+      }
+    },
+    "izq-044": {
+      "valor": 2,
+      "justificacion": "Pide disolver las unidades antidisturbios y sostiene que no tienen lugar en un modelo de seguridad de proximidad, denunciando el modelo punitivista y de militarización policial.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "La CUP demana dissoldre els antidisturbis de la Guàrdia Urbana",
+        "url": "https://www.naciodigital.cat/noticia/106183/cup/demana/dissoldre/antidisturbis/guardia/urbana",
+        "consultado": "2026-07-10"
+      }
+    },
+    "ter-002": {
+      "valor": 2,
+      "justificacion": "Reivindica repetir un momento de ruptura y desobediencia institucional como el referéndum vinculante de octubre de 2017, vinculando la conquista de derechos sociales y democráticos con el ejercicio efectivo del derecho a la autodeterminación.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "La CUP torna a obrir la porta a un referèndum després de les pròximes eleccions",
+        "url": "https://www.ara.cat/politica/cup-referendum-correlacio-forces-parlament_1_1197016.html",
+        "consultado": "2026-07-10"
+      }
+    },
+    "der-005": {
+      "valor": -2,
+      "justificacion": "Se define como una organización que trabaja por unos Països Catalans independientes, socialistas, ecológicos y no patriarcales; su objetivo estatutario subordina cualquier encaje autonómico a la ruptura con el Estado español.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Què és la CUP?",
+        "url": "https://cup.cat/que-es-la-cup/",
+        "consultado": "2026-07-10"
+      }
+    },
+    "izq-026": {
+      "valor": -2,
+      "justificacion": "Ya en 2015 sostenía que la independencia es 'per als treballadors independentment del seu origen', vinculando explícitamente liberación nacional y social y rechazando que el proceso sea un conflicto entre élites ajeno a la clase trabajadora.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Per a la CUP-CC la independència és per als treballadors independentment del seu origen",
+        "url": "https://www.llibertat.cat/2015/09/per-a-la-cup-cc-la-independencia-es-per-als-treballadors-independentment-del-seu-origen-32288",
+        "fecha": "2015-09",
+        "consultado": "2026-07-10"
+      }
+    },
+    "cat-003": {
+      "valor": 1,
+      "justificacion": "Defendió junto a Junts y ERC una amnistía basada en la ley de 2020, pero advirtió del riesgo de que acabara siendo una 'llei de punt final' y exigió vincularla al derecho a la autodeterminación: apoyo condicionado, no pleno.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "La CUP rebutja una llei d'amnistia que sigui de 'punt final'",
+        "url": "https://elmon.cat/politica/independentisme/la-cup-rebutja-una-llei-amnistia-puigdemont-psoe-punt-final-750344/",
+        "consultado": "2026-07-10"
+      }
+    },
+    "cat-006": {
+      "valor": 0,
+      "justificacion": "Su diputada reclama todas las competencias en inmigración para 'acollir millor', cerrar los CIE y regularizar, no para ejecutar expulsiones: combina exigir la competencia plena con rechazar su uso para expulsar, un resultado neto mixto frente al ítem.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "La CUP vol les competències en immigració per 'tancar CIES' i 'acollir millor'",
+        "url": "https://e-noticies.cat/politica/cup-competencies-immigracio-tancar-cies-acollir-millor",
+        "consultado": "2026-07-10"
+      }
     }
   }
 }

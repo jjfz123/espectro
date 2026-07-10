@@ -369,6 +369,236 @@
         "consultado": "2026-07-10",
         "cita": "La Comisión de Educación del Congreso aprueba eliminar el castellano como lengua vehicular en la «ley Celaá»"
       }
+    },
+    "sd-008": {
+      "valor": -1,
+      "justificacion": "En el Gobierno impulsó el Ingreso Mínimo Vital como prestación de la Seguridad Social focalizada en hogares sin ingresos o con ingresos bajos, no una renta universal; la propia «Renta Garantizada» que planteó después Belarra en enero de 2023 mantiene el mismo diseño condicionado a un umbral de ingresos (menos de 2.100 euros en los últimos tres meses), no una renta incondicional para toda la ciudadanía como plantea el ítem.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Belarra propone una renta básica para vulnerables de entre 700 y 1.400 euros al mes desde los 18 años (Público)",
+        "url": "https://www.publico.es/politica/belarra-propone-renta-basica-vulnerables-700-1-400-euros-mes-18-anos.html",
+        "fecha": "2023-01-14",
+        "consultado": "2026-07-10",
+        "cita": "Belarra propone una renta básica para vulnerables de entre 700 y 1.400 euros al mes desde los 18 años"
+      }
+    },
+    "izq-016": {
+      "valor": -1,
+      "justificacion": "Podemos defiende nacionalizar la banca y las eléctricas por la vía del artículo 128 CE, pero ese cauce constitucional remite al artículo 33.3 CE, que exige pagar un justiprecio: sus propias propuestas de nacionalización de Bankia, Red Eléctrica y las redes de distribución presupuestan miles de millones en indemnización a los propietarios, no una expropiación sin compensación.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "El 128 de la Constitución: el artículo que permite al Gobierno poner a las eléctricas al servicio del interés general (elDiario.es)",
+        "url": "https://www.eldiario.es/economia/128-constitucion-articulo-permite-gobierno-poner-electricas-servicio-interes-general_1_8305431.html",
+        "fecha": "2021-10",
+        "consultado": "2026-07-10"
+      }
+    },
+    "eco-002": {
+      "valor": -2,
+      "justificacion": "En el Gobierno presionó para derogar «directamente» la Ley 15/1997, que habilita la gestión privada y los conciertos en la sanidad pública, por considerar que esa vía perjudica el servicio y las listas de espera en lugar de mejorarlo.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Unidas Podemos presiona al PSOE para derogar «directamente» la Ley 15/1997 que permite gestión privada en la sanidad pública (iSanidad)",
+        "url": "https://isanidad.com/242298/unidas-podemos-presiona-psoe-derogar-directamente-ley-15-1997-permite-gestion-privada-sanidad-publica/",
+        "fecha": "2023-02",
+        "consultado": "2026-07-10"
+      }
+    },
+    "eco-006": {
+      "valor": 2,
+      "justificacion": "Unidas Podemos registró y logró aprobar en la Comisión de Transportes del Congreso (25-03-2021) una Proposición No de Ley para ampliar el parque público de vivienda en alquiler, con mayor dotación al Plan Estatal de Vivienda, prohibición de vender vivienda pública y nuevos instrumentos de adquisición para ayuntamientos.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "El Congreso aprueba proposición para aumentar el número de viviendas públicas en alquiler (Público)",
+        "url": "https://www.publico.es/politica/congreso-aprueba-proposicion-aumentar-numero-viviendas-publicas-alquiler.html",
+        "fecha": "2021-03-25",
+        "consultado": "2026-07-10"
+      }
+    },
+    "eco-008": {
+      "valor": 2,
+      "justificacion": "Como parte del Gobierno de coalición votó la Ley 21/2021, que blinda por ley la revalorización anual de las pensiones con el IPC y crea a la vez el Mecanismo de Equidad Intergeneracional, una cotización adicional finalista para sufragarla; después ha seguido reclamando blindar esa subida en la Constitución.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "El Congreso aprueba la reforma que garantiza la revalorización de las pensiones según el IPC (elDiario.es)",
+        "url": "https://www.eldiario.es/politica/congreso-aprueba-reforma-garantiza-revalorizacion-pensiones-ipc_1_8548144.html",
+        "fecha": "2021-12",
+        "consultado": "2026-07-10"
+      }
+    },
+    "fem-010": {
+      "valor": 2,
+      "justificacion": "Negoció con el PSOE reforzar la Ley de Paridad (LO 2/2024) para que el 40% mínimo de mujeres en consejos de administración y órganos directivos no llevara aparejado un techo compensatorio para los hombres; Belarra reivindicó explícitamente haber eliminado esa «cuota máxima» del texto inicial.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "El Congreso aprueba la ley que obligará a gobiernos y órganos directivos de empresas a cumplir con la paridad (elDiario.es)",
+        "url": "https://www.eldiario.es/politica/congreso-aprueba-ley-obligara-gobiernos-organos-directivos-empresas-cumplir-paridad_1_11481856.html",
+        "fecha": "2024-06",
+        "consultado": "2026-07-10"
+      }
+    },
+    "fem-007": {
+      "valor": -2,
+      "justificacion": "Registró en el Congreso una iniciativa para fomentar activamente «relaciones afectivas y sexuales sanas y consentidas» entre menores en la escuela pública, y su ministra de Igualdad defendió que la educación sexual es un derecho del menor «aunque los padres y las madres no quieran que lo sepan»: la postura de Podemos es la contraria a exigir autorización previa de la familia.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Podemos pide oficialmente «fomentar las relaciones afectivas y sexuales sanas y consentidas» de los «niños y niñas» (Libertad Digital)",
+        "url": "https://www.libertaddigital.com/espana/2023-01-14/podemos-pide-oficialmente-fomentar-las-relaciones-afectivas-y-sexuales-sanas-y-consentidas-de-los-ninos-y-ninas-6975674/",
+        "fecha": "2023-01-14",
+        "consultado": "2026-07-10"
+      }
+    },
+    "soc-002": {
+      "valor": -2,
+      "justificacion": "Sus ministras (Belarra, Montero, Díaz) libraron una «guerra oculta» contra el ministro del Interior Grande-Marlaska por las devoluciones en caliente en la valla de Melilla y pidieron su dimisión; el Tribunal Supremo declaró en enero de 2024 que esas devoluciones fueron ilegales por «incumplimiento absoluto» de la Ley de Extranjería.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "El reportaje de la BBC sobre la tragedia en Melilla desata una batalla de las ministras de Podemos contra Marlaska (El Confidencial Digital)",
+        "url": "https://www.elconfidencialdigital.com/articulo/politica/investigacion-bbc-tragedia-melilla-desata-batalla-ministras-podemos-marlaska/20221102200532471761.html",
+        "fecha": "2022-11-02",
+        "consultado": "2026-07-10"
+      }
+    },
+    "sd-021": {
+      "valor": 2,
+      "justificacion": "Votó a favor de tramitar la ILP de regularización extraordinaria (310 a favor, 33 en contra, 09-04-2024) y ha reprochado públicamente su posterior bloqueo.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "El Congreso tramita la regularización de casi 400.000 inmigrantes (Newtral)",
+        "url": "https://www.newtral.es/congreso-luz-verde-regularizacion-inmigrantes/20240410/",
+        "fecha": "2024-04-10",
+        "consultado": "2026-07-10"
+      }
+    },
+    "der-018": {
+      "valor": 2,
+      "justificacion": "Votó a favor de tramitar la ILP de regularización extraordinaria para inmigrantes ya asentados (310 a favor, 33 en contra, 09-04-2024), la misma vía que reclama facilitar el ítem.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "El Congreso tramita la regularización de casi 400.000 inmigrantes (Newtral)",
+        "url": "https://www.newtral.es/congreso-luz-verde-regularizacion-inmigrantes/20240410/",
+        "fecha": "2024-04-10",
+        "consultado": "2026-07-10"
+      }
+    },
+    "der-019": {
+      "valor": 2,
+      "justificacion": "Ha votado sistemáticamente por derogar la prisión permanente revisable: a favor de la proposición del PNV en 2016 y por mantener viva la derogación en el pleno de 2018.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "El Congreso vota contra la prisión permanente revisable con acusaciones a PP y Cs de «utilizar a las víctimas» (infoLibre)",
+        "url": "https://www.infolibre.es/noticias/politica/2018/03/15/debate_derogacion_prision_permanente_revisable_80676_1012.html",
+        "fecha": "2018-03-15",
+        "consultado": "2026-07-10"
+      }
+    },
+    "dr-015": {
+      "valor": -2,
+      "justificacion": "Fue socio principal en la elaboración de la Ley de Memoria Democrática, aprobada en el Pleno del Congreso el 14 de julio de 2022, que declara ilegal la dictadura franquista; su diputado Enrique Santiago defendió que los crímenes de la dictadura son imprescriptibles conforme al derecho internacional.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "El Congreso aprueba la Ley de Memoria Democrática con la oposición de las derechas (elDiario.es)",
+        "url": "https://www.eldiario.es/sociedad/congreso-aprueba-ley-memoria-democratica-oposicion-derechas-abstencion-erc_1_9170059.html",
+        "fecha": "2022-07-14",
+        "consultado": "2026-07-10"
+      }
+    },
+    "izq-044": {
+      "valor": -1,
+      "justificacion": "Su reforma pactada de la Ley de Seguridad Ciudadana desde el Gobierno se limitó a exigir proporcionalidad, enfoque de derechos humanos y protocolos de uso de la fuerza en las actuaciones policiales, sin plantear reducir las funciones de la policía ni trasladar la gestión de los conflictos a mecanismos comunitarios.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Omisiones y carga ideológica en el decálogo de la protesta policial contra la reforma de la ley mordaza (elDiario.es)",
+        "url": "https://www.eldiario.es/politica/omisiones-carga-ideologica-decalogo-protesta-policial-reforma-ley-mordaza_1_8518493.html",
+        "fecha": "2021",
+        "consultado": "2026-07-10"
+      }
+    },
+    "nac-001": {
+      "valor": -1,
+      "justificacion": "Ante la declaración unilateral de independencia de 2017, Iglesias resumió la posición de Podemos como «ni la unilateralidad ni los tanques»: sostuvo que lo único que puede garantizar que Cataluña siga en España es un referéndum pactado y calificó de ilegítima la vía unilateral, oponiéndose a que las instituciones catalanas la abrieran por sí solas.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Pablo Iglesias rechaza la «ilegítima» independencia de Cataluña (Press Digital)",
+        "url": "https://www.pressdigital.es/texto-diario/mostrar/874034/pablo-iglesias-rechaza-ilegitima-independencia-cataluna",
+        "fecha": "2017-10",
+        "consultado": "2026-07-10"
+      }
+    },
+    "dem-035": {
+      "valor": -1,
+      "justificacion": "La misma posición ante el procés («ni la unilateralidad ni los tanques», solo referéndum pactado) es incompatible con un derecho de salida unilateral y automático: Podemos condiciona cualquier salida a la negociación con el conjunto del Estado, no a una decisión unilateral del territorio pese a la oposición del resto.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Pablo Iglesias rechaza la «ilegítima» independencia de Cataluña (Press Digital)",
+        "url": "https://www.pressdigital.es/texto-diario/mostrar/874034/pablo-iglesias-rechaza-ilegitima-independencia-cataluna",
+        "fecha": "2017-10",
+        "consultado": "2026-07-10"
+      }
+    },
+    "izq-025": {
+      "valor": 0,
+      "justificacion": "Iglesias defendió en 2017-2019 situar la idea de España y un patriotismo republicano en la estrategia de Podemos, frente a su rechazo inicial de 2013 a usar símbolos españoles, pero mantuvo distancia del símbolo literal: «no somos republicanos para cambiar una bandera, sino porque somos demócratas y patriotas», y siguió evitando posar con la bandera de España en actos oficiales del 12 de octubre.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Pablo Iglesias: «No somos republicanos para cambiar una bandera, sino porque somos demócratas y patriotas» (elDiario.es)",
+        "url": "https://www.eldiario.es/politica/pablo-iglesias-republicanos-democratas-patriotas_1_3463241.html",
+        "fecha": "2017-04-14",
+        "consultado": "2026-07-10",
+        "cita": "No somos republicanos para cambiar una bandera, sino porque somos demócratas y patriotas"
+      }
+    },
+    "sd-005": {
+      "valor": 1,
+      "justificacion": "Podemos ha criticado el principio de «ordinalidad» del pacto de financiación singular PSOE-ERC por beneficiar a las comunidades más ricas y debilitar la solidaridad interterritorial: su candidato en Andalucía, Juan Antonio Delgado, denunció que consolida la infrafinanciación andaluza. El rechazo a extender ese modelo nace de defender la redistribución entre territorios, no de negar el autogobierno.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "El pacto PSOE-ERC fractura al bloque de la investidura: la izquierda exige mayor «equidad territorial» (El Plural)",
+        "url": "https://www.elplural.com/politica/espana/pacto-psoe-erc-fractura-bloque-investidura-izquierda-exige-mayor-equidad-territorial_378280102",
+        "fecha": "2024-08",
+        "consultado": "2026-07-10"
+      }
+    },
+    "nac-008": {
+      "valor": -1,
+      "justificacion": "El mismo argumento de solidaridad interterritorial que usa contra la financiación singular catalana («los que tienen más siguen teniendo más») es difícilmente compatible con generalizar a cualquier comunidad que lo pida una hacienda propia al margen del sistema común, más allá de los territorios forales históricos ya reconocidos.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "El pacto PSOE-ERC fractura al bloque de la investidura: la izquierda exige mayor «equidad territorial» (El Plural)",
+        "url": "https://www.elplural.com/politica/espana/pacto-psoe-erc-fractura-bloque-investidura-izquierda-exige-mayor-equidad-territorial_378280102",
+        "fecha": "2024-08",
+        "consultado": "2026-07-10"
+      }
+    },
+    "dem-033": {
+      "valor": 1,
+      "justificacion": "Podemos evita la etiqueta «federal» y usa «plurinacional», pero su propuesta incluye elementos federalizantes: un marco competencial claro y garantizado, voz de las comunidades en asuntos europeos y una reforma del Senado como cámara territorial; coincide en el fondo con una garantía constitucional de competencias aunque no en el nombre, de ahí un acuerdo parcial y no pleno con el ítem.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "¿A qué Estado decimos federal y a cuál, plurinacional? (elDiario.es, Contrapoder)",
+        "url": "https://www.eldiario.es/contrapoder/federalismo-plurinacional_132_4422230.html",
+        "fecha": "2019",
+        "consultado": "2026-07-10"
+      }
     }
   }
 }

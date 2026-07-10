@@ -63,6 +63,42 @@
         "consultado": "2026-07-10"
       }
     },
+    "dem-033": {
+      "valor": 1,
+      "justificacion": "El documento político fundacional de Adelante Andalucía (Asamblea Constituyente, abril de 2022) sitúa como horizonte una «profundización federal» con cambio constitucional y proceso constituyente hacia un «Estado plural», compatible en parte con este ítem; el horizonte de 2026 (autodescripción: «España plurinacional y confederal») va más allá, hacia la soberanía andaluza, así que el acuerdo con un modelo solo federal es parcial.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "estatutos",
+        "titulo": "Documento Político de Adelante Andalucía (Asamblea Constituyente)",
+        "url": "https://adelanteandalucia.org/wp-content/uploads/2022/04/AA-Politico.pdf",
+        "fecha": "2022-04",
+        "consultado": "2026-07-10"
+      }
+    },
+    "nac-005": {
+      "valor": -2,
+      "justificacion": "El candidato José Ignacio García rechaza expresamente el principio de ordinalidad en la financiación autonómica, calificándolo de «concepto de derechas» lo defienda quien lo defienda —cita explícitamente a Junqueras junto a Montero y Ayuso—, y reclama en su lugar una financiación justa para Andalucía dentro de un sistema común reformado, no un criterio que blinde la posición relativa de renta de las comunidades que más aportan.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "José Ignacio García: «Se puede ser de izquierdas y estar en contra de que se financie mal a Andalucía»",
+        "url": "https://www.101tv.es/andalucia/jose-ignacio-garcia-se-puede-ser-de-izquierdas-y-estar-en-contra-de-que-se-financie-mal-a-andalucia",
+        "fecha": "2026",
+        "consultado": "2026-07-10"
+      }
+    },
+    "and-006": {
+      "valor": -1,
+      "justificacion": "José Ignacio García rechaza que la financiación autonómica premie a quien negocia por su cuenta al margen del conjunto —de ahí su rechazo a la ordinalidad aunque la reivindiquen soberanistas como Junqueras— y pide en su lugar un sistema común reformado y justo con Andalucía; encaja peor con que sea la propia Andalucía quien pacte bilateralmente sin el resto de comunidades, aunque la fuente no aborda ese escenario en concreto.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "José Ignacio García: «Se puede ser de izquierdas y estar en contra de que se financie mal a Andalucía»",
+        "url": "https://www.101tv.es/andalucia/jose-ignacio-garcia-se-puede-ser-de-izquierdas-y-estar-en-contra-de-que-se-financie-mal-a-andalucia",
+        "fecha": "2026",
+        "consultado": "2026-07-10"
+      }
+    },
     "def-002": {
       "valor": 2,
       "justificacion": "En 2026 exigió expulsar al Ejército de EEUU de las bases de Rota y Morón, alineándose con la plataforma «OTAN no, bases fuera»; pide además un plan de empleo alternativo para las localidades afectadas.",
@@ -136,6 +172,42 @@
         "consultado": "2026-07-10"
       }
     },
+    "eco-012": {
+      "valor": 1,
+      "justificacion": "Su programa de 2026 no plantea una eliminación general e inmediata de los conciertos, sino medidas más graduales: paraliza la autorización de nuevas plazas de FP privada concertada mientras crea nuevas plazas públicas hasta cubrir la demanda, y sitúa el freno a la privatización educativa en más inversión y personal docente antes que en la retirada de los conciertos ya vigentes en el resto de etapas.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral de AA para las Elecciones Autonómicas 2026 en Andalucía",
+        "url": "https://www.politicaelectoral.com/es/espana/autonomicas-2026/andalucia/adelante-andalucia",
+        "fecha": "2026",
+        "consultado": "2026-07-10"
+      }
+    },
+    "der-012": {
+      "valor": -1,
+      "justificacion": "El Grupo Mixto-Adelante Andalucía votó en contra de la Ley de participación institucional de las organizaciones empresariales y sindicales más representativas (18-12-2024), que da a la patronal (CEA) un papel institucionalizado equiparable al de los sindicatos en la elaboración de leyes y decretos; se opone a blindar por ley ese papel de copartícipe para la patronal, aunque el voto no equivale a rechazar cualquier negociación puntual con el sector empresarial en una reforma concreta.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "El Parlamento aprueba con acuerdo de PP-A y PSOE-A la Ley de participación institucional de patronal y sindicatos",
+        "url": "https://www.teleprensa.com/articulo/sevilla/parlamento-aprueba-acuerdo-pp-psoe-ley-participacion-institucional-patronal-sindicatos/202412181152391986245.html",
+        "fecha": "2024-12-18",
+        "consultado": "2026-07-10"
+      }
+    },
+    "dr-001": {
+      "valor": 1,
+      "justificacion": "Su programa de 2026 apuesta por una economía pública más intervencionista con control democrático de sectores estratégicos, incluida la creación de una banca pública para dirigir inversión hacia la industria pública, la transición ecosocial, cooperativas, autónomos y economía social; no plantea, en cambio, nacionalizar la banca privada ya existente, sino sumar un nuevo instrumento público de crédito.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Este es el programa electoral de Adelante Andalucía en las elecciones autonómicas de este 2026",
+        "url": "https://www.eldebate.com/espana/andalucia/20260512/este-programa-electoral-adelante-andalucia-elecciones-autonomicas-este-2026_413963.html",
+        "fecha": "2026-05-12",
+        "consultado": "2026-07-10"
+      }
+    },
     "va-002": {
       "valor": -2,
       "justificacion": "Su programa de 2026 propone reducir las temporadas de caza, retirar la rehala y la montería del Patrimonio Cultural de Andalucía y abrir vías hacia una gestión ecológica del medio natural sin necesidad de caza: no la trata como herramienta legítima de gestión de poblaciones.",
@@ -169,6 +241,41 @@
         "titulo": "La regularización de migrantes aterriza en una Andalucía inmersa en la campaña electoral (elDiario.es)",
         "url": "https://www.eldiario.es/andalucia/regularizacion-migrantes-aterriza-andalucia-inmersa-campana-electoral-no-vengo-destrozar-pais_1_13156064.html",
         "fecha": "2026",
+        "consultado": "2026-07-10"
+      }
+    },
+    "fem-012": {
+      "valor": 2,
+      "justificacion": "Junto con PSOE-A y Por Andalucía —citados como actores distintos—, Adelante se compromete a garantizar la atención integral a la interrupción voluntaria del embarazo en toda la red pública sin copagos; la fuente no aborda literalmente el requisito de consentimiento paterno para menores de 16 y 17 años, pero es la ley estatal vigente (sin consentimiento paterno) la que sostiene ese acceso garantizado, por lo que se infiere acuerdo con mantenerlo.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "La izquierda andaluza abandera la 'cultura de la muerte' con promesas para blindar el aborto y la eutanasia (El Debate)",
+        "url": "https://www.eldebate.com/espana/andalucia/20260513/izquierda-andaluza-abandera-cultura-muerte-promesas-blindar-aborto-eutanasia_416856.html",
+        "fecha": "2026-05-13",
+        "consultado": "2026-07-10"
+      }
+    },
+    "lib-017": {
+      "valor": 2,
+      "justificacion": "La misma cobertura que documenta el compromiso de Adelante con la interrupción del embarazo señala que, junto a PSOE-A y Por Andalucía, defiende también garantizar el acceso a la eutanasia como derecho ya reconocido por la ley estatal (Ley Orgánica 3/2021); Adelante añade además un plan de cuidados paliativos como refuerzo complementario, no como alternativa a ese derecho.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "La izquierda andaluza abandera la 'cultura de la muerte' con promesas para blindar el aborto y la eutanasia (El Debate)",
+        "url": "https://www.eldebate.com/espana/andalucia/20260513/izquierda-andaluza-abandera-cultura-muerte-promesas-blindar-aborto-eutanasia_416856.html",
+        "fecha": "2026-05-13",
+        "consultado": "2026-07-10"
+      }
+    },
+    "izq-014": {
+      "valor": -2,
+      "justificacion": "Su propia autodescripción estatutaria define a Adelante Andalucía simultáneamente como «anticapitalista, feminista y ecosocialista», tres ejes explícitamente co-iguales y no jerarquizados; esto es incompatible con la tesis de que las agendas feminista y LGTBI desvíen a la clase trabajadora de la lucha económica, aunque la fuente no aborda literalmente esa tesis.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Quiénes somos (Adelante Andalucía, web oficial)",
+        "url": "https://adelanteandalucia.org/quienes-somos/",
         "consultado": "2026-07-10"
       }
     },

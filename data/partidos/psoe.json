@@ -56,6 +56,32 @@
             "fecha": "2024-12-22",
             "consultado": "2026-07-10"
           }
+        },
+        "eco-011": {
+          "valor": -1,
+          "estadoCompromiso": "bloqueado",
+          "justificacion": "El compromiso de reducir la jornada laboral máxima a 37,5 horas semanales sin bajada salarial, aprobado como anteproyecto por el Consejo de Ministros el 4 de febrero de 2025 y como proyecto de ley el 6 de mayo de 2025, no llegó a convertirse en norma: el Congreso tumbó su tramitación el 10 de septiembre de 2025 al aprobar una enmienda a la totalidad de PP, Vox y Junts, que alegó falta de consenso y un impacto desigual sobre pymes y autónomos.",
+          "calidadEvidencia": "alta",
+          "fuente": {
+            "tipo": "otro",
+            "titulo": "Tumbada la reducción de la jornada laboral por la enmienda de Junts (El Triangle)",
+            "url": "https://www.eltriangle.eu/es/2025/09/10/el-congreso-tumba-reduccion-de-la-jornada-laboral-por-la-enmienda-a-la-totalidad-de-junts/",
+            "fecha": "2025-09-10",
+            "consultado": "2026-07-10"
+          }
+        },
+        "soc-006": {
+          "valor": -1,
+          "estadoCompromiso": "incumplido",
+          "justificacion": "El compromiso de derogar la prisión permanente revisable quedó en suspenso cuando el Gobierno de coalición renunció a tramitarlo hasta que se pronunciara el Tribunal Constitucional; el TC avaló su constitucionalidad el 6 de octubre de 2021 y, casi cinco años después, en julio de 2026, la pena sigue vigente sin que el Gobierno haya vuelto a impulsar su derogación.",
+          "calidadEvidencia": "alta",
+          "fuente": {
+            "tipo": "otro",
+            "titulo": "Sánchez renuncia a tocar la prisión permanente revisable que aprobó el PP y el PSOE recurrió al TC (El Español)",
+            "url": "https://www.elespanol.com/espana/politica/20211103/sanchez-renuncia-permanente-revisable-pp-psoe-tc/624188544_0.html",
+            "fecha": "2021-11-03",
+            "consultado": "2026-07-10"
+          }
         }
       }
     }
@@ -422,6 +448,261 @@
         "fecha": "2023-11-11",
         "consultado": "2026-07-10",
         "cita": "Así llega Sánchez a la investidura: los pactos con Sumar, ERC, Junts, EH Bildu, BNG y Coalición Canaria"
+      }
+    },
+    "eco-012": {
+      "valor": -1,
+      "justificacion": "El acuerdo de gobierno entre PSOE y Sumar (2023) no elimina los conciertos educativos: compromete actualizar «de forma objetiva» el coste real de la educación concertada y subir su financiación pública a cambio de que dejen de cobrar cuotas ilegales a las familias. Es Sumar, no el PSOE, quien reclama reducir los recursos a la concertada. Conducta contraria a la eliminación gradual que plantea el ítem, aunque condicionada, de ahí -1 y no -2.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "PSOE-Sumar, un acuerdo de investidura que contempla aumentar los conciertos educativos (El Diario de la Educación)",
+        "url": "https://eldiariodelaeducacion.com/2023/10/25/psoe-sumar-un-acuerdo-de-investidura-que-contempla-aumentar-los-conciertos-educativos/",
+        "fecha": "2023-10-25",
+        "consultado": "2026-07-10"
+      }
+    },
+    "eco-004": {
+      "valor": 0,
+      "justificacion": "El Plan Fiscal y Estructural 2025-2028, avalado por Bruselas el 26-11-2024, fija reducir la deuda (por debajo del 100% del PIB en 2027) y el déficit mediante un techo al crecimiento del gasto primario neto (3,4% anual). El Gobierno lo presenta como compatible con más gasto social, no como prioridad excluyente sobre él, pero acepta un límite ligado a la disciplina fiscal europea: evidencia mixta, ni prioridad clara ni rechazo.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "La Comisión Europea valida el Plan Fiscal y Estructural de España y respalda su hoja de ruta de reformas e inversiones (La Moncloa)",
+        "url": "https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/economia-comercio-empresa/paginas/2024/261124-comision-europea-valida-plan-fiscal.aspx",
+        "fecha": "2024-11-26",
+        "consultado": "2026-07-10"
+      }
+    },
+    "eco-007": {
+      "valor": 1,
+      "justificacion": "El Grupo Socialista registró en 2022 sus propias enmiendas para que un juez pudiera ordenar el desalojo en 48 horas en casos de allanamiento de morada y ocupación ilegal, y el Gobierno tramitó y votó a favor de la Ley Orgánica 1/2025 (aprobada el 19 de diciembre de 2024, en vigor desde el 3 de abril de 2025), que fija un juicio rápido de en torno a 15 días para estos casos. Matiza con la derivación a servicios sociales de los casos vulnerables, por lo que es +1 y no +2.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "El PSOE impulsa los desalojos exprés de viviendas ocupadas y Podemos le acusa de asumir la agenda de la derecha (elDiario.es)",
+        "url": "https://www.eldiario.es/politica/psoe-impulsa-desalojos-expres-viviendas-ocupadas-le-acusa-asumir-agenda-derecha_1_9577006.html",
+        "fecha": "2022-09-28",
+        "consultado": "2026-07-10"
+      }
+    },
+    "eco-015": {
+      "valor": 1,
+      "justificacion": "La reforma de pensiones (RDL 2/2023) mantiene el calendario que eleva la edad legal de jubilación de forma progresiva hasta los 67 años en 2027 y añade una revisión quinquenal de los parámetros del sistema ligada a la evolución de la esperanza de vida a partir de esa fecha. Conserva excepciones (38 años cotizados, trabajos penosos) que moderan el automatismo del ítem, de ahí +1.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Real Decreto-ley 2/2023, de 16 de marzo, de medidas urgentes para la ampliación de derechos de los pensionistas y nuevo marco de sostenibilidad del sistema público de pensiones (BOE)",
+        "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2023-6967",
+        "fecha": "2023-03-16",
+        "consultado": "2026-07-10"
+      }
+    },
+    "eco-013": {
+      "valor": 1,
+      "justificacion": "En las comunidades que gobierna, el PSOE mantiene y usa en la práctica conciertos con clínicas privadas para aliviar listas de espera: Castilla-La Mancha destina en torno al 5% de su presupuesto sanitario a estos conciertos, y la Junta de Andalucía lo hizo de forma continuada durante sus 36 años de gobierno socialista. Es una conducta real de derivación, aunque el PSOE lo denuncia como privatización cuando lo aplican gobiernos del PP, de ahí un acuerdo moderado y no pleno.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Las regiones del PSOE gastan más en conciertos sanitarios que Andalucía (The Objective)",
+        "url": "https://theobjective.com/economia/2025-09-17/regiones-psoe-conciertos-sanitarios-andalucia/",
+        "fecha": "2025-09-17",
+        "consultado": "2026-07-10"
+      }
+    },
+    "eco-011": {
+      "valor": 2,
+      "justificacion": "El Consejo de Ministros aprobó el anteproyecto de reducción de la jornada laboral máxima a 37,5 horas semanales sin merma salarial el 4 de febrero de 2025, y el proyecto de ley definitivo el 6 de mayo de 2025: coincide literalmente con lo que plantea el ítem como compromiso íntegro del Gobierno de coalición (véase dobleLectura para el bloqueo parlamentario posterior).",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "El Gobierno presenta la reducción de la jornada laboral ordinaria a 37,5 horas semanales (La Moncloa, Consejo de Ministros)",
+        "url": "https://www.lamoncloa.gob.es/consejodeministros/resumenes/paginas/2025/040225-rueda-de-prensa-ministros.aspx",
+        "fecha": "2025-02-04",
+        "consultado": "2026-07-10"
+      }
+    },
+    "fem-010": {
+      "valor": 2,
+      "justificacion": "La Ley Orgánica 2/2024, de 1 de agosto, de representación paritaria y presencia equilibrada de mujeres y hombres, impulsada por el Gobierno de Sánchez, exige que las sociedades cotizadas garanticen al menos un 40% de presencia del sexo menos representado en sus consejos de administración, con calendario de aplicación gradual hasta 2029.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "Ley Orgánica 2/2024, de 1 de agosto, de representación paritaria y presencia equilibrada de mujeres y hombres (BOE)",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-15936",
+        "fecha": "2024-08-01",
+        "consultado": "2026-07-10"
+      }
+    },
+    "soc-004": {
+      "valor": -1,
+      "justificacion": "Frente a la ILP «Regularización Ya» (más de 700.000 firmas) por una regularización extraordinaria general, el Gobierno planteó en su lugar un régimen «transitorio, excepcional y limitado en el tiempo» solo para quienes ya estaban en España antes del 31 de diciembre de 2024, para corregir los efectos de su propia reforma del reglamento de extranjería: acepta una regularización acotada, no la extraordinaria e indiscriminada que reclama el ítem, de ahí un desacuerdo moderado.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "El Gobierno plantea una regularización de migrantes llegados antes del 2025 para corregir los efectos de su nuevo reglamento (elDiario.es)",
+        "url": "https://www.eldiario.es/desalambre/gobierno-plantea-regularizacion-migrantes-llegados-2025-corregir-efectos-nuevo-reglamento_1_12313676.html",
+        "fecha": "2025-05-20",
+        "consultado": "2026-07-10"
+      }
+    },
+    "soc-006": {
+      "valor": 2,
+      "justificacion": "El programa electoral del PSOE defendió «derogar de inmediato» la prisión permanente revisable introducida por el PP en 2015, y el partido recurrió la norma ante el Tribunal Constitucional (véase dobleLectura para el incumplimiento posterior de este compromiso en el Gobierno).",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Sánchez renuncia a tocar la prisión permanente revisable que aprobó el PP y el PSOE recurrió al TC (El Español)",
+        "url": "https://www.elespanol.com/espana/politica/20211103/sanchez-renuncia-permanente-revisable-pp-psoe-tc/624188544_0.html",
+        "fecha": "2021-11-03",
+        "consultado": "2026-07-10",
+        "cita": "derogar de inmediato la prisión permanente revisable"
+      }
+    },
+    "lib-009": {
+      "valor": -1,
+      "justificacion": "Conducta reiterada: el PSOE votó junto a PP y Vox contra la toma en consideración de la regulación integral del cannabis para adultos presentada por Más País (2021) y por ERC (2023), pese al apoyo de sus socios de investidura. No es un rechazo ideológico frontal —ha abierto la puerta al uso medicinal—, pero sí un no reiterado en votación a la legalización regulada para adultos.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "El PSOE vota «no» a la ley de Más País de legalización del cannabis (Público)",
+        "url": "https://www.publico.es/sociedad/psoe-vota-no-ley-mas-pais-cannabis.html",
+        "fecha": "2021-10-19",
+        "consultado": "2026-07-10"
+      }
+    },
+    "va-003": {
+      "valor": -1,
+      "justificacion": "La Ley 7/2023, de protección de los derechos y el bienestar de los animales, impulsada por el Gobierno de Sánchez, excluye expresamente de su ámbito a los animales usados en espectáculos taurinos (art. 1.3): el PSOE optó por no tocar la tauromaquia —ni prohibirla ni protegerla— en su ley de bienestar animal, aprendiendo del precedente catalán (prohibición anulada por el TC en 2016) y dejando la cuestión a cada comunidad autónoma.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "Ley 7/2023, de 28 de marzo, de protección de los derechos y el bienestar de los animales (BOE)",
+        "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2023-7936",
+        "fecha": "2023-03-28",
+        "consultado": "2026-07-10"
+      }
+    },
+    "soc-002": {
+      "valor": 0,
+      "justificacion": "Los acuerdos con Mauritania (2024) y con Senegal y Gambia (2024-2025) sitúan el retorno y la readmisión como una de cinco prioridades —junto a oportunidades socioeconómicas, protección/asilo, migración legal y control fronterizo—, no como la respuesta prioritaria única del ítem. La cooperación de control y retorno es sustancial y coincide con menos llegadas irregulares a Canarias en 2025, pero el marco oficial es de gestión ordenada, no de priorizar sin más la devolución.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "El Gobierno firma acuerdos con Mauritania, Gambia y Senegal para reforzar vías seguras y regulares de migración y proteger los derechos de los trabajadores (Ministerio de Inclusión, Seguridad Social y Migraciones)",
+        "url": "https://www.inclusion.gob.es/en/w/el-gobierno-firma-acuerdos-con-mauritania-gambia-y-senegal-para-reforzar-vias-seguras-y-regulares-de-migracion-y-proteger-los-derechos-de-los-trabajadores",
+        "fecha": "2024",
+        "consultado": "2026-07-10"
+      }
+    },
+    "ter-003": {
+      "valor": 0,
+      "justificacion": "El Gobierno ha abierto una financiación singular tipo concierto para Cataluña por el pacto con ERC, pero se resiste a generalizarla: el nuevo modelo de financiación autonómica presentado en julio de 2026 no ofrece ese régimen al resto de comunidades y ha sido rechazado en bloque, incluidas las socialistas (Asturias, Castilla-La Mancha), precisamente porque solo beneficia a Cataluña. Apoya extenderlo a una comunidad concreta por pacto político, no como principio general para «más comunidades».",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Sánchez impondrá la nueva financiación en contra de todas las CCAA, incluidas las del PSOE, para favorecer a Cataluña (El Español)",
+        "url": "https://www.elespanol.com/espana/politica/20260708/sanchez-impondra-nueva-financiacion-todas-ccaa-incluidas-psoe-favorecer-cataluna/1003744313453_0.html",
+        "fecha": "2026-07-08",
+        "consultado": "2026-07-10"
+      }
+    },
+    "cat-002": {
+      "valor": 1,
+      "justificacion": "El pacto de investidura PSC-ERC (agosto de 2024) para Salvador Illa incluye una «financiación singular» por la que la Agencia Tributaria de Cataluña gestionaría, recaudaría, liquidaría e inspeccionaría el conjunto de los impuestos soportados en Cataluña, saliendo del régimen común; el propio PSC lo compara con el concierto vasco. El apoyo es real pero negociado y gradual (empezando por el IRPF), no una adhesión previa de principio del PSOE estatal, de ahí +1.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Los ejes de acuerdo PSC-ERC: financiación singular, apoyo al catalán y una convención política (Público)",
+        "url": "https://www.publico.es/politica/ejes-acuerdo-psc-erc-financiacion-singular-apoyo-catalan-convencion-politica.html",
+        "fecha": "2024-08",
+        "consultado": "2026-07-10"
+      }
+    },
+    "sd-004": {
+      "valor": 1,
+      "justificacion": "El 39.º Congreso Federal del PSOE (2017) aprobó defender una «reforma constitucional federal» que «perfeccione el reconocimiento del carácter plurinacional del Estado» señalado en el artículo 2 de la Constitución, manteniendo que la soberanía reside en el conjunto del pueblo español; Sánchez ha reactivado ese lenguaje en 2026 en la negociación con Junts, pero el PSOE nunca ha presentado una reforma constitucional efectiva en ese sentido, de ahí +1 y no +2.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "El Congreso del PSOE aprueba el reconocimiento de la plurinacionalidad (El Independiente)",
+        "url": "https://www.elindependiente.com/politica/2017/06/17/congreso-del-psoe-aprueba-reconocimiento-la-plurinacionalidad/",
+        "fecha": "2017-06-17",
+        "consultado": "2026-07-10",
+        "cita": "una reforma constitucional federal, manteniendo que la soberanía reside en el conjunto del pueblo español, debe perfeccionar el reconocimiento del carácter plurinacional del Estado señalado en el artículo 2 de la Constitución"
+      }
+    },
+    "sd-005": {
+      "valor": -1,
+      "justificacion": "El pacto PSC-ERC de investidura de Illa (agosto de 2024) crea una «financiación singular» para Cataluña: su Agencia Tributaria recaudaría y gestionaría todos los impuestos, saliendo del régimen común, al estilo del concierto vasco; en julio de 2026 el Gobierno lo mantiene pese al rechazo de las demás comunidades, incluidas las del propio PSOE (Asturias, Castilla-La Mancha). Contradice en la práctica no extenderlo, aunque persiste resistencia interna del PSOE territorial a generalizarlo.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Sánchez impondrá la nueva financiación en contra de todas las CCAA, incluidas las del PSOE, para favorecer a Cataluña (El Español)",
+        "url": "https://www.elespanol.com/espana/politica/20260708/sanchez-impondra-nueva-financiacion-todas-ccaa-incluidas-psoe-favorecer-cataluna/1003744313453_0.html",
+        "fecha": "2026-07-08",
+        "consultado": "2026-07-10"
+      }
+    },
+    "der-014": {
+      "valor": 2,
+      "justificacion": "El pacto de investidura de 2023 entre PSOE y PNV compromete al Gobierno a culminar todas las transferencias pendientes al País Vasco y a negociar un nuevo estatus de autogobierno en dos años, apoyándose expresamente en las potencialidades de la Disposición Adicional Primera de la Constitución (los derechos históricos forales) y de la disposición adicional del Estatuto de Gernika: defensa activa del concierto, no solo tolerancia pasiva.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "El PNV arranca a Sánchez el cumplimiento de todas las transferencias y un nuevo estatus en dos años (Deia)",
+        "url": "https://www.deia.eus/politica/2023/11/10/pnv-arranca-sanchez-cumplimiento-todas-transferencias-7492851.amp.html",
+        "fecha": "2023-11-10",
+        "consultado": "2026-07-10"
+      }
+    },
+    "nac-008": {
+      "valor": 1,
+      "justificacion": "En la práctica, el PSOE ha aceptado ese principio para Cataluña: el pacto de investidura de Illa (2024) le reconoce una hacienda propia de tipo concierto pese a no formar parte del régimen foral histórico. No lo formula como regla general para cualquier comunidad que lo pida —de hecho resiste que se generalice—, pero sí lo ha aplicado bajo pacto político a la primera comunidad no foral que lo ha reclamado con fuerza suficiente.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Los ejes de acuerdo PSC-ERC: financiación singular, apoyo al catalán y una convención política (Público)",
+        "url": "https://www.publico.es/politica/ejes-acuerdo-psc-erc-financiacion-singular-apoyo-catalan-convencion-politica.html",
+        "fecha": "2024-08",
+        "consultado": "2026-07-10"
+      }
+    },
+    "der-005": {
+      "valor": -1,
+      "justificacion": "Sánchez ha defendido reiteradamente que la unidad de España se sostiene mediante el reconocimiento de la diversidad territorial y un alto grado de autogobierno, no subordinando toda reivindicación autonómica a la unidad: rechaza el marco de «la unidad por encima de cualquier reivindicación» aunque también rechaza la autodeterminación, de ahí un desacuerdo moderado y no frontal.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Declaración institucional del presidente del Gobierno tras la sentencia del procés (La Moncloa)",
+        "url": "https://www.lamoncloa.gob.es/presidente/actividades/Paginas/2019/141019-sanchez-declaracio.aspx",
+        "fecha": "2019-10-14",
+        "consultado": "2026-07-10",
+        "cita": "la unidad de España se basa en el reconocimiento de nuestra rica diversidad, reflejada en un alto grado de autogobierno de las Comunidades Autónomas"
+      }
+    },
+    "dr-021": {
+      "valor": -2,
+      "justificacion": "El PSOE se opone frontalmente a suprimir las comunidades autónomas: su propuesta territorial reclama justo lo contrario, profundizar el Estado autonómico por la vía federal, no sustituirlo por una administración única.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Un nuevo pacto territorial para una sociedad plural (propuestas del PSOE)",
+        "url": "https://www.psoe.es/propuestas/reforma-constitucional/nuevo-pacto-territorial/",
+        "fecha": "2023",
+        "consultado": "2026-07-10"
+      }
+    },
+    "lib-019": {
+      "valor": -1,
+      "justificacion": "Conducta parlamentaria: el Grupo Socialista votó la enmienda de la LOMLOE que suprimió la mención del castellano como lengua «vehicular», dejando la garantía lingüística remitida a la Constitución y a cada comunidad autónoma en lugar de una ley estatal que lo blinde expresamente en toda España.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "PSOE, Podemos y ERC aprueban que el castellano deje de ser lengua vehicular en la Educación (El Independiente)",
+        "url": "https://www.elindependiente.com/espana/2020/11/05/psoe-podemos-y-erc-aprueban-que-el-castellano-deje-de-ser-lengua-vehicular-en-la-educacion/",
+        "fecha": "2020-11-05",
+        "consultado": "2026-07-10"
       }
     }
   }

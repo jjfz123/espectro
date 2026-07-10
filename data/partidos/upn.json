@@ -7,7 +7,7 @@
   "ccaa": ["navarra"],
   "confianza": "verificada",
   "web": "https://www.upn.org/",
-  "revisado": "2026-07-09",
+  "revisado": "2026-07-10",
   "actividad": "activa",
   "posiciones": {
     "nac-001": {
@@ -152,6 +152,168 @@
         "url": "https://www.upn.org/estatutos/",
         "fecha": "2026",
         "consultado": "2026-07-09"
+      }
+    },
+    "eco-001": {
+      "valor": -1,
+      "justificacion": "Su presidente reivindica que con gobiernos regionalistas de UPN \"se pagaban menos impuestos\" frente a la subida actual, dentro de un programa de rebaja generalizada de tramos y tipos; no propone una subida focalizada en las rentas más altas.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Arasti defiende el sistema fiscal de Navarra y acusa a UPN de utilizar la fiscalidad \"para confrontar\"",
+        "url": "https://www.noticiasdenavarra.com/economia/2026/05/21/arasti-defiende-sistema-fiscal-navarra-11098726.html",
+        "fecha": "2026-05-21",
+        "consultado": "2026-07-10"
+      }
+    },
+    "eco-005": {
+      "valor": -2,
+      "justificacion": "UPN llevó al Consejo de Navarra la ley foral de vivienda del Gobierno de Chivite por entender que sus límites al mercado del alquiler lo \"destrozan\" cuando más necesita reactivarse, y ya se había opuesto antes a blindar por ley las viviendas protegidas de alquiler.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "UPN lleva al Consejo de Navarra la ley de vivienda de Chivite: \"Destroza el mercado de alquiler\"",
+        "url": "https://navarra.okdiario.com/articulo/politica/upn-lleva-consejo-navarra-ley-vivienda-chivite-destroza-mercado-alquiler/20260624125625650220.html",
+        "fecha": "2026-06-24",
+        "consultado": "2026-07-10",
+        "cita": "Destroza el mercado de alquiler"
+      }
+    },
+    "eco-009": {
+      "valor": 1,
+      "justificacion": "Su programa foral 2023-2027 propone reducir el Impuesto sobre Sucesiones y Donaciones entre padres/madres e hijos/hijas y eximir de Patrimonio a los navarros, pero no plantea suprimir el tributo con carácter general para todos los supuestos.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Resumen del programa electoral de UPN para las elecciones forales 2023-2027",
+        "url": "https://elecciones.upn.org/wp-content/uploads/2023/05/Resumen-programa-electoral-UPN-LF.pdf",
+        "fecha": "2023",
+        "consultado": "2026-07-10"
+      }
+    },
+    "eco-011": {
+      "valor": -2,
+      "justificacion": "El Congreso rechazó en septiembre de 2025 tramitar la reducción legal de la jornada a 37,5 horas semanales por el veto conjunto de PP, Vox, Junts y UPN (178 votos frente a 170), repetido en una segunda votación en octubre.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "El Congreso tumba la reducción de jornada laboral al prosperar el veto de PP, Vox y Junts",
+        "url": "https://www.idealista.com/news/finanzas/economia/2025/09/11/859545-el-congreso-tumba-la-reduccion-de-jornada-laboral-al-prosperar-el-veto-de-pp-vox-y",
+        "fecha": "2025-09-11",
+        "consultado": "2026-07-10"
+      }
+    },
+    "eco-012": {
+      "valor": -2,
+      "justificacion": "UPN calificó la reducción de conciertos educativos en Navarra de \"atentado a la libertad\" de las familias navarras y sacó adelante en el Parlamento foral una proposición de ley para blindar su continuidad frente al Gobierno de Chivite.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "UPN califica de \"atentado a la libertad a las familias navarras\" la reducción de los conciertos educativos en Navarra",
+        "url": "https://www.upn.org/upn-califica-de-atentado-a-la-libertad-a-las-familias-navarras-la-reduccion-de-los-conciertos-educativos-en-navarra/",
+        "fecha": "2026",
+        "consultado": "2026-07-10",
+        "cita": "atentado a la libertad a las familias navarras"
+      }
+    },
+    "fem-010": {
+      "valor": -2,
+      "justificacion": "UPN votó en el Congreso contra la Ley de Paridad, que fija una cuota mínima del 40% de cada sexo en los consejos de administración de las grandes empresas.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "Pese a la negativa de Vox y el PP, el Congreso aprueba la ley de paridad que fija una cuota del 40% para las mujeres",
+        "url": "https://www.cronista.com/espana/actualidad-es/pese-a-la-negativa-de-vox-y-el-pp-el-congreso-aprueba-la-ley-de-paridad-que-fija-una-cuota-del-40-para-las-mujeres/",
+        "fecha": "2024-06-27",
+        "consultado": "2026-07-10"
+      }
+    },
+    "der-019": {
+      "valor": -2,
+      "justificacion": "UPN respaldó junto a PP, Vox y CC la toma en consideración de una proposición de ley para ampliar la prisión permanente revisable a nuevos supuestos: posición opuesta a eliminarla del Código Penal.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "El Congreso rechaza tramitar la ampliación de la prisión permanente apoyada por PP, Vox, UPN y CC",
+        "url": "https://www.infobae.com/espana/agencias/2026/03/17/el-congreso-rechaza-tramitar-la-ampliacion-de-la-prision-permanente-apoyada-por-pp-vox-upn-y-cc/",
+        "fecha": "2026-03-17",
+        "consultado": "2026-07-10",
+        "cita": "El Congreso rechaza tramitar la ampliación de la prisión permanente apoyada por PP, Vox, UPN y CC"
+      }
+    },
+    "soc-006": {
+      "valor": -2,
+      "justificacion": "En la misma votación, UPN apoyó ampliar la prisión permanente revisable a nuevos supuestos, lo contrario de derogarla.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "El Congreso rechaza tramitar la ampliación de la prisión permanente apoyada por PP, Vox, UPN y CC",
+        "url": "https://www.infobae.com/espana/agencias/2026/03/17/el-congreso-rechaza-tramitar-la-ampliacion-de-la-prision-permanente-apoyada-por-pp-vox-upn-y-cc/",
+        "fecha": "2026-03-17",
+        "consultado": "2026-07-10"
+      }
+    },
+    "lib-017": {
+      "valor": -2,
+      "justificacion": "UPN votó en contra de la aprobación definitiva de la Ley Orgánica de Regulación de la Eutanasia en el Congreso (17-12-2020), junto con PP y Vox.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "Ley Orgánica de Regulación de la Eutanasia",
+        "url": "https://es.wikipedia.org/wiki/Ley_Org%C3%A1nica_de_Regulaci%C3%B3n_de_la_Eutanasia",
+        "fecha": "2020-12-17",
+        "consultado": "2026-07-10"
+      }
+    },
+    "va-003": {
+      "valor": -2,
+      "justificacion": "El Congreso rechazó en octubre de 2025 la Iniciativa Legislativa Popular que buscaba retirar a la tauromaquia su condición de patrimonio cultural, con el voto en contra de PP, Vox y UPN, que lo consideraron \"censurar y prohibir la cultura popular\".",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "El Congreso tumba la iniciativa para que la tauromaquia deje de ser patrimonio cultural gracias a la abstención del PSOE",
+        "url": "https://www.elespanol.com/espana/20251007/congreso-tumba-iniciativa-tauromaquia-deje-patrimonio-cultural-gracias-abstencion-psoe/1003743959332_0.html",
+        "fecha": "2025-10-07",
+        "consultado": "2026-07-10",
+        "cita": "censurar y prohibir la cultura popular"
+      }
+    },
+    "soc-001": {
+      "valor": 0,
+      "justificacion": "UPN se abstuvo en la Ley Foral de igualdad social LGTBI+ de Navarra: su portavoz Ana San Martín afirmó que \"no podemos dar la espalda a la igualdad y a los derechos\" que recoge la ley, pero advirtió de presuntas discriminaciones hacia otros colectivos; ni la apoyó ni la rechazó.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "Navarra aprueba, con el único voto contrario del PP, una avanzada ley foral de igualdad y contra la discriminación de las personas LGTBI",
+        "url": "https://www.dosmanzanas.com/2017/06/navarra-aprueba-con-el-unico-voto-contrario-del-pp-una-avanzada-foral-de-igualdad-y-contra-la-discriminacion-de-las-personas-lgtbi.html",
+        "fecha": "2017-06-08",
+        "consultado": "2026-07-10",
+        "cita": "no podemos dar la espalda a la igualdad y a los derechos"
+      }
+    },
+    "soc-003": {
+      "valor": 2,
+      "justificacion": "Concejales de UPN en Pamplona propusieron reforzar la videovigilancia en la Rotxapea junto a más patrullaje policial, alegando que \"está probado que las cámaras tienen un importante efecto disuasorio y mejoran la eficacia policial\".",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "UPN propone un plan de seguridad para la Rotxapea con más patrullaje policial y un despliegue de cámaras de vigilancia",
+        "url": "https://pamplonaactual.com/pamplona-actual-salud-y-bienestar/327718/upn-propone-un-plan-de-seguridad-para-la-rotxapea-con-mas-patrullaje-policial-y-un-despliegue-de-camaras-de-vigilancia/",
+        "fecha": "2026",
+        "consultado": "2026-07-10",
+        "cita": "Está probado que las cámaras tienen un importante efecto disuasorio y mejoran la eficacia policial"
+      }
+    },
+    "soc-004": {
+      "valor": -1,
+      "justificacion": "UPN respaldó en el Congreso la propuesta del PP para que el Gobierno renuncie al proceso de regularización extraordinaria de cerca de 500.000 inmigrantes; en Navarra pide en cambio una comisión de seguimiento, no un rechazo cerrado a toda regularización.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "El Congreso insta al Gobierno a renunciar ya a la regularización de migrantes, con apoyo de PP, Vox, Junts y UPN",
+        "url": "https://www.infobae.com/america/agencias/2026/03/18/el-congreso-insta-al-gobierno-a-renunciar-ya-a-la-regularizacion-de-migrantes-con-apoyo-de-pp-vox-junts-y-upn/",
+        "fecha": "2026-03-18",
+        "consultado": "2026-07-10"
       }
     }
   }

@@ -351,6 +351,176 @@
         "consultado": "2026-07-10",
         "cita": "El Congreso rechaza tramitar la ampliación de la prisión permanente apoyada por PP, Vox, UPN y CC"
       }
+    },
+    "eco-002": {
+      "valor": 1,
+      "justificacion": "El Gobierno que preside Clavijo amplió «sin complejos» la derivación de consultas, pruebas y listas de espera hacia centros privados concertados para aliviar la saturación del sistema público; es una práctica de gestión mixta más que una defensa ideológica de que lo privado sea per se más eficiente.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Recelos en la sanidad canaria por la idea de derivar consultas a la privada: «Ya hay saturación en las clínicas concertadas»",
+        "url": "https://www.eldiario.es/canariasahora/sociedad/recelos-sanidad-canaria-idea-derivar-consultas-privada-hay-saturacion-clinicas-concertadas_1_12035808.html",
+        "fecha": "2025-02-08",
+        "consultado": "2026-07-10"
+      }
+    },
+    "eco-006": {
+      "valor": 0,
+      "justificacion": "Conducta ambivalente: durante mandatos previos de CC la vivienda de promoción pública apenas creció, pero el actual Gobierno CC-PP ha retomado la construcción de bloques públicos en alquiler (Tamaraceite, Telde) sin comprometerse al fuerte aumento de gasto que exige un «gran parque público»; impulsa vivienda pública a ritmo moderado, no la macroinversión del enunciado.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "El Instituto Canario de la Vivienda y el Consorcio de Viviendas de Gran Canaria formalizan un convenio para construir 126 viviendas públicas en la isla",
+        "url": "https://www.digitalfarocanarias.com/index.php/2025/12/03/el-instituto-canario-de-la-vivienda-y-el-consorcio-de-viviendas-de-gran-canaria-formalizan-un-convenio-para-construir-126-viviendas-publicas-en-la-isla/",
+        "fecha": "2025-12-03",
+        "consultado": "2026-07-10"
+      }
+    },
+    "eco-009": {
+      "valor": 2,
+      "justificacion": "Como primera medida del Gobierno CC-PP, bonificó el impuesto de sucesiones y donaciones al 99,9% para el tramo familiar próximo (formalizado por el Decreto-ley 5/2023): en una herencia de 200.000 euros la cuota real queda en 2-3 euros, un efecto equivalente a la supresión que reclama el ítem aunque formalmente el tributo siga vigente.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "El Consejo de Gobierno ha aprobado la bonificación del Impuesto sobre Sucesiones y Donaciones a un 99,9%",
+        "url": "https://www3.gobiernodecanarias.org/noticias/el-consejo-de-gobierno-ha-aprobado-la-bonificacion-del-impuesto-sobre-sucesiones-y-donaciones-a-un-999/",
+        "fecha": "2023-09-04",
+        "consultado": "2026-07-10"
+      }
+    },
+    "eco-013": {
+      "valor": 2,
+      "justificacion": "El Consejo de Gobierno autorizó 68,7 millones de euros para 2025 destinados a derivar a centros privados concertados las consultas, pruebas e intervenciones que engrosaban las listas de espera del Servicio Canario de Salud, ampliando una vía que Clavijo ya había anunciado emplear «sin complejos».",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "68,7 millones para derivar a la concertada a pacientes de la sanidad pública canaria",
+        "url": "https://www.canarias7.es/sociedad/salud/687-millones-derivar-concertada-pacientes-sanidad-publica-20250224193620-nt.html",
+        "fecha": "2025-02-24",
+        "consultado": "2026-07-10"
+      }
+    },
+    "der-018": {
+      "valor": 2,
+      "justificacion": "Votó a favor de tramitar la ILP de regularización extraordinaria (09-04-2024), coherente con la insistencia de Clavijo en que dejar sin papeles a quienes ya trabajan y residen en Canarias solo los condena a la economía sumergida.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "El Congreso apoya la iniciativa de regularización extraordinaria de extranjeros (Infobae)",
+        "url": "https://www.infobae.com/espana/2024/04/09/el-congreso-apoya-la-iniciativa-de-regularizacion-extraordinaria-de-extranjeros/",
+        "fecha": "2024-04-09",
+        "consultado": "2026-07-10"
+      }
+    },
+    "der-019": {
+      "valor": -2,
+      "justificacion": "Su conducta parlamentaria va en dirección contraria a eliminar la prisión permanente revisable: Oramas se abstuvo en 2018 cuando se debatía derogarla y en marzo de 2026 Valido votó junto a PP, Vox y UPN para ampliar sus supuestos, no para suprimirla.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "El Congreso rechaza tramitar la ampliación de la prisión permanente apoyada por PP, Vox, UPN y CC (Europa Press/Infobae)",
+        "url": "https://www.infobae.com/espana/agencias/2026/03/17/el-congreso-rechaza-tramitar-la-ampliacion-de-la-prision-permanente-apoyada-por-pp-vox-upn-y-cc/",
+        "fecha": "2026-03-17",
+        "consultado": "2026-07-10",
+        "cita": "El Congreso rechaza tramitar la ampliación de la prisión permanente apoyada por PP, Vox, UPN y CC"
+      }
+    },
+    "fem-007": {
+      "valor": -2,
+      "justificacion": "Su portavoz en el Parlamento canario pactó con el PP una transaccional que sacó adelante una PNL para implantar educación afectivo-sexual obligatoria en todas las etapas educativas, frente al rechazo de Vox: una apuesta por generalizarla, no por supeditarla a autorización previa de las familias.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "Diario de Sesiones 90, de fecha 10/9/2025 - Punto 16 - Parlamento de Canarias",
+        "url": "https://www.parcan.es/pub/ds.py/2025/90/16/",
+        "fecha": "2025-09-10",
+        "consultado": "2026-07-10"
+      }
+    },
+    "sd-021": {
+      "valor": 2,
+      "justificacion": "Votó a favor de tramitar la ILP de regularización extraordinaria de personas migrantes que ya viven y trabajan en España (09-04-2024), en línea con su papel activo en la agenda migratoria canaria.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "El Congreso apoya la iniciativa de regularización extraordinaria de extranjeros (Infobae)",
+        "url": "https://www.infobae.com/espana/2024/04/09/el-congreso-apoya-la-iniciativa-de-regularizacion-extraordinaria-de-extranjeros/",
+        "fecha": "2024-04-09",
+        "consultado": "2026-07-10"
+      }
+    },
+    "soc-005": {
+      "valor": 1,
+      "justificacion": "Clavijo defiende regularizar a los inmigrantes ya presentes en España «para no condenarlos a la economía sumergida», un argumento económico a favor de su aporte formal, aunque no formula la tesis más amplia de que la llegada de inmigrantes sea necesaria para el futuro económico de España.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Clavijo apoya regularizar a los inmigrantes para no condenarlos a la economía sumergida (Infobae)",
+        "url": "https://www.infobae.com/espana/agencias/2025/05/20/clavijo-apoya-regularizar-a-los-inmigrantes-para-no-condenarlos-a-la-economia-sumergida/",
+        "fecha": "2025-05-20",
+        "consultado": "2026-07-10"
+      }
+    },
+    "dem-034": {
+      "valor": -2,
+      "justificacion": "Su fin vigente es la plena autonomía interna dentro de España, manteniendo a Canarias como comunidad autónoma integrada en el Estado; no propone convertir a los territorios en entidades soberanas que confederan competencias limitadas en instituciones comunes.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "estatutos",
+        "titulo": "Declaración de principios, valores y fines fundamentales de Coalición Canaria",
+        "url": "https://coalicioncanaria.org/wp-content/uploads/2025/10/1.-Declaracion-de-principios-valores-y-fines-fundamentales-del-Partido.pdf",
+        "fecha": "2025-10",
+        "consultado": "2026-07-10"
+      }
+    },
+    "nac-001": {
+      "valor": -2,
+      "justificacion": "Su declaración de principios vigente fija como fin la plena autonomía interna y el máximo autogobierno dentro de España, no la independencia; no contempla ni reclama una vía unilateral hacia la secesión si el Estado rechaza de forma permanente un referéndum pactado.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "estatutos",
+        "titulo": "Declaración de principios, valores y fines fundamentales de Coalición Canaria",
+        "url": "https://coalicioncanaria.org/wp-content/uploads/2025/10/1.-Declaracion-de-principios-valores-y-fines-fundamentales-del-Partido.pdf",
+        "fecha": "2025-10",
+        "consultado": "2026-07-10"
+      }
+    },
+    "sd-004": {
+      "valor": 1,
+      "justificacion": "Su ponencia ideológica se define como organización nacionalista cuyo fin es la identidad canaria «como pueblo soberano integrado en una concepción plurinacional del Estado»: evidencia doctrinal de fondo, aunque de un congreso ya antiguo (2008) y no reformulada en estos términos por el texto de principios más reciente (2025).",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "estatutos",
+        "titulo": "Aprobados en el IV Congreso de CC: Ponencia Ideológica",
+        "url": "https://coalicioncanaria.org/wp-content/uploads/cc-pdf/iv-congreso/ponencia-IV-Congreso-Ideologica-aprobada.pdf",
+        "fecha": "2008-10-26",
+        "consultado": "2026-07-10"
+      }
+    },
+    "sd-005": {
+      "valor": 2,
+      "justificacion": "Clavijo rechazó frontalmente la financiación singular pactada entre el Estado y la Generalitat, advirtiendo de que Canarias «irá para detrás» si el modelo autonómico termina siendo lo que quiere Cataluña, y cifró en 2.500 millones anuales la pérdida para el archipiélago de extender ese modelo, inspirado en el concierto vasco, a otro territorio.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Clavijo avisa de que Canarias «irá para detrás» si la financiación autonómica es «lo que quiere Cataluña» (Infobae)",
+        "url": "https://www.infobae.com/espana/agencias/2024/11/26/clavijo-avisa-de-que-canarias-ira-para-detras-si-la-financiacion-autonomica-es-lo-que-quiere-cataluna/",
+        "fecha": "2024-11-26",
+        "consultado": "2026-07-10",
+        "cita": "irá para detrás"
+      }
+    },
+    "ter-001": {
+      "valor": -2,
+      "justificacion": "Su fin vigente es la plena autonomía interna y el máximo autogobierno para Canarias, reclamando más competencias frente al Estado central (REF, aguas, ultraperiferia); toda su agenda va en sentido contrario a que las comunidades autónomas le devuelvan competencias.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "estatutos",
+        "titulo": "Declaración de principios, valores y fines fundamentales de Coalición Canaria",
+        "url": "https://coalicioncanaria.org/wp-content/uploads/2025/10/1.-Declaracion-de-principios-valores-y-fines-fundamentales-del-Partido.pdf",
+        "fecha": "2025-10",
+        "consultado": "2026-07-10"
+      }
     }
   }
 }

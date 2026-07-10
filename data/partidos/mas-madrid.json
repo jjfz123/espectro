@@ -7,7 +7,7 @@
   "ccaa": ["madrid"],
   "confianza": "verificada",
   "web": "https://masmadrid.org/",
-  "revisado": "2026-07-09",
+  "revisado": "2026-07-10",
   "actividad": "activa",
   "posiciones": {
     "dem-001": {
@@ -20,6 +20,210 @@
         "url": "https://programa.masmadrid.org/pdf/Comunidad%20de%20Madrid/Programa%20M%C3%A1s%20Madrid%20-%20CM%202023.pdf",
         "fecha": "2023-05",
         "consultado": "2026-07-09"
+      }
+    },
+    "eco-002": {
+      "valor": -2,
+      "justificacion": "Mónica García, ministra de Sanidad y líder de Más Madrid, distingue explícitamente sanidad privada de privatización: impulsa una ley para frenar la gestión privada y los conciertos con ánimo de lucro en hospitales públicos, a los que acusa de «parasitar» el sistema en vez de mejorarlo.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Mónica García: «No tengo ninguna disputa con la sanidad privada, pero sí con la privatización de la sanidad» (Público)",
+        "url": "https://www.publico.es/politica/monica-garcia-no-disputa-sanidad-privada-privatizacion-sanidad.html",
+        "fecha": "2024-07-28",
+        "consultado": "2026-07-10"
+      }
+    },
+    "eco-005": {
+      "valor": 2,
+      "justificacion": "Su programa municipal de 2023 aboga por vivienda pública y por limitar los precios del alquiler en las zonas tensionadas de Madrid, frente al rechazo de Ayuso a declarar zonas tensionadas y aplicar la Ley de Vivienda estatal en la región.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Elecciones en Madrid: ¿Qué propone Más Madrid en materia de vivienda? (Fotocasa)",
+        "url": "https://blogprofesional.fotocasa.es/elecciones-en-madrid-que-propone-mas-madrid-en-materia-de-vivienda/",
+        "fecha": "2023",
+        "consultado": "2026-07-10"
+      }
+    },
+    "eco-006": {
+      "valor": 2,
+      "justificacion": "Su programa municipal «Quiero una casa» plantea un parque de vivienda pública en alquiler, reservar un 30% de la nueva construcción a alquiler social y asequible para menores de 35 años, y gravar fiscalmente la vivienda vacía para financiarlo.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa municipal de Más Madrid 2023 — «Quiero una casa»",
+        "url": "https://programa.masmadrid.org/pdf/Ayuntamiento%20de%20Madrid/7-Quierounacasa.pdf",
+        "fecha": "2023",
+        "consultado": "2026-07-10"
+      }
+    },
+    "eco-007": {
+      "valor": -1,
+      "justificacion": "Su programa de vivienda prioriza aflorar la vivienda vacía mediante tanteo y retracto y un recargo fiscal a quien la mantenga vacía más de dos años, y reconoce que las familias «vulnerables» que han entrado en una vivienda vacía por falta de alternativa deben poder acceder a vivienda social, en vez de un desalojo exprés generalizado en pocos días.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Más Madrid alienta la okupación señalando puerta por puerta las viviendas vacías de la Comunidad de Madrid (OKDiario)",
+        "url": "https://okdiario.com/espana/mas-madrid-alienta-okupacion-senalando-puerta-puerta-viviendas-vacias-comunidad-madrid-18807533",
+        "fecha": "2026-06",
+        "consultado": "2026-07-10"
+      }
+    },
+    "eco-009": {
+      "valor": -2,
+      "justificacion": "Más Madrid critica las sucesivas bonificaciones de Ayuso al impuesto de sucesiones y donaciones (ampliada al 50% entre hermanos, tíos y sobrinos en 2025) calificándolas de «regalo de Ayuso a las grandes fortunas»: defiende mantener y reforzar el tributo, no suprimirlo.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Madrid lleva a pleno el jueves bonificar un 50% el impuesto de sucesiones entre tíos y sobrinos: «Es un regalo de Ayuso a las grandes fortunas» (Infobae)",
+        "url": "https://www.infobae.com/espana/2025/06/09/madrid-aprueba-el-jueves-la-bonificacion-del-50-del-impuesto-de-sucesiones-entre-tios-y-sobrinos-a-vox-se-le-queda-corta-pide-el-99/",
+        "fecha": "2025-06-09",
+        "consultado": "2026-07-10"
+      }
+    },
+    "eco-013": {
+      "valor": -2,
+      "justificacion": "Como ministra de Sanidad impulsó el anteproyecto de Ley de Gestión Pública e Integridad del SNS para impedir externalizar hospitales públicos sin justificación y limitar los conciertos con ánimo de lucro: «vamos a proteger la sanidad de las garras especuladoras», lo contrario de derivar más pacientes a la privada por listas de espera.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Mónica García, sobre la ley que frena la privatización: «Vamos a proteger la sanidad de las garras especuladoras» (elDiario.es)",
+        "url": "https://www.eldiario.es/sociedad/monica-garcia-norma-frena-privatizacion-sanitaria-proteger-sistema-garras-especuladoras_1_12977703.html",
+        "fecha": "2026-02-10",
+        "consultado": "2026-07-10"
+      }
+    },
+    "eco-014": {
+      "valor": 1,
+      "justificacion": "Más Madrid apoyó en la Asamblea la propuesta del PSOE para recuperar el Impuesto de Patrimonio sobre los patrimonios madrileños superiores a 3 millones de euros, que Ayuso bonifica al 100%; la evidencia documentada es sobre el tributo autonómico de patrimonio, no directamente sobre el impuesto estatal a grandes fortunas, de ahí el valor moderado.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Qué supone el cambio del impuesto de patrimonio anunciado por Ayuso en Madrid para «quedarse» con lo recaudado de las grandes fortunas (Newtral)",
+        "url": "https://www.newtral.es/ayuso-impuesto-grandes-fortunas-recaudacion-patrimonio/20231108/",
+        "fecha": "2023-11-08",
+        "consultado": "2026-07-10"
+      }
+    },
+    "soc-001": {
+      "valor": 2,
+      "justificacion": "En el Orgullo LGTBI de 2026, Mónica García acusó al PP de intentar «apropiarse» de derechos conquistados por el colectivo mientras vota en contra o se abstiene ante leyes de protección LGTBI, defendiendo el matrimonio igualitario y la ley trans frente a los intentos de recorte de PP y Vox.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Mónica García acusa al PP de poner a las personas trans «en el punto de mira» (Infobae)",
+        "url": "https://www.infobae.com/espana/agencias/2026/07/04/monica-garcia-acusa-al-pp-de-poner-a-las-personas-trans-en-el-punto-de-mira/",
+        "fecha": "2026-07-04",
+        "consultado": "2026-07-10"
+      }
+    },
+    "soc-002": {
+      "valor": -2,
+      "justificacion": "Su portavoz municipal, Rita Maestre, acusó al PP (Almeida y Ayuso) de convertirse en «la voz de los bulos y los discursos de odio hacia las personas inmigrantes» en competencia con la extrema derecha europea, rechazando el marco que prioriza la devolución frente a la integración y la regularización.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Maestre acusa al PP de asumir «el discurso de odio y bulos de la extrema derecha» sobre la inmigración y Almeida la llama «hipócrita» (elDiario.es)",
+        "url": "https://www.eldiario.es/politica/ultima-hora-actualidad-politica-directo_6_10874440_1105716.html",
+        "fecha": "2024-01-29",
+        "consultado": "2026-07-10"
+      }
+    },
+    "fem-001": {
+      "valor": 2,
+      "justificacion": "Más Madrid rechazó en la Asamblea la reforma de Ayuso (diciembre de 2023) que recortó las leyes trans y LGTBI de Madrid eliminando las menciones a la «autodeterminación» y la «autodefinición» de género, defendiendo el modelo previo que permitía el cambio registral por la sola voluntad de la persona.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "En qué consiste el recorte de las leyes trans y LGTBI de Madrid (Newtral)",
+        "url": "https://www.newtral.es/recorte-ley-trans-madrid-ley-lgtbi/20231117/",
+        "fecha": "2023-11-17",
+        "consultado": "2026-07-10"
+      }
+    },
+    "fem-014": {
+      "valor": 2,
+      "justificacion": "Registró en la Asamblea de Madrid una Proposición No de Ley pidiendo al Gobierno una regulación integral del cannabis para adultos, argumentando que no es «más dañino que otras drogas legales» y defendiendo un marco regulado de salud pública frente a la prohibición.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Más Madrid exige al Gobierno la regulación integral del cannabis en adultos (masmadrid.org)",
+        "url": "https://masmadrid.org/mas-madrid-exige-al-gobierno-la-regulacion-integral-del-cannabis-en-adultos/",
+        "fecha": "2022-05",
+        "consultado": "2026-07-10"
+      }
+    },
+    "der-026": {
+      "valor": -2,
+      "justificacion": "Cuando la Asamblea de Madrid aprobó en 2019, con los votos de PP y Ciudadanos, una iniciativa de Vox para pedir la ilegalización de partidos independentistas, Más Madrid votó en contra: su diputado la calificó de «esperpento político y legal», recordando que en democracia las leyes las aplican los jueces y los tribunales, no un decreto arbitrario.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "PP y Ciudadanos apoyan a Vox y piden ilegalizar partidos independentistas (Izquierda Diario)",
+        "url": "https://www.izquierdadiario.es/PP-y-Ciudadanos-apoyan-a-Vox-y-piden-ilegalizar-partidos-independentistas",
+        "fecha": "2019-11",
+        "consultado": "2026-07-10"
+      }
+    },
+    "va-003": {
+      "valor": 2,
+      "justificacion": "Más Madrid es el único partido con representación en la Comunidad de Madrid que ha pedido acabar con las corridas de toros, proponiendo revisar y retirar la financiación pública a la tauromaquia una vez terminen los contratos vigentes.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Los toros separan a la izquierda: Más Madrid pide que se acabe con las corridas y el PSOE más inversión por ser «bien cultural» (El Español)",
+        "url": "https://www.elespanol.com/espana/politica/20250514/toros-separan-izquierda-madrid-pide-acabe-corridas-psoe-inversion-bien-cultural/1003743757306_0.html",
+        "fecha": "2025-05-14",
+        "consultado": "2026-07-10"
+      }
+    },
+    "cat-003": {
+      "valor": 2,
+      "justificacion": "En pleno debate por la amnistía (noviembre de 2023), Mónica García defendió la ley como salida política legítima al conflicto catalán frente a la vía penal, acusando a Ayuso y Aguirre de emular la «kale borroka» por no aceptar el resultado electoral que hizo posible el acuerdo con las fuerzas independentistas.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Mónica García tacha a Aguirre y Ayuso de «kale borroka» y saca la guerra de Irak y Franco para defender la amnistía (Libertad Digital)",
+        "url": "https://www.libertaddigital.com/madrid/2023-11-06/monica-garcia-tacha-a-aguirre-y-ayuso-de-kale-borroka-y-saca-la-guerra-de-irak-y-franco-para-defender-la-amnistia-7066543/",
+        "fecha": "2023-11-06",
+        "consultado": "2026-07-10"
+      }
+    },
+    "der-005": {
+      "valor": -1,
+      "justificacion": "Su rechazo a ilegalizar partidos independentistas («esperpento político y legal», dijo su diputado en la Asamblea en 2019) frente a la deriva de PP, Cs y Vox invocando la «unidad de la nación» muestra que prioriza las garantías democráticas y judiciales sobre apelar a la unidad de España para restringir derechos; no existe una declaración programática general sobre esta jerarquía, de ahí el valor moderado y la calidad baja.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "PP y Ciudadanos apoyan a Vox y piden ilegalizar partidos independentistas (Izquierda Diario)",
+        "url": "https://www.izquierdadiario.es/PP-y-Ciudadanos-apoyan-a-Vox-y-piden-ilegalizar-partidos-independentistas",
+        "fecha": "2019-11",
+        "consultado": "2026-07-10"
+      }
+    },
+    "sd-006": {
+      "valor": -2,
+      "justificacion": "Mónica García defendió públicamente la investidura de Sánchez apoyada en ERC, Junts, Bildu y PNV frente al PP, acusando a este de no «aceptar el resultado electoral»; Más Madrid nunca ha planteado como alternativa un gran acuerdo con la derecha constitucionalista.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Mónica García (Más Madrid): La derecha no va a «amedrentar» ni «arrugar» al nuevo Gobierno (COPE)",
+        "url": "https://www.cope.es/actualidad/espana/noticias/monica-garcia-mas-madrid-derecha-amedrentar-arrugar-nuevo-gobierno-20231118_3007970",
+        "fecha": "2023-11-18",
+        "consultado": "2026-07-10"
+      }
+    },
+    "dr-021": {
+      "valor": -2,
+      "justificacion": "Todo el proyecto político de Más Madrid consiste en gobernar la Comunidad de Madrid y sus ayuntamientos (Mónica García fue elegida en julio de 2026 candidata a la presidencia autonómica, Rita Maestre a la alcaldía); suprimir las comunidades autónomas y sustituirlas por una administración única equivaldría a la negación de su propio proyecto institucional.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Mónica García y Rita Maestre ganan las primarias de Más Madrid para las elecciones de 2027 (Infobae)",
+        "url": "https://www.infobae.com/espana/agencias/2026/07/07/monica-garcia-y-rita-maestre-ganan-las-primarias-de-mas-madrid-para-las-elecciones-de-2027/",
+        "fecha": "2026-07-07",
+        "consultado": "2026-07-10"
       }
     }
   }

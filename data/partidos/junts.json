@@ -245,6 +245,150 @@
         "consultado": "2026-07-10",
         "cita": "PSOE, Podemos, BNG, ERC, Junts per Catalunya, PDeCAT, Más País, Bildu, PNV, Nueva Canarias, Coalición Canaria, CUP y Cs"
       }
+    },
+    "eco-006": {
+      "valor": 0,
+      "justificacion": "Su paquete de 25 medidas de vivienda (diciembre 2024) compromete al menos 1.000 millones de fondos propios para ampliar el parque de alquiler y compra, pero lo combina con ayudas a la iniciativa privada, un registro contra el fraude en alquileres de temporada y seguridad jurídica: acuerdo parcial con una fuerte inversión pública, no con la construcción directa de un gran parque estatal.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Junts presenta 25 mesures per abordar la crisi de l'habitatge",
+        "url": "https://junts.cat/actualitat/junts-presenta-25-mesures-per-abordar-la-crisi-de-lhabitatge",
+        "fecha": "2024-12-02",
+        "consultado": "2026-07-10"
+      }
+    },
+    "eco-010": {
+      "valor": 0,
+      "justificacion": "Ante la propuesta de Yolanda Díaz de encarecer la indemnización por despido según edad y antigüedad del trabajador, Junts cerró la puerta a esa personalización y condicionó cualquier cambio a que fuera «predecible» y alineado con las indemnizaciones europeas: rechaza que se encarezca, pero no consta que reclame abaratarlo por debajo del nivel actual.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Junts rechaza en el Congreso la reforma de la indemnización por despido de Díaz",
+        "url": "https://www.eleconomista.es/economia/noticias/13550628/09/25/junts-rechaza-en-el-congreso-la-reforma-de-la-indemnizacion-por-despido-de-diaz.html",
+        "fecha": "2025-09",
+        "consultado": "2026-07-10"
+      }
+    },
+    "der-012": {
+      "valor": 1,
+      "justificacion": "Al tumbar (con PP y Vox) la reducción legal de la jornada a 37,5 horas —ver eco-011—, Junts alegó que estas reformas deben negociarse con los agentes sociales antes de imponerse por ley; la patronal catalana Foment celebró explícitamente esa resistencia a legislar sin acuerdo previo con sindicatos y empresarios.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Foment felicita a Junts por «resistir las presiones» de Díaz sobre la reducción de jornada",
+        "url": "https://elmon.cat/moneconomia/es/mundo-laboral/foment-felicita-a-junts-por-resistir-las-presiones-de-diaz-con-la-reduccion-de-jornada-104139/",
+        "fecha": "2025",
+        "consultado": "2026-07-10"
+      }
+    },
+    "der-001": {
+      "valor": -1,
+      "justificacion": "Pese a su herencia liberal-conservadora, Junts impulsó que el Parlament reclamara al Estado suspender cualquier validación de la opa hostil del BBVA sobre el Banc Sabadell para proteger un banco considerado estratégico para el tejido empresarial catalán: una intervención activa en una operación bancaria privada, incompatible con reducir el Estado a seguridad y justicia.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Opa hostil: Junts y ERC (y PSC) juegan sus últimas cartas para frenar la opa del BBVA al Sabadell",
+        "url": "https://theobjective.com/economia/2025-09-14/junts-erc-psc-opa-bbva-sabadell/",
+        "fecha": "2025-09-14",
+        "consultado": "2026-07-10"
+      }
+    },
+    "cat-003": {
+      "valor": 2,
+      "justificacion": "Junts condicionó su apoyo a la investidura de Sánchez a una amnistía «integral» como salida al conflicto político catalán, llegando a plantear una enmienda que cubriera incluso delitos de terrorismo, y rechazó que el Gobierno recurriera a modificar el Código Penal como vía alternativa.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "El Gobierno busca terceras vías para la amnistía: ni acepta la solución de Junts ni retocará el Código Penal",
+        "url": "https://www.elespanol.com/espana/politica/20240203/gobierno-busca-terceras-vias-amnistia-acepta-solucion-junts-retocara-codigo-penal/829667456_0.html",
+        "fecha": "2024-02-03",
+        "consultado": "2026-07-10"
+      }
+    },
+    "sd-004": {
+      "valor": 1,
+      "justificacion": "Junts registró en 2021 una reforma del reglamento del Senado que definía a España como «Estado plurinacional y plurilingüe», aprobada con apoyo del PSOE; la usa como paso instrumental hacia más autogobierno, no como destino final (su objetivo declarado sigue siendo la independencia), de ahí un acuerdo moderado.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "El Senado gastará 1 millón al año en traductores tras apoyar el PSOE el «Estado plurinacional» de Junts",
+        "url": "https://www.elespanol.com/espana/politica/20210923/senado-gastara-millon-traductores-psoe-plurinacional-junts/613939790_0.html",
+        "fecha": "2021-09-23",
+        "consultado": "2026-07-10"
+      }
+    },
+    "ter-002": {
+      "valor": 2,
+      "justificacion": "Junts reclama reiteradamente un referéndum de autodeterminación pactado para decidir el futuro político de Catalunya, apoyándose en el artículo 92 de la Constitución como vía legal, aunque el Tribunal Constitucional entiende que ese artículo no habilita consultas sobre el orden constitucional.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Qué dice el artículo 92 de la Constitución que Junts relaciona con un referéndum de autodeterminación",
+        "url": "https://www.newtral.es/articulo-92-constitucion-junts-referendum-autodeterminacion/20231111/",
+        "fecha": "2023-11-11",
+        "consultado": "2026-07-10"
+      }
+    },
+    "der-014": {
+      "valor": 1,
+      "justificacion": "Junts toma el concierto vasco y el convenio navarro como referencia legítima que reclama igualar o superar para Catalunya («un régimen fiscal más beneficioso que los conciertos vasco y navarro»), lo que implica aceptar esos regímenes forales como parte del mapa territorial, no cuestionar su continuidad.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Junts reclama al PSOE un régimen fiscal para Cataluña más beneficioso que los conciertos vasco y navarro",
+        "url": "https://www.elespanol.com/invertia/economia/macroeconomia/20231110/junts-reclama-psoe-regimen-fiscal-cataluna-beneficioso-conciertos-vasco-navarro/808419422_0.html",
+        "fecha": "2023-11-10",
+        "consultado": "2026-07-10"
+      }
+    },
+    "dr-007": {
+      "valor": 0,
+      "justificacion": "Ante una moción del PSOE (con enmienda pactada con Sumar y ERC) para instar al Gobierno a promover la educación afectivo-sexual en las aulas, Junts se abstuvo mientras PP y Vox votaron en contra: no respalda ampliar estos contenidos, pero tampoco se suma al bloque que pide retirarlos.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "Congreso insta a Gobierno a promover la educación afectivo-sexual en aulas, con PP y Vox en contra y abstención de Junts",
+        "url": "https://www.diariosigloxxi.com/texto-ep/mostrar/20260625182711/congreso-insta-gobierno-promover-educacion-afectivo-sexual-aulas-pp-vox-contra-abstencion-junts",
+        "fecha": "2026-06-25",
+        "consultado": "2026-07-10"
+      }
+    },
+    "soc-005": {
+      "valor": 1,
+      "justificacion": "Puigdemont reconoció públicamente que «la inmigración es necesaria para el progreso» de Catalunya, aunque advirtió del riesgo de desbordamiento de los servicios públicos si falla la integración: acuerdo moderado, no una defensa incondicional ni un rechazo del argumento económico.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Puigdemont dice que Cataluña gestionará la inmigración de forma «integral» y como si fuera un Estado",
+        "url": "https://www.servimedia.es/noticias/puigdemont-dice-cataluna-gestionara-inmigracion-forma-integral-como-si-fuera-estado/1411501706",
+        "fecha": "2025",
+        "consultado": "2026-07-10"
+      }
+    },
+    "der-019": {
+      "valor": 0,
+      "justificacion": "En 2026 Junts votó junto a PSOE, Sumar, ERC, Bildu, PNV y Podemos para bloquear la ampliación de la prisión permanente revisable, defendiendo un modelo penal orientado a la reinserción; pero esa votación fue sobre no ampliarla, no sobre derogarla, y no consta que Junts haya reclamado eliminarla del Código Penal.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "El Congreso rechaza tramitar la ampliación de la prisión permanente apoyada por PP, Vox, UPN y CC",
+        "url": "https://www.infobae.com/espana/agencias/2026/03/17/el-congreso-rechaza-tramitar-la-ampliacion-de-la-prision-permanente-apoyada-por-pp-vox-upn-y-cc/",
+        "fecha": "2026-03-17",
+        "consultado": "2026-07-10"
+      }
+    },
+    "soc-006": {
+      "valor": 0,
+      "justificacion": "Mismo episodio que der-019: Junts se alineó con PSOE, Sumar, ERC, Bildu, PNV y Podemos para impedir que se ampliara la prisión permanente revisable a más supuestos, mostrando afinidad con un enfoque garantista, pero sin llegar a votar ni reclamar su derogación completa.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "El Congreso rechaza ampliar la prisión permanente revisable para asesinos que oculten el cadáver de su víctima",
+        "url": "https://www.libertaddigital.com/espana/2026-03-17/el-congreso-rechaza-ampliar-la-prision-permanente-revisable-para-asesinos-que-oculten-el-cadaver-de-su-victima-7376052/",
+        "fecha": "2026-03-17",
+        "consultado": "2026-07-10"
+      }
     }
   }
 }

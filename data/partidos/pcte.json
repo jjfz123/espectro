@@ -6,7 +6,7 @@
   "tipo": "partido",
   "confianza": "verificada",
   "web": "https://www.pcte.es/",
-  "revisado": "2026-07-09",
+  "revisado": "2026-07-10",
   "actividad": "activa",
   "excepcionCatalogo": {
     "motivo": "comunista-activa",
@@ -222,6 +222,199 @@
         "url": "https://www.pcte.es/wp-content/uploads/2023/07/PROGRAMA%20DE%20LUCHA%202023-2027.pdf",
         "fecha": "2023-07",
         "consultado": "2026-07-09"
+      }
+    },
+    "izq-026": {
+      "valor": 2,
+      "justificacion": "El Manifiesto-Programa analiza los procesos independentistas catalán, vasco y gallego como disputas entre sectores de la burguesía que arrastran a la clase obrera tras \"banderas ajenas\"; concluye que la contradicción real es entre la patria del trabajo y la patria del capital, no entre naciones, y que la clase obrera no debe tomar partido en esos conflictos.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Manifiesto-Programa del PCTE (II Congreso, \"Congreso del Centenario\")",
+        "url": "https://s3.eu-west-3.amazonaws.com/cdn.pcte.es/wp-content/uploads/2022/09/06194642/Manifiesto_Programa_PCTE_Digital-1.pdf",
+        "fecha": "2021-11",
+        "consultado": "2026-07-10",
+        "cita": "En la disputa entre facciones de la burguesía, la clase obrera se divide y formula sus posiciones mediatizada por las banderas ajenas que levanta uno u otro sector de la clase dominante, perdiendo de vista que en toda nación hay dos patrias: la patria del trabajo y la patria del capital."
+      }
+    },
+    "nac-002": {
+      "valor": -2,
+      "justificacion": "El propio Manifiesto descarta que el objetivo final de catalanes, vascos o gallegos deba ser un Estado independiente: afirma que esa vía se ha convertido en una quimera salvo en situaciones coloniales, y niega expresamente que Cataluña, Euskadi o Galicia vivan una situación colonial o sean naciones subordinadas.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Manifiesto-Programa del PCTE (II Congreso, \"Congreso del Centenario\")",
+        "url": "https://s3.eu-west-3.amazonaws.com/cdn.pcte.es/wp-content/uploads/2022/09/06194642/Manifiesto_Programa_PCTE_Digital-1.pdf",
+        "fecha": "2021-11",
+        "consultado": "2026-07-10",
+        "cita": "la creación de Estados independientes, surgidos del ejercicio del derecho de autodeterminación en el seno de otros Estados capitalistas, hace tiempo que se ha convertido en una quimera, salvo en aquellos lugares en los que, con la solidaridad de los pueblos, sigue enfrentándose una situación colonial y jamás ha cesado la lucha."
+      }
+    },
+    "izq-038": {
+      "valor": -2,
+      "justificacion": "El PCTE defiende expresamente el centralismo democrático como principio organizativo del poder socialista, con un Consejo Central que ejerce \"un poder único e indivisible\"; es lo contrario de una confederación libre de municipios y asambleas sin Estado central.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Manifiesto-Programa del PCTE (II Congreso, \"Congreso del Centenario\")",
+        "url": "https://s3.eu-west-3.amazonaws.com/cdn.pcte.es/wp-content/uploads/2022/09/06194642/Manifiesto_Programa_PCTE_Digital-1.pdf",
+        "fecha": "2021-11",
+        "consultado": "2026-07-10",
+        "cita": "El Estado socialista y todos sus organismos se regirán por el principio del centralismo democrático... Los comunistas somos defensores del centralismo democrático y luchamos por construir una República Socialista regida por tales principios."
+      }
+    },
+    "ter-002": {
+      "valor": -2,
+      "justificacion": "El Manifiesto califica la vía de los referéndums de autodeterminación de nuevos Estados como una \"utopía reaccionaria\" que conduce a la clase obrera a un callejón sin salida, y sostiene que crear nuevos Estados por esa vía es hoy \"una quimera\" salvo en situaciones coloniales inexistentes en España.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Manifiesto-Programa del PCTE (II Congreso, \"Congreso del Centenario\")",
+        "url": "https://s3.eu-west-3.amazonaws.com/cdn.pcte.es/wp-content/uploads/2022/09/06194642/Manifiesto_Programa_PCTE_Digital-1.pdf",
+        "fecha": "2021-11",
+        "consultado": "2026-07-10",
+        "cita": "los comunistas combatimos también aquellas otras manifestaciones de nacionalismo que, en una u otra parte del territorio español, siembran la falsa ilusión en sectores del pueblo trabajador de transitar por un camino independiente conformando nuevos Estados-nación. Denunciamos que esas posiciones conducen a la clase obrera a un callejón sin salida, pues no representan más que una utopía reaccionaria."
+      }
+    },
+    "dem-033": {
+      "valor": -1,
+      "justificacion": "El PCTE no adopta el federalismo como salida al problema territorial: considera que los debates sobre el modelo de Estado son la \"plasmación... de los intereses... de la burguesía\" y que ninguna reorganización de la superestructura capitalista beneficia a la clase obrera. Se matiza a -1 porque el partido no combate el federalismo con la misma intensidad que combate el independentismo, y lo trata como un dilema más entre fracciones burguesas.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Manifiesto-Programa del PCTE (II Congreso, \"Congreso del Centenario\")",
+        "url": "https://s3.eu-west-3.amazonaws.com/cdn.pcte.es/wp-content/uploads/2022/09/06194642/Manifiesto_Programa_PCTE_Digital-1.pdf",
+        "fecha": "2021-11",
+        "consultado": "2026-07-10",
+        "cita": "el PCTE considera que los debates sobre el Estado de las Autonomías representan la plasmación concreta en el orden constitucional de los intereses de los diferentes sectores de la burguesía. Frente a los falsos dilemas... llamamos a la clase obrera a no confiar en ningún planteamiento nacionalista. No hay ninguna salida beneficiosa para la clase obrera en el marco de la reorganización de la superestructura capitalista."
+      }
+    },
+    "dem-034": {
+      "valor": -1,
+      "justificacion": "Por el mismo motivo que con el modelo federal, el PCTE no propone una confederación de territorios soberanos como salida: la considera parte de los \"falsos dilemas\" con que las distintas fracciones de la burguesía se disputan la reorganización del Estado, de la que \"no hay ninguna salida beneficiosa para la clase obrera\".",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Manifiesto-Programa del PCTE (II Congreso, \"Congreso del Centenario\")",
+        "url": "https://s3.eu-west-3.amazonaws.com/cdn.pcte.es/wp-content/uploads/2022/09/06194642/Manifiesto_Programa_PCTE_Digital-1.pdf",
+        "fecha": "2021-11",
+        "consultado": "2026-07-10",
+        "cita": "el PCTE considera que los debates sobre el Estado de las Autonomías representan la plasmación concreta en el orden constitucional de los intereses y de los diferentes sectores de la burguesía... No hay ninguna salida beneficiosa para la clase obrera en el marco de la reorganización de la superestructura capitalista."
+      }
+    },
+    "nac-013": {
+      "valor": 1,
+      "justificacion": "El programa no menciona expresamente al aragonés o al leonés, pero fija como principio general oponerse a \"todo trato diferenciado\" hacia las lenguas de los distintos territorios, consideradas patrimonio de toda la clase obrera, y reclama un sistema educativo \"respetuoso con las lenguas territoriales\". Se codifica como acuerdo matizado por no citarse estas lenguas de forma expresa.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Manifiesto-Programa del PCTE (II Congreso, \"Congreso del Centenario\")",
+        "url": "https://s3.eu-west-3.amazonaws.com/cdn.pcte.es/wp-content/uploads/2022/09/06194642/Manifiesto_Programa_PCTE_Digital-1.pdf",
+        "fecha": "2021-11",
+        "consultado": "2026-07-10",
+        "cita": "Nos enfrentamos a toda desigualdad entre los pueblos y a toda agresión que se exprese en un trato diferenciado a nuestras lenguas, a nuestra cultura y a cuanto hay de progresivo en las tradiciones de los diferentes territorios que conforman nuestro país; pues son patrimonio del conjunto de la clase obrera española."
+      }
+    },
+    "sd-004": {
+      "valor": -1,
+      "justificacion": "El PCTE no reclama que la Constitución reconozca a España como Estado plurinacional: valora ese debate, igual que el federal o el confederal, como parte de la \"reorganización de la superestructura capitalista\" sin salida para la clase obrera. Se matiza a -1 porque el propio partido admite como hecho histórico la existencia de \"identidades nacionales diferenciadas\" en Cataluña, Euskadi y Galicia, aunque rechace consagrarlo constitucionalmente.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Manifiesto-Programa del PCTE (II Congreso, \"Congreso del Centenario\")",
+        "url": "https://s3.eu-west-3.amazonaws.com/cdn.pcte.es/wp-content/uploads/2022/09/06194642/Manifiesto_Programa_PCTE_Digital-1.pdf",
+        "fecha": "2021-11",
+        "consultado": "2026-07-10",
+        "cita": "el PCTE considera que los debates sobre el Estado de las Autonomías representan la plasmación concreta en el orden constitucional de los intereses y de los diferentes sectores de la burguesía... No hay ninguna salida beneficiosa para la clase obrera en el marco de la reorganización de la superestructura capitalista."
+      }
+    },
+    "fem-001": {
+      "valor": -2,
+      "justificacion": "En su comunicado del Buró Político contra la Ley Trans, el PCTE rechaza el cambio registral de sexo por sola voluntad sin informes médicos ni psicológicos, y advierte del riesgo de que menores de 14 años inicien ese proceso sin evaluación clínica alguna; el partido presenta la ley como un retroceso de derechos y no como una ampliación de los mismos.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Contra el retroceso en derechos que supone la Ley Trans",
+        "url": "https://www.pcte.es/comunicados-centrales/contra-el-retroceso-en-derechos-que-supone-la-ley-trans/",
+        "fecha": "2024-02-22",
+        "consultado": "2026-07-10"
+      }
+    },
+    "dr-015": {
+      "valor": -2,
+      "justificacion": "El PCTE se opuso frontalmente a la derogación de la Ley de Memoria Histórica y Democrática de Cantabria por PP y Vox en 2024, denunciando el \"revisionismo histórico más burdo\" de estas fuerzas y reivindicando la memoria antifranquista como patrimonio de la clase obrera; esta posición es incompatible con reconocer aportaciones positivas al franquismo.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "La memoria de nuestra clase ni se deroga ni se falsea",
+        "url": "https://www.pcte.es/territorios/la-memoria-de-nuestra-clase-ni-se-deroga-ni-se-falsea/",
+        "fecha": "2024-10-31",
+        "consultado": "2026-07-10"
+      }
+    },
+    "cat-004": {
+      "valor": -2,
+      "justificacion": "Ante los ataques racistas de Torre Pacheco (julio de 2025), el Buró Político del PCTE calificó de chovinista y xenófoba la narrativa que asocia la inmigración con una amenaza a la identidad o la seguridad, y llamó a la unidad de trabajadores migrantes y nativos frente a la división impuesta por el capital.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Ante las cacerías reaccionarias en Torre-Pacheco",
+        "url": "https://www.pcte.es/comunicados-centrales/ante-las-cacerias-reaccionarias-en-torre-pacheco/",
+        "fecha": "2025-07-15",
+        "consultado": "2026-07-10",
+        "cita": "Esta campaña de odio, basada en bulos y manipulaciones, tiene un objetivo político muy claro: situar el eje de conflictividad social en torno al origen nacional o étnico desde concepciones chovinistas y xenófobas... Solo mediante la unidad de todos los trabajadores —migrantes y nativos— será posible plantar cara a la explotación y la miseria que impone el capitalismo."
+      }
+    },
+    "izq-046": {
+      "valor": 1,
+      "justificacion": "El Manifiesto-Programa denuncia la militarización de fronteras (muro EEUU-México, FRONTEX) como causa de rutas migratorias mortales, mostrando una posición favorable a la libre circulación de personas frente al cierre de fronteras; se matiza a +1 porque lo enmarca como consecuencia del imperialismo y no como una declaración de un derecho individual liberal abstracto.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Manifiesto-Programa del PCTE (II Congreso, \"Congreso del Centenario\")",
+        "url": "https://s3.eu-west-3.amazonaws.com/cdn.pcte.es/wp-content/uploads/2022/09/06194642/Manifiesto_Programa_PCTE_Digital-1.pdf",
+        "fecha": "2021-11",
+        "consultado": "2026-07-10",
+        "cita": "Unas fronteras cada vez más militarizadas (muro de Estados Unidos con México, FRONTEX en la Unión Europea) provocan rutas migratorias cada vez más inseguras, acompañadas de la muerte y desaparición de miles de personas, gran parte de ellas en el Mar Mediterráneo."
+      }
+    },
+    "soc-006": {
+      "valor": 1,
+      "justificacion": "El programa no se pronuncia sobre la vigente prisión permanente revisable, pero fija que el sistema penitenciario debe orientarse íntegramente a la reinserción social, \"terminando con todo vestigio de violencia o abuso\", un modelo incompatible con una pena de duración indeterminada. Se codifica como acuerdo matizado por tratarse de un principio general sobre el futuro sistema penal socialista y no de una declaración específica sobre la ley vigente.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Manifiesto-Programa del PCTE (II Congreso, \"Congreso del Centenario\")",
+        "url": "https://s3.eu-west-3.amazonaws.com/cdn.pcte.es/wp-content/uploads/2022/09/06194642/Manifiesto_Programa_PCTE_Digital-1.pdf",
+        "fecha": "2021-11",
+        "consultado": "2026-07-10",
+        "cita": "El sistema carcelario será reformulado sobre nuevas bases, terminando con todo vestigio de violencia o abuso, con planes basados en la participación en tareas comunitarias dirigidos a garantizar la reinserción social de los reclusos."
+      }
+    },
+    "izq-017": {
+      "valor": 1,
+      "justificacion": "El Manifiesto-Programa describe una fase de transición en la que los pequeños productores individuales (agricultores, ganaderos, pescadores) se integran voluntariamente en cooperativas y conservan sus medios de producción secundarios, junto al sector socializado, hasta erradicar progresivamente todo resto de producción mercantil. Se matiza a +1: no fija un plazo de décadas ni llama \"amplio\" a ese sector, y excluye la compra de fuerza de trabajo dentro de él.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Manifiesto-Programa del PCTE (II Congreso, \"Congreso del Centenario\")",
+        "url": "https://s3.eu-west-3.amazonaws.com/cdn.pcte.es/wp-content/uploads/2022/09/06194642/Manifiesto_Programa_PCTE_Digital-1.pdf",
+        "fecha": "2021-11",
+        "consultado": "2026-07-10",
+        "cita": "Se fomentará la agrupación de los pequeños productores individuales en cooperativas que podrán utilizar la tierra socializada como medio de producción... En ningún caso se permitirá la compra de fuerza de trabajo, que en el socialismo deja de ser una mercancía, se trata de cooperación individual de los pequeños productores no integrados aún en la producción social directa."
+      }
+    },
+    "dr-002": {
+      "valor": -2,
+      "justificacion": "El PCTE se define como partido internacionalista proletario y se compromete a combatir \"toda expresión nacionalista, chovinista, racista y xenófoba\"; una ley que obligara a las empresas a dar preferencia a los trabajadores españoles encajaría precisamente en ese chovinismo laboral que el partido rechaza como forma de dividir a la clase obrera.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Manifiesto-Programa del PCTE (II Congreso, \"Congreso del Centenario\")",
+        "url": "https://s3.eu-west-3.amazonaws.com/cdn.pcte.es/wp-content/uploads/2022/09/06194642/Manifiesto_Programa_PCTE_Digital-1.pdf",
+        "fecha": "2021-11",
+        "consultado": "2026-07-10",
+        "cita": "El Partido trabaja para que la clase obrera española exprese su solidaridad internacionalista con la clase obrera y los pueblos de todos los países en su lucha contra el sistema imperialista mundial, combatiendo toda expresión nacionalista, chovinista, racista y xenófoba."
       }
     }
   }

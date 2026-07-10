@@ -92,6 +92,90 @@
         "fecha": "2024-05",
         "consultado": "2026-07-09"
       }
+    },
+    "lib-017": {
+      "valor": 2,
+      "justificacion": "Su programa a las generales de 2019 propone despenalizar la eutanasia y el suicidio médicamente asistido modificando el artículo 143 del Código Penal, además de trabajar en una ley de muerte digna.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Pacma no solo habla de animales: 10 propuestas para sanidad en su programa (Redacción Médica)",
+        "url": "https://www.redaccionmedica.com/secciones/sanidad-hoy/pacma-no-solo-habla-de-animales-10-propuestas-para-sanidad-en-su-programa-4756",
+        "fecha": "2019-04",
+        "consultado": "2026-07-10"
+      }
+    },
+    "eco-002": {
+      "valor": -1,
+      "justificacion": "Su programa se compromete con una sanidad pública, universal y de calidad, y rechaza el copago; no defiende la gestión privada como vía de mejora de la eficiencia, aunque no se pronuncia literalmente sobre esa tesis.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Pacma no solo habla de animales: 10 propuestas para sanidad en su programa (Redacción Médica)",
+        "url": "https://www.redaccionmedica.com/secciones/sanidad-hoy/pacma-no-solo-habla-de-animales-10-propuestas-para-sanidad-en-su-programa-4756",
+        "fecha": "2019-04",
+        "consultado": "2026-07-10"
+      }
+    },
+    "eco-013": {
+      "valor": -1,
+      "justificacion": "Su compromiso declarado es reforzar la sanidad pública y reducir listas de espera con más inversión y personal, no derivar pacientes a la privada; el programa no aborda de forma literal el supuesto concreto de derivación exprés de este ítem.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Pacma no solo habla de animales: 10 propuestas para sanidad en su programa (Redacción Médica)",
+        "url": "https://www.redaccionmedica.com/secciones/sanidad-hoy/pacma-no-solo-habla-de-animales-10-propuestas-para-sanidad-en-su-programa-4756",
+        "fecha": "2019-04",
+        "consultado": "2026-07-10"
+      }
+    },
+    "eco-006": {
+      "valor": 1,
+      "justificacion": "El partido sitúa la vivienda como prioridad dentro de su programa social: se declara contrario a los desahucios y defiende ampliar el parque de vivienda social/pública en alquiler acorde al problema de acceso a la vivienda.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "PACMA, el partido que también se preocupa por las personas",
+        "url": "https://pacma.es/noticias/pacma-el-partido-que-tambien-se-preocupa-por-las-personas/",
+        "fecha": "2023-01-26",
+        "consultado": "2026-07-10"
+      }
+    },
+    "eco-008": {
+      "valor": 1,
+      "justificacion": "El partido se adhirió formalmente a la Mesa Estatal por el Blindaje de las Pensiones, cuyo manifiesto exige garantizar por ley/Constitución el mantenimiento del poder adquisitivo de las pensiones y prohibir cualquier recorte o privatización; es coherente con mantener la revalorización anual, aunque no cita literalmente el mecanismo del IPC.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "PACMA se suma a la Mesa Estatal Pro Referéndum de las Pensiones",
+        "url": "https://pacma.es/campana-politica/pacma-se-suma-a-la-mesa-estatal-pro-referendum-de-las-pensiones/",
+        "fecha": "2023-01-26",
+        "consultado": "2026-07-10"
+      }
+    },
+    "sd-008": {
+      "valor": -1,
+      "justificacion": "Su programa a las generales de 2019 no plantea una renta básica universal e incondicional, sino una renta mínima garantizada para quienes carecen de ingresos suficientes, extendiendo a todo el Estado el modelo vasco de renta de garantía de ingresos (condicionado a la falta de recursos).",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Elecciones Generales 2019: Las diez medidas clave del programa electoral de PACMA (El Independiente)",
+        "url": "https://www.elindependiente.com/politica/2019/03/05/programa-electoral-pacma-elecciones-generales-2019/",
+        "fecha": "2019-03-05",
+        "consultado": "2026-07-10"
+      }
+    },
+    "ter-001": {
+      "valor": -1,
+      "justificacion": "El partido ha criticado que la Ley estatal 18/2013 de la Tauromaquia como Patrimonio Cultural despoje a comunidades autónomas y ayuntamientos de su competencia para regular o prohibir los espectáculos taurinos, y calificó de \"lamentable\" la sentencia del Constitucional que anuló la prohibición catalana por invasión de esa competencia autonómica. Es una posición acotada a este ámbito competencial (cultura/bienestar animal), no una doctrina general sobre el reparto de competencias.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "El partido animalista Pacma considera la sentencia \"lamentable\" y anuncia una \"respuesta jurídica y social potente\" (elDiario.es)",
+        "url": "https://www.eldiario.es/sociedad/pacma-sentencia-tc-toros-cataluna_1_3779855.html",
+        "fecha": "2016-10-20",
+        "consultado": "2026-07-10"
+      }
     }
   }
 }

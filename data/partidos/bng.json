@@ -293,6 +293,151 @@
         "consultado": "2026-07-10",
         "cita": "con 202 votos a favor (PSOE, Podemos, BNG, ERC, Junts per Catalunya, Más País, Bildu, PNV, CUP, Ciudadanos), 141 en contra (PP, Vox, UPN, Foro Asturias) y dos abstenciones"
       }
+    },
+    "eco-002": {
+      "valor": -2,
+      "justificacion": "Rechaza que la privatización mejore la eficiencia: sitúa como medida electoral estrella acabar con las listas de espera reforzando el sistema público (no derivando más pacientes a la privada) y defendió las protestas de Sos Sanidade que denuncian que los conciertos con clínicas privadas no han mejorado la atención sanitaria en Galicia, señalando en particular el sobrecoste del hospital Álvaro Cunqueiro de Vigo, gestionado en fórmula público-privada.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Manifestación Sos Sanidade: el PP la tilda de algarada y el BNG la defiende ante unas listas de espera al alza",
+        "url": "https://www.galiciapress.es/articulo/sanidad/2025-04-04/5243870-ppdeg-vincula-protesta-sos-sanidade-upg-hay-montar-algaradas-publicas-todos-fines-semana",
+        "fecha": "2025-04-04",
+        "consultado": "2026-07-10"
+      }
+    },
+    "eco-004": {
+      "valor": -1,
+      "justificacion": "Prioriza el gasto social sobre la reducción de deuda —criticó los presupuestos gallegos de 2026 por insuficiente gasto social pese a que la Xunta presume de tres años sin nueva deuda—, pero no es maximalista: votó junto a PSOE, Sumar, PNV, ERC, Bildu, Junts, CC y Podemos a favor de la senda de estabilidad y deuda pública 2024-2026 (29-2-2024, 176 votos), aceptando objetivos de déficit y deuda como gesto pragmático para negociar los Presupuestos Generales del Estado.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "El Congreso vuelve a respaldar la senda de déficit, aunque el PP la vetará en el Senado",
+        "url": "https://www.publico.es/politica/congreso-vuelve-respaldar-senda-deficit-aunque-pp-vetara-senado.html",
+        "fecha": "2024-02-29",
+        "consultado": "2026-07-10"
+      }
+    },
+    "eco-007": {
+      "valor": -1,
+      "justificacion": "Votó en contra de la ley antiokupas del PP (toma en consideración, 19-5-2026) junto a PSOE, Sumar, ERC y Bildu: critica que protege al «gran especulador», no al pequeño propietario, y elimina el delito de coacciones para fondos buitre que cortan suministros mientras endurece penas a inquilinos que no pueden pagar. No es un rechazo absoluto al desalojo de la ocupación, sino a esta fórmula, que perjudica más a arrendatarios vulnerables que a mafias organizadas.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "El PP justifica su ley antiokupas frente a las críticas de la izquierda por favorecer a bancos y fondos buitre",
+        "url": "https://www.democrata.es/politica/el-pp-justifica-su-ley-antiokupas-frente-a-las-criticas-de-la-izquierda-por-favorecer-a-bancos-y-fondos-buitre/",
+        "fecha": "2026-05-19",
+        "consultado": "2026-07-10"
+      }
+    },
+    "eco-010": {
+      "valor": -2,
+      "justificacion": "Junto con ERC y Bildu, llevó al Congreso una reforma integral del Estatuto de los Trabajadores para recuperar la indemnización de 45 días por año trabajado en caso de despido improcedente (frente a los 33 días vigentes desde la reforma de Rajoy de 2012), y votó contra la reforma laboral de 2021 precisamente porque no abordaba el abaratamiento del despido: su posición es encarecerlo, no abaratarlo.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "EH Bildu, ERC y BNG piden recuperar la indemnización de 45 días por despido improcedente",
+        "url": "https://www.naiz.eus/en/info/noticia/20230312/erc-bildu-y-bng-piden-recuperar-la-indemnizacion-de-45-dias-por-despido-improcedente",
+        "fecha": "2023-03-12",
+        "consultado": "2026-07-10"
+      }
+    },
+    "eco-015": {
+      "valor": -2,
+      "justificacion": "Néstor Rego calificó de «muy negativa» y regresiva la reforma de las pensiones aprobada en enero de 2025 (PSOE, PP, Sumar, PNV, ERC, Coalición Canaria y UPN) por destinar dinero público a incentivar el trabajo hasta los 72 años; el BNG votó en contra de esa reforma mientras apoyaba por separado la revalorización de las pensiones con el IPC. Se opone a retrasar la edad de jubilación.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "El BNG votará a favor de la subida de pensiones y contra «la reforma regresiva» de PSOE y Sumar",
+        "url": "https://www.galiciapress.es/articulo/ultima-hora/2025-01-21/5145918-bng-votara-favor-subida-pensiones-contra-reforma-regresiva-psoe-sumar",
+        "fecha": "2025-01-21",
+        "consultado": "2026-07-10"
+      }
+    },
+    "sd-011": {
+      "valor": 2,
+      "justificacion": "Apoyó en el Congreso tanto la proposición de Unidas Podemos (febrero de 2022, tumbada por PSOE, PP, Vox y Ciudadanos) como el plan de Sumar (18-9-2024, tumbado por PSOE y PP junto a Vox, Junts, PNV, Coalición Canaria y UPN) para crear una empresa pública de energía que gestionase concesiones hidroeléctricas caducadas y compitiese con las eléctricas privadas, revirtiendo beneficios a la ciudadanía y a los municipios afectados.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "PSOE y PP tumban en el Congreso el plan de Sumar para una empresa pública de centrales hidroeléctricas",
+        "url": "https://elperiodicodelaenergia.com/psoe-pp-tumban-congreso-plan-sumar-empresa-publica-centrales-hidroelectricas/",
+        "fecha": "2024-09-18",
+        "consultado": "2026-07-10"
+      }
+    },
+    "sd-012": {
+      "valor": 1,
+      "justificacion": "Su respaldo documentado en el Congreso ha sido a crear una empresa pública que compita con las eléctricas privadas y recupere concesiones hidroeléctricas caducadas (ver sd-011), no a una nacionalización completa de las grandes compañías eléctricas ya existentes; no se ha localizado una votación o texto del BNG que pida expropiar o nacionalizar Endesa, Iberdrola o Naturgy en su totalidad, por lo que se codifica como acuerdo parcial y no máximo.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "PSOE y PP tumban en el Congreso el plan de Sumar para una empresa pública de centrales hidroeléctricas",
+        "url": "https://elperiodicodelaenergia.com/psoe-pp-tumban-congreso-plan-sumar-empresa-publica-centrales-hidroelectricas/",
+        "fecha": "2024-09-18",
+        "consultado": "2026-07-10"
+      }
+    },
+    "fem-007": {
+      "valor": -2,
+      "justificacion": "El BNG se ha opuesto al «pin parental»/veto sobre educación afectivo-sexual: en el debate parlamentario sobre la Ley Celaá y el pin parental (marzo de 2021), Néstor Rego alertó de la extrema derecha que «restringe la libertad de pensamiento» y criticó al Gobierno por «perder la oportunidad de garantizar una educación pública laica», en línea con la defensa de la educación afectivo-sexual como parte de los derechos LGTBI y feministas sin someterla a autorización previa de las familias.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "La Ley Celaá y pin parental vuelven a enfrentar a los grupos en el Congreso entre acusaciones mutuas de adoctrinamiento",
+        "url": "https://www.galiciapress.es/texto-diario/mostrar/2796240/ley-celaa-pin-parental-vuelven-enfrentar-grupos-congreso-entre-acusaciones-mutuas-adoctrinamiento",
+        "fecha": "2021-03-16",
+        "consultado": "2026-07-10"
+      }
+    },
+    "der-019": {
+      "valor": 1,
+      "justificacion": "El BNG votó el 17-3-2026 junto a PSOE, Sumar, ERC, Junts, Bildu, PNV y Podemos contra la ampliación de los supuestos de prisión permanente revisable propuesta por PP, Vox, UPN y Coalición Canaria, alineándose con las posiciones contrarias a esta pena; +1 y no +2 porque esta votación acredita su rechazo a extenderla, no una propuesta o voto propio de derogación total de la figura en el Código Penal.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "El Congreso rechaza tramitar la ampliación de la prisión permanente apoyada por PP, Vox, UPN y CC",
+        "url": "https://www.galiciapress.es/articulo/politica/2026-03-17/5812659-congreso-rechaza-tramitar-ampliacion-prision-permanente-apoyada-pp-vox-upn-cc",
+        "fecha": "2026-03-17",
+        "consultado": "2026-07-10"
+      }
+    },
+    "soc-002": {
+      "valor": -2,
+      "justificacion": "Ante la política migratoria del Gobierno, Néstor Rego afirmó que las políticas de Interior en materia de inmigración —singularmente la devolución de menores migrantes no acompañados— «no son las que corresponden a un Gobierno que se diga mínimamente progresista», rechazando que la devolución sea la respuesta prioritaria y reclamando garantías de derechos humanos frente a las devoluciones.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "El BNG afirma que la política de inmigración «no es la que corresponde a un Gobierno que se diga mínimamente progresista»",
+        "url": "https://www.servimedia.es/noticias/bng-afirma-politica-inmigracion-no-es-corresponde-gobierno-diga-minimamente-progresista/4245231",
+        "fecha": "2024-01-23",
+        "consultado": "2026-07-10",
+        "cita": "la política de inmigración no es la que corresponde a un Gobierno que se diga mínimamente progresista"
+      }
+    },
+    "soc-005": {
+      "valor": 1,
+      "justificacion": "Ana Pontón describe Galicia como «país de acollida» que necesita man de obra en los sectores mar-industria, agrogandeiro, construcción y servicios, y reivindica una Galicia «aberta e inclusiva»; +1 y no +2 porque la declaración localizada se centra en atraer el retorno de la diáspora gallega y no formula explícitamente una defensa general de la inmigración extracomunitaria como necesidad del conjunto de España.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Ana Pontón explica a la colectividad gallega en dos encuentros en Montevideo el proyecto político del BNG",
+        "url": "https://www.cronicasdelaemigracion.com/articulo/galicia/ana-ponton-explica-colectividad-gallega-sendos-encuentros-montevideo-proyecto-politico-bng/20251113132536128330.html",
+        "fecha": "2025-11-13",
+        "consultado": "2026-07-10"
+      }
+    },
+    "nac-013": {
+      "valor": 2,
+      "justificacion": "El BNG impulsó junto a Unidas Podemos, ERC, Bildu, Junts, PDeCAT, CUP, PNV, Más País y Compromís una iniciativa aprobada en el Pleno del Congreso (marzo de 2021, con apoyo parcial del PSOE) que insta al Gobierno a promover reformas estatutarias para reconocer la oficialidad del asturiano y el aragonés en los territorios donde se hablan, coherente con su defensa de la cooficialidad de las lenguas minorizadas.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "El PSOE apoya en el Congreso reconocer el asturiano y el aragonés como lengua oficial",
+        "url": "https://moncloa.com/2021/03/11/psoe-apoya-congreso-reconocer-asturiano-aragones",
+        "fecha": "2021-03-11",
+        "consultado": "2026-07-10"
+      }
     }
   }
 }
