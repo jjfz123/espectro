@@ -1,0 +1,160 @@
+{
+  "id": "marxismo-leninismo-maoismo",
+  "nombre": "Marxismo-leninismo-maoísmo (MLM)",
+  "tipo": "referencia-doctrinal",
+  "definicion": "Tipo ideal de la síntesis proclamada por el Movimiento Revolucionario Internacionalista (1993): el maoísmo como tercera etapa superior del marxismo, con la Gran Revolución Cultural Proletaria como su aporte cumbre, la continuación de la lucha de clases bajo el socialismo, el partido de vanguardia y la guerra popular como vía de la revolución; caracteriza a la China posterior a 1976 y a la URSS posterior a 1956 como revisionistas.",
+  "variante": "Formulación del MRI/RIM (1993); se distingue del maoísmo-pensamiento Mao Tsetung anterior y del hoxhaísmo antimaoísta",
+  "periodo": "1984–actualidad",
+  "confianza": "verificada",
+  "version": "1.0",
+  "revisado": "2026-07-10",
+  "facetasDefinitorias": [
+    "metodo-cambio",
+    "organizacion",
+    "uso-fuerza"
+  ],
+  "sensibilidad": "violenta",
+  "advertencia": "Doctrina que afirma la guerra popular como vía universal de la revolución: varios de sus partidos adherentes han librado insurgencias armadas con graves costes humanos. Es un tipo ideal para situar posiciones en el mapa desde sus propios documentos, nunca una papeleta, una recomendación ni un resultado lúdico; el pensamiento Gonzalo, forma específica ligada a una organización terrorista, se documenta en una referencia separada con cautelas adicionales.",
+  "fuentesMarco": [
+    {
+      "tipo": "otro",
+      "titulo": "Movimiento Revolucionario Internacionalista, ¡Viva el marxismo-leninismo-maoísmo! (declaración de 1993, texto íntegro)",
+      "url": "https://goingagainstthetide.org/1993/04/12/long-live-marxism-leninism-maoism/",
+      "fecha": "1993-12-26",
+      "consultado": "2026-07-10"
+    },
+    {
+      "tipo": "otro",
+      "titulo": "RIM Documents and Statements (archivo de documentos del MRI)",
+      "url": "https://www.bannedthought.net/International/RIM/index.htm",
+      "consultado": "2026-07-10"
+    }
+  ],
+  "reglaPublicacion": {
+    "minimoItems": 10,
+    "minimoCobertura": 0.6,
+    "umbralAfinidad": 85
+  },
+  "posiciones": {
+    "izq-022": {
+      "valor": 2,
+      "justificacion": "La declaración de 1993 presenta la Gran Revolución Cultural Proletaria como el aporte cumbre de Mao: el método para impedir la restauración capitalista continuando la lucha de clases bajo el socialismo.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "MRI, ¡Viva el marxismo-leninismo-maoísmo! (1993)",
+        "url": "https://goingagainstthetide.org/1993/04/12/long-live-marxism-leninism-maoism/",
+        "fecha": "1993-12-26",
+        "consultado": "2026-07-10"
+      }
+    },
+    "izq-020": {
+      "valor": 1,
+      "justificacion": "Defiende a Stalin como continuador de Lenin frente a la campaña «revisionista», pero asume la crítica maoísta de sus errores (métodos administrativos, insuficiente movilización de masas): balance positivo sin reivindicación integral.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "MRI, ¡Viva el marxismo-leninismo-maoísmo! (1993)",
+        "url": "https://goingagainstthetide.org/1993/04/12/long-live-marxism-leninism-maoism/",
+        "fecha": "1993-12-26",
+        "consultado": "2026-07-10"
+      }
+    },
+    "izq-021": {
+      "valor": -2,
+      "justificacion": "La tradición del MRI se construye dentro del campo marxista-leninista antitrotskista: Trotski no figura como oposición legítima sino como desviación combatida desde Lenin y Stalin.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "MRI, ¡Viva el marxismo-leninismo-maoísmo! (1993)",
+        "url": "https://goingagainstthetide.org/1993/04/12/long-live-marxism-leninism-maoism/",
+        "fecha": "1993-12-26",
+        "consultado": "2026-07-10"
+      }
+    },
+    "izq-028": {
+      "valor": 2,
+      "justificacion": "El golpe de 1976 y la derrota de la Revolución Cultural marcan para esta doctrina la restauración del capitalismo en China: la China actual es un país revisionista, no socialista.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "MRI, ¡Viva el marxismo-leninismo-maoísmo! (1993)",
+        "url": "https://goingagainstthetide.org/1993/04/12/long-live-marxism-leninism-maoism/",
+        "fecha": "1993-12-26",
+        "consultado": "2026-07-10"
+      }
+    },
+    "izq-002": {
+      "valor": 2,
+      "justificacion": "El partido de vanguardia marxista-leninista-maoísta es el primero de los instrumentos de la revolución en la doctrina del MRI, junto al ejército popular y el frente único.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "MRI, ¡Viva el marxismo-leninismo-maoísmo! (1993)",
+        "url": "https://goingagainstthetide.org/1993/04/12/long-live-marxism-leninism-maoism/",
+        "fecha": "1993-12-26",
+        "consultado": "2026-07-10"
+      }
+    },
+    "izq-001": {
+      "valor": 2,
+      "justificacion": "La revolución de nueva democracia o socialista mediante la ruptura violenta con el viejo Estado es la única vía reconocida; el reformismo gradual se identifica con el revisionismo.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "MRI, ¡Viva el marxismo-leninismo-maoísmo! (1993)",
+        "url": "https://goingagainstthetide.org/1993/04/12/long-live-marxism-leninism-maoism/",
+        "fecha": "1993-12-26",
+        "consultado": "2026-07-10"
+      }
+    },
+    "lim-003": {
+      "valor": 1,
+      "justificacion": "La declaración de 1993 afirma la guerra popular como teoría militar del proletariado de validez universal; los partidos del MRI difieren en si su inicio es aplicable en todo momento y lugar, de ahí el acuerdo sin el máximo en la formulación del ítem.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "MRI, ¡Viva el marxismo-leninismo-maoísmo! (1993)",
+        "url": "https://goingagainstthetide.org/1993/04/12/long-live-marxism-leninism-maoism/",
+        "fecha": "1993-12-26",
+        "consultado": "2026-07-10"
+      }
+    },
+    "izq-031": {
+      "valor": 1,
+      "justificacion": "La estrategia central es la guerra popular y no la acumulación electoral: la mayoría de partidos del MRI rechazan presentar candidaturas, aunque la declaración no eleva el boicot a principio invariable para todo contexto.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "MRI, ¡Viva el marxismo-leninismo-maoísmo! (1993)",
+        "url": "https://goingagainstthetide.org/1993/04/12/long-live-marxism-leninism-maoism/",
+        "fecha": "1993-12-26",
+        "consultado": "2026-07-10"
+      }
+    },
+    "izq-018": {
+      "valor": -2,
+      "justificacion": "El centralismo democrático y la lucha de dos líneas maoísta canalizan el debate dentro del partido, pero excluyen corrientes organizadas que defiendan públicamente posiciones propias frente a la línea adoptada.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "MRI, ¡Viva el marxismo-leninismo-maoísmo! (1993)",
+        "url": "https://goingagainstthetide.org/1993/04/12/long-live-marxism-leninism-maoism/",
+        "fecha": "1993-12-26",
+        "consultado": "2026-07-10"
+      }
+    },
+    "dem-011": {
+      "valor": 2,
+      "justificacion": "No propone reformar el parlamentarismo sino sustituirlo por el Estado de nueva democracia o la dictadura del proletariado surgidos de la revolución.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "MRI, ¡Viva el marxismo-leninismo-maoísmo! (1993)",
+        "url": "https://goingagainstthetide.org/1993/04/12/long-live-marxism-leninism-maoism/",
+        "fecha": "1993-12-26",
+        "consultado": "2026-07-10"
+      }
+    }
+  }
+}

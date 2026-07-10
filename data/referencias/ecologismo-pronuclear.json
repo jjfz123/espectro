@@ -1,0 +1,160 @@
+{
+  "id": "ecologismo-pronuclear",
+  "nombre": "Ecologismo pronuclear (ecomodernismo)",
+  "tipo": "referencia-doctrinal",
+  "definicion": "Tipo ideal ecomodernista: la protección de la naturaleza se logra desacoplando el bienestar humano del uso de recursos mediante intensificación tecnológica —energía nuclear, agricultura intensiva, urbanización—, no reduciendo deliberadamente producción y consumo; la descarbonización es prioritaria y la nuclear es una de sus herramientas centrales.",
+  "variante": "Formulación del Manifiesto Ecomodernista (2015); no cubre todo el ecologismo favorable a la energía nuclear",
+  "periodo": "2015–actualidad",
+  "confianza": "verificada",
+  "version": "1.0",
+  "revisado": "2026-07-10",
+  "facetasDefinitorias": [
+    "energia-nuclear",
+    "ecologia"
+  ],
+  "sensibilidad": "normal",
+  "advertencia": "Es un tipo ideal doctrinal, no un partido español ni una identidad asignada. Corta en diagonal el eje ecologista del banco: comparte con el ecologismo clásico la urgencia climática y la protección de la naturaleza, pero rechaza el decrecimiento y abraza la nuclear; sus posiciones económicas y sociales generales quedan sin especificar porque el manifiesto no las fija.",
+  "fuentesMarco": [
+    {
+      "tipo": "otro",
+      "titulo": "Un Manifiesto Ecomodernista (versión en español)",
+      "url": "https://www.ecomodernism.org/espanol",
+      "fecha": "2015-04",
+      "consultado": "2026-07-10"
+    },
+    {
+      "tipo": "otro",
+      "titulo": "An Ecomodernist Manifesto (The Breakthrough Institute)",
+      "url": "https://thebreakthrough.org/articles/an-ecomodernist-manifesto",
+      "fecha": "2015-04",
+      "consultado": "2026-07-10"
+    }
+  ],
+  "reglaPublicacion": {
+    "minimoItems": 7,
+    "minimoCobertura": 0.5,
+    "umbralAfinidad": 75
+  },
+  "posiciones": {
+    "ene-001": {
+      "valor": 2,
+      "justificacion": "El manifiesto señala la fisión nuclear como la única tecnología presente con potencial demostrado de suministrar la mayor parte de la energía de una economía moderna sin emisiones: autorizar nueva capacidad nuclear es su aplicación directa.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Un Manifiesto Ecomodernista",
+        "url": "https://www.ecomodernism.org/espanol",
+        "fecha": "2015-04",
+        "consultado": "2026-07-10"
+      }
+    },
+    "ene-002": {
+      "valor": 2,
+      "justificacion": "Si la nuclear es herramienta central de la descarbonización, su inclusión en la taxonomia europea de inversión sostenible cuando cumple los requisitos técnicos es coherencia elemental con la doctrina.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Un Manifiesto Ecomodernista",
+        "url": "https://www.ecomodernism.org/espanol",
+        "fecha": "2015-04",
+        "consultado": "2026-07-10"
+      }
+    },
+    "ene-003": {
+      "valor": -2,
+      "justificacion": "Cerrar reactores operativos bajos en carbono según calendario administrativo, sin prórrogas, contradice frontalmente la prioridad ecomodernista de sustituir fósiles antes que clausurar nuclear.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Un Manifiesto Ecomodernista",
+        "url": "https://www.ecomodernism.org/espanol",
+        "fecha": "2015-04",
+        "consultado": "2026-07-10"
+      }
+    },
+    "ene-009": {
+      "valor": 2,
+      "justificacion": "El manifiesto reclama expresamente el desarrollo de una nueva generación de tecnologías nucleares más seguras y baratas: la I+D pública en reactores avanzados y modulares es su traducción de política concreta.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Un Manifiesto Ecomodernista",
+        "url": "https://www.ecomodernism.org/espanol",
+        "fecha": "2015-04",
+        "consultado": "2026-07-10"
+      }
+    },
+    "ene-010": {
+      "valor": -2,
+      "justificacion": "El núcleo del ecomodernismo es que la humanidad no debe reducir deliberadamente su producción y consumo, sino desacoplar el bienestar del impacto ambiental mediante tecnología e intensificación.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Un Manifiesto Ecomodernista",
+        "url": "https://www.ecomodernism.org/espanol",
+        "fecha": "2015-04",
+        "consultado": "2026-07-10"
+      }
+    },
+    "ene-011": {
+      "valor": 2,
+      "justificacion": "La tesis del desacoplamiento es constitutiva: el crecimiento puede continuar si la innovación reduce suficientemente el uso de materiales y las emisiones por unidad de bienestar.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Un Manifiesto Ecomodernista",
+        "url": "https://www.ecomodernism.org/espanol",
+        "fecha": "2015-04",
+        "consultado": "2026-07-10"
+      }
+    },
+    "va-008": {
+      "valor": 2,
+      "justificacion": "La lucha climática se lidera con innovación tecnológica y modernización energética, no con límites al consumo: es la formulación misma de la doctrina ante el ítem.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "An Ecomodernist Manifesto (The Breakthrough Institute)",
+        "url": "https://thebreakthrough.org/articles/an-ecomodernist-manifesto",
+        "fecha": "2015-04",
+        "consultado": "2026-07-10"
+      }
+    },
+    "sd-016": {
+      "valor": -1,
+      "justificacion": "Acepta límites planetarios como problema real, pero rechaza que la respuesta sea renunciar al crecimiento: la renuncia deliberada de PIB es para el ecomodernismo un error que perpetúa la pobreza sin salvar la naturaleza.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Un Manifiesto Ecomodernista",
+        "url": "https://www.ecomodernism.org/espanol",
+        "fecha": "2015-04",
+        "consultado": "2026-07-10"
+      }
+    },
+    "ecl-001": {
+      "valor": 1,
+      "justificacion": "La descarbonización acelerada es objetivo declarado y el cierre de la generación más contaminante su consecuencia; el matiz es que la doctrina prioriza abaratar la energía limpia antes que encarecer la factura como palanca.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Un Manifiesto Ecomodernista",
+        "url": "https://www.ecomodernism.org/espanol",
+        "fecha": "2015-04",
+        "consultado": "2026-07-10"
+      }
+    },
+    "va-016": {
+      "valor": 2,
+      "justificacion": "La intensificación agrícola mediante tecnología —incluida la mejora genética vegetal— es una de las palancas explícitas del manifiesto para liberar tierra y devolverla a la naturaleza.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Un Manifiesto Ecomodernista",
+        "url": "https://www.ecomodernism.org/espanol",
+        "fecha": "2015-04",
+        "consultado": "2026-07-10"
+      }
+    }
+  }
+}

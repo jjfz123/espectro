@@ -1,0 +1,240 @@
+{
+  "id": "bordiguismo",
+  "nombre": "Comunismo de izquierda (bordiguismo)",
+  "tipo": "referencia-doctrinal",
+  "definicion": "Tipo ideal de la izquierda comunista italiana de Amadeo Bordiga: partido de clase con programa invariante y centralismo orgánico, abstencionismo electoral, crítica del principio democrático como mistificación burguesa, rechazo de frentes y coaliciones con la socialdemocracia y caracterización de la URSS estalinista como capitalismo de Estado.",
+  "variante": "Tradición bordiguista italiana; no cubre toda la izquierda comunista (la germano-holandesa consejista es referencia separada)",
+  "periodo": "1919–actualidad",
+  "confianza": "verificada",
+  "version": "1.0",
+  "revisado": "2026-07-10",
+  "facetasDefinitorias": [
+    "metodo-cambio",
+    "organizacion",
+    "institucionalismo"
+  ],
+  "sensibilidad": "normal",
+  "advertencia": "Es un tipo ideal doctrinal sin candidatura española: nunca aparece como papeleta. Su rechazo del principio democrático es una tesis sobre el carácter de clase de la democracia burguesa documentada con sus textos, no una casilla que el test asigne como identidad; comparte abstencionismo con el consejismo pero diverge de él frontalmente en la cuestión del partido.",
+  "fuentesMarco": [
+    {
+      "tipo": "otro",
+      "titulo": "Amadeo Bordiga, The Democratic Principle (1922, marxists.org)",
+      "url": "https://www.marxists.org/archive/bordiga/works/1922/democratic-principle.htm",
+      "fecha": "1922",
+      "consultado": "2026-07-10"
+    },
+    {
+      "tipo": "otro",
+      "titulo": "Amadeo Bordiga, Theses of the Abstentionist Communist Faction of the Italian Socialist Party (1920, marxists.org)",
+      "url": "https://www.marxists.org/archive/bordiga/works/1920/abstentionists.htm",
+      "fecha": "1920",
+      "consultado": "2026-07-10"
+    },
+    {
+      "tipo": "otro",
+      "titulo": "Amadeo Bordiga, Dialogue with Stalin (1952, marxists.org)",
+      "url": "https://www.marxists.org/archive/bordiga/works/1952/stalin.htm",
+      "fecha": "1952",
+      "consultado": "2026-07-10"
+    }
+  ],
+  "reglaPublicacion": {
+    "minimoItems": 10,
+    "minimoCobertura": 0.5,
+    "umbralAfinidad": 78
+  },
+  "posiciones": {
+    "izq-031": {
+      "valor": 2,
+      "justificacion": "El abstencionismo es fundacional: la fracción comunista abstencionista nació para rechazar la participación electoral, y la tradición bordiguista posterior mantiene el boicot a las elecciones burguesas como principio táctico permanente.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Theses of the Abstentionist Communist Faction of the Italian Socialist Party",
+        "url": "https://www.marxists.org/archive/bordiga/works/1920/abstentionists.htm",
+        "fecha": "1920",
+        "consultado": "2026-07-10"
+      }
+    },
+    "izq-019": {
+      "valor": 1,
+      "justificacion": "Coincide en que los comunistas jamás deben gestionar las instituciones burguesas, pero va más lejos que el ítem: tras 1926 rechaza incluso el uso del parlamento como tribuna, de ahí el acuerdo sin el máximo.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Theses of the Abstentionist Communist Faction of the Italian Socialist Party",
+        "url": "https://www.marxists.org/archive/bordiga/works/1920/abstentionists.htm",
+        "fecha": "1920",
+        "consultado": "2026-07-10"
+      }
+    },
+    "izq-002": {
+      "valor": 2,
+      "justificacion": "El partido de clase es el órgano indispensable de la revolución: solo una parte de la clase forma el partido, y sin él la clase no existe políticamente como tal.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Amadeo Bordiga, Party and Class (1921, marxists.org)",
+        "url": "https://www.marxists.org/archive/bordiga/works/1921/party-class.htm",
+        "fecha": "1921",
+        "consultado": "2026-07-10"
+      }
+    },
+    "izq-018": {
+      "valor": -2,
+      "justificacion": "El centralismo orgánico bordiguista excluye fracciones y corrientes organizadas: el partido opera como un cuerpo único sobre un programa invariante, no como federación de tendencias públicas.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Amadeo Bordiga, Characteristic Theses of the Party (1951, marxists.org)",
+        "url": "https://www.marxists.org/archive/bordiga/works/1951/charthes.htm",
+        "fecha": "1951",
+        "consultado": "2026-07-10"
+      }
+    },
+    "izq-009": {
+      "valor": -2,
+      "justificacion": "Rechaza por principio los frentes y coaliciones electorales con fuerzas no comunistas: la pureza programática del partido de clase excluye integrarse en candidaturas amplias del tipo de Izquierda Unida.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Amadeo Bordiga, Characteristic Theses of the Party (1951, marxists.org)",
+        "url": "https://www.marxists.org/archive/bordiga/works/1951/charthes.htm",
+        "fecha": "1951",
+        "consultado": "2026-07-10"
+      }
+    },
+    "izq-010": {
+      "valor": -2,
+      "justificacion": "Participar en un gobierno de coalición con la socialdemocracia es para esta doctrina la forma máxima de colaboración de clases: la gestión del Estado burgués corrompe al partido sea cual sea su programa.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Amadeo Bordiga, The Democratic Principle (1922, marxists.org)",
+        "url": "https://www.marxists.org/archive/bordiga/works/1922/democratic-principle.htm",
+        "fecha": "1922",
+        "consultado": "2026-07-10"
+      }
+    },
+    "dem-001": {
+      "valor": -2,
+      "justificacion": "El principio democrático —contar cabezas para decidir— es analizado como mecanismo formal burgués sin valor propio: someter las grandes decisiones a referéndum generaliza precisamente lo que la doctrina impugna.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Amadeo Bordiga, The Democratic Principle (1922, marxists.org)",
+        "url": "https://www.marxists.org/archive/bordiga/works/1922/democratic-principle.htm",
+        "fecha": "1922",
+        "consultado": "2026-07-10"
+      }
+    },
+    "dem-011": {
+      "valor": 2,
+      "justificacion": "No propone reformar el parlamentarismo sino sustituirlo por la dictadura del proletariado ejercida a través del partido de clase.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Amadeo Bordiga, The Democratic Principle (1922, marxists.org)",
+        "url": "https://www.marxists.org/archive/bordiga/works/1922/democratic-principle.htm",
+        "fecha": "1922",
+        "consultado": "2026-07-10"
+      }
+    },
+    "izq-020": {
+      "valor": -2,
+      "justificacion": "Stalin es para Bordiga el gestor del capitalismo de Estado ruso y de la contrarrevolución dentro del movimiento comunista: el balance de su etapa es frontalmente negativo, aunque por razones distintas de las trotskistas.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Amadeo Bordiga, Dialogue with Stalin (1952, marxists.org)",
+        "url": "https://www.marxists.org/archive/bordiga/works/1952/stalin.htm",
+        "fecha": "1952",
+        "consultado": "2026-07-10"
+      }
+    },
+    "izq-004": {
+      "valor": -1,
+      "justificacion": "Reconoce Octubre como revolución proletaria auténtica, pero caracteriza el desarrollo posterior de la URSS como acumulación capitalista de Estado: el balance de conjunto para la clase trabajadora resulta negativo sin borrar 1917.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Amadeo Bordiga, Dialogue with Stalin (1952, marxists.org)",
+        "url": "https://www.marxists.org/archive/bordiga/works/1952/stalin.htm",
+        "fecha": "1952",
+        "consultado": "2026-07-10"
+      }
+    },
+    "izq-028": {
+      "valor": 2,
+      "justificacion": "Si la URSS estalinista ya era capitalismo de Estado para esta doctrina, la China actual —con mercado, capital privado y asalariado masivo— no puede considerarse socialista bajo ningún criterio bordiguista.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Amadeo Bordiga, Dialogue with Stalin (1952, marxists.org)",
+        "url": "https://www.marxists.org/archive/bordiga/works/1952/stalin.htm",
+        "fecha": "1952",
+        "consultado": "2026-07-10"
+      }
+    },
+    "izq-006": {
+      "valor": -2,
+      "justificacion": "El «socialismo en un solo país» es el blanco central de su crítica a Stalin: el socialismo solo puede existir como transformación internacional; construirlo nacionalmente es para esta doctrina una fórmula del capitalismo de Estado.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Amadeo Bordiga, Dialogue with Stalin (1952, marxists.org)",
+        "url": "https://www.marxists.org/archive/bordiga/works/1952/stalin.htm",
+        "fecha": "1952",
+        "consultado": "2026-07-10"
+      }
+    },
+    "izq-001": {
+      "valor": 2,
+      "justificacion": "La transformación social solo llega por la ruptura revolucionaria dirigida por el partido de clase; el gradualismo reformista es la negación misma del programa comunista invariante.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Amadeo Bordiga, Party and Class (1921, marxists.org)",
+        "url": "https://www.marxists.org/archive/bordiga/works/1921/party-class.htm",
+        "fecha": "1921",
+        "consultado": "2026-07-10"
+      }
+    },
+    "izq-026": {
+      "valor": 2,
+      "justificacion": "En la época imperialista las luchas nacionales interburguesas no abren espacio revolucionario: los procesos independentistas son conflictos entre fracciones de la clase dominante en los que el proletariado no debe alinearse.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Amadeo Bordiga, Characteristic Theses of the Party (1951, marxists.org)",
+        "url": "https://www.marxists.org/archive/bordiga/works/1951/charthes.htm",
+        "fecha": "1951",
+        "consultado": "2026-07-10"
+      }
+    },
+    "izq-025": {
+      "valor": -2,
+      "justificacion": "El internacionalismo intransigente de esta doctrina rechaza cualquier reivindicación de banderas y símbolos nacionales por la clase trabajadora, incluidos los del propio Estado.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Amadeo Bordiga, Characteristic Theses of the Party (1951, marxists.org)",
+        "url": "https://www.marxists.org/archive/bordiga/works/1951/charthes.htm",
+        "fecha": "1951",
+        "consultado": "2026-07-10"
+      }
+    },
+    "izq-023": {
+      "valor": -2,
+      "justificacion": "La república democrática no es un avance valioso sino otra forma del dominio burgués: la crítica del principio democrático niega que la forma de gobierno burguesa marque diferencias sustanciales para el proletariado.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Amadeo Bordiga, The Democratic Principle (1922, marxists.org)",
+        "url": "https://www.marxists.org/archive/bordiga/works/1922/democratic-principle.htm",
+        "fecha": "1922",
+        "consultado": "2026-07-10"
+      }
+    }
+  }
+}

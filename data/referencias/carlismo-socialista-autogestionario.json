@@ -1,0 +1,195 @@
+{
+  "id": "carlismo-socialista-autogestionario",
+  "nombre": "Carlismo socialista autogestionario",
+  "tipo": "referencia-doctrinal",
+  "definicion": "Tipo ideal de la rama hugonista del carlismo (Carlos Hugo de Borbón-Parma y el Partido Carlista de los años setenta, era Montejurra): socialismo de autogestión global —empresas gestionadas por sus trabajadores frente al capitalismo y al estatismo burocrático—, federalismo de los pueblos de las Españas de raíz foral, ruptura democrática con el franquismo y una monarquía federativa y social legitimada por el pueblo.",
+  "variante": "Rama socialista surgida de la evolución del carlismo en los años sesenta y setenta; la rama tradicionalista es referencia separada",
+  "periodo": "1965–1979 (doctrina de la era Montejurra; el Partido Carlista actual tiene perfil propio)",
+  "confianza": "verificada",
+  "version": "1.0",
+  "revisado": "2026-07-10",
+  "facetasDefinitorias": [
+    "poder-laboral",
+    "estatismo",
+    "modelo-territorial",
+    "monarquia"
+  ],
+  "sensibilidad": "normal",
+  "advertencia": "Es un tipo ideal doctrinal de la escisión carlista de los años sesenta y setenta: comparte con la rama tradicionalista el foralismo y la referencia monárquica, pero se va al polo opuesto en economía (socialismo de autogestión) y en religión (pluralismo no confesional). El Partido Carlista actual tiene perfil de partido separado con sus propias fuentes vigentes; esta ficha documenta la doctrina de la era Montejurra, no una papeleta.",
+  "fuentesMarco": [
+    {
+      "tipo": "otro",
+      "titulo": "Carlos Hugo de Borbón-Parma, La vía carlista al socialismo autogestionario: el proyecto carlista de socialismo democrático (Grijalbo, 1977; ficha en Dialnet)",
+      "url": "https://dialnet.unirioja.es/servlet/libro?codigo=54950",
+      "fecha": "1977",
+      "consultado": "2026-07-10"
+    },
+    {
+      "tipo": "otro",
+      "titulo": "Una alternativa carlista: la ruptura democrática y el socialismo de autogestión global (Revista Internacional de Pensamiento Político)",
+      "url": "https://www.upo.es/revistas/index.php/ripp/article/view/7496",
+      "consultado": "2026-07-10"
+    },
+    {
+      "tipo": "otro",
+      "titulo": "La división del carlismo que culminó en Montejurra 1976: del «Dios, Patria, Rey» al «Socialismo, Federalismo, Autogestión» (elDiario.es)",
+      "url": "https://www.eldiario.es/navarra/division-carlismo-culmino-montejurra-1976-dios-patria-rey-socialismo-federalismo-autogestion_1_9862215.html",
+      "consultado": "2026-07-10"
+    }
+  ],
+  "reglaPublicacion": {
+    "minimoItems": 8,
+    "minimoCobertura": 0.5,
+    "umbralAfinidad": 76
+  },
+  "posiciones": {
+    "izq-032": {
+      "valor": 2,
+      "justificacion": "El socialismo de autogestión global es la tesis central: la superación del capitalismo se organiza desde empresas gestionadas por sus propios trabajadores, contra la gestión burocrática estatal tanto como contra la propiedad capitalista.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Carlos Hugo de Borbón-Parma, La vía carlista al socialismo autogestionario (1977)",
+        "url": "https://dialnet.unirioja.es/servlet/libro?codigo=54950",
+        "fecha": "1977",
+        "consultado": "2026-07-10"
+      }
+    },
+    "lab-017": {
+      "valor": 2,
+      "justificacion": "La transferencia de las grandes empresas a la gestión de sus trabajadores —no a ministerios— es la forma concreta del socialismo autogestionario que la doctrina opone al estatismo.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Una alternativa carlista: la ruptura democrática y el socialismo de autogestión global (RIPP)",
+        "url": "https://www.upo.es/revistas/index.php/ripp/article/view/7496",
+        "consultado": "2026-07-10"
+      }
+    },
+    "lab-008": {
+      "valor": 2,
+      "justificacion": "La dirección de la producción y la inversión por órganos elegidos en los centros de trabajo es el contenido institucional de la autogestión frente a propietarios privados y ministerios.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Carlos Hugo de Borbón-Parma, La vía carlista al socialismo autogestionario (1977)",
+        "url": "https://dialnet.unirioja.es/servlet/libro?codigo=54950",
+        "fecha": "1977",
+        "consultado": "2026-07-10"
+      }
+    },
+    "lab-002": {
+      "valor": 1,
+      "justificacion": "Que las plantillas elijan parte sustancial del órgano de dirección es un mínimo que la doctrina acepta como paso, pero su horizonte es la gestión íntegra por los trabajadores, no la cogestión parcial del ítem.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Una alternativa carlista: la ruptura democrática y el socialismo de autogestión global (RIPP)",
+        "url": "https://www.upo.es/revistas/index.php/ripp/article/view/7496",
+        "consultado": "2026-07-10"
+      }
+    },
+    "lab-016": {
+      "valor": -1,
+      "justificacion": "El antiestatismo autogestionario desconfía de la dirección ministerial de las empresas: prefiere la gestión obrera federada incluso en sectores estratégicos, aunque admite marcos públicos de planificación democrática.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Carlos Hugo de Borbón-Parma, La vía carlista al socialismo autogestionario (1977)",
+        "url": "https://dialnet.unirioja.es/servlet/libro?codigo=54950",
+        "fecha": "1977",
+        "consultado": "2026-07-10"
+      }
+    },
+    "dem-033": {
+      "valor": 2,
+      "justificacion": "El federalismo de los pueblos de las Españas, de raíz foral y democratizada, es el segundo término del lema de la era Montejurra: las competencias de cada pueblo quedan garantizadas por el pacto federal.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "La división del carlismo que culminó en Montejurra 1976 (elDiario.es)",
+        "url": "https://www.eldiario.es/navarra/division-carlismo-culmino-montejurra-1976-dios-patria-rey-socialismo-federalismo-autogestion_1_9862215.html",
+        "consultado": "2026-07-10"
+      }
+    },
+    "dem-034": {
+      "valor": 1,
+      "justificacion": "Su federalismo pactista de raíz foral se acerca al modelo confederal —los pueblos preexisten al pacto—, pero la doctrina de los setenta habla de federalismo de las Españas sin formular la delegación limitada estricta del ítem.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Una alternativa carlista: la ruptura democrática y el socialismo de autogestión global (RIPP)",
+        "url": "https://www.upo.es/revistas/index.php/ripp/article/view/7496",
+        "consultado": "2026-07-10"
+      }
+    },
+    "der-014": {
+      "valor": 2,
+      "justificacion": "Los derechos históricos forales son patrimonio compartido de ambas ramas carlistas: aquí se leen como base democrática del pacto federal, no como orden tradicional cerrado.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "La división del carlismo que culminó en Montejurra 1976 (elDiario.es)",
+        "url": "https://www.eldiario.es/navarra/division-carlismo-culmino-montejurra-1976-dios-patria-rey-socialismo-federalismo-autogestion_1_9862215.html",
+        "consultado": "2026-07-10"
+      }
+    },
+    "mon-001": {
+      "valor": -1,
+      "justificacion": "La doctrina de la era Montejurra mantiene una monarquía federativa y social de la dinastía carlista, legitimada por su compromiso con el pueblo pero no elegida por sufragio: desacuerdo matizado con la jefatura electiva, lejos del legitimismo hereditario cerrado de la rama tradicionalista.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Carlos Hugo de Borbón-Parma, La vía carlista al socialismo autogestionario (1977)",
+        "url": "https://dialnet.unirioja.es/servlet/libro?codigo=54950",
+        "fecha": "1977",
+        "consultado": "2026-07-10"
+      }
+    },
+    "izq-001": {
+      "valor": 1,
+      "justificacion": "La «ruptura democrática» con el franquismo se opone tanto a la reforma pactada como a la insurrección: transformación profunda y rupturista, pero por vía democrática de masas, de ahí el acuerdo sin el máximo con la formulación revolucionaria del ítem.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Una alternativa carlista: la ruptura democrática y el socialismo de autogestión global (RIPP)",
+        "url": "https://www.upo.es/revistas/index.php/ripp/article/view/7496",
+        "consultado": "2026-07-10"
+      }
+    },
+    "ter-002": {
+      "valor": 1,
+      "justificacion": "El federalismo pactista reconoce la personalidad política de los pueblos y su derecho a decidir su vinculación; la doctrina de los setenta no formula un procedimiento de referéndum de secesión, por eso el acuerdo es moderado.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Una alternativa carlista: la ruptura democrática y el socialismo de autogestión global (RIPP)",
+        "url": "https://www.upo.es/revistas/index.php/ripp/article/view/7496",
+        "consultado": "2026-07-10"
+      }
+    },
+    "rel-002": {
+      "valor": 1,
+      "justificacion": "La rama hugonista abandona la confesionalidad tradicionalista y asume el pluralismo religioso y de conciencia dentro de un socialismo democrático de inspiración humanista; el acuerdo no es máximo porque la doctrina no desarrolla un modelo acabado de laicidad estatal.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Carlos Hugo de Borbón-Parma, La vía carlista al socialismo autogestionario (1977)",
+        "url": "https://dialnet.unirioja.es/servlet/libro?codigo=54950",
+        "fecha": "1977",
+        "consultado": "2026-07-10"
+      }
+    },
+    "der-002": {
+      "valor": -1,
+      "justificacion": "Frente a la rama tradicionalista, esta doctrina no exige que las leyes reflejen la moral cristiana: la inspiración cristiana es herencia cultural del movimiento, no programa de confesionalidad legal.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "La división del carlismo que culminó en Montejurra 1976 (elDiario.es)",
+        "url": "https://www.eldiario.es/navarra/division-carlismo-culmino-montejurra-1976-dios-patria-rey-socialismo-federalismo-autogestion_1_9862215.html",
+        "consultado": "2026-07-10"
+      }
+    }
+  }
+}

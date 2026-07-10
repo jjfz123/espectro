@@ -1,0 +1,185 @@
+{
+  "id": "hoxhaismo",
+  "nombre": "Hoxhaísmo (marxismo-leninismo antirrevisionista)",
+  "tipo": "referencia-doctrinal",
+  "definicion": "Tipo ideal del marxismo-leninista antirrevisionista de Enver Hoxha: defensa del legado de Stalin, ruptura simultánea con el «revisionismo» soviético posterior a 1956, con el maoísmo y la teoría de los tres mundos, y con el eurocomunismo; partido único de vanguardia, economía planificada autosuficiente y ateísmo de Estado según el modelo albanés.",
+  "variante": "Doctrina del Partido del Trabajo de Albania; en España su contexto histórico es el PCE(m-l), que hoy tiene perfil de partido propio y separado",
+  "periodo": "1961–actualidad",
+  "confianza": "verificada",
+  "version": "1.0",
+  "revisado": "2026-07-10",
+  "facetasDefinitorias": [
+    "metodo-cambio",
+    "organizacion",
+    "laicismo",
+    "internacionalismo"
+  ],
+  "sensibilidad": "antipluralista",
+  "advertencia": "Es un tipo ideal doctrinal sin candidatura española: nunca aparece como papeleta y no debe confundirse con el PCE(m-l) actual, que tiene perfil de partido separado con sus propias fuentes. El ateísmo de Estado y el partido único se codifican desde los textos y la práctica estatal albanesa documentada, para que el mapa sitúe la doctrina donde está.",
+  "fuentesMarco": [
+    {
+      "tipo": "otro",
+      "titulo": "Enver Hoxha, El imperialismo y la revolución (1978, marxists.org en español)",
+      "url": "https://www.marxists.org/espanol/enver/imprev/01.htm",
+      "fecha": "1978",
+      "consultado": "2026-07-10"
+    },
+    {
+      "tipo": "otro",
+      "titulo": "Enver Hoxha Internet Archive: índice de obras (incluye With Stalin, 1979)",
+      "url": "https://www.marxists.org/reference/archive/hoxha/works-index.htm",
+      "consultado": "2026-07-10"
+    }
+  ],
+  "reglaPublicacion": {
+    "minimoItems": 9,
+    "minimoCobertura": 0.5,
+    "umbralAfinidad": 78
+  },
+  "posiciones": {
+    "izq-020": {
+      "valor": 2,
+      "justificacion": "La reivindicación íntegra de Stalin como continuador de Lenin es seña definitoria: sus memorias con Stalin y toda su polémica antirrevisionista defienden esa etapa como cumbre del socialismo.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Enver Hoxha, With Stalin: Memoirs (1979, índice de obras en marxists.org)",
+        "url": "https://www.marxists.org/reference/archive/hoxha/works-index.htm",
+        "fecha": "1979",
+        "consultado": "2026-07-10"
+      }
+    },
+    "izq-021": {
+      "valor": -2,
+      "justificacion": "El trotskismo es para esta doctrina una desviación antileninista: la defensa integral de Stalin implica negar que Trotski representara una oposición revolucionaria legítima.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Enver Hoxha, El imperialismo y la revolución",
+        "url": "https://www.marxists.org/espanol/enver/imprev/01.htm",
+        "fecha": "1978",
+        "consultado": "2026-07-10"
+      }
+    },
+    "izq-022": {
+      "valor": -2,
+      "justificacion": "«El imperialismo y la revolución» dedica su polémica central a caracterizar el pensamiento de Mao —incluida la Revolución Cultural— como variante revisionista y antimarxista, no como defensa del socialismo.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Enver Hoxha, El imperialismo y la revolución",
+        "url": "https://www.marxists.org/espanol/enver/imprev/01.htm",
+        "fecha": "1978",
+        "consultado": "2026-07-10"
+      }
+    },
+    "izq-028": {
+      "valor": 2,
+      "justificacion": "China es analizada como país revisionista y socialimperialista ya desde los años setenta: bajo ningún criterio hoxhaísta puede considerarse socialista la China actual.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Enver Hoxha, El imperialismo y la revolución",
+        "url": "https://www.marxists.org/espanol/enver/imprev/01.htm",
+        "fecha": "1978",
+        "consultado": "2026-07-10"
+      }
+    },
+    "izq-029": {
+      "valor": -2,
+      "justificacion": "Rechaza el campismo: ambas superpotencias —el imperialismo estadounidense y el socialimperialismo soviético— son enemigas equivalentes de la revolución, y apoyarse en una contra la otra es la esencia del revisionismo de los «tres mundos».",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Enver Hoxha, El imperialismo y la revolución",
+        "url": "https://www.marxists.org/espanol/enver/imprev/01.htm",
+        "fecha": "1978",
+        "consultado": "2026-07-10"
+      }
+    },
+    "izq-006": {
+      "valor": 2,
+      "justificacion": "La Albania socialista autosuficiente, sin bloques ni créditos exteriores, es la demostración práctica que la doctrina reivindica: el socialismo puede y debe construirse en el propio país apoyándose en las propias fuerzas.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Enver Hoxha, El imperialismo y la revolución",
+        "url": "https://www.marxists.org/espanol/enver/imprev/01.htm",
+        "fecha": "1978",
+        "consultado": "2026-07-10"
+      }
+    },
+    "izq-002": {
+      "valor": 2,
+      "justificacion": "El partido marxista-leninista de vanguardia, depurado de revisionismo, es el instrumento imprescindible de la revolución y del Estado socialista en esta doctrina.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Enver Hoxha, El imperialismo y la revolución",
+        "url": "https://www.marxists.org/espanol/enver/imprev/01.htm",
+        "fecha": "1978",
+        "consultado": "2026-07-10"
+      }
+    },
+    "izq-018": {
+      "valor": -2,
+      "justificacion": "El centralismo democrático hoxhaísta excluye corrientes organizadas: las fracciones internas se identifican con la penetración del revisionismo y se combaten como amenaza a la unidad del partido.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Enver Hoxha, El imperialismo y la revolución",
+        "url": "https://www.marxists.org/espanol/enver/imprev/01.htm",
+        "fecha": "1978",
+        "consultado": "2026-07-10"
+      }
+    },
+    "izq-001": {
+      "valor": 2,
+      "justificacion": "La vía pacífica y parlamentaria al socialismo defendida por el eurocomunismo es denunciada como revisionismo: solo la revolución dirigida por el partido marxista-leninista transforma la sociedad.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Enver Hoxha, El imperialismo y la revolución",
+        "url": "https://www.marxists.org/espanol/enver/imprev/01.htm",
+        "fecha": "1978",
+        "consultado": "2026-07-10"
+      }
+    },
+    "rel-001": {
+      "valor": 2,
+      "justificacion": "Albania se declaró en 1967 primer Estado ateo del mundo, prohibió la práctica religiosa pública y promovió la propaganda atea como política estatal: es la única doctrina del banco que ancla este polo con práctica estatal documentada.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Enver Hoxha Internet Archive: índice de obras (campaña de revolucionarización y lucha antirreligiosa, 1967)",
+        "url": "https://www.marxists.org/reference/archive/hoxha/works-index.htm",
+        "fecha": "1967",
+        "consultado": "2026-07-10"
+      }
+    },
+    "izq-004": {
+      "valor": 1,
+      "justificacion": "El balance de la URSS es positivo hasta 1953 y negativo después: la doctrina sostiene que el país fue socialista y ejemplar bajo Lenin y Stalin y degeneró en socialimperialismo tras el XX Congreso, de ahí el acuerdo sin el máximo.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Enver Hoxha, With Stalin: Memoirs (1979, índice de obras en marxists.org)",
+        "url": "https://www.marxists.org/reference/archive/hoxha/works-index.htm",
+        "fecha": "1979",
+        "consultado": "2026-07-10"
+      }
+    },
+    "def-002": {
+      "valor": 2,
+      "justificacion": "La OTAN es un bloque militar imperialista: la doctrina exige romper con ambos bloques, como hizo Albania al abandonar el Pacto de Varsovia sin integrarse en la alianza occidental.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Enver Hoxha, El imperialismo y la revolución",
+        "url": "https://www.marxists.org/espanol/enver/imprev/01.htm",
+        "fecha": "1978",
+        "consultado": "2026-07-10"
+      }
+    }
+  }
+}

@@ -1,0 +1,184 @@
+{
+  "id": "pensamiento-gonzalo",
+  "nombre": "Pensamiento Gonzalo",
+  "tipo": "referencia-doctrinal",
+  "definicion": "Doctrina de Abimael Guzmán («Presidente Gonzalo») y del Partido Comunista del Perú-Sendero Luminoso: marxismo-leninismo-maoísmo con la guerra popular como vía universal, la violencia revolucionaria como ley sin excepción, la jefatura personal como garantía de la línea y el boicot activo de las elecciones; se documenta desde sus propios textos para situarla en el mapa.",
+  "variante": "Forma específica peruana del MLM ligada al PCP-SL; no equivale al MLM genérico del MRI, que es referencia separada",
+  "periodo": "1980–actualidad (residual)",
+  "confianza": "verificada",
+  "version": "1.0",
+  "revisado": "2026-07-10",
+  "facetasDefinitorias": [
+    "uso-fuerza",
+    "metodo-cambio",
+    "organizacion",
+    "pluralismo-institucional"
+  ],
+  "sensibilidad": "violenta",
+  "advertencia": "Es la doctrina de una organización terrorista: la guerra desencadenada por Sendero Luminoso causó decenas de miles de víctimas y la Comisión de la Verdad y Reconciliación peruana atribuyó a esa organización la mayor parte de las muertes del conflicto. Esta ficha existe únicamente para que el mapa sitúe la doctrina donde sus propios textos la colocan —incluida su reivindicación expresa de la violencia—, jamás como papeleta, recomendación ni resultado lúdico. Su regla de publicación exige la afinidad y cobertura más altas del catálogo.",
+  "fuentesMarco": [
+    {
+      "tipo": "otro",
+      "titulo": "Entrevista al Presidente Gonzalo (El Diario, 1988; texto íntegro)",
+      "url": "https://pensaryhacer.wordpress.com/wp-content/uploads/2010/06/entrevista-del-presidente-gonzalo.pdf",
+      "fecha": "1988",
+      "consultado": "2026-07-10"
+    },
+    {
+      "tipo": "otro",
+      "titulo": "Entrevista al Presidente Gonzalo, parte II (archivo CEDEMA)",
+      "url": "https://cedema.org/digital_items/658",
+      "fecha": "1988",
+      "consultado": "2026-07-10"
+    },
+    {
+      "tipo": "otro",
+      "titulo": "PCP, ¡Guerra popular en el Perú! (compilación documental, bannedthought.net)",
+      "url": "https://bannedthought.net/Peru/Gonzalo/GuerraPopularEnElPeru-Spanish-sm.pdf",
+      "consultado": "2026-07-10"
+    },
+    {
+      "tipo": "otro",
+      "titulo": "El pensamiento Gonzalo: la violencia hecha dogma político (análisis externo, Secretaría Nacional de la Juventud del Perú)",
+      "url": "https://juventud.gob.pe/wp-content/uploads/2017/12/El-Pensamiento-Gonzalo-la-violencia-hecha-dogma-pol%C3%ADtico.pdf",
+      "consultado": "2026-07-10"
+    }
+  ],
+  "reglaPublicacion": {
+    "minimoItems": 10,
+    "minimoCobertura": 0.65,
+    "umbralAfinidad": 90
+  },
+  "posiciones": {
+    "dr-025": {
+      "valor": -2,
+      "justificacion": "Sus propios textos reivindican la violencia revolucionaria como ley universal sin excepción y como medio para resolver las contradicciones fundamentales: es la negación expresa del enunciado del ítem.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Entrevista al Presidente Gonzalo (El Diario, 1988)",
+        "url": "https://pensaryhacer.wordpress.com/wp-content/uploads/2010/06/entrevista-del-presidente-gonzalo.pdf",
+        "fecha": "1988",
+        "consultado": "2026-07-10",
+        "cita": "En cuanto a la violencia partimos de un principio establecido por el Presidente Mao Tsetung: la violencia es una ley universal sin excepción alguna, quiero decir la violencia revolucionaria; esa violencia es la que nos permite resolver las contradicciones fundamentales con un ejército y a través de la guerra popular."
+      }
+    },
+    "lim-003": {
+      "valor": 2,
+      "justificacion": "La guerra popular es en esta doctrina la forma principal de acción política, a la que se subordinan el partido, el frente y toda otra actividad: es su tesis organizativa y estratégica central.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "PCP, ¡Guerra popular en el Perú! (compilación documental)",
+        "url": "https://bannedthought.net/Peru/Gonzalo/GuerraPopularEnElPeru-Spanish-sm.pdf",
+        "consultado": "2026-07-10"
+      }
+    },
+    "dr-024": {
+      "valor": 2,
+      "justificacion": "La doctrina rechaza la democracia representativa como fachada del «viejo Estado terrateniente-burocrático» y propone sustituirla por la dictadura conjunta de nueva democracia dirigida por el partido: un régimen no pluralista se presenta expresamente como preferible.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Entrevista al Presidente Gonzalo (El Diario, 1988)",
+        "url": "https://pensaryhacer.wordpress.com/wp-content/uploads/2010/06/entrevista-del-presidente-gonzalo.pdf",
+        "fecha": "1988",
+        "consultado": "2026-07-10"
+      }
+    },
+    "lim-001": {
+      "valor": 2,
+      "justificacion": "La «jefatura» del Presidente Gonzalo y su pensamiento como «pensamiento guía» obligatorio para todo el partido son doctrina explícita del PCP-SL: la interpretación de la línea corresponde a una dirección personal incuestionable.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Entrevista al Presidente Gonzalo (El Diario, 1988)",
+        "url": "https://pensaryhacer.wordpress.com/wp-content/uploads/2010/06/entrevista-del-presidente-gonzalo.pdf",
+        "fecha": "1988",
+        "consultado": "2026-07-10"
+      }
+    },
+    "izq-031": {
+      "valor": 2,
+      "justificacion": "El boicot activo de las elecciones —no solo la abstención— es posición doctrinal expresa, formulada en sus documentos de campaña contra los procesos electorales peruanos.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "PCP, ¡No votar, sino boicotear las elecciones regionales! (archivo CEDEMA)",
+        "url": "https://cedema.org/digital_items/757",
+        "consultado": "2026-07-10"
+      }
+    },
+    "izq-002": {
+      "valor": 2,
+      "justificacion": "El partido de vanguardia militarizado que dirige la guerra popular y construye el nuevo poder es el primero de los «tres instrumentos» de la revolución en su doctrina.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Entrevista al Presidente Gonzalo (El Diario, 1988)",
+        "url": "https://pensaryhacer.wordpress.com/wp-content/uploads/2010/06/entrevista-del-presidente-gonzalo.pdf",
+        "fecha": "1988",
+        "consultado": "2026-07-10"
+      }
+    },
+    "izq-022": {
+      "valor": 2,
+      "justificacion": "Reivindica la Gran Revolución Cultural Proletaria como el aporte máximo de Mao y modelo de continuación de la lucha de clases bajo el socialismo.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Entrevista al Presidente Gonzalo (El Diario, 1988)",
+        "url": "https://pensaryhacer.wordpress.com/wp-content/uploads/2010/06/entrevista-del-presidente-gonzalo.pdf",
+        "fecha": "1988",
+        "consultado": "2026-07-10"
+      }
+    },
+    "izq-020": {
+      "valor": 1,
+      "justificacion": "Defiende a Stalin dentro del canon marxista-leninista-maoísta, asumiendo la valoración maoísta de aciertos principales con errores: reivindicación clara pero no integral.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Entrevista al Presidente Gonzalo (El Diario, 1988)",
+        "url": "https://pensaryhacer.wordpress.com/wp-content/uploads/2010/06/entrevista-del-presidente-gonzalo.pdf",
+        "fecha": "1988",
+        "consultado": "2026-07-10"
+      }
+    },
+    "izq-021": {
+      "valor": -2,
+      "justificacion": "Su canon marxista-leninista-maoísta excluye a Trotski, tratado como desviación combatida por el movimiento comunista desde los años veinte.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Entrevista al Presidente Gonzalo (El Diario, 1988)",
+        "url": "https://pensaryhacer.wordpress.com/wp-content/uploads/2010/06/entrevista-del-presidente-gonzalo.pdf",
+        "fecha": "1988",
+        "consultado": "2026-07-10"
+      }
+    },
+    "izq-028": {
+      "valor": 2,
+      "justificacion": "La China posterior a Mao es para esta doctrina un país revisionista donde se restauró el capitalismo: la defensa del maoísmo se hace expresamente contra la dirección china actual.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Entrevista al Presidente Gonzalo (El Diario, 1988)",
+        "url": "https://pensaryhacer.wordpress.com/wp-content/uploads/2010/06/entrevista-del-presidente-gonzalo.pdf",
+        "fecha": "1988",
+        "consultado": "2026-07-10"
+      }
+    },
+    "izq-001": {
+      "valor": 2,
+      "justificacion": "Toda transformación pasa por la destrucción violenta del viejo Estado mediante la guerra popular; la vía reformista y electoral se denuncia como capitulación.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "PCP, ¡Guerra popular en el Perú! (compilación documental)",
+        "url": "https://bannedthought.net/Peru/Gonzalo/GuerraPopularEnElPeru-Spanish-sm.pdf",
+        "consultado": "2026-07-10"
+      }
+    }
+  }
+}

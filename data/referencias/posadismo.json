@@ -1,0 +1,147 @@
+{
+  "id": "posadismo",
+  "nombre": "Posadismo",
+  "tipo": "referencia-doctrinal",
+  "definicion": "Tipo ideal del trotskismo heterodoxo de J. Posadas (IV Internacional posadista, escindida en 1962): revolución mundial dirigida por partidos de vanguardia, defensa incondicional de los Estados obreros frente al imperialismo y la tesis distintiva de que la guerra nuclear desencadenada por el capitalismo abriría paso, pese a su coste, a la toma del poder por los trabajadores.",
+  "variante": "Tradición de J. Posadas; el POSI español pertenece a otra tradición de la IV Internacional y NO es posadista",
+  "periodo": "1962–actualidad (residual)",
+  "confianza": "verificada",
+  "version": "1.0",
+  "revisado": "2026-07-10",
+  "facetasDefinitorias": [
+    "metodo-cambio",
+    "armas-nucleares",
+    "internacionalismo"
+  ],
+  "sensibilidad": "antipluralista",
+  "advertencia": "Es un tipo ideal doctrinal histórico sin candidatura española: nunca aparece como papeleta. La coincidencia de siglas no convierte al POSI en posadista: el POSI español se reclama de la IV Internacional trotskista ortodoxa (ver docs/investigacion/comunistas-exclusiones-corrientes.md). Su tesis sobre la guerra nuclear se documenta con sus propios textos para situarla en el mapa, no como recomendación de nada.",
+  "fuentesMarco": [
+    {
+      "tipo": "otro",
+      "titulo": "J. Posadas, La función histórica de las Internacionales (marxists.org, sección en español)",
+      "url": "https://www.marxists.org/espanol/posadas/2012/funcion-de-las-internacionales.pdf",
+      "consultado": "2026-07-10"
+    },
+    {
+      "tipo": "otro",
+      "titulo": "Red Flag, órgano de la IV Internacional posadista (archivo 1963-2000, marxists.org)",
+      "url": "https://www.marxists.org/history/etol/newspape/red-flag-posadas/index.htm",
+      "consultado": "2026-07-10"
+    },
+    {
+      "tipo": "otro",
+      "titulo": "Posadas: A Critical Assessment of the Former Latin American Bureau Tendency within the Fourth International (marxists.org)",
+      "url": "https://www.marxists.org/archive/posadas/critical.htm",
+      "consultado": "2026-07-10"
+    }
+  ],
+  "reglaPublicacion": {
+    "minimoItems": 8,
+    "minimoCobertura": 0.5,
+    "umbralAfinidad": 80
+  },
+  "posiciones": {
+    "lim-004": {
+      "valor": 2,
+      "justificacion": "La tesis definitoria posadista: la guerra atómica que el imperialismo desencadenaría no cierra sino que abre la lucha por el poder obrero, antes, durante y después de la guerra. Es la posición que este ítem-límite existe para capturar.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Resolución del VII Congreso Mundial de la IV Internacional posadista (1964), citada en el balance del Buró Latinoamericano (marxists.org)",
+        "url": "https://www.marxists.org/archive/posadas/critical.htm",
+        "fecha": "1964",
+        "consultado": "2026-07-10",
+        "cita": "We are preparing ourselves for a stage in which before the atomic war, we shall struggle for power, during the atomic war we shall struggle for power and we shall be in power, and immediately after the atomic war we shall be in power."
+      }
+    },
+    "geo-008": {
+      "valor": -2,
+      "justificacion": "Rechaza el pacifismo nuclear absoluto: su manifiesto de 1966 asume la guerra atómica como fase de la que emergería el poder obrero organizado, lo contrario de sostener que el uso nuclear nunca estaría justificado ni como respuesta.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Red Flag, número de 1966 con el manifiesto posadista sobre la guerra atómica (marxists.org)",
+        "url": "https://www.marxists.org/history/etol/newspape/red-flag-posadas/red_1966.pdf",
+        "fecha": "1966",
+        "consultado": "2026-07-10"
+      }
+    },
+    "izq-001": {
+      "valor": 2,
+      "justificacion": "Como corriente de la IV Internacional, sostiene que la transformación llega por revolución mundial dirigida por el proletariado, no por reformas graduales del capitalismo.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "J. Posadas, La función histórica de las Internacionales",
+        "url": "https://www.marxists.org/espanol/posadas/2012/funcion-de-las-internacionales.pdf",
+        "consultado": "2026-07-10"
+      }
+    },
+    "izq-002": {
+      "valor": 2,
+      "justificacion": "Mantiene el modelo leninista-trotskista de partido de vanguardia y de Internacional como dirección consciente del proceso revolucionario.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "J. Posadas, La función histórica de las Internacionales",
+        "url": "https://www.marxists.org/espanol/posadas/2012/funcion-de-las-internacionales.pdf",
+        "consultado": "2026-07-10"
+      }
+    },
+    "izq-021": {
+      "valor": 2,
+      "justificacion": "Procede del trotskismo y reivindica a Trotski como continuidad revolucionaria legítima frente a la burocratización de la URSS; la escisión de 1962 fue interna a la IV Internacional, no una ruptura con Trotski.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Posadas: A Critical Assessment (historia de la tendencia dentro de la IV Internacional)",
+        "url": "https://www.marxists.org/archive/posadas/critical.htm",
+        "consultado": "2026-07-10"
+      }
+    },
+    "izq-020": {
+      "valor": -1,
+      "justificacion": "Como trotskista, juzga negativamente la burocracia estalinista; pero su defensa incondicional de los Estados obreros y su acercamiento creciente al campo soviético en los años setenta lo alejan del antiestalinismo frontal de otras corrientes trotskistas.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Posadas: A Critical Assessment (evolución de la tendencia respecto a los Estados obreros)",
+        "url": "https://www.marxists.org/archive/posadas/critical.htm",
+        "consultado": "2026-07-10"
+      }
+    },
+    "izq-029": {
+      "valor": 2,
+      "justificacion": "La defensa incondicional de los Estados obreros frente al imperialismo es un eje de la doctrina: en un conflicto entre la OTAN y el campo enfrentado a Estados Unidos, el posadismo toma partido por el segundo.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Red Flag, órgano de la IV Internacional posadista (archivo, marxists.org)",
+        "url": "https://www.marxists.org/history/etol/newspape/red-flag-posadas/index.htm",
+        "consultado": "2026-07-10"
+      }
+    },
+    "def-002": {
+      "valor": 2,
+      "justificacion": "La OTAN es para esta doctrina el instrumento militar del imperialismo: la salida de cualquier Estado de la alianza es una exigencia derivada directa de su antiimperialismo.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Red Flag, órgano de la IV Internacional posadista (archivo, marxists.org)",
+        "url": "https://www.marxists.org/history/etol/newspape/red-flag-posadas/index.htm",
+        "consultado": "2026-07-10"
+      }
+    },
+    "izq-016": {
+      "valor": 2,
+      "justificacion": "Hereda el programa transicional trotskista: expropiación de la banca y de los grandes grupos capitalistas como base del Estado obrero, sin compensación a sus propietarios.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "J. Posadas, La función histórica de las Internacionales",
+        "url": "https://www.marxists.org/espanol/posadas/2012/funcion-de-las-internacionales.pdf",
+        "consultado": "2026-07-10"
+      }
+    }
+  }
+}

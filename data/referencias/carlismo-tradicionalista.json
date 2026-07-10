@@ -1,0 +1,216 @@
+{
+  "id": "carlismo-tradicionalista",
+  "nombre": "Carlismo tradicionalista",
+  "tipo": "referencia-doctrinal",
+  "definicion": "Tipo ideal de la rama tradicionalista del carlismo (lema Dios-Patria-Fueros-Rey): confesionalidad católica del Estado, monarquía hereditaria legitimista, foralismo como libertad territorial dentro de la unidad tradicional y representación orgánica de la sociedad por cuerpos intermedios y gremios frente al parlamentarismo liberal de partidos.",
+  "variante": "Rama tradicionalista sistematizada por Vázquez de Mella y continuada por la Comunión Tradicionalista; la rama socialista autogestionaria de los años setenta es referencia separada",
+  "periodo": "1833–actualidad",
+  "confianza": "verificada",
+  "version": "1.0",
+  "revisado": "2026-07-10",
+  "facetasDefinitorias": [
+    "tradicion-moral",
+    "laicismo",
+    "monarquia",
+    "modelo-territorial"
+  ],
+  "sensibilidad": "normal",
+  "advertencia": "Es un tipo ideal doctrinal: la Comunión Tradicionalista Carlista actual tiene perfil de partido propio y separado, y el Partido Carlista de tradición socialista autogestionaria pertenece a la otra rama de la escisión de los años sesenta y setenta. Ambas ramas comparten foralismo y monarquía y divergen a polos opuestos en economía y religión: el mapa las muestra separadas deliberadamente.",
+  "fuentesMarco": [
+    {
+      "tipo": "otro",
+      "titulo": "Juan Vázquez de Mella, Textos de doctrina política (edición electrónica de carlismo.es)",
+      "url": "https://www.carlismo.es/librosElectronicos/VazquezMellaTextos.pdf",
+      "consultado": "2026-07-10"
+    },
+    {
+      "tipo": "otro",
+      "titulo": "Los 12 principios fundamentales del Carlismo (Comunión Tradicionalista Carlista)",
+      "url": "https://www.carlistas.es/2014/02/18/los-12-principios-fundamentales-del-carlismo/",
+      "consultado": "2026-07-10"
+    }
+  ],
+  "reglaPublicacion": {
+    "minimoItems": 10,
+    "minimoCobertura": 0.55,
+    "umbralAfinidad": 78
+  },
+  "posiciones": {
+    "der-002": {
+      "valor": 2,
+      "justificacion": "La ley de Dios como fundamento del orden político y social es el primer término del lema: las leyes deben reflejar la moral cristiana que vertebra históricamente a las Españas.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Los 12 principios fundamentales del Carlismo",
+        "url": "https://www.carlistas.es/2014/02/18/los-12-principios-fundamentales-del-carlismo/",
+        "consultado": "2026-07-10"
+      }
+    },
+    "dr-011": {
+      "valor": 2,
+      "justificacion": "La confesionalidad católica del Estado es doctrina expresa: la unidad católica es parte constitutiva del orden tradicional que esta rama quiere restaurar.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Los 12 principios fundamentales del Carlismo",
+        "url": "https://www.carlistas.es/2014/02/18/los-12-principios-fundamentales-del-carlismo/",
+        "consultado": "2026-07-10"
+      }
+    },
+    "rel-002": {
+      "valor": -2,
+      "justificacion": "El Estado aconfesional es exactamente lo que el tradicionalismo impugna del liberalismo: no neutralidad religiosa sino reconocimiento público de la religión católica como verdad social.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Los 12 principios fundamentales del Carlismo",
+        "url": "https://www.carlistas.es/2014/02/18/los-12-principios-fundamentales-del-carlismo/",
+        "consultado": "2026-07-10"
+      }
+    },
+    "rel-003": {
+      "valor": 1,
+      "justificacion": "La subordinación de la ley civil a la ley de Dios implica que la doctrina católica limita qué leyes son legítimas; el matiz es que el poder político tradicional conserva su esfera propia y no es teocracia clerical directa.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Juan Vázquez de Mella, Textos de doctrina política",
+        "url": "https://www.carlismo.es/librosElectronicos/VazquezMellaTextos.pdf",
+        "consultado": "2026-07-10"
+      }
+    },
+    "lai-001": {
+      "valor": -2,
+      "justificacion": "En un orden confesional la enseñanza religiosa forma parte del corazón de la escuela: sacar la religión del horario lectivo es la política laicista que la doctrina combate.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Los 12 principios fundamentales del Carlismo",
+        "url": "https://www.carlistas.es/2014/02/18/los-12-principios-fundamentales-del-carlismo/",
+        "consultado": "2026-07-10"
+      }
+    },
+    "mon-001": {
+      "valor": -2,
+      "justificacion": "La monarquía tradicional hereditaria y legitimista —cuarto término del lema— es la forma de la jefatura del Estado; una jefatura electiva es para esta doctrina la negación de la legitimidad de origen y de ejercicio.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Los 12 principios fundamentales del Carlismo",
+        "url": "https://www.carlistas.es/2014/02/18/los-12-principios-fundamentales-del-carlismo/",
+        "consultado": "2026-07-10"
+      }
+    },
+    "der-014": {
+      "valor": 2,
+      "justificacion": "Los Fueros son el tercer término del lema: los derechos históricos forales, incluidos los conciertos vasco y navarro, expresan la libertad concreta de los cuerpos territoriales dentro de la unidad tradicional.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Los 12 principios fundamentales del Carlismo",
+        "url": "https://www.carlistas.es/2014/02/18/los-12-principios-fundamentales-del-carlismo/",
+        "consultado": "2026-07-10"
+      }
+    },
+    "eus-005": {
+      "valor": 2,
+      "justificacion": "La actualización de los derechos históricos forales es exactamente la vía carlista para el autogobierno vasco y navarro, frente tanto al centralismo como a la república independiente.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Juan Vázquez de Mella, Textos de doctrina política",
+        "url": "https://www.carlismo.es/librosElectronicos/VazquezMellaTextos.pdf",
+        "consultado": "2026-07-10"
+      }
+    },
+    "ter-001": {
+      "valor": -1,
+      "justificacion": "El foralismo es anticentralista: devolver competencias al Estado central contradice la doctrina de las libertades concretas territoriales, aunque el tradicionalismo tampoco defiende el Estado autonómico liberal que el ítem presupone.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Juan Vázquez de Mella, Textos de doctrina política",
+        "url": "https://www.carlismo.es/librosElectronicos/VazquezMellaTextos.pdf",
+        "consultado": "2026-07-10"
+      }
+    },
+    "ter-002": {
+      "valor": -2,
+      "justificacion": "La unidad de las Españas es indisponible: los Fueros son libertad dentro de la unidad tradicional, no derecho de secesión, y un referéndum de autodeterminación aplicaría el principio plebiscitario liberal que la doctrina rechaza.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Juan Vázquez de Mella, Textos de doctrina política",
+        "url": "https://www.carlismo.es/librosElectronicos/VazquezMellaTextos.pdf",
+        "consultado": "2026-07-10"
+      }
+    },
+    "dem-018": {
+      "valor": 2,
+      "justificacion": "La representación orgánica por municipios, regiones y cuerpos profesionales —el sociedalismo de Mella— sustituye a la representación inorgánica de los partidos: es la propuesta institucional definitoria de la rama.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Juan Vázquez de Mella, Textos de doctrina política",
+        "url": "https://www.carlismo.es/librosElectronicos/VazquezMellaTextos.pdf",
+        "consultado": "2026-07-10"
+      }
+    },
+    "dem-013": {
+      "valor": 2,
+      "justificacion": "Los procuradores de las Cortes tradicionales actúan con mandato imperativo de los cuerpos que los envían, no como representantes libres de la nación abstracta.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Los 12 principios fundamentales del Carlismo",
+        "url": "https://www.carlistas.es/2014/02/18/los-12-principios-fundamentales-del-carlismo/",
+        "consultado": "2026-07-10"
+      }
+    },
+    "dem-011": {
+      "valor": 2,
+      "justificacion": "No propone reformar el parlamentarismo liberal sino sustituirlo por la monarquía tradicional con Cortes orgánicas: un modelo institucional distinto, no un ajuste parcial.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Juan Vázquez de Mella, Textos de doctrina política",
+        "url": "https://www.carlismo.es/librosElectronicos/VazquezMellaTextos.pdf",
+        "consultado": "2026-07-10"
+      }
+    },
+    "dr-014": {
+      "valor": 1,
+      "justificacion": "El gremio reúne a trabajadores y patronos del oficio en un cuerpo común, pero en la doctrina de Mella esa organización pertenece a la sociedad y no a la dirección del Estado: acuerdo con la integración corporativa, no con la estatalización del ítem.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Juan Vázquez de Mella, Textos de doctrina política",
+        "url": "https://www.carlismo.es/librosElectronicos/VazquezMellaTextos.pdf",
+        "consultado": "2026-07-10"
+      }
+    },
+    "der-007": {
+      "valor": 2,
+      "justificacion": "La protección de la vida desde la concepción según la ley natural es doctrina constante de la rama tradicionalista: su posición es al menos tan restrictiva como la del enunciado.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Los 12 principios fundamentales del Carlismo",
+        "url": "https://www.carlistas.es/2014/02/18/los-12-principios-fundamentales-del-carlismo/",
+        "consultado": "2026-07-10"
+      }
+    },
+    "der-008": {
+      "valor": 2,
+      "justificacion": "La eutanasia contradice la ley natural y el orden cristiano que la doctrina sitúa por encima de la ley civil: su derogación se sigue directamente del principio confesional.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Los 12 principios fundamentales del Carlismo",
+        "url": "https://www.carlistas.es/2014/02/18/los-12-principios-fundamentales-del-carlismo/",
+        "consultado": "2026-07-10"
+      }
+    }
+  }
+}

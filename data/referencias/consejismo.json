@@ -1,0 +1,217 @@
+{
+  "id": "consejismo",
+  "nombre": "Comunismo de consejos (consejismo)",
+  "tipo": "referencia-doctrinal",
+  "definicion": "Tipo ideal del comunismo de consejos de la izquierda germano-holandesa (Pannekoek, Gorter): la emancipación obrera es obra de los propios trabajadores organizados en consejos de fábrica con delegados revocables, contra el parlamento, contra los sindicatos integrados y contra el partido de vanguardia como nuevo poder sobre la clase; la URSS se caracteriza como capitalismo de Estado.",
+  "variante": "Tradición consejista germano-holandesa; diverge del bordiguismo precisamente en la cuestión del partido",
+  "periodo": "1918–actualidad",
+  "confianza": "verificada",
+  "version": "1.0",
+  "revisado": "2026-07-10",
+  "facetasDefinitorias": [
+    "poder-laboral",
+    "democracia-directa",
+    "organizacion",
+    "metodo-cambio",
+    "estatismo"
+  ],
+  "sensibilidad": "normal",
+  "advertencia": "Es un tipo ideal doctrinal sin candidatura española: nunca aparece como papeleta. Su rechazo del parlamento y de los sindicatos existentes se documenta con los textos de Pannekoek y no debe confundirse ni con el abstencionismo bordiguista (que mantiene el partido de vanguardia) ni con el anarcosindicalismo (que mantiene el sindicato como órgano central).",
+  "fuentesMarco": [
+    {
+      "tipo": "otro",
+      "titulo": "Anton Pannekoek, Workers' Councils (1947, marxists.org)",
+      "url": "https://www.marxists.org/archive/pannekoe/1947/workers-councils.htm",
+      "fecha": "1947",
+      "consultado": "2026-07-10"
+    },
+    {
+      "tipo": "otro",
+      "titulo": "Anton Pannekoek, Theses on the Fight of the Working Class against Capitalism (1947, marxists.org)",
+      "url": "https://www.marxists.org/archive/pannekoe/1947/theses-fight.htm",
+      "fecha": "1947",
+      "consultado": "2026-07-10"
+    },
+    {
+      "tipo": "otro",
+      "titulo": "Archivo de Anton Pannekoek en marxists.org (incluye State Capitalism and Dictatorship y Trade Unionism, 1936)",
+      "url": "https://www.marxists.org/archive/pannekoe/index.htm",
+      "consultado": "2026-07-10"
+    }
+  ],
+  "reglaPublicacion": {
+    "minimoItems": 10,
+    "minimoCobertura": 0.5,
+    "umbralAfinidad": 78
+  },
+  "posiciones": {
+    "izq-003": {
+      "valor": 2,
+      "justificacion": "Es la tesis constitutiva: la emancipación se organiza desde los consejos y asambleas de los propios trabajadores, nunca desde un partido dirigente que gobierne en su nombre.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Anton Pannekoek, Workers' Councils",
+        "url": "https://www.marxists.org/archive/pannekoe/1947/workers-councils.htm",
+        "fecha": "1947",
+        "consultado": "2026-07-10"
+      }
+    },
+    "izq-002": {
+      "valor": -2,
+      "justificacion": "El partido de vanguardia que toma el poder se convierte para esta doctrina en un nuevo aparato de dominación sobre la clase: la dirección del proceso no puede delegarse en ninguna organización separada.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Anton Pannekoek, Theses on the Fight of the Working Class against Capitalism",
+        "url": "https://www.marxists.org/archive/pannekoe/1947/theses-fight.htm",
+        "fecha": "1947",
+        "consultado": "2026-07-10"
+      }
+    },
+    "dem-017": {
+      "valor": 2,
+      "justificacion": "El parlamento debe ser sustituido por la organización de consejos locales y de empresa con delegados elegidos y revocables por sus bases: es la forma política específica que la doctrina propone.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Anton Pannekoek, Workers' Councils",
+        "url": "https://www.marxists.org/archive/pannekoe/1947/workers-councils.htm",
+        "fecha": "1947",
+        "consultado": "2026-07-10"
+      }
+    },
+    "lab-008": {
+      "valor": 2,
+      "justificacion": "Los consejos elegidos en los centros de trabajo dirigen la producción y la distribución: ni propietarios privados ni ministerios estatales, que reproducirían la separación entre dirigentes y dirigidos.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Anton Pannekoek, Workers' Councils",
+        "url": "https://www.marxists.org/archive/pannekoe/1947/workers-councils.htm",
+        "fecha": "1947",
+        "consultado": "2026-07-10"
+      }
+    },
+    "izq-031": {
+      "valor": 2,
+      "justificacion": "La participación electoral canaliza la lucha hacia el terreno del Estado burgués y sustituye la acción autónoma de la clase por la delegación en representantes: el consejismo rechaza presentar candidaturas.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Anton Pannekoek, Theses on the Fight of the Working Class against Capitalism",
+        "url": "https://www.marxists.org/archive/pannekoe/1947/theses-fight.htm",
+        "fecha": "1947",
+        "consultado": "2026-07-10"
+      }
+    },
+    "izq-024": {
+      "valor": -2,
+      "justificacion": "Los grandes sindicatos existentes son analizados como órganos de mediación integrados en el capitalismo, dirigidos por aparatos ajenos a la lucha real: la organización debe nacer del propio centro de trabajo, no de militar en ellos.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Anton Pannekoek, Theses on the Fight of the Working Class against Capitalism",
+        "url": "https://www.marxists.org/archive/pannekoe/1947/theses-fight.htm",
+        "fecha": "1947",
+        "consultado": "2026-07-10"
+      }
+    },
+    "izq-020": {
+      "valor": -2,
+      "justificacion": "La URSS de Stalin es para esta doctrina capitalismo de Estado con una nueva clase dirigente burocrática: su balance para la clase trabajadora es la negación de la autoemancipación.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Anton Pannekoek, State Capitalism and Dictatorship (1936, archivo Pannekoek en marxists.org)",
+        "url": "https://www.marxists.org/archive/pannekoe/index.htm",
+        "fecha": "1936",
+        "consultado": "2026-07-10"
+      }
+    },
+    "izq-004": {
+      "valor": -2,
+      "justificacion": "El balance histórico de la URSS es negativo: lo que se construyó no fue poder obrero sino dominación de un aparato estatal sobre los trabajadores, con formas de explotación equivalentes a las capitalistas.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Anton Pannekoek, State Capitalism and Dictatorship (1936, archivo Pannekoek en marxists.org)",
+        "url": "https://www.marxists.org/archive/pannekoe/index.htm",
+        "fecha": "1936",
+        "consultado": "2026-07-10"
+      }
+    },
+    "izq-001": {
+      "valor": 2,
+      "justificacion": "La transformación exige la ruptura con el capitalismo mediante la acción directa de masas y la toma de la producción por los consejos, no reformas graduales gestionadas desde el Estado.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Anton Pannekoek, Workers' Councils",
+        "url": "https://www.marxists.org/archive/pannekoe/1947/workers-councils.htm",
+        "fecha": "1947",
+        "consultado": "2026-07-10"
+      }
+    },
+    "dem-013": {
+      "valor": 2,
+      "justificacion": "Los delegados de los consejos actúan con mandato de sus asambleas y son revocables en todo momento: la representación obligada por instrucciones expresas es el principio organizativo consejista.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Anton Pannekoek, Workers' Councils",
+        "url": "https://www.marxists.org/archive/pannekoe/1947/workers-councils.htm",
+        "fecha": "1947",
+        "consultado": "2026-07-10"
+      }
+    },
+    "dem-019": {
+      "valor": -2,
+      "justificacion": "Un movimiento único que dirija el Estado sin competencia es exactamente el resultado que la crítica consejista del partido pretende evitar: el poder pertenece a los consejos, no a ninguna organización política unificada.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Anton Pannekoek, State Capitalism and Dictatorship (1936, archivo Pannekoek en marxists.org)",
+        "url": "https://www.marxists.org/archive/pannekoe/index.htm",
+        "fecha": "1936",
+        "consultado": "2026-07-10"
+      }
+    },
+    "lab-020": {
+      "valor": 2,
+      "justificacion": "La representación laboral emana de toda la plantilla reunida en asamblea, esté o no afiliada a un sindicato: el consejo es el órgano de todos los trabajadores del centro, no de una organización externa.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Anton Pannekoek, Workers' Councils",
+        "url": "https://www.marxists.org/archive/pannekoe/1947/workers-councils.htm",
+        "fecha": "1947",
+        "consultado": "2026-07-10"
+      }
+    },
+    "lab-021": {
+      "valor": 2,
+      "justificacion": "Ninguna dirección puede cerrar acuerdos por encima de la asamblea: la ratificación por la plantilla afectada de lo pactado por sus delegados se deduce directamente del mandato revocable consejista.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Anton Pannekoek, Workers' Councils",
+        "url": "https://www.marxists.org/archive/pannekoe/1947/workers-councils.htm",
+        "fecha": "1947",
+        "consultado": "2026-07-10"
+      }
+    },
+    "izq-016": {
+      "valor": 2,
+      "justificacion": "La socialización consejista transfiere los medios de producción a los consejos obreros sin compensación a los propietarios capitalistas; la diferencia con otras corrientes es quién los gestiona, no si se expropia.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Anton Pannekoek, Workers' Councils",
+        "url": "https://www.marxists.org/archive/pannekoe/1947/workers-councils.htm",
+        "fecha": "1947",
+        "consultado": "2026-07-10"
+      }
+    }
+  }
+}
