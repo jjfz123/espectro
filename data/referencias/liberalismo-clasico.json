@@ -10,7 +10,7 @@
   "revisado": "2026-07-10",
   "facetasDefinitorias": ["economico", "social", "libertad-conciencia", "democracia-directa", "institucionalismo"],
   "sensibilidad": "normal",
-  "advertencia": "Es un tipo ideal filosófico del siglo XIX, no la ficha de ningún partido español. Varias posiciones (matrimonio igualitario, inmigración) se derivan del principio del daño de Mill y del universalismo de Smith, no de una referencia literal de sus textos a esas políticas concretas: es una aplicación razonada del principio, señalada como tal. Frente al minarquismo y al anarcocapitalismo, este liberalismo admite obras públicas, instrucción y ayuda a los más pobres financiadas por el Estado (Smith, Libro V); frente al conservadurismo clásico, antepone el juicio individual a la costumbre heredada. Ninguno de los tres textos discute el modelo territorial español; esta referencia queda deliberadamente sin posiciones en el eje territorial en vez de forzarlas.",
+  "advertencia": "Es un tipo ideal filosófico del siglo XIX, no la ficha de ningún partido español. Varias posiciones (matrimonio igualitario, inmigración) se derivan del principio del daño de Mill y del universalismo de Smith como aplicación razonada, no de una mención literal. Frente al minarquismo y al anarcocapitalismo, este liberalismo admite obras públicas e instrucción financiadas por el Estado (Smith, Libro V); frente al conservadurismo, antepone el juicio individual a la costumbre. Las posiciones territoriales salen de Considerations on Representative Government (caps. XV-XVI), que contiene una tensión real —autogobierno local y consentimiento de los gobernados junto a la simpatía de Mill por la asimilación lingüística— codificada con valores moderados en ambas direcciones.",
   "fuentesMarco": [
     {
       "tipo": "otro",
@@ -31,6 +31,13 @@
       "titulo": "Adam Smith, An Inquiry into the Nature and Causes of the Wealth of Nations (1776), Project Gutenberg",
       "url": "https://www.gutenberg.org/files/3300/3300-h/3300-h.htm",
       "fecha": "1776",
+      "consultado": "2026-07-10"
+    },
+    {
+      "tipo": "otro",
+      "titulo": "John Stuart Mill, Considerations on Representative Government (1861), Project Gutenberg",
+      "url": "https://www.gutenberg.org/files/5669/5669-h/5669-h.htm",
+      "fecha": "1861",
       "consultado": "2026-07-10"
     }
   ],
@@ -243,6 +250,56 @@
         "titulo": "John Stuart Mill, On Liberty",
         "url": "https://www.gutenberg.org/files/34901/34901-h/34901-h.htm",
         "fecha": "1859",
+        "consultado": "2026-07-10"
+      }
+    },
+    "ter-001": {
+      "valor": -1,
+      "justificacion": "Mill sostiene que los asuntos puramente locales corresponden a cuerpos representativos locales y no al centro; el valor es moderado porque también defiende centralizar el conocimiento y la supervisión («el poder puede localizarse, pero el conocimiento debe centralizarse»), no una descentralización sin reservas.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "John Stuart Mill, Considerations on Representative Government, cap. XV",
+        "url": "https://www.gutenberg.org/files/5669/5669-h/5669-h.htm",
+        "fecha": "1861",
+        "consultado": "2026-07-10",
+        "cita": "It is but a small portion of the public business of a country which can be well done, or safely attempted, by the central authorities."
+      }
+    },
+    "ter-002": {
+      "valor": 1,
+      "justificacion": "Mill afirma que donde existe con fuerza un sentimiento de nacionalidad hay un caso prima facie para el autogobierno y que la cuestión debe decidirla la población gobernada; el valor es moderado porque él mismo lo condiciona a la viabilidad práctica y a las poblaciones mezcladas, y su simpatía final está en la asimilación voluntaria.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "John Stuart Mill, Considerations on Representative Government, cap. XVI",
+        "url": "https://www.gutenberg.org/files/5669/5669-h/5669-h.htm",
+        "fecha": "1861",
+        "consultado": "2026-07-10",
+        "cita": "the question of government ought to be decided by the governed"
+      }
+    },
+    "lib-019": {
+      "valor": 1,
+      "justificacion": "En el capítulo XVI Mill defiende que las instituciones libres se sostienen mejor sobre una nacionalidad y una lengua comunes, y ve ventajoso que las comunidades lingüísticas menores participen de la lengua general: garantizar la lengua común en la escuela, junto a las cooficiales, encaja con esa tesis en su versión moderada.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "John Stuart Mill, Considerations on Representative Government, cap. XVI",
+        "url": "https://www.gutenberg.org/files/5669/5669-h/5669-h.htm",
+        "fecha": "1861",
+        "consultado": "2026-07-10"
+      }
+    },
+    "dr-021": {
+      "valor": -1,
+      "justificacion": "Suprimir los gobiernos regionales y concentrar toda la administración en el centro contradice la doctrina del capítulo XV sobre los cuerpos representativos locales; el valor es moderado porque Mill defiende autogobierno local dentro de un Estado unitario con supervisión central, no federalismo garantizado.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "John Stuart Mill, Considerations on Representative Government, cap. XV",
+        "url": "https://www.gutenberg.org/files/5669/5669-h/5669-h.htm",
+        "fecha": "1861",
         "consultado": "2026-07-10"
       }
     }

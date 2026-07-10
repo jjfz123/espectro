@@ -10,7 +10,7 @@
   "revisado": "2026-07-10",
   "facetasDefinitorias": ["economico", "estatismo", "tradicion-moral", "laicismo"],
   "sensibilidad": "normal",
-  "advertencia": "Es un tipo ideal doctrinal británico sin partido español que lo encarne hoy: no debe confundirse con la democracia cristiana, que acepta la gran empresa regulada y el Estado social como arreglo permanente, ni con el nacionalsindicalismo falangista, cuyo sindicato vertical bajo dirección estatal es precisamente el tipo de arreglo corporativista que Belloc denuncia como servil. Chesterton y Belloc no escriben sobre inmigración ni orden público modernos, por lo que esta referencia queda sin evidencia suficiente en el eje social (GAL-TAN) y no fuerza posiciones ahí; sí escriben extensamente, como católicos practicantes, sobre aborto y eutanasia, cuestiones que se codifican por esa vía.",
+  "advertencia": "Es un tipo ideal doctrinal británico sin partido español que lo encarne hoy: no debe confundirse con la democracia cristiana, que acepta la gran empresa regulada y el Estado social, ni con el nacionalsindicalismo falangista, cuyo sindicato vertical estatal es el arreglo que Belloc denuncia como servil. Las posiciones del eje social salen de lo que Chesterton sí escribió —familia, hogar y educación en What's Wrong with the World (1910)— con valores moderados; la inmigración y el orden público contemporáneos no están en el corpus y quedan sin codificar. Las territoriales aplican el principio subsidiario y localista de la doctrina como extensión razonada, señalada con calidad de evidencia baja.",
   "fuentesMarco": [
     {
       "tipo": "otro",
@@ -24,6 +24,13 @@
       "titulo": "G. K. Chesterton, The Outline of Sanity (1926/1927), Internet Archive",
       "url": "https://archive.org/details/theoutlineofsanity",
       "fecha": "1927",
+      "consultado": "2026-07-10"
+    },
+    {
+      "tipo": "otro",
+      "titulo": "G. K. Chesterton, What's Wrong with the World (1910), Project Gutenberg",
+      "url": "https://www.gutenberg.org/files/1717/1717-h/1717-h.htm",
+      "fecha": "1910",
       "consultado": "2026-07-10"
     }
   ],
@@ -242,6 +249,92 @@
       "valor": -1,
       "justificacion": "El principio distributista de que lo pequeño y lo local son preferibles a lo grande y lo centralizado, aplicado a la política además de a la economía, se opone a recentralizar competencias en el Estado central.",
       "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "G. K. Chesterton, The Outline of Sanity",
+        "url": "https://archive.org/details/theoutlineofsanity",
+        "fecha": "1927",
+        "consultado": "2026-07-10"
+      }
+    },
+    "fem-007": {
+      "valor": 2,
+      "justificacion": "Para Chesterton la familia es la institución educadora primaria, anterior al Estado y a sus expertos: que los padres autoricen previamente los contenidos afectivo-sexuales escolares es la aplicación directa de esa primacía educativa que What's Wrong with the World defiende de principio a fin.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "G. K. Chesterton, What's Wrong with the World, parte IV (educación)",
+        "url": "https://www.gutenberg.org/files/1717/1717-h/1717-h.htm",
+        "fecha": "1910",
+        "consultado": "2026-07-10",
+        "cita": "The only persons who seem to have nothing to do with the education of the children are the parents."
+      }
+    },
+    "fem-012": {
+      "valor": -2,
+      "justificacion": "Se sigue de la combinación de dos posiciones documentadas de la doctrina: la protección de la vida prenatal propia de su catolicismo (ya codificada en el ítem de aborto) y la autoridad educativa de la familia sobre los menores que vertebra What's Wrong with the World.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "G. K. Chesterton, What's Wrong with the World",
+        "url": "https://www.gutenberg.org/files/1717/1717-h/1717-h.htm",
+        "fecha": "1910",
+        "consultado": "2026-07-10"
+      }
+    },
+    "fem-010": {
+      "valor": -1,
+      "justificacion": "La parte tercera de What's Wrong with the World («Feminism, or the Mistake about Woman») disputa que la emancipación femenina consista en incorporarse a los roles públicos y profesionales masculinos: una cuota legal en consejos de administración es el tipo de medida que esa tesis rechaza, con valor moderado porque el mecanismo es posterior al corpus.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "G. K. Chesterton, What's Wrong with the World, parte III",
+        "url": "https://www.gutenberg.org/files/1717/1717-h/1717-h.htm",
+        "fecha": "1910",
+        "consultado": "2026-07-10"
+      }
+    },
+    "soc-003": {
+      "valor": -1,
+      "justificacion": "Chesterton defiende el hogar y la vida corriente como esfera anterior al Estado y ajena a su supervisión, contra la vigilancia administrativa del hombre común; la videovigilancia general de espacios públicos es posterior al corpus, de ahí el valor moderado.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "G. K. Chesterton, What's Wrong with the World, «The Wildness of Domesticity»",
+        "url": "https://www.gutenberg.org/files/1717/1717-h/1717-h.htm",
+        "fecha": "1910",
+        "consultado": "2026-07-10",
+        "cita": "this institution of the home is the one anarchist institution. That is to say, it is older than law, and stands outside the State."
+      }
+    },
+    "der-014": {
+      "valor": 1,
+      "justificacion": "Las libertades históricas de cuerpos territoriales concretos, como los conciertos forales, son un ejemplo del tipo de institución local y consuetudinaria que el localismo distributista protege frente a la absorción por el poder central; extensión razonada del principio, no mención literal.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "G. K. Chesterton, The Outline of Sanity",
+        "url": "https://archive.org/details/theoutlineofsanity",
+        "fecha": "1927",
+        "consultado": "2026-07-10"
+      }
+    },
+    "dem-033": {
+      "valor": 1,
+      "justificacion": "Un modelo federal con competencias territoriales garantizadas acerca el poder a las unidades pequeñas que la doctrina prefiere; el valor es moderado porque Chesterton y Belloc escriben sobre la escala de la propiedad y del gobierno local, no sobre arquitecturas constitucionales concretas.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "G. K. Chesterton, The Outline of Sanity",
+        "url": "https://archive.org/details/theoutlineofsanity",
+        "fecha": "1927",
+        "consultado": "2026-07-10"
+      }
+    },
+    "dr-021": {
+      "valor": -1,
+      "justificacion": "Suprimir los gobiernos regionales para concentrar toda la administración en un Estado unitario es la dirección exactamente contraria al principio distributista de acercar el poder y la propiedad a las unidades más pequeñas posibles.",
+      "calidadEvidencia": "media",
       "fuente": {
         "tipo": "otro",
         "titulo": "G. K. Chesterton, The Outline of Sanity",

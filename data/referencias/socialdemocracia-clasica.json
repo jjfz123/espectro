@@ -10,7 +10,7 @@
   "revisado": "2026-07-10",
   "facetasDefinitorias": ["economico", "metodo-cambio", "estatismo", "poder-laboral", "institucionalismo"],
   "sensibilidad": "normal",
-  "advertencia": "Es un tipo ideal doctrinal, no la ficha de ningún partido español: el PSOE tiene perfil propio con sus propias fuentes y puede apartarse de este tipo ideal en cualquier ítem concreto. El deslinde fino que motiva esta referencia es frente al socioliberalismo (centro-liberalismo): aquí el mercado se acepta como instrumento eficiente dentro de un proyecto de igualdad («planificación como sea necesaria»), no como fin en sí mismo. Bad Godesberg es ante todo un programa económico y democrático de 1959: no toma posición sobre inmigración, derechos LGTB u orden público tal como se entienden hoy, por lo que esta referencia queda sin evidencia suficiente en el eje social (GAL-TAN) y no se fuerza ninguna posición ahí.",
+  "advertencia": "Es un tipo ideal doctrinal, no la ficha de ningún partido español: el PSOE tiene perfil propio y puede apartarse de este tipo ideal en cualquier ítem. El deslinde fino es frente al socioliberalismo: aquí el mercado se acepta como instrumento dentro de un proyecto de igualdad («planificación como sea necesaria»), no como fin. Las posiciones del eje social salen de los derechos y libertades de la Declaración de Frankfurt (1951) y de las secciones religiosas de Bad Godesberg, con valores moderados; los debates identitarios contemporáneos no están en ese corpus y se dejan sin codificar en vez de extrapolarse.",
   "fuentesMarco": [
     {
       "tipo": "otro",
@@ -24,6 +24,13 @@
       "titulo": "Eduard Bernstein, Evolutionary Socialism [Die Voraussetzungen des Sozialismus und die Aufgaben der Sozialdemokratie, 1899] (marxists.org)",
       "url": "https://www.marxists.org/reference/archive/bernstein/works/1899/evsoc/preface-eng.htm",
       "fecha": "1899",
+      "consultado": "2026-07-10"
+    },
+    {
+      "tipo": "otro",
+      "titulo": "Internacional Socialista, Aims and Tasks of Democratic Socialism (Declaración de Frankfurt, 3 de julio de 1951) — reproducción íntegra, Chartist",
+      "url": "https://www.chartist.org.uk/aims-and-tasks-of-democratic-socialism-1951/",
+      "fecha": "1951-07-03",
       "consultado": "2026-07-10"
     }
   ],
@@ -213,6 +220,94 @@
         "url": "https://germanhistorydocs.org/en/occupation-and-the-emergence-of-two-states-1945-1961/godesberg-program-of-the-spd-november-1959",
         "fecha": "1959-11-15",
         "consultado": "2026-07-10"
+      }
+    },
+    "soc-003": {
+      "valor": -1,
+      "justificacion": "La Declaración de Frankfurt eleva a derecho la vida privada protegida de la invasión arbitraria del Estado; la ampliación de la videovigilancia por seguridad choca moderadamente con ese derecho, aunque una vigilancia reglada y con garantías no es por sí misma la invasión arbitraria que el texto condena.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Declaración de Frankfurt, sección sobre democracia política",
+        "url": "https://www.chartist.org.uk/aims-and-tasks-of-democratic-socialism-1951/",
+        "fecha": "1951-07-03",
+        "consultado": "2026-07-10",
+        "cita": "the right of every human being to a private life, protected from arbitrary invasion by the state"
+      }
+    },
+    "dem-021": {
+      "valor": 1,
+      "justificacion": "Las libertades de expresión y organización que la Declaración de Frankfurt exige como condición de la democracia protegen la protesta pacífica; sancionarla solo por la falta de aviso previo las restringe, aunque el texto de 1951 no discute el deber de comunicación en concreto.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Declaración de Frankfurt, sección sobre democracia política",
+        "url": "https://www.chartist.org.uk/aims-and-tasks-of-democratic-socialism-1951/",
+        "fecha": "1951-07-03",
+        "consultado": "2026-07-10",
+        "cita": "political liberties, like freedom of thought, expression, education, organisation and religion"
+      }
+    },
+    "der-017": {
+      "valor": -1,
+      "justificacion": "El principio de igualdad sin distinción de nacimiento, lengua, credo o color que proclama Frankfurt riñe con ordenar la política migratoria por afinidad cultural de origen; el valor es moderado porque la declaración habla de la igualdad de los ciudadanos ante la ley y no de criterios de admisión.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Declaración de Frankfurt, sección sobre democracia política",
+        "url": "https://www.chartist.org.uk/aims-and-tasks-of-democratic-socialism-1951/",
+        "fecha": "1951-07-03",
+        "consultado": "2026-07-10",
+        "cita": "equality before the law of all citizens, whatever their birth, sex, language, creed and colour"
+      }
+    },
+    "dr-002": {
+      "valor": -1,
+      "justificacion": "Obligar por ley a discriminar en la contratación según el origen nacional del trabajador contradice la igualdad ante la ley sin distinción de nacimiento que la doctrina proclama, aunque el texto de 1951 no trata la preferencia nacional como problema específico.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Declaración de Frankfurt, sección sobre democracia política",
+        "url": "https://www.chartist.org.uk/aims-and-tasks-of-democratic-socialism-1951/",
+        "fecha": "1951-07-03",
+        "consultado": "2026-07-10"
+      }
+    },
+    "fem-010": {
+      "valor": 1,
+      "justificacion": "La igualdad entre los sexos ante la ley es principio expreso de Frankfurt y respalda medidas activas contra la discriminación; el mecanismo concreto de la cuota obligatoria en consejos es posterior al corpus, de ahí el valor moderado.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Declaración de Frankfurt, sección sobre democracia política",
+        "url": "https://www.chartist.org.uk/aims-and-tasks-of-democratic-socialism-1951/",
+        "fecha": "1951-07-03",
+        "consultado": "2026-07-10"
+      }
+    },
+    "izq-014": {
+      "valor": -1,
+      "justificacion": "Para esta doctrina el socialismo democrático es un movimiento de emancipación integral —libertades, igualdad y derechos junto a la economía—, no una lucha exclusivamente económica de la que las agendas de igualdad desvíen; el matiz LGTB contemporáneo no está en el corpus de 1951, de ahí el valor moderado.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Declaración de Frankfurt, secciones sobre democracia política y social",
+        "url": "https://www.chartist.org.uk/aims-and-tasks-of-democratic-socialism-1951/",
+        "fecha": "1951-07-03",
+        "consultado": "2026-07-10"
+      }
+    },
+    "lai-001": {
+      "valor": -1,
+      "justificacion": "El modelo de Godesberg es de laicidad cooperativa: respeta el estatuto jurídico-público de las iglesias, su misión y su autonomía, y ofrece cooperación en libre asociación; expulsar la asignatura de religión del horario lectivo encaja mal con ese arreglo, sin que ello suponga confesionalidad.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Godesberg Program of the SPD, sección sobre religión, GHDI",
+        "url": "https://germanhistorydocs.org/en/occupation-and-the-emergence-of-two-states-1945-1961/godesberg-program-of-the-spd-november-1959",
+        "fecha": "1959-11-15",
+        "consultado": "2026-07-10",
+        "cita": "The Social Democratic Party respects churches and religious societies. It affirms their public and legal status, their special mission and their autonomy. It is always ready to co-operate with the churches on the basis of a free partnership."
       }
     }
   }
