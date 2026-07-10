@@ -22,15 +22,15 @@ Las prioridades evitan que «más partidos» desplace los problemas reales de pr
 
 ## P1 — frontend realmente precioso y robusto
 
-- [ ] Cubo 3D: con una selección de rótulo largo y el ángulo de cámara por defecto, la etiqueta puede pisar el rótulo del polo inferior (girar la escena lo resuelve; falta anticolisión rótulo-polo).
-- [ ] Mapa 2D: en el borde izquierdo inferior los rótulos de puntos apretados (AA/Podemos/referencias) se rozan; valorar desplazamiento radial o elisión con hover.
+- [x] Cubo 3D: anticolisión rótulo-polo hecha (el polo pisado cede atenuándose mientras dura el solape, medido sobre el DOM proyectado con cualquier ángulo de cámara).
+- [x] Mapa 2D: los rótulos apretados del borde inferior izquierdo ya no se rozan: anchura estimada por clases de carácter, abanico radial de 12 direcciones × 8 radios con línea guía y elisión con hover/foco solo para referencias sin hueco. Brújula y planos: 0 pares solapados.
 
 - [x] Dividir el bundle. Hecho: la carga inicial pasa de 1.034 kB a 352 kB minificados (gzip 245 kB → 102 kB); perfiles, sindicatos, referencias y convocatorias viajan en un chunk perezoso de 505 kB (gzip 93 kB) que se precarga al llegar a fin-del-rápido, módulos o revisión. Las notas metodológicas y etiquetas internas del banco de ítems se retiran del build sin tocar los JSON fuente.
 - [x] Cargar `Resultados` y sus catálogos con `React.lazy`/`import()` y separar `datosResultados.ts` de los datos necesarios para el cuestionario. La portada muestra el número de perfiles reales mediante un recuento en tiempo de build (`__PERFILES_REALES__`).
 - [ ] Revisar visualmente el catálogo de hasta 31 candidaturas, las referencias de escala y los dobles marcadores en pantallas pequeñas.
 - [ ] Añadir pruebas E2E (Playwright): teclado Likert, `Sin opinión`, ramas condicionales, foco, recarga, almacenamiento fallido, resultado provisional y continuación exhaustiva.
 - [ ] Añadir pruebas visuales o capturas de referencia para portada, pregunta, módulos, perfil, ranking y detalle.
-- [ ] Ejecutar auditoría Lighthouse y accesibilidad con lector de pantalla; corregir contraste, orden de foco y targets táctiles que aparezcan.
+- [x] Auditoría Lighthouse y lector de pantalla hechas: portada 99-100/100/100/100 y resultados con rendimiento 82→100 (CLS 0.213→0, LCP 3,2s→1,2s, robots.txt real); targets táctiles ≥44 px con `@media (pointer: coarse)`; axe-core 0 violaciones en las siete superficies; región viva que anuncia la respuesta por atajos 1-5/0. Señalado sin corregir: ~32 KiB de JS sin usar en el chunk inicial; sin sourcemaps de producción.
 - [ ] Incorporar un límite/virtualización o paginación suave si el catálogo de candidaturas crece mucho más.
 - [ ] Añadir error boundary para un JSON inesperado y una vista de recuperación que no borre respuestas.
 
@@ -46,10 +46,14 @@ La recomendación es una sola base responsive convertida primero en **PWA**; man
 
 ## P2 — cobertura política y electoral
 
-- [ ] **Criterio sistemático de cobertura** (decisión del dueño): top-20 de votos en las últimas generales + todas las familias completas de comunistas activos y de extrema derecha activa. Estado 2026-07-10: top-20 con 17/20 (faltan NC-bc —en curso—, PUM+J, Existe); comunistas completos; extrema derecha con FE-JONS pero sin La Falange, Democracia Nacional ni España 2000 (en curso); Volt y Escaños en Blanco pendientes (en curso).
+- [x] **Criterio sistemático de cobertura** (decisión del dueño): top-20 de votos en las últimas generales + todas las familias completas de comunistas activos y de extrema derecha activa. Cerrado el 2026-07-10: top-20 completo (NC-bc, PUM+J y Existe con perfil y candidaturas enlazadas); comunistas completos; extrema derecha activa completa (FE-JONS + DN + España 2000 + Núcleo Nacional + SALF + VOX; La Falange documentada como fusionada en FE-JONS el 29-10-2024, sin perfil propio); Volt cubierto; Escaños en Blanco resuelto como caso meta `sin-datos` razonado.
+- [ ] Volt: cero posiciones en los tres ejes del mapa pese a que el Moonshot Programme 2024 daría corpus (hipótesis del banco: lib-001 −2, lib-009 +2, lib-018 +2); codificar con evidencia para que aparezca en los planos.
+- [ ] Moderadoras pendientes señaladas por el detector de sesgo-bandera: Nueva Canarias (económico y social) y Aliança Catalana (territorial; documentada como esquina real tipo VOX, pero conviene reintentarlo).
+- [ ] Verificación primaria JEC pendiente: Podemos dentro de la coalición registrada Sumar 2023 (hoy anotado como puestos pactados) y PCPA como federación andaluza del PCPE (hoy sin enlazar por la regla de identidad).
+- [ ] Decisión de banco de ítems (dueño): posible ítem ad hoc «el voto en blanco debería traducirse en escaños vacíos que computen para las mayorías», donde Escaños en Blanco puntuaría +2 con evidencia alta y dejaría de estar fuera del matching.
 
 - [ ] El universo oficial tiene 312 candidaturas, pero solo 48 perfiles comparables. Priorizar por votos, representación y capacidad discriminante; no rellenar cientos de fichas superficialmente.
-- [ ] Completar perfiles canarios: Nueva Canarias, Drago, ASG, AHI, Unidos por Gran Canaria y otros con evidencia suficiente.
+- [ ] Completar perfiles canarios: Drago, ASG, AHI, Unidos por Gran Canaria y otros con evidencia suficiente (Nueva Canarias ya tiene perfil verificado y enlazado).
 - [ ] Completar perfiles andaluces: Adelante, Por Andalucía, Andalucistas, Jaén Merece Más y PCPA, respetando identidad exacta.
 - [ ] Completar candidaturas territoriales de Catalunya, Euskadi, Navarra, Galicia y otras CCAA que siguen como inventario sin datos.
 - [ ] Añadir más sindicatos solo con corpus suficiente y, después, filtrado por sector/presencia territorial.
