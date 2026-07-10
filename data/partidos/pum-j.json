@@ -1,0 +1,92 @@
+{
+  "id": "pum-j",
+  "nombre": "Por Un Mundo Más Justo",
+  "siglas": "PUM+J",
+  "ambito": "estatal",
+  "tipo": "partido",
+  "confianza": "estimada",
+  "registroMir": "Inscrito en el Registro de Partidos Políticos el 8 de enero de 2004; fundado por Antonio Sieira Mucientes; coordinador general actual, Jorge Serrano Paradinas. En las europeas de 2024 concurrió integrado en la coalición Existe",
+  "web": "https://www.porunmundomasjusto.es/",
+  "revisado": "2026-07-10",
+  "actividad": "activa",
+  "autodescripcion": {
+    "texto": "Se define como «política humanista y transversal»: «No nos definimos por colores ni bandos: humanismo cívico transversal», con tres pilares declarados —derechos humanos, ciudadanía global y cooperación— y la máxima de que «la dignidad de las personas no es un debate ideológico, es la base de toda política». Se entiende como pluriconfesional: reconoce el cristianismo social como una de sus fuentes de inspiración, pero acoge expresamente a personas agnósticas, ateas y de toda religión.",
+    "fuente": {
+      "tipo": "declaracion",
+      "titulo": "Ideología — Por Un Mundo Más Justo (web oficial)",
+      "url": "https://www.porunmundomasjusto.es/ideologia/",
+      "cita": "No nos definimos por colores ni bandos: humanismo cívico transversal"
+    }
+  },
+  "posiciones": {
+    "soc-004": {
+      "valor": 2,
+      "justificacion": "Fue coimpulsor, junto a la Fundación para la Ciudadanía Global que dirige su coordinador general, de la ILP de Regularización Extraordinaria de personas migrantes, que reunió más de 600.000 firmas y fue admitida a trámite en el Congreso: la regularización extraordinaria es una de sus banderas centrales.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "ILP Regularización — Por Un Mundo Más Justo (web oficial)",
+        "url": "https://www.porunmundomasjusto.es/ilp-regularizacion/",
+        "consultado": "2026-07-10"
+      }
+    },
+    "der-018": {
+      "valor": 2,
+      "justificacion": "La ILP de regularización que coimpulsó pide exactamente facilitar la regularización de los inmigrantes que ya viven y trabajan en España; es la traducción legislativa literal del enunciado del ítem.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "ILP Regularización — Por Un Mundo Más Justo (web oficial)",
+        "url": "https://www.porunmundomasjusto.es/ilp-regularizacion/",
+        "consultado": "2026-07-10"
+      }
+    },
+    "soc-002": {
+      "valor": -2,
+      "justificacion": "Propone el cierre de los Centros de Internamiento de Extranjeros y la regularización de quienes ya viven aquí: su respuesta declarada a la inmigración irregular es la inclusión, la política opuesta a la devolución prioritaria.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Un mundo sin pobreza — Por Un Mundo Más Justo (web oficial: cierre de los CIE y regularización)",
+        "url": "https://www.porunmundomasjusto.es/un-mundo-sin-pobreza/",
+        "consultado": "2026-07-10"
+      }
+    },
+    "soc-005": {
+      "valor": 1,
+      "justificacion": "Su fundador defiende la «libertad de movimiento progresiva de las personas en el mundo» y el partido presenta la migración como aportación y cuestión de dignidad humana; su marco es humanista y de derechos más que económico, por eso el acuerdo con el enunciado económico del ítem es moderado.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Entrevista a Antonio Sieira Mucientes, candidato de M+J a la presidencia del Gobierno (Contrainformación)",
+        "url": "https://contrainformacion.es/entrevista-a-antonio-sieira-mucientes-candidato-de-mj-a-la-presidencia-del-gobierno/",
+        "fecha": "2019",
+        "consultado": "2026-07-10",
+        "cita": "libertad de movimiento progresiva de las personas en el mundo"
+      }
+    },
+    "lib-018": {
+      "valor": 2,
+      "justificacion": "La «libertad de movimiento progresiva de las personas» que defiende implica ampliar sustancialmente las vías legales de inmigración, mucho más allá de la inmigración laboral con oferta de trabajo que plantea el ítem.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Entrevista a Antonio Sieira Mucientes, candidato de M+J a la presidencia del Gobierno (Contrainformación)",
+        "url": "https://contrainformacion.es/entrevista-a-antonio-sieira-mucientes-candidato-de-mj-a-la-presidencia-del-gobierno/",
+        "fecha": "2019",
+        "consultado": "2026-07-10"
+      }
+    },
+    "fem-012": {
+      "valor": -1,
+      "justificacion": "Ante la reforma para que las menores pudieran abortar sin consentimiento paterno, el partido pidió amplio debate parlamentario y diálogo con la sociedad civil, señalando como lo más controvertido una posible vulneración del derecho de los padres a acompañar y orientar a sus hijos menores; es una objeción procedimental y de patria potestad, no una postura general sobre el aborto, por eso el desacuerdo moderado.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "El imprescindible rol de la sociedad civil en el debate sobre la educación, el aborto y la eutanasia (web oficial de Por Un Mundo Más Justo)",
+        "url": "https://www.porunmundomasjusto.es/el-imprescindible-rol-de-la-sociedad-civil-en-el-debate-sobre-la-educacion-el-aborto-y-la-eutanasia/",
+        "consultado": "2026-07-10"
+      }
+    }
+  }
+}

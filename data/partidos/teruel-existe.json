@@ -1,0 +1,109 @@
+{
+  "id": "teruel-existe",
+  "nombre": "Teruel Existe",
+  "siglas": "TE",
+  "ambito": "autonomico",
+  "tipo": "partido",
+  "ccaa": ["aragon"],
+  "confianza": "estimada",
+  "registroMir": "Nacido en 1999 como plataforma ciudadana; concurrió en 2019 como agrupación de electores (1 diputado, Tomás Guitarte, y 2 senadores) y se registró como partido político en 2023 para concurrir a autonómicas y municipales; desde 2023 concurre en coalición con Aragón Existe bajo la marca «Existe»",
+  "web": "https://teruelexiste.info/",
+  "revisado": "2026-07-10",
+  "actividad": "activa",
+  "autodescripcion": {
+    "texto": "Se define como agrupación transversal nacida contra la despoblación y el desequilibrio territorial: «No se nos debe juzgar en el eje derecha e izquierda, es un eje en el que no nos situamos» (Tomás Guitarte). Su transversalidad declarada consiste en no condicionar de antemano las soluciones a la ideología, situándose en un eje propio de desarrollo en equilibrio y cohesión territorial frente a las economías concentradas.",
+    "fuente": {
+      "tipo": "declaracion",
+      "titulo": "Tomás Guitarte, candidato de la coalición Existe en las elecciones europeas (Diario de Teruel)",
+      "url": "https://www.diariodeteruel.es/teruel/tomas-guitarte-candidato-de-la-coalicion-existe-en-las-elecciones-europeas-no-se-nos-debe-juzgar-en-el-eje-derecha-e-izquierda-es-un-eje-en-el-que-no-nos-situamos",
+      "fecha": "2024",
+      "cita": "No se nos debe juzgar en el eje derecha e izquierda, es un eje en el que no nos situamos"
+    }
+  },
+  "clasificacion": [
+    {
+      "etiqueta": "partido de la España Vaciada",
+      "explicacion": "Encuadre académico y periodístico del fenómeno: partidos y plataformas provinciales surgidos contra el declive demográfico y el abandono de las zonas rurales frente al desarrollo concentrado en las grandes ciudades, visibilizado en la manifestación de la España Vaciada de marzo de 2019. La investigación en ciencia política los estudia como familia propia, con clasificación orgánica y programática específica.",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Soria ¡Ya! y Teruel Existe: el fenómeno de la España Vaciada, analizado en un TFG de Ciencia Política (Eco de Teruel, sobre el trabajo tutelado por el catedrático Ismael Crespo, Universidad de Murcia)",
+        "url": "https://ecodeteruel.tv/soria-ya-y-teruel-existe-el-fenomeno-de-la-espana-vaciada-analizada-en-un-tfg-de-ciencia-politica/"
+      }
+    }
+  ],
+  "posiciones": {
+    "nac-009": {
+      "valor": 1,
+      "justificacion": "Conducta revelada mixta: firmó el acuerdo de investidura con el PSOE en 2020 a cambio de un pacto de Estado por la despoblación e inversiones, y gobierna la Diputación de Teruel en coalición con el PP desde 2023; pero rechazó investir a Azcón en 2023 y 2026 por sus pactos con Vox. Pacta con ambos bloques por inversiones, con un límite ideológico explícito, por eso no alcanza el máximo.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Teruel Existe cierra la puerta a apoyar la investidura de Azcón: «En 2023 ya votamos en contra» (Aragón Digital)",
+        "url": "https://www.aragondigital.es/articulo/politica/teruel-existe-cierra-puerta-apoyar-investidura-azcon-2023-votamos/20260309130229971282.html",
+        "fecha": "2026-03-09",
+        "consultado": "2026-07-10"
+      }
+    },
+    "nac-010": {
+      "valor": 2,
+      "justificacion": "Es su bandera fundacional: en la reforma de la financiación autonómica de 2026 defendió el criterio de despoblación como «esencial», denunció que la propuesta de Hacienda lo elimina y cifró en 628 millones de euros anuales el déficit resultante para Aragón, enmarcándolo como cuestión de igualdad de derechos.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Las Cortes de Aragón muestran unidad en defensa del criterio de despoblación en la financiación autonómica (Diario de Teruel)",
+        "url": "https://www.diariodeteruel.es/teruel/las-cortes-de-aragon-muestran-unidad-en-defensa-del-criterio-de-despoblacion-en-la-financiacion-autonomica",
+        "fecha": "2026",
+        "consultado": "2026-07-10"
+      }
+    },
+    "nac-011": {
+      "valor": 1,
+      "justificacion": "Su reivindicación constante es modernizar y electrificar la línea convencional Zaragoza-Teruel-Sagunto y el Corredor Cantábrico-Mediterráneo, denunciando el agravio inversor frente al AVE (manifestación de 5.000 personas en 2026); a la vez reclama que el corredor recupere la clasificación europea de alta velocidad para no perder fondos, y no consta una moratoria general de nuevas líneas AVE, por eso el acuerdo moderado.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Unas 5.000 personas reclaman en Teruel un ferrocarril moderno y el Corredor Cantábrico-Mediterráneo (Aragón Digital)",
+        "url": "https://www.aragondigital.es/articulo/teruel/5000-personas-reclaman-teruel-ferrocarril-moderno-corredor-cantabrico-mediterraneo/20260701100412993147.html",
+        "fecha": "2026-07-01",
+        "consultado": "2026-07-10"
+      }
+    },
+    "nac-014": {
+      "valor": -1,
+      "justificacion": "Posición revelada por conducta: no solo no propone suprimir las diputaciones, sino que gobierna la Diputación Provincial de Teruel en coalición con el PP desde 2023 y la usa como palanca inversora (Fondo de Inversiones de Teruel), defendiendo la provincia como nivel prestador de servicios en el mundo rural.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "El pacto PP-Teruel Existe en la Diputación Provincial de Teruel facilita a Azcón su investidura en la DGA (AraInfo)",
+        "url": "https://arainfo.org/el-pacto-pp-teruel-existe-en-la-dpt-facilita-a-azcon-su-investidura-en-la-dga/",
+        "fecha": "2023",
+        "consultado": "2026-07-10"
+      }
+    },
+    "nac-016": {
+      "valor": 2,
+      "justificacion": "La transversalidad es su identidad declarada: su coordinador general y cabeza de la coalición Existe afirma que «no se nos debe juzgar en el eje derecha e izquierda, es un eje en el que no nos situamos».",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Tomás Guitarte, candidato de la coalición Existe en las elecciones europeas (Diario de Teruel)",
+        "url": "https://www.diariodeteruel.es/teruel/tomas-guitarte-candidato-de-la-coalicion-existe-en-las-elecciones-europeas-no-se-nos-debe-juzgar-en-el-eje-derecha-e-izquierda-es-un-eje-en-el-que-no-nos-situamos",
+        "fecha": "2024",
+        "consultado": "2026-07-10",
+        "cita": "No se nos debe juzgar en el eje derecha e izquierda, es un eje en el que no nos situamos"
+      }
+    },
+    "nac-017": {
+      "valor": 2,
+      "justificacion": "Rechazo categórico y reiterado (2024-2026) a los trasvases desde el Ebro: el grupo parlamentario Aragón-Teruel Existe alertó contra «el trasvase de recursos» del Ebro y ratificó su oposición al trasvase para nuevos regadíos en Catalunya, argumentando que en Aragón no sobra el agua.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Aragón-Teruel Existe alerta sobre «el trasvase de recursos» del Ebro y las renovables (COPE)",
+        "url": "https://www.cope.es/actualidad/espana/noticias/aragon-teruel-existe-alerta-sobre-trasvase-recursos-del-ebro-las-renovables-20240118_3099754",
+        "fecha": "2024-01-18",
+        "consultado": "2026-07-10"
+      }
+    }
+  }
+}

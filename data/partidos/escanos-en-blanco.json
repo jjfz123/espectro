@@ -1,0 +1,22 @@
+{
+  "id": "escanos-en-blanco",
+  "nombre": "Escaños en Blanco",
+  "siglas": "EB",
+  "ambito": "estatal",
+  "tipo": "partido",
+  "confianza": "sin-datos",
+  "registroMir": "Fundado en Badalona el 21 de julio de 2010 (precedente: Escons Insubmisos, 2003); el decreto de extinción por inactividad tramitado por el Ministerio del Interior fue anulado por la Audiencia Nacional en noviembre de 2021. En 2023 dejó vacía su primera alcaldía (Muruzábal, Navarra); concurrió a las europeas de 2024 y a las autonómicas de Castilla y León de 2026 en las nueve provincias",
+  "web": "https://escanos.org/",
+  "revisado": "2026-07-10",
+  "actividad": "activa",
+  "autodescripcion": {
+    "texto": "Partido de programa único: que el voto en blanco compute y se materialice en escaños que quedan literalmente vacíos. Sus electos recogen el acta pero no toman posesión (doctrina de la JEC que evita la sustitución por el siguiente de la lista), de modo que el escaño no vota, no cobra sueldo ni dietas y aun así cuenta para el tamaño de la cámara, rebajando las mayorías repartibles. «Demasiado a menudo hemos de asistir a debates estériles alejados de las situaciones que verdaderamente nos preocupan, a campañas electorales llenas de mensajes vacíos, con promesas que se rompen sistemáticamente y sin ningún pudor». Se presenta como «el único partido que no quiere que le voten», rechaza las subvenciones públicas que pudieran corresponderle y se compromete a disolverse cuando la reforma de la LOREG que reivindica reconozca el voto en blanco computable.",
+    "fuente": {
+      "tipo": "declaracion",
+      "titulo": "Manifiesto de Escaños en Blanco (web oficial)",
+      "url": "https://escanos.org/conocenos/manifiesto-de-escanos-en-blanco/",
+      "cita": "Demasiado a menudo hemos de asistir a debates estériles alejados de las situaciones que verdaderamente nos preocupan, a campañas electorales llenas de mensajes vacíos, con promesas que se rompen sistemáticamente y sin ningún pudor."
+    }
+  },
+  "posiciones": {}
+}

@@ -1,0 +1,213 @@
+{
+  "id": "espana-2000",
+  "nombre": "España 2000",
+  "siglas": "E-2000",
+  "ambito": "estatal",
+  "tipo": "partido",
+  "confianza": "estimada",
+  "registroMir": "Partido inscrito, fundado en 2002 en torno a José Luis Roberto; implantación electoral municipal en la Comunidad de Madrid y, antes, en Valencia: candidaturas verificadas en al menos seis municipios madrileños en las municipales de 2023; alcaldía de Los Santos de la Humosa (2019-2023, perdida al pasarse su alcalde al PP)",
+  "web": "https://espana2000.es/",
+  "revisado": "2026-07-10",
+  "actividad": "activa",
+  "autodescripcion": {
+    "texto": "Se define como partido «social y patriota» bajo el lema «Los españoles primero»: declara defender los derechos de los españoles frente a agresiones de gobiernos y amenazas externas, y precisa que no se opone «a la inmigración en sí misma, sino a la inmigración descontrolada e invasiva que merma los recursos y derechos de los nativos». Condena el sistema de autonomías y propone «el retorno a la economía productiva», con banca pública y recuperación de sectores estratégicos.",
+    "fuente": {
+      "tipo": "declaracion",
+      "titulo": "España 2000 — Quiénes somos (web oficial)",
+      "url": "https://espana2000.es/quienes-somos/",
+      "cita": "no [nos oponemos] a la inmigración en sí misma, sino a la inmigración descontrolada e invasiva que merma los recursos y derechos de los nativos"
+    }
+  },
+  "clasificacion": [
+    {
+      "etiqueta": "neonazi / fascista",
+      "explicacion": "Etiquetas con las que parte de la prensa describe al partido y a su líder José Luis Roberto, en referencia a un nacionalismo excluyente con rasgos del fascismo histórico; Roberto ha sido imputado por delito de odio e incitó públicamente a «tirar al Gobierno a hostias». El partido rechaza estas etiquetas y se define social y patriota.",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "El líder del partido fascista España 2000 incita a sus seguidores a «tirar al Gobierno a hostias» (Público)",
+        "url": "https://www.publico.es/politica/lider-partido-fascista-espana-2000-incita-seguidores-tirar-gobierno-hostias.html",
+        "cita": "tirar al Gobierno a hostias"
+      }
+    },
+    {
+      "etiqueta": "derecha radical populista (en discusión académica)",
+      "explicacion": "La investigación académica señala que no existen estudios formales que confirmen la etiqueta mediática de «neonazi» y examina si E2000 encaja mejor en la categoría de derecha radical populista de Cas Mudde: nativismo, autoritarismo y populismo dentro de las reglas democráticas formales, a diferencia del neofascismo, que las rechaza.",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "España 2000, ¿la emergencia de una nueva derecha radical populista? (Dialnet)",
+        "url": "https://dialnet.unirioja.es/servlet/articulo?codigo=6011467"
+      }
+    },
+    {
+      "etiqueta": "lepenismo",
+      "explicacion": "Adscripción documentada al modelo del Frente Nacional francés: la plataforma fundacional España 2000 contó con el apoyo de Jean-Marie Le Pen en 2000 y el partido firmó en 2009 un acuerdo formal con el Frente Nacional y el Movimiento Social Republicano sobre contención migratoria y repatriación.",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "España 2000 — Wikipedia (acuerdo de 2009 con el Frente Nacional francés)",
+        "url": "https://es.wikipedia.org/wiki/Espa%C3%B1a_2000"
+      }
+    }
+  ],
+  "posiciones": {
+    "dr-001": {
+      "valor": 1,
+      "justificacion": "Su programa propone «crear un sistema de Banca Pública separado de la usura» para dar crédito a emprendedores y trabajadores: es una banca pública nueva, no la nacionalización del conjunto del sector bancario que formula el ítem, por eso el acuerdo moderado.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "España 2000 — Programa político (web oficial)",
+        "url": "https://espana2000.es/programa-politico/",
+        "consultado": "2026-07-10",
+        "cita": "un sistema de Banca Pública separado de la usura, cuya función principal es facilitar crédito a emprendedores y trabajadores"
+      }
+    },
+    "lab-016": {
+      "valor": 2,
+      "justificacion": "Su programa liga la «empresa nacional» a estar «controlada por el Estado y/o sus organizaciones para la intervención directa en su actividad económica» y propone recuperar sectores estratégicos que garanticen la soberanía alimentaria e industrial.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "España 2000 — Programa político (web oficial)",
+        "url": "https://espana2000.es/programa-politico/",
+        "consultado": "2026-07-10",
+        "cita": "controlada por el Estado y/o sus organizaciones para la intervención directa en su actividad económica"
+      }
+    },
+    "der-004": {
+      "valor": 1,
+      "justificacion": "Defiende «el retorno a la economía productiva [...] protegiendo la industria» y la soberanía alimentaria; la fuente no concreta instrumentos arancelarios ni un programa comercial detallado, por eso no alcanza el máximo.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "España 2000 — Programa político (web oficial)",
+        "url": "https://espana2000.es/programa-politico/",
+        "consultado": "2026-07-10",
+        "cita": "la única forma de rescatar la economía nacional es un retorno a la economía productiva"
+      }
+    },
+    "dr-002": {
+      "valor": 1,
+      "justificacion": "«Los españoles primero» es su lema programático y sostiene que la inmigración descontrolada «merma los recursos y derechos de los nativos»; la fuente no formula la obligación legal de preferencia en la contratación privada que plantea el ítem, por eso el valor moderado.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "España 2000 — Los españoles primero (web oficial)",
+        "url": "https://espana2000.es/los-espanoles-primero/",
+        "consultado": "2026-07-10",
+        "cita": "Los españoles primero"
+      }
+    },
+    "dr-003": {
+      "valor": 1,
+      "justificacion": "La repatriación forma parte de su ideario desde el acuerdo formal de 2009 con el Frente Nacional francés sobre «contención migratoria y repatriación»; a la vez declara no oponerse a la inmigración en sí, y no consta propuesta expresa de retorno de residentes en situación regular, por eso el acuerdo moderado.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "España 2000 — Wikipedia (acuerdo de 2009 con el Frente Nacional y el MSR sobre contención migratoria y repatriación)",
+        "url": "https://es.wikipedia.org/wiki/Espa%C3%B1a_2000",
+        "consultado": "2026-07-10"
+      }
+    },
+    "soc-002": {
+      "valor": 2,
+      "justificacion": "La contención migratoria y la repatriación son el eje de su política de inmigración, dirigida expresamente contra la inmigración «descontrolada e invasiva»: la devolución es su respuesta prioritaria declarada a la inmigración irregular.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "España 2000 — Quiénes somos (web oficial)",
+        "url": "https://espana2000.es/quienes-somos/",
+        "consultado": "2026-07-10"
+      }
+    },
+    "soc-005": {
+      "valor": -1,
+      "justificacion": "Posición moderadora documentada dentro de su familia: declara no oponerse «a la inmigración en sí misma», lo que admite implícitamente una inmigración ordenada; rechaza en cambio el marco de la inmigración actual como necesidad económica porque sostiene que «merma los recursos y derechos de los nativos». Desacuerdo moderado, no frontal.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "España 2000 — Quiénes somos (web oficial)",
+        "url": "https://espana2000.es/quienes-somos/",
+        "consultado": "2026-07-10",
+        "cita": "no a la inmigración en sí misma, sino a la inmigración descontrolada e invasiva que merma los recursos y derechos de los nativos"
+      }
+    },
+    "dr-021": {
+      "valor": 2,
+      "justificacion": "Su declaración de principios condena expresamente el sistema de autonomías y defiende la unidad nacional: propone acabar con el modelo autonómico, no solo devolver competencias puntuales.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "España 2000 — Quiénes somos (web oficial)",
+        "url": "https://espana2000.es/quienes-somos/",
+        "consultado": "2026-07-10"
+      }
+    },
+    "ter-001": {
+      "valor": 2,
+      "justificacion": "Quien condena el sistema de autonomías en bloque sostiene con mayor razón que las comunidades devuelvan competencias al Estado central.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "España 2000 — Quiénes somos (web oficial)",
+        "url": "https://espana2000.es/quienes-somos/",
+        "consultado": "2026-07-10"
+      }
+    },
+    "der-005": {
+      "valor": 2,
+      "justificacion": "La defensa de la unidad nacional frente al sistema autonómico es uno de sus principios declarados; en la Comunidad Valenciana su discurso se identificó además con el anticatalanismo blavero.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "España 2000 — Quiénes somos (web oficial)",
+        "url": "https://espana2000.es/quienes-somos/",
+        "consultado": "2026-07-10"
+      }
+    },
+    "mon-001": {
+      "valor": 2,
+      "justificacion": "Posición atípica en su familia y documentada: defiende una «República Nacional», distinta tanto del republicanismo de izquierda como de la monarquía del resto de la derecha radical española, criticando la apropiación del republicanismo por la izquierda.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "España 2000 — Wikipedia (defensa de una «República Nacional»)",
+        "url": "https://en.wikipedia.org/wiki/Espa%C3%B1a_2000",
+        "consultado": "2026-07-10"
+      }
+    },
+    "der-002": {
+      "valor": 1,
+      "justificacion": "Las fuentes enciclopédicas le atribuyen la defensa de los valores familiares tradicionales del catolicismo tradicionalista; no consta una propuesta expresa de que las leyes reflejen la moral cristiana, por eso el acuerdo moderado y la calidad baja.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "España 2000 — Wikipedia (valores familiares tradicionales de inspiración católica tradicionalista)",
+        "url": "https://en.wikipedia.org/wiki/Espa%C3%B1a_2000",
+        "consultado": "2026-07-10"
+      }
+    },
+    "dr-022": {
+      "valor": 0,
+      "justificacion": "Neutralidad declarada por su propio líder: ante el conflicto de Oriente Próximo, José Luis Roberto publicó que el partido decide no posicionarse «dado que la situación de ambos bandos tiene numerosos aspectos problemáticos que hacen difícil apoyarlos». Ni filosemitismo atlantista ni antisionismo identitario: posición moderadora documentada.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Conflicto Palestino, por José Luis Roberto (web oficial de España 2000)",
+        "url": "https://espana2000.es/2023/10/14/conflicto-palestino-por-jose-luis-roberto/",
+        "fecha": "2023-10-14",
+        "consultado": "2026-07-10"
+      }
+    },
+    "dr-019": {
+      "valor": 1,
+      "justificacion": "Mantiene desde antiguo relaciones con el ultranacionalismo ruso (Partido Liberal Democrático de Zhirinovsky) y su visión de una defensa común europea «desde Portugal a Rusia» incluye a Rusia en lugar de tratarla como amenaza; la evidencia es indirecta y anterior a 2022, por eso el acuerdo moderado y la calidad baja.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "España 2000 — Wikipedia (relaciones históricas con el ultranacionalismo ruso y visión paneuropea)",
+        "url": "https://es.wikipedia.org/wiki/Espa%C3%B1a_2000",
+        "consultado": "2026-07-10"
+      }
+    }
+  }
+}

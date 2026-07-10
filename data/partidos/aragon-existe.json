@@ -1,0 +1,22 @@
+{
+  "id": "aragon-existe",
+  "nombre": "Aragón Existe",
+  "siglas": "AE",
+  "ambito": "autonomico",
+  "tipo": "partido",
+  "ccaa": ["aragon"],
+  "confianza": "sin-datos",
+  "registroMir": "Partido político constituido en asamblea fundacional en Murillo de Gállego (Zaragoza) en noviembre de 2022, con estatutos y ejecutiva propios; coordinador general, Francisco Javier Juárez. Concurre en coalición con Teruel Existe bajo la marca «Existe» en las provincias de Huesca y Zaragoza",
+  "revisado": "2026-07-10",
+  "actividad": "activa",
+  "autodescripcion": {
+    "texto": "Extensión al conjunto de Aragón del diagnóstico de Teruel Existe: su coordinador general defiende que «no solo Teruel tiene un problema serio de despoblación, todas las provincias aragonesas lo tienen». No se le conocen posiciones programáticas propias e independientes de las de su socio de coalición, por lo que este perfil se lista sin posiciones codificadas y no participa en el matching.",
+    "fuente": {
+      "tipo": "declaracion",
+      "titulo": "Francisco Juárez, elegido coordinador general de la Ejecutiva de Aragón Existe (Aragón Digital)",
+      "url": "https://aragondigital.es/politica/2022/11/26/francisco-juarez-elegido-coordinador-general-de-la-ejecutiva-de-aragon-existe",
+      "fecha": "2022-11-26"
+    }
+  },
+  "posiciones": {}
+}

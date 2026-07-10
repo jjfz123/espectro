@@ -1,0 +1,23 @@
+{
+  "id": "coalicion-existe",
+  "nombre": "Coalición Existe (Aragón Existe – Teruel Existe)",
+  "siglas": "EXISTE",
+  "ambito": "autonomico",
+  "tipo": "coalicion",
+  "componentes": ["teruel-existe", "aragon-existe"],
+  "ccaa": ["aragon"],
+  "confianza": "sin-datos",
+  "registroMir": "Coalición electoral formal de los partidos Teruel Existe y Aragón Existe, sellada en 2023; ha concurrido a las autonómicas de Aragón de 2023 y 2026 (grupo parlamentario Aragón-Teruel Existe, 3 y 2 escaños), a las generales de julio de 2023 como «Aragón Existe - Coalición Existe» y a las europeas de 2024 como «Existe» con Tomás Guitarte de cabeza de lista",
+  "revisado": "2026-07-10",
+  "actividad": "activa",
+  "autodescripcion": {
+    "texto": "Paraguas electoral de la España Vaciada aragonesa: en la papeleta, Teruel usa la marca Teruel Existe y Huesca y Zaragoza la marca Aragón Existe. Sus posiciones documentadas viven en el perfil de Teruel Existe, cuyo coordinador general, Tomás Guitarte, encabeza la coalición y su grupo parlamentario conjunto; este perfil paraguas se lista sin posiciones propias mientras no exista un programa común diferenciado documentable.",
+    "fuente": {
+      "tipo": "declaracion",
+      "titulo": "Teruel Existe y Aragón Existe sellan alianza para las elecciones del año 2023 (Diario de Teruel)",
+      "url": "https://www.diariodeteruel.es/teruel/teruel-existe-y-aragon-existe-sellan-alianza-para-las-elecciones-del-ano-2023",
+      "fecha": "2023"
+    }
+  },
+  "posiciones": {}
+}

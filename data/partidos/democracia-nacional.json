@@ -1,0 +1,199 @@
+{
+  "id": "democracia-nacional",
+  "nombre": "Democracia Nacional",
+  "siglas": "DN",
+  "ambito": "estatal",
+  "tipo": "partido",
+  "confianza": "estimada",
+  "registroMir": "Fundado en 1995 e inscrito en el Registro de Partidos; sin candidaturas electorales verificables desde las municipales de 2015 (última representación: un concejal en Cuenca de Campos, Valladolid), aunque mantiene actividad organizativa y de calle continuada hasta 2026",
+  "web": "https://democracianacional.es/",
+  "revisado": "2026-07-10",
+  "actividad": "activa",
+  "autodescripcion": {
+    "texto": "Se presenta bajo el lema «Los españoles primero» y declara defender empleo estable, vivienda y familia propia para los trabajadores y las fuerzas productivas españolas, frente a una inmigración que califica de masiva, ilegal y de reemplazo. Frente a la democracia liberal de partidos, a la que atribuye un «falso igualitarismo» de raíz ilustrada, su presidente propone como alternativa una «democracia orgánica» o «Democracia Nacional».",
+    "fuente": {
+      "tipo": "declaracion",
+      "titulo": "Democracia Nacional — Los españoles primero (web oficial) y entrevista a Pedro Chaparro, presidente de DN (SevillaInfo)",
+      "url": "https://democracianacional.es/",
+      "cita": "Los españoles primero"
+    }
+  },
+  "clasificacion": [
+    {
+      "etiqueta": "partido xenófobo",
+      "explicacion": "Etiqueta empleada por la prensa de referencia para describir a un partido cuyo eje central es la hostilidad hacia los inmigrantes como grupo: DN promueve deportaciones masivas y presenta la inmigración como amenaza de sustitución del pueblo español. El partido no usa esta etiqueta para sí: se define nacionalista y social.",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "El partido xenófobo Democracia Nacional refuerza sus vínculos con ultras rusos y sueña con más «Torre Pachecos» (Público)",
+        "url": "https://www.publico.es/politica/partido-xenofobo-democracia-nacional-refuerza-vinculos-ultras-rusos-suena-torre-pachecos.html"
+      }
+    },
+    {
+      "etiqueta": "lepenismo / extrema derecha de origen neonazi",
+      "explicacion": "La politología y las enciclopedias de referencia describen a DN como partido de extrema derecha de modelo lepenista (el nacional-populismo identitario del Frente Nacional francés) fundado en 1995 por antiguos militantes de CEDADE, organización neonazi española, y de Juntas Españolas; milita en la Alianza por la Paz y la Libertad junto a partidos neofascistas europeos.",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Democracia Nacional — Wikipedia (origen en cuadros de CEDADE, caracterización lepenista y encuadre europeo)",
+        "url": "https://es.wikipedia.org/wiki/Democracia_Nacional"
+      }
+    }
+  ],
+  "posiciones": {
+    "dr-003": {
+      "valor": 2,
+      "justificacion": "Su secretario general reclama «políticas de deportación masiva» ante lo que describe como «extinción» del pueblo español, y el partido enmarca los disturbios de Torre Pacheco (julio de 2025) como consecuencia de la «inmigración masiva legal»: el retorno que promueve alcanza también a residentes en situación regular.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "El partido xenófobo Democracia Nacional refuerza sus vínculos con ultras rusos y sueña con más «Torre Pachecos» (Público)",
+        "url": "https://www.publico.es/politica/partido-xenofobo-democracia-nacional-refuerza-vinculos-ultras-rusos-suena-torre-pachecos.html",
+        "consultado": "2026-07-10"
+      }
+    },
+    "soc-002": {
+      "valor": 2,
+      "justificacion": "Quien pide deportaciones masivas que alcanzan incluso a la inmigración legal sostiene con mayor razón la devolución como respuesta prioritaria a la inmigración irregular; la expulsión de inmigrantes es el centro declarado de su discurso público.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "El partido xenófobo Democracia Nacional refuerza sus vínculos con ultras rusos y sueña con más «Torre Pachecos» (Público)",
+        "url": "https://www.publico.es/politica/partido-xenofobo-democracia-nacional-refuerza-vinculos-ultras-rusos-suena-torre-pachecos.html",
+        "consultado": "2026-07-10"
+      }
+    },
+    "soc-004": {
+      "valor": -2,
+      "justificacion": "Una regularización extraordinaria es la política exactamente opuesta a la deportación masiva que su dirección reclama de forma expresa; se codifica por inferencia directa de esa posición documentada, no por declaración específica sobre la medida.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "El partido xenófobo Democracia Nacional refuerza sus vínculos con ultras rusos y sueña con más «Torre Pachecos» (Público)",
+        "url": "https://www.publico.es/politica/partido-xenofobo-democracia-nacional-refuerza-vinculos-ultras-rusos-suena-torre-pachecos.html",
+        "consultado": "2026-07-10"
+      }
+    },
+    "soc-005": {
+      "valor": -2,
+      "justificacion": "Su web presenta la inmigración como «masiva, ilegal y de reemplazo» y su dirección habla de la «extinción» del pueblo español: rechaza frontalmente el marco de la inmigración como necesidad económica del país.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Democracia Nacional — web oficial (control fronterizo estricto frente a la inmigración «masiva, ilegal y de reemplazo»)",
+        "url": "https://democracianacional.es/",
+        "consultado": "2026-07-10"
+      }
+    },
+    "dr-002": {
+      "valor": 1,
+      "justificacion": "Su lema es «Los españoles primero» y su programa declara defender empleo estable y vivienda para los trabajadores y fuerzas productivas españolas; la fuente no concreta una obligación legal de preferencia en la contratación privada como formula el ítem, por eso no alcanza el máximo.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Democracia Nacional — Los españoles primero (web oficial)",
+        "url": "https://democracianacional.es/",
+        "consultado": "2026-07-10",
+        "cita": "Los españoles primero"
+      }
+    },
+    "ue-001": {
+      "valor": 2,
+      "justificacion": "Mantiene una posición euroescéptica declarada que propone salir del espacio Schengen y del euro, llegando a considerar que la Unión Europea debe desaparecer: va mucho más allá de recuperar soberanía puntual frente a Bruselas.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Democracia Nacional — Wikipedia (posición euroescéptica declarada)",
+        "url": "https://es.wikipedia.org/wiki/Democracia_Nacional",
+        "consultado": "2026-07-10"
+      }
+    },
+    "ue-002": {
+      "valor": -2,
+      "justificacion": "Quien propone la salida del euro y de Schengen y defiende que la UE desaparezca rechaza de plano avanzar hacia una federación política europea con más cesión de soberanía.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Democracia Nacional — Wikipedia (posición euroescéptica declarada)",
+        "url": "https://es.wikipedia.org/wiki/Democracia_Nacional",
+        "consultado": "2026-07-10"
+      }
+    },
+    "dr-010": {
+      "valor": 2,
+      "justificacion": "Propone expresamente la salida del euro (junto a la del espacio Schengen) para recuperar la soberanía monetaria nacional.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Democracia Nacional — Wikipedia (propuesta de salida del euro y de Schengen)",
+        "url": "https://es.wikipedia.org/wiki/Democracia_Nacional",
+        "consultado": "2026-07-10"
+      }
+    },
+    "dr-019": {
+      "valor": 2,
+      "justificacion": "Posición revelada por conducta: su director de Relaciones Internacionales viajó a San Petersburgo en diciembre de 2025 para estrechar lazos con organizaciones ultranacionalistas rusas; el partido cultiva de forma activa la cooperación con la derecha radical rusa en lugar de tratar a Rusia como amenaza.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "El partido xenófobo Democracia Nacional refuerza sus vínculos con ultras rusos y sueña con más «Torre Pachecos» (Público)",
+        "url": "https://www.publico.es/politica/partido-xenofobo-democracia-nacional-refuerza-vinculos-ultras-rusos-suena-torre-pachecos.html",
+        "consultado": "2026-07-10"
+      }
+    },
+    "der-005": {
+      "valor": 2,
+      "justificacion": "Defiende la unidad de España desde un nacionalismo español en oposición frontal a los nacionalismos periféricos; la identidad del partido se construyó en parte sobre acciones contra el independentismo, como el asalto al centro Blanquerna en 2013 protagonizado por cuadros del partido.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Democracia Nacional — Wikipedia (nacionalismo español y oposición a los nacionalismos periféricos)",
+        "url": "https://es.wikipedia.org/wiki/Democracia_Nacional",
+        "consultado": "2026-07-10"
+      }
+    },
+    "dem-011": {
+      "valor": 2,
+      "justificacion": "Su presidente declara que DN se opone a la democracia liberal «porque rechaza el falso igualitarismo basado en el pensamiento ilustrado» y propone sustituirla por una «democracia orgánica»: no una reforma parcial, sino otro modelo.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Entrevista a Pedro Chaparro, presidente de Democracia Nacional (SevillaInfo)",
+        "url": "https://www.sevillainfo.es/noticias-nacional/entrevista-a-pedro-chaparro-presidente-de-democracia-nacional-dn/",
+        "consultado": "2026-07-10"
+      }
+    },
+    "dem-018": {
+      "valor": 1,
+      "justificacion": "La «democracia orgánica» que propone como alternativa a la democracia de partidos remite a la representación por cuerpos naturales en lugar de partidos; la fuente no detalla la articulación concreta por municipios y ámbitos profesionales que formula el ítem, por eso el valor moderado.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Entrevista a Pedro Chaparro, presidente de Democracia Nacional (SevillaInfo)",
+        "url": "https://www.sevillainfo.es/noticias-nacional/entrevista-a-pedro-chaparro-presidente-de-democracia-nacional-dn/",
+        "consultado": "2026-07-10"
+      }
+    },
+    "dr-024": {
+      "valor": 1,
+      "justificacion": "Su rechazo declarado de la esencia de la democracia liberal —no solo de sus resultados— lo sitúa, según el criterio de Mudde, en el campo extremista y no en la derecha radical que acepta el marco democrático; no consta sin embargo una preferencia explícita por un régimen autoritario concreto, por eso el acuerdo moderado.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Entrevista a Pedro Chaparro, presidente de Democracia Nacional (SevillaInfo)",
+        "url": "https://www.sevillainfo.es/noticias-nacional/entrevista-a-pedro-chaparro-presidente-de-democracia-nacional-dn/",
+        "consultado": "2026-07-10"
+      }
+    },
+    "dr-025": {
+      "valor": 0,
+      "justificacion": "Conducta reveladora ambivalente: su actual presidente cumplió prisión (2022-2024) por el asalto violento al centro cultural Blanquerna de 2013 y el partido, lejos de repudiarlo, lo eligió presidente; no consta sin embargo doctrina que legitime la violencia ni declaración que la rechace. Se codifica neutral con evidencia, no como hueco.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "El líder de Democracia Nacional ingresa en prisión por el asalto a la librería Blanquerna (The Objective)",
+        "url": "https://theobjective.com/espana/2022-03-14/democracia-nacional-prision-blanquerna/",
+        "fecha": "2022-03-14",
+        "consultado": "2026-07-10"
+      }
+    }
+  }
+}
