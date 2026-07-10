@@ -44,11 +44,11 @@ describe('respuestasDePosiciones', () => {
 });
 
 describe('proyectarEnEspacio', () => {
-  it('incluye una entidad con evidencia suficiente en los tres ejes', () => {
+  it('incluye una entidad con ≥4 posiciones documentadas por eje', () => {
     const completa = perfil('completa', {
-      'economico-1': 2, 'economico-2': -2, 'economico-3': 2,
-      'social-1': -2, 'social-2': 2, 'social-3': -2,
-      'territorial-1': 1, 'territorial-2': -1, 'territorial-3': 1,
+      'economico-1': 2, 'economico-2': -2, 'economico-3': 2, 'economico-4': -2,
+      'social-1': -2, 'social-2': 2, 'social-3': -2, 'social-4': 2,
+      'territorial-1': 1, 'territorial-2': -1, 'territorial-3': 1, 'territorial-4': -1,
     });
     const proyeccion = proyectarEnEspacio(completa, ITEMS, EJES);
     expect(proyeccion.incluida).toBe(true);
@@ -59,11 +59,11 @@ describe('proyectarEnEspacio', () => {
     expect(valores.territorial).toBe(50);
   });
 
-  it('excluye a quien no llega al mínimo de ítems en algún eje y explica cuál', () => {
+  it('excluye a quien no llega al mínimo de 4 ítems en algún eje y explica cuál', () => {
     const coja = perfil('coja', {
-      'economico-1': 2, 'economico-2': -2, 'economico-3': 2,
-      'social-1': -2, 'social-2': 2, 'social-3': -2,
-      'territorial-1': 1, 'territorial-2': -1, // solo 2 ítems: bajo el mínimo de 3
+      'economico-1': 2, 'economico-2': -2, 'economico-3': 2, 'economico-4': -2,
+      'social-1': -2, 'social-2': 2, 'social-3': -2, 'social-4': 2,
+      'territorial-1': 1, 'territorial-2': -1, 'territorial-3': 1, // 3 < mínimo de 4
     });
     const proyeccion = proyectarEnEspacio(coja, ITEMS, EJES);
     expect(proyeccion.incluida).toBe(false);
@@ -73,8 +73,8 @@ describe('proyectarEnEspacio', () => {
     expect(territorial?.coberturaSuficiente).toBe(false);
   });
 
-  it('excluye a quien no cubre la mitad de la carga del banco aunque tenga 3 ítems', () => {
-    // 3 de 8 ítems económicos respondidos en un banco ampliado: cobertura 0.375 < 0.5.
+  it('la vara de entidades no exige cobertura relativa del banco, pero sigue disponible vía opciones', () => {
+    // 4 de 8 ítems económicos documentados en un banco ampliado: cobertura 0.5 de la carga.
     const bancoAmplio: Item[] = [
       ...ITEMS,
       ...[5, 6, 7, 8].map((n) => ({
@@ -85,13 +85,19 @@ describe('proyectarEnEspacio', () => {
       })),
     ];
     const parcial = perfil('parcial', {
-      'economico-1': 2, 'economico-2': -2, 'economico-3': 2,
-      'social-1': -2, 'social-2': 2, 'social-3': -2,
-      'territorial-1': 1, 'territorial-2': -1, 'territorial-3': 1,
+      'economico-1': 2, 'economico-2': -2, 'economico-3': 2, 'economico-4': -2,
+      'social-1': -2, 'social-2': 2, 'social-3': -2, 'social-4': 2,
+      'territorial-1': 1, 'territorial-2': -1, 'territorial-3': 1, 'territorial-4': -1,
     });
-    const proyeccion = proyectarEnEspacio(parcial, bancoAmplio, EJES);
-    expect(proyeccion.incluida).toBe(false);
-    expect(proyeccion.ejesInsuficientes).toEqual(['economico']);
+    // Con la vara de entidades (mínimo absoluto), entra.
+    expect(proyectarEnEspacio(parcial, bancoAmplio, EJES).incluida).toBe(true);
+    // Con una vara relativa estricta pasada explícitamente, el económico no llega.
+    const estricta = proyectarEnEspacio(parcial, bancoAmplio, EJES, {
+      minimoItems: 4,
+      umbralCobertura: 0.75,
+    });
+    expect(estricta.incluida).toBe(false);
+    expect(estricta.ejesInsuficientes).toEqual(['economico']);
   });
 
   it('mide a la entidad con el mismo instrumento que al usuario', () => {
@@ -105,6 +111,7 @@ describe('proyectarEnEspacio', () => {
       respuestasDePosiciones(entidad.posiciones),
       ITEMS,
       EJES,
+      { minimoItems: 4, umbralCobertura: 0 },
     );
     expect(proyeccion.facetas).toEqual(comoUsuario);
   });

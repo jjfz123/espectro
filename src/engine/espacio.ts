@@ -42,16 +42,30 @@ export function respuestasDePosiciones(
 }
 
 /**
+ * Umbral de evidencia para situar ENTIDADES (partidos, referencias) en el mapa.
+ *
+ * A diferencia del usuario —que recorre un cuestionario y cuya cobertura se
+ * mide contra lo administrado—, una ficha documenta posiciones sueltas contra
+ * el banco completo: exigirle un porcentaje de toda la carga del eje (54 ítems
+ * cargan económico) la excluiría siempre. La vara para entidades es un mínimo
+ * absoluto de posiciones documentadas con carga en el eje (≥4), sin ratio
+ * sobre el banco; la interfaz muestra el nº de ítems que sostiene cada punto.
+ */
+export const UMBRAL_EVIDENCIA_ENTIDADES: OpcionesFacetas = {
+  minimoItems: 4,
+  umbralCobertura: 0,
+};
+
+/**
  * Sitúa un perfil en el espacio de ejes pasando sus posiciones documentadas
  * por `calcularFacetas` contra el banco de ítems indicado (para el mapa, el
- * banco completo). La cobertura mide así qué parte de la carga total del eje
- * está documentada, no cuántas posiciones tiene la ficha.
+ * banco completo), con el umbral de evidencia de entidades por defecto.
  */
 export function proyectarEnEspacio(
   perfil: PerfilAfinidad,
   items: Item[],
   ejes: Eje[],
-  opciones: OpcionesFacetas = {},
+  opciones: OpcionesFacetas = UMBRAL_EVIDENCIA_ENTIDADES,
 ): ProyeccionEspacial {
   const facetas = calcularFacetas(
     respuestasDePosiciones(perfil.posiciones),
