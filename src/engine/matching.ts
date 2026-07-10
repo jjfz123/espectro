@@ -54,7 +54,10 @@ export function calcularAfinidad(
   const umbral = opciones.umbralCobertura ?? 0.5;
   const minimo = opciones.minimoItems ?? 10;
 
-  const contestadas = respuestas.filter(
+  // Deduplicación por itemId (se conserva la última respuesta), coherente con
+  // calcularFacetas: una respuesta repetida no puede contar dos veces.
+  const porItem = new Map(respuestas.map((r) => [r.itemId, r]));
+  const contestadas = [...porItem.values()].filter(
     (r): r is Respuesta & { valor: Valor } => r.valor !== null,
   );
 
