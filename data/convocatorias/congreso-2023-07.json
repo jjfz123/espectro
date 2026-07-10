@@ -521,7 +521,12 @@
         "navarra"
       ],
       "motivoInclusion": "umbral",
-      "perfilRelaciones": []
+      "perfilRelaciones": [
+        {
+          "perfilId": "pum-j",
+          "relacion": "misma-organizacion"
+        }
+      ]
     },
     {
       "id": "congreso-2023-07-u-p-l",
@@ -554,7 +559,23 @@
         "aragon"
       ],
       "motivoInclusion": "umbral",
-      "perfilRelaciones": [],
+      "perfilRelaciones": [
+        {
+          "perfilId": "coalicion-existe",
+          "relacion": "coalicion",
+          "nota": "Paraguas formal de Teruel Existe y Aragón Existe; sin posiciones propias mientras no exista programa común diferenciado documentable."
+        },
+        {
+          "perfilId": "teruel-existe",
+          "relacion": "componente",
+          "nota": "Componente donde vive la evidencia documentada de la coalición (Guitarte y el grupo Aragón-Teruel Existe); sus posiciones no se atribuyen automáticamente a la coalición."
+        },
+        {
+          "perfilId": "aragon-existe",
+          "relacion": "componente",
+          "nota": "Componente sin posiciones programáticas propias documentadas (sin-datos); sus posiciones no se heredan de Teruel Existe."
+        }
+      ],
       "nota": "Identidad verificada: marca del espacio España Vaciada/Teruel Existe, sin relación orgánica con Chunta Aragonesista; no debe enlazarse al perfil chunta-aragonesista."
     },
     {
@@ -670,7 +691,13 @@
         "murcia"
       ],
       "motivoInclusion": "umbral",
-      "perfilRelaciones": []
+      "perfilRelaciones": [
+        {
+          "perfilId": "escanos-en-blanco",
+          "relacion": "misma-organizacion",
+          "nota": "Perfil sin posiciones codificadas (sin-datos razonado): partido de programa único cuyo punto programático no tiene ítem en el banco; se lista sin participar en el matching."
+        }
+      ]
     },
     {
       "id": "congreso-2023-07-jm",

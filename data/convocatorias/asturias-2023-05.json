@@ -297,7 +297,12 @@
         "Oriente"
       ],
       "motivoInclusion": "umbral",
-      "perfilRelaciones": [],
+      "perfilRelaciones": [
+        {
+          "perfilId": "pum-j",
+          "relacion": "misma-organizacion"
+        }
+      ],
       "nota": "Naturaleza inventariada: partido. Vigencia comprobada: posterior-verificada. Tratamiento previsto: perfil-reutilizable."
     },
     {

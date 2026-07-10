@@ -193,7 +193,12 @@
         "extremadura"
       ],
       "motivoInclusion": "umbral",
-      "perfilRelaciones": [],
+      "perfilRelaciones": [
+        {
+          "perfilId": "pum-j",
+          "relacion": "misma-organizacion"
+        }
+      ],
       "nota": "Naturaleza inventariada: partido. Vigencia comprobada: electoral-2025. Tratamiento previsto: perfil-reutilizable."
     }
   ]
