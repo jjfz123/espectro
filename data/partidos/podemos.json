@@ -6,7 +6,7 @@
   "tipo": "partido",
   "confianza": "verificada",
   "web": "https://podemos.info/",
-  "revisado": "2026-07-09",
+  "revisado": "2026-07-10",
   "actividad": "activa",
   "posiciones": {
     "sd-002": {
@@ -139,6 +139,235 @@
         "url": "https://podemos.info/eu/documentos/",
         "fecha": "2025-04",
         "consultado": "2026-07-09"
+      }
+    },
+    "eco-003": {
+      "valor": 2,
+      "justificacion": "Apoyó todas las subidas del SMI del Gobierno de coalición y hoy exige elevarlo a 1.800 euros al mes, muy por encima del pacto vigente, sin condicionar la subida a efectos sobre el empleo; registró además una ley para eximir el SMI del IRPF.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Podemos exige subir el salario mínimo hasta los 1.800 euros (Libre Mercado)",
+        "url": "https://www.libertaddigital.com/libremercado/2026-02-18/podemos-exige-subir-el-salario-minimo-hasta-los-1-800-euros-7361779/",
+        "fecha": "2026-02-18",
+        "consultado": "2026-07-10",
+        "cita": "Podemos exige subir el salario mínimo hasta los 1.800 euros"
+      }
+    },
+    "eco-005": {
+      "valor": 2,
+      "justificacion": "Negoció desde el Gobierno la Ley 12/2023, que permite topar alquileres en zonas tensionadas, y desde 2024 exige ir más lejos: rebajar por ley un 40% los alquileres como condición para apoyar los Presupuestos.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Así es la propuesta de Podemos para bajar los alquileres un 40% y prohibir las empresas de «desokupación» (Público)",
+        "url": "https://www.publico.es/politica/asi-propuesta-podemos-bajar-alquileres-40-prohibir-empresas-desokupacion.html",
+        "fecha": "2024-10",
+        "consultado": "2026-07-10",
+        "cita": "Así es la propuesta de Podemos para bajar los alquileres un 40% y prohibir las empresas de 'desokupación'"
+      }
+    },
+    "eco-011": {
+      "valor": 2,
+      "justificacion": "Votó contra las enmiendas a la totalidad que tumbaron el proyecto de jornada máxima de 37,5 horas sin rebaja salarial (10-09-2025), es decir, a favor de tramitar la reducción por ley.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "El Congreso tumba la reducción de jornada laboral al prosperar el veto de PP, Vox y Junts (Idealista News)",
+        "url": "https://www.idealista.com/news/finanzas/economia/2025/09/11/859545-el-congreso-tumba-la-reduccion-de-jornada-laboral-al-prosperar-el-veto-de-pp-vox-y",
+        "fecha": "2025-09-10",
+        "consultado": "2026-07-10"
+      }
+    },
+    "eco-014": {
+      "valor": 2,
+      "justificacion": "El impuesto de solidaridad nació de la propuesta de Unidas Podemos en el Gobierno (Ley 38/2022) y el partido exige expresamente convertirlo en permanente y estructural, frente a la temporalidad que planteaba el PSOE.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Podemos pide que el impuesto a las grandes fortunas sea permanente y no temporal, como propone el PSOE (Público)",
+        "url": "https://www.publico.es/politica/pide-impuesto-grandes-fortunas-sea-permanente-no-temporal-propone-psoe.html",
+        "fecha": "2022-09",
+        "consultado": "2026-07-10",
+        "cita": "Podemos pide que el impuesto a las grandes fortunas sea permanente y no temporal, como propone el PSOE"
+      }
+    },
+    "sd-012": {
+      "valor": 2,
+      "justificacion": "Belarra pidió en 2021 aplicar el artículo 128 de la Constitución para nacionalizar las eléctricas y, tras el apagón de abril de 2025, Podemos registró iniciativas para intervenir el sector y nacionalizar Red Eléctrica.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Podemos pide ya nacionalizar todas las compañías eléctricas (OKDiario)",
+        "url": "https://okdiario.com/espana/podemos-pide-ya-nacionalizar-todas-companias-electricas-7951660",
+        "fecha": "2021-10",
+        "consultado": "2026-07-10",
+        "cita": "Podemos pide ya nacionalizar todas las compañías eléctricas"
+      }
+    },
+    "sd-023": {
+      "valor": 2,
+      "justificacion": "Condicionó su voto a la reforma fiscal de noviembre de 2024 al compromiso de hacer permanente el gravamen a las energéticas, rechaza la temporalidad de estas figuras y reprochó al PSOE dejar caer el impuesto energético en enero de 2025.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "El Congreso aprueba la reforma fiscal con el impuesto a la banca y el compromiso de prorrogar el de las energéticas (elDiario.es)",
+        "url": "https://www.eldiario.es/economia/congreso-aprueba-reforma-fiscal-impuesto-banca-compromiso-prorrogar-energeticas_1_11839252.html",
+        "fecha": "2024-11-21",
+        "consultado": "2026-07-10",
+        "cita": "El Congreso aprueba la reforma fiscal con el impuesto a la banca y el compromiso de prorrogar el de las energéticas"
+      }
+    },
+    "eco-013": {
+      "valor": -2,
+      "justificacion": "En el Gobierno exigió derogar «directamente» la Ley 15/1997, base legal de la gestión privada y de los conciertos en la sanidad pública, y defiende atajar las listas de espera reforzando exclusivamente la gestión pública.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Unidas Podemos presiona al PSOE para derogar «directamente» la Ley 15/1997 que permite gestión privada en la sanidad pública (iSanidad)",
+        "url": "https://isanidad.com/242298/unidas-podemos-presiona-psoe-derogar-directamente-ley-15-1997-permite-gestion-privada-sanidad-publica/",
+        "fecha": "2023-02",
+        "consultado": "2026-07-10"
+      }
+    },
+    "fem-001": {
+      "valor": 2,
+      "justificacion": "La ley trans es la ley bandera de Irene Montero (Podemos): consagra el cambio registral de sexo por doble comparecencia, sin tutelas médicas ni judiciales, desde los 16 años.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Irene Montero: «Hoy es un día histórico para las personas trans y LGTBI que ven sus derechos convertidos en ley» (Ministerio de Igualdad)",
+        "url": "https://www.igualdad.gob.es/comunicacion/sala-de-prensa/irene-montero-hoy-es-un-dia-historico-trans-lgtbi/",
+        "fecha": "2023-02-16",
+        "consultado": "2026-07-10",
+        "cita": "Hoy es un día histórico para las personas trans y LGTBI que ven sus derechos convertidos en ley"
+      }
+    },
+    "fem-012": {
+      "valor": 2,
+      "justificacion": "La reforma del aborto impulsada por Irene Montero (LO 1/2023) restituyó el derecho de las jóvenes de 16 y 17 años a interrumpir el embarazo sin consentimiento paterno; el TC la avaló en 2024.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "El Gobierno aprueba la Ley del Aborto: a los 16, baja por regla, píldora gratis y educación sexual en clase (El Español)",
+        "url": "https://www.elespanol.com/espana/politica/20220517/ley-aborto-irene-montero-baja-regla-dolorosa-permiso-paterno/673182702_0.html",
+        "fecha": "2022-05-17",
+        "consultado": "2026-07-10",
+        "cita": "El Gobierno aprueba la Ley del Aborto: a los 16, baja por regla, píldora gratis y educación sexual en clase"
+      }
+    },
+    "fem-014": {
+      "valor": 2,
+      "justificacion": "Registró su propia proposición de ley de regulación integral y control del cannabis en adultos, votó a favor de la de Más País en 2021 y reintentó la regulación en 2024.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Podemos vuelve a intentar en el Congreso regular por ley el cannabis recreativo (Infobae)",
+        "url": "https://www.infobae.com/espana/agencias/2024/01/12/podemos-vuelve-a-intentar-en-el-congreso-regular-por-ley-el-cannabis-recreativo/",
+        "fecha": "2024-01-12",
+        "consultado": "2026-07-10",
+        "cita": "Podemos vuelve a intentar en el Congreso regular por ley el cannabis recreativo"
+      }
+    },
+    "soc-004": {
+      "valor": 2,
+      "justificacion": "Votó a favor de tramitar la ILP de regularización extraordinaria (310 a favor, 33 en contra, 09-04-2024) y ha reprochado públicamente su posterior bloqueo.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "El Congreso tramita la regularización de casi 400.000 inmigrantes (Newtral)",
+        "url": "https://www.newtral.es/congreso-luz-verde-regularizacion-inmigrantes/20240410/",
+        "fecha": "2024-04-10",
+        "consultado": "2026-07-10",
+        "cita": "El Congreso tramita la regularización de casi 400.000 inmigrantes"
+      }
+    },
+    "soc-006": {
+      "valor": 2,
+      "justificacion": "Ha votado sistemáticamente por derogar la prisión permanente revisable: a favor de la proposición del PNV en 2016 y por mantener viva la derogación en el pleno de 2018. (En 2015 no tenía escaños para firmar el recurso al TC.)",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "El Congreso vota contra la prisión permanente revisable con acusaciones a PP y Cs de «utilizar a las víctimas» (infoLibre)",
+        "url": "https://www.infolibre.es/noticias/politica/2018/03/15/debate_derogacion_prision_permanente_revisable_80676_1012.html",
+        "fecha": "2018-03-15",
+        "consultado": "2026-07-10"
+      }
+    },
+    "ter-002": {
+      "valor": 2,
+      "justificacion": "Defiende desde 2014 el derecho a decidir mediante un referéndum pactado para Cataluña; Montero y Belarra lo han reiterado como única salida democrática al conflicto.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Irene Montero: «Más temprano que tarde se va a ver que no hay otra solución que el referéndum pactado» (El Salto)",
+        "url": "https://www.elsaltodiario.com/independencia-de-catalunya/entrevista-irene-montero-podemos-referendum-pactado-catalunya",
+        "fecha": "2022-12",
+        "consultado": "2026-07-10",
+        "cita": "Más temprano que tarde se va a ver que no hay otra solución que el referéndum pactado"
+      }
+    },
+    "sd-004": {
+      "valor": 2,
+      "justificacion": "La plurinacionalidad es doctrina constitutiva de Podemos: Belarra propone explícitamente un nuevo marco constitucional que reconozca a España como república plurinacional.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "España, República Plurinacional (artículo de Ione Belarra en Diario Red)",
+        "url": "https://www.diario-red.com/opinion/ione-belarra/espana-republica-plurinacional/20241206165211039543.html",
+        "fecha": "2024-12-06",
+        "consultado": "2026-07-10",
+        "cita": "España, República Plurinacional"
+      }
+    },
+    "cat-003": {
+      "valor": 2,
+      "justificacion": "Votó a favor de la ley de amnistía el 30-05-2024 (177-172) y antes defendió los indultos, apostando por la vía política y no penal para el conflicto catalán.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "Ley Orgánica 1/2024, de amnistía para la normalización institucional, política y social en Cataluña (BOE)",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-11776",
+        "fecha": "2024-06-11",
+        "consultado": "2026-07-10"
+      }
+    },
+    "ter-001": {
+      "valor": -2,
+      "justificacion": "Defiende profundizar el autogobierno en un Estado plurinacional y suscribió que las propuestas de recentralización suponen de facto la aniquilación del autogobierno y del Estado autonómico; devolver competencias es lo contrario de su modelo.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Podemos concurre con Bildu y Geroa Bai en una candidatura conjunta al Senado por Navarra, con manifiesto contra la recentralización (El Español)",
+        "url": "https://www.elespanol.com/espana/politica/20190309/podemos-bildu-geroa-bai-candidatura-senado-navarra/381962027_0.html",
+        "fecha": "2019-03-09",
+        "consultado": "2026-07-10"
+      }
+    },
+    "sd-006": {
+      "valor": -2,
+      "justificacion": "Rechaza frontalmente los grandes acuerdos PSOE-PP (CGPJ, gran coalición) y su conducta parlamentaria (investidura de 2023, amnistía de 2024) se apoya en el bloque con los partidos independentistas y nacionalistas.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Podemos alerta del peligro de un pacto PSOE-PP para el CGPJ (Diario Red)",
+        "url": "https://www.diario-red.com/articulo/espana/podemos-alerta-peligro-pacto-psoe-pp-cgpj-puede-ser-que-jueces-fachas-elijan-jueces-fachas/20240624143236031877.html",
+        "fecha": "2024-06-24",
+        "consultado": "2026-07-10",
+        "cita": "No puede ser que los jueces fachas elijan a los jueces fachas"
+      }
+    },
+    "ter-004": {
+      "valor": -2,
+      "justificacion": "Coenmendó y votó la LOMLOE, que suprimió la garantía legal del castellano como lengua vehicular (enmienda pactada de PSOE, Unidas Podemos y ERC); rechaza imponer por ley la vehicularidad en todas las comunidades.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "La Comisión de Educación del Congreso aprueba eliminar el castellano como lengua vehicular en la «ley Celaá» (Confilegal)",
+        "url": "https://confilegal.com/20201106-la-comision-de-educacion-del-congreso-aprueba-eliminar-el-castellano-como-lengua-vehicular-en-la-ley-celaa/",
+        "fecha": "2020-11-06",
+        "consultado": "2026-07-10",
+        "cita": "La Comisión de Educación del Congreso aprueba eliminar el castellano como lengua vehicular en la «ley Celaá»"
       }
     }
   }

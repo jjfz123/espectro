@@ -4,10 +4,12 @@
   "siglas": "ERC",
   "ambito": "autonomico",
   "tipo": "partido",
-  "ccaa": ["catalunya"],
+  "ccaa": [
+    "catalunya"
+  ],
   "confianza": "verificada",
   "web": "https://www.esquerra.cat/",
-  "revisado": "2026-07-09",
+  "revisado": "2026-07-10",
   "actividad": "activa",
   "posiciones": {
     "nac-001": {
@@ -116,6 +118,132 @@
         "url": "https://static.esquerra.cat/arxius/textosbasics/estatuts_2025.pdf",
         "fecha": "2025",
         "consultado": "2026-07-09"
+      }
+    },
+    "eco-005": {
+      "valor": 2,
+      "justificacion": "Negoció durante más de 400 días y votó a favor de la Ley de Vivienda de 2023, que instaura el tope legal de alquileres en zonas tensionadas; Cataluña fue la primera comunidad en aplicarlo.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "El Congreso aprueba la ley de vivienda con los votos en contra de las derechas (elDiario.es)",
+        "url": "https://www.eldiario.es/economia/congreso-aprueba-ley-vivienda-votos-derechas_1_10155945.html",
+        "fecha": "2023-04-27",
+        "consultado": "2026-07-10",
+        "cita": "El Congreso aprueba la ley de vivienda con los votos en contra de las derechas"
+      }
+    },
+    "eco-011": {
+      "valor": 2,
+      "justificacion": "Votó contra las enmiendas a la totalidad de PP, Vox y Junts que tumbaron el proyecto de las 37,5 horas sin rebaja salarial, defendiendo su tramitación.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "PP, Junts y Vox tumban la ley para reducir la jornada laboral a 37 horas y media (elDiario.es)",
+        "url": "https://www.eldiario.es/economia/pp-junts-vox-tumban-ley-reducir-jornada-laboral-37-horas-media_1_12593008.html",
+        "fecha": "2025-09-10",
+        "consultado": "2026-07-10",
+        "cita": "PP, Junts y Vox tumban la ley para reducir la jornada laboral a 37 horas y media"
+      }
+    },
+    "eco-014": {
+      "valor": 2,
+      "justificacion": "Votó a favor de crear el Impuesto de Solidaridad de las Grandes Fortunas (24-11-2022) declarando que quería llegar más lejos, lo que avala su acuerdo con consolidarlo como figura permanente.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "El Congreso aprueba el impuesto a grandes fortunas y lo remite al Senado (Idealista News)",
+        "url": "https://www.idealista.com/news/finanzas/economia/2022/11/25/800323-el-congreso-aprueba-el-impuesto-a-grandes-fortunas-y-lo-remite-al-senado",
+        "fecha": "2022-11-25",
+        "consultado": "2026-07-10",
+        "cita": "Queríamos llegar más lejos, pero damos hoy un paso importante"
+      }
+    },
+    "eco-003": {
+      "valor": 2,
+      "justificacion": "Apoya las subidas del SMI estatal y registró una iniciativa para que la Generalitat pueda fijar un salario mínimo catalán superior (al menos 1.420 euros al mes, 60% del salario medio catalán).",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "ERC mueve ficha en el Congreso para crear el «Salario Mínimo Catalán» (Infobae)",
+        "url": "https://www.infobae.com/espana/2025/04/30/erc-mueve-ficha-en-el-congreso-para-crear-el-salario-minimo-catalan-reclama-que-la-generalitat-pueda-elevar-la-cuantia-a-al-menos-1420-euros-al-mes/",
+        "fecha": "2025-04-30",
+        "consultado": "2026-07-10",
+        "cita": "ERC mueve ficha en el Congreso para crear el «Salario Mínimo Catalán»: reclama que la Generalitat pueda elevar la cuantía a «al menos 1.420 euros al mes»"
+      }
+    },
+    "sd-023": {
+      "valor": 2,
+      "justificacion": "Votó a favor de la reforma fiscal que convirtió el gravamen bancario en impuesto (21-11-2024) condicionando su apoyo al compromiso de prorrogar el de las energéticas; su programa de 2023 pedía hacer permanentes ambos.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "El Congreso aprueba la reforma fiscal con el impuesto a la banca y el compromiso de prorrogar el de las energéticas (elDiario.es)",
+        "url": "https://www.eldiario.es/economia/congreso-aprueba-reforma-fiscal-impuesto-banca-compromiso-prorrogar-energeticas_1_11839252.html",
+        "fecha": "2024-11-21",
+        "consultado": "2026-07-10"
+      }
+    },
+    "eco-001": {
+      "valor": 1,
+      "justificacion": "Su programa de 2023 apuesta por más progresividad fiscal: incremento de los tipos a las rentas del capital e impuestos permanentes a banca, energéticas y fortunas. El énfasis está en el capital y los grandes patrimonios más que en el IRPF general: +1.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral de ERC para las generales de 2023 (resumen de El Nacional)",
+        "url": "https://www.elnacional.cat/es/elecciones/generales-2023/programa-electoral-erc-2023-gabriel-rufian-elecciones-generales_1059378_102.html",
+        "fecha": "2023-07",
+        "consultado": "2026-07-10"
+      }
+    },
+    "fem-001": {
+      "valor": 2,
+      "justificacion": "Votó a favor de la ley trans (autodeterminación registral sin informes médicos) y presentó 102 enmiendas para ir más allá: reconocimiento de personas no binarias y derechos de migrantes.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "El Congreso aprueba la Ley Trans (elDiario.es)",
+        "url": "https://www.eldiario.es/sociedad/congreso-aprueba-ley-trans_1_9814748.html",
+        "fecha": "2023-02-16",
+        "consultado": "2026-07-10"
+      }
+    },
+    "fem-014": {
+      "valor": 2,
+      "justificacion": "Es autora de una proposición de ley de regulación integral del cannabis (cultivo, clubes sociales, comercialización y dispensación a adultos), defendida en pleno aunque rechazada por PSOE, PP y Vox en febrero de 2023.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Proposición de Ley de regulación integral del cannabis (BOCG, Congreso de los Diputados)",
+        "url": "https://www.congreso.es/public_oficiales/L14/CONG/BOCG/B/BOCG-14-B-252-1.PDF",
+        "fecha": "2022",
+        "consultado": "2026-07-10",
+        "cita": "Proposición de Ley de regulación integral del cannabis"
+      }
+    },
+    "soc-004": {
+      "valor": 2,
+      "justificacion": "Votó a favor de la toma en consideración de la ILP de regularización extraordinaria (09-04-2024) y defendió su fondo en el debate, junto a Bildu y BNG.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "El Congreso aprueba debatir la ILP sobre la regularización extraordinaria de personas migrantes (La Marea)",
+        "url": "https://www.lamarea.com/2024/04/09/el-congreso-aprueba-debatir-la-ilp-sobre-la-regularizacion-extraordinaria-de-personas-migrantes/",
+        "fecha": "2024-04-09",
+        "consultado": "2026-07-10",
+        "cita": "El Congreso aprueba debatir la ILP sobre la regularización extraordinaria de personas migrantes"
+      }
+    },
+    "soc-006": {
+      "valor": 2,
+      "justificacion": "Ha votado de forma consistente por derogar la prisión permanente revisable: apoyó la iniciativa de 2016 y en 2018 votó por mantener viva la derogación frente a las enmiendas de PP y Cs.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "El Congreso vota contra la prisión permanente revisable con acusaciones a PP y Cs de «utilizar a las víctimas» (infoLibre)",
+        "url": "https://www.infolibre.es/noticias/politica/2018/03/15/debate_derogacion_prision_permanente_revisable_80676_1012.html",
+        "fecha": "2018-03-15",
+        "consultado": "2026-07-10"
       }
     }
   }

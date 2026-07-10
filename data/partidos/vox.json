@@ -6,7 +6,7 @@
   "tipo": "partido",
   "confianza": "verificada",
   "web": "https://www.voxespana.es/",
-  "revisado": "2026-07-09",
+  "revisado": "2026-07-10",
   "actividad": "activa",
   "dobleLectura": {
     "etiquetaBase": "Programa y posición oficial",
@@ -452,6 +452,83 @@
         "url": "https://www.voxespana.es/wp-content/uploads/2023/07/Programa-VOX-2023-con-menos-peso.pdf",
         "fecha": "2023-07",
         "consultado": "2026-07-09"
+      }
+    },
+    "eco-001": {
+      "valor": -2,
+      "justificacion": "Su programa de 2023 propone lo contrario: rebaja generalizada del IRPF hacia dos tipos únicos (15% hasta 70.000 euros y 25% por encima) y bajada del impuesto de sociedades, es decir, reducir —no subir— la carga sobre las rentas altas.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Bajada radical de impuestos, drástica reducción del gasto político ineficaz… así es el programa económico de VOX para el 23J (voxespana.es)",
+        "url": "https://www.voxespana.es/actualidad/bajada-radical-de-impuestos-drastica-reduccion-del-gasto-politico-ineficaz-simplificacion-de-tramites-asi-es-el-programa-economico-de-vox-para-el-23j-20230707",
+        "fecha": "2023-07-07",
+        "consultado": "2026-07-10",
+        "cita": "Bajada radical de impuestos, drástica reducción del gasto político ineficaz, simplificación de trámites… así es el programa económico de VOX para el 23J"
+      }
+    },
+    "eco-005": {
+      "valor": -2,
+      "justificacion": "Votó contra la Ley de Vivienda de 2023 (que crea las zonas tensionadas y los topes al alquiler), pide su derogación y en 2026 apoyó tramitar una ley que tumbaría el tope al alquiler.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "PP, Vox y Junts se alían para tramitar una ley que aceleraría los desahucios de vulnerables y tumbaría el tope al alquiler (elDiario.es)",
+        "url": "https://www.eldiario.es/politica/pp-vox-junts-alian-tramitar-ley-aceleraria-desahucios-vulnerables-tumbaria-tope-alquiler_1_13160777.html",
+        "fecha": "2026",
+        "consultado": "2026-07-10",
+        "cita": "PP, Vox y Junts se alían para tramitar una ley que aceleraría los desahucios de vulnerables y tumbaría el tope al alquiler"
+      }
+    },
+    "eco-007": {
+      "valor": 2,
+      "justificacion": "Su programa de 2023 es el más duro contra la ocupación: desalojo exprés en un plazo de 12 horas con actuación policial en casos flagrantes, endurecimiento penal y «tolerancia cero»; supera incluso el plazo de «pocos días» del ítem.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "La vivienda tras el 23-J: Vox y los desalojos exprés (El Debate, sobre el programa de VOX 2023)",
+        "url": "https://www.eldebate.com/economia/vivienda/20230721/la-vivienda-tras-el-23-j-vox-y-los-desalojos-expres_127406.html",
+        "fecha": "2023-07-21",
+        "consultado": "2026-07-10",
+        "cita": "La vivienda tras el 23-J: Vox y los desalojos exprés"
+      }
+    },
+    "eco-009": {
+      "valor": 2,
+      "justificacion": "Propone en su programa de 2023 suprimir sucesiones y donaciones, registró una proposición de ley para eliminarlo (diciembre de 2023) y lo suprimió de facto donde gobernó en coalición (Comunidad Valenciana).",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "VOX reclama una vez más la eliminación del impuesto sobre sucesiones y donaciones (voxespana.es)",
+        "url": "https://www.voxespana.es/grupo_parlamentario/actividad-parlamentaria/vox-reclama-una-vez-mas-la-eliminacion-del-impuesto-sobre-sucesiones-y-donaciones-20231222",
+        "fecha": "2023-12-22",
+        "consultado": "2026-07-10",
+        "cita": "VOX reclama una vez más la eliminación del impuesto sobre sucesiones y donaciones"
+      }
+    },
+    "eco-014": {
+      "valor": -2,
+      "justificacion": "Quiere suprimir la imposición patrimonial (patrimonio y sucesiones, considerados confiscatorios) y respaldó el recurso de inconstitucionalidad de la Asamblea de Madrid contra el impuesto de solidaridad a las grandes fortunas: frontalmente contrario a hacerlo permanente.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Programa económico de VOX para el 23J y recurso de la Asamblea de Madrid contra el impuesto a las grandes fortunas (Valencia Plaza)",
+        "url": "https://valenciaplaza.com/tribunal-constitucional-decide-martes-impuesto-grandes-fortunas",
+        "fecha": "2023",
+        "consultado": "2026-07-10"
+      }
+    },
+    "eco-003": {
+      "valor": -1,
+      "justificacion": "Dice no oponerse a subir el SMI «siempre que no recaiga sobre los empresarios», pero rechaza mociones de apoyo a las subidas y las critica citando pérdidas de empleo; ante el ítem —que asume ese coste— su respuesta es de desacuerdo matizado. El SMI se fija por real decreto, sin voto en el Congreso.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "VOX exige que la subida del SMI vaya aparejada de bonificaciones en las cotizaciones a la seguridad social (voxespana.es); PP y Vox rechazan la subida del salario mínimo en las Cortes (Leonoticias)",
+        "url": "https://www.voxespana.es/grupo_parlamentario/actividad-parlamentaria/vox-exige-que-la-subida-del-smi-vaya-aparejada-de-bonificaciones-en-las-cotizaciones-a-la-seguridad-social-para-las-empresas-que-contraten-de-manera-indefinida-20240209",
+        "fecha": "2024-02-09",
+        "consultado": "2026-07-10",
+        "cita": "VOX exige que la subida del SMI vaya aparejada de bonificaciones en las cotizaciones a la seguridad social para las empresas que contraten de manera indefinida"
       }
     }
   }

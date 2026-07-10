@@ -6,9 +6,15 @@
   "variante": "Mutualismo proudhoniano clásico; las reconstrucciones mutualistas contemporáneas no forman una escuela única",
   "periodo": "Siglo XIX–actualidad",
   "confianza": "verificada",
-  "version": "1.0",
-  "revisado": "2026-07-09",
-  "facetasDefinitorias": ["economico", "estatismo", "poder-laboral", "democracia-directa", "institucionalismo"],
+  "version": "1.1",
+  "revisado": "2026-07-10",
+  "facetasDefinitorias": [
+    "economico",
+    "estatismo",
+    "poder-laboral",
+    "democracia-directa",
+    "institucionalismo"
+  ],
   "sensibilidad": "normal",
   "advertencia": "Es una referencia doctrinal, no un partido. No debe confundirse con anarcocapitalismo: critica la propiedad que permite renta, interés y apropiación del trabajo ajeno, y propone asociaciones y crédito mutuos. Proudhon varió entre anarquía y un federalismo con funciones públicas mínimas y sostuvo opiniones misóginas y antisemitas que no se convierten en rasgos del mutualismo ni se codifican. Quedan vacías energía, bioética, religión y geopolítica.",
   "fuentesMarco": [
@@ -254,6 +260,121 @@
         "url": "https://fair-use.org/p-j-proudhon/general-idea-of-the-revolution/",
         "fecha": "1851",
         "consultado": "2026-07-09"
+      }
+    },
+    "izq-042": {
+      "valor": 2,
+      "justificacion": "La posesión por ocupación y uso es el único título legítimo en esta doctrina: un edificio abandonado durante años es propiedad rentista sin uso, y ponerlo en uso colectivo restituye la posesión frente al derecho de aubana del propietario ocioso.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Pierre-Joseph Proudhon, What Is Property?",
+        "url": "https://www.marxists.org/reference/subject/economics/proudhon/property/",
+        "fecha": "1840",
+        "consultado": "2026-07-10"
+      }
+    },
+    "eco-007": {
+      "valor": -1,
+      "justificacion": "Un desalojo estatal exprés blinda el título registral incluso cuando no hay uso ni ocupación del propietario: protege la propiedad-renta que la doctrina critica; solo la posesión efectiva de otro justificaría expulsar a un intruso.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Pierre-Joseph Proudhon, What Is Property?",
+        "url": "https://www.marxists.org/reference/subject/economics/proudhon/property/",
+        "fecha": "1840",
+        "consultado": "2026-07-10"
+      }
+    },
+    "izq-044": {
+      "valor": 2,
+      "justificacion": "El programa de Proudhon disuelve el aparato gubernativo —policía incluida— en la organización económica de la sociedad: contratos, arbitraje y responsabilidad mutua sustituyen la vigilancia y la coerción estatales.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Pierre-Joseph Proudhon, General Idea of the Revolution in the Nineteenth Century",
+        "url": "https://fair-use.org/p-j-proudhon/general-idea-of-the-revolution/",
+        "fecha": "1851",
+        "consultado": "2026-07-10",
+        "cita": "To be GOVERNED is to be at every operation, at every transaction noted, registered, counted, taxed, stamped, measured, numbered, assessed, licensed, authorized, admonished, prevented, forbidden, reformed, corrected, punished."
+      }
+    },
+    "soc-003": {
+      "valor": -2,
+      "justificacion": "La vigilancia generalizada del Estado sobre la población es exactamente lo que Proudhon denuncia como esencia del gobierno; ampliarla en nombre de la seguridad es profundizar en la tutela que la doctrina rechaza.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Pierre-Joseph Proudhon, General Idea of the Revolution in the Nineteenth Century",
+        "url": "https://fair-use.org/p-j-proudhon/general-idea-of-the-revolution/",
+        "fecha": "1851",
+        "consultado": "2026-07-10",
+        "cita": "To be GOVERNED is to be watched, inspected, spied upon, directed, law-driven, numbered, regulated, enrolled, indoctrinated, preached at, controlled, checked, estimated, valued, censured, commanded, by creatures who have neither the right nor the wisdom nor the virtue to do so."
+      }
+    },
+    "soc-006": {
+      "valor": 1,
+      "justificacion": "La disolución del aparato judicial-punitivo estatal en arbitraje y contrato hace incompatible una pena estatal de prisión de por vida; el acuerdo no es máximo porque la obra no trata la figura penal concreta.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Pierre-Joseph Proudhon, General Idea of the Revolution in the Nineteenth Century",
+        "url": "https://fair-use.org/p-j-proudhon/general-idea-of-the-revolution/",
+        "fecha": "1851",
+        "consultado": "2026-07-10",
+        "cita": "To be GOVERNED is to be at every operation, at every transaction noted, registered, counted, taxed, stamped, measured, numbered, assessed, licensed, authorized, admonished, prevented, forbidden, reformed, corrected, punished."
+      }
+    },
+    "dem-034": {
+      "valor": 2,
+      "justificacion": "Es la formulación proudhoniana casi literal: unidades que pactan federarse delegando competencias limitadas y reservándose más derechos de los que ceden. El principio federativo es la doctrina territorial definitoria del mutualismo.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Pierre-Joseph Proudhon, The Federative Principle",
+        "url": "https://www.marxists.org/reference/subject/economics/proudhon/1863/the-federative-principle.html",
+        "fecha": "1863",
+        "consultado": "2026-07-10",
+        "cita": "the contracting parties, whether heads of family, towns, cantons, provinces, or states, not only undertake bilateral and commutative obligations, but in making the pact reserve for themselves more rights, more liberty, more authority, more property than they abandon"
+      }
+    },
+    "dem-035": {
+      "valor": 1,
+      "justificacion": "En el contrato federativo las partes conservan su soberanía y ceden solo lo delegado, lo que apunta a un vínculo revocable; el matiz es que Proudhon no formula un procedimiento legal de salida como el del ítem.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Pierre-Joseph Proudhon, The Federative Principle",
+        "url": "https://www.marxists.org/reference/subject/economics/proudhon/1863/the-federative-principle.html",
+        "fecha": "1863",
+        "consultado": "2026-07-10",
+        "cita": "the contracting parties, whether heads of family, towns, cantons, provinces, or states, not only undertake bilateral and commutative obligations, but in making the pact reserve for themselves more rights, more liberty, more authority, more property than they abandon"
+      }
+    },
+    "ter-001": {
+      "valor": -2,
+      "justificacion": "Recentralizar competencias en el Estado invierte el contrato federativo: las unidades deben reservarse más autoridad de la que ceden al centro, no al revés.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Pierre-Joseph Proudhon, The Federative Principle",
+        "url": "https://www.marxists.org/reference/subject/economics/proudhon/1863/the-federative-principle.html",
+        "fecha": "1863",
+        "consultado": "2026-07-10",
+        "cita": "the contracting parties, whether heads of family, towns, cantons, provinces, or states, not only undertake bilateral and commutative obligations, but in making the pact reserve for themselves more rights, more liberty, more authority, more property than they abandon"
+      }
+    },
+    "dr-021": {
+      "valor": -2,
+      "justificacion": "El Estado unitario y centralizado es el adversario expreso del principio federativo; la administración única disuelve las unidades contratantes cuya autonomía define esta doctrina.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Pierre-Joseph Proudhon, The Federative Principle",
+        "url": "https://www.marxists.org/reference/subject/economics/proudhon/1863/the-federative-principle.html",
+        "fecha": "1863",
+        "consultado": "2026-07-10",
+        "cita": "the contracting parties, whether heads of family, towns, cantons, provinces, or states, not only undertake bilateral and commutative obligations, but in making the pact reserve for themselves more rights, more liberty, more authority, more property than they abandon"
       }
     }
   }

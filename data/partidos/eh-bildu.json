@@ -4,10 +4,13 @@
   "siglas": "EH Bildu",
   "ambito": "autonomico",
   "tipo": "coalicion",
-  "ccaa": ["euskadi", "navarra"],
+  "ccaa": [
+    "euskadi",
+    "navarra"
+  ],
   "confianza": "verificada",
   "web": "https://ehbildu.eus/",
-  "revisado": "2026-07-09",
+  "revisado": "2026-07-10",
   "actividad": "activa",
   "posiciones": {
     "nac-001": {
@@ -176,6 +179,155 @@
         "url": "https://ehbildu.eus/dokumentuak/gardentasuna/Estatutos_2025.pdf",
         "fecha": "2025",
         "consultado": "2026-07-09"
+      }
+    },
+    "eco-005": {
+      "valor": 2,
+      "justificacion": "Negoció con ERC la Ley de Vivienda de 2023, que introduce los topes de precios en zonas tensionadas, y votó a favor; además reclamó declarar Bilbao y su área metropolitana como zona tensionada.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "El Congreso aprueba la ley de vivienda con los votos en contra de las derechas (elDiario.es)",
+        "url": "https://www.eldiario.es/economia/congreso-aprueba-ley-vivienda-votos-derechas_1_10155945.html",
+        "fecha": "2023-04-27",
+        "consultado": "2026-07-10",
+        "cita": "El Congreso aprueba la ley de vivienda con los votos en contra de las derechas"
+      }
+    },
+    "eco-011": {
+      "valor": 2,
+      "justificacion": "Votó contra las enmiendas a la totalidad que tumbaron la ley de jornada máxima de 37,5 horas sin reducción salarial (10-09-2025); la reducción de jornada por ley es una demanda estable de la izquierda soberanista.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "El Congreso tumba la reducción de jornada laboral con los votos de PP, Vox y Junts (Atlántico)",
+        "url": "https://www.atlantico.net/economia/congreso-tumba-reduccion-jornada-laboral_1_20250910-3976245.html",
+        "fecha": "2025-09-10",
+        "consultado": "2026-07-10"
+      }
+    },
+    "eco-014": {
+      "valor": 2,
+      "justificacion": "Votó a favor de crear el impuesto de solidaridad a las grandes fortunas (24-11-2022) y ya en junio de 2022 defendía con Unidas Podemos un impuesto estatal a las grandes fortunas con vocación de permanencia.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "El Congreso aprueba el impuesto a grandes fortunas y lo remite al Senado (Idealista News)",
+        "url": "https://www.idealista.com/news/finanzas/economia/2022/11/25/800323-el-congreso-aprueba-el-impuesto-a-grandes-fortunas-y-lo-remite-al-senado",
+        "fecha": "2022-11-25",
+        "consultado": "2026-07-10"
+      }
+    },
+    "eco-008": {
+      "valor": 2,
+      "justificacion": "Defiende la revalorización por IPC y aceptó expresamente subir cotizaciones para sostenerla (mecanismo de equidad intergeneracional). Matiz de conducta: se abstuvo en las votaciones de 2021 y 2023, no contra la indexación sino por considerar insuficientes otros aspectos (pensiones mínimas).",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "El Gobierno aprueba la reforma de las pensiones con la oposición del PP y la abstención de Vox y Bildu (El Español)",
+        "url": "https://www.elespanol.com/espana/politica/20230330/gobierno-aprueba-pensiones-erc-pp-vox-cs/752424863_0.html",
+        "fecha": "2023-03-30",
+        "consultado": "2026-07-10",
+        "cita": "El Gobierno aprueba la reforma de las pensiones con la oposición del PP y la abstención de Vox y Bildu"
+      }
+    },
+    "eco-003": {
+      "valor": 2,
+      "justificacion": "Respalda cada subida del SMI incluso sin acuerdo de la patronal y promueve un salario mínimo propio vasco más alto (1.400 euros), acorde a la realidad socioeconómica vasca.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "La nueva subida del SMI reconcilia a ERC, PNV y EH Bildu con Yolanda Díaz (Público)",
+        "url": "https://www.publico.es/politica/salario-minimo-interprofesional-nueva-subida-smi-punto-arranque-coser-heridas-dejo-reforma-laboral-socios-investidura.html",
+        "fecha": "2024",
+        "consultado": "2026-07-10",
+        "cita": "Subir el SMI sin el consenso de la patronal demuestra que el Gobierno puede y debe tomar las decisiones que beneficien a la mayoría social y trabajadora sin la necesidad de contar con el permiso de la CEOE"
+      }
+    },
+    "sd-023": {
+      "valor": 2,
+      "justificacion": "Pactó en 2022 con PSOE y Podemos evaluar la conversión de los gravámenes en permanentes, votó a favor del impuesto permanente a la banca (21-11-2024) y arrancó el compromiso de prorrogar el de las energéticas, que decayó por PP, Vox, Junts y PNV.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "El Congreso aprueba la reforma fiscal con el impuesto a la banca y el compromiso de prorrogar el de las energéticas (elDiario.es)",
+        "url": "https://www.eldiario.es/economia/congreso-aprueba-reforma-fiscal-impuesto-banca-compromiso-prorrogar-energeticas_1_11839252.html",
+        "fecha": "2024-11-21",
+        "consultado": "2026-07-10"
+      }
+    },
+    "soc-001": {
+      "valor": 2,
+      "justificacion": "Su programa de 2023 compromete defender todos los avances y conquistas logrados por las personas LGTBIQ+ y votó a favor de la ley trans y de garantía de derechos LGTBI (Ley 4/2023).",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral de EH Bildu para las generales de 2023 (resumen de El Nacional)",
+        "url": "https://www.elnacional.cat/es/elecciones/generales-2023/programa-electoral-bildu-2023-mertxe-aizpurua-elecciones-generales_1059369_102.html",
+        "fecha": "2023-07",
+        "consultado": "2026-07-10"
+      }
+    },
+    "soc-004": {
+      "valor": 2,
+      "justificacion": "Votó a favor de tramitar la regularización extraordinaria de unas 500.000 personas migrantes (09-04-2024); su portavoz Jon Iñarritu la defendió como cuestión de humanidad y reclamó que no se paralizara.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "El Congreso apoya la iniciativa popular para regularizar a cientos de miles de migrantes que ya viven y trabajan en España (elDiario.es)",
+        "url": "https://www.eldiario.es/desalambre/congreso-apoyara-iniciativa-popular-regularizar-cientos-miles-migrantes-viven-espana_1_11273877.html",
+        "fecha": "2024-04-09",
+        "consultado": "2026-07-10"
+      }
+    },
+    "fem-001": {
+      "valor": 2,
+      "justificacion": "Votó a favor de la Ley 4/2023, que consagra exactamente el mecanismo del ítem: cambio registral de sexo por voluntad propia, sin informes médicos ni psicológicos.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "El Congreso aprueba el proyecto de ley trans con el no de PP y Vox y Cs dividido (El Independiente)",
+        "url": "https://www.elindependiente.com/espana/2022/12/22/el-congreso-aprueba-el-proyecto-de-ley-trans-con-el-no-de-pp-y-vox-y-cs-dividido/",
+        "fecha": "2022-12-22",
+        "consultado": "2026-07-10"
+      }
+    },
+    "soc-006": {
+      "valor": 2,
+      "justificacion": "Conducta consistente: apoyó la toma en consideración de la derogación de la prisión permanente revisable (2017) y en marzo de 2026 votó contra su ampliación.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "El Congreso rechaza ampliar la prisión permanente revisable para asesinos que oculten el cadáver de su víctima (Libertad Digital)",
+        "url": "https://www.libertaddigital.com/espana/2026-03-17/el-congreso-rechaza-ampliar-la-prision-permanente-revisable-para-asesinos-que-oculten-el-cadaver-de-su-victima-7376052/",
+        "fecha": "2026-03-17",
+        "consultado": "2026-07-10"
+      }
+    },
+    "lib-017": {
+      "valor": 2,
+      "justificacion": "Votó a favor de la Ley Orgánica 3/2021, que reconoce la eutanasia como derecho para quien la solicita de forma libre y reiterada (aprobada 202-141-2 el 18-03-2021).",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "El Congreso aprueba la Ley de la Eutanasia con el voto en contra de Vox y PP (elEconomista)",
+        "url": "https://www.eleconomista.es/politica/noticias/11111933/03/21/El-Congreso-aprueba-la-Ley-de-la-Eutanasia-con-el-voto-en-contra-de-Vox-y-PP.html",
+        "fecha": "2021-03-18",
+        "consultado": "2026-07-10",
+        "cita": "El Congreso aprueba la Ley de la Eutanasia con el voto en contra de Vox y PP"
+      }
+    },
+    "fem-014": {
+      "valor": 2,
+      "justificacion": "Votó a favor de la regulación integral del cannabis (uso adulto y medicinal) en las dos proposiciones de la XIV Legislatura (Más País, 2021; ERC, 2022-2023).",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "PSOE, PP y Vox tumban en el Congreso la primera ley para despenalizar todos los usos del cannabis (elDiario.es)",
+        "url": "https://www.eldiario.es/politica/psoe-pp-vox-tumban-congreso-primera-ley-despenalizar-usos-cannabis_1_8409904.html",
+        "fecha": "2021-10-19",
+        "consultado": "2026-07-10",
+        "cita": "PSOE, PP y Vox tumban en el Congreso la primera ley para despenalizar todos los usos del cannabis"
       }
     }
   }

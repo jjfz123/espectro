@@ -4,10 +4,12 @@
   "siglas": "Junts",
   "ambito": "autonomico",
   "tipo": "partido",
-  "ccaa": ["catalunya"],
+  "ccaa": [
+    "catalunya"
+  ],
   "confianza": "verificada",
   "web": "https://junts.cat/",
-  "revisado": "2026-07-09",
+  "revisado": "2026-07-10",
   "actividad": "activa",
   "posiciones": {
     "nac-001": {
@@ -116,6 +118,132 @@
         "url": "https://web.junts.cat/wp-content/uploads/2024/10/Ponencia-3.pdf",
         "fecha": "2024-10",
         "consultado": "2026-07-09"
+      }
+    },
+    "eco-011": {
+      "valor": -2,
+      "justificacion": "Presentó y sacó adelante (con PP y Vox) la enmienda a la totalidad que devolvió al Gobierno el proyecto de las 37,5 horas, calificándolo de ataque a pymes y autónomos. Alegó preferencia por la negociación colectiva, pero ante una reducción «por ley» su conducta es frontalmente contraria.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "El Congreso tumba la reducción de la jornada laboral por la enmienda a la totalidad de Junts (El Triangle)",
+        "url": "https://www.eltriangle.eu/es/2025/09/10/el-congreso-tumba-reduccion-de-la-jornada-laboral-por-la-enmienda-a-la-totalidad-de-junts/",
+        "fecha": "2025-09-10",
+        "consultado": "2026-07-10",
+        "cita": "ataque frontal contra los autónomos y las pymes"
+      }
+    },
+    "sd-023": {
+      "valor": -1,
+      "justificacion": "Conducta mixta: votó a favor de convertir el gravamen bancario en impuesto (21-11-2024), pero tumbó dos veces la continuidad del gravamen a las energéticas (diciembre de 2024 y enero de 2025), dejándolo decaer. Ante un ítem que exige ambos permanentes, desacuerdo moderado.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "1.000 millones menos para las arcas públicas: PNV, Junts, PP y Vox rechazan el impuesto a las energéticas (elDiario.es)",
+        "url": "https://www.eldiario.es/economia/1-000-millones-arcas-publicas-pnv-junts-tumban-impuesto-energeticas_1_11984026.html",
+        "fecha": "2024-12",
+        "consultado": "2026-07-10"
+      }
+    },
+    "eco-005": {
+      "valor": -1,
+      "justificacion": "Votó contra la Ley de Vivienda de 2023 alegando invasión competencial (avaló en 2020 la ley catalana de contención de rentas), pero su conducta posterior añade un rechazo de fondo al intervencionismo: contra la regulación de los alquileres de temporada en 2024 y a favor de derogar el tope en 2026.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "El giro de Junts en vivienda: de apoyar la regulación de precios en 2020 a votar junto a PP y Vox en el Congreso (elDiario.es)",
+        "url": "https://www.eldiario.es/catalunya/giro-junts-vivienda-apoyar-regulacion-precios-votar-pp-vox-congreso_1_11663678.html",
+        "fecha": "2024",
+        "consultado": "2026-07-10",
+        "cita": "El giro de Junts en vivienda: de apoyar la regulación de precios en 2020 a votar junto a PP y Vox en el Congreso"
+      }
+    },
+    "eco-014": {
+      "valor": 0,
+      "justificacion": "Votó a favor de crear el impuesto (entonces temporal) a las grandes fortunas en noviembre de 2022, pero su programa de 2023 pide reducir la presión fiscal y no consta apoyo a convertirlo en permanente: posición neta ambigua ante el texto del ítem.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "El Congreso aprueba el impuesto a grandes fortunas y lo remite al Senado (Idealista News)",
+        "url": "https://www.idealista.com/news/finanzas/economia/2022/11/25/800323-el-congreso-aprueba-el-impuesto-a-grandes-fortunas-y-lo-remite-al-senado",
+        "fecha": "2022-11-25",
+        "consultado": "2026-07-10"
+      }
+    },
+    "eco-007": {
+      "valor": 2,
+      "justificacion": "Es autora de la ley antiokupación de desalojo exprés en 48 horas, tomada en consideración en marzo de 2025, y apoyó la reforma que tramita la ocupación por juicios rápidos (LO 1/2025).",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "El Congreso aprueba tramitar una ley de Junts para desalojar «okupas» en 48 horas (Idealista News)",
+        "url": "https://www.idealista.com/news/inmobiliario/vivienda/2025/03/19/837292-el-congreso-aprueba-tramitar-una-ley-de-junts-para-desalojar-okupas-en-48-horas",
+        "fecha": "2025-03-19",
+        "consultado": "2026-07-10",
+        "cita": "El Congreso aprueba tramitar una ley de Junts para desalojar 'okupas' en 48 horas"
+      }
+    },
+    "eco-001": {
+      "valor": -1,
+      "justificacion": "Su programa de 2023 propone reducir la presión fiscal: reequilibrar los tipos sobre las rentas del trabajo considerados excesivos, bajar sociedades de pymes del 25% al 20% y rebajar el IVA de varios productos. Conducta mixta en votaciones puntuales, por eso -1 y no -2.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral de Junts per Catalunya 2023 (resumen de El Nacional)",
+        "url": "https://www.elnacional.cat/es/elecciones/generales-2023/programa-electoral-junts-catalunya-2023-miriam-nogueras-elecciones-generales_1059381_102.html",
+        "fecha": "2023-07",
+        "consultado": "2026-07-10"
+      }
+    },
+    "soc-002": {
+      "valor": 1,
+      "justificacion": "Giro restrictivo documentado: pactó con el PSOE delegar en la Generalitat la gestión de expulsiones y devoluciones y quiere fijar condiciones para expulsar a extranjeros multirreincidentes; pero no formula la devolución como respuesta única (votó a favor de tramitar la ILP de regularización).",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Junts quiere que la Generalitat pueda fijar las condiciones para expulsar a inmigrantes con delitos multirreincidentes (Ara)",
+        "url": "https://es.ara.cat/politica/junts-quiere-generalitat-pueda-fijar-condiciones-expulsar-inmigrantes-delitos-multirreincidentes_1_4907247.html",
+        "fecha": "2025-03",
+        "consultado": "2026-07-10",
+        "cita": "Junts quiere que la Generalitat pueda fijar las condiciones para expulsar a inmigrantes con delitos multirreincidentes"
+      }
+    },
+    "soc-004": {
+      "valor": 0,
+      "justificacion": "Permitió tramitar la ILP de regularización (voto a favor de la toma en consideración, 09-04-2024) anunciando matizaciones, pero subordina su apoyo final al traspaso de competencias migratorias a Cataluña, sin comprometerse con el fondo: posición neta condicional.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "Todos los partidos, excepto Vox, aceptan estudiar una ILP para regularizar a miles de inmigrantes (El Español)",
+        "url": "https://www.elespanol.com/espana/20240409/partidos-excepto-vox-aprueban-ilp-regularizar-miles-inmigrantes-espana/846415638_0.amp.html",
+        "fecha": "2024-04-09",
+        "consultado": "2026-07-10",
+        "cita": "Todos los partidos, excepto Vox, aceptan estudiar una ILP para regularizar a miles de inmigrantes"
+      }
+    },
+    "fem-001": {
+      "valor": 1,
+      "justificacion": "Votó a favor de la ley trans (autodeterminación registral sin informes médicos) en diciembre de 2022, con apoyo de perfil bajo y sin bandera propia; en el espacio postconvergente hubo abstenciones (PDeCAT).",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "El Congreso aprueba el proyecto de ley trans con el no de PP y Vox y Cs dividido (El Independiente)",
+        "url": "https://www.elindependiente.com/espana/2022/12/22/el-congreso-aprueba-el-proyecto-de-ley-trans-con-el-no-de-pp-y-vox-y-cs-dividido/",
+        "fecha": "2022-12-22",
+        "consultado": "2026-07-10"
+      }
+    },
+    "lib-017": {
+      "valor": 2,
+      "justificacion": "JxCat votó a favor de la Ley Orgánica de Regulación de la Eutanasia en las votaciones de diciembre de 2020 y marzo de 2021, que la configuran como derecho para quien la solicita de forma libre y reiterada.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "Los partidos que votaron sí a la eutanasia en España (Hispanidad)",
+        "url": "https://www.hispanidad.com/hemeroteca/confidencial/psoe-podemos-bng-erc-junts-catalunya-pdecat-mas-pais-bildu-pnv-nueva-canarias-coalicion-canaria-cup-cs-partidos-responsables-aprobacion-eutanasia-en-espana_12024792_102.html",
+        "fecha": "2021-03",
+        "consultado": "2026-07-10",
+        "cita": "PSOE, Podemos, BNG, ERC, Junts per Catalunya, PDeCAT, Más País, Bildu, PNV, Nueva Canarias, Coalición Canaria, CUP y Cs"
       }
     }
   }

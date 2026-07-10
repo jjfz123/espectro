@@ -6,9 +6,13 @@
   "variante": "Tradición rothbardiana; no representa todas las variantes libertarias de mercado",
   "periodo": "Siglo XX–actualidad",
   "confianza": "verificada",
-  "version": "1.0",
-  "revisado": "2026-07-09",
-  "facetasDefinitorias": ["economico", "estatismo", "institucionalismo"],
+  "version": "1.1",
+  "revisado": "2026-07-10",
+  "facetasDefinitorias": [
+    "economico",
+    "estatismo",
+    "institucionalismo"
+  ],
   "sensibilidad": "normal",
   "advertencia": "Es un tipo ideal doctrinal, no un partido español ni una identidad asignada. P-LIB conserva un Estado mínimo para seguridad, justicia y defensa y por ello se codifica como minarquista, no como anarcocapitalista. Las posiciones sobre fronteras, aborto, religión o cultura varían entre autores y se dejan sin especificar.",
   "fuentesMarco": [
@@ -290,6 +294,123 @@
         "url": "https://mises.org/library/book/new-liberty-libertarian-manifesto",
         "fecha": "1973",
         "consultado": "2026-07-09"
+      }
+    },
+    "eco-007": {
+      "valor": 2,
+      "justificacion": "La ocupación sin título es agresión contra la propiedad legítima y debe cesar de inmediato; el tipo ideal encomendaría el desalojo a policías y tribunales privados en competencia, no a un procedimiento estatal, pero el fondo del ítem coincide plenamente.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Murray N. Rothbard, Society Without a State",
+        "url": "https://mises.org/mises-daily/society-without-state",
+        "fecha": "1975",
+        "consultado": "2026-07-10",
+        "cita": "I define anarchist society as one where there is no legal possibility for coercive aggression against the person or property of any individual."
+      }
+    },
+    "lib-017": {
+      "valor": 1,
+      "justificacion": "La autopropiedad absoluta del cuerpo incluye decidir el propio final y recibir ayuda contratada libremente; el matiz es que el ítem lo formula como derecho reconocido por ley estatal, y esta doctrina rechaza que dependa del reconocimiento del Estado.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Murray N. Rothbard, For a New Liberty: The Libertarian Manifesto",
+        "url": "https://mises.org/library/book/new-liberty-libertarian-manifesto",
+        "fecha": "1973",
+        "consultado": "2026-07-10",
+        "cita": "The right to self-ownership asserts the absolute right of each man, by virtue of his (or her) being a human being, to 'own' his or her own body; that is, to control that body free of coercive interference."
+      }
+    },
+    "va-003": {
+      "valor": -2,
+      "justificacion": "Doble rechazo doctrinal: los animales no son sujetos de derechos en la teoría rothbardiana y una prohibición estatal de espectáculos entre adultos que consienten es una agresión contra la propiedad y el contrato.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Murray N. Rothbard, The «Rights» of Animals (The Ethics of Liberty, cap. 21)",
+        "url": "https://mises.org/library/rights-animals",
+        "fecha": "1982",
+        "consultado": "2026-07-10",
+        "cita": "any concept of rights, of criminality, of aggression, can only apply to actions of one man or group of men against other human beings"
+      }
+    },
+    "soc-003": {
+      "valor": -2,
+      "justificacion": "No existe en este tipo ideal un «espacio público» estatal que vigilar ni una policía estatal que lo haga: la videovigilancia solo sería una condición contractual de cada propietario privado, nunca una política estatal de seguridad justificada.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Murray N. Rothbard, Society Without a State",
+        "url": "https://mises.org/mises-daily/society-without-state",
+        "fecha": "1975",
+        "consultado": "2026-07-10",
+        "cita": "I define anarchist society as one where there is no legal possibility for coercive aggression against the person or property of any individual."
+      }
+    },
+    "ter-002": {
+      "valor": 2,
+      "justificacion": "La secesión ilimitada —de regiones, ciudades, barrios e incluso individuos— es un derecho explícito en el Rothbard tardío; cualquier territorio que quiera decidir su pertenencia debe poder hacerlo.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Murray N. Rothbard, Nations by Consent: Decomposing the Nation-State (Journal of Libertarian Studies)",
+        "url": "https://mises.org/journal-libertarian-studies/nations-consent",
+        "fecha": "1994",
+        "consultado": "2026-07-10",
+        "cita": "In short, every group, every nationality, should be allowed to secede from any nation-state and to join any other nation-state that agrees to have it."
+      }
+    },
+    "dem-034": {
+      "valor": 1,
+      "justificacion": "Toda descentralización que acerque el poder a unidades menores y voluntarias es un paso en la dirección correcta, pero el tipo ideal no conserva «instituciones comunes» estatales ni territorios soberanos: disuelve el Estado-nación por completo.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Murray N. Rothbard, Nations by Consent: Decomposing the Nation-State (Journal of Libertarian Studies)",
+        "url": "https://mises.org/journal-libertarian-studies/nations-consent",
+        "fecha": "1994",
+        "consultado": "2026-07-10",
+        "cita": "In short, every group, every nationality, should be allowed to secede from any nation-state and to join any other nation-state that agrees to have it."
+      }
+    },
+    "dem-035": {
+      "valor": 2,
+      "justificacion": "El derecho de salida es la esencia de la nación por consentimiento: ningún pacto político puede ser irrevocable para quien ya no consiente, hasta el nivel del individuo.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Murray N. Rothbard, Nations by Consent: Decomposing the Nation-State (Journal of Libertarian Studies)",
+        "url": "https://mises.org/journal-libertarian-studies/nations-consent",
+        "fecha": "1994",
+        "consultado": "2026-07-10",
+        "cita": "In short, every group, every nationality, should be allowed to secede from any nation-state and to join any other nation-state that agrees to have it."
+      }
+    },
+    "ter-001": {
+      "valor": -2,
+      "justificacion": "Devolver competencias al Estado central es concentrar aún más el monopolio coercitivo que esta doctrina quiere descomponer en unidades cada vez menores y finalmente privadas.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Murray N. Rothbard, Nations by Consent: Decomposing the Nation-State (Journal of Libertarian Studies)",
+        "url": "https://mises.org/journal-libertarian-studies/nations-consent",
+        "fecha": "1994",
+        "consultado": "2026-07-10",
+        "cita": "In short, every group, every nationality, should be allowed to secede from any nation-state and to join any other nation-state that agrees to have it."
+      }
+    },
+    "dr-021": {
+      "valor": -2,
+      "justificacion": "Un Estado unitario con una sola administración es el máximo grado de monopolio estatal concebible: exactamente lo contrario de descomponer el Estado-nación en unidades voluntarias.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Murray N. Rothbard, Society Without a State",
+        "url": "https://mises.org/mises-daily/society-without-state",
+        "fecha": "1975",
+        "consultado": "2026-07-10",
+        "cita": "I define anarchist society as one where there is no legal possibility for coercive aggression against the person or property of any individual."
       }
     }
   }

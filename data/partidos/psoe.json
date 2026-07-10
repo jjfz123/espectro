@@ -6,7 +6,7 @@
   "tipo": "partido",
   "confianza": "verificada",
   "web": "https://www.psoe.es/",
-  "revisado": "2026-07-09",
+  "revisado": "2026-07-10",
   "actividad": "activa",
   "posiciones": {
     "sd-002": {
@@ -139,6 +139,224 @@
         "url": "https://41congreso.psoe.es/wp-content/uploads/2025/03/ESTATUTOS41o-CF.pdf",
         "fecha": "2025-03",
         "consultado": "2026-07-09"
+      }
+    },
+    "eco-003": {
+      "valor": 2,
+      "justificacion": "Conducta de gobierno: subidas continuas del SMI desde 2018 pese a las advertencias sobre empleo, y compromiso de fijar por ley el SMI en el 60% del salario medio reformando el Estatuto de los Trabajadores.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Pedro Sánchez propone fijar por ley el SMI en el 60% del salario medio (infoLibre)",
+        "url": "https://www.infolibre.es/economia/pedro-sanchez-propone-fijar-ley-smi-60-salario-medio_1_1530135.html",
+        "fecha": "2023",
+        "consultado": "2026-07-10",
+        "cita": "Pedro Sánchez propone fijar por ley el SMI en el 60% del salario medio"
+      }
+    },
+    "eco-005": {
+      "valor": 1,
+      "justificacion": "Su Gobierno aprobó la Ley 12/2023, que permite topar alquileres en zonas declaradas tensionadas. El apoyo es a un límite condicionado y activable por cada comunidad autónoma, no a un control generalizado de precios: por eso +1 y no +2.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "Ley 12/2023, de 24 de mayo, por el derecho a la vivienda (aprobada con el voto del PSOE)",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-12203",
+        "fecha": "2023-05-24",
+        "consultado": "2026-07-10"
+      }
+    },
+    "eco-006": {
+      "valor": 2,
+      "justificacion": "Compromiso central del programa del 23J (183.000 viviendas públicas de alquiler) reforzado con los planes de 2024-2025 y la empresa pública de vivienda. La ejecución va muy retrasada respecto a lo prometido, de ahí el estado «parcial».",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "De dónde salen las 183.000 viviendas de alquiler asequible que ha prometido Pedro Sánchez (elDiario.es, citando el programa electoral)",
+        "url": "https://www.eldiario.es/economia/salen-183-000-viviendas-alquiler-asequible-prometido-pedro-sanchez_1_10151227.html",
+        "fecha": "2023",
+        "consultado": "2026-07-10",
+        "cita": "Queremos construir 183.000 viviendas públicas para alquiler y garantizando que la mitad vaya destinada a jóvenes"
+      }
+    },
+    "eco-008": {
+      "valor": 2,
+      "justificacion": "Conducta legislativa: la Ley 21/2021 fija por ley la revalorización anual de las pensiones con el IPC y el mismo paquete crea el MEI, una cotización adicional finalista: asumió expresamente pagar la revalorización con más cotizaciones.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "El Congreso aprueba la reforma que garantiza la revalorización de las pensiones según el IPC (elDiario.es)",
+        "url": "https://www.eldiario.es/politica/congreso-aprueba-reforma-garantiza-revalorizacion-pensiones-ipc_1_8548144.html",
+        "fecha": "2021-12",
+        "consultado": "2026-07-10",
+        "cita": "garantiza de una vez y para siempre el poder adquisitivo de las pensiones y deja atrás una etapa de incertidumbre"
+      }
+    },
+    "eco-014": {
+      "valor": 2,
+      "justificacion": "Creó el Impuesto de Solidaridad de las Grandes Fortunas (Ley 38/2022) como figura «temporal» y lo prorrogó de forma indefinida mediante el RDL 8/2023: la conducta lo ha consolidado como gravamen permanente de facto.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Se prorroga la vigencia del Impuesto de Solidaridad de las Grandes Fortunas (análisis de Garrigues del RDL 8/2023)",
+        "url": "https://www.garrigues.com/es_ES/noticia/prorroga-vigencia-impuesto-solidaridad-grandes-fortunas-aprueban-otras-novedades",
+        "fecha": "2023-12",
+        "consultado": "2026-07-10",
+        "cita": "El ITSGF se prorroga, ya con efectos desde 2024, de forma indefinida, en tanto no se revise la tributación patrimonial en el contexto de la reforma del sistema de financiación autonómica"
+      }
+    },
+    "sd-023": {
+      "valor": 1,
+      "justificacion": "Conducta partida: convirtió el gravamen a la banca en impuesto permanente (Ley 7/2024), pero el de las energéticas decayó cuando PP, Vox, Junts y PNV tumbaron su prórroga y el Gobierno renunció a reintentarla. De acuerdo, pero solo consumó la mitad.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "Entra en vigor la Ley 7/2024: nuevos impuestos a la banca y las multinacionales, y derogación del impuesto a las energéticas",
+        "url": "https://www.eldiariodemadrid.es/articulo/madrid/entra-vigor-ley-7-2024-nuevos-impuestos-banca-multinacionales-derogacion-impuesto-energeticas/20241222093229086418.html",
+        "fecha": "2024-12-22",
+        "consultado": "2026-07-10",
+        "cita": "Entra en vigor la Ley 7/2024: nuevos impuestos a la banca y las multinacionales, y derogación del impuesto a las energéticas"
+      }
+    },
+    "soc-001": {
+      "valor": 2,
+      "justificacion": "Aprobó el matrimonio igualitario en 2005, lo reivindica como logro propio y votó la Ley 4/2023 que blinda estatalmente los derechos LGTBI; el programa del 23J propone seguir garantizándolos.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "Ley 4/2023, para la igualdad real y efectiva de las personas trans y para la garantía de los derechos de las personas LGTBI (BOE)",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-5366",
+        "fecha": "2023-02-28",
+        "consultado": "2026-07-10",
+        "cita": "Ley 4/2023, de 28 de febrero, para la igualdad real y efectiva de las personas trans y para la garantía de los derechos de las personas LGTBI."
+      }
+    },
+    "soc-005": {
+      "valor": 2,
+      "justificacion": "Sánchez defendió ante el Congreso que la migración es necesaria para la prosperidad y el Estado del bienestar, y su Gobierno reformó el reglamento de extranjería para ampliar la regularización por arraigo.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Comparecencia de Pedro Sánchez ante el Congreso sobre migración (La Moncloa)",
+        "url": "https://www.lamoncloa.gob.es/presidente/actividades/Paginas/2024/091024-sanchez-comparecencia-congreso.aspx",
+        "fecha": "2024-10-09",
+        "consultado": "2026-07-10",
+        "cita": "Acoger al que viene de fuera no es sólo un deber, sino un paso para garantizar el Estado del bienestar"
+      }
+    },
+    "fem-001": {
+      "valor": 1,
+      "justificacion": "Conducta final: el Grupo Socialista votó a favor de la ley trans, que consagra la autodeterminación registral para adultos. Pero antes presentó enmiendas para limitarla y Carmen Calvo rompió la disciplina de voto: apoyo real aunque incómodo, +1 y no +2.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "Carmen Calvo rompe la disciplina de voto del PSOE y se abstiene en la aprobación de la Ley Trans (El Español)",
+        "url": "https://www.elespanol.com/espana/politica/20221222/carmen-calvo-disciplina-psoe-aprobacion-ley-trans/727927443_0.html",
+        "fecha": "2022-12-22",
+        "consultado": "2026-07-10",
+        "cita": "Carmen Calvo rompe la disciplina de voto del PSOE y se abstiene en la aprobación de la Ley Trans"
+      }
+    },
+    "fem-012": {
+      "valor": 2,
+      "justificacion": "Su Gobierno impulsó y votó la LO 1/2023, que restauró el derecho de las jóvenes de 16 y 17 años a interrumpir el embarazo sin consentimiento paterno, suprimido por el PP en 2015.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "Ley Orgánica 1/2023, de 28 de febrero, de salud sexual y reproductiva y de la interrupción voluntaria del embarazo (BOE)",
+        "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2023-5364",
+        "fecha": "2023-02-28",
+        "consultado": "2026-07-10"
+      }
+    },
+    "fem-014": {
+      "valor": -1,
+      "justificacion": "Conducta reiterada: votó con PP y Vox contra la toma en consideración de la regulación integral del cannabis de Más País (2021) y contra la de ERC (2023), pese al apoyo de todos sus socios. Rechazo firme en votación, aunque abrió la puerta al uso medicinal.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "El PSOE vota «no» a la ley de Más País de legalización del cannabis (Público)",
+        "url": "https://www.publico.es/sociedad/psoe-vota-no-ley-mas-pais-cannabis.html",
+        "fecha": "2021-10-19",
+        "consultado": "2026-07-10",
+        "cita": "El PSOE vota 'no' a la ley de Más País de legalización del cannabis"
+      }
+    },
+    "lib-017": {
+      "valor": 2,
+      "justificacion": "La ley de eutanasia nació como proposición del Grupo Socialista y fue aprobada en marzo de 2021 con su voto: configura la eutanasia como derecho y prestación sanitaria, exactamente lo que plantea el ítem.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "Ley Orgánica 3/2021, de 24 de marzo, de regulación de la eutanasia (BOE)",
+        "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2021-4628",
+        "fecha": "2021-03-25",
+        "consultado": "2026-07-10",
+        "cita": "Ley Orgánica 3/2021, de 24 de marzo, de regulación de la eutanasia."
+      }
+    },
+    "ter-001": {
+      "valor": -2,
+      "justificacion": "Defiende profundizar el Estado autonómico por la vía federal («racionalizar, clarificar y completar» el reparto competencial) y su conducta de gobierno pactó nuevos traspasos (Rodalies), lo contrario de devolver competencias al Estado.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Un nuevo pacto territorial para una sociedad plural (propuestas del PSOE)",
+        "url": "https://www.psoe.es/propuestas/reforma-constitucional/nuevo-pacto-territorial/",
+        "fecha": "2023",
+        "consultado": "2026-07-10"
+      }
+    },
+    "ter-002": {
+      "valor": -2,
+      "justificacion": "Posición constante de Sánchez y del programa: no al referéndum de autodeterminación, ni siquiera consultivo; los acuerdos con ERC y Junts (amnistía, financiación) lo excluyen expresamente.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Sánchez descarta un referéndum no vinculante para Cataluña antes de verse con Pere Aragonès (El Español)",
+        "url": "https://www.elespanol.com/espana/politica/20231221/sanchez-descarta-referendum-no-vinculante-cataluna-verse-pere-aragones/818918124_0.html",
+        "fecha": "2023-12-21",
+        "consultado": "2026-07-10",
+        "cita": "Sánchez descarta un referéndum no vinculante para Cataluña antes de verse con Pere Aragonès"
+      }
+    },
+    "ter-004": {
+      "valor": -1,
+      "justificacion": "Conducta parlamentaria: firmó y votó la enmienda de la LOMLOE que suprimió la mención del castellano como lengua «vehicular» y ha votado contra reponerla, remitiendo la garantía a la Constitución y a las comunidades; rechazo claro aunque no frontal.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "PSOE, Podemos y ERC aprueban que el castellano deje de ser lengua vehicular en la Educación (El Independiente)",
+        "url": "https://www.elindependiente.com/espana/2020/11/05/psoe-podemos-y-erc-aprueban-que-el-castellano-deje-de-ser-lengua-vehicular-en-la-educacion/",
+        "fecha": "2020-11-05",
+        "consultado": "2026-07-10",
+        "cita": "Las Administraciones educativas garantizarán el derecho de los alumnos y las alumnas a recibir enseñanzas en castellano y en las demás lenguas cooficiales en sus respectivos territorios"
+      }
+    },
+    "cat-003": {
+      "valor": 1,
+      "justificacion": "Conducta: impulsó y votó la ley de amnistía del procés (30-05-2024) como vía de «convivencia» frente a la judicialización, pero la defiende como excepción pragmática, no como principio general. Divergencia notoria: antes del 23J la negaba por inconstitucional.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "El Congreso aprueba definitivamente la ley de amnistía con 177 votos a favor y 172 en contra (COPE)",
+        "url": "https://www.cope.es/actualidad/espana/noticias/congreso-aprueba-ley-amnistia-20240530_3324407",
+        "fecha": "2024-05-30",
+        "consultado": "2026-07-10",
+        "cita": "El Congreso aprueba definitivamente la ley de amnistía con 177 votos a favor y 172 en contra"
+      }
+    },
+    "sd-006": {
+      "valor": -2,
+      "justificacion": "Posición revelada: Sánchez fue investido en noviembre de 2023 con los votos de ERC, Junts, EH Bildu, PNV y BNG tras rechazar la Ejecutiva Federal las ofertas de gran coalición del PP; eligió estructuralmente la mayoría plurinacional frente al acuerdo con la derecha.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Así llega Sánchez a la investidura: los pactos con Sumar, ERC, Junts, EH Bildu, BNG y Coalición Canaria (Newtral)",
+        "url": "https://www.newtral.es/pactos-investidura-sanchez/20231111/",
+        "fecha": "2023-11-11",
+        "consultado": "2026-07-10",
+        "cita": "Así llega Sánchez a la investidura: los pactos con Sumar, ERC, Junts, EH Bildu, BNG y Coalición Canaria"
       }
     }
   }

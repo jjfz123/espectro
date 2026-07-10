@@ -6,11 +6,17 @@
   "variante": "Anarcosindicalismo AIT; el sindicalismo revolucionario no anarquista y las prácticas de CGT u otros sindicatos pueden diferir",
   "periodo": "Finales del siglo XIX–actualidad",
   "confianza": "verificada",
-  "version": "1.0",
-  "revisado": "2026-07-09",
-  "facetasDefinitorias": ["autonomia-sindical", "poder-laboral", "estatismo", "institucionalismo", "organizacion"],
+  "version": "1.1",
+  "revisado": "2026-07-10",
+  "facetasDefinitorias": [
+    "autonomia-sindical",
+    "poder-laboral",
+    "estatismo",
+    "institucionalismo",
+    "organizacion"
+  ],
   "sensibilidad": "normal",
-  "advertencia": "Es una referencia doctrinal no electoral. No describe automáticamente a CNT, CNT-AIT, CGT o Solidaridad Obrera: son sindicatos reales con estatutos y tácticas propias y permanecen en un catálogo separado. La variante AIT rechaza subvenciones y elecciones a comités de empresa; CGT participa en elecciones sindicales, por lo que no debe heredar este vector. Tampoco se imputan posiciones nucleares, religiosas, territoriales o bioéticas.",
+  "advertencia": "Es una referencia doctrinal no electoral. No describe automáticamente a CNT, CNT-AIT, CGT o Solidaridad Obrera: son sindicatos reales con estatutos y tácticas propias y permanecen en un catálogo separado. La variante AIT rechaza subvenciones y elecciones a comités de empresa; CGT participa en elecciones sindicales, por lo que no debe heredar este vector. Tampoco se imputan posiciones nucleares, religiosas o bioéticas, ni sobre disputas territoriales españolas concretas; la estructura confederal (federalismo de abajo arriba frente a Estado central) sí se codifica por ser definitoria.",
   "fuentesMarco": [
     {
       "tipo": "otro",
@@ -271,6 +277,146 @@
         "url": "https://iwa-ait.org/content/statutes",
         "fecha": "2022-12-10",
         "consultado": "2026-07-09"
+      }
+    },
+    "izq-016": {
+      "valor": 2,
+      "justificacion": "El dictamen de Zaragoza declara abolida la propiedad privada tras la revolución, sin indemnización alguna: la expropiación de banca y grandes empresas es el primer acto del programa confederal.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "CNT, Dictamen sobre el concepto confederal del comunismo libertario (Congreso de Zaragoza)",
+        "url": "https://www.cnt.es/noticias/concepto-confederal-del-comunismo-libertario/",
+        "fecha": "1936-05",
+        "consultado": "2026-07-10",
+        "cita": "Terminado el aspecto violento de la revolución, se declararán abolidos: la propiedad privada, el Estado, el principio de autoridad"
+      }
+    },
+    "lab-017": {
+      "valor": 2,
+      "justificacion": "La administración directa de la producción por las organizaciones de productores —no por ministerios— es la definición misma del comunismo libertario confederal.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "CNT, Dictamen sobre el concepto confederal del comunismo libertario (Congreso de Zaragoza)",
+        "url": "https://www.cnt.es/noticias/concepto-confederal-del-comunismo-libertario/",
+        "fecha": "1936-05",
+        "consultado": "2026-07-10",
+        "cita": "Socializada la riqueza, las organizaciones de productoras, devenidos libres, se encargarán de la administración directa de la producción y el consumo"
+      }
+    },
+    "izq-042": {
+      "valor": 2,
+      "justificacion": "La acción directa sobre la propiedad ociosa —ocupar y poner en uso— pertenece al repertorio doctrinal: quien declara abolida la propiedad privada no puede considerar ilegítimo convertir edificios abandonados en centros sociales.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "CNT, Dictamen sobre el concepto confederal del comunismo libertario (Congreso de Zaragoza)",
+        "url": "https://www.cnt.es/noticias/concepto-confederal-del-comunismo-libertario/",
+        "fecha": "1936-05",
+        "consultado": "2026-07-10",
+        "cita": "Terminado el aspecto violento de la revolución, se declararán abolidos: la propiedad privada, el Estado, el principio de autoridad"
+      }
+    },
+    "eco-007": {
+      "valor": -2,
+      "justificacion": "Un procedimiento estatal exprés para blindar títulos de propiedad inmobiliaria es doblemente ajeno a la doctrina: refuerza a la vez la propiedad privada y el aparato coactivo del Estado que el dictamen declara abolidos.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "CNT, Dictamen sobre el concepto confederal del comunismo libertario (Congreso de Zaragoza)",
+        "url": "https://www.cnt.es/noticias/concepto-confederal-del-comunismo-libertario/",
+        "fecha": "1936-05",
+        "consultado": "2026-07-10"
+      }
+    },
+    "izq-044": {
+      "valor": 2,
+      "justificacion": "El dictamen de Zaragoza prevé la desaparición del sistema de justicia correccional y de los instrumentos de castigo, confiando los conflictos a la comunidad (medicina y pedagogía en lugar de castigo): reducir la policía hacia mecanismos comunitarios es su dirección exacta.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "CNT, Dictamen sobre el concepto confederal del comunismo libertario (Congreso de Zaragoza)",
+        "url": "https://www.cnt.es/noticias/concepto-confederal-del-comunismo-libertario/",
+        "fecha": "1936-05",
+        "consultado": "2026-07-10"
+      }
+    },
+    "soc-006": {
+      "valor": 2,
+      "justificacion": "El dictamen declara el comunismo libertario incompatible con todo régimen de castigo y prevé la desaparición de cárceles y presidios: con más razón rechaza una pena de prisión de por vida como la prisión permanente revisable.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "CNT, Dictamen sobre el concepto confederal del comunismo libertario (Congreso de Zaragoza)",
+        "url": "https://www.cnt.es/noticias/concepto-confederal-del-comunismo-libertario/",
+        "fecha": "1936-05",
+        "consultado": "2026-07-10"
+      }
+    },
+    "nac-003": {
+      "valor": -2,
+      "justificacion": "Rocker dedica su obra mayor a negar que la nación sea una comunidad natural definida por la lengua: la nación es un producto del Estado, y condicionar la pertenencia a un requisito lingüístico es la lógica nacionalista que el anarcosindicalismo combate.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Rudolf Rocker, Nationalism and Culture (extracto)",
+        "url": "https://www.panarchy.org/rocker/nationalism.html",
+        "fecha": "1937",
+        "consultado": "2026-07-10",
+        "cita": "The nation is not the cause, but the result, of the state."
+      }
+    },
+    "dem-034": {
+      "valor": 1,
+      "justificacion": "El federalismo de abajo arriba con autodeterminación de cada unidad es el principio organizativo doctrinal; el matiz es que las unidades federadas son sindicatos y comunas, no territorios soberanos con instituciones comunes estatales.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Rudolf Rocker, Anarcho-Syndicalism: Theory and Practice",
+        "url": "https://theanarchistlibrary.org/library/rudolf-rocker-anarchosyndicalism",
+        "fecha": "1938",
+        "consultado": "2026-07-10",
+        "cita": "The organisation of Anarcho-Syndicalism is based upon the principles of Federalism, on free combination from below upward, putting the right of self-determination of every union above everything else"
+      }
+    },
+    "dem-035": {
+      "valor": 2,
+      "justificacion": "Si el derecho de autodeterminación de cada unidad está «por encima de todo», ninguna federación puede retener por la fuerza a un miembro que quiere salir.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Rudolf Rocker, Anarcho-Syndicalism: Theory and Practice",
+        "url": "https://theanarchistlibrary.org/library/rudolf-rocker-anarchosyndicalism",
+        "fecha": "1938",
+        "consultado": "2026-07-10",
+        "cita": "The organisation of Anarcho-Syndicalism is based upon the principles of Federalism, on free combination from below upward, putting the right of self-determination of every union above everything else"
+      }
+    },
+    "ter-001": {
+      "valor": -2,
+      "justificacion": "Devolver competencias a un Estado central invierte el principio doctrinal de la libre combinación de abajo arriba: la doctrina disuelve el centro estatal en federaciones libres, no lo refuerza.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Rudolf Rocker, Anarcho-Syndicalism: Theory and Practice",
+        "url": "https://theanarchistlibrary.org/library/rudolf-rocker-anarchosyndicalism",
+        "fecha": "1938",
+        "consultado": "2026-07-10",
+        "cita": "The organisation of Anarcho-Syndicalism is based upon the principles of Federalism, on free combination from below upward, putting the right of self-determination of every union above everything else"
+      }
+    },
+    "dr-021": {
+      "valor": -2,
+      "justificacion": "Un Estado unitario con una sola administración es la negación máxima del federalismo libertario de sindicatos y comunas autodeterminados.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Rudolf Rocker, Anarcho-Syndicalism: Theory and Practice",
+        "url": "https://theanarchistlibrary.org/library/rudolf-rocker-anarchosyndicalism",
+        "fecha": "1938",
+        "consultado": "2026-07-10",
+        "cita": "The organisation of Anarcho-Syndicalism is based upon the principles of Federalism, on free combination from below upward, putting the right of self-determination of every union above everything else"
       }
     }
   }

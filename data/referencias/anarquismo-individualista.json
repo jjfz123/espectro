@@ -6,9 +6,15 @@
   "variante": "Tradición estadounidense de Benjamin Tucker; Spooner, Warren y el egoísmo stirneriano presentan diferencias",
   "periodo": "Siglo XIX–principios del XX, con continuidades actuales",
   "confianza": "verificada",
-  "version": "1.0",
-  "revisado": "2026-07-09",
-  "facetasDefinitorias": ["estatismo", "economico", "institucionalismo", "libertades-civiles", "poder-laboral"],
+  "version": "1.1",
+  "revisado": "2026-07-10",
+  "facetasDefinitorias": [
+    "estatismo",
+    "economico",
+    "institucionalismo",
+    "libertades-civiles",
+    "poder-laboral"
+  ],
   "sensibilidad": "normal",
   "advertencia": "Es una referencia doctrinal, no una identidad personal ni un partido. No equivale a anarcocapitalismo rothbardiano: Tucker se denominaba socialista, quería que el trabajo recibiera su producto completo y esperaba abolir renta, interés y beneficio monopolistas mediante libertad económica. Las ramas naturalista, egoísta y mutualista discrepan en propiedad y ética. No se heredan posiciones sobre migración, género, religión, aborto, ecología, guerra o nuclear.",
   "fuentesMarco": [
@@ -302,6 +308,123 @@
         "url": "https://theanarchistlibrary.org/library/benjamin-tucker-instead-of-a-book",
         "fecha": "1897",
         "consultado": "2026-07-09"
+      }
+    },
+    "izq-042": {
+      "valor": 2,
+      "justificacion": "Bajo el criterio de ocupación y uso, un edificio abandonado durante años carece de dueño legítimo: quien lo ocupa y lo usa adquiere el único título que esta doctrina protege, con independencia del registro estatal.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Benjamin Tucker, Instead of a Book, by a Man Too Busy to Write One",
+        "url": "https://theanarchistlibrary.org/library/benjamin-tucker-instead-of-a-book",
+        "fecha": "1897",
+        "consultado": "2026-07-10",
+        "cita": "Occupancy and use is the only title to land in which we will protect you"
+      }
+    },
+    "eco-007": {
+      "valor": -1,
+      "justificacion": "Si el «título legal» invocado no descansa en ocupación y uso, el desalojo exprés protege un monopolio de la tierra que la doctrina rechaza; solo sería legítimo expulsar a quien invade una vivienda realmente ocupada y usada por otro.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Benjamin Tucker, Instead of a Book, by a Man Too Busy to Write One",
+        "url": "https://theanarchistlibrary.org/library/benjamin-tucker-instead-of-a-book",
+        "fecha": "1897",
+        "consultado": "2026-07-10",
+        "cita": "Occupancy and use is the only title to land in which we will protect you"
+      }
+    },
+    "soc-003": {
+      "valor": -2,
+      "justificacion": "La vigilancia estatal del espacio común es gobierno en su sentido más puro —control preventivo de no agresores— y para Tucker el gobierno es sinónimo de agresión e invasión.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Benjamin Tucker, Instead of a Book, by a Man Too Busy to Write One",
+        "url": "https://theanarchistlibrary.org/library/benjamin-tucker-instead-of-a-book",
+        "fecha": "1897",
+        "consultado": "2026-07-10",
+        "cita": "Aggression is simply another name for government."
+      }
+    },
+    "lib-009": {
+      "valor": 2,
+      "justificacion": "Los vicios no son crímenes: el consumo adulto de sustancias no invade a nadie y su prohibición sí; la venta libre entre adultos es exactamente el tipo de conducta que el Estado no tiene derecho a castigar.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Lysander Spooner, Vices Are Not Crimes: A Vindication of Moral Liberty",
+        "url": "https://theanarchistlibrary.org/library/lysander-spooner-vices-are-not-crimes-a-vindication-of-moral-liberty",
+        "fecha": "1875",
+        "consultado": "2026-07-10",
+        "cita": "Vices are those acts by which a man harms himself or his property. Crimes are those acts by which one man harms the person or property of another."
+      }
+    },
+    "izq-044": {
+      "valor": 1,
+      "justificacion": "La policía estatal es agresión organizada y debe ser sustituida por asociaciones defensivas voluntarias; el acuerdo no es máximo porque la doctrina confía la defensa a asociaciones contractuales más que a «mecanismos comunitarios» genéricos.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Benjamin Tucker, Instead of a Book, by a Man Too Busy to Write One",
+        "url": "https://theanarchistlibrary.org/library/benjamin-tucker-instead-of-a-book",
+        "fecha": "1897",
+        "consultado": "2026-07-10",
+        "cita": "Aggression is simply another name for government."
+      }
+    },
+    "dem-034": {
+      "valor": 1,
+      "justificacion": "Cualquier arquitectura que acerque el poder al consentimiento individual mejora al Estado unitario, pero la doctrina no se detiene en territorios soberanos: solo el contrato entre personas obliga.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Lysander Spooner, No Treason No. VI: The Constitution of No Authority",
+        "url": "https://www.fourmilab.ch/etexts/www/spooner/NoTreason/",
+        "fecha": "1870",
+        "consultado": "2026-07-10",
+        "cita": "The Constitution has no inherent authority or obligation. It has no authority or obligation at all, unless as a contract between man and man."
+      }
+    },
+    "dem-035": {
+      "valor": 2,
+      "justificacion": "Si ningún pacto político obliga sino como contrato entre personas, con más razón un territorio confederado conserva siempre el derecho de retirarse: la pertenencia perpetua sin consentimiento es la esencia de la autoridad que Spooner niega.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Lysander Spooner, No Treason No. VI: The Constitution of No Authority",
+        "url": "https://www.fourmilab.ch/etexts/www/spooner/NoTreason/",
+        "fecha": "1870",
+        "consultado": "2026-07-10",
+        "cita": "The Constitution has no inherent authority or obligation. It has no authority or obligation at all, unless as a contract between man and man."
+      }
+    },
+    "ter-001": {
+      "valor": -2,
+      "justificacion": "Trasladar competencias hacia el centro estatal agranda la maquinaria de agresión: la dirección doctrinal es disolver la autoridad política en asociación voluntaria, no concentrarla.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Benjamin Tucker, Instead of a Book, by a Man Too Busy to Write One",
+        "url": "https://theanarchistlibrary.org/library/benjamin-tucker-instead-of-a-book",
+        "fecha": "1897",
+        "consultado": "2026-07-10",
+        "cita": "Aggression is simply another name for government."
+      }
+    },
+    "dr-021": {
+      "valor": -2,
+      "justificacion": "Un Estado unitario con administración única maximiza el monopolio político sobre el individuo; es el polo opuesto de la soberanía individual y la asociación voluntaria.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Lysander Spooner, No Treason No. VI: The Constitution of No Authority",
+        "url": "https://www.fourmilab.ch/etexts/www/spooner/NoTreason/",
+        "fecha": "1870",
+        "consultado": "2026-07-10",
+        "cita": "The Constitution has no inherent authority or obligation. It has no authority or obligation at all, unless as a contract between man and man."
       }
     }
   }

@@ -4,10 +4,12 @@
   "siglas": "BNG",
   "ambito": "autonomico",
   "tipo": "coalicion",
-  "ccaa": ["galicia"],
+  "ccaa": [
+    "galicia"
+  ],
   "confianza": "verificada",
   "web": "https://www.bng.gal/",
-  "revisado": "2026-07-09",
+  "revisado": "2026-07-10",
   "actividad": "activa",
   "posiciones": {
     "ter-002": {
@@ -152,6 +154,144 @@
         "url": "https://www.bng.gal/media/bnggaliza/files/2025/02/07/documentos_xviii_asemblea_definitivos_corrixido.pdf",
         "fecha": "2025-02-07",
         "consultado": "2026-07-09"
+      }
+    },
+    "eco-005": {
+      "valor": 1,
+      "justificacion": "Defiende limitar los alquileres y exige a la Xunta declarar zonas tensionadas (Ourense, A Coruña, Santiago), con ley propia de criterios; pero en la Ley de Vivienda estatal Néstor Rego fue la única abstención del pleno, por considerarla corta e invasiva de competencias gallegas.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "El BNG de Ourense insta a la Xunta a declarar el Ayuntamiento como Zona de Mercado Residencial Tensionado (Galiciapress)",
+        "url": "https://www.galiciapress.es/articulo/ultima-hora/2026-07-02/5940381-bng-local-ourense-insta-xunta-declarar-ayuntamiento-ourense-como-zona-mercado-residencial-tensionado",
+        "fecha": "2026-07-02",
+        "consultado": "2026-07-10"
+      }
+    },
+    "eco-011": {
+      "valor": 2,
+      "justificacion": "Votó contra los vetos a la ley de las 37,5 horas y fue más allá: presentó su propia proposición de ley para reducir la jornada a 35 horas sin rebaja salarial, rechazada por PP, Vox y Junts en octubre de 2025.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "El Congreso tumba la ley del BNG para reducir la jornada laboral a 35 horas con los votos de PP, Vox y Junts (Público)",
+        "url": "https://www.publico.es/politica/partidos/congreso-tumba-ley-bng-reducir-jornada-laboral-35-horas-votos-pp-vox-junts.html",
+        "fecha": "2025-10-14",
+        "consultado": "2026-07-10",
+        "cita": "El Congreso tumba la ley del BNG para reducir la jornada laboral a 35 horas con los votos de PP, Vox y Junts"
+      }
+    },
+    "eco-014": {
+      "valor": 2,
+      "justificacion": "Votó a favor del impuesto de solidaridad sobre grandes fortunas (24-11-2022) y presentó enmiendas —rechazadas— para hacer permanentes los nuevos impuestos: va incluso más allá del texto aprobado.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "El Congreso aprueba los impuestos a la banca, las energéticas y las grandes fortunas (elDiario.es)",
+        "url": "https://www.eldiario.es/economia/gobierno-asegura-aprobacion-impuestos-banca-energeticas-grandes-fortunas_1_9742281.html",
+        "fecha": "2022-11-24",
+        "consultado": "2026-07-10"
+      }
+    },
+    "eco-003": {
+      "valor": 2,
+      "justificacion": "Exige elevar el SMI hasta el 60% del salario medio (1.320 euros) por considerar insuficientes las subidas aprobadas, y que el SMI no tribute IRPF; nunca ha aceptado el argumento del coste en empleo.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "BNG reclama ao Goberno subir o SMI a 60% do Salario Medio e que non grave o IRPF (bng.gal)",
+        "url": "https://www.bng.gal/articulo/novas/bng-reclama-ao-goberno-subir-smi-60-do-salario-medio-que-non-grave-irpf/20250217142027039782.html",
+        "fecha": "2025-02-17",
+        "consultado": "2026-07-10",
+        "cita": "BNG reclama ao Goberno subir o SMI a 60% do Salario Medio e que non grave o IRPF"
+      }
+    },
+    "sd-023": {
+      "valor": 2,
+      "justificacion": "Votó a favor de la reforma fiscal que convirtió el gravamen bancario en impuesto (21-11-2024) y, junto a ERC, Bildu y Podemos, arrancó el compromiso de prorrogar el de las energéticas; Rego defendió mantener y aumentar ambos tributos.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "El Congreso aprueba la reforma fiscal con el impuesto a la banca y el compromiso de prorrogar el de las energéticas (elDiario.es)",
+        "url": "https://www.eldiario.es/economia/congreso-aprueba-reforma-fiscal-impuesto-banca-compromiso-prorrogar-energeticas_1_11839252.html",
+        "fecha": "2024-11-21",
+        "consultado": "2026-07-10",
+        "cita": "El Congreso aprueba la reforma fiscal con el impuesto a la banca y el compromiso de prorrogar el de las energéticas"
+      }
+    },
+    "soc-004": {
+      "valor": 2,
+      "justificacion": "Votó a favor de tramitar la ILP de regularización extraordinaria (310-33, 09-04-2024) y expresó apoyo explícito a su fondo en el debate.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "El Congreso aprueba debatir la ILP sobre la regularización extraordinaria de personas migrantes (La Marea)",
+        "url": "https://www.lamarea.com/2024/04/09/el-congreso-aprueba-debatir-la-ilp-sobre-la-regularizacion-extraordinaria-de-personas-migrantes/",
+        "fecha": "2024-04-09",
+        "consultado": "2026-07-10",
+        "cita": "El Congreso aprueba debatir la ILP sobre la regularización extraordinaria de personas migrantes"
+      }
+    },
+    "fem-001": {
+      "valor": 2,
+      "justificacion": "Votó a favor de la Ley 4/2023, que establece el cambio registral de sexo por voluntad propia, sin informes médicos ni psicológicos, desde los 16 años.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "El Congreso aprueba el proyecto de ley trans con el no de PP y Vox y Cs dividido (El Independiente)",
+        "url": "https://www.elindependiente.com/espana/2022/12/22/el-congreso-aprueba-el-proyecto-de-ley-trans-con-el-no-de-pp-y-vox-y-cs-dividido/",
+        "fecha": "2022-12-22",
+        "consultado": "2026-07-10"
+      }
+    },
+    "soc-006": {
+      "valor": 1,
+      "justificacion": "Votó el 17-03-2026 contra la ampliación de la prisión permanente revisable, alineado con el bloque contrario a esta pena; +1 y no +2 porque solo está acreditado su rechazo a ampliarla, no un voto directo de derogación.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "El Congreso tumba una propuesta del PP que buscaba ampliar los casos para condenar a prisión permanente revisable (Newtral)",
+        "url": "https://www.newtral.es/prision-permanente-revisable-pp/20260317/",
+        "fecha": "2026-03-17",
+        "consultado": "2026-07-10",
+        "cita": "El Congreso tumba una propuesta del PP que buscaba ampliar los casos para condenar a prisión permanente revisable"
+      }
+    },
+    "fem-014": {
+      "valor": 2,
+      "justificacion": "Votó a favor de tramitar la regulación integral del cannabis (incluido el uso adulto) en octubre de 2021, en el bloque de los 75 votos favorables frente al rechazo de PSOE, PP y Vox.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "El Congreso rechaza la Ley de Regulación del Cannabis: esto es lo que opina cada partido (GNDiario)",
+        "url": "https://gndiario.com/regulacion-del-cannabis-congreso",
+        "fecha": "2021-10",
+        "consultado": "2026-07-10"
+      }
+    },
+    "soc-001": {
+      "valor": 2,
+      "justificacion": "Votó a favor de la Ley 4/2023, que blinda los derechos LGTBI y prohíbe las terapias de conversión; apoya de forma constante el mantenimiento y la ampliación de estos derechos, incluido el matrimonio igualitario.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "El Congreso aprueba la «ley trans» con el apoyo del PSOE y la abstención de Carmen Calvo (The Objective)",
+        "url": "https://theobjective.com/espana/politica/2022-12-22/congreso-aprueba-ley-trans/",
+        "fecha": "2022-12-22",
+        "consultado": "2026-07-10"
+      }
+    },
+    "lib-017": {
+      "valor": 2,
+      "justificacion": "Néstor Rego votó a favor de la Ley Orgánica 3/2021 de regulación de la eutanasia en la votación final del 18-03-2021.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "Ley Orgánica de Regulación de la Eutanasia (Wikipedia, con el desglose de la votación)",
+        "url": "https://es.wikipedia.org/wiki/Ley_Org%C3%A1nica_de_Regulaci%C3%B3n_de_la_Eutanasia",
+        "fecha": "2021-03-18",
+        "consultado": "2026-07-10",
+        "cita": "con 202 votos a favor (PSOE, Podemos, BNG, ERC, Junts per Catalunya, Más País, Bildu, PNV, CUP, Ciudadanos), 141 en contra (PP, Vox, UPN, Foro Asturias) y dos abstenciones"
       }
     }
   }

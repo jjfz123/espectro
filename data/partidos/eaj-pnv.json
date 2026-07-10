@@ -4,10 +4,13 @@
   "siglas": "EAJ-PNV",
   "ambito": "autonomico",
   "tipo": "partido",
-  "ccaa": ["euskadi", "navarra"],
+  "ccaa": [
+    "euskadi",
+    "navarra"
+  ],
   "confianza": "verificada",
   "web": "https://www.eaj-pnv.eus/",
-  "revisado": "2026-07-09",
+  "revisado": "2026-07-10",
   "actividad": "activa",
   "posiciones": {
     "nac-001": {
@@ -224,6 +227,155 @@
         "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21676/pdf/estatutos-nacionales-2025",
         "fecha": "2025",
         "consultado": "2026-07-09"
+      }
+    },
+    "eco-005": {
+      "valor": -1,
+      "justificacion": "Votó contra la Ley de Vivienda de 2023 alegando sobre todo invasión competencial (la ley «se inmiscuye en competencias propias») y dudas sobre el control de precios. Equifinalidad anotada: después el Gobierno vasco PNV-PSE declaró zonas tensionadas en 18 municipios.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "PNV vota contra la ley de vivienda y abre la puerta a un recurso ante el TC (COPE)",
+        "url": "https://www.cope.es/actualidad/economia/noticias/pnv-vota-contra-ley-vivienda-abre-puerta-recurso-ante-20230427_2679693",
+        "fecha": "2023-04-27",
+        "consultado": "2026-07-10",
+        "cita": "se inmiscuye en competencias propias"
+      }
+    },
+    "eco-011": {
+      "valor": 0,
+      "justificacion": "Posición intermedia documentada: votó contra los vetos (permitió tramitar las 37,5 horas) señalando que la mayoría de convenios vascos ya está en esa jornada, pero exige primacía de la negociación colectiva y transitoriedad sectorial frente a la imposición uniforme por ley.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "El PNV cree que la reducción de jornada no tendría gran afección en Euskadi porque la mayoría de convenios tiene 37,5 horas (COPE)",
+        "url": "https://www.cope.es/actualidad/espana/noticias/pnv-cree-que-reduccion-jornada-tendria-gran-afeccion-euskadi-porque-mayoria-convenios-tiene-375-horas-20240702_3381657",
+        "fecha": "2024-07-02",
+        "consultado": "2026-07-10",
+        "cita": "PNV cree que la reducción de jornada no tendría gran afección en Euskadi porque la mayoría de convenios tiene 37,5 horas"
+      }
+    },
+    "eco-014": {
+      "valor": 0,
+      "justificacion": "Equifinalidad foral: se abstuvo en la creación del impuesto de solidaridad (2022) tras rechazar un impuesto estatal a las grandes fortunas, pero la objeción fue competencial-foral, no de fondo; las haciendas forales vascas concertaron y cobran el tributo desde 2023.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "PSOE y PNV rechazan el impuesto estatal de grandes fortunas defendido por UP y EH Bildu (Naiz)",
+        "url": "https://www.naiz.eus/es/info/noticia/20220607/psoe-y-pnv-rechazan-el-impuesto-estatal-de-grandes-fortunas-defendido-por-up-y-eh-bildu",
+        "fecha": "2022-06-07",
+        "consultado": "2026-07-10",
+        "cita": "PSOE y PNV rechazan el impuesto estatal de grandes fortunas defendido por UP y EH Bildu"
+      }
+    },
+    "eco-008": {
+      "valor": 2,
+      "justificacion": "Votó a favor de la Ley 21/2021 (revalorización de todas las pensiones por IPC más el MEI, que sube cotizaciones) y sostuvo la segunda pata de la reforma en 2023, que eleva cotizaciones máximas y añade la cuota de solidaridad.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "El Congreso aprueba la reforma que garantiza la revalorización de las pensiones según el IPC (elDiario.es)",
+        "url": "https://www.eldiario.es/politica/congreso-aprueba-reforma-garantiza-revalorizacion-pensiones-ipc_1_8548144.html",
+        "fecha": "2021-12-02",
+        "consultado": "2026-07-10"
+      }
+    },
+    "sd-023": {
+      "valor": -1,
+      "justificacion": "Posición partida: aceptó convertir el gravamen bancario en impuesto (tras asegurar su concertación foral), pero tumbó dos veces la continuidad del gravamen a las energéticas por motivo foral y de defensa de las inversiones industriales.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "El Congreso tumba el decreto del impuesto a las energéticas, con el voto de PP, Vox, Junts, PNV y UPN (El Periódico de la Energía)",
+        "url": "https://elperiodicodelaenergia.com/el-congreso-tumba-el-decreto-del-impuesto-a-las-energeticas-con-el-voto-de-pp-vox-junts-pnv-y-upn/",
+        "fecha": "2025-01-22",
+        "consultado": "2026-07-10",
+        "cita": "rompe el principio de relaciones con las comunidades forales, tanto con la comunidad autónoma vasca como con Navarra"
+      }
+    },
+    "eco-013": {
+      "valor": 1,
+      "justificacion": "Conducta de gobierno: Osakidetza, bajo gobiernos del PNV, destina cientos de millones a conciertos (267,2 millones presupuestados en 2025) y deriva sistemáticamente pacientes a clínicas privadas cuando crecen las listas de espera.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "La espera para operaciones en Euskadi se dispara y Osakidetza adelanta las derivaciones a la privada (elDiario.es/Euskadi)",
+        "url": "https://www.eldiario.es/euskadi/espera-operaciones-euskadi-dispara-85-dias-osakidetza-adelanta-derivaciones-privada_1_13256738.html",
+        "fecha": "2026",
+        "consultado": "2026-07-10"
+      }
+    },
+    "fem-001": {
+      "valor": 1,
+      "justificacion": "Votó a favor de la ley trans (autodeterminación registral desde los 16 años sin informes médicos), defendiendo que la ley suma derechos, aunque sin abanderarla y con matices competenciales sobre su aplicación.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "El Congreso aprueba el proyecto de ley trans con el no de PP y Vox y Cs dividido (El Independiente)",
+        "url": "https://www.elindependiente.com/espana/2022/12/22/el-congreso-aprueba-el-proyecto-de-ley-trans-con-el-no-de-pp-y-vox-y-cs-dividido/",
+        "fecha": "2022-12-22",
+        "consultado": "2026-07-10"
+      }
+    },
+    "lib-017": {
+      "valor": 2,
+      "justificacion": "Votó a favor de la Ley Orgánica 3/2021 de regulación de la eutanasia, con apoyo estable durante todo el trámite parlamentario.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "El Congreso aprueba la Ley de la Eutanasia con el voto en contra de Vox y PP (elEconomista)",
+        "url": "https://www.eleconomista.es/politica/noticias/11111933/03/21/El-Congreso-aprueba-la-Ley-de-la-Eutanasia-con-el-voto-en-contra-de-Vox-y-PP.html",
+        "fecha": "2021-03-18",
+        "consultado": "2026-07-10"
+      }
+    },
+    "soc-006": {
+      "valor": 2,
+      "justificacion": "Es el partido autor de la proposición para derogar la prisión permanente revisable (tomada en consideración en octubre de 2017 con 162 votos) y en marzo de 2026 votó contra su ampliación.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "El Congreso rechaza ampliar la prisión permanente revisable (Libertad Digital) y proposición de derogación del PNV de 2017",
+        "url": "https://www.libertaddigital.com/espana/2026-03-17/el-congreso-rechaza-ampliar-la-prision-permanente-revisable-para-asesinos-que-oculten-el-cadaver-de-su-victima-7376052/",
+        "fecha": "2026-03-17",
+        "consultado": "2026-07-10"
+      }
+    },
+    "soc-004": {
+      "valor": 1,
+      "justificacion": "Votó a favor de tramitar la ILP de regularización extraordinaria (09-04-2024), pero su portavoz pidió reorientarla hacia un examen individualizado caso a caso: acuerdo sin entusiasmo.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "El Congreso apoya la iniciativa popular para regularizar a cientos de miles de migrantes que ya viven y trabajan en España (elDiario.es)",
+        "url": "https://www.eldiario.es/desalambre/congreso-apoyara-iniciativa-popular-regularizar-cientos-miles-migrantes-viven-espana_1_11273877.html",
+        "fecha": "2024-04-09",
+        "consultado": "2026-07-10"
+      }
+    },
+    "soc-005": {
+      "valor": 1,
+      "justificacion": "Su discurso económico asume que la inmigración es imprescindible para sostener el mercado laboral y las pensiones vascas (el lehendakari Pradales: sin inmigración Euskadi no tiene futuro) y reclama gestionar los permisos de trabajo; el endurecimiento de tono de 2025 sobre qué inmigración «se necesita» modera el valor.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "El PNV plantea extender las EPSV y agilizar los permisos de trabajo de los migrantes (Noticias de Gipuzkoa)",
+        "url": "https://www.noticiasdegipuzkoa.eus/politica/2024/12/10/pnv-plantea-extender-epsv-agilizar-9033730.html",
+        "fecha": "2024-12-10",
+        "consultado": "2026-07-10"
+      }
+    },
+    "fem-014": {
+      "valor": 0,
+      "justificacion": "Ambivalencia documentada: discurso antiprohibicionista («las políticas prohibicionistas no dan buenos resultados») y regulación de los clubes de cannabis en Euskadi (2016), pero abstención ante la legalización integral estatal en el Congreso (2021).",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "El Congreso rechaza la Ley de Regulación del Cannabis: esto es lo que opina cada partido (GNDiario)",
+        "url": "https://gndiario.com/regulacion-del-cannabis-congreso",
+        "fecha": "2021-10",
+        "consultado": "2026-07-10",
+        "cita": "las políticas prohibicionistas no dan buenos resultados"
       }
     }
   }

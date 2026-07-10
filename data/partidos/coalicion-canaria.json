@@ -4,7 +4,9 @@
   "siglas": "CCa",
   "ambito": "autonomico",
   "tipo": "partido",
-  "ccaa": ["canarias"],
+  "ccaa": [
+    "canarias"
+  ],
   "confianza": "verificada",
   "web": "https://coalicioncanaria.org/",
   "revisado": "2026-07-10",
@@ -212,6 +214,142 @@
         "url": "https://coalicioncanaria.org/wp-content/uploads/2025/04/PONENCIA-IDENTIDAD-CANARIA-Y-RES.pdf",
         "fecha": "2025-04",
         "consultado": "2026-07-10"
+      }
+    },
+    "eco-008": {
+      "valor": 1,
+      "justificacion": "Conducta partida: votó contra la Ley 21/2021 que consagró la indexación al IPC, pero a favor de convalidar el RDL 2/2023 (que la financia subiendo cotizaciones) y presume de apoyar las revalorizaciones, pidiendo mayores subidas de las mínimas.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "Convalidado el decreto de reforma de pensiones (RTVC)",
+        "url": "https://rtvc.es/convalidado-el-decreto-de-reforma-de-pensiones/",
+        "fecha": "2023-03-30",
+        "consultado": "2026-07-10"
+      }
+    },
+    "eco-011": {
+      "valor": 1,
+      "justificacion": "Cristina Valido votó contra el veto a la ley de reducción de jornada a 37,5 horas sin rebaja salarial (10-09-2025), permitiendo su tramitación; no hubo votación final, así que el apoyo acreditado es a tramitar, no necesariamente al texto íntegro.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "El Congreso tumba la reducción de jornada laboral con los votos de PP, Vox y Junts (Atlántico)",
+        "url": "https://www.atlantico.net/economia/congreso-tumba-reduccion-jornada-laboral_1_20250910-3976245.html",
+        "fecha": "2025-09-10",
+        "consultado": "2026-07-10"
+      }
+    },
+    "eco-014": {
+      "valor": 1,
+      "justificacion": "Votó a favor de crear el impuesto de solidaridad sobre las grandes fortunas (24-11-2022, votación pública por llamamiento); aquel tributo era temporal y no consta que CC haya defendido su carácter permanente, de ahí +1.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "El Congreso aprueba el impuesto a grandes fortunas y lo remite al Senado (Idealista News)",
+        "url": "https://www.idealista.com/news/finanzas/economia/2022/11/25/800323-el-congreso-aprueba-el-impuesto-a-grandes-fortunas-y-lo-remite-al-senado",
+        "fecha": "2022-11-25",
+        "consultado": "2026-07-10"
+      }
+    },
+    "sd-023": {
+      "valor": 0,
+      "justificacion": "Conducta dividida: apoyó hacer permanente el impuesto a la banca (21-11-2024), pero fue la única abstención en la convalidación del decreto que prorrogaba el gravamen a las energéticas (22-01-2025), que decayó; ante un ítem que exige ambos, posición neta ambivalente.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "El Congreso tumba el decreto del impuesto a las energéticas, con el voto de PP, Vox, Junts, PNV y UPN (El Periódico de la Energía)",
+        "url": "https://elperiodicodelaenergia.com/el-congreso-tumba-el-decreto-del-impuesto-a-las-energeticas-con-el-voto-de-pp-vox-junts-pnv-y-upn/",
+        "fecha": "2025-01-22",
+        "consultado": "2026-07-10"
+      }
+    },
+    "eco-005": {
+      "valor": -1,
+      "justificacion": "Votó no a la Ley de Vivienda que instaura los topes de alquiler en zonas tensionadas, calificándola de «disparate» electoralista que no resuelve el acceso a la vivienda en Canarias; el rechazo se argumentó más por oportunismo y encaje territorial que por oposición frontal a limitar precios.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "CC vota no a la Ley de Vivienda y acusa al PSOE de «engañar a la gente» (coalicioncanaria.org)",
+        "url": "https://coalicioncanaria.org/cc-vota-no-a-la-ley-de-vivienda-y-acusa-al-psoe-de-enganar-a-la-gente/",
+        "fecha": "2023-04",
+        "consultado": "2026-07-10",
+        "cita": "hecha en clave electoralista no para resolver el problema de acceso a la vivienda"
+      }
+    },
+    "eco-007": {
+      "valor": 1,
+      "justificacion": "Apoyó la vía de juicios rápidos contra la ocupación (LO 1/2025) y la toma en consideración de la ley antiokupas del PP con desalojos en 24 horas (mayo de 2026), según las crónicas parlamentarias.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "El Congreso toma en consideración la ley antiokupas del PP (Europa Press/Infobae; con el apoyo de Vox, UPN y CC)",
+        "url": "https://www.infobae.com/espana/agencias/2026/05/19/el-congreso-toma-en-consideracion-la-ley-antiokupas-del-pp-gracias-a-la-abstencion-del-pnv-y-junts/",
+        "fecha": "2026-05-19",
+        "consultado": "2026-07-10"
+      }
+    },
+    "soc-004": {
+      "valor": 2,
+      "justificacion": "Votó a favor de tramitar la ILP de regularización extraordinaria (09-04-2024), coherente con su papel activo en la agenda migratoria canaria y con el reparto solidario de menores migrantes.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "El Congreso apoya la iniciativa de regularización extraordinaria de extranjeros (Infobae)",
+        "url": "https://www.infobae.com/espana/2024/04/09/el-congreso-apoya-la-iniciativa-de-regularizacion-extraordinaria-de-extranjeros/",
+        "fecha": "2024-04-09",
+        "consultado": "2026-07-10"
+      }
+    },
+    "soc-002": {
+      "valor": -1,
+      "justificacion": "Su diputada rechaza el marco de la devolución como respuesta prioritaria («No se puede devolver a la gente al desierto») y prioriza acogida, reparto solidario y regularización, aunque exige a la vez corresponsabilidad europea ante la saturación migratoria canaria.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Cristina Valido, diputada de Coalición Canaria: «No se puede devolver a la gente al desierto» (elDiario.es)",
+        "url": "https://www.eldiario.es/politica/cristina-valido-diputada-coalicion-canaria-no-devolver-gente-desierto_1_11652523.html",
+        "fecha": "2024",
+        "consultado": "2026-07-10",
+        "cita": "No se puede devolver a la gente al desierto"
+      }
+    },
+    "fem-001": {
+      "valor": 1,
+      "justificacion": "Figura entre los grupos que votaron a favor de la ley trans (22-12-2022) y corregistró la enmienda para que las personas no binarias pudieran omitir la mención de sexo; +1 porque el respaldo consta por listados de grupos y no fue bandera propia.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "España aprueba la ley trans: el desglose de los grupos que la apoyaron, entre ellos Coalición Canaria (CNN en Español)",
+        "url": "https://cnnespanol.cnn.com/2022/12/22/espana-aprobo-ley-trans-diputados-senado-orix/amp/",
+        "fecha": "2022-12-22",
+        "consultado": "2026-07-10"
+      }
+    },
+    "lib-017": {
+      "valor": 2,
+      "justificacion": "Votó a favor de la ley de eutanasia en el Congreso (diciembre de 2020), dentro del giro social que el propio partido reivindica.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "Los partidos que votaron sí a la eutanasia en España (Hispanidad)",
+        "url": "https://www.hispanidad.com/hemeroteca/confidencial/psoe-podemos-bng-erc-junts-catalunya-pdecat-mas-pais-bildu-pnv-nueva-canarias-coalicion-canaria-cup-cs-partidos-responsables-aprobacion-eutanasia-en-espana_12024792_102.html",
+        "fecha": "2020-12",
+        "consultado": "2026-07-10",
+        "cita": "PSOE, Podemos, BNG, ERC, Junts per Catalunya, PDeCAT, Más País, Bildu, PNV, Nueva Canarias, Coalición Canaria, CUP y Cs"
+      }
+    },
+    "soc-006": {
+      "valor": -2,
+      "justificacion": "Contraria a derogar la prisión permanente revisable: Oramas fue la única abstención en el choque de 2018 sobre la derogación y en marzo de 2026 Valido votó con PP, Vox y UPN a favor de ampliar sus supuestos.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "El Congreso rechaza tramitar la ampliación de la prisión permanente apoyada por PP, Vox, UPN y CC (Europa Press/Infobae)",
+        "url": "https://www.infobae.com/espana/agencias/2026/03/17/el-congreso-rechaza-tramitar-la-ampliacion-de-la-prision-permanente-apoyada-por-pp-vox-upn-y-cc/",
+        "fecha": "2026-03-17",
+        "consultado": "2026-07-10",
+        "cita": "El Congreso rechaza tramitar la ampliación de la prisión permanente apoyada por PP, Vox, UPN y CC"
       }
     }
   }

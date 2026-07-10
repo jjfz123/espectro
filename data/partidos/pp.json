@@ -6,7 +6,7 @@
   "tipo": "partido",
   "confianza": "verificada",
   "web": "https://www.pp.es/",
-  "revisado": "2026-07-09",
+  "revisado": "2026-07-10",
   "actividad": "activa",
   "dobleLectura": {
     "etiquetaBase": "Posición nacional declarada",
@@ -212,6 +212,237 @@
         "url": "https://www.pp.es/storage/2025/06/21_Congreso_Ponencia_Politica.pdf",
         "fecha": "2025-06",
         "consultado": "2026-07-09"
+      }
+    },
+    "eco-001": {
+      "valor": -2,
+      "justificacion": "Su programa del 23J y su conducta van en dirección opuesta: deflactación del IRPF para rentas bajas y medias, rebajas fiscales generalizadas y rechazo frontal a cualquier subida; sus comunidades recurrieron además el impuesto a las grandes fortunas.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "El PP pretende hacer obligatoria la deflactación del IRPF para rentas inferiores a 40.000 euros (The Objective, sobre el programa fiscal del PP)",
+        "url": "https://theobjective.com/economia/2023-09-27/feijoo-pp-rentas-irpf/",
+        "fecha": "2023-09-27",
+        "consultado": "2026-07-10",
+        "cita": "El PP pretende hacer obligatoria la deflactación del IRPF para rentas inferiores a 40.000 euros"
+      }
+    },
+    "eco-005": {
+      "valor": -2,
+      "justificacion": "Votó contra la Ley de Vivienda el 27-04-2023, promete derogarla, ninguna de sus comunidades declara zonas tensionadas y ha impulsado en el Congreso una proposición para tumbar el tope al alquiler.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "Las comunidades del PP boicotean la ley de vivienda y rechazan declarar zonas tensionadas para limitar alquileres (elDiario.es)",
+        "url": "https://www.eldiario.es/politica/comunidades-pp-boicotean-ley-vivienda-rechazan-declarar-zonas-tensionadas-limitar-alquileres_1_10614050.html",
+        "fecha": "2023",
+        "consultado": "2026-07-10",
+        "cita": "Las comunidades del PP boicotean la ley de vivienda y rechazan declarar zonas tensionadas para limitar alquileres"
+      }
+    },
+    "eco-007": {
+      "valor": 2,
+      "justificacion": "Iniciativa legislativa propia: su ley antiokupación —tomada en consideración en el Congreso el 19-05-2026— contempla desalojos en 24 horas, endurecimiento de penas y prohibición de empadronar a ocupantes, en línea con el programa del 23J.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "El Congreso toma en consideración la ley antiokupas del PP gracias a la abstención del PNV y Junts (Europa Press/Infobae)",
+        "url": "https://www.infobae.com/espana/agencias/2026/05/19/el-congreso-toma-en-consideracion-la-ley-antiokupas-del-pp-gracias-a-la-abstencion-del-pnv-y-junts/",
+        "fecha": "2026-05-19",
+        "consultado": "2026-07-10",
+        "cita": "El Congreso toma en consideración la ley antiokupas del PP gracias a la abstención del PNV y Junts"
+      }
+    },
+    "eco-009": {
+      "valor": 1,
+      "justificacion": "Donde gobierna bonifica al 99-100% sucesiones y donaciones entre familiares directos y Feijóo anuncia su «eliminación»; técnicamente no propone suprimir el tributo para todos los supuestos, sino vaciarlo por bonificación en el ámbito familiar: de acuerdo, sin el máximo.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "La revolución fiscal de Feijóo: eliminará los impuestos de Sucesiones y Donaciones en Comunidad Valenciana, Baleares, Extremadura… (El Confidencial Digital)",
+        "url": "https://www.elconfidencialdigital.com/articulo/politica/revolucion-fiscal-feijoo-eliminara-impuestos-sucesiones-donaciones-comunidad-valenciana-baleares-extremadura/20230606181627584092.html",
+        "fecha": "2023-06-06",
+        "consultado": "2026-07-10",
+        "cita": "La revolución fiscal de Feijóo: eliminará los impuestos de Sucesiones y Donaciones en Comunidad Valenciana, Baleares, Extremadura…"
+      }
+    },
+    "eco-013": {
+      "valor": 2,
+      "justificacion": "Posición revelada: el programa del 23J plantea reducir listas de espera con colaboración público-privada y sus gobiernos autonómicos usan de forma estructural conciertos y derivaciones a clínicas privadas (plan de choque andaluz con 119,9 millones para conciertos).",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Privatizaciones, listas de espera y crisis de los cribados: la sanidad centra el debate electoral andaluz (Gaceta Médica)",
+        "url": "https://gacetamedica.com/politica/privatizaciones-listas-espera-crisis-cribados-sanidad-debate-electoral-andalucia/",
+        "fecha": "2026-02",
+        "consultado": "2026-07-10"
+      }
+    },
+    "eco-014": {
+      "valor": -2,
+      "justificacion": "Las comunidades del PP (Madrid, Andalucía y Galicia) recurrieron el impuesto de solidaridad a las grandes fortunas ante el Tribunal Constitucional, el partido promete suprimirlo y bonifica el impuesto de patrimonio donde gobierna.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "El Tribunal Constitucional avala el impuesto a las grandes fortunas y desestima el recurso de la Comunidad de Madrid (Newtral)",
+        "url": "https://www.newtral.es/impuesto-grandes-fortunas-madrid-constitucional-avala/20231107/",
+        "fecha": "2023-11-07",
+        "consultado": "2026-07-10",
+        "cita": "El Tribunal Constitucional avala el impuesto a las grandes fortunas y desestima el recurso de la Comunidad Madrid"
+      }
+    },
+    "soc-002": {
+      "valor": 1,
+      "justificacion": "Su plan migratorio de 2025 refuerza devoluciones y expulsiones (incluida la de residentes con delitos graves y CIE hasta 6 meses), pero las combina con vías legales como el visado por puntos: la devolución es central pero no la respuesta única.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Así es el plan migratorio del PP: expulsión de los delincuentes reincidentes y visado por puntos (The Objective)",
+        "url": "https://theobjective.com/espana/politica/2025-09-29/plan-migratorio-feijoo/",
+        "fecha": "2025-09-29",
+        "consultado": "2026-07-10",
+        "cita": "Así es el plan migratorio del PP: expulsión de los delincuentes reincidentes y visado por puntos"
+      }
+    },
+    "soc-005": {
+      "valor": 1,
+      "justificacion": "Feijóo asume el argumento demográfico-laboral («España necesita inmigrantes») condicionado a que sea legal y ordenada, y sus barones piden facilitar la contratación de extranjeros; el endurecimiento retórico reciente impide el máximo.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Las comunidades del PP piden facilitar la contratación de inmigrantes mientras Feijóo endurece el discurso (elDiario.es)",
+        "url": "https://www.eldiario.es/politica/comunidades-pp-piden-facilitar-contratacion-inmigrantes-feijoo-endurece-discurso_1_11651966.html",
+        "fecha": "2024",
+        "consultado": "2026-07-10"
+      }
+    },
+    "soc-006": {
+      "valor": -2,
+      "justificacion": "Creó la prisión permanente revisable en 2015 y en marzo de 2026 volvió a votar por ampliarla a nuevos supuestos (ocultación del cadáver, reincidencia): lo contrario de derogarla.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "El Congreso rechaza tramitar la ampliación de la prisión permanente apoyada por PP, Vox, UPN y CC (Europa Press/Infobae)",
+        "url": "https://www.infobae.com/espana/agencias/2026/03/17/el-congreso-rechaza-tramitar-la-ampliacion-de-la-prision-permanente-apoyada-por-pp-vox-upn-y-cc/",
+        "fecha": "2026-03-17",
+        "consultado": "2026-07-10",
+        "cita": "El Congreso rechaza tramitar la ampliación de la prisión permanente apoyada por PP, Vox, UPN y CC"
+      }
+    },
+    "der-017": {
+      "valor": 2,
+      "justificacion": "El plan migratorio presentado por Feijóo en septiembre-octubre de 2025 establece expresamente la prioridad para la inmigración «culturalmente próxima», en referencia a los hispanoamericanos: coincide casi literalmente con el ítem.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Feijóo perfila el nuevo plan migratorio del PP: integración y «prioridad» a los hispanoamericanos (Mundiario)",
+        "url": "https://www.mundiario.com/articulo/politica/feijoo-perfila-nuevo-migratorio-pp-integracion-prioridad-hispanoamericanos/20250926112213357369.html",
+        "fecha": "2025-09-26",
+        "consultado": "2026-07-10",
+        "cita": "Feijóo perfila el nuevo plan migratorio del PP: integración y 'prioridad' a los hispanoamericanos"
+      }
+    },
+    "der-026": {
+      "valor": -1,
+      "justificacion": "El 20-02-2024 votó en contra de la proposición de VOX para ilegalizar partidos separatistas por contraria a la Constitución, aunque en enero de 2024 el propio PP planteó disolver entidades que promovieran referéndums de secesión: desacuerdo con ambivalencia documentada.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "El PP rechaza el plan de Vox para ilegalizar partidos independentistas que planteó Feijóo en enero (elDiario.es)",
+        "url": "https://www.eldiario.es/politica/pp-rechaza-plan-vox-ilegalizar-partidos-independentistas-planteo-feijoo-enero_1_10940846.html",
+        "fecha": "2024-02-20",
+        "consultado": "2026-07-10",
+        "cita": "El PP rechaza el plan de Vox para ilegalizar partidos independentistas que planteó Feijóo en enero"
+      }
+    },
+    "soc-001": {
+      "valor": 1,
+      "justificacion": "La dirección actual asume el matrimonio igualitario como derecho consolidado y no propone revertirlo. Divergencia histórica anotada: el PP votó en contra en 2005 y lo recurrió al TC, y hoy combate otras leyes del ámbito (ley trans), por eso +1 y no +2.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Feijóo, sobre el Orgullo LGTB: «No se puede discriminar a nadie por amar a quien ha elegido amar» (El Debate)",
+        "url": "https://www.eldebate.com/espana/20250628/feijoo-sobre-orgullo-lgtb-no-puede-discriminar-nadie-amar-quien-elegido-amar_311936.html",
+        "fecha": "2025-06-28",
+        "consultado": "2026-07-10",
+        "cita": "No se puede discriminar a nadie por amar a quien ha elegido amar"
+      }
+    },
+    "ter-002": {
+      "valor": -2,
+      "justificacion": "Lejos de aceptar referéndums de autodeterminación, su programa del 23J propone tipificar como delito la convocatoria de un referéndum ilegal y recuperar la sedición agravada.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Feijóo se compromete a agravar las penas por sedición y rebelión, y a tipificar como delito la convocatoria de un referéndum ilegal (pp.es)",
+        "url": "https://www.pp.es/actualidad-noticia/feijoo-se-compromete-agravar-las-penas-por-sedicion-rebelion-tipificar-como",
+        "fecha": "2023-07",
+        "consultado": "2026-07-10",
+        "cita": "Feijóo se compromete a agravar las penas por sedición y rebelión, y a tipificar como delito la convocatoria de un referéndum ilegal"
+      }
+    },
+    "ter-003": {
+      "valor": -2,
+      "justificacion": "Desde el acuerdo PSC-ERC de 2024, Feijóo y sus barones exigen frenar la «financiación singular» catalana y defienden negociar multilateralmente en el CPFF; acepta el concierto vasco-navarro como hecho foral, pero rechaza extender ese modelo.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Feijóo se planta ante la burguesía catalana: rechaza el cupo y avisa que no les va «a pedir favores ni a regalarlos» (El Debate)",
+        "url": "https://www.eldebate.com/espana/cataluna/20260603/feijoo-planta-ante-burguesia-catalana-rechaza-cupo-avisa-no-les-pedir-favores-regalarlos_424489.html",
+        "fecha": "2026-06-03",
+        "consultado": "2026-07-10",
+        "cita": "Feijóo se planta ante la burguesía catalana: rechaza el cupo y avisa que no les va «a pedir favores ni a regalarlos»"
+      }
+    },
+    "ter-004": {
+      "valor": 2,
+      "justificacion": "El programa del 23J garantiza expresamente la vehicularidad del castellano junto a las lenguas cooficiales en toda España, y el PP recurrió la LOMLOE por eliminar esa condición.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "El español como lengua vehicular y los referéndums, delito: el programa electoral del PP (Ara, citando el programa del 23J)",
+        "url": "https://es.ara.cat/politica/elecciones-generales/espanol-lengua-vehicular-referendums-delito-programa-electoral-pp_1_4754849.html",
+        "fecha": "2023-07",
+        "consultado": "2026-07-10",
+        "cita": "Garantizaremos que, en las comunidades autónomas con más de una lengua oficial, ambas tendrán la consideración de vehiculares de acuerdo con el patrón de equilibrio lingüístico"
+      }
+    },
+    "der-005": {
+      "valor": 1,
+      "justificacion": "La Ponencia Política de 2025 («Más nación, menos nacionalismo») sitúa la unidad nacional como valor supremo, pero el PP la compatibiliza con la defensa del Estado autonómico y de los estatutos: de acuerdo, sin el máximo recentralizador.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Ponencia Política del 21.º Congreso Nacional del PP",
+        "url": "https://www.pp.es/storage/2025/06/21_Congreso_Ponencia_Politica.pdf",
+        "fecha": "2025-06",
+        "consultado": "2026-07-10"
+      }
+    },
+    "cat-003": {
+      "valor": -2,
+      "justificacion": "Votó contra la ley de amnistía el 30-05-2024, la vetó en el Senado, la recurrió al TC desde sus comunidades y convocó movilizaciones: defiende la vía penal y judicial frente a la amnistía.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "El Congreso aprueba la Ley de Amnistía tras meses de polémica y el veto del PP en el Senado (La Marea)",
+        "url": "https://www.lamarea.com/2024/05/30/el-congreso-aprueba-la-ley-de-amnistia-y-da-paso-a-la-justicia/",
+        "fecha": "2024-05-30",
+        "consultado": "2026-07-10",
+        "cita": "El Congreso aprueba la Ley de Amnistía tras meses de polémica y el veto del PP en el Senado"
+      }
+    },
+    "ter-001": {
+      "valor": -1,
+      "justificacion": "Frente a la recentralización de VOX, Feijóo defiende el Estado autonómico y los estatutos; solo reclama reforzar instrumentos estatales puntuales (alta inspección educativa, coordinación), no una devolución general de competencias.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Feijóo asegura que quienes no defiendan el Estado de las autonomías «no quieren mucho a España» (El Debate)",
+        "url": "https://www.eldebate.com/espana/20260707/feijoo-asegura-quienes-no-defiendan-estado-autonomias-no-quieren-mucho-espana_437075.html",
+        "fecha": "2026-07-07",
+        "consultado": "2026-07-10",
+        "cita": "Feijóo asegura que quienes no defiendan el Estado de las autonomías «no quieren mucho a España»"
       }
     }
   }

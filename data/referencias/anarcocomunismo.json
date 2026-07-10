@@ -6,11 +6,17 @@
   "variante": "Comunismo anarquista clásico de Kropotkin; no equivale a todo comunismo libertario contemporáneo",
   "periodo": "Finales del siglo XIX–actualidad",
   "confianza": "verificada",
-  "version": "1.0",
-  "revisado": "2026-07-09",
-  "facetasDefinitorias": ["economico", "estatismo", "institucionalismo", "democracia-directa", "poder-laboral"],
+  "version": "1.1",
+  "revisado": "2026-07-10",
+  "facetasDefinitorias": [
+    "economico",
+    "estatismo",
+    "institucionalismo",
+    "democracia-directa",
+    "poder-laboral"
+  ],
   "sensibilidad": "normal",
-  "advertencia": "Es una referencia doctrinal no electoral, no una identidad asignada ni una descripción de CNT, CGT u otra organización real. Kropotkin no agota el anarcocomunismo: existen diferencias sobre organización específica, sindicalismo, transición, violencia defensiva y formas de coordinación. No se codifican energía nuclear, religión, aborto, política territorial ni armas nucleares porque no forman una posición definitoria común.",
+  "advertencia": "Es una referencia doctrinal no electoral, no una identidad asignada ni una descripción de CNT, CGT u otra organización real. Kropotkin no agota el anarcocomunismo: existen diferencias sobre organización específica, sindicalismo, transición, violencia defensiva y formas de coordinación. No se codifican energía nuclear, religión, aborto, armas nucleares ni disputas territoriales españolas concretas (independencias, financiación autonómica); la estructura territorial (confederación libre frente a Estado central) sí se codifica porque es doctrinalmente definitoria.",
   "fuentesMarco": [
     {
       "tipo": "otro",
@@ -218,6 +224,119 @@
         "url": "https://theanarchistlibrary.org/library/petr-kropotkin-the-conquest-of-bread",
         "fecha": "1892",
         "consultado": "2026-07-09"
+      }
+    },
+    "izq-016": {
+      "valor": 2,
+      "justificacion": "La expropiación de banca y grandes empresas sin indemnizar es el programa mismo de esta doctrina: la riqueza es producto colectivo y nadie tiene derecho a apropiársela; indemnizar sería reconocer el título que se niega.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Pëtr Kropotkin, The Conquest of Bread",
+        "url": "https://theanarchistlibrary.org/library/petr-kropotkin-the-conquest-of-bread",
+        "fecha": "1892",
+        "consultado": "2026-07-10",
+        "cita": "nobody has the right to seize a single one of these machines and say, 'This is mine; if you want to use it you must pay me a tax on each of your products'"
+      }
+    },
+    "izq-042": {
+      "valor": 2,
+      "justificacion": "La toma de edificios abandonados para uso común es expropiación en pequeño: Kropotkin defiende que la vivienda ociosa pase a quien la necesita porque los títulos estatales de propiedad no obligan.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Pëtr Kropotkin, The Conquest of Bread",
+        "url": "https://theanarchistlibrary.org/library/petr-kropotkin-the-conquest-of-bread",
+        "fecha": "1892",
+        "consultado": "2026-07-10",
+        "cita": "dwelling-houses are in no sense the property of those whom the State recognizes as their owners"
+      }
+    },
+    "eco-007": {
+      "valor": -2,
+      "justificacion": "Un desalojo exprés blinda precisamente los títulos de propiedad inmobiliaria que esta doctrina no reconoce; su programa es el inverso: expropiar la vivienda ociosa para alojar a quien la necesita.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Pëtr Kropotkin, The Conquest of Bread",
+        "url": "https://theanarchistlibrary.org/library/petr-kropotkin-the-conquest-of-bread",
+        "fecha": "1892",
+        "consultado": "2026-07-10",
+        "cita": "dwelling-houses are in no sense the property of those whom the State recognizes as their owners"
+      }
+    },
+    "soc-006": {
+      "valor": 2,
+      "justificacion": "Kropotkin dedicó una obra entera a mostrar que la prisión no corrige ni disuade: con más razón rechaza una pena de prisión de por vida; el horizonte doctrinal es la abolición del sistema penitenciario.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Pëtr Kropotkin, In Russian and French Prisons",
+        "url": "https://theanarchistlibrary.org/library/petr-kropotkin-in-russian-and-french-prisons",
+        "fecha": "1887",
+        "consultado": "2026-07-10",
+        "cita": "Prisons are universities of crime, maintained by the state."
+      }
+    },
+    "izq-014": {
+      "valor": -1,
+      "justificacion": "La tradición anarcocomunista (Goldman) trata la emancipación de la mujer y la libertad afectiva como fin sustantivo de la revolución social, no como distracción; su crítica se dirige a las vías meramente legales, nunca a la agenda emancipatoria en sí.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Emma Goldman, The Tragedy of Woman’s Emancipation",
+        "url": "https://theanarchistlibrary.org/library/emma-goldman-the-tragedy-of-woman-s-emancipation",
+        "fecha": "1906",
+        "consultado": "2026-07-10",
+        "cita": "The right to vote, or equal civil rights, may be good demands, but true emancipation begins neither at the polls nor in courts. It begins in woman's soul."
+      }
+    },
+    "dem-034": {
+      "valor": 1,
+      "justificacion": "La federación libre de comunas es su arquitectura característica y prefiere cualquier pacto confederal a un Estado central; el matiz es que el ítem habla de territorios soberanos con instituciones comunes estatales, no de comunas sin Estado.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Pëtr Kropotkin, The State: Its Historic Role",
+        "url": "https://www.theanarchistlibrary.org/library/petr-kropotkin-the-state-its-historic-role",
+        "fecha": "1896",
+        "consultado": "2026-07-10"
+      }
+    },
+    "dem-035": {
+      "valor": 2,
+      "justificacion": "La asociación libre implica el derecho permanente de separarse: una confederación sin derecho de salida reconstruiría el Estado coercitivo que esta doctrina disuelve.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Pëtr Kropotkin, The State: Its Historic Role",
+        "url": "https://www.theanarchistlibrary.org/library/petr-kropotkin-the-state-its-historic-role",
+        "fecha": "1896",
+        "consultado": "2026-07-10"
+      }
+    },
+    "ter-001": {
+      "valor": -2,
+      "justificacion": "Concentrar competencias en el Estado central es el movimiento histórico exacto que Kropotkin describe como la destrucción de la vida comunal: la dirección doctrinal es disolver el centro, no reforzarlo.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Pëtr Kropotkin, The State: Its Historic Role",
+        "url": "https://www.theanarchistlibrary.org/library/petr-kropotkin-the-state-its-historic-role",
+        "fecha": "1896",
+        "consultado": "2026-07-10"
+      }
+    },
+    "dr-021": {
+      "valor": -2,
+      "justificacion": "Un Estado unitario con administración única es la culminación de la centralización estatal que esta doctrina combate; su alternativa son comunas y federaciones libres, no una sola administración.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Pëtr Kropotkin, The State: Its Historic Role",
+        "url": "https://www.theanarchistlibrary.org/library/petr-kropotkin-the-state-its-historic-role",
+        "fecha": "1896",
+        "consultado": "2026-07-10"
       }
     }
   }
