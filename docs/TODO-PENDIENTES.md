@@ -7,7 +7,6 @@ Las prioridades evitan que «más partidos» desplace los problemas reales de pr
 
 - [ ] Ejecutar una última matriz limpia de validación después de detener todos los agentes: datos, TypeScript raíz/web, Vitest, build Vite 7 y `git diff --check`.
 - [ ] Hacer un smoke test manual completo: rápido → provisional → exhaustivo → revisión → resultados → cambio de elección/CCAA → reinicio.
-- [ ] Probar persistencia tras recarga y migración de una sesión antigua de 40 preguntas.
 - [ ] Revisar visualmente móvil estrecho, tableta y escritorio; el build compila, pero no existe aún una prueba visual automatizada.
 - [ ] Auditar el diff final, crear commit intencional y subir `codex/frontend-exhaustivo-mapeo-politico`.
 
@@ -46,6 +45,8 @@ La recomendación es una sola base responsive convertida primero en **PWA**; man
 - [ ] Solo si se necesita publicar en tiendas, envolver la PWA con Capacitor después de estabilizarla; no empezar un frontend nativo nuevo.
 
 ## P2 — cobertura política y electoral
+
+- [ ] **Criterio sistemático de cobertura** (decisión del dueño): top-20 de votos en las últimas generales + todas las familias completas de comunistas activos y de extrema derecha activa. Estado 2026-07-10: top-20 con 17/20 (faltan NC-bc —en curso—, PUM+J, Existe); comunistas completos; extrema derecha con FE-JONS pero sin La Falange, Democracia Nacional ni España 2000 (en curso); Volt y Escaños en Blanco pendientes (en curso).
 
 - [ ] El universo oficial tiene 312 candidaturas, pero solo 48 perfiles comparables. Priorizar por votos, representación y capacidad discriminante; no rellenar cientos de fichas superficialmente.
 - [ ] Completar perfiles canarios: Nueva Canarias, Drago, ASG, AHI, Unidos por Gran Canaria y otros con evidencia suficiente.
