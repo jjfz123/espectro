@@ -1,0 +1,17 @@
+{
+  "name": "Espectro — test de afinidad política",
+  "short_name": "Espectro",
+  "description": "Test de afinidad política de espectro completo para España. Todo el cálculo ocurre en tu dispositivo.",
+  "lang": "es",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#faf9f7",
+  "theme_color": "#faf9f7",
+  "categories": ["education", "government", "utilities"],
+  "icons": [
+    { "src": "/icono-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/icono-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "/icono-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

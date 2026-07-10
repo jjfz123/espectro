@@ -36,8 +36,8 @@ Las prioridades evitan que «más partidos» desplace los problemas reales de pr
 
 La recomendación es una sola base responsive convertida primero en **PWA**; mantener dos frontends independientes duplicaría bugs y metodología.
 
-- [ ] Crear `manifest.webmanifest`, iconos, colores, nombre corto, `display: standalone` y metadatos de instalación.
-- [ ] Añadir service worker con estrategia offline para assets versionados y aviso explícito cuando haya una actualización.
+- [x] Crear `manifest.webmanifest`, iconos, colores, nombre corto, `display: standalone` y metadatos de instalación.
+- [x] Añadir service worker con estrategia offline para assets versionados y aviso de actualización (evento `espectro:actualizacion-disponible`; el rótulo de interfaz queda pendiente).
 - [ ] Probar instalación y actualización en Android, iOS/Safari y escritorio.
 - [ ] Mantener todos los datos políticos versionados dentro de la app y declarar su fecha de corte offline.
 - [ ] Solo si se necesita publicar en tiendas, envolver la PWA con Capacitor después de estabilizarla; no empezar un frontend nativo nuevo.
