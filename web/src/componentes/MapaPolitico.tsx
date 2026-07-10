@@ -1,7 +1,9 @@
 import { Suspense, lazy, useId, useMemo, useState } from 'react';
 import type { ResultadoFaceta } from '@engine';
 import { distanciaEspacial } from '@engine';
-import { formatearEje } from '../datos';
+import { poloCortoPartible } from '../lecturaEjes';
+import { AyudaEjes } from './AyudaEjes';
+import { LecturaEjes } from './LecturaEjes';
 import {
   EJES_MAPA,
   ENTIDADES_MAPA,
@@ -36,12 +38,6 @@ const PARES: ParEjes[] = [
 const MARGEN = 12;
 const LADO = 456;
 const TOTAL = LADO + MARGEN * 2;
-
-/** Etiqueta corta del polo, sin el paréntesis aclaratorio. */
-function poloCorto(texto: string): string {
-  const i = texto.indexOf('(');
-  return (i === -1 ? texto : texto.slice(0, i)).trim().replace(/\//g, '/​');
-}
 
 function aCoordenada(valor: number): number {
   return MARGEN + ((valor + 100) / 200) * LADO;
@@ -205,20 +201,15 @@ export function MapaPolitico({ facetasUsuario }: Props) {
     if (!seleccion) return null;
     if (seleccion === 'usuario') {
       return (
-        <p className="mapa-lectura" role="status">
-          <strong>Tu posición.</strong>{' '}
-          {EJES_MAPA.map((eje, i) => {
-            const valor = valoresUsuario[eje.id];
-            return (
-              <span key={eje.id}>
-                {i > 0 ? ' · ' : ''}
-                {NOMBRE_CORTO_EJE[eje.id] ?? eje.id}{' '}
-                {typeof valor === 'number' ? formatearEje(valor) : 'sin datos'}
-              </span>
-            );
-          })}
-          {usuarioProvisional ? ' · alguna posición es aún provisional' : ''}.
-        </p>
+        <div className="mapa-lectura" role="status">
+          <p className="mapa-lectura__titular">
+            <strong>Tu posición.</strong>
+            {usuarioProvisional ? (
+              <span className="mapa-lectura__tipo"> Alguna posición aún provisional.</span>
+            ) : null}
+          </p>
+          <LecturaEjes ejes={EJES_MAPA} valores={valoresUsuario} nombreCorto={NOMBRE_CORTO_EJE} />
+        </div>
       );
     }
     if (!entidadSeleccionada) return null;
@@ -227,35 +218,39 @@ export function MapaPolitico({ facetasUsuario }: Props) {
       par.y,
     ]);
     return (
-      <p className="mapa-lectura" role="status">
-        <strong>{entidadSeleccionada.nombre}.</strong>{' '}
-        {entidadSeleccionada.tipo === 'referencia' ? (
-          <span className="mapa-lectura__tipo">Referencia doctrinal, no votable. </span>
-        ) : (
-          <span className="mapa-lectura__tipo">Partido. </span>
-        )}
-        {EJES_MAPA.map((eje, i) => (
-          <span key={eje.id}>
-            {i > 0 ? ' · ' : ''}
-            {NOMBRE_CORTO_EJE[eje.id] ?? eje.id}{' '}
-            {formatearEje(entidadSeleccionada.valores[eje.id] ?? 0)}
+      <div className="mapa-lectura" role="status">
+        <p className="mapa-lectura__titular">
+          <strong>{entidadSeleccionada.nombre}.</strong>{' '}
+          <span className="mapa-lectura__tipo">
+            {entidadSeleccionada.tipo === 'referencia'
+              ? 'Referencia doctrinal, no votable.'
+              : 'Partido.'}
           </span>
-        ))}
-        {distanciaPlano !== null
-          ? ` · distancia a ti en este plano: ${Math.round(distanciaPlano)} (orientativa)`
-          : ''}
-        .
-      </p>
+        </p>
+        <LecturaEjes
+          ejes={EJES_MAPA}
+          valores={entidadSeleccionada.valores}
+          nombreCorto={NOMBRE_CORTO_EJE}
+        />
+        {distanciaPlano !== null ? (
+          <p className="mapa-lectura__distancia">
+            Distancia a ti en este plano: {Math.round(distanciaPlano)} (orientativa).
+          </p>
+        ) : null}
+      </div>
     );
   };
 
   return (
     <div className="mapa-politico">
-      <p className="nota-al-margen" style={{ maxWidth: '68ch' }}>
-        Tres ejes medidos con el mismo instrumento para ti, para los partidos y para las
-        referencias doctrinales: el económico, el social/cultural (GAL-TAN) y el territorial.
-        El plano principal cruza económico × GAL-TAN; puedes cambiar el par.
-      </p>
+      <div className="mapa-politico__intro nota-al-margen">
+        <span>
+          Tres ejes medidos con el mismo instrumento para ti, para los partidos y para las
+          referencias doctrinales: el económico, el social/cultural (GAL-TAN) y el
+          territorial. El plano principal cruza económico × GAL-TAN; puedes cambiar el par.
+        </span>
+        <AyudaEjes ejes={EJES_MAPA} etiqueta="Qué mide cada eje del mapa, GAL-TAN incluido" />
+      </div>
 
       <div className="mapa-politico__disclaimer">
         <p>
@@ -292,7 +287,7 @@ export function MapaPolitico({ facetasUsuario }: Props) {
 
       <div className="mapa-plano">
         <span className="mapa-plano__polo mapa-plano__polo--arriba">
-          {poloCorto(ejeY.poloPositivo)}
+          {poloCortoPartible(ejeY.poloPositivo)}
         </span>
         <svg
           viewBox={`0 0 ${TOTAL} ${TOTAL}`}
@@ -401,11 +396,11 @@ export function MapaPolitico({ facetasUsuario }: Props) {
           })}
         </svg>
         <span className="mapa-plano__polo mapa-plano__polo--abajo">
-          {poloCorto(ejeY.poloNegativo)}
+          {poloCortoPartible(ejeY.poloNegativo)}
         </span>
         <div className="mapa-plano__polos-x">
-          <span>{poloCorto(ejeX.poloNegativo)}</span>
-          <span>{poloCorto(ejeX.poloPositivo)}</span>
+          <span>{poloCortoPartible(ejeX.poloNegativo)}</span>
+          <span>{poloCortoPartible(ejeX.poloPositivo)}</span>
         </div>
       </div>
 

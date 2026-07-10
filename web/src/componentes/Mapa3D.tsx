@@ -3,21 +3,28 @@
  *
  * Todo three/react-three-fiber/drei vive en este chunk perezoso: solo se
  * descarga al pulsar «Ver en 3D». Render bajo demanda (frameloop="demand" +
- * invalidate), pixel ratio limitado a 2, sin antialias nativo y
- * powerPreference high-performance, según docs/investigacion/ESPACIO-EJES.md.
- * El canvas es opaco para lectores de pantalla: la tabla hermana contiene la
- * información equivalente y el mapa 2D queda como respaldo sin WebGL.
+ * invalidate), pixel ratio limitado a 2 y powerPreference high-performance,
+ * según docs/investigacion/ESPACIO-EJES.md. Con ~20 entidades el presupuesto
+ * permite esferas con sombreado suave (dos luces direccionales + ambiente) en
+ * lugar de puntos planos; el canvas es transparente y el fondo lo pone la
+ * hoja de estilos (viñeta radial papel→superficie), de modo que respira con
+ * el tema claro/oscuro. El canvas es opaco para lectores de pantalla: la
+ * tabla hermana contiene la información equivalente y el mapa 2D queda como
+ * respaldo sin WebGL.
  */
 import { useEffect, useMemo, useRef, useState } from 'react';
-import type { ReactNode } from 'react';
+import type { ReactNode, RefObject } from 'react';
 import * as THREE from 'three';
 import { Canvas, useFrame, useThree } from '@react-three/fiber';
 import { Html, OrbitControls } from '@react-three/drei';
 import type { Eje } from '@engine';
 import { distanciaEspacial } from '@engine';
 import { formatearEje } from '../datos';
+import { lecturaEjeConNumero, poloBrevePartible } from '../lecturaEjes';
 import { NOMBRE_CORTO_EJE } from '../mapaEspacial';
 import type { EntidadMapa } from '../mapaEspacial';
+import { AyudaEjes } from './AyudaEjes';
+import { LecturaEjes } from './LecturaEjes';
 
 interface Props {
   /** Los tres ejes del espacio, en orden: económico, social, territorial. */
@@ -29,6 +36,7 @@ interface Props {
 
 interface Tema {
   papel: string;
+  superficie: string;
   tinta: string;
   tintaSuave: string;
   filete: string;
@@ -62,12 +70,27 @@ function leerTema(): Tema {
     estilo.getPropertyValue(nombre).trim() || respaldo;
   return {
     papel: variable('--papel', '#faf9f7'),
+    superficie: variable('--superficie', '#f1eee8'),
     tinta: variable('--tinta', '#211e1b'),
     tintaSuave: variable('--tinta-suave', '#6b6459'),
     filete: variable('--filete', '#ddd8cd'),
     fileteFuerte: variable('--filete-fuerte', '#b1a999'),
     acento: variable('--acento', '#9b1c31'),
   };
+}
+
+/** Mezcla lineal de dos colores #rrggbb (para calibrar la niebla al fondo). */
+function mezclarHex(a: string, b: string, proporcionB: number): string {
+  const numA = /^#[0-9a-f]{6}$/i.test(a) ? parseInt(a.slice(1), 16) : null;
+  const numB = /^#[0-9a-f]{6}$/i.test(b) ? parseInt(b.slice(1), 16) : null;
+  if (numA === null || numB === null) return a;
+  const canal = (desplazamiento: number) => {
+    const va = (numA >> desplazamiento) & 0xff;
+    const vb = (numB >> desplazamiento) & 0xff;
+    return Math.round(va + (vb - va) * proporcionB);
+  };
+  const valor = (canal(16) << 16) | (canal(8) << 8) | canal(0);
+  return `#${valor.toString(16).padStart(6, '0')}`;
 }
 
 function useTema(): Tema {
@@ -103,47 +126,105 @@ function hayWebGL(): boolean {
   }
 }
 
-/** Etiqueta breve del polo: sin paréntesis y cortada en la primera coma. */
-function poloBreve(texto: string): string {
-  const sinParentesis = texto.split('(')[0] ?? texto;
-  return (sinParentesis.split(',')[0] ?? sinParentesis).trim();
-}
-
 /**
  * Autorrotación lenta oscilatoria alrededor del eje vertical (efecto de
  * profundidad cinética). Se pausa al interactuar o seleccionar y queda
  * desactivada con prefers-reduced-motion. La fase se acumula solo mientras
  * está activa para que la reanudación no dé saltos.
  */
-function GrupoOscilante({ activo, children }: { activo: boolean; children: ReactNode }) {
-  const referencia = useRef<THREE.Group>(null);
+function GrupoOscilante({
+  activo,
+  grupoRef,
+  children,
+}: {
+  activo: boolean;
+  grupoRef: RefObject<THREE.Group | null>;
+  children: ReactNode;
+}) {
   const fase = useRef(0);
   const invalidate = useThree((estado) => estado.invalidate);
   useEffect(() => {
     if (activo) invalidate();
   }, [activo, invalidate]);
   useFrame((_, delta) => {
-    if (!activo || !referencia.current) return;
+    if (!activo || !grupoRef.current) return;
     fase.current += Math.min(delta, 0.1);
-    referencia.current.rotation.y = 0.45 * Math.sin(fase.current * 0.3);
+    grupoRef.current.rotation.y = 0.45 * Math.sin(fase.current * 0.3);
     invalidate();
   });
-  return <group ref={referencia}>{children}</group>;
+  return <group ref={grupoRef}>{children}</group>;
+}
+
+/**
+ * Al seleccionar un punto, la cámara reencuadra suavemente su objetivo hacia
+ * él (y de vuelta al centro al deseleccionar). Con menos movimiento activado
+ * el salto es inmediato. El objetivo se corrige con la rotación acumulada del
+ * grupo oscilante para apuntar a la posición real en el mundo.
+ */
+function TransicionCamara({
+  punto,
+  grupo,
+  inmediata,
+}: {
+  punto: [number, number, number] | null;
+  grupo: RefObject<THREE.Group | null>;
+  inmediata: boolean;
+}) {
+  const invalidate = useThree((estado) => estado.invalidate);
+  const controles = useThree((estado) => estado.controls) as unknown as {
+    target: THREE.Vector3;
+    update: () => void;
+  } | null;
+  const objetivo = useRef(new THREE.Vector3());
+  const ejeY = useRef(new THREE.Vector3(0, 1, 0));
+
+  const destino = () => {
+    const [x, y, z] = punto ?? [0, 0, 0];
+    objetivo.current.set(x, y, z);
+    const angulo = grupo.current?.rotation.y ?? 0;
+    if (angulo !== 0) objetivo.current.applyAxisAngle(ejeY.current, angulo);
+    return objetivo.current;
+  };
+
+  useEffect(() => {
+    if (!controles) return;
+    if (inmediata) {
+      controles.target.copy(destino());
+      controles.update();
+    }
+    invalidate();
+  }, [controles, punto, inmediata, invalidate]);
+
+  useFrame((_, delta) => {
+    if (!controles || inmediata) return;
+    const meta = destino();
+    const distancia = controles.target.distanceTo(meta);
+    if (distancia < 0.003) return;
+    controles.target.lerp(meta, 1 - Math.exp(-6 * Math.min(delta, 0.1)));
+    controles.update();
+    invalidate();
+  });
+  return null;
 }
 
 /** Filetes del cubo, rejilla del suelo, ejes centrales y plano ecuatorial. */
 function Estructura({ tema }: { tema: Tema }) {
   const bordes = useMemo(() => new THREE.EdgesGeometry(new THREE.BoxGeometry(2, 2, 2)), []);
-  const rejilla = useMemo(() => {
-    const puntos: number[] = [];
-    for (let i = 0; i <= 4; i += 1) {
-      const t = -1 + i / 2;
-      puntos.push(-1, -1, t, 1, -1, t);
-      puntos.push(t, -1, -1, t, -1, 1);
+  const [rejillaMenor, rejillaMayor] = useMemo(() => {
+    const aGeometria = (puntos: number[]) => {
+      const geometria = new THREE.BufferGeometry();
+      geometria.setAttribute('position', new THREE.Float32BufferAttribute(puntos, 3));
+      return geometria;
+    };
+    const menor: number[] = [];
+    const mayor: number[] = [];
+    for (let i = 1; i <= 7; i += 1) {
+      const t = -1 + i / 4;
+      const destino = t === 0 ? mayor : menor;
+      destino.push(-1, -1, t, 1, -1, t);
+      destino.push(t, -1, -1, t, -1, 1);
     }
-    const geometria = new THREE.BufferGeometry();
-    geometria.setAttribute('position', new THREE.Float32BufferAttribute(puntos, 3));
-    return geometria;
+    return [aGeometria(menor), aGeometria(mayor)];
   }, []);
   const ejesCentrales = useMemo(() => {
     const puntos = [-1, 0, 0, 1, 0, 0, 0, -1, 0, 0, 1, 0, 0, 0, -1, 0, 0, 1];
@@ -156,18 +237,22 @@ function Estructura({ tema }: { tema: Tema }) {
       <lineSegments geometry={bordes} raycast={ignorarRaycast}>
         <lineBasicMaterial color={tema.fileteFuerte} />
       </lineSegments>
-      <lineSegments geometry={rejilla} raycast={ignorarRaycast}>
+      <lineSegments geometry={rejillaMenor} raycast={ignorarRaycast}>
+        <lineBasicMaterial color={tema.filete} transparent opacity={0.55} />
+      </lineSegments>
+      <lineSegments geometry={rejillaMayor} raycast={ignorarRaycast}>
         <lineBasicMaterial color={tema.filete} />
       </lineSegments>
       <lineSegments geometry={ejesCentrales} raycast={ignorarRaycast}>
         <lineBasicMaterial color={tema.fileteFuerte} />
       </lineSegments>
-      <mesh rotation={[-Math.PI / 2, 0, 0]} raycast={ignorarRaycast}>
+      {/* Suelo apenas insinuado: ancla el cubo sin pesar. */}
+      <mesh position={[0, -1.001, 0]} rotation={[-Math.PI / 2, 0, 0]} raycast={ignorarRaycast}>
         <planeGeometry args={[2, 2]} />
         <meshBasicMaterial
-          color={tema.filete}
+          color={tema.superficie}
           transparent
-          opacity={0.16}
+          opacity={0.5}
           side={THREE.DoubleSide}
           depthWrite={false}
         />
@@ -176,16 +261,20 @@ function Estructura({ tema }: { tema: Tema }) {
   );
 }
 
-function EtiquetasEjes({ ejes, tema }: { ejes: Eje[]; tema: Tema }) {
+function EtiquetasEjes({ ejes }: { ejes: Eje[] }) {
   const [economico, social, territorial] = ejes;
   if (!economico || !social || !territorial) return null;
+  /* Posiciones calibradas contra la proyección de la cámara por defecto para
+     que ningún polo caiga en mitad de la escena ni se salga del lienzo: los
+     del eje territorial van a ras de suelo (el cercano sobre el propio eje,
+     el lejano hacia la esquina trasera derecha, despejada). */
   const etiquetas: Array<{ posicion: [number, number, number]; texto: string }> = [
-    { posicion: [1.28, -1, 0], texto: poloBreve(economico.poloPositivo) },
-    { posicion: [-1.28, -1, 0], texto: poloBreve(economico.poloNegativo) },
-    { posicion: [0, 1.22, 0], texto: poloBreve(social.poloPositivo) },
-    { posicion: [0, -1.28, 0], texto: poloBreve(social.poloNegativo) },
-    { posicion: [0, -1, 1.32], texto: poloBreve(territorial.poloPositivo) },
-    { posicion: [0, -1, -1.32], texto: poloBreve(territorial.poloNegativo) },
+    { posicion: [1.36, -1, 0], texto: poloBrevePartible(economico.poloPositivo) },
+    { posicion: [-1.36, -1, 0], texto: poloBrevePartible(economico.poloNegativo) },
+    { posicion: [0, 1.26, 0], texto: poloBrevePartible(social.poloPositivo) },
+    { posicion: [0, -1.42, 0], texto: poloBrevePartible(social.poloNegativo) },
+    { posicion: [0, -0.9, 1.46], texto: poloBrevePartible(territorial.poloPositivo) },
+    { posicion: [1.08, -1.06, -1.3], texto: poloBrevePartible(territorial.poloNegativo) },
   ];
   return (
     <>
@@ -196,7 +285,6 @@ function EtiquetasEjes({ ejes, tema }: { ejes: Eje[]; tema: Tema }) {
           center
           zIndexRange={[5, 0]}
           className="cubo3d-polo"
-          style={{ color: tema.tintaSuave }}
         >
           {etiqueta.texto}
         </Html>
@@ -210,6 +298,7 @@ function Punto({
   tema,
   seleccionado,
   etiquetaVisible,
+  desplazamientoEtiqueta,
   sufijoEtiqueta,
   alSeleccionar,
 }: {
@@ -217,39 +306,81 @@ function Punto({
   tema: Tema;
   seleccionado: boolean;
   etiquetaVisible: boolean;
+  desplazamientoEtiqueta: number;
   sufijoEtiqueta?: string;
   alSeleccionar: (id: string) => void;
 }) {
   const invalidate = useThree((estado) => estado.invalidate);
-  const color =
-    datos.tipo === 'usuario' ? tema.acento : seleccionado ? tema.acento : tema.tinta;
+  const [encima, setEncima] = useState(false);
+  const esUsuario = datos.tipo === 'usuario';
+  const destacado = esUsuario || seleccionado || encima;
+  /* Tinta ligeramente levantada hacia el papel: el sombreado de la esfera
+     necesita margen para leerse (una esfera 100 % tinta parece un disco). */
+  const color = destacado ? tema.acento : mezclarHex(tema.tinta, tema.papel, 0.18);
   const alPulsar = (evento: { stopPropagation: () => void }) => {
     evento.stopPropagation();
     alSeleccionar(datos.id);
     invalidate();
   };
+  const alEntrar = (evento: { stopPropagation: () => void }) => {
+    evento.stopPropagation();
+    setEncima(true);
+    document.body.style.cursor = 'pointer';
+  };
+  const alSalir = () => {
+    setEncima(false);
+    document.body.style.cursor = '';
+  };
   return (
     <group position={datos.posicion}>
       {datos.tipo === 'referencia' ? (
-        <mesh onClick={alPulsar}>
-          <octahedronGeometry args={[0.08, 0]} />
+        <mesh
+          onClick={alPulsar}
+          onPointerOver={alEntrar}
+          onPointerOut={alSalir}
+          scale={seleccionado ? 1.2 : 1}
+        >
+          <octahedronGeometry args={[0.085, 0]} />
           <meshBasicMaterial color={color} wireframe />
         </mesh>
       ) : (
-        <mesh onClick={alPulsar}>
+        <mesh
+          onClick={alPulsar}
+          onPointerOver={alEntrar}
+          onPointerOut={alSalir}
+          scale={seleccionado && !esUsuario ? 1.18 : 1}
+        >
           {/* El tamaño en pantalla decrece con la profundidad (cámara en
               perspectiva): pista redundante junto a la niebla. */}
-          <sphereGeometry args={[datos.tipo === 'usuario' ? 0.07 : 0.05, 24, 16]} />
-          <meshBasicMaterial color={color} />
+          <sphereGeometry args={[esUsuario ? 0.08 : 0.055, 32, 24]} />
+          <meshStandardMaterial
+            color={color}
+            roughness={0.42}
+            metalness={0.05}
+            emissive={destacado ? tema.acento : '#000000'}
+            emissiveIntensity={esUsuario ? 0.5 : destacado ? 0.3 : 0}
+          />
         </mesh>
       )}
-      {etiquetaVisible ? (
+      {esUsuario ? (
+        /* Aura tenue: «Tú» brilla ligeramente en carmín. */
+        <mesh raycast={ignorarRaycast}>
+          <sphereGeometry args={[0.14, 24, 16]} />
+          <meshBasicMaterial
+            color={tema.acento}
+            transparent
+            opacity={0.18}
+            depthWrite={false}
+          />
+        </mesh>
+      ) : null}
+      {etiquetaVisible || encima ? (
         <Html
-          position={[0, 0.14, 0]}
+          position={[0, desplazamientoEtiqueta, 0]}
           center
           occlude
-          zIndexRange={[10, 0]}
-          className={`cubo3d-etiqueta${datos.tipo === 'usuario' || seleccionado ? ' cubo3d-etiqueta--destacada' : ''}`}
+          zIndexRange={esUsuario ? [20, 11] : [10, 0]}
+          className={`cubo3d-etiqueta${destacado ? ' cubo3d-etiqueta--destacada' : ''}`}
         >
           {datos.etiqueta}
           {sufijoEtiqueta ? <small>{sufijoEtiqueta}</small> : null}
@@ -284,12 +415,54 @@ function Conexiones({
   );
 }
 
+/**
+ * Anticolisión simple y determinista de etiquetas: cada rótulo prueba niveles
+ * verticales alternados (arriba/abajo, cada vez más lejos) hasta encontrar
+ * uno que no choque con los ya colocados en su vecindad horizontal. La
+ * separación vertical (0.26 unidades de mundo) deja sitio a rótulos de
+ * referencias doctrinales partidos en dos o tres líneas. El usuario va
+ * primero en la lista de puntos, así que conserva el puesto junto a su
+ * esfera.
+ */
+const NIVELES_ETIQUETA = [0.16, -0.22, 0.48, -0.54, 0.8, -0.86, 1.12];
+
+function calcularDesplazamientos(
+  puntos: PuntoDatos[],
+  visibles: ReadonlySet<string>,
+): Map<string, number> {
+  const resultado = new Map<string, number>();
+  const colocadas: Array<{ x: number; z: number; centroY: number }> = [];
+  const RADIO_HORIZONTAL = 0.55;
+  const SEPARACION_VERTICAL = 0.3;
+  for (const punto of puntos) {
+    if (!visibles.has(punto.id)) continue;
+    const [px, py, pz] = punto.posicion;
+    let elegido = NIVELES_ETIQUETA[0] ?? 0.16;
+    for (const nivel of NIVELES_ETIQUETA) {
+      const centroY = py + nivel;
+      const choca = colocadas.some(
+        (otra) =>
+          Math.hypot(otra.x - px, otra.z - pz) < RADIO_HORIZONTAL &&
+          Math.abs(otra.centroY - centroY) < SEPARACION_VERTICAL,
+      );
+      if (!choca) {
+        elegido = nivel;
+        break;
+      }
+    }
+    resultado.set(punto.id, elegido);
+    colocadas.push({ x: px, z: pz, centroY: py + elegido });
+  }
+  return resultado;
+}
+
 export default function Mapa3D({ ejes, valoresUsuario, usuarioProvisional, entidades }: Props) {
   const tema = useTema();
   const menosMovimiento = usePrefiereMenosMovimiento();
   const [seleccion, setSeleccion] = useState<string | null>(null);
   const [interactuando, setInteractuando] = useState(false);
   const soportaWebGL = useMemo(hayWebGL, []);
+  const grupoRef = useRef<THREE.Group>(null);
 
   const idsEjes = useMemo(() => ejes.map((eje) => eje.id), [ejes]);
 
@@ -338,6 +511,22 @@ export default function Mapa3D({ ejes, valoresUsuario, usuarioProvisional, entid
 
   const idsVecinos = new Map(vecinos.map((vecino) => [vecino.punto.id, vecino.distancia]));
 
+  /* Con una selección activa la escena se concentra en el punto elegido y
+     sus vecinos: los rótulos permanentes de las referencias se retiran para
+     no chocar con los de los vecinos (que llevan su distancia). */
+  const etiquetasVisibles = new Set<string>();
+  for (const punto of puntos) {
+    if (
+      punto.tipo === 'usuario' ||
+      (punto.tipo === 'referencia' && seleccion === null) ||
+      punto.id === seleccion ||
+      idsVecinos.has(punto.id)
+    ) {
+      etiquetasVisibles.add(punto.id);
+    }
+  }
+  const desplazamientos = calcularDesplazamientos(puntos, etiquetasVisibles);
+
   if (!soportaWebGL) {
     return (
       <p className="aviso-cobertura" role="status">
@@ -348,40 +537,51 @@ export default function Mapa3D({ ejes, valoresUsuario, usuarioProvisional, entid
   }
 
   const oscilar = !menosMovimiento && !interactuando && seleccion === null;
+  const colorNiebla = mezclarHex(tema.papel, tema.superficie, 0.5);
+  /* En pantallas estrechas la cámara arranca más lejos: el cubo respira y
+     los rótulos de polos no se salen del lienzo. */
+  const camaraInicial: [number, number, number] =
+    window.innerWidth < 640 ? [3.45, 2.55, 4.2] : [2.85, 2.1, 3.45];
 
   return (
     <div className="cubo3d">
       <div className="cubo3d__lienzo" aria-hidden="true">
         <Canvas
           frameloop="demand"
+          // Colores exactos de la maqueta: sin tone mapping cinematográfico.
+          flat
           // Equivale a setPixelRatio(Math.min(devicePixelRatio, 2)).
           dpr={Math.min(window.devicePixelRatio || 1, 2)}
-          gl={{ antialias: false, powerPreference: 'high-performance' }}
-          camera={{ position: [2.4, 1.5, 3.1], fov: 42 }}
+          gl={{
+            antialias: (window.devicePixelRatio || 1) < 2,
+            alpha: true,
+            powerPreference: 'high-performance',
+          }}
+          /* Ligeramente elevada: el suelo con rejilla queda visible y los
+             rótulos de polos inferiores no se salen del lienzo. */
+          camera={{ position: camaraInicial, fov: 42 }}
           onPointerMissed={() => setSeleccion(null)}
         >
-          <color attach="background" args={[tema.papel]} />
-          {/* Niebla suave: pista de profundidad coherente con el papel. */}
-          <fog attach="fog" args={[tema.papel, 3.8, 9.5]} />
-          <GrupoOscilante activo={oscilar}>
+          {/* Niebla suave calibrada al fondo: pista de profundidad. */}
+          <fogExp2 attach="fog" args={[colorNiebla, 0.085]} />
+          <ambientLight intensity={0.95} />
+          <directionalLight position={[2.5, 4, 3]} intensity={1.45} />
+          <directionalLight position={[-3, -1.5, -2.5]} intensity={0.45} />
+          <GrupoOscilante activo={oscilar} grupoRef={grupoRef}>
             <Estructura tema={tema} />
-            <EtiquetasEjes ejes={ejes} tema={tema} />
+            <EtiquetasEjes ejes={ejes} />
             {puntos.map((punto) => {
               const distanciaVecino = idsVecinos.get(punto.id);
               const esVecino = distanciaVecino !== undefined;
               const seleccionado = punto.id === seleccion;
-              const etiquetaVisible =
-                punto.tipo === 'usuario' ||
-                punto.tipo === 'referencia' ||
-                seleccionado ||
-                esVecino;
               return (
                 <Punto
                   key={punto.id}
                   datos={punto}
                   tema={tema}
                   seleccionado={seleccionado}
-                  etiquetaVisible={etiquetaVisible}
+                  etiquetaVisible={etiquetasVisibles.has(punto.id)}
+                  desplazamientoEtiqueta={desplazamientos.get(punto.id) ?? 0.15}
                   sufijoEtiqueta={
                     esVecino ? ` d ${Math.round(distanciaVecino)}` : undefined
                   }
@@ -393,6 +593,11 @@ export default function Mapa3D({ ejes, valoresUsuario, usuarioProvisional, entid
               <Conexiones origen={puntoSeleccionado.posicion} vecinos={vecinos} tema={tema} />
             ) : null}
           </GrupoOscilante>
+          <TransicionCamara
+            punto={puntoSeleccionado?.posicion ?? null}
+            grupo={grupoRef}
+            inmediata={menosMovimiento}
+          />
           <OrbitControls
             makeDefault
             enablePan={false}
@@ -405,24 +610,41 @@ export default function Mapa3D({ ejes, valoresUsuario, usuarioProvisional, entid
         </Canvas>
       </div>
 
-      <p className="cubo3d__ayuda">
-        Arrastra para girar, rueda o pellizco para acercar, toca un punto para ver sus vecinos
-        más próximos. La rotación se pausa al interactuar
-        {menosMovimiento ? ' y está desactivada por tu preferencia de menos movimiento' : ''}.
-      </p>
+      <div className="cubo3d__ayuda">
+        <span>
+          Arrastra para girar, rueda o pellizco para acercar, toca un punto para ver sus
+          vecinos más próximos. La rotación se pausa al interactuar
+          {menosMovimiento ? ' y está desactivada por tu preferencia de menos movimiento' : ''}
+          .
+        </span>{' '}
+        <AyudaEjes ejes={ejes} etiqueta="Qué mide cada eje del cubo, GAL-TAN incluido" />
+      </div>
 
       {puntoSeleccionado ? (
-        <p className="mapa-lectura" role="status">
-          <strong>{puntoSeleccionado.nombre}.</strong>{' '}
-          {puntoSeleccionado.tipo === 'referencia'
-            ? 'Referencia doctrinal, no votable. '
-            : ''}
-          {vecinos.length > 0
-            ? `Vecinos más próximos (distancia euclídea sobre los tres ejes, orientativa): ${vecinos
-                .map((vecino) => `${vecino.punto.nombre} (d ${Math.round(vecino.distancia)})`)
-                .join(' · ')}.`
-            : 'No hay otros puntos con evidencia suficiente con los que medir cercanía.'}
-        </p>
+        <div className="mapa-lectura" role="status">
+          <p className="mapa-lectura__titular">
+            <strong>{puntoSeleccionado.nombre}.</strong>{' '}
+            {puntoSeleccionado.tipo !== 'usuario' ? (
+              <span className="mapa-lectura__tipo">
+                {puntoSeleccionado.tipo === 'referencia'
+                  ? 'Referencia doctrinal, no votable.'
+                  : 'Partido.'}
+              </span>
+            ) : null}
+          </p>
+          <LecturaEjes
+            ejes={ejes}
+            valores={puntoSeleccionado.valores}
+            nombreCorto={NOMBRE_CORTO_EJE}
+          />
+          <p className="mapa-lectura__distancia">
+            {vecinos.length > 0
+              ? `Vecinos más próximos (distancia euclídea sobre los tres ejes, orientativa): ${vecinos
+                  .map((vecino) => `${vecino.punto.nombre} (d ${Math.round(vecino.distancia)})`)
+                  .join(' · ')}.`
+              : 'No hay otros puntos con evidencia suficiente con los que medir cercanía.'}
+          </p>
+        </div>
       ) : null}
 
       <div className="tabla-scroll">
@@ -448,8 +670,12 @@ export default function Mapa3D({ ejes, valoresUsuario, usuarioProvisional, entid
             <tr>
               <th scope="row">Tú{usuarioProvisional ? ' (provisional)' : ''}</th>
               <td>usuario</td>
-              {idsEjes.map((id) => (
-                <td key={id} className="celda-valor">
+              {idsEjes.map((id, i) => (
+                <td
+                  key={id}
+                  className="celda-valor"
+                  title={ejes[i] ? lecturaEjeConNumero(valoresUsuario[id] as number, ejes[i]) : undefined}
+                >
                   {formatearEje(valoresUsuario[id] as number)}
                 </td>
               ))}
@@ -472,8 +698,12 @@ export default function Mapa3D({ ejes, valoresUsuario, usuarioProvisional, entid
               <tr key={entidad.id}>
                 <th scope="row">{entidad.nombre}</th>
                 <td>{entidad.tipo === 'referencia' ? 'referencia doctrinal, no votable' : 'partido'}</td>
-                {idsEjes.map((id) => (
-                  <td key={id} className="celda-valor">
+                {idsEjes.map((id, i) => (
+                  <td
+                    key={id}
+                    className="celda-valor"
+                    title={ejes[i] ? lecturaEjeConNumero(entidad.valores[id] ?? 0, ejes[i]) : undefined}
+                  >
                     {formatearEje(entidad.valores[id] ?? 0)}
                   </td>
                 ))}

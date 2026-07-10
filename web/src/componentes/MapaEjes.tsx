@@ -1,5 +1,6 @@
 import type { Eje } from '@engine';
 import { formatearEje } from '../datos';
+import { lecturaEje, lecturaEjeConNumero, poloCortoPartible } from '../lecturaEjes';
 
 interface Props {
   ejes: Eje[];
@@ -9,18 +10,11 @@ interface Props {
 }
 
 /**
- * Etiqueta corta del polo: sin el paréntesis aclaratorio y con puntos de
- * corte tras las barras para que en pantallas estrechas parta ahí.
- */
-function poloCorto(texto: string): string {
-  const i = texto.indexOf('(');
-  return (i === -1 ? texto : texto.slice(0, i)).trim().replace(/\//g, '/\u200B');
-}
-
-/**
  * Barras divergentes −100..+100 dibujadas en SVG. La dirección la codifica la
- * posición respecto al cero, no el color: una sola tinta basta. Los ejes sin
- * ítems respondidos se declaran «sin datos» en lugar de fingir un 0.
+ * posición respecto al cero, no el color: una sola tinta basta. Junto al
+ * número va siempre su lectura verbal (lecturaEjes.ts): un «−83» solo no dice
+ * nada. Los ejes sin ítems respondidos se declaran «sin datos» en lugar de
+ * fingir un 0.
  */
 export function MapaEjes({ ejes, valores, titulo, nota }: Props) {
   return (
@@ -39,8 +33,9 @@ export function MapaEjes({ ejes, valores, titulo, nota }: Props) {
                 {eje.nombre}
               </span>
               {conDato ? (
-                <span className="eje-valor" aria-label={`Valor: ${Math.round(valor)} sobre una escala de menos cien a más cien`}>
-                  {formatearEje(valor)}
+                <span className="eje-valor" aria-label={lecturaEjeConNumero(valor, eje)}>
+                  <span className="faceta-valor__frase">{lecturaEje(valor, eje)}</span>
+                  <span className="faceta-valor__numero">{formatearEje(valor)}</span>
                 </span>
               ) : (
                 <span className="eje-valor eje-valor--vacio">sin datos</span>
@@ -63,10 +58,10 @@ export function MapaEjes({ ejes, valores, titulo, nota }: Props) {
             </svg>
             <div className="eje-polos" aria-hidden={!conDato}>
               <span data-activo={conDato && valor < 0} title={eje.poloNegativo}>
-                {poloCorto(eje.poloNegativo)}
+                {poloCortoPartible(eje.poloNegativo)}
               </span>
               <span data-activo={conDato && valor > 0} title={eje.poloPositivo}>
-                {poloCorto(eje.poloPositivo)}
+                {poloCortoPartible(eje.poloPositivo)}
               </span>
             </div>
           </div>

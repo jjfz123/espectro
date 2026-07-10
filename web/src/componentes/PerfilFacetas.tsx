@@ -1,6 +1,8 @@
 import { useId, useMemo, useState, type CSSProperties } from 'react';
 import type { Eje, ResultadoFaceta } from '@engine';
 import { formatearEje, formatearNumero } from '../datos';
+import { AYUDA_EJES_MAPA, ayudaEje, lecturaEje, lecturaEjeConNumero } from '../lecturaEjes';
+import { AyudaEjes } from './AyudaEjes';
 
 interface Props {
   ejes: Eje[];
@@ -167,9 +169,8 @@ function FilaFaceta({ eje, faceta }: { eje: Eje; faceta: ResultadoFaceta }) {
     '--longitud': `${longitud}%`,
   } as EstiloBarra;
   const estado = textoEvidencia(faceta);
-  const valorTexto = conDato ? formatearEje(valor) : 'sin datos';
   const ariaBarra = conDato
-    ? `${eje.nombre}: ${valorTexto} en una escala de menos cien, ${eje.poloNegativo}, a más cien, ${eje.poloPositivo}. ${estado}`
+    ? `${eje.nombre}: ${lecturaEjeConNumero(valor, eje)} en una escala de menos cien, ${eje.poloNegativo}, a más cien, ${eje.poloPositivo}. ${estado}`
     : `${eje.nombre}: sin datos. ${estado}`;
   const distanciasReferencias = conDato
     ? eje.referencias?.map((referencia) => ({
@@ -189,9 +190,17 @@ function FilaFaceta({ eje, faceta }: { eje: Eje; faceta: ResultadoFaceta }) {
     <article className="faceta-fila" data-estado={conDato ? (faceta.coberturaSuficiente ? 'suficiente' : 'tentativa') : 'sin-datos'}>
       <div className="faceta-cabecera">
         <h4 title={eje.descripcion}>{eje.nombre}</h4>
-        <span className={conDato ? 'faceta-valor' : 'faceta-valor faceta-valor--vacio'}>
-          {valorTexto}
-        </span>
+        {AYUDA_EJES_MAPA[eje.id] ? (
+          <AyudaEjes ejes={[eje]} titulo="Qué mide este eje" etiqueta={`Qué mide ${eje.nombre}`} />
+        ) : null}
+        {conDato ? (
+          <span className="faceta-valor">
+            <span className="faceta-valor__frase">{lecturaEje(valor, eje)}</span>
+            <span className="faceta-valor__numero">{formatearEje(valor)}</span>
+          </span>
+        ) : (
+          <span className="faceta-valor faceta-valor--vacio">sin datos</span>
+        )}
       </div>
 
       <p className="faceta-evidencia">
@@ -235,7 +244,7 @@ function FilaFaceta({ eje, faceta }: { eje: Eje; faceta: ResultadoFaceta }) {
       <details className="faceta-detalle">
         <summary>Qué mide y qué evidencia hay</summary>
         <div>
-          {eje.descripcion ? <p>{eje.descripcion}</p> : null}
+          {ayudaEje(eje) ? <p>{ayudaEje(eje)}</p> : null}
           <dl>
             <div>
               <dt>Preguntas con opinión</dt>
@@ -338,7 +347,7 @@ function ExploradorFacetas({ ejes, facetas }: Props) {
             viewBox="0 0 300 300"
             role="img"
             aria-describedby={descripcionId}
-            aria-label={`${x.eje.nombre}: ${formatearEje(x.faceta.valor ?? 0)}. ${y.eje.nombre}: ${formatearEje(y.faceta.valor ?? 0)}.`}
+            aria-label={`${x.eje.nombre}: ${lecturaEjeConNumero(x.faceta.valor ?? 0, x.eje)}. ${y.eje.nombre}: ${lecturaEjeConNumero(y.faceta.valor ?? 0, y.eje)}.`}
           >
             <rect className="explorador-marco" x="24" y="24" width="252" height="252" />
             <path className="explorador-marcas" d="M150 276v-7M24 150h7M276 150h-7M150 24v7" />
@@ -353,8 +362,10 @@ function ExploradorFacetas({ ejes, facetas }: Props) {
           </div>
         </div>
         <p className="explorador-lectura">
-          <strong>{x.eje.nombre}:</strong> {formatearEje(x.faceta.valor ?? 0)} ·{' '}
-          <strong>{y.eje.nombre}:</strong> {formatearEje(y.faceta.valor ?? 0)}.
+          <strong>{x.eje.nombre}:</strong> {lecturaEje(x.faceta.valor ?? 0, x.eje)}{' '}
+          <span className="lectura-ejes__numero">{formatearEje(x.faceta.valor ?? 0)}</span> ·{' '}
+          <strong>{y.eje.nombre}:</strong> {lecturaEje(y.faceta.valor ?? 0, y.eje)}{' '}
+          <span className="lectura-ejes__numero">{formatearEje(y.faceta.valor ?? 0)}</span>.
           {!x.faceta.coberturaSuficiente || !y.faceta.coberturaSuficiente
             ? ' Al menos una de las dos posiciones es provisional.'
             : ''}

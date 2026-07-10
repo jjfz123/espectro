@@ -1003,6 +1003,37 @@ h3 {
   border-top: 1px solid var(--filete);
 }
 
+/* Variante compacta del «?» para notas y cabeceras de fila. */
+.glosario-marca--mini {
+  width: 1.35rem;
+  height: 1.35rem;
+  margin-left: 0.4rem;
+  vertical-align: -0.2em;
+  font-size: 0.64rem;
+}
+
+/* Panel de ayuda de los ejes del mapa (mismo filete que el glosario). */
+.glosario-panel--ejes {
+  margin: 0.6rem 0 0.2rem;
+  color: var(--tinta);
+  background: var(--papel);
+}
+
+.glosario-panel--ejes dt {
+  font-size: 0.92rem;
+}
+
+.glosario-polos {
+  display: block;
+  margin-top: 0.25rem;
+  color: var(--tinta-suave);
+  font-size: 0.78rem;
+}
+
+.mapa-politico__intro {
+  max-width: 68ch;
+}
+
 .importante-fila {
   border-top: 1px solid var(--filete);
   margin-top: 1.4rem;
@@ -1698,9 +1729,9 @@ h3 {
 
 .faceta-cabecera {
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
   align-items: baseline;
-  gap: 1rem;
+  gap: 0.4rem 0.75rem;
 }
 
 .faceta-cabecera h4 {
@@ -1709,12 +1740,39 @@ h3 {
   line-height: 1.25;
 }
 
+/* El panel de ayuda «?» ocupa su propia línea dentro de la cabecera. */
+.faceta-cabecera .glosario-panel {
+  flex: 1 1 100%;
+  order: 10;
+}
+
+/*
+ * La lectura verbal es el dato principal; el número queda como dato
+ * secundario (menor, tabular, tinta suave). Un «−83» solo no dice nada.
+ */
 .faceta-valor {
-  flex: 0 0 auto;
-  font-family: var(--serif);
-  font-size: 1.06rem;
-  font-weight: 700;
+  flex: 0 1 auto;
+  margin-left: auto;
+  display: inline-flex;
+  align-items: baseline;
+  gap: 0.45rem;
+  text-align: right;
+}
+
+.faceta-valor__frase {
+  font-family: var(--sans);
+  font-size: 0.85rem;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+.faceta-valor__numero {
+  font-family: var(--sans);
+  font-size: 0.78rem;
+  font-weight: 400;
   font-variant-numeric: tabular-nums;
+  color: var(--tinta-suave);
+  white-space: nowrap;
 }
 
 .faceta-valor--vacio {
@@ -2174,6 +2232,29 @@ h3 {
   stroke-width: 2.5;
 }
 
+/* Hover y selección en carmín: un solo acento, sin segundo color. */
+.mapa-punto:not([data-tipo='usuario']):hover .mapa-punto__forma {
+  stroke: var(--acento);
+  stroke-width: 2;
+}
+
+.mapa-punto:hover .mapa-punto__rotulo {
+  fill: var(--acento);
+}
+
+.mapa-punto[data-seleccionado='true'][data-tipo='partido'] .mapa-punto__forma {
+  fill: var(--acento);
+}
+
+.mapa-punto[data-seleccionado='true'][data-tipo='referencia'] .mapa-punto__forma {
+  stroke: var(--acento);
+}
+
+.mapa-punto[data-seleccionado='true'] .mapa-punto__rotulo {
+  fill: var(--acento);
+  font-weight: 700;
+}
+
 .mapa-punto[data-tipo='usuario'] .mapa-punto__forma {
   fill: var(--acento);
   stroke: var(--papel);
@@ -2205,7 +2286,7 @@ h3 {
   fill: var(--tinta);
   paint-order: stroke;
   stroke: var(--papel);
-  stroke-width: 2.5px;
+  stroke-width: 3px;
 }
 
 .mapa-punto[data-tipo='usuario'] .mapa-punto__rotulo {
@@ -2250,13 +2331,17 @@ h3 {
   stroke-width: 1.5;
 }
 
+/* Panel de selección: el acento carmín marca qué está seleccionado. */
 .mapa-lectura {
   margin-top: 0.9rem;
-  padding: 0.7rem 0.9rem;
+  padding: 0.75rem 0.9rem 0.8rem;
   border: 1px solid var(--filete);
-  border-left: 3px solid var(--filete-fuerte);
+  border-left: 3px solid var(--acento);
   font-size: 0.84rem;
-  font-variant-numeric: tabular-nums;
+}
+
+.mapa-lectura__titular {
+  margin: 0;
 }
 
 .mapa-lectura__tipo {
@@ -2264,6 +2349,57 @@ h3 {
   text-transform: uppercase;
   font-size: 0.7rem;
   letter-spacing: 0.08em;
+}
+
+.mapa-lectura__distancia {
+  margin: 0.6rem 0 0;
+  padding-top: 0.5rem;
+  border-top: 1px solid var(--filete);
+  color: var(--tinta-suave);
+  font-size: 0.78rem;
+  font-variant-numeric: tabular-nums;
+}
+
+/* Lectura verbal por eje (paneles de selección 2D y 3D). */
+.lectura-ejes {
+  list-style: none;
+  margin: 0.55rem 0 0;
+  padding: 0;
+  display: grid;
+  gap: 0.3rem;
+}
+
+.lectura-ejes li {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 0.2rem 0.6rem;
+}
+
+.lectura-ejes__eje {
+  flex: 0 0 auto;
+  min-width: 6.4rem;
+  color: var(--tinta-suave);
+  font-size: 0.66rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.lectura-ejes__frase {
+  font-size: 0.85rem;
+}
+
+.lectura-ejes__frase--vacia {
+  color: var(--tinta-suave);
+  font-style: italic;
+}
+
+.lectura-ejes__numero {
+  color: var(--tinta-suave);
+  font-size: 0.78rem;
+  font-variant-numeric: tabular-nums;
+  white-space: nowrap;
 }
 
 .mapa-exclusiones {
@@ -2320,12 +2456,24 @@ h3 {
   margin-top: 1.25rem;
 }
 
+/*
+ * El lienzo 3D es transparente: el fondo lo pone esta viñeta radial, que
+ * respira con el tema (claro: papel que se apaga hacia los bordes; oscuro:
+ * leve claridad central sobre papel oscuro).
+ */
 .cubo3d__lienzo {
   height: clamp(20rem, 65vw, 30rem);
   border: 1px solid var(--filete-fuerte);
   border-radius: 2px;
   overflow: hidden;
   touch-action: none;
+  background: radial-gradient(120% 95% at 50% 30%, var(--papel) 35%, var(--superficie) 100%);
+}
+
+@media (prefers-color-scheme: dark) {
+  .cubo3d__lienzo {
+    background: radial-gradient(120% 95% at 50% 30%, var(--superficie) 0%, var(--papel) 78%);
+  }
 }
 
 .cubo3d__ayuda {
@@ -2337,8 +2485,12 @@ h3 {
 .cubo3d-polo {
   max-width: 9rem;
   font-family: var(--sans);
-  font-size: 0.66rem;
-  line-height: 1.25;
+  font-size: 0.6rem;
+  font-weight: 600;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  line-height: 1.3;
+  color: var(--tinta-suave);
   text-align: center;
   white-space: normal;
   width: max-content;
@@ -2348,13 +2500,18 @@ h3 {
 
 .cubo3d-etiqueta {
   font-family: var(--sans);
-  font-size: 0.72rem;
+  font-size: 0.7rem;
   line-height: 1.2;
   color: var(--tinta);
-  background: color-mix(in srgb, var(--papel) 82%, transparent);
+  background: color-mix(in srgb, var(--papel) 88%, transparent);
   padding: 0.05rem 0.3rem;
   border-radius: 2px;
-  white-space: nowrap;
+  /* Los nombres largos (referencias doctrinales) se parten en varias líneas
+     en lugar de atravesar el cubo de lado a lado. */
+  white-space: normal;
+  width: max-content;
+  max-width: 9.5rem;
+  text-align: center;
   pointer-events: none;
   user-select: none;
 }
@@ -2757,7 +2914,12 @@ dl.definiciones dd {
 
   .cubo3d-polo {
     max-width: 6.5rem;
-    font-size: 0.58rem;
+    font-size: 0.56rem;
+  }
+
+  .cubo3d-etiqueta {
+    font-size: 0.62rem;
+    max-width: 7.5rem;
   }
 }
 
