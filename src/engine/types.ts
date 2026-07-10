@@ -109,6 +109,14 @@ export interface Partido extends PerfilAfinidad {
   componentes?: string[];
   ccaa?: string[];
   registroMir?: string;
+  /** Cómo se define el propio partido, con sus palabras y fuente. */
+  autodescripcion?: { texto: string; fuente: FuenteCita };
+  /**
+   * Etiquetas analíticas externas SIEMPRE atribuidas (politología, prensa de
+   * referencia), cada una con explicación llana del término y fuente. La voz
+   * editorial del proyecto no etiqueta: cita a quien clasifica.
+   */
+  clasificacion?: Array<{ etiqueta: string; explicacion: string; fuente: FuenteCita }>;
   /** Fecha de corte documental del perfil; no equivale a fecha de un programa concreto. */
   revisado?: string;
   /** Evita presentar organizaciones históricas o doctrinales como candidaturas actuales. */

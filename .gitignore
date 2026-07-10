@@ -7,3 +7,5 @@ coverage/
 # Caché local reproducible del Registro de Partidos. Sirve para comprobar
 # existencia/alta, pero no forma parte del universo electoral ni del frontend.
 /data/catalogo-formaciones-politicas.json
+web/test-results/
+web/playwright-report/

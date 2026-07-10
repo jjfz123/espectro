@@ -3,40 +3,146 @@
   "$id": "partido.schema.json",
   "title": "Partido político",
   "type": "object",
-  "required": ["id", "nombre", "ambito", "confianza", "posiciones"],
+  "required": [
+    "id",
+    "nombre",
+    "ambito",
+    "confianza",
+    "posiciones"
+  ],
   "properties": {
-    "id": { "type": "string", "pattern": "^[a-z0-9-]+$" },
-    "nombre": { "type": "string" },
-    "siglas": { "type": "string" },
-    "ambito": { "enum": ["estatal", "autonomico", "insular", "local"] },
-    "tipo": { "enum": ["partido", "coalicion"], "description": "coalicion = candidatura paraguas (Sumar, EH Bildu, Por Andalucía); sus componentes se listan aparte" },
-    "componentes": { "type": "array", "items": { "type": "string" }, "description": "ids de los partidos que integran la coalición" },
-    "ccaa": { "type": "array", "items": { "type": "string" } },
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9-]+$"
+    },
+    "nombre": {
+      "type": "string"
+    },
+    "siglas": {
+      "type": "string"
+    },
+    "ambito": {
+      "enum": [
+        "estatal",
+        "autonomico",
+        "insular",
+        "local"
+      ]
+    },
+    "tipo": {
+      "enum": [
+        "partido",
+        "coalicion"
+      ],
+      "description": "coalicion = candidatura paraguas (Sumar, EH Bildu, Por Andalucía); sus componentes se listan aparte"
+    },
+    "componentes": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "description": "ids de los partidos que integran la coalición"
+    },
+    "ccaa": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
     "confianza": {
-      "enum": ["verificada", "estimada", "sin-datos"],
+      "enum": [
+        "verificada",
+        "estimada",
+        "sin-datos"
+      ],
       "description": "verificada: autoubicación del partido o codificación experta con cita. estimada: inferida de programa/estatutos/actividad. sin-datos: listado sin matching."
     },
-    "demo": { "type": "boolean", "description": "true = partido ficticio de demostración; prohibido en producción" },
-    "registroMir": { "type": "string", "description": "Referencia en el Registro de Partidos del Ministerio del Interior" },
-    "web": { "type": "string", "format": "uri", "pattern": "^https://" },
-    "revisado": { "type": "string", "format": "date", "description": "Fecha de corte documental del perfil completo" },
-    "actividad": { "enum": ["activa", "incierta", "inactiva", "historica"], "description": "No confundir un perfil doctrinal o histórico con una candidatura vigente" },
+    "demo": {
+      "type": "boolean",
+      "description": "true = partido ficticio de demostración; prohibido en producción"
+    },
+    "registroMir": {
+      "type": "string",
+      "description": "Referencia en el Registro de Partidos del Ministerio del Interior"
+    },
+    "web": {
+      "type": "string",
+      "format": "uri",
+      "pattern": "^https://"
+    },
+    "revisado": {
+      "type": "string",
+      "format": "date",
+      "description": "Fecha de corte documental del perfil completo"
+    },
+    "actividad": {
+      "enum": [
+        "activa",
+        "incierta",
+        "inactiva",
+        "historica"
+      ],
+      "description": "No confundir un perfil doctrinal o histórico con una candidatura vigente"
+    },
     "excepcionCatalogo": {
       "type": "object",
-      "required": ["motivo", "justificacion", "fuente"],
+      "required": [
+        "motivo",
+        "justificacion",
+        "fuente"
+      ],
       "properties": {
-        "motivo": { "enum": ["comunista-activa", "historica-activa"] },
-        "justificacion": { "type": "string", "minLength": 30, "maxLength": 500 },
+        "motivo": {
+          "enum": [
+            "comunista-activa",
+            "historica-activa"
+          ]
+        },
+        "justificacion": {
+          "type": "string",
+          "minLength": 30,
+          "maxLength": 500
+        },
         "fuente": {
           "type": "object",
-          "required": ["tipo", "titulo", "url", "consultado"],
+          "required": [
+            "tipo",
+            "titulo",
+            "url",
+            "consultado"
+          ],
           "properties": {
-            "tipo": { "enum": ["programa", "votacion", "declaracion", "autoubicacion", "estatutos", "redes", "otro"] },
-            "titulo": { "type": "string" },
-            "url": { "type": "string", "format": "uri", "pattern": "^https://" },
-            "fecha": { "type": "string", "pattern": "^[0-9]{4}(-[0-9]{2}(-[0-9]{2})?)?$" },
-            "consultado": { "type": "string", "format": "date" },
-            "cita": { "type": "string", "maxLength": 500 }
+            "tipo": {
+              "enum": [
+                "programa",
+                "votacion",
+                "declaracion",
+                "autoubicacion",
+                "estatutos",
+                "redes",
+                "otro"
+              ]
+            },
+            "titulo": {
+              "type": "string"
+            },
+            "url": {
+              "type": "string",
+              "format": "uri",
+              "pattern": "^https://"
+            },
+            "fecha": {
+              "type": "string",
+              "pattern": "^[0-9]{4}(-[0-9]{2}(-[0-9]{2})?)?$"
+            },
+            "consultado": {
+              "type": "string",
+              "format": "date"
+            },
+            "cita": {
+              "type": "string",
+              "maxLength": 500
+            }
           },
           "additionalProperties": false
         }
@@ -45,20 +151,53 @@
     },
     "dobleLectura": {
       "type": "object",
-      "required": ["etiquetaBase", "descripcionBase", "contraste"],
+      "required": [
+        "etiquetaBase",
+        "descripcionBase",
+        "contraste"
+      ],
       "properties": {
-        "etiquetaBase": { "type": "string", "minLength": 3 },
-        "descripcionBase": { "type": "string", "minLength": 20 },
+        "etiquetaBase": {
+          "type": "string",
+          "minLength": 3
+        },
+        "descripcionBase": {
+          "type": "string",
+          "minLength": 20
+        },
         "contraste": {
           "type": "object",
-          "required": ["etiqueta", "descripcion", "hasta", "advertencia", "posiciones"],
+          "required": [
+            "etiqueta",
+            "descripcion",
+            "hasta",
+            "advertencia",
+            "posiciones"
+          ],
           "properties": {
-            "etiqueta": { "type": "string", "minLength": 3 },
-            "descripcion": { "type": "string", "minLength": 20 },
-            "desde": { "type": "string", "format": "date" },
-            "hasta": { "type": "string", "format": "date" },
-            "advertencia": { "type": "string", "minLength": 30 },
-            "posiciones": { "$ref": "#/definitions/posiciones" }
+            "etiqueta": {
+              "type": "string",
+              "minLength": 3
+            },
+            "descripcion": {
+              "type": "string",
+              "minLength": 20
+            },
+            "desde": {
+              "type": "string",
+              "format": "date"
+            },
+            "hasta": {
+              "type": "string",
+              "format": "date"
+            },
+            "advertencia": {
+              "type": "string",
+              "minLength": 30
+            },
+            "posiciones": {
+              "$ref": "#/definitions/posiciones"
+            }
           },
           "additionalProperties": false
         }
@@ -67,6 +206,95 @@
     },
     "posiciones": {
       "$ref": "#/definitions/posiciones"
+    },
+    "autodescripcion": {
+      "type": "object",
+      "required": [
+        "texto",
+        "fuente"
+      ],
+      "properties": {
+        "texto": {
+          "type": "string",
+          "description": "Cómo se define el propio partido, con sus palabras (estatutos, web, manifiesto)"
+        },
+        "fuente": {
+          "type": "object",
+          "required": [
+            "titulo",
+            "url"
+          ],
+          "properties": {
+            "tipo": {
+              "type": "string"
+            },
+            "titulo": {
+              "type": "string"
+            },
+            "url": {
+              "type": "string"
+            },
+            "fecha": {
+              "type": "string"
+            },
+            "cita": {
+              "type": "string",
+              "maxLength": 500
+            }
+          },
+          "additionalProperties": false
+        }
+      },
+      "additionalProperties": false
+    },
+    "clasificacion": {
+      "type": "array",
+      "description": "Etiquetas analíticas externas SIEMPRE atribuidas: politología, prensa de referencia. Cada una con explicación llana del término y fuente.",
+      "items": {
+        "type": "object",
+        "required": [
+          "etiqueta",
+          "explicacion",
+          "fuente"
+        ],
+        "properties": {
+          "etiqueta": {
+            "type": "string"
+          },
+          "explicacion": {
+            "type": "string",
+            "minLength": 40,
+            "description": "Qué significa el término, en llano y sin caricatura"
+          },
+          "fuente": {
+            "type": "object",
+            "required": [
+              "titulo",
+              "url"
+            ],
+            "properties": {
+              "tipo": {
+                "type": "string"
+              },
+              "titulo": {
+                "type": "string"
+              },
+              "url": {
+                "type": "string"
+              },
+              "fecha": {
+                "type": "string"
+              },
+              "cita": {
+                "type": "string",
+                "maxLength": 500
+              }
+            },
+            "additionalProperties": false
+          }
+        },
+        "additionalProperties": false
+      }
     }
   },
   "additionalProperties": false,
@@ -76,22 +304,73 @@
       "patternProperties": {
         "^[a-z0-9-]+$": {
           "type": "object",
-          "required": ["valor"],
+          "required": [
+            "valor"
+          ],
           "properties": {
-            "valor": { "type": "integer", "minimum": -2, "maximum": 2 },
-            "justificacion": { "type": "string", "maxLength": 500 },
-            "calidadEvidencia": { "enum": ["alta", "media", "baja"] },
-            "estadoCompromiso": { "enum": ["cumplido", "parcial", "bloqueado", "incumplido", "no-evaluable"] },
+            "valor": {
+              "type": "integer",
+              "minimum": -2,
+              "maximum": 2
+            },
+            "justificacion": {
+              "type": "string",
+              "maxLength": 500
+            },
+            "calidadEvidencia": {
+              "enum": [
+                "alta",
+                "media",
+                "baja"
+              ]
+            },
+            "estadoCompromiso": {
+              "enum": [
+                "cumplido",
+                "parcial",
+                "bloqueado",
+                "incumplido",
+                "no-evaluable"
+              ]
+            },
             "fuente": {
               "type": "object",
-              "required": ["tipo"],
+              "required": [
+                "tipo"
+              ],
               "properties": {
-                "tipo": { "enum": ["programa", "votacion", "declaracion", "autoubicacion", "estatutos", "redes", "otro"] },
-                "titulo": { "type": "string" },
-                "url": { "type": "string", "format": "uri", "pattern": "^https://" },
-                "fecha": { "type": "string", "pattern": "^[0-9]{4}(-[0-9]{2}(-[0-9]{2})?)?$", "description": "Fecha con la precisión publicada por la fuente: AAAA, AAAA-MM o AAAA-MM-DD" },
-                "consultado": { "type": "string", "format": "date" },
-                "cita": { "type": "string", "maxLength": 500 }
+                "tipo": {
+                  "enum": [
+                    "programa",
+                    "votacion",
+                    "declaracion",
+                    "autoubicacion",
+                    "estatutos",
+                    "redes",
+                    "otro"
+                  ]
+                },
+                "titulo": {
+                  "type": "string"
+                },
+                "url": {
+                  "type": "string",
+                  "format": "uri",
+                  "pattern": "^https://"
+                },
+                "fecha": {
+                  "type": "string",
+                  "pattern": "^[0-9]{4}(-[0-9]{2}(-[0-9]{2})?)?$",
+                  "description": "Fecha con la precisión publicada por la fuente: AAAA, AAAA-MM o AAAA-MM-DD"
+                },
+                "consultado": {
+                  "type": "string",
+                  "format": "date"
+                },
+                "cita": {
+                  "type": "string",
+                  "maxLength": 500
+                }
               },
               "additionalProperties": false
             }
