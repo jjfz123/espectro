@@ -1,5 +1,5 @@
 /**
- * Cubo 3D del espacio político: económico × GAL-TAN × territorial.
+ * Cubo 3D del espacio político: Economía × Sociedad × Territorio.
  *
  * Todo three/react-three-fiber/drei vive en este chunk perezoso: solo se
  * descarga al pulsar «Ver en 3D». Render bajo demanda (frameloop="demand" +
@@ -20,7 +20,7 @@ import { Html, OrbitControls } from '@react-three/drei';
 import type { Eje } from '@engine';
 import { distanciaEspacial } from '@engine';
 import { formatearEje } from '../datos';
-import { lecturaEjeConNumero, poloBrevePartible } from '../lecturaEjes';
+import { lecturaEjeConNumero, poloBreve, poloLlano } from '../lecturaEjes';
 import { NOMBRE_CORTO_EJE } from '../mapaEspacial';
 import type { EntidadMapa } from '../mapaEspacial';
 import { AyudaEjes } from './AyudaEjes';
@@ -268,13 +268,14 @@ function EtiquetasEjes({ ejes }: { ejes: Eje[] }) {
      que ningún polo caiga en mitad de la escena ni se salga del lienzo: los
      del eje territorial van a ras de suelo (el cercano sobre el propio eje,
      el lejano hacia la esquina trasera derecha, despejada). */
+  const polo = (eje: Eje, signo: 'negativo' | 'positivo') => poloBreve(poloLlano(eje, signo));
   const etiquetas: Array<{ posicion: [number, number, number]; texto: string }> = [
-    { posicion: [1.36, -1, 0], texto: poloBrevePartible(economico.poloPositivo) },
-    { posicion: [-1.36, -1, 0], texto: poloBrevePartible(economico.poloNegativo) },
-    { posicion: [0, 1.26, 0], texto: poloBrevePartible(social.poloPositivo) },
-    { posicion: [0, -1.42, 0], texto: poloBrevePartible(social.poloNegativo) },
-    { posicion: [0, -0.9, 1.46], texto: poloBrevePartible(territorial.poloPositivo) },
-    { posicion: [1.08, -1.06, -1.3], texto: poloBrevePartible(territorial.poloNegativo) },
+    { posicion: [1.36, -1, 0], texto: polo(economico, 'positivo') },
+    { posicion: [-1.36, -1, 0], texto: polo(economico, 'negativo') },
+    { posicion: [0, 1.26, 0], texto: polo(social, 'positivo') },
+    { posicion: [0, -1.42, 0], texto: polo(social, 'negativo') },
+    { posicion: [0, -0.9, 1.46], texto: polo(territorial, 'positivo') },
+    { posicion: [1.08, -1.06, -1.3], texto: polo(territorial, 'negativo') },
   ];
   return (
     <>
@@ -617,7 +618,7 @@ export default function Mapa3D({ ejes, valoresUsuario, usuarioProvisional, entid
           {menosMovimiento ? ' y está desactivada por tu preferencia de menos movimiento' : ''}
           .
         </span>{' '}
-        <AyudaEjes ejes={ejes} etiqueta="Qué mide cada eje del cubo, GAL-TAN incluido" />
+        <AyudaEjes ejes={ejes} etiqueta="Qué mide cada eje del cubo, con su nombre académico" />
       </div>
 
       {puntoSeleccionado ? (

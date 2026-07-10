@@ -1,6 +1,12 @@
 import type { Eje } from '@engine';
 import { formatearEje } from '../datos';
-import { lecturaEje, lecturaEjeConNumero, poloCortoPartible } from '../lecturaEjes';
+import {
+  lecturaEje,
+  lecturaEjeConNumero,
+  nombreLlanoEje,
+  poloCortoPartible,
+  poloLlano,
+} from '../lecturaEjes';
 
 interface Props {
   ejes: Eje[];
@@ -30,7 +36,7 @@ export function MapaEjes({ ejes, valores, titulo, nota }: Props) {
           <div key={eje.id} className="eje-fila">
             <div className="eje-cabecera">
               <span className="eje-nombre" title={eje.descripcion}>
-                {eje.nombre}
+                {nombreLlanoEje(eje)}
               </span>
               {conDato ? (
                 <span className="eje-valor" aria-label={lecturaEjeConNumero(valor, eje)}>
@@ -57,11 +63,11 @@ export function MapaEjes({ ejes, valores, titulo, nota }: Props) {
               {conDato ? <rect x={x} y="8" width={ancho} height="14" fill="var(--tinta)" /> : null}
             </svg>
             <div className="eje-polos" aria-hidden={!conDato}>
-              <span data-activo={conDato && valor < 0} title={eje.poloNegativo}>
-                {poloCortoPartible(eje.poloNegativo)}
+              <span data-activo={conDato && valor < 0} title={poloLlano(eje, 'negativo')}>
+                {poloCortoPartible(poloLlano(eje, 'negativo'))}
               </span>
-              <span data-activo={conDato && valor > 0} title={eje.poloPositivo}>
-                {poloCortoPartible(eje.poloPositivo)}
+              <span data-activo={conDato && valor > 0} title={poloLlano(eje, 'positivo')}>
+                {poloCortoPartible(poloLlano(eje, 'positivo'))}
               </span>
             </div>
           </div>

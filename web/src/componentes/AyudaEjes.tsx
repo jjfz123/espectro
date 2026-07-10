@@ -1,6 +1,6 @@
 import { useId, useRef, useState } from 'react';
 import type { Eje } from '@engine';
-import { ayudaEje, poloCortoPartible } from '../lecturaEjes';
+import { ayudaEje, nombreLlanoEje, poloLlano } from '../lecturaEjes';
 
 interface Props {
   /** Ejes a explicar, en orden de lectura. */
@@ -12,9 +12,10 @@ interface Props {
 }
 
 /**
- * Ayuda de jerga politológica («¿qué es GAL-TAN?») con el mismo patrón que
- * el glosario del cuestionario: botón «?» que despliega un panel con filete.
- * Los textos salen de lecturaEjes.ts (interfaz) y de data/ejes.json (polos).
+ * Panel de ayuda de los ejes con el mismo patrón que el glosario del
+ * cuestionario: botón «?» que despliega un panel con filete. En superficie
+ * van los nombres y polos llanos; la jerga politológica («¿qué es GAL-TAN?»)
+ * vive solo aquí dentro, como nota de los textos de lecturaEjes.ts.
  */
 export function AyudaEjes({ ejes, etiqueta, titulo = 'Qué mide cada eje' }: Props) {
   const idPanel = useId();
@@ -22,7 +23,7 @@ export function AyudaEjes({ ejes, etiqueta, titulo = 'Qué mide cada eje' }: Pro
   const botonRef = useRef<HTMLButtonElement>(null);
 
   if (ejes.length === 0) return null;
-  const nombres = ejes.map((eje) => eje.nombre).join(', ');
+  const nombres = ejes.map((eje) => nombreLlanoEje(eje)).join(', ');
 
   return (
     <>
@@ -54,12 +55,12 @@ export function AyudaEjes({ ejes, etiqueta, titulo = 'Qué mide cada eje' }: Pro
         <dl>
           {ejes.map((eje) => (
             <div key={eje.id} className="glosario-entrada">
-              <dt>{eje.nombre}</dt>
+              <dt>{nombreLlanoEje(eje)}</dt>
               <dd>
                 {ayudaEje(eje)}{' '}
                 <span className="glosario-polos">
-                  Escala: −100 «{poloCortoPartible(eje.poloNegativo)}» a +100 «
-                  {poloCortoPartible(eje.poloPositivo)}».
+                  Escala: −100 «{poloLlano(eje, 'negativo')}» a +100 «
+                  {poloLlano(eje, 'positivo')}».
                 </span>
               </dd>
             </div>

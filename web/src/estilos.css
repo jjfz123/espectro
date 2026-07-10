@@ -1740,6 +1740,16 @@ h3 {
   line-height: 1.25;
 }
 
+/* Nombre académico del eje como subtítulo pequeño del nombre llano. */
+.faceta-nombre-tecnico {
+  display: block;
+  font-family: var(--sans);
+  font-size: 0.68rem;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  color: var(--tinta-suave);
+}
+
 /* El panel de ayuda «?» ocupa su propia línea dentro de la cabecera. */
 .faceta-cabecera .glosario-panel {
   flex: 1 1 100%;
@@ -2111,6 +2121,144 @@ h3 {
 
 /* ————— Resultados: mapa del espectro (2D) ————— */
 
+/* Bloque «Cómo leer este mapa»: dos o tres frases, visibles, sin jerga. */
+.mapa-como-leer {
+  max-width: 68ch;
+  font-size: 0.9rem;
+}
+
+.mapa-como-leer p {
+  margin: 0;
+}
+
+.mapa-como-leer p.mapa-como-leer__nota {
+  margin-top: 0.35rem;
+  font-size: 0.8rem;
+  color: var(--tinta-suave);
+}
+
+/*
+ * Lavados de cuadrante de la brújula: la excepción deliberada y acotada a la
+ * regla de un-solo-acento. Cuatro tintes apagadísimos, solo como fondo del
+ * plano principal (los del compass clásico: rojo, azul, verde y ámbar
+ * desaturados); puntos, rótulos y UI siguen en tinta + carmín.
+ */
+.mapa-plano__lavados rect {
+  fill-opacity: 0.07;
+}
+
+.mapa-plano__lavado--io {
+  fill: #a34d3f;
+}
+
+.mapa-plano__lavado--do {
+  fill: #4a648c;
+}
+
+.mapa-plano__lavado--il {
+  fill: #5a7a4f;
+}
+
+.mapa-plano__lavado--dl {
+  fill: #a2803b;
+}
+
+@media (prefers-color-scheme: dark) {
+  .mapa-plano__lavados rect {
+    fill-opacity: 0.13;
+  }
+
+  .mapa-plano__lavado--io {
+    fill: #d98977;
+  }
+
+  .mapa-plano__lavado--do {
+    fill: #8fa7d1;
+  }
+
+  .mapa-plano__lavado--il {
+    fill: #97b98a;
+  }
+
+  .mapa-plano__lavado--dl {
+    fill: #d3b06b;
+  }
+}
+
+/* Descriptores de esquina: tipografía pequeña, tinta suave, sin valoración.
+   El halo en papel los mantiene legibles sobre lavados y rótulos vecinos. */
+.mapa-plano__esquinas text {
+  font-family: var(--sans);
+  font-size: 9.5px;
+  letter-spacing: 0.04em;
+  fill: var(--tinta-suave);
+  paint-order: stroke;
+  stroke: var(--papel);
+  stroke-width: 3px;
+}
+
+.mapa-plano--brujula .mapa-plano__esquinas text {
+  font-size: 10.5px;
+}
+
+/* En la brújula la cruz central es la referencia de lectura: filete fuerte. */
+.mapa-plano--brujula .mapa-plano__media {
+  stroke: var(--filete-fuerte);
+}
+
+/* Los puntos de la brújula no son interactivos: solo tooltip y rótulo. */
+.mapa-punto--quieto {
+  cursor: default;
+}
+
+.mapa-punto--quieto:hover .mapa-punto__rotulo {
+  fill: var(--tinta);
+}
+
+.mapa-punto--quieto[data-tipo='usuario']:hover .mapa-punto__rotulo {
+  fill: var(--acento);
+}
+
+.mapa-punto--quieto[data-tipo='partido']:hover .mapa-punto__forma {
+  stroke: var(--papel);
+  stroke-width: 1.5;
+}
+
+.mapa-punto--quieto[data-tipo='referencia']:hover .mapa-punto__forma {
+  stroke: var(--tinta);
+  stroke-width: 1.5;
+}
+
+.mapa-politico__enlace-detalle {
+  margin: 0.9rem 0 0;
+  text-align: center;
+  font-size: 0.82rem;
+}
+
+/* Cabecera de la vista detallada, con filete que separa de la brújula. */
+.mapa-detalle-titulo {
+  margin-top: 2rem;
+  padding-top: 1.4rem;
+  border-top: 1px solid var(--filete);
+  font-family: var(--serif);
+  font-size: 1.15rem;
+  scroll-margin-top: 1rem;
+}
+
+.mapa-politico__intro {
+  margin-top: 0.5rem;
+}
+
+.mapa-politico__facetas {
+  max-width: 68ch;
+  margin-top: 1.25rem;
+}
+
+/* Destino del enlace «tu perfil por facetas» desde el mapa. */
+#perfil-facetas {
+  scroll-margin-top: 1rem;
+}
+
 .mapa-politico__disclaimer {
   border-left: 3px solid var(--acento);
   background: var(--superficie);
@@ -2278,6 +2426,12 @@ h3 {
   stroke: var(--acento);
   stroke-width: 1;
   stroke-dasharray: 3 3;
+}
+
+/* Línea guía entre un punto y su rótulo desplazado por la anticolisión. */
+.mapa-punto__guia {
+  stroke: var(--filete-fuerte);
+  stroke-width: 0.8;
 }
 
 .mapa-punto__rotulo {

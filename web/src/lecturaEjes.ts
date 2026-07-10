@@ -2,8 +2,10 @@
  * Lectura verbal de las puntuaciones de eje y textos de ayuda de la interfaz.
  *
  * Un «−83» no dice nada por sí solo: toda puntuación de eje se acompaña de
- * una lectura verbal anclada en los polos reales del eje (data/ejes.json).
- * El número queda como dato secundario, en cuerpo menor y cifras tabulares.
+ * una lectura verbal anclada en los polos del eje. En los tres macro-ejes
+ * del mapa los polos y nombres de interfaz son llanos (POLOS_LLANOS_EJE);
+ * en el resto de facetas se usan los de data/ejes.json. El número queda
+ * como dato secundario, en cuerpo menor y cifras tabulares.
  *
  * Bandas cualitativas sobre |valor| (escala −100..+100):
  *   < 15  «En el centro»
@@ -15,6 +17,51 @@
  * ningún componente debe copiarse su propia versión.
  */
 import type { Eje } from '@engine';
+
+/**
+ * Nombres llanos de los tres macro-ejes del mapa en la superficie de la
+ * interfaz. data/ejes.json conserva intactos los nombres académicos (eje
+ * económico, GAL-TAN, centro-periferia): aquí solo se decide cómo se llaman
+ * de cara al usuario. La jerga politológica queda como nota dentro del panel
+ * de ayuda «?» (AYUDA_EJES_MAPA), nunca como título.
+ */
+export const NOMBRE_LLANO_EJE: Record<string, string> = {
+  economico: 'Economía',
+  social: 'Sociedad',
+  territorial: 'Territorio',
+};
+
+/**
+ * Polos llanos de los macro-ejes, misma dirección que data/ejes.json
+ * (negativo → positivo). Descriptivos y sin carga valorativa: «Orden y
+ * tradición», no «autoritario».
+ */
+export const POLOS_LLANOS_EJE: Record<string, { negativo: string; positivo: string }> = {
+  economico: {
+    negativo: 'Izquierda (más redistribución)',
+    positivo: 'Derecha (más mercado)',
+  },
+  social: {
+    negativo: 'Libertades y diversidad',
+    positivo: 'Orden y tradición',
+  },
+  territorial: {
+    negativo: 'Más autogobierno',
+    positivo: 'Más centralización',
+  },
+};
+
+/** Nombre de eje para la interfaz: el llano si existe, si no el del dato. */
+export function nombreLlanoEje(eje: Eje): string {
+  return NOMBRE_LLANO_EJE[eje.id] ?? eje.nombre;
+}
+
+/** Texto de polo para la interfaz: el llano si existe, si no el del dato. */
+export function poloLlano(eje: Eje, signo: 'negativo' | 'positivo'): string {
+  const polos = POLOS_LLANOS_EJE[eje.id];
+  if (polos) return polos[signo];
+  return signo === 'negativo' ? eje.poloNegativo : eje.poloPositivo;
+}
 
 /** Etiqueta corta del polo: sin el paréntesis aclaratorio. */
 export function poloCorto(texto: string): string {
@@ -53,14 +100,15 @@ export function bandaEje(valor: number): BandaEje {
 }
 
 /**
- * Frase de lectura de un valor: banda cualitativa + texto del polo real.
- * Ejemplos: «En el polo Verde/Alternativo/Libertario», «Inclinación hacia
- * Derecha económica», «En el centro, entre ambos polos».
+ * Frase de lectura de un valor: banda cualitativa + polo de interfaz (el
+ * llano en los macro-ejes del mapa, el del dato en el resto de facetas).
+ * Ejemplos: «En el polo Orden y tradición», «Inclinación hacia Izquierda»,
+ * «En el centro, entre ambos polos».
  */
 export function lecturaEje(valor: number, eje: Eje): string {
   const banda = bandaEje(valor);
   if (banda === 'centro') return 'En el centro, entre ambos polos';
-  const polo = poloBreve(valor < 0 ? eje.poloNegativo : eje.poloPositivo);
+  const polo = poloBreve(poloLlano(eje, valor < 0 ? 'negativo' : 'positivo'));
   if (banda === 'inclinacion') return `Inclinación hacia ${polo}`;
   if (banda === 'clara') return `Claramente hacia ${polo}`;
   return `En el polo ${polo}`;
@@ -75,25 +123,27 @@ export function lecturaEjeConNumero(valor: number, eje: Eje): string {
 /**
  * Explicaciones en castellano llano de los ejes del mapa, para el patrón de
  * ayuda «?» (mismo filete que el glosario del cuestionario). Son textos de
- * interfaz: no tocan data/ejes.json. Para el resto de facetas basta la
- * `descripcion` del propio eje.
+ * interfaz: no tocan data/ejes.json. La jerga académica va aquí dentro, como
+ * nota final, nunca en la superficie del mapa. Para el resto de facetas
+ * basta la `descripcion` del propio eje.
  */
 export const AYUDA_EJES_MAPA: Record<string, string> = {
   economico:
-    'Eje económico clásico: desde la izquierda económica (redistribución, ' +
-    'intervención del Estado) hasta la derecha económica (mercado, baja ' +
-    'fiscalidad). Mide impuestos, gasto social, regulación laboral y papel ' +
-    'del Estado en la economía.',
+    'Mide impuestos, gasto social, regulación laboral y papel del Estado en ' +
+    'la economía: desde la izquierda (más redistribución, más intervención ' +
+    'pública) hasta la derecha (más mercado, menos impuestos). Es el eje ' +
+    'izquierda-derecha económico clásico.',
   social:
-    'GAL-TAN es el eje social y cultural: desde las posiciones ' +
-    'verdes/alternativas/libertarias (GAL) hasta las ' +
-    'tradicionales/autoritarias/nacionalistas (TAN). Mide libertades ' +
-    'personales, inmigración, orden y moral pública — no economía.',
+    'Mide libertades personales, diversidad, inmigración, orden público y ' +
+    'moral pública — no economía. Va del polo Libertades y diversidad al ' +
+    'polo Orden y tradición. Los politólogos llaman a este eje GAL-TAN: de ' +
+    'Verde/Alternativo/Libertario (GAL) a Tradicional/Autoritario/' +
+    'Nacionalista (TAN).',
   territorial:
-    'Eje territorial: desde la máxima descentralización, incluido el derecho ' +
-    'a decidir, hasta la máxima centralización estatal. Mide el reparto del ' +
-    'poder entre el Estado y los territorios, el rasgo distintivo del ' +
-    'sistema de partidos español.',
+    'Mide el reparto del poder entre el Estado y los territorios: desde más ' +
+    'autogobierno, incluido el derecho a decidir, hasta más centralización ' +
+    'estatal. Es el rasgo distintivo del sistema de partidos español; los ' +
+    'politólogos lo llaman eje centro-periferia.',
 };
 
 /** Explicación llana de un eje: la de interfaz si existe, si no su descripción. */

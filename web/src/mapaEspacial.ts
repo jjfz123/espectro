@@ -1,6 +1,6 @@
 /**
  * Proyección de partidos y referencias doctrinales al espacio de tres ejes
- * (económico × GAL-TAN × territorial) para el mapa 2D/3D de resultados.
+ * (Economía × Sociedad × Territorio) para el mapa 2D/3D de resultados.
  *
  * Las entidades se miden con el MISMO instrumento que el usuario: sus
  * posiciones documentadas ({itemId: {valor}}) se convierten a Respuesta[] y
@@ -15,6 +15,7 @@ import { EJES_ESPACIO, proyectarEnEspacio } from '@engine';
 import type { Eje, PerfilAfinidad, ResultadoFaceta } from '@engine';
 import { EJES, ITEMS, nombrePerfil } from './datos';
 import { PARTIDOS, REFERENCIAS } from './datosResultados';
+import { NOMBRE_LLANO_EJE } from './lecturaEjes';
 
 export type TipoEntidadMapa = 'partido' | 'referencia';
 
@@ -43,11 +44,8 @@ export const EJES_MAPA: Eje[] = EJES.filter((eje) =>
   (EJES_ESPACIO as readonly string[]).includes(eje.id),
 );
 
-export const NOMBRE_CORTO_EJE: Record<string, string> = {
-  economico: 'económico',
-  social: 'GAL-TAN',
-  territorial: 'territorial',
-};
+/** Nombre corto de eje para rótulos: el llano de la interfaz (lecturaEjes). */
+export const NOMBRE_CORTO_EJE: Record<string, string> = NOMBRE_LLANO_EJE;
 
 function motivoDeFaceta(faceta: ResultadoFaceta): string {
   const nombre = NOMBRE_CORTO_EJE[faceta.facetaId] ?? faceta.facetaId;

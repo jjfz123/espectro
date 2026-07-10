@@ -215,7 +215,7 @@ export function Resultados({ estado, despachar }: Props) {
         </p>
       </div>
 
-      <section className="seccion">
+      <section className="seccion" id="perfil-facetas">
         <h2>Tu perfil por facetas</h2>
         <p className="nota-al-margen" style={{ maxWidth: '68ch' }}>
           Esta es tu posición aunque ningún partido la represente. Cada faceta va de −100 a
