@@ -1,0 +1,290 @@
+{
+  "id": "democracia-cristiana",
+  "nombre": "Democracia cristiana",
+  "tipo": "referencia-doctrinal",
+  "definicion": "Tipo ideal de la doctrina social católica aplicada a la política democrática: propiedad privada legítima pero con función social, economía social de mercado con concertación entre capital y trabajo, subsidiariedad (las instancias superiores no deben absorber lo que pueden resolver las inferiores) y dignidad de la persona como fundamento de un orden democrático pluralista, no confesional-integralista.",
+  "variante": "Doctrina fundada en Rerum Novarum (León XIII, 1891) y sistematizada por el personalismo democrático de Jacques Maritain; distinta del carlismo tradicionalista (confesionalidad de Estado, monarquía legitimista) y del liberalismo económico puro (rechaza el mercado sin límites tanto como el colectivismo estatal)",
+  "periodo": "1891 (Rerum Novarum) – 1943 (Maritain) – actualidad como tipo ideal",
+  "confianza": "verificada",
+  "version": "1.0",
+  "revisado": "2026-07-10",
+  "facetasDefinitorias": ["economico", "tradicion-moral", "estatismo", "poder-laboral", "modelo-territorial"],
+  "sensibilidad": "normal",
+  "advertencia": "Es un tipo ideal doctrinal, no la ficha de ningún partido español actual: el PP se reclama a la vez liberal, democristiano y conservador según sus propios estatutos, y tiene perfil documentado propio que no debe confundirse con este tipo ideal más estrecho. La subsidiariedad territorial se deriva por extensión razonada del argumento de Rerum Novarum sobre la familia y los cuerpos intermedios, no de una mención literal a las comunidades autónomas españolas. Frente al carlismo tradicionalista, esta corriente admite un Estado aconfesional que respeta la libertad religiosa; frente al distributismo de Chesterton y Belloc, acepta la gran empresa y el Estado social en vez de exigir la ruptura de la propiedad concentrada en unidades pequeñas.",
+  "fuentesMarco": [
+    {
+      "tipo": "otro",
+      "titulo": "León XIII, Rerum Novarum: Encyclical on Capital and Labor (15 de mayo de 1891), vatican.va",
+      "url": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_15051891_rerum-novarum.html",
+      "fecha": "1891-05-15",
+      "consultado": "2026-07-10"
+    },
+    {
+      "tipo": "otro",
+      "titulo": "Jacques Maritain, Christianity and Democracy [Christianisme et démocratie, 1943], Internet Archive",
+      "url": "https://archive.org/details/christianitydemo0000mari",
+      "fecha": "1943",
+      "consultado": "2026-07-10"
+    }
+  ],
+  "reglaPublicacion": {
+    "minimoItems": 10,
+    "minimoCobertura": 0.5,
+    "umbralAfinidad": 76
+  },
+  "posiciones": {
+    "der-012": {
+      "valor": 2,
+      "justificacion": "Rerum Novarum concibe capital y trabajo como necesarios el uno del otro y llama al Estado a promover su cooperación: la concertación tripartita antes de legislar es la traducción institucional directa de esa doctrina.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Rerum Novarum",
+        "url": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_15051891_rerum-novarum.html",
+        "fecha": "1891-05-15",
+        "consultado": "2026-07-10"
+      }
+    },
+    "eco-009": {
+      "valor": 0,
+      "justificacion": "La doctrina no fija una posición sobre el impuesto de sucesiones: defiende la propiedad privada como derecho natural, pero también su función social, lo que admite tanto su defensa como su moderación fiscal según el caso.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Rerum Novarum",
+        "url": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_15051891_rerum-novarum.html",
+        "fecha": "1891-05-15",
+        "consultado": "2026-07-10"
+      }
+    },
+    "lab-001": {
+      "valor": 2,
+      "justificacion": "La negociación colectiva de sector es la vía natural para que el salario sea suficiente para la familia, tal como reclama Rerum Novarum, sin dejarlo al pacto individual desprotegido.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Rerum Novarum",
+        "url": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_15051891_rerum-novarum.html",
+        "fecha": "1891-05-15",
+        "consultado": "2026-07-10",
+        "cita": "if a workman's wages be sufficient to enable him comfortably to support himself, his wife, and his children"
+      }
+    },
+    "lab-002": {
+      "valor": 1,
+      "justificacion": "La tradición democristiana europea de cogestión (Mitbestimmung) da participación a la plantilla en el consejo de dirección como cuerpo intermedio dentro de la empresa, sin sustituir a la propiedad privada.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Jacques Maritain, Christianity and Democracy",
+        "url": "https://archive.org/details/christianitydemo0000mari",
+        "fecha": "1943",
+        "consultado": "2026-07-10"
+      }
+    },
+    "lab-005": {
+      "valor": 2,
+      "justificacion": "Rerum Novarum defiende el derecho natural de los trabajadores a asociarse libremente, incluso frente a leyes que se lo nieguen: los sindicatos deben conservar autonomía frente al Estado y los partidos.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Rerum Novarum",
+        "url": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_15051891_rerum-novarum.html",
+        "fecha": "1891-05-15",
+        "consultado": "2026-07-10"
+      }
+    },
+    "lab-016": {
+      "valor": -1,
+      "justificacion": "El principio de subsidiariedad, ya presente en el argumento de Rerum Novarum sobre la familia y los cuerpos intermedios, se opone a que el Estado asuma funciones que la iniciativa privada puede cumplir eficazmente.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Rerum Novarum",
+        "url": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_15051891_rerum-novarum.html",
+        "fecha": "1891-05-15",
+        "consultado": "2026-07-10"
+      }
+    },
+    "eco-002": {
+      "valor": 1,
+      "justificacion": "La iniciativa privada tiene, para esta doctrina, un valor propio que el Estado debe respetar y fomentar dentro de una economía social de mercado, sin que ello suponga desregulación total.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Jacques Maritain, Christianity and Democracy",
+        "url": "https://archive.org/details/christianitydemo0000mari",
+        "fecha": "1943",
+        "consultado": "2026-07-10"
+      }
+    },
+    "eco-001": {
+      "valor": 1,
+      "justificacion": "La doctrina exige al Estado proteger a los más débiles del contrato social y corregir la desigualdad extrema, lo que respalda una fiscalidad progresiva moderada sobre las rentas altas.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Rerum Novarum",
+        "url": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_15051891_rerum-novarum.html",
+        "fecha": "1891-05-15",
+        "consultado": "2026-07-10"
+      }
+    },
+    "der-007": {
+      "valor": 2,
+      "justificacion": "El personalismo de Maritain funda la política en la dignidad inviolable de la persona humana desde su origen, lo que sostiene la protección más restrictiva de la vida prenatal salvo riesgo vital para la madre.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Jacques Maritain, Christianity and Democracy",
+        "url": "https://archive.org/details/christianitydemo0000mari",
+        "fecha": "1943",
+        "consultado": "2026-07-10"
+      }
+    },
+    "der-008": {
+      "valor": 2,
+      "justificacion": "La misma dignidad inviolable de la persona que funda el rechazo del aborto sostiene, en el personalismo cristiano, la derogación de una ley que reconozca la eutanasia como derecho.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Jacques Maritain, Christianity and Democracy",
+        "url": "https://archive.org/details/christianitydemo0000mari",
+        "fecha": "1943",
+        "consultado": "2026-07-10"
+      }
+    },
+    "rel-002": {
+      "valor": 2,
+      "justificacion": "Maritain defiende una sociedad democrática personalista y pluralista en la que el Estado no adopta una confesión oficial pero permite la expresión pública de todas las convicciones: es el punto que separa a esta corriente del integralismo confesional.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Jacques Maritain, Christianity and Democracy",
+        "url": "https://archive.org/details/christianitydemo0000mari",
+        "fecha": "1943",
+        "consultado": "2026-07-10"
+      }
+    },
+    "rel-003": {
+      "valor": -2,
+      "justificacion": "El personalismo democrático rechaza que una autoridad religiosa tenga poder jurídico de veto sobre las leyes: la Iglesia influye por persuasión moral en la sociedad civil, no por soberanía política sobre el Estado.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Jacques Maritain, Christianity and Democracy",
+        "url": "https://archive.org/details/christianitydemo0000mari",
+        "fecha": "1943",
+        "consultado": "2026-07-10"
+      }
+    },
+    "ter-001": {
+      "valor": -1,
+      "justificacion": "La subsidiariedad razona que las funciones deben quedarse en la instancia más próxima capaz de cumplirlas: recentralizar competencias autonómicas sin necesidad contradice ese principio.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Rerum Novarum",
+        "url": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_15051891_rerum-novarum.html",
+        "fecha": "1891-05-15",
+        "consultado": "2026-07-10"
+      }
+    },
+    "dem-033": {
+      "valor": 1,
+      "justificacion": "Un modelo federal con competencias territoriales garantizadas constitucionalmente encaja con la subsidiariedad mejor que un Estado unitario centralizado; la democracia cristiana europea ha gobernado con naturalidad estructuras federales.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Rerum Novarum",
+        "url": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_15051891_rerum-novarum.html",
+        "fecha": "1891-05-15",
+        "consultado": "2026-07-10"
+      }
+    },
+    "der-005": {
+      "valor": -1,
+      "justificacion": "Anteponer la unidad estatal a cualquier reivindicación autonómica, sin matices, riñe con la subsidiariedad: la unidad se compone con autogobierno real de las instancias inferiores, no lo subordina siempre.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Rerum Novarum",
+        "url": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_15051891_rerum-novarum.html",
+        "fecha": "1891-05-15",
+        "consultado": "2026-07-10"
+      }
+    },
+    "der-014": {
+      "valor": 1,
+      "justificacion": "Los derechos históricos forales son, para la subsidiariedad, un ejemplo de competencias que corresponden a cuerpos territoriales concretos y que el poder central no debe absorber sin causa.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Rerum Novarum",
+        "url": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_15051891_rerum-novarum.html",
+        "fecha": "1891-05-15",
+        "consultado": "2026-07-10"
+      }
+    },
+    "der-018": {
+      "valor": 2,
+      "justificacion": "La doctrina social católica reclama acogida y trato digno al inmigrante ya asentado como exigencia de la dignidad de la persona, independientemente de su situación administrativa.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Jacques Maritain, Christianity and Democracy",
+        "url": "https://archive.org/details/christianitydemo0000mari",
+        "fecha": "1943",
+        "consultado": "2026-07-10"
+      }
+    },
+    "der-016": {
+      "valor": 1,
+      "justificacion": "La contratación ordenada de trabajadores extranjeros para cubrir vacantes reales es compatible con la dignidad del trabajo y con un orden migratorio gestionado, sin la restricción identitaria de otras derechas.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Jacques Maritain, Christianity and Democracy",
+        "url": "https://archive.org/details/christianitydemo0000mari",
+        "fecha": "1943",
+        "consultado": "2026-07-10"
+      }
+    },
+    "der-017": {
+      "valor": -1,
+      "justificacion": "El personalismo de Maritain funda la dignidad en la persona humana en cuanto tal, no en la afinidad cultural de origen: preferir a un grupo migrante sobre otro por cercanía cultural riñe con ese universalismo.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Jacques Maritain, Christianity and Democracy",
+        "url": "https://archive.org/details/christianitydemo0000mari",
+        "fecha": "1943",
+        "consultado": "2026-07-10"
+      }
+    },
+    "fem-007": {
+      "valor": 1,
+      "justificacion": "Rerum Novarum sitúa a la familia como sociedad anterior al Estado con derechos propios en la educación de los hijos: la autorización previa de los padres para materias sensibles se sigue de ese principio.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Rerum Novarum",
+        "url": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_15051891_rerum-novarum.html",
+        "fecha": "1891-05-15",
+        "consultado": "2026-07-10"
+      }
+    },
+    "soc-006": {
+      "valor": 1,
+      "justificacion": "El personalismo cristiano reconoce la posibilidad de conversión moral de la persona: una pena sin ninguna posibilidad de revisión es difícil de conciliar con esa dignidad, aunque la doctrina no exige una vía punitiva concreta.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Jacques Maritain, Christianity and Democracy",
+        "url": "https://archive.org/details/christianitydemo0000mari",
+        "fecha": "1943",
+        "consultado": "2026-07-10"
+      }
+    }
+  }
+}

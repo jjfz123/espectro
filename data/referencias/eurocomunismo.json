@@ -1,0 +1,387 @@
+{
+  "id": "eurocomunismo",
+  "nombre": "Eurocomunismo",
+  "tipo": "referencia-doctrinal",
+  "definicion": "Tipo ideal de la estrategia comunista que Santiago Carrillo sistematizó en «Eurocomunismo y Estado» (1977) junto a Enrico Berlinguer: aceptación de la democracia pluralista y la vía parlamentaria como marco permanente y no táctico, economía mixta con fuerte sector público, ruptura con el modelo soviético de partido único y defensa de las libertades democráticas y los derechos humanos como logro histórico irrenunciable del progreso humano, no como fase a superar.",
+  "variante": "Momento fundacional del eurocomunismo de 1977 (Carrillo, PCE; Berlinguer, PCI); distinto del PCE contemporáneo, integrado hoy en Izquierda Unida y en el espacio de Sumar, que tiene ficha propia con posiciones actuales, y del trotskismo, que lee la aceptación de 1978 como capitulación reformista",
+  "periodo": "1973 (compromiso histórico de Berlinguer) – 1977 (Eurocomunismo y Estado) – Constitución española de 1978",
+  "confianza": "verificada",
+  "version": "1.0",
+  "revisado": "2026-07-10",
+  "facetasDefinitorias": ["metodo-cambio", "institucionalismo", "internacionalismo", "economico"],
+  "sensibilidad": "normal",
+  "advertencia": "Es un tipo ideal doctrinal histórico de 1977, no la ficha del PCE actual: el PCE contemporáneo, integrado en IU y en Sumar, tiene perfil propio con fuentes y posiciones de hoy, más críticas con la UE y la OTAN que este momento fundacional. El eurocomunismo no fue homogéneo: Berlinguer declaró en 1976 sentirse «más seguro» permaneciendo en la OTAN, mientras el PCE de Carrillo mantuvo en España una campaña histórica contraria al ingreso en la Alianza Atlántica; esta referencia documenta la doctrina común (democracia pluralista, ruptura con Moscú) y señala esa divergencia interna como parte honesta del cuadro, no la resuelve a favor de una única posición nacional.",
+  "fuentesMarco": [
+    {
+      "tipo": "otro",
+      "titulo": "Santiago Carrillo, «Eurocomunismo» y Estado (Crítica, 1977), copia digitalizada, Biblioteca Libre Omegalfa",
+      "url": "https://omegalfa.es/downloadfile.php?file=libros/eurocomunismo-y-estado.pdf",
+      "fecha": "1977",
+      "consultado": "2026-07-10"
+    },
+    {
+      "tipo": "declaracion",
+      "titulo": "Enrico Berlinguer, entrevista con Giampaolo Pansa, Corriere della Sera, 15 de junio de 1976 (archivo Enrico Berlinguer)",
+      "url": "https://www.enricoberlinguer.it/enrico/le-idee/l%E2%80%99impegno-per-la-pace/mi-sento-piu-sicuro-nel-patto-atlantico/",
+      "fecha": "1976-06-15",
+      "consultado": "2026-07-10"
+    }
+  ],
+  "reglaPublicacion": {
+    "minimoItems": 12,
+    "minimoCobertura": 0.5,
+    "umbralAfinidad": 76
+  },
+  "posiciones": {
+    "izq-001": {
+      "valor": -2,
+      "justificacion": "Carrillo define el eurocomunismo como el único modelo revolucionario viable en los países capitalistas desarrollados precisamente por sustituir la ruptura insurreccional por la vía democrática y parlamentaria como transformación estructural.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Santiago Carrillo, «Eurocomunismo» y Estado",
+        "url": "https://omegalfa.es/downloadfile.php?file=libros/eurocomunismo-y-estado.pdf",
+        "fecha": "1977",
+        "consultado": "2026-07-10"
+      }
+    },
+    "izq-002": {
+      "valor": -1,
+      "justificacion": "El eurocomunismo relaja de forma sustancial el modelo leninista clásico de vanguardia disciplinada hacia un partido de masas pluralista, aunque sin abandonar del todo la centralidad organizativa del partido.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Santiago Carrillo, «Eurocomunismo» y Estado",
+        "url": "https://omegalfa.es/downloadfile.php?file=libros/eurocomunismo-y-estado.pdf",
+        "fecha": "1977",
+        "consultado": "2026-07-10"
+      }
+    },
+    "izq-009": {
+      "valor": 2,
+      "justificacion": "Concurrir en coaliciones amplias con otras fuerzas progresistas es coherente con la vía democrática pluralista que el eurocomunismo defiende frente a la pureza de clase de otras corrientes comunistas.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Santiago Carrillo, «Eurocomunismo» y Estado",
+        "url": "https://omegalfa.es/downloadfile.php?file=libros/eurocomunismo-y-estado.pdf",
+        "fecha": "1977",
+        "consultado": "2026-07-10"
+      }
+    },
+    "izq-010": {
+      "valor": 2,
+      "justificacion": "Formar gobierno de coalición con la socialdemocracia sin renunciar a los principios propios es exactamente el modelo que el eurocomunismo reivindica frente al rechazo trotskista y prosoviético del «ministerialismo».",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Santiago Carrillo, «Eurocomunismo» y Estado",
+        "url": "https://omegalfa.es/downloadfile.php?file=libros/eurocomunismo-y-estado.pdf",
+        "fecha": "1977",
+        "consultado": "2026-07-10"
+      }
+    },
+    "izq-011": {
+      "valor": -1,
+      "justificacion": "El eurocomunismo prefiere disputar y transformar el marco europeo desde dentro, dentro de su apuesta democrática e integracionista, antes que romper con él por la vía de la salida.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Santiago Carrillo, «Eurocomunismo» y Estado",
+        "url": "https://omegalfa.es/downloadfile.php?file=libros/eurocomunismo-y-estado.pdf",
+        "fecha": "1977",
+        "consultado": "2026-07-10"
+      }
+    },
+    "izq-012": {
+      "valor": -1,
+      "justificacion": "Berlinguer declaró sentirse más seguro dentro de la Alianza Atlántica que fuera de ella, ruptura explícita con el antiatlantismo soviético; el PCE de Carrillo, en cambio, mantuvo en España una oposición histórica al ingreso en la OTAN, de ahí que el eurocomunismo como corriente no fije la salida como condición innegociable pero tampoco hable con una sola voz.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Enrico Berlinguer, entrevista con Giampaolo Pansa",
+        "url": "https://www.enricoberlinguer.it/enrico/le-idee/l%E2%80%99impegno-per-la-pace/mi-sento-piu-sicuro-nel-patto-atlantico/",
+        "fecha": "1976-06-15",
+        "consultado": "2026-07-10",
+        "cita": "Mi sento più sicuro stando di qua, ma vedo che anche di qua ci sono seri tentativi per limitare la nostra autonomia."
+      }
+    },
+    "izq-016": {
+      "valor": -1,
+      "justificacion": "El eurocomunismo se aleja de la expropiación sin indemnización hacia una economía mixta con fuerte sector público negociado, no hacia la socialización integral e inmediata de la banca y los grandes grupos.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Santiago Carrillo, «Eurocomunismo» y Estado",
+        "url": "https://omegalfa.es/downloadfile.php?file=libros/eurocomunismo-y-estado.pdf",
+        "fecha": "1977",
+        "consultado": "2026-07-10"
+      }
+    },
+    "izq-017": {
+      "valor": 2,
+      "justificacion": "El eurocomunismo defiende explícitamente una economía mixta con un amplio sector privado subordinado a la planificación pública durante un periodo prolongado, no la socialización sin etapas intermedias.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Santiago Carrillo, «Eurocomunismo» y Estado",
+        "url": "https://omegalfa.es/downloadfile.php?file=libros/eurocomunismo-y-estado.pdf",
+        "fecha": "1977",
+        "consultado": "2026-07-10"
+      }
+    },
+    "izq-018": {
+      "valor": 1,
+      "justificacion": "El giro eurocomunista tolera de facto corrientes y sensibilidades internas con más soltura que el centralismo democrático prosoviético estricto, aunque sin llegar a la libertad de fracciones plena.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Santiago Carrillo, «Eurocomunismo» y Estado",
+        "url": "https://omegalfa.es/downloadfile.php?file=libros/eurocomunismo-y-estado.pdf",
+        "fecha": "1977",
+        "consultado": "2026-07-10"
+      }
+    },
+    "izq-019": {
+      "valor": -2,
+      "justificacion": "El eurocomunismo asume la gestión institucional y de gobierno como vía legítima de transformación, no un parlamentarismo reducido a tribuna de denuncia.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Santiago Carrillo, «Eurocomunismo» y Estado",
+        "url": "https://omegalfa.es/downloadfile.php?file=libros/eurocomunismo-y-estado.pdf",
+        "fecha": "1977",
+        "consultado": "2026-07-10"
+      }
+    },
+    "izq-023": {
+      "valor": 2,
+      "justificacion": "Conquistar una república democrática plena es ya, para el eurocomunismo, un avance histórico valioso en sí mismo, coherente con su etapismo democrático explícito frente al maximalismo revolucionario.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Santiago Carrillo, «Eurocomunismo» y Estado",
+        "url": "https://omegalfa.es/downloadfile.php?file=libros/eurocomunismo-y-estado.pdf",
+        "fecha": "1977",
+        "consultado": "2026-07-10"
+      }
+    },
+    "izq-030": {
+      "valor": 2,
+      "justificacion": "La decisión de Carrillo de aceptar el marco de la Constitución de 1978, incluida la legalización del PCE bajo la monarquía parlamentaria, es la aplicación práctica más directa de la doctrina de Eurocomunismo y Estado.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Santiago Carrillo, «Eurocomunismo» y Estado",
+        "url": "https://omegalfa.es/downloadfile.php?file=libros/eurocomunismo-y-estado.pdf",
+        "fecha": "1977",
+        "consultado": "2026-07-10"
+      }
+    },
+    "izq-025": {
+      "valor": -1,
+      "justificacion": "El eurocomunismo de Carrillo negoció el reconocimiento constitucional de España como nación de nacionalidades y regiones, más cercano a una simbología plurinacional que a la reivindicación de la bandera única como patrimonio obrero.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Santiago Carrillo, «Eurocomunismo» y Estado",
+        "url": "https://omegalfa.es/downloadfile.php?file=libros/eurocomunismo-y-estado.pdf",
+        "fecha": "1977",
+        "consultado": "2026-07-10"
+      }
+    },
+    "izq-026": {
+      "valor": -1,
+      "justificacion": "El plurinacionalismo negociado por Carrillo en la Transición rechaza leer el hecho nacional como una simple pugna interburguesa ajena a la clase trabajadora, aunque tampoco lo resuelve por la vía independentista.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Santiago Carrillo, «Eurocomunismo» y Estado",
+        "url": "https://omegalfa.es/downloadfile.php?file=libros/eurocomunismo-y-estado.pdf",
+        "fecha": "1977",
+        "consultado": "2026-07-10"
+      }
+    },
+    "izq-029": {
+      "valor": 1,
+      "justificacion": "Pese a su ruptura democrática con Moscú, el eurocomunismo de 1977 no llegó a adoptar la tesis del conflicto puramente interimperialista y conservó cierta simpatía campista hacia la URSS como contrapeso a Estados Unidos.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Santiago Carrillo, «Eurocomunismo» y Estado",
+        "url": "https://omegalfa.es/downloadfile.php?file=libros/eurocomunismo-y-estado.pdf",
+        "fecha": "1977",
+        "consultado": "2026-07-10"
+      }
+    },
+    "izq-038": {
+      "valor": -1,
+      "justificacion": "El eurocomunismo persigue la conquista democrática del Estado mediante elecciones e instituciones, no su sustitución por una confederación de municipios y asambleas al margen de él.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Santiago Carrillo, «Eurocomunismo» y Estado",
+        "url": "https://omegalfa.es/downloadfile.php?file=libros/eurocomunismo-y-estado.pdf",
+        "fecha": "1977",
+        "consultado": "2026-07-10"
+      }
+    },
+    "dem-011": {
+      "valor": -2,
+      "justificacion": "El eurocomunismo trabaja explícitamente dentro del sistema parlamentario pluripartidista, sin buscar sustituirlo por otro modelo institucional.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Santiago Carrillo, «Eurocomunismo» y Estado",
+        "url": "https://omegalfa.es/downloadfile.php?file=libros/eurocomunismo-y-estado.pdf",
+        "fecha": "1977",
+        "consultado": "2026-07-10"
+      }
+    },
+    "dem-012": {
+      "valor": 2,
+      "justificacion": "Los cambios profundos se persiguen por los procedimientos constitucionales, tal como muestra la propia aceptación por Carrillo del proceso constituyente español de 1977-1978.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Santiago Carrillo, «Eurocomunismo» y Estado",
+        "url": "https://omegalfa.es/downloadfile.php?file=libros/eurocomunismo-y-estado.pdf",
+        "fecha": "1977",
+        "consultado": "2026-07-10"
+      }
+    },
+    "dem-008": {
+      "valor": 2,
+      "justificacion": "Carrillo caracteriza las libertades democráticas y los derechos humanos como un logro histórico irrenunciable del progreso humano, lo que incluye el respeto a la separación de poderes frente a cualquier mayoría circunstancial.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Santiago Carrillo, «Eurocomunismo» y Estado",
+        "url": "https://omegalfa.es/downloadfile.php?file=libros/eurocomunismo-y-estado.pdf",
+        "fecha": "1977",
+        "consultado": "2026-07-10",
+        "cita": "las libertades democráticas y los derechos humanos representan un logro histórico irrenunciable del progreso humano"
+      }
+    },
+    "dem-028": {
+      "valor": 2,
+      "justificacion": "El mismo principio de los derechos democráticos como logro irrenunciable impide que una mayoría, aunque sea amplia, pueda suprimir los derechos fundamentales de una minoría por la vía del referéndum.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Santiago Carrillo, «Eurocomunismo» y Estado",
+        "url": "https://omegalfa.es/downloadfile.php?file=libros/eurocomunismo-y-estado.pdf",
+        "fecha": "1977",
+        "consultado": "2026-07-10"
+      }
+    },
+    "lab-007": {
+      "valor": 2,
+      "justificacion": "El PCE de Carrillo fue arquitecto y firmante de los Pactos de la Moncloa de octubre de 1977, el ejemplo histórico más directo de concertación tripartita con planes económicos acordados entre Gobierno, sindicatos y patronal.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Santiago Carrillo, «Eurocomunismo» y Estado",
+        "url": "https://omegalfa.es/downloadfile.php?file=libros/eurocomunismo-y-estado.pdf",
+        "fecha": "1977",
+        "consultado": "2026-07-10"
+      }
+    },
+    "eco-002": {
+      "valor": 0,
+      "justificacion": "La economía mixta eurocomunista admite la gestión privada donde es eficiente dentro de un fuerte sector público, sin una apuesta cerrada ni por la privatización ni por la estatalización de los servicios.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Santiago Carrillo, «Eurocomunismo» y Estado",
+        "url": "https://omegalfa.es/downloadfile.php?file=libros/eurocomunismo-y-estado.pdf",
+        "fecha": "1977",
+        "consultado": "2026-07-10"
+      }
+    },
+    "eco-012": {
+      "valor": 1,
+      "justificacion": "La tradición comunista española de la que procede el eurocomunismo defiende la escuela pública frente a la concertada, aunque el propio Carrillo priorizó en 1977 la concertación social sobre los conflictos educativos.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Santiago Carrillo, «Eurocomunismo» y Estado",
+        "url": "https://omegalfa.es/downloadfile.php?file=libros/eurocomunismo-y-estado.pdf",
+        "fecha": "1977",
+        "consultado": "2026-07-10"
+      }
+    },
+    "soc-003": {
+      "valor": -1,
+      "justificacion": "El compromiso explícito con los derechos humanos como logro histórico irrenunciable orienta con cautela frente a ampliar la vigilancia estatal sin garantías, aunque el texto de 1977 no discute la videovigilancia como tal.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Santiago Carrillo, «Eurocomunismo» y Estado",
+        "url": "https://omegalfa.es/downloadfile.php?file=libros/eurocomunismo-y-estado.pdf",
+        "fecha": "1977",
+        "consultado": "2026-07-10"
+      }
+    },
+    "soc-002": {
+      "valor": -1,
+      "justificacion": "La tradición internacionalista de la que procede el eurocomunismo es poco compatible con priorizar la devolución sobre la regularización, aunque el texto de 1977 no trata la inmigración como cuestión central.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Santiago Carrillo, «Eurocomunismo» y Estado",
+        "url": "https://omegalfa.es/downloadfile.php?file=libros/eurocomunismo-y-estado.pdf",
+        "fecha": "1977",
+        "consultado": "2026-07-10"
+      }
+    },
+    "soc-004": {
+      "valor": 2,
+      "justificacion": "La solidaridad internacionalista y el compromiso con los derechos humanos como logro irrenunciable respaldan una regularización extraordinaria de quienes ya viven y trabajan en el país.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Santiago Carrillo, «Eurocomunismo» y Estado",
+        "url": "https://omegalfa.es/downloadfile.php?file=libros/eurocomunismo-y-estado.pdf",
+        "fecha": "1977",
+        "consultado": "2026-07-10"
+      }
+    },
+    "soc-006": {
+      "valor": 2,
+      "justificacion": "El garantismo penal es coherente con la tradición del PCE dentro de IU, heredera directa de esta corriente: se opone a una pena sin ninguna posibilidad de revisión.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Santiago Carrillo, «Eurocomunismo» y Estado",
+        "url": "https://omegalfa.es/downloadfile.php?file=libros/eurocomunismo-y-estado.pdf",
+        "fecha": "1977",
+        "consultado": "2026-07-10"
+      }
+    },
+    "sd-004": {
+      "valor": 2,
+      "justificacion": "El reconocimiento constitucional de España como Estado plurinacional continúa directamente la negociación que Carrillo impulsó en la Transición para el reconocimiento de nacionalidades y regiones.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Santiago Carrillo, «Eurocomunismo» y Estado",
+        "url": "https://omegalfa.es/downloadfile.php?file=libros/eurocomunismo-y-estado.pdf",
+        "fecha": "1977",
+        "consultado": "2026-07-10"
+      }
+    },
+    "der-005": {
+      "valor": -1,
+      "justificacion": "El eurocomunismo español de 1977-1978 defendió el reconocimiento autonómico y plurinacional frente al centralismo unitario, sin llegar a abrazar el independentismo.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Santiago Carrillo, «Eurocomunismo» y Estado",
+        "url": "https://omegalfa.es/downloadfile.php?file=libros/eurocomunismo-y-estado.pdf",
+        "fecha": "1977",
+        "consultado": "2026-07-10"
+      }
+    }
+  }
+}

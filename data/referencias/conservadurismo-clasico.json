@@ -1,0 +1,292 @@
+{
+  "id": "conservadurismo-clasico",
+  "nombre": "Conservadurismo clásico",
+  "tipo": "referencia-doctrinal",
+  "definicion": "Tipo ideal del temperamento conservador anglosajón: prudencia frente a la reconstrucción abstracta de la sociedad a partir de principios racionalistas (Burke, Oakeshott), respeto a la costumbre y a la continuidad institucional como saber práctico acumulado, reforma gradual «orgánica» en vez de ruptura revolucionaria y apego a las lealtades concretas y locales antes que a la nación abstracta.",
+  "variante": "Conservadurismo de Burke (Reflections on the Revolution in France, 1790) y del racionalismo criticado por Oakeshott (Rationalism in Politics, 1947/1962); distinto de la democracia cristiana (que parte de la doctrina social católica) y del conservadurismo liberal o la derecha radical españoles, que tienen perfiles de partido propios",
+  "periodo": "1790 (Burke) – 1947 (Oakeshott) – actualidad como tipo ideal",
+  "confianza": "verificada",
+  "version": "1.0",
+  "revisado": "2026-07-10",
+  "facetasDefinitorias": ["tradicion-moral", "institucionalismo", "pluralismo-institucional", "monarquia", "democracia-directa"],
+  "sensibilidad": "normal",
+  "advertencia": "Es un tipo ideal doctrinal, no la ficha de ningún partido español: no debe confundirse con el PP, Vox ni con la democracia cristiana, que parte de una fuente distinta (la doctrina social católica) aunque comparta con esta corriente el rechazo a la ruptura revolucionaria. Burke y Oakeshott no escriben sobre aborto ni eutanasia —cuestiones bioéticas que sí articula la democracia cristiana desde el personalismo católico— por lo que esta referencia no fija posición ahí. El conservadurismo clásico no es sinónimo de Estado mínimo: Burke defendía instituciones establecidas (Iglesia, Corona, aristocracia territorial) que pueden implicar un Estado extenso allí donde la costumbre lo sostenga.",
+  "fuentesMarco": [
+    {
+      "tipo": "otro",
+      "titulo": "Edmund Burke, Reflections on the Revolution in France (1790), en The Works of the Right Honourable Edmund Burke, vol. III, Project Gutenberg",
+      "url": "https://www.gutenberg.org/files/15679/15679-h/15679-h.htm",
+      "fecha": "1790",
+      "consultado": "2026-07-10"
+    },
+    {
+      "tipo": "otro",
+      "titulo": "Michael Oakeshott, Rationalism in Politics and Other Essays (1962; ensayo original de 1947), copia docente, Universidad de Oslo",
+      "url": "https://www.uio.no/studier/emner/uv/uv/UV9407/rationalism-in-politics-michael-oakeshott.pdf",
+      "fecha": "1962",
+      "consultado": "2026-07-10"
+    }
+  ],
+  "reglaPublicacion": {
+    "minimoItems": 10,
+    "minimoCobertura": 0.5,
+    "umbralAfinidad": 78
+  },
+  "posiciones": {
+    "izq-001": {
+      "valor": -2,
+      "justificacion": "Toda la argumentación de Burke contra la Revolución francesa es un rechazo de la ruptura basada en principios abstractos frente a la reforma que respeta la continuidad de las instituciones existentes.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Edmund Burke, Reflections on the Revolution in France",
+        "url": "https://www.gutenberg.org/files/15679/15679-h/15679-h.htm",
+        "fecha": "1790",
+        "consultado": "2026-07-10"
+      }
+    },
+    "dem-011": {
+      "valor": -2,
+      "justificacion": "Sustituir el sistema parlamentario por otro modelo a partir de un plano racional es precisamente lo que Oakeshott critica como racionalismo en política: el ideólogo que reemplaza la práctica heredada por un plan.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Michael Oakeshott, Rationalism in Politics",
+        "url": "https://www.uio.no/studier/emner/uv/uv/UV9407/rationalism-in-politics-michael-oakeshott.pdf",
+        "fecha": "1962",
+        "consultado": "2026-07-10"
+      }
+    },
+    "dem-012": {
+      "valor": 2,
+      "justificacion": "El cambio dentro de los procedimientos constitucionales establecidos es la vía que Burke reclama frente a la constituyente revolucionaria: reformar la «entailed inheritance» institucional, no sustituirla.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Edmund Burke, Reflections on the Revolution in France",
+        "url": "https://www.gutenberg.org/files/15679/15679-h/15679-h.htm",
+        "fecha": "1790",
+        "consultado": "2026-07-10"
+      }
+    },
+    "dem-008": {
+      "valor": 2,
+      "justificacion": "Burke defiende la constitución mixta británica, con sus contrapesos entre Corona, Lores y Comunes, como garantía frente al poder no controlado, aunque eso implique lentitud en las decisiones.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Edmund Burke, Reflections on the Revolution in France",
+        "url": "https://www.gutenberg.org/files/15679/15679-h/15679-h.htm",
+        "fecha": "1790",
+        "consultado": "2026-07-10"
+      }
+    },
+    "dem-028": {
+      "valor": 2,
+      "justificacion": "El constitucionalismo de Burke antepone los derechos y libertades heredados, como patrimonio inalienable, a cualquier voluntad mayoritaria circunstancial que pretenda arrasarlos.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Edmund Burke, Reflections on the Revolution in France",
+        "url": "https://www.gutenberg.org/files/15679/15679-h/15679-h.htm",
+        "fecha": "1790",
+        "consultado": "2026-07-10"
+      }
+    },
+    "dem-001": {
+      "valor": -1,
+      "justificacion": "El racionalismo que Oakeshott critica confía en la deliberación técnica de una asamblea de expertos o en la consulta directa como sustituto de la práctica política heredada: la deliberación parlamentaria estable es preferible a la consulta directa habitual.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Michael Oakeshott, Rationalism in Politics",
+        "url": "https://www.uio.no/studier/emner/uv/uv/UV9407/rationalism-in-politics-michael-oakeshott.pdf",
+        "fecha": "1962",
+        "consultado": "2026-07-10"
+      }
+    },
+    "der-002": {
+      "valor": 1,
+      "justificacion": "Burke defiende el «prejuicio» religioso heredado —la moral cristiana como parte del banco y capital de las naciones— frente a la razón desnuda del filósofo revolucionario, aunque sin pretender un Estado confesional integralista.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Edmund Burke, Reflections on the Revolution in France",
+        "url": "https://www.gutenberg.org/files/15679/15679-h/15679-h.htm",
+        "fecha": "1790",
+        "consultado": "2026-07-10",
+        "cita": "Prejudice is of ready application in the emergency; it renders a man's virtue his habit... Prejudice is the general bank and capital of nations, and of ages."
+      }
+    },
+    "der-006": {
+      "valor": 1,
+      "justificacion": "El mismo argumento a favor del prejuicio y la costumbre heredada frente a la crítica racionalista respalda proteger legalmente tradiciones como la tauromaquia frente a campañas que buscan abolirlas por principio abstracto.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Edmund Burke, Reflections on the Revolution in France",
+        "url": "https://www.gutenberg.org/files/15679/15679-h/15679-h.htm",
+        "fecha": "1790",
+        "consultado": "2026-07-10"
+      }
+    },
+    "der-014": {
+      "valor": 2,
+      "justificacion": "Burke defiende el apego a la «pequeña compañía» y a la subdivisión local como el primer eslabón del afecto público: los fueros y conciertos históricos son exactamente ese tipo de lealtad concreta y prescriptiva.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Edmund Burke, Reflections on the Revolution in France",
+        "url": "https://www.gutenberg.org/files/15679/15679-h/15679-h.htm",
+        "fecha": "1790",
+        "consultado": "2026-07-10",
+        "cita": "To be attached to the subdivision, to love the little platoon we belong to in society, is the first principle (the germ as it were) of public affections."
+      }
+    },
+    "der-005": {
+      "valor": 1,
+      "justificacion": "El respeto de Burke a la continuidad constitucional apoya la unidad del Estado establecido frente a la ruptura, aunque su mismo argumento sobre las lealtades locales matiza cualquier centralismo sin límites.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Edmund Burke, Reflections on the Revolution in France",
+        "url": "https://www.gutenberg.org/files/15679/15679-h/15679-h.htm",
+        "fecha": "1790",
+        "consultado": "2026-07-10"
+      }
+    },
+    "ter-001": {
+      "valor": -1,
+      "justificacion": "La defensa burkeana de los cuerpos y corporaciones locales establecidos como la «pequeña compañía» se opone a recentralizar competencias arrebatándoselas a instancias territoriales ya asentadas.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Edmund Burke, Reflections on the Revolution in France",
+        "url": "https://www.gutenberg.org/files/15679/15679-h/15679-h.htm",
+        "fecha": "1790",
+        "consultado": "2026-07-10"
+      }
+    },
+    "der-026": {
+      "valor": 1,
+      "justificacion": "El conservadurismo constitucional prioriza defender la continuidad del Estado establecido por medios legales frente a quienes buscan romperlo, aunque Burke no discute la ilegalización de partidos como institución moderna.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Edmund Burke, Reflections on the Revolution in France",
+        "url": "https://www.gutenberg.org/files/15679/15679-h/15679-h.htm",
+        "fecha": "1790",
+        "consultado": "2026-07-10"
+      }
+    },
+    "mon-001": {
+      "valor": -2,
+      "justificacion": "Buena parte de las Reflections defiende la sucesión hereditaria de la Corona como herencia entrañada («entailed inheritance») transmitida de generación en generación, frente al principio electivo revolucionario.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Edmund Burke, Reflections on the Revolution in France",
+        "url": "https://www.gutenberg.org/files/15679/15679-h/15679-h.htm",
+        "fecha": "1790",
+        "consultado": "2026-07-10",
+        "cita": "Your liberty... an entailed inheritance derived to us from our forefathers, and to be transmitted to our posterity."
+      }
+    },
+    "eco-004": {
+      "valor": 1,
+      "justificacion": "La prudencia fiscal y la desconfianza hacia el gasto público no financiado son consistentes con el rechazo conservador a comprometer la estabilidad institucional heredada por decisiones de coyuntura.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Edmund Burke, Reflections on the Revolution in France",
+        "url": "https://www.gutenberg.org/files/15679/15679-h/15679-h.htm",
+        "fecha": "1790",
+        "consultado": "2026-07-10"
+      }
+    },
+    "lab-016": {
+      "valor": -1,
+      "justificacion": "Burke, amigo y admirador de la obra económica de Adam Smith, no respalda que el Estado dirija una empresa rentable en manos privadas por el mero hecho de considerarla estratégica.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Edmund Burke, Reflections on the Revolution in France",
+        "url": "https://www.gutenberg.org/files/15679/15679-h/15679-h.htm",
+        "fecha": "1790",
+        "consultado": "2026-07-10"
+      }
+    },
+    "eco-009": {
+      "valor": 2,
+      "justificacion": "La misma lógica de la herencia entrañada que Burke aplica a la libertad política y a la Corona se extiende de forma natural a la transmisión hereditaria de la propiedad familiar sin gravamen confiscatorio.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Edmund Burke, Reflections on the Revolution in France",
+        "url": "https://www.gutenberg.org/files/15679/15679-h/15679-h.htm",
+        "fecha": "1790",
+        "consultado": "2026-07-10"
+      }
+    },
+    "eco-002": {
+      "valor": 1,
+      "justificacion": "El conservadurismo whig de Burke, contemporáneo y admirador de Smith, favorece la iniciativa privada dentro de la sociedad comercial establecida antes que la gestión estatal como norma.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Edmund Burke, Reflections on the Revolution in France",
+        "url": "https://www.gutenberg.org/files/15679/15679-h/15679-h.htm",
+        "fecha": "1790",
+        "consultado": "2026-07-10"
+      }
+    },
+    "der-001": {
+      "valor": 0,
+      "justificacion": "El conservadurismo clásico no es una doctrina de tamaño del Estado sino de respeto a la institución heredada: puede admitir un Estado extenso allí donde la costumbre lo sostenga (Iglesia establecida, aristocracia territorial) o reducido en otros ámbitos, sin el compromiso doctrinal del liberalismo o el minarquismo.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Edmund Burke, Reflections on the Revolution in France",
+        "url": "https://www.gutenberg.org/files/15679/15679-h/15679-h.htm",
+        "fecha": "1790",
+        "consultado": "2026-07-10"
+      }
+    },
+    "soc-003": {
+      "valor": 1,
+      "justificacion": "La prioridad conservadora por el orden concreto como precondición de la libertad —Burke advertía que hay que ver qué hará la gente con la libertad antes de celebrarla— inclina moderadamente a aceptar más vigilancia preventiva por seguridad.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Edmund Burke, Reflections on the Revolution in France",
+        "url": "https://www.gutenberg.org/files/15679/15679-h/15679-h.htm",
+        "fecha": "1790",
+        "consultado": "2026-07-10"
+      }
+    },
+    "der-019": {
+      "valor": -2,
+      "justificacion": "La preferencia conservadora por el orden penal establecido y la prudencia ante reformas garantistas radicales respalda mantener la prisión permanente revisable frente a su derogación.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Edmund Burke, Reflections on the Revolution in France",
+        "url": "https://www.gutenberg.org/files/15679/15679-h/15679-h.htm",
+        "fecha": "1790",
+        "consultado": "2026-07-10"
+      }
+    },
+    "der-018": {
+      "valor": 1,
+      "justificacion": "La prudencia conservadora, orgánica y no rupturista, favorece reconocer la incorporación ya asentada de quien lleva años trabajando y arraigado en la «pequeña compañía» local antes que una expulsión abrupta que rompería ese vínculo concreto.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Edmund Burke, Reflections on the Revolution in France",
+        "url": "https://www.gutenberg.org/files/15679/15679-h/15679-h.htm",
+        "fecha": "1790",
+        "consultado": "2026-07-10"
+      }
+    }
+  }
+}

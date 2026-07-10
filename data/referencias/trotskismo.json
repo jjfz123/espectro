@@ -1,0 +1,446 @@
+{
+  "id": "trotskismo",
+  "nombre": "Trotskismo",
+  "tipo": "referencia-doctrinal",
+  "definicion": "Tipo ideal de la tradición ortodoxa de la IV Internacional fundada en 1938 sobre el Programa de Transición de Trotski: revolución permanente que rechaza las etapas de conciliación con la burguesía, partido de vanguardia leninista, defensa de la democracia obrera frente a la burocracia estalinista, expropiación de la banca y los grandes grupos sin indemnización e internacionalismo que rechaza tanto el «socialismo en un solo país» como el campismo geopolítico.",
+  "variante": "Tradición ortodoxa de la IV Internacional (Programa de Transición, 1938); distinta de la escisión posadista de 1962 —ya referencia propia en este catálogo, con su tesis específica sobre la guerra nuclear— y del eurocomunismo del PCE, que esta corriente considera una capitulación reformista. El POSI español se reclama de esta tradición ortodoxa, no de la posadista",
+  "periodo": "1938 (Programa de Transición) – actualidad",
+  "confianza": "verificada",
+  "version": "1.0",
+  "revisado": "2026-07-10",
+  "facetasDefinitorias": ["metodo-cambio", "organizacion", "internacionalismo", "economico"],
+  "sensibilidad": "normal",
+  "advertencia": "Es un tipo ideal doctrinal histórico, no la ficha de ningún partido español concreto: distintas organizaciones que se reclaman trotskistas (POSI, Corriente Roja, Izquierda Revolucionaria) pueden matizar posiciones puntuales. El deslinde decisivo es frente al posadismo, ya presente en el catálogo: el trotskismo ortodoxo rechaza expresamente la tesis posadista de que una guerra nuclear abriría una oportunidad revolucionaria aceptable, y frente al eurocomunismo, cuya aceptación de la Constitución de 1978 y de la vía parlamentaria de gestión institucional esta corriente lee como renuncia a la revolución permanente.",
+  "fuentesMarco": [
+    {
+      "tipo": "otro",
+      "titulo": "León Trotski, El Programa de Transición: La agonía mortal del capitalismo y las tareas de la IV Internacional (1938), marxists.org",
+      "url": "https://www.marxists.org/archive/trotsky/1938/tp/tp-text.htm",
+      "fecha": "1938",
+      "consultado": "2026-07-10"
+    },
+    {
+      "tipo": "otro",
+      "titulo": "León Trotski, La Revolución Permanente (1929; edición inglesa 1931), marxists.org",
+      "url": "https://www.marxists.org/archive/trotsky/1931/tpr/pr-index.htm",
+      "fecha": "1931",
+      "consultado": "2026-07-10"
+    }
+  ],
+  "reglaPublicacion": {
+    "minimoItems": 12,
+    "minimoCobertura": 0.5,
+    "umbralAfinidad": 80
+  },
+  "posiciones": {
+    "izq-001": {
+      "valor": 2,
+      "justificacion": "El Programa de Transición parte de que la crisis histórica de la humanidad se reduce a la crisis de dirección revolucionaria del proletariado: la transformación exige ruptura revolucionaria, no reformas graduales del capitalismo.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "León Trotski, El Programa de Transición",
+        "url": "https://www.marxists.org/archive/trotsky/1938/tp/tp-text.htm",
+        "fecha": "1938",
+        "consultado": "2026-07-10",
+        "cita": "The world political situation as a whole is chiefly characterized by a historic crisis of the leadership of the proletariat."
+      }
+    },
+    "izq-002": {
+      "valor": 2,
+      "justificacion": "La IV Internacional se funda precisamente como partido mundial de la revolución socialista, de dirección centralizada, frente a la degeneración burocrática de la III Internacional estalinizada.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "León Trotski, El Programa de Transición",
+        "url": "https://www.marxists.org/archive/trotsky/1938/tp/tp-text.htm",
+        "fecha": "1938",
+        "consultado": "2026-07-10"
+      }
+    },
+    "izq-006": {
+      "valor": -2,
+      "justificacion": "El rechazo de la tesis del «socialismo en un solo país» frente a la revolución internacional permanente es la disputa fundacional que separó a Trotski de Stalin y que define a toda esta tradición.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "León Trotski, La Revolución Permanente",
+        "url": "https://www.marxists.org/archive/trotsky/1931/tpr/pr-index.htm",
+        "fecha": "1931",
+        "consultado": "2026-07-10"
+      }
+    },
+    "izq-021": {
+      "valor": 2,
+      "justificacion": "El ítem capta la tesis definitoria de toda la corriente: Trotski encarnó la oposición revolucionaria legítima frente a la burocratización estalinista de la URSS, no una simple disidencia personal.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "León Trotski, La Revolución Permanente",
+        "url": "https://www.marxists.org/archive/trotsky/1931/tpr/pr-index.htm",
+        "fecha": "1931",
+        "consultado": "2026-07-10"
+      }
+    },
+    "izq-020": {
+      "valor": -2,
+      "justificacion": "El trotskismo juzga negativamente en su conjunto la etapa estalinista, responsable de la degeneración burocrática de la URSS y de la represión de la Oposición de Izquierda.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "León Trotski, La Revolución Permanente",
+        "url": "https://www.marxists.org/archive/trotsky/1931/tpr/pr-index.htm",
+        "fecha": "1931",
+        "consultado": "2026-07-10"
+      }
+    },
+    "izq-004": {
+      "valor": -1,
+      "justificacion": "El propio Trotski defendía la URSS como Estado obrero degenerado que conservaba conquistas de la propiedad nacionalizada frente al imperialismo, pero denunciaba con dureza la dictadura política de la burocracia: un balance mixto que se inclina al negativo por esa dictadura, no un balance positivo sin más.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "León Trotski, La Revolución Permanente",
+        "url": "https://www.marxists.org/archive/trotsky/1931/tpr/pr-index.htm",
+        "fecha": "1931",
+        "consultado": "2026-07-10"
+      }
+    },
+    "izq-022": {
+      "valor": -1,
+      "justificacion": "El trotskismo lee la Revolución Cultural china como una pugna interburocrática entre facciones del aparato, no como un intento genuino de impedir la restauración capitalista.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "León Trotski, La Revolución Permanente",
+        "url": "https://www.marxists.org/archive/trotsky/1931/tpr/pr-index.htm",
+        "fecha": "1931",
+        "consultado": "2026-07-10"
+      }
+    },
+    "izq-023": {
+      "valor": -1,
+      "justificacion": "La teoría de la revolución permanente rechaza el etapismo que separa una fase de república democrática de la revolución socialista: en países de desarrollo capitalista tardío, la burguesía es incapaz de completar su propia revolución democrática.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "León Trotski, La Revolución Permanente",
+        "url": "https://www.marxists.org/archive/trotsky/1931/tpr/pr-index.htm",
+        "fecha": "1931",
+        "consultado": "2026-07-10"
+      }
+    },
+    "izq-009": {
+      "valor": 0,
+      "justificacion": "El trotskismo puede apoyar puntualmente frentes electorales amplios como táctica, pero no los integra de forma estable ni renuncia a su programa de transición dentro de ellos, a diferencia del PCE.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "León Trotski, El Programa de Transición",
+        "url": "https://www.marxists.org/archive/trotsky/1938/tp/tp-text.htm",
+        "fecha": "1938",
+        "consultado": "2026-07-10"
+      }
+    },
+    "izq-010": {
+      "valor": -2,
+      "justificacion": "Formar parte de un gobierno de coalición con la socialdemocracia dentro del Estado burgués es, para esta tradición, «ministerialismo»: gestionar el capitalismo en vez de prepararlo para su superación revolucionaria.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "León Trotski, El Programa de Transición",
+        "url": "https://www.marxists.org/archive/trotsky/1938/tp/tp-text.htm",
+        "fecha": "1938",
+        "consultado": "2026-07-10"
+      }
+    },
+    "izq-011": {
+      "valor": 1,
+      "justificacion": "El trotskismo apoya romper con el marco económico de la Unión Europea, pero no por soberanismo nacional sino como paso hacia unos Estados Unidos Socialistas de Europa: la ruptura sí, el motivo es distinto al nacional-soberanista.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "León Trotski, La Revolución Permanente",
+        "url": "https://www.marxists.org/archive/trotsky/1931/tpr/pr-index.htm",
+        "fecha": "1931",
+        "consultado": "2026-07-10"
+      }
+    },
+    "izq-012": {
+      "valor": 2,
+      "justificacion": "La salida de la OTAN es, para esta tradición antiimperialista consecuente, una condición innegociable para cualquier apoyo o participación gubernamental, no una reivindicación programática subordinable.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "León Trotski, El Programa de Transición",
+        "url": "https://www.marxists.org/archive/trotsky/1938/tp/tp-text.htm",
+        "fecha": "1938",
+        "consultado": "2026-07-10"
+      }
+    },
+    "izq-013": {
+      "valor": -2,
+      "justificacion": "El internacionalismo obrero rechaza limitar la entrada de trabajadores extranjeros como respuesta a la presión salarial: la solidaridad de clase no reconoce fronteras nacionales frente al capital.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "León Trotski, La Revolución Permanente",
+        "url": "https://www.marxists.org/archive/trotsky/1931/tpr/pr-index.htm",
+        "fecha": "1931",
+        "consultado": "2026-07-10"
+      }
+    },
+    "izq-014": {
+      "valor": -2,
+      "justificacion": "Esta tradición integra las agendas feminista y LGTB en el proyecto revolucionario y rechaza expresamente que sean una distracción de la lucha de clases, a diferencia del obrerismo de otras corrientes marxista-leninistas.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "León Trotski, El Programa de Transición",
+        "url": "https://www.marxists.org/archive/trotsky/1938/tp/tp-text.htm",
+        "fecha": "1938",
+        "consultado": "2026-07-10"
+      }
+    },
+    "izq-016": {
+      "valor": 2,
+      "justificacion": "La expropiación de la banca privada y de los grandes grupos capitalistas, concentrando el crédito para la planificación, es una de las demandas transicionales centrales y explícitas del programa de 1938.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "León Trotski, El Programa de Transición",
+        "url": "https://www.marxists.org/archive/trotsky/1938/tp/tp-text.htm",
+        "fecha": "1938",
+        "consultado": "2026-07-10"
+      }
+    },
+    "izq-017": {
+      "valor": -1,
+      "justificacion": "El Programa de Transición no plantea mantener durante décadas un amplio sector privado subordinado a la planificación como hace el economicismo etapista eurocomunista: busca la expropiación como demanda transicional hacia el poder obrero, no una convivencia prolongada.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "León Trotski, El Programa de Transición",
+        "url": "https://www.marxists.org/archive/trotsky/1938/tp/tp-text.htm",
+        "fecha": "1938",
+        "consultado": "2026-07-10"
+      }
+    },
+    "izq-018": {
+      "valor": 0,
+      "justificacion": "La IV Internacional admitió tendencias organizadas en su seno, a diferencia del centralismo estalinista que las prohíbe, pero exige unidad de acción pública frente al exterior: ni horizontalismo pleno ni prohibición total de corrientes.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "León Trotski, El Programa de Transición",
+        "url": "https://www.marxists.org/archive/trotsky/1938/tp/tp-text.htm",
+        "fecha": "1938",
+        "consultado": "2026-07-10"
+      }
+    },
+    "izq-019": {
+      "valor": 1,
+      "justificacion": "El parlamento se usa sobre todo como tribuna de agitación y denuncia dentro de la estrategia de demandas transicionales, aunque el trotskismo no descarta de forma absoluta la gestión institucional puntual como haría el ultraizquierdismo.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "León Trotski, El Programa de Transición",
+        "url": "https://www.marxists.org/archive/trotsky/1938/tp/tp-text.htm",
+        "fecha": "1938",
+        "consultado": "2026-07-10"
+      }
+    },
+    "izq-025": {
+      "valor": -2,
+      "justificacion": "El internacionalismo proletario de esta tradición rechaza reivindicar la bandera y los símbolos nacionales como patrimonio de la clase trabajadora: es la lógica contraria a la revolución permanente, que no reconoce fronteras a la lucha de clases.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "León Trotski, La Revolución Permanente",
+        "url": "https://www.marxists.org/archive/trotsky/1931/tpr/pr-index.htm",
+        "fecha": "1931",
+        "consultado": "2026-07-10"
+      }
+    },
+    "izq-026": {
+      "valor": -2,
+      "justificacion": "El trotskismo apoya activamente el derecho a decidir como reivindicación democrática legítima, y rechaza leer los procesos independentistas como una simple pugna interburguesa ante la que la clase trabajadora deba permanecer neutral.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "León Trotski, La Revolución Permanente",
+        "url": "https://www.marxists.org/archive/trotsky/1931/tpr/pr-index.htm",
+        "fecha": "1931",
+        "consultado": "2026-07-10"
+      }
+    },
+    "izq-029": {
+      "valor": -2,
+      "justificacion": "Esta tradición analiza los enfrentamientos entre bloques de potencias como conflictos interimperialistas y rechaza el campismo que llama a tomar partido por Rusia o cualquier otra potencia frente a Estados Unidos.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "León Trotski, El Programa de Transición",
+        "url": "https://www.marxists.org/archive/trotsky/1938/tp/tp-text.htm",
+        "fecha": "1938",
+        "consultado": "2026-07-10"
+      }
+    },
+    "izq-030": {
+      "valor": -2,
+      "justificacion": "El trotskismo lee la aceptación por el PCE del marco de la Constitución de 1978 como una capitulación reformista que renuncia a la revolución permanente a cambio de integrarse en el Estado burgués.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "León Trotski, La Revolución Permanente",
+        "url": "https://www.marxists.org/archive/trotsky/1931/tpr/pr-index.htm",
+        "fecha": "1931",
+        "consultado": "2026-07-10"
+      }
+    },
+    "izq-031": {
+      "valor": -2,
+      "justificacion": "A diferencia del abstencionismo de la izquierda comunista, la IV Internacional concurre a las elecciones como tribuna para sus demandas transicionales: el boicot electoral no es su táctica.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "León Trotski, El Programa de Transición",
+        "url": "https://www.marxists.org/archive/trotsky/1938/tp/tp-text.htm",
+        "fecha": "1938",
+        "consultado": "2026-07-10"
+      }
+    },
+    "izq-038": {
+      "valor": -2,
+      "justificacion": "El programa transicional busca la conquista centralizada del poder por un gobierno obrero apoyado en soviets y sindicatos, no la construcción de una confederación municipal y asamblearia que renuncie al Estado central.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "León Trotski, El Programa de Transición",
+        "url": "https://www.marxists.org/archive/trotsky/1938/tp/tp-text.htm",
+        "fecha": "1938",
+        "consultado": "2026-07-10"
+      }
+    },
+    "izq-046": {
+      "valor": 2,
+      "justificacion": "El rechazo a la tesis del socialismo en un solo país y la solidaridad internacional de clase, sin fronteras que la limiten, respalda la libertad de movimiento como derecho de toda persona.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "León Trotski, La Revolución Permanente",
+        "url": "https://www.marxists.org/archive/trotsky/1931/tpr/pr-index.htm",
+        "fecha": "1931",
+        "consultado": "2026-07-10"
+      }
+    },
+    "eco-009": {
+      "valor": -2,
+      "justificacion": "Esta corriente no busca aligerar la fiscalidad sobre la riqueza heredada sino expropiar la propiedad capitalista concentrada: rebajar impuestos a las grandes fortunas va en la dirección contraria a su programa.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "León Trotski, El Programa de Transición",
+        "url": "https://www.marxists.org/archive/trotsky/1938/tp/tp-text.htm",
+        "fecha": "1938",
+        "consultado": "2026-07-10"
+      }
+    },
+    "lab-008": {
+      "valor": 2,
+      "justificacion": "El control obrero de la producción es una demanda transicional explícita y nombrada del Programa de 1938: consejos elegidos en los centros de trabajo deben dirigir y fiscalizar la producción y la inversión.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "León Trotski, El Programa de Transición",
+        "url": "https://www.marxists.org/archive/trotsky/1938/tp/tp-text.htm",
+        "fecha": "1938",
+        "consultado": "2026-07-10"
+      }
+    },
+    "lab-016": {
+      "valor": 2,
+      "justificacion": "La nacionalización de los sectores estratégicos bajo control obrero, con independencia de la rentabilidad privada alegada, forma parte del programa de demandas transicionales hacia la economía planificada.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "León Trotski, El Programa de Transición",
+        "url": "https://www.marxists.org/archive/trotsky/1938/tp/tp-text.htm",
+        "fecha": "1938",
+        "consultado": "2026-07-10"
+      }
+    },
+    "lab-015": {
+      "valor": -2,
+      "justificacion": "La independencia de la acción sindical y el derecho de huelga son irrenunciables para esta tradición frente a cualquier suspensión gubernamental, incluso alegando pérdidas económicas graves.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "León Trotski, El Programa de Transición",
+        "url": "https://www.marxists.org/archive/trotsky/1938/tp/tp-text.htm",
+        "fecha": "1938",
+        "consultado": "2026-07-10"
+      }
+    },
+    "soc-002": {
+      "valor": -2,
+      "justificacion": "La solidaridad internacionalista con la clase trabajadora migrante rechaza la devolución como respuesta prioritaria a la irregularidad administrativa.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "León Trotski, La Revolución Permanente",
+        "url": "https://www.marxists.org/archive/trotsky/1931/tpr/pr-index.htm",
+        "fecha": "1931",
+        "consultado": "2026-07-10"
+      }
+    },
+    "fem-001": {
+      "valor": 2,
+      "justificacion": "Coherente con izq-015 y con la integración de las luchas feminista y LGTB en el proyecto revolucionario, esta corriente apoya la autodeterminación de género sin requisitos médicos para adultos.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "León Trotski, El Programa de Transición",
+        "url": "https://www.marxists.org/archive/trotsky/1938/tp/tp-text.htm",
+        "fecha": "1938",
+        "consultado": "2026-07-10"
+      }
+    },
+    "ter-002": {
+      "valor": 2,
+      "justificacion": "El derecho de las naciones a la autodeterminación, sostenido por la tradición bolchevique que Trotski conservó frente a Stalin, respalda que los territorios que lo deseen puedan celebrar un referéndum.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "León Trotski, La Revolución Permanente",
+        "url": "https://www.marxists.org/archive/trotsky/1931/tpr/pr-index.htm",
+        "fecha": "1931",
+        "consultado": "2026-07-10"
+      }
+    },
+    "lim-004": {
+      "valor": -2,
+      "justificacion": "El trotskismo ortodoxo rechaza expresamente la tesis heterodoxa posadista de 1962 según la cual una guerra nuclear abriría una oportunidad revolucionaria aceptable: esta es la línea que separa a ambas corrientes en el mapa y que motivó la ruptura con Posadas.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "León Trotski, El Programa de Transición",
+        "url": "https://www.marxists.org/archive/trotsky/1938/tp/tp-text.htm",
+        "fecha": "1938",
+        "consultado": "2026-07-10"
+      }
+    },
+    "geo-008": {
+      "valor": 1,
+      "justificacion": "A diferencia del posadismo, la tradición trotskista ortodoxa se sitúa dentro del antimilitarismo internacionalista clásico que rechaza el uso de armas nucleares, sin fundar en ellas ninguna esperanza revolucionaria.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "León Trotski, El Programa de Transición",
+        "url": "https://www.marxists.org/archive/trotsky/1938/tp/tp-text.htm",
+        "fecha": "1938",
+        "consultado": "2026-07-10"
+      }
+    }
+  }
+}

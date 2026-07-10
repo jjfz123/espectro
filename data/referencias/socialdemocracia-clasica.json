@@ -1,0 +1,219 @@
+{
+  "id": "socialdemocracia-clasica",
+  "nombre": "Socialdemocracia clásica",
+  "tipo": "referencia-doctrinal",
+  "definicion": "Tipo ideal de la socialdemocracia reformista de posguerra, codificada en el Programa de Bad Godesberg del SPD (1959) sobre las bases revisionistas de Eduard Bernstein: economía mixta de mercado regulado («tanta competencia como sea posible, tanta planificación como sea necesaria»), reforma gradual dentro de la democracia parlamentaria en vez de ruptura revolucionaria, Estado social redistributivo y sindicalismo de negociación colectiva.",
+  "variante": "Socialdemocracia de Bad Godesberg (SPD, 1959), heredera del revisionismo de Bernstein (1899); distinta del socioliberalismo centrista (economía de mercado como fin, no como medio tácticamente aceptado) y de la izquierda reformista ecosocialista contemporánea (Sumar/Podemos), que reintroduce críticas al crecimiento y a la OTAN ausentes de este tipo ideal",
+  "periodo": "1899 (revisionismo de Bernstein) – Bad Godesberg 1959 – actualidad",
+  "confianza": "verificada",
+  "version": "1.0",
+  "revisado": "2026-07-10",
+  "facetasDefinitorias": ["economico", "metodo-cambio", "estatismo", "poder-laboral", "institucionalismo"],
+  "sensibilidad": "normal",
+  "advertencia": "Es un tipo ideal doctrinal, no la ficha de ningún partido español: el PSOE tiene perfil propio con sus propias fuentes y puede apartarse de este tipo ideal en cualquier ítem concreto. El deslinde fino que motiva esta referencia es frente al socioliberalismo (centro-liberalismo): aquí el mercado se acepta como instrumento eficiente dentro de un proyecto de igualdad («planificación como sea necesaria»), no como fin en sí mismo. Bad Godesberg es ante todo un programa económico y democrático de 1959: no toma posición sobre inmigración, derechos LGTB u orden público tal como se entienden hoy, por lo que esta referencia queda sin evidencia suficiente en el eje social (GAL-TAN) y no se fuerza ninguna posición ahí.",
+  "fuentesMarco": [
+    {
+      "tipo": "otro",
+      "titulo": "Sozialdemokratische Partei Deutschlands, Grundsatzprogramm (Godesberger Programm), Bad Godesberg, 13-15 de noviembre de 1959 — traducción inglesa, German History in Documents and Images (GHDI)",
+      "url": "https://germanhistorydocs.org/en/occupation-and-the-emergence-of-two-states-1945-1961/godesberg-program-of-the-spd-november-1959",
+      "fecha": "1959-11-15",
+      "consultado": "2026-07-10"
+    },
+    {
+      "tipo": "otro",
+      "titulo": "Eduard Bernstein, Evolutionary Socialism [Die Voraussetzungen des Sozialismus und die Aufgaben der Sozialdemokratie, 1899] (marxists.org)",
+      "url": "https://www.marxists.org/reference/archive/bernstein/works/1899/evsoc/preface-eng.htm",
+      "fecha": "1899",
+      "consultado": "2026-07-10"
+    }
+  ],
+  "reglaPublicacion": {
+    "minimoItems": 9,
+    "minimoCobertura": 0.5,
+    "umbralAfinidad": 76
+  },
+  "posiciones": {
+    "izq-001": {
+      "valor": -2,
+      "justificacion": "El revisionismo de Bernstein rechaza expresamente la ruptura catastrofista: la transformación llega por reforma legislativa y sindical continuada dentro del orden existente, no por revolución.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Eduard Bernstein, Evolutionary Socialism, prefacio",
+        "url": "https://www.marxists.org/reference/archive/bernstein/works/1899/evsoc/preface-eng.htm",
+        "fecha": "1899",
+        "consultado": "2026-07-10",
+        "cita": "This goal, whatever it may be, is nothing to me, while the movement is everything."
+      }
+    },
+    "izq-002": {
+      "valor": -2,
+      "justificacion": "Bad Godesberg convierte al SPD, en su propia caracterización histórica, de partido de la clase obrera en partido del pueblo (Volkspartei): abandona el modelo de vanguardia disciplinada que interpreta la doctrina para todos.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Godesberg Program of the SPD, GHDI",
+        "url": "https://germanhistorydocs.org/en/occupation-and-the-emergence-of-two-states-1945-1961/godesberg-program-of-the-spd-november-1959",
+        "fecha": "1959-11-15",
+        "consultado": "2026-07-10"
+      }
+    },
+    "dem-011": {
+      "valor": -2,
+      "justificacion": "Godesberg afirma que el socialismo solo se realiza a través de la democracia y la democracia solo se completa a través del socialismo: el marco parlamentario no se sustituye, se habita y se completa.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Godesberg Program of the SPD, GHDI",
+        "url": "https://germanhistorydocs.org/en/occupation-and-the-emergence-of-two-states-1945-1961/godesberg-program-of-the-spd-november-1959",
+        "fecha": "1959-11-15",
+        "consultado": "2026-07-10"
+      }
+    },
+    "dem-012": {
+      "valor": 2,
+      "justificacion": "El programa es el acta fundacional del reformismo dentro de la legalidad constitucional: los cambios se persiguen mediante elecciones, legislación y negociación, nunca al margen del orden constitucional.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Eduard Bernstein, Evolutionary Socialism",
+        "url": "https://www.marxists.org/reference/archive/bernstein/works/1899/evsoc/preface-eng.htm",
+        "fecha": "1899",
+        "consultado": "2026-07-10"
+      }
+    },
+    "dem-008": {
+      "valor": 2,
+      "justificacion": "El giro de posguerra del SPD hacia la democracia liberal-constitucional, tras la experiencia de Weimar y el nazismo, hace de la separación de poderes un valor no negociable, no un obstáculo a superar.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Godesberg Program of the SPD, GHDI",
+        "url": "https://germanhistorydocs.org/en/occupation-and-the-emergence-of-two-states-1945-1961/godesberg-program-of-the-spd-november-1959",
+        "fecha": "1959-11-15",
+        "consultado": "2026-07-10"
+      }
+    },
+    "eco-002": {
+      "valor": 1,
+      "justificacion": "La fórmula definitoria de Godesberg acepta la eficiencia del mercado y la iniciativa privada como regla general, reservando la planificación pública para lo estrictamente necesario: es el punto exacto que evita el error de evidencia-bandera de situar a esta corriente en el polo estatista.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Godesberg Program of the SPD, GHDI",
+        "url": "https://germanhistorydocs.org/en/occupation-and-the-emergence-of-two-states-1945-1961/godesberg-program-of-the-spd-november-1959",
+        "fecha": "1959-11-15",
+        "consultado": "2026-07-10",
+        "cita": "As much competition as possible – as much planning as necessary."
+      }
+    },
+    "lab-016": {
+      "valor": -1,
+      "justificacion": "Godesberg limita la propiedad pública a los casos en que una estructura económica sana no pueda garantizarse de otro modo: no respalda estatizar una empresa rentable en manos privadas solo por ser estratégica.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Godesberg Program of the SPD, GHDI",
+        "url": "https://germanhistorydocs.org/en/occupation-and-the-emergence-of-two-states-1945-1961/godesberg-program-of-the-spd-november-1959",
+        "fecha": "1959-11-15",
+        "consultado": "2026-07-10"
+      }
+    },
+    "ene-004": {
+      "valor": 1,
+      "justificacion": "La propiedad pública de una infraestructura de red (monopolio natural) es precisamente el caso que Godesberg admite como legítimo control de concentraciones económicas que el mercado por sí solo no disciplina.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Godesberg Program of the SPD, GHDI",
+        "url": "https://germanhistorydocs.org/en/occupation-and-the-emergence-of-two-states-1945-1961/godesberg-program-of-the-spd-november-1959",
+        "fecha": "1959-11-15",
+        "consultado": "2026-07-10"
+      }
+    },
+    "der-012": {
+      "valor": 2,
+      "justificacion": "La concertación entre sindicatos libres, patronal y Gobierno es la institución económica central del modelo: Godesberg sitúa a los sindicatos libres como contrapeso indispensable dentro de la economía social de mercado, no como sujeto a subordinar.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Godesberg Program of the SPD, GHDI",
+        "url": "https://germanhistorydocs.org/en/occupation-and-the-emergence-of-two-states-1945-1961/godesberg-program-of-the-spd-november-1959",
+        "fecha": "1959-11-15",
+        "consultado": "2026-07-10"
+      }
+    },
+    "lab-001": {
+      "valor": 2,
+      "justificacion": "La negociación colectiva sectorial y la autonomía tarifaria de los sindicatos libres frente al Estado son, junto a la concertación, el núcleo institucional laboral heredado de esta tradición.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Godesberg Program of the SPD, GHDI",
+        "url": "https://germanhistorydocs.org/en/occupation-and-the-emergence-of-two-states-1945-1961/godesberg-program-of-the-spd-november-1959",
+        "fecha": "1959-11-15",
+        "consultado": "2026-07-10"
+      }
+    },
+    "eco-001": {
+      "valor": 1,
+      "justificacion": "Godesberg reclama una distribución justa de la renta nacional como objetivo económico explícito, lo que respalda una fiscalidad progresiva moderada sobre las rentas altas, sin que esto agote el programa en la redistribución.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Godesberg Program of the SPD, GHDI",
+        "url": "https://germanhistorydocs.org/en/occupation-and-the-emergence-of-two-states-1945-1961/godesberg-program-of-the-spd-november-1959",
+        "fecha": "1959-11-15",
+        "consultado": "2026-07-10"
+      }
+    },
+    "eco-009": {
+      "valor": -1,
+      "justificacion": "El programa propone formación de patrimonio en manos de los asalariados y reducción de las diferencias de propiedad heredadas: suprimir sin más el impuesto de sucesiones iría en la dirección contraria a ese objetivo.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Godesberg Program of the SPD, GHDI",
+        "url": "https://germanhistorydocs.org/en/occupation-and-the-emergence-of-two-states-1945-1961/godesberg-program-of-the-spd-november-1959",
+        "fecha": "1959-11-15",
+        "consultado": "2026-07-10"
+      }
+    },
+    "eco-004": {
+      "valor": -1,
+      "justificacion": "La seguridad social y el pleno empleo son objetivos explícitos del programa económico: no se subordinan por principio a la consolidación fiscal, aunque el compromiso con la estabilidad presupuestaria tampoco se ignora del todo.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Godesberg Program of the SPD, GHDI",
+        "url": "https://germanhistorydocs.org/en/occupation-and-the-emergence-of-two-states-1945-1961/godesberg-program-of-the-spd-november-1959",
+        "fecha": "1959-11-15",
+        "consultado": "2026-07-10"
+      }
+    },
+    "rel-002": {
+      "valor": 2,
+      "justificacion": "Godesberg declara que el socialismo democrático europeo tiene raíces en la ética cristiana, el humanismo y la filosofía clásica sin proclamar verdades últimas: el SPD se abre a personas de distintas convicciones bajo un Estado aconfesional que no privilegia ninguna.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Godesberg Program of the SPD, GHDI",
+        "url": "https://germanhistorydocs.org/en/occupation-and-the-emergence-of-two-states-1945-1961/godesberg-program-of-the-spd-november-1959",
+        "fecha": "1959-11-15",
+        "consultado": "2026-07-10"
+      }
+    },
+    "ue-002": {
+      "valor": 2,
+      "justificacion": "La socialdemocracia de posguerra alemana apostó de forma temprana y explícita por la integración europea y la reconciliación continental como proyecto propio, no como concesión táctica.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Godesberg Program of the SPD, GHDI",
+        "url": "https://germanhistorydocs.org/en/occupation-and-the-emergence-of-two-states-1945-1961/godesberg-program-of-the-spd-november-1959",
+        "fecha": "1959-11-15",
+        "consultado": "2026-07-10"
+      }
+    }
+  }
+}

@@ -1,0 +1,250 @@
+{
+  "id": "liberalismo-clasico",
+  "nombre": "Liberalismo clásico",
+  "tipo": "referencia-doctrinal",
+  "definicion": "Tipo ideal del liberalismo político y económico del siglo XIX: libertad individual limitada solo por el daño a terceros (Mill), distinción entre la libertad participativa de los antiguos y la libertad personal de los modernos como prioridad (Constant) y economía de mercado con Estado limitado pero no mínimo, que también financia obras públicas e instrucción (Smith). Gobierno representativo, no revolucionario ni plebiscitario.",
+  "variante": "Liberalismo doctrinal de Mill, Constant y Smith; distinto del minarquismo y el anarcocapitalismo (que exigen un Estado más reducido o su abolición) y de los partidos españoles actuales que se reclaman liberales (Ciudadanos, P-LIB, Volt España tienen ficha propia con posiciones documentadas)",
+  "periodo": "1776 (Smith) – 1859 (Mill) – actualidad como tipo ideal",
+  "confianza": "verificada",
+  "version": "1.0",
+  "revisado": "2026-07-10",
+  "facetasDefinitorias": ["economico", "social", "libertad-conciencia", "democracia-directa", "institucionalismo"],
+  "sensibilidad": "normal",
+  "advertencia": "Es un tipo ideal filosófico del siglo XIX, no la ficha de ningún partido español. Varias posiciones (matrimonio igualitario, inmigración) se derivan del principio del daño de Mill y del universalismo de Smith, no de una referencia literal de sus textos a esas políticas concretas: es una aplicación razonada del principio, señalada como tal. Frente al minarquismo y al anarcocapitalismo, este liberalismo admite obras públicas, instrucción y ayuda a los más pobres financiadas por el Estado (Smith, Libro V); frente al conservadurismo clásico, antepone el juicio individual a la costumbre heredada. Ninguno de los tres textos discute el modelo territorial español; esta referencia queda deliberadamente sin posiciones en el eje territorial en vez de forzarlas.",
+  "fuentesMarco": [
+    {
+      "tipo": "otro",
+      "titulo": "John Stuart Mill, On Liberty (1859), Project Gutenberg",
+      "url": "https://www.gutenberg.org/files/34901/34901-h/34901-h.htm",
+      "fecha": "1859",
+      "consultado": "2026-07-10"
+    },
+    {
+      "tipo": "otro",
+      "titulo": "Benjamin Constant, De la liberté des anciens comparée à celle des modernes (1819), Internet Archive",
+      "url": "https://archive.org/details/BenjaminConstantTheLibertyOfTheAncientsComparedWithThatOfTheModerns1819.Camb",
+      "fecha": "1819",
+      "consultado": "2026-07-10"
+    },
+    {
+      "tipo": "otro",
+      "titulo": "Adam Smith, An Inquiry into the Nature and Causes of the Wealth of Nations (1776), Project Gutenberg",
+      "url": "https://www.gutenberg.org/files/3300/3300-h/3300-h.htm",
+      "fecha": "1776",
+      "consultado": "2026-07-10"
+    }
+  ],
+  "reglaPublicacion": {
+    "minimoItems": 9,
+    "minimoCobertura": 0.5,
+    "umbralAfinidad": 76
+  },
+  "posiciones": {
+    "der-001": {
+      "valor": 1,
+      "justificacion": "Smith admite un Estado con funciones más allá de seguridad y justicia —obras públicas e instrucción que ningún particular emprendería por sí solo—, por lo que este liberalismo apoya reducir el Estado sin llevarlo al mínimo estricto del minarquismo.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Adam Smith, La riqueza de las naciones, Libro V",
+        "url": "https://www.gutenberg.org/files/3300/3300-h/3300-h.htm",
+        "fecha": "1776",
+        "consultado": "2026-07-10"
+      }
+    },
+    "lib-002": {
+      "valor": -2,
+      "justificacion": "El liberalismo clásico confía la justicia y la seguridad a un Estado representativo con imperio de la ley, no a agencias privadas en competencia: es el punto que lo separa nítidamente del anarcocapitalismo.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Adam Smith, La riqueza de las naciones, Libro V",
+        "url": "https://www.gutenberg.org/files/3300/3300-h/3300-h.htm",
+        "fecha": "1776",
+        "consultado": "2026-07-10"
+      }
+    },
+    "eco-002": {
+      "valor": 1,
+      "justificacion": "La división del trabajo y la libre competencia son, para Smith, la fuente principal del aumento de la riqueza: la gestión privada eficiente es la regla, con el Estado interviniendo solo donde el mercado falla.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Adam Smith, La riqueza de las naciones",
+        "url": "https://www.gutenberg.org/files/3300/3300-h/3300-h.htm",
+        "fecha": "1776",
+        "consultado": "2026-07-10"
+      }
+    },
+    "lib-006": {
+      "valor": 1,
+      "justificacion": "La lógica de Smith contra las restricciones artificiales a la oferta y el intercambio libre respalda liberalizar el suelo urbanizable frente a limitarlo por regulación.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Adam Smith, La riqueza de las naciones",
+        "url": "https://www.gutenberg.org/files/3300/3300-h/3300-h.htm",
+        "fecha": "1776",
+        "consultado": "2026-07-10"
+      }
+    },
+    "lib-007": {
+      "valor": 2,
+      "justificacion": "Smith denunció expresamente los gremios y colegios profesionales como conspiraciones contra el público que restringen la competencia mediante la exigencia de colegiación obligatoria.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Adam Smith, La riqueza de las naciones, Libro I, cap. X",
+        "url": "https://www.gutenberg.org/files/3300/3300-h/3300-h.htm",
+        "fecha": "1776",
+        "consultado": "2026-07-10",
+        "cita": "People of the same trade seldom meet together, even for merriment and diversion, but the conversation ends in a conspiracy against the public, or in some contrivance to raise prices."
+      }
+    },
+    "lib-008": {
+      "valor": 2,
+      "justificacion": "El mismo argumento smithiano contra las restricciones corporativas a la entrada de nuevos competidores respalda eliminar los cupos de licencias de taxi y VTC.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Adam Smith, La riqueza de las naciones, Libro I, cap. X",
+        "url": "https://www.gutenberg.org/files/3300/3300-h/3300-h.htm",
+        "fecha": "1776",
+        "consultado": "2026-07-10"
+      }
+    },
+    "soc-001": {
+      "valor": 2,
+      "justificacion": "Por aplicación razonada del principio del daño —no por referencia literal, ajena a la política de 1859—, el matrimonio entre adultos que consienten no daña a terceros y queda fuera del ámbito legítimo de la coacción social.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "John Stuart Mill, On Liberty, cap. I",
+        "url": "https://www.gutenberg.org/files/34901/34901-h/34901-h.htm",
+        "fecha": "1859",
+        "consultado": "2026-07-10",
+        "cita": "The only purpose for which power can be rightfully exercised over any member of a civilised community, against his will, is to prevent harm to others."
+      }
+    },
+    "lib-009": {
+      "valor": 2,
+      "justificacion": "Mill discute expresamente el consumo de sustancias como conducta que solo concierne a quien la practica: prohibirla sería una extensión ilegítima del poder social sobre la esfera individual.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "John Stuart Mill, On Liberty",
+        "url": "https://www.gutenberg.org/files/34901/34901-h/34901-h.htm",
+        "fecha": "1859",
+        "consultado": "2026-07-10"
+      }
+    },
+    "lib-010": {
+      "valor": 1,
+      "justificacion": "El mismo principio se extendería en general a otras sustancias, aunque Mill matiza su argumento con la posibilidad de regular la venta (impuestos, restricciones de horario) sin prohibir el consumo.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "John Stuart Mill, On Liberty",
+        "url": "https://www.gutenberg.org/files/34901/34901-h/34901-h.htm",
+        "fecha": "1859",
+        "consultado": "2026-07-10"
+      }
+    },
+    "soc-003": {
+      "valor": -1,
+      "justificacion": "Mill defiende un ámbito de conducta individual inmune al control social salvo daño a terceros: ampliar la vigilancia preventiva sin ese daño concreto extiende el poder social más allá de su límite legítimo.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "John Stuart Mill, On Liberty",
+        "url": "https://www.gutenberg.org/files/34901/34901-h/34901-h.htm",
+        "fecha": "1859",
+        "consultado": "2026-07-10"
+      }
+    },
+    "rel-002": {
+      "valor": 2,
+      "justificacion": "La libertad de conciencia, la primera y más fundamental según Mill, exige un Estado que no imponga ni una religión oficial ni el ateísmo, y permita la expresión pública de todas dentro de la ley.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "John Stuart Mill, On Liberty, cap. II",
+        "url": "https://www.gutenberg.org/files/34901/34901-h/34901-h.htm",
+        "fecha": "1859",
+        "consultado": "2026-07-10"
+      }
+    },
+    "dem-001": {
+      "valor": -1,
+      "justificacion": "Constant advierte contra trasladar sin más la libertad participativa y colectiva de los antiguos —el pueblo reunido decidiéndolo todo— al Estado moderno: la libertad moderna es sobre todo personal y se ejerce mejor mediante representación estable que mediante consulta directa habitual.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Benjamin Constant, De la liberté des anciens comparée à celle des modernes",
+        "url": "https://archive.org/details/BenjaminConstantTheLibertyOfTheAncientsComparedWithThatOfTheModerns1819.Camb",
+        "fecha": "1819",
+        "consultado": "2026-07-10"
+      }
+    },
+    "dem-012": {
+      "valor": 2,
+      "justificacion": "El liberalismo constitucional confía el cambio político a los procedimientos legales de la representación, no a la ruptura ni a la asamblea permanente del pueblo soberano al modo antiguo.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Benjamin Constant, De la liberté des anciens comparée à celle des modernes",
+        "url": "https://archive.org/details/BenjaminConstantTheLibertyOfTheAncientsComparedWithThatOfTheModerns1819.Camb",
+        "fecha": "1819",
+        "consultado": "2026-07-10"
+      }
+    },
+    "dem-011": {
+      "valor": -2,
+      "justificacion": "El gobierno representativo, no la sustitución del parlamentarismo por otro modelo, es la institución en la que Constant hace descansar la libertad moderna frente al riesgo de que la soberanía colectiva absorba al individuo.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Benjamin Constant, De la liberté des anciens comparée à celle des modernes",
+        "url": "https://archive.org/details/BenjaminConstantTheLibertyOfTheAncientsComparedWithThatOfTheModerns1819.Camb",
+        "fecha": "1819",
+        "consultado": "2026-07-10"
+      }
+    },
+    "lib-018": {
+      "valor": 1,
+      "justificacion": "El libre intercambio de Smith —incluida la libre disposición del propio trabajo— y el rechazo milliano a restringir la conducta pacífica de un individuo respaldan ampliar las vías legales de inmigración laboral.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Adam Smith, La riqueza de las naciones",
+        "url": "https://www.gutenberg.org/files/3300/3300-h/3300-h.htm",
+        "fecha": "1776",
+        "consultado": "2026-07-10"
+      }
+    },
+    "der-016": {
+      "valor": 2,
+      "justificacion": "La libre disposición del propio trabajo y del capital ajeno mediante contrato, sin trabas corporativas, es un principio central de la economía de Smith: el mercado laboral debe poder cubrir vacantes mediante contratación libre.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Adam Smith, La riqueza de las naciones, Libro I",
+        "url": "https://www.gutenberg.org/files/3300/3300-h/3300-h.htm",
+        "fecha": "1776",
+        "consultado": "2026-07-10"
+      }
+    },
+    "soc-002": {
+      "valor": -1,
+      "justificacion": "El principio del daño de Mill exige que la coacción se justifique por un perjuicio concreto a terceros, no por el mero hecho de la irregularidad administrativa: prioriza el debido proceso individual sobre la devolución automática.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "John Stuart Mill, On Liberty",
+        "url": "https://www.gutenberg.org/files/34901/34901-h/34901-h.htm",
+        "fecha": "1859",
+        "consultado": "2026-07-10"
+      }
+    }
+  }
+}

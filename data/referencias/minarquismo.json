@@ -1,0 +1,297 @@
+{
+  "id": "minarquismo",
+  "nombre": "Minarquismo",
+  "tipo": "referencia-doctrinal",
+  "definicion": "Tipo ideal del Estado mínimo tal como lo justifica Robert Nozick en Anarchy, State, and Utopia (1974): un Estado «vigilante nocturno» limitado a proteger contra la fuerza, el robo, el fraude y el incumplimiento de contratos, legitimado por un proceso de mano invisible desde la anarquía, que no viola derechos porque no impone más funciones que esas; cualquier Estado más extenso viola derechos, y también los viola un Estado que renuncie incluso a esas funciones mínimas.",
+  "variante": "Minarquismo nozickiano, distinto del anarcocapitalismo rothbardiano (que aboliría también el monopolio estatal sobre justicia y seguridad, ya existente como referencia propia en este catálogo); en España, el partido P-LIB se define expresamente minarquista en su programa vigente",
+  "periodo": "1974 (Anarchy, State, and Utopia) – actualidad como tipo ideal",
+  "confianza": "verificada",
+  "version": "1.0",
+  "revisado": "2026-07-10",
+  "facetasDefinitorias": ["economico", "estatismo", "institucionalismo", "pluralismo-institucional"],
+  "sensibilidad": "normal",
+  "advertencia": "Es un tipo ideal filosófico, no la ficha de ningún partido español: P-LIB tiene perfil propio con posiciones documentadas y puede apartarse de este tipo ideal en detalles concretos. El deslinde decisivo es frente al anarcocapitalismo, ya presente en el catálogo: el minarquismo conserva un Estado único con monopolio legítimo de la justicia y la seguridad (lib-002 en contra), mientras el anarcocapitalismo lo privatiza también (lib-002 a favor). Por eso este tipo ideal tampoco busca sustituir el sistema parlamentario por otro modelo, a diferencia del anarcocapitalismo, que sí apunta a una ruptura institucional completa.",
+  "fuentesMarco": [
+    {
+      "tipo": "otro",
+      "titulo": "Robert Nozick, Anarchy, State, and Utopia (1974), copia docente, Kinder Institute on Constitutional Democracy, Universidad de Missouri",
+      "url": "https://klinechair.missouri.edu/docs/nozick.pdf",
+      "fecha": "1974",
+      "consultado": "2026-07-10"
+    }
+  ],
+  "reglaPublicacion": {
+    "minimoItems": 10,
+    "minimoCobertura": 0.5,
+    "umbralAfinidad": 78
+  },
+  "posiciones": {
+    "der-001": {
+      "valor": 2,
+      "justificacion": "Nozick defiende que solo un Estado mínimo limitado a la protección frente a la fuerza, el robo y el fraude, y a hacer cumplir contratos, puede justificarse sin violar derechos: exactamente la definición de este ítem.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Robert Nozick, Anarchy, State, and Utopia, prefacio",
+        "url": "https://klinechair.missouri.edu/docs/nozick.pdf",
+        "fecha": "1974",
+        "consultado": "2026-07-10",
+        "cita": "the minimal state is the most extensive state that can be justified. Any state more extensive violates people's rights."
+      }
+    },
+    "lib-002": {
+      "valor": -2,
+      "justificacion": "El argumento central de Nozick es que un Estado mínimo con monopolio de facto sobre la justicia y la seguridad surge legítimamente por un proceso de mano invisible y no viola derechos: privatizar también esas funciones en agencias competidoras es precisamente lo que su teoría del Estado mínimo descarta frente al individualismo anarquista.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Robert Nozick, Anarchy, State, and Utopia",
+        "url": "https://klinechair.missouri.edu/docs/nozick.pdf",
+        "fecha": "1974",
+        "consultado": "2026-07-10"
+      }
+    },
+    "dem-006": {
+      "valor": 2,
+      "justificacion": "Los derechos individuales funcionan en Nozick como restricciones laterales (side-constraints) que ni siquiera una mayoría parlamentaria puede atropellar: de ahí que los tribunales deban poder anular decisiones que los vulneren.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Robert Nozick, Anarchy, State, and Utopia",
+        "url": "https://klinechair.missouri.edu/docs/nozick.pdf",
+        "fecha": "1974",
+        "consultado": "2026-07-10",
+        "cita": "Individuals have rights, and there are things no person or group may do to them (without violating their rights)."
+      }
+    },
+    "dem-028": {
+      "valor": 2,
+      "justificacion": "Si los derechos son restricciones laterales inviolables, ninguna mayoría, ni siquiera reunida en referéndum, puede legítimamente suprimir los derechos fundamentales de una minoría.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Robert Nozick, Anarchy, State, and Utopia",
+        "url": "https://klinechair.missouri.edu/docs/nozick.pdf",
+        "fecha": "1974",
+        "consultado": "2026-07-10"
+      }
+    },
+    "eco-001": {
+      "valor": -2,
+      "justificacion": "Nozick equipara gravar los ingresos del trabajo con una forma de trabajo forzoso, porque obliga a trabajar horas adicionales cuyo fruto se destina a fines que la persona no ha elegido.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Robert Nozick, Anarchy, State, and Utopia, cap. 7",
+        "url": "https://klinechair.missouri.edu/docs/nozick.pdf",
+        "fecha": "1974",
+        "consultado": "2026-07-10",
+        "cita": "Taxation of earnings from labor is on a par with forced labor."
+      }
+    },
+    "eco-014": {
+      "valor": -2,
+      "justificacion": "Un impuesto permanente sobre las grandes fortunas es una redistribución con patrón que la teoría de la justicia en la adquisición y la transferencia de Nozick rechaza, con independencia del reparto resultante.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Robert Nozick, Anarchy, State, and Utopia",
+        "url": "https://klinechair.missouri.edu/docs/nozick.pdf",
+        "fecha": "1974",
+        "consultado": "2026-07-10"
+      }
+    },
+    "eco-009": {
+      "valor": 2,
+      "justificacion": "Si una posesión se adquirió y transfirió de forma justa, su traspaso hereditario es una transferencia legítima que el Estado no debe gravar como si fuera ilegítima por sí misma.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Robert Nozick, Anarchy, State, and Utopia",
+        "url": "https://klinechair.missouri.edu/docs/nozick.pdf",
+        "fecha": "1974",
+        "consultado": "2026-07-10"
+      }
+    },
+    "sd-008": {
+      "valor": -2,
+      "justificacion": "Una renta básica universal financiada por impuestos es una redistribución con patrón (a cada cual según una fórmula igualitaria) del tipo que el argumento de Wilt Chamberlain de Nozick considera ilegítima aunque parta de una situación justa.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Robert Nozick, Anarchy, State, and Utopia",
+        "url": "https://klinechair.missouri.edu/docs/nozick.pdf",
+        "fecha": "1974",
+        "consultado": "2026-07-10"
+      }
+    },
+    "lab-016": {
+      "valor": -2,
+      "justificacion": "El Estado mínimo no tiene entre sus funciones legítimas dirigir empresas, sean o no estratégicas, mucho menos si podrían operar de forma rentable en manos privadas.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Robert Nozick, Anarchy, State, and Utopia",
+        "url": "https://klinechair.missouri.edu/docs/nozick.pdf",
+        "fecha": "1974",
+        "consultado": "2026-07-10"
+      }
+    },
+    "lab-006": {
+      "valor": -2,
+      "justificacion": "Un sindicato único reconocido e integrado por el Estado en la gestión económica es la clase de imposición colectiva y monopolio de representación que la teoría de los derechos individuales de Nozick rechaza.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Robert Nozick, Anarchy, State, and Utopia",
+        "url": "https://klinechair.missouri.edu/docs/nozick.pdf",
+        "fecha": "1974",
+        "consultado": "2026-07-10"
+      }
+    },
+    "lib-001": {
+      "valor": 2,
+      "justificacion": "Fuera de sus funciones protectoras mínimas, el Estado nozickiano no financia servicios como la sanidad: la cobertura universal pública se sustituye por seguros privados y ayuda focalizada a quien no pueda costearlos.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Robert Nozick, Anarchy, State, and Utopia",
+        "url": "https://klinechair.missouri.edu/docs/nozick.pdf",
+        "fecha": "1974",
+        "consultado": "2026-07-10"
+      }
+    },
+    "lib-009": {
+      "valor": 2,
+      "justificacion": "El autogobierno sobre el propio cuerpo, corolario de la propiedad de uno mismo en la que se basa toda la teoría de los derechos de Nozick, respalda la legalización regulada del cannabis para adultos.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Robert Nozick, Anarchy, State, and Utopia",
+        "url": "https://klinechair.missouri.edu/docs/nozick.pdf",
+        "fecha": "1974",
+        "consultado": "2026-07-10"
+      }
+    },
+    "lib-017": {
+      "valor": 2,
+      "justificacion": "El mismo principio de autopropiedad sostiene el derecho a decidir sobre el final de la propia vida, aunque el Estado mínimo no esté obligado a prestarlo como servicio público.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Robert Nozick, Anarchy, State, and Utopia",
+        "url": "https://klinechair.missouri.edu/docs/nozick.pdf",
+        "fecha": "1974",
+        "consultado": "2026-07-10"
+      }
+    },
+    "lib-012": {
+      "valor": 2,
+      "justificacion": "Un acuerdo altruista entre adultos capaces no viola los derechos de nadie: la teoría de las transferencias justas de Nozick no encuentra motivo legítimo para prohibirlo.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Robert Nozick, Anarchy, State, and Utopia",
+        "url": "https://klinechair.missouri.edu/docs/nozick.pdf",
+        "fecha": "1974",
+        "consultado": "2026-07-10"
+      }
+    },
+    "soc-001": {
+      "valor": 2,
+      "justificacion": "El marco de derechos individuales y autopropiedad de Nozick no admite que el Estado module los contratos privados de personas adultas que se casan por su libre voluntad.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Robert Nozick, Anarchy, State, and Utopia",
+        "url": "https://klinechair.missouri.edu/docs/nozick.pdf",
+        "fecha": "1974",
+        "consultado": "2026-07-10"
+      }
+    },
+    "lib-018": {
+      "valor": 1,
+      "justificacion": "El marco de Nozick no fija una doctrina migratoria propia, pero su respeto al contrato voluntario entre partes hace difícil objetar a un contrato de trabajo libremente aceptado por ampliar las vías legales de entrada.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Robert Nozick, Anarchy, State, and Utopia",
+        "url": "https://klinechair.missouri.edu/docs/nozick.pdf",
+        "fecha": "1974",
+        "consultado": "2026-07-10"
+      }
+    },
+    "soc-002": {
+      "valor": -1,
+      "justificacion": "Sin una violación de derechos de propiedad o contrato acreditada, el marco de Nozick no legitima automáticamente la devolución como respuesta prioritaria a la irregularidad administrativa.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Robert Nozick, Anarchy, State, and Utopia",
+        "url": "https://klinechair.missouri.edu/docs/nozick.pdf",
+        "fecha": "1974",
+        "consultado": "2026-07-10"
+      }
+    },
+    "dem-011": {
+      "valor": -1,
+      "justificacion": "A diferencia del anarcocapitalismo, Nozick no propone sustituir el sistema parlamentario por otro modelo, sino reducir mediante argumento filosófico y reforma política lo que ese mismo Estado hace, conservando su forma institucional.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Robert Nozick, Anarchy, State, and Utopia",
+        "url": "https://klinechair.missouri.edu/docs/nozick.pdf",
+        "fecha": "1974",
+        "consultado": "2026-07-10"
+      }
+    },
+    "dem-035": {
+      "valor": 2,
+      "justificacion": "La utopía nozickiana es un marco de comunidades voluntarias entre las que cualquiera puede moverse libremente para vivir según su propia visión del bien: un derecho de salida garantizado es central en ese diseño.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Robert Nozick, Anarchy, State, and Utopia, parte III",
+        "url": "https://klinechair.missouri.edu/docs/nozick.pdf",
+        "fecha": "1974",
+        "consultado": "2026-07-10"
+      }
+    },
+    "dem-034": {
+      "valor": 1,
+      "justificacion": "Un marco confederal de comunidades que delegan solo competencias limitadas se aproxima al «marco para utopías» nozickiano, aunque su argumento se formula sobre asociación voluntaria y no sobre Estados territoriales concretos.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Robert Nozick, Anarchy, State, and Utopia, parte III",
+        "url": "https://klinechair.missouri.edu/docs/nozick.pdf",
+        "fecha": "1974",
+        "consultado": "2026-07-10"
+      }
+    },
+    "ter-001": {
+      "valor": -1,
+      "justificacion": "Recentralizar competencias sin que medie consentimiento de las partes afectadas no encaja con el principio de asociación y salida voluntarias que vertebra el marco nozickiano.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Robert Nozick, Anarchy, State, and Utopia, parte III",
+        "url": "https://klinechair.missouri.edu/docs/nozick.pdf",
+        "fecha": "1974",
+        "consultado": "2026-07-10"
+      }
+    },
+    "ter-002": {
+      "valor": 1,
+      "justificacion": "El derecho a la salida voluntaria de una comunidad, central en el marco utópico de Nozick, apoya moderadamente que un territorio pueda decidir mediante consulta, aunque su teoría no trata directamente la secesión de Estados.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Robert Nozick, Anarchy, State, and Utopia, parte III",
+        "url": "https://klinechair.missouri.edu/docs/nozick.pdf",
+        "fecha": "1974",
+        "consultado": "2026-07-10"
+      }
+    }
+  }
+}

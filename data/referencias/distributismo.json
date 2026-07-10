@@ -1,0 +1,254 @@
+{
+  "id": "distributismo",
+  "nombre": "Distributismo",
+  "tipo": "referencia-doctrinal",
+  "definicion": "Tipo ideal de la tercera vía católica formulada por G. K. Chesterton y Hilaire Belloc: ni el capitalismo de propiedad concentrada ni el socialismo de propiedad estatal, sino la propiedad productiva —tierra, taller, pequeño comercio— distribuida lo más ampliamente posible entre familias y pequeños productores organizados en gremios, para evitar que la mayoría propietaria caiga en lo que Belloc llamó el «Estado servil».",
+  "variante": "Distributismo de Chesterton (The Outline of Sanity, 1926) y Belloc (The Servile State, 1912); comparte con la democracia cristiana la raíz en la doctrina social católica pero, a diferencia de ella, no acepta la gran empresa ni el Estado del bienestar como arreglo estable, sino que exige romper la concentración de la propiedad en unidades pequeñas",
+  "periodo": "1912 (The Servile State) – 1926 (The Outline of Sanity) – actualidad como tipo ideal",
+  "confianza": "verificada",
+  "version": "1.0",
+  "revisado": "2026-07-10",
+  "facetasDefinitorias": ["economico", "estatismo", "tradicion-moral", "laicismo"],
+  "sensibilidad": "normal",
+  "advertencia": "Es un tipo ideal doctrinal británico sin partido español que lo encarne hoy: no debe confundirse con la democracia cristiana, que acepta la gran empresa regulada y el Estado social como arreglo permanente, ni con el nacionalsindicalismo falangista, cuyo sindicato vertical bajo dirección estatal es precisamente el tipo de arreglo corporativista que Belloc denuncia como servil. Chesterton y Belloc no escriben sobre inmigración ni orden público modernos, por lo que esta referencia queda sin evidencia suficiente en el eje social (GAL-TAN) y no fuerza posiciones ahí; sí escriben extensamente, como católicos practicantes, sobre aborto y eutanasia, cuestiones que se codifican por esa vía.",
+  "fuentesMarco": [
+    {
+      "tipo": "otro",
+      "titulo": "Hilaire Belloc, The Servile State (1912), Project Gutenberg",
+      "url": "https://www.gutenberg.org/files/64882/64882-h/64882-h.htm",
+      "fecha": "1912",
+      "consultado": "2026-07-10"
+    },
+    {
+      "tipo": "otro",
+      "titulo": "G. K. Chesterton, The Outline of Sanity (1926/1927), Internet Archive",
+      "url": "https://archive.org/details/theoutlineofsanity",
+      "fecha": "1927",
+      "consultado": "2026-07-10"
+    }
+  ],
+  "reglaPublicacion": {
+    "minimoItems": 9,
+    "minimoCobertura": 0.5,
+    "umbralAfinidad": 78
+  },
+  "posiciones": {
+    "der-001": {
+      "valor": 0,
+      "justificacion": "El distributismo no es una doctrina de tamaño del Estado sino de tamaño de la propiedad: acepta intervención estatal para romper monopolios y concentraciones, pero rechaza tanto el Estado mínimo dogmático como el Estado extenso permanente.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Hilaire Belloc, The Servile State",
+        "url": "https://www.gutenberg.org/files/64882/64882-h/64882-h.htm",
+        "fecha": "1912",
+        "consultado": "2026-07-10"
+      }
+    },
+    "lab-017": {
+      "valor": 2,
+      "justificacion": "Transferir las grandes empresas privadas a cooperativas gestionadas por sus trabajadores, no a ministerios estatales, es precisamente la alternativa distributista tanto al capitalismo concentrado como al «Estado servil» socialista.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Hilaire Belloc, The Servile State",
+        "url": "https://www.gutenberg.org/files/64882/64882-h/64882-h.htm",
+        "fecha": "1912",
+        "consultado": "2026-07-10"
+      }
+    },
+    "lab-016": {
+      "valor": -2,
+      "justificacion": "La tesis central de Belloc es que el remedio estatal-socialista a la injusticia capitalista converge con el propio capitalismo en un «Estado servil»: dirigir empresas desde el Estado no es la alternativa distributista, es el otro cuerno del mismo problema.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Hilaire Belloc, The Servile State",
+        "url": "https://www.gutenberg.org/files/64882/64882-h/64882-h.htm",
+        "fecha": "1912",
+        "consultado": "2026-07-10"
+      }
+    },
+    "dr-014": {
+      "valor": -2,
+      "justificacion": "El mismo argumento de Belloc contra el «Estado servil» se aplica con más fuerza al sindicato único corporativo bajo dirección estatal: integra a trabajadores y empresarios en un cuerpo dirigido desde arriba en vez de distribuir la propiedad entre ellos.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Hilaire Belloc, The Servile State",
+        "url": "https://www.gutenberg.org/files/64882/64882-h/64882-h.htm",
+        "fecha": "1912",
+        "consultado": "2026-07-10"
+      }
+    },
+    "eco-014": {
+      "valor": 1,
+      "justificacion": "Un impuesto sobre las grandes fortunas es un instrumento compatible con el objetivo distributista de frenar la concentración de la propiedad, aunque su remedio preferido sea estructural —repartir la propiedad— antes que fiscal.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Hilaire Belloc, The Servile State",
+        "url": "https://www.gutenberg.org/files/64882/64882-h/64882-h.htm",
+        "fecha": "1912",
+        "consultado": "2026-07-10"
+      }
+    },
+    "eco-009": {
+      "valor": -1,
+      "justificacion": "Belloc advierte contra la tendencia de la propiedad a reconcentrarse en pocas manos con el paso de las generaciones: suprimir sin más el impuesto de sucesiones facilitaría exactamente esa reconcentración que el distributismo quiere impedir.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Hilaire Belloc, The Servile State",
+        "url": "https://www.gutenberg.org/files/64882/64882-h/64882-h.htm",
+        "fecha": "1912",
+        "consultado": "2026-07-10"
+      }
+    },
+    "eco-002": {
+      "valor": 1,
+      "justificacion": "El distributismo no se opone a la iniciativa privada como tal, sino a su concentración: la pequeña propiedad privada gestionada por su dueño es precisamente su ideal, frente a la gestión estatal o la gran corporación.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "G. K. Chesterton, The Outline of Sanity",
+        "url": "https://archive.org/details/theoutlineofsanity",
+        "fecha": "1927",
+        "consultado": "2026-07-10"
+      }
+    },
+    "lib-007": {
+      "valor": -1,
+      "justificacion": "Chesterton y Belloc defienden la organización gremial de los pequeños productores como cuerpo protector frente al gran capital, lo contrario de eliminar la colegiación obligatoria de las profesiones.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "G. K. Chesterton, The Outline of Sanity",
+        "url": "https://archive.org/details/theoutlineofsanity",
+        "fecha": "1927",
+        "consultado": "2026-07-10"
+      }
+    },
+    "lib-008": {
+      "valor": -1,
+      "justificacion": "La misma lógica gremial protege al pequeño operador independiente —el taxista propietario de su licencia— frente a una competencia sin límites que favorece al capital concentrado de las plataformas.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "G. K. Chesterton, The Outline of Sanity",
+        "url": "https://archive.org/details/theoutlineofsanity",
+        "fecha": "1927",
+        "consultado": "2026-07-10"
+      }
+    },
+    "der-004": {
+      "valor": 1,
+      "justificacion": "La preferencia distributista por la producción local en unidades pequeñas frente a la gran industria globalizada respalda cierto proteccionismo moderado de la producción y el empleo nacionales.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "G. K. Chesterton, The Outline of Sanity",
+        "url": "https://archive.org/details/theoutlineofsanity",
+        "fecha": "1927",
+        "consultado": "2026-07-10"
+      }
+    },
+    "der-022": {
+      "valor": 2,
+      "justificacion": "El agrarismo distributista —«tres acres y una vaca»— aspira a devolver a las familias la pequeña propiedad agrícola: ampliar regadíos e infraestructuras que sostienen la explotación familiar es coherente con ese ideal.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "G. K. Chesterton, The Outline of Sanity",
+        "url": "https://archive.org/details/theoutlineofsanity",
+        "fecha": "1927",
+        "consultado": "2026-07-10",
+        "cita": "Distributism may be a dream; three acres and a cow may be a joke; cows may be fabulous animals; liberty may be a name; private enterprise may be a wild goose chase on which the world can go no further."
+      }
+    },
+    "eco-006": {
+      "valor": -1,
+      "justificacion": "Un gran parque público de vivienda convierte al Estado en propietario único, lo contrario del ideal distributista de propiedad familiar difundida: preferirían fomentar el acceso a la propiedad antes que un arrendador estatal a gran escala.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Hilaire Belloc, The Servile State",
+        "url": "https://www.gutenberg.org/files/64882/64882-h/64882-h.htm",
+        "fecha": "1912",
+        "consultado": "2026-07-10"
+      }
+    },
+    "eco-005": {
+      "valor": 1,
+      "justificacion": "La simpatía distributista por el pequeño arrendatario frente a la propiedad concentrada del gran casero respalda con moderación limitar por ley los precios del alquiler en zonas tensionadas.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "G. K. Chesterton, The Outline of Sanity",
+        "url": "https://archive.org/details/theoutlineofsanity",
+        "fecha": "1927",
+        "consultado": "2026-07-10"
+      }
+    },
+    "der-007": {
+      "valor": 2,
+      "justificacion": "Chesterton y Belloc, católicos practicantes, defendieron la vida humana desde la concepción como parte del mismo humanismo cristiano que funda su crítica económica al capitalismo y al socialismo.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "G. K. Chesterton, The Outline of Sanity",
+        "url": "https://archive.org/details/theoutlineofsanity",
+        "fecha": "1927",
+        "consultado": "2026-07-10"
+      }
+    },
+    "der-008": {
+      "valor": 2,
+      "justificacion": "La misma raíz católica de su pensamiento sostiene el rechazo a reconocer la eutanasia como derecho legal.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "G. K. Chesterton, The Outline of Sanity",
+        "url": "https://archive.org/details/theoutlineofsanity",
+        "fecha": "1927",
+        "consultado": "2026-07-10"
+      }
+    },
+    "rel-003": {
+      "valor": -1,
+      "justificacion": "Aunque nostálgicos de una Europa cristiana integrada, ni Chesterton ni Belloc reclaman para las autoridades religiosas un veto jurídico formal sobre las leyes del Parlamento inglés en el que ambos escriben.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Hilaire Belloc, The Servile State",
+        "url": "https://www.gutenberg.org/files/64882/64882-h/64882-h.htm",
+        "fecha": "1912",
+        "consultado": "2026-07-10"
+      }
+    },
+    "lai-001": {
+      "valor": -1,
+      "justificacion": "Su humanismo católico defiende la formación religiosa como parte natural de la educación de las familias, frente a una escuela pública que la retire por completo del horario lectivo.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "G. K. Chesterton, The Outline of Sanity",
+        "url": "https://archive.org/details/theoutlineofsanity",
+        "fecha": "1927",
+        "consultado": "2026-07-10"
+      }
+    },
+    "ter-001": {
+      "valor": -1,
+      "justificacion": "El principio distributista de que lo pequeño y lo local son preferibles a lo grande y lo centralizado, aplicado a la política además de a la economía, se opone a recentralizar competencias en el Estado central.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "G. K. Chesterton, The Outline of Sanity",
+        "url": "https://archive.org/details/theoutlineofsanity",
+        "fecha": "1927",
+        "consultado": "2026-07-10"
+      }
+    }
+  }
+}
