@@ -447,6 +447,41 @@ if (errores.length > 0) {
   console.error(`✗ ${errores.length} error(es) de validación:\n${errores.join('\n')}`);
   process.exit(1);
 }
+
+// Aviso (no bloquea): sesgo de evidencia-bandera en los ejes del mapa.
+// Un PARTIDO cuya proyección cae pegada a una esquina con pocas posiciones
+// suele reflejar que solo se codificaron sus posturas características (todas
+// ±2 en su dirección), no una posición real tan extrema. Las referencias
+// doctrinales quedan fuera: un tipo ideal puede vivir legítimamente en el polo.
+const EJES_MAPA = ['economico', 'social', 'territorial'];
+const avisosSesgo = [];
+for (const p of partidos) {
+  if (p.demo) continue;
+  for (const eje of EJES_MAPA) {
+    let num = 0, den = 0, n = 0, extremas = 0;
+    for (const [itemId, pos] of Object.entries(p.posiciones ?? {})) {
+      const carga = itemsPorId.get(itemId)?.ejes?.find((c) => c.eje === eje)?.carga;
+      if (typeof carga !== 'number' || itemsPorId.get(itemId)?.estado === 'retirado') continue;
+      num += pos.valor * carga;
+      den += 2 * Math.abs(carga);
+      n += 1;
+      if (Math.abs(pos.valor) === 2) extremas += 1;
+    }
+    if (n >= 4 && den > 0) {
+      const valor = Math.round((100 * num) / den);
+      if (Math.abs(valor) >= 85 && extremas === n) {
+        avisosSesgo.push(
+          `- ${p.id} (${eje}): ${valor} con ${n} posiciones, todas ±2 — ¿evidencia limitada a posiciones-bandera o extremo real? Buscar posiciones moderadoras documentables.`,
+        );
+      }
+    }
+  }
+}
+if (avisosSesgo.length > 0) {
+  console.warn(
+    `⚠ ${avisosSesgo.length} aviso(s) de posible sesgo de evidencia-bandera (no bloquean):\n${avisosSesgo.join('\n')}`,
+  );
+}
 const itemsVigentes = [...itemsPorId.values()].filter((item) => item.estado !== 'retirado');
 const nSeguimientos = itemsVigentes.filter((item) => item.condicion).length;
 const nCartografia = itemsVigentes.filter((item) => item.uso === 'solo-mapa').length;
