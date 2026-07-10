@@ -156,6 +156,9 @@ export interface Sindicato extends PerfilAfinidad {
   revisado: string;
   /** Nota visible: similitud doctrinal no implica presencia en el centro ni recomendación de afiliación. */
   advertencia?: string;
+  /** Dos capas de etiquetas, mismas reglas que en Partido: la voz propia no clasifica. */
+  autodescripcion?: { texto: string; fuente: FuenteCita };
+  clasificacion?: Array<{ etiqueta: string; explicacion: string; fuente: FuenteCita }>;
 }
 
 /** Tipo ideal doctrinal para comparar el perfil personal; nunca es candidatura. */
