@@ -8,6 +8,18 @@
   "web": "https://www.voxespana.es/",
   "revisado": "2026-07-10",
   "actividad": "activa",
+  "clasificacion": [
+    {
+      "etiqueta": "derecha radical",
+      "explicacion": "Clasificación académica (marco de Cas Mudde) para los partidos que combinan nativismo, autoritarismo y populismo pero aceptan la esencia de la democracia electoral; se distingue de la extrema derecha antidemocrática precisamente por esa aceptación del marco democrático. El estudio de la RECP aplica el criterio a la ideología de VOX.",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Vox como representante de la derecha radical en España: un estudio sobre su ideología (Revista Española de Ciencia Política, n.º 51, pp. 73-98)",
+        "url": "https://recyt.fecyt.es/index.php/recp/article/view/72190",
+        "fecha": "2019-11"
+      }
+    }
+  ],
   "dobleLectura": {
     "etiquetaBase": "Programa y posición oficial",
     "descripcionBase": "Programa general de 2023, programa europeo de 2024 y declaraciones oficiales identificadas por fecha.",

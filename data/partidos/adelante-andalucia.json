@@ -9,6 +9,14 @@
   "web": "https://adelanteandalucia.org/",
   "revisado": "2026-07-10",
   "actividad": "activa",
+  "autodescripcion": {
+    "texto": "Se define como organización andalucista, anticapitalista, feminista y ecosocialista: un proyecto por la dignidad y la libertad de Andalucía, heredero de la tercera ola del andalucismo, que aspira a una Andalucía libre y soberana dentro de una España plurinacional y confederal.",
+    "fuente": {
+      "tipo": "otro",
+      "titulo": "Quiénes somos (Adelante Andalucía, web oficial)",
+      "url": "https://adelanteandalucia.org/quienes-somos/"
+    }
+  },
   "posiciones": {
     "and-001": {
       "valor": 2,

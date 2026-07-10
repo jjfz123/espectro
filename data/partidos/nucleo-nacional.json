@@ -8,6 +8,27 @@
   "registroMir": "Inscrito como «Noviembre Nacional» el 10 de febrero de 2026, por silencio administrativo positivo; sede en Valladolid",
   "revisado": "2026-07-10",
   "actividad": "activa",
+  "autodescripcion": {
+    "texto": "Se define por el nacionalismo identitario y declara como bases la defensa y promoción de la natalidad, la familia tradicional y la protección de la raza y la cultura; se manifiesta cristiano, contrario a la teoría queer y al laicismo, y crítico frontal del sistema político actual, al que denomina régimen del 78.",
+    "fuente": {
+      "tipo": "declaracion",
+      "titulo": "Iván Rico lanza el partido Noviembre Nacional (El Español, citando la web y las bases ideológicas del partido)",
+      "url": "https://www.elespanol.com/reportajes/20260707/ivan-rico-administrativo-ultra-hijo-exconcejal-pp-quita-mascara-lanzar-partido-noviembre-nacional/1003744311510_0.html",
+      "fecha": "2026-07-07"
+    }
+  },
+  "clasificacion": [
+    {
+      "etiqueta": "neonazismo",
+      "explicacion": "Etiqueta con la que la prensa de referencia describe al movimiento por su nacionalismo de base racial (protección de «la raza», rechazo del mestizaje y del «reemplazo»), su promoción de la remigración y sus referencias simbólicas al nacionalsocialismo documentadas en sus actos y locales. El partido no usa esta etiqueta para sí: se define nacionalista identitario y tradicional.",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Núcleo Nacional, el nuevo rostro de neonazis y fascistas en España (El Independiente)",
+        "url": "https://www.elindependiente.com/espana/2025/09/06/nucleo-nacional-el-nuevo-rostro-de-neonazis-y-fascistas-en-espana/",
+        "fecha": "2025-09-06"
+      }
+    }
+  ],
   "posiciones": {
     "dr-003": {
       "valor": 2,
