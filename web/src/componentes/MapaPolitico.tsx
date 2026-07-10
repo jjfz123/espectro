@@ -7,6 +7,7 @@ import { AyudaEjes } from './AyudaEjes';
 import { LecturaEjes } from './LecturaEjes';
 import {
   EJES_MAPA,
+  ENTIDADES_CUBO,
   ENTIDADES_MAPA,
   EXCLUIDAS_MAPA,
   NOMBRE_CORTO_EJE,
@@ -849,8 +850,10 @@ export function MapaPolitico({ facetasUsuario }: Props) {
           En el plano: {usuarioEnPlano ? 'tu posición, ' : ''}
           {partidosDentro} de {TOTAL_PARTIDOS_CATALOGO} partidos y {referenciasDentro} de{' '}
           {TOTAL_REFERENCIAS_CATALOGO} referencias doctrinales del catálogo.{' '}
+          Cada entidad aparece solo en los planos donde su evidencia alcanza el umbral (al
+          menos 4 posiciones documentadas con carga en cada eje del par).{' '}
           {partidosFuera + referenciasFuera > 0
-            ? `Quedan fuera ${partidosFuera} partidos y ${referenciasFuera} referencias porque su evidencia documentada no alcanza el mínimo en los tres ejes (al menos 4 posiciones documentadas con carga por eje): antes que estimar su posición, no se dibuja.`
+            ? `Quedan fuera de todos los planos ${partidosFuera} partidos y ${referenciasFuera} referencias: antes que estimar su posición, no se dibuja.`
             : ''}
         </p>
         {EXCLUIDAS_MAPA.length > 0 ? (
@@ -895,7 +898,7 @@ export function MapaPolitico({ facetasUsuario }: Props) {
             ejes={EJES_MAPA}
             valoresUsuario={valoresUsuario}
             usuarioProvisional={usuarioProvisional}
-            entidades={ENTIDADES_MAPA}
+            entidades={ENTIDADES_CUBO}
           />
         </Suspense>
       ) : null}

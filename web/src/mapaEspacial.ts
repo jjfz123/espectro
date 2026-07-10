@@ -4,10 +4,15 @@
  *
  * Las entidades se miden con el MISMO instrumento que el usuario: sus
  * posiciones documentadas ({itemId: {valor}}) se convierten a Respuesta[] y
- * pasan por calcularFacetas contra el banco completo de ítems. Una entidad
- * solo se dibuja si sus tres facetas superan el mínimo de evidencia del motor
- * (≥3 ítems con opinión y ≥50 % de la carga disponible del eje); si no,
- * queda fuera y se explica por qué. Nunca se inventan posiciones.
+ * pasan por calcularFacetas contra el banco completo de ítems.
+ *
+ * Inclusión POR PLANO: una entidad se dibuja en cada plano cuyo par de ejes
+ * tenga evidencia suficiente (umbral de entidades del motor). Una referencia
+ * honesta cuyos textos no hablan del eje territorial (Bad Godesberg) aparece
+ * en Economía × Sociedad y no en los pares territoriales; el cubo 3D exige
+ * los tres ejes. Con menos de dos ejes suficientes no hay plano posible y la
+ * entidad queda fuera, con su evidencia explicada. Nunca se inventan
+ * posiciones.
  *
  * Vive junto a datosResultados.ts: solo lo descarga el chunk de resultados.
  */
@@ -27,6 +32,8 @@ export interface EntidadMapa {
   tipo: TipoEntidadMapa;
   /** Posición por eje en [-100, 100], solo ejes con evidencia suficiente. */
   valores: Record<string, number>;
+  /** Ids de los ejes cuya evidencia supera el umbral de entidades. */
+  ejesSuficientes: string[];
   /** Evidencia por eje para tooltips y auditoría. */
   facetas: ResultadoFaceta[];
 }
@@ -61,21 +68,24 @@ function clasificar(
 ): void {
   for (const perfil of perfiles) {
     const proyeccion = proyectarEnEspacio(perfil, ITEMS, EJES_MAPA);
-    if (proyeccion.incluida) {
+    const insuficientes = new Set(proyeccion.ejesInsuficientes);
+    const suficientes = proyeccion.facetas.filter(
+      (faceta) => !insuficientes.has(faceta.facetaId) && typeof faceta.valor === 'number',
+    );
+    // Con dos ejes suficientes ya existe al menos un plano donde dibujarla.
+    if (suficientes.length >= 2) {
       const valores: Record<string, number> = {};
-      for (const faceta of proyeccion.facetas) {
-        if (typeof faceta.valor === 'number') valores[faceta.facetaId] = faceta.valor;
-      }
+      for (const faceta of suficientes) valores[faceta.facetaId] = faceta.valor as number;
       dentro.push({
         id: perfil.id,
         nombre: nombrePerfil(perfil),
         etiqueta: perfil.siglas ?? perfil.nombre,
         tipo,
         valores,
+        ejesSuficientes: suficientes.map((faceta) => faceta.facetaId),
         facetas: proyeccion.facetas,
       });
     } else {
-      const insuficientes = new Set(proyeccion.ejesInsuficientes);
       fuera.push({
         id: perfil.id,
         nombre: nombrePerfil(perfil),
@@ -93,10 +103,15 @@ const fuera: EntidadExcluida[] = [];
 clasificar(PARTIDOS, 'partido', dentro, fuera);
 clasificar(REFERENCIAS, 'referencia', dentro, fuera);
 
-/** Entidades con evidencia suficiente en los tres ejes: las únicas dibujables. */
+/** Entidades dibujables en al menos un plano (≥2 ejes con evidencia). */
 export const ENTIDADES_MAPA: EntidadMapa[] = dentro;
 
-/** Entidades fuera del mapa, con el detalle de la evidencia que les falta. */
+/** Entidades con los tres ejes suficientes: las únicas que entran al cubo 3D. */
+export const ENTIDADES_CUBO: EntidadMapa[] = dentro.filter(
+  (entidad) => entidad.ejesSuficientes.length === EJES_MAPA.length,
+);
+
+/** Entidades fuera de todo plano, con el detalle de la evidencia que les falta. */
 export const EXCLUIDAS_MAPA: EntidadExcluida[] = fuera;
 
 export const TOTAL_PARTIDOS_CATALOGO = PARTIDOS.length;
