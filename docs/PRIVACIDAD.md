@@ -25,3 +25,9 @@ Cualquier funcionalidad futura que implique persistir respuestas identificables 
 ## 4. Qué comunicar al usuario
 
 En la primera pantalla, en lenguaje claro: qué se calcula, dónde (su navegador), qué no se envía (sus respuestas), qué es opt-in (telemetría agregada), y el enlace a este documento y al código. La confianza es una característica del producto.
+
+## 5. Publicidad
+
+Si algún día se muestra publicidad, será **autoservida y estática**: contenido aprobado editorialmente, incluido en el propio build y renderizado como texto plano (componente `web/src/componentes/EspacioPatrocinado.tsx`, con `activo: false` por defecto), siempre rotulado «Espacio patrocinado». Sin scripts de terceros, sin cookies, sin píxeles y sin ninguna petición de red.
+
+Queda prohibido cualquier tercero con tracking. La razón es la misma que estructura todo el proyecto: las respuestas revelan la ideología del usuario (art. 9 RGPD) y un script de terceros ejecutándose en la página podría observar la sesión completa —respuestas, resultados, almacenamiento local—, lo que comprometería el diseño 100 % client-side por mucho que el cálculo siga ocurriendo en el navegador. La publicidad tampoco participa en el cálculo ni condiciona el orden o el contenido de los resultados.

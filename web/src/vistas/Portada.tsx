@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import type { TipoEleccion } from '@engine';
+import { EspacioPatrocinado } from '../componentes/EspacioPatrocinado';
 import {
   COMUNIDADES,
   EJES,
@@ -214,6 +215,8 @@ export function Portada({ estado, despachar, alAbrirMetodologia }: Props) {
           </p>
         </div>
       </section>
+
+      <EspacioPatrocinado />
     </div>
   );
 }

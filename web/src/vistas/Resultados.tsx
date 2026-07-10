@@ -11,6 +11,8 @@ import {
 import { CatalogoCandidaturas } from '../componentes/CatalogoCandidaturas';
 import { DetalleAfinidad } from '../componentes/DetallePartido';
 import type { LecturaContraste } from '../componentes/DetallePartido';
+import { EspacioPatrocinado } from '../componentes/EspacioPatrocinado';
+import { MapaPolitico } from '../componentes/MapaPolitico';
 import { PerfilFacetas } from '../componentes/PerfilFacetas';
 import { ReferenciasDoctrinales } from '../componentes/ReferenciasDoctrinales';
 import { Ranking } from '../componentes/Ranking';
@@ -221,6 +223,11 @@ export function Resultados({ estado, despachar }: Props) {
           opinión calculable; «provisional», que aún faltan preguntas o cobertura.
         </p>
         <PerfilFacetas ejes={EJES} facetas={facetasUsuario} />
+      </section>
+
+      <section className="seccion" aria-labelledby="mapa-espectro-titulo">
+        <h2 id="mapa-espectro-titulo">Mapa del espectro</h2>
+        <MapaPolitico facetasUsuario={facetasUsuario} />
       </section>
 
       <ReferenciasDoctrinales
@@ -468,6 +475,8 @@ export function Resultados({ estado, despachar }: Props) {
           Empezar de nuevo
         </button>
       </div>
+
+      <EspacioPatrocinado />
     </div>
   );
 }
