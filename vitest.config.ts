@@ -10,5 +10,7 @@ export default defineConfig({
   },
   test: {
     environment: 'node',
+    // Los E2E de Playwright (web/e2e) tienen su propio runner: npx playwright test.
+    exclude: ['**/node_modules/**', 'web/e2e/**'],
   },
 });

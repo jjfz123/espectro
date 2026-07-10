@@ -1,0 +1,201 @@
+{
+  "id": "nucleo-nacional",
+  "nombre": "Noviembre Nacional",
+  "siglas": "NN",
+  "ambito": "estatal",
+  "tipo": "partido",
+  "confianza": "estimada",
+  "registroMir": "Inscrito como «Noviembre Nacional» el 10 de febrero de 2026, por silencio administrativo positivo; sede en Valladolid",
+  "revisado": "2026-07-10",
+  "actividad": "activa",
+  "posiciones": {
+    "dr-003": {
+      "valor": 2,
+      "justificacion": "Promueve la «remigración» de inmigrantes —el retorno también de quienes tienen situación regular— y declara que combatirá lo que denomina reemplazo de su pueblo en su propia tierra.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "El grupo Núcleo Nacional presenta un partido pero no irá a las elecciones generales (The Objective)",
+        "url": "https://theobjective.com/espana/politica/2026-07-07/grupo-neonazi-nucleo-nacional-partido-elecciones-generales/",
+        "fecha": "2026-07-07",
+        "consultado": "2026-07-10"
+      }
+    },
+    "soc-002": {
+      "valor": 2,
+      "justificacion": "Si defiende la remigración incluso de residentes regulares, con mayor razón sostiene la devolución como respuesta prioritaria a la inmigración irregular; su discurso público sitúa la salida de inmigrantes en el centro de su proyecto.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "El grupo Núcleo Nacional presenta un partido pero no irá a las elecciones generales (The Objective)",
+        "url": "https://theobjective.com/espana/politica/2026-07-07/grupo-neonazi-nucleo-nacional-partido-elecciones-generales/",
+        "fecha": "2026-07-07",
+        "consultado": "2026-07-10"
+      }
+    },
+    "soc-004": {
+      "valor": -2,
+      "justificacion": "Una regularización extraordinaria es la política opuesta a la remigración que promueve; su oposición frontal a las políticas migratorias vigentes está en la base declarada del partido.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "El ala radical de la ultraderecha salta a la arena institucional con el registro del partido Noviembre Nacional (Ahora León)",
+        "url": "https://ahoraleon.com/el-ala-radical-de-la-ultraderecha-salta-a-la-arena-institucional-con-el-registro-del-partido-noviembre-nacional/",
+        "fecha": "2026",
+        "consultado": "2026-07-10"
+      }
+    },
+    "soc-005": {
+      "valor": -2,
+      "justificacion": "Rechaza el marco de la inmigración como necesidad económica: su ideario presenta la llegada de inmigrantes como amenaza de sustitución demográfica y cultural, no como aportación al futuro del país.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Núcleo Nacional — Wikipedia (postulados y bases ideológicas declarados)",
+        "url": "https://es.wikipedia.org/wiki/N%C3%BAcleo_Nacional",
+        "consultado": "2026-07-10"
+      }
+    },
+    "fem-001": {
+      "valor": -2,
+      "justificacion": "Su ideario se declara contrario a la teoría queer y sostiene que hombres y mujeres están biológicamente diferenciados con roles distintos en la familia; el cambio registral de sexo por sola voluntad es incompatible con esa base doctrinal.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Iván Rico se quita la máscara para lanzar el partido Noviembre Nacional (El Español, citando la web del partido)",
+        "url": "https://www.elespanol.com/reportajes/20260707/ivan-rico-administrativo-ultra-hijo-exconcejal-pp-quita-mascara-lanzar-partido-noviembre-nacional/1003744311510_0.html",
+        "fecha": "2026-07-07",
+        "consultado": "2026-07-10"
+      }
+    },
+    "der-003": {
+      "valor": -2,
+      "justificacion": "Su programa fundacional declara el combate contra lo que llama degeneraciones y rechaza la teoría queer; es la posición opuesta a que una derecha moderna asuma la defensa de los derechos LGTB.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Los ultras de Núcleo Nacional presentan un partido para luchar «contra las degeneraciones» y defender a Dios (elDiario.es)",
+        "url": "https://www.eldiario.es/politica/ultima-hora-actualidad-politica-directo_6_13358344_1123925.html",
+        "fecha": "2026-07-07",
+        "consultado": "2026-07-10"
+      }
+    },
+    "der-002": {
+      "valor": 1,
+      "justificacion": "Se declara defensor del cristianismo y de la vida religiosa, rechaza el ateísmo por relativismo moral y el laicismo como principio; la fuente no formula literalmente que las leyes deban reflejar la moral cristiana, de ahí el valor moderado.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Iván Rico se quita la máscara para lanzar el partido Noviembre Nacional (El Español, citando la web del partido)",
+        "url": "https://www.elespanol.com/reportajes/20260707/ivan-rico-administrativo-ultra-hijo-exconcejal-pp-quita-mascara-lanzar-partido-noviembre-nacional/1003744311510_0.html",
+        "fecha": "2026-07-07",
+        "consultado": "2026-07-10"
+      }
+    },
+    "rel-001": {
+      "valor": -2,
+      "justificacion": "Se opone expresamente al ateísmo, al que atribuye una moral relativista, y defiende la vida religiosa: rechaza de plano que el Estado promueva el ateísmo o excluya a las organizaciones religiosas.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Iván Rico se quita la máscara para lanzar el partido Noviembre Nacional (El Español, citando la web del partido)",
+        "url": "https://www.elespanol.com/reportajes/20260707/ivan-rico-administrativo-ultra-hijo-exconcejal-pp-quita-mascara-lanzar-partido-noviembre-nacional/1003744311510_0.html",
+        "fecha": "2026-07-07",
+        "consultado": "2026-07-10"
+      }
+    },
+    "rel-002": {
+      "valor": -1,
+      "justificacion": "Rechaza el laicismo y condiciona su respeto a la libertad de culto a que no contradiga los intereses de España: no asume la aconfesionalidad con expresión libre de todas las confesiones dentro de la ley que plantea el ítem.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Iván Rico se quita la máscara para lanzar el partido Noviembre Nacional (El Español, citando la web del partido)",
+        "url": "https://www.elespanol.com/reportajes/20260707/ivan-rico-administrativo-ultra-hijo-exconcejal-pp-quita-mascara-lanzar-partido-noviembre-nacional/1003744311510_0.html",
+        "fecha": "2026-07-07",
+        "consultado": "2026-07-10"
+      }
+    },
+    "dr-002": {
+      "valor": 1,
+      "justificacion": "Su propuesta económica declarada prioriza el emprendimiento nacional y la mejora de las condiciones laborales de los trabajadores españoles; la fuente no concreta una obligación legal de preferencia en la contratación, por eso no alcanza el máximo.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Iván Rico se quita la máscara para lanzar el partido Noviembre Nacional (El Español, citando la web del partido)",
+        "url": "https://www.elespanol.com/reportajes/20260707/ivan-rico-administrativo-ultra-hijo-exconcejal-pp-quita-mascara-lanzar-partido-noviembre-nacional/1003744311510_0.html",
+        "fecha": "2026-07-07",
+        "consultado": "2026-07-10"
+      }
+    },
+    "dr-014": {
+      "valor": 1,
+      "justificacion": "Propone un sistema que describe como comunitarista, con integración de los sectores productivos y primacía del interés nacional; apunta a la organización conjunta de trabajadores y empresarios por sector, aunque la fuente no detalla la dirección estatal que formula el ítem.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Iván Rico se quita la máscara para lanzar el partido Noviembre Nacional (El Español, citando la web del partido)",
+        "url": "https://www.elespanol.com/reportajes/20260707/ivan-rico-administrativo-ultra-hijo-exconcejal-pp-quita-mascara-lanzar-partido-noviembre-nacional/1003744311510_0.html",
+        "fecha": "2026-07-07",
+        "consultado": "2026-07-10"
+      }
+    },
+    "ter-002": {
+      "valor": -2,
+      "justificacion": "Mantiene una posición declarada firme contra el separatismo y nació como movimiento en las protestas contra la amnistía al independentismo catalán; un referéndum de autodeterminación es incompatible con su nacionalismo identitario español.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Núcleo Nacional — Wikipedia (origen en las protestas de Ferraz y postulados declarados)",
+        "url": "https://es.wikipedia.org/wiki/N%C3%BAcleo_Nacional",
+        "consultado": "2026-07-10"
+      }
+    },
+    "cat-003": {
+      "valor": -2,
+      "justificacion": "El movimiento del que nace el partido se constituyó en las protestas de Ferraz de noviembre de 2023 contra la ley de amnistía del procés, y de ahí toma su nombre: su identidad fundacional es el rechazo de la amnistía como salida al conflicto.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Núcleo Nacional — Wikipedia (origen en las protestas de Ferraz contra la amnistía)",
+        "url": "https://es.wikipedia.org/wiki/N%C3%BAcleo_Nacional",
+        "consultado": "2026-07-10"
+      }
+    },
+    "der-005": {
+      "valor": 1,
+      "justificacion": "Su nacionalismo identitario y su oposición frontal al separatismo sitúan la unidad nacional como valor central; la fuente no se pronuncia sobre reivindicaciones autonómicas ordinarias, de ahí el valor moderado.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Núcleo Nacional — Wikipedia (postulados y bases ideológicas declarados)",
+        "url": "https://es.wikipedia.org/wiki/N%C3%BAcleo_Nacional",
+        "consultado": "2026-07-10"
+      }
+    },
+    "ue-001": {
+      "valor": 1,
+      "justificacion": "Su ideario declara una postura firme contra la influencia de los organismos internacionales y defiende la soberanía y la identidad nacional; la fuente no concreta una posición articulada sobre la UE ni propone la salida, por eso el valor moderado.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Iván Rico se quita la máscara para lanzar el partido Noviembre Nacional (El Español, citando la web del partido)",
+        "url": "https://www.elespanol.com/reportajes/20260707/ivan-rico-administrativo-ultra-hijo-exconcejal-pp-quita-mascara-lanzar-partido-noviembre-nacional/1003744311510_0.html",
+        "fecha": "2026-07-07",
+        "consultado": "2026-07-10"
+      }
+    },
+    "pop-003": {
+      "valor": 2,
+      "justificacion": "Su crítica declarada es frontal al conjunto del sistema político, al que su portavoz se refiere como el régimen del 78 cuyas herramientas dice que usará para luchar por sus ideas; no distingue entre los dos grandes partidos como alternativas reales.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "El grupo Núcleo Nacional presenta un partido pero no irá a las elecciones generales (The Objective)",
+        "url": "https://theobjective.com/espana/politica/2026-07-07/grupo-neonazi-nucleo-nacional-partido-elecciones-generales/",
+        "fecha": "2026-07-07",
+        "consultado": "2026-07-10"
+      }
+    }
+  }
+}

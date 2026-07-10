@@ -1,0 +1,399 @@
+{
+  "id": "frente-obrero",
+  "nombre": "Frente Obrero",
+  "siglas": "FO",
+  "ambito": "estatal",
+  "tipo": "partido",
+  "confianza": "verificada",
+  "web": "https://frenteobrero.es/",
+  "revisado": "2026-07-10",
+  "actividad": "activa",
+  "autodescripcion": {
+    "texto": "Se define como movimiento político socialista, patriota y de carácter revolucionario que lucha por ser la voz de los trabajadores en España, con la misión declarada de reconstruir el movimiento obrero, recuperar la soberanía nacional española y construir la República Popular y Federal.",
+    "fuente": {
+      "tipo": "otro",
+      "titulo": "Recuperemos España — Frente Obrero (web oficial y declaración de misión)",
+      "url": "https://frenteobrero.es/"
+    }
+  },
+  "clasificacion": [
+    {
+      "etiqueta": "rojipardismo / nacionalbolchevismo",
+      "explicacion": "Expresión con la que prensa y análisis politológico describen los proyectos que combinan un programa económico de izquierda radical (nacionalizaciones, obrerismo, salida de la UE) con posiciones nacionales y culturales conservadoras (control migratorio, rechazo del feminismo y de la agenda LGTB, reivindicación de la bandera y la nación). El partido rechaza la etiqueta y se define socialista y patriota.",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Una historia exprés del rojipardismo (El Salto)",
+        "url": "https://www.elsaltodiario.com/historia/una-historia-expres-del-rojipardismo"
+      }
+    }
+  ],
+  "posiciones": {
+    "mon-001": {
+      "valor": 2,
+      "justificacion": "Se define como organización republicana: defiende derrocar la monarquía y construir una república popular y federal, con jefatura del Estado no hereditaria.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Roberto Vaquero: «Frente Obrero estará en las próximas elecciones» (El Plural)",
+        "url": "https://www.elplural.com/politica/roberto-vaquero-frente-obrero-estara-en-proximas-elecciones_276332102",
+        "consultado": "2026-07-10"
+      }
+    },
+    "dem-033": {
+      "valor": 1,
+      "justificacion": "Su misión declarada es reconstruir el movimiento obrero, recuperar la soberanía nacional española y construir la «República Popular y Federal»: asume la forma federal, aunque subordinada a la soberanía nacional única y sin el desarrollo competencial garantista que formula el ítem.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Frente Obrero (España) — Wikipedia, citando la declaración de misión de la organización",
+        "url": "https://es.wikipedia.org/wiki/Frente_Obrero_(Espa%C3%B1a)",
+        "consultado": "2026-07-10"
+      }
+    },
+    "def-002": {
+      "valor": 2,
+      "justificacion": "La salida de la OTAN figura entre sus propuestas estrella, junto a la salida de la Unión Europea y el control de fronteras.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "El Frente Obrero afronta su 2º Congreso con vistas a las europeas (El Enclave)",
+        "url": "https://elenclave.es/frente-obrero-2o-congreso-con-vistas-europeas/",
+        "fecha": "2024",
+        "consultado": "2026-07-10",
+        "cita": "Como propuestas estrellas el Frente apostará por la salida de Unión Europea, de la OTAN, el control de nuestras fronteras y la recuperación de la soberanía nacional."
+      }
+    },
+    "izq-011": {
+      "valor": 2,
+      "justificacion": "Propone la salida de España de la Unión Europea y del euro para recuperar la soberanía económica, monetaria y energética: exactamente la ruptura con el marco económico europeo que plantea el ítem.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "El Frente Obrero afronta su 2º Congreso con vistas a las europeas (El Enclave)",
+        "url": "https://elenclave.es/frente-obrero-2o-congreso-con-vistas-europeas/",
+        "fecha": "2024",
+        "consultado": "2026-07-10",
+        "cita": "Como propuestas estrellas el Frente apostará por la salida de Unión Europea, de la OTAN, el control de nuestras fronteras y la recuperación de la soberanía nacional."
+      }
+    },
+    "ue-001": {
+      "valor": 2,
+      "justificacion": "Va más allá de recuperar soberanía frente a Bruselas: su propuesta es directamente abandonar la Unión Europea y el euro.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "El Frente Obrero afronta su 2º Congreso con vistas a las europeas (El Enclave)",
+        "url": "https://elenclave.es/frente-obrero-2o-congreso-con-vistas-europeas/",
+        "fecha": "2024",
+        "consultado": "2026-07-10"
+      }
+    },
+    "eco-003": {
+      "valor": 2,
+      "justificacion": "La subida del salario mínimo figura en su programa sin condicionarla a efectos sobre el empleo.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Frente Obrero (España) — Wikipedia, resumen del programa «Recuperar España»",
+        "url": "https://es.wikipedia.org/wiki/Frente_Obrero_(Espa%C3%B1a)",
+        "consultado": "2026-07-10",
+        "cita": "defienden la soberanía nacional, la Hispanidad, la educación universitaria gratuita, la nacionalización de los sectores estratégicos, la soberanía energética, la energía nuclear, la subida del salario mínimo, el sector rural, las ayudas a la natalidad, la vivienda pública, a los autónomos, controlar los precios del alquiler y limitar la inmigración"
+      }
+    },
+    "eco-005": {
+      "valor": 2,
+      "justificacion": "Su programa incluye controlar los precios del alquiler.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Frente Obrero (España) — Wikipedia, resumen del programa «Recuperar España»",
+        "url": "https://es.wikipedia.org/wiki/Frente_Obrero_(Espa%C3%B1a)",
+        "consultado": "2026-07-10"
+      }
+    },
+    "eco-006": {
+      "valor": 1,
+      "justificacion": "Defiende la vivienda pública en su programa; la fuente no detalla la escala del parque ni el compromiso con el aumento de gasto que formula el ítem, de ahí el valor moderado.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Frente Obrero (España) — Wikipedia, resumen del programa «Recuperar España»",
+        "url": "https://es.wikipedia.org/wiki/Frente_Obrero_(Espa%C3%B1a)",
+        "consultado": "2026-07-10"
+      }
+    },
+    "lab-016": {
+      "valor": 2,
+      "justificacion": "Reivindica la nacionalización de los sectores estratégicos del país para ponerlos al servicio del pueblo, con la sanidad como ejemplo: dirección estatal de las empresas estratégicas con independencia de su rentabilidad privada.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "redes",
+        "titulo": "Publicación de Frente Obrero España en X sobre la nacionalización de los sectores estratégicos",
+        "url": "https://x.com/frenteobreroesp/status/1364884170506436610",
+        "fecha": "2021-02",
+        "consultado": "2026-07-10",
+        "cita": "Desde el Frente Obrero tenemos claro cuál es la solución. Nacionalización de los sectores estratégicos del país para ponerlos al servicio del pueblo"
+      }
+    },
+    "ene-007": {
+      "valor": 1,
+      "justificacion": "Su soberanía energética y la nacionalización de los sectores estratégicos implican como mínimo una presencia empresarial pública en generación y comercialización; la fuente no formula literalmente una empresa pública que compita con las privadas, por eso el valor moderado.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Frente Obrero (España) — Wikipedia, resumen del programa «Recuperar España»",
+        "url": "https://es.wikipedia.org/wiki/Frente_Obrero_(Espa%C3%B1a)",
+        "consultado": "2026-07-10"
+      }
+    },
+    "ene-001": {
+      "valor": 1,
+      "justificacion": "Su programa defiende la energía nuclear dentro de la soberanía energética; la fuente no concreta la autorización de nuevas centrales, de ahí el apoyo sin el máximo.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Frente Obrero (España) — Wikipedia, resumen del programa «Recuperar España»",
+        "url": "https://es.wikipedia.org/wiki/Frente_Obrero_(Espa%C3%B1a)",
+        "consultado": "2026-07-10"
+      }
+    },
+    "izq-013": {
+      "valor": 2,
+      "justificacion": "Su programa propone limitar la inmigración y su presidente ha defendido por escrito el control de fronteras y una inmigración ordenada subordinada a la capacidad de absorción del país, argumentando que las fronteras abiertas producen marginalidad y explotación laboral.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "En respuesta al trotskismo: inmigración y fronteras abiertas (robertovaquero.es)",
+        "url": "https://robertovaquero.es/archivos/292",
+        "consultado": "2026-07-10"
+      }
+    },
+    "izq-046": {
+      "valor": -2,
+      "justificacion": "Su presidente rechaza expresamente las «fronteras abiertas» y defiende el control migratorio, la posición opuesta a reconocer la libre circulación entre países como derecho universal.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "En respuesta al trotskismo: inmigración y fronteras abiertas (robertovaquero.es)",
+        "url": "https://robertovaquero.es/archivos/292",
+        "consultado": "2026-07-10"
+      }
+    },
+    "soc-004": {
+      "valor": -2,
+      "justificacion": "Defiende el cierre de fronteras y los controles migratorios y limitar la inmigración; una regularización extraordinaria de residentes en situación irregular es contraria a esa línea sostenida.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "El Frente Obrero a favor del cierre de fronteras y los controles migratorios (Izquierda Diario)",
+        "url": "https://www.izquierdadiario.es/El-Frente-Obrero-a-favor-del-cierre-de-fronteras-y-los-controles-migratorios",
+        "consultado": "2026-07-10"
+      }
+    },
+    "soc-005": {
+      "valor": -2,
+      "justificacion": "Rechaza el marco de la inmigración como necesidad económica: propone limitarla, endurecer el acceso a la nacionalidad y su presidente advierte de que España «va camino de ser Marsella» si no se reacciona.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Roberto Vaquero: «Si no reaccionamos, España va camino de ser Marsella» (The Objective)",
+        "url": "https://theobjective.com/actualidad/2024-01-22/roberto-vaquero-espana-sera-marsella/",
+        "fecha": "2024-01-22",
+        "consultado": "2026-07-10",
+        "cita": "Si no reaccionamos, España va camino de ser Marsella"
+      }
+    },
+    "cat-004": {
+      "valor": 1,
+      "justificacion": "Concurrió a las elecciones catalanas de 2024 con el lema «Defiende Cataluña, defiende España. No a la islamización», que presenta la islamización como amenaza; su campaña defiende la unidad de Cataluña y España, sin el componente de identidad y lengua catalanas que añade el ítem, por eso no alcanza el máximo.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "El Frente Obrero anuncia su candidatura a las elecciones catalanas (e-notícies)",
+        "url": "https://es.e-noticies.cat/politica/frente-obrero-anuncia-su-candidatura-las-elecciones-catalanas",
+        "fecha": "2024",
+        "consultado": "2026-07-10",
+        "cita": "Defiende Cataluña, defiende España. No a la islamización"
+      }
+    },
+    "izq-014": {
+      "valor": 2,
+      "justificacion": "Uno de los puntos de su decálogo programático es luchar contra la ideología de género y lo que denomina su degeneración, que a su juicio debe salir de escuelas, medios y espacios públicos; enmarca esas agendas como desviación de la lucha económica de la clase trabajadora.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Frente Obrero (España) — Wikipedia, resumen del programa «Recuperar España»",
+        "url": "https://es.wikipedia.org/wiki/Frente_Obrero_(Espa%C3%B1a)",
+        "consultado": "2026-07-10"
+      }
+    },
+    "izq-015": {
+      "valor": -2,
+      "justificacion": "Desarrolló una campaña estatal de carteles contra la ley trans bajo el lema #STOP-LEY-TRANS, oponiéndose frontalmente al cambio de sexo registral por libre decisión que esa ley consagra.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Frente Obrero: «#STOP-LEY-TRANS» (nota de la organización recogida por murcia.com)",
+        "url": "https://www.murcia.com/region/noticias/2021/03/08-frente-obrero-stop-ley-trans.asp",
+        "fecha": "2021-03-08",
+        "consultado": "2026-07-10",
+        "cita": "#STOP-LEY-TRANS"
+      }
+    },
+    "fem-001": {
+      "valor": -2,
+      "justificacion": "Su campaña estatal contra la ley trans (#STOP-LEY-TRANS) rechaza la autodeterminación registral del sexo por sola voluntad de la persona, el contenido central de la norma y del ítem.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Frente Obrero: «#STOP-LEY-TRANS» (nota de la organización recogida por murcia.com)",
+        "url": "https://www.murcia.com/region/noticias/2021/03/08-frente-obrero-stop-ley-trans.asp",
+        "fecha": "2021-03-08",
+        "consultado": "2026-07-10"
+      }
+    },
+    "izq-009": {
+      "valor": -2,
+      "justificacion": "Posición revelada: presenta candidaturas propias en todas las convocatorias en que concurre y trata a los partidos de las coaliciones amplias (Podemos, IU, Sumar) como adversarios a los que ha llegado a escrachar, acusándolos de haber vendido a la clase trabajadora.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "La izquierda fiel a Marx y a Lenin que escrachea a Podemos: «Han vendido a la clase trabajadora» (El Español)",
+        "url": "https://www.elespanol.com/espana/politica/20210613/izquierda-marx-lenin-escrachea-podemos-vendido-trabajadora/588441535_0.html",
+        "fecha": "2021-06-13",
+        "consultado": "2026-07-10",
+        "cita": "Han vendido a la clase trabajadora"
+      }
+    },
+    "izq-010": {
+      "valor": -2,
+      "justificacion": "Posición revelada: considera una traición la participación de fuerzas comunistas en el gobierno de coalición con el PSOE y llegó a anunciar escraches a todo el Gobierno en la precampaña de 2023.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "El Frente Obrero amenaza con escrachear a todo el Gobierno en la precampaña electoral (The Objective)",
+        "url": "https://theobjective.com/espana/politica/2023-04-12/frente-obrero-escrachear-gobierno-precampana/",
+        "fecha": "2023-04-12",
+        "consultado": "2026-07-10",
+        "cita": "El Frente Obrero amenaza con escrachear a todo el Gobierno en la precampaña electoral"
+      }
+    },
+    "izq-031": {
+      "valor": -2,
+      "justificacion": "Posición revelada: concurre a las elecciones con candidaturas propias; en las europeas de 2024 encabezó la lista Roberto Vaquero y obtuvo 66.039 votos (0,38%), sin escaño.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "¿Qué ha pasado con el Frente Obrero? Este ha sido su resultado en las Elecciones Europeas (Artículo 14)",
+        "url": "https://www.articulo14.es/politica/que-ha-pasado-con-el-frente-obrero-este-ha-sido-su-resultado-en-las-elecciones-europeas-20240610.html",
+        "fecha": "2024-06-10",
+        "consultado": "2026-07-10"
+      }
+    },
+    "izq-024": {
+      "valor": -2,
+      "justificacion": "Denuncia a CCOO y UGT como sindicatos vendidos al Gobierno y cómplices de la patronal, e irrumpe en sus actos en lugar de militar dentro de ellos.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Frente Obrero revienta un acto de UGT y CCOO con Óscar López (El Español)",
+        "url": "https://www.elespanol.com/espana/politica/20250426/frente-obrero-revienta-acto-ugt-ccoo-oscar-lopez-comegambas-vendidos-sindicatos-poder/1003743731642_0.html",
+        "fecha": "2025-04-26",
+        "consultado": "2026-07-10",
+        "cita": "¡Comegambas, sois unos vendidos, sindicatos del poder!"
+      }
+    },
+    "izq-020": {
+      "valor": 2,
+      "justificacion": "Su presidente defiende públicamente y de forma sostenida el balance de la etapa de Stalin, con charlas monográficas «en defensa de Stalin» y materiales formativos propios; se codifica como posición del partido por ser la línea pública reiterada de su máxima dirección.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Charla de Roberto Vaquero sobre Stalin (Universidad Obrera)",
+        "url": "https://universidadobrerablog.wordpress.com/2019/04/02/charla-de-roberto-vaquero-sobre-stalin/",
+        "fecha": "2019-04-02",
+        "consultado": "2026-07-10"
+      }
+    },
+    "izq-021": {
+      "valor": -2,
+      "justificacion": "La organización y su presidente polemizan de forma sostenida contra el trotskismo —incluido un texto propio de respuesta al trotskismo— desde una defensa del periodo de Stalin incompatible con reconocer a Trotski como oposición revolucionaria legítima.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "En respuesta al trotskismo: inmigración y fronteras abiertas (robertovaquero.es)",
+        "url": "https://robertovaquero.es/archivos/292",
+        "consultado": "2026-07-10"
+      }
+    },
+    "izq-022": {
+      "valor": -2,
+      "justificacion": "Su presidente dedicó un libro entero («Desmontando a Mao») a sostener que Mao fue un mal revolucionario, oportunista y revisionista; esa valoración excluye considerar valiosa la Revolución Cultural.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Defendiendo a Mao, contestación a Roberto Vaquero y a su libro «Desmontando a Mao» (La Razón Comunista, sobre el libro de Vaquero)",
+        "url": "https://www.larazoncomunista.com/post/16-9-defendiendo-a-mao-contestaci%C3%B3n-a-roberto-vaquero-y-a-su-libro-desmontando-a-mao-parte-i",
+        "consultado": "2026-07-10"
+      }
+    },
+    "izq-025": {
+      "valor": 2,
+      "justificacion": "Hace de la reivindicación de la bandera y los símbolos de España para la clase trabajadora una seña de identidad: porta banderas de España y republicanas en sus movilizaciones y difunde el mensaje «que te separe un programa, no unas banderas».",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "redes",
+        "titulo": "«Que te separe un programa, no unas banderas» (publicación de Frente Obrero España)",
+        "url": "https://www.facebook.com/frenteobreroespana/posts/que-te-separe-un-programa-no-unas-banderas-espa%C3%B1a-frenteobrero-viral-pol%C3%ADtica/800012192164159/",
+        "consultado": "2026-07-10",
+        "cita": "Que te separe un programa, no unas banderas"
+      }
+    },
+    "izq-026": {
+      "valor": 1,
+      "justificacion": "Presenta el procés como un movimiento de dirigentes que buscan su propio beneficio a costa del resto de España y como daño a la clase trabajadora; comparte el marco del conflicto entre élites, pero no la neutralidad del ítem: toma partido activo por la unidad de España.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "El Frente Obrero anuncia su candidatura a las elecciones catalanas (e-notícies)",
+        "url": "https://es.e-noticies.cat/politica/frente-obrero-anuncia-su-candidatura-las-elecciones-catalanas",
+        "fecha": "2024",
+        "consultado": "2026-07-10"
+      }
+    },
+    "ter-002": {
+      "valor": -1,
+      "justificacion": "Su eje es la recuperación de la soberanía nacional española y una España unida y fuerte frente al independentismo, lo que implica rechazo a los referendos de autodeterminación; la fuente no contiene un pronunciamiento literal sobre la figura del referéndum, de ahí el valor moderado.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "El Frente Obrero anuncia su candidatura a las elecciones catalanas (e-notícies)",
+        "url": "https://es.e-noticies.cat/politica/frente-obrero-anuncia-su-candidatura-las-elecciones-catalanas",
+        "fecha": "2024",
+        "consultado": "2026-07-10"
+      }
+    },
+    "izq-027": {
+      "valor": 1,
+      "justificacion": "Se opone a la desindustrialización y defiende reindustrializar España como condición de bienestar obrero; ese productivismo es contrario al decrecimiento, aunque la fuente no discute el decrecimiento de forma literal.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Roberto Vaquero: «Frente Obrero estará en las próximas elecciones» (El Plural)",
+        "url": "https://www.elplural.com/politica/roberto-vaquero-frente-obrero-estara-en-proximas-elecciones_276332102",
+        "consultado": "2026-07-10"
+      }
+    },
+    "pop-003": {
+      "valor": 2,
+      "justificacion": "Rechaza la dicotomía izquierda-derecha por considerar que ambas gobiernan dentro del mismo sistema, y dirige su confrontación tanto contra el Gobierno del PSOE como contra la oposición del PP.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "El Frente Obrero de Roberto Vaquero crece en Cataluña (e-notícies)",
+        "url": "https://e-noticies.cat/es/politica/frente-obrero-roberto-vaquero-crece-cataluna",
+        "consultado": "2026-07-10"
+      }
+    }
+  }
+}
