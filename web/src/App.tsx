@@ -1,4 +1,4 @@
-import { useEffect, useReducer, useRef, useState } from 'react';
+import { Suspense, lazy, useEffect, useReducer, useRef, useState } from 'react';
 import { Cabecera } from './componentes/Cabecera';
 import { Pie } from './componentes/Pie';
 import { borrarAlmacen, cargarEstado, guardarEstado, reductor } from './estado';
@@ -8,7 +8,25 @@ import { Metodologia } from './vistas/Metodologia';
 import { Modulos } from './vistas/Modulos';
 import { Portada } from './vistas/Portada';
 import { Revision } from './vistas/Revision';
-import { Resultados } from './vistas/Resultados';
+
+/**
+ * La vista de resultados carga aparte: arrastra los perfiles de partidos,
+ * sindicatos, referencias y convocatorias, que la portada y el cuestionario
+ * no necesitan.
+ */
+const cargarResultados = () => import('./vistas/Resultados');
+const Resultados = lazy(() =>
+  cargarResultados().then((modulo) => ({ default: modulo.Resultados })),
+);
+
+function VistaCargando() {
+  return (
+    <div className="contenedor vista-cargando" role="status">
+      <p className="kicker">Resultados</p>
+      <p>Preparando tu perfil y tus afinidades…</p>
+    </div>
+  );
+}
 
 export function App() {
   const [estado, despachar] = useReducer(reductor, undefined, cargarEstado);
@@ -32,6 +50,14 @@ export function App() {
     });
     return () => window.cancelAnimationFrame(frame);
   }, [estado.fase, verMetodologia]);
+
+  useEffect(() => {
+    // Las fases previas al resultado anticipan la descarga del chunk para
+    // que la transición sea inmediata.
+    if (estado.fase === 'fin-rapido' || estado.fase === 'modulos' || estado.fase === 'revision') {
+      void cargarResultados();
+    }
+  }, [estado.fase]);
 
   const abrirMetodologia = () => setVerMetodologia(true);
 
@@ -94,7 +120,7 @@ export function App() {
             quieres conservar tus respuestas.
           </div>
         ) : null}
-        {vista}
+        <Suspense fallback={<VistaCargando />}>{vista}</Suspense>
       </main>
       <Pie alAbrirMetodologia={abrirMetodologia} alBorrarDatos={borrarDatos} />
     </div>

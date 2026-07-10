@@ -1,21 +1,19 @@
 /**
- * Capa de datos del frontend: importa el banco de ítems, los ejes, los módulos
- * y los partidos en tiempo de build. No hay ninguna petición de red en
- * ejecución: todo viaja dentro del propio bundle (requisito de privacidad).
+ * Capa de datos del cuestionario: banco de ítems, ejes, módulos y glosario,
+ * importados en tiempo de build. Los perfiles de partidos, sindicatos,
+ * referencias y convocatorias viven en datosResultados.ts y solo se descargan
+ * con la vista de resultados. No hay ninguna petición de red en ejecución:
+ * todo viaja dentro del propio build (requisito de privacidad).
  */
 import { itemVisible } from '@engine';
-import type {
-  ConvocatoriaElectoral,
-  Eje,
-  Item,
-  Modulo,
-  Partido,
-  PerfilAfinidad,
-  ReferenciaDoctrinal,
-  Sindicato,
-  Valor,
-} from '@engine';
+import type { Eje, Item, Modulo, PerfilAfinidad, Valor } from '@engine';
 import type { TipoEleccion } from '@engine';
+
+/** Número de perfiles reales (sin demos), inyectado en tiempo de build. */
+declare const __PERFILES_REALES__: number | undefined;
+
+export const PERFILES_REALES: number =
+  typeof __PERFILES_REALES__ === 'number' ? __PERFILES_REALES__ : 0;
 
 import ejesJson from '@data/ejes.json';
 import modulosJson from '@data/modulos.json';
@@ -56,49 +54,6 @@ export const ITEMS_POR_MODULO: ReadonlyMap<string, Item[]> = (() => {
 })();
 
 export const MODULO_POR_ID: ReadonlyMap<string, Modulo> = new Map(MODULOS.map((m) => [m.id, m]));
-
-const modulosPartidos = import.meta.glob('../../data/partidos/*.json', {
-  eager: true,
-  import: 'default',
-}) as Record<string, unknown>;
-
-const todosLosPartidos: Partido[] = Object.entries(modulosPartidos)
-  .filter(([ruta]) => !ruta.split('/').at(-1)?.startsWith('_'))
-  .sort(([rutaA], [rutaB]) => rutaA.localeCompare(rutaB))
-  .map(([, contenido]) => contenido as Partido);
-
-/** Los perfiles ficticios solo sirven para tests y no entran en producción. */
-export const PARTIDOS: Partido[] = todosLosPartidos.filter((partido) => !partido.demo);
-
-const modulosConvocatorias = import.meta.glob('../../data/convocatorias/*.json', {
-  eager: true,
-  import: 'default',
-}) as Record<string, unknown>;
-
-export const CONVOCATORIAS: ConvocatoriaElectoral[] = Object.entries(modulosConvocatorias)
-  .filter(([ruta]) => !ruta.split('/').at(-1)?.startsWith('_'))
-  .sort(([rutaA], [rutaB]) => rutaA.localeCompare(rutaB))
-  .map(([, contenido]) => contenido as ConvocatoriaElectoral);
-
-const modulosReferencias = import.meta.glob('../../data/referencias/*.json', {
-  eager: true,
-  import: 'default',
-}) as Record<string, unknown>;
-
-export const REFERENCIAS: ReferenciaDoctrinal[] = Object.entries(modulosReferencias)
-  .filter(([ruta]) => !ruta.split('/').at(-1)?.startsWith('_'))
-  .sort(([rutaA], [rutaB]) => rutaA.localeCompare(rutaB))
-  .map(([, contenido]) => contenido as ReferenciaDoctrinal);
-
-const modulosSindicatos = import.meta.glob('../../data/sindicatos/*.json', {
-  eager: true,
-  import: 'default',
-}) as Record<string, unknown>;
-
-export const SINDICATOS: Sindicato[] = Object.entries(modulosSindicatos)
-  .filter(([ruta]) => !ruta.split('/').at(-1)?.startsWith('_'))
-  .sort(([rutaA], [rutaB]) => rutaA.localeCompare(rutaB))
-  .map(([, contenido]) => contenido as Sindicato);
 
 /* ————— Glosario ————— */
 

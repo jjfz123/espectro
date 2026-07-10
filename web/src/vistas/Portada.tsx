@@ -7,7 +7,7 @@ import {
   ITEMS,
   ITEMS_NUCLEO,
   MODULOS,
-  PARTIDOS,
+  PERFILES_REALES,
   secuenciaItems,
 } from '../datos';
 import type { Accion, Estado, Modo } from '../estado';
@@ -62,7 +62,7 @@ export function Portada({ estado, despachar, alAbrirMetodologia }: Props) {
             <span>ejes y sub-ejes</span>
           </div>
           <div className="cifra">
-            <strong>{PARTIDOS.length}</strong>
+            <strong>{PERFILES_REALES}</strong>
             <span>perfiles reales en revisión</span>
           </div>
         </div>

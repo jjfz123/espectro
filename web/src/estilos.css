@@ -109,6 +109,17 @@ main:focus {
   outline: none;
 }
 
+.vista-cargando {
+  padding-block: 3rem;
+}
+
+.vista-cargando p:last-child {
+  margin-top: 0.6rem;
+  font-family: var(--serif);
+  font-size: 1.15rem;
+  color: var(--tinta-suave);
+}
+
 .aviso-persistencia {
   margin-bottom: 1.5rem;
   padding-block: 0.8rem;
@@ -2070,6 +2081,11 @@ h3 {
   font-family: var(--sans);
   color: var(--tinta-suave);
   font-weight: 400;
+}
+
+.detalle-partido summary > span:first-child {
+  flex: 1 1 0;
+  min-width: 0;
 }
 
 .detalle-partido[open] summary::before {

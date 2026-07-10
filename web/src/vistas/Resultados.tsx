@@ -17,19 +17,16 @@ import { Ranking } from '../componentes/Ranking';
 import type { DobleMarcador } from '../componentes/Ranking';
 import {
   COMUNIDADES,
-  CONVOCATORIAS,
   EJES,
   ELECCIONES,
   ITEM_POR_ID,
   ITEMS_POR_MODULO,
   MODULOS,
-  PARTIDOS,
-  REFERENCIAS,
-  SINDICATOS,
   itemVisible,
   nombreComunidad,
   secuenciaItems,
 } from '../datos';
+import { CONVOCATORIAS, PARTIDOS, REFERENCIAS, SINDICATOS } from '../datosResultados';
 import type { Accion, Estado } from '../estado';
 
 interface Props {

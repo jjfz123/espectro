@@ -23,8 +23,8 @@ Las prioridades evitan que «más partidos» desplace los problemas reales de pr
 
 ## P1 — frontend realmente precioso y robusto
 
-- [ ] Dividir el bundle. Objetivo: carga inicial ligera y chunk de resultados perezoso; hoy perfiles, sindicatos, referencias y convocatorias se importan eager y el JS minificado ronda 1 MB.
-- [ ] Cargar `Resultados` y sus catálogos con `React.lazy`/`import()` y separar `datosResultados.ts` de los datos necesarios para el cuestionario.
+- [x] Dividir el bundle. Hecho: la carga inicial pasa de 1.034 kB a 352 kB minificados (gzip 245 kB → 102 kB); perfiles, sindicatos, referencias y convocatorias viajan en un chunk perezoso de 505 kB (gzip 93 kB) que se precarga al llegar a fin-del-rápido, módulos o revisión. Las notas metodológicas y etiquetas internas del banco de ítems se retiran del build sin tocar los JSON fuente.
+- [x] Cargar `Resultados` y sus catálogos con `React.lazy`/`import()` y separar `datosResultados.ts` de los datos necesarios para el cuestionario. La portada muestra el número de perfiles reales mediante un recuento en tiempo de build (`__PERFILES_REALES__`).
 - [ ] Revisar visualmente el catálogo de hasta 31 candidaturas, las referencias de escala y los dobles marcadores en pantallas pequeñas.
 - [ ] Añadir pruebas E2E (Playwright): teclado Likert, `Sin opinión`, ramas condicionales, foco, recarga, almacenamiento fallido, resultado provisional y continuación exhaustiva.
 - [ ] Añadir pruebas visuales o capturas de referencia para portada, pregunta, módulos, perfil, ranking y detalle.
