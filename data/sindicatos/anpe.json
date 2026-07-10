@@ -1,0 +1,41 @@
+{
+  "id": "anpe",
+  "nombre": "ANPE - Sindicato Independiente",
+  "siglas": "ANPE",
+  "ambito": "estatal",
+  "sectores": ["educacion"],
+  "confianza": "verificada",
+  "web": "https://anpe.es/",
+  "revisado": "2026-07-10",
+  "advertencia": "La similitud doctrinal no acredita implantación en tu empresa ni constituye una recomendación de afiliación. Sindicato sectorial de la enseñanza pública; no se ha localizado un programa propio sobre modelo económico general, por lo que esas casillas quedan sin dato.",
+  "autodescripcion": {
+    "texto": "Se define como sindicato independiente de la enseñanza pública que asume sus decisiones con libertad, sin dependencia política, económica ni confesional, y que se autofinancia con las cuotas de sus afiliados.",
+    "fuente": { "tipo": "declaracion", "titulo": "ANPE, Sindicato Independiente", "url": "https://www.anpe.es/categoria/1/ANPE", "fecha": "2026" }
+  },
+  "posiciones": {
+    "lab-004": {
+      "valor": 2,
+      "justificacion": "Se define autofinanciado con las cuotas de sus afiliados, sin depender de otras fuentes de ingreso en su presentación institucional.",
+      "calidadEvidencia": "alta",
+      "fuente": { "tipo": "declaracion", "titulo": "ANPE, Sindicato Independiente", "url": "https://www.anpe.es/categoria/1/ANPE", "fecha": "2026", "consultado": "2026-07-10" }
+    },
+    "lab-005": {
+      "valor": 2,
+      "justificacion": "Se declara sindicato independiente que asume sus decisiones con libertad, sin dependencia política, económica ni confesional.",
+      "calidadEvidencia": "alta",
+      "fuente": { "tipo": "declaracion", "titulo": "ANPE, Sindicato Independiente", "url": "https://www.anpe.es/categoria/1/ANPE", "fecha": "2026", "consultado": "2026-07-10" }
+    },
+    "lab-020": {
+      "valor": 2,
+      "justificacion": "Concurre a elecciones sindicales abiertas a toda la plantilla docente desde 1987 y es la organización más representativa del sector.",
+      "calidadEvidencia": "alta",
+      "fuente": { "tipo": "declaracion", "titulo": "ANPE, Sindicato Independiente", "url": "https://www.anpe.es/categoria/1/ANPE", "fecha": "2026", "consultado": "2026-07-10" }
+    },
+    "lab-023": {
+      "valor": 1,
+      "justificacion": "Su identidad pública es profesional e independiente, centrada en la función docente; no se localiza un proyecto político general comparable al de los sindicatos de clase.",
+      "calidadEvidencia": "media",
+      "fuente": { "tipo": "declaracion", "titulo": "ANPE, Sindicato Independiente", "url": "https://www.anpe.es/categoria/1/ANPE", "fecha": "2026", "consultado": "2026-07-10" }
+    }
+  }
+}

@@ -7,6 +7,10 @@
   "web": "https://www.ugt.es/",
   "revisado": "2026-07-09",
   "advertencia": "La similitud doctrinal no acredita implantación en tu empresa ni constituye una recomendación de afiliación.",
+  "autodescripcion": {
+    "texto": "Sus estatutos proclaman su independencia respecto de gobiernos, partidos, religiones, administraciones y patronales, y definen la democracia interna como regla, sin tendencias organizadas y con sujeción a los acuerdos mayoritarios.",
+    "fuente": { "tipo": "estatutos", "titulo": "Estatutos y normas del 44.º Congreso", "url": "https://www.ugt.es/sites/default/files/RESOLUCIONES-44C-ESTATUTOS-REGLAMENTO-NORMAS.pdf", "fecha": "2024" }
+  },
   "posiciones": {
     "lab-001": {
       "valor": 2,
@@ -31,6 +35,12 @@
       "justificacion": "Proclama independencia respecto de gobiernos, partidos, religiones, administraciones y patronales.",
       "calidadEvidencia": "alta",
       "fuente": { "tipo": "estatutos", "titulo": "Estatutos y normas del 44.º Congreso", "url": "https://www.ugt.es/sites/default/files/RESOLUCIONES-44C-ESTATUTOS-REGLAMENTO-NORMAS.pdf", "fecha": "2024", "consultado": "2026-07-09" }
+    },
+    "lab-007": {
+      "valor": 2,
+      "justificacion": "Posición revelada: su secretario general firmó junto a CCOO y el Gobierno el acuerdo de la segunda fase de la reforma de pensiones, y en 2021 aprobó por unanimidad la reforma laboral pactada con CEOE y el Gobierno.",
+      "calidadEvidencia": "alta",
+      "fuente": { "tipo": "otro", "titulo": "Gobierno y sindicatos alcanzan un acuerdo para culminar la reforma del sistema público de pensiones", "url": "https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/inclusion/Paginas/2023/150323-reforma-pensiones.aspx", "fecha": "2023-03-15", "consultado": "2026-07-10" }
     },
     "lab-019": {
       "valor": 2,

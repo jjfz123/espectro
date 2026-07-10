@@ -7,6 +7,10 @@
   "web": "https://www.uso.es/",
   "revisado": "2026-07-09",
   "advertencia": "La similitud doctrinal no acredita implantación en tu empresa ni constituye una recomendación de afiliación.",
+  "autodescripcion": {
+    "texto": "Se presenta como un sindicato autónomo e independiente de gobiernos, partidos y patronales, de identidad plural, humanista y solidaria, autofinanciado por las cuotas de su afiliación y abierto a trabajadores de cualquier convicción ideológica o religiosa.",
+    "fuente": { "tipo": "declaracion", "titulo": "Qué es la USO", "url": "https://www.uso.es/que-es-la-uso/", "fecha": "2026" }
+  },
   "posiciones": {
     "lab-004": {
       "valor": 2,
@@ -31,6 +35,12 @@
       "justificacion": "Mantiene una caja de resistencia financiada por la organización para sostener conflictos prolongados.",
       "calidadEvidencia": "alta",
       "fuente": { "tipo": "declaracion", "titulo": "Qué es la USO", "url": "https://www.uso.es/que-es-la-uso/", "fecha": "2026", "consultado": "2026-07-09" }
+    },
+    "lab-023": {
+      "valor": -1,
+      "justificacion": "Se define humanista y solidaria y mantiene un Fondo de Solidaridad Internacional con trabajadores de otros países; esa vocación excede salarios y condiciones, aunque con menor intensidad programática que los sindicatos de clase.",
+      "calidadEvidencia": "media",
+      "fuente": { "tipo": "declaracion", "titulo": "Qué es la USO", "url": "https://www.uso.es/que-es-la-uso/", "fecha": "2026", "consultado": "2026-07-10" }
     }
   }
 }

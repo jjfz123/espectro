@@ -8,6 +8,10 @@
   "web": "https://www.cig.gal/",
   "revisado": "2026-07-09",
   "advertencia": "La similitud doctrinal no acredita implantación en tu empresa ni constituye una recomendación de afiliación.",
+  "autodescripcion": {
+    "texto": "Sus estatutos la definen como una central sindical de clase y nacionalista gallega, soberana e independiente de los partidos y de los poderes económicos o religiosos, con un proyecto gallego autocentrado, sostenible y soberano.",
+    "fuente": { "tipo": "estatutos", "titulo": "Libro del IX Congreso", "url": "https://www.cig.gal/files/documentos/Doc_CIG/ProbaBaixa_2025_09_30_Libro_IX_Congreso_CIG.pdf", "fecha": "2025" }
+  },
   "posiciones": {
     "lab-004": {
       "valor": -1,

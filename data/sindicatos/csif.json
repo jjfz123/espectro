@@ -7,7 +7,11 @@
   "confianza": "verificada",
   "web": "https://www.csif.es/",
   "revisado": "2026-07-09",
-  "advertencia": "La similitud doctrinal no acredita implantación en tu empresa ni constituye una recomendación de afiliación.",
+  "advertencia": "La similitud doctrinal no acredita implantación en tu empresa ni constituye una recomendación de afiliación. No se atribuye clasificación externa: no se ha localizado politología ni prensa de referencia que le asigne una orientación partidista concreta, solo comparaciones enciclopédicas con los orígenes fundacionales de CCOO y UGT.",
+  "autodescripcion": {
+    "texto": "Se define como sindicato profesional e independiente, resultante de la convergencia de opciones sindicales independientes y no alineadas ideológicamente: no está vinculado a partidos ni a organizaciones extrasindicales y limita su fin a la representación y defensa de los intereses profesionales de los empleados públicos y del sector privado.",
+    "fuente": { "tipo": "estatutos", "titulo": "Portal de transparencia y estatutos", "url": "https://www.csif.es/es/noticia/portada/nacional/articulo/37655", "fecha": "2024" }
+  },
   "posiciones": {
     "lab-004": {
       "valor": -1,

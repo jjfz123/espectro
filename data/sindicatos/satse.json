@@ -1,0 +1,41 @@
+{
+  "id": "satse",
+  "nombre": "Sindicato de Enfermería",
+  "siglas": "SATSE",
+  "ambito": "estatal",
+  "sectores": ["sanidad"],
+  "confianza": "verificada",
+  "web": "https://www.satse.es/",
+  "revisado": "2026-07-10",
+  "advertencia": "La similitud doctrinal no acredita implantación en tu empresa ni constituye una recomendación de afiliación. Sindicato sectorial de enfermería y fisioterapia; no se ha localizado un programa propio sobre modelo económico general, por lo que esas casillas quedan sin dato.",
+  "autodescripcion": {
+    "texto": "Se define como sindicato profesional e independiente de enfermería y fisioterapia, sin carácter ni orientación política, y afirma financiarse con las cuotas de su afiliación sin recibir subvenciones ni ayudas públicas o privadas.",
+    "fuente": { "tipo": "declaracion", "titulo": "Un sindicato profesional e independiente", "url": "https://www.satse.es/es/conocenos/un-sindicato-profesional-e-independiente", "fecha": "2026" }
+  },
+  "posiciones": {
+    "lab-004": {
+      "valor": 2,
+      "justificacion": "Declara financiarse con las cuotas de sus afiliados y afirma expresamente no recibir subvenciones ni ayudas públicas o privadas, a diferencia de otros sindicatos revisados.",
+      "calidadEvidencia": "alta",
+      "fuente": { "tipo": "declaracion", "titulo": "Un sindicato profesional e independiente", "url": "https://www.satse.es/es/conocenos/un-sindicato-profesional-e-independiente", "fecha": "2026", "consultado": "2026-07-10" }
+    },
+    "lab-005": {
+      "valor": 2,
+      "justificacion": "Se define alejado de cualquier filiación política, sin carácter ni orientación partidista, lo que dice le da libertad de acción reivindicativa.",
+      "calidadEvidencia": "alta",
+      "fuente": { "tipo": "declaracion", "titulo": "Un sindicato profesional e independiente", "url": "https://www.satse.es/es/conocenos/un-sindicato-profesional-e-independiente", "fecha": "2026", "consultado": "2026-07-10" }
+    },
+    "lab-020": {
+      "valor": 2,
+      "justificacion": "Gana de forma recurrente elecciones sindicales a juntas de personal y comités en servicios de salud autonómicos, entre ellos el Servicio Andaluz de Salud en 2024.",
+      "calidadEvidencia": "alta",
+      "fuente": { "tipo": "declaracion", "titulo": "Resultados de las elecciones sindicales SAS 2024", "url": "https://andalucia.satse.es/es/w/resultados-elecciones-sas2024", "fecha": "2024", "consultado": "2026-07-10" }
+    },
+    "lab-023": {
+      "valor": 1,
+      "justificacion": "Su identidad pública es profesional e independiente, centrada en enfermería y fisioterapia; no se localiza un proyecto político general comparable al de los sindicatos de clase.",
+      "calidadEvidencia": "media",
+      "fuente": { "tipo": "declaracion", "titulo": "Un sindicato profesional e independiente", "url": "https://www.satse.es/es/conocenos/un-sindicato-profesional-e-independiente", "fecha": "2026", "consultado": "2026-07-10" }
+    }
+  }
+}

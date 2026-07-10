@@ -8,6 +8,10 @@
   "web": "https://www.ela.eus/",
   "revisado": "2026-07-09",
   "advertencia": "La similitud doctrinal no acredita implantación en tu empresa ni constituye una recomendación de afiliación.",
+  "autodescripcion": {
+    "texto": "Su ponencia congresual define un sindicalismo de clase, nacional vasco y de contrapoder, con la independencia partidaria como principio y un proyecto de transformación social, ecológica y feminista ligado a la soberanía y a una república vasca.",
+    "fuente": { "tipo": "programa", "titulo": "Ponencia del XVI Congreso", "url": "https://www.ela.eus/es/kongresua/documentos/ponencia-16-congreso.pdf", "fecha": "2025-06" }
+  },
   "posiciones": {
     "lab-004": {
       "valor": 1,
@@ -20,6 +24,12 @@
       "justificacion": "La independencia partidaria y el sindicalismo de contrapoder son principios expresos de su ponencia congresual.",
       "calidadEvidencia": "alta",
       "fuente": { "tipo": "programa", "titulo": "Ponencia del XVI Congreso", "url": "https://www.ela.eus/es/kongresua/documentos/ponencia-16-congreso.pdf", "fecha": "2025-06", "consultado": "2026-07-09" }
+    },
+    "lab-007": {
+      "valor": -1,
+      "justificacion": "Rechazó públicamente la reforma laboral de 2021 pactada por CCOO y UGT con CEOE y el Gobierno, por no revertir la centralización de la negociación colectiva; no es rechazo de toda concertación, sino de esta modalidad estatal de diálogo social.",
+      "calidadEvidencia": "media",
+      "fuente": { "tipo": "declaracion", "titulo": "El sindicalismo transformador rechaza la propuesta de reforma laboral del Gobierno del Estado español", "url": "https://www.ela.eus/es/internacional/noticias/el-sindicalismo-transformador-rechaza-la-propuesta-de-reforma-laboral-del-gobierno-del-estado-espanol", "fecha": "2021", "consultado": "2026-07-10" }
     },
     "lab-016": {
       "valor": 1,

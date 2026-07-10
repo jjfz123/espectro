@@ -1,0 +1,47 @@
+{
+  "id": "stes",
+  "nombre": "Confederación de STEs-Intersindical (Sindicatos de Trabajadores y Trabajadoras de la Enseñanza)",
+  "siglas": "STEs-i",
+  "ambito": "estatal",
+  "sectores": ["educacion"],
+  "confianza": "verificada",
+  "web": "https://www.stes.es/",
+  "revisado": "2026-07-10",
+  "advertencia": "La similitud doctrinal no acredita implantación en tu empresa ni constituye una recomendación de afiliación. Confederación sectorial de la enseñanza; contraste deliberado con ANPE dentro del mismo sector para separar el modelo profesional/apolítico del asambleario/de clase.",
+  "autodescripcion": {
+    "texto": "Se define como una organización asamblearia, autónoma, unitaria, de clase y confederal, independiente de la patronal, de las administraciones públicas y de cualquier organización religiosa, y no subordinada a ningún partido político.",
+    "fuente": { "tipo": "declaracion", "titulo": "Quiénes somos - STEs-Intersindical", "url": "https://www.stes.es/modelo-sindical/quienes-somos/", "fecha": "2026" }
+  },
+  "posiciones": {
+    "lab-004": {
+      "valor": -1,
+      "justificacion": "Se financia principalmente con cuotas, pero sus propios estatutos y su portal de transparencia contemplan pedir y recibir subvenciones legalmente establecidas: no es un modelo exclusivo de cuotas.",
+      "calidadEvidencia": "alta",
+      "fuente": { "tipo": "otro", "titulo": "Transparencia - Confederación Intersindical", "url": "https://intersindical.es/transparencia/", "fecha": "2026", "consultado": "2026-07-10" }
+    },
+    "lab-019": {
+      "valor": 2,
+      "justificacion": "Cumple la Ley 19/2013 de transparencia y publica la relación de subvenciones recibidas de administraciones públicas.",
+      "calidadEvidencia": "alta",
+      "fuente": { "tipo": "otro", "titulo": "Transparencia - Confederación Intersindical", "url": "https://intersindical.es/transparencia/", "fecha": "2026", "consultado": "2026-07-10" }
+    },
+    "lab-005": {
+      "valor": 2,
+      "justificacion": "Se declara independiente de la patronal, las administraciones públicas y cualquier organización religiosa, y no subordinada a ningún partido político.",
+      "calidadEvidencia": "alta",
+      "fuente": { "tipo": "declaracion", "titulo": "Quiénes somos - STEs-Intersindical", "url": "https://www.stes.es/modelo-sindical/quienes-somos/", "fecha": "2026", "consultado": "2026-07-10" }
+    },
+    "lab-020": {
+      "valor": 2,
+      "justificacion": "Fomenta la representación unitaria y directa de los trabajadores surgida de las asambleas y los centros de trabajo, abierta a toda la plantilla.",
+      "calidadEvidencia": "alta",
+      "fuente": { "tipo": "declaracion", "titulo": "Quiénes somos - STEs-Intersindical", "url": "https://www.stes.es/modelo-sindical/quienes-somos/", "fecha": "2026", "consultado": "2026-07-10" }
+    },
+    "lab-023": {
+      "valor": -2,
+      "justificacion": "Asume la defensa de todos los problemas políticos y sociales que afecten a los trabajadores, con perspectiva de eliminar toda explotación o discriminación, no solo demandas salariales del sector docente.",
+      "calidadEvidencia": "alta",
+      "fuente": { "tipo": "declaracion", "titulo": "Quiénes somos - STEs-Intersindical", "url": "https://www.stes.es/modelo-sindical/quienes-somos/", "fecha": "2026", "consultado": "2026-07-10" }
+    }
+  }
+}

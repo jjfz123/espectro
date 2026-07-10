@@ -8,12 +8,22 @@
   "web": "https://sindicatoandaluz.info/",
   "revisado": "2026-07-09",
   "advertencia": "La similitud doctrinal no acredita implantación en tu empresa ni constituye una recomendación de afiliación.",
+  "autodescripcion": {
+    "texto": "Sus estatutos lo definen como un sindicato andaluz de clase, anticapitalista, soberanista, feminista, ecológico, unitario y asambleario, independiente de instituciones, partidos, patronales y grupos de presión.",
+    "fuente": { "tipo": "estatutos", "titulo": "Estatutos del IV Congreso", "url": "https://sindicatoandaluz.info/estatutos-2025/", "fecha": "2025" }
+  },
   "posiciones": {
     "lab-005": {
       "valor": 2,
       "justificacion": "Sus estatutos proclaman independencia respecto de instituciones, partidos, patronales y grupos de presión.",
       "calidadEvidencia": "alta",
       "fuente": { "tipo": "estatutos", "titulo": "Estatutos del IV Congreso", "url": "https://sindicatoandaluz.info/estatutos-2025/", "fecha": "2025", "consultado": "2026-07-09" }
+    },
+    "lab-020": {
+      "valor": 2,
+      "justificacion": "Participa activamente en elecciones a comités y juntas de personal abiertas a toda la plantilla, con victorias documentadas como la de la Diputación de Sevilla en 2025; su asamblearismo no excluye la vía electoral unitaria.",
+      "calidadEvidencia": "alta",
+      "fuente": { "tipo": "declaracion", "titulo": "El SAT gana las elecciones sindicales en Diputación de Sevilla", "url": "https://sindicatoandaluz.info/2025/05/28/el-sat-gana-las-elecciones-sindicales-en-diputacion-de-sevilla/", "fecha": "2025-05-28", "consultado": "2026-07-10" }
     },
     "lab-021": {
       "valor": 2,

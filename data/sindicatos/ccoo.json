@@ -7,6 +7,10 @@
   "web": "https://www.ccoo.es/",
   "revisado": "2026-07-09",
   "advertencia": "La similitud doctrinal no acredita implantación en tu empresa ni constituye una recomendación de afiliación.",
+  "autodescripcion": {
+    "texto": "Sus estatutos declaran su independencia respecto del Estado, los poderes económicos y los partidos políticos y mantienen una orientación declarada hacia la superación de la sociedad capitalista y una sociedad socialista democrática.",
+    "fuente": { "tipo": "estatutos", "titulo": "Estatutos del 13.º Congreso Confederal", "url": "https://13congreso.ccoo.es/b756818638e40f806b5c63147454c52a000001.pdf", "fecha": "2025" }
+  },
   "posiciones": {
     "lab-001": {
       "valor": 2,
@@ -25,6 +29,12 @@
       "justificacion": "Los estatutos declaran independencia respecto del Estado, poderes económicos y partidos políticos.",
       "calidadEvidencia": "alta",
       "fuente": { "tipo": "estatutos", "titulo": "Estatutos del 13.º Congreso Confederal", "url": "https://13congreso.ccoo.es/b756818638e40f806b5c63147454c52a000001.pdf", "fecha": "2025", "consultado": "2026-07-09" }
+    },
+    "lab-007": {
+      "valor": 2,
+      "justificacion": "Posición revelada: su secretario general firmó junto a UGT y el Gobierno el acuerdo de la segunda fase de la reforma de pensiones, y en 2021 aprobó por unanimidad la reforma laboral pactada con CEOE y el Gobierno.",
+      "calidadEvidencia": "alta",
+      "fuente": { "tipo": "otro", "titulo": "Gobierno y sindicatos alcanzan un acuerdo para culminar la reforma del sistema público de pensiones", "url": "https://www.lamoncloa.gob.es/serviciosdeprensa/notasprensa/inclusion/Paginas/2023/150323-reforma-pensiones.aspx", "fecha": "2023-03-15", "consultado": "2026-07-10" }
     },
     "lab-019": {
       "valor": 2,

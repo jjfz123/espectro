@@ -8,12 +8,22 @@
   "web": "https://www.lab.eus/es/",
   "revisado": "2026-07-09",
   "advertencia": "La similitud doctrinal no acredita implantación en tu empresa ni constituye una recomendación de afiliación.",
+  "autodescripcion": {
+    "texto": "Se presenta como sindicato independiente y de contrapoder, comprometido con un proceso de transformación independentista, ecosocialista, feminista y antirracista de Euskal Herria.",
+    "fuente": { "tipo": "declaracion", "titulo": "Asamblea intercongresual de LAB", "url": "https://www.lab.eus/es/lab-reitera-su-apuesta-por-el-proceso-de-transformacion-de-euskal-herria-en-su-asamblea-intercongresual/", "fecha": "2025" }
+  },
   "posiciones": {
     "lab-005": {
       "valor": 2,
       "justificacion": "Se presenta como sindicato independiente y de contrapoder; no se infiere de ello una mezcla financiera concreta.",
       "calidadEvidencia": "alta",
       "fuente": { "tipo": "declaracion", "titulo": "Asamblea intercongresual de LAB", "url": "https://www.lab.eus/es/lab-reitera-su-apuesta-por-el-proceso-de-transformacion-de-euskal-herria-en-su-asamblea-intercongresual/", "fecha": "2025", "consultado": "2026-07-09" }
+    },
+    "lab-007": {
+      "valor": -1,
+      "justificacion": "Rechazó públicamente, junto con ELA, la reforma laboral de 2021 pactada por CCOO y UGT con CEOE y el Gobierno; su crítica se dirige a esa concertación estatal concreta, no a todo acuerdo de negociación sectorial.",
+      "calidadEvidencia": "media",
+      "fuente": { "tipo": "declaracion", "titulo": "Desde el sindicalismo transformador rechazamos la propuesta de reforma laboral del gobierno del Estado español", "url": "https://www.lab.eus/es/reforma/", "fecha": "2021", "consultado": "2026-07-10" }
     },
     "lab-016": {
       "valor": 1,

@@ -7,6 +7,10 @@
   "web": "https://www.cnt.es/",
   "revisado": "2026-07-09",
   "advertencia": "La similitud doctrinal no acredita implantación en tu empresa ni constituye una recomendación de afiliación.",
+  "autodescripcion": {
+    "texto": "Se define como organización anarcosindicalista que afirma su autonomía frente al Estado, los partidos, las patronales y otras instituciones de poder, con el control de la producción por los trabajadores, la autogestión y una transformación social anticapitalista y antiestatal de orientación libertaria como finalidad declarada.",
+    "fuente": { "tipo": "programa", "titulo": "Principios, tácticas y finalidades", "url": "https://www.cnt.es/wp-content/uploads/2024/11/PRINCIPIOS-TACTICAS-Y-FINALIDADES-2.pdf", "fecha": "2024" }
+  },
   "posiciones": {
     "lab-004": {
       "valor": 2,
@@ -32,6 +36,12 @@
       "calidadEvidencia": "alta",
       "fuente": { "tipo": "programa", "titulo": "Principios, tácticas y finalidades", "url": "https://www.cnt.es/wp-content/uploads/2024/11/PRINCIPIOS-TACTICAS-Y-FINALIDADES-2.pdf", "fecha": "2024", "consultado": "2026-07-09" }
     },
+    "lab-007": {
+      "valor": -2,
+      "justificacion": "Calificó la reforma laboral de 2021, pactada por CCOO y UGT con CEOE y el Gobierno, de \"estafa a favor de la patronal\"; su doctrina rechaza en general la planificación tripartita vinculante por considerarla corporativismo estatal.",
+      "calidadEvidencia": "alta",
+      "fuente": { "tipo": "programa", "titulo": "Principios, tácticas y finalidades", "url": "https://www.cnt.es/wp-content/uploads/2024/11/PRINCIPIOS-TACTICAS-Y-FINALIDADES-2.pdf", "fecha": "2024", "consultado": "2026-07-10" }
+    },
     "lab-021": {
       "valor": 2,
       "justificacion": "La negociación debe quedar controlada por las asambleas y las personas afectadas, sin una capa permanente que las sustituya.",
@@ -45,10 +55,10 @@
       "fuente": { "tipo": "programa", "titulo": "Principios, tácticas y finalidades", "url": "https://www.cnt.es/wp-content/uploads/2024/11/PRINCIPIOS-TACTICAS-Y-FINALIDADES-2.pdf", "fecha": "2024", "consultado": "2026-07-09" }
     },
     "lab-026": {
-      "valor": 1,
-      "justificacion": "Prioriza secciones y asambleas y rechaza que intermediarios permanentes sustituyan a las personas afectadas; la táctica concreta puede variar localmente.",
-      "calidadEvidencia": "media",
-      "fuente": { "tipo": "estatutos", "titulo": "Acuerdos del XII Congreso Confederal", "url": "https://www.cnt.es/wp-content/uploads/2025/03/Acuerdos-del-XII-Congreso-Confederal-Canovelles-2022.pdf", "fecha": "2022", "consultado": "2026-07-09" }
+      "valor": 2,
+      "justificacion": "Corregido en revisión: no es una preferencia táctica menor sino su línea histórica y actual, reafirmada en materiales oficiales que piden explícitamente no votar en elecciones a comité y apostar por secciones sindicales.",
+      "calidadEvidencia": "alta",
+      "fuente": { "tipo": "programa", "titulo": "Principios, tácticas y finalidades", "url": "https://www.cnt.es/wp-content/uploads/2024/11/PRINCIPIOS-TACTICAS-Y-FINALIDADES-2.pdf", "fecha": "2024", "consultado": "2026-07-10" }
     }
   }
 }

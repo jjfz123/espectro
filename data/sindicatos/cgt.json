@@ -7,6 +7,10 @@
   "web": "https://cgt.es/",
   "revisado": "2026-07-09",
   "advertencia": "La similitud doctrinal no acredita implantación en tu empresa ni constituye una recomendación de afiliación.",
+  "autodescripcion": {
+    "texto": "Se define como anarcosindicalista, autónoma, autogestionaria, federal e internacionalista, actuando al margen de gobiernos, partidos y empresas, con la autogestión de la producción, la distribución y el consumo como propuesta.",
+    "fuente": { "tipo": "programa", "titulo": "Acuerdos del XIX Congreso Confederal", "url": "https://cgt.es/wp-content/uploads/2023/05/2022-XIX-Congreso-Confederal-Zaragoza.pdf", "fecha": "2022" }
+  },
   "posiciones": {
     "lab-004": {
       "valor": 1,

@@ -5,7 +5,18 @@
   "confianza": "verificada",
   "web": "https://sindicatosolidaridad.es/",
   "revisado": "2026-07-09",
-  "advertencia": "La similitud doctrinal no acredita implantación en tu empresa ni constituye una recomendación de afiliación; la documentación disponible sobre su modelo productivo es limitada.",
+  "advertencia": "La similitud doctrinal no acredita implantación en tu empresa ni constituye una recomendación de afiliación; el modelo productivo está poco documentado y las cifras de implantación varían mucho entre la organización y los reportajes periodísticos. No se codifica autonomía política (lab-005): sus estatutos carecen de cláusula expresa de independencia partidaria, a diferencia del resto de sindicatos de esta lista.",
+  "autodescripcion": {
+    "texto": "Su denominación registral es Sindicato para la Defensa de la Solidaridad de los Trabajadores de España. Sus estatutos lo definen como organización sindical de ámbito estatal y sin ánimo de lucro para la defensa de los intereses laborales de todos los trabajadores, cualquiera que sea su sector, incluidos autónomos y empleados de las administraciones públicas.",
+    "fuente": { "tipo": "estatutos", "titulo": "Estatutos modificados", "url": "https://sindicatosolidaridad.es/wp-content/uploads/2025/05/ESTATUTOS.pdf", "fecha": "2025-05" }
+  },
+  "clasificacion": [
+    {
+      "etiqueta": "sindicato de Vox",
+      "explicacion": "Denominación generalizada en prensa (elDiario.es, Vozpópuli, Newtral) para señalar su origen —VOX anunció y presentó su creación en 2020— y la coordinación pública sostenida entre ambas organizaciones. La etiqueta describe esa asociación documentada; no acredita control jurídico del partido sobre el sindicato ni la ideología de cada afiliado.",
+      "fuente": { "tipo": "otro", "titulo": "El único órgano de control del sindicato de Vox queda en manos del líder tras eliminar que lo voten sus afiliados (elDiario.es)", "url": "https://www.eldiario.es/economia/unico-organo-control-sindicato-vox-queda-manos-lider-eliminar-voten-afiliados_1_7389801.html", "fecha": "2021" }
+    }
+  ],
   "posiciones": {
     "lab-004": {
       "valor": 1,
