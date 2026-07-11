@@ -56,6 +56,9 @@ Este documento es el cierre obligatorio, elemento por elemento. Una casilla solo
 - [ ] «Más información» abre una ficha breve en español con definición, ubicación razonada, discriminantes, razones a favor/en contra de la cercanía, cautelas y fuentes, y esa misma ficha contextualiza el resultado del usuario.
 - [ ] Si la persona cae cerca de una corriente sin partido —anarcocapitalismo, ramas anarquistas, posadismo u otra— el resultado la muestra como proximidad doctrinal aunque no exista oferta electoral comparable.
 - [ ] La explicación desglosa cada eje y el porqué de la posición antes de listar partidos cercanos; nunca sustituye ideología por intención de voto ni presenta proximidad como pertenencia.
+- [ ] La brújula principal ligera (visible y expandida de entrada, sin cargar el atlas pesado ni Three.js) diferencia por forma —además de color— posición sólida, provisional y usuario, no dibuja las entidades sin evidencia suficiente y declara cuántas quedaron fuera con su motivo. *(UX-002 hecho para la brújula; queda extenderlo al atlas completo.)*
+- [ ] El atlas completo (`MapaPolitico`) rotula tipográficamente el estado de cada punto —calculada con evidencia suficiente / provisional / referencia doctrinal-editorial / sin datos— igual que la brújula ligera; una región editorial nunca se pinta como calculada, con prueba que lo impida. *(ATLAS-001b, arrastre de UX-002.)*
+- [ ] La brújula deja de mostrar un único punto: se documentan con fuentes primarias las posiciones de partidos en los ítems del contrato Propiedad×Poder hasta poblarla honestamente, sin relajar umbrales para llenarla. *(DATA-005, hallazgo de UX-002: hoy solo CUP supera el contrato.)*
 - [ ] Los planos adicionales y el cubo explican qué miden, qué no miden, cobertura/incertidumbre y por qué pueden discrepar del primer plano.
 - [ ] La limitación metodológica es visible: ejes normativos, datos autodeclarados, cobertura desigual, error de medición, fecha de corte y diferencia entre doctrina, programa, discurso y conducta.
 - [ ] Las corrientes sensibles o violentas usan lenguaje clínico, no gamificado, requieren evidencia combinada y no aparecen en capturas predeterminadas ni como identidad afirmada.
@@ -327,6 +330,7 @@ Cada fila solo se cierra cuando existe expediente primario + académico, contrae
 - [ ] Build real inspeccionado en PC y 320/360/390 px, navegación táctil ≥44 px, sin desbordamientos, CLS ni regresiones del diseño editorial.
 - [ ] Los cuatro `<summary>` de doble marcador (PP, PSOE, VOX y Sumar) reservan espacio real para título y métrica sin solape a 320/360 px, en tema claro y oscuro.
 - [ ] Cada punto interactivo de la brújula ofrece un objetivo táctil medido ≥44×44 CSS px a 320/360/390 px; la forma puede seguir pequeña, pero su hit target y foco no.
+- [ ] Recuperar holgura en el precache PWA: tras la brújula ligera quedó en 3,17/3,20 MiB gzip, sin margen para la siguiente tanda pesada; reducir carga o dividir chunks sin ocultar datos. *(PERF-001, arrastre de UX-002.)*
 - [ ] Arquitectura preparada para una app posterior: lógica/datos compartibles, PWA offline correcta y ningún supuesto irreversible exclusivo del navegador de escritorio.
 
 ## Partidos (65)
