@@ -86,7 +86,7 @@ Los ~6.300 partidos inscritos en el Registro del Ministerio del Interior no requ
 
 Esta sección se actualiza con cada ampliación; el recuento vivo lo da `npm run validate:data`.
 
-El banco contiene **378 registros versionados**: 364 vigentes y 14 retirados que se conservan para trazabilidad. Entre los vigentes hay 255 ítems de eje, 88 solo-matching, 12 seguimientos condicionales y 9 solo-mapa. Toda entrada debe declarar en `notas` qué discrimina, qué coincidencias por motivos distintos son posibles y qué no debe inferirse; el esquema y el validador lo exigen.
+El banco contiene **392 registros versionados**: 378 vigentes y 14 retirados que se conservan para trazabilidad. Entre los vigentes hay 263 ítems de eje, 94 solo-matching, 12 seguimientos condicionales y 9 solo-mapa. Toda entrada debe declarar en `notas` qué discrimina, qué coincidencias por motivos distintos son posibles y qué no debe inferirse; el esquema y el validador lo exigen.
 
 | Módulo | Ítems | Módulo | Ítems |
 |---|---|---|---|
@@ -99,9 +99,9 @@ El banco contiene **378 registros versionados**: 364 vigentes y 14 retirados que
 | territorial-andalucia | 8 | territorial-galicia | 5 |
 | trabajo-estado-sindicatos | 28 | democracia-instituciones | 34 |
 | geopolitica-defensa | 14 | energia-modelo-productivo | 11 |
-| | | limites-antipluralismo | 7 |
+| identidad-cultura | 14 | limites-antipluralismo | 7 |
 
-Balance de polaridad vigente: 243 formulaciones positivas y 121 negativas (~33 % negativas). Sigue siendo una deuda del piloto; no se corrige invirtiendo frases mecánicamente, sino probando equivalencia de marco y retirando duplicados.
+Balance de polaridad vigente: 252 formulaciones positivas y 126 negativas (~33 % negativas). Sigue siendo una deuda del piloto; no se corrige invirtiendo frases mecánicamente, sino probando equivalencia de marco y retirando duplicados.
 
 ### Backlog de huecos conocidos (señalados en revisión, pendientes de futuras tandas)
 
