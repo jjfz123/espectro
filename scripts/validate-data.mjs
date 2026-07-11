@@ -934,6 +934,50 @@ for (const fichero of readdirSync(join(raiz, 'data/sindicatos'))) {
   }
 }
 
+// Campos huérfanos de presentación. La `dobleLectura` es un contrato
+// solo-visualización: cada uno de sus campos debe pintarse en alguna vista.
+// Un campo que exista en los datos pero que ninguna vista de `web/src`
+// referencie sale «pelado» en pantalla —le pasó a `descripcionBase`—, un
+// fallo que ni el esquema ni la integridad referencial detectan. Se caza
+// aquí en CI: si el frontend no menciona un campo de la doble lectura, falla.
+function codigoFrontend(dir) {
+  let texto = '';
+  for (const entrada of readdirSync(dir, { withFileTypes: true })) {
+    const ruta = join(dir, entrada.name);
+    if (entrada.isDirectory()) {
+      if (entrada.name === 'node_modules' || entrada.name === 'dist') continue;
+      texto += codigoFrontend(ruta);
+    } else if (/\.(ts|tsx)$/.test(entrada.name)) {
+      texto += readFileSync(ruta, 'utf8');
+    }
+  }
+  return texto;
+}
+const dirFrontend = join(raiz, 'web/src');
+if (existsSync(dirFrontend)) {
+  const codigoWeb = codigoFrontend(dirFrontend);
+  // Campos de presentación de la doble lectura (se excluyen los contenedores
+  // `contraste` y `posiciones`, que se pintan mediante estructuras propias).
+  const camposPresentacion = new Set();
+  for (const p of partidos) {
+    if (!p.dobleLectura) continue;
+    for (const clave of Object.keys(p.dobleLectura)) {
+      if (clave !== 'contraste') camposPresentacion.add(clave);
+    }
+    for (const clave of Object.keys(p.dobleLectura.contraste ?? {})) {
+      if (clave !== 'posiciones') camposPresentacion.add(clave);
+    }
+  }
+  for (const campo of camposPresentacion) {
+    if (!new RegExp(`\\b${campo}\\b`).test(codigoWeb)) {
+      fallo(
+        'doble lectura',
+        `campo de presentación huérfano: «${campo}» existe en los datos pero ninguna vista de web/src lo pinta`,
+      );
+    }
+  }
+}
+
 if (errores.length > 0) {
   console.error(`✗ ${errores.length} error(es) de validación:\n${errores.join('\n')}`);
   process.exit(1);
