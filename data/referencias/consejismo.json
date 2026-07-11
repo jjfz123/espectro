@@ -212,6 +212,48 @@
         "fecha": "1947",
         "consultado": "2026-07-10"
       }
+    },
+    "lab-016": {
+      "valor": -2,
+      "justificacion": "Pannekoek analiza la propiedad estatal como formación de una nueva clase dirigente de funcionarios que dispone del producto mientras el obrero sigue asalariado: rechaza que las empresas estratégicas las dirija el Estado.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Anton Pannekoek, Public Ownership and Common Ownership (1947, archivo Pannekoek en marxists.org) (en inglés)",
+        "url": "https://www.marxists.org/archive/pannekoe/index.htm",
+        "fecha": "1947",
+        "consultado": "2026-07-11",
+        "cita": "The state officials, forming the new ruling class, have the disposal over the product... whereas the workers receive wages only, thus forming an exploited class (en inglés)"
+      },
+      "grupoEvidencia": "pasaje-7fa1f2ac9640f0d58e25"
+    },
+    "lab-017": {
+      "valor": 2,
+      "justificacion": "En la misma obra, la propiedad común exige la gestión común del trabajo por los propios productores, no ministerios estatales: encaja con transferir las grandes empresas a cooperativas de trabajadores. Pasaje distinto del citado para lab-016.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Anton Pannekoek, Public Ownership and Common Ownership (1947, archivo Pannekoek en marxists.org) (en inglés)",
+        "url": "https://www.marxists.org/archive/pannekoe/index.htm",
+        "fecha": "1947",
+        "consultado": "2026-07-11",
+        "cita": "Common ownership demands common management of the work as well as common productive activity (en inglés)"
+      },
+      "grupoEvidencia": "pasaje-5058939b098cd29451bf"
+    },
+    "izq-005": {
+      "valor": 1,
+      "justificacion": "El conjunto de productores es dueño de los medios en un sistema de producción social planificada; pero el adjetivo \"pública\" del ítem designa el modelo estatal que Pannekoek rechaza, no la autogestión de los consejos: acuerdo parcial, de ahí +1. Pasaje distinto de la misma obra.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Anton Pannekoek, Public Ownership and Common Ownership (1947, archivo Pannekoek en marxists.org) (en inglés)",
+        "url": "https://www.marxists.org/archive/pannekoe/index.htm",
+        "fecha": "1947",
+        "consultado": "2026-07-11",
+        "cita": "the entirety of producers is master of the means of production and works them in a well planned system of social production (en inglés)"
+      },
+      "grupoEvidencia": "pasaje-332787ac60d2dc90812c"
     }
   }
 }
