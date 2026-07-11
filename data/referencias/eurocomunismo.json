@@ -7,7 +7,11 @@
   "periodo": "1973 (compromiso histórico de Berlinguer) – 1977 (Eurocomunismo y Estado) – Constitución española de 1978",
   "confianza": "verificada",
   "version": "1.0",
-  "revisado": "2026-07-10",
+  "revisado": "2026-07-11",
+  "publicacionMapa": {
+    "publicable": false,
+    "motivo": "La referencia conserva valor para el matching doctrinal, pero sus cuatro posiciones económicas cargadas miden sobre todo el rechazo a la expropiación inmediata y el sector privado transitorio; proyectarla ahora en el macroplano la desplaza artificialmente a la derecha."
+  },
   "facetasDefinitorias": ["metodo-cambio", "institucionalismo", "internacionalismo", "economico"],
   "sensibilidad": "normal",
   "advertencia": "Es un tipo ideal doctrinal histórico de 1977, no la ficha del PCE actual: el PCE contemporáneo, integrado en IU y en Sumar, tiene perfil propio con fuentes y posiciones de hoy, más críticas con la UE y la OTAN que este momento fundacional. El eurocomunismo no fue homogéneo: Berlinguer declaró en 1976 sentirse «más seguro» permaneciendo en la OTAN, mientras el PCE de Carrillo mantuvo en España una campaña histórica contraria al ingreso en la Alianza Atlántica; esta referencia documenta la doctrina común (democracia pluralista, ruptura con Moscú) y señala esa divergencia interna como parte honesta del cuadro, no la resuelve a favor de una única posición nacional.",
@@ -21,7 +25,7 @@
     },
     {
       "tipo": "declaracion",
-      "titulo": "Enrico Berlinguer, entrevista con Giampaolo Pansa, Corriere della Sera, 15 de junio de 1976 (archivo Enrico Berlinguer)",
+      "titulo": "Enrico Berlinguer, entrevista con Giampaolo Pansa, Corriere della Sera, 15 de junio de 1976 (archivo Enrico Berlinguer) (en italiano)",
       "url": "https://www.enricoberlinguer.it/enrico/le-idee/l%E2%80%99impegno-per-la-pace/mi-sento-piu-sicuro-nel-patto-atlantico/",
       "fecha": "1976-06-15",
       "consultado": "2026-07-10"
@@ -99,7 +103,7 @@
       "calidadEvidencia": "media",
       "fuente": {
         "tipo": "declaracion",
-        "titulo": "Enrico Berlinguer, entrevista con Giampaolo Pansa",
+        "titulo": "Enrico Berlinguer, entrevista con Giampaolo Pansa (en italiano)",
         "url": "https://www.enricoberlinguer.it/enrico/le-idee/l%E2%80%99impegno-per-la-pace/mi-sento-piu-sicuro-nel-patto-atlantico/",
         "fecha": "1976-06-15",
         "consultado": "2026-07-10",

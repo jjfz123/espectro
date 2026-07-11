@@ -1,0 +1,137 @@
+{
+  "id": "aceleracionismo-neonazi",
+  "nombre": "Aceleracionismo neonazi (arquetipo de riesgo)",
+  "tipo": "referencia-doctrinal",
+  "definicion": "Corriente supremacista blanca y neonazi que pretende acelerar el colapso de la democracia y de la sociedad mediante violencia terrorista para desencadenar una guerra racial y construir después un etnoestado fascista. Se modela como patrón de riesgo no electoral, no como organización o identidad ofrecida al usuario.",
+  "variante": "Aceleracionismo militante asociado a la llamada cultura Siege y a redes descentralizadas como Atomwaffen Division o The Base; no equivale a toda extrema derecha ni a todo rechazo del sistema",
+  "periodo": "Década de 2010–actualidad",
+  "confianza": "verificada",
+  "version": "1.0",
+  "revisado": "2026-07-11",
+  "publicacionMapa": {
+    "publicable": false,
+    "motivo": "La corriente define con claridad violencia, supremacismo y antipluralismo, pero no un programa económico coherente. Colocarla como un punto preciso en Economía × Sociedad inventaría su coordenada horizontal; permanece en el matching doctrinal sensible y en sus facetas propias."
+  },
+  "facetasDefinitorias": [
+    "uso-fuerza",
+    "pluralismo-institucional",
+    "organizacion",
+    "social"
+  ],
+  "sensibilidad": "violenta",
+  "advertencia": "Esta referencia describe una corriente vinculada al terrorismo supremacista. No es una candidatura, no muestra símbolos, materiales ni procedimientos y nunca debe presentarse como resultado lúdico o pertenencia personal. Una respuesta aislada no permite inferir delito, militancia ni intención violenta; la comparación solo señala actitudes declaradas y exige el umbral más alto del catálogo.",
+  "fuentesMarco": [
+    {
+      "tipo": "otro",
+      "titulo": "Gobierno del Reino Unido: organizaciones terroristas proscritas — Atomwaffen Division (en inglés)",
+      "url": "https://www.gov.uk/government/publications/proscribed-terror-groups-or-organisations--2/proscribed-terrorist-groups-or-organisations-accessible-version",
+      "fecha": "2026-07-07",
+      "consultado": "2026-07-11"
+    },
+    {
+      "tipo": "otro",
+      "titulo": "Ministerio del Interior: primera célula terrorista aceleracionista detectada en España",
+      "url": "https://www.interior.gob.es/opencms/es/detalle/articulo/La-Policia-Nacional-desarticula-la-primera-celula-terrorista-de-caracter-aceleracionista-detectada-en-Espana/",
+      "fecha": "2025-12-01",
+      "consultado": "2026-07-11"
+    },
+    {
+      "tipo": "otro",
+      "titulo": "Atomwaffen Division: el intento de crear una célula en España (elDiario.es)",
+      "url": "https://www.eldiario.es/catalunya/atomwaffen-division-grupo-neonazi-pretendia-instalarse-pasar-accion-espana_1_12869109.html",
+      "fecha": "2025-12-25",
+      "consultado": "2026-07-11"
+    }
+  ],
+  "reglaPublicacion": {
+    "minimoItems": 7,
+    "minimoCobertura": 0.85,
+    "umbralAfinidad": 92
+  },
+  "posiciones": {
+    "lim-002": {
+      "valor": 2,
+      "justificacion": "La definición oficial británica identifica como núcleo de esta corriente provocar mediante violencia el colapso de la sociedad moderna para abrir una guerra racial y construir un etnoestado fascista.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Gobierno del Reino Unido: organizaciones terroristas proscritas — Atomwaffen Division (en inglés)",
+        "url": "https://www.gov.uk/government/publications/proscribed-terror-groups-or-organisations--2/proscribed-terrorist-groups-or-organisations-accessible-version",
+        "fecha": "2026-07-07",
+        "consultado": "2026-07-11"
+      }
+    },
+    "lim-003": {
+      "valor": 2,
+      "justificacion": "Las fuentes institucionales describen una red clandestina de pequeñas células cuya finalidad es cometer atentados y colapsar instituciones democráticas; la violencia armada no es accesoria, sino el método político principal.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Ministerio del Interior: primera célula terrorista aceleracionista detectada en España",
+        "url": "https://www.interior.gob.es/opencms/es/detalle/articulo/La-Policia-Nacional-desarticula-la-primera-celula-terrorista-de-caracter-aceleracionista-detectada-en-Espana/",
+        "fecha": "2025-12-01",
+        "consultado": "2026-07-11"
+      }
+    },
+    "lim-005": {
+      "valor": 2,
+      "justificacion": "El objetivo declarado es sustituir la democracia por un etnoestado fascista surgido de una guerra racial, incompatible con conservar derechos de asociación y expresión para una oposición plural.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Gobierno del Reino Unido: organizaciones terroristas proscritas — Atomwaffen Division (en inglés)",
+        "url": "https://www.gov.uk/government/publications/proscribed-terror-groups-or-organisations--2/proscribed-terrorist-groups-or-organisations-accessible-version",
+        "fecha": "2026-07-07",
+        "consultado": "2026-07-11"
+      }
+    },
+    "lim-006": {
+      "valor": -2,
+      "justificacion": "La promoción del terrorismo contra personas consideradas enemigas y de una guerra racial niega expresamente la salvaguarda de población civil, crítica pública y pluralismo que formula el ítem.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Atomwaffen Division: el intento de crear una célula en España (elDiario.es)",
+        "url": "https://www.eldiario.es/catalunya/atomwaffen-division-grupo-neonazi-pretendia-instalarse-pasar-accion-espana_1_12869109.html",
+        "fecha": "2025-12-25",
+        "consultado": "2026-07-11"
+      }
+    },
+    "lim-007": {
+      "valor": 2,
+      "justificacion": "La construcción de un etnoestado blanco y la preparación de una guerra racial subordinan la pertenencia y los derechos políticos al origen étnico.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Gobierno del Reino Unido: organizaciones terroristas proscritas — Atomwaffen Division (en inglés)",
+        "url": "https://www.gov.uk/government/publications/proscribed-terror-groups-or-organisations--2/proscribed-terrorist-groups-or-organisations-accessible-version",
+        "fecha": "2026-07-07",
+        "consultado": "2026-07-11"
+      }
+    },
+    "dr-024": {
+      "valor": 2,
+      "justificacion": "La corriente pretende destruir las instituciones democráticas para instaurar un orden fascista y supremacista, por lo que no trata el autoritarismo como excepción temporal sino como objetivo.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Ministerio del Interior: primera célula terrorista aceleracionista detectada en España",
+        "url": "https://www.interior.gob.es/opencms/es/detalle/articulo/La-Policia-Nacional-desarticula-la-primera-celula-terrorista-de-caracter-aceleracionista-detectada-en-Espana/",
+        "fecha": "2025-12-01",
+        "consultado": "2026-07-11"
+      }
+    },
+    "dr-025": {
+      "valor": -2,
+      "justificacion": "La violencia terrorista se presenta como catalizador necesario del colapso y de la guerra racial; es la negación directa de que nunca sea legítima para fines políticos.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Gobierno del Reino Unido: organizaciones terroristas proscritas — Atomwaffen Division (en inglés)",
+        "url": "https://www.gov.uk/government/publications/proscribed-terror-groups-or-organisations--2/proscribed-terrorist-groups-or-organisations-accessible-version",
+        "fecha": "2026-07-07",
+        "consultado": "2026-07-11"
+      }
+    }
+  }
+}

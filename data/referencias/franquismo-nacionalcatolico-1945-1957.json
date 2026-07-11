@@ -1,0 +1,253 @@
+{
+  "id": "franquismo-nacionalcatolico-1945-1957",
+  "nombre": "Franquismo nacionalcatólico (1945-1957)",
+  "tipo": "referencia-doctrinal",
+  "definicion": "Tipo ideal de la fase nacionalcatólica de la dictadura franquista posterior a la derrota del Eje: Estado oficialmente católico, jefatura personal de Franco con sucesión monárquica no electiva, Cortes orgánicas sin pluralismo de partidos, centralización territorial, sindicato vertical único y subordinación de las libertades civiles y de la enseñanza a los principios del régimen.",
+  "variante": "Fase nacionalcatólica delimitada entre el Fuero de los Españoles de 1945 y el giro tecnocrático de 1957; conserva instituciones anteriores que siguieron vigentes, pero no se confunde con el proyecto propio de FE de las JONS de 1934, con el carlismo tradicionalista ni con el desarrollismo posterior",
+  "periodo": "1945-1957",
+  "confianza": "verificada",
+  "version": "1.0",
+  "revisado": "2026-07-11",
+  "publicacionMapa": {
+    "publicable": false,
+    "motivo": "La referencia está sólidamente anclada en religión, pluralismo, representación orgánica y organización sindical, pero el banco actual no cubre con suficiente equilibrio la política económica específica de esta fase; publicarla en el plano macro inventaría precisión horizontal."
+  },
+  "facetasDefinitorias": [
+    "laicismo",
+    "tradicion-moral",
+    "monarquia",
+    "pluralismo-institucional",
+    "institucionalismo",
+    "organizacion",
+    "modelo-territorial"
+  ],
+  "sensibilidad": "violenta",
+  "advertencia": "Es una referencia histórica de una dictadura que persiguió la oposición política y a colectivos sociales; no es una candidatura ni una etiqueta personal para el usuario. La fase se separa porque desde 1945 la legitimación nacionalcatólica desplazó parcialmente la retórica fascista del primer franquismo, aunque continuaron vigentes el partido único, las Cortes orgánicas y el sindicato vertical creados antes. Una coincidencia parcial nunca permite atribuir apoyo al franquismo, justificar su represión ni equiparar entre sí Falange, carlismo y nacionalcatolicismo.",
+  "fuentesMarco": [
+    {
+      "tipo": "otro",
+      "titulo": "Guillermo Valiente Rosell, Totalitarismo y nacional-catolicismo en el régimen de Franco. 1939-1957 (Historia Digital)",
+      "url": "https://dialnet.unirioja.es/servlet/articulo?codigo=4923814",
+      "fecha": "2015",
+      "consultado": "2026-07-11"
+    },
+    {
+      "tipo": "otro",
+      "titulo": "Congreso de los Diputados, Dictadura del General Franco: las Cortes Españolas (1943-1977)",
+      "url": "https://www.congreso.es/es/cem/cortesp",
+      "consultado": "2026-07-11"
+    },
+    {
+      "tipo": "otro",
+      "titulo": "Fuero de los Españoles, Boletín Oficial del Estado",
+      "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1945-7244",
+      "fecha": "1945-07-17",
+      "consultado": "2026-07-11"
+    },
+    {
+      "tipo": "otro",
+      "titulo": "Ley de Sucesión en la Jefatura del Estado, Boletín Oficial del Estado",
+      "url": "https://www.boe.es/gazeta/dias/1947/06/09/pdfs/BOE-1947-160.pdf",
+      "fecha": "1947-06-08",
+      "consultado": "2026-07-11"
+    },
+    {
+      "tipo": "otro",
+      "titulo": "Fuero del Trabajo, Boletín Oficial del Estado",
+      "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1938-3093",
+      "fecha": "1938-03-09",
+      "consultado": "2026-07-11"
+    },
+    {
+      "tipo": "otro",
+      "titulo": "Ley de Unidad Sindical, Boletín Oficial del Estado",
+      "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1940-1060",
+      "fecha": "1940-01-26",
+      "consultado": "2026-07-11"
+    }
+  ],
+  "reglaPublicacion": {
+    "minimoItems": 12,
+    "minimoCobertura": 0.65,
+    "umbralAfinidad": 82
+  },
+  "posiciones": {
+    "der-001": {
+      "valor": -2,
+      "justificacion": "El Fuero del Trabajo define un Estado que subordina la economía a su política y organiza producción, trabajo y sindicatos; es incompatible con reducirlo a seguridad, justicia y poco más.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Fuero del Trabajo, preámbulo y declaraciones XI-XIII, Boletín Oficial del Estado",
+        "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1938-3093",
+        "fecha": "1938-03-09",
+        "consultado": "2026-07-11"
+      }
+    },
+    "der-002": {
+      "valor": 2,
+      "justificacion": "El Fuero de los Españoles declara católico al Estado y la legislación educativa de 1945 sitúa la formación cristiana como fundamento de la escuela nacional; la moral católica no era una preferencia privada, sino principio legislativo.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Ley de Educación Primaria de 17 de julio de 1945, Boletín Oficial del Estado",
+        "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1945-7246",
+        "fecha": "1945-07-17",
+        "consultado": "2026-07-11"
+      }
+    },
+    "der-005": {
+      "valor": 2,
+      "justificacion": "La Ley de Sucesión define España como una única unidad política y el régimen carecía de autonomías territoriales; cualquier reivindicación autonómica quedaba subordinada a esa unidad estatal.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Ley de Sucesión en la Jefatura del Estado, artículo primero, Boletín Oficial del Estado",
+        "url": "https://www.boe.es/gazeta/dias/1947/06/09/pdfs/BOE-1947-160.pdf",
+        "fecha": "1947-06-08",
+        "consultado": "2026-07-11"
+      }
+    },
+    "lai-001": {
+      "valor": -2,
+      "justificacion": "La Ley de Educación Primaria de 1945 configura una escuela de fundamento católico y enseñanza religiosa, lo contrario de sacar la religión del horario lectivo público.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Ley de Educación Primaria de 17 de julio de 1945, Boletín Oficial del Estado",
+        "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1945-7246",
+        "fecha": "1945-07-17",
+        "consultado": "2026-07-11"
+      }
+    },
+    "dr-011": {
+      "valor": 2,
+      "justificacion": "El artículo sexto del Fuero de los Españoles establece de forma expresa que la religión católica es la del Estado; es una coincidencia literal con la confesionalidad del enunciado.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Fuero de los Españoles, artículo sexto, Boletín Oficial del Estado",
+        "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1945-7244",
+        "fecha": "1945-07-17",
+        "consultado": "2026-07-11"
+      }
+    },
+    "rel-002": {
+      "valor": -2,
+      "justificacion": "El Estado no era aconfesional: profesaba oficialmente el catolicismo y el Fuero de 1945 impedía otras ceremonias o manifestaciones religiosas externas.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Fuero de los Españoles, artículo sexto, Boletín Oficial del Estado",
+        "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1945-7244",
+        "fecha": "1945-07-17",
+        "consultado": "2026-07-11"
+      }
+    },
+    "mon-001": {
+      "valor": -2,
+      "justificacion": "La Ley de Sucesión declara España constituida en Reino, mantiene a Franco de por vida en la Jefatura del Estado y le atribuye proponer a su sucesor como Rey o Regente; la ciudadanía no elige la jefatura.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Ley de Sucesión en la Jefatura del Estado, artículos primero, segundo y sexto, Boletín Oficial del Estado",
+        "url": "https://www.boe.es/gazeta/dias/1947/06/09/pdfs/BOE-1947-160.pdf",
+        "fecha": "1947-06-08",
+        "consultado": "2026-07-11"
+      }
+    },
+    "dem-010": {
+      "valor": -2,
+      "justificacion": "Las Cortes de la dictadura funcionaron sin sufragio universal ni partidos políticos; no existía competencia plural ni una oposición con posibilidad legal de alternancia.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Congreso de los Diputados, Dictadura del General Franco: las Cortes Españolas (1943-1977)",
+        "url": "https://www.congreso.es/es/cem/cortesp",
+        "consultado": "2026-07-11"
+      }
+    },
+    "dem-011": {
+      "valor": 2,
+      "justificacion": "El régimen sustituyó el parlamentarismo liberal por unas Cortes orgánicas subordinadas a la jefatura de Franco; no se planteaba como reforma parcial del sistema de partidos.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Congreso de los Diputados, Dictadura del General Franco: las Cortes Españolas (1943-1977)",
+        "url": "https://www.congreso.es/es/cem/cortesp",
+        "consultado": "2026-07-11"
+      }
+    },
+    "dem-018": {
+      "valor": 2,
+      "justificacion": "La Ley de Cortes compuso la cámara mediante cargos del régimen y procuradores de la Organización Sindical, la administración local, universidades y corporaciones profesionales, no mediante competencia entre partidos.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Ley de creación de las Cortes Españolas, artículo segundo, Boletín Oficial del Estado",
+        "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1942-6528",
+        "fecha": "1942-07-17",
+        "consultado": "2026-07-11"
+      }
+    },
+    "dem-019": {
+      "valor": 2,
+      "justificacion": "El régimen carecía de pluralismo de partidos y encuadraba sus familias bajo el Movimiento dirigido por Franco; la competencia permanente entre organizaciones políticas quedaba excluida.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Congreso de los Diputados, Dictadura del General Franco: las Cortes Españolas (1943-1977)",
+        "url": "https://www.congreso.es/es/cem/cortesp",
+        "consultado": "2026-07-11"
+      }
+    },
+    "dr-014": {
+      "valor": 2,
+      "justificacion": "El Fuero del Trabajo y la Ley de Unidad Sindical integran a empresarios, técnicos y trabajadores por ramas de producción en la Organización Sindical sometida a la dirección estatal.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Ley de Unidad Sindical, Boletín Oficial del Estado",
+        "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1940-1060",
+        "fecha": "1940-01-26",
+        "consultado": "2026-07-11"
+      }
+    },
+    "lab-005": {
+      "valor": -2,
+      "justificacion": "La unidad sindical obligatoria y el encuadramiento en la Organización Sindical del régimen excluyen la independencia de los sindicatos respecto del Estado y del Movimiento.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Ley de Unidad Sindical, Boletín Oficial del Estado",
+        "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1940-1060",
+        "fecha": "1940-01-26",
+        "consultado": "2026-07-11"
+      }
+    },
+    "lab-006": {
+      "valor": 2,
+      "justificacion": "La Ley de Unidad Sindical impuso una organización única por ramas de producción e incorporada a la arquitectura política y económica del Estado.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Ley de Unidad Sindical, Boletín Oficial del Estado",
+        "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1940-1060",
+        "fecha": "1940-01-26",
+        "consultado": "2026-07-11"
+      }
+    },
+    "soc-001": {
+      "valor": -2,
+      "justificacion": "La reforma de la Ley de Vagos y Maleantes de 1954 clasificó expresamente a las personas homosexuales como peligrosas y permitió su internamiento y vigilancia; es incompatible con proteger legalmente los derechos LGTB.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Ley de 15 de julio de 1954 que reforma la Ley de Vagos y Maleantes, Boletín Oficial del Estado",
+        "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1954-10923",
+        "fecha": "1954-07-15",
+        "consultado": "2026-07-11"
+      }
+    }
+  }
+}

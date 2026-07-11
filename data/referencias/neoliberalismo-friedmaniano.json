@@ -1,0 +1,184 @@
+{
+  "id": "neoliberalismo-friedmaniano",
+  "nombre": "Neoliberalismo friedmaniano",
+  "tipo": "referencia-doctrinal",
+  "definicion": "Tipo ideal de la rama liberal de mercado asociada a la Sociedad Mont Pelerin y Milton Friedman: propiedad privada, competencia y precios descentralizados frente a planificación, desregulación de entradas profesionales y empresariales, elección financiada en servicios como educación y un Estado limitado pero responsable del marco jurídico, monetario y competitivo.",
+  "variante": "Friedman y la rama liberal estadounidense de Mont Pelerin; no representa por sí sola el ordoliberalismo, el conservadurismo moral de Thatcher o Reagan, el autoritarismo de los Chicago Boys ni todo el Consenso de Washington",
+  "periodo": "1947-2006",
+  "confianza": "verificada",
+  "version": "1.0",
+  "revisado": "2026-07-11",
+  "facetasDefinitorias": ["economico", "estatismo", "libertades-civiles", "pluralismo-institucional", "internacionalismo"],
+  "sensibilidad": "normal",
+  "advertencia": "Es una referencia doctrinal, no una ficha de gobiernos que aplicaron políticas llamadas neoliberales ni una identidad que se asigne al usuario. El adjetivo «friedmaniano» es imprescindible: la familia neoliberal se ha combinado históricamente tanto con liberalismo cultural como con conservadurismo moral y autoritarismo. Las cuatro posiciones sociales proceden de declaraciones específicas de Friedman sobre igualdad jurídica, drogas, inmigración y rechazo a cuotas, no se extrapolan a todo neoliberalismo. Su inmigración abierta estaba condicionada por su oposición al Estado de bienestar, por lo que se modera a +1; oponerse a cuotas se presenta como igualdad formal y autonomía empresarial, no como oposición a la igualdad de las mujeres.",
+  "fuentesMarco": [
+    {
+      "tipo": "otro",
+      "titulo": "Mont Pelerin Society, Statement of Aims (en inglés)",
+      "url": "https://montpelerin.org/statement-of-aims/",
+      "fecha": "1947-04-08",
+      "consultado": "2026-07-11"
+    },
+    {
+      "tipo": "otro",
+      "titulo": "Hoover Institution, Milton Friedman on Old-School Liberalism (en inglés)",
+      "url": "https://www.hoover.org/research/milton-friedman-old-school-liberalism",
+      "consultado": "2026-07-11"
+    },
+    {
+      "tipo": "otro",
+      "titulo": "Nancy Birdsall, Augusto de la Torre y Felipe Valencia Caicedo, The Washington Consensus: Assessing a Damaged Brand (Center for Global Development) (en inglés)",
+      "url": "https://www.cgdev.org/sites/default/files/1424155_file_Birdsall_Torre_Caicedo_Assessing_the_WC_FINAL_0.pdf",
+      "fecha": "2011",
+      "consultado": "2026-07-11"
+    }
+  ],
+  "reglaPublicacion": {
+    "minimoItems": 11,
+    "minimoCobertura": 0.5,
+    "umbralAfinidad": 76
+  },
+  "posiciones": {
+    "der-001": {
+      "valor": 1,
+      "justificacion": "Friedman defiende un gobierno limitado que preserve libertad, competencia y reglas generales, pero conserva funciones monetarias, de defensa de la competencia, externalidades y protección de menores. Es más amplio que «seguridad, justicia y poco más», de ahí +1 y no +2.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Hoover Institution, Milton Friedman on Old-School Liberalism (en inglés)",
+        "url": "https://www.hoover.org/research/milton-friedman-old-school-liberalism",
+        "consultado": "2026-07-11"
+      }
+    },
+    "eco-002": {
+      "valor": 2,
+      "justificacion": "Friedman asigna atención médica individual y seguros a elección y provisión privadas, reservando al Estado las funciones de salud pública justificadas por externalidades. Confía expresamente en gestión privada y competencia para la eficiencia del servicio.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Hoover Institution, Milton Friedman on Old-School Liberalism (en inglés)",
+        "url": "https://www.hoover.org/research/milton-friedman-old-school-liberalism",
+        "consultado": "2026-07-11"
+      }
+    },
+    "lib-004": {
+      "valor": 2,
+      "justificacion": "El cheque escolar financiado públicamente para que las familias elijan proveedor público o privado es una propuesta explícita y emblemática de Friedman desde 1955.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Milton Friedman, Education and the State, Collected Works, Hoover Institution (en inglés)",
+        "url": "https://miltonfriedman.hoover.org/objects/53086/education-and-the-state",
+        "fecha": "1955-06-23",
+        "consultado": "2026-07-11"
+      }
+    },
+    "lib-007": {
+      "valor": 2,
+      "justificacion": "Friedman denuncia la licencia profesional obligatoria como barrera de entrada y monopolio de productores; suprimir la colegiación obligatoria aplica directamente ese principio.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Hoover Institution, Occupational Licensing: A Bad Idea (en inglés)",
+        "url": "https://www.hoover.org/research/occupational-licensing-bad-idea",
+        "consultado": "2026-07-11"
+      }
+    },
+    "izq-005": {
+      "valor": -2,
+      "justificacion": "El núcleo de Mont Pelerin contrapone propiedad privada, precios competitivos y poder disperso a la planificación pública central. Sustituir el mercado en sectores estratégicos invierte su mecanismo general de coordinación.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Mont Pelerin Society, Statement of Aims (en inglés)",
+        "url": "https://montpelerin.org/statement-of-aims/",
+        "fecha": "1947-04-08",
+        "consultado": "2026-07-11"
+      }
+    },
+    "lib-008": {
+      "valor": 2,
+      "justificacion": "Eliminar cupos de taxi y VTC es una aplicación contemporánea directa de libre entrada, competencia y rechazo a licencias que protegen al productor establecido. El transporte concreto es posterior, por lo que la evidencia del principio es alta y la aplicación, media.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Mont Pelerin Society, Statement of Aims; Hoover Institution, Occupational Licensing: A Bad Idea (en inglés)",
+        "url": "https://montpelerin.org/statement-of-aims/",
+        "fecha": "1947-04-08",
+        "consultado": "2026-07-11"
+      }
+    },
+    "der-004": {
+      "valor": -2,
+      "justificacion": "La tradición promueve mercados internacionales abiertos y competencia, no aranceles protectores para preservar producción nacional. El Consenso de Washington hizo de la liberalización comercial uno de sus componentes explícitos.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Birdsall, De la Torre y Valencia Caicedo, The Washington Consensus: Assessing a Damaged Brand (en inglés)",
+        "url": "https://www.cgdev.org/sites/default/files/1424155_file_Birdsall_Torre_Caicedo_Assessing_the_WC_FINAL_0.pdf",
+        "fecha": "2011",
+        "consultado": "2026-07-11"
+      }
+    },
+    "dem-008": {
+      "valor": 2,
+      "justificacion": "Mont Pelerin sitúa el Estado de derecho, el gobierno limitado, los contrapesos y reglas generales por encima de la voluntad política coyuntural; acepta que esas garantías retrasen una decisión mayoritaria.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Mont Pelerin Society, Statement of Aims (en inglés)",
+        "url": "https://montpelerin.org/statement-of-aims/",
+        "fecha": "1947-04-08",
+        "consultado": "2026-07-11"
+      }
+    },
+    "lim-007": {
+      "valor": -2,
+      "justificacion": "Friedman afirma que nacimiento, nacionalidad, color, religión o sexo no deben determinar oportunidades ni derechos, y defiende igualdad ante la ley. Hacer depender derechos políticos del origen étnico contradice directamente esa igualdad formal.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Milton y Rose Friedman, What Does Created Equal Mean?, Free to Choose, Hoover Institution (en inglés)",
+        "url": "https://www.hoover.org/research/what-does-created-equal-mean",
+        "fecha": "1980",
+        "consultado": "2026-07-11"
+      }
+    },
+    "lib-009": {
+      "valor": 2,
+      "justificacion": "Friedman defendió expresamente legalizar las drogas y tratarlas mediante libertad personal y regulación ordinaria, citando la experiencia neerlandesa del cannabis. La venta regulada a adultos es más moderada que su propia propuesta.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Milton Friedman y James Q. Wilson, High and Mighty: The War on Drugs, Hoover Institution (en inglés)",
+        "url": "https://www.hoover.org/research/high-and-mighty-war-drugs",
+        "fecha": "2000-12-13",
+        "consultado": "2026-07-11"
+      }
+    },
+    "lib-018": {
+      "valor": 1,
+      "justificacion": "Friedman defendía la inmigración abierta como principio y consideraba beneficiosa la movilidad laboral, pero la condicionaba a que no diera acceso automático al Estado de bienestar. Ampliar visados para quien tiene oferta encaja claramente, aunque esa condición impide +2.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Milton Friedman, The Romance of Economics, entrevista, Hoover Institution (en inglés)",
+        "url": "https://www.hoover.org/research/romance-economics",
+        "fecha": "2006-10-30",
+        "consultado": "2026-07-11"
+      }
+    },
+    "fem-010": {
+      "valor": -1,
+      "justificacion": "Su igualdad es jurídica y de oportunidad, mientras rechaza que el Estado imponga resultados y decisiones de contratación a empresas privadas. Por ello se opone moderadamente a cuotas legales en consejos; el valor no expresa rechazo a la igualdad de las mujeres.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Milton y Rose Friedman, What Does Created Equal Mean?, Free to Choose, Hoover Institution (en inglés)",
+        "url": "https://www.hoover.org/research/what-does-created-equal-mean",
+        "fecha": "1980",
+        "consultado": "2026-07-11"
+      }
+    }
+  }
+}

@@ -390,5 +390,15 @@
     "tags": ["confederalismo", "derecho-de-salida", "secesion"],
     "estado": "piloto",
     "notas": "Separa confederación con retirada jurídicamente prevista de federalismo profundo o pacto confederal irreversible. No pregunta si sería políticamente conveniente ejercerla ni legitima por sí sola una ruptura fuera de la ley."
+  },
+  {
+    "id": "dem-036",
+    "texto": "Debería existir un voto en blanco computable como una candidatura que, al obtener representación, dejara esos escaños vacíos.",
+    "modulo": "democracia-instituciones",
+    "ejes": [],
+    "polaridad": "positiva",
+    "tags": ["voto-en-blanco", "escanos-vacios", "representacion"],
+    "estado": "piloto",
+    "notas": "Ítem solo-matching para detectar apoyo a una reforma electoral monotemática sin atribuirle por ello una ideología general, rechazo integral del parlamentarismo ni posiciones sobre otros asuntos."
   }
 ]

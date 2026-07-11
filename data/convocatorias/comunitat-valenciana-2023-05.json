@@ -303,7 +303,7 @@
         {
           "perfilId": "escanos-en-blanco",
           "relacion": "misma-organizacion",
-          "nota": "Perfil sin posiciones codificadas (sin-datos razonado): partido de programa único cuyo punto programático no tiene ítem en el banco; se lista sin participar en el matching."
+          "nota": "Perfil monotemático verificado: su único punto se compara mediante dem-036 en un bloque específico, sin convertir esa coincidencia en un porcentaje de afinidad general."
         }
       ],
       "nota": "Naturaleza inventariada: partido. Vigencia comprobada: posterior-verificada. Tratamiento previsto: perfil-reutilizable."

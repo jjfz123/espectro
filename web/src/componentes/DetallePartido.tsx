@@ -173,7 +173,7 @@ export function DetalleAfinidad({
             ítems que marcaste como importantes pesan el doble en el porcentaje.
           </p>
 
-          {lecturaContraste ? <h4>{lecturaContraste.etiquetaBase}</h4> : null}
+          {lecturaContraste ? <h3>{lecturaContraste.etiquetaBase}</h3> : null}
           <TablaDetalle
             resultado={resultado}
             posiciones={entidad.posiciones}
@@ -181,8 +181,11 @@ export function DetalleAfinidad({
           />
 
           {lecturaContraste ? (
-            <section className="lectura-contraste" aria-label={lecturaContraste.etiqueta}>
-              <h4>{lecturaContraste.etiqueta}</h4>
+            <section
+              className="lectura-contraste"
+              aria-label={`${lecturaContraste.etiqueta}: ${nombrePerfil(entidad)}`}
+            >
+              <h3>{lecturaContraste.etiqueta}</h3>
               <p>{lecturaContraste.descripcion}</p>
               <p className="lectura-contraste__aviso">{lecturaContraste.advertencia}</p>
               <TablaDetalle

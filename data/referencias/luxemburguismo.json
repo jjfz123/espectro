@@ -1,0 +1,347 @@
+{
+  "id": "luxemburguismo",
+  "nombre": "Luxemburguismo",
+  "tipo": "referencia-doctrinal",
+  "definicion": "Tipo ideal del marxismo revolucionario democrático asociado a Rosa Luxemburg: combina ruptura con el capitalismo, huelga de masas, socialización de la gran propiedad y poder de consejos revocables con participación política de las masas, elecciones, libertad de prensa, asociación y crítica también durante la transición socialista.",
+  "variante": "Síntesis del programa espartaquista de 1918 y de la crítica de Luxemburg a la supresión bolchevique de libertades; no equivale a todo uso posterior del adjetivo luxemburguista",
+  "periodo": "1898-1919",
+  "confianza": "verificada",
+  "version": "1.0",
+  "revisado": "2026-07-11",
+  "facetasDefinitorias": [
+    "metodo-cambio",
+    "organizacion",
+    "poder-laboral",
+    "pluralismo-institucional",
+    "democracia-directa",
+    "economico",
+    "internacionalismo"
+  ],
+  "sensibilidad": "normal",
+  "advertencia": "Es una reconstrucción histórica de textos escritos en condiciones revolucionarias alemanas y rusas, no una ficha de un partido español contemporáneo ni una atribución de militancia. Luxemburg defendió una revolución de consejos y la socialización de la gran propiedad, pero también denunció el gobierno de una minoría de dirigentes, la supresión de elecciones, prensa, reunión y oposición, y el terror como sustituto de la actividad política de masas. Su crítica del derecho estatal de autodeterminación respondía a los imperios y a la guerra de 1914-1918 y no se traslada mecánicamente a cada conflicto territorial actual.",
+  "fuentesMarco": [
+    {
+      "tipo": "programa",
+      "titulo": "Rosa Luxemburg, What Does the Spartacus League Want? (en inglés)",
+      "url": "https://www.rosalux.de/stiftung/rosa-luxemburg-1/what-does-the-spartacus-league-want",
+      "fecha": "1918-12-14",
+      "consultado": "2026-07-11"
+    },
+    {
+      "tipo": "otro",
+      "titulo": "Rosa Luxemburg, On the Russian Revolution (en inglés)",
+      "url": "https://www.rosalux.de/stiftung/rosa-luxemburg-1/on-the-russian-revolution",
+      "fecha": "1918",
+      "consultado": "2026-07-11"
+    },
+    {
+      "tipo": "otro",
+      "titulo": "Rosa Luxemburg, The Mass Strike, the Political Party and the Trade Unions (en inglés)",
+      "url": "https://www.marxists.org/archive/luxemburg/1906/mass-strike/index.htm",
+      "fecha": "1906",
+      "consultado": "2026-07-11"
+    },
+    {
+      "tipo": "declaracion",
+      "titulo": "Rosa Luxemburg, The Election of the Constituent Assembly (en inglés)",
+      "url": "https://www.rosalux.de/stiftung/rosa-luxemburg-1/the-election-of-the-constituent-assembly",
+      "fecha": "1918-12-23",
+      "consultado": "2026-07-11"
+    }
+  ],
+  "reglaPublicacion": {
+    "minimoItems": 16,
+    "minimoCobertura": 0.55,
+    "umbralAfinidad": 78
+  },
+  "posiciones": {
+    "izq-001": {
+      "valor": 2,
+      "justificacion": "El programa espartaquista presenta la revolución socialista, y no una acumulación de reformas dentro del capitalismo, como la transformación necesaria del Estado y de las bases económicas de la sociedad.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Luxemburg, What Does the Spartacus League Want?, secciones I-II (en inglés)",
+        "url": "https://www.rosalux.de/stiftung/rosa-luxemburg-1/what-does-the-spartacus-league-want",
+        "fecha": "1918-12-14",
+        "consultado": "2026-07-11"
+      }
+    },
+    "izq-002": {
+      "valor": -1,
+      "justificacion": "La Liga se define como la parte más consciente del proletariado que orienta y esclarece, pero niega que el partido pueda tomar el poder sobre las masas o por medio de ellas; por eso discrepa del dirigismo de vanguardia sin negar toda función partidaria.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Luxemburg, What Does the Spartacus League Want?, sección V (en inglés)",
+        "url": "https://www.rosalux.de/stiftung/rosa-luxemburg-1/what-does-the-spartacus-league-want",
+        "fecha": "1918-12-14",
+        "consultado": "2026-07-11"
+      }
+    },
+    "izq-003": {
+      "valor": 1,
+      "justificacion": "Atribuye a las masas y a sus consejos la dirección consciente de la vida política y económica, aunque conserva para la organización revolucionaria una función de orientación; el «nunca» del ítem impide puntuarla con +2.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Luxemburg, What Does the Spartacus League Want?, secciones II y V (en inglés)",
+        "url": "https://www.rosalux.de/stiftung/rosa-luxemburg-1/what-does-the-spartacus-league-want",
+        "fecha": "1918-12-14",
+        "consultado": "2026-07-11"
+      }
+    },
+    "izq-005": {
+      "valor": 2,
+      "justificacion": "Propone convertir los medios de producción en propiedad común y organizar producción y distribución para el interés general, con socialización de banca, minas, industria, transporte y grandes empresas.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Luxemburg, What Does the Spartacus League Want?, secciones I y III (en inglés)",
+        "url": "https://www.rosalux.de/stiftung/rosa-luxemburg-1/what-does-the-spartacus-league-want",
+        "fecha": "1918-12-14",
+        "consultado": "2026-07-11"
+      }
+    },
+    "izq-006": {
+      "valor": -2,
+      "justificacion": "El programa afirma que solo la revolución proletaria mundial puede consolidar el socialismo y exige enlazar de inmediato con partidos de otros países para darle una base internacional.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Luxemburg, What Does the Spartacus League Want?, secciones I y IV (en inglés)",
+        "url": "https://www.rosalux.de/stiftung/rosa-luxemburg-1/what-does-the-spartacus-league-want",
+        "fecha": "1918-12-14",
+        "consultado": "2026-07-11"
+      }
+    },
+    "izq-008": {
+      "valor": 2,
+      "justificacion": "La huelga de masas aparece como proceso nacido de la lucha de clases que une conflicto económico y político y como arma decisiva para conquistar derechos y elevar la iniciativa revolucionaria de la clase trabajadora.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Luxemburg, The Mass Strike, the Political Party and the Trade Unions (en inglés)",
+        "url": "https://www.marxists.org/archive/luxemburg/1906/mass-strike/index.htm",
+        "fecha": "1906",
+        "consultado": "2026-07-11"
+      }
+    },
+    "izq-016": {
+      "valor": 1,
+      "justificacion": "El programa exige desposeer a bancos, minas, grandes industrias y grandes comercios y confiscar las grandes fortunas; la ausencia de una regla general explícita sobre indemnización aconseja +1 y no +2.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Luxemburg, What Does the Spartacus League Want?, demandas económicas III.4-III.5 (en inglés)",
+        "url": "https://www.rosalux.de/stiftung/rosa-luxemburg-1/what-does-the-spartacus-league-want",
+        "fecha": "1918-12-14",
+        "consultado": "2026-07-11"
+      }
+    },
+    "izq-017": {
+      "valor": -2,
+      "justificacion": "Su programa de 1918 plantea la socialización inmediata de la banca, la gran industria, el transporte y las explotaciones agrarias medianas y grandes, no décadas de predominio de un amplio sector privado.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Luxemburg, What Does the Spartacus League Want?, demandas económicas III (en inglés)",
+        "url": "https://www.rosalux.de/stiftung/rosa-luxemburg-1/what-does-the-spartacus-league-want",
+        "fecha": "1918-12-14",
+        "consultado": "2026-07-11"
+      }
+    },
+    "izq-018": {
+      "valor": 1,
+      "justificacion": "Su defensa de la lucha libre de opiniones y de la libertad precisamente para quien disiente es incompatible con prohibir corrientes por principio, aunque el texto no diseña un estatuto formal de fracciones partidarias.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Luxemburg, On the Russian Revolution, crítica a la supresión de libertades (en inglés)",
+        "url": "https://www.rosalux.de/stiftung/rosa-luxemburg-1/on-the-russian-revolution",
+        "fecha": "1918",
+        "consultado": "2026-07-11"
+      }
+    },
+    "izq-019": {
+      "valor": 2,
+      "justificacion": "Luxemburg justificó concurrir a la Asamblea Nacional para combatirla desde dentro y negó que esa participación persiguiera logros parlamentarios positivos convencionales: coincide de forma directa con usarla como tribuna de lucha.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Luxemburg, The Election of the Constituent Assembly (en inglés)",
+        "url": "https://www.rosalux.de/stiftung/rosa-luxemburg-1/the-election-of-the-constituent-assembly",
+        "fecha": "1918-12-23",
+        "consultado": "2026-07-11"
+      }
+    },
+    "izq-037": {
+      "valor": 2,
+      "justificacion": "El programa reconoce a trabajadores y soldados el derecho a revocar en cualquier momento a sus representantes locales y centrales, sin esperar al final de un mandato fijo.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Luxemburg, What Does the Spartacus League Want?, demandas políticas II.3-II.5 (en inglés)",
+        "url": "https://www.rosalux.de/stiftung/rosa-luxemburg-1/what-does-the-spartacus-league-want",
+        "fecha": "1918-12-14",
+        "consultado": "2026-07-11"
+      }
+    },
+    "izq-041": {
+      "valor": 1,
+      "justificacion": "Luxemburg cuestiona que crear nuevos Estados nacionales emancipe a la clase trabajadora y critica la secesión convertida en principio abstracto; se modera a +1 porque el argumento pertenece al contexto imperial de 1918.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Luxemburg, On the Russian Revolution, cuestión nacional (en inglés)",
+        "url": "https://www.rosalux.de/stiftung/rosa-luxemburg-1/on-the-russian-revolution",
+        "fecha": "1918",
+        "consultado": "2026-07-11"
+      }
+    },
+    "lab-002": {
+      "valor": 2,
+      "justificacion": "El programa exige consejos elegidos en cada centro que intervengan en la gestión, controlen la producción y terminen asumiendo la dirección de la empresa, una versión más intensa que elegir solo parte del órgano directivo.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Luxemburg, What Does the Spartacus League Want?, demanda económica III.7 (en inglés)",
+        "url": "https://www.rosalux.de/stiftung/rosa-luxemburg-1/what-does-the-spartacus-league-want",
+        "fecha": "1918-12-14",
+        "consultado": "2026-07-11"
+      }
+    },
+    "lab-008": {
+      "valor": 2,
+      "justificacion": "Los consejos de fábrica debían controlar la producción, gestionar los asuntos internos y hacerse cargo de la dirección, coordinados con el poder general de consejos y no subordinados a propietarios privados.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Luxemburg, What Does the Spartacus League Want?, demandas económicas III.7-III.8 (en inglés)",
+        "url": "https://www.rosalux.de/stiftung/rosa-luxemburg-1/what-does-the-spartacus-league-want",
+        "fecha": "1918-12-14",
+        "consultado": "2026-07-11"
+      }
+    },
+    "lab-017": {
+      "valor": 1,
+      "justificacion": "La gran propiedad pasa a ser común y la dirección cotidiana recae en consejos elegidos en los centros de trabajo, más cerca de la autogestión que de un ministerio; no obtiene +2 porque la titularidad se articula mediante la república de consejos, no como cooperativas independientes.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Luxemburg, What Does the Spartacus League Want?, secciones II y III (en inglés)",
+        "url": "https://www.rosalux.de/stiftung/rosa-luxemburg-1/what-does-the-spartacus-league-want",
+        "fecha": "1918-12-14",
+        "consultado": "2026-07-11"
+      }
+    },
+    "dem-010": {
+      "valor": 2,
+      "justificacion": "Luxemburg considera imprescindibles elecciones generales, prensa, asociación, reunión y libre confrontación de opiniones incluso bajo un gobierno revolucionario; la emergencia no justifica eliminar la oposición.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Luxemburg, On the Russian Revolution, democracia y vida pública (en inglés)",
+        "url": "https://www.rosalux.de/stiftung/rosa-luxemburg-1/on-the-russian-revolution",
+        "fecha": "1918",
+        "consultado": "2026-07-11"
+      }
+    },
+    "dem-011": {
+      "valor": 2,
+      "justificacion": "El programa no propone reformar el parlamentarismo existente: ordena sustituir parlamentos y consejos municipales por consejos de trabajadores y soldados con funciones legislativas y ejecutivas.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Luxemburg, What Does the Spartacus League Want?, demandas políticas II.2-II.5 (en inglés)",
+        "url": "https://www.rosalux.de/stiftung/rosa-luxemburg-1/what-does-the-spartacus-league-want",
+        "fecha": "1918-12-14",
+        "consultado": "2026-07-11"
+      }
+    },
+    "dem-013": {
+      "valor": 2,
+      "justificacion": "Los consejos locales pueden retirar y sustituir en todo momento a sus delegados centrales si no actúan conforme a sus electores, configurando un mandato sujeto a instrucciones y control de base.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Luxemburg, What Does the Spartacus League Want?, demanda política II.5 (en inglés)",
+        "url": "https://www.rosalux.de/stiftung/rosa-luxemburg-1/what-does-the-spartacus-league-want",
+        "fecha": "1918-12-14",
+        "consultado": "2026-07-11"
+      }
+    },
+    "dem-015": {
+      "valor": -1,
+      "justificacion": "La libre confrontación de opiniones y el rechazo del gobierno por una pequeña élite chocan con una disciplina pública que silencie desacuerdos; se mantiene -1 porque Luxemburg sí defendía una organización cohesionada capaz de orientar la lucha.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Luxemburg, On the Russian Revolution, democracia y dirección política (en inglés)",
+        "url": "https://www.rosalux.de/stiftung/rosa-luxemburg-1/on-the-russian-revolution",
+        "fecha": "1918",
+        "consultado": "2026-07-11"
+      }
+    },
+    "dem-017": {
+      "valor": 2,
+      "justificacion": "Propone de modo literal eliminar los parlamentos y transferir sus funciones a consejos de trabajadores y soldados, cuyos representantes locales y centrales son revocables.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Luxemburg, What Does the Spartacus League Want?, demandas políticas II.2-II.5 (en inglés)",
+        "url": "https://www.rosalux.de/stiftung/rosa-luxemburg-1/what-does-the-spartacus-league-want",
+        "fecha": "1918-12-14",
+        "consultado": "2026-07-11"
+      }
+    },
+    "dem-019": {
+      "valor": -2,
+      "justificacion": "La Liga declara que no tomará el poder sobre las masas y Luxemburg denuncia como dictadura el gobierno efectivo de una docena de dirigentes sin elecciones ni libre lucha de opiniones.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Luxemburg, On the Russian Revolution, crítica al gobierno de minoría (en inglés)",
+        "url": "https://www.rosalux.de/stiftung/rosa-luxemburg-1/on-the-russian-revolution",
+        "fecha": "1918",
+        "consultado": "2026-07-11"
+      }
+    },
+    "lim-005": {
+      "valor": -2,
+      "justificacion": "Denuncia expresamente que todos los opositores al gobierno soviético quedasen fuera de la ley y sostiene que libertad solo para partidarios del gobierno o miembros del partido no es libertad.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Luxemburg, On the Russian Revolution, libertad para quien disiente (en inglés)",
+        "url": "https://www.rosalux.de/stiftung/rosa-luxemburg-1/on-the-russian-revolution",
+        "fecha": "1918",
+        "consultado": "2026-07-11"
+      }
+    },
+    "lim-006": {
+      "valor": 2,
+      "justificacion": "Aunque defiende la transformación revolucionaria, califica el terror y la ley marcial draconiana de instrumentos contraproducentes que conducen al despotismo y propone actividad social de masas y libertad política irrestricta como alternativa.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Luxemburg, On the Russian Revolution, notas sobre terror y libertad política (en inglés)",
+        "url": "https://www.rosalux.de/stiftung/rosa-luxemburg-1/on-the-russian-revolution",
+        "fecha": "1918",
+        "consultado": "2026-07-11"
+      }
+    },
+    "mon-001": {
+      "valor": 2,
+      "justificacion": "El manifiesto parte del derrocamiento de los Hohenzollern y exige una república socialista de consejos, incompatible con una jefatura del Estado hereditaria.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Luxemburg, What Does the Spartacus League Want?, secciones I-II (en inglés)",
+        "url": "https://www.rosalux.de/stiftung/rosa-luxemburg-1/what-does-the-spartacus-league-want",
+        "fecha": "1918-12-14",
+        "consultado": "2026-07-11"
+      }
+    }
+  }
+}

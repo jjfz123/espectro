@@ -6,15 +6,15 @@
   "tipo": "partido",
   "ccaa": ["catalunya"],
   "confianza": "verificada",
-  "web": "https://aliancacatalana.cat/",
-  "revisado": "2026-07-10",
+  "web": "https://web.aliancacatalana.cat/",
+  "revisado": "2026-07-11",
   "actividad": "activa",
   "autodescripcion": {
     "texto": "Aliança Catalana se presenta en su propia web como «el centre-dreta independentista» (el centro-derecha independentista), organizada en torno a cuatro ejes que titulan su página de inicio: Independència, Economia Productiva, Seguretat i Família. Su manifiesto es explícito sobre el método para lograr la independencia: no un proceso pactado ni gradual, sino una declaración unilateral defendida hasta expulsar al Estado español de Cataluña. Sus estatutos fijan que el catalán debe ser la única lengua oficial y que trabajarán para que sea necesario para vivir y desarrollarse en Cataluña. El partido rechaza la etiqueta de extrema derecha con la que lo describe la prensa.",
     "fuente": {
       "tipo": "otro",
-      "titulo": "Independència i país (web oficial d'Aliança Catalana)",
-      "url": "https://aliancacatalana.cat/independencia-i-pais/",
+      "titulo": "Independència, Economia Productiva, Seguretat i Família (web oficial d'Aliança Catalana)",
+      "url": "https://web.aliancacatalana.cat/",
       "cita": "Declararem unilateralment la independència i la defensarem fins expulsar definitivament l'Estat espanyol de Catalunya."
     }
   },
@@ -66,8 +66,8 @@
       "calidadEvidencia": "media",
       "fuente": {
         "tipo": "otro",
-        "titulo": "Independència i país (web oficial d'Aliança Catalana)",
-        "url": "https://aliancacatalana.cat/independencia-i-pais/",
+        "titulo": "Independència, Economia Productiva, Seguretat i Família (web oficial d'Aliança Catalana)",
+        "url": "https://web.aliancacatalana.cat/",
         "consultado": "2026-07-10"
       }
     },
@@ -77,8 +77,8 @@
       "calidadEvidencia": "alta",
       "fuente": {
         "tipo": "otro",
-        "titulo": "Independència i país (web oficial d'Aliança Catalana)",
-        "url": "https://aliancacatalana.cat/independencia-i-pais/",
+        "titulo": "Independència, Economia Productiva, Seguretat i Família (web oficial d'Aliança Catalana)",
+        "url": "https://web.aliancacatalana.cat/",
         "consultado": "2026-07-10"
       }
     },
@@ -124,8 +124,8 @@
       "calidadEvidencia": "media",
       "fuente": {
         "tipo": "otro",
-        "titulo": "Independència i país (web oficial d'Aliança Catalana)",
-        "url": "https://aliancacatalana.cat/independencia-i-pais/",
+        "titulo": "Independència, Economia Productiva, Seguretat i Família (web oficial d'Aliança Catalana)",
+        "url": "https://web.aliancacatalana.cat/",
         "consultado": "2026-07-10"
       }
     },
@@ -135,8 +135,8 @@
       "calidadEvidencia": "media",
       "fuente": {
         "tipo": "otro",
-        "titulo": "Independència i país (web oficial d'Aliança Catalana)",
-        "url": "https://aliancacatalana.cat/independencia-i-pais/",
+        "titulo": "Independència, Economia Productiva, Seguretat i Família (web oficial d'Aliança Catalana)",
+        "url": "https://web.aliancacatalana.cat/",
         "consultado": "2026-07-10"
       }
     },
@@ -146,8 +146,8 @@
       "calidadEvidencia": "baja",
       "fuente": {
         "tipo": "otro",
-        "titulo": "Independència i país (web oficial d'Aliança Catalana)",
-        "url": "https://aliancacatalana.cat/independencia-i-pais/",
+        "titulo": "Independència, Economia Productiva, Seguretat i Família (web oficial d'Aliança Catalana)",
+        "url": "https://web.aliancacatalana.cat/",
         "consultado": "2026-07-10"
       }
     },
@@ -157,8 +157,8 @@
       "calidadEvidencia": "alta",
       "fuente": {
         "tipo": "otro",
-        "titulo": "Independència i país (web oficial d'Aliança Catalana)",
-        "url": "https://aliancacatalana.cat/independencia-i-pais/",
+        "titulo": "Independència, Economia Productiva, Seguretat i Família (web oficial d'Aliança Catalana)",
+        "url": "https://web.aliancacatalana.cat/",
         "consultado": "2026-07-10"
       }
     },
@@ -168,8 +168,8 @@
       "calidadEvidencia": "alta",
       "fuente": {
         "tipo": "otro",
-        "titulo": "Independència i país (web oficial d'Aliança Catalana)",
-        "url": "https://aliancacatalana.cat/independencia-i-pais/",
+        "titulo": "Independència, Economia Productiva, Seguretat i Família (web oficial d'Aliança Catalana)",
+        "url": "https://web.aliancacatalana.cat/",
         "consultado": "2026-07-10"
       }
     },

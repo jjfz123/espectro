@@ -1,0 +1,167 @@
+{
+  "id": "abolicionismo-animal",
+  "nombre": "Abolicionismo de la explotación animal",
+  "tipo": "referencia-doctrinal",
+  "definicion": "Tipo ideal de derechos animales que atribuye consideración moral y derechos básicos a los seres sintientes y pretende abolir, no solo regular, su uso como propiedad, alimento, entretenimiento, experimentación o recurso productivo. Se diferencia tanto del bienestarismo como del ecologismo centrado en especies y ecosistemas.",
+  "variante": "Derechos animales de Regan y enfoque abolicionista de Francione; no abarca todo veganismo ni todo animalismo",
+  "periodo": "1983-actualidad",
+  "confianza": "verificada",
+  "version": "1.0",
+  "revisado": "2026-07-11",
+  "publicacionMapa": {
+    "publicable": false,
+    "motivo": "La doctrina define con precisión la faceta animalista, pero no fija una economía, un modelo territorial ni una arquitectura general del poder; asignarle una región del plano Economía por Poder inventaría coordenadas ajenas a sus textos."
+  },
+  "facetasDefinitorias": [
+    "animalismo"
+  ],
+  "sensibilidad": "normal",
+  "advertencia": "Es una referencia ética transversal, no un partido ni una identidad asignada. La cercanía solo describe respuestas sobre usos de animales. No permite inferir posición económica, religión, feminismo, territorio, energía o estrategia política. Tampoco identifica liberación animal con acciones ilegales o violentas: la variante aquí delimitada declara la no violencia como principio.",
+  "fuentesMarco": [
+    {
+      "tipo": "otro",
+      "titulo": "The Moral Status of Animals, Stanford Encyclopedia of Philosophy (en inglés)",
+      "url": "https://plato.stanford.edu/entries/moral-animal/",
+      "fecha": "2024-08-12",
+      "consultado": "2026-07-11"
+    },
+    {
+      "tipo": "otro",
+      "titulo": "Gary Francione y Anna Charlton, The Six Principles of the Abolitionist Approach to Animal Rights (en inglés)",
+      "url": "https://www.abolitionistapproach.com/about/the-six-principles-of-the-abolitionist-approach-to-animal-rights/",
+      "consultado": "2026-07-11"
+    },
+    {
+      "tipo": "otro",
+      "titulo": "Corey Lee Wrenn, Abolitionist Animal Rights: Critical Comparisons and Challenges Within the Animal Rights Movement (en inglés)",
+      "url": "https://www.wellbeingintlstudiesrepository.org/anirmov/2/",
+      "fecha": "2012-11",
+      "consultado": "2026-07-11"
+    }
+  ],
+  "reglaPublicacion": {
+    "minimoItems": 8,
+    "minimoCobertura": 0.55,
+    "umbralAfinidad": 80
+  },
+  "posiciones": {
+    "va-001": {
+      "valor": 2,
+      "justificacion": "Reconocer derechos y dejar de tratar a los animales sintientes como propiedad es el núcleo explícito de esta variante; la mera protección frente al maltrato pertenece al bienestarismo que critica.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "The Six Principles of the Abolitionist Approach to Animal Rights (en inglés)",
+        "url": "https://www.abolitionistapproach.com/about/the-six-principles-of-the-abolitionist-approach-to-animal-rights/",
+        "consultado": "2026-07-11"
+      }
+    },
+    "va-002": {
+      "valor": -2,
+      "justificacion": "La teoría de derechos rechaza cazar animales y usarlos como medio para fines humanos, incluso cuando el uso se presenta como gestión; no es una doctrina de aprovechamiento regulado.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "The Moral Status of Animals, Stanford Encyclopedia of Philosophy (en inglés)",
+        "url": "https://plato.stanford.edu/entries/moral-animal/",
+        "fecha": "2024-08-12",
+        "consultado": "2026-07-11"
+      }
+    },
+    "va-003": {
+      "valor": 2,
+      "justificacion": "La tauromaquia usa y mata animales como entretenimiento; abolir ese uso se sigue directamente del rechazo de toda explotación institucionalizada, no solo de mejorar sus condiciones.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "The Moral Status of Animals, Stanford Encyclopedia of Philosophy (en inglés)",
+        "url": "https://plato.stanford.edu/entries/moral-animal/",
+        "fecha": "2024-08-12",
+        "consultado": "2026-07-11"
+      }
+    },
+    "va-004": {
+      "valor": 2,
+      "justificacion": "No autorizar nuevas explotaciones ganaderas intensivas es un mínimo coherente con una doctrina cuyo objetivo es cesar por completo el uso productivo de animales, no normalizarlo mediante reformas de bienestar.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Abolitionist Animal Rights: Critical Comparisons and Challenges Within the Animal Rights Movement (en inglés)",
+        "url": "https://www.wellbeingintlstudiesrepository.org/anirmov/2/",
+        "fecha": "2012-11",
+        "consultado": "2026-07-11"
+      }
+    },
+    "va-010": {
+      "valor": 2,
+      "justificacion": "Usar animales en investigación, también médica, los convierte en medios para un fin ajeno y viola sus derechos en esta teoría; por eso sus defensores sostienen abolir la experimentación de laboratorio.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "The Moral Status of Animals, Stanford Encyclopedia of Philosophy (en inglés)",
+        "url": "https://plato.stanford.edu/entries/moral-animal/",
+        "fecha": "2024-08-12",
+        "consultado": "2026-07-11"
+      }
+    },
+    "va-014": {
+      "valor": 2,
+      "justificacion": "Mantener animales cautivos para exhibición, incluso bajo una justificación conservacionista, sigue siendo uso y coerción sobre individuos; el tipo ideal abolicionista exige sustituirlo por protección sin explotación.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "The Moral Status of Animals, Stanford Encyclopedia of Philosophy (en inglés)",
+        "url": "https://plato.stanford.edu/entries/moral-animal/",
+        "fecha": "2024-08-12",
+        "consultado": "2026-07-11"
+      }
+    },
+    "va-018": {
+      "valor": -2,
+      "justificacion": "La ganadería extensiva puede tener funciones territoriales distintas de la intensiva, pero continúa criando y usando animales como recursos; el abolicionismo no la convierte por ello en actividad subvencionable.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "The Six Principles of the Abolitionist Approach to Animal Rights (en inglés)",
+        "url": "https://www.abolitionistapproach.com/about/the-six-principles-of-the-abolitionist-approach-to-animal-rights/",
+        "consultado": "2026-07-11"
+      }
+    },
+    "sd-020": {
+      "valor": 2,
+      "justificacion": "La caza recreativa es un caso directo de matar animales para interés o entretenimiento humano; prohibirla coincide plenamente con una teoría que rechaza todo uso que desconozca su valor inherente.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "The Moral Status of Animals, Stanford Encyclopedia of Philosophy (en inglés)",
+        "url": "https://plato.stanford.edu/entries/moral-animal/",
+        "fecha": "2024-08-12",
+        "consultado": "2026-07-11"
+      }
+    },
+    "der-006": {
+      "valor": -2,
+      "justificacion": "Proteger por ley una tradición no justifica usar animales como entretenimiento desde una teoría de derechos: el contexto cultural no elimina el deber de tratarlos como fines y no como recursos.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "The Moral Status of Animals, Stanford Encyclopedia of Philosophy (en inglés)",
+        "url": "https://plato.stanford.edu/entries/moral-animal/",
+        "fecha": "2024-08-12",
+        "consultado": "2026-07-11"
+      }
+    },
+    "der-023": {
+      "valor": 2,
+      "justificacion": "Endurecer restricciones a la caza avanza en la dirección abolicionista, aunque la referencia va más lejos y no considera suficiente regular una práctica que vulnera derechos animales.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "The Moral Status of Animals, Stanford Encyclopedia of Philosophy (en inglés)",
+        "url": "https://plato.stanford.edu/entries/moral-animal/",
+        "fecha": "2024-08-12",
+        "consultado": "2026-07-11"
+      }
+    }
+  }
+}

@@ -1,5 +1,7 @@
+import { useState } from 'react';
 import type { ReferenciaDoctrinal, ResultadoReferencia } from '@engine';
 import { ITEM_POR_ID, formatearNumero } from '../datos';
+import { InformacionIdeologia } from './FichaIdeologia';
 
 interface Props {
   referencias: ReferenciaDoctrinal[];
@@ -7,6 +9,7 @@ interface Props {
 }
 
 export function ReferenciasDoctrinales({ referencias, resultados }: Props) {
+  const [referenciaAbierta, setReferenciaAbierta] = useState<string | null>(null);
   const referenciaPorId = new Map(referencias.map((referencia) => [referencia.id, referencia]));
   const publicables = resultados.filter((resultado) => resultado.publicable);
 
@@ -32,6 +35,7 @@ export function ReferenciasDoctrinales({ referencias, resultados }: Props) {
           {publicables.map((resultado) => {
             const referencia = referenciaPorId.get(resultado.entidadId);
             if (!referencia) return null;
+            const esViolenta = referencia.sensibilidad === 'violenta';
             const coincidencias = [...resultado.detalle]
               .filter((detalle) => detalle.distancia <= 1)
               .sort((a, b) => a.distancia - b.distancia)
@@ -42,75 +46,83 @@ export function ReferenciasDoctrinales({ referencias, resultados }: Props) {
               .slice(0, 3);
 
             return (
-              <article
-                className="referencia-tarjeta"
-                data-sensible={referencia.sensibilidad !== undefined && referencia.sensibilidad !== 'normal'}
-                key={referencia.id}
-              >
-                <header>
-                  <div>
-                    <p className="kicker">Coincidencias parciales con</p>
-                    <h3>{referencia.nombre}</h3>
-                    {referencia.variante ? <p className="referencia-variante">{referencia.variante}</p> : null}
-                  </div>
-                  <p className="referencia-puntuacion">
-                    {formatearNumero(resultado.puntuacion)} <small>%</small>
+              <div className="referencia-resultado" key={referencia.id}>
+                <article
+                  className="referencia-tarjeta"
+                  data-sensible={referencia.sensibilidad !== undefined && referencia.sensibilidad !== 'normal'}
+                >
+                  <header>
+                    <div>
+                      <p className="kicker">
+                        {esViolenta ? 'Patrón doctrinal sensible' : 'Coincidencias parciales con'}
+                      </p>
+                      <h3>{referencia.nombre}</h3>
+                      {referencia.variante ? <p className="referencia-variante">{referencia.variante}</p> : null}
+                    </div>
+                    {!esViolenta ? (
+                      <p className="referencia-puntuacion">
+                        {formatearNumero(resultado.puntuacion)} <small>%</small>
+                      </p>
+                    ) : null}
+                  </header>
+                  <p className="referencia-definicion">{referencia.definicion}</p>
+                  <p className="referencia-cobertura">
+                    Comparación basada en {resultado.itemsComparados} de {resultado.itemsDefinitorios}{' '}
+                    posiciones definitorias
+                    {esViolenta
+                      ? ' · supera los mínimos metodológicos, sin convertirlos en una puntuación personal'
+                      : ` · umbral ${referencia.reglaPublicacion.umbralAfinidad} %`}
                   </p>
-                </header>
-                <p className="referencia-definicion">{referencia.definicion}</p>
-                <p className="referencia-cobertura">
-                  Comparación basada en {resultado.itemsComparados} de {resultado.itemsDefinitorios}{' '}
-                  posiciones definitorias · umbral {referencia.reglaPublicacion.umbralAfinidad} %
-                </p>
-                <div className="referencia-balance">
-                  <div>
-                    <h4>Coincidencias visibles</h4>
-                    <ul>
-                      {coincidencias.map((detalle) => (
-                        <li key={detalle.itemId}>
-                          {ITEM_POR_ID.get(detalle.itemId)?.texto ?? detalle.itemId}
-                        </li>
-                      ))}
-                    </ul>
-                  </div>
-                  <div>
-                    <h4>Diferencias o matices</h4>
-                    {diferencias.length > 0 ? (
+                  <div className="referencia-balance">
+                    <div>
+                      <h4>Coincidencias visibles</h4>
                       <ul>
-                        {diferencias.map((detalle) => (
+                        {coincidencias.map((detalle) => (
                           <li key={detalle.itemId}>
                             {ITEM_POR_ID.get(detalle.itemId)?.texto ?? detalle.itemId}
                           </li>
                         ))}
                       </ul>
-                    ) : (
-                      <p>
-                        No hay diferencias fuertes entre las posiciones comparadas; eso no
-                        cubre las que faltan ni demuestra pertenencia doctrinal.
-                      </p>
-                    )}
+                    </div>
+                    <div>
+                      <h4>Diferencias o matices</h4>
+                      {diferencias.length > 0 ? (
+                        <ul>
+                          {diferencias.map((detalle) => (
+                            <li key={detalle.itemId}>
+                              {ITEM_POR_ID.get(detalle.itemId)?.texto ?? detalle.itemId}
+                            </li>
+                          ))}
+                        </ul>
+                      ) : (
+                        <p>
+                          No hay diferencias fuertes entre las posiciones comparadas; eso no
+                          cubre las que faltan ni demuestra pertenencia doctrinal.
+                        </p>
+                      )}
+                    </div>
                   </div>
-                </div>
-                <details className="referencia-fuentes">
-                  <summary>Definición, límites y fuentes</summary>
-                  <p>{referencia.advertencia}</p>
-                  <ul>
-                    {referencia.fuentesMarco.map((fuente, indice) => (
-                      <li key={`${fuente.url ?? fuente.titulo ?? 'fuente'}-${indice}`}>
-                        {fuente.url ? (
-                          <a href={fuente.url} rel="noopener noreferrer" target="_blank">
-                            {fuente.titulo ?? 'Fuente doctrinal'}
-                          </a>
-                        ) : (
-                          fuente.titulo ?? 'Fuente doctrinal'
-                        )}
-                        {fuente.fecha ? ` (${fuente.fecha})` : ''}
-                        {fuente.consultado ? ` · consultada ${fuente.consultado}` : ''}
-                      </li>
-                    ))}
-                  </ul>
-                </details>
-              </article>
+                  <button
+                    type="button"
+                    className="boton boton--secundario referencia-resultado__ampliar"
+                    aria-expanded={referenciaAbierta === referencia.id}
+                    onClick={() =>
+                      setReferenciaAbierta((actual) =>
+                        actual === referencia.id ? null : referencia.id,
+                      )
+                    }
+                  >
+                    {referenciaAbierta === referencia.id
+                      ? 'Ocultar información'
+                      : 'Más información sobre esta corriente'}
+                  </button>
+                  {referenciaAbierta === referencia.id ? (
+                    <div className="referencia-fuentes ficha-ideologia__informacion">
+                      <InformacionIdeologia referencia={referencia} cercaDelUsuario />
+                    </div>
+                  ) : null}
+                </article>
+              </div>
             );
           })}
         </div>

@@ -7,21 +7,25 @@
   "periodo": "1891 (Rerum Novarum) – 1943 (Maritain) – actualidad como tipo ideal",
   "confianza": "verificada",
   "version": "1.0",
-  "revisado": "2026-07-10",
+  "revisado": "2026-07-11",
+  "publicacionMapa": {
+    "publicable": false,
+    "motivo": "La referencia sigue disponible para el matching por facetas, pero su macroeje social actual recoge inmigración y garantismo sin incorporar las posiciones bioéticas que viven en tradición moral; el cuadrante resultaría indebidamente libertario."
+  },
   "facetasDefinitorias": ["economico", "tradicion-moral", "estatismo", "poder-laboral", "modelo-territorial"],
   "sensibilidad": "normal",
   "advertencia": "Es un tipo ideal doctrinal, no la ficha de ningún partido español actual: el PP se reclama a la vez liberal, democristiano y conservador según sus propios estatutos, y tiene perfil documentado propio que no debe confundirse con este tipo ideal más estrecho. La subsidiariedad territorial se deriva por extensión razonada del argumento de Rerum Novarum sobre la familia y los cuerpos intermedios, no de una mención literal a las comunidades autónomas españolas. Frente al carlismo tradicionalista, esta corriente admite un Estado aconfesional que respeta la libertad religiosa; frente al distributismo de Chesterton y Belloc, acepta la gran empresa y el Estado social en vez de exigir la ruptura de la propiedad concentrada en unidades pequeñas.",
   "fuentesMarco": [
     {
       "tipo": "otro",
-      "titulo": "León XIII, Rerum Novarum: Encyclical on Capital and Labor (15 de mayo de 1891), vatican.va",
+      "titulo": "León XIII, Rerum Novarum: Encyclical on Capital and Labor (15 de mayo de 1891), vatican.va (en inglés)",
       "url": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_15051891_rerum-novarum.html",
       "fecha": "1891-05-15",
       "consultado": "2026-07-10"
     },
     {
       "tipo": "otro",
-      "titulo": "Jacques Maritain, Christianity and Democracy [Christianisme et démocratie, 1943], Internet Archive",
+      "titulo": "Jacques Maritain, Christianity and Democracy [Christianisme et démocratie, 1943], Internet Archive (en inglés)",
       "url": "https://archive.org/details/christianitydemo0000mari",
       "fecha": "1943",
       "consultado": "2026-07-10"
@@ -39,7 +43,7 @@
       "calidadEvidencia": "alta",
       "fuente": {
         "tipo": "otro",
-        "titulo": "Rerum Novarum",
+        "titulo": "Rerum Novarum (en inglés)",
         "url": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_15051891_rerum-novarum.html",
         "fecha": "1891-05-15",
         "consultado": "2026-07-10"
@@ -51,7 +55,7 @@
       "calidadEvidencia": "baja",
       "fuente": {
         "tipo": "otro",
-        "titulo": "Rerum Novarum",
+        "titulo": "Rerum Novarum (en inglés)",
         "url": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_15051891_rerum-novarum.html",
         "fecha": "1891-05-15",
         "consultado": "2026-07-10"
@@ -63,7 +67,7 @@
       "calidadEvidencia": "alta",
       "fuente": {
         "tipo": "otro",
-        "titulo": "Rerum Novarum",
+        "titulo": "Rerum Novarum (en inglés)",
         "url": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_15051891_rerum-novarum.html",
         "fecha": "1891-05-15",
         "consultado": "2026-07-10",
@@ -76,7 +80,7 @@
       "calidadEvidencia": "media",
       "fuente": {
         "tipo": "otro",
-        "titulo": "Jacques Maritain, Christianity and Democracy",
+        "titulo": "Jacques Maritain, Christianity and Democracy (en inglés)",
         "url": "https://archive.org/details/christianitydemo0000mari",
         "fecha": "1943",
         "consultado": "2026-07-10"
@@ -88,7 +92,7 @@
       "calidadEvidencia": "alta",
       "fuente": {
         "tipo": "otro",
-        "titulo": "Rerum Novarum",
+        "titulo": "Rerum Novarum (en inglés)",
         "url": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_15051891_rerum-novarum.html",
         "fecha": "1891-05-15",
         "consultado": "2026-07-10"
@@ -100,7 +104,7 @@
       "calidadEvidencia": "media",
       "fuente": {
         "tipo": "otro",
-        "titulo": "Rerum Novarum",
+        "titulo": "Rerum Novarum (en inglés)",
         "url": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_15051891_rerum-novarum.html",
         "fecha": "1891-05-15",
         "consultado": "2026-07-10"
@@ -112,7 +116,7 @@
       "calidadEvidencia": "media",
       "fuente": {
         "tipo": "otro",
-        "titulo": "Jacques Maritain, Christianity and Democracy",
+        "titulo": "Jacques Maritain, Christianity and Democracy (en inglés)",
         "url": "https://archive.org/details/christianitydemo0000mari",
         "fecha": "1943",
         "consultado": "2026-07-10"
@@ -124,7 +128,7 @@
       "calidadEvidencia": "media",
       "fuente": {
         "tipo": "otro",
-        "titulo": "Rerum Novarum",
+        "titulo": "Rerum Novarum (en inglés)",
         "url": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_15051891_rerum-novarum.html",
         "fecha": "1891-05-15",
         "consultado": "2026-07-10"
@@ -136,7 +140,7 @@
       "calidadEvidencia": "media",
       "fuente": {
         "tipo": "otro",
-        "titulo": "Jacques Maritain, Christianity and Democracy",
+        "titulo": "Jacques Maritain, Christianity and Democracy (en inglés)",
         "url": "https://archive.org/details/christianitydemo0000mari",
         "fecha": "1943",
         "consultado": "2026-07-10"
@@ -148,7 +152,7 @@
       "calidadEvidencia": "media",
       "fuente": {
         "tipo": "otro",
-        "titulo": "Jacques Maritain, Christianity and Democracy",
+        "titulo": "Jacques Maritain, Christianity and Democracy (en inglés)",
         "url": "https://archive.org/details/christianitydemo0000mari",
         "fecha": "1943",
         "consultado": "2026-07-10"
@@ -160,7 +164,7 @@
       "calidadEvidencia": "alta",
       "fuente": {
         "tipo": "otro",
-        "titulo": "Jacques Maritain, Christianity and Democracy",
+        "titulo": "Jacques Maritain, Christianity and Democracy (en inglés)",
         "url": "https://archive.org/details/christianitydemo0000mari",
         "fecha": "1943",
         "consultado": "2026-07-10"
@@ -172,7 +176,7 @@
       "calidadEvidencia": "alta",
       "fuente": {
         "tipo": "otro",
-        "titulo": "Jacques Maritain, Christianity and Democracy",
+        "titulo": "Jacques Maritain, Christianity and Democracy (en inglés)",
         "url": "https://archive.org/details/christianitydemo0000mari",
         "fecha": "1943",
         "consultado": "2026-07-10"
@@ -184,7 +188,7 @@
       "calidadEvidencia": "media",
       "fuente": {
         "tipo": "otro",
-        "titulo": "Rerum Novarum",
+        "titulo": "Rerum Novarum (en inglés)",
         "url": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_15051891_rerum-novarum.html",
         "fecha": "1891-05-15",
         "consultado": "2026-07-10"
@@ -196,7 +200,7 @@
       "calidadEvidencia": "media",
       "fuente": {
         "tipo": "otro",
-        "titulo": "Rerum Novarum",
+        "titulo": "Rerum Novarum (en inglés)",
         "url": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_15051891_rerum-novarum.html",
         "fecha": "1891-05-15",
         "consultado": "2026-07-10"
@@ -208,7 +212,7 @@
       "calidadEvidencia": "baja",
       "fuente": {
         "tipo": "otro",
-        "titulo": "Rerum Novarum",
+        "titulo": "Rerum Novarum (en inglés)",
         "url": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_15051891_rerum-novarum.html",
         "fecha": "1891-05-15",
         "consultado": "2026-07-10"
@@ -220,7 +224,7 @@
       "calidadEvidencia": "baja",
       "fuente": {
         "tipo": "otro",
-        "titulo": "Rerum Novarum",
+        "titulo": "Rerum Novarum (en inglés)",
         "url": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_15051891_rerum-novarum.html",
         "fecha": "1891-05-15",
         "consultado": "2026-07-10"
@@ -232,7 +236,7 @@
       "calidadEvidencia": "media",
       "fuente": {
         "tipo": "otro",
-        "titulo": "Jacques Maritain, Christianity and Democracy",
+        "titulo": "Jacques Maritain, Christianity and Democracy (en inglés)",
         "url": "https://archive.org/details/christianitydemo0000mari",
         "fecha": "1943",
         "consultado": "2026-07-10"
@@ -244,7 +248,7 @@
       "calidadEvidencia": "baja",
       "fuente": {
         "tipo": "otro",
-        "titulo": "Jacques Maritain, Christianity and Democracy",
+        "titulo": "Jacques Maritain, Christianity and Democracy (en inglés)",
         "url": "https://archive.org/details/christianitydemo0000mari",
         "fecha": "1943",
         "consultado": "2026-07-10"
@@ -256,7 +260,7 @@
       "calidadEvidencia": "baja",
       "fuente": {
         "tipo": "otro",
-        "titulo": "Jacques Maritain, Christianity and Democracy",
+        "titulo": "Jacques Maritain, Christianity and Democracy (en inglés)",
         "url": "https://archive.org/details/christianitydemo0000mari",
         "fecha": "1943",
         "consultado": "2026-07-10"
@@ -268,7 +272,7 @@
       "calidadEvidencia": "media",
       "fuente": {
         "tipo": "otro",
-        "titulo": "Rerum Novarum",
+        "titulo": "Rerum Novarum (en inglés)",
         "url": "https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_15051891_rerum-novarum.html",
         "fecha": "1891-05-15",
         "consultado": "2026-07-10"
@@ -280,7 +284,7 @@
       "calidadEvidencia": "baja",
       "fuente": {
         "tipo": "otro",
-        "titulo": "Jacques Maritain, Christianity and Democracy",
+        "titulo": "Jacques Maritain, Christianity and Democracy (en inglés)",
         "url": "https://archive.org/details/christianitydemo0000mari",
         "fecha": "1943",
         "consultado": "2026-07-10"

@@ -389,6 +389,11 @@ describe('partidosElegibles (ámbito electoral)', () => {
     expect(ids).toEqual(['e', 'c', 'g']);
   });
 
+  it('autonómicas o municipales sin CCAA no mezclan territorios incompatibles', () => {
+    expect(partidosElegibles(todos, { tipo: 'autonomicas' })).toEqual([]);
+    expect(partidosElegibles(todos, { tipo: 'municipales' })).toEqual([]);
+  });
+
   it('nunca presenta un perfil histórico o inactivo como candidatura vigente', () => {
     const historico: Partido = { ...estatal, id: 'h', actividad: 'historica' };
     const inactivo: Partido = { ...estatal, id: 'i', actividad: 'inactiva' };
@@ -486,6 +491,14 @@ describe('catálogo por convocatoria documentada', () => {
     });
     expect(seleccion.metodo).toBe('heuristica-ambito');
     expect(seleccion.convocatoria).toBeUndefined();
+  });
+
+  it('exige comunidad antes de seleccionar partidos autonómicos o municipales', () => {
+    for (const tipo of ['autonomicas', 'municipales'] as const) {
+      const seleccion = seleccionarPartidosElectorales([estatal, regional], [], { tipo });
+      expect(seleccion.metodo).toBe('contexto-incompleto');
+      expect(seleccion.partidos).toEqual([]);
+    }
   });
 });
 

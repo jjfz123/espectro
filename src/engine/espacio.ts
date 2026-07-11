@@ -5,11 +5,109 @@ import type { Eje, Item, PerfilAfinidad, Respuesta, ResultadoFaceta } from './ty
 /**
  * Espacio político de tres macro-ejes (docs/investigacion/ESPACIO-EJES.md):
  * económico (izquierda-derecha), social/cultural (GAL-TAN) y territorial
- * (centro-periferia). El mapa 2D principal cruza económico × GAL-TAN.
+ * (centro-periferia). Los planos detallados y el cubo conservan esos tres
+ * ejes; la primera brújula añade una vertical compuesta de poder político.
  */
 export const EJES_ESPACIO = ['economico', 'social', 'territorial'] as const;
 
 export type EjeEspacio = (typeof EJES_ESPACIO)[number];
+
+/** Id del eje compuesto usado solo por la brújula clásica Economía × Poder. */
+export const EJE_AUTORIDAD_POLITICA = 'autoridad-politica' as const;
+
+/**
+ * La vertical del political compass no equivale al GAL–TAN cultural. Se
+ * compone con varias facetas ya medidas para no colocar como libertaria una
+ * doctrina laica pero de partido único, ni como autoritaria una doctrina
+ * tradicional que respeta pluralismo y libertades civiles.
+ *
+ * `sentido` orienta cada faceta hacia +100 = poder concentrado/orden y
+ * -100 = libertades/pluralismo/poder distribuido. Los pesos son editoriales
+ * y públicos; el factor de evidencia (hasta ×2) se aplica después.
+ */
+export const COMPONENTES_AUTORIDAD_POLITICA = [
+  { facetaId: 'social', peso: 1, sentido: 1 },
+  { facetaId: 'pluralismo-institucional', peso: 1.1, sentido: -1 },
+  { facetaId: 'organizacion', peso: 1.2, sentido: 1 },
+  { facetaId: 'libertades-civiles', peso: 0.9, sentido: -1 },
+  { facetaId: 'democracia-directa', peso: 0.25, sentido: -1 },
+  { facetaId: 'estatismo', peso: 0.6, sentido: 1 },
+  { facetaId: 'tradicion-moral', peso: 0.4, sentido: 1 },
+] as const;
+
+export interface OpcionesAutoridadPolitica {
+  /** Evidencia agregada mínima entre las facetas componentes (por defecto 4). */
+  minimoItems?: number;
+  /** Nº mínimo de facetas distintas con opinión (por defecto 2). */
+  minimoComponentes?: number;
+  /** Cobertura ponderada mínima para una persona (por defecto 0.35). */
+  umbralCobertura?: number;
+}
+
+function redondearCompuesto(valor: number, decimales: number): number {
+  const factor = 10 ** decimales;
+  return Math.round(valor * factor) / factor;
+}
+
+/**
+ * Compone la vertical Poder–Libertades desde facetas calculadas. No reusa la
+ * prioridad subjetiva del matching y no inventa valores para componentes sin
+ * evidencia. `sqrt(items)` aumenta el peso de una faceta mejor documentada,
+ * con tope ×2 para que un bloque largo no borre el resto del constructo.
+ */
+export function componerAutoridadPolitica(
+  facetas: ResultadoFaceta[],
+  opciones: OpcionesAutoridadPolitica = {},
+): ResultadoFaceta {
+  const minimoItems = opciones.minimoItems ?? 4;
+  const minimoComponentes = opciones.minimoComponentes ?? 2;
+  const umbralCobertura = opciones.umbralCobertura ?? 0.35;
+  const porId = new Map(facetas.map((faceta) => [faceta.facetaId, faceta]));
+  let sumaOrientada = 0;
+  let pesoTotal = 0;
+  let coberturaPonderada = 0;
+  let itemsRespondidos = 0;
+  let itemsDisponibles = 0;
+  let componentes = 0;
+
+  for (const componente of COMPONENTES_AUTORIDAD_POLITICA) {
+    const faceta = porId.get(componente.facetaId);
+    if (!faceta || typeof faceta.valor !== 'number' || faceta.itemsRespondidos === 0) continue;
+    const factorEvidencia = Math.min(2, Math.sqrt(faceta.itemsRespondidos));
+    const peso = componente.peso * factorEvidencia;
+    sumaOrientada += (faceta.valor / 100) * componente.sentido * peso;
+    pesoTotal += peso;
+    coberturaPonderada += faceta.cobertura * peso;
+    itemsRespondidos += faceta.itemsRespondidos;
+    itemsDisponibles += faceta.itemsDisponibles;
+    componentes += 1;
+  }
+
+  const cobertura = pesoTotal > 0 ? coberturaPonderada / pesoTotal : 0;
+  const valor =
+    pesoTotal > 0 ? redondearCompuesto((100 * sumaOrientada) / pesoTotal, 1) : null;
+  const evidenciaSuficiente =
+    valor !== null &&
+    componentes >= minimoComponentes &&
+    itemsRespondidos >= minimoItems &&
+    cobertura >= umbralCobertura;
+
+  return {
+    facetaId: EJE_AUTORIDAD_POLITICA,
+    valor,
+    itemsRespondidos,
+    itemsDisponibles,
+    cargaRespondida: redondearCompuesto(pesoTotal, 4),
+    cargaDisponible: redondearCompuesto(
+      cobertura > 0 ? pesoTotal / cobertura : pesoTotal,
+      4,
+    ),
+    numerador: redondearCompuesto(2 * sumaOrientada, 4),
+    denominador: redondearCompuesto(2 * pesoTotal, 4),
+    cobertura: redondearCompuesto(cobertura, 3),
+    coberturaSuficiente: evidenciaSuficiente,
+  };
+}
 
 /** Proyección de una entidad (partido o referencia doctrinal) al espacio de ejes. */
 export interface ProyeccionEspacial {

@@ -1,0 +1,458 @@
+{
+  "id": "anarcopacifismo-tolstoyano",
+  "nombre": "Anarcopacifismo",
+  "tipo": "referencia-doctrinal",
+  "definicion": "Tipo ideal de anarquismo pacifista que considera incompatibles dominación y violencia, rechaza Estado, ejército y guerra y busca transformar la sociedad mediante objeción de conciencia, desobediencia, no cooperación y construcción comunitaria no violenta.",
+  "variante": "Anarcopacifismo de raíz tolstoyana; no agota sus variantes seculares, sindicalistas, gandhianas o religiosas no cristianas",
+  "periodo": "Finales del siglo XIX–actualidad",
+  "confianza": "verificada",
+  "version": "1.0",
+  "revisado": "2026-07-11",
+  "publicacionMapa": {
+    "publicable": false,
+    "motivo": "El anarcopacifismo define ante todo método, antiestatismo y uso de la fuerza; sus variantes económicas son heterogéneas y el banco actual no aporta cuatro anclas macroeconómicas limpias. Forzar una coordenada izquierda–derecha convertiría coincidencias sobre impuestos o propiedad en una posición económica espuria."
+  },
+  "facetasDefinitorias": [
+    "uso-fuerza",
+    "armas-nucleares",
+    "atlantismo",
+    "estatismo",
+    "institucionalismo",
+    "libertad-conciencia"
+  ],
+  "sensibilidad": "normal",
+  "advertencia": "Es una referencia doctrinal de afinidad, no una identidad asignada. La no violencia no basta por sí sola para inferir anarquismo: debe combinarse con antiestatismo y rechazo de la coerción institucional. Esta ficha usa la variante tolstoyana para fundamentar posiciones, pero no convierte su cristianismo heterodoxo en postura sobre la asignatura de Religión, confesionalidad española u otras políticas actuales. Tampoco atribuye al conjunto del anarcopacifismo las ideas económicas, familiares o religiosas particulares de Tolstói. Las posiciones sobre OTAN, Unión Europea y armas nucleares son aplicaciones contemporáneas del principio explícito de no violencia, no declaraciones históricas literales.",
+  "fuentesMarco": [
+    {
+      "tipo": "otro",
+      "titulo": "Leo Tolstoy, The Kingdom of God Is Within You (en inglés)",
+      "url": "https://www.gutenberg.org/files/43302/43302-h/43302-h.htm",
+      "fecha": "1894",
+      "consultado": "2026-07-11"
+    },
+    {
+      "tipo": "otro",
+      "titulo": "Leo Tolstoy, The Law of Violence and the Law of Love (en inglés)",
+      "url": "https://www.marxists.org/archive/tolstoy/1908/the-law-of-violence-and-the-law-of-love/index.html",
+      "fecha": "1908",
+      "consultado": "2026-07-11"
+    },
+    {
+      "tipo": "otro",
+      "titulo": "Alexandre Christoyannopoulos, Tolstoy’s Christian Anarcho-Pacifism: An Exposition (en inglés)",
+      "url": "https://doi.org/10.16993/bbb.c",
+      "fecha": "2020-06-11",
+      "consultado": "2026-07-11"
+    },
+    {
+      "tipo": "otro",
+      "titulo": "Stanford Encyclopedia of Philosophy: Anarchism (en inglés)",
+      "url": "https://plato.stanford.edu/entries/anarchism/",
+      "fecha": "2025-12-04",
+      "consultado": "2026-07-11"
+    }
+  ],
+  "reglaPublicacion": {
+    "minimoItems": 16,
+    "minimoCobertura": 0.6,
+    "umbralAfinidad": 80
+  },
+  "posiciones": {
+    "der-001": {
+      "valor": -1,
+      "justificacion": "Incluso un Estado reducido conserva monopolios coercitivos de policía, tribunales y fuerza; esta corriente busca retirar obediencia a la institución estatal completa, no conservar su núcleo mínimo.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "The Kingdom of God Is Within You (en inglés)",
+        "url": "https://www.gutenberg.org/files/43302/43302-h/43302-h.htm",
+        "fecha": "1894",
+        "consultado": "2026-07-11"
+      }
+    },
+    "izq-002": {
+      "valor": -2,
+      "justificacion": "Una vanguardia disciplinada que dirige e impone la revolución reproduce autoridad y coerción; el cambio se apoya en conciencia y no cooperación personales y comunitarias.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Tolstoy’s Christian Anarcho-Pacifism: An Exposition (en inglés)",
+        "url": "https://doi.org/10.16993/bbb.c",
+        "fecha": "2020-06-11",
+        "consultado": "2026-07-11"
+      }
+    },
+    "izq-007": {
+      "valor": 2,
+      "justificacion": "El Estado se entiende como una estructura sostenida por fuerza, ejército, castigo y obediencia; no puede convertirse en instrumento emancipador y debe perder el consentimiento que lo reproduce.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "The Kingdom of God Is Within You (en inglés)",
+        "url": "https://www.gutenberg.org/files/43302/43302-h/43302-h.htm",
+        "fecha": "1894",
+        "consultado": "2026-07-11"
+      }
+    },
+    "izq-008": {
+      "valor": 1,
+      "justificacion": "Da prioridad a desobediencia, retirada, objeción y acción no violenta directa frente a tomar el poder; la huelga de masas es compatible, pero no constituye un mecanismo obligatorio de toda variante.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Tolstoy’s Christian Anarcho-Pacifism: An Exposition (en inglés)",
+        "url": "https://doi.org/10.16993/bbb.c",
+        "fecha": "2020-06-11",
+        "consultado": "2026-07-11"
+      }
+    },
+    "dem-011": {
+      "valor": 2,
+      "justificacion": "Su horizonte no es perfeccionar el parlamento sino superar gobierno y coacción mediante relaciones voluntarias y prácticas comunitarias desde abajo.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Stanford Encyclopedia of Philosophy: Anarchism, anarcho-pacifism (en inglés)",
+        "url": "https://plato.stanford.edu/entries/anarchism/",
+        "fecha": "2025-12-04",
+        "consultado": "2026-07-11"
+      }
+    },
+    "dem-015": {
+      "valor": -2,
+      "justificacion": "Una dirección que impone disciplina pública pese a la conciencia individual contradice el método de no cooperación voluntaria y el rechazo de autoridad externa.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "The Kingdom of God Is Within You (en inglés)",
+        "url": "https://www.gutenberg.org/files/43302/43302-h/43302-h.htm",
+        "fecha": "1894",
+        "consultado": "2026-07-11"
+      }
+    },
+    "dem-019": {
+      "valor": -2,
+      "justificacion": "Un movimiento único gobernando sin oposición concentra poder estatal y requiere la obediencia coercitiva que esta corriente niega.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "The Law of Violence and the Law of Love (en inglés)",
+        "url": "https://www.marxists.org/archive/tolstoy/1908/the-law-of-violence-and-the-law-of-love/index.html",
+        "fecha": "1908",
+        "consultado": "2026-07-11"
+      }
+    },
+    "dem-021": {
+      "valor": 2,
+      "justificacion": "La desobediencia y manifestación pacíficas no adquieren ilegitimidad moral por carecer de autorización estatal; sancionarlas solo por el aviso refuerza obediencia coercitiva.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Tolstoy’s Christian Anarcho-Pacifism: An Exposition (en inglés)",
+        "url": "https://doi.org/10.16993/bbb.c",
+        "fecha": "2020-06-11",
+        "consultado": "2026-07-11"
+      }
+    },
+    "izq-038": {
+      "valor": 1,
+      "justificacion": "El anarcopacifismo dirige sus propuestas a personas y comunidades que construyen poder desde abajo, no a Estados; no fija, sin embargo, un único diseño municipal-confederal.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Stanford Encyclopedia of Philosophy: Anarchism, anarcho-pacifism (en inglés)",
+        "url": "https://plato.stanford.edu/entries/anarchism/",
+        "fecha": "2025-12-04",
+        "consultado": "2026-07-11"
+      }
+    },
+    "izq-040": {
+      "valor": 2,
+      "justificacion": "Rechaza ejército, preparación bélica y servicio militar como instituciones de violencia y busca su desaparición, no solo una reducción presupuestaria.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "The Kingdom of God Is Within You (en inglés)",
+        "url": "https://www.gutenberg.org/files/43302/43302-h/43302-h.htm",
+        "fecha": "1894",
+        "consultado": "2026-07-11"
+      }
+    },
+    "izq-043": {
+      "valor": 1,
+      "justificacion": "La ayuda y la transformación se organizan entre personas y comunidades que retiran cooperación a estructuras violentas; la corriente no prescribe un único sistema completo de protección social.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Stanford Encyclopedia of Philosophy: Anarchism, anarcho-pacifism (en inglés)",
+        "url": "https://plato.stanford.edu/entries/anarchism/",
+        "fecha": "2025-12-04",
+        "consultado": "2026-07-11"
+      }
+    },
+    "izq-044": {
+      "valor": 2,
+      "justificacion": "Policía, prisión y castigo estatal forman parte del ciclo de violencia que debe sustituirse por responsabilidad moral, persuasión y respuesta social no coercitiva.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "The Law of Violence and the Law of Love (en inglés)",
+        "url": "https://www.marxists.org/archive/tolstoy/1908/the-law-of-violence-and-the-law-of-love/index.html",
+        "fecha": "1908",
+        "consultado": "2026-07-11"
+      }
+    },
+    "izq-046": {
+      "valor": 2,
+      "justificacion": "Rechaza patriotismo, divisiones nacionales y deberes estatales que se anteponen a la humanidad; su destinatario moral es toda persona, no una ciudadanía nacional cerrada.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "The Kingdom of God Is Within You (en inglés)",
+        "url": "https://www.gutenberg.org/files/43302/43302-h/43302-h.htm",
+        "fecha": "1894",
+        "consultado": "2026-07-11"
+      }
+    },
+    "lab-009": {
+      "valor": 2,
+      "justificacion": "Tolstói incluye impuestos y tributos de guerra entre las obligaciones coercitivas que sostienen ejército, castigo y desposesión estatal, y llama a retirarles cooperación.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "The Kingdom of God Is Within You (en inglés)",
+        "url": "https://www.gutenberg.org/files/43302/43302-h/43302-h.htm",
+        "fecha": "1894",
+        "consultado": "2026-07-11"
+      }
+    },
+    "lab-010": {
+      "valor": -2,
+      "justificacion": "La objeción no sacraliza propiedad privada ni acumulación: la variante tolstoyana exige compartir riqueza y denuncia la posición violenta del terrateniente y del capitalista.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "The Kingdom of God Is Within You (en inglés)",
+        "url": "https://www.gutenberg.org/files/43302/43302-h/43302-h.htm",
+        "fecha": "1894",
+        "consultado": "2026-07-11"
+      }
+    },
+    "lab-016": {
+      "valor": -2,
+      "justificacion": "La dirección estatal de empresas reproduce autoridad y coacción; el antiestatismo pacifista no convierte nacionalización o planificación ministerial en alternativa emancipadora.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Tolstoy’s Christian Anarcho-Pacifism: An Exposition (en inglés)",
+        "url": "https://doi.org/10.16993/bbb.c",
+        "fecha": "2020-06-11",
+        "consultado": "2026-07-11"
+      }
+    },
+    "soc-006": {
+      "valor": 2,
+      "justificacion": "La variante tolstoyana rechaza cárcel, retribución penal y castigo violento como medios irracionales; por ello se opone a una pena de prisión permanente.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "The Law of Violence and the Law of Love, chapter 17 (en inglés)",
+        "url": "https://www.marxists.org/archive/tolstoy/1908/the-law-of-violence-and-the-law-of-love/chapter-17.html",
+        "fecha": "1908",
+        "consultado": "2026-07-11"
+      }
+    },
+    "def-001": {
+      "valor": 2,
+      "justificacion": "Reducir gasto militar es una medida mínima coherente con una doctrina que pretende eliminar ejército, armamento y preparación de guerra.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "The Kingdom of God Is Within You (en inglés)",
+        "url": "https://www.gutenberg.org/files/43302/43302-h/43302-h.htm",
+        "fecha": "1894",
+        "consultado": "2026-07-11"
+      }
+    },
+    "def-002": {
+      "valor": 2,
+      "justificacion": "La pertenencia a una alianza militar contradice neutralidad, rechazo de bloques armados y negativa a participar en guerras; la aplicación a la OTAN es contemporánea.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Stanford Encyclopedia of Philosophy: Anarchism, anarcho-pacifism (en inglés)",
+        "url": "https://plato.stanford.edu/entries/anarchism/",
+        "fecha": "2025-12-04",
+        "consultado": "2026-07-11"
+      }
+    },
+    "sd-002": {
+      "valor": -2,
+      "justificacion": "Aumentar de forma sustancial el gasto militar fortalece el aparato de guerra que el anarcopacifismo busca desmantelar.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "The Kingdom of God Is Within You (en inglés)",
+        "url": "https://www.gutenberg.org/files/43302/43302-h/43302-h.htm",
+        "fecha": "1894",
+        "consultado": "2026-07-11"
+      }
+    },
+    "sd-003": {
+      "valor": -2,
+      "justificacion": "El principio de no violencia se aplica también a guerras defensivas: enviar armas prolonga capacidad de matar aunque la parte receptora haya sufrido una invasión.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Tolstoy’s Christian Anarcho-Pacifism: An Exposition (en inglés)",
+        "url": "https://doi.org/10.16993/bbb.c",
+        "fecha": "2020-06-11",
+        "consultado": "2026-07-11"
+      }
+    },
+    "geo-001": {
+      "valor": 2,
+      "justificacion": "Una neutralidad permanente fuera de bloques armados es el mínimo institucional compatible con negarse a prestar apoyo a guerras y alianzas militares.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Stanford Encyclopedia of Philosophy: Anarchism, anarcho-pacifism (en inglés)",
+        "url": "https://plato.stanford.edu/entries/anarchism/",
+        "fecha": "2025-12-04",
+        "consultado": "2026-07-11"
+      }
+    },
+    "geo-002": {
+      "valor": -2,
+      "justificacion": "La prohibición de matar no queda suspendida por autorización internacional ni por un fin humanitario; la corriente propone protección civil por medios no violentos.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "The Kingdom of God Is Within You (en inglés)",
+        "url": "https://www.gutenberg.org/files/43302/43302-h/43302-h.htm",
+        "fecha": "1894",
+        "consultado": "2026-07-11"
+      }
+    },
+    "geo-003": {
+      "valor": 2,
+      "justificacion": "Renuncia a participar en guerras extranjeras incluso bajo presión aliada porque ninguna obediencia estatal justifica matar.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "The Kingdom of God Is Within You (en inglés)",
+        "url": "https://www.gutenberg.org/files/43302/43302-h/43302-h.htm",
+        "fecha": "1894",
+        "consultado": "2026-07-11"
+      }
+    },
+    "geo-004": {
+      "valor": -2,
+      "justificacion": "Sustituir dependencia militar estadounidense por una fuerza armada europea cambia el mando, pero no supera militarismo ni violencia organizada.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Tolstoy’s Christian Anarcho-Pacifism: An Exposition (en inglés)",
+        "url": "https://doi.org/10.16993/bbb.c",
+        "fecha": "2020-06-11",
+        "consultado": "2026-07-11"
+      }
+    },
+    "geo-005": {
+      "valor": -2,
+      "justificacion": "La disuasión nuclear descansa en una amenaza creíble de destrucción masiva y es incompatible con el rechazo de violencia, aunque existan arsenales ajenos.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Stanford Encyclopedia of Philosophy: Anarchism, nonviolence (en inglés)",
+        "url": "https://plato.stanford.edu/entries/anarchism/",
+        "fecha": "2025-12-04",
+        "consultado": "2026-07-11"
+      }
+    },
+    "geo-006": {
+      "valor": 2,
+      "justificacion": "Firmar la prohibición de armas nucleares materializa el principio de desarme incluso frente a presión de aliados nucleares.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Stanford Encyclopedia of Philosophy: Anarchism, nonviolence (en inglés)",
+        "url": "https://plato.stanford.edu/entries/anarchism/",
+        "fecha": "2025-12-04",
+        "consultado": "2026-07-11"
+      }
+    },
+    "geo-007": {
+      "valor": -2,
+      "justificacion": "Desarrollar un arsenal propio multiplica capacidad y amenaza de violencia estatal, el inverso de desarme y no cooperación militar.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Stanford Encyclopedia of Philosophy: Anarchism, nonviolence (en inglés)",
+        "url": "https://plato.stanford.edu/entries/anarchism/",
+        "fecha": "2025-12-04",
+        "consultado": "2026-07-11"
+      }
+    },
+    "geo-008": {
+      "valor": 2,
+      "justificacion": "La no violencia absoluta excluye una represalia nuclear incluso tras ataque previo: responder con destrucción masiva reproduce aquello que se rechaza.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Tolstoy’s Christian Anarcho-Pacifism: An Exposition (en inglés)",
+        "url": "https://doi.org/10.16993/bbb.c",
+        "fecha": "2020-06-11",
+        "consultado": "2026-07-11"
+      }
+    },
+    "geo-013": {
+      "valor": 2,
+      "justificacion": "Una doctrina contraria a armar y matar apoya, como mínimo, prohibir ventas a gobiernos que emplean esas armas en vulneraciones graves, aun con coste económico.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Tolstoy’s Christian Anarcho-Pacifism: An Exposition (en inglés)",
+        "url": "https://doi.org/10.16993/bbb.c",
+        "fecha": "2020-06-11",
+        "consultado": "2026-07-11"
+      }
+    },
+    "geo-014": {
+      "valor": -2,
+      "justificacion": "La negativa al servicio militar obligatorio es una aplicación central y explícita de la objeción tolstoyana a obedecer órdenes de matar.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "The Kingdom of God Is Within You (en inglés)",
+        "url": "https://www.gutenberg.org/files/43302/43302-h/43302-h.htm",
+        "fecha": "1894",
+        "consultado": "2026-07-11"
+      }
+    },
+    "dr-025": {
+      "valor": 2,
+      "justificacion": "La ilegitimidad de la violencia como medio, incluso contra mal, invasión o injusticia, es el rasgo que separa esta corriente de otras ramas anarquistas revolucionarias.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "The Kingdom of God Is Within You (en inglés)",
+        "url": "https://www.gutenberg.org/files/43302/43302-h/43302-h.htm",
+        "fecha": "1894",
+        "consultado": "2026-07-11"
+      }
+    },
+    "lim-006": {
+      "valor": 2,
+      "justificacion": "La unidad entre medios y fines impide sacrificar población civil o silenciar crítica en nombre de una revolución; la transformación debe conservar no violencia y conciencia individual.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Stanford Encyclopedia of Philosophy: Anarchism, nonviolence and means–ends unity (en inglés)",
+        "url": "https://plato.stanford.edu/entries/anarchism/",
+        "fecha": "2025-12-04",
+        "consultado": "2026-07-11"
+      }
+    }
+  }
+}

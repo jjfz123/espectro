@@ -1,0 +1,125 @@
+{
+  "id": "republicanismo-federal-pimargalliano",
+  "nombre": "Republicanismo federal pimargalliano",
+  "tipo": "referencia-doctrinal",
+  "definicion": "Tipo ideal de la tradición republicana federal española asociada a Francisco Pi y Margall: sustituye la jefatura hereditaria por una república democrática y articula municipios, provincias y territorios mediante pacto y autonomía, pero conserva un poder federal común para los asuntos compartidos.",
+  "variante": "Federalismo pactista y municipal de Pi y Margall; no equivale al cantonalismo intransigente ni a todo federalismo español contemporáneo",
+  "periodo": "1868–1901",
+  "confianza": "verificada",
+  "version": "1.0",
+  "revisado": "2026-07-11",
+  "publicacionMapa": {
+    "publicable": false,
+    "motivo": "La evidencia delimita con claridad república, pacto, autonomía y poder federal, pero no ofrece posiciones comparables suficientes en los macroejes económico y social; proyectarlo al cuadrante principal inventaría coordenadas."
+  },
+  "facetasDefinitorias": [
+    "monarquia",
+    "modelo-territorial",
+    "territorial",
+    "estatismo",
+    "organizacion"
+  ],
+  "sensibilidad": "normal",
+  "advertencia": "Es una referencia histórica acotada a la corriente pimargalliana, no una descripción automática del republicanismo, del federalismo actual ni de una identidad territorial concreta. No se codifican economía, religión, derechos sociales, política exterior ni el método insurreccional: el federalismo del Sexenio contenía corrientes distintas y Pi adoptó una vía constitucional y legalista en 1873, frente al cantonalismo intransigente.",
+  "fuentesMarco": [
+    {
+      "tipo": "otro",
+      "titulo": "Francisco Pi y Margall, Las nacionalidades, libro segundo, capítulo I",
+      "url": "https://es.wikisource.org/wiki/Las_nacionalidades_:17",
+      "fecha": "1876",
+      "consultado": "2026-07-11"
+    },
+    {
+      "tipo": "otro",
+      "titulo": "Pere Gabriel, Republicanismos y Federalismos en la España del siglo XIX. El Federalismo catalán (CEPC)",
+      "url": "https://www.cepc.gob.es/publicaciones/revistas/historia-y-politica/numero-06-juliodiciembre-2001/republicanismos-y-federalismos-en-la-espana-del-siglo-xix-el-federalismo-catalan-1",
+      "fecha": "2001",
+      "consultado": "2026-07-11"
+    },
+    {
+      "tipo": "otro",
+      "titulo": "El proceso constituyente español de 1873: origen y fracaso de la República Federal (en inglés; International Journal of Constitutional Law)",
+      "url": "https://academic.oup.com/icon/article/21/5/1403/7465291",
+      "fecha": "2023",
+      "consultado": "2026-07-11"
+    }
+  ],
+  "reglaPublicacion": {
+    "minimoItems": 5,
+    "minimoCobertura": 0.67,
+    "umbralAfinidad": 78
+  },
+  "posiciones": {
+    "mon-001": {
+      "valor": 2,
+      "justificacion": "La república es una base compartida explícita del proyecto pimargalliano: la jefatura hereditaria debe ceder ante instituciones fundadas en soberanía democrática.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Republicanismos y Federalismos en la España del siglo XIX. El Federalismo catalán",
+        "url": "https://www.cepc.gob.es/publicaciones/revistas/historia-y-politica/numero-06-juliodiciembre-2001/republicanismos-y-federalismos-en-la-espana-del-siglo-xix-el-federalismo-catalan-1",
+        "fecha": "2001",
+        "consultado": "2026-07-11"
+      }
+    },
+    "dem-033": {
+      "valor": 2,
+      "justificacion": "Definir un Estado federal con autonomía política efectiva para sus partes es el núcleo de esta corriente y la distingue tanto del Estado unitario como de una mera descentralización administrativa revocable desde el centro.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Republicanismos y Federalismos en la España del siglo XIX. El Federalismo catalán",
+        "url": "https://www.cepc.gob.es/publicaciones/revistas/historia-y-politica/numero-06-juliodiciembre-2001/republicanismos-y-federalismos-en-la-espana-del-siglo-xix-el-federalismo-catalan-1",
+        "fecha": "2001",
+        "consultado": "2026-07-11"
+      }
+    },
+    "dem-034": {
+      "valor": 1,
+      "justificacion": "Pi funda la federación en el pacto entre entidades iguales que conservan autonomía y crean un poder para los fines comunes; se modera el acuerdo porque su vocabulario federal del siglo XIX no coincide exactamente con la confederación contemporánea de soberanías estatales.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Francisco Pi y Margall, Las nacionalidades, libro segundo, capítulo I",
+        "url": "https://es.wikisource.org/wiki/Las_nacionalidades_:17",
+        "fecha": "1876",
+        "consultado": "2026-07-11"
+      }
+    },
+    "ter-001": {
+      "valor": -2,
+      "justificacion": "La corriente nace contra el Estado unitario y contra la subordinación de ayuntamientos y provincias al Gobierno central; devolver competencias al centro contradice su autonomía pactada.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Pere Gabriel, Pi y Margall y el federalismo popular democrático (CEPC)",
+        "url": "https://www.cepc.gob.es/sites/default/files/2021-12/26633peregabrielpyh06.pdf",
+        "consultado": "2026-07-11"
+      }
+    },
+    "izq-007": {
+      "valor": -2,
+      "justificacion": "El pactismo no abole toda institución estatal: las sociedades federadas crean un poder común que las representa y atiende sus fines compartidos, por lo que no coincide con el antiestatismo integral del enunciado.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Francisco Pi y Margall, Las nacionalidades, libro segundo, capítulo I",
+        "url": "https://es.wikisource.org/wiki/Las_nacionalidades_:17",
+        "fecha": "1876",
+        "consultado": "2026-07-11"
+      }
+    },
+    "izq-038": {
+      "valor": 0,
+      "justificacion": "Comparte la construcción desde municipios y el pacto de abajo arriba, pero no la cláusula final del ítem: Pi conserva un Estado federal y un poder común por encima de cada unidad para las materias compartidas.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "El proceso constituyente español de 1873: origen y fracaso de la República Federal (en inglés)",
+        "url": "https://academic.oup.com/icon/article/21/5/1403/7465291",
+        "fecha": "2023",
+        "consultado": "2026-07-11"
+      }
+    }
+  }
+}

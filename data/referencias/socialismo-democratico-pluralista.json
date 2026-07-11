@@ -1,0 +1,211 @@
+{
+  "id": "socialismo-democratico-pluralista",
+  "nombre": "Socialismo democrático pluralista",
+  "tipo": "referencia-doctrinal",
+  "definicion": "Tipo ideal contemporáneo que pretende superar el capitalismo extendiendo la democracia política a la economía: combina planificación democrática, propiedad pública de sectores decisivos, cooperativas y mercados subordinados al interés colectivo, junto con pluralismo político, libertades civiles y movimientos sociales autónomos.",
+  "variante": "Tradición contemporánea anglosajona articulada por Democratic Socialists of America; distinta de la socialdemocracia clásica, que regula una economía capitalista sin proponerse sustituirla, y del socialismo de Estado de partido único",
+  "periodo": "1982-actualidad",
+  "confianza": "verificada",
+  "version": "1.0",
+  "revisado": "2026-07-11",
+  "facetasDefinitorias": ["economico", "poder-laboral", "organizacion", "pluralismo-institucional", "libertades-civiles", "internacionalismo"],
+  "sensibilidad": "normal",
+  "advertencia": "Es un tipo ideal doctrinal y DSA se usa como una formulación primaria contemporánea especialmente explícita, no como organización a la que se adscriba al usuario. DSA contiene corrientes internas distintas y no monopoliza el socialismo democrático. La ficha tampoco equivale a la socialdemocracia clásica: mantiene como horizonte la sustitución del poder capitalista y la democratización de la propiedad, pero rechaza que una élite o partido único imponga la transformación desde arriba. En propiedad combina empresas públicas y cooperativas; por eso el ítem cooperativo se modera a +1.",
+  "fuentesMarco": [
+    {
+      "tipo": "programa",
+      "titulo": "Democratic Socialists of America, Where We Stand: Building the Next Left (en inglés)",
+      "url": "https://www.dsausa.org/strategy/where_we_stand/",
+      "consultado": "2026-07-11"
+    },
+    {
+      "tipo": "programa",
+      "titulo": "Democratic Socialists of America, Political Platform adopted at the 2021 Convention (en inglés)",
+      "url": "https://www.dsausa.org/dsa-political-platform-from-2021-convention/",
+      "fecha": "2021-08",
+      "consultado": "2026-07-11"
+    },
+    {
+      "tipo": "programa",
+      "titulo": "Democratic Socialists of America, Workers Deserve More! Program (en inglés)",
+      "url": "https://platform.dsausa.org/program/",
+      "consultado": "2026-07-11"
+    }
+  ],
+  "reglaPublicacion": {
+    "minimoItems": 12,
+    "minimoCobertura": 0.5,
+    "umbralAfinidad": 76
+  },
+  "posiciones": {
+    "izq-002": {
+      "valor": -2,
+      "justificacion": "La plataforma define el socialismo como una transformación desde abajo por millones de trabajadores y rechaza expresamente que una pequeña élite, aun bienintencionada, dirija el cambio con respuestas prefabricadas.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "DSA, Political Platform adopted at the 2021 Convention, preámbulo (en inglés)",
+        "url": "https://www.dsausa.org/dsa-political-platform-from-2021-convention/",
+        "fecha": "2021-08",
+        "consultado": "2026-07-11"
+      }
+    },
+    "dem-011": {
+      "valor": 1,
+      "justificacion": "El programa propone una nueva constitución democrática, representación proporcional y reemplazar instituciones estructurales como el bipartidismo, el Colegio Electoral y el Senado; busca otro modelo político, pero conserva elecciones, legislatura y derechos plurales.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "DSA, Workers Deserve More!: Working-Class Democracy (en inglés)",
+        "url": "https://platform.dsausa.org/democracy/",
+        "consultado": "2026-07-11"
+      }
+    },
+    "der-001": {
+      "valor": -2,
+      "justificacion": "El proyecto atribuye al poder democrático provisión universal de servicios, planificación, inversión, propiedad de grandes empresas e infraestructuras y garantía de necesidades sociales: es incompatible con un Estado reducido a seguridad y justicia.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "DSA, Workers Deserve More! Program (en inglés)",
+        "url": "https://platform.dsausa.org/program/",
+        "consultado": "2026-07-11"
+      }
+    },
+    "izq-005": {
+      "valor": 1,
+      "justificacion": "Defiende control popular de recursos y producción y planificación económica, pero no elimina toda coordinación mercantil: los mercados deben servir al bien público dentro de una economía plural. Por ello el reemplazo del mercado en sectores estratégicos recibe +1, no +2.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "DSA, Where We Stand: Democratic Control of Productive and Social Life (en inglés)",
+        "url": "https://www.dsausa.org/strategy/where_we_stand/",
+        "consultado": "2026-07-11"
+      }
+    },
+    "lab-017": {
+      "valor": 1,
+      "justificacion": "Las cooperativas de trabajadores son centrales para la democracia económica, pero conviven con instituciones públicas y con la propiedad pública de las corporaciones mayores. Coincide con transferir poder empresarial a trabajadores, no con excluir siempre la propiedad pública ministerial.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "DSA, Where We Stand: Vision of a Socialist Economy (en inglés)",
+        "url": "https://www.dsausa.org/strategy/where_we_stand/",
+        "consultado": "2026-07-11"
+      }
+    },
+    "eco-011": {
+      "valor": 2,
+      "justificacion": "El programa reclama literalmente una semana laboral de 32 horas sin reducción de salario ni prestaciones.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "DSA, An Economy for the Working Class (en inglés)",
+        "url": "https://platform.dsausa.org/economy/",
+        "consultado": "2026-07-11"
+      }
+    },
+    "eco-001": {
+      "valor": 2,
+      "justificacion": "Propone elevar impuestos a las rentas más altas, grandes empresas, grandes herencias y patrimonios, además de crear un impuesto a la riqueza.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "DSA, An Economy for the Working Class: Tax the Rich (en inglés)",
+        "url": "https://platform.dsausa.org/economy/",
+        "consultado": "2026-07-11"
+      }
+    },
+    "eco-006": {
+      "valor": 2,
+      "justificacion": "Exige inversión pública para construir vivienda social de calidad y para rentas diversas, junto con control universal de alquileres; acepta expresamente el coste de un gran parque público.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "DSA, Thriving Working-Class Communities: Housing for All (en inglés)",
+        "url": "https://platform.dsausa.org/communities/",
+        "consultado": "2026-07-11"
+      }
+    },
+    "ene-004": {
+      "valor": 2,
+      "justificacion": "El Green New Deal del programa demanda propiedad pública sobre las principales infraestructuras energéticas y de transporte y sobre recursos naturales, lo que incluye la red eléctrica estratégica.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "DSA, An Economy for the Working Class: Green New Deal (en inglés)",
+        "url": "https://platform.dsausa.org/economy/",
+        "consultado": "2026-07-11"
+      }
+    },
+    "soc-004": {
+      "valor": 2,
+      "justificacion": "El programa exige amnistía inmediata para todas las personas migrantes con independencia de su estatus, acceso a derechos y servicios y fin de deportaciones; supera incluso una regularización extraordinaria limitada.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "DSA, Working-Class Foreign Policy: Freedom of Movement (en inglés)",
+        "url": "https://platform.dsausa.org/foreign-policy/",
+        "consultado": "2026-07-11"
+      }
+    },
+    "izq-046": {
+      "valor": 2,
+      "justificacion": "Reconoce de forma literal que los trabajadores deben poder migrar libremente entre países sin controles migratorios restrictivos y pide desmilitarizar la frontera.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "DSA, Working-Class Foreign Policy: Freedom of Movement (en inglés)",
+        "url": "https://platform.dsausa.org/foreign-policy/",
+        "consultado": "2026-07-11"
+      }
+    },
+    "izq-044": {
+      "valor": 2,
+      "justificacion": "La plataforma adoptada fija como horizonte abolir policía y prisiones, reducir anualmente presupuesto, tamaño, autoridad y funciones policiales y construir instituciones comunitarias orientadas a necesidades y justicia.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "DSA, Political Platform 2021: Abolition of the Carceral State (en inglés)",
+        "url": "https://www.dsausa.org/dsa-political-platform-from-2021-convention/",
+        "fecha": "2021-08",
+        "consultado": "2026-07-11"
+      }
+    },
+    "soc-003": {
+      "valor": -2,
+      "justificacion": "La plataforma de abolición pide terminar la vigilancia policial y toda financiación, contratación o desarrollo de CCTV, biometría, bases de datos y policía predictiva; rechaza ampliar videovigilancia por seguridad.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "DSA, Political Platform 2021: Abolition of the Carceral State (en inglés)",
+        "url": "https://www.dsausa.org/dsa-political-platform-from-2021-convention/",
+        "fecha": "2021-08",
+        "consultado": "2026-07-11"
+      }
+    },
+    "soc-006": {
+      "valor": 2,
+      "justificacion": "La resolución nacional de trabajo abolicionista incluye expresamente abolir la cadena perpetua sin libertad condicional y reducir castigo y encarcelamiento; la prisión permanente revisable española, aunque formalmente revisable, contradice ese horizonte.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "DSA 2021 Convention Resolution: Empowering DSA's Mass Abolition Work (en inglés)",
+        "url": "https://convention2021.dsausa.org/2021-dsa-convention-resolutions/",
+        "fecha": "2021-08",
+        "consultado": "2026-07-11"
+      }
+    },
+    "soc-001": {
+      "valor": 2,
+      "justificacion": "El programa identifica los ataques a personas queer y trans como amenaza a libertades civiles y garantiza atención de afirmación de género dentro de la sanidad universal; mantener los derechos LGTB protegidos legalmente es parte explícita de su proyecto.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "DSA, Workers Deserve More! Program y Thriving Working-Class Communities (en inglés)",
+        "url": "https://platform.dsausa.org/program/",
+        "consultado": "2026-07-11"
+      }
+    }
+  }
+}

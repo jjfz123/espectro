@@ -88,7 +88,7 @@ export interface SeleccionElectoral {
   candidaturasConPerfil: number;
   /** Perfiles enlazados a la selección, antes de descartar inactivos o históricos. */
   perfilesEnlazados: number;
-  metodo: 'convocatoria-documentada' | 'heuristica-ambito';
+  metodo: 'convocatoria-documentada' | 'heuristica-ambito' | 'contexto-incompleto';
 }
 
 function vigentes(partidos: Partido[]): Partido[] {
@@ -100,6 +100,7 @@ function vigentes(partidos: Partido[]): Partido[] {
 
 function porAmbito(partidos: Partido[], ctx: ContextoEleccion): Partido[] {
   if (ctx.tipo === 'europeas') return partidos;
+  if ((ctx.tipo === 'autonomicas' || ctx.tipo === 'municipales') && !ctx.ccaa) return [];
   return partidos.filter((p) => {
     if (p.ambito === 'estatal') return true;
     if (p.ambito === 'local' && ctx.tipo !== 'municipales') return false;
@@ -133,6 +134,16 @@ export function seleccionarPartidosElectorales(
   ctx: ContextoEleccion,
 ): SeleccionElectoral {
   const partidosVigentes = vigentes(partidos);
+  if ((ctx.tipo === 'autonomicas' || ctx.tipo === 'municipales') && !ctx.ccaa) {
+    return {
+      partidos: [],
+      partidosFueraConvocatoria: [],
+      candidaturas: [],
+      candidaturasConPerfil: 0,
+      perfilesEnlazados: 0,
+      metodo: 'contexto-incompleto',
+    };
+  }
   const convocatoria = ultimaConvocatoria(convocatorias, ctx);
   if (!convocatoria) {
     return {

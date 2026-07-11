@@ -105,6 +105,18 @@ describe('rankingAfinidad: orden y suficiencia de datos', () => {
     };
     expect(rankingAfinidad([{ itemId: 'a', valor: 1 }], [sinDatos], laxo)).toEqual([]);
   });
+
+  it('un perfil monotemático nunca genera un porcentaje de afinidad general', () => {
+    const monotematico: Partido = {
+      id: 'mono',
+      nombre: 'Un solo punto',
+      ambito: 'estatal',
+      confianza: 'verificada',
+      monotematico: true,
+      posiciones: { unico: { valor: 2 } },
+    };
+    expect(rankingAfinidad([{ itemId: 'unico', valor: 2 }], [monotematico])).toEqual([]);
+  });
 });
 
 describe('itemVisible: condicionales', () => {

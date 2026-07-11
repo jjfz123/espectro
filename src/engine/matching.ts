@@ -105,9 +105,10 @@ export function calcularAfinidad(
  *
  * Los resultados con cobertura suficiente se muestran primero. Los de baja
  * cobertura siguen disponibles por transparencia, pero no pueden adelantar a
- * una comparación sustentada en datos suficientes. Los partidos sin ningún
- * ítem comparable quedan al final y la interfaz debe tratarlos como «sin
- * datos», nunca como una afinidad del 0 %.
+ * una comparación sustentada en datos suficientes. Las organizaciones
+ * monotemáticas se excluyen: un único punto no puede producir un porcentaje
+ * de afinidad general. Los partidos sin ningún ítem comparable quedan al final
+ * y la interfaz debe tratarlos como «sin datos», nunca como una afinidad del 0 %.
  */
 export function rankingAfinidad(
   respuestas: Respuesta[],
@@ -115,7 +116,7 @@ export function rankingAfinidad(
   opciones: OpcionesAfinidad = {},
 ): ResultadoAfinidad[] {
   return entidades
-    .filter((entidad) => entidad.confianza !== 'sin-datos')
+    .filter((entidad) => entidad.confianza !== 'sin-datos' && !entidad.monotematico)
     .map((entidad) => calcularAfinidad(respuestas, entidad, opciones))
     .sort((a, b) => {
       const categoriaA = a.itemsComparados === 0 ? 2 : a.bajaCobertura ? 1 : 0;

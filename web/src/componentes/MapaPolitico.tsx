@@ -1,12 +1,20 @@
-import { Suspense, lazy, useId, useMemo, useState } from 'react';
+import { Suspense, lazy, useEffect, useId, useMemo, useState } from 'react';
 import type { ReactNode } from 'react';
 import type { Eje, ResultadoFaceta } from '@engine';
-import { distanciaEspacial } from '@engine';
+import {
+  EJE_AUTORIDAD_POLITICA,
+  componerAutoridadPolitica,
+  distanciaEspacial,
+} from '@engine';
 import { nombreLlanoEje, poloLlano } from '../lecturaEjes';
 import { AyudaEjes } from './AyudaEjes';
+import { FichaIdeologia } from './FichaIdeologia';
 import { LecturaEjes } from './LecturaEjes';
+import { LimiteError } from './LimiteError';
+import { REFERENCIAS } from '../datosResultados';
 import {
   EJES_MAPA,
+  EJE_PODER_BRUJULA,
   ENTIDADES_CUBO,
   ENTIDADES_MAPA,
   EXCLUIDAS_MAPA,
@@ -17,11 +25,13 @@ import {
 import type { EntidadMapa } from '../mapaEspacial';
 import { ALTO_LINEA_ZONA, capaCorrientes } from '../zonasCorrientes';
 
-/** El visor 3D (three/R3F/drei) carga solo si el usuario lo pide. */
 const Mapa3D = lazy(() => import('./Mapa3D'));
+const CLAVE_REABRIR_3D = 'espectro.reabrir-3d';
 
 interface Props {
   facetasUsuario: ResultadoFaceta[];
+  puedeRecargar: boolean;
+  alConfirmarGuardado: () => boolean;
 }
 
 interface ParEjes {
@@ -38,12 +48,25 @@ const PARES: ParEjes[] = [
   { id: 'social-territorial', x: 'social', y: 'territorial', nombre: 'Sociedad × Territorio' },
 ];
 
+const PAR_BRUJULA: ParEjes = {
+  id: 'economico-autoridad',
+  x: 'economico',
+  y: EJE_AUTORIDAD_POLITICA,
+  nombre: 'Economía × Poder',
+};
+
 /**
  * Descriptores de esquina de cada cruce, sin carga valorativa (regla del
  * proyecto: descriptivo, nunca peyorativo). Orden: arriba-izquierda,
  * arriba-derecha, abajo-izquierda, abajo-derecha.
  */
 const ESQUINAS: Record<string, [string, string, string, string]> = {
+  'economico-autoridad': [
+    'izquierda + poder concentrado',
+    'derecha + poder concentrado',
+    'izquierda + poder distribuido',
+    'derecha + poder distribuido',
+  ],
   'economico-social': [
     'izquierda + orden',
     'derecha + orden',
@@ -405,7 +428,25 @@ function EsquinasPlano({ esquinas }: { esquinas: [string, string, string, string
  * de los puntos y rótulos de partidos. Todo es decorativo-orientativo: fuera
  * del árbol de accesibilidad, con el nombre completo en el tooltip nativo.
  */
-function CapaCorrientes({ par, parte }: { par: ParEjes; parte: 'fondo' | 'rotulos' }) {
+function CapaCorrientes({
+  par,
+  parte,
+  interactiva = false,
+  activa = null,
+  fijada = null,
+  alEntrar,
+  alSalir,
+  alFijar,
+}: {
+  par: ParEjes;
+  parte: 'fondo' | 'rotulos';
+  interactiva?: boolean;
+  activa?: string | null;
+  fijada?: string | null;
+  alEntrar?: (id: string) => void;
+  alSalir?: () => void;
+  alFijar?: (id: string) => void;
+}) {
   const capa = capaCorrientes(
     par.id,
     par.x,
@@ -417,14 +458,50 @@ function CapaCorrientes({ par, parte }: { par: ParEjes; parte: 'fondo' | 'rotulo
   if (capa.zonas.length === 0) return null;
   if (parte === 'fondo') {
     return (
-      <g className="mapa-zonas" aria-hidden="true">
+      <g
+        className="mapa-zonas"
+        aria-hidden={interactiva ? undefined : true}
+        aria-label={interactiva ? 'Zonas doctrinales orientativas' : undefined}
+      >
         {capa.zonas.map((zona) => (
           <path
             key={zona.id}
-            className="mapa-zona"
+            className={`mapa-zona${interactiva ? ' mapa-zona--interactiva' : ''}`}
             data-tono={zona.tono}
+            data-activa={activa === zona.id}
+            data-tiene-rotulo={zona.etiqueta ? 'true' : 'false'}
             d={zona.d}
-            shapeRendering="crispEdges"
+            shapeRendering="geometricPrecision"
+            role={interactiva ? 'button' : undefined}
+            tabIndex={interactiva ? 0 : undefined}
+            aria-pressed={interactiva ? fijada === zona.id : undefined}
+            aria-label={
+              interactiva
+                ? `${zona.nombre}: mostrar explicación de esta corriente de referencia`
+                : undefined
+            }
+            onMouseEnter={interactiva ? () => alEntrar?.(zona.id) : undefined}
+            onMouseLeave={interactiva ? alSalir : undefined}
+            onFocus={interactiva ? () => alEntrar?.(zona.id) : undefined}
+            onBlur={interactiva ? alSalir : undefined}
+            onClick={
+              interactiva
+                ? (evento) => {
+                    evento.stopPropagation();
+                    alFijar?.(zona.id);
+                  }
+                : undefined
+            }
+            onKeyDown={
+              interactiva
+                ? (evento) => {
+                    if (evento.key === 'Enter' || evento.key === ' ') {
+                      evento.preventDefault();
+                      alFijar?.(zona.id);
+                    }
+                  }
+                : undefined
+            }
           >
             <title>{`${zona.nombre} — referencia doctrinal más cercana en esta zona del plano`}</title>
           </path>
@@ -436,7 +513,7 @@ function CapaCorrientes({ par, parte }: { par: ParEjes; parte: 'fondo' | 'rotulo
   return (
     <g className="mapa-zonas__rotulos" aria-hidden="true">
       {capa.zonas.map((zona) =>
-        zona.etiqueta ? (
+        zona.etiqueta && (!interactiva || activa === zona.id) ? (
           <text
             key={zona.id}
             className="mapa-zona__nombre"
@@ -480,8 +557,8 @@ function PolosPlano({ ejeX, ejeY, children }: { ejeX: Eje; ejeY: Eje; children: 
 }
 
 /**
- * Brújula clásica: Economía × Sociedad con la orientación canónica (orden y
- * tradición arriba, libertades abajo) y lavados de cuadrante apagadísimos,
+ * Brújula clásica: Economía × Poder con la orientación reconocible (poder
+ * concentrado arriba, libertades y poder distribuido abajo) y lavados suaves,
  * la excepción deliberada y acotada a la regla de un-solo-acento — solo el
  * fondo del plano; puntos, rótulos y UI siguen en tinta y carmín. Es un
  * resumen para reconocer de un vistazo: la lectura punto a punto vive en la
@@ -491,58 +568,135 @@ function Brujula({
   puntos,
   descripcionId,
   corrientes,
+  corrienteActiva,
+  corrienteFijada,
+  partidoFijado,
+  alEntrarCorriente,
+  alSalirCorriente,
+  alFijarCorriente,
+  alFijarPartido,
 }: {
   puntos: PuntoPlano[];
   descripcionId: string;
   corrientes: boolean;
+  corrienteActiva: string | null;
+  corrienteFijada: string | null;
+  partidoFijado: string | null;
+  alEntrarCorriente: (id: string) => void;
+  alSalirCorriente: () => void;
+  alFijarCorriente: (id: string) => void;
+  alFijarPartido: (id: string) => void;
 }) {
-  /* En la brújula solo se rotulan tú y los partidos (siglas cortas): los
-     nombres largos de las referencias doctrinales saturaban el plano y
-     tapaban los descriptores de esquina. Los rombos conservan su tooltip y
-     su nombre completo en la vista detallada. */
+  /* En la brújula solo «Tú» queda rotulado de forma permanente. Cada partido
+     revela sus siglas al pasar, enfocar o tocar su punto; así el cúmulo de la
+     izquierda sigue siendo legible en móvil. Los rombos se explican mediante
+     sus zonas doctrinales y en la vista detallada inferior. */
   const etiquetas = useMemo(() => {
-    const rotulables = puntos.filter((punto) => punto.tipo !== 'referencia');
-    const rombos = puntos
-      .filter((punto) => punto.tipo === 'referencia')
-      .map((punto) => ({ x: punto.cx - 7, y: punto.cy - 7, ancho: 14, alto: 14 }));
-    return colocarEtiquetas(rotulables, [
-      ...rectsEsquinas(ESQUINAS['economico-social']!),
-      ...rombos,
-    ]);
+    const resultado = new Map<string, EtiquetaColocada>();
+    for (const punto of puntos) {
+      if (punto.tipo === 'referencia') continue;
+      const haciaIzquierda = punto.cx > TOTAL - 76;
+      const cercaDelBordeInferior = punto.cy > TOTAL - 24;
+      resultado.set(punto.id, {
+        x: punto.cx + (haciaIzquierda ? -9 : 9),
+        y: punto.cy + (cercaDelBordeInferior ? -9 : 4),
+        anclaje: haciaIzquierda ? 'end' : 'start',
+      });
+    }
+    return resultado;
   }, [puntos]);
-  const mitad = LADO / 2;
   return (
     <svg
       viewBox={`0 0 ${TOTAL} ${TOTAL}`}
-      role="img"
-      aria-label="Brújula política: Economía por Sociedad"
+      role="group"
+      aria-label="Brújula política: Economía por Poder político y libertades"
       aria-describedby={descripcionId}
     >
+      <defs>
+        {[
+          { id: 'io', cx: MARGEN, cy: MARGEN, clase: 'mapa-gradiente__io' },
+          { id: 'do', cx: TOTAL - MARGEN, cy: MARGEN, clase: 'mapa-gradiente__do' },
+          { id: 'il', cx: MARGEN, cy: TOTAL - MARGEN, clase: 'mapa-gradiente__il' },
+          { id: 'dl', cx: TOTAL - MARGEN, cy: TOTAL - MARGEN, clase: 'mapa-gradiente__dl' },
+        ].map((gradiente) => (
+          <radialGradient
+            id={`${descripcionId}-${gradiente.id}`}
+            key={gradiente.id}
+            cx={gradiente.cx}
+            cy={gradiente.cy}
+            r={LADO * 0.92}
+            gradientUnits="userSpaceOnUse"
+          >
+            <stop className={gradiente.clase} offset="0" stopOpacity="0.2" />
+            <stop className={gradiente.clase} offset="0.55" stopOpacity="0.1" />
+            <stop className={gradiente.clase} offset="1" stopOpacity="0" />
+          </radialGradient>
+        ))}
+      </defs>
       <rect className="mapa-plano__marco" x={MARGEN} y={MARGEN} width={LADO} height={LADO} />
       <g className="mapa-plano__lavados" aria-hidden="true">
-        <rect className="mapa-plano__lavado--io" x={MARGEN} y={MARGEN} width={mitad} height={mitad} />
-        <rect className="mapa-plano__lavado--do" x={TOTAL / 2} y={MARGEN} width={mitad} height={mitad} />
-        <rect className="mapa-plano__lavado--il" x={MARGEN} y={TOTAL / 2} width={mitad} height={mitad} />
-        <rect className="mapa-plano__lavado--dl" x={TOTAL / 2} y={TOTAL / 2} width={mitad} height={mitad} />
+        {['io', 'do', 'il', 'dl'].map((id) => (
+          <rect
+            key={id}
+            x={MARGEN}
+            y={MARGEN}
+            width={LADO}
+            height={LADO}
+            fill={`url(#${descripcionId}-${id})`}
+          />
+        ))}
       </g>
-      {corrientes ? <CapaCorrientes par={PARES[0]!} parte="fondo" /> : null}
+      {corrientes ? (
+        <CapaCorrientes
+          par={PAR_BRUJULA}
+          parte="fondo"
+          interactiva
+          activa={corrienteActiva}
+          fijada={corrienteFijada}
+          alEntrar={alEntrarCorriente}
+          alSalir={alSalirCorriente}
+          alFijar={alFijarCorriente}
+        />
+      ) : null}
       <EstructuraPlano />
-      <EsquinasPlano esquinas={ESQUINAS['economico-social']!} />
-      {corrientes ? <CapaCorrientes par={PARES[0]!} parte="rotulos" /> : null}
+      <EsquinasPlano esquinas={ESQUINAS['economico-autoridad']!} />
+      {corrientes ? (
+        <CapaCorrientes
+          par={PAR_BRUJULA}
+          parte="rotulos"
+          interactiva
+          activa={corrienteActiva}
+        />
+      ) : null}
       {puntos.map((punto) => {
         const etiqueta = etiquetas.get(punto.id);
+        const partidoInteractivo = punto.tipo === 'partido';
+        const partidoSeleccionado = partidoInteractivo && partidoFijado === punto.id;
         return (
-          <g key={punto.id} className="mapa-punto mapa-punto--quieto" data-tipo={punto.tipo}>
+          <g
+            key={punto.id}
+            className="mapa-punto mapa-punto--quieto"
+            data-tipo={punto.tipo}
+            data-seleccionado={partidoSeleccionado}
+            role={partidoInteractivo ? 'button' : undefined}
+            tabIndex={partidoInteractivo ? 0 : undefined}
+            aria-pressed={partidoInteractivo ? partidoSeleccionado : undefined}
+            aria-label={
+              partidoInteractivo ? `${punto.nombre}: mostrar u ocultar sus siglas` : undefined
+            }
+            onClick={partidoInteractivo ? () => alFijarPartido(punto.id) : undefined}
+            onKeyDown={
+              partidoInteractivo
+                ? (evento) => {
+                    if (evento.key === 'Enter' || evento.key === ' ') {
+                      evento.preventDefault();
+                      alFijarPartido(punto.id);
+                    }
+                  }
+                : undefined
+            }
+          >
             <title>{punto.nombre}</title>
-            {etiqueta && etiquetaLejana(etiqueta, punto) ? (
-              <line
-                className="mapa-punto__guia"
-                x1={punto.cx}
-                y1={punto.cy}
-                x2={anclaEtiqueta(etiqueta).x}
-                y2={anclaEtiqueta(etiqueta).y}
-              />
-            ) : null}
             {punto.tipo === 'referencia' ? (
               <rect
                 className="mapa-punto__forma"
@@ -577,15 +731,32 @@ function Brujula({
   );
 }
 
-export function MapaPolitico({ facetasUsuario }: Props) {
+export function MapaPolitico({
+  facetasUsuario,
+  puedeRecargar,
+  alConfirmarGuardado,
+}: Props) {
   const idBase = useId();
   const [parId, setParId] = useState(PARES[0]?.id ?? 'economico-social');
   const [seleccion, setSeleccion] = useState<string | null>(null);
   const [ver3D, setVer3D] = useState(false);
-  /* Corrientes de fondo: activadas por defecto. Verificado en capturas a
-     390px: la capa no satura en móvil porque las zonas pequeñas eliden su
-     rótulo solas; si el catálogo crece, hay menos rótulos, no más. */
+  /* Corrientes activadas por defecto, sin sopa de rótulos: el nombre y la
+     explicación aparecen al pasar, enfocar o tocar una región. */
   const [verCorrientes, setVerCorrientes] = useState(true);
+  const [corrienteTemporal, setCorrienteTemporal] = useState<string | null>(null);
+  const [corrienteFijada, setCorrienteFijada] = useState<string | null>(null);
+  const [partidoBrujulaFijado, setPartidoBrujulaFijado] = useState<string | null>(null);
+
+  useEffect(() => {
+    try {
+      if (sessionStorage.getItem(CLAVE_REABRIR_3D) === '1') {
+        sessionStorage.removeItem(CLAVE_REABRIR_3D);
+        setVer3D(true);
+      }
+    } catch {
+      // El visor sigue disponible manualmente si sessionStorage está bloqueado.
+    }
+  }, []);
 
   const par = PARES.find((p) => p.id === parId) ?? PARES[0]!;
   const ejePorId = useMemo(() => new Map(EJES_MAPA.map((eje) => [eje.id, eje])), []);
@@ -597,20 +768,25 @@ export function MapaPolitico({ facetasUsuario }: Props) {
   const ejeX = ejePorId.get(par.x);
   const ejeY = ejePorId.get(par.y);
   const ejeEconomia = ejePorId.get('economico');
-  const ejeSociedad = ejePorId.get('social');
+
+  const facetaAutoridadUsuario = useMemo(
+    () => componerAutoridadPolitica(facetasUsuario),
+    [facetasUsuario],
+  );
 
   const valoresUsuario = useMemo(() => {
     const valores: Record<string, number | null> = {};
     for (const eje of EJES_MAPA) {
       valores[eje.id] = facetaUsuarioPorEje.get(eje.id)?.valor ?? null;
     }
+    valores[EJE_AUTORIDAD_POLITICA] = facetaAutoridadUsuario.valor;
     return valores;
-  }, [facetaUsuarioPorEje]);
+  }, [facetaUsuarioPorEje, facetaAutoridadUsuario.valor]);
 
   const usuarioProvisional = EJES_MAPA.some((eje) => {
     const faceta = facetaUsuarioPorEje.get(eje.id);
     return faceta ? faceta.valor !== null && !faceta.coberturaSuficiente : false;
-  });
+  }) || (facetaAutoridadUsuario.valor !== null && !facetaAutoridadUsuario.coberturaSuficiente);
 
   const usuarioEnPlano =
     typeof valoresUsuario[par.x] === 'number' && typeof valoresUsuario[par.y] === 'number';
@@ -621,7 +797,7 @@ export function MapaPolitico({ facetasUsuario }: Props) {
     [puntos, par.id],
   );
 
-  const parBrujula = PARES[0]!;
+  const parBrujula = PAR_BRUJULA;
   const puntosBrujula = useMemo(
     () => puntosDelPar(parBrujula, valoresUsuario),
     [parBrujula, valoresUsuario],
@@ -633,17 +809,35 @@ export function MapaPolitico({ facetasUsuario }: Props) {
       ? ENTIDADES_MAPA.find((entidad) => entidad.id === seleccion) ?? null
       : null;
 
-  const partidosDentro = ENTIDADES_MAPA.filter((e) => e.tipo === 'partido').length;
-  const referenciasDentro = ENTIDADES_MAPA.filter((e) => e.tipo === 'referencia').length;
-  const hayCorrientes = referenciasDentro > 0;
-  const partidosFuera = TOTAL_PARTIDOS_CATALOGO - partidosDentro;
-  const referenciasFuera = TOTAL_REFERENCIAS_CATALOGO - referenciasDentro;
+  const partidosEnPlano = puntos.filter((punto) => punto.tipo === 'partido').length;
+  const referenciasEnPlano = puntos.filter((punto) => punto.tipo === 'referencia').length;
+  const referenciasEnAlgunPlano = ENTIDADES_MAPA.filter(
+    (entidad) => entidad.tipo === 'referencia',
+  ).length;
+  const partidosEnAlgunPlano = ENTIDADES_MAPA.filter(
+    (entidad) => entidad.tipo === 'partido',
+  ).length;
+  const hayCorrientes = referenciasEnAlgunPlano > 0;
+  const partidosFuera = TOTAL_PARTIDOS_CATALOGO - partidosEnAlgunPlano;
+  const referenciasFuera = TOTAL_REFERENCIAS_CATALOGO - referenciasEnAlgunPlano;
+  /* Una selección fijada por clic/teclado tiene prioridad sobre el hover.
+     Así la ficha no cambia mientras la persona mueve el puntero desde el
+     mapa hasta «Más información». Para elegir otra zona basta con pulsarla. */
+  const corrienteActivaId = corrienteFijada ?? corrienteTemporal;
+  const corrienteActivaReferencia = corrienteActivaId
+    ? REFERENCIAS.find((referencia) => referencia.id === corrienteActivaId) ?? null
+    : null;
+  const corrienteActivaEntidad = corrienteActivaId
+    ? ENTIDADES_MAPA.find(
+        (entidad) => entidad.tipo === 'referencia' && entidad.id === corrienteActivaId,
+      ) ?? null
+    : null;
 
   const descripcionId = `${idBase}-descripcion`;
   const tituloPlanoId = `${idBase}-plano`;
   const brujulaDescId = `${idBase}-brujula`;
 
-  if (!ejeX || !ejeY || !ejeEconomia || !ejeSociedad) return null;
+  if (!ejeX || !ejeY || !ejeEconomia) return null;
 
   const lecturaSeleccion = () => {
     if (!seleccion) return null;
@@ -695,21 +889,26 @@ export function MapaPolitico({ facetasUsuario }: Props) {
         <p>
           <strong>Cómo leer este mapa.</strong> Cada punto es un partido; los rombos son
           corrientes de referencia, no papeletas. Tu punto es el carmín. Cuanto más cerca de
-          ti está un punto, más se parece a lo que has respondido en estos dos temas:
-          economía (izquierda–derecha) y sociedad (libertades–orden).
+          ti está un punto, más se parece a lo que has respondido en economía y en la forma de
+          repartir el poder político: libertades y pluralismo frente a jerarquía y concentración.
         </p>
         <p className="mapa-como-leer__nota">
           El ranking de afinidad de más abajo usa todas tus respuestas, no solo estas dos
           dimensiones: su orden puede no coincidir con las cercanías de este plano.
+        </p>
+        <p className="mapa-como-leer__nota">
+          «Poder» combina sociedad, pluralismo, organización, libertades civiles, democracia
+          directa, estatismo y tradición moral. El GAL–TAN cultural original se conserva en los
+          planos detallados, sin ocultar la diferencia entre ambos.
         </p>
       </div>
 
       <p id={brujulaDescId} className="solo-lectores">
         Plano de menos cien a más cien por eje. Horizontal, Economía: de{' '}
         {poloLlano(ejeEconomia, 'negativo')} a {poloLlano(ejeEconomia, 'positivo')}. Vertical,
-        Sociedad: de {poloLlano(ejeSociedad, 'negativo')} abajo a{' '}
-        {poloLlano(ejeSociedad, 'positivo')} arriba. La versión interactiva, con lectura punto
-        a punto, está más abajo en «En detalle».
+        Poder político: de {poloLlano(EJE_PODER_BRUJULA, 'negativo')} abajo a{' '}
+        {poloLlano(EJE_PODER_BRUJULA, 'positivo')} arriba. Esta vertical compone sociedad,
+        pluralismo, organización y libertades; sus facetas originales se conservan por separado.
       </p>
 
       {hayCorrientes ? (
@@ -718,26 +917,73 @@ export function MapaPolitico({ facetasUsuario }: Props) {
             <input
               type="checkbox"
               checked={verCorrientes}
-              onChange={(evento) => setVerCorrientes(evento.target.checked)}
+              onChange={(evento) => {
+                setVerCorrientes(evento.target.checked);
+                if (!evento.target.checked) {
+                  setCorrienteTemporal(null);
+                  setCorrienteFijada(null);
+                }
+              }}
             />
-            <span>Mostrar corrientes de fondo</span>
+            <span>Explorar corrientes ideológicas</span>
           </label>
           <span className="mapa-corrientes-control__nota">
-            Zonas orientativas: cada nombre marca la referencia doctrinal más cercana, medida
-            con el mismo instrumento que tú.
+            Explora una zona para explicar una corriente; señala un punto para identificar un
+            partido.
           </span>
         </div>
       ) : null}
 
       <div className="mapa-plano mapa-plano--brujula">
-        <PolosPlano ejeX={ejeEconomia} ejeY={ejeSociedad}>
+        <PolosPlano ejeX={ejeEconomia} ejeY={EJE_PODER_BRUJULA}>
           <Brujula
             puntos={puntosBrujula}
             descripcionId={brujulaDescId}
             corrientes={hayCorrientes && verCorrientes}
+            corrienteActiva={corrienteActivaId}
+            corrienteFijada={corrienteFijada}
+            partidoFijado={partidoBrujulaFijado}
+            alEntrarCorriente={setCorrienteTemporal}
+            alSalirCorriente={() => setCorrienteTemporal(null)}
+            alFijarCorriente={(id) => {
+              setPartidoBrujulaFijado(null);
+              setCorrienteTemporal(null);
+              setCorrienteFijada((actual) => (actual === id ? null : id));
+            }}
+            alFijarPartido={(id) => {
+              setCorrienteTemporal(null);
+              setCorrienteFijada(null);
+              setPartidoBrujulaFijado((actual) => (actual === id ? null : id));
+            }}
           />
         </PolosPlano>
       </div>
+
+      {verCorrientes ? (
+        corrienteActivaReferencia && corrienteActivaEntidad ? (
+          <div
+            className="mapa-corriente-lectura"
+            role="region"
+            aria-live="polite"
+            aria-label={`Explicación de ${corrienteActivaReferencia.nombre}`}
+          >
+            <FichaIdeologia
+              referencia={corrienteActivaReferencia}
+              valores={corrienteActivaEntidad.valores}
+              ejes={[ejeEconomia, EJE_PODER_BRUJULA]}
+              onCerrar={() => {
+                setCorrienteTemporal(null);
+                setCorrienteFijada(null);
+              }}
+            />
+          </div>
+        ) : (
+          <p className="mapa-corriente-instruccion" role="status">
+            Las regiones están sin rotular para mantener el mapa legible. Explora una zona para
+            revelar su corriente y leerla en español.
+          </p>
+        )
+      ) : null}
 
       <ul className="mapa-leyenda" aria-label="Leyenda del mapa">
         <li>
@@ -813,6 +1059,7 @@ export function MapaPolitico({ facetasUsuario }: Props) {
               checked={opcion.id === par.id}
               onChange={() => {
                 setParId(opcion.id);
+                setSeleccion(null);
               }}
             />
             {opcion.nombre}
@@ -942,11 +1189,12 @@ export function MapaPolitico({ facetasUsuario }: Props) {
 
       <div className="mapa-exclusiones">
         <p>
-          En el plano: {usuarioEnPlano ? 'tu posición, ' : ''}
-          {partidosDentro} de {TOTAL_PARTIDOS_CATALOGO} partidos y {referenciasDentro} de{' '}
+          En este plano: {usuarioEnPlano ? 'tu posición, ' : ''}
+          {partidosEnPlano} de {TOTAL_PARTIDOS_CATALOGO} partidos y {referenciasEnPlano} de{' '}
           {TOTAL_REFERENCIAS_CATALOGO} referencias doctrinales del catálogo.{' '}
-          Cada entidad aparece solo en los planos donde su evidencia alcanza el umbral (al
-          menos 4 posiciones documentadas con carga en cada eje del par).{' '}
+          Cada entidad aparece solo donde su evidencia alcanza el umbral: al menos 4 posiciones
+          con carga en cada macroeje del plano; en la brújula de poder, 4 observaciones repartidas
+          entre al menos dos facetas componentes.{' '}
           {partidosFuera + referenciasFuera > 0
             ? `Quedan fuera de todos los planos ${partidosFuera} partidos y ${referenciasFuera} referencias: antes que estimar su posición, no se dibuja.`
             : ''}
@@ -977,25 +1225,66 @@ export function MapaPolitico({ facetasUsuario }: Props) {
           {ver3D ? 'Ocultar el 3D' : 'Ver en 3D'}
         </button>
         <span className="nota-al-margen">
-          Cubo Economía × Sociedad × Territorio. El visor se descarga solo si lo abres.
+          Cubo Economía × Sociedad × Territorio. Se muestra solo si lo abres y queda preparado
+          para funcionar sin conexión.
         </span>
       </div>
 
       {ver3D ? (
-        <Suspense
-          fallback={
-            <p className="vista-cargando" role="status">
-              Descargando el visor 3D…
-            </p>
+        <LimiteError
+          recuperacion={
+            <div className="aviso-cobertura" role="alert">
+              <strong>No se ha podido abrir el visor 3D.</strong>{' '}
+              El mapa 2D conserva la misma información y sigue disponible.
+              <div className="acciones acciones--compactas">
+                {puedeRecargar ? (
+                  <button
+                    type="button"
+                    className="boton boton--secundario"
+                    onClick={() => {
+                      if (!alConfirmarGuardado()) return;
+                      try {
+                        sessionStorage.setItem(CLAVE_REABRIR_3D, '1');
+                      } catch {
+                        // Tras recargar se podrá abrir de nuevo manualmente.
+                      }
+                      window.location.reload();
+                    }}
+                  >
+                    Recargar y reintentar el 3D
+                  </button>
+                ) : (
+                  <span className="nota-al-margen">
+                    No se puede recargar sin perder esta sesión porque el almacenamiento está
+                    bloqueado.
+                  </span>
+                )}
+                <button
+                  type="button"
+                  className="boton boton--terciario"
+                  onClick={() => setVer3D(false)}
+                >
+                  Seguir con el mapa 2D
+                </button>
+              </div>
+            </div>
           }
         >
-          <Mapa3D
-            ejes={EJES_MAPA}
-            valoresUsuario={valoresUsuario}
-            usuarioProvisional={usuarioProvisional}
-            entidades={ENTIDADES_CUBO}
-          />
-        </Suspense>
+          <Suspense
+            fallback={
+              <p className="vista-cargando" role="status">
+                Descargando el visor 3D…
+              </p>
+            }
+          >
+            <Mapa3D
+              ejes={EJES_MAPA}
+              valoresUsuario={valoresUsuario}
+              usuarioProvisional={usuarioProvisional}
+              entidades={ENTIDADES_CUBO}
+            />
+          </Suspense>
+        </LimiteError>
       ) : null}
 
       <p className="mapa-politico__facetas nota-al-margen">

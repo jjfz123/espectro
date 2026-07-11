@@ -3,6 +3,7 @@ import type { TipoEleccion } from '@engine';
 import { EspacioPatrocinado } from '../componentes/EspacioPatrocinado';
 import {
   COMUNIDADES,
+  FECHA_CORTE_DATOS,
   EJES,
   ELECCIONES,
   ITEMS,
@@ -209,7 +210,9 @@ export function Portada({ estado, despachar, alAbrirMetodologia }: Props) {
           </p>
           <p>
             El progreso se guarda en el almacenamiento local de tu navegador y puedes
-            borrarlo cuando quieras desde el pie de página.{' '}
+            borrarlo cuando quieras desde el pie de página; caduca tras 90 días sin actividad.
+            El catálogo político incluido en esta versión tiene fecha de corte{' '}
+            {FECHA_CORTE_DATOS}.{' '}
             <button type="button" className="boton boton--terciario" onClick={alAbrirMetodologia} style={{ padding: 0 }}>
               Metodología y privacidad, en detalle
             </button>

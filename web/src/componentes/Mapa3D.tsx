@@ -117,6 +117,19 @@ function usePrefiereMenosMovimiento(): boolean {
   return prefiere;
 }
 
+function usePantallaEstrecha(): boolean {
+  const [estrecha, setEstrecha] = useState(
+    () => window.matchMedia('(max-width: 639px)').matches,
+  );
+  useEffect(() => {
+    const consulta = window.matchMedia('(max-width: 639px)');
+    const alCambiar = () => setEstrecha(consulta.matches);
+    consulta.addEventListener('change', alCambiar);
+    return () => consulta.removeEventListener('change', alCambiar);
+  }, []);
+  return estrecha;
+}
+
 function hayWebGL(): boolean {
   try {
     const lienzo = document.createElement('canvas');
@@ -376,6 +389,12 @@ function Punto({
 }) {
   const invalidate = useThree((estado) => estado.invalidate);
   const [encima, setEncima] = useState(false);
+  useEffect(
+    () => () => {
+      document.body.style.cursor = '';
+    },
+    [],
+  );
   const esUsuario = datos.tipo === 'usuario';
   const destacado = esUsuario || seleccionado || encima;
   /* Tinta ligeramente levantada hacia el papel: el sombreado de la esfera
@@ -523,6 +542,7 @@ function calcularDesplazamientos(
 export default function Mapa3D({ ejes, valoresUsuario, usuarioProvisional, entidades }: Props) {
   const tema = useTema();
   const menosMovimiento = usePrefiereMenosMovimiento();
+  const pantallaEstrecha = usePantallaEstrecha();
   const [seleccion, setSeleccion] = useState<string | null>(null);
   const [interactuando, setInteractuando] = useState(false);
   const soportaWebGL = useMemo(hayWebGL, []);
@@ -605,7 +625,7 @@ export default function Mapa3D({ ejes, valoresUsuario, usuarioProvisional, entid
   /* En pantallas estrechas la cámara arranca más lejos: el cubo respira y
      los rótulos de polos no se salen del lienzo. */
   const camaraInicial: [number, number, number] =
-    window.innerWidth < 640 ? [3.45, 2.55, 4.2] : [2.85, 2.1, 3.45];
+    pantallaEstrecha ? [3.45, 2.55, 4.2] : [2.85, 2.1, 3.45];
 
   return (
     <div className="cubo3d">

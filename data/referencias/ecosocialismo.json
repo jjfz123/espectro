@@ -1,0 +1,295 @@
+{
+  "id": "ecosocialismo",
+  "nombre": "Ecosocialismo",
+  "tipo": "referencia-doctrinal",
+  "definicion": "Tipo ideal anticapitalista que vincula justicia social y equilibrio ecológico: sustituye el imperativo de acumulación por propiedad colectiva, planificación democrática, primacía del valor de uso, reducción selectiva de producción y consumo en las economías ricas y control comunitario de la transición energética.",
+  "variante": "Tradición internacional de los manifiestos Kovel-Löwy de 2001 y Belém de 2008; incluye las posiciones concretas de esa declaración y no pretende agotar todo ecosocialismo posterior",
+  "periodo": "2001-2008",
+  "confianza": "verificada",
+  "version": "1.0",
+  "revisado": "2026-07-11",
+  "publicacionMapa": {
+    "publicable": false,
+    "motivo": "La ficha distingue con solidez economía, ecología y energía, pero los manifiestos no fijan suficientes anclas sobre separación de poderes, sistema de partidos y libertades civiles para proyectar sin engaño el eje público de poder político."
+  },
+  "facetasDefinitorias": [
+    "ecologia",
+    "economico",
+    "energia-nuclear",
+    "estatismo",
+    "poder-laboral",
+    "metodo-cambio"
+  ],
+  "sensibilidad": "normal",
+  "advertencia": "Es una referencia doctrinal basada en dos textos fundacionales, no un perfil de Verdes Equo, Sumar, Podemos ni de todos los autores que hoy se llaman ecosocialistas. La oposición nuclear procede expresamente de la Declaración de Belém y no se universaliza a corrientes verdes pronucleares. «Reducir» significa eliminar o contraer sectores dañinos mientras se amplían cuidados, transporte público y actividades útiles con pleno empleo; no equivale a imponer pobreza. Los textos no permiten inferir posiciones actuales sobre inmigración, derechos LGTB, organización territorial española o un diseño constitucional completo.",
+  "fuentesMarco": [
+    {
+      "tipo": "programa",
+      "titulo": "Joel Kovel y Michael Löwy, An Ecosocialist Manifesto (en inglés)",
+      "url": "https://www.cnsjournal.org/an-ecosocialist-manifesto/",
+      "fecha": "2001-09",
+      "consultado": "2026-07-11"
+    },
+    {
+      "tipo": "programa",
+      "titulo": "Ian Angus, Joel Kovel y Michael Löwy, The Belem Ecosocialist Declaration (en inglés)",
+      "url": "https://links.org.au/sign-belem-ecosocialist-declaration",
+      "fecha": "2008",
+      "consultado": "2026-07-11"
+    },
+    {
+      "tipo": "otro",
+      "titulo": "Michael Löwy, Eco-Socialism and Democratic Planning, Socialist Register (en inglés)",
+      "url": "https://socialistregister.com/index.php/srv/article/view/5869",
+      "fecha": "2009-03-19",
+      "consultado": "2026-07-11"
+    }
+  ],
+  "reglaPublicacion": {
+    "minimoItems": 14,
+    "minimoCobertura": 0.55,
+    "umbralAfinidad": 78
+  },
+  "posiciones": {
+    "izq-001": {
+      "valor": 2,
+      "justificacion": "Belém reclama una transformación social revolucionaria contra el capital y el manifiesto de 2001 rechaza tanto el capitalismo verde como los objetivos reformistas atenuados de la socialdemocracia.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "The Belem Ecosocialist Declaration, alternativa ecosocialista (en inglés)",
+        "url": "https://links.org.au/sign-belem-ecosocialist-declaration",
+        "fecha": "2008",
+        "consultado": "2026-07-11"
+      }
+    },
+    "izq-005": {
+      "valor": 2,
+      "justificacion": "La declaración exige planificación democrática de producción e intercambio y decisiones colectivas sobre inversión y tecnología en lugar del control de empresas capitalistas, inversores y bancos.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "The Belem Ecosocialist Declaration, planificación democrática (en inglés)",
+        "url": "https://links.org.au/sign-belem-ecosocialist-declaration",
+        "fecha": "2008",
+        "consultado": "2026-07-11"
+      }
+    },
+    "izq-016": {
+      "valor": 1,
+      "justificacion": "La colectivización de los medios de producción y la sustitución del control de bancos e inversores privados respaldan la socialización de grandes grupos; se limita a +1 porque los textos no establecen una regla universal de expropiación sin indemnización.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "The Belem Ecosocialist Declaration, propiedad y control colectivos (en inglés)",
+        "url": "https://links.org.au/sign-belem-ecosocialist-declaration",
+        "fecha": "2008",
+        "consultado": "2026-07-11"
+      }
+    },
+    "izq-027": {
+      "valor": -2,
+      "justificacion": "El manifiesto sostiene que limitar el crecimiento cuantitativo es condición de sostenibilidad y que la transición debe asegurar empleo pleno; por tanto rechaza que reducir producción material sea necesariamente contrario a la clase trabajadora.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "The Belem Ecosocialist Declaration, límites al crecimiento y pleno empleo (en inglés)",
+        "url": "https://links.org.au/sign-belem-ecosocialist-declaration",
+        "fecha": "2008",
+        "consultado": "2026-07-11"
+      }
+    },
+    "izq-045": {
+      "valor": 2,
+      "justificacion": "Propone limitar el crecimiento, transformar las necesidades y desplazar la producción desde la cantidad y el valor de cambio hacia la calidad y el valor de uso, reduciendo o suprimiendo sectores insostenibles.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "The Belem Ecosocialist Declaration, transformación de necesidades y producción (en inglés)",
+        "url": "https://links.org.au/sign-belem-ecosocialist-declaration",
+        "fecha": "2008",
+        "consultado": "2026-07-11"
+      }
+    },
+    "der-001": {
+      "valor": -2,
+      "justificacion": "La planificación democrática de inversión, producción, transporte y energía en varios niveles colectivos requiere instituciones económicas y sociales mucho más amplias que un Estado reducido a seguridad y justicia.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Löwy, Eco-Socialism and Democratic Planning (en inglés)",
+        "url": "https://socialistregister.com/index.php/srv/article/view/5869",
+        "fecha": "2009-03-19",
+        "consultado": "2026-07-11"
+      }
+    },
+    "ene-001": {
+      "valor": -2,
+      "justificacion": "La Declaración de Belém incluye la eliminación de la energía nuclear entre sus demandas inmediatas; esa variante no apoyaría construir nuevos reactores como fuente baja en carbono.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "The Belem Ecosocialist Declaration, demandas inmediatas (en inglés)",
+        "url": "https://links.org.au/sign-belem-ecosocialist-declaration",
+        "fecha": "2008",
+        "consultado": "2026-07-11"
+      }
+    },
+    "ene-002": {
+      "valor": -2,
+      "justificacion": "Al reclamar eliminar la energía nuclear y sustituir el sistema por fuentes renovables no contaminantes bajo control comunitario, la declaración rechaza presentarla como actividad sostenible de transición.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "The Belem Ecosocialist Declaration, energía limpia y eliminación nuclear (en inglés)",
+        "url": "https://links.org.au/sign-belem-ecosocialist-declaration",
+        "fecha": "2008",
+        "consultado": "2026-07-11"
+      }
+    },
+    "ene-003": {
+      "valor": 2,
+      "justificacion": "La eliminación nuclear figura de manera literal entre las medidas defendidas por Belém, por lo que mantener un calendario de cierre sin nuevas prórrogas es la traducción prudente al ítem español.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "The Belem Ecosocialist Declaration, demandas inmediatas (en inglés)",
+        "url": "https://links.org.au/sign-belem-ecosocialist-declaration",
+        "fecha": "2008",
+        "consultado": "2026-07-11"
+      }
+    },
+    "ene-004": {
+      "valor": 1,
+      "justificacion": "Defiende fuentes de energía limpias bajo control comunitario y propiedad colectiva de la producción; coincide con retirar la red estratégica del control privado, pero no prescribe una única forma estatal de titularidad.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "The Belem Ecosocialist Declaration, transformación del sistema energético (en inglés)",
+        "url": "https://links.org.au/sign-belem-ecosocialist-declaration",
+        "fecha": "2008",
+        "consultado": "2026-07-11"
+      }
+    },
+    "ene-005": {
+      "valor": -2,
+      "justificacion": "La energía debe quedar bajo control comunitario y planificación colectiva orientada a necesidades y equilibrio ecológico, no producirse principalmente por empresas privadas que compiten por rentabilidad.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "The Belem Ecosocialist Declaration, energía bajo control comunitario (en inglés)",
+        "url": "https://links.org.au/sign-belem-ecosocialist-declaration",
+        "fecha": "2008",
+        "consultado": "2026-07-11"
+      }
+    },
+    "ene-010": {
+      "valor": 2,
+      "justificacion": "Limitar el crecimiento, cambiar las necesidades y suprimir o reducir sectores materiales dañinos es parte explícita de la transformación propuesta para las economías de alto consumo.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "The Belem Ecosocialist Declaration, límites materiales (en inglés)",
+        "url": "https://links.org.au/sign-belem-ecosocialist-declaration",
+        "fecha": "2008",
+        "consultado": "2026-07-11"
+      }
+    },
+    "ene-011": {
+      "valor": -2,
+      "justificacion": "Los manifiestos rechazan que innovación y eficiencia permitan conservar el crecimiento ilimitado: consideran incompatible la expansión infinita con ecosistemas finitos y someten la tecnología a metas democráticas.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "The Belem Ecosocialist Declaration, crítica al crecimiento ilimitado (en inglés)",
+        "url": "https://links.org.au/sign-belem-ecosocialist-declaration",
+        "fecha": "2008",
+        "consultado": "2026-07-11"
+      }
+    },
+    "ene-012": {
+      "valor": 1,
+      "justificacion": "Belém reclama control comunitario de las fuentes limpias y decisiones colectivas locales, regionales y nacionales; respalda capacidad decisoria local fuerte, aunque no formula un veto jurídico absoluto a toda infraestructura.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "The Belem Ecosocialist Declaration, control comunitario y decisión multinivel (en inglés)",
+        "url": "https://links.org.au/sign-belem-ecosocialist-declaration",
+        "fecha": "2008",
+        "consultado": "2026-07-11"
+      }
+    },
+    "va-004": {
+      "valor": 2,
+      "justificacion": "La declaración propone eliminar la agroindustria industrial contaminante y reemplazarla por agroecosistemas sostenibles y soberanía alimentaria local, lo que excluye autorizar nuevas macroexplotaciones intensivas.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "The Belem Ecosocialist Declaration, alimentación y agroindustria (en inglés)",
+        "url": "https://links.org.au/sign-belem-ecosocialist-declaration",
+        "fecha": "2008",
+        "consultado": "2026-07-11"
+      }
+    },
+    "va-008": {
+      "valor": -2,
+      "justificacion": "Rechaza expresamente la ecología de mercado y los mecanismos comerciales como solución suficiente, y subordina inversión y desarrollo tecnológico a planificación democrática y límites materiales.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "The Belem Ecosocialist Declaration, crítica de la ecología de mercado (en inglés)",
+        "url": "https://links.org.au/sign-belem-ecosocialist-declaration",
+        "fecha": "2008",
+        "consultado": "2026-07-11"
+      }
+    },
+    "sd-016": {
+      "valor": 2,
+      "justificacion": "La política económica se redefine alrededor de equilibrio ecológico, límites al crecimiento y valor de uso, aun cuando ello obliga a reducir sectores y abandonar la expansión cuantitativa de la producción.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Löwy, Eco-Socialism and Democratic Planning (en inglés)",
+        "url": "https://socialistregister.com/index.php/srv/article/view/5869",
+        "fecha": "2009-03-19",
+        "consultado": "2026-07-11"
+      }
+    },
+    "ecl-001": {
+      "valor": 2,
+      "justificacion": "Belém exige reducciones drásticas y exigibles de emisiones y suprimir, reducir o reestructurar sectores industriales y agrarios incompatibles con la supervivencia ecológica, aunque existan costes de transición.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "The Belem Ecosocialist Declaration, reducción de emisiones y reconversión (en inglés)",
+        "url": "https://links.org.au/sign-belem-ecosocialist-declaration",
+        "fecha": "2008",
+        "consultado": "2026-07-11"
+      }
+    },
+    "lab-002": {
+      "valor": 1,
+      "justificacion": "La democracia económica debe permitir a la sociedad y a los productores definir inversión y producción; respalda poder sustancial de trabajadores, aunque el manifiesto no fija una cuota concreta del consejo de cada empresa.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "An Ecosocialist Manifesto, libre desarrollo de los productores (en inglés)",
+        "url": "https://www.cnsjournal.org/an-ecosocialist-manifesto/",
+        "fecha": "2001-09",
+        "consultado": "2026-07-11"
+      }
+    },
+    "lab-008": {
+      "valor": 1,
+      "justificacion": "El libre desarrollo de productores y el control democrático y colectivo de producción e inversión acercan la doctrina a la dirección desde abajo; +1 refleja que el sujeto también incluye comunidades e instituciones públicas, no solo consejos de fábrica.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Löwy, Eco-Socialism and Democratic Planning (en inglés)",
+        "url": "https://socialistregister.com/index.php/srv/article/view/5869",
+        "fecha": "2009-03-19",
+        "consultado": "2026-07-11"
+      }
+    }
+  }
+}

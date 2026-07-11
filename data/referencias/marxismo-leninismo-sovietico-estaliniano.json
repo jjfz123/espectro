@@ -1,0 +1,218 @@
+{
+  "id": "marxismo-leninismo-sovietico-estaliniano",
+  "nombre": "Marxismo-leninismo soviético (fase estaliniana)",
+  "tipo": "referencia-doctrinal",
+  "definicion": "Tipo ideal de la configuración soviética consolidada bajo Stalin entre finales de la NEP y 1953: socialismo en un solo país, industrialización y planificación quinquenal, propiedad estatal o colectiva de los medios de producción, partido único altamente disciplinado y un aparato coercitivo central utilizado para transformar y controlar la sociedad.",
+  "variante": "URSS de la colectivización y los planes quinquenales, aproximadamente 1928-1953; distingue el contenido económico e institucional del periodo de la teoría de Lenin, del marxismo-leninismo posterior a 1956 y de corrientes maoísta, hoxhaísta o eurocomunista",
+  "periodo": "1928-1953",
+  "confianza": "verificada",
+  "version": "1.0",
+  "revisado": "2026-07-11",
+  "facetasDefinitorias": ["economico", "estatismo", "organizacion", "institucionalismo", "libertades-civiles", "tradicion-moral"],
+  "sensibilidad": "antipluralista",
+  "advertencia": "Es una referencia histórica, no un sinónimo de todo marxismo-leninismo ni una etiqueta para el usuario. Se evita reducir el periodo a una caricatura policial: se documentan también su teoría económica, propiedad social, planificación, derechos laborales formales y antifascismo. Cuando la Constitución de 1936 y la práctica institucional divergen, la ficha lo hace explícito: usa la Constitución para la estructura económica y laboral, y legislación o investigación archivística para aborto, homosexualidad y policía. La coincidencia parcial no implica adhesión a Stalin ni justificación de la represión.",
+  "fuentesMarco": [
+    {
+      "tipo": "otro",
+      "titulo": "J. V. Stalin, Economic Problems of Socialism in the U.S.S.R. (en inglés)",
+      "url": "https://www.marxists.org/reference/archive/stalin/works/1951/economic-problems/",
+      "fecha": "1952",
+      "consultado": "2026-07-11"
+    },
+    {
+      "tipo": "otro",
+      "titulo": "J. V. Stalin, On the Draft Constitution of the U.S.S.R. (en inglés)",
+      "url": "https://www.marxists.org/reference/archive/stalin/works/1936/11/25.htm",
+      "fecha": "1936-11-25",
+      "consultado": "2026-07-11"
+    },
+    {
+      "tipo": "otro",
+      "titulo": "David R. Shearer, Policing Stalin's Socialism: Repression and Social Order in the Soviet Union, 1924-1953 (Yale University Press) (en inglés)",
+      "url": "https://yalebooks.yale.edu/book/9780300149258/policing-stalins-socialism/",
+      "fecha": "2009",
+      "consultado": "2026-07-11"
+    },
+    {
+      "tipo": "otro",
+      "titulo": "Library of Congress, Internal Workings of the Soviet Union: Revelations from the Russian Archives (en inglés)",
+      "url": "https://www.loc.gov/exhibits/archives/intn.html",
+      "consultado": "2026-07-11"
+    }
+  ],
+  "reglaPublicacion": {
+    "minimoItems": 12,
+    "minimoCobertura": 0.5,
+    "umbralAfinidad": 78
+  },
+  "posiciones": {
+    "izq-001": {
+      "valor": 2,
+      "justificacion": "Los Fundamentos del leninismo presentan la revolución proletaria y la dictadura del proletariado como ruptura necesaria porque sindicatos, cooperativas y parlamentarismo resultan insuficientes frente al capitalismo imperialista.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "J. V. Stalin, The Foundations of Leninism, capítulo I (en inglés)",
+        "url": "https://www.marxists.org/reference/archive/stalin/works/1924/foundations-leninism/ch01.htm",
+        "fecha": "1924",
+        "consultado": "2026-07-11"
+      }
+    },
+    "izq-002": {
+      "valor": 2,
+      "justificacion": "Stalin define el partido como destacamento organizado, vanguardia y instrumento de la dictadura proletaria, con disciplina capaz de dirigir y reeducar a millones durante la construcción socialista.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "J. V. Stalin, The Foundations of Leninism, capítulo VIII (en inglés)",
+        "url": "https://www.marxists.org/reference/archive/stalin/works/1924/foundations-leninism/ch08.htm",
+        "fecha": "1924",
+        "consultado": "2026-07-11"
+      }
+    },
+    "izq-018": {
+      "valor": -2,
+      "justificacion": "La doctrina exige unidad absoluta de acción tras la decisión y declara incompatible la disciplina del partido con facciones organizadas y centros alternativos de dirección.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "J. V. Stalin, The Foundations of Leninism, capítulo VIII (en inglés)",
+        "url": "https://www.marxists.org/reference/archive/stalin/works/1924/foundations-leninism/ch08.htm",
+        "fecha": "1924",
+        "consultado": "2026-07-11"
+      }
+    },
+    "dem-011": {
+      "valor": 2,
+      "justificacion": "El modelo soviético se presenta como una forma estatal distinta del parlamentarismo liberal: una república de soviets bajo dirección del partido, no una reforma parcial del parlamento de partidos.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "J. V. Stalin, On the Draft Constitution of the U.S.S.R. (en inglés)",
+        "url": "https://www.marxists.org/reference/archive/stalin/works/1936/11/25.htm",
+        "fecha": "1936-11-25",
+        "consultado": "2026-07-11"
+      }
+    },
+    "izq-005": {
+      "valor": 2,
+      "justificacion": "Stalin afirma que los planes anuales y quinquenales y la ley del desarrollo proporcional sustituyen a la competencia como regulador de la producción, aunque conserve intercambio mercantil limitado para bienes de consumo.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "J. V. Stalin, Economic Problems of Socialism in the U.S.S.R., capítulo III (en inglés)",
+        "url": "https://www.marxists.org/reference/archive/stalin/works/1951/economic-problems/ch04.htm",
+        "fecha": "1952",
+        "consultado": "2026-07-11"
+      }
+    },
+    "izq-016": {
+      "valor": 2,
+      "justificacion": "La configuración declara eliminadas las clases propietarias capitalistas y establece como base inamovible la propiedad socialista de tierra, fábricas y medios de producción; su programa no contempla indemnizar a los antiguos grandes propietarios.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "J. V. Stalin, On the Draft Constitution of the U.S.S.R. (en inglés)",
+        "url": "https://www.marxists.org/reference/archive/stalin/works/1936/11/25.htm",
+        "fecha": "1936-11-25",
+        "consultado": "2026-07-11"
+      }
+    },
+    "izq-017": {
+      "valor": -2,
+      "justificacion": "Tras liquidar la NEP, la doctrina afirma que la propiedad privada de los medios de producción y la clase capitalista han desaparecido; admite intercambio mercantil entre Estado y granjas colectivas, no un sector capitalista privado amplio durante décadas.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "J. V. Stalin, Economic Problems of Socialism in the U.S.S.R., Commodity Production Under Socialism (en inglés)",
+        "url": "https://www.marxists.org/reference/archive/stalin/works/1951/economic-problems/ch03.htm",
+        "fecha": "1952",
+        "consultado": "2026-07-11"
+      }
+    },
+    "der-001": {
+      "valor": -2,
+      "justificacion": "El Estado dirige planificación, propiedad productiva, trabajo, educación y transformación social. Aunque el horizonte comunista remoto sea la extinción estatal, la fase histórica codificada se sitúa en el extremo opuesto al Estado mínimo.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "J. V. Stalin, On the Draft Constitution of the U.S.S.R. (en inglés)",
+        "url": "https://www.marxists.org/reference/archive/stalin/works/1936/11/25.htm",
+        "fecha": "1936-11-25",
+        "consultado": "2026-07-11"
+      }
+    },
+    "lab-016": {
+      "valor": 2,
+      "justificacion": "Las empresas industriales y sus medios de producción son propiedad nacional dirigida mediante planes estatales por principio socialista, no únicamente cuando la explotación privada deja de ser rentable.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "J. V. Stalin, Economic Problems of Socialism in the U.S.S.R. (en inglés)",
+        "url": "https://www.marxists.org/reference/archive/stalin/works/1951/economic-problems/",
+        "fecha": "1952",
+        "consultado": "2026-07-11"
+      }
+    },
+    "eco-011": {
+      "valor": 2,
+      "justificacion": "El artículo 119 de la Constitución soviética de 1936 garantiza descanso mediante una jornada de siete horas para la mayoría y vacaciones anuales con salario completo, una reducción legal sin pérdida salarial.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Constitution of the U.S.S.R. (1936), artículo 119, edición histórica de Stanford (en inglés)",
+        "url": "https://large.stanford.edu/history/kaist/references/marx/beard/c10/",
+        "fecha": "1936-12-05",
+        "consultado": "2026-07-11"
+      }
+    },
+    "izq-044": {
+      "valor": -2,
+      "justificacion": "La fase estaliniana amplió policía civil y política y fusionó orden público con seguridad estatal; no traslada progresivamente conflictos a mecanismos comunitarios, sino que usa esos cuerpos para disciplina social y política.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "David R. Shearer, Policing Stalin's Socialism (Yale University Press) (en inglés)",
+        "url": "https://yalebooks.yale.edu/book/9780300149258/policing-stalins-socialism/",
+        "fecha": "2009",
+        "consultado": "2026-07-11"
+      }
+    },
+    "fem-012": {
+      "valor": -2,
+      "justificacion": "El decreto soviético de 1936 prohibió el aborto salvo excepciones médicas; por tanto tampoco reconoce a jóvenes de 16 y 17 años capacidad para abortar sin consentimiento parental. La codificación se refiere al giro legal del periodo, no a toda tradición comunista.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Library of Congress, Russia: Abortion Legislation (en inglés)",
+        "url": "https://tile.loc.gov/storage-services/service/ll/llglrd/2019670673/2019670673.pdf",
+        "fecha": "1972",
+        "consultado": "2026-07-11"
+      }
+    },
+    "soc-001": {
+      "valor": -2,
+      "justificacion": "En 1933-1934 el Estado soviético recriminalizó las relaciones sexuales consentidas entre varones y las castigó penalmente. Ese marco es incompatible con mantener protegidos por ley los derechos LGTB y el matrimonio igualitario.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Laura Engelstein, Soviet Policy Toward Male Homosexuality: Its Origins and Historical Roots (Journal of Homosexuality; PubMed) (en inglés)",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/8666753/",
+        "fecha": "1995",
+        "consultado": "2026-07-11"
+      }
+    },
+    "dr-015": {
+      "valor": -2,
+      "justificacion": "Stalin calificó la rebelión franquista como yugo de reaccionarios fascistas y la liberación de España como causa común de la humanidad avanzada. La doctrina oficial no reconoce aportaciones positivas al franquismo.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "J. V. Stalin, Telegram from the C.C. of the C.P.S.U.(B) to the C.C. of the Communist Party of Spain (en inglés)",
+        "url": "https://www.marxists.org/reference/archive/stalin/works/1936/10/x01.htm",
+        "fecha": "1936-10-16",
+        "consultado": "2026-07-11"
+      }
+    }
+  }
+}

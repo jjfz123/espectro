@@ -3,6 +3,7 @@ import { join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import react from '@vitejs/plugin-react';
 import { defineConfig } from 'vite';
+import { VitePWA } from 'vite-plugin-pwa';
 
 // El motor puro vive en ../src/engine y los datos en ../data:
 // se importan en tiempo de build. La app resultante no hace
@@ -44,7 +45,27 @@ function minimizarBancoItems() {
 }
 
 export default defineConfig({
-  plugins: [react(), minimizarBancoItems()],
+  plugins: [
+    react(),
+    minimizarBancoItems(),
+    VitePWA({
+      // El manifest se mantiene como fichero público y el registro se hace
+      // desde pwa.ts para poder pedir permiso antes de recargar una sesión.
+      manifest: false,
+      injectRegister: false,
+      registerType: 'prompt',
+      workbox: {
+        cleanupOutdatedCaches: true,
+        clientsClaim: false,
+        skipWaiting: false,
+        navigateFallback: '/index.html',
+        // Incluye también Resultados, sus datos y el visor 3D: terminar el
+        // test sin conexión nunca debe provocar un import() roto.
+        globPatterns: ['**/*.{html,js,css,png,svg,webmanifest,txt}'],
+        maximumFileSizeToCacheInBytes: 2 * 1024 * 1024,
+      },
+    }),
+  ],
   define: {
     __PERFILES_REALES__: JSON.stringify(contarPerfilesReales()),
   },

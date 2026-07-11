@@ -10,6 +10,46 @@ import { fileURLToPath } from 'node:url';
 const raiz = join(dirname(fileURLToPath(import.meta.url)), '..');
 const errores = [];
 
+/** Fuentes retiradas tras detectar redirecciones o contenido SEO inyectado.
+ * Las rutas limpias del mismo medio siguen permitidas cuando proceda. */
+function motivoUrlBloqueada(valor) {
+  try {
+    const url = new URL(valor);
+    const host = url.hostname.toLowerCase();
+    if (host === 'pcpa.es' || host.endsWith('.pcpa.es')) {
+      return 'dominio de fuente comprometido; usar PCPE/JEC u otra fuente primaria';
+    }
+    if (host === 'aliancacatalana.cat' && url.pathname.includes('independencia-i-pais')) {
+      return 'ruta oficial antigua comprometida; usar web.aliancacatalana.cat';
+    }
+    if (host === 'aliancacatalana.cat' && url.pathname === '/') {
+      return 'raíz oficial antigua comprometida; usar web.aliancacatalana.cat';
+    }
+    if (host === 'www.nuevacanariasbc.org' && url.pathname === '/') {
+      return 'raíz comprometida; enlazar únicamente documentos o artículos verificados';
+    }
+  } catch {
+    return undefined;
+  }
+  return undefined;
+}
+
+function auditarUrls(datos, ruta, camino = '') {
+  if (Array.isArray(datos)) {
+    datos.forEach((valor, indice) => auditarUrls(valor, ruta, `${camino}/${indice}`));
+    return;
+  }
+  if (!datos || typeof datos !== 'object') return;
+  for (const [clave, valor] of Object.entries(datos)) {
+    const siguiente = `${camino}/${clave}`;
+    if ((clave === 'url' || clave === 'web') && typeof valor === 'string') {
+      const motivo = motivoUrlBloqueada(valor);
+      if (motivo) errores.push(`- ${ruta}${siguiente}: URL bloqueada (${motivo}): ${valor}`);
+    }
+    auditarUrls(valor, ruta, siguiente);
+  }
+}
+
 /** JSON.parse acepta claves duplicadas y conserva solo la última. Eso puede
  * borrar evidencia sin que AJV lo vea, así que se detectan antes de parsear. */
 function clavesDuplicadas(texto) {
@@ -68,7 +108,9 @@ const leer = (ruta) => {
   for (const duplicada of clavesDuplicadas(texto)) {
     errores.push(`- ${ruta}:${duplicada.linea}: clave JSON duplicada «${duplicada.clave}»`);
   }
-  return JSON.parse(texto);
+  const datos = JSON.parse(texto);
+  auditarUrls(datos, ruta);
+  return datos;
 };
 
 const ajv = new Ajv({ allErrors: true });
@@ -86,6 +128,22 @@ const validaReferencia = ajv.compile(leer('data/schemas/referencia.schema.json')
 const fallo = (donde, detalle) => errores.push(`- ${donde}: ${detalle}`);
 const ajvErrores = (v) =>
   (v.errors ?? []).map((e) => `${e.instancePath || '/'} ${e.message}`).join('; ');
+
+// Metadatos que invalidan de forma segura las sesiones si cambia el
+// significado del instrumento y declaran el corte editorial offline.
+const versionDatos = leer('data/version.json');
+if (!/^[1-9][0-9]*$/.test(versionDatos.versionInstrumento ?? '')) {
+  fallo('version.json', 'versionInstrumento debe ser un entero positivo representado como texto');
+}
+const fechaCorte = versionDatos.fechaCorte ?? '';
+const fechaCorteObjeto = new Date(`${fechaCorte}T00:00:00Z`);
+if (
+  !/^\d{4}-\d{2}-\d{2}$/.test(fechaCorte) ||
+  Number.isNaN(fechaCorteObjeto.getTime()) ||
+  fechaCorteObjeto.toISOString().slice(0, 10) !== fechaCorte
+) {
+  fallo('version.json', 'fechaCorte debe ser una fecha ISO YYYY-MM-DD válida');
+}
 
 // 1. Ejes
 const ejes = leer('data/ejes.json');
@@ -274,6 +332,20 @@ for (const fichero of readdirSync(join(raiz, 'data/partidos'))) {
     }
   }
   validarPosicionesPerfil(p.posiciones, donde, p.confianza);
+  if (p.monotematico) {
+    const posiciones = Object.keys(p.posiciones ?? {});
+    if (p.confianza !== 'verificada') {
+      fallo(donde, 'un perfil monotemático debe tener evidencia verificada');
+    }
+    if (posiciones.length < 1 || posiciones.length > 3) {
+      fallo(donde, 'un perfil monotemático debe declarar entre 1 y 3 posiciones');
+    }
+    for (const itemId of posiciones) {
+      if ((itemsPorId.get(itemId)?.ejes?.length ?? 0) > 0) {
+        fallo(donde, `un perfil monotemático solo puede usar ítems solo-matching: ${itemId}`);
+      }
+    }
+  }
   if (p.dobleLectura) {
     const contraste = p.dobleLectura.contraste;
     if (contraste.desde && contraste.desde > contraste.hasta) {
@@ -315,6 +387,9 @@ if (existsSync(directorioReferencias)) {
     idsReferencias.add(referencia.id);
     for (const faceta of referencia.facetasDefinitorias ?? []) {
       if (!idsEjes.has(faceta)) fallo(donde, `faceta inexistente: ${faceta}`);
+    }
+    if (referencia.publicacionMapa?.publicable === true) {
+      fallo(donde, 'publicacionMapa solo debe declararse para una exclusión editorial razonada');
     }
     const posiciones = Object.entries(referencia.posiciones ?? {});
     if ((referencia.reglaPublicacion?.minimoItems ?? Infinity) > posiciones.length) {
@@ -491,5 +566,5 @@ const nMatching = itemsVigentes.filter(
 const nEje = itemsVigentes.length - nSeguimientos - nCartografia - nMatching;
 const nRetirados = idsItems.size - itemsVigentes.length;
 console.log(
-  `✓ Datos válidos: ${ejes.length} ejes, ${modulos.length} módulos, ${idsItems.size} ítems (${itemsVigentes.length} vigentes: ${nEje} de eje, ${nMatching} solo-matching, ${nSeguimientos} seguimientos, ${nCartografia} solo-mapa; ${nRetirados} retirados), ${terminos.length} términos de glosario, ${nPartidos} partidos, ${nReferencias} referencias doctrinales, ${nConvocatorias} convocatorias (${nCandidaturas} candidaturas incluidas) y ${nSindicatos} sindicatos.`,
+  `✓ Datos válidos (instrumento v${versionDatos.versionInstrumento}, corte ${versionDatos.fechaCorte}): ${ejes.length} ejes, ${modulos.length} módulos, ${idsItems.size} ítems (${itemsVigentes.length} vigentes: ${nEje} de eje, ${nMatching} solo-matching, ${nSeguimientos} seguimientos, ${nCartografia} solo-mapa; ${nRetirados} retirados), ${terminos.length} términos de glosario, ${nPartidos} partidos, ${nReferencias} referencias doctrinales, ${nConvocatorias} convocatorias (${nCandidaturas} candidaturas incluidas) y ${nSindicatos} sindicatos.`,
 );

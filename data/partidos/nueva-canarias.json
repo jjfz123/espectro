@@ -8,8 +8,7 @@
     "canarias"
   ],
   "confianza": "verificada",
-  "web": "https://www.nuevacanariasbc.org/",
-  "revisado": "2026-07-10",
+  "revisado": "2026-07-11",
   "actividad": "activa",
   "registroMir": "Fundado en 2005 como escisión del sector nacionalista de izquierda de Coalición Canaria/ICAN; perdió la condición registral por no renovar documentación y se reinscribió como Nueva Canarias-Bloque Canarista para concurrir en 2023. En enero de 2025, el Bloque Nacionalista Rural (Gáldar) y hasta 13 asambleas locales grancanarias (Agaete, Agüimes, Guía, Firgas, Valsequillo, Tejeda…) rompieron con NC-bc y constituyeron a lo largo de 2025 Municipalistas Primero Canarias, que en junio de 2026 pactó una «confluencia nacionalista» municipal con Coalición Canaria. La marca, la personalidad jurídica y el grupo parlamentario NC-bc continuaron sin alteración; en el VI Congreso Nacional (julio de 2025) Román Rodríguez dejó la presidencia tras veinte años y Luis Campos asumió la secretaría general, reorganizando el partido de cara a 2027. Una encuesta de enero de 2026 seguía atribuyendo a NC-bc en torno al 7,4% y 4-5 escaños.",
   "autodescripcion": {
@@ -213,6 +212,18 @@
         "consultado": "2026-07-10"
       }
     },
+    "eco-013": {
+      "valor": 1,
+      "justificacion": "Su programa admite una prestación sanitaria privada —farmacias, rehabilitación, ópticas y hospitales concertados— integrada en una red de utilización pública, bajo acreditación, supervisión y garantías públicas, y plantea a la vez reducir las listas de espera. Respalda una colaboración o derivación limitada, no la superioridad general de la gestión privada, de ahí el valor moderado.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa de Nueva Canarias-Bloque Canarista para las elecciones autonómicas de 2023, pp. 25-26",
+        "url": "https://www.nuevacanariasbc.org/wp-content/uploads/2023/05/V11_PROGRAMA_2023.pdf",
+        "fecha": "2023-05",
+        "consultado": "2026-07-11"
+      }
+    },
     "soc-001": {
       "valor": 2,
       "justificacion": "Representantes de Nueva Canarias, como Carmen Hernández, celebraron en el Parlamento canario la aprobación por unanimidad de la ley autonómica de reconocimiento de derechos de las personas trans, en una votación conjunta de todos los grupos -incluido el PP- que hizo de Canarias una de las pioneras en España.",
@@ -258,6 +269,18 @@
         "url": "https://www.publico.es/politica/tribunal-constitucional-avala-prision-permanente-revisable.html",
         "fecha": "2021-10",
         "consultado": "2026-07-10"
+      }
+    },
+    "izq-044": {
+      "valor": -2,
+      "justificacion": "Propone un nuevo Plan de Seguridad, una Policía Canaria coordinada que integre el cuerpo autonómico y las policías locales y 300 plazas adicionales. También quiere que los municipios lideren políticas de prevención, protección e intervención con actividad policial de proximidad, una dirección opuesta a reducir las funciones policiales en favor de mecanismos comunitarios.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa de Nueva Canarias-Bloque Canarista para las elecciones autonómicas de 2023, pp. 31-32",
+        "url": "https://www.nuevacanariasbc.org/wp-content/uploads/2023/05/V11_PROGRAMA_2023.pdf",
+        "fecha": "2023-05",
+        "consultado": "2026-07-11"
       }
     }
   }

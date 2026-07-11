@@ -24,8 +24,10 @@ import {
   ITEM_POR_ID,
   ITEMS_POR_MODULO,
   MODULOS,
+  etiquetaValor,
   itemVisible,
   nombreComunidad,
+  nombrePerfil,
   secuenciaItems,
 } from '../datos';
 import { CONVOCATORIAS, PARTIDOS, REFERENCIAS, SINDICATOS } from '../datosResultados';
@@ -34,13 +36,15 @@ import type { Accion, Estado } from '../estado';
 interface Props {
   estado: Estado;
   despachar: (accion: Accion) => void;
+  puedeRecargar: boolean;
+  alConfirmarGuardado: () => boolean;
 }
 
 const PARTIDO_POR_ID = new Map(PARTIDOS.map((p) => [p.id, p]));
 const SINDICATO_POR_ID = new Map(SINDICATOS.map((sindicato) => [sindicato.id, sindicato]));
 const ITEMS_LABORALES_EN_NUCLEO = new Set(['lab-006']);
 
-export function Resultados({ estado, despachar }: Props) {
+export function Resultados({ estado, despachar, puedeRecargar, alConfirmarGuardado }: Props) {
   const itemsSesion = useMemo(
     () => secuenciaItems(estado.modulosActivos, estado.respuestas),
     [estado.modulosActivos, estado.respuestas],
@@ -149,8 +153,28 @@ export function Resultados({ estado, despachar }: Props) {
     [respuestas],
   );
 
+  const coincidenciasMonotematicas = useMemo(() => {
+    const respuestaPorItem = new Map(respuestas.map((respuesta) => [respuesta.itemId, respuesta]));
+    return PARTIDOS.filter(
+      (partido) => partido.monotematico && partido.actividad !== 'inactiva' && partido.actividad !== 'historica',
+    ).flatMap((partido) =>
+      Object.entries(partido.posiciones).flatMap(([itemId, posicion]) => {
+        const valorUsuario = respuestaPorItem.get(itemId)?.valor;
+        const item = ITEM_POR_ID.get(itemId);
+        if (typeof valorUsuario !== 'number' || !item || Math.abs(valorUsuario - posicion.valor) > 1) {
+          return [];
+        }
+        return [{ partido, item, posicion, valorUsuario }];
+      }),
+    );
+  }, [respuestas]);
+
   const nSinOpinion = respuestas.filter((r) => r.valor === null).length;
-  const esPerfilProvisional = estado.modo === 'rapido';
+  // Cambiar al modo exhaustivo no convierte por sí solo el perfil en final:
+  // si se saltan todos los módulos sigue siendo la misma evidencia del rápido.
+  const esPerfilIntermedio = estado.perfilIntermedio;
+  const esPerfilProvisional = !esPerfilIntermedio && estado.modulosActivos.length === 0;
+  const pendientesSesion = itemsSesion.filter((item) => !(item.id in estado.respuestas)).length;
   const nombreEleccion =
     ELECCIONES.find((e) => e.id === estado.eleccion)?.nombre ?? estado.eleccion;
   const comunidad = estado.ccaa ? nombreComunidad(estado.ccaa) : undefined;
@@ -165,11 +189,19 @@ export function Resultados({ estado, despachar }: Props) {
 
   return (
     <div className="contenedor contenedor--ancho">
-      <p className="kicker">{esPerfilProvisional ? 'Perfil provisional' : 'Resultados'}</p>
+      <p className="kicker">
+        {esPerfilIntermedio
+          ? 'Perfil intermedio · provisional'
+          : esPerfilProvisional
+            ? 'Perfil provisional'
+            : 'Resultados'}
+      </p>
       <h1 className="titular" style={{ fontSize: 'clamp(1.8rem, 4.5vw, 2.4rem)' }}>
-        {esPerfilProvisional
-          ? 'Tu posición provisional y tus afinidades'
-          : 'Tu posición y tus afinidades'}
+        {esPerfilIntermedio
+          ? 'Tu perfil con profundidad intermedia'
+          : esPerfilProvisional
+            ? 'Tu posición provisional y tus afinidades'
+            : 'Tu posición y tus afinidades'}
       </h1>
       <p className="contexto-resultados">
         {nombreEleccion}
@@ -179,7 +211,31 @@ export function Resultados({ estado, despachar }: Props) {
         nada se ha enviado a ningún servidor.
       </p>
 
-      {esPerfilProvisional ? (
+      {esPerfilIntermedio ? (
+        <section className="resultado-provisional" aria-labelledby="resultado-intermedio-titulo">
+          <div>
+            <p className="kicker">Hito de 150 respuestas</p>
+            <h2 id="resultado-intermedio-titulo">Una lectura profunda, todavía provisional</h2>
+            <p>
+              Este perfil usa todo lo que has respondido hasta ahora. Aún quedan{' '}
+              {pendientesSesion} preguntas de la selección exhaustiva, por lo que las posiciones,
+              afinidades y referencias pueden cambiar cuando completes el recorrido. La cobertura
+              y la incertidumbre siguen visibles en cada resultado.
+            </p>
+          </div>
+          <button
+            type="button"
+            className="boton"
+            onClick={() => despachar({ tipo: 'seguir-exhaustivo' })}
+          >
+            Seguir con el exhaustivo
+          </button>
+          <p className="resultado-provisional__nota">
+            Volverás a la primera pregunta pendiente. Tus {respuestas.length} respuestas y las
+            prioridades que hayas marcado se conservan íntegramente.
+          </p>
+        </section>
+      ) : esPerfilProvisional ? (
         <section className="resultado-provisional" aria-labelledby="resultado-provisional-titulo">
           <div>
             <p className="kicker">Primera lectura</p>
@@ -227,7 +283,11 @@ export function Resultados({ estado, despachar }: Props) {
 
       <section className="seccion" aria-labelledby="mapa-espectro-titulo">
         <h2 id="mapa-espectro-titulo">Mapa del espectro</h2>
-        <MapaPolitico facetasUsuario={facetasUsuario} />
+        <MapaPolitico
+          facetasUsuario={facetasUsuario}
+          puedeRecargar={puedeRecargar}
+          alConfirmarGuardado={alConfirmarGuardado}
+        />
       </section>
 
       <ReferenciasDoctrinales
@@ -330,7 +390,13 @@ export function Resultados({ estado, despachar }: Props) {
         </label>
       </section>
 
-      {seleccionElectoral.metodo === 'convocatoria-documentada' &&
+      {seleccionElectoral.metodo === 'contexto-incompleto' ? (
+        <p className="aviso-contexto" role="status">
+          <strong>Falta la comunidad autónoma.</strong> Selecciónala para calcular un universo
+          territorial coherente. Hasta entonces no mostramos un ranking que mezcle formaciones
+          de comunidades distintas.
+        </p>
+      ) : seleccionElectoral.metodo === 'convocatoria-documentada' &&
       seleccionElectoral.convocatoria ? (
         <>
           <div className="aviso-contexto" role="status">
@@ -369,7 +435,12 @@ export function Resultados({ estado, despachar }: Props) {
           La distancia se calcula solo sobre posiciones compartidas y cada resultado declara su
           cobertura y sus fuentes.
         </p>
-        {nConOpinion === 0 ? (
+        {seleccionElectoral.metodo === 'contexto-incompleto' ? (
+          <div className="resultado-no-calculable" role="status">
+            <strong>Indica una comunidad para calcular esta afinidad electoral.</strong>
+            <p>Tus respuestas se conservan y el perfil ideológico de arriba sigue siendo válido.</p>
+          </div>
+        ) : nConOpinion === 0 ? (
           <div className="resultado-no-calculable" role="status">
             <strong>No hay afinidad calculable.</strong>
             <p>
@@ -405,6 +476,46 @@ export function Resultados({ estado, despachar }: Props) {
               />
             );
           })}
+        </section>
+      ) : null}
+
+      {coincidenciasMonotematicas.length > 0 ? (
+        <section className="seccion" aria-labelledby="coincidencias-especificas-titulo">
+          <h2 id="coincidencias-especificas-titulo">Coincidencias específicas</h2>
+          <p className="nota-al-margen" style={{ maxWidth: '68ch' }}>
+            Estas formaciones tienen un programa de uno o muy pocos puntos. Mostramos la
+            coincidencia concreta, pero no fabricamos un porcentaje de afinidad general ni
+            inferimos qué pensarías —o qué piensa el partido— sobre el resto del test.
+          </p>
+          <div className="coincidencias-especificas">
+            {coincidenciasMonotematicas.map(({ partido, item, posicion, valorUsuario }) => (
+              <article className="coincidencia-especifica" key={`${partido.id}-${item.id}`}>
+                <p className="kicker">Programa monotemático</p>
+                <h3>{nombrePerfil(partido)}</h3>
+                <p><strong>Punto comparado:</strong> {item.texto}</p>
+                <dl>
+                  <div>
+                    <dt>Tu respuesta</dt>
+                    <dd>{etiquetaValor(valorUsuario)}</dd>
+                  </div>
+                  <div>
+                    <dt>Posición documentada</dt>
+                    <dd>{etiquetaValor(posicion.valor)}</dd>
+                  </div>
+                </dl>
+                {posicion.justificacion ? <p>{posicion.justificacion}</p> : null}
+                {posicion.fuente?.url ? (
+                  <p className="nota-al-margen">
+                    {posicion.fuente.titulo ?? 'Fuente documental'}
+                    {posicion.fuente.fecha ? ` (${posicion.fuente.fecha})` : ''}{' · '}
+                    <a href={posicion.fuente.url} rel="noopener noreferrer" target="_blank">
+                      consultar fuente
+                    </a>
+                  </p>
+                ) : null}
+              </article>
+            ))}
+          </div>
         </section>
       ) : null}
 
@@ -446,7 +557,15 @@ export function Resultados({ estado, despachar }: Props) {
         >
           Revisar y corregir respuestas
         </button>
-        {esPerfilProvisional ? (
+        {esPerfilIntermedio ? (
+          <button
+            type="button"
+            className="boton"
+            onClick={() => despachar({ tipo: 'seguir-exhaustivo' })}
+          >
+            Seguir con el exhaustivo
+          </button>
+        ) : esPerfilProvisional ? (
           <button
             type="button"
             className="boton"

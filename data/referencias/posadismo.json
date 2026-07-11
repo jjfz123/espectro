@@ -6,15 +6,15 @@
   "variante": "Tradición de J. Posadas; el POSI español pertenece a otra tradición de la IV Internacional y NO es posadista",
   "periodo": "1962–actualidad (residual)",
   "confianza": "verificada",
-  "version": "1.0",
-  "revisado": "2026-07-10",
+  "version": "1.1",
+  "revisado": "2026-07-11",
   "facetasDefinitorias": [
     "metodo-cambio",
     "armas-nucleares",
     "internacionalismo"
   ],
   "sensibilidad": "antipluralista",
-  "advertencia": "Es un tipo ideal doctrinal histórico sin candidatura española: nunca aparece como papeleta. La coincidencia de siglas no convierte al POSI en posadista: el POSI español se reclama de la IV Internacional trotskista ortodoxa (ver docs/investigacion/comunistas-exclusiones-corrientes.md). Su tesis sobre la guerra nuclear se documenta con sus propios textos para situarla en el mapa, no como recomendación de nada.",
+  "advertencia": "Es un tipo ideal doctrinal histórico sin candidatura española: nunca aparece como papeleta. La coincidencia de siglas no convierte al POSI en posadista: el POSI español se reclama de la IV Internacional trotskista ortodoxa (ver docs/investigacion/comunistas-exclusiones-corrientes.md). Su tesis sobre la guerra nuclear se documenta con sus propios textos para situarla en el mapa, no como recomendación de nada. La proyección social se apoya solo en posiciones documentadas sobre franquismo, derechos nacionales, política penitenciaria y ocupaciones; no se infieren respuestas sobre LGTB, aborto o migración a partir de su internacionalismo genérico.",
   "fuentesMarco": [
     {
       "tipo": "otro",
@@ -24,13 +24,13 @@
     },
     {
       "tipo": "otro",
-      "titulo": "Red Flag, órgano de la IV Internacional posadista (archivo 1963-2000, marxists.org)",
+      "titulo": "Red Flag, órgano de la IV Internacional posadista (archivo 1963-2000, marxists.org) (en inglés)",
       "url": "https://www.marxists.org/history/etol/newspape/red-flag-posadas/index.htm",
       "consultado": "2026-07-10"
     },
     {
       "tipo": "otro",
-      "titulo": "Posadas: A Critical Assessment of the Former Latin American Bureau Tendency within the Fourth International (marxists.org)",
+      "titulo": "Posadas: A Critical Assessment of the Former Latin American Bureau Tendency within the Fourth International (marxists.org) (en inglés)",
       "url": "https://www.marxists.org/archive/posadas/critical.htm",
       "consultado": "2026-07-10"
     }
@@ -47,7 +47,7 @@
       "calidadEvidencia": "alta",
       "fuente": {
         "tipo": "otro",
-        "titulo": "Resolución del VII Congreso Mundial de la IV Internacional posadista (1964), citada en el balance del Buró Latinoamericano (marxists.org)",
+        "titulo": "Resolución del VII Congreso Mundial de la IV Internacional posadista (1964), citada en el balance del Buró Latinoamericano (marxists.org) (en inglés)",
         "url": "https://www.marxists.org/archive/posadas/critical.htm",
         "fecha": "1964",
         "consultado": "2026-07-10",
@@ -60,7 +60,7 @@
       "calidadEvidencia": "media",
       "fuente": {
         "tipo": "otro",
-        "titulo": "Red Flag, número de 1966 con el manifiesto posadista sobre la guerra atómica (marxists.org)",
+        "titulo": "Red Flag, número de 1966 con el manifiesto posadista sobre la guerra atómica (marxists.org) (en inglés)",
         "url": "https://www.marxists.org/history/etol/newspape/red-flag-posadas/red_1966.pdf",
         "fecha": "1966",
         "consultado": "2026-07-10"
@@ -94,7 +94,7 @@
       "calidadEvidencia": "media",
       "fuente": {
         "tipo": "otro",
-        "titulo": "Posadas: A Critical Assessment (historia de la tendencia dentro de la IV Internacional)",
+        "titulo": "Posadas: A Critical Assessment (historia de la tendencia dentro de la IV Internacional) (en inglés)",
         "url": "https://www.marxists.org/archive/posadas/critical.htm",
         "consultado": "2026-07-10"
       }
@@ -105,7 +105,7 @@
       "calidadEvidencia": "media",
       "fuente": {
         "tipo": "otro",
-        "titulo": "Posadas: A Critical Assessment (evolución de la tendencia respecto a los Estados obreros)",
+        "titulo": "Posadas: A Critical Assessment (evolución de la tendencia respecto a los Estados obreros) (en inglés)",
         "url": "https://www.marxists.org/archive/posadas/critical.htm",
         "consultado": "2026-07-10"
       }
@@ -116,7 +116,7 @@
       "calidadEvidencia": "media",
       "fuente": {
         "tipo": "otro",
-        "titulo": "Red Flag, órgano de la IV Internacional posadista (archivo, marxists.org)",
+        "titulo": "Red Flag, órgano de la IV Internacional posadista (archivo, marxists.org) (en inglés)",
         "url": "https://www.marxists.org/history/etol/newspape/red-flag-posadas/index.htm",
         "consultado": "2026-07-10"
       }
@@ -127,7 +127,7 @@
       "calidadEvidencia": "media",
       "fuente": {
         "tipo": "otro",
-        "titulo": "Red Flag, órgano de la IV Internacional posadista (archivo, marxists.org)",
+        "titulo": "Red Flag, órgano de la IV Internacional posadista (archivo, marxists.org) (en inglés)",
         "url": "https://www.marxists.org/history/etol/newspape/red-flag-posadas/index.htm",
         "consultado": "2026-07-10"
       }
@@ -141,6 +141,104 @@
         "titulo": "J. Posadas, La función histórica de las Internacionales",
         "url": "https://www.marxists.org/espanol/posadas/2012/funcion-de-las-internacionales.pdf",
         "consultado": "2026-07-10"
+      }
+    },
+    "izq-005": {
+      "valor": 2,
+      "justificacion": "Posadas propone nacionalizar las propiedades de interés nacional, someterlas al control obrero y planificar conjuntamente la producción según las necesidades populares. No presenta la planificación como un correctivo puntual del mercado, sino como el principio coordinador de los sectores decisivos.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "J. Posadas, For Support and Extension of the Cuban Revolution (en inglés)",
+        "url": "https://www.marxists.org/archive/posadas/1960/06/cuba.htm",
+        "fecha": "1960-06-28",
+        "consultado": "2026-07-11"
+      }
+    },
+    "izq-017": {
+      "valor": -2,
+      "justificacion": "Niega expresamente una vía económica intermedia duradera: sostiene que no se pueden combinar propiedad social y propiedad privada y que el paso histórico debe conducir a eliminar la propiedad capitalista. Es lo contrario de conservar durante décadas un sector privado amplio dentro de la transición.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "J. Posadas, Les étatisations, les droits démocratiques, le rôle des syndicats et le progrès révolutionnaire au Pérou (Lutte Ouvrière, volumen 1974) (en francés)",
+        "url": "https://quatrieme-internationale-posadiste.org/publications_pdf/Lutte-ouvriere-publications-1974.pdf",
+        "fecha": "1973-11-26",
+        "consultado": "2026-07-11",
+        "cita": "Il n'est pas possible de combiner la propriété sociale et la propriété privée."
+      }
+    },
+    "lab-016": {
+      "valor": 2,
+      "justificacion": "El programa de la sección británica posadista exige propiedad estatal de la industria y nacionalizar la mayoría del aparato productivo como condición de la planificación, incluso sin invocar pérdidas, monopolio natural o falta de rentabilidad privada. Añade control obrero a la propiedad estatal, pero no sustituye esta por cooperativas separadas del Estado.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Political Bureau, British Section of the Posadist IV International, Open Letter to the British Communist Party (Red Flag, volumen 1977) (en inglés)",
+        "url": "https://www.marxists.org/history/etol/newspape/red-flag-posadas/red_1977.pdf",
+        "fecha": "1977-10-29",
+        "consultado": "2026-07-11"
+      }
+    },
+    "eco-011": {
+      "valor": 2,
+      "justificacion": "El órgano posadista pide de forma literal generalizar la semana de 35 horas sin pérdida salarial a todas las industrias y a escala internacional; la reducción legal de la jornada sin rebaja de sueldo encaja plenamente con ese programa.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Red Flag, editorial sobre el congreso del TUC y la huelga minera (volumen 1984) (en inglés)",
+        "url": "https://www.marxists.org/history/etol/newspape/red-flag-posadas/red_1984.pdf",
+        "fecha": "1984",
+        "consultado": "2026-07-11",
+        "cita": "The 35-hour week without loss of pay must be sought systematically in all industries."
+      }
+    },
+    "dr-015": {
+      "valor": -2,
+      "justificacion": "Posadas caracteriza los cuarenta años del régimen de Franco como dominación fascista y opresiva, atribuye a las masas haber derrotado el franquismo y sostiene que el fascismo llevó la economía española al colapso. No reconoce un legado positivo que deba reivindicarse.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "J. Posadas, The Elections in Spain: A Defeat for World Capitalism (Red Flag 268) (en inglés)",
+        "url": "https://www.marxists.org/history/etol/newspape/red-flag-posadas/red_1977.pdf",
+        "fecha": "1977-06-19",
+        "consultado": "2026-07-11"
+      }
+    },
+    "der-026": {
+      "valor": -1,
+      "justificacion": "En su análisis de España defiende extender las libertades democráticas, trata las movilizaciones vascas, catalanas y gallegas como parte legítima del proceso político y reconoce el principio de autodeterminación. Eso contradice ilegalizar una organización por el solo hecho de promover la secesión; como condiciona la autodeterminación al progreso social y no acepta un pluralismo ilimitado frente a fuerzas contrarrevolucionarias, el desacuerdo se codifica moderado y no máximo.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "J. Posadas, The Elections in Spain: A Defeat for World Capitalism; y The Crisis of British Capitalism, the Soviet Union and the Left in the Labour Party (Red Flag, volumen 1977) (en inglés)",
+        "url": "https://www.marxists.org/history/etol/newspape/red-flag-posadas/red_1977.pdf",
+        "fecha": "1977",
+        "consultado": "2026-07-11"
+      }
+    },
+    "soc-006": {
+      "valor": 1,
+      "justificacion": "Posadas reclama liberalizar las penas, ampliar los derechos y la libertad de los presos, terminar con su segregación y orientar la prisión a la regeneración. La prisión permanente revisable española es posterior y no aparece literalmente en el texto; por eso se codifica acuerdo moderado, no máximo, con su derogación.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "J. Posadas, La rébellion des prisons (Lutte Ouvrière, volumen 1974) (en francés)",
+        "url": "https://quatrieme-internationale-posadiste.org/publications_pdf/Lutte-ouvriere-publications-1974.pdf",
+        "fecha": "1974-07-28",
+        "consultado": "2026-07-11"
+      }
+    },
+    "izq-042": {
+      "valor": 1,
+      "justificacion": "Posadas valora los sit-ins y las ocupaciones de viviendas y recuerda favorablemente que los sindicatos británicos defendieron que las personas sin hogar ocuparan inmuebles vacíos. Eso acredita la legitimidad del método de ocupar propiedad desusada para un fin colectivo; como la fuente habla de vivienda y no específicamente de centros sociales autogestionados, el acuerdo se limita a +1.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "J. Posadas, The Crisis and Historic Function of the British Communist Party (Red Flag 268, suplemento de agosto de 1977) (en inglés)",
+        "url": "https://www.marxists.org/history/etol/newspape/red-flag-posadas/red_1977.pdf",
+        "fecha": "1977-08-18",
+        "consultado": "2026-07-11"
       }
     }
   }

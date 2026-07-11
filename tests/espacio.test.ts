@@ -2,11 +2,12 @@ import { describe, it, expect } from 'vitest';
 import {
   calcularFacetas,
   distanciaEspacial,
+  componerAutoridadPolitica,
   proyectarEnEspacio,
   respuestasDePosiciones,
   EJES_ESPACIO,
 } from '../src/engine/index.js';
-import type { Eje, Item, PerfilAfinidad, Valor } from '../src/engine/index.js';
+import type { Eje, Item, PerfilAfinidad, ResultadoFaceta, Valor } from '../src/engine/index.js';
 
 const EJES: Eje[] = [
   { id: 'economico', nombre: 'Económico', poloNegativo: 'Izquierda', poloPositivo: 'Derecha' },
@@ -142,5 +143,53 @@ describe('distanciaEspacial', () => {
       EJES_ESPACIO,
     );
     expect(d).toBeNull();
+  });
+});
+
+function faceta(
+  facetaId: string,
+  valor: number,
+  itemsRespondidos: number,
+  cobertura = 1,
+): ResultadoFaceta {
+  return {
+    facetaId,
+    valor,
+    itemsRespondidos,
+    itemsDisponibles: itemsRespondidos,
+    cargaRespondida: itemsRespondidos,
+    cargaDisponible: itemsRespondidos,
+    numerador: 0,
+    denominador: 0,
+    cobertura,
+    coberturaSuficiente: true,
+  };
+}
+
+describe('componerAutoridadPolitica', () => {
+  it('distingue liberalismo cultural de concentración organizativa y estatal', () => {
+    const resultado = componerAutoridadPolitica([
+      faceta('social', -80, 4),
+      faceta('organizacion', 100, 2),
+      faceta('estatismo', 100, 1),
+    ]);
+    expect(resultado.valor).toBeGreaterThan(10);
+    expect(resultado.valor).toBeLessThan(30);
+    expect(resultado.coberturaSuficiente).toBe(true);
+  });
+
+  it('no publica una vertical sostenida por una sola familia de preguntas', () => {
+    const resultado = componerAutoridadPolitica([faceta('social', 80, 8)]);
+    expect(resultado.valor).toBe(80);
+    expect(resultado.coberturaSuficiente).toBe(false);
+  });
+
+  it('orienta pluralismo y libertades civiles hacia el polo distribuido', () => {
+    const resultado = componerAutoridadPolitica([
+      faceta('pluralismo-institucional', 100, 4),
+      faceta('libertades-civiles', 100, 4),
+    ]);
+    expect(resultado.valor).toBe(-100);
+    expect(resultado.coberturaSuficiente).toBe(true);
   });
 });

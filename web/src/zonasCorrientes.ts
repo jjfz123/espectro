@@ -9,9 +9,10 @@
  * Este módulo no conoce ningún nombre ni posición concretos: cuando el
  * catálogo data/referencias crece, la teselación se densifica sola.
  *
- * Rendimiento: cada par de ejes se calcula UNA vez (caché por par), sobre
- * una rejilla de 120×120 celdas, y cada región se emite como un único
- * <path> de rectángulos por filas fusionados — no una celda por rect.
+ * Rendimiento: cada par de ejes se calcula UNA vez (caché por par). Una
+ * rejilla de 120×120 sirve para buscar espacios seguros para los rótulos;
+ * las regiones visibles se trazan como polígonos de Voronoi vectoriales,
+ * sin bordes escalonados al ampliar o resaltar una corriente.
  */
 import { ENTIDADES_MAPA } from './mapaEspacial';
 import type { EntidadMapa } from './mapaEspacial';
@@ -37,7 +38,7 @@ export interface ZonaCorriente {
   nombre: string;
   /** Forma corta editorial del nombre, para el rótulo de la zona. */
   rotulo: string;
-  /** Región como path SVG (subpaths rectangulares fusionados por filas). */
+  /** Región como polígono de Voronoi vectorial en un path SVG. */
   d: string;
   /** Rótulo colocado, o null si la zona es demasiado pequeña (se elide). */
   etiqueta: EtiquetaZona | null;
@@ -241,88 +242,71 @@ function colocarRotulo(
   return null;
 }
 
-/** Path de una región: por filas, fusionando filas consecutivas idénticas. */
+/**
+ * Celda de Voronoi exacta: parte del cuadrado [-100, 100]² y lo recorta por
+ * el semiplano de cada bisectriz. El cálculo en el espacio de valores evita
+ * los dientes de sierra de la rejilla; luego se proyecta al viewBox SVG.
+ */
 function pathRegion(
-  asignacion: Int16Array,
+  posiciones: Array<{ vx: number; vy: number }>,
   indice: number,
   geometria: Geometria,
 ): string {
-  const { margen, celda } = geometria;
-  interface Franja {
-    i0: number;
-    i1: number; // exclusivo
-    j0: number;
-    j1: number; // exclusivo
+  interface PuntoValor {
+    x: number;
+    y: number;
   }
-  const franjas: Franja[] = [];
-  for (let j = 0; j < REJILLA; j += 1) {
-    let i = 0;
-    while (i < REJILLA) {
-      if (asignacion[j * REJILLA + i] !== indice) {
-        i += 1;
-        continue;
-      }
-      let fin = i;
-      while (fin < REJILLA && asignacion[j * REJILLA + fin] === indice) fin += 1;
-      const previa = franjas[franjas.length - 1];
-      if (previa && previa.j1 === j && previa.i0 === i && previa.i1 === fin) {
-        previa.j1 = j + 1;
-      } else {
-        franjas.push({ i0: i, i1: fin, j0: j, j1: j + 1 });
-      }
-      i = fin;
-    }
-  }
-  let d = '';
-  for (const f of franjas) {
-    const x = redondear(margen + f.i0 * celda);
-    const y = redondear(margen + f.j0 * celda);
-    const ancho = redondear((f.i1 - f.i0) * celda);
-    const alto = redondear((f.j1 - f.j0) * celda);
-    d += `M${x} ${y}h${ancho}v${alto}h${-ancho}Z`;
-  }
-  return d;
-}
+  const propia = posiciones[indice];
+  if (!propia) return '';
+  let poligono: PuntoValor[] = [
+    { x: -100, y: -100 },
+    { x: 100, y: -100 },
+    { x: 100, y: 100 },
+    { x: -100, y: 100 },
+  ];
+  const epsilon = 1e-7;
 
-/** Fronteras entre regiones: segmentos verticales y horizontales fusionados. */
-function pathBordes(asignacion: Int16Array, geometria: Geometria): string {
-  const { margen, celda } = geometria;
-  let d = '';
-  // Verticales: entre columnas i e i+1.
-  for (let i = 0; i < REJILLA - 1; i += 1) {
-    const x = redondear(margen + (i + 1) * celda);
-    let j = 0;
-    while (j < REJILLA) {
-      if (asignacion[j * REJILLA + i] === asignacion[j * REJILLA + i + 1]) {
-        j += 1;
-        continue;
+  for (let otra = 0; otra < posiciones.length && poligono.length > 0; otra += 1) {
+    if (otra === indice) continue;
+    const ajena = posiciones[otra]!;
+    const a = 2 * (ajena.vx - propia.vx);
+    const b = 2 * (ajena.vy - propia.vy);
+    if (Math.abs(a) < epsilon && Math.abs(b) < epsilon) continue;
+    const c =
+      ajena.vx * ajena.vx +
+      ajena.vy * ajena.vy -
+      propia.vx * propia.vx -
+      propia.vy * propia.vy;
+    const recortado: PuntoValor[] = [];
+    for (let i = 0; i < poligono.length; i += 1) {
+      const inicio = poligono[i]!;
+      const fin = poligono[(i + 1) % poligono.length]!;
+      const valorInicio = a * inicio.x + b * inicio.y - c;
+      const valorFin = a * fin.x + b * fin.y - c;
+      const dentroInicio = valorInicio <= epsilon;
+      const dentroFin = valorFin <= epsilon;
+      if (dentroInicio) recortado.push(inicio);
+      if (dentroInicio !== dentroFin) {
+        const denominador = valorInicio - valorFin;
+        const t = Math.abs(denominador) < epsilon ? 0 : valorInicio / denominador;
+        recortado.push({
+          x: inicio.x + (fin.x - inicio.x) * t,
+          y: inicio.y + (fin.y - inicio.y) * t,
+        });
       }
-      let fin = j;
-      while (fin < REJILLA && asignacion[fin * REJILLA + i] !== asignacion[fin * REJILLA + i + 1]) {
-        fin += 1;
-      }
-      d += `M${x} ${redondear(margen + j * celda)}V${redondear(margen + fin * celda)}`;
-      j = fin;
     }
+    poligono = recortado;
   }
-  // Horizontales: entre filas j y j+1.
-  for (let j = 0; j < REJILLA - 1; j += 1) {
-    const y = redondear(margen + (j + 1) * celda);
-    let i = 0;
-    while (i < REJILLA) {
-      if (asignacion[j * REJILLA + i] === asignacion[(j + 1) * REJILLA + i]) {
-        i += 1;
-        continue;
-      }
-      let fin = i;
-      while (fin < REJILLA && asignacion[j * REJILLA + fin] !== asignacion[(j + 1) * REJILLA + fin]) {
-        fin += 1;
-      }
-      d += `M${redondear(margen + i * celda)} ${y}H${redondear(margen + fin * celda)}`;
-      i = fin;
-    }
-  }
-  return d;
+
+  if (poligono.length < 3) return '';
+  const proyectar = (punto: PuntoValor) => ({
+    x: redondear(geometria.margen + ((punto.x + 100) / 200) * geometria.lado),
+    y: redondear(geometria.margen + ((100 - punto.y) / 200) * geometria.lado),
+  });
+  const proyectados = poligono.map(proyectar);
+  return `${proyectados
+    .map((punto, i) => `${i === 0 ? 'M' : 'L'}${punto.x} ${punto.y}`)
+    .join('')}Z`;
 }
 
 /**
@@ -458,7 +442,7 @@ export function capaCorrientes(
       id: referencia.id,
       nombre: referencia.nombre,
       rotulo: rotuloZona(referencia.nombre),
-      d: pathRegion(asignacion, indice, geometria),
+      d: pathRegion(posiciones, indice, geometria),
       etiqueta: colocarRotulo(
         asignacion,
         indice,
@@ -473,7 +457,12 @@ export function capaCorrientes(
     });
   }
 
-  const capa: CapaCorrientes = { zonas, bordes: pathBordes(asignacion, geometria) };
+  const capa: CapaCorrientes = {
+    zonas,
+    /* Los contornos vectoriales comparten sus aristas; repetirlas no cambia
+       el trazo y evita volver a introducir una frontera discreta. */
+    bordes: zonas.map((zona) => zona.d).join(''),
+  };
   cachePorPar.set(parId, capa);
   return capa;
 }

@@ -1,0 +1,265 @@
+{
+  "id": "socialismo-de-mercado-autogestionario",
+  "nombre": "Socialismo de mercado autogestionario",
+  "tipo": "referencia-doctrinal",
+  "definicion": "Modelo socialista que conserva mercados regulados para bienes y servicios, pero elimina el predominio del trabajo asalariado y de las finanzas privadas: las empresas son de propiedad social y autogestionadas por sus plantillas, mientras una red de bancos públicos asigna democráticamente la inversión.",
+  "variante": "Democracia Económica de David Schweickart; una variante autogestionaria concreta del socialismo de mercado, no una media entre todos los modelos que usan esa etiqueta",
+  "periodo": "1992-2016",
+  "confianza": "verificada",
+  "version": "1.0",
+  "revisado": "2026-07-11",
+  "publicacionMapa": {
+    "publicable": false,
+    "motivo": "La posición económica y la autogestión laboral están bien ancladas, pero el modelo no especifica separación de poderes, sistema de partidos ni un catálogo de libertades civiles; proyectar su democracia económica como una coordenada completa de poder político sería engañoso."
+  },
+  "facetasDefinitorias": [
+    "economico",
+    "poder-laboral",
+    "estatismo",
+    "organizacion",
+    "metodo-cambio",
+    "ecologia"
+  ],
+  "sensibilidad": "normal",
+  "advertencia": "Esta ficha representa únicamente la Democracia Económica de Schweickart: no debe confundirse con el socialismo de cupones de John Roemer, la autogestión yugoslava bajo partido único, la «economía socialista de mercado» china ni cualquier empresa cooperativa aislada. La propiedad social y la gestión por trabajadores conviven aquí con mercados competitivos de bienes y servicios, una pequeña esfera privada y planificación pública de la inversión. El autor imagina una transición democrática y no violenta; el banco no permite deducir de ello posiciones sobre la Constitución española, derechos civiles concretos, territorio, religión o política exterior.",
+  "fuentesMarco": [
+    {
+      "tipo": "otro",
+      "titulo": "David Schweickart, Economic Democracy: An Ethically Desirable Socialism That Is Economically Viable (en inglés)",
+      "url": "https://thenextsystem.org/node/204",
+      "fecha": "2016-03-01",
+      "consultado": "2026-07-11"
+    },
+    {
+      "tipo": "otro",
+      "titulo": "David Schweickart, Socialism, Democracy, Market, Planning: Putting the Pieces Together (en inglés)",
+      "url": "https://journals.sagepub.com/doi/10.1177/048661349202400303",
+      "fecha": "1992",
+      "consultado": "2026-07-11"
+    },
+    {
+      "tipo": "otro",
+      "titulo": "Stanford Encyclopedia of Philosophy, Socialism, sección de socialismo de mercado (en inglés)",
+      "url": "https://plato.stanford.edu/entries/socialism/",
+      "consultado": "2026-07-11"
+    },
+    {
+      "tipo": "otro",
+      "titulo": "Loyola University Chicago, Marx's Democratic Critique of Capitalism and Its Implications for a Viable Socialism (en inglés)",
+      "url": "https://scholars.luc.edu/en/publications/marxs-democratic-critique-of-capitalism-and-its-implications-for-/",
+      "fecha": "2014-01-01",
+      "consultado": "2026-07-11"
+    }
+  ],
+  "reglaPublicacion": {
+    "minimoItems": 12,
+    "minimoCobertura": 0.55,
+    "umbralAfinidad": 78
+  },
+  "posiciones": {
+    "der-001": {
+      "valor": -2,
+      "justificacion": "El modelo incluye propiedad social generalizada, bancos públicos de inversión, regulación, planificación democrática y al Estado como empleador de último recurso; es incompatible con limitarlo a policía, justicia y poco más.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Schweickart, Economic Democracy, modelo básico y extendido (en inglés)",
+        "url": "https://thenextsystem.org/node/204",
+        "fecha": "2016-03-01",
+        "consultado": "2026-07-11"
+      }
+    },
+    "izq-001": {
+      "valor": -2,
+      "justificacion": "Schweickart propone superar el capitalismo mediante una reestructuración democrática y no violenta, combinando reformas de transición, experiencias institucionales y un movimiento de masas, no una ruptura necesariamente insurreccional.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Schweickart, Economic Democracy, Principal Means (en inglés)",
+        "url": "https://thenextsystem.org/node/204",
+        "fecha": "2016-03-01",
+        "consultado": "2026-07-11"
+      }
+    },
+    "izq-002": {
+      "valor": -2,
+      "justificacion": "La transición se atribuye a un movimiento de masas consciente y a instituciones democráticas, no a un partido de vanguardia disciplinado que deba dirigir todo proceso revolucionario.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Schweickart, Economic Democracy, Principal Means y Theory of Change (en inglés)",
+        "url": "https://thenextsystem.org/node/204",
+        "fecha": "2016-03-01",
+        "consultado": "2026-07-11"
+      }
+    },
+    "izq-005": {
+      "valor": 1,
+      "justificacion": "Conserva mercados competitivos para bienes y servicios, pero somete la inversión estratégica a prioridades fijadas democráticamente y a bancos públicos; coincide parcialmente con planificación en sectores estratégicos, no con sustituir el mercado en general.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Schweickart, Socialism, Democracy, Market, Planning (en inglés)",
+        "url": "https://journals.sagepub.com/doi/10.1177/048661349202400303",
+        "fecha": "1992",
+        "consultado": "2026-07-11"
+      }
+    },
+    "izq-016": {
+      "valor": -2,
+      "justificacion": "La transición de grandes empresas prevé compra pública según el valor de sus activos y posterior entrega a la plantilla para autogestión; contradice expropiar banca y grandes grupos sin indemnización como regla.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Schweickart, Economic Democracy, Entrepreneurial-Capitalist Sector (en inglés)",
+        "url": "https://thenextsystem.org/node/204",
+        "fecha": "2016-03-01",
+        "consultado": "2026-07-11"
+      }
+    },
+    "izq-017": {
+      "valor": 0,
+      "justificacion": "Permite de forma estable pequeños negocios y algunos emprendedores privados bajo límites, pero la propiedad social y la autogestión predominan; por ello no encaja ni con eliminar todo sector privado ni con conservar uno amplio durante décadas.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Schweickart, Economic Democracy, Entrepreneurial-Capitalist Sector (en inglés)",
+        "url": "https://thenextsystem.org/node/204",
+        "fecha": "2016-03-01",
+        "consultado": "2026-07-11"
+      }
+    },
+    "izq-032": {
+      "valor": 2,
+      "justificacion": "La democracia en el lugar de trabajo es el núcleo del modelo: la propiedad productiva es social, pero las empresas son comunidades gestionadas por consejos elegidos por quienes trabajan en ellas, no ministerios que dirigen la producción cotidiana.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Schweickart, Socialism, Democracy, Market, Planning (en inglés)",
+        "url": "https://journals.sagepub.com/doi/10.1177/048661349202400303",
+        "fecha": "1992",
+        "consultado": "2026-07-11"
+      }
+    },
+    "lab-002": {
+      "valor": 2,
+      "justificacion": "Toda persona de la empresa vota el consejo de trabajadores, que nombra a la alta dirección y supervisa las grandes decisiones; supera elegir solo una parte del órgano directivo.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Schweickart, Economic Democracy, Basic Model (en inglés)",
+        "url": "https://thenextsystem.org/node/204",
+        "fecha": "2016-03-01",
+        "consultado": "2026-07-11"
+      }
+    },
+    "lab-008": {
+      "valor": 1,
+      "justificacion": "Los consejos elegidos dirigen producción y organización empresarial, pero la inversión nueva procede de bancos públicos sujetos a prioridades democráticas generales; al cumplirse solo parte de la proposición conjunta corresponde +1.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Schweickart, Economic Democracy, propiedad e inversión (en inglés)",
+        "url": "https://thenextsystem.org/node/204",
+        "fecha": "2016-03-01",
+        "consultado": "2026-07-11"
+      }
+    },
+    "lab-009": {
+      "valor": -2,
+      "justificacion": "El fondo nacional de inversión se genera precisamente mediante un impuesto sobre activos de capital y los servicios públicos se financian con impuestos sobre renta o consumo; no considera ilegítima la imposición estatal.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Schweickart, Economic Democracy, democratic control of investment (en inglés)",
+        "url": "https://thenextsystem.org/node/204",
+        "fecha": "2016-03-01",
+        "consultado": "2026-07-11"
+      }
+    },
+    "lab-010": {
+      "valor": -2,
+      "justificacion": "El modelo hace obligatoria la aportación fiscal sobre activos y separa otros impuestos para financiar servicios públicos, de modo que rechaza que toda financiación colectiva dependa del consentimiento individual de cada propietario.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Schweickart, Economic Democracy, democratic control of investment (en inglés)",
+        "url": "https://thenextsystem.org/node/204",
+        "fecha": "2016-03-01",
+        "consultado": "2026-07-11"
+      }
+    },
+    "lab-016": {
+      "valor": -2,
+      "justificacion": "Aunque la sociedad o el Estado conservan la titularidad de muchos activos, las grandes empresas nacionalizadas se entregan a sus trabajadores para que las gestionen democráticamente; el ministerio no dirige su actividad empresarial.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Schweickart, Economic Democracy, large corporations and ownership (en inglés)",
+        "url": "https://thenextsystem.org/node/204",
+        "fecha": "2016-03-01",
+        "consultado": "2026-07-11"
+      }
+    },
+    "lab-017": {
+      "valor": 2,
+      "justificacion": "Una gran corporación debe pasar a propiedad social y ser entregada a su plantilla para administración democrática, exactamente la alternativa cooperativa/autogestionaria frente a una empresa ministerial.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Schweickart, Economic Democracy, future of the large corporation (en inglés)",
+        "url": "https://thenextsystem.org/node/204",
+        "fecha": "2016-03-01",
+        "consultado": "2026-07-11"
+      }
+    },
+    "lab-020": {
+      "valor": 2,
+      "justificacion": "El derecho a votar el consejo nace de incorporarse a la empresa y alcanza a sus trabajadores como miembros de la comunidad productiva, sin depender de afiliarse antes a un sindicato.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Schweickart, Economic Democracy, Basic Model (en inglés)",
+        "url": "https://thenextsystem.org/node/204",
+        "fecha": "2016-03-01",
+        "consultado": "2026-07-11"
+      }
+    },
+    "ene-010": {
+      "valor": 1,
+      "justificacion": "El modelo permite orientar democráticamente inversión y trabajo hacia menor consumo material y más tiempo libre, y espera una reducción estructural del consumismo; se modera porque esa elección no se impone automáticamente a todas las empresas.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Schweickart, Economic Democracy, workweek, consumerism and environment (en inglés)",
+        "url": "https://thenextsystem.org/node/204",
+        "fecha": "2016-03-01",
+        "consultado": "2026-07-11"
+      }
+    },
+    "ene-011": {
+      "valor": -1,
+      "justificacion": "Schweickart considera el crecimiento del PIB irrelevante para decidir y espera menos consumo, aunque conserva innovación y señales de mercado; por eso no confía en que eficiencia tecnológica baste para prolongar el crecimiento material.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Schweickart, Economic Democracy, environment-economy interactions (en inglés)",
+        "url": "https://thenextsystem.org/node/204",
+        "fecha": "2016-03-01",
+        "consultado": "2026-07-11"
+      }
+    },
+    "va-008": {
+      "valor": -1,
+      "justificacion": "Mantiene mercados regulados e incentivos, pero niega que estos deban liderar por sí solos la política climática: el control público de inversión y las prioridades ecológicas democráticas tienen un papel estructural.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Schweickart, Economic Democracy, investment and environmental sustainability (en inglés)",
+        "url": "https://thenextsystem.org/node/204",
+        "fecha": "2016-03-01",
+        "consultado": "2026-07-11"
+      }
+    }
+  }
+}

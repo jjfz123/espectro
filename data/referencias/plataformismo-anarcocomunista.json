@@ -1,0 +1,411 @@
+{
+  "id": "plataformismo-anarcocomunista",
+  "nombre": "Plataformismo anarcocomunista",
+  "tipo": "referencia-doctrinal",
+  "definicion": "Corriente organizativa nacida de la Plataforma de Dielo Truda de 1926: combina comunismo libertario y poder social de consejos obreros con una organización anarquista específica, federal pero cohesionada por unidad teórica y táctica, responsabilidad colectiva y ejecución común de acuerdos.",
+  "variante": "Plataformismo clásico de Dielo Truda; no se hace equivaler automáticamente al especifismo latinoamericano ni a todas sus organizaciones actuales",
+  "periodo": "Desde 1926",
+  "confianza": "verificada",
+  "version": "1.0",
+  "revisado": "2026-07-11",
+  "facetasDefinitorias": [
+    "organizacion",
+    "metodo-cambio",
+    "estatismo",
+    "poder-laboral",
+    "institucionalismo",
+    "modelo-territorial"
+  ],
+  "sensibilidad": "normal",
+  "advertencia": "Es un tipo ideal basado en el borrador de 1926, no una identidad asignada ni una ficha de una organización española. La Plataforma fue discutida dentro del propio anarquismo por su cohesión, su comité ejecutivo, su responsabilidad colectiva y su concepción de la defensa revolucionaria; estas controversias se reflejan sin convertirla en partido leninista. Las corrientes plataformistas y especifistas contemporáneas han adaptado o rechazado partes del texto, por lo que no deben heredar este vector sin fuentes propias. No se infieren posiciones sobre energía, religión, bioética, migración o conflictos territoriales españoles concretos.",
+  "fuentesMarco": [
+    {
+      "tipo": "otro",
+      "titulo": "Dielo Truda, Organizational Platform of the General Union of Anarchists (Draft): General Section (en inglés)",
+      "url": "https://www.marxists.org/reference/archive/makhno-nestor/works/1926/platform/ch02.htm",
+      "fecha": "1926-06-20",
+      "consultado": "2026-07-11"
+    },
+    {
+      "tipo": "otro",
+      "titulo": "Dielo Truda, Organizational Platform: Constructive Section (en inglés)",
+      "url": "https://www.marxists.org/reference/archive/makhno-nestor/works/1926/platform/ch03.htm",
+      "fecha": "1926-06-20",
+      "consultado": "2026-07-11"
+    },
+    {
+      "tipo": "otro",
+      "titulo": "Dielo Truda, Organizational Platform: Organisational Section (en inglés)",
+      "url": "https://www.marxists.org/reference/archive/makhno-nestor/works/1926/platform/ch04.htm",
+      "fecha": "1926-06-20",
+      "consultado": "2026-07-11"
+    }
+  ],
+  "reglaPublicacion": {
+    "minimoItems": 15,
+    "minimoCobertura": 0.6,
+    "umbralAfinidad": 78
+  },
+  "posiciones": {
+    "izq-001": {
+      "valor": 2,
+      "justificacion": "La Plataforma define una revolución social inmediata, y no un programa mínimo gradual, como vía para destruir el Estado capitalista y transferir las funciones sociales a quienes trabajan.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Organizational Platform, General Section, apartados 2 y 7 (en inglés)",
+        "url": "https://www.marxists.org/reference/archive/makhno-nestor/works/1926/platform/ch02.htm",
+        "fecha": "1926-06-20",
+        "consultado": "2026-07-11"
+      }
+    },
+    "izq-002": {
+      "valor": -1,
+      "justificacion": "Rechaza el partido que conquista el Estado y su dictadura, pero atribuye a una organización anarquista cohesionada una función orientadora explícita; por esa tensión no se codifica un desacuerdo máximo con toda idea de vanguardia.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Organizational Platform, General Section, apartados 5 y 6 (en inglés)",
+        "url": "https://www.marxists.org/reference/archive/makhno-nestor/works/1926/platform/ch02.htm",
+        "fecha": "1926-06-20",
+        "consultado": "2026-07-11"
+      }
+    },
+    "izq-003": {
+      "valor": 1,
+      "justificacion": "El poder constructivo corresponde a masas, soviets y comités de fábrica y se excluye el partido dirigente; la organización específica conserva, no obstante, una labor teórica y estratégica coordinadora.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Organizational Platform, General Section, apartado 6 (en inglés)",
+        "url": "https://www.marxists.org/reference/archive/makhno-nestor/works/1926/platform/ch02.htm",
+        "fecha": "1926-06-20",
+        "consultado": "2026-07-11"
+      }
+    },
+    "izq-007": {
+      "valor": 2,
+      "justificacion": "Afirma que el Estado debe perecer desde el primer día y no reconstruirse bajo forma proletaria alguna; lo reemplazan organizaciones obreras federadas y autogestionadas.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Organizational Platform, General Section, apartado 6 (en inglés)",
+        "url": "https://www.marxists.org/reference/archive/makhno-nestor/works/1926/platform/ch02.htm",
+        "fecha": "1926-06-20",
+        "consultado": "2026-07-11"
+      }
+    },
+    "izq-008": {
+      "valor": 2,
+      "justificacion": "Sitúa la emancipación en lucha directa de masas, organizaciones de clase y revolución, y considera que la conquista parlamentaria del poder no avanza esa tarea.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Organizational Platform, General Section, apartados 5 y 6 (en inglés)",
+        "url": "https://www.marxists.org/reference/archive/makhno-nestor/works/1926/platform/ch02.htm",
+        "fecha": "1926-06-20",
+        "consultado": "2026-07-11"
+      }
+    },
+    "dem-011": {
+      "valor": 2,
+      "justificacion": "La democracia parlamentaria se considera parte del régimen capitalista y debe sustituirse por autogestión obrera no estatal, no limitarse a una reforma constitucional.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Organizational Platform, General Section, apartados 4 y 5 (en inglés)",
+        "url": "https://www.marxists.org/reference/archive/makhno-nestor/works/1926/platform/ch02.htm",
+        "fecha": "1926-06-20",
+        "consultado": "2026-07-11"
+      }
+    },
+    "dem-015": {
+      "valor": 1,
+      "justificacion": "Unidad teórica y táctica, responsabilidad colectiva y cumplimiento de decisiones comunes implican disciplina pública tras el acuerdo; sigue siendo una federación voluntaria, por lo que no se equipara a centralismo jerárquico máximo.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Organizational Platform, Organisational Section (en inglés)",
+        "url": "https://www.marxists.org/reference/archive/makhno-nestor/works/1926/platform/ch04.htm",
+        "fecha": "1926-06-20",
+        "consultado": "2026-07-11"
+      }
+    },
+    "dem-017": {
+      "valor": 2,
+      "justificacion": "Soviets, comités de fábrica y órganos obreros renovados, federados y bajo control permanente de las masas son su alternativa explícita a Estado y parlamento.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Organizational Platform, Constructive Section, Production (en inglés)",
+        "url": "https://www.marxists.org/reference/archive/makhno-nestor/works/1926/platform/ch03.htm",
+        "fecha": "1926-06-20",
+        "consultado": "2026-07-11"
+      }
+    },
+    "dem-019": {
+      "valor": -2,
+      "justificacion": "El texto excluye de forma expresa la dictadura de cualquier partido y niega que una organización anarquista aspire al poder político o a dirigir un Estado.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Organizational Platform, General Section, apartado 6 (en inglés)",
+        "url": "https://www.marxists.org/reference/archive/makhno-nestor/works/1926/platform/ch02.htm",
+        "fecha": "1926-06-20",
+        "consultado": "2026-07-11"
+      }
+    },
+    "izq-032": {
+      "valor": 2,
+      "justificacion": "La gestión productiva pasa a soviets, comités de fábrica y órganos elegidos por trabajadores, sin empresario, propietario ni administrador nombrado por el Estado.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Organizational Platform, Constructive Section, Production (en inglés)",
+        "url": "https://www.marxists.org/reference/archive/makhno-nestor/works/1926/platform/ch03.htm",
+        "fecha": "1926-06-20",
+        "consultado": "2026-07-11"
+      }
+    },
+    "izq-038": {
+      "valor": 2,
+      "justificacion": "Su principio federal une órganos de producción y consumo desde fábrica y comuna hasta coordinaciones amplias, preservando iniciativa local frente al centro.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Organizational Platform, General y Organisational Sections (en inglés)",
+        "url": "https://www.marxists.org/reference/archive/makhno-nestor/works/1926/platform/ch04.htm",
+        "fecha": "1926-06-20",
+        "consultado": "2026-07-11"
+      }
+    },
+    "izq-041": {
+      "valor": 2,
+      "justificacion": "El horizonte es una sociedad mundial de trabajadores sin Estados; sustituir un Estado nacional por otro no constituye su proyecto emancipador.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Organizational Platform, General Section, apartados 3 y 5 (en inglés)",
+        "url": "https://www.marxists.org/reference/archive/makhno-nestor/works/1926/platform/ch02.htm",
+        "fecha": "1926-06-20",
+        "consultado": "2026-07-11"
+      }
+    },
+    "izq-044": {
+      "valor": 1,
+      "justificacion": "Policía, ejército y judicatura estatales se identifican como órganos de violencia capitalista que deben desaparecer; el texto conserva defensa revolucionaria propia y no desarrolla una justicia comunitaria gradual completa.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Organizational Platform, General Section, apartado 2; Constructive Section, Defence (en inglés)",
+        "url": "https://www.marxists.org/reference/archive/makhno-nestor/works/1926/platform/ch03.htm",
+        "fecha": "1926-06-20",
+        "consultado": "2026-07-11"
+      }
+    },
+    "lab-005": {
+      "valor": 2,
+      "justificacion": "Los sindicatos y organizaciones de clase deben emanciparse del Estado y de partidos; la intervención anarquista se coordina desde una organización propia, no subordinada a ellos.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Organizational Platform, General Section, apartado 8 (en inglés)",
+        "url": "https://www.marxists.org/reference/archive/makhno-nestor/works/1926/platform/ch02.htm",
+        "fecha": "1926-06-20",
+        "consultado": "2026-07-11"
+      }
+    },
+    "lab-006": {
+      "valor": -2,
+      "justificacion": "Una organización sindical única reconocida e integrada por el Estado contradice tanto la federación voluntaria como la abolición inmediata del aparato estatal.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Organizational Platform, General Section, apartados 5 y 8 (en inglés)",
+        "url": "https://www.marxists.org/reference/archive/makhno-nestor/works/1926/platform/ch02.htm",
+        "fecha": "1926-06-20",
+        "consultado": "2026-07-11"
+      }
+    },
+    "lab-008": {
+      "valor": 2,
+      "justificacion": "La producción y la inversión se administran mediante soviets obreros, comités de fábrica y órganos elegidos y controlados por las masas, no por propietarios o ministerios.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Organizational Platform, Constructive Section, Production (en inglés)",
+        "url": "https://www.marxists.org/reference/archive/makhno-nestor/works/1926/platform/ch03.htm",
+        "fecha": "1926-06-20",
+        "consultado": "2026-07-11"
+      }
+    },
+    "lab-009": {
+      "valor": 1,
+      "justificacion": "La Plataforma define al Estado como violencia organizada al servicio de explotación y quiere eliminar su coerción económica, aunque no emplea literalmente la tesis de que todo impuesto sea «robo».",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Organizational Platform, General Section, apartado 5 (en inglés)",
+        "url": "https://www.marxists.org/reference/archive/makhno-nestor/works/1926/platform/ch02.htm",
+        "fecha": "1926-06-20",
+        "consultado": "2026-07-11"
+      }
+    },
+    "lab-010": {
+      "valor": -2,
+      "justificacion": "Su crítica antiestatal no parte de hacer inviolable la propiedad privada: propone propiedad común de tierra, industria, transporte y materias primas.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Organizational Platform, General Section, apartado 3 (en inglés)",
+        "url": "https://www.marxists.org/reference/archive/makhno-nestor/works/1926/platform/ch02.htm",
+        "fecha": "1926-06-20",
+        "consultado": "2026-07-11"
+      }
+    },
+    "lab-011": {
+      "valor": 2,
+      "justificacion": "El problema central es quién posee y administra producción y funciones sociales: la Plataforma exige expropiar a las clases propietarias y transferirlas a trabajadores, no limitarse a fiscalizar salarios.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Organizational Platform, General y Constructive Sections (en inglés)",
+        "url": "https://www.marxists.org/reference/archive/makhno-nestor/works/1926/platform/ch03.htm",
+        "fecha": "1926-06-20",
+        "consultado": "2026-07-11"
+      }
+    },
+    "lab-014": {
+      "valor": 2,
+      "justificacion": "Considera el sindicalismo revolucionario una forma necesaria de lucha de clase y no concede al gobierno capacidad para prohibir huelgas; el mínimo para proteger vidas no contradice ese principio.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Organizational Platform, General Section, apartado 8 (en inglés)",
+        "url": "https://www.marxists.org/reference/archive/makhno-nestor/works/1926/platform/ch02.htm",
+        "fecha": "1926-06-20",
+        "consultado": "2026-07-11"
+      }
+    },
+    "lab-015": {
+      "valor": -2,
+      "justificacion": "Un gobierno que suspende huelgas para proteger la economía capitalista ejerce precisamente la autoridad estatal contra la lucha directa de trabajadores que el texto combate.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Organizational Platform, General Section, apartados 2 y 5 (en inglés)",
+        "url": "https://www.marxists.org/reference/archive/makhno-nestor/works/1926/platform/ch02.htm",
+        "fecha": "1926-06-20",
+        "consultado": "2026-07-11"
+      }
+    },
+    "lab-016": {
+      "valor": -2,
+      "justificacion": "Niega tanto al propietario privado como al administrador nombrado por el Estado: los sectores productivos deben estar bajo órganos obreros autogestionados.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Organizational Platform, Constructive Section, Production (en inglés)",
+        "url": "https://www.marxists.org/reference/archive/makhno-nestor/works/1926/platform/ch03.htm",
+        "fecha": "1926-06-20",
+        "consultado": "2026-07-11"
+      }
+    },
+    "lab-017": {
+      "valor": 2,
+      "justificacion": "Industria y tierra pasan a propiedad común y gestión de consejos, comités y cooperativas de trabajadores, no a ministerios estatales.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Organizational Platform, Constructive Section, Production and Land (en inglés)",
+        "url": "https://www.marxists.org/reference/archive/makhno-nestor/works/1926/platform/ch03.htm",
+        "fecha": "1926-06-20",
+        "consultado": "2026-07-11"
+      }
+    },
+    "izq-016": {
+      "valor": 2,
+      "justificacion": "La primera tarea revolucionaria incluye expropiar a burguesía y sectores privilegiados de sus medios de poder y producción, sin reconocerles compensación.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Organizational Platform, Constructive Section, introduction (en inglés)",
+        "url": "https://www.marxists.org/reference/archive/makhno-nestor/works/1926/platform/ch03.htm",
+        "fecha": "1926-06-20",
+        "consultado": "2026-07-11"
+      }
+    },
+    "izq-017": {
+      "valor": -2,
+      "justificacion": "Rechaza periodos de transición que preserven durante décadas propiedad privada, burocracia o coacción estatal porque reconstruyen explotación y nuevas castas.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Organizational Platform, General Section, apartado 7 (en inglés)",
+        "url": "https://www.marxists.org/reference/archive/makhno-nestor/works/1926/platform/ch02.htm",
+        "fecha": "1926-06-20",
+        "consultado": "2026-07-11"
+      }
+    },
+    "dem-034": {
+      "valor": 1,
+      "justificacion": "Su federalismo acepta coordinación común con competencias delimitadas desde unidades autónomas, aunque sus unidades básicas son organizaciones productivas y comunas, no territorios soberanos estatales.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Organizational Platform, Organisational Section, Federalism (en inglés)",
+        "url": "https://www.marxists.org/reference/archive/makhno-nestor/works/1926/platform/ch04.htm",
+        "fecha": "1926-06-20",
+        "consultado": "2026-07-11"
+      }
+    },
+    "dem-035": {
+      "valor": 1,
+      "justificacion": "La federación nace de acuerdo libre y conserva independencia e iniciativa de sus componentes; el texto también exige cumplir los deberes voluntariamente asumidos y no formula un derecho territorial de salida idéntico al ítem.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Organizational Platform, Organisational Section, Federalism (en inglés)",
+        "url": "https://www.marxists.org/reference/archive/makhno-nestor/works/1926/platform/ch04.htm",
+        "fecha": "1926-06-20",
+        "consultado": "2026-07-11"
+      }
+    },
+    "ter-001": {
+      "valor": -2,
+      "justificacion": "La centralización reduce iniciativa y somete las masas al centro; devolver poder territorial al Estado central contradice el federalismo de abajo arriba, sin implicar defensa del Estado autonómico vigente.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Organizational Platform, Organisational Section, Federalism (en inglés)",
+        "url": "https://www.marxists.org/reference/archive/makhno-nestor/works/1926/platform/ch04.htm",
+        "fecha": "1926-06-20",
+        "consultado": "2026-07-11"
+      }
+    },
+    "dr-021": {
+      "valor": -2,
+      "justificacion": "El Estado unitario y la administración única son incompatibles con un sistema federado de órganos obreros y comunales autogestionados.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Organizational Platform, General and Organisational Sections (en inglés)",
+        "url": "https://www.marxists.org/reference/archive/makhno-nestor/works/1926/platform/ch04.htm",
+        "fecha": "1926-06-20",
+        "consultado": "2026-07-11"
+      }
+    },
+    "dr-025": {
+      "valor": -2,
+      "justificacion": "La Plataforma afirma la necesidad de revolución social violenta y admite defensa armada voluntaria frente a la contrarrevolución; por tanto rechaza la prohibición absoluta del uso político de la violencia.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Organizational Platform, General Section, apartado 2; Constructive Section, Defence (en inglés)",
+        "url": "https://www.marxists.org/reference/archive/makhno-nestor/works/1926/platform/ch03.htm",
+        "fecha": "1926-06-20",
+        "consultado": "2026-07-11"
+      }
+    }
+  }
+}

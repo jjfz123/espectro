@@ -4,10 +4,11 @@
   "siglas": "EB",
   "ambito": "estatal",
   "tipo": "partido",
-  "confianza": "sin-datos",
+  "confianza": "verificada",
+  "monotematico": true,
   "registroMir": "Fundado en Badalona el 21 de julio de 2010 (precedente: Escons Insubmisos, 2003); el decreto de extinción por inactividad tramitado por el Ministerio del Interior fue anulado por la Audiencia Nacional en noviembre de 2021. En 2023 dejó vacía su primera alcaldía (Muruzábal, Navarra); concurrió a las europeas de 2024 y a las autonómicas de Castilla y León de 2026 en las nueve provincias",
   "web": "https://escanos.org/",
-  "revisado": "2026-07-10",
+  "revisado": "2026-07-11",
   "actividad": "activa",
   "autodescripcion": {
     "texto": "Partido de programa único: que el voto en blanco compute y se materialice en escaños que quedan literalmente vacíos. Sus electos recogen el acta pero no toman posesión (doctrina de la JEC que evita la sustitución por el siguiente de la lista), de modo que el escaño no vota, no cobra sueldo ni dietas y aun así cuenta para el tamaño de la cámara, rebajando las mayorías repartibles. «Demasiado a menudo hemos de asistir a debates estériles alejados de las situaciones que verdaderamente nos preocupan, a campañas electorales llenas de mensajes vacíos, con promesas que se rompen sistemáticamente y sin ningún pudor». Se presenta como «el único partido que no quiere que le voten», rechaza las subvenciones públicas que pudieran corresponderle y se compromete a disolverse cuando la reforma de la LOREG que reivindica reconozca el voto en blanco computable.",
@@ -15,8 +16,22 @@
       "tipo": "declaracion",
       "titulo": "Manifiesto de Escaños en Blanco (web oficial)",
       "url": "https://escanos.org/conocenos/manifiesto-de-escanos-en-blanco/",
+      "consultado": "2026-07-11",
       "cita": "Demasiado a menudo hemos de asistir a debates estériles alejados de las situaciones que verdaderamente nos preocupan, a campañas electorales llenas de mensajes vacíos, con promesas que se rompen sistemáticamente y sin ningún pudor."
     }
   },
-  "posiciones": {}
+  "posiciones": {
+    "dem-036": {
+      "valor": 2,
+      "justificacion": "Sus estatutos definen como único fin que un voto específico se compute como el de una candidatura y, si obtiene representación, se materialice en escaños vacíos; su programa electoral se limita a no tomar posesión ni cobrar remuneración.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "estatutos",
+        "titulo": "Estatutos de Escaños en Blanco, versión 7",
+        "url": "https://escanos.org/conocenos/estatutos-del-partido/",
+        "fecha": "2022-07-05",
+        "consultado": "2026-07-11"
+      }
+    }
+  }
 }

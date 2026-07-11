@@ -6,7 +6,7 @@
   "tipo": "partido",
   "confianza": "verificada",
   "web": "https://voltespana.org/",
-  "revisado": "2026-07-09",
+  "revisado": "2026-07-11",
   "actividad": "activa",
   "posiciones": {
     "ue-002": {
@@ -175,6 +175,150 @@
         "url": "https://voltespana.org/storage/pdf/estatutos-de-volt-espana-2025.pdf",
         "fecha": "2025",
         "consultado": "2026-07-09"
+      }
+    },
+    "lib-001": {
+      "valor": -2,
+      "justificacion": "Volt define la salud como un derecho cuyo acceso debe garantizar el Estado y propone reforzar y mejorar el sistema público, lo contrario de sustituir su financiación por seguros privados.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral de Volt España 2023, p. 19",
+        "url": "https://voltespana.org/storage/pdf/programaelectoralespana2023/programaelectoral2023.pdf",
+        "fecha": "2023",
+        "consultado": "2026-07-11"
+      }
+    },
+    "lib-020": {
+      "valor": 2,
+      "justificacion": "Propone explícitamente implantar la mochila austríaca: aportaciones empresariales mensuales a una cuenta individual que el trabajador conserva y que evita concentrar la indemnización en el momento del despido.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral de Volt España 2023, p. 31",
+        "url": "https://voltespana.org/storage/pdf/programaelectoralespana2023/programaelectoral2023.pdf",
+        "fecha": "2023",
+        "consultado": "2026-07-11"
+      }
+    },
+    "der-004": {
+      "valor": -2,
+      "justificacion": "El programa declara que Volt defiende el fomento del libre comercio en todo el mundo; por tanto rechaza el proteccionismo nacional como principio general, aunque acompañe el comercio de objetivos sociales y ambientales.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral de Volt España 2023, p. 74",
+        "url": "https://voltespana.org/storage/pdf/programaelectoralespana2023/programaelectoral2023.pdf",
+        "fecha": "2023",
+        "consultado": "2026-07-11"
+      }
+    },
+    "eco-006": {
+      "valor": 1,
+      "justificacion": "Propone orientar la vivienda al modelo vienés, recuperar el parque de la Sareb como vivienda residencial y exigir cuotas elevadas de vivienda social en nuevas promociones. El apoyo es claro, pero el programa no asume literalmente cualquier aumento fuerte del gasto, de ahí el valor moderado.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral de Volt España 2023, p. 33",
+        "url": "https://voltespana.org/storage/pdf/programaelectoralespana2023/programaelectoral2023.pdf",
+        "fecha": "2023",
+        "consultado": "2026-07-11"
+      }
+    },
+    "eco-009": {
+      "valor": -2,
+      "justificacion": "Propone armonizar los impuestos de sucesiones y donaciones, fijar un mínimo estatal y hacerlos más progresivos, posición directamente contraria a su supresión.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral de Volt España 2023, p. 36",
+        "url": "https://voltespana.org/storage/pdf/programaelectoralespana2023/programaelectoral2023.pdf",
+        "fecha": "2023",
+        "consultado": "2026-07-11"
+      }
+    },
+    "eco-014": {
+      "valor": 2,
+      "justificacion": "Propone reformar el impuesto sobre el patrimonio para que grave de forma progresiva a quienes poseen grandes fortunas, manteniendo así una figura recurrente sobre esa riqueza.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral de Volt España 2023, p. 36",
+        "url": "https://voltespana.org/storage/pdf/programaelectoralespana2023/programaelectoral2023.pdf",
+        "fecha": "2023",
+        "consultado": "2026-07-11"
+      }
+    },
+    "lib-009": {
+      "valor": 2,
+      "justificacion": "Propone legalizar el cannabis no médico para personas adultas, permitir el autocultivo y los clubes y autorizar ventas en establecimientos licenciados bajo control estatal.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral de Volt España 2023, p. 54",
+        "url": "https://voltespana.org/storage/pdf/programaelectoralespana2023/programaelectoral2023.pdf",
+        "fecha": "2023",
+        "consultado": "2026-07-11"
+      }
+    },
+    "lib-018": {
+      "valor": 2,
+      "justificacion": "El Moonshot propone nuevas vías legales de migración laboral para todos los niveles salariales y de cualificación, vinculadas a vacantes y necesidades del mercado de trabajo europeo.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Volt EUR Electoral Moonshot Programme 2024, pp. 75-77",
+        "url": "https://volteuropa.org/storage/pdf/eu-elections-2024/volt-eur-electoral-moonshot-program_v5-final-%281%29.pdf",
+        "fecha": "2024-05",
+        "consultado": "2026-07-11"
+      }
+    },
+    "soc-001": {
+      "valor": 2,
+      "justificacion": "Propone una ley de igualdad LGTBIQ+ que penalice la discriminación, refuerce derechos laborales y reconozca derechos de las personas no binarias, además de ampliar la cobertura de la Ley Trans.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral de Volt España 2023, pp. 46-47",
+        "url": "https://voltespana.org/storage/pdf/programaelectoralespana2023/programaelectoral2023.pdf",
+        "fecha": "2023",
+        "consultado": "2026-07-11"
+      }
+    },
+    "soc-005": {
+      "valor": 1,
+      "justificacion": "El Moonshot presenta el envejecimiento y la escasez de capacidades como razones para atraer migración laboral y sostiene que las vías regulares benefician a economías y sociedades. Se modera a +1 porque el texto formula la necesidad a escala europea, no específicamente española.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Volt EUR Electoral Moonshot Programme 2024, pp. 75-77",
+        "url": "https://volteuropa.org/storage/pdf/eu-elections-2024/volt-eur-electoral-moonshot-program_v5-final-%281%29.pdf",
+        "fecha": "2024-05",
+        "consultado": "2026-07-11"
+      }
+    },
+    "izq-044": {
+      "valor": -1,
+      "justificacion": "Volt considera la seguridad un requisito público y propone convertir Europol en una policía criminal con autonomía ejecutiva, una dirección incompatible con reducir progresivamente las funciones policiales. El valor es moderado porque la propuesta se refiere sobre todo al nivel europeo y a delitos graves.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral de Volt España 2023, pp. 110-111",
+        "url": "https://voltespana.org/storage/pdf/programaelectoralespana2023/programaelectoral2023.pdf",
+        "fecha": "2023",
+        "consultado": "2026-07-11"
+      }
+    },
+    "ter-001": {
+      "valor": -2,
+      "justificacion": "Propone revisar las competencias regionales desde una perspectiva descentralizadora y dar a las regiones mayor autonomía política y financiera, lo contrario de devolver competencias al Estado central.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral de Volt España 2023, p. 98",
+        "url": "https://voltespana.org/storage/pdf/programaelectoralespana2023/programaelectoral2023.pdf",
+        "fecha": "2023",
+        "consultado": "2026-07-11"
       }
     }
   }

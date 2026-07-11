@@ -1,0 +1,186 @@
+{
+  "id": "comunalismo-bookchiniano",
+  "nombre": "Comunalismo bookchiniano",
+  "tipo": "referencia-doctrinal",
+  "definicion": "Tipo ideal del comunalismo o municipalismo libertario de Murray Bookchin: traslada la decisión política a asambleas presenciales de barrio y municipio, confedera esas comunidades mediante delegados mandatados y revocables y opone ese poder popular al Estado centralizado.",
+  "variante": "Formulación comunalista madura de Bookchin; no equivale a municipalismo electoral genérico, consejismo laboral ni confederalismo democrático kurdo",
+  "periodo": "1987–2006",
+  "confianza": "verificada",
+  "version": "1.0",
+  "revisado": "2026-07-11",
+  "publicacionMapa": {
+    "publicable": false,
+    "motivo": "La arquitectura de autoridad está bien documentada, pero los ítems actuales no capturan sin distorsión su municipalización económica y no ofrecen una coordenada económica comparable; por ello se mantiene en matching doctrinal y fuera del mapa macro."
+  },
+  "facetasDefinitorias": [
+    "democracia-directa",
+    "organizacion",
+    "institucionalismo",
+    "estatismo",
+    "modelo-territorial"
+  ],
+  "sensibilidad": "normal",
+  "advertencia": "Es una referencia doctrinal, no una identidad asignada ni un perfil de las candidaturas municipalistas españolas. La formulación tardía de Bookchin se llamó comunalismo y se distanció del anarquismo de estilo de vida. No se codifican posiciones españolas sobre monarquía, autonomías, independencia, religión, inmigración o política exterior; tampoco se confunde su confederación de municipios con una confederación de Estados o territorios nacionales soberanos.",
+  "fuentesMarco": [
+    {
+      "tipo": "otro",
+      "titulo": "Murray Bookchin, El municipalismo libertario: una nueva agenda (en inglés)",
+      "url": "https://theanarchistlibrary.org/library/murray-bookchin-libertarian-municipalism-the-new-municipal-agenda",
+      "fecha": "1995",
+      "consultado": "2026-07-11"
+    },
+    {
+      "tipo": "otro",
+      "titulo": "Murray Bookchin, El proyecto comunalista (en inglés)",
+      "url": "https://theanarchistlibrary.org/library/murray-bookchin-the-communalist-project",
+      "fecha": "2002",
+      "consultado": "2026-07-11"
+    },
+    {
+      "tipo": "otro",
+      "titulo": "Janet Biehl, El municipalismo libertario de Bookchin (en inglés; Cadernos de Campo, UNESP)",
+      "url": "https://periodicos.fclar.unesp.br/cadernos/article/download/12950/8500/0",
+      "fecha": "2019",
+      "consultado": "2026-07-11"
+    }
+  ],
+  "reglaPublicacion": {
+    "minimoItems": 8,
+    "minimoCobertura": 0.6,
+    "umbralAfinidad": 78
+  },
+  "posiciones": {
+    "dem-001": {
+      "valor": -1,
+      "justificacion": "Bookchin distingue la decisión deliberativa en asamblea del referéndum atomizado: apoya democracia directa, pero no que el voto plebiscitario habitual sustituya la discusión presencial de la comunidad.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "El municipalismo libertario: una nueva agenda (en inglés)",
+        "url": "https://theanarchistlibrary.org/library/murray-bookchin-libertarian-municipalism-the-new-municipal-agenda",
+        "fecha": "1995",
+        "consultado": "2026-07-11"
+      }
+    },
+    "dem-002": {
+      "valor": 2,
+      "justificacion": "La revocación de delegados por la asamblea que los eligió es un control estructural del modelo, no una facultad excepcional.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "El municipalismo libertario: una nueva agenda (en inglés)",
+        "url": "https://theanarchistlibrary.org/library/murray-bookchin-libertarian-municipalism-the-new-municipal-agenda",
+        "fecha": "1995",
+        "consultado": "2026-07-11"
+      }
+    },
+    "izq-037": {
+      "valor": 2,
+      "justificacion": "Los delegados confederales permanecen sometidos a revocación inmediata por sus asambleas; la representación no genera un mandato autónomo durante un plazo fijo.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Janet Biehl, El municipalismo libertario de Bookchin (en inglés)",
+        "url": "https://periodicos.fclar.unesp.br/cadernos/article/download/12950/8500/0",
+        "fecha": "2019",
+        "consultado": "2026-07-11"
+      }
+    },
+    "dem-011": {
+      "valor": 2,
+      "justificacion": "El proyecto busca reemplazar el parlamentarismo profesional y el poder estatal por una política de asambleas municipales y confederaciones, no limitarse a reformar sus procedimientos.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Murray Bookchin, El proyecto comunalista (en inglés)",
+        "url": "https://theanarchistlibrary.org/library/murray-bookchin-the-communalist-project",
+        "fecha": "2002",
+        "consultado": "2026-07-11"
+      }
+    },
+    "dem-013": {
+      "valor": 2,
+      "justificacion": "El consejo confederal administra decisiones ajenas: sus delegados reciben instrucciones expresas y no pueden convertir la delegación en capacidad propia para formular política.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "El municipalismo libertario: una nueva agenda (en inglés)",
+        "url": "https://theanarchistlibrary.org/library/murray-bookchin-libertarian-municipalism-the-new-municipal-agenda",
+        "fecha": "1995",
+        "consultado": "2026-07-11"
+      }
+    },
+    "dem-017": {
+      "valor": 0,
+      "justificacion": "Coincide plenamente con consejos locales y delegación revocable, pero rechaza que la unidad política sea el centro de trabajo: la decisión corresponde a la ciudadanía reunida territorialmente, no a consejos laborales separados.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Janet Biehl, El municipalismo libertario de Bookchin (en inglés)",
+        "url": "https://periodicos.fclar.unesp.br/cadernos/article/download/12950/8500/0",
+        "fecha": "2019",
+        "consultado": "2026-07-11"
+      }
+    },
+    "dem-019": {
+      "valor": -2,
+      "justificacion": "Un movimiento único que dirige el Estado reproduce la política estatal centralizada que el comunalismo pretende sustituir; su organización no recibe soberanía separada de las asambleas ciudadanas.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "El municipalismo libertario: una nueva agenda (en inglés)",
+        "url": "https://theanarchistlibrary.org/library/murray-bookchin-libertarian-municipalism-the-new-municipal-agenda",
+        "fecha": "1995",
+        "consultado": "2026-07-11"
+      }
+    },
+    "izq-003": {
+      "valor": 2,
+      "justificacion": "La emancipación se institucionaliza en asambleas populares territoriales y no en un partido que conquiste el aparato estatal y decida por la población.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Murray Bookchin, El proyecto comunalista (en inglés)",
+        "url": "https://theanarchistlibrary.org/library/murray-bookchin-the-communalist-project",
+        "fecha": "2002",
+        "consultado": "2026-07-11"
+      }
+    },
+    "izq-007": {
+      "valor": 2,
+      "justificacion": "Las confederaciones municipales se conciben como poder dual que desafía y finalmente reemplaza el poder estatal, no como instrumento para conquistar y administrar un Estado obrero centralizado.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Murray Bookchin, El proyecto comunalista (en inglés)",
+        "url": "https://theanarchistlibrary.org/library/murray-bookchin-the-communalist-project",
+        "fecha": "2002",
+        "consultado": "2026-07-11"
+      }
+    },
+    "izq-038": {
+      "valor": 2,
+      "justificacion": "Es la arquitectura institucional exacta de la doctrina: barrios y municipios deciden y se confederan de abajo arriba frente al Estado centralizado.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "El municipalismo libertario: una nueva agenda (en inglés)",
+        "url": "https://theanarchistlibrary.org/library/murray-bookchin-libertarian-municipalism-the-new-municipal-agenda",
+        "fecha": "1995",
+        "consultado": "2026-07-11"
+      }
+    },
+    "izq-039": {
+      "valor": 1,
+      "justificacion": "La rotación y sustitución fácil se aplican de forma explícita a delegados y funciones confederales; el acuerdo se modera porque el ítem extiende la prohibición de liderazgo permanente a cualquier organización política.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "El municipalismo libertario: una nueva agenda (en inglés)",
+        "url": "https://theanarchistlibrary.org/library/murray-bookchin-libertarian-municipalism-the-new-municipal-agenda",
+        "fecha": "1995",
+        "consultado": "2026-07-11"
+      }
+    }
+  }
+}

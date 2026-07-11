@@ -18,6 +18,10 @@ export const PERFILES_REALES: number =
 import ejesJson from '@data/ejes.json';
 import modulosJson from '@data/modulos.json';
 import glosarioJson from '@data/glosario.json';
+import versionJson from '@data/version.json';
+
+export const VERSION_INSTRUMENTO = versionJson.versionInstrumento;
+export const FECHA_CORTE_DATOS = versionJson.fechaCorte;
 
 export const EJES = ejesJson as unknown as Eje[];
 

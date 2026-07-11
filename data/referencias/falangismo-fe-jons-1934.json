@@ -1,0 +1,280 @@
+{
+  "id": "falangismo-fe-jons-1934",
+  "nombre": "Falangismo de FE de las JONS (1934)",
+  "tipo": "referencia-doctrinal",
+  "definicion": "Tipo ideal del programa de veintisiete puntos aprobado por Falange Española de las JONS en 1934: Estado totalitario sin partidos, representación familiar, municipal y sindical, sindicatos verticales, nacionalización de la banca y de grandes servicios públicos, propiedad privada subordinada al interés nacional, proteccionismo, revolución nacional, militarismo y unidad territorial coercitiva.",
+  "variante": "Programa original de FE de las JONS publicado en noviembre de 1934; no incluye la unificación forzosa con el tradicionalismo en FET y de las JONS en 1937, la doctrina del régimen de Franco, el nacionalcatolicismo de posguerra ni los programas de organizaciones falangistas actuales",
+  "periodo": "1934",
+  "confianza": "verificada",
+  "version": "1.0",
+  "revisado": "2026-07-11",
+  "facetasDefinitorias": [
+    "economico",
+    "institucionalismo",
+    "pluralismo-institucional",
+    "organizacion",
+    "estatismo",
+    "modelo-territorial",
+    "uso-fuerza"
+  ],
+  "sensibilidad": "antipluralista",
+  "advertencia": "Es una referencia histórica sensible y no la ficha de FE-JONS actual. Se delimita al programa de 1934 para no sumarle retrospectivamente la confesionalidad, la monarquía y la práctica del franquismo, ni el foralismo carlista. Fue un programa totalitario y revolucionario, pero guarda silencio sobre muchos derechos contemporáneos; esos huecos no se codifican. Solo entra en Economía × Poder mediante anclas económicas, de pluralismo y de organización: queda fuera de Economía × Sociedad, de los planos territoriales que no cubra y del cubo 3D, sin inventar una posición GAL–TAN. Una afinidad parcial nunca identifica al usuario como falangista ni legitima el antipluralismo o la violencia política.",
+  "fuentesMarco": [
+    {
+      "tipo": "otro",
+      "titulo": "Programa de la Falange Española de las JONS de 1934, reproducción de la publicación de ABC del 30 de noviembre (Universitat de València)",
+      "url": "https://www.uv.es/ivorra/Historia/SXX/Falange.html",
+      "fecha": "1934-11-30",
+      "consultado": "2026-07-11"
+    },
+    {
+      "tipo": "otro",
+      "titulo": "Miguel Ángel Perfecto, El nacional-sindicalismo español como proyecto económico-social (Espacio, Tiempo y Forma, UNED)",
+      "url": "https://revistas.uned.es/index.php/ETFV/article/download/15752/13697/27509",
+      "fecha": "2015",
+      "consultado": "2026-07-11"
+    },
+    {
+      "tipo": "otro",
+      "titulo": "Joan Maria Thomàs, José Antonio Primo de Rivera y el Frente Popular (Historia y Política, Universidad Complutense de Madrid)",
+      "url": "https://revistas.ucm.es/index.php/HPOL/es/article/download/64733/4564456551273?inline=1",
+      "fecha": "2019",
+      "consultado": "2026-07-11"
+    }
+  ],
+  "reglaPublicacion": {
+    "minimoItems": 12,
+    "minimoCobertura": 0.65,
+    "umbralAfinidad": 82
+  },
+  "posiciones": {
+    "der-001": {
+      "valor": -2,
+      "justificacion": "El punto 6 define expresamente el Estado como instrumento totalitario y el resto del programa le atribuye dirección económica, sindical y educativa; es la negación del Estado mínimo.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Programa de la Falange Española de las JONS de 1934, puntos 6-9",
+        "url": "https://www.uv.es/ivorra/Historia/SXX/Falange.html",
+        "fecha": "1934-11-30",
+        "consultado": "2026-07-11"
+      }
+    },
+    "der-002": {
+      "valor": 1,
+      "justificacion": "El punto 25 incorpora el sentido católico a la reconstrucción nacional y prevé concordar las competencias de Iglesia y Estado. El acuerdo es parcial porque no declara un Estado confesional ni subordina toda ley a la autoridad eclesiástica.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Programa de la Falange Española de las JONS de 1934, punto 25",
+        "url": "https://www.uv.es/ivorra/Historia/SXX/Falange.html",
+        "fecha": "1934-11-30",
+        "consultado": "2026-07-11"
+      }
+    },
+    "der-004": {
+      "valor": 2,
+      "justificacion": "El punto 18 ordena orientar la política arancelaria en sentido protector de la agricultura y la ganadería para fortalecer la producción nacional.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Programa de la Falange Española de las JONS de 1934, punto 18",
+        "url": "https://www.uv.es/ivorra/Historia/SXX/Falange.html",
+        "fecha": "1934-11-30",
+        "consultado": "2026-07-11"
+      }
+    },
+    "der-005": {
+      "valor": 2,
+      "justificacion": "Los puntos 1 y 2 subordinan intereses individuales y colectivos a la unidad de España y califican todo separatismo como crimen.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Programa de la Falange Española de las JONS de 1934, puntos 1 y 2",
+        "url": "https://www.uv.es/ivorra/Historia/SXX/Falange.html",
+        "fecha": "1934-11-30",
+        "consultado": "2026-07-11"
+      }
+    },
+    "der-026": {
+      "valor": 2,
+      "justificacion": "El punto 2 no se limita a rechazar la secesión: declara criminal el separatismo y exige anular la Constitución por facilitar la disgregación, por lo que impedir legalmente partidos secesionistas es coherente con el programa.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Programa de la Falange Española de las JONS de 1934, punto 2",
+        "url": "https://www.uv.es/ivorra/Historia/SXX/Falange.html",
+        "fecha": "1934-11-30",
+        "consultado": "2026-07-11"
+      }
+    },
+    "def-001": {
+      "valor": -2,
+      "justificacion": "Los puntos 4 y 5 reclaman fuerzas armadas tan numerosas como exija la jerarquía mundial de España y un sentido militar extendido a toda la vida nacional; no contemplan reducir el gasto militar.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Programa de la Falange Española de las JONS de 1934, puntos 4 y 5",
+        "url": "https://www.uv.es/ivorra/Historia/SXX/Falange.html",
+        "fecha": "1934-11-30",
+        "consultado": "2026-07-11"
+      }
+    },
+    "izq-001": {
+      "valor": 2,
+      "justificacion": "El punto 26 plantea implantar un orden nuevo mediante una revolución nacional, en pugna directa y combativa con las resistencias del orden vigente, no por reformas graduales.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Programa de la Falange Española de las JONS de 1934, puntos 26 y 27",
+        "url": "https://www.uv.es/ivorra/Historia/SXX/Falange.html",
+        "fecha": "1934-11-30",
+        "consultado": "2026-07-11"
+      }
+    },
+    "dem-010": {
+      "valor": -2,
+      "justificacion": "El punto 6 ordena abolir el sistema de partidos y su representación parlamentaria; la competencia entre organizaciones políticas no se preserva ni siquiera como mecanismo ordinario.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Programa de la Falange Española de las JONS de 1934, punto 6",
+        "url": "https://www.uv.es/ivorra/Historia/SXX/Falange.html",
+        "fecha": "1934-11-30",
+        "consultado": "2026-07-11"
+      }
+    },
+    "dem-011": {
+      "valor": 2,
+      "justificacion": "El programa no reforma el parlamentarismo: lo abole y lo sustituye por un Estado nacionalsindicalista con representación orgánica.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Programa de la Falange Española de las JONS de 1934, puntos 6 y 9",
+        "url": "https://www.uv.es/ivorra/Historia/SXX/Falange.html",
+        "fecha": "1934-11-30",
+        "consultado": "2026-07-11"
+      }
+    },
+    "dem-018": {
+      "valor": 2,
+      "justificacion": "El punto 6 limita la participación política a las funciones familiar, municipal y sindical y excluye expresamente a los partidos.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Programa de la Falange Española de las JONS de 1934, punto 6",
+        "url": "https://www.uv.es/ivorra/Historia/SXX/Falange.html",
+        "fecha": "1934-11-30",
+        "consultado": "2026-07-11"
+      }
+    },
+    "dem-019": {
+      "valor": 2,
+      "justificacion": "Abolir los partidos y reservar la conquista del Estado a las fuerzas disciplinadas bajo el mando falangista excluye la competencia permanente entre movimientos.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Programa de la Falange Española de las JONS de 1934, puntos 6 y 27",
+        "url": "https://www.uv.es/ivorra/Historia/SXX/Falange.html",
+        "fecha": "1934-11-30",
+        "consultado": "2026-07-11"
+      }
+    },
+    "dr-001": {
+      "valor": 2,
+      "justificacion": "El punto 14 defiende de forma explícita la tendencia a nacionalizar el servicio de banca.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Programa de la Falange Española de las JONS de 1934, punto 14",
+        "url": "https://www.uv.es/ivorra/Historia/SXX/Falange.html",
+        "fecha": "1934-11-30",
+        "consultado": "2026-07-11"
+      }
+    },
+    "dr-014": {
+      "valor": 2,
+      "justificacion": "Los puntos 9 y 11 organizan por ramas sindicatos verticales que integran a todos los participantes en la producción y eliminan la lucha de clases bajo el Estado.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Programa de la Falange Española de las JONS de 1934, puntos 9 y 11",
+        "url": "https://www.uv.es/ivorra/Historia/SXX/Falange.html",
+        "fecha": "1934-11-30",
+        "consultado": "2026-07-11"
+      }
+    },
+    "dr-026": {
+      "valor": -2,
+      "justificacion": "El sindicato vertical falangista reúne en una misma totalidad orgánica a trabajadores, empresarios y demás participantes en la producción; es lo contrario de excluir a los empresarios.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Programa de la Falange Española de las JONS de 1934, puntos 9 y 11",
+        "url": "https://www.uv.es/ivorra/Historia/SXX/Falange.html",
+        "fecha": "1934-11-30",
+        "consultado": "2026-07-11"
+      }
+    },
+    "lab-005": {
+      "valor": -2,
+      "justificacion": "Los sindicatos del programa son la estructura corporativa del Estado nacionalsindicalista, no organizaciones libres e independientes del poder político.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Programa de la Falange Española de las JONS de 1934, puntos 6 y 9",
+        "url": "https://www.uv.es/ivorra/Historia/SXX/Falange.html",
+        "fecha": "1934-11-30",
+        "consultado": "2026-07-11"
+      }
+    },
+    "lab-006": {
+      "valor": 2,
+      "justificacion": "El punto 9 ordena organizar toda la sociedad en sindicatos verticales por ramas de producción al servicio de la integridad económica nacional.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Programa de la Falange Española de las JONS de 1934, punto 9",
+        "url": "https://www.uv.es/ivorra/Historia/SXX/Falange.html",
+        "fecha": "1934-11-30",
+        "consultado": "2026-07-11"
+      }
+    },
+    "lab-016": {
+      "valor": 1,
+      "justificacion": "El punto 14 propone nacionalizar la banca y, mediante las corporaciones, los grandes servicios públicos. El acuerdo es parcial porque no ordena que toda empresa estratégica rentable sea dirigida directamente por ministerios.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Programa de la Falange Española de las JONS de 1934, puntos 8 y 14",
+        "url": "https://www.uv.es/ivorra/Historia/SXX/Falange.html",
+        "fecha": "1934-11-30",
+        "consultado": "2026-07-11"
+      }
+    },
+    "lab-017": {
+      "valor": -2,
+      "justificacion": "Los puntos 8 y 13 conservan y protegen la iniciativa y la propiedad privadas compatibles con el interés nacional; el 14 reserva nacionalizaciones a banca y grandes servicios. No propone transferir las grandes empresas a cooperativas autogestionadas por sus plantillas.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Programa de la Falange Española de las JONS de 1934, puntos 8, 13 y 14",
+        "url": "https://www.uv.es/ivorra/Historia/SXX/Falange.html",
+        "fecha": "1934-11-30",
+        "consultado": "2026-07-11"
+      }
+    },
+    "lab-018": {
+      "valor": 1,
+      "justificacion": "El punto 6 sustituye la participación mediante partidos por funciones familiares, municipales y sindicales. La coincidencia es parcial porque el sindicato no es la única vía ni representa solo a trabajadores.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Programa de la Falange Española de las JONS de 1934, punto 6",
+        "url": "https://www.uv.es/ivorra/Historia/SXX/Falange.html",
+        "fecha": "1934-11-30",
+        "consultado": "2026-07-11"
+      }
+    }
+  }
+}

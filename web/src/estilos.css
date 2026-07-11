@@ -84,9 +84,12 @@ a:hover {
 
 .app {
   min-height: 100vh;
+  min-height: 100dvh;
   display: flex;
   flex-direction: column;
   border-top: 3px solid var(--acento);
+  padding-top: env(safe-area-inset-top, 0px);
+  padding-inline: env(safe-area-inset-left, 0px) env(safe-area-inset-right, 0px);
 }
 
 .contenedor {
@@ -126,6 +129,40 @@ main:focus {
   font-family: var(--serif);
   font-size: 1.15rem;
   color: var(--tinta-suave);
+}
+
+.vista-recuperacion {
+  min-height: 55vh;
+  min-height: 55dvh;
+  padding-block: 2rem;
+}
+
+.vista-recuperacion h1,
+.vista-recuperacion p:not(.kicker) {
+  margin-top: 0.75rem;
+}
+
+.aviso-actualizacion {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.75rem 1.25rem;
+  margin-bottom: 1.5rem;
+  padding-block: 0.8rem;
+  border-block: 1px solid var(--acento);
+  font-size: 0.9rem;
+}
+
+.aviso-actualizacion__acciones {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem 0.75rem;
+}
+
+.aviso-actualizacion__acciones .boton {
+  padding: 0.55rem 0.85rem;
 }
 
 .aviso-persistencia {
@@ -204,7 +241,7 @@ main:focus {
 
 .pie {
   border-top: 1px solid var(--filete);
-  padding-block: 1.4rem 2rem;
+  padding-block: 1.4rem calc(2rem + env(safe-area-inset-bottom, 0px));
   font-size: 0.8rem;
   color: var(--tinta-suave);
 }
@@ -382,6 +419,7 @@ h3 {
 .campo select {
   width: 100%;
   max-width: 24rem;
+  min-height: 2.75rem;
   padding: 0.5rem 0.7rem;
   font: inherit;
   font-size: 0.95rem;
@@ -516,6 +554,10 @@ h3 {
   gap: 0.75rem 1.25rem;
   align-items: center;
   margin-top: 1.6rem;
+}
+
+.acciones--compactas {
+  margin-top: 0.75rem;
 }
 
 /* ————— Decisión al terminar el modo rápido ————— */
@@ -1272,6 +1314,50 @@ h3 {
   margin: 0;
 }
 
+.coincidencias-especificas {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 22rem), 1fr));
+}
+
+.coincidencia-especifica {
+  border: 1px solid var(--filete-fuerte);
+  border-radius: 2px;
+  padding: clamp(1rem, 3vw, 1.4rem);
+  background: var(--superficie);
+}
+
+.coincidencia-especifica h3 {
+  margin-top: 0.2rem;
+}
+
+.coincidencia-especifica dl {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.75rem;
+  margin: 1rem 0;
+}
+
+.coincidencia-especifica dl > div {
+  min-width: 0;
+  padding: 0.75rem;
+  background: var(--papel);
+  border: 1px solid var(--filete);
+  border-radius: 2px;
+}
+
+.coincidencia-especifica dt {
+  color: var(--tinta-suave);
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+
+.coincidencia-especifica dd {
+  margin: 0.3rem 0 0;
+  font-weight: 650;
+}
+
 .aviso-cobertura {
   border-left: 3px solid var(--acento);
   background: var(--superficie);
@@ -1475,6 +1561,10 @@ h3 {
   margin-top: 1.25rem;
 }
 
+.referencia-resultado {
+  min-width: 0;
+}
+
 .referencia-tarjeta {
   border: 1px solid var(--filete-fuerte);
   border-radius: 2px;
@@ -1520,6 +1610,60 @@ h3 {
   margin-top: 0.75rem;
   font-size: 0.88rem;
   line-height: 1.5;
+}
+
+.referencia-resultado__ampliar,
+.ficha-ideologia__ampliar {
+  width: 100%;
+  margin-top: 0.9rem;
+}
+
+.ficha-ideologia__posicion {
+  margin-top: 0.9rem;
+  padding-top: 0.8rem;
+  border-top: 1px solid var(--filete);
+}
+
+.ficha-ideologia__posicion h4,
+.ficha-ideologia__informacion h4 {
+  font-family: var(--sans);
+  font-size: 0.72rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.ficha-ideologia__metadatos {
+  display: grid;
+  gap: 0.55rem;
+  margin: 0 0 0.8rem;
+}
+
+.ficha-ideologia__metadatos div {
+  display: grid;
+  grid-template-columns: minmax(7rem, auto) 1fr;
+  gap: 0.75rem;
+}
+
+.ficha-ideologia__metadatos dt {
+  color: var(--tinta-suave);
+  font-weight: 700;
+}
+
+.ficha-ideologia__metadatos dd {
+  margin: 0;
+}
+
+.ficha-ideologia__informacion section + section {
+  margin-top: 0.9rem;
+}
+
+.ficha-ideologia__informacion p,
+.ficha-ideologia__informacion ul {
+  margin-top: 0.45rem;
+}
+
+.ficha-ideologia__informacion ul {
+  padding-left: 1.1rem;
 }
 
 .referencia-cobertura {
@@ -1931,7 +2075,9 @@ h3 {
 
 .faceta-referencias li {
   flex: 1 1 0;
+  min-width: 0;
   text-align: center;
+  overflow-wrap: anywhere;
 }
 
 .faceta-referencias li:first-child {
@@ -2157,50 +2303,41 @@ h3 {
 }
 
 /*
- * Lavados de cuadrante de la brújula: la excepción deliberada y acotada a la
- * regla de un-solo-acento. Cuatro tintes apagadísimos, solo como fondo del
- * plano principal (los del compass clásico: rojo, azul, verde y ámbar
- * desaturados); puntos, rótulos y UI siguen en tinta + carmín.
+ * Campo degradado de la brújula: cuatro tintes apagadísimos que nacen en las
+ * esquinas y se funden hacia el centro, sin fronteras cromáticas tajantes.
+ * Puntos, rótulos y UI siguen en tinta + carmín.
  */
-.mapa-plano__lavados rect {
-  fill-opacity: 0.07;
+.mapa-gradiente__io {
+  stop-color: #a34d3f;
 }
 
-.mapa-plano__lavado--io {
-  fill: #a34d3f;
+.mapa-gradiente__do {
+  stop-color: #4a648c;
 }
 
-.mapa-plano__lavado--do {
-  fill: #4a648c;
+.mapa-gradiente__il {
+  stop-color: #5a7a4f;
 }
 
-.mapa-plano__lavado--il {
-  fill: #5a7a4f;
-}
-
-.mapa-plano__lavado--dl {
-  fill: #a2803b;
+.mapa-gradiente__dl {
+  stop-color: #8a6f38;
 }
 
 @media (prefers-color-scheme: dark) {
-  .mapa-plano__lavados rect {
-    fill-opacity: 0.13;
+  .mapa-gradiente__io {
+    stop-color: #d98977;
   }
 
-  .mapa-plano__lavado--io {
-    fill: #d98977;
+  .mapa-gradiente__do {
+    stop-color: #8fa7d1;
   }
 
-  .mapa-plano__lavado--do {
-    fill: #8fa7d1;
+  .mapa-gradiente__il {
+    stop-color: #97b98a;
   }
 
-  .mapa-plano__lavado--il {
-    fill: #97b98a;
-  }
-
-  .mapa-plano__lavado--dl {
-    fill: #d3b06b;
+  .mapa-gradiente__dl {
+    stop-color: #d3b06b;
   }
 }
 
@@ -2228,11 +2365,26 @@ h3 {
   fill-opacity: 0.06;
 }
 
+.mapa-zona--interactiva {
+  cursor: help;
+  pointer-events: all;
+  transition: fill-opacity 120ms ease, stroke 120ms ease;
+}
+
+.mapa-zona--interactiva:hover,
+.mapa-zona--interactiva:focus-visible,
+.mapa-zona--interactiva[data-activa='true'] {
+  fill: var(--acento);
+  fill-opacity: 0.13;
+  outline: none;
+}
+
 .mapa-zonas__borde {
   fill: none;
   stroke: var(--filete);
   stroke-width: 0.75;
   stroke-dasharray: 1.5 2.5;
+  pointer-events: none;
 }
 
 .mapa-zona__nombre {
@@ -2243,6 +2395,17 @@ h3 {
   fill: var(--tinta-suave);
   fill-opacity: 0.75;
   pointer-events: none;
+}
+
+.mapa-plano--brujula .mapa-zona__nombre {
+  font-size: 11px;
+  font-weight: 700;
+  fill: var(--tinta);
+  fill-opacity: 1;
+  paint-order: stroke;
+  stroke: var(--papel);
+  stroke-width: 3px;
+  stroke-linejoin: round;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -2289,6 +2452,57 @@ h3 {
   line-height: 1.4;
 }
 
+.mapa-corriente-instruccion,
+.mapa-corriente-lectura {
+  width: min(100%, 46rem);
+  margin: 0.75rem auto 0;
+}
+
+.mapa-corriente-instruccion {
+  color: var(--tinta-suave);
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+.mapa-corriente-lectura {
+  background: var(--superficie);
+}
+
+.mapa-corriente-lectura > .ficha-ideologia {
+  padding: clamp(0.9rem, 3vw, 1.25rem);
+}
+
+.mapa-corriente-lectura h3 {
+  margin-top: 0.15rem;
+  font-family: var(--serif);
+  font-size: 1.25rem;
+}
+
+.mapa-corriente-lectura__variante,
+.mapa-corriente-lectura__nota {
+  color: var(--tinta-suave);
+  font-size: 0.8rem;
+}
+
+.mapa-corriente-lectura__nota {
+  margin-top: 0.8rem;
+}
+
+@media (max-width: 34rem) {
+  .mapa-plano--brujula .mapa-plano__esquinas {
+    display: none;
+  }
+
+  .mapa-corriente-lectura .ficha-ideologia > header {
+    display: block;
+  }
+
+  .mapa-corriente-lectura .ficha-ideologia > header .boton {
+    width: 100%;
+    margin-top: 0.75rem;
+  }
+}
+
 /* Descriptores de esquina: tipografía pequeña, tinta suave, sin valoración.
    El halo en papel los mantiene legibles sobre lavados y rótulos vecinos. */
 .mapa-plano__esquinas text {
@@ -2299,6 +2513,7 @@ h3 {
   paint-order: stroke;
   stroke: var(--papel);
   stroke-width: 3px;
+  pointer-events: none;
 }
 
 .mapa-plano--brujula .mapa-plano__esquinas text {
@@ -2310,9 +2525,25 @@ h3 {
   stroke: var(--filete-fuerte);
 }
 
-/* Los puntos de la brújula no son interactivos: solo tooltip y rótulo. */
+/* En la brújula los puntos de partido revelan un único rótulo por hover,
+   foco o toque. Los demás nombres permanecen ocultos para evitar la sopa de
+   siglas del cúmulo inferior izquierdo. */
 .mapa-punto--quieto {
   cursor: default;
+}
+
+.mapa-punto--quieto[data-tipo='partido'] {
+  cursor: help;
+}
+
+.mapa-plano--brujula .mapa-punto--quieto[data-tipo='partido'] .mapa-punto__rotulo {
+  display: none;
+}
+
+.mapa-plano--brujula .mapa-punto--quieto[data-tipo='partido']:hover .mapa-punto__rotulo,
+.mapa-plano--brujula .mapa-punto--quieto[data-tipo='partido']:focus .mapa-punto__rotulo,
+.mapa-plano--brujula .mapa-punto--quieto[data-tipo='partido'][data-seleccionado='true'] .mapa-punto__rotulo {
+  display: block;
 }
 
 .mapa-punto--quieto:hover .mapa-punto__rotulo {
@@ -2324,8 +2555,8 @@ h3 {
 }
 
 .mapa-punto--quieto[data-tipo='partido']:hover .mapa-punto__forma {
-  stroke: var(--papel);
-  stroke-width: 1.5;
+  stroke: var(--acento);
+  stroke-width: 2;
 }
 
 .mapa-punto--quieto[data-tipo='referencia']:hover .mapa-punto__forma {
@@ -2467,11 +2698,13 @@ h3 {
 .mapa-plano__media {
   stroke: var(--filete);
   stroke-width: 1;
+  pointer-events: none;
 }
 
 .mapa-plano__marcas line {
   stroke: var(--filete-fuerte);
   stroke-width: 1;
+  pointer-events: none;
 }
 
 .mapa-punto {
@@ -3134,6 +3367,12 @@ dl.definiciones dd {
     justify-self: start;
   }
 
+  .aviso-actualizacion,
+  .aviso-actualizacion__acciones,
+  .aviso-actualizacion__acciones .boton {
+    width: 100%;
+  }
+
   .contexto-electoral {
     grid-template-columns: 1fr;
     align-items: stretch;
@@ -3235,6 +3474,12 @@ dl.definiciones dd {
   .marca {
     padding-block: 0.6rem;
     margin-block: -0.6rem;
+  }
+
+  /* El gesto vertical sigue desplazando la página; el arrastre horizontal y
+     el pellizco permanecen disponibles para OrbitControls. */
+  .cubo3d__lienzo {
+    touch-action: pan-y;
   }
 
   /* Separación extra para que las zonas ampliadas no se solapen al partir

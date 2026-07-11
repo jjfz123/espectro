@@ -21,6 +21,16 @@
       "titulo": "Proclamación e identidad de candidaturas de Andalucía",
       "url": "https://www.juntaelectoralcentral.es/cs/jec/documentos/andalucia_2026_candidaturas_proclamadas.pdf",
       "consultado": "2026-07-09"
+    },
+    {
+      "titulo": "PCPE: Andalucía como territorio y actividad del PCPA",
+      "url": "https://pcpe.es/category/territorios/andalucia/",
+      "consultado": "2026-07-11"
+    },
+    {
+      "titulo": "BOE/JEC: candidatura europea PCPE-PCPC-PCPA de 2019",
+      "url": "https://www.juntaelectoralcentral.es/cs/jec/documentos/EUROPEAS_2019_Candidaturas%20proclamadas_correcci%C3%B3n%20de%20errores.pdf",
+      "consultado": "2026-07-11"
     }
   ],
   "nota": "El porcentaje usa como denominador 4.157.536 votos a candidaturas en toda la comunidad. Una relación con un componente identifica la candidatura, pero no transfiere sus posiciones al perfil de la coalición. Naturaleza de la convocatoria en el inventario: anticipada-fin-de-ciclo. La suma de filas publicada difiere del denominador oficial en 3 votos; se conserva el denominador declarado y se documenta el descuadre.",
@@ -217,7 +227,7 @@
         {
           "perfilId": "escanos-en-blanco",
           "relacion": "misma-organizacion",
-          "nota": "Perfil sin posiciones codificadas (sin-datos razonado): partido de programa único cuyo punto programático no tiene ítem en el banco; se lista sin participar en el matching."
+          "nota": "Perfil monotemático verificado: su único punto se compara mediante dem-036 en un bloque específico, sin convertir esa coincidencia en un porcentaje de afinidad general."
         }
       ],
       "nota": "Naturaleza inventariada: partido. Vigencia comprobada: electoral-2026. Tratamiento previsto: perfil-reutilizable."
@@ -246,8 +256,14 @@
         "andalucia"
       ],
       "motivoInclusion": "umbral",
-      "perfilRelaciones": [],
-      "nota": "Naturaleza inventariada: partido. Vigencia comprobada: electoral-2026. Tratamiento previsto: perfil-especifico. Identidad en verificación: indicios sólidos de que el Partido Comunista del Pueblo Andaluz es la federación andaluza del PCPE (su IX Congreso aprobó usar las siglas PCPA-PCPE y pcpe.es aloja su programa electoral), pero falta confirmación primaria (JEC/estatutos); siguiendo la regla de identidad (lección PCPC≠PCPA), no se enlaza al perfil pcpe hasta verificarlo."
+      "perfilRelaciones": [
+        {
+          "perfilId": "pcpe",
+          "relacion": "organizacion-territorial",
+          "nota": "PCPE identifica Andalucía como territorio propio y publica allí la actividad y los programas del PCPA; la candidatura europea oficial PCPE-PCPC-PCPA de 2019 confirma la relación orgánica sin convertir ambas siglas en perfiles independientes."
+        }
+      ],
+      "nota": "Naturaleza inventariada: organización territorial del PCPE. Vigencia comprobada: candidatura PCPA proclamada en Andalucía 2026. El vínculo identifica al actor, sin copiar ni atribuir automáticamente un programa estatal distinto del presentado en Andalucía."
     },
     {
       "id": "and-2026-fe",

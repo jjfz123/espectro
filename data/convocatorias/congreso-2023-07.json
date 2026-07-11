@@ -17,6 +17,13 @@
     "fechaDatos": "2023-11-10",
     "consultado": "2026-07-09"
   },
+  "fuentesAdicionales": [
+    {
+      "titulo": "JEC/RTVE: formaciones integrantes de la coalición Sumar en las generales de 2023",
+      "url": "https://www.juntaelectoralcentral.es/cs/jec/documentos/RTVE_%20EG%202023_Espacios%20propaganda%20electoral.pdf",
+      "consultado": "2026-07-11"
+    }
+  ],
   "candidaturas": [
     {
       "id": "congreso-2023-07-pp",
@@ -189,9 +196,14 @@
           "perfilId": "chunta-aragonesista",
           "relacion": "componente",
           "nota": "Chunta Aragonesista figura como componente formal de la coalición registrada de 2023 (obtuvo escaño dentro de ella); sus posiciones no se atribuyen automáticamente a la coalición."
+        },
+        {
+          "perfilId": "podemos",
+          "relacion": "componente",
+          "nota": "La JEC enumera expresamente a Podemos entre las formaciones integrantes de la coalición Sumar de 2023; sus posiciones no se atribuyen automáticamente a la coalición."
         }
       ],
-      "nota": "Coalición que integró además a Catalunya en Comú y otras formaciones sin perfil propio en el catálogo; Podemos concurrió en puestos pactados de las listas sin constar como parte formal de la coalición registrada (extremo pendiente de verificación con la documentación de la JEC). Cifra de síntesis pendiente de contraste con el fichero TOTA oficial."
+      "nota": "Coalición que integró además a Catalunya en Comú y otras formaciones sin perfil propio en el catálogo. La identidad de sus componentes se documenta sin heredar entre ellos posiciones políticas. Cifra de síntesis pendiente de contraste con el fichero TOTA oficial."
     },
     {
       "id": "congreso-2023-07-erc",
@@ -695,7 +707,7 @@
         {
           "perfilId": "escanos-en-blanco",
           "relacion": "misma-organizacion",
-          "nota": "Perfil sin posiciones codificadas (sin-datos razonado): partido de programa único cuyo punto programático no tiene ítem en el banco; se lista sin participar en el matching."
+          "nota": "Perfil monotemático verificado: su único punto se compara mediante dem-036 en un bloque específico, sin convertir esa coincidencia en un porcentaje de afinidad general."
         }
       ]
     },

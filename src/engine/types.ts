@@ -98,6 +98,16 @@ export interface PerfilAfinidad {
   confianza: Confianza;
   demo?: boolean;
   web?: string;
+  /**
+   * Programa de uno o muy pocos puntos. Se compara como coincidencia
+   * específica, nunca como porcentaje de afinidad ideológica general.
+   */
+  monotematico?: boolean;
+  /** Control editorial de una proyección espacial que resultaría engañosa. */
+  publicacionMapa?: {
+    publicable: boolean;
+    motivo: string;
+  };
   posiciones: Record<string, Posicion>;
 }
 

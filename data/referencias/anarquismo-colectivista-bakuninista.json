@@ -1,0 +1,423 @@
+{
+  "id": "anarquismo-colectivista-bakuninista",
+  "nombre": "Anarquismo colectivista",
+  "tipo": "referencia-doctrinal",
+  "definicion": "Tipo ideal bakuninista y guillaumista que propone abolir Estado y capitalismo, convertir los medios de producción en propiedad colectiva y organizar trabajo, servicios y federaciones desde asociaciones obreras y comunas libres; conserva una remuneración vinculada al trabajo, a diferencia del comunismo anarquista clásico.",
+  "variante": "Colectivismo anarquista de Bakunin y James Guillaume; no equivale a cualquier uso contemporáneo de «colectivismo»",
+  "periodo": "Décadas de 1860–1880; influencia posterior",
+  "confianza": "verificada",
+  "version": "1.0",
+  "revisado": "2026-07-11",
+  "facetasDefinitorias": [
+    "economico",
+    "estatismo",
+    "poder-laboral",
+    "organizacion",
+    "metodo-cambio",
+    "modelo-territorial"
+  ],
+  "sensibilidad": "normal",
+  "advertencia": "Es una reconstrucción histórica, no una identidad asignada ni una descripción automática del anarquismo español actual. Los textos de Bakunin cambiaron con el tiempo y algunos borradores tempranos contienen disposiciones transitorias o formulaciones hoy inadmisibles; solo se codifican aquí los rasgos convergentes y defendibles de la variante Bakunin–Guillaume. La diferencia distributiva entre remuneración por trabajo y provisión según necesidad todavía no tiene un ítem directo, por lo que esta ficha puede solaparse con el anarcocomunismo. No se infieren posiciones modernas sobre energía, bioética, derechos LGTB, inmigración o armas nucleares.",
+  "fuentesMarco": [
+    {
+      "tipo": "otro",
+      "titulo": "Mikhail Bakunin, The Paris Commune and the Idea of the State (en inglés)",
+      "url": "https://www.marxists.org/reference/archive/bakunin/works/1871/paris-commune.htm",
+      "fecha": "1871",
+      "consultado": "2026-07-11"
+    },
+    {
+      "tipo": "otro",
+      "titulo": "James Guillaume, Ideas on Social Organization (en inglés)",
+      "url": "https://theanarchistlibrary.org/library/james-guillaume-ideas-on-social-organization",
+      "fecha": "1876",
+      "consultado": "2026-07-11"
+    },
+    {
+      "tipo": "otro",
+      "titulo": "Mikhail Bakunin, Revolutionary Catechism (en inglés)",
+      "url": "https://theanarchistlibrary.org/library/michail-bakunin-revolutionary-catechism",
+      "fecha": "1866",
+      "consultado": "2026-07-11"
+    }
+  ],
+  "reglaPublicacion": {
+    "minimoItems": 14,
+    "minimoCobertura": 0.55,
+    "umbralAfinidad": 76
+  },
+  "posiciones": {
+    "izq-001": {
+      "valor": 2,
+      "justificacion": "Guillaume presenta la revolución, preparada por una evolución social previa, como condición indispensable para eliminar de raíz gobierno, propiedad explotadora y sus instituciones.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Ideas on Social Organization, sección I (en inglés)",
+        "url": "https://theanarchistlibrary.org/library/james-guillaume-ideas-on-social-organization",
+        "fecha": "1876",
+        "consultado": "2026-07-11"
+      }
+    },
+    "izq-002": {
+      "valor": -1,
+      "justificacion": "Rechaza que un partido conquiste y dirija el Estado, aunque Bakunin sí atribuyó una función orientadora no gubernamental a una minoría revolucionaria organizada; por eso no se codifica el desacuerdo máximo.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Mikhail Bakunin, Program and Object of the Secret Revolutionary Organisation of the International Brothers (en inglés)",
+        "url": "https://www.marxists.org/reference/archive/bakunin/works/1869/program.htm",
+        "fecha": "1869",
+        "consultado": "2026-07-11"
+      }
+    },
+    "izq-003": {
+      "valor": 2,
+      "justificacion": "La capacidad constructiva reside en trabajadores, asociaciones productivas y comunas federadas desde abajo, no en gobernantes o una dirección partidaria que actúe en su nombre.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "The Paris Commune and the Idea of the State (en inglés)",
+        "url": "https://www.marxists.org/reference/archive/bakunin/works/1871/paris-commune.htm",
+        "fecha": "1871",
+        "consultado": "2026-07-11"
+      }
+    },
+    "izq-007": {
+      "valor": 2,
+      "justificacion": "Su ruptura con el socialismo autoritario consiste precisamente en destruir o liquidar el Estado en vez de conquistarlo como supuesto instrumento obrero.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "The Paris Commune and the Idea of the State (en inglés)",
+        "url": "https://www.marxists.org/reference/archive/bakunin/works/1871/paris-commune.htm",
+        "fecha": "1871",
+        "consultado": "2026-07-11"
+      }
+    },
+    "izq-008": {
+      "valor": 2,
+      "justificacion": "Sitúa la transformación en la acción revolucionaria directa de las masas y en la toma de tierra, capital y herramientas, no en el trabajo parlamentario.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Ideas on Social Organization, sección I (en inglés)",
+        "url": "https://theanarchistlibrary.org/library/james-guillaume-ideas-on-social-organization",
+        "fecha": "1876",
+        "consultado": "2026-07-11"
+      }
+    },
+    "dem-011": {
+      "valor": 2,
+      "justificacion": "No pretende una reforma parcial del parlamentarismo: sustituye gobierno y administración central por asociaciones productivas, comunas y federaciones libres.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "The Paris Commune and the Idea of the State (en inglés)",
+        "url": "https://www.marxists.org/reference/archive/bakunin/works/1871/paris-commune.htm",
+        "fecha": "1871",
+        "consultado": "2026-07-11"
+      }
+    },
+    "dem-013": {
+      "valor": 1,
+      "justificacion": "Los congresos y oficinas federales reciben tareas delimitadas y quedan responsables ante los grupos que los eligen, aunque el texto no formula un mandato imperativo idéntico al del ítem para toda representación.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Ideas on Social Organization, sección V (en inglés)",
+        "url": "https://theanarchistlibrary.org/library/james-guillaume-ideas-on-social-organization",
+        "fecha": "1876",
+        "consultado": "2026-07-11"
+      }
+    },
+    "dem-017": {
+      "valor": 1,
+      "justificacion": "Propone comunas y federaciones de productores con delegados responsables en lugar del Estado, pero no prescribe literalmente el único diseño dual de consejos locales y laborales del enunciado.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Ideas on Social Organization, sección V (en inglés)",
+        "url": "https://theanarchistlibrary.org/library/james-guillaume-ideas-on-social-organization",
+        "fecha": "1876",
+        "consultado": "2026-07-11"
+      }
+    },
+    "dem-019": {
+      "valor": -2,
+      "justificacion": "Un movimiento único gobernando el Estado reproduce la autoridad central que la corriente pretende abolir y contradice la federación libre desde abajo.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "The Paris Commune and the Idea of the State (en inglés)",
+        "url": "https://www.marxists.org/reference/archive/bakunin/works/1871/paris-commune.htm",
+        "fecha": "1871",
+        "consultado": "2026-07-11"
+      }
+    },
+    "izq-032": {
+      "valor": 2,
+      "justificacion": "La producción debe organizarse mediante asociaciones de quienes trabajan y propiedad colectiva, no mediante empresas administradas por el Estado.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Ideas on Social Organization, secciones III y V (en inglés)",
+        "url": "https://theanarchistlibrary.org/library/james-guillaume-ideas-on-social-organization",
+        "fecha": "1876",
+        "consultado": "2026-07-11"
+      }
+    },
+    "izq-038": {
+      "valor": 2,
+      "justificacion": "Bakunin define la organización futura de abajo arriba: asociaciones de trabajadores, comunas, regiones y una federación internacional, sin Estado central superior.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "The Paris Commune and the Idea of the State (en inglés)",
+        "url": "https://www.marxists.org/reference/archive/bakunin/works/1871/paris-commune.htm",
+        "fecha": "1871",
+        "consultado": "2026-07-11"
+      }
+    },
+    "izq-040": {
+      "valor": 1,
+      "justificacion": "Exige abolir ejército permanente y soldados profesionales, pero conserva milicias locales voluntarias para defensa; coincide con la disolución del aparato militar sin ser pacifismo integral.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Revolutionary Catechism, principios de la federación internacional (en inglés)",
+        "url": "https://theanarchistlibrary.org/library/michail-bakunin-revolutionary-catechism",
+        "fecha": "1866",
+        "consultado": "2026-07-11"
+      }
+    },
+    "izq-043": {
+      "valor": 1,
+      "justificacion": "Atribuye vivienda, intercambio, higiene, educación y otros servicios comunes a comunas y asociaciones federadas, no a un aparato estatal separado; no los reduce a redes informales.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Ideas on Social Organization, sección IV (en inglés)",
+        "url": "https://theanarchistlibrary.org/library/james-guillaume-ideas-on-social-organization",
+        "fecha": "1876",
+        "consultado": "2026-07-11"
+      }
+    },
+    "izq-044": {
+      "valor": 2,
+      "justificacion": "Abolir la policía estatal y trasladar seguridad, justicia y respuesta a conflictos a instituciones comunales elegidas forma parte explícita del diseño federal de Bakunin.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Revolutionary Catechism, organización política (en inglés)",
+        "url": "https://theanarchistlibrary.org/library/michail-bakunin-revolutionary-catechism",
+        "fecha": "1866",
+        "consultado": "2026-07-11"
+      }
+    },
+    "izq-046": {
+      "valor": 2,
+      "justificacion": "El programa reclama abolir fronteras y pasaportes y reconoce libertad de comunicación y ciudadanía entre los territorios federados.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Revolutionary Catechism, principios de la federación internacional (en inglés)",
+        "url": "https://theanarchistlibrary.org/library/michail-bakunin-revolutionary-catechism",
+        "fecha": "1866",
+        "consultado": "2026-07-11"
+      }
+    },
+    "lab-005": {
+      "valor": 2,
+      "justificacion": "Las asociaciones laborales deben autogobernarse y federarse libremente, sin subordinación a gobierno o partido.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "The Paris Commune and the Idea of the State (en inglés)",
+        "url": "https://www.marxists.org/reference/archive/bakunin/works/1871/paris-commune.htm",
+        "fecha": "1871",
+        "consultado": "2026-07-11"
+      }
+    },
+    "lab-006": {
+      "valor": -2,
+      "justificacion": "Una organización sindical única integrada por ley en el Estado negaría pluralidad asociativa, autonomía obrera y federación voluntaria.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "The Paris Commune and the Idea of the State (en inglés)",
+        "url": "https://www.marxists.org/reference/archive/bakunin/works/1871/paris-commune.htm",
+        "fecha": "1871",
+        "consultado": "2026-07-11"
+      }
+    },
+    "lab-008": {
+      "valor": 2,
+      "justificacion": "Talleres, fábricas y ramas productivas son administrados por las asociaciones de sus trabajadores, coordinadas federativamente y sin propietarios ni ministerios superiores.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Ideas on Social Organization, sección III (en inglés)",
+        "url": "https://theanarchistlibrary.org/library/james-guillaume-ideas-on-social-organization",
+        "fecha": "1876",
+        "consultado": "2026-07-11"
+      }
+    },
+    "lab-009": {
+      "valor": 1,
+      "justificacion": "Guillaume prevé abolir los impuestos junto al Estado y la propiedad explotadora, pero no construye esa objeción con la fórmula propietaria literal de que todo impuesto sea «robo».",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Ideas on Social Organization, sección I (en inglés)",
+        "url": "https://theanarchistlibrary.org/library/james-guillaume-ideas-on-social-organization",
+        "fecha": "1876",
+        "consultado": "2026-07-11"
+      }
+    },
+    "lab-010": {
+      "valor": -2,
+      "justificacion": "Su rechazo fiscal no defiende una propiedad capitalista inmune a obligaciones comunes: exige socializar tierra, capital y grandes medios de producción.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Ideas on Social Organization, secciones I y III (en inglés)",
+        "url": "https://theanarchistlibrary.org/library/james-guillaume-ideas-on-social-organization",
+        "fecha": "1876",
+        "consultado": "2026-07-11"
+      }
+    },
+    "lab-011": {
+      "valor": 2,
+      "justificacion": "La objeción estructural es que los trabajadores deben tomar capital y herramientas y dirigir la producción; cambiar la fiscalidad salarial no elimina propiedad ni mando capitalistas.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Ideas on Social Organization, secciones I y III (en inglés)",
+        "url": "https://theanarchistlibrary.org/library/james-guillaume-ideas-on-social-organization",
+        "fecha": "1876",
+        "consultado": "2026-07-11"
+      }
+    },
+    "lab-016": {
+      "valor": -2,
+      "justificacion": "La propiedad colectiva no equivale a dirección ministerial: esta corriente rechaza que el Estado gestione sectores estratégicos y los confía a federaciones productivas.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "The Paris Commune and the Idea of the State (en inglés)",
+        "url": "https://www.marxists.org/reference/archive/bakunin/works/1871/paris-commune.htm",
+        "fecha": "1871",
+        "consultado": "2026-07-11"
+      }
+    },
+    "lab-017": {
+      "valor": 2,
+      "justificacion": "La unidad productiva característica es la asociación de trabajadores que administra directamente herramientas y fábrica dentro de federaciones solidarias.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Ideas on Social Organization, sección III (en inglés)",
+        "url": "https://theanarchistlibrary.org/library/james-guillaume-ideas-on-social-organization",
+        "fecha": "1876",
+        "consultado": "2026-07-11"
+      }
+    },
+    "izq-016": {
+      "valor": 2,
+      "justificacion": "La revolución debe tomar tierra, capital y herramientas a las clases propietarias para convertirlos en base de producción colectiva, sin reconocer derecho de indemnización al explotador.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Ideas on Social Organization, sección I (en inglés)",
+        "url": "https://theanarchistlibrary.org/library/james-guillaume-ideas-on-social-organization",
+        "fecha": "1876",
+        "consultado": "2026-07-11"
+      }
+    },
+    "izq-042": {
+      "valor": 2,
+      "justificacion": "Guillaume propone que los trabajadores tomen los medios y que las viviendas antes ociosas de las clases ricas pasen de inmediato a cubrir necesidades comunales.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Ideas on Social Organization, secciones I y IV-A (en inglés)",
+        "url": "https://theanarchistlibrary.org/library/james-guillaume-ideas-on-social-organization",
+        "fecha": "1876",
+        "consultado": "2026-07-11"
+      }
+    },
+    "eco-007": {
+      "valor": -2,
+      "justificacion": "El desalojo exprés para restaurar el título privado contradice un programa que convierte las viviendas en propiedad comunal y realoja prioritariamente a quienes viven en peores condiciones.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Ideas on Social Organization, sección IV-A (en inglés)",
+        "url": "https://theanarchistlibrary.org/library/james-guillaume-ideas-on-social-organization",
+        "fecha": "1876",
+        "consultado": "2026-07-11"
+      }
+    },
+    "dem-034": {
+      "valor": 2,
+      "justificacion": "La alternativa al Estado central se construye como federación libre de comunas y regiones que ceden solo tareas delimitadas; el encaje español del ítem es una aproximación, no un apoyo a un nuevo Estado confederal.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Revolutionary Catechism, organización política (en inglés)",
+        "url": "https://theanarchistlibrary.org/library/michail-bakunin-revolutionary-catechism",
+        "fecha": "1866",
+        "consultado": "2026-07-11"
+      }
+    },
+    "dem-035": {
+      "valor": 2,
+      "justificacion": "Reconoce expresamente a individuos, asociaciones, comunas, regiones y naciones el derecho a asociarse, repudiar alianzas y separarse.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Revolutionary Catechism, derecho de secesión (en inglés)",
+        "url": "https://theanarchistlibrary.org/library/michail-bakunin-revolutionary-catechism",
+        "fecha": "1866",
+        "consultado": "2026-07-11"
+      }
+    },
+    "ter-001": {
+      "valor": -2,
+      "justificacion": "Devolver competencias al centro invierte su principio organizativo: toda coordinación legítima nace desde unidades autónomas y conserva la libertad comunal y regional.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "The Paris Commune and the Idea of the State (en inglés)",
+        "url": "https://www.marxists.org/reference/archive/bakunin/works/1871/paris-commune.htm",
+        "fecha": "1871",
+        "consultado": "2026-07-11"
+      }
+    },
+    "dr-021": {
+      "valor": -2,
+      "justificacion": "Un Estado unitario con una sola administración es el opuesto directo de asociaciones, comunas y regiones federadas espontáneamente desde abajo.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "The Paris Commune and the Idea of the State (en inglés)",
+        "url": "https://www.marxists.org/reference/archive/bakunin/works/1871/paris-commune.htm",
+        "fecha": "1871",
+        "consultado": "2026-07-11"
+      }
+    },
+    "dr-025": {
+      "valor": -2,
+      "justificacion": "No sostiene una prohibición absoluta de la violencia: sus textos admiten insurrección, milicias voluntarias y defensa armada frente a agresión o reacción.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Revolutionary Catechism, defensa de la federación (en inglés)",
+        "url": "https://theanarchistlibrary.org/library/michail-bakunin-revolutionary-catechism",
+        "fecha": "1866",
+        "consultado": "2026-07-11"
+      }
+    }
+  }
+}

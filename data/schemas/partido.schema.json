@@ -61,6 +61,10 @@
       "type": "boolean",
       "description": "true = partido ficticio de demostración; prohibido en producción"
     },
+    "monotematico": {
+      "type": "boolean",
+      "description": "Programa de uno o muy pocos puntos: se muestra como coincidencia específica, nunca como porcentaje de afinidad general"
+    },
     "registroMir": {
       "type": "string",
       "description": "Referencia en el Registro de Partidos del Ministerio del Interior"
@@ -237,6 +241,10 @@
             "fecha": {
               "type": "string"
             },
+            "consultado": {
+              "type": "string",
+              "format": "date"
+            },
             "cita": {
               "type": "string",
               "maxLength": 500
@@ -284,6 +292,10 @@
               },
               "fecha": {
                 "type": "string"
+              },
+              "consultado": {
+                "type": "string",
+                "format": "date"
               },
               "cita": {
                 "type": "string",

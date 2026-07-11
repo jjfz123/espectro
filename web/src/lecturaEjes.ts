@@ -29,6 +29,7 @@ export const NOMBRE_LLANO_EJE: Record<string, string> = {
   economico: 'Economía',
   social: 'Sociedad',
   territorial: 'Territorio',
+  'autoridad-politica': 'Poder',
 };
 
 /**

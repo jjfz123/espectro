@@ -1,0 +1,231 @@
+{
+  "id": "leninismo-bolchevique",
+  "nombre": "Leninismo bolchevique",
+  "tipo": "referencia-doctrinal",
+  "definicion": "Tipo ideal del leninismo de 1902-1921: partido revolucionario de vanguardia, ruptura con el Estado parlamentario burgués y poder soviético, socialización y control público de los resortes económicos decisivos, junto con una transición capaz de admitir mercado y capital privado bajo dirección estatal cuando la correlación material lo exige.",
+  "variante": "Lenin y el bolchevismo entre ¿Qué hacer? (1902), El Estado y la revolución (1917) y la NEP (1921); distinto del marxismo-leninismo soviético codificado después de 1924 y de sus variantes estalinista, maoísta, hoxhaísta o eurocomunista",
+  "periodo": "1902-1921",
+  "confianza": "verificada",
+  "version": "1.0",
+  "revisado": "2026-07-11",
+  "facetasDefinitorias": ["metodo-cambio", "organizacion", "institucionalismo", "economico", "estatismo", "internacionalismo"],
+  "sensibilidad": "antipluralista",
+  "advertencia": "Es un tipo ideal histórico, no la ficha de ningún partido actual ni una etiqueta personal. Mantiene a la vista una tensión real del corpus: El Estado y la revolución propone sustituir policía y ejército permanente por el pueblo armado, mientras el gobierno revolucionario construyó órganos coercitivos y en 1921 prohibió las fracciones internas. La posición sobre policía refleja el horizonte doctrinal y se modera a +1; la organización del partido refleja la decisión efectiva de 1921. La NEP tampoco convierte a Lenin en partidario de una economía mixta permanente: tolera mercado y capital privado de forma subordinada y transitoria.",
+  "fuentesMarco": [
+    {
+      "tipo": "otro",
+      "titulo": "V. I. Lenin, The State and Revolution (en inglés)",
+      "url": "https://www.marxists.org/archive/lenin/works/1917/staterev/",
+      "fecha": "1917",
+      "consultado": "2026-07-11"
+    },
+    {
+      "tipo": "otro",
+      "titulo": "V. I. Lenin, The Immediate Tasks of the Soviet Government (en inglés)",
+      "url": "https://www.marxists.org/archive/lenin/works/1918/mar/x03.htm",
+      "fecha": "1918-04-28",
+      "consultado": "2026-07-11"
+    },
+    {
+      "tipo": "otro",
+      "titulo": "V. I. Lenin, The Tax in Kind (en inglés)",
+      "url": "https://www.marxists.org/archive/lenin/works/1921/apr/21.htm",
+      "fecha": "1921-04-21",
+      "consultado": "2026-07-11"
+    },
+    {
+      "tipo": "otro",
+      "titulo": "V. I. Lenin, Socialism and Religion (en inglés)",
+      "url": "https://www.marxists.org/archive/lenin/works/1905/dec/03.htm",
+      "fecha": "1905-12-03",
+      "consultado": "2026-07-11"
+    }
+  ],
+  "reglaPublicacion": {
+    "minimoItems": 12,
+    "minimoCobertura": 0.5,
+    "umbralAfinidad": 78
+  },
+  "posiciones": {
+    "izq-001": {
+      "valor": 2,
+      "justificacion": "El Estado y la revolución sostiene que la liberación de la clase oprimida exige una revolución violenta y destruir el aparato estatal creado por la clase dominante, no acumular únicamente reformas graduales.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "V. I. Lenin, The State and Revolution, capítulo I (en inglés)",
+        "url": "https://www.marxists.org/archive/lenin/works/1917/staterev/ch01.htm",
+        "fecha": "1917",
+        "consultado": "2026-07-11"
+      }
+    },
+    "izq-002": {
+      "valor": 2,
+      "justificacion": "¿Qué hacer? defiende una organización centralizada de revolucionarios profesionales capaz de aportar continuidad, estrategia y dirección al movimiento obrero; es el ancla histórica del partido de vanguardia.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "V. I. Lenin, What Is To Be Done?, capítulo IV (en inglés)",
+        "url": "https://www.marxists.org/archive/lenin/works/1901/witbd/ch04.htm",
+        "fecha": "1902",
+        "consultado": "2026-07-11"
+      }
+    },
+    "izq-018": {
+      "valor": -2,
+      "justificacion": "La resolución sobre la unidad del partido de 1921 ordenó disolver todos los grupos organizados en torno a plataformas propias y autorizó sanciones hasta la expulsión si reaparecía el fraccionalismo.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "V. I. Lenin, Preliminary Draft Resolution on Party Unity, X Congreso del PCR(b) (en inglés)",
+        "url": "https://www.marxists.org/archive/lenin/works/1921/10thcong/ch04.htm",
+        "fecha": "1921-03-16",
+        "consultado": "2026-07-11"
+      }
+    },
+    "dem-011": {
+      "valor": 2,
+      "justificacion": "La doctrina no pretende perfeccionar el parlamentarismo existente: propone destruir el aparato estatal burgués y sustituirlo por una república de soviets de trabajadores, soldados y campesinos.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "V. I. Lenin, The State and Revolution (en inglés)",
+        "url": "https://www.marxists.org/archive/lenin/works/1917/staterev/",
+        "fecha": "1917",
+        "consultado": "2026-07-11"
+      }
+    },
+    "izq-019": {
+      "valor": 1,
+      "justificacion": "Lenin exige participar incluso en parlamentos reaccionarios para llegar a las masas y combatir políticamente desde dentro, pero como táctica subordinada a la revolución y no para convertir la gestión ordinaria del Estado burgués en la vía estratégica. El acuerdo es moderado porque rechaza el abstencionismo y admite compromisos tácticos.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "V. I. Lenin, Left-Wing Communism: an Infantile Disorder, capítulo VII (en inglés)",
+        "url": "https://www.marxists.org/archive/lenin/works/1920/lwc/ch07.htm",
+        "fecha": "1920",
+        "consultado": "2026-07-11"
+      }
+    },
+    "izq-005": {
+      "valor": 2,
+      "justificacion": "Lenin sitúa la contabilidad y el control generales de producción y distribución en el centro de la transición, bajo supervisión proletaria, y convierte la banca en aparato único de regulación de la economía socializada.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "V. I. Lenin, The Immediate Tasks of the Soviet Government (en inglés)",
+        "url": "https://www.marxists.org/archive/lenin/works/1918/mar/x03.htm",
+        "fecha": "1918-04-28",
+        "consultado": "2026-07-11"
+      }
+    },
+    "izq-016": {
+      "valor": 2,
+      "justificacion": "El programa de 1917 exige nacionalizar la tierra, todos los bancos y los grandes sindicatos capitalistas, adoptar esas medidas revolucionariamente y apropiarse de los beneficios extraordinarios de capitalistas y banqueros.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "V. I. Lenin, The Tasks of the Proletariat in Our Revolution: Nationalisation of the Banks and Capitalist Syndicates (en inglés)",
+        "url": "https://www.marxists.org/archive/lenin/works/1917/tasks/ch09.htm",
+        "fecha": "1917-04",
+        "consultado": "2026-07-11"
+      }
+    },
+    "der-001": {
+      "valor": -2,
+      "justificacion": "Aunque prevé la extinción futura del Estado, durante la transición atribuye al Estado soviético control económico general, monopolios, administración productiva y defensa de la dictadura proletaria: exactamente lo contrario del Estado mínimo contemporáneo.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "V. I. Lenin, The Immediate Tasks of the Soviet Government (en inglés)",
+        "url": "https://www.marxists.org/archive/lenin/works/1918/mar/x03.htm",
+        "fecha": "1918-04-28",
+        "consultado": "2026-07-11"
+      }
+    },
+    "lab-016": {
+      "valor": 2,
+      "justificacion": "La dirección pública de banca, comercio exterior, dinero, producción y distribución no se justifica por pérdidas empresariales sino por la construcción socialista; los sectores estratégicos quedan sujetos a regulación estatal y control obrero aun si el capital privado pudiera explotarlos rentablemente.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "V. I. Lenin, The Immediate Tasks of the Soviet Government (en inglés)",
+        "url": "https://www.marxists.org/archive/lenin/works/1918/mar/x03.htm",
+        "fecha": "1918-04-28",
+        "consultado": "2026-07-11"
+      }
+    },
+    "eco-011": {
+      "valor": 2,
+      "justificacion": "Lenin presenta la reducción progresiva de la jornada a siete, seis o menos horas como resultado y objetivo directo de la organización socialista de la producción, sin trasladar su coste al salario obrero.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "V. I. Lenin, The Immediate Tasks of the Soviet Government (en inglés)",
+        "url": "https://www.marxists.org/archive/lenin/works/1918/mar/x03.htm",
+        "fecha": "1918-04-28",
+        "consultado": "2026-07-11"
+      }
+    },
+    "izq-017": {
+      "valor": 1,
+      "justificacion": "La NEP admite comercio, concesiones y desarrollo limitado del capitalismo bajo supervisión del Estado proletario. Respalda una fase privada subordinada, pero no afirma que deba ser amplia durante décadas; por eso el acuerdo queda en +1.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "V. I. Lenin, The Tax in Kind (en inglés)",
+        "url": "https://www.marxists.org/archive/lenin/works/1921/apr/21.htm",
+        "fecha": "1921-04-21",
+        "consultado": "2026-07-11"
+      }
+    },
+    "izq-044": {
+      "valor": 1,
+      "justificacion": "El Estado y la revolución contrapone policía y ejército permanente a la organización armada directa de la población. Coincide con reducir y socializar funciones coercitivas, pero no con una abolición no coercitiva: conserva poder revolucionario y prisiones, de ahí el +1.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "V. I. Lenin, The State and Revolution, capítulo I (en inglés)",
+        "url": "https://www.marxists.org/archive/lenin/works/1917/staterev/ch01.htm",
+        "fecha": "1917",
+        "consultado": "2026-07-11"
+      }
+    },
+    "der-026": {
+      "valor": -1,
+      "justificacion": "Lenin defiende el derecho de las naciones a la separación política por métodos democráticos, lo que contradice proscribir una organización solo por sostener la secesión. El valor no es -2 porque el poder bolchevique restringió partidos considerados contrarrevolucionarios y subordinó la cuestión nacional a la unidad de clase.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "V. I. Lenin, The Right of Nations to Self-Determination, conclusión (en inglés)",
+        "url": "https://www.marxists.org/archive/lenin/works/1914/self-det/ch10.htm",
+        "fecha": "1914",
+        "consultado": "2026-07-11"
+      }
+    },
+    "nac-003": {
+      "valor": -2,
+      "justificacion": "Su programa nacional exige igualdad completa de derechos sin privilegios para ninguna nación ni lengua y considera ilegales las medidas que perjudiquen a una minoría. Rechaza definir la pertenencia nacional plena por dominar una lengua.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "V. I. Lenin, Critical Remarks on the National Question, capítulo I (en inglés)",
+        "url": "https://www.marxists.org/archive/lenin/works/1913/crnq/1.htm",
+        "fecha": "1913",
+        "consultado": "2026-07-11"
+      }
+    },
+    "dr-005": {
+      "valor": -2,
+      "justificacion": "Lenin exige libertad absoluta para profesar cualquier religión o ninguna, separación completa de Iglesia y Estado y ausencia de discriminación por convicciones religiosas. Una prohibición general de mezquitas contradice directamente ese principio.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "V. I. Lenin, Socialism and Religion (en inglés)",
+        "url": "https://www.marxists.org/archive/lenin/works/1905/dec/03.htm",
+        "fecha": "1905-12-03",
+        "consultado": "2026-07-11"
+      }
+    }
+  }
+}

@@ -5,7 +5,7 @@
   "description": "Test de afinidad política de espectro completo para España: matching electoral + cartografía ideológica fina, con privacidad por diseño.",
   "type": "module",
   "engines": {
-    "node": ">=20"
+    "node": "^20.19.0 || >=22.12.0"
   },
   "scripts": {
     "test": "vitest run",
@@ -15,13 +15,15 @@
     "catalogo:partidos": "node scripts/importar-registro-partidos.mjs",
     "resultados:generales": "node scripts/importar-resultados-generales.mjs",
     "resultados:autonomicas": "node scripts/importar-candidaturas-autonomicas.mjs",
-    "web:build": "npm --prefix web run build"
+    "web:build": "npm --prefix web run build",
+    "web:budget": "node scripts/check-web-bundle.mjs",
+    "web:test:e2e": "npm --prefix web run test:e2e"
   },
   "devDependencies": {
     "@types/node": "^26.1.1",
     "ajv": "^8.17.1",
     "ajv-formats": "^3.0.1",
     "typescript": "^5.6.3",
-    "vitest": "^2.1.8"
+    "vitest": "^4.1.10"
   }
 }

@@ -11,6 +11,7 @@ import {
   ITEMS,
   ITEM_POR_ID,
   MODULO_POR_ID,
+  VERSION_INSTRUMENTO,
   itemVisible,
   secuenciaItems,
 } from './datos';
@@ -20,12 +21,17 @@ export type Fase =
   | 'cuestionario'
   | 'fin-rapido'
   | 'modulos'
+  | 'hito-intermedio'
   | 'revision'
   | 'resultados';
 export type Modo = 'rapido' | 'completo';
 
+export const HITO_INTERMEDIO_RESPUESTAS = 150;
+
 export interface Estado {
-  version: 2;
+  version: 3;
+  /** Cambia únicamente si cambia el significado o la carga de los ítems. */
+  versionInstrumento: string;
   fase: Fase;
   /** '' = el usuario prefiere no indicar comunidad. */
   ccaa: string;
@@ -41,10 +47,15 @@ export interface Estado {
   indice: number;
   /** La pregunta actual se abrió desde la revisión final. */
   editando: boolean;
+  /** Evita volver a interrumpir el exhaustivo después de decidir en el hito de 150. */
+  hitoIntermedio150Visto: boolean;
+  /** La vista de resultados se abrió expresamente desde el hito de 150. */
+  perfilIntermedio: boolean;
 }
 
 export const ESTADO_INICIAL: Estado = {
-  version: 2,
+  version: 3,
+  versionInstrumento: VERSION_INSTRUMENTO,
   fase: 'portada',
   ccaa: '',
   eleccion: 'generales',
@@ -54,6 +65,8 @@ export const ESTADO_INICIAL: Estado = {
   modulosActivos: [],
   indice: 0,
   editando: false,
+  hitoIntermedio150Visto: false,
+  perfilIntermedio: false,
 };
 
 export type Accion =
@@ -66,6 +79,8 @@ export type Accion =
   | { tipo: 'siguiente' }
   | { tipo: 'confirmar-modulos'; seleccion: string[] }
   | { tipo: 'ver-perfil-provisional' }
+  | { tipo: 'ver-perfil-intermedio' }
+  | { tipo: 'seguir-exhaustivo' }
   | { tipo: 'continuar-exhaustivo' }
   | { tipo: 'ir-a-modulos' }
   | { tipo: 'ir-a-revision' }
@@ -86,6 +101,41 @@ function todoRespondido(estado: Estado): boolean {
   return secuenciaItems(estado.modulosActivos, estado.respuestas).every(
     (item) => item.id in estado.respuestas,
   );
+}
+
+/** Cuenta respuestas únicas de la secuencia activa; «sin opinión» también es una respuesta. */
+export function contarRespuestasDeSesion(estado: Estado): number {
+  const idsActivos = new Set(
+    secuenciaItems(estado.modulosActivos, estado.respuestas).map((item) => item.id),
+  );
+  return Object.keys(estado.respuestas).filter((id) => idsActivos.has(id)).length;
+}
+
+function debeMostrarHitoIntermedio(estado: Estado): boolean {
+  return (
+    estado.modo === 'completo' &&
+    !estado.hitoIntermedio150Visto &&
+    contarRespuestasDeSesion(estado) >= HITO_INTERMEDIO_RESPUESTAS &&
+    !todoRespondido(estado)
+  );
+}
+
+function seguirCuestionario(estado: Estado): Estado {
+  if (todoRespondido(estado)) {
+    return {
+      ...estado,
+      fase: faseTrasCompletar(estado),
+      editando: false,
+      perfilIntermedio: false,
+    };
+  }
+  return {
+    ...estado,
+    fase: 'cuestionario',
+    indice: primerSinResponder(estado),
+    editando: false,
+    perfilIntermedio: false,
+  };
 }
 
 function faseTrasCompletar(estado: Estado): Fase {
@@ -127,10 +177,7 @@ export function reductor(estado: Estado, accion: Accion): Estado {
       return { ...estado, ccaa: accion.ccaa, eleccion: accion.eleccion };
 
     case 'continuar': {
-      if (todoRespondido(estado)) {
-        return { ...estado, fase: faseTrasCompletar(estado) };
-      }
-      return { ...estado, fase: 'cuestionario', indice: primerSinResponder(estado) };
+      return seguirCuestionario(estado);
     }
 
     case 'responder': {
@@ -157,26 +204,62 @@ export function reductor(estado: Estado, accion: Accion): Estado {
     case 'siguiente': {
       if (estado.editando) return { ...estado, fase: 'revision', editando: false };
       const secuencia = secuenciaItems(estado.modulosActivos, estado.respuestas);
+      if (debeMostrarHitoIntermedio(estado)) {
+        return {
+          ...estado,
+          fase: 'hito-intermedio',
+          hitoIntermedio150Visto: true,
+          perfilIntermedio: false,
+        };
+      }
       if (estado.indice < secuencia.length - 1) {
         return { ...estado, indice: estado.indice + 1 };
       }
-      return { ...estado, fase: faseTrasCompletar(estado) };
+      return { ...estado, fase: faseTrasCompletar(estado), perfilIntermedio: false };
     }
 
     case 'confirmar-modulos': {
-      const siguiente: Estado = { ...estado, modulosActivos: accion.seleccion };
+      const siguiente: Estado = {
+        ...estado,
+        modulosActivos: accion.seleccion,
+        perfilIntermedio: false,
+      };
       if (todoRespondido(siguiente)) return { ...siguiente, fase: 'resultados' };
       return { ...siguiente, fase: 'cuestionario', indice: primerSinResponder(siguiente) };
     }
 
     case 'ver-perfil-provisional':
-      return { ...estado, fase: 'resultados', editando: false };
+      return { ...estado, fase: 'resultados', editando: false, perfilIntermedio: false };
+
+    case 'ver-perfil-intermedio':
+      return {
+        ...estado,
+        fase: 'resultados',
+        editando: false,
+        hitoIntermedio150Visto: true,
+        perfilIntermedio: true,
+      };
+
+    case 'seguir-exhaustivo':
+      return seguirCuestionario({ ...estado, hitoIntermedio150Visto: true });
 
     case 'continuar-exhaustivo':
-      return { ...estado, modo: 'completo', fase: 'modulos', editando: false };
+      return {
+        ...estado,
+        modo: 'completo',
+        fase: 'modulos',
+        editando: false,
+        perfilIntermedio: false,
+      };
 
     case 'ir-a-modulos':
-      return { ...estado, modo: 'completo', fase: 'modulos', editando: false };
+      return {
+        ...estado,
+        modo: 'completo',
+        fase: 'modulos',
+        editando: false,
+        perfilIntermedio: false,
+      };
 
     case 'ir-a-revision':
       return { ...estado, fase: 'revision', editando: false };
@@ -209,12 +292,15 @@ export function reductor(estado: Estado, accion: Accion): Estado {
 /* ————— Persistencia local ————— */
 
 export const CLAVE_ALMACEN = 'espectro.v1';
+export const DIAS_CADUCIDAD = 90;
+const CADUCIDAD_MS = DIAS_CADUCIDAD * 24 * 60 * 60 * 1000;
 
 const FASES: Fase[] = [
   'portada',
   'cuestionario',
   'fin-rapido',
   'modulos',
+  'hito-intermedio',
   'revision',
   'resultados',
 ];
@@ -226,9 +312,18 @@ export function cargarEstado(): Estado {
   try {
     const crudo = localStorage.getItem(CLAVE_ALMACEN);
     if (!crudo) return ESTADO_INICIAL;
-    const datos = JSON.parse(crudo) as Partial<Estado>;
-    const versionGuardada = (datos as { version?: unknown }).version;
-    if (versionGuardada !== 1 && versionGuardada !== 2) return ESTADO_INICIAL;
+    const datos = JSON.parse(crudo) as Partial<Estado> & { guardadoEn?: unknown };
+    const guardadoEn =
+      typeof datos.guardadoEn === 'string' ? Date.parse(datos.guardadoEn) : Number.NaN;
+    const incompatible =
+      datos.version !== 3 ||
+      datos.versionInstrumento !== VERSION_INSTRUMENTO ||
+      !Number.isFinite(guardadoEn) ||
+      Date.now() - guardadoEn > CADUCIDAD_MS;
+    if (incompatible) {
+      localStorage.removeItem(CLAVE_ALMACEN);
+      return ESTADO_INICIAL;
+    }
 
     const estado: Estado = {
       ...ESTADO_INICIAL,
@@ -251,6 +346,8 @@ export function cargarEstado(): Estado {
         : [],
       indice: typeof datos.indice === 'number' && datos.indice >= 0 ? Math.floor(datos.indice) : 0,
       editando: datos.editando === true,
+      hitoIntermedio150Visto: datos.hitoIntermedio150Visto === true,
+      perfilIntermedio: datos.perfilIntermedio === true,
     };
 
     if (datos.respuestas && typeof datos.respuestas === 'object') {
@@ -269,6 +366,15 @@ export function cargarEstado(): Estado {
     limpiarCondicionalesOcultas(estado.respuestas, estado.importantes);
     const secuencia = secuenciaItems(estado.modulosActivos, estado.respuestas);
     if (estado.indice >= secuencia.length) estado.indice = Math.max(0, secuencia.length - 1);
+    if (estado.fase === 'hito-intermedio') {
+      const hitoValido =
+        estado.modo === 'completo' &&
+        contarRespuestasDeSesion(estado) >= HITO_INTERMEDIO_RESPUESTAS &&
+        !todoRespondido(estado);
+      if (hitoValido) estado.hitoIntermedio150Visto = true;
+      else estado.fase = todoRespondido(estado) ? faseTrasCompletar(estado) : 'cuestionario';
+    }
+    if (estado.perfilIntermedio && todoRespondido(estado)) estado.perfilIntermedio = false;
     if (estado.fase !== 'portada' && Object.keys(estado.respuestas).length === 0 && estado.fase !== 'cuestionario') {
       estado.fase = 'portada';
     }
@@ -280,7 +386,10 @@ export function cargarEstado(): Estado {
 
 export function guardarEstado(estado: Estado): boolean {
   try {
-    localStorage.setItem(CLAVE_ALMACEN, JSON.stringify(estado));
+    localStorage.setItem(
+      CLAVE_ALMACEN,
+      JSON.stringify({ ...estado, guardadoEn: new Date().toISOString() }),
+    );
     return true;
   } catch {
     // Sin almacenamiento disponible (modo privado restrictivo): la sesión

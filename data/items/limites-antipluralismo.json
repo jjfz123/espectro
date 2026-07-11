@@ -80,5 +80,19 @@
     "tags": ["proteccion-civil", "critica", "salvaguarda"],
     "estado": "piloto",
     "notas": "Salvaguarda inversa para reducir aquiescencia. No convierte por sí sola una doctrina en democrática; se interpreta junto a mecanismos concretos."
+  },
+  {
+    "id": "lim-007",
+    "texto": "Los derechos políticos de una persona deberían depender de su origen étnico.",
+    "modulo": "limites-antipluralismo",
+    "ejes": [
+      { "eje": "pluralismo-institucional", "carga": -1 },
+      { "eje": "social", "carga": 1 }
+    ],
+    "uso": "solo-mapa",
+    "polaridad": "negativa",
+    "tags": ["derechos-politicos", "origen-etnico", "supremacismo"],
+    "estado": "piloto",
+    "notas": "Frontera explícita de exclusión etnopolítica aplicable a cualquier supremacismo. No deduce delito, militancia ni origen de una respuesta aislada y nunca participa en el matching electoral."
   }
 ]
