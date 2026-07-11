@@ -125,6 +125,20 @@
         "consultado": "2026-07-09"
       }
     },
+    "dem-009": {
+      "valor": 1,
+      "justificacion": "Posición por conducta: su Gobierno declaró el estado de alarma con mando único estatal en la pandemia (RD 463/2020) y lo prorrogó seis veces con aval del Congreso, asumiendo la concentración temporal de la decisión ejecutiva en una crisis grave; +1 y no +2 porque fue una medida excepcional reglada, no una preferencia doctrinal declarada.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Real Decreto 463/2020, de 14 de marzo, por el que se declara el estado de alarma (art. 4)",
+        "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2020-3692",
+        "fecha": "2020-03-14",
+        "consultado": "2026-07-11",
+        "cita": "A los efectos del estado de alarma, la autoridad competente será el Gobierno"
+      },
+      "grupoEvidencia": "pasaje-8bf02eb50923c9285643"
+    },
     "lab-001": {
       "valor": 1,
       "justificacion": "Propone reforzar la negociación colectiva y una nueva ley sobre la materia; el apoyo es claro, aunque la fuente no formula literalmente la prevalencia en todo caso sobre el acuerdo individual.",

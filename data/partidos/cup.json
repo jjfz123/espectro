@@ -272,15 +272,13 @@
     "eco-013": {
       "valor": -2,
       "justificacion": "Mantiene una campaña activa para exigir la prohibición de la actividad privada dentro de los centros sanitarios públicos, defendiendo un modelo 100% público sin derivación de pacientes a la privada.",
-      "calidadEvidencia": "media",
+      "calidadEvidencia": "alta",
       "fuente": {
         "tipo": "declaracion",
         "titulo": "La CUP intensifica la campanya per exigir la prohibició de l'activitat privada als centres sanitaris públics",
         "url": "https://cup.cat/noticia/la-cup-intensifica-la-campanya-exigir-la-prohibicio-de-lactivitat-privada-als-centres",
-        "consultado": "2026-07-10",
-        "cita": "La CUP intensifica la campanya per exigir la prohibició de l'activitat privada als centres sanitaris públics"
-      },
-      "grupoEvidencia": "pasaje-a761003179f114d93a57"
+        "consultado": "2026-07-10"
+      }
     },
     "eco-014": {
       "valor": 2,
