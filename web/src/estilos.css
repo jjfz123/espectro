@@ -1128,6 +1128,32 @@ h3 {
   border-top: 1px solid var(--filete);
 }
 
+/* Ampliación plegada del término: profundiza sin alargar el panel de
+   entrada; el resumen es un objetivo táctil cómodo y con acento al abrir. */
+.glosario-mas {
+  margin: 0.45rem 0;
+}
+
+.glosario-mas summary {
+  cursor: pointer;
+  min-height: 2rem;
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  font-weight: 600;
+  color: var(--tinta-suave);
+}
+
+.glosario-mas summary:hover,
+.glosario-mas[open] summary {
+  color: var(--acento);
+}
+
+.glosario-mas p {
+  margin: 0.35rem 0 0.2rem;
+  max-width: 68ch;
+}
+
 /* Nota final del panel de ayuda: cuerpo menor, tinta suave, con filete. */
 .glosario-panel__nota {
   margin: 0.8rem 0 0;

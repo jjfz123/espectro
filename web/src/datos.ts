@@ -66,6 +66,8 @@ export interface TerminoGlosario {
   id: string;
   termino: string;
   definicion: string;
+  /** Ampliación opcional, plegada bajo «Más detalle» en el panel del «?». */
+  ampliacion?: string;
   url: string;
 }
 

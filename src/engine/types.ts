@@ -58,6 +58,12 @@ export interface Termino {
   id: string;
   termino: string;
   definicion: string;
+  /**
+   * Ampliación opcional en español llano: cómo funciona en la práctica,
+   * datos duros y qué defiende cada lado, sin revelar jamás hacia dónde
+   * puntúa la pregunta. Se muestra plegada bajo «Más detalle».
+   */
+  ampliacion?: string;
   url: string;
 }
 

@@ -13,6 +13,12 @@
       "maxLength": 700,
       "description": "Definición de consenso en palabras sencillas, SIN sobresimplificar: si el término está en disputa, la definición lo dice y presenta ambas lecturas."
     },
+    "ampliacion": {
+      "type": "string",
+      "minLength": 200,
+      "maxLength": 900,
+      "description": "Ampliación opcional y neutral que profundiza la definición: cómo funciona en la práctica, datos duros (fechas, cifras, marco legal) y qué defiende cada lado con sus mejores argumentos. Nunca insinúa hacia qué lado puntúa una pregunta."
+    },
     "url": { "type": "string", "pattern": "^https://", "description": "Enlace de referencia (normalmente Wikipedia en español)" }
   },
   "additionalProperties": false

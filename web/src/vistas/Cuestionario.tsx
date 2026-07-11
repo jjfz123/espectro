@@ -184,6 +184,12 @@ export function Cuestionario({ estado, despachar }: Props) {
                 <dt>{t.termino}</dt>
                 <dd>
                   {t.definicion}{' '}
+                  {t.ampliacion ? (
+                    <details className="glosario-mas">
+                      <summary>Más detalle</summary>
+                      <p>{t.ampliacion}</p>
+                    </details>
+                  ) : null}
                   <a href={t.url} target="_blank" rel="noopener noreferrer">
                     Ver en Wikipedia
                   </a>
