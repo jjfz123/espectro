@@ -342,6 +342,60 @@ export function Resultados({ estado, despachar, puedeRecargar, alConfirmarGuarda
     return items.some((i) => !(i.id in estado.respuestas));
   });
 
+  const contenidoPrincipalesGenerales = (
+    <>
+          <p className="nota-al-margen" style={{ maxWidth: '72ch' }}>
+            Son las siete candidaturas con más votos de{' '}
+            {convocatoriaPrincipales?.nombre ?? 'las últimas elecciones generales documentadas'}
+            {' '}que tienen un perfil principal comparable. Su orden aquí es el del voto, no el
+            de afinidad. El porcentaje se calcula con tus mismas respuestas y conserva su aviso de
+            cobertura.
+          </p>
+          <div className="principales-contexto" role="note">
+            <strong>Contexto por representación, no recomendación.</strong>
+            <p>
+              Estas formaciones aparecen aquí únicamente por haber sido las más votadas en las
+              últimas generales documentadas. Espectro no favorece, prioriza ni recomienda a los
+              partidos mayoritarios y no pretende orientar el voto. Su propósito es ayudarte a
+              encontrar afinidades en toda la pluralidad política disponible en el catálogo.
+            </p>
+            <p>
+              El ranking ordenado por tu afinidad está más arriba; esta lista es solo contexto
+              común y conserva el orden del voto.
+            </p>
+          </div>
+          <Ranking
+            resultados={resultadosPrincipalesGenerales}
+            entidades={PARTIDO_POR_ID}
+            doblesMarcadores={doblesMarcadores}
+            compacto
+            contextoPorEntidad={CONTEXTO_PRINCIPALES}
+            separarTramos={false}
+            etiquetaPosicion={(_, indice) => `${PRINCIPALES_GENERALES[indice]?.puestoVotos ?? indice + 1}.º voto`}
+          />
+          {PODEMOS && resultadoPodemos ? (
+            <aside className="referencia-podemos" aria-labelledby="referencia-podemos-titulo">
+              <div>
+                <p className="kicker">Referencia separada</p>
+                <h3 id="referencia-podemos-titulo">Podemos concurrió dentro de Sumar</h3>
+                <p>
+                  Se ofrece su perfil propio para comparar matices, pero no se presenta como una
+                  octava candidatura: en las generales de 2023 formó parte de la coalición Sumar.
+                </p>
+              </div>
+              <Ranking
+                resultados={[resultadoPodemos]}
+                entidades={PARTIDO_POR_ID}
+                compacto
+                ordenada={false}
+              />
+            </aside>
+          ) : null}
+    </>
+  );
+
+  const referenciaGeneralesNoVotable = estado.eleccion !== 'generales';
+
   return (
     <div className="contenedor contenedor--ancho">
       <p className="kicker">
@@ -417,53 +471,6 @@ export function Resultados({ estado, despachar, puedeRecargar, alConfirmarGuarda
         </section>
       ) : null}
 
-      <div className="nota-catalogo">
-        <p>
-          <strong>Catálogo documental en ampliación.</strong> Hay {PARTIDOS.length} perfiles
-          reales con evidencia versionada; no se muestran perfiles ficticios. La afinidad no
-          es una recomendación de voto y una cobertura baja no permite comparar porcentajes
-          como si fueran igual de sólidos.
-        </p>
-      </div>
-
-      {mostrarCompartir ? (
-        <Suspense
-          fallback={
-            <section className="seccion compartir-resultados compartir-resultados--cargando" role="status">
-              Preparando las opciones para compartir y guardar…
-            </section>
-          }
-        >
-          <CompartirResultados
-            datos={datosCompartidos}
-            etiquetas={etiquetasCaptura}
-            permitidos={PERMITIDOS_COMPARTIR}
-          />
-        </Suspense>
-      ) : (
-        <section className="seccion compartir-resultados compartir-resultados--lanzador" aria-labelledby="abrir-compartir-titulo">
-          <p className="kicker">Compartir y guardar</p>
-          <h2 id="abrir-compartir-titulo">Lleva contigo este resultado</h2>
-          <p>
-            Puedes crear un enlace de solo lectura o tarjetas PNG sin compartir las respuestas
-            originales. Las herramientas de imagen se cargarán solo si decides usarlas.
-          </p>
-          <button type="button" className="boton" onClick={() => setMostrarCompartir(true)}>
-            Abrir opciones para compartir y guardar
-          </button>
-        </section>
-      )}
-
-      <section className="seccion" id="perfil-facetas">
-        <h2>Tu perfil por facetas</h2>
-        <p className="nota-al-margen" style={{ maxWidth: '68ch' }}>
-          Esta es tu posición aunque ningún partido la represente. Cada faceta va de −100 a
-          +100 y conserva sus propios polos y evidencia. «Sin datos» significa que no hay una
-          opinión calculable; «provisional», que aún faltan preguntas o cobertura.
-        </p>
-        <PerfilFacetas ejes={EJES} facetas={facetasUsuario} />
-      </section>
-
       <section className="seccion" aria-labelledby="mapa-espectro-titulo">
         <h2 id="mapa-espectro-titulo" ref={tituloMapaRef} tabIndex={-1}>
           Mapa del espectro
@@ -504,101 +511,14 @@ export function Resultados({ estado, despachar, puedeRecargar, alConfirmarGuarda
         )}
       </section>
 
-      <section
-        className="seccion referencias-doctrinales"
-        aria-labelledby="referencias-doctrinales-titulo"
-      >
-        <h2
-          id="referencias-doctrinales-titulo"
-          ref={tituloReferenciasRef}
-          tabIndex={-1}
-        >
-          Referencias doctrinales
-        </h2>
-        {mostrarReferencias ? (
-          <Suspense
-            fallback={
-              <div className="explorador-diferido explorador-diferido--cargando" role="status">
-                Preparando las referencias doctrinales y sus fuentes…
-              </div>
-            }
-          >
-            <ReferenciasDoctrinales
-              respuestas={respuestas}
-              alMontar={enfocarTituloReferencias}
-            />
-          </Suspense>
-        ) : (
-          <div className="explorador-diferido">
-            <div>
-              <p className="kicker">Más allá de los partidos</p>
-              <h3>Compara matices que ningún partido tiene por qué representar</h3>
-              <p>
-                Compara el perfil con corrientes históricas y contemporáneas sin afirmar
-                pertenencia ni convertirlas en candidaturas. El catálogo profundo se descarga
-                solo si decides consultarlo.
-              </p>
-            </div>
-            <button type="button" className="boton" onClick={() => setMostrarReferencias(true)}>
-              Explorar corrientes afines
-            </button>
-          </div>
-        )}
-      </section>
-
-      {respuestasLaborales.length > 0 ? (
-        <section className="seccion">
-          <h2>Tu modelo de representación laboral</h2>
-          <p className="nota-al-margen" style={{ maxWidth: '68ch' }}>
-            Comparación independiente del voto. Mide coincidencias documentadas sobre poder en
-            la empresa, autonomía, financiación y acción sindical; no acredita implantación en
-            tu centro de trabajo ni recomienda afiliarse.
-          </p>
-          <p className="aviso-contexto aviso-contexto--laboral">
-            {!estado.ccaa
-              ? 'Como no has indicado comunidad, se muestran también sindicatos territoriales. '
-              : ''}
-            La demo aún no filtra por sector, empresa o presencia en tu centro de trabajo.
-          </p>
-          {nOpinionLaboral === 0 ? (
-            <p className="resultado-no-calculable" role="status">
-              No hay similitud sindical calculable porque has marcado «Sin opinión» en este bloque.
-            </p>
-          ) : resultadosSindicales.length === 0 ? (
-            <p className="resultado-no-calculable" role="status">
-              Aún no hay una afinidad sindical publicable. Para evitar un 100 % engañoso por
-              una sola coincidencia, cada resultado necesita al menos 3 ítems comparados y
-              cubrir el 20 % de tus respuestas con opinión dentro del corpus sindical
-              documentado y comparable.
-            </p>
-          ) : (
-            <>
-              <Ranking
-                resultados={resultadosSindicales}
-                entidades={SINDICATO_POR_ID}
-                tipoEntidad="sindicato"
-              />
-              {resultadosSindicales.length > 0 ? (
-                <div className="detalles-afinidad">
-                  <h3>Por qué coincide tu modelo laboral</h3>
-                  {resultadosSindicales.map((resultado) => {
-                    const sindicato = SINDICATO_POR_ID.get(resultado.entidadId);
-                    if (!sindicato) return null;
-                    return (
-                      <DetalleAfinidad
-                        key={resultado.entidadId}
-                        resultado={resultado}
-                        entidad={sindicato}
-                        tipoEntidad="sindicato"
-                      />
-                    );
-                  })}
-                </div>
-              ) : null}
-            </>
-          )}
-        </section>
-      ) : null}
+      <div className="nota-catalogo">
+        <p>
+          <strong>Catálogo documental en ampliación.</strong> Hay {PARTIDOS.length} perfiles
+          reales con evidencia versionada; no se muestran perfiles ficticios. La afinidad no
+          es una recomendación de voto y una cobertura baja no permite comparar porcentajes
+          como si fueran igual de sólidos.
+        </p>
+      </div>
 
       <section className="contexto-electoral" aria-labelledby="contexto-electoral-titulo">
         <div>
@@ -686,69 +606,13 @@ export function Resultados({ estado, despachar, puedeRecargar, alConfirmarGuarda
         </p>
       )}
 
-      {seleccionElectoral.metodo !== 'contexto-incompleto' &&
-      nConOpinion > 0 &&
-      resultadosPrincipalesGenerales.length > 0 ? (
-        <section className="seccion seccion--principales" aria-labelledby="principales-generales-titulo">
-          <p className="kicker">Referencia electoral común</p>
-          <h2 id="principales-generales-titulo">Partidos principales de las últimas generales</h2>
-          <p className="nota-al-margen" style={{ maxWidth: '72ch' }}>
-            Son las siete candidaturas con más votos de{' '}
-            {convocatoriaPrincipales?.nombre ?? 'las últimas elecciones generales documentadas'}
-            {' '}que tienen un perfil principal comparable. Su orden aquí es el del voto, no el
-            de afinidad. El porcentaje se calcula con tus mismas respuestas y conserva su aviso de
-            cobertura.
-          </p>
-          <div className="principales-contexto" role="note">
-            <strong>Contexto por representación, no recomendación.</strong>
-            <p>
-              Estas formaciones aparecen aquí únicamente por haber sido las más votadas en las
-              últimas generales documentadas. Espectro no favorece, prioriza ni recomienda a los
-              partidos mayoritarios y no pretende orientar el voto. Su propósito es ayudarte a
-              encontrar afinidades en toda la pluralidad política disponible en el catálogo.
-            </p>
-            <p>
-              El ranking ordenado por tu afinidad y el desplegable con el resto de formaciones
-              están inmediatamente debajo.
-            </p>
-          </div>
-          <Ranking
-            resultados={resultadosPrincipalesGenerales}
-            entidades={PARTIDO_POR_ID}
-            doblesMarcadores={doblesMarcadores}
-            compacto
-            contextoPorEntidad={CONTEXTO_PRINCIPALES}
-            separarTramos={false}
-            etiquetaPosicion={(_, indice) => `${PRINCIPALES_GENERALES[indice]?.puestoVotos ?? indice + 1}.º voto`}
-          />
-          {PODEMOS && resultadoPodemos ? (
-            <aside className="referencia-podemos" aria-labelledby="referencia-podemos-titulo">
-              <div>
-                <p className="kicker">Referencia separada</p>
-                <h3 id="referencia-podemos-titulo">Podemos concurrió dentro de Sumar</h3>
-                <p>
-                  Se ofrece su perfil propio para comparar matices, pero no se presenta como una
-                  octava candidatura: en las generales de 2023 formó parte de la coalición Sumar.
-                </p>
-              </div>
-              <Ranking
-                resultados={[resultadoPodemos]}
-                entidades={PARTIDO_POR_ID}
-                compacto
-                ordenada={false}
-              />
-            </aside>
-          ) : null}
-        </section>
-      ) : null}
-
       <section className="seccion" aria-labelledby="maximos-afinidad-titulo">
         <h2 id="maximos-afinidad-titulo">Máximos por afinidad</h2>
         <p className="nota-al-margen" style={{ maxWidth: '68ch' }}>
-          Este sí es el orden real del porcentaje visible para el contexto electoral que has
-          elegido. La cobertura nunca cambia silenciosamente el puesto: indica cuántas respuestas
-          sostienen cada cifra. Una formación puede aparecer también en el bloque anterior porque
-          allí el criterio son los votos; no es un segundo cálculo.
+          Este es el orden real del porcentaje para el contexto electoral que has elegido.
+          La cobertura nunca cambia silenciosamente el puesto: indica cuántas respuestas
+          sostienen cada cifra. Una formación puede aparecer también en la referencia de las
+          últimas generales, más abajo: allí el criterio son los votos, no un segundo cálculo.
         </p>
         {seleccionElectoral.metodo === 'contexto-incompleto' ? (
           <div className="resultado-no-calculable" role="status">
@@ -793,6 +657,31 @@ export function Resultados({ estado, despachar, puedeRecargar, alConfirmarGuarda
           </>
         )}
       </section>
+
+      {seleccionElectoral.metodo !== 'contexto-incompleto' &&
+      nConOpinion > 0 &&
+      resultadosPrincipalesGenerales.length > 0 ? (
+        <section className="seccion seccion--principales" aria-labelledby="principales-generales-titulo">
+          <p className="kicker">Referencia electoral común</p>
+          <h2 id="principales-generales-titulo">Partidos principales de las últimas generales</h2>
+          {referenciaGeneralesNoVotable ? (
+            <>
+              <p className="aviso-contexto" role="note">
+                <strong>Comparación nacional, no votable en esta convocatoria.</strong> Estas
+                candidaturas corresponden a las últimas elecciones generales: no forman parte
+                del ranking de tu contexto ni de tu papeleta, y quedan plegadas como referencia
+                común.
+              </p>
+              <details className="ranking-resto">
+                <summary>Ver la comparación nacional de referencia</summary>
+                {contenidoPrincipalesGenerales}
+              </details>
+            </>
+          ) : (
+            contenidoPrincipalesGenerales
+          )}
+        </section>
+      ) : null}
 
       {resultadosAuditoria.length > 0 ? (
         <section className="seccion seccion--auditoria">
@@ -897,6 +786,140 @@ export function Resultados({ estado, despachar, puedeRecargar, alConfirmarGuarda
           </details>
         </section>
       ) : null}
+
+      {respuestasLaborales.length > 0 ? (
+        <section className="seccion">
+          <h2>Tu modelo de representación laboral</h2>
+          <p className="nota-al-margen" style={{ maxWidth: '68ch' }}>
+            Comparación independiente del voto. Mide coincidencias documentadas sobre poder en
+            la empresa, autonomía, financiación y acción sindical; no acredita implantación en
+            tu centro de trabajo ni recomienda afiliarse.
+          </p>
+          <p className="aviso-contexto aviso-contexto--laboral">
+            {!estado.ccaa
+              ? 'Como no has indicado comunidad, se muestran también sindicatos territoriales. '
+              : ''}
+            La demo aún no filtra por sector, empresa o presencia en tu centro de trabajo.
+          </p>
+          {nOpinionLaboral === 0 ? (
+            <p className="resultado-no-calculable" role="status">
+              No hay similitud sindical calculable porque has marcado «Sin opinión» en este bloque.
+            </p>
+          ) : resultadosSindicales.length === 0 ? (
+            <p className="resultado-no-calculable" role="status">
+              Aún no hay una afinidad sindical publicable. Para evitar un 100 % engañoso por
+              una sola coincidencia, cada resultado necesita al menos 3 ítems comparados y
+              cubrir el 20 % de tus respuestas con opinión dentro del corpus sindical
+              documentado y comparable.
+            </p>
+          ) : (
+            <>
+              <Ranking
+                resultados={resultadosSindicales}
+                entidades={SINDICATO_POR_ID}
+                tipoEntidad="sindicato"
+              />
+              {resultadosSindicales.length > 0 ? (
+                <div className="detalles-afinidad">
+                  <h3>Por qué coincide tu modelo laboral</h3>
+                  {resultadosSindicales.map((resultado) => {
+                    const sindicato = SINDICATO_POR_ID.get(resultado.entidadId);
+                    if (!sindicato) return null;
+                    return (
+                      <DetalleAfinidad
+                        key={resultado.entidadId}
+                        resultado={resultado}
+                        entidad={sindicato}
+                        tipoEntidad="sindicato"
+                      />
+                    );
+                  })}
+                </div>
+              ) : null}
+            </>
+          )}
+        </section>
+      ) : null}
+
+      <section
+        className="seccion referencias-doctrinales"
+        aria-labelledby="referencias-doctrinales-titulo"
+      >
+        <h2
+          id="referencias-doctrinales-titulo"
+          ref={tituloReferenciasRef}
+          tabIndex={-1}
+        >
+          Referencias doctrinales
+        </h2>
+        {mostrarReferencias ? (
+          <Suspense
+            fallback={
+              <div className="explorador-diferido explorador-diferido--cargando" role="status">
+                Preparando las referencias doctrinales y sus fuentes…
+              </div>
+            }
+          >
+            <ReferenciasDoctrinales
+              respuestas={respuestas}
+              alMontar={enfocarTituloReferencias}
+            />
+          </Suspense>
+        ) : (
+          <div className="explorador-diferido">
+            <div>
+              <p className="kicker">Más allá de los partidos</p>
+              <h3>Compara matices que ningún partido tiene por qué representar</h3>
+              <p>
+                Compara el perfil con corrientes históricas y contemporáneas sin afirmar
+                pertenencia ni convertirlas en candidaturas. El catálogo profundo se descarga
+                solo si decides consultarlo.
+              </p>
+            </div>
+            <button type="button" className="boton" onClick={() => setMostrarReferencias(true)}>
+              Explorar corrientes afines
+            </button>
+          </div>
+        )}
+      </section>
+
+      <section className="seccion" id="perfil-facetas">
+        <h2>Tu perfil por facetas</h2>
+        <p className="nota-al-margen" style={{ maxWidth: '68ch' }}>
+          Esta es tu posición aunque ningún partido la represente. Cada faceta va de −100 a
+          +100 y conserva sus propios polos y evidencia. «Sin datos» significa que no hay una
+          opinión calculable; «provisional», que aún faltan preguntas o cobertura.
+        </p>
+        <PerfilFacetas ejes={EJES} facetas={facetasUsuario} />
+      </section>
+
+      {mostrarCompartir ? (
+        <Suspense
+          fallback={
+            <section className="seccion compartir-resultados compartir-resultados--cargando" role="status">
+              Preparando las opciones para compartir y guardar…
+            </section>
+          }
+        >
+          <CompartirResultados
+            datos={datosCompartidos}
+            etiquetas={etiquetasCaptura}
+            permitidos={PERMITIDOS_COMPARTIR}
+          />
+        </Suspense>
+      ) : (
+        <section className="seccion compartir-resultados compartir-resultados--lanzador" aria-labelledby="abrir-compartir-titulo">
+          <p className="kicker">Compartir y guardar</p>
+          <h2 id="abrir-compartir-titulo">Lleva contigo este resultado</h2>
+          <p>
+            Puedes crear un enlace de solo lectura o tarjetas PNG sin compartir las respuestas
+            originales. Las herramientas de imagen se cargarán solo si decides usarlas.
+          </p>
+          <button type="button" className="boton" onClick={() => setMostrarCompartir(true)}>
+            Abrir opciones para compartir y guardar
+          </button>
+        </section>
+      )}
 
       <div className="acciones">
         <button
