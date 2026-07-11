@@ -12,6 +12,7 @@ import {
   seleccionarPartidosElectorales,
   sindicatoRelevanteEnCcaa,
 } from '@engine';
+import { BrujulaLigera } from '../componentes/BrujulaLigera';
 import { CatalogoCandidaturas } from '../componentes/CatalogoCandidaturas';
 import { DetalleAfinidad } from '../componentes/DetallePartido';
 import type { LecturaContraste } from '../componentes/DetallePartido';
@@ -70,6 +71,9 @@ const PARTIDO_POR_ID = new Map(PARTIDOS.map((p) => [p.id, p]));
 const SINDICATO_POR_ID = new Map(SINDICATOS.map((sindicato) => [sindicato.id, sindicato]));
 const ITEMS_LABORALES_EN_NUCLEO = new Set(['lab-006']);
 const PRINCIPALES_GENERALES = partidosPrincipalesUltimasGenerales(PARTIDOS, CONVOCATORIAS, 7);
+const IDS_PRINCIPALES_GENERALES: ReadonlySet<string> = new Set(
+  PRINCIPALES_GENERALES.map((principal) => principal.partido.id),
+);
 const PODEMOS = PARTIDO_POR_ID.get('podemos');
 const FORMATO_VOTOS = new Intl.NumberFormat('es-ES', { maximumFractionDigits: 0 });
 const CONTEXTO_PRINCIPALES = new Map(
@@ -148,6 +152,12 @@ export function Resultados({ estado, despachar, puedeRecargar, alConfirmarGuarda
     if (nConOpinion === 0) return [];
     return rankingAfinidad(respuestas, seleccionElectoral.partidos);
   }, [respuestas, nConOpinion, seleccionElectoral.partidos]);
+
+  /** Universo de la brújula ligera: el mismo del ranking del contexto. */
+  const idsPartidosContexto = useMemo<ReadonlySet<string>>(
+    () => new Set(seleccionElectoral.partidos.map((partido) => partido.id)),
+    [seleccionElectoral.partidos],
+  );
 
   const resultadosPrincipalesGenerales = useMemo(() => {
     if (nConOpinion === 0) return [];
@@ -475,6 +485,11 @@ export function Resultados({ estado, despachar, puedeRecargar, alConfirmarGuarda
         <h2 id="mapa-espectro-titulo" ref={tituloMapaRef} tabIndex={-1}>
           Mapa del espectro
         </h2>
+        <BrujulaLigera
+          facetasUsuario={facetasUsuario}
+          idsContextoElectoral={idsPartidosContexto}
+          idsPrincipales={IDS_PRINCIPALES_GENERALES}
+        />
         {mostrarMapa ? (
           <Suspense
             fallback={
@@ -496,16 +511,16 @@ export function Resultados({ estado, despachar, puedeRecargar, alConfirmarGuarda
         ) : (
           <div className="explorador-diferido">
             <div>
-              <p className="kicker">Vista interactiva bajo demanda</p>
-              <h3>Abre la brújula detallada cuando quieras explorarla</h3>
+              <p className="kicker">Atlas bajo demanda</p>
+              <h3>Explora el atlas completo cuando quieras</h3>
               <p>
-                Incluye las zonas ideológicas, partidos con evidencia publicable, planos por
-                facetas y sus explicaciones. Se carga al pulsar para que el resumen y el ranking
-                sigan siendo rápidos en móvil.
+                Añade las zonas ideológicas del atlas, los planos por facetas (Economía,
+                Sociedad, Territorio), el visor 3D y sus explicaciones. Se descarga al pulsar
+                para que la brújula de arriba y el ranking sigan siendo rápidos en móvil.
               </p>
             </div>
             <button type="button" className="boton" onClick={() => setMostrarMapa(true)}>
-              Abrir mapa interactivo
+              Explorar el atlas completo
             </button>
           </div>
         )}
