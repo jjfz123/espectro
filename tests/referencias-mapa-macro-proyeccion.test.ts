@@ -79,9 +79,8 @@ function reproyectarMacro(posiciones: PerfilAfinidad['posiciones'], ejeId: strin
   return Math.round(((100 * numerador) / (2 * carga)) * 10) / 10;
 }
 
-// Las seis referencias que la tanda hace dibujables en Economía × Sociedad.
+// Las cinco referencias que la tanda hace dibujables en Economía × Sociedad.
 const REFERENCIAS_DIBUJADAS = [
-  'falangismo-fe-jons-1934',
   'conservadurismo-liberal-europeo',
   'democracia-cristiana',
   'plataformismo-anarcocomunista',
@@ -123,6 +122,26 @@ describe('la coordenada macro dibujable proviene solo de la proyección document
       }
     },
   );
+
+  it('falangismo-fe-jons-1934 NO se dibuja en Economía × Sociedad: sus anclas sociales no llegan a cuatro pasajes independientes', () => {
+    /* Guardia de la revisión adversarial: dos posiciones que comparten el
+       mismo pasaje documental (punto 13) no pueden sumar dos evidencias del
+       eje social. Al retirarse eco-007, el eje queda con tres anclas y la
+       referencia permanece honestamente fuera del plano; si alguien vuelve a
+       cruzar el umbral duplicando un pasaje, este test lo detiene. */
+    const referencia = leer<ReferenciaDoctrinal>(
+      'data/referencias/falangismo-fe-jons-1934.json',
+    );
+    expect(referencia.posiciones['eco-007']).toBeUndefined();
+    const social = Object.entries(referencia.posiciones).filter(([itemId]) =>
+      (ITEM_POR_ID.get(itemId)?.ejes ?? []).some(
+        (entrada) => entrada.eje === 'social' && entrada.carga !== 0,
+      ),
+    );
+    expect(social.length).toBeLessThan(4);
+    const proyeccion = proyectarEnEspacio(referencia, ITEMS, PAR_MACRO);
+    expect(proyeccion.incluida).toBe(false);
+  });
 });
 
 describe('la coordenada macro de un partido es su recibo documental, no una coordenada editorial', () => {

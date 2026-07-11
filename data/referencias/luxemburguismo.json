@@ -349,11 +349,11 @@
       "calidadEvidencia": "alta",
       "fuente": {
         "tipo": "otro",
-        "titulo": "Rosa Luxemburg, La revolución rusa (1918), cap. 6",
+        "titulo": "Rosa Luxemburg, The Russian Revolution (1918), cap. 6 (en inglés)",
         "url": "https://www.marxists.org/archive/luxemburg/1918/russian-revolution/ch06.htm",
         "fecha": "1918",
         "consultado": "2026-07-11",
-        "cita": "Freiheit ist immer Freiheit der Andersdenkenden"
+        "cita": "Freedom is always and exclusively freedom for the one who thinks differently."
       },
       "grupoEvidencia": "pasaje-9b2abe7240f1842eca77"
     },
@@ -367,7 +367,7 @@
         "url": "https://www.marxists.org/archive/luxemburg/1918/11/18c-alt.htm",
         "fecha": "1918-11",
         "consultado": "2026-07-11",
-        "cita": "We demand that capital punishment be stricken from the German Penal Code!"
+        "cita": "We demand the excision of capital punishment from the German penal code!"
       },
       "grupoEvidencia": "pasaje-a48608f19f75bfd65c71"
     },
@@ -392,10 +392,8 @@
         "titulo": "Luxemburg, What Does the Spartacus League Want?, demandas económicas (en inglés)",
         "url": "https://www.rosalux.de/stiftung/rosa-luxemburg-1/what-does-the-spartacus-league-want",
         "fecha": "1918-12-14",
-        "consultado": "2026-07-11",
-        "cita": "confiscation of all dynastic wealth and income for the community; expropriation of the lands and fields of all large and medium agricultural enterprises"
-      },
-      "grupoEvidencia": "pasaje-b12858a31489b18449e6"
+        "consultado": "2026-07-11"
+      }
     }
   }
 }

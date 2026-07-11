@@ -425,20 +425,6 @@
         "fecha": "1977",
         "consultado": "2026-07-11"
       }
-    },
-    "der-026": {
-      "valor": -2,
-      "justificacion": "El mismo principio de las libertades democráticas como logro histórico irrenunciable, y la práctica del PCE legalizado en 1977 sin promover ilegalizaciones, son incompatibles con ilegalizar partidos por defender la secesión.",
-      "calidadEvidencia": "media",
-      "fuente": {
-        "tipo": "otro",
-        "titulo": "Santiago Carrillo, «Eurocomunismo» y Estado",
-        "url": "https://omegalfa.es/downloadfile.php?file=libros/eurocomunismo-y-estado.pdf",
-        "fecha": "1977",
-        "consultado": "2026-07-10",
-        "cita": "las libertades democráticas y los derechos humanos representan un logro histórico irrenunciable del progreso humano"
-      },
-      "grupoEvidencia": "pasaje-98294689b491f721b038"
     }
   }
 }

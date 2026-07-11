@@ -1298,11 +1298,19 @@ test('el plano detallado ofrece objetivos táctiles reales y desambigua los cúm
       await planoDetalle.locator(`.mapa-punto[data-entidad-id="${cumulo}"]`).click({ force: true });
       const panelCumulo = page.locator('.mapa-cumulo');
       await expect(panelCumulo).toBeVisible();
+      /* El panel recibe el foco al abrirse (anuncio para lector de pantalla). */
+      await expect(panelCumulo).toBeFocused();
       const opciones = panelCumulo.getByRole('button');
       expect(await opciones.count()).toBeGreaterThan(1);
       await opciones.last().click();
       await expect(panelCumulo).toHaveCount(0);
       await expect(page.locator('.mapa-lectura')).toBeVisible();
+      /* Al resolver, el foco vuelve al punto elegido, no se pierde en body. */
+      await expect
+        .poll(async () =>
+          page.evaluate(() => document.activeElement?.getAttribute('data-entidad-id') ?? null),
+        )
+        .not.toBeNull();
     }
 
     /* El teclado no depende del cúmulo: cada punto conserva su tabulador. */

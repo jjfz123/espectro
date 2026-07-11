@@ -192,13 +192,13 @@
     },
     "soc-003": {
       "valor": 2,
-      "justificacion": "La recepción española reformista del tipo ideal amparó en legislación de seguridad la videovigilancia en espacios públicos: la Ley Orgánica 4/2015 de protección de la seguridad ciudadana, aprobada en 2015 con el voto favorable del grupo popular, autoriza la grabación con videocámaras por las fuerzas de seguridad cuando exista un riesgo razonable para la seguridad ciudadana.",
+      "justificacion": "La recepción española reformista del tipo ideal amparó por ley la videovigilancia en espacios públicos: la Ley Orgánica 4/1997, de utilización de videocámaras por las Fuerzas y Cuerpos de Seguridad, aprobada bajo gobierno del Partido Popular, la autoriza cuando exista un riesgo razonable para la seguridad ciudadana; la LO 4/2015 remite a esa normativa específica.",
       "calidadEvidencia": "alta",
       "fuente": {
         "tipo": "otro",
-        "titulo": "Ley Orgánica 4/2015 de protección de la seguridad ciudadana (BOE-A-2015-3442)",
-        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-3442",
-        "fecha": "2015-03-30",
+        "titulo": "Ley Orgánica 4/1997, de utilización de videocámaras por las Fuerzas y Cuerpos de Seguridad (BOE-A-1997-17574)",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1997-17574",
+        "fecha": "1997-08-05",
         "consultado": "2026-07-11",
         "cita": "cuando exista un riesgo razonable para la seguridad ciudadana"
       },

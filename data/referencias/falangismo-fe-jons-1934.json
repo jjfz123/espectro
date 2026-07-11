@@ -18,7 +18,7 @@
     "uso-fuerza"
   ],
   "sensibilidad": "antipluralista",
-  "advertencia": "Es una referencia histórica sensible y no la ficha de FE-JONS actual. Se delimita al programa de 1934 para no sumarle retrospectivamente la confesionalidad, la monarquía y la práctica del franquismo, ni el foralismo carlista. Fue un programa totalitario y revolucionario, pero guarda silencio sobre muchos derechos contemporáneos; esos huecos no se codifican. Entra en Economía × Poder por sus anclas económicas, de pluralismo y de organización y, con anclas sociales documentadas de 1934 (coacción legítima, propiedad, antiautonomismo), también en Economía × Sociedad; no sale a los planos territoriales que no cubra ni al cubo 3D, sin inferencias GAL–TAN inventadas. Una afinidad parcial nunca identifica al usuario como falangista ni legitima el antipluralismo o la violencia política.",
+  "advertencia": "Es una referencia histórica sensible y no la ficha de FE-JONS actual. Se delimita al programa de 1934 —con los «Puntos iniciales» de 1933 como doctrina fundacional declarada— para no sumarle retrospectivamente la confesionalidad, la monarquía y la práctica del franquismo, ni el foralismo carlista. Fue un programa totalitario y revolucionario, pero guarda silencio sobre muchos derechos contemporáneos; esos huecos no se codifican. Entra en Economía × Poder por sus anclas económicas, de pluralismo y de organización; en Economía × Sociedad sigue fuera: sus anclas sociales documentadas no alcanzan aún cuatro pasajes independientes y no se rellenan. Una afinidad parcial nunca identifica al usuario como falangista ni legitima el antipluralismo o la violencia política.",
   "fuentesMarco": [
     {
       "tipo": "otro",
@@ -278,7 +278,7 @@
     },
     "izq-044": {
       "valor": -2,
-      "justificacion": "Doctrina de coacción legítima al servicio del orden y de la disciplina jerárquica (punto 27): el programa acepta la violencia como lícita al servicio del ideal nacional y nada en el corpus apunta a reducir las funciones coercitivas del Estado ni a trasladar los conflictos a mecanismos comunitarios. Es una evaluación de principio, no una referencia a la policía concreta de 1934.",
+      "justificacion": "Doctrina de coacción legítima al servicio del orden nacional: acepta la violencia como lícita al servicio del ideal y nada en el corpus apunta a reducir las funciones coercitivas del Estado ni a trasladar los conflictos a mecanismos comunitarios. La fuente son los «Puntos iniciales» de Falange Española (dic. 1933, previos a la fusión con las JONS), usados como doctrina fundacional que el programa de 1934 continúa, y así se declara. Evaluación de principio, no de la policía de la época.",
       "calidadEvidencia": "media",
       "fuente": {
         "tipo": "otro",
@@ -294,20 +294,6 @@
       "valor": -2,
       "justificacion": "El punto 13 reconoce y protege la propiedad privada como medio lícito de los fines individuales, familiares y sociales, y los puntos 17-19 (reforma agraria dirigida por el Estado, propiedad familiar) y 27 (acción solo bajo la disciplina del movimiento) la subordinan al interés nacional: rechaza legitimar la ocupación de edificios como acción política. Valoración de principio; la okupación urbana moderna no existía en 1934.",
       "calidadEvidencia": "alta",
-      "fuente": {
-        "tipo": "otro",
-        "titulo": "27 Puntos de FE de las JONS, punto 13 (reproducción de ABC, 30 de noviembre de 1934)",
-        "url": "https://filosofia.org/hem/dep/abc/9341130.htm",
-        "fecha": "1934-11-30",
-        "consultado": "2026-07-11",
-        "cita": "El Estado reconocerá la propiedad privada como medio lícito para el cumplimiento de los fines individuales, familiares y sociales, y la protegerá contra los abusos del gran capital financiero, de los especuladores y de los prestamistas."
-      },
-      "grupoEvidencia": "pasaje-ba664e28a466b406d6ac"
-    },
-    "eco-007": {
-      "valor": 1,
-      "justificacion": "Coherencia de principio con la protección de la propiedad privada del punto 13 frente a su ocupación, sin atribuir al programa de 1934 una técnica jurídica moderna como el desalojo exprés: por eso el acuerdo es parcial (+1) y no máximo.",
-      "calidadEvidencia": "media",
       "fuente": {
         "tipo": "otro",
         "titulo": "27 Puntos de FE de las JONS, punto 13 (reproducción de ABC, 30 de noviembre de 1934)",

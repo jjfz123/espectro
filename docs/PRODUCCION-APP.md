@@ -58,7 +58,7 @@ El build auditado como referencia produjo aproximadamente:
 |---|---:|---:|---|
 | aplicación inicial | 367 kB | 103 KiB | inmediata |
 | resultados y organizaciones | 1.133 kB | 261 KiB | diferida |
-| atlas 2D + referencias | 635 kB | 144 KiB | al solicitar el mapa |
+| atlas 2D + referencias | 635 kB | 144 KiB | diferida automática al abrir resultados (el cuadrante se muestra sin exigir clic; norma dura del atlas) |
 | comparación doctrinal | 595 kB | 131 KiB | al solicitarla |
 | visor 3D incremental | 926 kB | 244 KiB | al solicitarlo desde el mapa |
 | precache PWA completo | 3,04 MiB | depende de compresión HTTP | segundo plano |
@@ -183,7 +183,7 @@ Mientras el catálogo crece, usar como alarma —no como sustituto de la medici�
 
 - JavaScript inicial ≤ 120 kB gzip;
 - resultados y organizaciones ≤ 390 KiB gzip;
-- atlas 2D y referencias bajo gesto ≤ 180 KiB y ≤ 150 KiB gzip adicionales;
+- atlas 2D (carga diferida automática con resultados) ≤ 180 KiB y referencias doctrinales (bajo gesto) ≤ 150 KiB gzip adicionales;
 - visor 3D ≤ 300 kB gzip;
 - LCP ≤ 2,5 s y CLS ≤ 0,05 en un móvil medio;
 - Lighthouse rendimiento, accesibilidad, buenas prácticas y SEO ≥ 95;
