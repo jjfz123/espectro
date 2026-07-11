@@ -44,6 +44,7 @@ Este documento es el cierre obligatorio, elemento por elemento. Una casilla solo
 - [ ] Fascismo italiano queda periodizado nominalmente en San Sepolcro/Fasci di Combattimento, premarcha/régimen y Salò, con fuentes por fase, preguntas no nominales y sin promediar posiciones incompatibles.
 - [ ] Carlismo tradicionalista, Partido Carlista/socialismo autogestionario y escisiones/etapas tienen recibos separados que prueban qué preguntas los acercan y cuáles los distinguen.
 - [ ] Aceleracionismo neonazi/Atomwaffen se trata como arquetipo de seguridad no identitario, con fuente española aportada, veto de gamificación/captación y umbral reforzado de coincidencias.
+- [ ] Revisar LeftValues (leftvalues.github.io) y RightValues (rightvaluestest.github.io) como referencia comparada aportada por el propietario para afinar la discriminación interna de izquierda y derecha: qué subejes y qué preguntas discriminantes usan, qué adaptaríamos y qué no (licencias, sesgos y calidad por auditar); sin copiar ítems literales.
 
 ## Resultado ideológico y explicación metodológica
 
