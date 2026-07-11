@@ -282,6 +282,14 @@ test('glosario: se abre desde la marca, enlaza a Wikipedia y cierra con Escape',
   await expect(marca).toBeVisible();
   await marca.click();
   await expect(page.getByText('Del glosario')).toBeVisible();
+  /* La ampliación llega plegada bajo «Más detalle» y se abre bajo demanda:
+     el primer ítem con glosario del rápido (autodeterminación) la tiene. */
+  const masDetalle = page.locator('.glosario-mas').first();
+  await expect(masDetalle).toBeVisible();
+  await expect(masDetalle).not.toHaveAttribute('open', '');
+  await masDetalle.locator('summary').click();
+  await expect(masDetalle).toHaveAttribute('open', '');
+  expect(((await masDetalle.locator('p').textContent()) ?? '').length).toBeGreaterThan(150);
   await expect(page.getByRole('link', { name: /Ver en Wikipedia/i }).first()).toHaveAttribute(
     'href',
     /wikipedia\.org/,

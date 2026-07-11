@@ -3,12 +3,14 @@
     "id": "democracia-organica",
     "termino": "Democracia orgánica",
     "definicion": "Sistema de representación del franquismo en el que la participación política no pasaba por partidos y sufragio universal, sino por las llamadas «entidades naturales»: la familia, el municipio y el sindicato oficial. Sus defensores la presentan como alternativa al parlamentarismo de partidos; en la práctica histórica excluyó el pluralismo político.",
+    "ampliacion": "Se construyó por etapas: la Ley de Cortes (1942) creó unas Cortes de «procuradores» no elegidos por sufragio universal, organizados en «tercios» —familia, municipio y sindicato oficial—; el tercio familiar no se votó hasta 1967, y solo por cabezas de familia y mujeres casadas. La Ley Orgánica del Estado (referéndum de 1966) consolidó la etiqueta «democracia orgánica» frente a la democracia «inorgánica» de partidos, sin partidos ni sindicatos libres ni alternancia posible. El sistema terminó con la Ley para la Reforma Política (referéndum de 1976) y la Constitución de 1978; hoy solo lo reivindican grupos sin representación parlamentaria.",
     "url": "https://es.wikipedia.org/wiki/Democracia_org%C3%A1nica"
   },
   {
     "id": "sindicato-vertical",
     "termino": "Sindicato vertical",
     "definicion": "Modelo sindical del nacionalsindicalismo y del franquismo: una única organización obligatoria por sector que integra juntos a trabajadores y empresarios, en lugar de sindicatos de clase independientes de la patronal. Es la propuesta laboral histórica del falangismo. Dentro del propio falangismo conviven lecturas enfrentadas: la corporativa mixta (la que aplicó el sindicato oficial del franquismo) y otra radicalizada que rechaza integrar a la patronal en la misma organización.",
+    "ampliacion": "El Fuero del Trabajo (1938) lo creó y las leyes sindicales de 1940 lo consolidaron: afiliación obligatoria y conjunta de trabajadores y empresarios en la Organización Sindical Española, único sindicato legal del franquismo, con la huelga prohibida y los cargos designados desde arriba; Comisiones Obreras nació precisamente infiltrándose en sus estructuras. Se desmanteló en 1977 con la llegada de la libertad sindical. El punto 9 del programa de Falange (1934) ya proponía «sindicatos verticales por ramas de la producción»; si debían integrar también a la patronal —como hizo el régimen— o solo a los trabajadores es la disputa que aún separa las lecturas falangistas.",
     "url": "https://es.wikipedia.org/wiki/Organizaci%C3%B3n_Sindical_Espa%C3%B1ola"
   },
   {
@@ -45,18 +47,21 @@
     "id": "autodeterminacion",
     "termino": "Derecho de autodeterminación",
     "definicion": "Derecho de un pueblo a decidir su estatus político, incluida la posibilidad de formar un Estado propio. En derecho internacional se reconoce con claridad para casos coloniales; su aplicación a territorios de Estados democráticos (Cataluña, Euskadi, Escocia, Quebec) es jurídicamente discutida — ahí está exactamente el debate político.",
+    "ampliacion": "En el derecho internacional (Carta de la ONU y pactos de 1966) se reconoce a los pueblos, y su aplicación clásica son las colonias. Fuera de ese contexto está discutida: Canadá (1998) negó a Quebec un derecho unilateral pero obligó a negociar tras una mayoría clara, y el tribunal de la ONU (2010) evitó pronunciarse sobre Kosovo. En España, el Constitucional (SSTC 42/2014 y 114/2017) sostiene que la soberanía es del conjunto del pueblo español y que un referéndum así exigiría reformar la Constitución. Quienes lo defienden señalan el precedente pactado de Escocia 2014; quienes lo rechazan, la unidad del art. 2 y que casi ninguna constitución del mundo reconoce la secesión de una parte de su territorio.",
     "url": "https://es.wikipedia.org/wiki/Derecho_de_autodeterminaci%C3%B3n"
   },
   {
     "id": "concierto-economico",
     "termino": "Concierto económico (y convenio navarro)",
     "definicion": "Sistema de financiación propio de Euskadi (concierto) y Navarra (convenio): sus haciendas recaudan casi todos los impuestos y pagan al Estado una cantidad («cupo» o «aportación») por los servicios comunes. Sus defensores lo consideran un derecho histórico reconocido en la Constitución; sus críticos, un privilegio respecto a la financiación del resto de comunidades.",
+    "ampliacion": "Funciona así: las haciendas vascas y navarra recaudan casi todos los impuestos en su territorio y pagan al Estado una cantidad anual —cupo vasco (1.532,9 millones aprobados para 2026) y aportación navarra— por los servicios comunes no transferidos (defensa, exteriores, Corona…). Está reconocido en la disposición adicional primera de la Constitución como derecho histórico. Sus defensores subrayan esa raíz foral y la responsabilidad fiscal que exige recaudar antes de gastar; sus críticos discuten el cálculo del cupo —que consideran favorable— y que el resto de comunidades no puedan acceder a un sistema equivalente.",
     "url": "https://es.wikipedia.org/wiki/Concierto_econ%C3%B3mico"
   },
   {
     "id": "ref-canario",
     "termino": "REF (Régimen Económico y Fiscal de Canarias)",
     "definicion": "Conjunto de especialidades económicas y fiscales de Canarias reconocidas por su lejanía e insularidad: impuestos indirectos propios más bajos que el IVA (IGIC), incentivos a la inversión y compensaciones al transporte. No es un sistema de financiación como el concierto vasco: Canarias sigue en el régimen común.",
+    "ampliacion": "El REF concreta en leyes (hoy, Ley 19/1994) un fuero económico histórico: IGIC en lugar de IVA, Zona Especial Canaria con sociedades a tipo reducido, deducciones a la inversión y compensaciones al transporte, justificado por la lejanía y la insularidad que la UE reconoce a las regiones ultraperiféricas (art. 349 TFUE). La Comisión Europea ha autorizado prorrogar la ZEC más allá de 2027, hasta 2032. Sus defensores lo consideran compensación imprescindible de sobrecostes; sus críticos discuten si sus beneficios llegan al conjunto de la población o se concentran en determinados sectores.",
     "url": "https://es.wikipedia.org/wiki/R%C3%A9gimen_Econ%C3%B3mico_y_Fiscal_de_Canarias"
   },
   {
@@ -75,12 +80,14 @@
     "id": "foralismo",
     "termino": "Foralismo / derechos históricos",
     "definicion": "Defensa de los fueros: los regímenes jurídicos e instituciones propias que ciertos territorios (Euskadi, Navarra) mantuvieron históricamente y que la Constitución «ampara y respeta» en su disposición adicional primera. El foralismo busca ampliar el autogobierno actualizando esos derechos, sin necesidad de independencia; fue también bandera del carlismo.",
+    "ampliacion": "La foralidad moderna nace de la pérdida de los Fueros —leyes de 1839 y 1841 en Navarra, con la Ley Paccionada; de 1876 en las provincias vascas tras la guerra carlista— y de su actualización posterior: el concierto económico de 1878, restaurado en 1981, y el Amejoramiento del Fuero navarro (1982). El lema carlista «Dios, Patria, Fueros, Rey» recuerda que la defensa foral es muy anterior al nacionalismo vasco. La Constitución ampara esos derechos históricos y permite actualizarlos «en el marco de la Constitución»: el foralismo pactista ve ahí una vía gradual y segura de más autogobierno; el independentismo responde que esa vía tiene techo mientras dependa del consentimiento del Estado, y reclama la soberanía plena.",
     "url": "https://es.wikipedia.org/wiki/Derechos_hist%C3%B3ricos_(Espa%C3%B1a)"
   },
   {
     "id": "ordinalidad",
     "termino": "Principio de ordinalidad",
     "definicion": "Criterio según el cual la solidaridad entre territorios no debería alterar su orden: una comunidad que aporta más de lo que recibe no debería quedar, tras la redistribución, por detrás en financiación por habitante de las que reciben. Lo reivindican sobre todo Cataluña y otros territorios contribuyentes netos; sus críticos alegan que limita la redistribución.",
+    "ampliacion": "El principio dice: la ayuda entre territorios puede reducir diferencias, pero no cambiar el orden — quien aporta más por habitante antes de la nivelación no debería quedar por detrás después. Se invoca el precedente alemán y en España lo recogió el Estatut catalán de 2006, avalado con matices por el Constitucional; el acuerdo de financiación Gobierno-Generalitat de julio de 2025 lo fija como condición del nuevo modelo. Sus partidarios lo ven una regla de justicia que evita penalizar a quien más contribuye; sus críticos temen que limite la redistribución hacia las comunidades con menos recursos, que dependen de esa nivelación para prestar servicios equivalentes.",
     "url": "https://es.wikipedia.org/wiki/Balanza_fiscal"
   },
   {
@@ -99,24 +106,28 @@
     "id": "mochila-austriaca",
     "termino": "Mochila austriaca",
     "definicion": "Sistema laboral en el que la empresa aporta cada mes a un fondo individual del trabajador, que este conserva al cambiar de empleo y puede cobrar si es despedido o al jubilarse; sustituye (total o parcialmente) a la indemnización por despido. Propuesta identitaria del socioliberalismo español.",
+    "ampliacion": "El nombre viene de Austria, que en 2003 sustituyó la indemnización por despido de los contratos nuevos por una aportación mensual de la empresa (el 1,53% del salario bruto) a un fondo personal que el trabajador conserva al cambiar de empleo y puede cobrar tras tres años cotizados si es despedido, o al jubilarse; el seguro de paro austriaco es un sistema aparte que no desaparece. En España la propuso en 2009 el llamado manifiesto de los cien economistas junto al «contrato único», y la reforma laboral de 2010 llegó a ordenar la creación de un fondo similar que nunca se desarrolló. Sus partidarios destacan que elimina el miedo a perder la antigüedad al cambiar de trabajo y que protege también a los temporales; sus críticos, que abarata el despido y que su coste acabaría descontándose del salario.",
     "url": "https://es.wikipedia.org/wiki/Mochila_austriaca"
   },
   {
     "id": "impuesto-plano",
     "termino": "Impuesto plano (tipo único)",
     "definicion": "IRPF con un solo porcentaje para todas las rentas, en lugar de tramos crecientes (progresividad). Sus defensores alegan sencillez y neutralidad; sus críticos, que renuncia a la redistribución: con tipo único, quien más gana deja de pagar proporcionalmente más.",
+    "ampliacion": "La Constitución (art. 31) exige progresividad al sistema tributario en su conjunto, no a cada impuesto por separado; por eso las propuestas suelen combinar el tipo único con un mínimo exento, de modo que el porcentaje efectivo sigue creciendo con la renta, aunque menos que con tramos. La experiencia europea es mixta: Estonia lo aplica desde 1994 y Bulgaria o Hungría lo mantienen, mientras que Eslovaquia (2013), Letonia, Chequia (2021), Rusia y Lituania (2026) volvieron a los tramos, casi siempre por necesidades de recaudación. El FMI no encontró pruebas de que la rebaja de tipos se autofinancie. Sus defensores subrayan la sencillez y los menores incentivos a la elusión; sus críticos, que reduce la aportación de las rentas más altas y desplaza la carga hacia las medias.",
     "url": "https://es.wikipedia.org/wiki/Impuesto_plano"
   },
   {
     "id": "pensiones-capitalizacion",
     "termino": "Capitalización vs. reparto (pensiones)",
     "definicion": "En el sistema de reparto (el español), las cotizaciones de los trabajadores de hoy pagan las pensiones de los jubilados de hoy. En el de capitalización, cada persona acumula su propio fondo invertido. La disputa: el reparto depende de la demografía; la capitalización, de los mercados, y la transición entre sistemas es costosa.",
+    "ampliacion": "En el reparto, las cotizaciones de hoy pagan las pensiones de hoy; en la capitalización, cada persona acumula un fondo propio. España usa el reparto: desde la Ley 21/2021 las pensiones suben cada año con el IPC medio (y no bajan si es negativo), y una cotización extra (el MEI) rellena la hucha del Fondo de Reserva, que pasó de 66.815 millones en 2011 a 2.141 en 2022 y remonta (15.267 en marzo de 2026). El Pacto de Toledo (1995; renovado en 2020) orienta las reformas por consenso. Quienes defienden capitalizar señalan el envejecimiento y que cada generación financie lo suyo; quienes defienden el reparto, que capitalizar expone la pensión a los mercados, deja fuera a quien menos ahorra y tiene un coste de transición enorme.",
     "url": "https://es.wikipedia.org/wiki/Sistema_de_pensiones"
   },
   {
     "id": "educacion-concertada",
     "termino": "Educación concertada",
     "definicion": "Colegios de titularidad privada (mayoritariamente religiosos en España) financiados con dinero público mediante «conciertos». Es la vía intermedia entre pública y privada, y uno de los ejes del debate educativo: libertad de elección de las familias frente a prioridad de la red pública.",
+    "ampliacion": "El concierto nace de la LODE (1985): la administración paga módulos por aula a centros privados que a cambio deben ser gratuitos y admitir alumnado con los mismos criterios que la pública. Escolariza a en torno a la cuarta parte del alumnado (dos tercios van a la pública), con el máximo cerca de la mitad en el País Vasco. Es distinto del cheque escolar, nunca implantado en España en la etapa obligatoria: ahí el dinero público sigue a la familia, que elige centro. En el debate pesan la libertad de enseñanza del art. 27 de la Constitución y el menor coste por plaza concertada, frente a los estudios que sitúan a España entre los países de la OCDE con más segregación escolar por renta, atribuida solo en parte a la concertada, junto al barrio de residencia.",
     "url": "https://es.wikipedia.org/wiki/Educaci%C3%B3n_concertada"
   },
   {
@@ -165,12 +176,14 @@
     "id": "prision-permanente-revisable",
     "termino": "Prisión permanente revisable",
     "definicion": "Pena de cárcel de duración indefinida para los delitos más graves: cumplido un mínimo de años (25-35 según el caso), un tribunal revisa cada cierto tiempo si la persona puede salir. Se introdujo en España en 2015. Quien la defiende la considera proporcionada para crímenes atroces y compatible con la reinserción por ser revisable; quien la critica la ve como una cadena perpetua encubierta. El Tribunal Constitucional la avaló en 2021.",
+    "ampliacion": "Introducida en 2015 para asesinatos especialmente graves (víctimas menores, tras violación, terrorismo…), es prisión sin plazo fijo con primera revisión a los 25 años: si el tribunal aprecia reinserción, abre la libertad condicional; si no, sigue en prisión. El Constitucional la avaló en 2021 (STC 169/2021, 7 votos a 3). Sus partidarios la consideran proporcionada para crímenes excepcionales y homologable a Europa; sus críticos, una cadena perpetua encubierta de dudoso encaje con la reinserción del art. 25 CE, y recuerdan que los votos discrepantes del propio Tribunal apuntaron en esa dirección.",
     "url": "https://es.wikipedia.org/wiki/Prisi%C3%B3n_permanente_revisable"
   },
   {
     "id": "consejo-general-poder-judicial",
     "termino": "Consejo General del Poder Judicial (CGPJ)",
     "definicion": "Órgano que gobierna a los jueces en España: nombra los altos cargos judiciales (Tribunal Supremo, presidencias de tribunales) e inspecciona y disciplina la carrera judicial, pero no juzga. La disputa principal es cómo elegir a sus vocales: hoy los designa el Parlamento por mayoría reforzada; un sector propone que los jueces elijan directamente a los vocales de procedencia judicial, en nombre de la independencia, mientras otro defiende la legitimación parlamentaria.",
+    "ampliacion": "Sus 20 vocales los eligen las Cortes por mayoría de tres quintos (12 entre jueces y 8 juristas), y ahí vive el debate: si los 12 judiciales deberían elegirlos los propios jueces, como pide parte de la carrera y recomiendan informes europeos, o el Parlamento, como defiende quien teme un poder judicial corporativo. Tras más de cinco años bloqueado, PSOE y PP pactaron su renovación en junio de 2024 y encargaron al propio Consejo una propuesta sobre el sistema de elección; esa reforma sigue pendiente. El Consejo no juzga: gobierna la carrera (nombramientos, ascensos, disciplina), por eso su composición importa tanto.",
     "url": "https://es.wikipedia.org/wiki/Consejo_General_del_Poder_Judicial"
   },
   {
