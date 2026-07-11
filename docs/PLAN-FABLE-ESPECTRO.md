@@ -41,6 +41,10 @@ Documento vivo. Estados válidos: `pendiente | investigando | bloqueada | implem
 | DATA-004 | P2 | Datos | Codificar con fuentes doctrinales las posiciones de las referencias tipo-ideal sobre lab-028/029/030 (hoy la tríada no discrimina: ninguna entidad la posiciona) | MERGE-002 | Sonnet | data/referencias/ | validate + audit | pendiente | hallazgo adversarial [5] |
 | QA-001 | P0 | Calidad | E2E Chromium+Firefox+WebKit en verde local (navegadores ya instalados) | — | Fable | web/ | playwright | investigando | E2E chromium 23/23 en cada tanda; proyectos Firefox/WebKit del config aún pendientes |
 | QA-002 | P0 | Calidad | Revisión adversarial independiente por tanda + matriz global antes/después + informe final | todas | Fable | docs/AUDITORIA-FINAL-FABLE.md | matriz | verificada | workflow adversarial 4 dimensiones, 11 confirmados: 10 corregidos (2a9437d), 1 → DATA-004 |
+| ATLAS-004 | P0 | Atlas | Profundidad por defecto en todos los niveles y cuadrante desplegado sin exigir clic (casilla TODO «vista de profundidad») | — | Fable | web/src/componentes/MapaPolitico.tsx, web/src/vistas/Resultados.tsx, web/e2e | E2E + visual | implementando | rama fable/todo-atlas-cuadrante |
+| ATLAS-005 | P0 | Atlas | Vista simple: compass pelado conmutable, nunca estado inicial ni sustituto (casilla TODO «vista simple») | ATLAS-004 | Fable | web/src, web/e2e | E2E | implementando | test E2E dedicado |
+| ATLAS-006 | P0 | Atlas | Objetivo de clic/toque real ≥44×44 px en todos los puntos del plano detallado y anclas; desambiguación de cúmulos (casilla TODO «clicabilidad», caso CUP) | — | Fable | web/src/componentes/MapaPolitico.tsx, web/src/estilos.css, web/e2e | E2E con medición + visual | implementando | hits r=24/38 + panel de cúmulo |
+| ATLAS-007 | P1 | Datos | Poblar Economía×Sociedad: más referencias alcanzan 4+4 posiciones documentadas (casilla TODO «poblar el cuadrante»); presupuesto referencias ≤150 KiB vigilado | — | Opus (worktree) + Sonnet (fuentes) | data/referencias/*.json | validate:data + test + web:budget + visual | investigando | tabla de brechas: 2 refs a ≤3 posiciones, 11 a 4-8; ~37 posiciones de holgura gzip |
 
 ## Notas de alcance
 

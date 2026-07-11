@@ -3085,7 +3085,8 @@ h3 {
 @media (max-width: 34rem) {
   .mapa-punto__hit {
     /* El SVG se escala hasta 280 px en un viewport de 320; 38 unidades
-       conservan un diámetro real ligeramente superior a 44 CSS px. */
+       conservan un diámetro real ligeramente superior a 44 CSS px. La regla
+       gemela de .mapa-ancla-bloqueada__hit vive junto a sus estilos base. */
     r: 38px;
   }
 }

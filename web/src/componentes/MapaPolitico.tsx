@@ -694,7 +694,7 @@ function AnclasAtlasBloqueadas({
             }}
           >
             <title>{`${corriente.nombre} — prior en investigación; no posee celda ni participa en cercanía`}</title>
-            <circle className="mapa-ancla-bloqueada__hit" cx={cx} cy={cy} r={14} />
+            <circle className="mapa-ancla-bloqueada__hit" cx={cx} cy={cy} r={24} />
             <circle className="mapa-ancla-bloqueada__forma" cx={cx} cy={cy} r={5} />
             {estaActiva ? (
               <text className="mapa-ancla-bloqueada__rotulo" x={cx + 9} y={cy - 8}>
@@ -940,16 +940,23 @@ export function MapaPolitico({
   const [seleccion, setSeleccion] = useState<string | null>(null);
   const [ver3D, setVer3D] = useState(false);
   /* Corrientes activadas por defecto, sin sopa de rótulos: el nombre y la
-     explicación aparecen al pasar, enfocar o tocar una región. */
+     explicación aparecen al pasar, enfocar o tocar una región. Desactivarlas
+     deja la vista simple (compass pelado), siempre como alternativa
+     conmutable y nunca como estado inicial. */
   const [verCorrientes, setVerCorrientes] = useState(true);
-  const [profundidadAtlasActivada, setProfundidadAtlasActivada] = useState(
-    nivelPerfil === 'exhaustivo',
-  );
+  /* Norma dura del atlas: la vista de profundidad es el estado por defecto
+     en todos los niveles de perfil; «Incluir corrientes de profundidad» va
+     activado de entrada y sigue siendo conmutable fuera del exhaustivo. */
+  const [profundidadAtlasActivada, setProfundidadAtlasActivada] = useState(true);
   const [corrienteTemporal, setCorrienteTemporal] = useState<string | null>(null);
   const [corrienteFijada, setCorrienteFijada] = useState<string | null>(null);
   const [vistaRotuloOriginalFijada, setVistaRotuloOriginalFijada] = useState(false);
   const [partidoBrujulaFijado, setPartidoBrujulaFijado] = useState<string | null>(null);
   const [cumuloPartidos, setCumuloPartidos] = useState<string[]>([]);
+  /* Cúmulo del plano detallado: cuando varios puntos comparten objetivo de
+     toque, un clic abre la desambiguación en lugar de premiar al de encima.
+     El teclado no lo necesita: cada punto conserva su propio tabulador. */
+  const [cumuloDetalle, setCumuloDetalle] = useState<string[]>([]);
   const incluirProfundidadAtlas =
     nivelPerfil === 'exhaustivo' || profundidadAtlasActivada;
   const corrientesVisibles = useMemo(
@@ -1208,7 +1215,8 @@ export function MapaPolitico({
           </label>
           <span className="mapa-corrientes-control__nota">
             Explora una zona para explicar una corriente; señala un punto para identificar un
-            partido.
+            partido. Sin marcar queda la vista simple: un plano pelado con ejes, cuadrantes, tu
+            punto y los partidos.
           </span>
           {nivelPerfil === 'exhaustivo' ? (
             <span className="mapa-corrientes-control__nota" role="status">
@@ -1518,6 +1526,7 @@ export function MapaPolitico({
               onChange={() => {
                 setParId(opcion.id);
                 setSeleccion(null);
+                setCumuloDetalle([]);
               }}
             />
             {opcion.nombre}
@@ -1539,7 +1548,10 @@ export function MapaPolitico({
             role="group"
             aria-labelledby={tituloPlanoId}
             aria-describedby={descripcionId}
-            onClick={() => setSeleccion(null)}
+            onClick={() => {
+              setSeleccion(null);
+              setCumuloDetalle([]);
+            }}
           >
             <title id={tituloPlanoId}>Plano {par.nombre}</title>
             {/* Marco y cruz central: filetes de 1px, fondo en papel. */}
@@ -1563,6 +1575,7 @@ export function MapaPolitico({
                   key={punto.id}
                   className="mapa-punto"
                   data-tipo={punto.tipo}
+                  data-entidad-id={punto.id}
                   data-seleccionado={seleccionado}
                   role="button"
                   tabIndex={0}
@@ -1574,16 +1587,34 @@ export function MapaPolitico({
                   }
                   onClick={(evento) => {
                     evento.stopPropagation();
+                    /* Puntero/táctil: si varios puntos comparten el objetivo
+                       ampliado, se pregunta cuál en vez de premiar al de
+                       encima; ninguno queda inaccesible por tamaño. */
+                    const cercanos = idsPartidosEnCumulo(puntos, punto.id);
+                    if (cercanos.length > 1 && !seleccionado) {
+                      setSeleccion(null);
+                      setCumuloDetalle(cercanos);
+                      return;
+                    }
+                    setCumuloDetalle([]);
                     setSeleccion(seleccionado ? null : punto.id);
                   }}
                   onKeyDown={(evento) => {
                     if (evento.key === 'Enter' || evento.key === ' ') {
                       evento.preventDefault();
+                      setCumuloDetalle([]);
                       setSeleccion(seleccionado ? null : punto.id);
                     }
                   }}
                 >
                   <title>{punto.nombre}</title>
+                  <circle
+                    className="mapa-punto__hit"
+                    cx={punto.cx}
+                    cy={punto.cy}
+                    r={24}
+                    aria-hidden="true"
+                  />
                   {etiqueta && !etiqueta.elidida && etiquetaLejana(etiqueta, punto) ? (
                     <line
                       className="mapa-punto__guia"
@@ -1631,6 +1662,31 @@ export function MapaPolitico({
           </svg>
         </PolosPlano>
       </div>
+
+      {cumuloDetalle.length > 1 ? (
+        <div className="mapa-cumulo" role="group" aria-label="Puntos muy próximos en este plano">
+          <p>Hay varios puntos casi en el mismo lugar. Elige cuál quieres leer:</p>
+          <div>
+            {cumuloDetalle.map((id) => {
+              const punto = puntos.find((candidato) => candidato.id === id);
+              return punto ? (
+                <button
+                  key={id}
+                  type="button"
+                  className="boton boton--terciario"
+                  onClick={() => {
+                    setCumuloDetalle([]);
+                    setSeleccion(punto.id);
+                  }}
+                >
+                  {punto.tipo === 'usuario' ? 'Tú (tu posición)' : punto.nombre}
+                  {punto.tipo === 'referencia' ? ' (referencia doctrinal)' : ''}
+                </button>
+              ) : null;
+            })}
+          </div>
+        </div>
+      ) : null}
 
       {!usuarioEnPlano ? (
         <p className="aviso-cobertura">

@@ -201,11 +201,12 @@ async function completarRapido(page: Page) {
     .toBeVisible();
 }
 
-async function abrirMapaInteractivo(page: Page) {
-  const boton = page.getByRole('button', { name: 'Abrir mapa interactivo' });
-  await boton.click();
-  await expect(page.getByRole('heading', { name: 'Mapa del espectro' })).toBeFocused();
-  await expect(page.locator('.mapa-politico')).toBeVisible();
+async function esperarMapaDesplegado(page: Page) {
+  /* Norma dura del atlas: el cuadrante rico se muestra desplegado sin exigir
+     un clic. La espera cubre solo la resolucion del chunk perezoso, y el foco
+     del usuario no se roba en una carga normal. */
+  await expect(page.locator('.mapa-politico')).toBeVisible({ timeout: 20_000 });
+  await expect(page.getByRole('heading', { name: 'Mapa del espectro' })).not.toBeFocused();
 }
 
 async function abrirReferenciasDoctrinales(page: Page) {
@@ -310,7 +311,7 @@ test('rápido → perfil provisional → exhaustivo conserva las 50 respuestas',
     page.getByRole('heading', { name: 'Tu posición provisional y tus afinidades' }),
   ).toBeVisible();
   await expect(page.getByText(/50 ítems respondidos/)).toBeVisible();
-  await abrirMapaInteractivo(page);
+  await esperarMapaDesplegado(page);
   await expect(
     page.locator('.mapa-plano--brujula .mapa-punto[data-tipo="usuario"]'),
   ).toHaveCount(1);
@@ -404,22 +405,21 @@ test('resultados separa principales, top real y resto desplegable en móvil', as
   const auditoria = page.locator('.auditoria-afinidad');
   await expect(auditoria).not.toHaveAttribute('open', '');
   await expect(auditoria.getByText(/Auditar el cálculo y las fuentes/)).toBeVisible();
-  const abrirMapa = page.getByRole('button', { name: 'Abrir mapa interactivo' });
+  /* El cuadrante se despliega solo (norma dura del atlas); las referencias
+     doctrinales conservan su puerta bajo gesto y su chunk perezoso. */
   const abrirReferencias = page.getByRole('button', { name: 'Explorar corrientes afines' });
-  await expect(abrirMapa).toBeVisible();
   await expect(abrirReferencias).toBeVisible();
-  await expect(page.locator('.mapa-politico')).toHaveCount(0);
+  await expect(page.getByRole('button', { name: 'Abrir mapa interactivo' })).toHaveCount(0);
+  await expect(page.locator('.mapa-politico')).toBeVisible({ timeout: 20_000 });
   await expect(page.locator('.referencias-doctrinales__contenido')).toHaveCount(0);
   const recursosProfundos = await page.evaluate(() =>
     performance
       .getEntriesByType('resource')
       .map((entrada) => entrada.name)
-      .filter((nombre) => /MapaPolitico|datosReferencias|ReferenciasDoctrinales/u.test(nombre)),
+      .filter((nombre) => /ReferenciasDoctrinales/u.test(nombre)),
   );
   expect(recursosProfundos).toEqual([]);
-  for (const boton of [abrirMapa, abrirReferencias]) {
-    expect((await boton.boundingBox())?.height ?? 0).toBeGreaterThanOrEqual(44);
-  }
+  expect((await abrirReferencias.boundingBox())?.height ?? 0).toBeGreaterThanOrEqual(44);
   const desborde = await page.evaluate(
     () => document.documentElement.scrollWidth - document.documentElement.clientWidth,
   );
@@ -685,11 +685,12 @@ test('el hito de 150 persiste, ofrece perfil intermedio y reanuda sin repetirse'
   ).toBeVisible();
   await expect(page.getByText('Una lectura profunda, todavía provisional')).toBeVisible();
   await expect(page.getByText(/150 ítems respondidos/)).toBeVisible();
-  await abrirMapaInteractivo(page);
+  await esperarMapaDesplegado(page);
+  /* La vista de profundidad es el estado por defecto en todos los niveles. */
   await expect(page.locator('.mapa-plano--brujula .mapa-zona--interactiva')).toHaveCount(
-    CORRIENTES_PRINCIPALES_MAPA,
+    TOTAL_CORRIENTES_MAPA,
   );
-  await expect(page.getByLabel('Incluir corrientes de profundidad')).not.toBeChecked();
+  await expect(page.getByLabel('Incluir corrientes de profundidad')).toBeChecked();
   await page.reload();
   await expect(
     page.getByRole('heading', { name: 'Tu perfil con profundidad intermedia' }),
@@ -878,7 +879,7 @@ test('un partido monotemático aparece sin porcentaje de afinidad general', asyn
   }, CLAVE_ALMACEN);
   await page.goto('/');
 
-  await abrirMapaInteractivo(page);
+  await esperarMapaDesplegado(page);
   await expect(page.locator('.mapa-plano--brujula .mapa-zona--interactiva')).toHaveCount(
     TOTAL_CORRIENTES_MAPA,
   );
@@ -969,7 +970,7 @@ test('reintentar el 3D vuelve a solicitar el chunk después de un fallo', async 
     );
   }, CLAVE_ALMACEN);
   await page.goto('/');
-  await abrirMapaInteractivo(page);
+  await esperarMapaDesplegado(page);
   await page.getByRole('button', { name: 'Ver en 3D' }).click();
   await expect(page.getByText('No se ha podido abrir el visor 3D.')).toBeVisible();
 
@@ -1033,7 +1034,7 @@ test('el recuento del plano coincide con los puntos realmente dibujados', async 
     page.getByRole('heading', { name: 'Tu posición provisional y tus afinidades' }),
   ).toBeVisible();
 
-  await abrirMapaInteractivo(page);
+  await esperarMapaDesplegado(page);
   await page.getByText('Economía × Territorio', { exact: true }).click();
   const puntos = page.locator(
     '.mapa-plano:not(.mapa-plano--brujula) .mapa-punto[data-tipo="partido"]',
@@ -1066,15 +1067,25 @@ test('la brújula degrada el fondo y revela corrientes solo al enfocar o tocar',
   }, CLAVE_ALMACEN);
   await page.goto('/');
 
-  await abrirMapaInteractivo(page);
+  await esperarMapaDesplegado(page);
   await expect(page.locator('.mapa-plano--brujula radialGradient')).toHaveCount(4);
   await expect(page.locator('.mapa-plano--brujula svg')).toHaveAttribute(
     'aria-label',
     /Propiedad y mercado por Poder político/i,
   );
+  /* Profundidad activada de entrada: el atlas rico completo, sin exigir clic. */
+  await expect(page.getByLabel('Incluir corrientes de profundidad')).toBeChecked();
   await expect(page.locator('.mapa-plano--brujula .mapa-zona--interactiva')).toHaveCount(
-    CORRIENTES_PRINCIPALES_MAPA,
+    TOTAL_CORRIENTES_MAPA,
   );
+  await expect(page.locator('.mapa-plano--brujula .mapa-ancla-bloqueada')).toHaveCount(
+    ANCLAS_BLOQUEADAS_MAPA.length,
+  );
+  await expect(
+    page.locator('.mapa-plano--brujula .mapa-punto[data-tipo="referencia"]'),
+  ).toHaveCount(0);
+  await expect(page.locator('.mapa-plano--brujula .mapa-zona__nombre')).toHaveCount(0);
+  await expect(page.getByText(/regiones están sin rotular/i)).toBeVisible();
   const partidosBrujula = page.locator(
     '.mapa-plano--brujula .mapa-punto[data-tipo="partido"]',
   );
@@ -1097,7 +1108,7 @@ test('la brújula degrada el fondo y revela corrientes solo al enfocar o tocar',
   ).toBeGreaterThan(0);
   await expect(
     page.getByLabel('Buscar en el atlas').locator('option', { hasText: 'Posadismo' }),
-  ).toHaveCount(0);
+  ).toHaveCount(1);
   await expect(
     page.getByText(
       new RegExp(
@@ -1110,18 +1121,20 @@ test('la brújula degrada el fondo y revela corrientes solo al enfocar o tocar',
     (clave) => Object.keys(JSON.parse(localStorage.getItem(clave) ?? '{}').respuestas ?? {}).length,
     CLAVE_ALMACEN,
   );
+  await page.getByLabel('Incluir corrientes de profundidad').uncheck();
+  await expect(page.locator('.mapa-plano--brujula .mapa-zona--interactiva')).toHaveCount(
+    CORRIENTES_PRINCIPALES_MAPA,
+  );
+  await expect(page.locator('.mapa-plano--brujula .mapa-ancla-bloqueada')).toHaveCount(
+    ANCLAS_BLOQUEADAS_PRINCIPALES,
+  );
+  await expect(
+    page.getByLabel('Buscar en el atlas').locator('option', { hasText: 'Posadismo' }),
+  ).toHaveCount(0);
   await page.getByLabel('Incluir corrientes de profundidad').check();
   await expect(page.locator('.mapa-plano--brujula .mapa-zona--interactiva')).toHaveCount(
     TOTAL_CORRIENTES_MAPA,
   );
-  await expect(page.locator('.mapa-plano--brujula .mapa-ancla-bloqueada')).toHaveCount(
-    ANCLAS_BLOQUEADAS_MAPA.length,
-  );
-  await expect(
-    page.locator('.mapa-plano--brujula .mapa-punto[data-tipo="referencia"]'),
-  ).toHaveCount(0);
-  await expect(page.locator('.mapa-plano--brujula .mapa-zona__nombre')).toHaveCount(0);
-  await expect(page.getByText(/regiones están sin rotular/i)).toBeVisible();
 
   const zonas = page.locator('.mapa-plano--brujula .mapa-zona--interactiva');
   await expect(
@@ -1206,6 +1219,130 @@ test('la brújula degrada el fondo y revela corrientes solo al enfocar o tocar',
   expect(respuestasDespues).toBe(respuestasAntes);
 });
 
+test('el plano detallado ofrece objetivos táctiles reales y desambigua los cúmulos', async ({
+  browser,
+}) => {
+  const contexto = await browser.newContext({
+    baseURL: BASE_URL_E2E,
+    viewport: { width: 390, height: 844 },
+    hasTouch: true,
+  });
+  const page = await contexto.newPage();
+  try {
+    const sesion = crearSesionResultadosRapidos(-1);
+    await page.addInitScript(
+      ({ clave, estado }) => localStorage.setItem(clave, JSON.stringify(estado)),
+      { clave: CLAVE_ALMACEN, estado: sesion },
+    );
+    await page.goto('/');
+    await esperarMapaDesplegado(page);
+    const planoDetalle = page.locator('.mapa-plano:not(.mapa-plano--brujula)');
+    await planoDetalle.scrollIntoViewIfNeeded();
+    const puntos = planoDetalle.locator('.mapa-punto');
+    expect(await puntos.count()).toBeGreaterThan(3);
+
+    /* Todo punto del plano detallado (usuario, partidos y referencias) ofrece
+       un objetivo de toque real de al menos 44×44 px en 320/360/390. */
+    for (const ancho of [320, 360, 390]) {
+      await page.setViewportSize({ width: ancho, height: 844 });
+      const objetivos = await planoDetalle
+        .locator('.mapa-punto .mapa-punto__hit')
+        .evaluateAll((circulos) =>
+          circulos.map((circulo) => {
+            const caja = circulo.getBoundingClientRect();
+            return Math.min(caja.width, caja.height);
+          }),
+        );
+      expect(objetivos.length).toBeGreaterThan(3);
+      expect(
+        Math.min(...objetivos),
+        `objetivo táctil mínimo del plano detallado con viewport ${ancho}`,
+      ).toBeGreaterThanOrEqual(44);
+    }
+
+    /* Un cúmulo no premia al punto de encima: el toque abre la
+       desambiguación y cada miembro sigue siendo alcanzable. */
+    const cumulo = await puntos.evaluateAll((nodos) => {
+      const posiciones = nodos.map((nodo) => {
+        const hit = nodo.querySelector('.mapa-punto__hit');
+        return {
+          id: nodo.getAttribute('data-entidad-id') ?? '',
+          x: Number(hit?.getAttribute('cx')),
+          y: Number(hit?.getAttribute('cy')),
+        };
+      });
+      const origen = posiciones.find((candidato) =>
+        posiciones.some(
+          (otro) =>
+            otro.id !== candidato.id &&
+            Math.hypot(otro.x - candidato.x, otro.y - candidato.y) <= 32,
+        ),
+      );
+      return origen?.id ?? null;
+    });
+    if (cumulo) {
+      await planoDetalle.locator(`.mapa-punto[data-entidad-id="${cumulo}"]`).click({ force: true });
+      const panelCumulo = page.locator('.mapa-cumulo');
+      await expect(panelCumulo).toBeVisible();
+      const opciones = panelCumulo.getByRole('button');
+      expect(await opciones.count()).toBeGreaterThan(1);
+      await opciones.last().click();
+      await expect(panelCumulo).toHaveCount(0);
+      await expect(page.locator('.mapa-lectura')).toBeVisible();
+    }
+
+    /* El teclado no depende del cúmulo: cada punto conserva su tabulador. */
+    const primerPunto = puntos.first();
+    await primerPunto.focus();
+    await primerPunto.press('Enter');
+    await expect(page.locator('.mapa-lectura')).toBeVisible();
+  } finally {
+    await contexto.close();
+  }
+});
+
+test('la vista simple es un compass pelado conmutable y nunca el estado inicial', async ({
+  page,
+}) => {
+  const sesion = crearSesionResultadosRapidos(1);
+  await page.addInitScript(
+    ({ clave, estado }) => localStorage.setItem(clave, JSON.stringify(estado)),
+    { clave: CLAVE_ALMACEN, estado: sesion },
+  );
+  await page.goto('/');
+  await esperarMapaDesplegado(page);
+
+  /* Estado inicial: vista de profundidad, nunca la simple. */
+  const explorar = page.getByLabel('Explorar corrientes ideológicas');
+  await expect(explorar).toBeChecked();
+  await expect(page.getByLabel('Incluir corrientes de profundidad')).toBeChecked();
+  expect(await page.locator('.mapa-zona').count()).toBeGreaterThan(0);
+
+  /* Vista simple: ejes, cuadrantes, tu punto y los partidos; sin capa densa,
+     con buscador y ficha del atlas apagados de forma coherente. */
+  await explorar.uncheck();
+  await expect(page.locator('.mapa-zona')).toHaveCount(0);
+  await expect(page.locator('.mapa-plano--brujula .mapa-ancla-bloqueada')).toHaveCount(0);
+  await expect(page.getByLabel('Buscar en el atlas')).toBeDisabled();
+  await expect(page.getByLabel('Incluir corrientes de profundidad')).toBeDisabled();
+  await expect(page.locator('.mapa-corriente-lectura')).toHaveCount(0);
+  await expect(
+    page.locator('.mapa-plano--brujula .mapa-punto[data-tipo="usuario"]'),
+  ).toHaveCount(1);
+  expect(
+    await page.locator('.mapa-plano--brujula .mapa-punto[data-tipo="partido"]').count(),
+  ).toBeGreaterThan(0);
+  await expect(page.locator('.mapa-plano--brujula .mapa-plano__marco')).toHaveCount(1);
+  const esquinas = page.locator('.mapa-plano--brujula .mapa-plano__esquinas text');
+  expect(await esquinas.count()).toBeGreaterThanOrEqual(4);
+
+  /* Conmutable: volver a la profundidad restaura el atlas completo. */
+  await explorar.check();
+  await expect(page.locator('.mapa-plano--brujula .mapa-zona--interactiva')).toHaveCount(
+    TOTAL_CORRIENTES_MAPA,
+  );
+});
+
 test('la brújula móvil distingue evidencia provisional y resuelve con seguridad los puntos disponibles', async ({
   browser,
 }) => {
@@ -1240,7 +1377,7 @@ test('la brújula móvil distingue evidencia provisional y resuelve con segurida
     await expect(
       page.getByRole('heading', { name: 'Tu posición provisional y tus afinidades' }),
     ).toBeVisible();
-    await abrirMapaInteractivo(page);
+    await esperarMapaDesplegado(page);
     const anchoDocumento = await page.evaluate(() => ({
       contenido: document.documentElement.scrollWidth,
       ventana: window.innerWidth,
@@ -1406,7 +1543,7 @@ test('resultados y visor 3D siguen disponibles sin conexión tras instalar la PW
   await expect(
     page.getByRole('heading', { name: 'Tu posición provisional y tus afinidades' }),
   ).toBeVisible();
-  await abrirMapaInteractivo(page);
+  await esperarMapaDesplegado(page);
   await page.getByRole('button', { name: 'Ver en 3D' }).click();
   await expect(page.getByText(/Arrastra para girar|no puede mostrar el cubo 3D/)).toBeVisible();
   await context.setOffline(false);
