@@ -23,7 +23,10 @@
     "id": "lab-003",
     "texto": "La dirección de una empresa debe corresponder a sus propietarios y gestores, no a órganos elegidos por la plantilla.",
     "modulo": "trabajo-estado-sindicatos",
-    "ejes": [{ "eje": "poder-laboral", "carga": -1 }],
+    "ejes": [
+      { "eje": "poder-laboral", "carga": -1 },
+      { "eje": "propiedad-mercado", "carga": 0.6 }
+    ],
     "polaridad": "negativa",
     "tags": ["empresa", "propiedad", "direccion"],
     "estado": "retirado",
@@ -43,7 +46,10 @@
     "id": "lab-005",
     "texto": "Los sindicatos deben conservar plena independencia respecto del Gobierno y de los partidos políticos.",
     "modulo": "trabajo-estado-sindicatos",
-    "ejes": [{ "eje": "autonomia-sindical", "carga": 1 }],
+    "ejes": [
+      { "eje": "autonomia-sindical", "carga": 1 },
+      { "eje": "autoridad-politica", "carga": -0.5 }
+    ],
     "polaridad": "positiva",
     "tags": ["sindicatos", "partidos", "autonomia"],
     "estado": "piloto",
@@ -55,7 +61,8 @@
     "modulo": "nucleo",
     "ejes": [
       { "eje": "autonomia-sindical", "carga": -1 },
-      { "eje": "estatismo", "carga": 0.75 }
+      { "eje": "estatismo", "carga": 0.75 },
+      { "eje": "autoridad-politica", "carga": 0.75 }
     ],
     "polaridad": "positiva",
     "tags": ["sindicato-unico", "corporativismo", "estado"],
@@ -81,6 +88,7 @@
     "modulo": "trabajo-estado-sindicatos",
     "ejes": [
       { "eje": "poder-laboral", "carga": 1 },
+      { "eje": "propiedad-mercado", "carga": -1 },
       { "eje": "estatismo", "carga": -0.75 }
     ],
     "polaridad": "positiva",
@@ -167,7 +175,8 @@
     "modulo": "trabajo-estado-sindicatos",
     "ejes": [
       { "eje": "poder-laboral", "carga": -1 },
-      { "eje": "estatismo", "carga": 0.5 }
+      { "eje": "estatismo", "carga": 0.5 },
+      { "eje": "autoridad-politica", "carga": 0.5 }
     ],
     "polaridad": "negativa",
     "tags": ["huelga", "gobierno"],
@@ -180,7 +189,8 @@
     "modulo": "trabajo-estado-sindicatos",
     "ejes": [
       { "eje": "estatismo", "carga": 1 },
-      { "eje": "economico", "carga": -0.75 }
+      { "eje": "economico", "carga": -0.75 },
+      { "eje": "propiedad-mercado", "carga": -0.5 }
     ],
     "polaridad": "positiva",
     "tags": ["empresas-publicas", "sectores-estrategicos"],
@@ -193,6 +203,7 @@
     "modulo": "trabajo-estado-sindicatos",
     "ejes": [
       { "eje": "economico", "carga": -1 },
+      { "eje": "propiedad-mercado", "carga": -1 },
       { "eje": "poder-laboral", "carga": 1 },
       { "eje": "estatismo", "carga": -1 }
     ],

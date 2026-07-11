@@ -35,6 +35,7 @@
     "modulo": "energia-modelo-productivo",
     "ejes": [
       { "eje": "economico", "carga": -1 },
+      { "eje": "propiedad-mercado", "carga": -0.75 },
       { "eje": "estatismo", "carga": 0.75 }
     ],
     "polaridad": "positiva",
@@ -48,6 +49,7 @@
     "modulo": "energia-modelo-productivo",
     "ejes": [
       { "eje": "economico", "carga": 0.75 },
+      { "eje": "propiedad-mercado", "carga": 0.75 },
       { "eje": "estatismo", "carga": -0.75 }
     ],
     "polaridad": "positiva",
@@ -74,6 +76,7 @@
     "modulo": "energia-modelo-productivo",
     "ejes": [
       { "eje": "economico", "carga": -0.5 },
+      { "eje": "propiedad-mercado", "carga": -0.35 },
       { "eje": "estatismo", "carga": 0.5 }
     ],
     "polaridad": "positiva",

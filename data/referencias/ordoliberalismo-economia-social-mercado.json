@@ -1,0 +1,183 @@
+{
+  "id": "ordoliberalismo-economia-social-mercado",
+  "nombre": "Ordoliberalismo y economía social de mercado",
+  "tipo": "referencia-doctrinal",
+  "definicion": "Tipo ideal del núcleo ordoliberal de la Escuela de Friburgo y de su desarrollo como economía social de mercado: el Estado establece una constitución económica estable, preserva mercados abiertos y competencia frente a monopolios, protege propiedad y libertad contractual, exige responsabilidad y estabilidad monetaria y corrige abusos, externalidades y desigualdades que impiden participar en el mercado. Rechaza tanto el laissez-faire sin reglas como la dirección estatal ordinaria de la producción.",
+  "variante": "Principios de política económica de Walter Eucken y prolongación social de Alfred Müller-Armack; no equipara todo el Estado del bienestar alemán con ordoliberalismo ni lo confunde con neoliberalismo friedmaniano",
+  "periodo": "1937-1966; vigente como tradición de política económica europea",
+  "confianza": "verificada",
+  "version": "1.0",
+  "revisado": "2026-07-11",
+  "facetasDefinitorias": ["economico", "estatismo", "pluralismo-institucional"],
+  "sensibilidad": "normal",
+  "advertencia": "Ordoliberalismo y economía social de mercado están emparentados, pero no son sinónimos perfectos: Eucken formula el orden competitivo; Müller-Armack amplía su conciliación con objetivos sociales. La ficha no atribuye posiciones sobre aborto, inmigración, religión, monarquía o territorio. En la cuadrícula, «Neo Liberalism» es la celda más próxima, pero esta corriente queda más cerca del centro vertical porque necesita una autoridad pública capaz de impedir carteles. Proyección auditada actual: Propiedad/mercado ≈ +38, Poder ≈ -50 y macroeconomía general ≈ +30; una deriva al extremo inferior derecho confundiría regulación competitiva con antiestatismo.",
+  "fuentesMarco": [
+    {
+      "tipo": "otro",
+      "titulo": "Dominik H. Ernste, Economía social de mercado desde una perspectiva «ordoliberal», edición académica en español",
+      "url": "https://www.kas.de/documents/252038/253252/7_dokument_dok_pdf_29972_1.pdf/5fc538bd-4e7b-1570-cb37-c40332084f41?version=1.0",
+      "fecha": "2009",
+      "consultado": "2026-07-11"
+    },
+    {
+      "tipo": "otro",
+      "titulo": "Portal de política del orden, extractos de Walter Eucken sobre los principios constitutivos (en inglés)",
+      "url": "https://www.ordnungspolitisches-portal.com/en/vater-der-ordnungspolitik",
+      "consultado": "2026-07-11"
+    },
+    {
+      "tipo": "declaracion",
+      "titulo": "Banco Central Europeo, Sound money, sound finances, a competitive economy (en inglés)",
+      "url": "https://www.ecb.europa.eu/press/key/date/2012/html/sp120227.en.html",
+      "fecha": "2012-02-27",
+      "consultado": "2026-07-11"
+    }
+  ],
+  "reglaPublicacion": {
+    "minimoItems": 9,
+    "minimoCobertura": 0.55,
+    "umbralAfinidad": 78
+  },
+  "posiciones": {
+    "der-001": {
+      "valor": -2,
+      "justificacion": "El Estado ordoliberal no se limita a seguridad y justicia: crea y hace cumplir el orden competitivo, controla monopolios, internaliza externalidades y sostiene políticas sociales compatibles con el mercado.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Ernste, Economía social de mercado desde una perspectiva «ordoliberal»",
+        "url": "https://www.kas.de/documents/252038/253252/7_dokument_dok_pdf_29972_1.pdf/5fc538bd-4e7b-1570-cb37-c40332084f41?version=1.0",
+        "fecha": "2009",
+        "consultado": "2026-07-11"
+      }
+    },
+    "der-004": {
+      "valor": -2,
+      "justificacion": "Los mercados abiertos son un principio constitutivo porque el cierre facilita carteles y posiciones de poder. El proteccionismo para reservar producción nacional contradice esa apertura como regla general.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Walter Eucken, principio constitutivo de mercados abiertos (en inglés)",
+        "url": "https://www.ordnungspolitisches-portal.com/en/vater-der-ordnungspolitik",
+        "consultado": "2026-07-11"
+      }
+    },
+    "eco-001": {
+      "valor": 1,
+      "justificacion": "Eucken admite redistribuir renta cuando desigualdades no merecidas bloquean la participación efectiva en el mercado. El +1 reconoce esa corrección sin convertirla en una prioridad fiscal ilimitada.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Ernste, Economía social de mercado desde una perspectiva «ordoliberal»",
+        "url": "https://www.kas.de/documents/252038/253252/7_dokument_dok_pdf_29972_1.pdf/5fc538bd-4e7b-1570-cb37-c40332084f41?version=1.0",
+        "fecha": "2009",
+        "consultado": "2026-07-11"
+      }
+    },
+    "eco-004": {
+      "valor": 2,
+      "justificacion": "Finanzas públicas sostenibles, estabilidad monetaria y constancia de la política son condiciones del orden competitivo; priorizar consolidación frente a nuevo gasto encaja con esa cultura de estabilidad.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "BCE, Sound money, sound finances, a competitive economy (en inglés)",
+        "url": "https://www.ecb.europa.eu/press/key/date/2012/html/sp120227.en.html",
+        "fecha": "2012-02-27",
+        "consultado": "2026-07-11"
+      }
+    },
+    "lib-007": {
+      "valor": 2,
+      "justificacion": "Mantener abiertos los mercados exige eliminar privilegios de entrada y restricciones corporativas que protegen a quienes ya operan; la colegiación obligatoria general es una barrera de ese tipo.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Walter Eucken, principio constitutivo de mercados abiertos (en inglés)",
+        "url": "https://www.ordnungspolitisches-portal.com/en/vater-der-ordnungspolitik",
+        "consultado": "2026-07-11"
+      }
+    },
+    "lib-008": {
+      "valor": 2,
+      "justificacion": "Limitar artificialmente licencias protege rentas y poder de mercado. La política ordoliberal abre la entrada y conserva únicamente requisitos generales necesarios para una competencia ordenada.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Walter Eucken, principio constitutivo de mercados abiertos (en inglés)",
+        "url": "https://www.ordnungspolitisches-portal.com/en/vater-der-ordnungspolitik",
+        "consultado": "2026-07-11"
+      }
+    },
+    "izq-005": {
+      "valor": -2,
+      "justificacion": "La función estatal es ordenar la competencia y preservar el mecanismo de precios, no sustituirlo mediante planificación de la producción; esa es la frontera central con una economía dirigida.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Ernste, Economía social de mercado desde una perspectiva «ordoliberal»",
+        "url": "https://www.kas.de/documents/252038/253252/7_dokument_dok_pdf_29972_1.pdf/5fc538bd-4e7b-1570-cb37-c40332084f41?version=1.0",
+        "fecha": "2009",
+        "consultado": "2026-07-11"
+      }
+    },
+    "lib-001": {
+      "valor": -1,
+      "justificacion": "La economía social de mercado añade corrección social y cobertura frente a riesgos, no un Estado residual que financia sanidad solo para quien no puede pagar un seguro. El -1 permite seguros complementarios y provisión mixta.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Ernste, Economía social de mercado desde una perspectiva «ordoliberal»",
+        "url": "https://www.kas.de/documents/252038/253252/7_dokument_dok_pdf_29972_1.pdf/5fc538bd-4e7b-1570-cb37-c40332084f41?version=1.0",
+        "fecha": "2009",
+        "consultado": "2026-07-11"
+      }
+    },
+    "lab-007": {
+      "valor": -1,
+      "justificacion": "El Estado fija reglas generales y corrige fallos, pero no negocia planes vinculantes que dirijan cada sector. El -1 deja margen a coordinación social sin convertirla en planificación tripartita.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Ernste, Economía social de mercado desde una perspectiva «ordoliberal»",
+        "url": "https://www.kas.de/documents/252038/253252/7_dokument_dok_pdf_29972_1.pdf/5fc538bd-4e7b-1570-cb37-c40332084f41?version=1.0",
+        "fecha": "2009",
+        "consultado": "2026-07-11"
+      }
+    },
+    "lab-016": {
+      "valor": -1,
+      "justificacion": "La propiedad privada y la responsabilidad empresarial son principios constitutivos. Puede haber empresa pública ante fallos concretos, pero el carácter estratégico no basta para dirigir desde el Estado una empresa privada rentable.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Ernste, Economía social de mercado desde una perspectiva «ordoliberal»",
+        "url": "https://www.kas.de/documents/252038/253252/7_dokument_dok_pdf_29972_1.pdf/5fc538bd-4e7b-1570-cb37-c40332084f41?version=1.0",
+        "fecha": "2009",
+        "consultado": "2026-07-11"
+      }
+    },
+    "ene-005": {
+      "valor": 1,
+      "justificacion": "La competencia privada es la regla, pero sectores de red como la electricidad admiten regulación intensa y monopolios naturales. El acuerdo es moderado para no convertir ordoliberalismo en privatización automática.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Ernste, Economía social de mercado desde una perspectiva «ordoliberal»",
+        "url": "https://www.kas.de/documents/252038/253252/7_dokument_dok_pdf_29972_1.pdf/5fc538bd-4e7b-1570-cb37-c40332084f41?version=1.0",
+        "fecha": "2009",
+        "consultado": "2026-07-11"
+      }
+    },
+    "dem-008": {
+      "valor": 1,
+      "justificacion": "La constitución económica y el Estado de derecho pretenden limitar tanto poder privado como intervención pública arbitraria. Eso favorece contrapesos estables, aunque Eucken no diseñe todo un régimen moderno de separación de poderes.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Walter Eucken Institute, historia y perfil de investigación (en inglés)",
+        "url": "https://www.eucken.de/en/institute/history/",
+        "consultado": "2026-07-11"
+      }
+    }
+  }
+}

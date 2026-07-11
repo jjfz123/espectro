@@ -1,0 +1,192 @@
+{
+  "id": "derecha-radical-populista-nativista",
+  "nombre": "Derecha radical populista nativista",
+  "tipo": "referencia-doctrinal",
+  "definicion": "Tipo ideal académico de la derecha radical populista europea: combina nativismo —la aspiración a un Estado culturalmente homogéneo y la percepción de elementos no nativos como amenaza—, autoritarismo de ley y orden y un marco populista que contrapone al pueblo homogéneo con las élites. Es radical porque tensiona componentes liberales de la democracia, pero no equivale por definición a fascismo ni a extrema derecha abiertamente antidemocrática.",
+  "variante": "Definición mínima de Cas Mudde aplicada al espacio europeo contemporáneo y contrastada con el caso español; no presupone una política económica común, confesionalidad, racismo biológico, partido único ni legitimación de la violencia",
+  "periodo": "2007-actualidad como tipo ideal académico; recepción española desde la década de 2010",
+  "confianza": "verificada",
+  "version": "1.0",
+  "revisado": "2026-07-11",
+  "publicacionMapa": {
+    "publicable": false,
+    "motivo": "La cuadrícula de referencia la sitúa en el sector autoritario de derechas, cerca del populismo de derecha, pero el tipo ideal no tiene un núcleo económico: sus partidos abarcan neoliberalismo, proteccionismo y chovinismo del bienestar. El banco estima Poder en torno a +80/+90, pero no una coordenada económica limpia; dibujarla en Economía × Poder fabricaría el eje horizontal."
+  },
+  "facetasDefinitorias": ["social", "populismo", "libertades-civiles", "pluralismo-institucional"],
+  "sensibilidad": "antipluralista",
+  "advertencia": "Esta referencia describe una familia ideológica en sentido politológico, no diagnostica a una persona ni convierte una respuesta restrictiva sobre inmigración en identidad política. Se separa expresamente del fascismo: la derecha radical acepta la competencia electoral, aunque su mayoritarismo y nativismo puedan erosionar garantías liberales; la extrema derecha antidemocrática, el supremacismo racial y la violencia requieren evidencias adicionales. En la cuadrícula visual aportada, su vecindad razonable es «Populism (Right)» y el borde inferior de «Authoritarian Capitalism», nunca «Fascism» o «Nazism». Al faltar un programa económico común, la proyección auditada es Economía indeterminada y Poder aproximadamente +86, no una falsa acumulación estatista en la izquierda.",
+  "fuentesMarco": [
+    {
+      "tipo": "otro",
+      "titulo": "Jorge Ferreira, Vox como representante de la derecha radical en España: un estudio sobre su ideología, Revista Española de Ciencia Política",
+      "url": "https://recyt.fecyt.es/index.php/recp/article/download/72190/html_126?inline=1",
+      "fecha": "2019",
+      "consultado": "2026-07-11"
+    },
+    {
+      "tipo": "otro",
+      "titulo": "Enrique Fernández-Vilas, El «Populist Zeitgeist»: un acercamiento a Cas Mudde y la derecha radical populista",
+      "url": "https://revistas.um.es/reg/article/view/545331",
+      "fecha": "2022",
+      "consultado": "2026-07-11"
+    },
+    {
+      "tipo": "programa",
+      "titulo": "VOX, Programa electoral para las elecciones europeas de 2024",
+      "url": "https://www.voxespana.es/wp-content/uploads/2024/05/Programa_EUROPEAS.pdf",
+      "fecha": "2024-05",
+      "consultado": "2026-07-11"
+    }
+  ],
+  "reglaPublicacion": {
+    "minimoItems": 9,
+    "minimoCobertura": 0.55,
+    "umbralAfinidad": 80
+  },
+  "posiciones": {
+    "soc-002": {
+      "valor": 2,
+      "justificacion": "El nativismo considera la inmigración no autorizada una amenaza prioritaria para la homogeneidad y el control de la comunidad nacional; la devolución ocupa por ello una posición central, aunque no agota la doctrina.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Jorge Ferreira, Vox como representante de la derecha radical en España",
+        "url": "https://recyt.fecyt.es/index.php/recp/article/download/72190/html_126?inline=1",
+        "fecha": "2019",
+        "consultado": "2026-07-11"
+      }
+    },
+    "der-017": {
+      "valor": 2,
+      "justificacion": "Preferir migraciones culturalmente próximas traduce el criterio nativista de compatibilidad con una nación concebida como comunidad cultural, no solo como ciudadanía jurídica.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "VOX, Programa electoral para las elecciones europeas de 2024",
+        "url": "https://www.voxespana.es/wp-content/uploads/2024/05/Programa_EUROPEAS.pdf",
+        "fecha": "2024-05",
+        "consultado": "2026-07-11"
+      }
+    },
+    "der-018": {
+      "valor": -2,
+      "justificacion": "El arraigo prolongado no resuelve por sí solo la incompatibilidad que el nativismo atribuye al elemento no nativo; una regularización amplia contradice su prioridad homogeneizadora.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Jorge Ferreira, Vox como representante de la derecha radical en España",
+        "url": "https://recyt.fecyt.es/index.php/recp/article/download/72190/html_126?inline=1",
+        "fecha": "2019",
+        "consultado": "2026-07-11"
+      }
+    },
+    "dr-002": {
+      "valor": 2,
+      "justificacion": "La preferencia nacional en el empleo aplica directamente el principio de que los recursos de la comunidad política deben beneficiar antes al grupo definido como nativo.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Jorge Ferreira, Vox como representante de la derecha radical en España",
+        "url": "https://recyt.fecyt.es/index.php/recp/article/download/72190/html_126?inline=1",
+        "fecha": "2019",
+        "consultado": "2026-07-11"
+      }
+    },
+    "dr-003": {
+      "valor": 2,
+      "justificacion": "La definición mínima de nativismo aspira a que el Estado esté habitado por miembros del grupo nativo; por eso el retorno de residentes no nativos es un ancla del tipo ideal, aunque partidos concretos lo moderen.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Jorge Ferreira, Vox como representante de la derecha radical en España",
+        "url": "https://recyt.fecyt.es/index.php/recp/article/download/72190/html_126?inline=1",
+        "fecha": "2019",
+        "consultado": "2026-07-11"
+      }
+    },
+    "dr-005": {
+      "valor": 2,
+      "justificacion": "La literatura sobre esta familia identifica el islam como uno de los principales «otros» culturales; prohibir nuevas mezquitas lleva esa exclusión nativista a la libertad religiosa.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Jorge Ferreira, Vox como representante de la derecha radical en España",
+        "url": "https://recyt.fecyt.es/index.php/recp/article/download/72190/html_126?inline=1",
+        "fecha": "2019",
+        "consultado": "2026-07-11"
+      }
+    },
+    "pop-001": {
+      "valor": 2,
+      "justificacion": "El componente populista presenta la sociedad como un conflicto moral entre el pueblo auténtico y una élite política y económica que traiciona su voluntad.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Enrique Fernández-Vilas, El «Populist Zeitgeist»: un acercamiento a Cas Mudde y la derecha radical populista",
+        "url": "https://revistas.um.es/reg/article/view/545331",
+        "fecha": "2022",
+        "consultado": "2026-07-11"
+      }
+    },
+    "dr-020": {
+      "valor": 1,
+      "justificacion": "La apelación plebiscitaria a la voluntad general encaja con el populismo frente a la mediación de los partidos, pero recibe +1 porque no toda derecha radical adopta democracia directa habitual.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Enrique Fernández-Vilas, El «Populist Zeitgeist»: un acercamiento a Cas Mudde y la derecha radical populista",
+        "url": "https://revistas.um.es/reg/article/view/545331",
+        "fecha": "2022",
+        "consultado": "2026-07-11"
+      }
+    },
+    "dem-023": {
+      "valor": 2,
+      "justificacion": "El autoritarismo de esta familia se define como preferencia por una sociedad estrictamente ordenada y por castigar las infracciones; amplias potestades preventivas de identificación encajan con ese marco de ley y orden.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Jorge Ferreira, Vox como representante de la derecha radical en España",
+        "url": "https://recyt.fecyt.es/index.php/recp/article/download/72190/html_126?inline=1",
+        "fecha": "2019",
+        "consultado": "2026-07-11"
+      }
+    },
+    "dem-028": {
+      "valor": -1,
+      "justificacion": "La derecha radical acepta la soberanía popular pero tensiona los límites liberales impuestos a la mayoría; el desacuerdo es moderado porque sus partidos no rechazan necesariamente todo derecho constitucional de minoría.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Enrique Fernández-Vilas, El «Populist Zeitgeist»: un acercamiento a Cas Mudde y la derecha radical populista",
+        "url": "https://revistas.um.es/reg/article/view/545331",
+        "fecha": "2022",
+        "consultado": "2026-07-11"
+      }
+    },
+    "dr-024": {
+      "valor": -1,
+      "justificacion": "La frontera académica con la extrema derecha es que la familia radical no niega la esencia electoral de la democracia; por ello rechaza preferir abiertamente una dictadura, aunque pueda defender una democracia iliberal.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Jorge Ferreira, Vox como representante de la derecha radical en España",
+        "url": "https://recyt.fecyt.es/index.php/recp/article/download/72190/html_126?inline=1",
+        "fecha": "2019",
+        "consultado": "2026-07-11"
+      }
+    },
+    "dr-025": {
+      "valor": 2,
+      "justificacion": "El tipo ideal radical compite electoralmente y se distingue del extremismo violento; el rechazo de la violencia política impide que una afinidad nativista se confunda automáticamente con fascismo o neonazismo.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Jorge Ferreira, Vox como representante de la derecha radical en España",
+        "url": "https://recyt.fecyt.es/index.php/recp/article/download/72190/html_126?inline=1",
+        "fecha": "2019",
+        "consultado": "2026-07-11"
+      }
+    }
+  }
+}

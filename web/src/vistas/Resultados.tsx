@@ -1,6 +1,8 @@
 import { useMemo } from 'react';
 import type { Respuesta } from '@engine';
 import {
+  EJE_AUTORIDAD_POLITICA,
+  EJE_PROPIEDAD_MERCADO,
   calcularAfinidad,
   calcularFacetas,
   compararReferenciasDoctrinales,
@@ -31,6 +33,7 @@ import {
   secuenciaItems,
 } from '../datos';
 import { CONVOCATORIAS, PARTIDOS, REFERENCIAS, SINDICATOS } from '../datosResultados';
+import { evidenciaAutoridadAtlas, evidenciaPropiedadAtlas } from '../atlasIdeologias';
 import type { Accion, Estado } from '../estado';
 
 interface Props {
@@ -139,10 +142,23 @@ export function Resultados({ estado, despachar, puedeRecargar, alConfirmarGuarda
     });
   }, [respuestasLaborales, nOpinionLaboral, estado.ccaa]);
 
-  const facetasUsuario = useMemo(
-    () => calcularFacetas(respuestas, itemsSesion, EJES),
-    [respuestas, itemsSesion],
-  );
+  const facetasUsuario = useMemo(() => {
+    const calculadas = calcularFacetas(respuestas, itemsSesion, EJES);
+    const idsConOpinion = respuestas
+      .filter((respuesta) => typeof respuesta.valor === 'number')
+      .map((respuesta) => respuesta.itemId);
+    const propiedad = evidenciaPropiedadAtlas(idsConOpinion);
+    const autoridad = evidenciaAutoridadAtlas(idsConOpinion);
+    return calculadas.map((faceta) => {
+      if (faceta.facetaId === EJE_PROPIEDAD_MERCADO) {
+        return { ...faceta, coberturaSuficiente: propiedad.suficiente };
+      }
+      if (faceta.facetaId === EJE_AUTORIDAD_POLITICA) {
+        return { ...faceta, coberturaSuficiente: autoridad.suficiente };
+      }
+      return faceta;
+    });
+  }, [respuestas, itemsSesion]);
   const facetasConOpinion = facetasUsuario.filter((faceta) => faceta.valor !== null).length;
   const facetasConCobertura = facetasUsuario.filter(
     (faceta) => faceta.valor !== null && faceta.coberturaSuficiente,
@@ -287,6 +303,9 @@ export function Resultados({ estado, despachar, puedeRecargar, alConfirmarGuarda
           facetasUsuario={facetasUsuario}
           puedeRecargar={puedeRecargar}
           alConfirmarGuardado={alConfirmarGuardado}
+          nivelPerfil={
+            esPerfilIntermedio ? 'intermedio' : esPerfilProvisional ? 'rapido' : 'exhaustivo'
+          }
         />
       </section>
 

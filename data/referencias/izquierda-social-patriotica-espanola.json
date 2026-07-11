@@ -1,0 +1,200 @@
+{
+  "id": "izquierda-social-patriotica-espanola",
+  "nombre": "Izquierda social-patriótica obrerista",
+  "tipo": "referencia-doctrinal",
+  "definicion": "Tipo ideal español que une soberanía nacional, republicanismo, reindustrialización y dirección pública de sectores estratégicos con un discurso obrerista, restrictivo en inmigración y crítico con el feminismo y las políticas LGTB contemporáneas.",
+  "variante": "Formulación de «patriotismo revolucionario» del programa de Frente Obrero de 2025-2026; se usa su autodefinición y no la etiqueta polémica «rojipardo»",
+  "periodo": "2025-2026",
+  "confianza": "verificada",
+  "version": "1.0",
+  "revisado": "2026-07-11",
+  "publicacionMapa": {
+    "publicable": false,
+    "motivo": "El prior visual la situaría en la izquierda estatista y nacional-popular, por encima del centro cultural y a la derecha económica de un comunismo integral; no equivale a National Communism ni a National Bolshevism. Falta saber cuánto sector privado conserva y cómo articula pluralismo partidario y límites al ejecutivo, por lo que el mapa la extremaría artificialmente."
+  },
+  "facetasDefinitorias": [
+    "economico",
+    "estatismo",
+    "internacionalismo",
+    "social",
+    "territorial",
+    "monarquia",
+    "populismo"
+  ],
+  "sensibilidad": "normal",
+  "advertencia": "Es un tipo ideal estrecho construido sobre una formulación española actual, no una descripción de toda izquierda patriótica, del PCE histórico, de Izquierda Española ni de cualquier persona que combine soberanía y políticas sociales. La evidencia incluye propuestas restrictivas sobre inmigración y políticas feministas/LGTB, pero también republicanismo, independencia judicial y nacionalización selectiva; no debe equipararse automáticamente con fascismo ni con una identidad del usuario. Para ubicarla con rigor faltan dos discriminantes neutrales: cuánto mercado y pequeña propiedad mantendría fuera de los sectores estratégicos, y si admite alternancia plena entre partidos tras un proceso constituyente.",
+  "fuentesMarco": [
+    {
+      "tipo": "programa",
+      "titulo": "Frente Obrero, Un programa para recuperar España",
+      "url": "https://frenteobrero.es/wp-content/uploads/2025/01/Programa.pdf",
+      "fecha": "2025",
+      "consultado": "2026-07-11"
+    },
+    {
+      "tipo": "autoubicacion",
+      "titulo": "Frente Obrero, Nuestro Programa: movimiento patriota y revolucionario",
+      "url": "https://frenteobrero.es/nuestro-programa-2/",
+      "fecha": "2026-01-20",
+      "consultado": "2026-07-11"
+    },
+    {
+      "tipo": "otro",
+      "titulo": "Antonia María Ruiz Jiménez, María José Navarro Ardoy y Lluís Ferri Fuentevilla, Patriotas sociales. La izquierda ante el nacionalismo español",
+      "url": "https://papers.uab.cat/article/view/v102-n3-ruiz-navarro-ferri",
+      "fecha": "2017",
+      "consultado": "2026-07-11"
+    }
+  ],
+  "reglaPublicacion": {
+    "minimoItems": 10,
+    "minimoCobertura": 0.65,
+    "umbralAfinidad": 80
+  },
+  "posiciones": {
+    "der-004": {
+      "valor": 1,
+      "justificacion": "El programa propone romper tratados que limitan la producción nacional, reindustrializar y proteger el campo frente a importaciones producidas con estándares inferiores; se modera porque no formula un arancel general.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Frente Obrero, programa 2025, soberanía industrial y campo español",
+        "url": "https://frenteobrero.es/wp-content/uploads/2025/01/Programa.pdf",
+        "fecha": "2025",
+        "consultado": "2026-07-11"
+      }
+    },
+    "izq-005": {
+      "valor": 2,
+      "justificacion": "Defiende nacionalizar los sectores estratégicos y un modelo energético planificado que retire energía e infraestructuras esenciales de la lógica de mercado.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Frente Obrero, programa 2025, reindustrialización y soberanía energética",
+        "url": "https://frenteobrero.es/wp-content/uploads/2025/01/Programa.pdf",
+        "fecha": "2025",
+        "consultado": "2026-07-11"
+      }
+    },
+    "lab-016": {
+      "valor": 2,
+      "justificacion": "La nacionalización y fuerte intervención estatal en sectores estratégicos se justifican incluso cuando hoy operan privadamente y generan beneficios.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Frente Obrero, programa 2025, nacionalización de sectores estratégicos",
+        "url": "https://frenteobrero.es/wp-content/uploads/2025/01/Programa.pdf",
+        "fecha": "2025",
+        "consultado": "2026-07-11"
+      }
+    },
+    "izq-011": {
+      "valor": 2,
+      "justificacion": "La salida de la Unión Europea se presenta literalmente como condición para recuperar soberanía y ejecutar una estrategia industrial independiente de Bruselas.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Frente Obrero, programa 2025, salida de la Unión Europea",
+        "url": "https://frenteobrero.es/wp-content/uploads/2025/01/Programa.pdf",
+        "fecha": "2025",
+        "consultado": "2026-07-11"
+      }
+    },
+    "def-002": {
+      "valor": 2,
+      "justificacion": "Propone la salida inmediata de la OTAN y la expulsión de bases militares extranjeras, aunque simultáneamente defiende reforzar y refundar el ejército español.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Frente Obrero, programa 2025, soberanía nacional y salida de la OTAN",
+        "url": "https://frenteobrero.es/wp-content/uploads/2025/01/Programa.pdf",
+        "fecha": "2025",
+        "consultado": "2026-07-11"
+      }
+    },
+    "izq-013": {
+      "valor": 2,
+      "justificacion": "Atribuye al gran capital el uso de inmigración para abaratar salarios y propone limitar tanto flujos irregulares como regulares, además de prohibir contrataciones colectivas precarizadoras.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Frente Obrero, programa 2025, trabajadores e inmigración",
+        "url": "https://frenteobrero.es/wp-content/uploads/2025/01/Programa.pdf",
+        "fecha": "2025",
+        "consultado": "2026-07-11"
+      }
+    },
+    "izq-014": {
+      "valor": 2,
+      "justificacion": "El programa contrapone de forma expresa feminismo, teoría queer y políticas LGTB a los problemas materiales y laborales que considera centrales para la clase trabajadora.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Frente Obrero, programa 2025, mujer e igualdad real",
+        "url": "https://frenteobrero.es/wp-content/uploads/2025/01/Programa.pdf",
+        "fecha": "2025",
+        "consultado": "2026-07-11"
+      }
+    },
+    "izq-026": {
+      "valor": 1,
+      "justificacion": "Califica los procesos independentistas como proyectos de élites contrarios al interés de los trabajadores, pero se modera el acuerdo porque no adopta neutralidad entre nacionalismos: toma partido explícito por la unidad de España.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Frente Obrero, programa 2025, estructura territorial y administración",
+        "url": "https://frenteobrero.es/wp-content/uploads/2025/01/Programa.pdf",
+        "fecha": "2025",
+        "consultado": "2026-07-11"
+      }
+    },
+    "ter-001": {
+      "valor": 1,
+      "justificacion": "Quiere centralizar sanidad, educación y emergencias y suprimir policías autonómicas, pero conserva comunidades simétricas; por eso el apoyo a recentralizar es parcial y no máximo.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Frente Obrero, programa 2025, competencias del Estado y autonomías",
+        "url": "https://frenteobrero.es/wp-content/uploads/2025/01/Programa.pdf",
+        "fecha": "2025",
+        "consultado": "2026-07-11"
+      }
+    },
+    "mon-001": {
+      "valor": 2,
+      "justificacion": "Se declara contrario a la monarquía y partidario de una república encaminada al socialismo, de modo que rechaza una jefatura hereditaria.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Frente Obrero, programa 2025, república y estructura territorial",
+        "url": "https://frenteobrero.es/wp-content/uploads/2025/01/Programa.pdf",
+        "fecha": "2025",
+        "consultado": "2026-07-11"
+      }
+    },
+    "ene-001": {
+      "valor": 2,
+      "justificacion": "Defiende ampliar el parque nuclear, modernizar las plantas existentes e invertir en nuevos proyectos como base estable de la soberanía energética.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Frente Obrero, programa 2025, ampliación del parque nuclear",
+        "url": "https://frenteobrero.es/wp-content/uploads/2025/01/Programa.pdf",
+        "fecha": "2025",
+        "consultado": "2026-07-11"
+      }
+    },
+    "pop-001": {
+      "valor": 2,
+      "justificacion": "Presenta a los partidos del sistema, grandes capitales, oligopolios y burocracias europeas como un bloque coordinado contra la gente trabajadora.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Frente Obrero, programa 2025, clase política y oligarquía",
+        "url": "https://frenteobrero.es/wp-content/uploads/2025/01/Programa.pdf",
+        "fecha": "2025",
+        "consultado": "2026-07-11"
+      }
+    }
+  }
+}

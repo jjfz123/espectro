@@ -1,0 +1,205 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "mapa-ideologias.schema.json",
+  "title": "Contrato editorial y atlas de la brújula ideológica",
+  "type": "object",
+  "required": [
+    "version",
+    "fechaCorte",
+    "sistema",
+    "referenciaVisual",
+    "umbrales",
+    "reglasDuras",
+    "exclusiones",
+    "corrientes"
+  ],
+  "properties": {
+    "version": { "type": "string", "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$" },
+    "fechaCorte": { "type": "string", "format": "date" },
+    "sistema": {
+      "type": "object",
+      "required": [
+        "ejeX",
+        "ejeY",
+        "alcance",
+        "subdimensionesX",
+        "familiasY",
+        "familiasNucleoY"
+      ],
+      "properties": {
+        "ejeX": { "const": "propiedad-mercado" },
+        "ejeY": { "const": "autoridad-politica" },
+        "alcance": { "type": "string", "minLength": 80, "maxLength": 800 },
+        "subdimensionesX": {
+          "type": "object",
+          "minProperties": 4,
+          "additionalProperties": {
+            "type": "array",
+            "minItems": 2,
+            "uniqueItems": true,
+            "items": { "type": "string", "pattern": "^[a-z0-9-]+$" }
+          }
+        },
+        "familiasY": {
+          "type": "object",
+          "minProperties": 3,
+          "additionalProperties": {
+            "type": "array",
+            "minItems": 2,
+            "uniqueItems": true,
+            "items": { "type": "string", "pattern": "^[a-z0-9-]+$" }
+          }
+        },
+        "familiasNucleoY": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": { "type": "string", "pattern": "^[a-z0-9-]+$" }
+        }
+      },
+      "additionalProperties": false
+    },
+    "referenciaVisual": {
+      "type": "object",
+      "required": ["url", "sha256", "papel", "licenciaUso"],
+      "properties": {
+        "url": { "type": "string", "format": "uri", "pattern": "^https://" },
+        "sha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+        "papel": { "const": "prior-visual-relativo" },
+        "licenciaUso": { "type": "string", "minLength": 60, "maxLength": 500 }
+      },
+      "additionalProperties": false
+    },
+    "umbrales": {
+      "type": "object",
+      "required": [
+        "minimoCorrientes",
+        "minimoInstrumentadas",
+        "minimoFamilias",
+        "minimoPorCuadrante",
+        "minimoItemsX",
+        "minimoSubdimensionesX",
+        "minimoItemsY",
+        "minimoFamiliasY",
+        "minimoItemsNucleoY",
+        "maximaDistanciaSinJustificar",
+        "maximaDistanciaConJustificacion",
+        "maximaDistanciaMotorSinJustificar",
+        "maximaDistanciaMotorConJustificacion",
+        "maximaAreaRegionPorcentaje",
+        "maximoRadioVacio"
+      ],
+      "properties": {
+        "minimoCorrientes": { "type": "integer", "minimum": 40 },
+        "minimoInstrumentadas": { "type": "integer", "minimum": 15 },
+        "minimoFamilias": { "type": "integer", "minimum": 8 },
+        "minimoPorCuadrante": { "type": "integer", "minimum": 3 },
+        "minimoItemsX": { "type": "integer", "minimum": 3 },
+        "minimoSubdimensionesX": { "type": "integer", "minimum": 2 },
+        "minimoItemsY": { "type": "integer", "minimum": 4 },
+        "minimoFamiliasY": { "type": "integer", "minimum": 2 },
+        "minimoItemsNucleoY": { "type": "integer", "minimum": 1 },
+        "maximaDistanciaSinJustificar": { "type": "number", "minimum": 5, "maximum": 40 },
+        "maximaDistanciaConJustificacion": { "type": "number", "minimum": 20, "maximum": 100 },
+        "maximaDistanciaMotorSinJustificar": { "type": "number", "minimum": 5, "maximum": 50 },
+        "maximaDistanciaMotorConJustificacion": { "type": "number", "minimum": 40, "maximum": 200 },
+        "maximaAreaRegionPorcentaje": { "type": "number", "minimum": 2, "maximum": 20 },
+        "maximoRadioVacio": { "type": "number", "minimum": 20, "maximum": 80 }
+      },
+      "additionalProperties": false
+    },
+    "reglasDuras": {
+      "type": "array",
+      "minItems": 7,
+      "uniqueItems": true,
+      "items": {
+        "type": "object",
+        "required": ["id", "regla", "verificacion"],
+        "properties": {
+          "id": { "type": "string", "pattern": "^MAP-[0-9]{2}$" },
+          "regla": { "type": "string", "minLength": 30, "maxLength": 400 },
+          "verificacion": { "type": "string", "minLength": 20, "maxLength": 300 }
+        },
+        "additionalProperties": false
+      }
+    },
+    "exclusiones": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["etiquetaOriginal", "motivo", "tipo"],
+        "properties": {
+          "etiquetaOriginal": { "type": "string", "minLength": 2 },
+          "motivo": { "type": "string", "minLength": 30, "maxLength": 400 },
+          "tipo": { "enum": ["meme-ficcion", "rasgo-transversal", "ambigua", "contextual-no-integral"] }
+        },
+        "additionalProperties": false
+      }
+    },
+    "corrientes": {
+      "type": "array",
+      "minItems": 40,
+      "items": { "$ref": "#/definitions/corriente" }
+    }
+  },
+  "additionalProperties": false,
+  "definitions": {
+    "corriente": {
+      "type": "object",
+      "required": [
+        "id",
+        "nombre",
+        "etiquetaOriginal",
+        "familia",
+        "decision",
+        "coordenadasPrior",
+        "coordenadas",
+        "origenCoordenadas",
+        "estado",
+        "definicion",
+        "encajeEspana",
+        "preguntasDiscriminantes",
+        "sensibilidad"
+      ],
+      "properties": {
+        "id": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+        "nombre": { "type": "string", "minLength": 3, "maxLength": 100 },
+        "etiquetaOriginal": { "type": "string", "minLength": 2, "maxLength": 100 },
+        "familia": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+        "decision": { "enum": ["A", "B", "E"] },
+        "coordenadasPrior": { "$ref": "#/definitions/coordenadas" },
+        "coordenadas": { "$ref": "#/definitions/coordenadas" },
+        "origenCoordenadas": { "enum": ["referencia-visual", "adaptacion-espanola", "sintesis-editorial"] },
+        "estado": { "enum": ["instrumentada", "informativa", "investigacion"] },
+        "referenciaId": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+        "definicion": { "type": "string", "minLength": 45, "maxLength": 500 },
+        "encajeEspana": { "type": "string", "minLength": 25, "maxLength": 500 },
+        "preguntasDiscriminantes": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": { "type": "string", "pattern": "^[a-z0-9-]+$" }
+        },
+        "sensibilidad": { "enum": ["normal", "antipluralista", "violenta"] },
+        "desviacionJustificada": { "type": "string", "minLength": 50, "maxLength": 600 }
+      },
+      "allOf": [
+        {
+          "if": { "properties": { "estado": { "const": "instrumentada" } } },
+          "then": { "required": ["referenciaId"] }
+        }
+      ],
+      "additionalProperties": false
+    },
+    "coordenadas": {
+      "type": "object",
+      "required": ["x", "y"],
+      "properties": {
+        "x": { "type": "number", "minimum": -100, "maximum": 100 },
+        "y": { "type": "number", "minimum": -100, "maximum": 100 }
+      },
+      "additionalProperties": false
+    }
+  }
+}

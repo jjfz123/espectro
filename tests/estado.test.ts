@@ -247,6 +247,30 @@ describe('estado del cuestionario', () => {
     });
   });
 
+  it('migra el instrumento v3 a v4 sin perder respuestas ni prioridades', () => {
+    const anterior = {
+      ...ESTADO_INICIAL,
+      versionInstrumento: '3',
+      fase: 'cuestionario',
+      modo: 'completo',
+      respuestas: { 'eco-001': 2, 'dem-008': -1, 'soc-006': null },
+      importantes: { 'dem-008': true },
+      modulosActivos: ['democracia-instituciones'],
+      guardadoEn: new Date().toISOString(),
+    };
+    conLocalStorage({ [CLAVE_ALMACEN]: JSON.stringify(anterior) }, () => {
+      const restaurado = cargarEstado();
+      expect(restaurado).toMatchObject({
+        versionInstrumento: VERSION_INSTRUMENTO,
+        fase: 'cuestionario',
+        modo: 'completo',
+        respuestas: anterior.respuestas,
+        importantes: anterior.importantes,
+        modulosActivos: anterior.modulosActivos,
+      });
+    });
+  });
+
   it('descarta estados de otro instrumento o caducados', () => {
     const base = {
       ...ESTADO_INICIAL,

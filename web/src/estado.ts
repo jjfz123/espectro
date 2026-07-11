@@ -315,9 +315,15 @@ export function cargarEstado(): Estado {
     const datos = JSON.parse(crudo) as Partial<Estado> & { guardadoEn?: unknown };
     const guardadoEn =
       typeof datos.guardadoEn === 'string' ? Date.parse(datos.guardadoEn) : Number.NaN;
+    // v3 → v4 solo añade cargas a ejes nuevos: no cambia ids, texto, orden,
+    // escala ni significado de ninguna respuesta. Es una migración segura y
+    // deliberadamente acotada; futuras versiones vuelven a ser incompatibles
+    // hasta declarar su propia migración.
+    const migracionCargasV3aV4 =
+      VERSION_INSTRUMENTO === '4' && datos.versionInstrumento === '3';
     const incompatible =
       datos.version !== 3 ||
-      datos.versionInstrumento !== VERSION_INSTRUMENTO ||
+      (datos.versionInstrumento !== VERSION_INSTRUMENTO && !migracionCargasV3aV4) ||
       !Number.isFinite(guardadoEn) ||
       Date.now() - guardadoEn > CADUCIDAD_MS;
     if (incompatible) {

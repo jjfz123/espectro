@@ -7,6 +7,10 @@
       {
         "eje": "economico",
         "carga": 1
+      },
+      {
+        "eje": "propiedad-mercado",
+        "carga": 0.75
       }
     ],
     "polaridad": "negativa",
@@ -45,6 +49,10 @@
       {
         "eje": "economico",
         "carga": 1
+      },
+      {
+        "eje": "propiedad-mercado",
+        "carga": 0.35
       }
     ],
     "polaridad": "negativa",
@@ -67,6 +75,10 @@
       {
         "eje": "economico",
         "carga": 0.5
+      },
+      {
+        "eje": "propiedad-mercado",
+        "carga": 0.35
       }
     ],
     "polaridad": "positiva",
@@ -89,6 +101,10 @@
       {
         "eje": "economico",
         "carga": 0.75
+      },
+      {
+        "eje": "propiedad-mercado",
+        "carga": 0.6
       }
     ],
     "polaridad": "negativa",
@@ -113,6 +129,10 @@
         "carga": 0.75
       },
       {
+        "eje": "propiedad-mercado",
+        "carga": 0.35
+      },
+      {
         "eje": "ecologia",
         "carga": -0.25
       }
@@ -134,6 +154,10 @@
       {
         "eje": "economico",
         "carga": 0.5
+      },
+      {
+        "eje": "propiedad-mercado",
+        "carga": 0.25
       }
     ],
     "polaridad": "negativa",
@@ -152,6 +176,10 @@
       {
         "eje": "economico",
         "carga": 0.75
+      },
+      {
+        "eje": "propiedad-mercado",
+        "carga": 0.35
       }
     ],
     "polaridad": "negativa",

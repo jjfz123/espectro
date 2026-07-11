@@ -1,13 +1,29 @@
 import { describe, it, expect } from 'vitest';
+import { readFileSync, readdirSync } from 'node:fs';
+import { join } from 'node:path';
+import { fileURLToPath } from 'node:url';
 import {
   calcularFacetas,
   distanciaEspacial,
-  componerAutoridadPolitica,
   proyectarEnEspacio,
   respuestasDePosiciones,
   EJES_ESPACIO,
+  EJE_AUTORIDAD_POLITICA,
+  EJE_PROPIEDAD_MERCADO,
 } from '../src/engine/index.js';
-import type { Eje, Item, PerfilAfinidad, ResultadoFaceta, Valor } from '../src/engine/index.js';
+import type {
+  Eje,
+  Item,
+  PerfilAfinidad,
+  ReferenciaDoctrinal,
+  Valor,
+} from '../src/engine/index.js';
+
+const RAIZ = fileURLToPath(new URL('..', import.meta.url));
+
+function leer<T>(ruta: string): T {
+  return JSON.parse(readFileSync(join(RAIZ, ruta), 'utf8')) as T;
+}
 
 const EJES: Eje[] = [
   { id: 'economico', nombre: 'Económico', poloNegativo: 'Izquierda', poloPositivo: 'Derecha' },
@@ -146,50 +162,55 @@ describe('distanciaEspacial', () => {
   });
 });
 
-function faceta(
-  facetaId: string,
-  valor: number,
-  itemsRespondidos: number,
-  cobertura = 1,
-): ResultadoFaceta {
-  return {
-    facetaId,
-    valor,
-    itemsRespondidos,
-    itemsDisponibles: itemsRespondidos,
-    cargaRespondida: itemsRespondidos,
-    cargaDisponible: itemsRespondidos,
-    numerador: 0,
-    denominador: 0,
-    cobertura,
-    coberturaSuficiente: true,
+describe('contrato de la brújula Propiedad/mercado × Poder', () => {
+  const ejesReales = leer<Eje[]>('data/ejes.json');
+  const ejePropiedad = ejesReales.find((eje) => eje.id === EJE_PROPIEDAD_MERCADO)!;
+  const ejeAutoridad = ejesReales.find((eje) => eje.id === EJE_AUTORIDAD_POLITICA)!;
+  const itemsReales = readdirSync(join(RAIZ, 'data/items'))
+    .filter((fichero) => fichero.endsWith('.json'))
+    .sort()
+    .flatMap((fichero) => leer<Item[]>(`data/items/${fichero}`))
+    .filter((item) => item.estado !== 'retirado');
+
+  const referencia = (id: string) =>
+    leer<ReferenciaDoctrinal>(`data/referencias/${id}.json`);
+
+  const propiedad = (id: string) => {
+    const proyeccion = proyectarEnEspacio(
+      referencia(id),
+      itemsReales,
+      [ejePropiedad],
+      { minimoItems: 3, umbralCobertura: 0 },
+    );
+    return proyeccion.facetas[0]?.valor;
   };
-}
 
-describe('componerAutoridadPolitica', () => {
-  it('distingue liberalismo cultural de concentración organizativa y estatal', () => {
-    const resultado = componerAutoridadPolitica([
-      faceta('social', -80, 4),
-      faceta('organizacion', 100, 2),
-      faceta('estatismo', 100, 1),
-    ]);
-    expect(resultado.valor).toBeGreaterThan(10);
-    expect(resultado.valor).toBeLessThan(30);
-    expect(resultado.coberturaSuficiente).toBe(true);
+  const autoridad = (id: string) => {
+    const proyeccion = proyectarEnEspacio(
+      referencia(id),
+      itemsReales,
+      [ejeAutoridad],
+      { minimoItems: 1, umbralCobertura: 0 },
+    );
+    return proyeccion.facetas[0]?.valor;
+  };
+
+  it('no convierte el intervencionismo falangista en izquierda económica extrema', () => {
+    expect(propiedad('falangismo-fe-jons-1934')).toBeTypeOf('number');
+    expect(propiedad('falangismo-fe-jons-1934')!).toBeGreaterThanOrEqual(-20);
+    expect(propiedad('falangismo-fe-jons-1934')!).toBeLessThanOrEqual(25);
   });
 
-  it('no publica una vertical sostenida por una sola familia de preguntas', () => {
-    const resultado = componerAutoridadPolitica([faceta('social', 80, 8)]);
-    expect(resultado.valor).toBe(80);
-    expect(resultado.coberturaSuficiente).toBe(false);
+  it('conserva separados socialización, distributismo y anarcocapitalismo', () => {
+    expect(propiedad('marxismo-leninismo-sovietico-estaliniano')!).toBeLessThanOrEqual(-75);
+    expect(propiedad('distributismo')!).toBeGreaterThanOrEqual(-35);
+    expect(propiedad('distributismo')!).toBeLessThanOrEqual(5);
+    expect(propiedad('anarcocapitalismo-rothbardiano')!).toBeGreaterThanOrEqual(65);
   });
 
-  it('orienta pluralismo y libertades civiles hacia el polo distribuido', () => {
-    const resultado = componerAutoridadPolitica([
-      faceta('pluralismo-institucional', 100, 4),
-      faceta('libertades-civiles', 100, 4),
-    ]);
-    expect(resultado.valor).toBe(-100);
-    expect(resultado.coberturaSuficiente).toBe(true);
+  it('mide Poder con cargas directas sin derivarlo de GAL–TAN o tradición moral', () => {
+    expect(autoridad('falangismo-fe-jons-1934')!).toBeGreaterThanOrEqual(75);
+    expect(autoridad('trotskismo')!).toBeGreaterThan(0);
+    expect(autoridad('anarcocapitalismo-rothbardiano')!).toBeLessThanOrEqual(-75);
   });
 });

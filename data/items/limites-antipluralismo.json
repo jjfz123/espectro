@@ -5,7 +5,8 @@
     "modulo": "limites-antipluralismo",
     "ejes": [
       { "eje": "organizacion", "carga": 1 },
-      { "eje": "pluralismo-institucional", "carga": -1 }
+      { "eje": "pluralismo-institucional", "carga": -1 },
+      { "eje": "autoridad-politica", "carga": 1 }
     ],
     "uso": "solo-mapa",
     "polaridad": "positiva",
@@ -19,7 +20,8 @@
     "modulo": "limites-antipluralismo",
     "ejes": [
       { "eje": "uso-fuerza", "carga": 1 },
-      { "eje": "pluralismo-institucional", "carga": -1 }
+      { "eje": "pluralismo-institucional", "carga": -1 },
+      { "eje": "autoridad-politica", "carga": 0.75 }
     ],
     "uso": "solo-mapa",
     "polaridad": "positiva",
@@ -34,7 +36,8 @@
     "ejes": [
       { "eje": "uso-fuerza", "carga": 1 },
       { "eje": "institucionalismo", "carga": -1 },
-      { "eje": "organizacion", "carga": 0.75 }
+      { "eje": "organizacion", "carga": 0.75 },
+      { "eje": "autoridad-politica", "carga": 0.4 }
     ],
     "uso": "solo-mapa",
     "polaridad": "positiva",
@@ -60,7 +63,10 @@
     "id": "lim-005",
     "texto": "Quienes se opongan al nuevo orden político deberían perder sus derechos de asociación y expresión aunque no hayan cometido delitos violentos.",
     "modulo": "limites-antipluralismo",
-    "ejes": [{ "eje": "pluralismo-institucional", "carga": -1 }],
+    "ejes": [
+      { "eje": "pluralismo-institucional", "carga": -1 },
+      { "eje": "autoridad-politica", "carga": 1 }
+    ],
     "uso": "solo-mapa",
     "polaridad": "negativa",
     "tags": ["derechos-oposicion", "represion", "pluralismo"],
@@ -73,7 +79,8 @@
     "modulo": "limites-antipluralismo",
     "ejes": [
       { "eje": "pluralismo-institucional", "carga": 1 },
-      { "eje": "uso-fuerza", "carga": -0.5 }
+      { "eje": "uso-fuerza", "carga": -0.5 },
+      { "eje": "autoridad-politica", "carga": -1 }
     ],
     "uso": "solo-mapa",
     "polaridad": "positiva",
@@ -87,7 +94,8 @@
     "modulo": "limites-antipluralismo",
     "ejes": [
       { "eje": "pluralismo-institucional", "carga": -1 },
-      { "eje": "social", "carga": 1 }
+      { "eje": "social", "carga": 1 },
+      { "eje": "autoridad-politica", "carga": 1 }
     ],
     "uso": "solo-mapa",
     "polaridad": "negativa",

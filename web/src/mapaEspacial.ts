@@ -11,22 +11,29 @@
  * tenga evidencia suficiente (umbral de entidades del motor). Una referencia
  * honesta cuyos textos no hablan del eje territorial (Bad Godesberg) aparece
  * en Economía × Sociedad y no en los pares territoriales; el cubo 3D exige
- * los tres macroejes. La brújula Economía × Poder exige economía y evidencia
- * repartida entre al menos dos facetas de su vertical. Sin un par publicable,
+ * los tres macroejes. La brújula Propiedad/mercado × Poder exige tres anclas
+ * de propiedad/coordinación y evidencia repartida entre al menos dos facetas
+ * de su vertical. Sin un par publicable,
  * la entidad queda fuera con su evidencia explicada. Nunca se inventan posiciones.
  *
  * Vive junto a datosResultados.ts: solo lo descarga el chunk de resultados.
  */
 import {
   EJE_AUTORIDAD_POLITICA,
+  EJE_PROPIEDAD_MERCADO,
   EJES_ESPACIO,
-  componerAutoridadPolitica,
   proyectarEnEspacio,
 } from '@engine';
 import type { Eje, PerfilAfinidad, ResultadoFaceta } from '@engine';
 import { EJES, ITEMS, nombrePerfil } from './datos';
 import { PARTIDOS, REFERENCIAS } from './datosResultados';
 import { NOMBRE_LLANO_EJE } from './lecturaEjes';
+import {
+  evidenciaAutoridadAtlas,
+  evidenciaPropiedadAtlas,
+  gradoEvidenciaBrujula,
+} from './atlasIdeologias';
+import type { EvidenciaEjeAtlas, GradoEvidenciaBrujula } from './atlasIdeologias';
 
 export type TipoEntidadMapa = 'partido' | 'referencia';
 
@@ -42,6 +49,16 @@ export interface EntidadMapa {
   ejesSuficientes: string[];
   /** Evidencia por eje para tooltips y auditoría. */
   facetas: ResultadoFaceta[];
+  /**
+   * Calidad específica del par Propiedad × Poder. «Provisional» conserva la
+   * media observada, pero obliga a dibujar el punto hueco y a advertir que la
+   * documentación todavía no supera el contrato completo.
+   */
+  evidenciaBrujula?: {
+    grado: Exclude<GradoEvidenciaBrujula, 'insuficiente'>;
+    propiedad: EvidenciaEjeAtlas;
+    poder: EvidenciaEjeAtlas;
+  };
 }
 
 export interface EntidadExcluida {
@@ -57,30 +74,35 @@ export const EJES_MAPA: Eje[] = EJES.filter((eje) =>
   (EJES_ESPACIO as readonly string[]).includes(eje.id),
 );
 
-/** Vertical compuesta de la primera brújula; no sustituye la faceta GAL–TAN. */
-export const EJE_PODER_BRUJULA: Eje = {
-  id: EJE_AUTORIDAD_POLITICA,
-  nombre: 'Poder político y libertades',
-  poloNegativo: 'Libertades, pluralismo y poder distribuido',
-  poloPositivo: 'Orden, jerarquía y poder concentrado',
-  descripcion:
-    'Composición transparente de GAL–TAN, pluralismo institucional, organización, libertades civiles, democracia directa, estatismo y tradición moral. Evita confundir laicismo con pluralismo o tradición con autoritarismo.',
-};
+/** Horizontal de la brújula: propiedad/coordinación, separado de fiscalidad. */
+export const EJE_ECONOMIA_BRUJULA: Eje =
+  EJES.find((eje) => eje.id === EJE_PROPIEDAD_MERCADO) ?? {
+    id: EJE_PROPIEDAD_MERCADO,
+    nombre: 'Propiedad y coordinación económica',
+    poloNegativo: 'Propiedad social, pública o cooperativa',
+    poloPositivo: 'Propiedad privada y coordinación por mercados',
+  };
+
+/** Vertical directa de la brújula; nunca se sustituye por GAL–TAN cultural. */
+export const EJE_PODER_BRUJULA: Eje =
+  EJES.find((eje) => eje.id === EJE_AUTORIDAD_POLITICA) ?? {
+    id: EJE_AUTORIDAD_POLITICA,
+    nombre: 'Poder político y libertades',
+    poloNegativo: 'Libertades, pluralismo y poder distribuido',
+    poloPositivo: 'Jerarquía, coerción y poder concentrado',
+  };
 
 /** Nombre corto de eje para rótulos: el llano de la interfaz (lecturaEjes). */
 export const NOMBRE_CORTO_EJE: Record<string, string> = {
   ...NOMBRE_LLANO_EJE,
   [EJE_AUTORIDAD_POLITICA]: 'Poder',
+  [EJE_PROPIEDAD_MERCADO]: 'Propiedad y mercado',
 };
 
 function motivoDeFaceta(faceta: ResultadoFaceta): string {
   const nombre = NOMBRE_CORTO_EJE[faceta.facetaId] ?? faceta.facetaId;
   const cobertura = Math.round(faceta.cobertura * 100);
   return `${nombre}: ${faceta.itemsRespondidos} de ${faceta.itemsDisponibles} ítems del eje documentados (cobertura ${cobertura} %)`;
-}
-
-function motivoDeAutoridad(faceta: ResultadoFaceta): string {
-  return `Poder: ${faceta.itemsRespondidos} observaciones repartidas entre las facetas componentes; se exigen al menos 4 y dos familias distintas`;
 }
 
 function clasificar(
@@ -100,32 +122,54 @@ function clasificar(
       continue;
     }
     const proyeccion = proyectarEnEspacio(perfil, ITEMS, EJES_MAPA);
-    const facetasCompletas = proyectarEnEspacio(
+    const proyeccionPropiedad = proyectarEnEspacio(
       perfil,
       ITEMS,
-      EJES,
+      [EJE_ECONOMIA_BRUJULA],
       { minimoItems: 1, umbralCobertura: 0 },
-    ).facetas;
-    const autoridad = componerAutoridadPolitica(facetasCompletas, {
-      minimoItems: 4,
-      minimoComponentes: 2,
-      umbralCobertura: 0,
-    });
+    );
+    const proyeccionPoder = proyectarEnEspacio(
+      perfil,
+      ITEMS,
+      [EJE_PODER_BRUJULA],
+      { minimoItems: 1, umbralCobertura: 0 },
+    );
+    const idsPosicionados = Object.keys(perfil.posiciones);
+    const evidenciaPropiedad = evidenciaPropiedadAtlas(idsPosicionados);
+    const evidenciaPoder = evidenciaAutoridadAtlas(idsPosicionados);
+    const gradoCalculado = gradoEvidenciaBrujula(evidenciaPropiedad, evidenciaPoder);
+    /* La capa educativa del atlas sustituye los rombos doctrinales en esta
+       brújula. El tier provisional solo evita ocultar partidos mientras se
+       amplía su ficha; nunca rescata referencias para después omitirlas en el
+       render, porque quedarían fuera tanto del plano como de EXCLUIDAS_MAPA. */
+    const gradoBrujula: GradoEvidenciaBrujula =
+      tipo === 'partido'
+        ? gradoCalculado
+        : evidenciaPropiedad.suficiente && evidenciaPoder.suficiente
+          ? 'solida'
+          : 'insuficiente';
     const insuficientes = new Set(proyeccion.ejesInsuficientes);
     const suficientes = proyeccion.facetas.filter(
       (faceta) => !insuficientes.has(faceta.facetaId) && typeof faceta.valor === 'number',
     );
     const valores: Record<string, number> = {};
     for (const faceta of suficientes) valores[faceta.facetaId] = faceta.valor as number;
-    if (autoridad.coberturaSuficiente && typeof autoridad.valor === 'number') {
+    const propiedad = proyeccionPropiedad.facetas[0];
+    const autoridad = proyeccionPoder.facetas[0];
+    if (gradoBrujula !== 'insuficiente' && typeof propiedad?.valor === 'number') {
+      valores[EJE_PROPIEDAD_MERCADO] = propiedad.valor;
+    }
+    if (gradoBrujula !== 'insuficiente' && typeof autoridad?.valor === 'number') {
       valores[EJE_AUTORIDAD_POLITICA] = autoridad.valor;
     }
-    const paresDibujables = [
+    const paresDibujables: ReadonlyArray<readonly [string, string]> = [
       ['economico', 'social'],
       ['economico', 'territorial'],
       ['social', 'territorial'],
-      ['economico', EJE_AUTORIDAD_POLITICA],
-    ] as const;
+      ...(tipo === 'partido'
+        ? ([[EJE_PROPIEDAD_MERCADO, EJE_AUTORIDAD_POLITICA]] as const)
+        : []),
+    ];
     if (paresDibujables.some(([x, y]) => typeof valores[x] === 'number' && typeof valores[y] === 'number')) {
       dentro.push({
         id: perfil.id,
@@ -134,7 +178,19 @@ function clasificar(
         tipo,
         valores,
         ejesSuficientes: Object.keys(valores),
-        facetas: [...proyeccion.facetas, autoridad],
+        facetas: [
+          ...proyeccion.facetas,
+          ...(propiedad ? [{ ...propiedad, coberturaSuficiente: evidenciaPropiedad.suficiente }] : []),
+          ...(autoridad ? [{ ...autoridad, coberturaSuficiente: evidenciaPoder.suficiente }] : []),
+        ],
+        evidenciaBrujula:
+          gradoBrujula === 'insuficiente'
+            ? undefined
+            : {
+                grado: gradoBrujula,
+                propiedad: evidenciaPropiedad,
+                poder: evidenciaPoder,
+              },
       });
     } else {
       fuera.push({
@@ -144,7 +200,20 @@ function clasificar(
         motivos: proyeccion.facetas
           .filter((faceta) => insuficientes.has(faceta.facetaId))
           .map(motivoDeFaceta)
-          .concat(autoridad.coberturaSuficiente ? [] : [motivoDeAutoridad(autoridad)]),
+          .concat(
+            evidenciaPropiedad.suficiente
+              ? []
+              : [
+                  `Propiedad y mercado: ${evidenciaPropiedad.items} ítems en ${evidenciaPropiedad.familias} subdimensiones; el contrato exige más cobertura`,
+                ],
+          )
+          .concat(
+            evidenciaPoder.suficiente
+              ? []
+              : [
+                  `Poder: ${evidenciaPoder.items} ítems en ${evidenciaPoder.familias} familias (${evidenciaPoder.itemsNucleo} de contrapesos/libertades); evidencia insuficiente`,
+                ],
+          ),
       });
     }
   }

@@ -16,6 +16,7 @@
  */
 import { ENTIDADES_MAPA } from './mapaEspacial';
 import type { EntidadMapa } from './mapaEspacial';
+import { corrientesAtlasVisibles } from './atlasIdeologias';
 
 export interface RectReservado {
   x: number;
@@ -45,6 +46,9 @@ export interface ZonaCorriente {
   /** Índice de tinte 0..3; regiones vecinas reciben tonos distintos. */
   tono: number;
   celdas: number;
+  /** Coordenada doctrinal normalizada, usada por la navegación espacial. */
+  vx: number;
+  vy: number;
 }
 
 export interface CapaCorrientes {
@@ -339,6 +343,31 @@ export function referenciasDelPar(ejeXId: string, ejeYId: string): EntidadMapa[]
   );
 }
 
+interface AnclaZona {
+  id: string;
+  nombre: string;
+  valores: Record<string, number>;
+}
+
+function anclasDelPar(
+  parId: string,
+  ejeXId: string,
+  ejeYId: string,
+  incluirProfundidad: boolean,
+): AnclaZona[] {
+  if (parId === 'propiedad-autoridad') {
+    return corrientesAtlasVisibles(incluirProfundidad).map((corriente) => ({
+      id: corriente.id,
+      nombre: corriente.nombre,
+      valores: {
+        [ejeXId]: corriente.coordenadas.x,
+        [ejeYId]: corriente.coordenadas.y,
+      },
+    }));
+  }
+  return referenciasDelPar(ejeXId, ejeYId);
+}
+
 const cachePorPar = new Map<string, CapaCorrientes>();
 
 /**
@@ -356,14 +385,19 @@ export function capaCorrientes(
   margen: number,
   lado: number,
   reservados: RectReservado[],
+  incluirProfundidad = false,
 ): CapaCorrientes {
-  const memo = cachePorPar.get(parId);
+  const firmaReservados = reservados
+    .map((rect) => [rect.x, rect.y, rect.ancho, rect.alto].map((n) => Math.round(n)).join(','))
+    .join(';');
+  const claveCache = `${parId}|${incluirProfundidad ? 'profundo' : 'principal'}|${firmaReservados}`;
+  const memo = cachePorPar.get(claveCache);
   if (memo) return memo;
 
-  const referencias = referenciasDelPar(ejeXId, ejeYId);
+  const referencias = anclasDelPar(parId, ejeXId, ejeYId, incluirProfundidad);
   if (referencias.length === 0) {
     const vacia: CapaCorrientes = { zonas: [], bordes: '' };
-    cachePorPar.set(parId, vacia);
+    cachePorPar.set(claveCache, vacia);
     return vacia;
   }
 
@@ -454,6 +488,8 @@ export function capaCorrientes(
       ),
       tono: tonos[indice] ?? 0,
       celdas: numeroCeldas,
+      vx: posiciones[indice]?.vx ?? 0,
+      vy: posiciones[indice]?.vy ?? 0,
     });
   }
 
@@ -463,6 +499,6 @@ export function capaCorrientes(
        el trazo y evita volver a introducir una frontera discreta. */
     bordes: zonas.map((zona) => zona.d).join(''),
   };
-  cachePorPar.set(parId, capa);
+  cachePorPar.set(claveCache, capa);
   return capa;
 }

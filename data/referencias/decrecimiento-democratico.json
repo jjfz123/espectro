@@ -1,0 +1,196 @@
+{
+  "id": "decrecimiento-democratico",
+  "nombre": "Decrecimiento democrático",
+  "tipo": "referencia-doctrinal",
+  "definicion": "Tipo ideal de decrecimiento democrático que propone reducir de forma planificada y equitativa la producción y el consumo material en los sectores y territorios sobredimensionados, priorizando bienestar, suficiencia, redistribución y participación ciudadana dentro de los límites biofísicos.",
+  "variante": "Agenda española de postcrecimiento formulada en la Declaración de la Conferencia Más Allá del Crecimiento de 2025; se separa del ecosocialismo porque no presupone una estrategia revolucionaria, una forma única de propiedad ni la sustitución general del mercado",
+  "periodo": "2022-2025",
+  "confianza": "verificada",
+  "version": "1.0",
+  "revisado": "2026-07-11",
+  "publicacionMapa": {
+    "publicable": false,
+    "motivo": "El prior visual la situaría en la izquierda verde y democrática, cerca de Greenism y Social Ecology pero a la izquierda del crecimiento verde. El banco mide bien suficiencia y redistribución, pero no fija pluralismo, separación de poderes ni cuánto mercado conserva; proyectarla inventaría autoridad y exageraría su coordenada económica."
+  },
+  "facetasDefinitorias": [
+    "ecologia",
+    "economico",
+    "democracia-directa"
+  ],
+  "sensibilidad": "normal",
+  "advertencia": "Es la convergencia española de postcrecimiento de 2025, no todo uso académico de «decrecimiento» ni un perfil automático de organizaciones firmantes. No se infieren energía nuclear más allá del cierre defendido por la declaración, forma territorial, política exterior, derechos culturales, organización partidaria ni grado de propiedad pública. Frente al ecosocialismo del catálogo, la discriminan la renta básica, los topes turísticos, la democracia deliberativa vinculante y la ausencia de una tesis propia sobre revolución o expropiación. Para publicarla en el mapa faltan ítems neutrales sobre mercado residual y contrapesos institucionales.",
+  "fuentesMarco": [
+    {
+      "tipo": "programa",
+      "titulo": "Declaración Conferencia Más Allá del Crecimiento 2025: Decrecimiento para el bienestar",
+      "url": "https://beyondgrowth.es/wp-content/uploads/2025/09/Declaracion-Conferencia-Mas-Alla-del-Crecimiento-2025.pdf",
+      "fecha": "2025-09-26",
+      "consultado": "2026-07-11"
+    },
+    {
+      "tipo": "otro",
+      "titulo": "Giorgos Kallis, Susan Paulson, Federico Demaria y Giacomo D’Alisa, Decrecer pero, ¿dónde? El caso del decrecimiento",
+      "url": "https://dialnet.unirioja.es/servlet/articulo?codigo=8592773",
+      "fecha": "2022",
+      "consultado": "2026-07-11"
+    },
+    {
+      "tipo": "declaracion",
+      "titulo": "Greenpeace España, presentación de la declaración conjunta Más Allá del Crecimiento",
+      "url": "https://es.greenpeace.org/es/sala-de-prensa/comunicados/la-conferencia-mas-alla-del-crecimiento-pide-en-su-declaracion-conjunta-superar-la-logica-del-crecimiento-infinito-y-poner-el-bienestar-en-el-centro/",
+      "fecha": "2025-09-26",
+      "consultado": "2026-07-11"
+    }
+  ],
+  "reglaPublicacion": {
+    "minimoItems": 10,
+    "minimoCobertura": 0.65,
+    "umbralAfinidad": 78
+  },
+  "posiciones": {
+    "ene-010": {
+      "valor": 2,
+      "justificacion": "La declaración define su propuesta como una reducción democrática y planificada de producción y consumo, empezando por sectores dañinos y grupos y territorios privilegiados.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Declaración Más Allá del Crecimiento, reducción planificada de producción y consumo",
+        "url": "https://beyondgrowth.es/wp-content/uploads/2025/09/Declaracion-Conferencia-Mas-Alla-del-Crecimiento-2025.pdf",
+        "fecha": "2025-09-26",
+        "consultado": "2026-07-11"
+      }
+    },
+    "ene-011": {
+      "valor": -2,
+      "justificacion": "Rechaza que el desacoplamiento y los cambios tecnológicos por sí solos permitan mantener crecimiento material ilimitado dentro de límites biofísicos.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Declaración Más Allá del Crecimiento, crítica al crecimiento verde tecnológico",
+        "url": "https://beyondgrowth.es/wp-content/uploads/2025/09/Declaracion-Conferencia-Mas-Alla-del-Crecimiento-2025.pdf",
+        "fecha": "2025-09-26",
+        "consultado": "2026-07-11"
+      }
+    },
+    "izq-045": {
+      "valor": 2,
+      "justificacion": "Vivir mejor con menos, reducir ramas de alto impacto y abandonar la dependencia del crecimiento económico son elementos expresos de la propuesta.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Declaración Más Allá del Crecimiento, suficiencia y bienestar más allá del PIB",
+        "url": "https://beyondgrowth.es/wp-content/uploads/2025/09/Declaracion-Conferencia-Mas-Alla-del-Crecimiento-2025.pdf",
+        "fecha": "2025-09-26",
+        "consultado": "2026-07-11"
+      }
+    },
+    "izq-027": {
+      "valor": -2,
+      "justificacion": "La transición se acompaña de garantía de trabajo ecosocial, servicios universales y redistribución; por ello niega que decrecer perjudique necesariamente a la clase trabajadora.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Declaración Más Allá del Crecimiento, garantía de trabajo y transición justa",
+        "url": "https://beyondgrowth.es/wp-content/uploads/2025/09/Declaracion-Conferencia-Mas-Alla-del-Crecimiento-2025.pdf",
+        "fecha": "2025-09-26",
+        "consultado": "2026-07-11"
+      }
+    },
+    "sd-016": {
+      "valor": 2,
+      "justificacion": "El documento subordina la economía y el PIB a los límites planetarios, la suficiencia y la satisfacción de necesidades sociales y ecológicas.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Declaración Más Allá del Crecimiento, límites biofísicos y necesidades",
+        "url": "https://beyondgrowth.es/wp-content/uploads/2025/09/Declaracion-Conferencia-Mas-Alla-del-Crecimiento-2025.pdf",
+        "fecha": "2025-09-26",
+        "consultado": "2026-07-11"
+      }
+    },
+    "va-008": {
+      "valor": -2,
+      "justificacion": "Denuncia como insuficientes tanto los incentivos de mercado como una transición basada exclusivamente en tecnología y exige límites democráticos a producción y consumo.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Declaración Más Allá del Crecimiento, falsas soluciones y desacoplamiento",
+        "url": "https://beyondgrowth.es/wp-content/uploads/2025/09/Declaracion-Conferencia-Mas-Alla-del-Crecimiento-2025.pdf",
+        "fecha": "2025-09-26",
+        "consultado": "2026-07-11"
+      }
+    },
+    "sd-008": {
+      "valor": 2,
+      "justificacion": "Incluye una renta básica universal, individual, suficiente e incondicional como garantía material durante la transformación socioecológica.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Declaración Más Allá del Crecimiento, renta básica universal e incondicional",
+        "url": "https://beyondgrowth.es/wp-content/uploads/2025/09/Declaracion-Conferencia-Mas-Alla-del-Crecimiento-2025.pdf",
+        "fecha": "2025-09-26",
+        "consultado": "2026-07-11"
+      }
+    },
+    "va-012": {
+      "valor": 2,
+      "justificacion": "Propone limitar pisos turísticos, plataformas, visitantes, vuelos y cruceros según capacidad ecológica y dignidad de las poblaciones locales.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Declaración Más Allá del Crecimiento, decrecimiento del sector turístico",
+        "url": "https://beyondgrowth.es/wp-content/uploads/2025/09/Declaracion-Conferencia-Mas-Alla-del-Crecimiento-2025.pdf",
+        "fecha": "2025-09-26",
+        "consultado": "2026-07-11"
+      }
+    },
+    "dem-001": {
+      "valor": 2,
+      "justificacion": "Reclama mecanismos vinculantes y permanentes de democracia deliberativa y directa, incluidas asambleas climáticas con capacidad real de decisión.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Declaración Más Allá del Crecimiento, democracia deliberativa permanente y vinculante",
+        "url": "https://beyondgrowth.es/wp-content/uploads/2025/09/Declaracion-Conferencia-Mas-Alla-del-Crecimiento-2025.pdf",
+        "fecha": "2025-09-26",
+        "consultado": "2026-07-11"
+      }
+    },
+    "eco-001": {
+      "valor": 2,
+      "justificacion": "Financia la renta básica y la transición con impuestos progresivos concentrados en el uno por ciento con mayores rentas y riqueza y en grandes patrimonios.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Declaración Más Allá del Crecimiento, reforma fiscal justa y verde",
+        "url": "https://beyondgrowth.es/wp-content/uploads/2025/09/Declaracion-Conferencia-Mas-Alla-del-Crecimiento-2025.pdf",
+        "fecha": "2025-09-26",
+        "consultado": "2026-07-11"
+      }
+    },
+    "eco-005": {
+      "valor": 2,
+      "justificacion": "Su primer bloque de medidas exige topes inmediatos a los alquileres y avanzar hacia la desmercantilización del parque de vivienda.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Declaración Más Allá del Crecimiento, vivienda y servicios básicos universales",
+        "url": "https://beyondgrowth.es/wp-content/uploads/2025/09/Declaracion-Conferencia-Mas-Alla-del-Crecimiento-2025.pdf",
+        "fecha": "2025-09-26",
+        "consultado": "2026-07-11"
+      }
+    },
+    "va-004": {
+      "valor": 2,
+      "justificacion": "Plantea desmantelar de forma planificada la agricultura y ganadería industrializada y contaminante y sustituirla por sistemas agroecológicos.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Declaración Más Allá del Crecimiento, transición agroecológica",
+        "url": "https://beyondgrowth.es/wp-content/uploads/2025/09/Declaracion-Conferencia-Mas-Alla-del-Crecimiento-2025.pdf",
+        "fecha": "2025-09-26",
+        "consultado": "2026-07-11"
+      }
+    }
+  }
+}

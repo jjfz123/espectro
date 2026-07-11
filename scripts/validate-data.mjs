@@ -124,6 +124,7 @@ const validaSindicato = ajv.compile(leer('data/schemas/sindicato.schema.json'));
 const validaTermino = ajv.compile(leer('data/schemas/termino.schema.json'));
 const validaConvocatoria = ajv.compile(leer('data/schemas/convocatoria.schema.json'));
 const validaReferencia = ajv.compile(leer('data/schemas/referencia.schema.json'));
+const validaMapaIdeologias = ajv.compile(leer('data/schemas/mapa-ideologias.schema.json'));
 
 const fallo = (donde, detalle) => errores.push(`- ${donde}: ${detalle}`);
 const ajvErrores = (v) =>
@@ -374,12 +375,14 @@ for (const p of partidos) {
 // los partidos, pueden usar anclas solo-mapa, pero siempre con fuente propia.
 let nReferencias = 0;
 const idsReferencias = new Set();
+const referencias = [];
 const directorioReferencias = join(raiz, 'data/referencias');
 if (existsSync(directorioReferencias)) {
   for (const fichero of readdirSync(directorioReferencias)) {
     if (!fichero.endsWith('.json') || fichero.startsWith('_')) continue;
     nReferencias++;
     const referencia = leer(`data/referencias/${fichero}`);
+    referencias.push(referencia);
     const donde = `referencias/${fichero} (${referencia.id ?? '?'})`;
     if (!validaReferencia(referencia)) fallo(donde, ajvErrores(validaReferencia));
     if (idsReferencias.has(referencia.id)) fallo(donde, 'id duplicado');
@@ -406,6 +409,279 @@ if (existsSync(directorioReferencias)) {
         fallo(donde, `posición doctrinal sin fuente completa: ${itemId}`);
       }
     }
+  }
+}
+
+// 6 bis. Atlas ideológico de la brújula principal. Esta capa editorial es
+// deliberadamente distinta de las referencias de matching: puede explicar
+// una corriente seria todavía no instrumentada, pero no fingir afinidad. El
+// contrato se comprueba aquí para que densidad, cuadrantes y desviaciones no
+// dependan de una revisión visual informal.
+const mapaIdeologias = leer('data/mapa-ideologias.json');
+if (!validaMapaIdeologias(mapaIdeologias)) {
+  fallo('mapa-ideologias.json', ajvErrores(validaMapaIdeologias));
+}
+
+const corrientesAtlas = Array.isArray(mapaIdeologias.corrientes)
+  ? mapaIdeologias.corrientes
+  : [];
+const umbralesAtlas = mapaIdeologias.umbrales ?? {};
+const subdimensionesXAtlas = mapaIdeologias.sistema?.subdimensionesX ?? {};
+const familiasYAtlas = mapaIdeologias.sistema?.familiasY ?? {};
+const familiasNucleoYAtlas = new Set(mapaIdeologias.sistema?.familiasNucleoY ?? []);
+const idsCorrientesAtlas = new Set();
+const nombresCorrientesAtlas = new Set();
+const coordenadasCorrientesAtlas = new Set();
+const familiasAtlas = new Set();
+const cuadrantesAtlas = { 'izquierda-arriba': 0, 'derecha-arriba': 0, 'izquierda-abajo': 0, 'derecha-abajo': 0 };
+let nInstrumentadasAtlas = 0;
+const referenciaPorId = new Map(referencias.map((referencia) => [referencia.id, referencia]));
+
+for (const [subdimension, ids] of Object.entries(subdimensionesXAtlas)) {
+  for (const itemId of ids ?? []) {
+    const item = itemsPorId.get(itemId);
+    if (!item) fallo(`mapa-ideologias.json (subdimensión ${subdimension})`, `ítem inexistente: ${itemId}`);
+    else if (item.estado === 'retirado') {
+      fallo(`mapa-ideologias.json (subdimensión ${subdimension})`, `ítem retirado: ${itemId}`);
+    } else if (!item.ejes?.some((entrada) => entrada.eje === 'propiedad-mercado')) {
+      fallo(
+        `mapa-ideologias.json (subdimensión ${subdimension})`,
+        `el ítem ${itemId} no carga en propiedad-mercado`,
+      );
+    }
+  }
+}
+for (const [familia, ids] of Object.entries(familiasYAtlas)) {
+  for (const itemId of ids ?? []) {
+    const item = itemsPorId.get(itemId);
+    if (!item) fallo(`mapa-ideologias.json (familiaY ${familia})`, `ítem inexistente: ${itemId}`);
+    else if (item.estado === 'retirado') {
+      fallo(`mapa-ideologias.json (familiaY ${familia})`, `ítem retirado: ${itemId}`);
+    } else if (!item.ejes?.some((entrada) => entrada.eje === 'autoridad-politica')) {
+      fallo(
+        `mapa-ideologias.json (familiaY ${familia})`,
+        `el ítem ${itemId} no carga en autoridad-politica`,
+      );
+    }
+  }
+}
+const pertenenciaFamiliaY = new Map();
+for (const [familia, ids] of Object.entries(familiasYAtlas)) {
+  for (const itemId of ids ?? []) {
+    const previa = pertenenciaFamiliaY.get(itemId);
+    if (previa) {
+      fallo(
+        'mapa-ideologias.json (familiasY)',
+        `el ítem ${itemId} figura a la vez en ${previa} y ${familia}; duplicaría su evidencia`,
+      );
+    } else {
+      pertenenciaFamiliaY.set(itemId, familia);
+    }
+  }
+}
+for (const item of itemsPorId.values()) {
+  if (
+    item.estado !== 'retirado' &&
+    item.ejes?.some((entrada) => entrada.eje === 'autoridad-politica') &&
+    !pertenenciaFamiliaY.has(item.id)
+  ) {
+    fallo(
+      'mapa-ideologias.json (familiasY)',
+      `la carga directa de ${item.id} no está clasificada en ninguna familia de Poder`,
+    );
+  }
+}
+for (const familia of familiasNucleoYAtlas) {
+  if (!Object.hasOwn(familiasYAtlas, familia)) {
+    fallo('mapa-ideologias.json (familiasNucleoY)', `familia inexistente: ${familia}`);
+  }
+}
+
+const distanciaCoordenadas = (a, b) =>
+  Math.hypot((a?.x ?? 0) - (b?.x ?? 0), (a?.y ?? 0) - (b?.y ?? 0));
+
+const facetaDeReferencia = (referencia, ejeId) => {
+  let numerador = 0;
+  let carga = 0;
+  let items = 0;
+  for (const [itemId, posicion] of Object.entries(referencia?.posiciones ?? {})) {
+    const item = itemsPorId.get(itemId);
+    const cargaEje = item?.ejes?.find((entrada) => entrada.eje === ejeId)?.carga;
+    if (!Number.isFinite(cargaEje) || cargaEje === 0 || item?.estado === 'retirado') continue;
+    numerador += posicion.valor * cargaEje;
+    carga += Math.abs(cargaEje);
+    items += 1;
+  }
+  return { valor: carga > 0 ? (100 * numerador) / (2 * carga) : null, items };
+};
+
+const poderDeReferencia = (referencia) => {
+  const faceta = facetaDeReferencia(referencia, 'autoridad-politica');
+  const idsPosicionados = new Set(Object.keys(referencia?.posiciones ?? {}));
+  const idsInstrumento = new Set(Object.values(familiasYAtlas).flat());
+  const familias = Object.values(familiasYAtlas).filter((ids) =>
+    ids.some((itemId) => idsPosicionados.has(itemId)),
+  ).length;
+  const idsNucleo = new Set(
+    [...familiasNucleoYAtlas].flatMap((familia) => familiasYAtlas[familia] ?? []),
+  );
+  return {
+    valor: faceta.valor,
+    // Igual que web/src/atlasIdeologias.ts: cuentan los ids declarados en el
+    // contrato, no cualquier carga auxiliar que pueda añadirse al eje.
+    items: [...idsPosicionados].filter((itemId) => idsInstrumento.has(itemId)).length,
+    familias,
+    itemsNucleo: [...idsPosicionados].filter((itemId) => idsNucleo.has(itemId)).length,
+  };
+};
+
+for (const corriente of corrientesAtlas) {
+  const donde = `mapa-ideologias.json (${corriente.id ?? '?'})`;
+  if (idsCorrientesAtlas.has(corriente.id)) fallo(donde, 'id de corriente duplicado');
+  if (nombresCorrientesAtlas.has(corriente.nombre)) fallo(donde, 'nombre de corriente duplicado');
+  idsCorrientesAtlas.add(corriente.id);
+  nombresCorrientesAtlas.add(corriente.nombre);
+  familiasAtlas.add(corriente.familia);
+
+  const claveCoordenada = `${corriente.coordenadas?.x},${corriente.coordenadas?.y}`;
+  if (coordenadasCorrientesAtlas.has(claveCoordenada)) {
+    fallo(donde, `coordenada final duplicada: ${claveCoordenada}`);
+  }
+  coordenadasCorrientesAtlas.add(claveCoordenada);
+
+  const { x, y } = corriente.coordenadas ?? {};
+  if (x < 0 && y > 0) cuadrantesAtlas['izquierda-arriba']++;
+  if (x > 0 && y > 0) cuadrantesAtlas['derecha-arriba']++;
+  if (x < 0 && y < 0) cuadrantesAtlas['izquierda-abajo']++;
+  if (x > 0 && y < 0) cuadrantesAtlas['derecha-abajo']++;
+
+  for (const itemId of corriente.preguntasDiscriminantes ?? []) {
+    const item = itemsPorId.get(itemId);
+    if (!item) fallo(donde, `pregunta discriminante inexistente: ${itemId}`);
+    else if (item.estado === 'retirado') fallo(donde, `pregunta discriminante retirada: ${itemId}`);
+  }
+
+  const distanciaPrior = distanciaCoordenadas(
+    corriente.coordenadasPrior,
+    corriente.coordenadas,
+  );
+  if (distanciaPrior > (umbralesAtlas.maximaDistanciaConJustificacion ?? Infinity)) {
+    fallo(donde, `se aleja ${distanciaPrior.toFixed(1)} puntos del prior visual; supera el máximo absoluto`);
+  } else if (
+    distanciaPrior > (umbralesAtlas.maximaDistanciaSinJustificar ?? Infinity) &&
+    !corriente.desviacionJustificada
+  ) {
+    fallo(donde, `se aleja ${distanciaPrior.toFixed(1)} puntos del prior visual sin justificación`);
+  }
+
+  if (corriente.estado !== 'instrumentada') continue;
+  nInstrumentadasAtlas++;
+  const referencia = referenciaPorId.get(corriente.referenciaId);
+  if (!referencia) {
+    fallo(donde, `referenciaId inexistente: ${corriente.referenciaId ?? '(vacío)'}`);
+    continue;
+  }
+  if (
+    referencia.sensibilidad &&
+    referencia.sensibilidad !== 'normal' &&
+    corriente.sensibilidad !== referencia.sensibilidad
+  ) {
+    fallo(
+      donde,
+      `sensibilidad ${corriente.sensibilidad} no conserva la de la referencia (${referencia.sensibilidad})`,
+    );
+  }
+
+  const propiedad = facetaDeReferencia(referencia, 'propiedad-mercado');
+  const poder = poderDeReferencia(referencia);
+  const idsPosicionados = new Set(Object.keys(referencia.posiciones ?? {}));
+  const idsPropiedadContrato = new Set(Object.values(subdimensionesXAtlas).flat());
+  const itemsPropiedadContrato = [...idsPosicionados].filter((itemId) =>
+    idsPropiedadContrato.has(itemId),
+  ).length;
+  const subdimensionesCubiertas = Object.values(subdimensionesXAtlas).filter((ids) =>
+    ids.some((itemId) => idsPosicionados.has(itemId)),
+  ).length;
+  // Replica el umbral técnico vigente del frontend; el atlas no rellena los
+  // huecos cuando falta una de las dos coordenadas calculables.
+  if (
+    itemsPropiedadContrato >= (umbralesAtlas.minimoItemsX ?? Infinity) &&
+    subdimensionesCubiertas >= (umbralesAtlas.minimoSubdimensionesX ?? Infinity) &&
+    typeof propiedad.valor === 'number' &&
+    poder.items >= (umbralesAtlas.minimoItemsY ?? Infinity) &&
+    poder.familias >= (umbralesAtlas.minimoFamiliasY ?? Infinity) &&
+    poder.itemsNucleo >= (umbralesAtlas.minimoItemsNucleoY ?? Infinity) &&
+    typeof poder.valor === 'number'
+  ) {
+    const distanciaMotor = Math.hypot(
+      propiedad.valor - corriente.coordenadas.x,
+      poder.valor - corriente.coordenadas.y,
+    );
+    if (distanciaMotor > (umbralesAtlas.maximaDistanciaMotorConJustificacion ?? Infinity)) {
+      fallo(donde, `motor y atlas divergen ${distanciaMotor.toFixed(1)} puntos; supera el máximo absoluto`);
+    } else if (
+      distanciaMotor > (umbralesAtlas.maximaDistanciaMotorSinJustificar ?? Infinity) &&
+      !corriente.desviacionJustificada
+    ) {
+      fallo(donde, `motor y atlas divergen ${distanciaMotor.toFixed(1)} puntos sin justificación`);
+    }
+  }
+}
+
+if (corrientesAtlas.length < (umbralesAtlas.minimoCorrientes ?? Infinity)) {
+  fallo('mapa-ideologias.json', `solo contiene ${corrientesAtlas.length} corrientes`);
+}
+if (nInstrumentadasAtlas < (umbralesAtlas.minimoInstrumentadas ?? Infinity)) {
+  fallo('mapa-ideologias.json', `solo ${nInstrumentadasAtlas} corrientes están instrumentadas`);
+}
+if (familiasAtlas.size < (umbralesAtlas.minimoFamilias ?? Infinity)) {
+  fallo('mapa-ideologias.json', `solo cubre ${familiasAtlas.size} familias doctrinales`);
+}
+for (const [cuadrante, numero] of Object.entries(cuadrantesAtlas)) {
+  if (numero < (umbralesAtlas.minimoPorCuadrante ?? Infinity)) {
+    fallo('mapa-ideologias.json', `${cuadrante} solo tiene ${numero} anclas`);
+  }
+}
+
+// Auditoría geométrica discreta, determinista y barata. La misma rejilla
+// estima la mayor región y el agujero más alejado; los umbrales dejan margen
+// suficiente para que la aproximación no falle por una centésima.
+if (corrientesAtlas.length > 0) {
+  const ladoAuditoria = 121;
+  const celdasPorCorriente = new Array(corrientesAtlas.length).fill(0);
+  let radioVacio = 0;
+  for (let fila = 0; fila < ladoAuditoria; fila++) {
+    const y = 100 - (200 * fila) / (ladoAuditoria - 1);
+    for (let columna = 0; columna < ladoAuditoria; columna++) {
+      const x = -100 + (200 * columna) / (ladoAuditoria - 1);
+      let mejor = 0;
+      let distanciaMejor = Infinity;
+      corrientesAtlas.forEach((corriente, indice) => {
+        const distancia = Math.hypot(
+          x - corriente.coordenadas.x,
+          y - corriente.coordenadas.y,
+        );
+        if (distancia < distanciaMejor) {
+          distanciaMejor = distancia;
+          mejor = indice;
+        }
+      });
+      celdasPorCorriente[mejor]++;
+      radioVacio = Math.max(radioVacio, distanciaMejor);
+    }
+  }
+  const areaMayor = (100 * Math.max(...celdasPorCorriente)) / (ladoAuditoria ** 2);
+  if (areaMayor > (umbralesAtlas.maximaAreaRegionPorcentaje ?? Infinity) + 0.15) {
+    fallo(
+      'mapa-ideologias.json',
+      `la región mayor ocupa aproximadamente ${areaMayor.toFixed(2)} %, por encima del umbral`,
+    );
+  }
+  if (radioVacio > (umbralesAtlas.maximoRadioVacio ?? Infinity) + 0.5) {
+    fallo(
+      'mapa-ideologias.json',
+      `el mayor vacío tiene radio aproximado ${radioVacio.toFixed(1)}, por encima del umbral`,
+    );
   }
 }
 

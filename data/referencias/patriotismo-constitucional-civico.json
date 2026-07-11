@@ -1,0 +1,192 @@
+{
+  "id": "patriotismo-constitucional-civico",
+  "nombre": "Patriotismo constitucional cívico",
+  "tipo": "referencia-doctrinal",
+  "definicion": "Tipo ideal de pertenencia política basado en la lealtad crítica a los derechos, procedimientos democráticos y principios universales de una constitución, no en ascendencia, etnia, religión o lengua heredada. En su versión habermasiana, una cultura política común permite integrar identidades culturales diversas y extender la solidaridad más allá de la nación étnica hacia estructuras federales o posnacionales.",
+  "variante": "Patriotismo constitucional habermasiano y concepción cívica de ciudadanía; se distingue de la apropiación española que convierte el texto territorial de 1978 en identidad nacional inmodificable o en criterio para excluir adversarios legales",
+  "periodo": "1979-actualidad; recepción y debate español especialmente desde 2001",
+  "confianza": "verificada",
+  "version": "1.0",
+  "revisado": "2026-07-11",
+  "publicacionMapa": {
+    "publicable": false,
+    "motivo": "La cuadrícula de referencia no contiene una celda homóloga: «National Liberalism» añade economía de mercado y nacionalismo que aquí no se presuponen. El banco estima con solidez Poder en torno a -85/-100, pero carece de anclas económicas; publicar un punto en Economía × Poder inventaría su horizontal."
+  },
+  "facetasDefinitorias": ["pluralismo-institucional", "institucionalismo", "social", "libertad-conciencia", "ue"],
+  "sensibilidad": "normal",
+  "advertencia": "Este perfil no declara «constitucionalista» a un bloque partidista ni congela la Constitución española de 1978. Lealtad constitucional significa precisamente que el texto puede interpretarse y reformarse por sus procedimientos sin transformar al discrepante pacífico en enemigo. Tampoco es sinónimo de nacionalismo cívico de Estado: Habermas busca una identidad posnacional basada en derechos, y la literatura española advierte que la etiqueta se ha usado también para legitimar un nacionalismo español excluyente. La cuadrícula aportada carece de equivalente limpio; «National Liberalism» es solo un vecino visual que debe rechazarse. Coordenada esperada: Economía indeterminada y Poder ≈ -95.",
+  "fuentesMarco": [
+    {
+      "tipo": "otro",
+      "titulo": "José Gabriel de Mariscal y Serrano, Habermas. El patriotismo constitucional",
+      "url": "https://dialnet.unirioja.es/servlet/articulo?codigo=3971163",
+      "fecha": "2010",
+      "consultado": "2026-07-11"
+    },
+    {
+      "tipo": "otro",
+      "titulo": "Miguel Herrero de Miñón, ¿Patriotismo constitucional?, Anuario de Filosofía del Derecho",
+      "url": "https://www.boe.es/biblioteca_juridica/anuarios_derecho/abrir_pdf.php?id=ANU-M-2002-10024900282",
+      "fecha": "2002",
+      "consultado": "2026-07-11"
+    },
+    {
+      "tipo": "otro",
+      "titulo": "Constitución Española, texto consolidado publicado por el BOE",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+      "fecha": "1978-12-29",
+      "consultado": "2026-07-11"
+    }
+  ],
+  "reglaPublicacion": {
+    "minimoItems": 9,
+    "minimoCobertura": 0.55,
+    "umbralAfinidad": 80
+  },
+  "posiciones": {
+    "and-008": {
+      "valor": 2,
+      "justificacion": "La pertenencia cívica nace de participar como igual en una comunidad de derechos y deliberación; residencia y ciudadanía política sustituyen el origen familiar como criterio de inclusión.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Mariscal y Serrano, Habermas. El patriotismo constitucional",
+        "url": "https://dialnet.unirioja.es/servlet/articulo?codigo=3971163",
+        "fecha": "2010",
+        "consultado": "2026-07-11"
+      }
+    },
+    "nac-003": {
+      "valor": -2,
+      "justificacion": "Reducir la membresía política al dominio de una lengua confunde cultura heredada y ciudadanía. La cultura política común debe poder ser compartida por personas con identidades lingüísticas diversas.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Mariscal y Serrano, Habermas. El patriotismo constitucional",
+        "url": "https://dialnet.unirioja.es/servlet/articulo?codigo=3971163",
+        "fecha": "2010",
+        "consultado": "2026-07-11"
+      }
+    },
+    "lim-007": {
+      "valor": -2,
+      "justificacion": "Hacer depender derechos políticos del origen étnico niega la igualdad ciudadana y reintroduce el sustrato prepolítico que esta doctrina trata de sustituir por derechos universales.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Constitución Española, artículos 14 y 23",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+        "fecha": "1978-12-29",
+        "consultado": "2026-07-11"
+      }
+    },
+    "dem-006": {
+      "valor": 2,
+      "justificacion": "Los derechos constitucionales son límites jurídicos a la voluntad ordinaria de una mayoría; una jurisdicción constitucional puede anular decisiones que vulneren ese suelo común.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Constitución Española, Título IX: Tribunal Constitucional",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+        "fecha": "1978-12-29",
+        "consultado": "2026-07-11"
+      }
+    },
+    "dem-008": {
+      "valor": 2,
+      "justificacion": "La lealtad se dirige a procedimientos y derechos de un Estado constitucional, no a la eficacia de un gobierno concreto; la separación de poderes conserva esos procedimientos frente a la mayoría coyuntural.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Mariscal y Serrano, Habermas. El patriotismo constitucional",
+        "url": "https://dialnet.unirioja.es/servlet/articulo?codigo=3971163",
+        "fecha": "2010",
+        "consultado": "2026-07-11"
+      }
+    },
+    "dem-010": {
+      "valor": 2,
+      "justificacion": "El pluralismo político forma parte del contenido democrático al que se presta lealtad; una emergencia no convierte a una identidad nacional homogénea en sustituto legítimo de la oposición.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Constitución Española, artículos 1 y 6",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+        "fecha": "1978-12-29",
+        "consultado": "2026-07-11"
+      }
+    },
+    "dem-012": {
+      "valor": 2,
+      "justificacion": "Una constitución merece adhesión por mantener abiertos procedimientos democráticos de cambio, incluida su propia reforma. La transformación profunda se tramita mediante esas reglas, no mediante imposición identitaria.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Constitución Española, Título X: reforma constitucional",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+        "fecha": "1978-12-29",
+        "consultado": "2026-07-11"
+      }
+    },
+    "dem-020": {
+      "valor": 2,
+      "justificacion": "Si se sustituye el marco vigente, solo un proceso plural, libre e inclusivo puede crear una nueva lealtad constitucional; una dirección única contradiría el fundamento deliberativo de la doctrina.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Mariscal y Serrano, Habermas. El patriotismo constitucional",
+        "url": "https://dialnet.unirioja.es/servlet/articulo?codigo=3971163",
+        "fecha": "2010",
+        "consultado": "2026-07-11"
+      }
+    },
+    "dem-028": {
+      "valor": 2,
+      "justificacion": "Los derechos fundamentales universales constituyen el objeto principal de la lealtad y no pueden quedar a disposición de una mayoría que pretenda excluir a una minoría cultural o política.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Miguel Herrero de Miñón, ¿Patriotismo constitucional?",
+        "url": "https://www.boe.es/biblioteca_juridica/anuarios_derecho/abrir_pdf.php?id=ANU-M-2002-10024900282",
+        "fecha": "2002",
+        "consultado": "2026-07-11"
+      }
+    },
+    "der-026": {
+      "valor": -2,
+      "justificacion": "Defender una reforma territorial por vías pacíficas no cancela la ciudadanía ni el pluralismo. Ilegalizar por el objetivo político convertiría una interpretación concreta del texto en criterio excluyente de patriotismo.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Miguel Herrero de Miñón, ¿Patriotismo constitucional?",
+        "url": "https://www.boe.es/biblioteca_juridica/anuarios_derecho/abrir_pdf.php?id=ANU-M-2002-10024900282",
+        "fecha": "2002",
+        "consultado": "2026-07-11"
+      }
+    },
+    "rel-002": {
+      "valor": 2,
+      "justificacion": "Una cultura política compartida debe integrar cosmovisiones religiosas y no religiosas bajo iguales derechos; no puede imponer una confesión ni expulsar las convicciones religiosas de la esfera pública.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Constitución Española, artículo 16",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1978-31229",
+        "fecha": "1978-12-29",
+        "consultado": "2026-07-11"
+      }
+    },
+    "ue-002": {
+      "valor": 1,
+      "justificacion": "La orientación posnacional permite compartir soberanía y extender una cultura constitucional europea, pero no obliga a un diseño federal único; por eso el apoyo a la federación es moderado.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Mariscal y Serrano, Habermas. El patriotismo constitucional",
+        "url": "https://dialnet.unirioja.es/servlet/articulo?codigo=3971163",
+        "fecha": "2010",
+        "consultado": "2026-07-11"
+      }
+    }
+  }
+}

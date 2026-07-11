@@ -1,0 +1,206 @@
+{
+  "id": "republicanismo-federal-social-contemporaneo",
+  "nombre": "Republicanismo federal social contemporáneo",
+  "tipo": "referencia-doctrinal",
+  "definicion": "Tipo ideal de la tradición republicana federal social de la izquierda española contemporánea: jefatura electiva, federación plurinacional y solidaria, laicidad, democracia participativa y un Estado social con fiscalidad progresiva y control público de sectores estratégicos.",
+  "variante": "Formulación programática de Izquierda Unida entre 2019 y 2026; prolonga la tradición federal española, pero añade socialismo democrático, laicismo institucional y políticas económicas contemporáneas que no fija la referencia pimargalliana",
+  "periodo": "2019-2026",
+  "confianza": "verificada",
+  "version": "1.0",
+  "revisado": "2026-07-11",
+  "publicacionMapa": {
+    "publicable": false,
+    "motivo": "El prior visual la situaría en la zona inferior izquierda, entre Democratic Socialism, Republicanism y Greenism, más estatal que el comunalismo. El banco documenta bien forma de Estado, laicidad y economía pública, pero no aporta anclas moderadoras de mercado ni suficientes contrapesos y derechos frente a mayorías; publicarla la llevaría falsamente al extremo económico."
+  },
+  "facetasDefinitorias": [
+    "monarquia",
+    "modelo-territorial",
+    "territorial",
+    "laicismo",
+    "democracia-directa",
+    "economico",
+    "estatismo"
+  ],
+  "sensibilidad": "normal",
+  "advertencia": "Es una variante contemporánea de la tradición de IU, no un sinónimo de toda república ni un perfil completo de IU, PCE, PSOE o de los republicanismos territoriales. Se distingue del federalismo pimargalliano del catálogo por laicidad, fiscalidad, vivienda y propiedad pública; y del socialismo democrático genérico por la forma republicana y federal-plurinacional española. No se infieren secesión, confederación, política exterior, energía nuclear ni organización interna. Para publicarla en el mapa faltan dos discriminantes neutrales: el espacio reservado a empresas privadas y mercados ordinarios, y la capacidad de jueces y derechos constitucionales para limitar decisiones mayoritarias.",
+  "fuentesMarco": [
+    {
+      "tipo": "estatutos",
+      "titulo": "Estatutos de Izquierda Unida, aprobados en la XIII Asamblea Federal",
+      "url": "https://izquierdaunida.org/wp-content/uploads/2024/10/ESTATUTOS-APROBADOS-XIII-ASAMBLEA_ALL.pdf",
+      "fecha": "2024-05",
+      "consultado": "2026-07-11"
+    },
+    {
+      "tipo": "programa",
+      "titulo": "Izquierda Unida, Síntesis del programa para un país que lucha",
+      "url": "https://izquierdaunida.org/wp-content/uploads/2019/04/Sintesis-del-programa-electoral-de-IU-28A.pdf",
+      "fecha": "2019-04",
+      "consultado": "2026-07-11"
+    },
+    {
+      "tipo": "autoubicacion",
+      "titulo": "Izquierda Unida, Código Ético: país socialista, plural, republicano, federal y laico",
+      "url": "https://izquierdaunida.org/codigo-etico/",
+      "consultado": "2026-07-11"
+    },
+    {
+      "tipo": "otro",
+      "titulo": "Manuel Suárez Cortina, La otra España. Republicanismo: una utopía democrática en la época liberal",
+      "url": "https://dialnet.unirioja.es/servlet/articulo?codigo=6249074",
+      "fecha": "2017",
+      "consultado": "2026-07-11"
+    }
+  ],
+  "reglaPublicacion": {
+    "minimoItems": 10,
+    "minimoCobertura": 0.65,
+    "umbralAfinidad": 78
+  },
+  "posiciones": {
+    "mon-001": {
+      "valor": 2,
+      "justificacion": "El programa exige que todos los cargos públicos, incluida la Jefatura del Estado, sean accesibles a la ciudadanía y define el nuevo Estado como republicano.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "IU, programa 2019, nueva Constitución y Jefatura del Estado electiva",
+        "url": "https://izquierdaunida.org/wp-content/uploads/2019/04/Sintesis-del-programa-electoral-de-IU-28A.pdf",
+        "fecha": "2019-04",
+        "consultado": "2026-07-11"
+      }
+    },
+    "dem-001": {
+      "valor": 2,
+      "justificacion": "Propone consultas y referendos constitucionalmente obligatorios para decisiones trascendentales, además de presupuestos participativos y mayor iniciativa popular.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "IU, programa 2019, democracia plena y participativa",
+        "url": "https://izquierdaunida.org/wp-content/uploads/2019/04/Sintesis-del-programa-electoral-de-IU-28A.pdf",
+        "fecha": "2019-04",
+        "consultado": "2026-07-11"
+      }
+    },
+    "dem-002": {
+      "valor": 2,
+      "justificacion": "La revocabilidad de los cargos públicos figura expresamente entre sus mecanismos de democracia plena y participativa.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "IU, programa 2019, revocabilidad de cargos públicos",
+        "url": "https://izquierdaunida.org/wp-content/uploads/2019/04/Sintesis-del-programa-electoral-de-IU-28A.pdf",
+        "fecha": "2019-04",
+        "consultado": "2026-07-11"
+      }
+    },
+    "dem-033": {
+      "valor": 2,
+      "justificacion": "Su arquitectura constitucional es una federación con soberanía compartida, constituciones de las unidades federadas y competencias territoriales garantizadas.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "IU, programa 2019, Estado federal y soberanía compartida",
+        "url": "https://izquierdaunida.org/wp-content/uploads/2019/04/Sintesis-del-programa-electoral-de-IU-28A.pdf",
+        "fecha": "2019-04",
+        "consultado": "2026-07-11"
+      }
+    },
+    "ter-001": {
+      "valor": -2,
+      "justificacion": "El proyecto amplía capacidad constitucional, legislativa, política y financiera de unidades federadas y municipios, en dirección contraria a devolver competencias al centro.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "IU, programa 2019, competencias federales y poder municipal",
+        "url": "https://izquierdaunida.org/wp-content/uploads/2019/04/Sintesis-del-programa-electoral-de-IU-28A.pdf",
+        "fecha": "2019-04",
+        "consultado": "2026-07-11"
+      }
+    },
+    "sd-004": {
+      "valor": 2,
+      "justificacion": "Reconoce expresamente la realidad plurinacional y pluricultural dentro de una federación solidaria y de soberanía compartida.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "estatutos",
+        "titulo": "Estatutos de IU, Estado republicano, federal y plurinacional",
+        "url": "https://izquierdaunida.org/wp-content/uploads/2024/10/ESTATUTOS-APROBADOS-XIII-ASAMBLEA_ALL.pdf",
+        "fecha": "2024-05",
+        "consultado": "2026-07-11"
+      }
+    },
+    "fem-009": {
+      "valor": 2,
+      "justificacion": "El programa plantea anular los acuerdos con la Santa Sede como condición de independencia efectiva y laicidad del Estado.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "IU, programa 2019, laicismo y anulación de los acuerdos con la Santa Sede",
+        "url": "https://izquierdaunida.org/wp-content/uploads/2019/04/Sintesis-del-programa-electoral-de-IU-28A.pdf",
+        "fecha": "2019-04",
+        "consultado": "2026-07-11"
+      }
+    },
+    "lai-001": {
+      "valor": 2,
+      "justificacion": "Defiende una educación laica y la independencia de la escuela pública frente a enseñanza confesional privilegiada.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "IU, programa 2019, educación laica",
+        "url": "https://izquierdaunida.org/wp-content/uploads/2019/04/Sintesis-del-programa-electoral-de-IU-28A.pdf",
+        "fecha": "2019-04",
+        "consultado": "2026-07-11"
+      }
+    },
+    "der-009": {
+      "valor": 2,
+      "justificacion": "Exige suprimir toda financiación pública de la Iglesia católica y otras confesiones, incluida la asignación tributaria y sus privilegios fiscales.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "IU, programa 2019, supresión de financiación y privilegios confesionales",
+        "url": "https://izquierdaunida.org/wp-content/uploads/2019/04/Sintesis-del-programa-electoral-de-IU-28A.pdf",
+        "fecha": "2019-04",
+        "consultado": "2026-07-11"
+      }
+    },
+    "eco-001": {
+      "valor": 2,
+      "justificacion": "La propuesta fiscal contemporánea concentra la subida de recaudación en rentas altas, grandes fortunas y grandes empresas, no en impuestos regresivos al consumo.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "IU, propuesta de reforma fiscal justa",
+        "url": "https://izquierdaunida.org/2025/11/05/nuestra-propuesta-de-reforma-fiscal-justa-hacia-la-suficiencia-equidad-y-la-lucha-contra-el-fraude/",
+        "fecha": "2025-11-05",
+        "consultado": "2026-07-11"
+      }
+    },
+    "eco-006": {
+      "valor": 2,
+      "justificacion": "Propone expropiar vivienda de fondos y bancos que desahucian para crear parque público, además de impedir su venta a fondos especulativos.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "IU, programa 2019, vivienda como derecho y parque público",
+        "url": "https://izquierdaunida.org/wp-content/uploads/2019/04/Sintesis-del-programa-electoral-de-IU-28A.pdf",
+        "fecha": "2019-04",
+        "consultado": "2026-07-11"
+      }
+    },
+    "lab-016": {
+      "valor": 2,
+      "justificacion": "Defiende nacionalizar energía y recuperar el control plenamente público de infraestructuras estratégicas como Red Eléctrica, subordinándolas a planificación pública.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "IU, Frente al apagón, todo el poder para lo público",
+        "url": "https://izquierdaunida.org/2025/04/29/comunicado-frente-al-apagon-todo-el-poder-para-lo-publico/",
+        "fecha": "2025-04-29",
+        "consultado": "2026-07-11"
+      }
+    }
+  }
+}

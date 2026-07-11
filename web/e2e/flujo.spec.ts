@@ -63,7 +63,7 @@ function crearSesionEnHitoIntermedio() {
 
   return {
     version: 3,
-    versionInstrumento: '3',
+    versionInstrumento: '4',
     fase: 'hito-intermedio',
     ccaa: '',
     eleccion: 'generales',
@@ -194,6 +194,9 @@ test('rápido → perfil provisional → exhaustivo conserva las 50 respuestas',
     page.getByRole('heading', { name: 'Tu posición provisional y tus afinidades' }),
   ).toBeVisible();
   await expect(page.getByText(/50 ítems respondidos/)).toBeVisible();
+  await expect(
+    page.locator('.mapa-plano--brujula .mapa-punto[data-tipo="usuario"]'),
+  ).toHaveCount(1);
 
   await page.getByRole('button', { name: 'Continuar al exhaustivo' }).first().click();
   await expect(page.getByRole('heading', { name: 'Profundización personalizada' })).toBeVisible();
@@ -247,6 +250,8 @@ test('el hito de 150 persiste, ofrece perfil intermedio y reanuda sin repetirse'
   ).toBeVisible();
   await expect(page.getByText('Una lectura profunda, todavía provisional')).toBeVisible();
   await expect(page.getByText(/150 ítems respondidos/)).toBeVisible();
+  await expect(page.locator('.mapa-plano--brujula .mapa-zona--interactiva')).toHaveCount(28);
+  await expect(page.getByLabel('Incluir corrientes de profundidad')).not.toBeChecked();
   await page.reload();
   await expect(
     page.getByRole('heading', { name: 'Tu perfil con profundidad intermedia' }),
@@ -295,7 +300,7 @@ test('las ramas condicionales aparecen y sus respuestas se limpian al cambiar el
       clave,
       JSON.stringify({
         version: 3,
-        versionInstrumento: '3',
+        versionInstrumento: '4',
         guardadoEn: new Date().toISOString(),
         fase: 'revision',
         ccaa: '',
@@ -381,7 +386,7 @@ test('autonómicas sin comunidad no mezclan partidos de territorios distintos', 
       clave,
       JSON.stringify({
         version: 3,
-        versionInstrumento: '3',
+        versionInstrumento: '4',
         guardadoEn: new Date().toISOString(),
         fase: 'resultados',
         ccaa: '',
@@ -416,7 +421,7 @@ test('un partido monotemático aparece sin porcentaje de afinidad general', asyn
       clave,
       JSON.stringify({
         version: 3,
-        versionInstrumento: '3',
+        versionInstrumento: '4',
         guardadoEn: new Date().toISOString(),
         fase: 'resultados',
         ccaa: '',
@@ -431,6 +436,10 @@ test('un partido monotemático aparece sin porcentaje de afinidad general', asyn
     );
   }, CLAVE_ALMACEN);
   await page.goto('/');
+
+  await expect(page.locator('.mapa-plano--brujula .mapa-zona--interactiva')).toHaveCount(78);
+  await expect(page.getByLabel('Incluir corrientes de profundidad')).toHaveCount(0);
+  await expect(page.getByText(/Atlas exhaustivo: incluye las 28 corrientes principales/i)).toBeVisible();
 
   const coincidencia = page.locator('.coincidencia-especifica').filter({
     hasText: 'Escaños en Blanco',
@@ -447,7 +456,7 @@ test('una referencia violenta se contextualiza sin porcentaje ni identidad perso
       clave,
       JSON.stringify({
         version: 3,
-        versionInstrumento: '3',
+        versionInstrumento: '4',
         guardadoEn: new Date().toISOString(),
         fase: 'resultados',
         ccaa: '',
@@ -493,7 +502,7 @@ test('reintentar el 3D vuelve a solicitar el chunk después de un fallo', async 
       clave,
       JSON.stringify({
         version: 3,
-        versionInstrumento: '3',
+        versionInstrumento: '4',
         guardadoEn: new Date().toISOString(),
         fase: 'resultados',
         ccaa: '',
@@ -552,7 +561,7 @@ test('el recuento del plano coincide con los puntos realmente dibujados', async 
       clave,
       JSON.stringify({
         version: 3,
-        versionInstrumento: '3',
+        versionInstrumento: '4',
         guardadoEn: new Date().toISOString(),
         fase: 'resultados',
         ccaa: '',
@@ -587,7 +596,7 @@ test('la brújula degrada el fondo y revela corrientes solo al enfocar o tocar',
       clave,
       JSON.stringify({
         version: 3,
-        versionInstrumento: '3',
+        versionInstrumento: '4',
         guardadoEn: new Date().toISOString(),
         fase: 'resultados',
         ccaa: '',
@@ -606,60 +615,181 @@ test('la brújula degrada el fondo y revela corrientes solo al enfocar o tocar',
   await expect(page.locator('.mapa-plano--brujula radialGradient')).toHaveCount(4);
   await expect(page.locator('.mapa-plano--brujula svg')).toHaveAttribute(
     'aria-label',
-    /Economía por Poder político/i,
+    /Propiedad y mercado por Poder político/i,
   );
+  await expect(page.locator('.mapa-plano--brujula .mapa-zona--interactiva')).toHaveCount(28);
+  const partidosBrujula = page.locator(
+    '.mapa-plano--brujula .mapa-punto[data-tipo="partido"]',
+  );
+  expect(await partidosBrujula.count()).toBeGreaterThanOrEqual(4);
+  for (const nombre of [
+    'Partido Socialista Obrero Español',
+    'Partido Popular',
+    'VOX',
+    'Movimiento Sumar',
+  ]) {
+    await expect(
+      page.getByLabel('Localizar un partido').locator('option', { hasText: nombre }),
+    ).toHaveCount(1);
+  }
+  expect(
+    await page.locator(
+      '.mapa-plano--brujula .mapa-punto[data-tipo="partido"][data-evidencia="provisional"]',
+    ).count(),
+  ).toBeGreaterThan(0);
+  await expect(
+    page.getByLabel('Buscar en el atlas').locator('option', { hasText: 'Posadismo' }),
+  ).toHaveCount(0);
+  const respuestasAntes = await page.evaluate(
+    (clave) => Object.keys(JSON.parse(localStorage.getItem(clave) ?? '{}').respuestas ?? {}).length,
+    CLAVE_ALMACEN,
+  );
+  await page.getByLabel('Incluir corrientes de profundidad').check();
+  await expect(page.locator('.mapa-plano--brujula .mapa-zona--interactiva')).toHaveCount(78);
+  await expect(
+    page.locator('.mapa-plano--brujula .mapa-punto[data-tipo="referencia"]'),
+  ).toHaveCount(0);
   await expect(page.locator('.mapa-plano--brujula .mapa-zona__nombre')).toHaveCount(0);
   await expect(page.getByText(/regiones están sin rotular/i)).toBeVisible();
 
-  const verticales = await page
-    .locator('.mapa-plano--brujula .mapa-punto[data-tipo="referencia"]')
-    .evaluateAll((grupos) =>
-      Object.fromEntries(
-        grupos.map((grupo) => {
-          const forma = grupo.querySelector('rect');
-          return [
-            grupo.querySelector('title')?.textContent ?? '',
-            Number(forma?.getAttribute('y')) + 5,
-          ];
-        }),
-      ),
-    );
-  expect(verticales['Fascismo italiano de régimen']).toBeLessThan(240);
-  expect(verticales['Marxismo-leninismo soviético (fase estaliniana)']).toBeLessThan(240);
-  expect(verticales['Leninismo bolchevique']).toBeLessThan(240);
-  expect(verticales.Anarcocapitalismo).toBeGreaterThan(240);
-
-  const partido = page.locator('.mapa-plano--brujula .mapa-punto[data-tipo="partido"]').first();
-  await expect(partido.locator('.mapa-punto__rotulo')).toBeHidden();
-  await partido.focus();
-  await expect(partido.locator('.mapa-punto__rotulo')).toBeVisible();
-  await partido.press('Enter');
-  await expect(partido).toHaveAttribute('aria-pressed', 'true');
-
-  const zona = page
-    .locator('.mapa-plano--brujula .mapa-zona--interactiva[data-tiene-rotulo="true"]')
-    .first();
+  const zonas = page.locator('.mapa-plano--brujula .mapa-zona--interactiva');
+  await expect(
+    page.locator('.mapa-plano--brujula .mapa-zona--interactiva[tabindex="0"]'),
+  ).toHaveCount(1);
+  const zona = zonas.first();
   const trazado = (await zona.getAttribute('d')) ?? '';
   expect(trazado.match(/M/g)).toHaveLength(1); // polígono vectorial, no franjas rasterizadas
   await zona.focus();
   await expect(page.locator('.mapa-corriente-lectura')).toBeVisible();
-  await expect(page.locator('.mapa-plano--brujula .mapa-zona__nombre')).toHaveCount(1);
+  const idInicial = await zona.getAttribute('data-zona-id');
+  await zona.press('ArrowRight');
+  const idTrasFlecha = await page.evaluate(
+    () => document.activeElement?.getAttribute('data-zona-id'),
+  );
+  expect(idTrasFlecha).not.toBe(idInicial);
   await zona.press('Enter');
   await expect(page.getByRole('button', { name: /Cerrar explicación de/i })).toBeVisible();
-  await expect(partido).toHaveAttribute('aria-pressed', 'false');
 
   const ficha = page.locator('.mapa-corriente-lectura .ficha-ideologia');
   const tituloFijado = await ficha.getByRole('heading', { level: 3 }).innerText();
-  const otraZona = page
-    .locator('.mapa-plano--brujula .mapa-zona--interactiva[data-tiene-rotulo="true"]')
-    .nth(1);
+  const otraZona = zonas.nth(2);
   await otraZona.hover();
   await expect(ficha.getByRole('heading', { level: 3 })).toHaveText(tituloFijado);
   await otraZona.click();
   await expect(ficha.getByRole('heading', { level: 3 })).not.toHaveText(tituloFijado);
 
+  await page
+    .getByLabel('Buscar en el atlas')
+    .selectOption({ label: 'Posadismo' });
   await page.getByRole('button', { name: 'Más información', exact: true }).click();
   await expect(page.getByRole('heading', { name: 'Fuentes marco' })).toBeVisible();
+  await page.getByLabel('Incluir corrientes de profundidad').uncheck();
+  await expect(page.locator('.mapa-plano--brujula .mapa-zona--interactiva')).toHaveCount(28);
+  await expect(page.locator('.mapa-corriente-lectura')).toHaveCount(0);
+  const respuestasDespues = await page.evaluate(
+    (clave) => Object.keys(JSON.parse(localStorage.getItem(clave) ?? '{}').respuestas ?? {}).length,
+    CLAVE_ALMACEN,
+  );
+  expect(respuestasDespues).toBe(respuestasAntes);
+});
+
+test('la brújula móvil distingue evidencia provisional y resuelve puntos próximos', async ({
+  browser,
+}) => {
+  const contexto = await browser.newContext({
+    baseURL: 'http://localhost:4180',
+    viewport: { width: 390, height: 844 },
+    hasTouch: true,
+    isMobile: true,
+  });
+  const page = await contexto.newPage();
+  try {
+    await page.addInitScript((clave) => {
+      localStorage.setItem(
+        clave,
+        JSON.stringify({
+          version: 3,
+          versionInstrumento: '4',
+          guardadoEn: new Date().toISOString(),
+          fase: 'resultados',
+          ccaa: '',
+          eleccion: 'generales',
+          modo: 'rapido',
+          respuestas: { 'eco-001': 0 },
+          importantes: {},
+          modulosActivos: [],
+          indice: 0,
+          editando: false,
+        }),
+      );
+    }, CLAVE_ALMACEN);
+    await page.goto('/');
+    await expect(
+      page.getByRole('heading', { name: 'Tu posición provisional y tus afinidades' }),
+    ).toBeVisible();
+    const anchoDocumento = await page.evaluate(() => ({
+      contenido: document.documentElement.scrollWidth,
+      ventana: window.innerWidth,
+    }));
+    expect(anchoDocumento.contenido).toBeLessThanOrEqual(anchoDocumento.ventana);
+    await page.evaluate(() =>
+      document.querySelector('.mapa-plano--brujula')?.scrollIntoView({ block: 'center' }),
+    );
+
+    const partidos = page.locator('.mapa-plano--brujula .mapa-punto[data-tipo="partido"]');
+    await expect(partidos.first()).toBeVisible();
+    expect(await partidos.count()).toBeGreaterThanOrEqual(4);
+    const tamanos = await partidos.evaluateAll((puntos) =>
+      puntos.map((punto) => {
+        const caja = punto.getBoundingClientRect();
+        return { ancho: caja.width, alto: caja.height };
+      }),
+    );
+    expect(Math.min(...tamanos.map((caja) => caja.ancho))).toBeGreaterThanOrEqual(44);
+    expect(Math.min(...tamanos.map((caja) => caja.alto))).toBeGreaterThanOrEqual(44);
+
+    const selectorPartidos = page.getByLabel('Localizar un partido');
+    await expect(selectorPartidos.locator('option[value="vox"]')).toContainText(
+      'posición provisional',
+    );
+    await selectorPartidos.selectOption('vox');
+    const vox = page.locator(
+      '.mapa-plano--brujula .mapa-punto[data-entidad-id="vox"]',
+    );
+    const pp = page.locator(
+      '.mapa-plano--brujula .mapa-punto[data-entidad-id="pp"]',
+    );
+    await expect(vox).toHaveAttribute('data-evidencia', 'provisional');
+    await expect(vox).toHaveAttribute('aria-pressed', 'true');
+    await expect(vox).toHaveAttribute('aria-label', /Posición provisional/i);
+    const rellenoVox = await vox.locator('.mapa-punto__forma').evaluate(
+      (forma) => getComputedStyle(forma).fill,
+    );
+    const rellenoPp = await pp.locator('.mapa-punto__forma').evaluate(
+      (forma) => getComputedStyle(forma).fill,
+    );
+    expect(rellenoVox).not.toBe(rellenoPp);
+
+    await selectorPartidos.selectOption('');
+    /* CUP y Más Madrid quedan a menos del radio táctil: tocar el punto que
+       queda arriba abre el selector, en vez de elegirlo por orden del DOM. */
+    const masMadrid = partidos.filter({
+      has: page.locator('title', { hasText: 'Más Madrid' }),
+    });
+    await expect(masMadrid).toHaveCount(1);
+    await masMadrid.tap();
+    const cumulo = page.locator('.mapa-cumulo');
+    await expect(cumulo).toBeVisible();
+    expect(await cumulo.getByRole('button').count()).toBeGreaterThanOrEqual(2);
+    await expect(cumulo).toContainText("Candidatura d'Unitat Popular");
+    await expect(cumulo).toContainText('Más Madrid');
+    const cajasCumulo = await cumulo.getByRole('button').evaluateAll((botones) =>
+      botones.map((boton) => boton.getBoundingClientRect().height),
+    );
+    expect(Math.min(...cajasCumulo)).toBeGreaterThanOrEqual(44);
+  } finally {
+    await contexto.close();
+  }
 });
 
 test('resultados abiertos no introducen violaciones automáticas de accesibilidad', async ({ page }) => {
@@ -669,7 +799,7 @@ test('resultados abiertos no introducen violaciones automáticas de accesibilida
       clave,
       JSON.stringify({
         version: 3,
-        versionInstrumento: '3',
+        versionInstrumento: '4',
         guardadoEn: new Date().toISOString(),
         fase: 'resultados',
         ccaa: 'madrid',
@@ -714,7 +844,7 @@ test('resultados y visor 3D siguen disponibles sin conexión tras instalar la PW
       clave,
       JSON.stringify({
         version: 3,
-        versionInstrumento: '3',
+        versionInstrumento: '4',
         guardadoEn: new Date().toISOString(),
         fase: 'resultados',
         ccaa: '',

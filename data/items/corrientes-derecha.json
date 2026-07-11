@@ -351,7 +351,7 @@
       "codigo-penal"
     ],
     "estado": "piloto",
-    "notas": "Discrimina: Punitivismo de toda la derecha española (mantenerla: −2) frente a la democracia cristiana vasca (el PNV pidió su derogación: +1) y al matiz humanista democristiano (−1). Separa PP y PNV, dos partidos de raíz democristiana, en ley y orden. | Esperado: PP -2, Vox -2, Ciudadanos -2, neoconservadurismo -2, democracia cristiana -1, PNV +1, PSOE +1, Podemos +2. | Pena introducida por el PP en 2015; el PNV votó en contra y ha registrado iniciativas para derogarla."
+    "notas": "Discrimina: Punitivismo de toda la derecha española (mantenerla: −2) frente a la democracia cristiana vasca (el PNV pidió su derogación: +1) y al matiz humanista democristiano (−1). Separa PP y PNV, dos partidos de raíz democristiana, en ley y orden. | Esperado: PP -2, Vox -2, Ciudadanos -2, neoconservadurismo -2, democracia cristiana -1, PNV +1, PSOE +1, Podemos +2. | Pena introducida por el PP en 2015; el PNV votó en contra y ha registrado iniciativas para derogarla. | No carga autoridad-politica porque duplica semánticamente soc-006; conservar ambas cargas contaría dos veces la misma postura."
   },
   {
     "id": "der-020",
@@ -478,6 +478,10 @@
       {
         "eje": "social",
         "carga": 0.5
+      },
+      {
+        "eje": "autoridad-politica",
+        "carga": 0.75
       }
     ],
     "polaridad": "negativa",

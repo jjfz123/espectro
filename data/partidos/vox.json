@@ -6,7 +6,7 @@
   "tipo": "partido",
   "confianza": "verificada",
   "web": "https://www.voxespana.es/",
-  "revisado": "2026-07-10",
+  "revisado": "2026-07-11",
   "actividad": "activa",
   "clasificacion": [
     {
@@ -867,6 +867,30 @@
         "url": "https://www.voxespana.es/noticias/vox-defiende-el-cumplimiento-de-la-ley-y-las-banderas-oficiales-primando-la-de-espana-en-los-edificios-publicos-20250626?provincia=santa-cruz-de-tenerife",
         "fecha": "2025-06-26",
         "consultado": "2026-07-10"
+      }
+    },
+    "soc-006": {
+      "valor": -2,
+      "justificacion": "El programa general de 2023 propone aumentar las penas para los violadores incluyendo la prisión permanente, y VOX reiteró esa ampliación en una iniciativa parlamentaria. Es incompatible con derogar la prisión permanente revisable; no se infiere de una preferencia genérica por penas más duras.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral de VOX para las elecciones generales de 2023 (medida 376)",
+        "url": "https://www.voxespana.es/wp-content/uploads/2023/07/Programa-VOX-2023-con-menos-peso.pdf",
+        "fecha": "2023-07",
+        "consultado": "2026-07-11"
+      }
+    },
+    "dem-021": {
+      "valor": -1,
+      "justificacion": "VOX se opuso en octubre de 2024 a tramitar la reforma de la Ley de Seguridad Ciudadana que pretendía reforzar garantías y reducir sanciones, defendiendo la protección de los agentes y la norma vigente. La iniciativa reformaba un paquete amplio y la fuente no aísla por sí sola las manifestaciones pacíficas no comunicadas; por eso se codifica desacuerdo moderado, no extremo.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "VOX rechaza la reforma de la Ley de Seguridad Ciudadana en el debate de toma en consideración",
+        "url": "https://www.voxespana.es/grupo_parlamentario/actividad-parlamentaria/ley-de-seguridad-ciudadana-vox-rechaza-la-ley-de-los-herederos-politicos-del-terrorismo-que-abandona-a-su-suerte-a-la-policia-y-convierte-a-espana-en-terreno-abonado-para-mas-insegu-20241029",
+        "fecha": "2024-10-29",
+        "consultado": "2026-07-11"
       }
     },
     "lib-019": {

@@ -7,6 +7,10 @@
       {
         "eje": "economico",
         "carga": -1
+      },
+      {
+        "eje": "propiedad-mercado",
+        "carga": -0.2
       }
     ],
     "polaridad": "positiva",
@@ -24,6 +28,10 @@
       {
         "eje": "economico",
         "carga": 1
+      },
+      {
+        "eje": "propiedad-mercado",
+        "carga": 0.75
       }
     ],
     "polaridad": "positiva",
@@ -42,6 +50,10 @@
       {
         "eje": "economico",
         "carga": -1
+      },
+      {
+        "eje": "propiedad-mercado",
+        "carga": -0.2
       }
     ],
     "polaridad": "positiva",
@@ -77,6 +89,10 @@
       {
         "eje": "social",
         "carga": -1
+      },
+      {
+        "eje": "autoridad-politica",
+        "carga": -0.35
       }
     ],
     "polaridad": "positiva",
@@ -115,6 +131,10 @@
       {
         "eje": "libertades-civiles",
         "carga": -0.75
+      },
+      {
+        "eje": "autoridad-politica",
+        "carga": 0.5
       }
     ],
     "polaridad": "positiva",
@@ -227,6 +247,10 @@
       {
         "eje": "economico",
         "carga": -1
+      },
+      {
+        "eje": "propiedad-mercado",
+        "carga": -0.25
       }
     ],
     "polaridad": "negativa",
@@ -246,6 +270,10 @@
       {
         "eje": "economico",
         "carga": -0.75
+      },
+      {
+        "eje": "propiedad-mercado",
+        "carga": -0.5
       }
     ],
     "polaridad": "positiva",
@@ -264,6 +292,10 @@
       {
         "eje": "economico",
         "carga": 0.5
+      },
+      {
+        "eje": "propiedad-mercado",
+        "carga": 0.35
       },
       {
         "eje": "social",
@@ -305,6 +337,10 @@
       {
         "eje": "economico",
         "carga": 1
+      },
+      {
+        "eje": "propiedad-mercado",
+        "carga": 0.35
       }
     ],
     "polaridad": "negativa",
@@ -323,6 +359,10 @@
       {
         "eje": "economico",
         "carga": 1
+      },
+      {
+        "eje": "propiedad-mercado",
+        "carga": 0.2
       }
     ],
     "polaridad": "negativa",
@@ -341,6 +381,10 @@
       {
         "eje": "economico",
         "carga": -1
+      },
+      {
+        "eje": "propiedad-mercado",
+        "carga": -0.2
       }
     ],
     "polaridad": "negativa",
@@ -359,6 +403,10 @@
       {
         "eje": "economico",
         "carga": -0.5
+      },
+      {
+        "eje": "propiedad-mercado",
+        "carga": -0.35
       },
       {
         "eje": "laicismo",
@@ -381,6 +429,10 @@
       {
         "eje": "economico",
         "carga": 1
+      },
+      {
+        "eje": "propiedad-mercado",
+        "carga": 0.35
       }
     ],
     "polaridad": "positiva",
@@ -436,6 +488,10 @@
       {
         "eje": "social",
         "carga": -1
+      },
+      {
+        "eje": "autoridad-politica",
+        "carga": -0.5
       }
     ],
     "polaridad": "negativa",
@@ -673,6 +729,10 @@
       {
         "eje": "economico",
         "carga": -1
+      },
+      {
+        "eje": "propiedad-mercado",
+        "carga": -0.35
       }
     ],
     "polaridad": "positiva",

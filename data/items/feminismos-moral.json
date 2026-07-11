@@ -277,7 +277,8 @@
     "modulo": "feminismos-moral",
     "ejes": [
       { "eje": "laicismo", "carga": -1 },
-      { "eje": "libertad-conciencia", "carga": -1 }
+      { "eje": "libertad-conciencia", "carga": -1 },
+      { "eje": "autoridad-politica", "carga": 0.5 }
     ],
     "polaridad": "negativa",
     "tags": ["ateismo-estado", "religion", "vida-publica"],
@@ -288,7 +289,10 @@
     "id": "rel-002",
     "texto": "El Estado debe ser aconfesional: no adoptar una religión oficial y permitir la expresión pública de todas dentro de la ley.",
     "modulo": "feminismos-moral",
-    "ejes": [{ "eje": "libertad-conciencia", "carga": 1 }],
+    "ejes": [
+      { "eje": "libertad-conciencia", "carga": 1 },
+      { "eje": "autoridad-politica", "carga": -0.5 }
+    ],
     "polaridad": "positiva",
     "tags": ["aconfesionalidad", "libertad-religiosa"],
     "estado": "piloto",
@@ -301,7 +305,8 @@
     "ejes": [
       { "eje": "laicismo", "carga": 1 },
       { "eje": "pluralismo-institucional", "carga": -0.5 },
-      { "eje": "libertad-conciencia", "carga": -1 }
+      { "eje": "libertad-conciencia", "carga": -1 },
+      { "eje": "autoridad-politica", "carga": 1 }
     ],
     "polaridad": "positiva",
     "tags": ["teocracia", "veto-religioso", "leyes"],

@@ -29,6 +29,7 @@ export const NOMBRE_LLANO_EJE: Record<string, string> = {
   economico: 'Economía',
   social: 'Sociedad',
   territorial: 'Territorio',
+  'propiedad-mercado': 'Propiedad y mercado',
   'autoridad-politica': 'Poder',
 };
 
@@ -49,6 +50,10 @@ export const POLOS_LLANOS_EJE: Record<string, { negativo: string; positivo: stri
   territorial: {
     negativo: 'Más autogobierno',
     positivo: 'Más centralización',
+  },
+  'propiedad-mercado': {
+    negativo: 'Propiedad social o cooperativa',
+    positivo: 'Propiedad privada y mercados',
   },
 };
 
@@ -145,6 +150,12 @@ export const AYUDA_EJES_MAPA: Record<string, string> = {
     'autogobierno, incluido el derecho a decidir, hasta más centralización ' +
     'estatal. Es el rasgo distintivo del sistema de partidos español; los ' +
     'politólogos lo llaman eje centro-periferia.',
+  'propiedad-mercado':
+    'Mide quién posee y dirige la producción y cuánto se coordina mediante ' +
+    'mercados. El polo social incluye propiedad pública, social y cooperativa; ' +
+    'el privado incluye propiedad empresarial y elección de mercado. No mide ' +
+    'por sí solo impuestos, proteccionismo ni tamaño del Estado: esas posiciones ' +
+    'se conservan en facetas distintas.',
 };
 
 /** Explicación llana de un eje: la de interfaz si existe, si no su descripción. */

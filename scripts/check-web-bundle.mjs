@@ -15,9 +15,10 @@ if (!existsSync(dist) || !existsSync(assets)) {
 
 const reglas = [
   { nombre: 'aplicación inicial', patron: /^index-[^.]+\.js$/, maxGzip: 120 * 1024 },
-  // Recalibrado de 350 a 365 KiB al ampliar el catálogo de 28 a 39
-  // referencias doctrinales documentadas. Sigue dejando solo ~3 % de margen.
-  { nombre: 'resultados y catálogos', patron: /^Resultados-[^.]+\.js$/, maxGzip: 365 * 1024 },
+  // Recalibrado de 365 a 390 KiB al pasar de 39 a 46 referencias y añadir el
+  // atlas explicativo validado de 78 corrientes. Deja menos de 3 % de margen:
+  // una nueva expansión seguirá exigiendo división de chunk o poda de datos.
+  { nombre: 'resultados y catálogos', patron: /^Resultados-[^.]+\.js$/, maxGzip: 390 * 1024 },
   { nombre: 'visor 3D', patron: /^Mapa3D-[^.]+\.js$/, maxGzip: 300 * 1024 },
 ];
 

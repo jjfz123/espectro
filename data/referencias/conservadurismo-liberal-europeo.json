@@ -1,0 +1,188 @@
+{
+  "id": "conservadurismo-liberal-europeo",
+  "nombre": "Conservadurismo liberal europeo",
+  "tipo": "referencia-doctrinal",
+  "definicion": "Tipo ideal del centroderecha liberal-conservador europeo: acepta la democracia constitucional y el pluralismo como marco irrenunciable, prefiere una economía de mercado y propiedad privada con responsabilidad social, reforma gradualmente las instituciones y combina libertad individual, responsabilidad, solidaridad y subsidiariedad. No es laissez-faire, tradicionalismo integral ni derecha radical nativista.",
+  "variante": "Síntesis contemporánea de las corrientes conservadora, liberal y democristiana integradas en el Partido Popular Europeo; recepción española reformista y moderada, sin identificarla automáticamente con la práctica de un partido concreto",
+  "periodo": "1992-actualidad; plataforma del Partido Popular Europeo de 2012 como delimitación principal",
+  "confianza": "verificada",
+  "version": "1.0",
+  "revisado": "2026-07-11",
+  "facetasDefinitorias": ["economico", "pluralismo-institucional", "estatismo", "institucionalismo", "tradicion-moral"],
+  "sensibilidad": "normal",
+  "advertencia": "Es un tipo ideal europeo, no una segunda ficha del Partido Popular ni la descripción de todos los miembros del PPE. La familia discrepa sobre aborto, eutanasia, inmigración y territorio; aquí solo se codifica el mínimo común de la plataforma de 2012. Su vecina nominal en la cuadrícula es «Liberal Conservatism». La brújula la desplaza hacia libertades porque mide concentración de poder, no simple tradición cultural. Proyección auditada actual: Propiedad/mercado ≈ +27, Poder ≈ -63 y macroeconomía general ≈ +8; queda más cerca del centro que liberalismo clásico o libertarismo.",
+  "fuentesMarco": [
+    {
+      "tipo": "programa",
+      "titulo": "Partido Popular Europeo, Party Platform adoptada en Bucarest en 2012 (en inglés)",
+      "url": "https://www.epp.eu/files/uploads/2015/09/Platform2012_EN1.pdf",
+      "fecha": "2012-10-17",
+      "consultado": "2026-07-11"
+    },
+    {
+      "tipo": "otro",
+      "titulo": "Arie Oostlander, The Basic Programme of Athens: The Glue of Values and a Route Guide for a Europe in Turmoil (en inglés)",
+      "url": "https://link.springer.com/chapter/10.1007/978-3-031-96906-5_2",
+      "fecha": "2025",
+      "consultado": "2026-07-11"
+    },
+    {
+      "tipo": "declaracion",
+      "titulo": "Partido Popular, Documento «España en libertad»: tradición liberal-conservadora, reformista y moderada",
+      "url": "https://www.pp.es/actualidad/articulos/documento-espana-libertad/",
+      "fecha": "2019-01-18",
+      "consultado": "2026-07-11"
+    }
+  ],
+  "reglaPublicacion": {
+    "minimoItems": 9,
+    "minimoCobertura": 0.55,
+    "umbralAfinidad": 77
+  },
+  "posiciones": {
+    "der-001": {
+      "valor": -2,
+      "justificacion": "La economía social de mercado, la solidaridad y la subsidiariedad asignan al Estado funciones sociales, regulatorias y europeas mucho mayores que seguridad y justicia; no es un programa de Estado mínimo.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "PPE, Party Platform de 2012 (en inglés)",
+        "url": "https://www.epp.eu/files/uploads/2015/09/Platform2012_EN1.pdf",
+        "fecha": "2012-10-17",
+        "consultado": "2026-07-11"
+      }
+    },
+    "lib-001": {
+      "valor": -1,
+      "justificacion": "La economía social de mercado conserva una protección sanitaria solidaria y no reduce la financiación pública a una ayuda residual. El -1 admite provisión privada complementaria sin adoptar un sistema puro de seguros.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "PPE, Party Platform de 2012, modelo social europeo (en inglés)",
+        "url": "https://www.epp.eu/files/uploads/2015/09/Platform2012_EN1.pdf",
+        "fecha": "2012-10-17",
+        "consultado": "2026-07-11"
+      }
+    },
+    "lib-005": {
+      "valor": -1,
+      "justificacion": "La plataforma defiende sistemas sostenibles de solidaridad intergeneracional y adapta la edad y el empleo a la longevidad, pero no sustituye el reparto por cuentas privadas individuales.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "PPE, Party Platform de 2012, apartados 212 y 214 (en inglés)",
+        "url": "https://www.epp.eu/files/uploads/2015/09/Platform2012_EN1.pdf",
+        "fecha": "2012-10-17",
+        "consultado": "2026-07-11"
+      }
+    },
+    "der-008": {
+      "valor": 2,
+      "justificacion": "La plataforma afirma que la vida debe protegerse desde su comienzo hasta su muerte natural y rechaza la promoción de la eutanasia; ese principio es incompatible con reconocerla como derecho exigible.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "PPE, Party Platform de 2012, apartado 228 (en inglés)",
+        "url": "https://www.epp.eu/files/uploads/2015/09/Platform2012_EN1.pdf",
+        "fecha": "2012-10-17",
+        "consultado": "2026-07-11"
+      }
+    },
+    "der-004": {
+      "valor": -2,
+      "justificacion": "La plataforma pide mercados abiertos, competencia y eliminar prácticas proteccionistas que obstaculicen el libre comercio; proteger empleo nacional mediante cierre comercial contradice ese principio.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "PPE, Party Platform de 2012, apartados 137-138 (en inglés)",
+        "url": "https://www.epp.eu/files/uploads/2015/09/Platform2012_EN1.pdf",
+        "fecha": "2012-10-17",
+        "consultado": "2026-07-11"
+      }
+    },
+    "der-012": {
+      "valor": 2,
+      "justificacion": "El PPE defiende expresamente un diálogo social fuerte y reconoce el papel de sindicatos y organizaciones empresariales dentro de la economía social de mercado.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "PPE, Party Platform de 2012, apartado 137 (en inglés)",
+        "url": "https://www.epp.eu/files/uploads/2015/09/Platform2012_EN1.pdf",
+        "fecha": "2012-10-17",
+        "consultado": "2026-07-11"
+      }
+    },
+    "izq-005": {
+      "valor": -2,
+      "justificacion": "La competencia, la propiedad privada y la formación de precios por el mercado son el mecanismo ordinario; sustituirlos por planificación pública incluso en amplios sectores estratégicos invierte el modelo.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "PPE, Party Platform de 2012, economía social de mercado (en inglés)",
+        "url": "https://www.epp.eu/files/uploads/2015/09/Platform2012_EN1.pdf",
+        "fecha": "2012-10-17",
+        "consultado": "2026-07-11"
+      }
+    },
+    "lab-016": {
+      "valor": -1,
+      "justificacion": "La subsidiariedad exige que la autoridad no sustituya la iniciativa privada cuando esta existe y funciona. El desacuerdo es -1 porque admite intervención pública ante fallos, interés general o ausencia de iniciativa.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "PPE, Party Platform de 2012, principio de subsidiariedad (en inglés)",
+        "url": "https://www.epp.eu/files/uploads/2015/09/Platform2012_EN1.pdf",
+        "fecha": "2012-10-17",
+        "consultado": "2026-07-11"
+      }
+    },
+    "ene-005": {
+      "valor": 2,
+      "justificacion": "La provisión privada en competencia, bajo reglas públicas y objetivos sociales y ambientales, aplica el modelo de mercado competitivo que la plataforma considera ordinario.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "PPE, Party Platform de 2012, economía social de mercado (en inglés)",
+        "url": "https://www.epp.eu/files/uploads/2015/09/Platform2012_EN1.pdf",
+        "fecha": "2012-10-17",
+        "consultado": "2026-07-11"
+      }
+    },
+    "dem-008": {
+      "valor": 2,
+      "justificacion": "Estado de derecho, derechos fundamentales e instituciones constitucionales limitan a las mayorías y al ejecutivo; la eficacia política no justifica romper la separación de poderes.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "PPE, Party Platform de 2012 (en inglés)",
+        "url": "https://www.epp.eu/files/uploads/2015/09/Platform2012_EN1.pdf",
+        "fecha": "2012-10-17",
+        "consultado": "2026-07-11"
+      }
+    },
+    "dem-028": {
+      "valor": 2,
+      "justificacion": "La dignidad humana, los derechos fundamentales y la protección de minorías no quedan disponibles para una mayoría plebiscitaria; son límites constitutivos de la democracia liberal de esta familia.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "PPE, Party Platform de 2012 (en inglés)",
+        "url": "https://www.epp.eu/files/uploads/2015/09/Platform2012_EN1.pdf",
+        "fecha": "2012-10-17",
+        "consultado": "2026-07-11"
+      }
+    },
+    "dem-012": {
+      "valor": 2,
+      "justificacion": "La recepción española se presenta como reformista y moderada: «no romper sino reformar para reafirmar». El cambio profundo debe tramitarse dentro de la democracia constitucional.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Partido Popular, Documento «España en libertad»",
+        "url": "https://www.pp.es/actualidad/articulos/documento-espana-libertad/",
+        "fecha": "2019-01-18",
+        "consultado": "2026-07-11"
+      }
+    }
+  }
+}

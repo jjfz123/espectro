@@ -3,16 +3,16 @@
 | Campo | Valor |
 |---|---|
 | Documento | `taxonomia-mapa-ideologias` |
-| Versión | **1.0.0** |
+| Versión | **1.1.0** |
 | Fecha de corte | **11 de julio de 2026** |
-| Imagen auditada | [Vista previa aportada como referencia](https://preview.redd.it/where-do-you-fall-on-this-very-detailed-political-compass-v0-9bw9g7zxfns91.jpg?width=640&crop=smart&auto=webp&s=7a2ef4cf0a3fb546f8a31446eb6364d64fff1734) |
-| SHA-256 de la imagen | `34f61adb02618fa8c5a8c077789a7eedea4244835fac3cdab086c8f61350cbef` |
+| Imagen auditada | [Imagen exacta aportada como referencia](https://preview.redd.it/where-do-you-fall-on-this-very-detailed-political-compass-v0-9bw9g7zxfns91.jpg?auto=webp&s=ca1d9e02f5d9124aed36dd80723b88d9b2171136) |
+| Copia auditada | JPEG 678×680; SHA-256 `5a10ac569b54cf9718e63a01bdaacd35b1bf1c6528e43e7ab33cd4173f79e35b` |
 | Ámbito | Índice doctrinal para Espectro; España como prioridad y referencias internacionales como contexto |
 | Naturaleza | Investigación y backlog editorial. Este documento **no** autoriza por sí solo posiciones, preguntas ni publicación en el mapa. |
 
 ## 0. Dictamen ejecutivo
 
-La imagen es útil como **inventario cultural de etiquetas**, pero no es una ontología política ni una fuente válida para asignar coordenadas. Mezcla en el mismo nivel:
+La imagen cumple dos funciones distintas que no deben confundirse. Es una **norma visual dura** para la gramática espacial del primer atlas —orden relativo, vecindades, continuidad, densidad y ritmo entre cuadrantes— y, a la vez, un inventario cultural que debe depurarse. No es una ontología política ni una fuente factual válida para definir doctrinas, atribuir posiciones o redactar preguntas. Mezcla en el mismo nivel:
 
 - familias ideológicas estables (`liberalism`, `conservatism`, `social democracy`);
 - ramas doctrinales reales (`council communism`, `anarcho-syndicalism`, `minarchism`);
@@ -24,7 +24,7 @@ La imagen es útil como **inventario cultural de etiquetas**, pero no es una ont
 
 Por ello, Espectro debe usar una jerarquía **familia → tradición → rama → variante histórica**, mantener por separado los **rasgos transversales** y reservar una categoría distinta para **arquetipos de riesgo no electorales**. El perfil por facetas sigue siendo el resultado principal; el plano 2D o cubo es solo un explorador secundario. Una doctrina sin evidencia suficiente en dos macroejes no recibe un punto inventado.
 
-El catálogo actual reúne **39 referencias doctrinales** y una base especialmente densa en anarquismos y comunismos. Además de las familias ya presentes, esta fase incorpora luxemburgismo, ecosocialismo, colectivismo anarquista, plataformismo, anarcopacifismo, comunalismo, abolicionismo animal, republicanismo federal pimargalliano, socialismo de mercado autogestionario, FE de las JONS de 1934 y franquismo nacionalcatólico de 1945-1957. El arquetipo no electoral de aceleracionismo neonazi se mantiene separado y sensible. Los huecos prioritarios no consisten en copiar 150 nombres, sino en completar las **ramas españolas y los discriminantes que cambian realmente un resultado**.
+El corte actual reúne **46 referencias doctrinales** y un atlas de **78 corrientes A/B**, con una base especialmente densa en anarquismos y comunismos. Además de las familias ya presentes, esta fase incorpora luxemburgismo, ecosocialismo, colectivismo anarquista, plataformismo, anarcopacifismo, comunalismo, abolicionismo animal, republicanismo federal pimargalliano, socialismo de mercado autogestionario, FE de las JONS de 1934 y franquismo nacionalcatólico de 1945-1957. El arquetipo no electoral de aceleracionismo neonazi se mantiene separado y sensible. Los huecos prioritarios no consisten en copiar 150 nombres, sino en completar las **ramas españolas y los discriminantes que cambian realmente un resultado**.
 
 ## 1. Contrato taxonómico y editorial
 
@@ -37,7 +37,7 @@ La columna `2D / incertidumbre` usa estas abreviaturas:
 - `T`, `R`, `V`, `G`, etc. remiten a facetas independientes —territorio, religión, violencia, geopolítica— que **no deben comprimirse** en el plano.
 - `No mapear` significa que proyectar la referencia produciría una coordenada engañosa. No significa que la corriente sea irrelevante.
 
-Los cuadrantes de la imagen se registran solo en el inventario de procedencia. No se heredan como verdad editorial.
+Los cuadrantes y las posiciones relativas de la imagen forman el prior geométrico del atlas. Se heredan como contrato de composición, no como verdad doctrinal: toda definición, pertenencia familiar, discriminante y adaptación española exige evidencia independiente.
 
 ### 1.2 Estados
 
@@ -64,9 +64,23 @@ El inventario final asigna una decisión editorial explícita:
 - **E — histórica/extranjera contextual:** régimen, dirigente, tradición nacional o periodo útil para aprender, no prioridad del matching español.
 - **F — meme, ficción, contradicción o exclusión editorial:** se conserva únicamente para demostrar que fue revisada.
 
-Esta clasificación prima sobre el deseo de “llenar casillas”. La imagen inspira aproximadamente la mitad del espacio de búsqueda; **no fija ni el catálogo ni la geometría de Espectro**.
+Esta clasificación prima sobre el deseo de “llenar casillas”. La imagen **sí fija la gramática geométrica de partida** del primer atlas —topología, densidad, continuidad y posiciones relativas—, pero no obliga a conservar etiquetas ficticias, ambiguas o no integrales ni decide qué afirma una doctrina.
 
-### 1.3 Regla mínima para crear una referencia
+### 1.3 Contrato visual duro y límite factual
+
+El contrato se aplica a la capa editorial del atlas, no a los puntos calculados de personas, partidos o referencias:
+
+1. el plano conserva `propiedad-mercado` de izquierda a derecha y `autoridad-politica` de abajo arriba;
+2. se preservan el orden relativo de las corrientes, sus vecindades de familia, la continuidad de las transiciones y una densidad comparable entre cuadrantes; no basta con colocar cuatro etiquetas canónicas en las esquinas;
+3. `coordenadasPrior` registra la lectura normalizada e inmutable de la imagen; `coordenadas` puede adaptarse a España, pero una distancia superior a 25 puntos exige `desviacionJustificada` y una superior a 60 requiere doble revisión editorial;
+4. retirar memes, ficción o rasgos transversales no autoriza a colapsar el mosaico: el hueco se deja visible o se cubre con una corriente seria vecina solo cuando su definición y posición tienen fuentes independientes;
+5. las corrientes A forman la capa principal; las B mantienen la profundidad y solo aparecen al activarla; C, D y F nunca se convierten en territorios ideológicos;
+6. no se copian el activo, sus colores, iconos, texto, chistes ni contornos exactos. Se implementa una composición propia, degradada, accesible y en español;
+7. la cercanía geométrica comunica **proximidad proyectada, no identidad**. Las diferencias decisivas que el 2D omite deben aparecer en la ficha y en las facetas.
+
+La imagen no puede citarse para sostener que una corriente es autoritaria, socialista, religiosa o española. Esas afirmaciones proceden de fuentes primarias y académicas; el prior visual solo responde a «dónde y con qué densidad se organiza el atlas».
+
+### 1.4 Regla mínima para crear una referencia
 
 Una nueva ficha no debe publicarse por cumplir el mínimo técnico del esquema. Requisitos editoriales recomendados:
 
@@ -86,11 +100,11 @@ Una nueva ficha no debe publicarse por cumplir el mínimo técnico del esquema. 
 | Prioridad | Referencia o cambio | Por qué discrimina | Ítems disponibles / carencia principal |
 |---:|---|---|---|
 | 1 | **Hecho:** leninismo bolchevique y marxismo-leninismo soviético, fase estaliniana | Ya evita que toda respuesta comunista termine en trotskismo, hoxhaísmo o MLM; los dos periodos se publican separados. | 15 y 14 posiciones documentadas, respectivamente; mantener revisión historiográfica. |
-| 2 | **Hecho:** luxemburgismo (24 posiciones) | Separa huelga de masas, democracia obrera e internacionalismo del partido-vanguardia. | Publicable en Economía × Poder; no se extrapolan derechos actuales ausentes de sus textos. |
+| 2 | **Hecho:** luxemburgismo (24 posiciones) | Separa huelga de masas, democracia obrera e internacionalismo del partido-vanguardia. | Es la única referencia que supera en este corte el contrato estricto de Propiedad × Poder; no se extrapolan derechos actuales ausentes de sus textos. |
 | 3 | **Hecho:** socialismo democrático pluralista y ecosocialismo (15 y 20 posiciones) | Cubre una zona real entre socialdemocracia y ruptura revolucionaria. | El ecosocialismo queda fuera del mapa macro por falta de arquitectura general del poder. |
-| 4 | **Hecho:** falangismo de FE de las JONS, 1934 (19 posiciones) | Distingue sindicato vertical, corporativismo mixto, partido único, nacionalización y revolución nacional. | Entra únicamente en Economía × Poder; no se fabrica una posición GAL–TAN ni se mezcla con FET-JONS o franquismo. |
+| 4 | **Hecho:** falangismo de FE de las JONS, 1934 (19 posiciones) | Distingue sindicato vertical, corporativismo mixto, partido único, nacionalización y revolución nacional. | Conserva ancla editorial en el atlas; su punto calculado no se publica hasta cubrir seis ítems y tres subdimensiones/familias. No se mezcla con FET-JONS o franquismo. |
 | 5 | **Hecho:** franquismo nacionalcatólico, 1945-1957 (15 posiciones) | Evita confundir la dictadura de posguerra con Falange, carlismo o derecha radical electoral. | Matching histórico sensible; fuera del mapa macro por falta de economía equilibrada. |
-| 6 | Derecha radical nativista/identitaria | Cubre el núcleo nativismo–autoritarismo sin identificarlo automáticamente con fascismo. | `dr-003`, `dr-005`, `dr-006`, `lim-007`; separar populismo mediante `pop-*`. |
+| 6 | **Hecho:** derecha radical populista/nativista (12 posiciones) | Cubre el núcleo nativismo–autoritarismo sin identificarlo automáticamente con fascismo. | Referencia implementada, pero sin coordenada económica inventada; separar populismo mediante `pop-*`. |
 | 7 | **Hecho:** anarquismo colectivista (31 posiciones) | Rama histórica central en España; ya no queda absorbida por anarcocomunismo/mutualismo. | Sigue faltando `N1` para aislar remuneración por trabajo frente a distribución por necesidad. |
 | 8 | **Hecho:** plataformismo anarcocomunista (30 posiciones) | Distingue organización anarquista coordinada de espontaneísmo y de vanguardia leninista. | Sigue faltando `N2` para medir directamente unidad teórica/táctica y responsabilidad colectiva. |
 | 9 | **Hecho:** comunalismo bookchiniano (11 posiciones) | Da sentido a democracia municipal, confederación y poder popular sin Estado central. | Matching sin mapa económico; Öcalan/confederalismo democrático queda como investigación distinta. |
@@ -151,7 +165,7 @@ Para mantener legibles las tablas, la columna de fuentes usa estas claves. Son *
 | Corriente/familia y etiquetas de la imagen | 2D / incertidumbre | Definición breve y relevancia | Preguntas discriminantes | Fuentes | Estado | Sensibilidad y cautela |
 |---|---|---|---|---|---|---|
 | **Socialdemocracia clásica** (`Social Democracy`) | E− moderada, A variable | Reforma democrática, negociación colectiva, Estado social y economía mixta. Muy relevante en España. | `eco-001`, `lab-001`, `dem-012` | `GEN`; Bernstein; programas históricos PSOE/PSOE actual por separado | `implementada` | No confundir tipo doctrinal con conducta de un partido gobernante. |
-| **Socialismo democrático** (`Democratic Socialism`) | E−, A−/plural | Socialización o control democrático más profundo que la socialdemocracia sin partido único. Relevancia alta. | rechazo `izq-001`; `dem-012`, `sd-012` | `GEN`; Labour/PES; autores y organizaciones españolas | `pendiente-P1` | Separar objetivo poscapitalista de simple Estado de bienestar. |
+| **Socialismo democrático pluralista** (`Democratic Socialism`) | E−, A−/plural | Socialización o control democrático más profundo que la socialdemocracia sin partido único. La referencia implementada delimita una variante pluralista; no agota toda la familia. | rechazo `izq-001`; `dem-012`, `sd-012` | `GEN`; Labour/PES; autores y organizaciones españolas | `implementada` | Separar objetivo poscapitalista de simple Estado de bienestar y no extender una variante a toda la etiqueta. |
 | **Socialismo liberal y libertario** (`Liberal Socialism`, `Social Libertarianism`, `Libertarian Socialism`) | E−, A−; amplitud alta | Tradiciones que combinan igualdad material con libertades y poder distribuido. “Libertarian socialism” es familia, no punto único. | `dem-010`, `izq-003`, `lab-008` | `GEN`, `ANAR`; Carlo Rosselli para socialismo liberal | `parcial` | No fusionar automáticamente con anarquismo ni con liberalismo social. |
 | **Socialismo de mercado/autogestión** (`Market Socialism`, `Libertarian Market Socialism`) | E−/mixta, A variable | Propiedad social/cooperativa con intercambios de mercado; la referencia implementada se limita a la Democracia Económica de Schweickart. | `izq-032`, `lab-017`, `N3` | David Schweickart; `COM` | `implementada` | No heredar el perfil a Yugoslavia, China, Roemer o cooperativismo aislado. |
 | **Socialismo utópico** (`Utopian Socialism`) | E−, A? | Familia pre/marxista de comunidades cooperativas y diseños ideales. Contexto histórico, poca discriminación electoral española. | `izq-032`, `lab-017`; falta ítem de comunidad experimental voluntaria | Owen, Fourier, Saint-Simon; `GEN` | `pendiente-P2` | “Utópico” fue también etiqueta polémica marxista. |
@@ -234,7 +248,7 @@ Para mantener legibles las tablas, la columna de fuentes usa estas claves. Son *
 | Corriente/familia y etiquetas de la imagen | 2D / incertidumbre | Definición breve y relevancia | Preguntas discriminantes | Fuentes | Estado | Sensibilidad y cautela |
 |---|---|---|---|---|---|---|
 | **Conservadurismo clásico** (`Conservatism`) | E variable, A/tradición moderada | Prudencia, continuidad institucional, autoridad limitada y cambio gradual. Referencia española útil. | `dem-012`, `der-002`, `eco-004` | Burke; Oakeshott; `GEN` | `implementada` | No identificarlo con PP ni con toda derecha. |
-| **Conservadurismo liberal** (`Liberal Conservatism`) | E+, A/tradición moderada | Mercado y constitucionalismo con orden/tradición; familia europea común. | `eco-002`, `dem-008`, `der-010` | `GEN`; programas EPP por periodo | `parcial` | Separar programa teórico de partido real. |
+| **Conservadurismo liberal europeo** (`Liberal Conservatism`) | E+, A/tradición moderada | Mercado y constitucionalismo con orden/tradición; familia europea común con referencia ya implementada. | `eco-002`, `dem-008`, `der-010` | `GEN`; programas EPP por periodo | `implementada` | Separar el tipo doctrinal de la conducta de un partido real. |
 | **Conservadurismo progresista** (`Progressive Conservatism`) | E variable, A moderada | Reforma social gradual dentro de instituciones y tradiciones existentes. | `dem-012`, `soc-001`, `eco-004` | historia one-nation/progressive conservatism | `pendiente-P2` | Rótulo dependiente de país y época. |
 | **Paleoconservadurismo y neoconservadurismo** (`Paleo Conservatism`, `Neo Conservatism`) | E+ variable; G opuesta a menudo | El primero suele ser nacional, tradicional y no intervencionista; el segundo combina democracia liberal/mercado con política exterior más intervencionista. | `der-002`, `geo-003`, `der-021` | literatura estadounidense, `PAÍS` | `pendiente-P2` | Categorías estadounidenses; no trasplantarlas sin adaptación española. |
 | **Democracia cristiana** (`Christian Theocracy` no; la imagen no rotula la ficha explícita, pero sí `Religious Democracy`) | E mixta/social de mercado, A plural; R | Dignidad, subsidiariedad, solidaridad y democracia plural inspiradas en cristianismo, distinta de teocracia. | `der-012`, `rel-002`, rechazo `rel-003` | *Rerum Novarum*, *Quadragesimo Anno*, programas democristianos | `implementada` | Su proyección macro social está suspendida hasta mejorar cobertura bioética. |
@@ -251,8 +265,8 @@ Para mantener legibles las tablas, la columna de fuentes usa estas claves. Son *
 
 | Corriente/familia y etiquetas de la imagen | 2D / incertidumbre | Definición breve y relevancia | Preguntas discriminantes | Fuentes | Estado | Sensibilidad y cautela |
 |---|---|---|---|---|---|---|
-| **Fascismo histórico italiano, por fases** (`Fascism`) | E variable por fase, A+; ultranacionalista | El régimen PNF 1925–43 ya tiene referencia propia; San Sepolcro, pre-Marcha y Salò siguen separados porque no comparten un único vector económico, religioso o institucional. | Régimen: 10 posiciones; fases restantes `dem-019`, `dr-024`, `N7` | manifiesto de San Sepolcro, doctrina de 1932, Carta de Verona; `FASC` | `implementada` para 1925–43 / resto `pendiente-P2` | `violenta/antipluralista`; periodizar y no usar “fascista” como eje genérico. |
-| **Falangismo / nacionalsindicalismo español** (`Falangism`) | E dirigida, A+; centralista | La referencia implementada se limita al programa de FE de las JONS de 1934: unidad nacional, movimiento totalitario, sindicalismo vertical, nacionalización y propiedad subordinada. | 19 posiciones; Economía × Poder publicable; GAL–TAN insuficiente | programa de 27 puntos; UNED/UCM; `ESP-FAL` | `implementada` | `antipluralista`; no mezclar con FET-JONS, franquismo o partidos actuales. |
+| **Fascismo histórico italiano, por fases** (`Fascism`) | E variable por fase, A+; ultranacionalista | El régimen PNF 1925–43 ya tiene referencia propia; San Sepolcro, pre-Marcha y Salò siguen separados porque no comparten un único vector económico, religioso o institucional. | Régimen: 14 posiciones; fases restantes `dem-019`, `dr-024`, `N7` | manifiesto de San Sepolcro, doctrina de 1932, Carta de Verona; `FASC` | `implementada` para 1925–43 / resto `pendiente-P2` | `violenta/antipluralista`; periodizar y no usar “fascista” como eje genérico. |
+| **Falangismo / nacionalsindicalismo español** (`Falangism`) | E dirigida, A+; centralista | La referencia implementada se limita al programa de FE de las JONS de 1934: unidad nacional, movimiento totalitario, sindicalismo vertical, nacionalización y propiedad subordinada. | 19 posiciones; ancla editorial (+17,+72); punto calculado suspendido por cobertura directa insuficiente | programa de 27 puntos; UNED/UCM; `ESP-FAL` | `implementada` | `antipluralista`; no mezclar con FET-JONS, franquismo o partidos actuales. |
 | **Nacionalcatolicismo/franquismo** (no rotulado como tal; relacionado con `Authoritarian Capitalism`, `Conservative Socialism`) | E indeterminada en el banco, A+; R confesional | La referencia implementada delimita 1945-1957: catolicismo estatal, jefatura personal, Cortes orgánicas, centralismo y sindicato vertical. | 15 posiciones; economía insuficiente para mapa | BOE, Congreso e historiografía española | `implementada` | `violenta`; matching histórico sin porcentaje ni identidad personal. |
 | **Nazismo/nacionalsocialismo** (`Nazism`) | E dirigida pero propiedad mixta, A+/V extremo; racial | Ultranacionalismo racial, dictadura y genocidio. Referencia histórica, no zona electoral. | `lim-007`, `lim-005`, `dr-024` | fuentes del Holocausto, historiografía académica; `FASC` | `histórica-contextual` | `violenta`; nunca iconografía, ranking lúdico o equivalencia por política social. |
 | **Neonazismo y fascismo esotérico** (`Neo Nazism`, `Esoteric Fascism`) | E?, A+/V | Renovaciones posbélicas del nazismo y variantes ocultistas/esotéricas marginales. | `lim-007`, `lim-005`, `dr-025` en negativo | estudios de extremismo y terrorismo | `pendiente-P2` | `violenta/antipluralista`; no amplificar subculturas. |
@@ -262,7 +276,7 @@ Para mantener legibles las tablas, la columna de fuentes usa estas claves. Son *
 | **Mladorossismo** (`Mladorossism`) | E sincrética, A+; monárquica | Movimiento emigrado ruso de entreguerras que mezcló monarquismo y elementos fascistas/soviéticos. | banco insuficiente | archivos y monografías sobre emigración rusa | `histórica-contextual` | Relevancia española casi nula. |
 | **Fascismo de Vichy / estatismo Shōwa** (`Vichy Fascism`, `Showa Statism`) | E?, A+; país/periodo | Etiquetas de régimen/coalición histórica francesa y japonesa, no doctrinas universales. | `dem-019`, `dr-024`; faltan imperio/colaboracionismo | `PAÍS`, `FASC` | `histórica-contextual` | Periodo, guerra y debates historiográficos obligatorios. |
 | **Neofascismo** (`Neo Fascism`) | E variable, A+ | Rearticulaciones pos-1945 de núcleos fascistas; distinto de derecha radical que compite en democracia. | `dem-010` en negativo, `dr-024`, `dem-019` | `FASC`, literatura posfascismo | `pendiente-P2` | No llamar neofascista a toda política nativista sin evidencia. |
-| **Derecha radical populista/nativista** (`Alt Right`, `Populism (Right)`) | E variable, A autoritaria; nativismo | Nativismo y autoritarismo; populismo frecuente pero separable. Relevancia española alta. | `dr-003`, `dr-006`, `lim-007`; `pop-001` aparte | `RAD`, fuentes españolas | `pendiente-P1` | No confundir automáticamente con fascismo o terrorismo. `Alt-right` es subcultura estadounidense contextual. |
+| **Derecha radical populista/nativista** (`Alt Right`, `Populism (Right)`) | E variable, A autoritaria; nativismo | Nativismo y autoritarismo; populismo frecuente pero separable. Relevancia española alta. | `dr-003`, `dr-006`, `lim-007`; `pop-001` aparte | `RAD`, fuentes españolas | `implementada` | La referencia no recibe x económica: esta familia incluye programas incompatibles. No confundirla con fascismo, terrorismo ni con la `alt-right` estadounidense. |
 | **Capitalismo autoritario/nacional** (`Authoritarian Capitalism`, `National Capitalism`) | E+, A+ | Mercado/propiedad privada bajo poder político concentrado; “nacional” añade preferencia/protección nacional. | `eco-002`, `dr-024`, `der-004` | literatura de capitalismo autoritario y desarrollismo | `pendiente-P2` | Descriptor de régimen, no necesariamente identidad coherente. |
 | **Pinochetismo** (`Pinochetism`) | E+, A+/V; país/periodo | Régimen militar chileno y coalición ideológica concreta, con neoliberalización y represión. | `dr-024`, `eco-002`, `dem-010` en negativo | informes Rettig/Valech; historia de Chile | `histórica-contextual` | `violenta`; no usar como sinónimo de toda reforma promercado. |
 | **Trumpismo** (`Trumpism`) | E+/proteccionista variable, A/populismo | Movimiento personalista estadounidense con nacionalismo, populismo y posiciones cambiantes. | `dr-023`, `der-004`, `pop-001` | programas/discurso por año y literatura estadounidense | `histórica-contextual` | No trasplantar como ideología española; periodizar. |
@@ -407,7 +421,7 @@ Este inventario garantiza trazabilidad, **no adopción**. Se conserva la grafía
 | 86 | `Labourism` | Laborismo | E | Tradición británica y sindical-parlamentaria contextual. |
 | 87 | `Liberalism` | Liberalismo | A | Familia central; ya existe referencia clásica y faltan ramas españolas. |
 | 88 | `Progressive Conservatism` | Conservadurismo progresista | B | Corriente real dependiente de país/época; exhaustiva. |
-| 89 | `Liberal Conservatism` | Conservadurismo liberal | A | Familia muy relevante para la derecha española/europea; requiere ficha propia. |
+| 89 | `Liberal Conservatism` | Conservadurismo liberal europeo | A | Familia relevante para España y Europa; referencia implementada, separada de partidos concretos. |
 | 90 | `Conservatism` | Conservadurismo | A | Referencia clásica implementada. |
 | 91 | `Communalism` | Comunalismo/municipalismo libertario | A | Implementado como comunalismo bookchiniano maduro; sin economía inventada. |
 | 92 | `Left Communism` | Comunismo de izquierda | B | Exhaustivo; ya se divide seriamente en bordiguismo y consejismo. |
@@ -437,7 +451,7 @@ Este inventario garantiza trazabilidad, **no adopción**. Se conserva la grafía
 | 116 | `Luxemburgism` | Luxemburgismo | A | Implementado con 24 anclas y proyección Economía × Poder. |
 | 117 | `Liberal Socialism` | Socialismo liberal | B | Corriente real, secundaria frente a socialismo democrático/social liberalismo. |
 | 118 | `Utopian Socialism` | Socialismo utópico | E | Familia histórica pre/marxista. |
-| 119 | `Democratic Socialism` | Socialismo democrático | A | P1 relevante entre socialdemocracia y revolución. |
+| 119 | `Democratic Socialism` | Socialismo democrático pluralista | A | Referencia implementada entre socialdemocracia y revolución; no agota todas las variantes. |
 | 120 | `Social Libertarianism` | Libertarismo social | B | Etiqueta amplia y solapada; exhaustiva si se normaliza. |
 | 121 | `Libertarianism` | Libertarismo | C | Familia paraguas; Espectro debe mostrar ramas concretas, no un punto único. |
 | 122 | `Distributist Libertarianism` | Distributismo libertario | B | Variante nicho; no heredar posiciones del distributismo general. |

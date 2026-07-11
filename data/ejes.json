@@ -14,6 +14,13 @@
     "descripcion": "Inmigración, derechos LGTB, orden público, moral pública. Segunda dimensión del CHES."
   },
   {
+    "id": "autoridad-politica",
+    "nombre": "Poder político y libertades",
+    "poloNegativo": "Libertades, pluralismo y poder distribuido",
+    "poloPositivo": "Orden, jerarquía y poder concentrado",
+    "descripcion": "Concentración o distribución del poder político, contrapesos institucionales, libertades civiles, organización y participación directa."
+  },
+  {
     "id": "territorial",
     "nombre": "Eje territorial",
     "poloNegativo": "Máxima descentralización, incluido derecho a decidir",
@@ -156,6 +163,14 @@
     "poloNegativo": "Autonomía social y antiestatismo",
     "poloPositivo": "Dirección y planificación estatal",
     "descripcion": "Mide cuánto debe dirigir el Estado la vida económica y social; es distinto de quién posee la riqueza y evita confundir antiestatismos de signos opuestos.",
+    "subEje": true
+  },
+  {
+    "id": "propiedad-mercado",
+    "nombre": "Propiedad y coordinación económica",
+    "poloNegativo": "Propiedad social, pública o cooperativa",
+    "poloPositivo": "Propiedad privada y coordinación por mercados",
+    "descripcion": "Eje específico de la brújula principal. Separa quién posee y dirige la producción de cuánto interviene el Estado: así una economía corporativa o proteccionista no se convierte automáticamente en izquierda económica, y la autogestión no se confunde con estatismo.",
     "subEje": true
   },
   {

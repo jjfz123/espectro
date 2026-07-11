@@ -176,7 +176,7 @@ altura reducida, zoom de texto, tema oscuro, alto contraste cuando esté disponi
 Mientras el catálogo crece, usar como alarma —no como sustituto de la medición real—:
 
 - JavaScript inicial ≤ 120 kB gzip;
-- resultados y datos ≤ 365 kB gzip (recalibrado al catálogo de 39 referencias; si vuelve a crecer, separar cartografía y fichas antes de ampliar de nuevo);
+- resultados y datos ≤ 390 KiB gzip (recalibrado con 46 referencias y el atlas de 78 corrientes; si vuelve a crecer, separar cartografía y fichas antes de ampliar de nuevo);
 - visor 3D ≤ 300 kB gzip;
 - LCP ≤ 2,5 s y CLS ≤ 0,05 en un móvil medio;
 - Lighthouse rendimiento, accesibilidad, buenas prácticas y SEO ≥ 95;
@@ -227,9 +227,12 @@ La versión activa se conserva hasta que el usuario acepte actualizar. El flujo 
 6. al adquirir control, se recarga una sola vez;
 7. el cargador valida `version`, `versionInstrumento` y caducidad antes de restaurar.
 
-Una actualización que cambie el instrumento puede descartar respuestas por seguridad
-metodológica. Si hay una sesión activa, debe explicarse antes de actualizar o posponerse hasta
-terminarla. Este escenario necesita una prueba específica con dos builds.
+Una actualización que cambie el instrumento solo puede conservar respuestas mediante una
+migración explícita y acotada. La transición v3 → v4 está permitida porque únicamente añade
+cargas a ejes nuevos y no cambia ids, texto, orden, escala ni significado de las respuestas; una
+prueba unitaria protege esa conservación. Cualquier futura versión sin migración declarada debe
+explicar el reinicio antes de actualizar o posponerse hasta terminar la sesión. El ciclo completo
+con dos builds sigue necesitando una prueba de PWA específica.
 
 ### 7.3 Instalación
 

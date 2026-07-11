@@ -24,6 +24,10 @@
       {
         "eje": "organizacion",
         "carga": 1
+      },
+      {
+        "eje": "autoridad-politica",
+        "carga": 0.6
       }
     ],
     "polaridad": "positiva",
@@ -45,6 +49,10 @@
       {
         "eje": "organizacion",
         "carga": -1
+      },
+      {
+        "eje": "autoridad-politica",
+        "carga": -0.6
       }
     ],
     "polaridad": "positiva",
@@ -79,6 +87,10 @@
       {
         "eje": "economico",
         "carga": -1
+      },
+      {
+        "eje": "propiedad-mercado",
+        "carga": -0.5
       }
     ],
     "polaridad": "positiva",
@@ -115,6 +127,10 @@
       {
         "eje": "organizacion",
         "carga": -0.5
+      },
+      {
+        "eje": "autoridad-politica",
+        "carga": -0.75
       }
     ],
     "polaridad": "positiva",
@@ -294,6 +310,10 @@
         "carga": -1
       },
       {
+        "eje": "propiedad-mercado",
+        "carga": -1
+      },
+      {
         "eje": "metodo-cambio",
         "carga": 0.5
       }
@@ -341,6 +361,10 @@
       {
         "eje": "organizacion",
         "carga": -0.5
+      },
+      {
+        "eje": "autoridad-politica",
+        "carga": -0.75
       }
     ],
     "polaridad": "positiva",
@@ -592,6 +616,10 @@
       {
         "eje": "organizacion",
         "carga": -1
+      },
+      {
+        "eje": "propiedad-mercado",
+        "carga": -1
       }
     ],
     "polaridad": "positiva",
@@ -683,6 +711,10 @@
       {
         "eje": "organizacion",
         "carga": -0.75
+      },
+      {
+        "eje": "autoridad-politica",
+        "carga": -1
       }
     ],
     "polaridad": "positiva",
@@ -702,6 +734,10 @@
       {
         "eje": "organizacion",
         "carga": -0.75
+      },
+      {
+        "eje": "autoridad-politica",
+        "carga": -0.5
       }
     ],
     "polaridad": "negativa",
@@ -798,6 +834,10 @@
     "ejes": [
       {
         "eje": "social",
+        "carga": -0.75
+      },
+      {
+        "eje": "autoridad-politica",
         "carga": -0.75
       }
     ],

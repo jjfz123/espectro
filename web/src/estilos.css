@@ -2350,19 +2350,19 @@ h3 {
  */
 .mapa-zona {
   fill: var(--tinta);
-  fill-opacity: 0;
+  fill-opacity: 0.025;
 }
 
 .mapa-zona[data-tono='1'] {
-  fill-opacity: 0.02;
+  fill-opacity: 0.045;
 }
 
 .mapa-zona[data-tono='2'] {
-  fill-opacity: 0.04;
+  fill-opacity: 0.065;
 }
 
 .mapa-zona[data-tono='3'] {
-  fill-opacity: 0.06;
+  fill-opacity: 0.085;
 }
 
 .mapa-zona--interactiva {
@@ -2375,7 +2375,7 @@ h3 {
 .mapa-zona--interactiva:focus-visible,
 .mapa-zona--interactiva[data-activa='true'] {
   fill: var(--acento);
-  fill-opacity: 0.13;
+  fill-opacity: 0.18;
   outline: none;
 }
 
@@ -2383,6 +2383,7 @@ h3 {
   fill: none;
   stroke: var(--filete);
   stroke-width: 0.75;
+  stroke-opacity: 0.8;
   stroke-dasharray: 1.5 2.5;
   pointer-events: none;
 }
@@ -2409,16 +2410,26 @@ h3 {
 }
 
 @media (prefers-color-scheme: dark) {
+  .mapa-zona {
+    fill-opacity: 0.04;
+  }
+
   .mapa-zona[data-tono='1'] {
-    fill-opacity: 0.035;
+    fill-opacity: 0.065;
   }
 
   .mapa-zona[data-tono='2'] {
-    fill-opacity: 0.07;
+    fill-opacity: 0.09;
   }
 
   .mapa-zona[data-tono='3'] {
-    fill-opacity: 0.105;
+    fill-opacity: 0.115;
+  }
+
+  .mapa-zona--interactiva:hover,
+  .mapa-zona--interactiva:focus-visible,
+  .mapa-zona--interactiva[data-activa='true'] {
+    fill-opacity: 0.2;
   }
 }
 
@@ -2452,6 +2463,29 @@ h3 {
   line-height: 1.4;
 }
 
+.mapa-corrientes-control__buscador {
+  display: grid;
+  flex: 1 1 15rem;
+  gap: 0.25rem;
+  min-width: 0;
+  width: min(100%, 20rem);
+  color: var(--tinta-suave);
+  font-size: 0.76rem;
+}
+
+.mapa-corrientes-control__buscador select {
+  width: 100%;
+  min-width: 0;
+  min-height: 44px;
+  max-width: 100%;
+  padding: 0.45rem 2rem 0.45rem 0.55rem;
+  border: 1px solid var(--filete-fuerte);
+  border-radius: 0;
+  background: var(--papel);
+  color: var(--tinta);
+  font: inherit;
+}
+
 .mapa-corriente-instruccion,
 .mapa-corriente-lectura {
   width: min(100%, 46rem);
@@ -2459,9 +2493,33 @@ h3 {
 }
 
 .mapa-corriente-instruccion {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 0.55rem;
   color: var(--tinta-suave);
   font-size: 0.8rem;
   text-align: center;
+}
+
+.mapa-cumulo {
+  width: min(100%, 46rem);
+  margin: 0.75rem auto 0;
+  padding: 0.75rem;
+  border: 1px solid var(--filete);
+  background: var(--superficie);
+  font-size: 0.8rem;
+}
+
+.mapa-cumulo p {
+  margin: 0 0 0.55rem;
+}
+
+.mapa-cumulo > div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
 }
 
 .mapa-corriente-lectura {
@@ -2712,6 +2770,18 @@ h3 {
   outline: none;
 }
 
+.mapa-punto__hit {
+  fill: transparent;
+  stroke: none;
+  pointer-events: all;
+}
+
+@media (max-width: 34rem) {
+  .mapa-punto__hit {
+    r: 32px;
+  }
+}
+
 .mapa-punto:focus-visible .mapa-punto__forma {
   stroke: var(--acento);
   stroke-width: 2.5;
@@ -2750,6 +2820,21 @@ h3 {
   fill: var(--tinta);
   stroke: var(--papel);
   stroke-width: 1.5;
+}
+
+/* Una coordenada provisional conserva el centro calculado, pero nunca se
+   confunde visualmente con una ficha que ya supera el contrato completo. */
+.mapa-punto[data-tipo='partido'][data-evidencia='provisional'] .mapa-punto__forma {
+  fill: var(--papel);
+  stroke: var(--tinta);
+  stroke-width: 2;
+}
+
+.mapa-punto[data-tipo='partido'][data-evidencia='provisional'][data-seleccionado='true']
+  .mapa-punto__forma {
+  fill: var(--papel);
+  stroke: var(--acento);
+  stroke-width: 2.5;
 }
 
 .mapa-punto[data-tipo='referencia'] .mapa-punto__forma {
@@ -2829,10 +2914,31 @@ h3 {
   fill: var(--tinta);
 }
 
+.mapa-leyenda__partido-provisional {
+  fill: var(--papel);
+  stroke: var(--tinta);
+  stroke-width: 2;
+}
+
 .mapa-leyenda__referencia {
   fill: none;
   stroke: var(--tinta);
   stroke-width: 1.5;
+}
+
+.mapa-evidencia-provisional {
+  width: min(100%, 46rem);
+  margin: 0.8rem auto 0;
+  padding: 0.65rem 0.8rem;
+  border-left: 3px solid var(--filete-fuerte);
+  background: var(--superficie);
+  color: var(--tinta-suave);
+  font-size: 0.78rem;
+  line-height: 1.45;
+}
+
+.mapa-evidencia-provisional strong {
+  color: var(--tinta);
 }
 
 /* Panel de selección: el acento carmín marca qué está seleccionado. */

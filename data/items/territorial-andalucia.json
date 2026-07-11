@@ -47,6 +47,10 @@
       {
         "eje": "economico",
         "carga": -1
+      },
+      {
+        "eje": "propiedad-mercado",
+        "carga": -1
       }
     ],
     "polaridad": "negativa",
