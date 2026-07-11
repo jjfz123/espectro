@@ -98,14 +98,16 @@
     "eco-002": {
       "valor": -2,
       "justificacion": "Mónica García, ministra de Sanidad y líder de Más Madrid, distingue explícitamente sanidad privada de privatización: impulsa una ley para frenar la gestión privada y los conciertos con ánimo de lucro en hospitales públicos, a los que acusa de «parasitar» el sistema en vez de mejorarlo.",
-      "calidadEvidencia": "alta",
+      "calidadEvidencia": "media",
       "fuente": {
         "tipo": "declaracion",
         "titulo": "Mónica García: «No tengo ninguna disputa con la sanidad privada, pero sí con la privatización de la sanidad» (Público)",
         "url": "https://www.publico.es/politica/monica-garcia-no-disputa-sanidad-privada-privatizacion-sanidad.html",
         "fecha": "2024-07-28",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "No tengo ninguna disputa con la sanidad privada, pero sí con la privatización de la sanidad"
+      },
+      "grupoEvidencia": "pasaje-a4d24117a932775779a8"
     },
     "eco-005": {
       "valor": 2,
@@ -146,26 +148,30 @@
     "eco-009": {
       "valor": -2,
       "justificacion": "Más Madrid critica las sucesivas bonificaciones de Ayuso al impuesto de sucesiones y donaciones (ampliada al 50% entre hermanos, tíos y sobrinos en 2025) calificándolas de «regalo de Ayuso a las grandes fortunas»: defiende mantener y reforzar el tributo, no suprimirlo.",
-      "calidadEvidencia": "alta",
+      "calidadEvidencia": "media",
       "fuente": {
         "tipo": "declaracion",
         "titulo": "Madrid lleva a pleno el jueves bonificar un 50% el impuesto de sucesiones entre tíos y sobrinos: «Es un regalo de Ayuso a las grandes fortunas» (Infobae)",
         "url": "https://www.infobae.com/espana/2025/06/09/madrid-aprueba-el-jueves-la-bonificacion-del-50-del-impuesto-de-sucesiones-entre-tios-y-sobrinos-a-vox-se-le-queda-corta-pide-el-99/",
         "fecha": "2025-06-09",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "Es un regalo de Ayuso a las grandes fortunas"
+      },
+      "grupoEvidencia": "pasaje-83c79a7d2742199a7a45"
     },
     "eco-013": {
       "valor": -2,
       "justificacion": "Como ministra de Sanidad impulsó el anteproyecto de Ley de Gestión Pública e Integridad del SNS para impedir externalizar hospitales públicos sin justificación y limitar los conciertos con ánimo de lucro: «vamos a proteger la sanidad de las garras especuladoras», lo contrario de derivar más pacientes a la privada por listas de espera.",
-      "calidadEvidencia": "alta",
+      "calidadEvidencia": "media",
       "fuente": {
         "tipo": "declaracion",
         "titulo": "Mónica García, sobre la ley que frena la privatización: «Vamos a proteger la sanidad de las garras especuladoras» (elDiario.es)",
         "url": "https://www.eldiario.es/sociedad/monica-garcia-norma-frena-privatizacion-sanitaria-proteger-sistema-garras-especuladoras_1_12977703.html",
         "fecha": "2026-02-10",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "Vamos a proteger la sanidad de las garras especuladoras"
+      },
+      "grupoEvidencia": "pasaje-f41da944f10626a8510d"
     },
     "eco-014": {
       "valor": 1,
@@ -194,26 +200,30 @@
     "soc-002": {
       "valor": -2,
       "justificacion": "Su portavoz municipal, Rita Maestre, acusó al PP (Almeida y Ayuso) de convertirse en «la voz de los bulos y los discursos de odio hacia las personas inmigrantes» en competencia con la extrema derecha europea, rechazando el marco que prioriza la devolución frente a la integración y la regularización.",
-      "calidadEvidencia": "alta",
+      "calidadEvidencia": "media",
       "fuente": {
         "tipo": "declaracion",
         "titulo": "Maestre acusa al PP de asumir «el discurso de odio y bulos de la extrema derecha» sobre la inmigración y Almeida la llama «hipócrita» (elDiario.es)",
         "url": "https://www.eldiario.es/politica/ultima-hora-actualidad-politica-directo_6_10874440_1105716.html",
         "fecha": "2024-01-29",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "el discurso de odio y bulos de la extrema derecha"
+      },
+      "grupoEvidencia": "pasaje-5dbec417a585b7d076a7"
     },
     "fem-001": {
       "valor": 2,
       "justificacion": "Más Madrid rechazó en la Asamblea la reforma de Ayuso (diciembre de 2023) que recortó las leyes trans y LGTBI de Madrid eliminando las menciones a la «autodeterminación» y la «autodefinición» de género, defendiendo el modelo previo que permitía el cambio registral por la sola voluntad de la persona.",
       "calidadEvidencia": "media",
       "fuente": {
-        "tipo": "declaracion",
+        "tipo": "redes",
         "titulo": "En qué consiste el recorte de las leyes trans y LGTBI de Madrid (Newtral)",
-        "url": "https://www.newtral.es/recorte-ley-trans-madrid-ley-lgtbi/20231117/",
-        "fecha": "2023-11-17",
-        "consultado": "2026-07-10"
-      }
+        "url": "https://x.com/Monica_Garcia_G/status/1722958618360795460",
+        "fecha": "2023-11",
+        "consultado": "2026-07-10",
+        "cita": "Ayuso acaba de registrar una reforma de la Ley Trans que supone su derogación camuflada. Es el primer retroceso en derechos LGTBI en décadas, que vuelve a patologizar y poner en la diana a las personas trans. No lo vamos a permitir."
+      },
+      "grupoEvidencia": "pasaje-5e4497020ff0f81c6172"
     },
     "fem-014": {
       "valor": 2,
@@ -230,26 +240,30 @@
     "der-026": {
       "valor": -2,
       "justificacion": "Cuando la Asamblea de Madrid aprobó en 2019, con los votos de PP y Ciudadanos, una iniciativa de Vox para pedir la ilegalización de partidos independentistas, Más Madrid votó en contra: su diputado la calificó de «esperpento político y legal», recordando que en democracia las leyes las aplican los jueces y los tribunales, no un decreto arbitrario.",
-      "calidadEvidencia": "alta",
+      "calidadEvidencia": "media",
       "fuente": {
         "tipo": "votacion",
         "titulo": "PP y Ciudadanos apoyan a Vox y piden ilegalizar partidos independentistas (Izquierda Diario)",
         "url": "https://www.izquierdadiario.es/PP-y-Ciudadanos-apoyan-a-Vox-y-piden-ilegalizar-partidos-independentistas",
         "fecha": "2019-11",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "En democracia las leyes las aplican los jueces y los tribunales, y no de forma arbitraria"
+      },
+      "grupoEvidencia": "pasaje-b6394d2eab04cbebf413"
     },
     "va-003": {
       "valor": 2,
       "justificacion": "Más Madrid es el único partido con representación en la Comunidad de Madrid que ha pedido acabar con las corridas de toros, proponiendo revisar y retirar la financiación pública a la tauromaquia una vez terminen los contratos vigentes.",
-      "calidadEvidencia": "alta",
+      "calidadEvidencia": "media",
       "fuente": {
         "tipo": "declaracion",
         "titulo": "Los toros separan a la izquierda: Más Madrid pide que se acabe con las corridas y el PSOE más inversión por ser «bien cultural» (El Español)",
         "url": "https://www.elespanol.com/espana/politica/20250514/toros-separan-izquierda-madrid-pide-acabe-corridas-psoe-inversion-bien-cultural/1003743757306_0.html",
         "fecha": "2025-05-14",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "que dejen de torturar a los animales con dinero público o sin dinero público"
+      },
+      "grupoEvidencia": "pasaje-9320834c79f3c6147020"
     },
     "cat-003": {
       "valor": 2,
