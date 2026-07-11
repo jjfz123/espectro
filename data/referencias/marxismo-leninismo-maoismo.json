@@ -155,6 +155,76 @@
         "fecha": "1993-12-26",
         "consultado": "2026-07-10"
       }
+    },
+    "izq-017": {
+      "valor": 2,
+      "justificacion": "Sobre la Nueva Democracia conserva un amplio sector capitalista subordinado: el Estado no confisca la propiedad privada que no domine la vida material del pueblo. Encaja con mantener décadas un sector privado bajo planificación pública.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Mao Zedong, Sobre la Nueva Democracia (marxists.org/espanol)",
+        "url": "https://www.marxists.org/espanol/mao/escritos/ND40s.html",
+        "fecha": "1940",
+        "consultado": "2026-07-11",
+        "cita": "no confiscará el resto de la propiedad privada capitalista, ni prohibirá el desarrollo de aquella producción capitalista que \"no pueda dominar la vida material del pueblo\""
+      },
+      "grupoEvidencia": "pasaje-46622fae6907bbd5444c"
+    },
+    "lab-016": {
+      "valor": 2,
+      "justificacion": "En la misma obra, Mao reserva al Estado los grandes bancos y las grandes empresas industriales y comerciales: encaja con que el Estado dirija las empresas estratégicas. Pasaje distinto del citado para izq-017.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Mao Zedong, Sobre la Nueva Democracia (marxists.org/espanol)",
+        "url": "https://www.marxists.org/espanol/mao/escritos/ND40s.html",
+        "fecha": "1940",
+        "consultado": "2026-07-11",
+        "cita": "Los grandes bancos y las grandes empresas industriales y comerciales deben ser propiedad estatal en esta república"
+      },
+      "grupoEvidencia": "pasaje-e217d029288dcb6ceec9"
+    },
+    "izq-005": {
+      "valor": 1,
+      "justificacion": "El sector estatal es la fuerza dirigente de la economía, pero la Nueva Democracia conserva mercado y sector privado (cf. izq-017): dirige sin sustituir del todo al mercado, de ahí +1. Pasaje distinto de la misma obra.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Mao Zedong, Sobre la Nueva Democracia (marxists.org/espanol)",
+        "url": "https://www.marxists.org/espanol/mao/escritos/ND40s.html",
+        "fecha": "1940",
+        "consultado": "2026-07-11",
+        "cita": "el sector estatal de la economía... tendrá carácter socialista y constituirá la fuerza dirigente de toda la economía nacional"
+      },
+      "grupoEvidencia": "pasaje-e72cf96c087f53cdae9f"
+    },
+    "izq-016": {
+      "valor": 1,
+      "justificacion": "En 1948 Mao no teme confiscar el capital burocrático de los grandes monopolios, pero el programa por etapas protege a la burguesía nacional (no contradice izq-017): expropiación parcial sin indemnización, de ahí +1.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Mao Zedong, Problemas de la actual política del Partido (marxists.org/espanol)",
+        "url": "https://www.marxists.org/espanol/mao/escritos/PPP48s.html",
+        "fecha": "1948",
+        "consultado": "2026-07-11",
+        "cita": "no hay que temer a confiscar el capital burocrático"
+      },
+      "grupoEvidencia": "pasaje-12c07ee571c8824663a9"
+    },
+    "fem-007": {
+      "valor": -2,
+      "justificacion": "El Informe de Hunan denuncia las cuatro autoridades feudal-patriarcales, incluidas la de clan y la marital sobre los hijos; supeditar la educación afectivo-sexual escolar al permiso familiar prolonga esa autoridad que la doctrina combate. Extensión de principio; cadena exacta pendiente de cotejo humano.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Mao Zedong, Informe sobre el movimiento campesino en Hunan (marxists.org/espanol)",
+        "url": "https://www.marxists.org/espanol/mao/escritos/HP27s.html",
+        "fecha": "1927",
+        "consultado": "2026-07-11",
+        "cita": "son la encarnación de la ideología y del sistema feudal-patriarcal"
+      },
+      "grupoEvidencia": "pasaje-f2eb317dd64c15819cc2"
     }
   }
 }
