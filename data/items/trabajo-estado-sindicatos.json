@@ -339,5 +339,48 @@
     "tags": ["seccion-sindical", "comite-empresa", "afiliacion"],
     "estado": "piloto",
     "notas": "Solo-matching: contrapone representación por secciones afiliadas y comité unitario sin afirmar que una sea siempre más democrática; la práctica puede combinar ambas."
+  },
+  {
+    "id": "lab-028",
+    "texto": "En el sistema actual, sería legítimo que el Estado prohibiera los sindicatos independientes del poder político.",
+    "modulo": "trabajo-estado-sindicatos",
+    "ejes": [],
+    "polaridad": "negativa",
+    "marco": {
+      "supuesto": "sistema-actual",
+      "aclaracion": "No se pregunta por una sociedad futura, sino por prohibirlos aquí y ahora."
+    },
+    "tags": ["sindicatos", "existencia", "prohibicion", "libertad-sindical"],
+    "estado": "piloto",
+    "notas": "Solo-matching que ancla un cuasi-consenso: casi todas las corrientes rechazan prohibir el sindicato bajo el capitalismo, incluidos anarquistas y comunistas que defienden el sindicato como herramienta de lucha aunque no lo proyecten tras una revolución. Separa «no apoyar sindicatos fuertes» de «apoyar prohibirlos». Discrimina al corporativismo autoritario/fascista de sindicato vertical único, que sí suprime los sindicatos independientes; no puntúa ejes porque el rechazo es equifinal."
+  },
+  {
+    "id": "lab-029",
+    "texto": "En la sociedad que defiendo, los sindicatos dejarían de tener sentido y desaparecerían.",
+    "modulo": "trabajo-estado-sindicatos",
+    "ejes": [],
+    "polaridad": "positiva",
+    "marco": {
+      "supuesto": "sociedad-deseada",
+      "aclaracion": "No se pregunta por el sistema actual, sino por tu horizonte político deseable."
+    },
+    "tags": ["sindicatos", "existencia", "transformacion", "post-revolucion"],
+    "estado": "piloto",
+    "notas": "Solo-matching equifinal que operacionaliza la extinción del sindicato como forma transitoria: lo afirman anarquistas (autoorganización horizontal sin delegación permanente) y comunistas (fin del conflicto de clase), por razones distintas, frente a socialdemócratas y sindicalistas reformistas que ven el sindicato como institución permanente. Distinto de apoyar o no prohibir el sindicalismo actual (lab-028): aquí se pregunta por el horizonte, no por el presente."
+  },
+  {
+    "id": "lab-030",
+    "texto": "Desaparecerían porque la autoorganización directa y horizontal haría innecesaria cualquier estructura sindical permanente.",
+    "modulo": "trabajo-estado-sindicatos",
+    "ejes": [],
+    "condicion": { "itemId": "lab-029", "valores": [1, 2] },
+    "polaridad": "positiva",
+    "marco": {
+      "supuesto": "sociedad-deseada",
+      "aclaracion": "Aclara por qué desaparecerían, sin cambiar la intensidad de tu respuesta anterior."
+    },
+    "tags": ["anarquismo", "autogestion", "consejismo"],
+    "estado": "piloto",
+    "notas": "Subpregunta condicional que separa la razón libertaria/autogestionaria (horizontalidad, sin delegación permanente) de la razón comunista clásica (extinción del conflicto de clase y del propio Estado). Solo-matching: no puntúa ejes por sí sola."
   }
 ]

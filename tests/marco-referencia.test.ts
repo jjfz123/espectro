@@ -44,6 +44,30 @@ describe('marco de referencia del ítem', () => {
     expect(ITEM_POR_ID.get('lab-007')?.marco?.supuesto).toBe('sistema-actual');
     expect(ITEM_POR_ID.get('lab-018')?.marco?.supuesto).toBe('sociedad-deseada');
   });
+
+  it('separa la existencia del sindicato en dos marcos distintos', () => {
+    const prohibir = ITEM_POR_ID.get('lab-028');
+    const desaparecer = ITEM_POR_ID.get('lab-029');
+    expect(prohibir?.marco?.supuesto).toBe('sistema-actual');
+    expect(desaparecer?.marco?.supuesto).toBe('sociedad-deseada');
+    // Equifinales: no puntúan ejes, solo discriminan entre organizaciones.
+    expect(prohibir?.ejes).toEqual([]);
+    expect(desaparecer?.ejes).toEqual([]);
+  });
+
+  it('lab-030 aclara el motivo condicionado a lab-029', () => {
+    const motivo = ITEM_POR_ID.get('lab-030');
+    expect(motivo?.condicion?.itemId).toBe('lab-029');
+    expect(motivo?.marco?.supuesto).toBe('sociedad-deseada');
+    expect(motivo?.ejes).toEqual([]);
+  });
+
+  it('lab-027 conserva su significado fiscal y no colisiona con la tríada sindical', () => {
+    const fiscal = ITEM_POR_ID.get('lab-027');
+    expect(fiscal?.condicion?.itemId).toBe('lab-009');
+    expect(fiscal?.tags).toContain('prioridad-nacional');
+    expect(fiscal?.texto).not.toMatch(/sindicat/i);
+  });
 });
 
 describe('comprensibilidad jurídica', () => {
