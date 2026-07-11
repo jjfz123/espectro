@@ -201,6 +201,20 @@
         "fecha": "2025-04-29",
         "consultado": "2026-07-11"
       }
+    },
+    "soc-001": {
+      "valor": 2,
+      "justificacion": "El programa 10N de IU dedica un eje a la conquista de la igualdad real LGTBI; la corriente defiende mantener y reforzar por ley la protección del matrimonio igualitario y los derechos LGTB.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "IU, Programa 10N, cuadernillo 14: un país que lucha por los derechos LGTBI",
+        "url": "https://izquierdaunida.org/wp-content/uploads/2019/10/Programa-IU-10N-Cuadernillo-14.pdf",
+        "fecha": "2019-10",
+        "consultado": "2026-07-11",
+        "cita": "Un país que lucha por los derechos LGTBI: por la conquista de la igualdad real"
+      },
+      "grupoEvidencia": "pasaje-18294fc9377aac526e15"
     }
   }
 }
