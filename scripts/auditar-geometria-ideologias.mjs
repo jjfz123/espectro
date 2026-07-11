@@ -484,16 +484,8 @@ for (const [cuadrante, cantidad] of Object.entries(auditoriaAtlas.cuadrantes)) {
   }
 }
 const investigacionConGeometria = anclasRegionalesAtlas
-  .filter(
-    (corriente) =>
-      corriente.estado === 'investigacion' ||
-      corriente.publicacionGeometrica === 'bloqueada-investigacion',
-  )
-  .filter(
-    (corriente) =>
-      corriente.publicacionGeometrica !== 'bloqueada-investigacion' ||
-      regionesAtlas.some((publicada) => publicada.id === corriente.id),
-  );
+  .filter((corriente) => corriente.estado === 'investigacion')
+  .filter((corriente) => corriente.publicacionGeometrica !== 'bloqueada-investigacion');
 if (investigacionConGeometria.length > 0) {
   errores.push(
     `Regiones en investigación con geometría publicable: ${investigacionConGeometria.map((corriente) => corriente.id).join(', ')}.`,

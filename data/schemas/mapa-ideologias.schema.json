@@ -226,6 +226,10 @@
               "publicacionGeometrica": { "const": "bloqueada-investigacion" }
             }
           }
+        },
+        {
+          "if": { "not": { "properties": { "capa": { "const": "region" } } } },
+          "then": { "not": { "required": ["publicacionGeometrica"] } }
         }
       ],
       "additionalProperties": false

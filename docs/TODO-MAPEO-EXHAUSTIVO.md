@@ -424,7 +424,7 @@ La letra es la clasificación inicial heredada de la auditoría; se reabre en es
 
 - [x] 001. `Hive Mind Collectivism` → Colectivismo de mente-colmena _(clasificación inicial F)_
 - [ ] 002. `Nazbol` → Nacionalbolchevismo _(clasificación inicial B)_
-- [ ] 003. `Neo Bolshevism` → Neobolchevismo de *1984* _(clasificación inicial F)_
+- [x] 003. `Neo Bolshevism` → Neobolchevismo de *1984* _(clasificación inicial F)_
 - [x] 004. `Ingsocism` → Ingsoc/socialismo inglés de *1984* _(clasificación inicial F)_
 - [x] 005. `Death Worship` → “Culto a la muerte” de *1984* _(clasificación inicial F)_
 - [ ] 006. `Corporatocracy` → Corporatocracia _(clasificación inicial C)_

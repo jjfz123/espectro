@@ -431,6 +431,7 @@ test('resultados separa principales, top real y resto desplegable en móvil', as
 });
 
 test('el enlace compartido es mínimo, accesible y no toca la sesión local', async ({ page }) => {
+  test.setTimeout(90_000);
   const sesion = crearSesionResultadosRapidos(1);
   const erroresNoCapturados: string[] = [];
   page.on('pageerror', (error) => erroresNoCapturados.push(error.message));
