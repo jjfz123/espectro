@@ -408,3 +408,41 @@ cuestión se resuelve.
 La condición de éxito no es «estar en una tienda»: es mantener una sola aplicación verificable,
 offline, privada y metodológicamente versionada en web, PWA y, si aporta valor, en los dos shells
 nativos.
+
+## 13. Optimizaciones de payload (registro de decisiones)
+
+Registro vivo, a petición del propietario, de las optimizaciones de transferencia aplicadas y
+sus alternativas descartadas. Regla común: nada que el usuario ve puede empeorar, y todo recorte
+se verifica contra el artefacto real en CI (`npm run web:budget`).
+
+### 13.1 Payload ligero de referencias (aprobada por el propietario, 2026-07-11)
+
+**Problema.** El paquete de referencias doctrinales estaba a 148,0/150 KiB gzip y el bloque
+«centro + marxismos» necesitaba decenas de posiciones nuevas: no cabía.
+
+**Medición previa.** De los ~137 KiB gzip de datos, las `justificacion` por posición sumaban
+71,0 KiB y las citas 5,9; ninguna vista de la web los muestra (la ficha enseña `fuentesMarco`,
+el visor de excluidas muestra motivos de auditoría y el motor de proyección solo lee valores y
+vetos `publicacionMapa`).
+
+**Decisión.** El plugin de build `espectro:minimizar-catalogos-resultados` (web/vite.config.ts)
+poda `justificacion` y `fuente` de cada posición SOLO en `data/referencias/*`; partidos y
+sindicatos conservan sus recibos porque `DetallePartido` sí los muestra. Los recibos de las
+referencias siguen íntegros en `data/`, validados por `validate:data` y por la auditoría
+adversarial: se poda la copia de producción, no la evidencia.
+
+**Resultado medido.** atlas 2D 161,7→75,0 KiB · referencias 148,0→61,4 KiB (88,6 KiB de aire
+bajo el tope de 150, que NO se toca) · PWA completa 3,18→2,76 MiB. Guardarraíl nuevo en
+`scripts/check-web-bundle.mjs`: deriva una sentinela desde `data/referencias` y falla si una
+justificación viaja en el bundle o si el catálogo (ids) deja de viajar.
+
+**Reversibilidad.** Si algún día la interfaz quiere mostrar recibos doctrinales in-app, la vía
+es un módulo de recibos con `import()` dinámico (chunk propio bajo demanda, precacheado por la
+PWA) con línea de presupuesto propia — NO volver a inflar el chunk del atlas.
+
+**Alternativas evaluadas y no elegidas.** (a) Medir presupuestos en Brotli en vez de gzip
+(estándar razonable, ~15-25% de aire «gratis»; queda como decisión del propietario si algún día
+hace falta — cambia la regla de medir, no el peso); (b) dieta estructural del JSON (claves
+cortas/columnar/dedupe): ganancia pequeña aquí porque el peso era texto largo, a cambio de un
+dataset curado menos legible; (c) subir el tope: pagar en experiencia lo que resolvía la
+arquitectura.

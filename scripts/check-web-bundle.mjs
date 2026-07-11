@@ -111,6 +111,49 @@ comprobarGrupo('referencias doctrinales', entradaReferencias, 150 * 1024, ficher
 const ficherosMapa2d = new Set(entradaMapa2d ? cierreEstatico(entradaMapa2d) : []);
 comprobarGrupo('visor 3D', entrada3d, 300 * 1024, ficherosMapa2d);
 
+/**
+ * Contrato del payload ligero de referencias (docs/PRODUCCION-APP.md): los
+ * recibos por posición (justificacion/fuente) no viajan en el artefacto; el
+ * catálogo (ids, valores, fuentesMarco) sí. Se verifica contra el build real
+ * con una sentinela derivada de data/, para que no dependa de ningún texto
+ * fijado a mano.
+ */
+function contratoReferenciasLigeras() {
+  if (!entradaReferencias) return;
+  const contenido = cierreEstatico(entradaReferencias)
+    .map((fichero) => (existsSync(join(dist, fichero)) ? readFileSync(join(dist, fichero), 'utf8') : ''))
+    .join('\n');
+  const refsDir = fileURLToPath(new URL('../data/referencias/', import.meta.url));
+  let sentinela = null;
+  let idEnBundle = null;
+  for (const archivo of readdirSync(refsDir).sort()) {
+    if (!archivo.endsWith('.json') || archivo.startsWith('_')) continue;
+    const dato = JSON.parse(readFileSync(join(refsDir, archivo), 'utf8'));
+    for (const posicion of Object.values(dato.posiciones ?? {})) {
+      const texto = posicion?.justificacion;
+      const ascii = typeof texto === 'string' ? texto.match(/[A-Za-z ,.:;()-]{32,}/)?.[0] : null;
+      if (ascii) {
+        sentinela = ascii;
+        idEnBundle = dato.id;
+        break;
+      }
+    }
+    if (sentinela) break;
+  }
+  if (!sentinela || !idEnBundle) {
+    errores.push('payload ligero: no se pudo derivar una sentinela desde data/referencias');
+    return;
+  }
+  if (!contenido.includes(`"${idEnBundle}"`)) {
+    errores.push(`payload ligero: el chunk de referencias no contiene el id «${idEnBundle}» (¿poda excesiva?)`);
+  } else if (contenido.includes(sentinela)) {
+    errores.push('payload ligero: una justificación de referencia viaja en el bundle (la poda no se aplicó)');
+  } else {
+    console.log('✓ payload ligero de referencias: recibos podados del artefacto, catálogo íntegro');
+  }
+}
+contratoReferenciasLigeras();
+
 function tamanoDirectorio(ruta) {
   return readdirSync(ruta, { withFileTypes: true }).reduce((total, entrada) => {
     const hijo = join(ruta, entrada.name);
