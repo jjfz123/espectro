@@ -17,6 +17,7 @@
     "validate:todo": "node scripts/verificar-todo-mapeo.mjs --require-closed",
     "audit:atlas": "node scripts/auditar-geometria-ideologias.mjs",
     "audit:partidos": "node scripts/auditar-brujula-partidos.mjs",
+    "audit:electoral": "node scripts/auditar-contexto-electoral.mjs",
     "calibrar": "node scripts/calibrar-espacio.mjs",
     "catalogo:partidos": "node scripts/importar-registro-partidos.mjs",
     "resultados:generales": "node scripts/importar-resultados-generales.mjs",
