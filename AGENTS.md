@@ -59,6 +59,7 @@ No se publica si una prueba requerida falla, si el árbol contiene cambios de pr
 - Toda corriente real de la imagen debe ser localizable en la capa adecuada. Solo meme, ficción o no-concepto se excluye, individualmente y con justificación.
 - Una coordenada extrema exige evidencia plural y contraejemplos/moderadoras cuando existan.
 - Preguntas y perfiles se versionan; un cambio semántico del instrumento obliga a revisar migración y resultados compartidos.
+- **Norma dura del atlas ideológico.** El cuadrante de corrientes doctrinales (plano Economía×Sociedad y los tres cruces de ejes, con las ideologías nombradas, los desplegables y el punto del usuario) es la vista canónica y solo puede crecer. Toda expansión mejora su claridad y añade ideologías con evidencia; está prohibido sustituirlo por una vista más pobre, esconderlo tras la vista por defecto, reducir las corrientes dibujadas o degradar su legibilidad. Un cambio que muestre menos ideologías o menos claridad que antes se revierte de inmediato. No va a menos.
 
 ## GitHub
 
