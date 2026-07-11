@@ -10,6 +10,7 @@ import {
   compararReferenciasDoctrinales,
   modulosDesbloqueados,
   partidosElegibles,
+  partidosPrincipalesUltimasGenerales,
   perfilContraste,
   seleccionarPartidosElectorales,
   itemVisible,
@@ -406,7 +407,12 @@ describe('partidosElegibles (ámbito electoral)', () => {
 });
 
 describe('catálogo por convocatoria documentada', () => {
-  const base = { confianza: 'estimada' as const, posiciones: {} };
+  const base = {
+    confianza: 'estimada' as const,
+    posiciones: {
+      'item-comparable': { valor: 1 as const },
+    },
+  };
   const estatal: Partido = { id: 'estatal', nombre: 'Estatal', ambito: 'estatal', ...base };
   const regional: Partido = {
     id: 'regional',
@@ -472,6 +478,49 @@ describe('catálogo por convocatoria documentada', () => {
     expect(seleccion.metodo).toBe('convocatoria-documentada');
     expect(seleccion.partidos.map((p) => p.id)).toEqual(['estatal', 'regional']);
     expect(seleccion.candidaturasConPerfil).toBe(2);
+  });
+
+  it('ordena los principales por votos y no convierte componentes en candidaturas', () => {
+    const coalicion: Partido = {
+      id: 'coalicion',
+      nombre: 'Coalición',
+      ambito: 'estatal',
+      tipo: 'coalicion',
+      ...base,
+    };
+    const componente: Partido = {
+      id: 'componente',
+      nombre: 'Componente',
+      ambito: 'estatal',
+      ...base,
+    };
+    const convocatoriaConCoalicion: ConvocatoriaElectoral = {
+      ...convocatoria,
+      candidaturas: [
+        {
+          ...convocatoria.candidaturas[1]!,
+          votos: 700,
+          perfilRelaciones: [
+            { perfilId: 'componente', relacion: 'componente' },
+            { perfilId: 'coalicion', relacion: 'coalicion' },
+          ],
+        },
+        convocatoria.candidaturas[0]!,
+      ],
+    };
+
+    const principales = partidosPrincipalesUltimasGenerales(
+      [estatal, coalicion, componente],
+      [convocatoriaConCoalicion],
+      2,
+    );
+
+    expect(principales.map((principal) => principal.partido.id)).toEqual([
+      'coalicion',
+      'estatal',
+    ]);
+    expect(principales.map((principal) => principal.puestoVotos)).toEqual([1, 2]);
+    expect(principales.some((principal) => principal.partido.id === 'componente')).toBe(false);
   });
 
   it('filtra la presencia general por CCAA sin afirmar una papeleta provincial', () => {

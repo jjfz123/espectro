@@ -44,10 +44,68 @@ function minimizarBancoItems() {
   };
 }
 
+/**
+ * Metadatos editoriales que valida el repositorio pero que ninguna vista usa
+ * no deben viajar a cada móvil. Se conservan intactos en `data/`; solo se poda
+ * su proyección de producción. Fuentes y justificaciones nunca se eliminan.
+ */
+function minimizarCatalogosResultados() {
+  return {
+    name: 'espectro:minimizar-catalogos-resultados',
+    enforce: 'pre' as const,
+    transform(codigo: string, id: string) {
+      if (!/data\/(partidos|referencias|sindicatos|convocatorias)\/[^/]+\.json$/.test(id)) {
+        return null;
+      }
+      const dato = JSON.parse(codigo) as Record<string, unknown>;
+      const eliminarNotasNoRenderizadas = (valor: unknown) => {
+        if (!valor || typeof valor !== 'object') return;
+        if (Array.isArray(valor)) {
+          valor.forEach(eliminarNotasNoRenderizadas);
+          return;
+        }
+        const objeto = valor as Record<string, unknown>;
+        delete objeto.nota;
+        Object.values(objeto).forEach(eliminarNotasNoRenderizadas);
+      };
+      eliminarNotasNoRenderizadas(dato);
+      if (id.includes('/data/partidos/')) {
+        delete dato.registroMir;
+        delete dato.autodescripcion;
+        delete dato.clasificacion;
+        delete dato.revisado;
+        delete dato.web;
+        delete dato.componentes;
+      } else if (id.includes('/data/sindicatos/')) {
+        delete dato.autodescripcion;
+        delete dato.clasificacion;
+        delete dato.revisado;
+        delete dato.web;
+      } else if (id.includes('/data/referencias/')) {
+        delete dato.revisado;
+        delete dato.version;
+      } else if (id.includes('/data/convocatorias/')) {
+        delete dato.nota;
+        delete dato.fuentesAdicionales;
+        delete dato.denominador;
+        delete dato.camara;
+        delete dato.totalCandidaturasOficiales;
+      }
+      return { code: JSON.stringify(dato), map: null };
+    },
+  };
+}
+
 export default defineConfig({
+  build: {
+    // El presupuesto de transferencia usa el grafo real de imports para no
+    // declarar ligero un chunk que arrastra catálogos estáticos pesados.
+    manifest: true,
+  },
   plugins: [
     react(),
     minimizarBancoItems(),
+    minimizarCatalogosResultados(),
     VitePWA({
       // El manifest se mantiene como fichero público y el registro se hace
       // desde pwa.ts para poder pedir permiso antes de recargar una sesión.

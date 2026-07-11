@@ -17,6 +17,7 @@ const rutaTaxonomia = join(raiz, 'docs/investigacion/TAXONOMIA-MAPA-IDEOLOGIAS.m
 
 const leerJson = (ruta) => JSON.parse(readFileSync(ruta, 'utf8'));
 const contratoAtlas = leerJson(join(raiz, 'data/mapa-ideologias.json'));
+const inventarioOriginal = leerJson(join(raiz, 'data/inventario-ideologias-imagen.json'));
 const redondear = (valor, decimales = 1) => {
   const factor = 10 ** decimales;
   return Math.round(valor * factor) / factor;
@@ -331,7 +332,16 @@ function auditarPlano(
 const auditoriaPlanos = Object.fromEntries(
   Object.entries(pares).map(([id, ejesPar]) => [id, auditarPlano(id, ejesPar)]),
 );
-const filasAtlas = contratoAtlas.corrientes.map((corriente) => ({
+const anclasRegionalesAtlas = contratoAtlas.corrientes.filter(
+  (corriente) => corriente.capa === 'region',
+);
+const regionesAtlas = anclasRegionalesAtlas.filter(
+  (corriente) => corriente.publicacionGeometrica === 'publicada',
+);
+const anclasBloqueadasAtlas = anclasRegionalesAtlas.filter(
+  (corriente) => corriente.publicacionGeometrica === 'bloqueada-investigacion',
+);
+const filasAtlas = regionesAtlas.map((corriente) => ({
   id: corriente.id,
   nombre: corriente.nombre,
   valores: {
@@ -345,6 +355,40 @@ const auditoriaAtlas = auditarPlano(
   filasAtlas,
   () => true,
 );
+const corrientesVisiblesAtlas = contratoAtlas.corrientes.filter(
+  (corriente) => corriente.decision === 'A' || corriente.decision === 'B',
+);
+const regionMayorAtlas = auditoriaAtlas.regiones.at(-1) ?? null;
+const regionFalangismo = auditoriaAtlas.regiones.find((region) => region.id === 'falangismo') ?? null;
+const atlasCoberturaEditorial = {
+  total: contratoAtlas.corrientes.length,
+  regiones: regionesAtlas.length,
+  regionesNominales: anclasRegionalesAtlas.length,
+  regionesBloqueadas: anclasBloqueadasAtlas.length,
+  visiblesAmasB: corrientesVisiblesAtlas.length,
+  porCapa: Object.fromEntries(
+    ['region', 'faceta', 'contexto', 'diagnostico', 'modelo-historico'].map((capa) => [
+      capa,
+      contratoAtlas.corrientes.filter((corriente) => corriente.capa === capa).length,
+    ]),
+  ),
+  porDecision: Object.fromEntries(['A', 'B', 'E'].map((decision) => [
+    decision,
+    contratoAtlas.corrientes.filter((corriente) => corriente.decision === decision).length,
+  ])),
+  porEstado: Object.fromEntries(['instrumentada', 'informativa', 'investigacion'].map((estado) => [
+    estado,
+    contratoAtlas.corrientes.filter((corriente) => corriente.estado === estado).length,
+  ])),
+  sinReferenciaInstrumentada: contratoAtlas.corrientes
+    .filter((corriente) => corriente.estado !== 'instrumentada')
+    .map((corriente) => corriente.id),
+  conMenosDeTresDiscriminantes: contratoAtlas.corrientes
+    .filter((corriente) => new Set(corriente.preguntasDiscriminantes ?? []).size < 3)
+    .map((corriente) => corriente.id),
+  regionMayor: regionMayorAtlas,
+  falangismo: regionFalangismo,
+};
 
 function auditarTaxonomia() {
   const texto = readFileSync(rutaTaxonomia, 'utf8');
@@ -380,6 +424,81 @@ function auditarTaxonomia() {
 const taxonomia = auditarTaxonomia();
 const errores = [];
 const avisos = [];
+if (inventarioOriginal.total !== 178 || inventarioOriginal.rotulos?.length !== 178) {
+  errores.push('El inventario original materializado no contiene exactamente 178 rótulos.');
+}
+for (const fila of taxonomia.etiquetas) {
+  const materializada = inventarioOriginal.rotulos?.find(
+    (rotulo) => rotulo.numero === fila.numero,
+  );
+  if (
+    !materializada ||
+    materializada.etiquetaOriginal !== fila.etiqueta ||
+    materializada.decisionOriginal !== fila.decision
+  ) {
+    errores.push(`La decisión original ${fila.numero} (${fila.etiqueta}) no está sincronizada.`);
+  }
+}
+if (atlasCoberturaEditorial.visiblesAmasB !== atlasCoberturaEditorial.total) {
+  errores.push(
+    `El atlas contiene ${atlasCoberturaEditorial.total - atlasCoberturaEditorial.visiblesAmasB} corrientes que no aparecen en la capa exhaustiva A+B.`,
+  );
+}
+if (atlasCoberturaEditorial.regiones < contratoAtlas.umbrales.minimoCorrientes) {
+  avisos.push(
+    `Diagnóstico de densidad: el atlas publica ${atlasCoberturaEditorial.regiones} regiones frente al umbral orientativo ${contratoAtlas.umbrales.minimoCorrientes}. No se rellenan huecos para alcanzar una cuota.`,
+  );
+}
+if (atlasCoberturaEditorial.conMenosDeTresDiscriminantes.length > 0) {
+  errores.push(
+    `Corrientes con menos de tres preguntas discriminantes: ${atlasCoberturaEditorial.conMenosDeTresDiscriminantes.join(', ')}.`,
+  );
+}
+if (
+  regionMayorAtlas &&
+  regionMayorAtlas.areaPorcentaje > contratoAtlas.umbrales.maximaAreaRegionPorcentaje
+) {
+  avisos.push(
+    `Diagnóstico de área: la región mayor (${regionMayorAtlas.id}, ${regionMayorAtlas.areaPorcentaje} %) supera la referencia ${contratoAtlas.umbrales.maximaAreaRegionPorcentaje} %.`,
+  );
+}
+if (regionFalangismo && regionFalangismo.areaPorcentaje > 1) {
+  avisos.push(
+    `Diagnóstico de área: Falangismo ocupa ${regionFalangismo.areaPorcentaje} %. La cifra exige revisión doctrinal, no añadir vecinos para reducirla artificialmente.`,
+  );
+}
+if (
+  auditoriaAtlas.vacioMaximo &&
+  auditoriaAtlas.vacioMaximo.distancia > contratoAtlas.umbrales.maximoRadioVacio
+) {
+  avisos.push(
+    `Diagnóstico de vacío: el mayor radio es ${auditoriaAtlas.vacioMaximo.distancia}, por encima de la referencia ${contratoAtlas.umbrales.maximoRadioVacio}.`,
+  );
+}
+for (const [cuadrante, cantidad] of Object.entries(auditoriaAtlas.cuadrantes)) {
+  if (cuadrante === 'ejes') continue;
+  if (cantidad < contratoAtlas.umbrales.minimoPorCuadrante) {
+    avisos.push(
+      `Diagnóstico de cuadrante: ${cuadrante} contiene ${cantidad} regiones publicadas frente a la referencia ${contratoAtlas.umbrales.minimoPorCuadrante}.`,
+    );
+  }
+}
+const investigacionConGeometria = anclasRegionalesAtlas
+  .filter(
+    (corriente) =>
+      corriente.estado === 'investigacion' ||
+      corriente.publicacionGeometrica === 'bloqueada-investigacion',
+  )
+  .filter(
+    (corriente) =>
+      corriente.publicacionGeometrica !== 'bloqueada-investigacion' ||
+      regionesAtlas.some((publicada) => publicada.id === corriente.id),
+  );
+if (investigacionConGeometria.length > 0) {
+  errores.push(
+    `Regiones en investigación con geometría publicable: ${investigacionConGeometria.map((corriente) => corriente.id).join(', ')}.`,
+  );
+}
 const idsReferencias = new Set(referencias.map((referencia) => referencia.id));
 if (idsReferencias.size !== referencias.length) errores.push('Hay ids de referencia duplicados.');
 if (taxonomia.total !== 178) errores.push(`Se esperaban 178 etiquetas y hay ${taxonomia.total}.`);
@@ -418,11 +537,20 @@ const informe = {
   referencias: filas,
   planos: auditoriaPlanos,
   atlas: auditoriaAtlas,
+  atlasCoberturaEditorial,
   taxonomia: {
     total: taxonomia.total,
     conteo: taxonomia.conteo,
     numerosAusentes: taxonomia.numerosAusentes,
     duplicadosEtiqueta: taxonomia.duplicadosEtiqueta,
+    inventarioMaterializado: {
+      total: inventarioOriginal.total,
+      conteoDecisionesOriginales: inventarioOriginal.conteoDecisionesOriginales,
+      sustitucionesDesacopladas: inventarioOriginal.rotulos.filter(
+        (rotulo) => rotulo.tratamientoActual?.equivalenciaConCorriente === false &&
+          rotulo.tratamientoActual?.corrienteId,
+      ).length,
+    },
   },
   validacion: { correcta: errores.length === 0, errores, avisos },
 };

@@ -130,6 +130,17 @@ export function Cuestionario({ estado, despachar }: Props) {
         </p>
       ) : null}
 
+      {item.marco && item.marco.supuesto !== 'neutro' ? (
+        <p className={`marco-contexto marco-${item.marco.supuesto}`}>
+          <strong>
+            {item.marco.supuesto === 'sistema-actual'
+              ? 'Sobre el sistema actual.'
+              : 'Sobre la sociedad que defiendes.'}
+          </strong>{' '}
+          {item.marco.aclaracion}
+        </p>
+      ) : null}
+
       <h1 className="item-texto" ref={encabezadoRef} tabIndex={-1}>
         {item.texto}
         {terminos.length > 0 ? (
@@ -187,7 +198,24 @@ export function Cuestionario({ estado, despachar }: Props) {
         valor={valor}
         textoItem={item.texto}
         alResponder={(v) => despachar({ tipo: 'responder', itemId, valor: v })}
+        invertida={estado.escalaInvertida}
       />
+
+      <div className="escala-orden">
+        <button
+          type="button"
+          className="escala-orden__boton"
+          aria-pressed={estado.escalaInvertida}
+          onClick={() => despachar({ tipo: 'alternar-escala' })}
+        >
+          {estado.escalaInvertida ? 'Volver al orden recomendado' : 'Invertir el orden de la escala'}
+        </button>
+        <span className="escala-orden__nota">
+          {estado.escalaInvertida
+            ? '«Muy de acuerdo» aparece primero. El orden recomendado lo pone al final para reducir la tendencia a asentir sin pensar.'
+            : 'Por defecto «muy de acuerdo» aparece al final para reducir la tendencia a asentir sin pensar. Puedes invertirlo.'}
+        </span>
+      </div>
 
       <div className="importante-fila">
         <label className="importante">

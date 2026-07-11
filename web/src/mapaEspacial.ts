@@ -19,16 +19,21 @@
  * Vive junto a datosResultados.ts: solo lo descarga el chunk de resultados.
  */
 import {
+  auditarPerfilBrujula,
   EJE_AUTORIDAD_POLITICA,
   EJE_PROPIEDAD_MERCADO,
   EJES_ESPACIO,
+  proyectarPartidoEnEspacio,
   proyectarEnEspacio,
 } from '@engine';
 import type { Eje, PerfilAfinidad, ResultadoFaceta } from '@engine';
+import type { CoordenadaAuditable } from '@engine';
 import { EJES, ITEMS, nombrePerfil } from './datos';
-import { PARTIDOS, REFERENCIAS } from './datosResultados';
+import { PARTIDOS } from './datosOrganizaciones';
+import { REFERENCIAS } from './datosReferencias';
 import { NOMBRE_LLANO_EJE } from './lecturaEjes';
 import {
+  CONTRATO_ATLAS,
   evidenciaAutoridadAtlas,
   evidenciaPropiedadAtlas,
   gradoEvidenciaBrujula,
@@ -99,9 +104,19 @@ export const NOMBRE_CORTO_EJE: Record<string, string> = {
   [EJE_PROPIEDAD_MERCADO]: 'Propiedad y mercado',
 };
 
-function motivoDeFaceta(faceta: ResultadoFaceta): string {
+function motivoDeFaceta(
+  faceta: ResultadoFaceta,
+  evidenciaDocumental = false,
+  recibo?: CoordenadaAuditable,
+): string {
   const nombre = NOMBRE_CORTO_EJE[faceta.facetaId] ?? faceta.facetaId;
   const cobertura = Math.round(faceta.cobertura * 100);
+  if (evidenciaDocumental) {
+    if (recibo?.extremoSinContrapeso) {
+      return `${nombre}: la evidencia disponible forma un extremo sin grupo moderador o contradictorio independiente; se oculta antes que publicar una posición bandera`;
+    }
+    return `${nombre}: ${faceta.itemsRespondidos} grupos documentales independientes (cobertura de carga ${cobertura} %)`;
+  }
   return `${nombre}: ${faceta.itemsRespondidos} de ${faceta.itemsDisponibles} ítems del eje documentados (cobertura ${cobertura} %)`;
 }
 
@@ -121,23 +136,53 @@ function clasificar(
       });
       continue;
     }
-    const proyeccion = proyectarEnEspacio(perfil, ITEMS, EJES_MAPA);
-    const proyeccionPropiedad = proyectarEnEspacio(
+    const proyectarPerfil = tipo === 'partido'
+      ? proyectarPartidoEnEspacio
+      : proyectarEnEspacio;
+    const proyeccion = proyectarPerfil(perfil, ITEMS, EJES_MAPA);
+    const proyeccionPropiedad = proyectarPerfil(
       perfil,
       ITEMS,
       [EJE_ECONOMIA_BRUJULA],
       { minimoItems: 1, umbralCobertura: 0 },
     );
-    const proyeccionPoder = proyectarEnEspacio(
+    const proyeccionPoder = proyectarPerfil(
       perfil,
       ITEMS,
       [EJE_PODER_BRUJULA],
       { minimoItems: 1, umbralCobertura: 0 },
     );
     const idsPosicionados = Object.keys(perfil.posiciones);
-    const evidenciaPropiedad = evidenciaPropiedadAtlas(idsPosicionados);
-    const evidenciaPoder = evidenciaAutoridadAtlas(idsPosicionados);
-    const gradoCalculado = gradoEvidenciaBrujula(evidenciaPropiedad, evidenciaPoder);
+    const auditoriaPartido =
+      tipo === 'partido' ? auditarPerfilBrujula(perfil, ITEMS, CONTRATO_ATLAS) : null;
+    const evidenciaPropiedad = auditoriaPartido
+      ? {
+          items: auditoriaPartido.x.grupos,
+          familias: auditoriaPartido.x.familias.length,
+          itemsNucleo: 0,
+          suficiente:
+            auditoriaPartido.x.grupos >= CONTRATO_ATLAS.umbrales.minimoItemsX &&
+            auditoriaPartido.x.familias.length >=
+              CONTRATO_ATLAS.umbrales.minimoSubdimensionesX &&
+            !auditoriaPartido.x.extremoSinContrapeso,
+        }
+      : evidenciaPropiedadAtlas(idsPosicionados);
+    const evidenciaPoder = auditoriaPartido
+      ? {
+          items: auditoriaPartido.y.grupos,
+          familias: auditoriaPartido.y.familias.length,
+          itemsNucleo: auditoriaPartido.y.gruposNucleo,
+          suficiente:
+            auditoriaPartido.y.grupos >= CONTRATO_ATLAS.umbrales.minimoItemsY &&
+            auditoriaPartido.y.familias.length >=
+              CONTRATO_ATLAS.umbrales.minimoFamiliasY &&
+            auditoriaPartido.y.gruposNucleo >=
+              CONTRATO_ATLAS.umbrales.minimoItemsNucleoY &&
+            !auditoriaPartido.y.extremoSinContrapeso,
+        }
+      : evidenciaAutoridadAtlas(idsPosicionados);
+    const gradoCalculado = auditoriaPartido?.grado ??
+      gradoEvidenciaBrujula(evidenciaPropiedad, evidenciaPoder);
     /* La capa educativa del atlas sustituye los rombos doctrinales en esta
        brújula. El tier provisional solo evita ocultar partidos mientras se
        amplía su ficha; nunca rescata referencias para después omitirlas en el
@@ -156,11 +201,13 @@ function clasificar(
     for (const faceta of suficientes) valores[faceta.facetaId] = faceta.valor as number;
     const propiedad = proyeccionPropiedad.facetas[0];
     const autoridad = proyeccionPoder.facetas[0];
-    if (gradoBrujula !== 'insuficiente' && typeof propiedad?.valor === 'number') {
-      valores[EJE_PROPIEDAD_MERCADO] = propiedad.valor;
+    const valorPropiedad = auditoriaPartido?.x.valor ?? propiedad?.valor;
+    const valorPoder = auditoriaPartido?.y.valor ?? autoridad?.valor;
+    if (gradoBrujula !== 'insuficiente' && typeof valorPropiedad === 'number') {
+      valores[EJE_PROPIEDAD_MERCADO] = valorPropiedad;
     }
-    if (gradoBrujula !== 'insuficiente' && typeof autoridad?.valor === 'number') {
-      valores[EJE_AUTORIDAD_POLITICA] = autoridad.valor;
+    if (gradoBrujula !== 'insuficiente' && typeof valorPoder === 'number') {
+      valores[EJE_AUTORIDAD_POLITICA] = valorPoder;
     }
     const paresDibujables: ReadonlyArray<readonly [string, string]> = [
       ['economico', 'social'],
@@ -180,8 +227,20 @@ function clasificar(
         ejesSuficientes: Object.keys(valores),
         facetas: [
           ...proyeccion.facetas,
-          ...(propiedad ? [{ ...propiedad, coberturaSuficiente: evidenciaPropiedad.suficiente }] : []),
-          ...(autoridad ? [{ ...autoridad, coberturaSuficiente: evidenciaPoder.suficiente }] : []),
+          ...(propiedad
+            ? [{
+                ...propiedad,
+                valor: valorPropiedad ?? null,
+                coberturaSuficiente: evidenciaPropiedad.suficiente,
+              }]
+            : []),
+          ...(autoridad
+            ? [{
+                ...autoridad,
+                valor: valorPoder ?? null,
+                coberturaSuficiente: evidenciaPoder.suficiente,
+              }]
+            : []),
         ],
         evidenciaBrujula:
           gradoBrujula === 'insuficiente'
@@ -197,22 +256,37 @@ function clasificar(
         id: perfil.id,
         nombre: nombrePerfil(perfil),
         tipo,
-        motivos: proyeccion.facetas
+        motivos: (proyeccion.bloqueosPerfil ?? [])
+          .concat(proyeccion.facetas
           .filter((faceta) => insuficientes.has(faceta.facetaId))
-          .map(motivoDeFaceta)
+          .map((faceta) =>
+            motivoDeFaceta(
+              faceta,
+              tipo === 'partido',
+              proyeccion.evidenciaDocumental?.[faceta.facetaId],
+            ),
+          )
+          )
           .concat(
             evidenciaPropiedad.suficiente
               ? []
               : [
-                  `Propiedad y mercado: ${evidenciaPropiedad.items} ítems en ${evidenciaPropiedad.familias} subdimensiones; el contrato exige más cobertura`,
+                  `Propiedad y mercado: ${evidenciaPropiedad.items} ${auditoriaPartido ? 'grupos independientes' : 'ítems'} en ${evidenciaPropiedad.familias} subdimensiones; el contrato exige más cobertura`,
                 ],
           )
           .concat(
             evidenciaPoder.suficiente
               ? []
               : [
-                  `Poder: ${evidenciaPoder.items} ítems en ${evidenciaPoder.familias} familias (${evidenciaPoder.itemsNucleo} de contrapesos/libertades); evidencia insuficiente`,
+                  `Poder: ${evidenciaPoder.items} ${auditoriaPartido ? 'grupos independientes' : 'ítems'} en ${evidenciaPoder.familias} familias (${evidenciaPoder.itemsNucleo} de contrapesos/libertades); evidencia insuficiente`,
                 ],
+          )
+          .concat(
+            auditoriaPartido?.problemas.includes(
+              'extremo sin evidencia moderadora o contradictoria independiente',
+            )
+              ? ['La brújula omite el extremo hasta documentar una posición moderadora o contradictoria independiente.']
+              : [],
           ),
       });
     }

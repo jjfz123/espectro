@@ -1,0 +1,142 @@
+{
+  "id": "maurrasismo-nacionalismo-integral-recepcion-espanola",
+  "nombre": "Maurrasismo y nacionalismo integral con recepción española",
+  "tipo": "referencia-doctrinal",
+  "definicion": "Tipo histórico de la doctrina de Charles Maurras y Action française: nacionalismo integral, monarquía hereditaria autoritaria, supresión del parlamentarismo, los partidos y el sufragio universal, representación corporativa y preparación de un golpe de fuerza contra la república. Incluye su recepción intelectual española, no una supuesta copia uniforme en España.",
+  "variante": "Núcleo doctrinal francés de Maurras y recepción documentada en la derecha antiliberal española; no identifica sin más a Acción Española ni al tradicionalismo católico",
+  "periodo": "Francia, 1899-1939; recepción en España, 1914-1936",
+  "confianza": "verificada",
+  "version": "1.0",
+  "revisado": "2026-07-11",
+  "publicacionAfinidad": {
+    "publicable": false,
+    "motivo": "Referencia nueva pendiente de auditoría semántica adversarial; no participa en afinidad hasta cerrar cada equivalencia entre fuente e ítem."
+  },
+  "publicacionMapa": {
+    "publicable": false,
+    "motivo": "Hay anclas sólidas de antipluralismo, representación y fuerza, pero ninguna base económica equilibrada y la recepción española fue selectiva; fijar una coordenada macro convertiría influencia intelectual en identidad doctrinal completa."
+  },
+  "facetasDefinitorias": [
+    "autoridad-politica",
+    "pluralismo-institucional",
+    "institucionalismo",
+    "monarquia",
+    "uso-fuerza"
+  ],
+  "sensibilidad": "violenta",
+  "advertencia": "Es una referencia histórica sensible: el núcleo maurrasiano fue antidemocrático, antisemita y excluyente y defendió preparar un golpe de fuerza; una afinidad parcial nunca legitima esos rasgos ni convierte al usuario en maurrasiano. Maurras no era creyente y valoraba políticamente el catolicismo como fuente de orden, por lo que no se le atribuye confesionalidad española ni veto eclesiástico. La recepción en Azorín, Salaverría, mauristas y después Acción Española fue selectiva y discutida; no se fusiona con carlismo, falangismo, nacionalcatolicismo o fascismo de régimen.",
+  "fuentesMarco": [
+    {
+      "tipo": "otro",
+      "titulo": "Pedro Carlos González Cuevas, La recepción del pensamiento maurrasiano en España (1914-1930), UNED",
+      "url": "https://revistas.uned.es/index.php/ETFV/article/viewFile/2716/2576",
+      "fecha": "1990",
+      "consultado": "2026-07-11"
+    },
+    {
+      "tipo": "otro",
+      "titulo": "Charles Maurras y Henri Dutrait-Crozon, Si le coup de force est possible (en francés)",
+      "url": "https://maurras.net/textes/147.html",
+      "fecha": "1910",
+      "consultado": "2026-07-11"
+    },
+    {
+      "tipo": "otro",
+      "titulo": "Charles Maurras, Le Nationalisme intégral (en francés)",
+      "url": "https://maurras.net/textes/142.html",
+      "fecha": "1908-03-21",
+      "consultado": "2026-07-11"
+    }
+  ],
+  "reglaPublicacion": {
+    "minimoItems": 5,
+    "minimoCobertura": 0.7,
+    "umbralAfinidad": 88
+  },
+  "posiciones": {
+    "dem-010": {
+      "valor": -2,
+      "justificacion": "Maurras atribuía a la democracia y a los partidos la división de la nación y proponía suprimir los partidos junto al parlamentarismo y al sufragio universal; no preserva oposición competitiva ni siquiera como salvaguarda de crisis.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Pedro Carlos González Cuevas, La recepción del pensamiento maurrasiano en España (1914-1930), pp. 346-348",
+        "url": "https://revistas.uned.es/index.php/ETFV/article/viewFile/2716/2576",
+        "fecha": "1990",
+        "consultado": "2026-07-11",
+        "cita": "Páginas 346-348: atribuye a democracia y partidos la división nacional y propone suprimirlos."
+      },
+      "grupoEvidencia": "pasaje-cbbadd8dcb99285840f1"
+    },
+    "dem-011": {
+      "valor": 2,
+      "justificacion": "El nacionalismo integral exige reemplazar la república parlamentaria por una monarquía tradicional que reúna los poderes en el monarca; no se limita a reformar el parlamento existente.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Pedro Carlos González Cuevas, La recepción del pensamiento maurrasiano en España (1914-1930), pp. 347-348",
+        "url": "https://revistas.uned.es/index.php/ETFV/article/viewFile/2716/2576",
+        "fecha": "1990",
+        "consultado": "2026-07-11",
+        "cita": "Páginas 347-348: reemplazo de la república parlamentaria por una monarquía tradicional concentrada."
+      },
+      "grupoEvidencia": "pasaje-9fc65cbd664b926341ad"
+    },
+    "dem-018": {
+      "valor": 1,
+      "justificacion": "La alternativa descrita por Maurras excluye partidos y sufragio universal y da al pueblo unas Cortes corporativas, acompañadas de descentralización territorial y profesional. Se limita a +1 porque combina cuerpos profesionales con bases territoriales y poder monárquico, no una sustitución íntegra por municipios y profesiones.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Pedro Carlos González Cuevas, La recepción del pensamiento maurrasiano en España (1914-1930), p. 348",
+        "url": "https://revistas.uned.es/index.php/ETFV/article/viewFile/2716/2576",
+        "fecha": "1990",
+        "consultado": "2026-07-11",
+        "cita": "Página 348: Cortes corporativas y descentralización profesional y territorial en lugar del sufragio universal."
+      },
+      "grupoEvidencia": "pasaje-c0afa9df42fc784e35d0"
+    },
+    "mon-001": {
+      "valor": -2,
+      "justificacion": "Maurras contrapone a la jefatura electiva una monarquía hereditaria, autónoma y continua. La posición se opone de forma directa a que la ciudadanía elija la Jefatura del Estado.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Pedro Carlos González Cuevas, La recepción del pensamiento maurrasiano en España (1914-1930), p. 347",
+        "url": "https://revistas.uned.es/index.php/ETFV/article/viewFile/2716/2576",
+        "fecha": "1990",
+        "consultado": "2026-07-11",
+        "cita": "Página 347: la monarquía hereditaria se presenta como poder autónomo, continuo y opuesto al régimen electivo."
+      },
+      "grupoEvidencia": "pasaje-15d87cbd8de64f82aa24"
+    },
+    "dr-024": {
+      "valor": 2,
+      "justificacion": "La incompatibilidad de la monarquía hereditaria con la democracia era para Maurras una virtud: prefería un poder autónomo, continuo y concentrado en el monarca frente al régimen electivo.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Pedro Carlos González Cuevas, La recepción del pensamiento maurrasiano en España (1914-1930), p. 347",
+        "url": "https://revistas.uned.es/index.php/ETFV/article/viewFile/2716/2576",
+        "fecha": "1990",
+        "consultado": "2026-07-11",
+        "cita": "Página 347: la monarquía hereditaria se presenta como poder autónomo, continuo y opuesto al régimen electivo."
+      },
+      "grupoEvidencia": "pasaje-15d87cbd8de64f82aa24"
+    },
+    "dr-025": {
+      "valor": -2,
+      "justificacion": "El folleto estratégico sostiene que un golpe de fuerza contra la república es legítimo, necesario y parte esencial del programa de Action française; contradice frontalmente la exclusión absoluta de la violencia política.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Charles Maurras y Henri Dutrait-Crozon, Si le coup de force est possible (en francés)",
+        "url": "https://maurras.net/textes/147.html",
+        "fecha": "1910",
+        "consultado": "2026-07-11",
+        "cita": "Secciones sobre necesidad y legitimidad: el golpe de fuerza forma parte explícita de la estrategia contra la república."
+      },
+      "grupoEvidencia": "pasaje-0e0e7e7e3c0df0c13df1"
+    }
+  }
+}

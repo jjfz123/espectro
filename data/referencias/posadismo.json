@@ -52,7 +52,8 @@
         "fecha": "1964",
         "consultado": "2026-07-10",
         "cita": "We are preparing ourselves for a stage in which before the atomic war, we shall struggle for power, during the atomic war we shall struggle for power and we shall be in power, and immediately after the atomic war we shall be in power."
-      }
+      },
+      "grupoEvidencia": "pasaje-a55432d32d000969794e"
     },
     "geo-008": {
       "valor": -2,
@@ -166,7 +167,8 @@
         "fecha": "1973-11-26",
         "consultado": "2026-07-11",
         "cita": "Il n'est pas possible de combiner la propriété sociale et la propriété privée."
-      }
+      },
+      "grupoEvidencia": "pasaje-5d95c1f2ddc1e17660e9"
     },
     "lab-016": {
       "valor": 2,
@@ -191,7 +193,8 @@
         "fecha": "1984",
         "consultado": "2026-07-11",
         "cita": "The 35-hour week without loss of pay must be sought systematically in all industries."
-      }
+      },
+      "grupoEvidencia": "pasaje-d8e948096b33001da09b"
     },
     "dr-015": {
       "valor": -2,

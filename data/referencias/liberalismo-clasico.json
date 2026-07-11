@@ -8,7 +8,13 @@
   "confianza": "verificada",
   "version": "1.0",
   "revisado": "2026-07-10",
-  "facetasDefinitorias": ["economico", "social", "libertad-conciencia", "democracia-directa", "institucionalismo"],
+  "facetasDefinitorias": [
+    "economico",
+    "social",
+    "libertad-conciencia",
+    "democracia-directa",
+    "institucionalismo"
+  ],
   "sensibilidad": "normal",
   "advertencia": "Es un tipo ideal filosófico del siglo XIX, no la ficha de ningún partido español. Varias posiciones (matrimonio igualitario, inmigración) se derivan del principio del daño de Mill y del universalismo de Smith como aplicación razonada, no de una mención literal. Frente al minarquismo y al anarcocapitalismo, este liberalismo admite obras públicas e instrucción financiadas por el Estado (Smith, Libro V); frente al conservadurismo, antepone el juicio individual a la costumbre. Las posiciones territoriales salen de Considerations on Representative Government (caps. XV-XVI), que contiene una tensión real —autogobierno local y consentimiento de los gobernados junto a la simpatía de Mill por la asimilación lingüística— codificada con valores moderados en ambas direcciones.",
   "fuentesMarco": [
@@ -106,7 +112,8 @@
         "fecha": "1776",
         "consultado": "2026-07-10",
         "cita": "People of the same trade seldom meet together, even for merriment and diversion, but the conversation ends in a conspiracy against the public, or in some contrivance to raise prices."
-      }
+      },
+      "grupoEvidencia": "pasaje-7560b55f5d88370a09cf"
     },
     "lib-008": {
       "valor": 2,
@@ -131,7 +138,8 @@
         "fecha": "1859",
         "consultado": "2026-07-10",
         "cita": "The only purpose for which power can be rightfully exercised over any member of a civilised community, against his will, is to prevent harm to others."
-      }
+      },
+      "grupoEvidencia": "pasaje-f213ba619882a44711ec"
     },
     "lib-009": {
       "valor": 2,
@@ -264,7 +272,8 @@
         "fecha": "1861",
         "consultado": "2026-07-10",
         "cita": "It is but a small portion of the public business of a country which can be well done, or safely attempted, by the central authorities."
-      }
+      },
+      "grupoEvidencia": "pasaje-3a242d710656612bc14f"
     },
     "ter-002": {
       "valor": 1,
@@ -277,7 +286,8 @@
         "fecha": "1861",
         "consultado": "2026-07-10",
         "cita": "the question of government ought to be decided by the governed"
-      }
+      },
+      "grupoEvidencia": "pasaje-6e607834379708b93684"
     },
     "lib-019": {
       "valor": 1,

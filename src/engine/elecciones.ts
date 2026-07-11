@@ -91,6 +91,14 @@ export interface SeleccionElectoral {
   metodo: 'convocatoria-documentada' | 'heuristica-ambito' | 'contexto-incompleto';
 }
 
+export interface PartidoPrincipalGeneral {
+  partido: Partido;
+  candidatura: CandidaturaElectoral;
+  /** Puesto por votos dentro de la convocatoria completa, antes de descartar perfiles ausentes. */
+  puestoVotos: number;
+  convocatoria: ConvocatoriaElectoral;
+}
+
 function vigentes(partidos: Partido[]): Partido[] {
   return partidos.filter(
     (partido) =>
@@ -125,6 +133,96 @@ function ultimaConvocatoria(
 }
 
 /**
+ * Una coalición estatal puede enlazar perfiles de componentes territoriales que
+ * solo participaron en una parte del país. Cuando las generales se consultan
+ * por CCAA, esos perfiles no deben convertirse en opciones comparables fuera
+ * de su territorio ni reaparecer como tales en el catálogo contextual.
+ *
+ * Las organizaciones estatales se conservan: que sean componentes de una
+ * coalición no las vuelve territoriales. Si falta el perfil enlazado, tampoco
+ * inferimos un ámbito que los datos no declaran.
+ */
+function relacionAplicableAlContexto(
+  relacion: RelacionPerfilCandidatura,
+  partidosPorId: ReadonlyMap<string, Partido>,
+  ctx: ContextoEleccion,
+): boolean {
+  if (ctx.tipo !== 'generales' || !ctx.ccaa) return true;
+  const perfil = partidosPorId.get(relacion.perfilId);
+  if (!perfil || perfil.ambito === 'estatal') return true;
+  return perfil.ccaa?.includes(ctx.ccaa) ?? false;
+}
+
+const PRIORIDAD_RELACION_PRINCIPAL: Readonly<Record<RelacionPerfilCandidatura['relacion'], number>> = {
+  'misma-organizacion': 0,
+  coalicion: 1,
+  'organizacion-territorial': 2,
+  componente: 3,
+  sucesora: 4,
+};
+
+/**
+ * Devuelve las candidaturas más votadas de la última elección general que
+ * tienen un perfil principal enlazado. Los componentes de una coalición no se
+ * convierten aquí en candidaturas independientes: se elige antes la ficha de
+ * la propia organización, coalición o marca territorial.
+ */
+export function partidosPrincipalesUltimasGenerales(
+  partidos: Partido[],
+  convocatorias: readonly ConvocatoriaElectoral[],
+  limite = 7,
+): PartidoPrincipalGeneral[] {
+  const cantidad = Math.floor(limite);
+  if (!Number.isFinite(limite) || cantidad <= 0) return [];
+  const convocatoria = ultimaConvocatoria(convocatorias, { tipo: 'generales' });
+  if (!convocatoria) return [];
+
+  const partidosPorId = new Map(
+    vigentes(partidos)
+      .filter(
+        (partido) =>
+          partido.confianza !== 'sin-datos' &&
+          !partido.monotematico &&
+          Object.keys(partido.posiciones).length > 0,
+      )
+      .map((partido) => [partido.id, partido]),
+  );
+  const perfilesYaIncluidos = new Set<string>();
+  const candidaturasPorVotos = [...convocatoria.candidaturas].sort(
+    (a, b) => b.votos - a.votos || a.id.localeCompare(b.id, 'es'),
+  );
+  const principales: PartidoPrincipalGeneral[] = [];
+
+  for (const [indice, candidatura] of candidaturasPorVotos.entries()) {
+    const relaciones = [...candidatura.perfilRelaciones].sort(
+      (a, b) =>
+        PRIORIDAD_RELACION_PRINCIPAL[a.relacion] - PRIORIDAD_RELACION_PRINCIPAL[b.relacion],
+    );
+    const relacion = relaciones.find(
+      (candidata) =>
+        candidata.relacion !== 'componente' &&
+        candidata.relacion !== 'sucesora' &&
+        partidosPorId.has(candidata.perfilId) &&
+        !perfilesYaIncluidos.has(candidata.perfilId),
+    );
+    if (!relacion) continue;
+    const partido = partidosPorId.get(relacion.perfilId);
+    if (!partido) continue;
+
+    perfilesYaIncluidos.add(partido.id);
+    principales.push({
+      partido,
+      candidatura,
+      puestoVotos: indice + 1,
+      convocatoria,
+    });
+    if (principales.length >= cantidad) break;
+  }
+
+  return principales;
+}
+
+/**
  * Selecciona el universo y devuelve también su procedencia. Así la interfaz
  * puede distinguir una convocatoria comprobada de una mera heurística.
  */
@@ -156,12 +254,23 @@ export function seleccionarPartidosElectorales(
     };
   }
 
-  const candidaturas = convocatoria.candidaturas.filter(
-    (candidatura) =>
-      !ctx.ccaa ||
-      convocatoria.tipo !== 'generales' ||
-      candidatura.territorios?.includes(ctx.ccaa),
-  );
+  const partidosPorId = new Map(partidos.map((partido) => [partido.id, partido]));
+  const candidaturas = convocatoria.candidaturas
+    .filter(
+      (candidatura) =>
+        !ctx.ccaa ||
+        convocatoria.tipo !== 'generales' ||
+        candidatura.territorios?.includes(ctx.ccaa),
+    )
+    .map((candidatura) => {
+      if (ctx.tipo !== 'generales' || !ctx.ccaa) return candidatura;
+      return {
+        ...candidatura,
+        perfilRelaciones: candidatura.perfilRelaciones.filter((relacion) =>
+          relacionAplicableAlContexto(relacion, partidosPorId, ctx),
+        ),
+      };
+    });
   const ids = new Set(
     candidaturas.flatMap((candidatura) =>
       candidatura.perfilRelaciones.map((relacion) => relacion.perfilId),

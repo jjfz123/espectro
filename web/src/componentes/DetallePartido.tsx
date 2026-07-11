@@ -4,6 +4,7 @@ import { ITEM_POR_ID, etiquetaValor, nombrePerfil } from '../datos';
 
 export interface LecturaContraste {
   etiquetaBase: string;
+  descripcionBase: string;
   etiqueta: string;
   descripcion: string;
   advertencia: string;
@@ -78,11 +79,8 @@ function TablaDetalle({ resultado, posiciones, singular }: TablaProps) {
             const item = ITEM_POR_ID.get(detalle.itemId);
             const posicion = posiciones[detalle.itemId];
             return (
-              <tr key={detalle.itemId}>
-                <td>
-                  {item?.texto ?? detalle.itemId}
-                  <span className="celda-id">{detalle.itemId}</span>
-                </td>
+              <tr key={detalle.itemId} data-item-id={detalle.itemId}>
+                <td>{item?.texto ?? detalle.itemId}</td>
                 <td className="celda-valor">
                   {etiquetaValor(detalle.valorUsuario)}
                   {detalle.peso === 2 ? (
@@ -173,7 +171,12 @@ export function DetalleAfinidad({
             ítems que marcaste como importantes pesan el doble en el porcentaje.
           </p>
 
-          {lecturaContraste ? <h3>{lecturaContraste.etiquetaBase}</h3> : null}
+          {lecturaContraste ? (
+            <>
+              <h3>{lecturaContraste.etiquetaBase}</h3>
+              <p className="lectura-contraste__base">{lecturaContraste.descripcionBase}</p>
+            </>
+          ) : null}
           <TablaDetalle
             resultado={resultado}
             posiciones={entidad.posiciones}

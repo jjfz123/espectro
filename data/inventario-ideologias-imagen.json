@@ -1,0 +1,2342 @@
+{
+  "version": "1.0.0",
+  "total": 178,
+  "conteoDecisionesOriginales": {
+    "A": 28,
+    "B": 50,
+    "C": 35,
+    "D": 5,
+    "E": 38,
+    "F": 22
+  },
+  "rotulos": [
+    {
+      "numero": 1,
+      "etiquetaOriginal": "Hive Mind Collectivism",
+      "normalizacion": "Colectivismo de mente-colmena",
+      "decisionOriginal": "F",
+      "tratamientoActual": {
+        "clase": "exclusion",
+        "equivalenciaConCorriente": false,
+        "motivo": "Ficción especulativa de comunidades de memes, sin tradición política delimitada ni fuentes aptas para un resultado personal."
+      }
+    },
+    {
+      "numero": 2,
+      "etiquetaOriginal": "Nazbol",
+      "normalizacion": "Nacionalbolchevismo",
+      "decisionOriginal": "B",
+      "tratamientoActual": {
+        "clase": "region",
+        "corrienteId": "nacionalbolchevismo",
+        "decisionCapa": "B",
+        "publicacionGeometrica": "publicada",
+        "equivalenciaConCorriente": true,
+        "motivo": "Solo modo exhaustivo: no debe inferirse de patriotismo de izquierda ni equipararse a organizaciones españolas sin evidencia."
+      }
+    },
+    {
+      "numero": 3,
+      "etiquetaOriginal": "Neo Bolshevism",
+      "normalizacion": "Neobolchevismo de *1984*",
+      "decisionOriginal": "F",
+      "tratamientoActual": {
+        "clase": "exclusion",
+        "equivalenciaConCorriente": false,
+        "motivo": "Ideología ficticia de Eurasia en la novela 1984; no equivale al bolchevismo histórico ni a sus ramas políticas documentadas."
+      }
+    },
+    {
+      "numero": 4,
+      "etiquetaOriginal": "Ingsocism",
+      "normalizacion": "Ingsoc/socialismo inglés de *1984*",
+      "decisionOriginal": "F",
+      "tratamientoActual": {
+        "clase": "exclusion",
+        "equivalenciaConCorriente": false,
+        "motivo": "Ideología ficticia de la novela 1984; conservarla como celda normalizaría ficción como opción política real."
+      }
+    },
+    {
+      "numero": 5,
+      "etiquetaOriginal": "Death Worship",
+      "normalizacion": "“Culto a la muerte” de *1984*",
+      "decisionOriginal": "F",
+      "tratamientoActual": {
+        "clase": "exclusion",
+        "equivalenciaConCorriente": false,
+        "motivo": "Rótulo ficticio de 1984 sin doctrina histórica independiente ni utilidad para el matching español."
+      }
+    },
+    {
+      "numero": 6,
+      "etiquetaOriginal": "Corporatocracy",
+      "normalizacion": "Corporatocracia",
+      "decisionOriginal": "C",
+      "tratamientoActual": {
+        "clase": "diagnostico",
+        "corrienteId": "corporatocracia",
+        "decisionCapa": "B",
+        "equivalenciaConCorriente": true,
+        "motivo": "Es un diagnóstico institucional, no una identidad que se recomiende al usuario; debe apoyarse en transparencia, lobbies y protección al denunciante, no en una respuesta antiempresa aislada."
+      }
+    },
+    {
+      "numero": 7,
+      "etiquetaOriginal": "Kraterocracy",
+      "normalizacion": "Kraterocracia",
+      "decisionOriginal": "F",
+      "tratamientoActual": {
+        "clase": "contexto",
+        "corrienteId": "regeneracionismo-autoritario-primorriverista",
+        "decisionCapa": "B",
+        "equivalenciaConCorriente": false,
+        "motivo": "El gobierno por la fuerza permanece como polo teórico violento, no como identidad que una respuesta autoritaria aislada pueda producir."
+      }
+    },
+    {
+      "numero": 8,
+      "etiquetaOriginal": "Posadism",
+      "normalizacion": "Posadismo",
+      "decisionOriginal": "B",
+      "tratamientoActual": {
+        "clase": "region",
+        "corrienteId": "posadismo",
+        "decisionCapa": "B",
+        "publicacionGeometrica": "publicada",
+        "equivalenciaConCorriente": true,
+        "motivo": "Es referencia doctrinal residual, no el POSI español; se ofrece solo con profundidad y advertencia explícita."
+      }
+    },
+    {
+      "numero": 9,
+      "etiquetaOriginal": "Stalinism",
+      "normalizacion": "Estalinismo/ML ortodoxo",
+      "decisionOriginal": "A",
+      "tratamientoActual": {
+        "clase": "region",
+        "corrienteId": "marxismo-leninismo-estaliniano",
+        "decisionCapa": "A",
+        "publicacionGeometrica": "publicada",
+        "equivalenciaConCorriente": true,
+        "motivo": "Referencia histórica para distinguir corrientes comunistas; nunca identifica militancia ni sustituye una valoración por periodo."
+      }
+    },
+    {
+      "numero": 10,
+      "etiquetaOriginal": "Marxist Leninism Maoism",
+      "normalizacion": "Marxismo-leninismo-maoísmo",
+      "decisionOriginal": "B",
+      "tratamientoActual": {
+        "clase": "region",
+        "corrienteId": "marxismo-leninismo-maoismo",
+        "decisionCapa": "B",
+        "publicacionGeometrica": "publicada",
+        "equivalenciaConCorriente": true,
+        "motivo": "Referencia internacional sensible y exhaustiva; no equivale al maoísmo histórico general ni al Pensamiento Gonzalo."
+      }
+    },
+    {
+      "numero": 11,
+      "etiquetaOriginal": "Forth Theory",
+      "normalizacion": "Cuarta Teoría Política (corrección)",
+      "decisionOriginal": "B",
+      "tratamientoActual": {
+        "clase": "region",
+        "corrienteId": "cuarta-teoria-politica",
+        "decisionCapa": "B",
+        "publicacionGeometrica": "bloqueada-investigacion",
+        "equivalenciaConCorriente": true,
+        "motivo": "La economía no está instrumentada y su influencia española no debe sobredimensionarse; el punto es solo un prior pendiente."
+      }
+    },
+    {
+      "numero": 12,
+      "etiquetaOriginal": "Mladorossism",
+      "normalizacion": "Mladorossismo",
+      "decisionOriginal": "E",
+      "tratamientoActual": {
+        "clase": "contexto",
+        "corrienteId": "mladorossismo",
+        "decisionCapa": "B",
+        "equivalenciaConCorriente": true,
+        "motivo": "Contexto extranjero de entreguerras sin equivalente español; evita llamar monárquico-comunista a cualquier combinación de corona y política social."
+      }
+    },
+    {
+      "numero": 13,
+      "etiquetaOriginal": "Pol Potism",
+      "normalizacion": "Polpotismo/Jemeres Rojos",
+      "decisionOriginal": "E",
+      "tratamientoActual": {
+        "clase": "modelo-historico",
+        "corrienteId": "polpotismo",
+        "decisionCapa": "B",
+        "equivalenciaConCorriente": true,
+        "motivo": "Solo contexto histórico comparado, con advertencia de víctimas; nunca recomendación, identidad lúdica ni sinónimo de maoísmo general."
+      }
+    },
+    {
+      "numero": 14,
+      "etiquetaOriginal": "Juche",
+      "normalizacion": "Juche",
+      "decisionOriginal": "E",
+      "tratamientoActual": {
+        "clase": "contexto",
+        "corrienteId": "juche",
+        "decisionCapa": "B",
+        "equivalenciaConCorriente": true,
+        "motivo": "No tiene equivalente partidario español; se diferencia de no alineamiento, proteccionismo puntual y marxismo-leninismo internacionalista."
+      }
+    },
+    {
+      "numero": 15,
+      "etiquetaOriginal": "Fascism",
+      "normalizacion": "Fascismo histórico por fases",
+      "decisionOriginal": "B",
+      "tratamientoActual": {
+        "clase": "region",
+        "corrienteId": "fascismo-italiano-regimen",
+        "decisionCapa": "B",
+        "publicacionGeometrica": "publicada",
+        "equivalenciaConCorriente": true,
+        "motivo": "Sirve de comparación histórica, separado de Falange, franquismo, San Sepolcro y la República de Salò."
+      }
+    },
+    {
+      "numero": 16,
+      "etiquetaOriginal": "Esoteric Fascism",
+      "normalizacion": "Fascismo esotérico",
+      "decisionOriginal": "B",
+      "tratamientoActual": {
+        "clase": "contexto",
+        "corrienteId": "fascismo-esoterico",
+        "decisionCapa": "B",
+        "equivalenciaConCorriente": true,
+        "motivo": "Solo contexto histórico especializado; no se deriva de religiosidad, tradicionalismo ni una respuesta aislada."
+      }
+    },
+    {
+      "numero": 17,
+      "etiquetaOriginal": "Nazism",
+      "normalizacion": "Nacionalsocialismo alemán",
+      "decisionOriginal": "E",
+      "tratamientoActual": {
+        "clase": "modelo-historico",
+        "corrienteId": "nacionalsocialismo-aleman",
+        "decisionCapa": "B",
+        "equivalenciaConCorriente": true,
+        "motivo": "Referencia histórica violenta, separada de neonazismo posterior, Falange, franquismo y derecha radical electoral; no genera identidad ni recomendación."
+      }
+    },
+    {
+      "numero": 18,
+      "etiquetaOriginal": "Neo Nazism",
+      "normalizacion": "Neonazismo",
+      "decisionOriginal": "B",
+      "tratamientoActual": {
+        "clase": "region",
+        "corrienteId": "neonazismo",
+        "decisionCapa": "B",
+        "publicacionGeometrica": "bloqueada-investigacion",
+        "equivalenciaConCorriente": true,
+        "motivo": "Referencia sensible e histórica; no se confunde con derecha radical electoral ni con el arquetipo aceleracionista terrorista."
+      }
+    },
+    {
+      "numero": 19,
+      "etiquetaOriginal": "National Capitalism",
+      "normalizacion": "Capitalismo nacional",
+      "decisionOriginal": "B",
+      "tratamientoActual": {
+        "clase": "faceta",
+        "corrienteId": "capitalismo-nacional",
+        "decisionCapa": "B",
+        "equivalenciaConCorriente": true,
+        "motivo": "Debe distinguirse del proteccionismo puntual, del corporativismo y de la simple defensa de empresas españolas."
+      }
+    },
+    {
+      "numero": 20,
+      "etiquetaOriginal": "Alt Right",
+      "normalizacion": "Alt-right",
+      "decisionOriginal": "D",
+      "tratamientoActual": {
+        "clase": "contexto",
+        "corrienteId": "derecha-alternativa",
+        "decisionCapa": "B",
+        "equivalenciaConCorriente": true,
+        "motivo": "Referencia extranjera fechada; no se usa como sinónimo de derecha radical española ni se deriva de inmigración, conservadurismo o antiestablishment por separado."
+      }
+    },
+    {
+      "numero": 21,
+      "etiquetaOriginal": "Absolute Monarchism",
+      "normalizacion": "Monarquía absoluta",
+      "decisionOriginal": "C",
+      "tratamientoActual": {
+        "clase": "modelo-historico",
+        "corrienteId": "monarquia-absoluta",
+        "decisionCapa": "B",
+        "equivalenciaConCorriente": true,
+        "motivo": "Se muestra como polo institucional histórico, no como economía propia ni como sinónimo de monarquía parlamentaria, carlismo o tradicionalismo."
+      }
+    },
+    {
+      "numero": 22,
+      "etiquetaOriginal": "Fordism",
+      "normalizacion": "Fordismo",
+      "decisionOriginal": "E",
+      "tratamientoActual": {
+        "clase": "modelo-historico",
+        "corrienteId": "desarrollismo-tecnocratico-franquista-1957-1973",
+        "decisionCapa": "B",
+        "equivalenciaConCorriente": false,
+        "motivo": "La producción masiva y el compromiso social de posguerra siguen explicados como modelo productivo, pero no ocupan una región ideológica integral."
+      }
+    },
+    {
+      "numero": 23,
+      "etiquetaOriginal": "Populism (Left)",
+      "normalizacion": "Populismo de izquierda",
+      "decisionOriginal": "C",
+      "tratamientoActual": {
+        "clase": "faceta",
+        "corrienteId": "populismo-izquierda",
+        "decisionCapa": "B",
+        "equivalenciaConCorriente": true,
+        "motivo": "No sustituye la ficha económica o institucional de Podemos, Sumar u otras organizaciones; la coincidencia populista es una faceta, no identidad total."
+      }
+    },
+    {
+      "numero": 24,
+      "etiquetaOriginal": "Hoxhaism",
+      "normalizacion": "Hoxhaísmo",
+      "decisionOriginal": "B",
+      "tratamientoActual": {
+        "clase": "region",
+        "corrienteId": "hoxhaismo",
+        "decisionCapa": "B",
+        "publicacionGeometrica": "publicada",
+        "equivalenciaConCorriente": true,
+        "motivo": "Aporta contexto al PCE(m-l) y corrientes afines, sin convertir todo antirrevisionismo en hoxhaísmo."
+      }
+    },
+    {
+      "numero": 25,
+      "etiquetaOriginal": "Left Wing Nationalism",
+      "normalizacion": "Nacionalismo de izquierda",
+      "decisionOriginal": "C",
+      "tratamientoActual": {
+        "clase": "faceta",
+        "corrienteId": "nacionalismo-izquierda",
+        "decisionCapa": "B",
+        "equivalenciaConCorriente": true,
+        "motivo": "Debe concretarse como catalán, vasco, gallego, andaluz u otro caso; izquierda económica no fija unilateralidad, lengua ni modelo de Estado."
+      }
+    },
+    {
+      "numero": 26,
+      "etiquetaOriginal": "Pancasila",
+      "normalizacion": "Pancasila indonesia",
+      "decisionOriginal": "E",
+      "tratamientoActual": {
+        "clase": "contexto",
+        "corrienteId": "pancasila-indonesia",
+        "decisionCapa": "B",
+        "equivalenciaConCorriente": true,
+        "motivo": "Contexto institucional indonesio, no modelo exportable ni sinónimo de corporativismo; exige siempre indicar etapa democrática o autoritaria."
+      }
+    },
+    {
+      "numero": 27,
+      "etiquetaOriginal": "Ba'athism",
+      "normalizacion": "Baazismo",
+      "decisionOriginal": "E",
+      "tratamientoActual": {
+        "clase": "contexto",
+        "corrienteId": "baazismo",
+        "decisionCapa": "B",
+        "equivalenciaConCorriente": true,
+        "motivo": "Referencia extranjera contextual; no debe reducirse a economía de izquierda ni trasladarse a España sin medir nacionalismo, secularismo y partido-Estado."
+      }
+    },
+    {
+      "numero": 28,
+      "etiquetaOriginal": "Vichy Fascism",
+      "normalizacion": "Régimen de Vichy",
+      "decisionOriginal": "E",
+      "tratamientoActual": {
+        "clase": "modelo-historico",
+        "corrienteId": "regimen-vichy",
+        "decisionCapa": "B",
+        "equivalenciaConCorriente": true,
+        "motivo": "Comparación histórica violenta; no se emplea como sinónimo de conservadurismo, colaboración diplomática ni fascismo genérico."
+      }
+    },
+    {
+      "numero": 29,
+      "etiquetaOriginal": "Falangism",
+      "normalizacion": "Falangismo/nacionalsindicalismo",
+      "decisionOriginal": "A",
+      "tratamientoActual": {
+        "clase": "region",
+        "corrienteId": "falangismo",
+        "decisionCapa": "A",
+        "publicacionGeometrica": "publicada",
+        "equivalenciaConCorriente": true,
+        "motivo": "Ancla española prioritaria, estrictamente limitada al programa de 1934 y separada de franquismo y partidos actuales."
+      }
+    },
+    {
+      "numero": 30,
+      "etiquetaOriginal": "Showa Statism",
+      "normalizacion": "Estatismo Shōwa",
+      "decisionOriginal": "E",
+      "tratamientoActual": {
+        "clase": "modelo-historico",
+        "corrienteId": "estatismo-showa",
+        "decisionCapa": "B",
+        "equivalenciaConCorriente": true,
+        "motivo": "Contexto histórico violento sin equivalente español; monarquía, servicio militar o política industrial aislados no permiten inferirlo."
+      }
+    },
+    {
+      "numero": 31,
+      "etiquetaOriginal": "Neo Fascism",
+      "normalizacion": "Neofascismo",
+      "decisionOriginal": "B",
+      "tratamientoActual": {
+        "clase": "region",
+        "corrienteId": "neofascismo",
+        "decisionCapa": "B",
+        "publicacionGeometrica": "publicada",
+        "equivalenciaConCorriente": true,
+        "motivo": "No debe aplicarse como sinónimo de nativismo o populismo; exige evidencia de ruptura antipluralista."
+      }
+    },
+    {
+      "numero": 32,
+      "etiquetaOriginal": "Authoritarian Capitalism",
+      "normalizacion": "Capitalismo autoritario",
+      "decisionOriginal": "C",
+      "tratamientoActual": {
+        "clase": "modelo-historico",
+        "corrienteId": "capitalismo-autoritario",
+        "decisionCapa": "B",
+        "equivalenciaConCorriente": true,
+        "motivo": "Es descriptor comparado, no partido o identidad autosuficiente; evita equiparar cualquier privatización o ejecutivo fuerte con una dictadura capitalista."
+      }
+    },
+    {
+      "numero": 33,
+      "etiquetaOriginal": "Populism (Right)",
+      "normalizacion": "Populismo de derecha",
+      "decisionOriginal": "C",
+      "tratamientoActual": {
+        "clase": "faceta",
+        "corrienteId": "populismo-derecha",
+        "decisionCapa": "B",
+        "equivalenciaConCorriente": true,
+        "motivo": "No equivale a derecha radical nativista ni a fascismo; requiere combinar la faceta populista con el programa real y conducta institucional de cada partido."
+      }
+    },
+    {
+      "numero": 34,
+      "etiquetaOriginal": "Anti Revisionism",
+      "normalizacion": "Antirrevisionismo comunista",
+      "decisionOriginal": "C",
+      "tratamientoActual": {
+        "clase": "faceta",
+        "corrienteId": "antirrevisionismo-comunista",
+        "decisionCapa": "B",
+        "equivalenciaConCorriente": true,
+        "motivo": "Visible como faceta exhaustiva para diferenciar partidos comunistas, pero no asigna por sí sola China, Albania, violencia, abstencionismo o economía concreta."
+      }
+    },
+    {
+      "numero": 35,
+      "etiquetaOriginal": "National Communism",
+      "normalizacion": "Nacionalcomunismo",
+      "decisionOriginal": "B",
+      "tratamientoActual": {
+        "clase": "region",
+        "corrienteId": "nacionalcomunismo",
+        "decisionCapa": "B",
+        "publicacionGeometrica": "publicada",
+        "equivalenciaConCorriente": true,
+        "motivo": "No se deduce de usar símbolos españoles o defender soberanía; requiere alternativa institucional y económica completa."
+      }
+    },
+    {
+      "numero": 36,
+      "etiquetaOriginal": "Maoism",
+      "normalizacion": "Maoísmo/pensamiento Mao Zedong",
+      "decisionOriginal": "B",
+      "tratamientoActual": {
+        "clase": "region",
+        "corrienteId": "maoismo",
+        "decisionCapa": "B",
+        "publicacionGeometrica": "publicada",
+        "equivalenciaConCorriente": true,
+        "motivo": "Debe separarse del MLM consolidado después, de China por periodos y del Pensamiento Gonzalo peruano."
+      }
+    },
+    {
+      "numero": 37,
+      "etiquetaOriginal": "Strasserism",
+      "normalizacion": "Strasserismo",
+      "decisionOriginal": "B",
+      "tratamientoActual": {
+        "clase": "region",
+        "corrienteId": "strasserismo",
+        "decisionCapa": "B",
+        "publicacionGeometrica": "bloqueada-investigacion",
+        "equivalenciaConCorriente": true,
+        "motivo": "No es izquierda por una posición económica aislada y solo puede aparecer con contexto histórico y advertencia."
+      }
+    },
+    {
+      "numero": 38,
+      "etiquetaOriginal": "Technocracy",
+      "normalizacion": "Tecnocracia",
+      "decisionOriginal": "C",
+      "tratamientoActual": {
+        "clase": "modelo-historico",
+        "corrienteId": "tecnocracia",
+        "decisionCapa": "B",
+        "equivalenciaConCorriente": true,
+        "motivo": "Es una faceta institucional compatible con economías distintas; un ministro profesional o una agencia independiente aislados no forman una tecnocracia."
+      }
+    },
+    {
+      "numero": 39,
+      "etiquetaOriginal": "Sikh Theocracy",
+      "normalizacion": "Teocracia sij",
+      "decisionOriginal": "C",
+      "tratamientoActual": {
+        "clase": "modelo-historico",
+        "corrienteId": "corporativismo-social-catolico",
+        "decisionCapa": "B",
+        "equivalenciaConCorriente": false,
+        "motivo": "El modelo religioso sij queda como comparación institucional sin implantación española y nunca atribuye posiciones por la fe de una persona."
+      }
+    },
+    {
+      "numero": 40,
+      "etiquetaOriginal": "Mugabeism",
+      "normalizacion": "Mugabismo",
+      "decisionOriginal": "E",
+      "tratamientoActual": {
+        "clase": "contexto",
+        "corrienteId": "socialismo-humanista-democratico-fernando-de-los-rios",
+        "decisionCapa": "B",
+        "equivalenciaConCorriente": false,
+        "motivo": "El régimen zimbabuense permanece como contexto personalista anticolonial; se elimina el trasplante inválido de una pregunta agraria andaluza."
+      }
+    },
+    {
+      "numero": 41,
+      "etiquetaOriginal": "Buddhist Theocracy",
+      "normalizacion": "Teocracia budista",
+      "decisionOriginal": "C",
+      "tratamientoActual": {
+        "clase": "modelo-historico",
+        "corrienteId": "salazarismo-estado-novo-portugues",
+        "decisionCapa": "B",
+        "equivalenciaConCorriente": false,
+        "motivo": "La teocracia budista queda como modelo religioso comparado; budismo, pacifismo o monacato no bastan para atribuir una forma de gobierno."
+      }
+    },
+    {
+      "numero": 42,
+      "etiquetaOriginal": "Hindutva",
+      "normalizacion": "Hindutva/nacionalismo hindú",
+      "decisionOriginal": "E",
+      "tratamientoActual": {
+        "clase": "contexto",
+        "corrienteId": "hindutva",
+        "decisionCapa": "B",
+        "equivalenciaConCorriente": true,
+        "motivo": "Referencia india, no sinónimo de hinduismo ni teocracia; la ficha debe separar ciudadanía, libertad religiosa y ramas partidarias concretas."
+      }
+    },
+    {
+      "numero": 43,
+      "etiquetaOriginal": "Hindu Theocracy",
+      "normalizacion": "Teocracia hindú",
+      "decisionOriginal": "C",
+      "tratamientoActual": {
+        "clase": "modelo-historico",
+        "corrienteId": "integrismo-catolico-espanol-nocedal",
+        "decisionCapa": "B",
+        "equivalenciaConCorriente": false,
+        "motivo": "El modelo hindú permanece como comparación religiosa y no se confunde con Hindutva ni con las creencias de personas hindúes."
+      }
+    },
+    {
+      "numero": 44,
+      "etiquetaOriginal": "Christian Theocracy",
+      "normalizacion": "Teocracia cristiana",
+      "decisionOriginal": "C",
+      "tratamientoActual": {
+        "clase": "modelo-historico",
+        "corrienteId": "catolicismo-politico-cedista-1933",
+        "decisionCapa": "B",
+        "equivalenciaConCorriente": false,
+        "motivo": "El extremo teocrático sigue visible en la faceta religión-Estado, pero no recibe una economía ni una identidad integral inventadas."
+      }
+    },
+    {
+      "numero": 45,
+      "etiquetaOriginal": "Islamic Theocracy",
+      "normalizacion": "Teocracia islámica",
+      "decisionOriginal": "C",
+      "tratamientoActual": {
+        "clase": "modelo-historico",
+        "corrienteId": "maurrasismo-nacionalismo-integral-recepcion-espanola",
+        "decisionCapa": "B",
+        "equivalenciaConCorriente": false,
+        "motivo": "Las teocracias islámicas siguen explicadas como familia institucional plural; el islam o una opinión geopolítica nunca generan esta identidad."
+      }
+    },
+    {
+      "numero": 46,
+      "etiquetaOriginal": "Imperialism",
+      "normalizacion": "Imperialismo",
+      "decisionOriginal": "C",
+      "tratamientoActual": {
+        "clase": "faceta",
+        "corrienteId": "imperialismo",
+        "decisionCapa": "B",
+        "equivalenciaConCorriente": true,
+        "motivo": "Visible como faceta geopolítica, no identidad económica completa; distingue reclamaciones, intervención militar, colonialismo y cooperación voluntaria."
+      }
+    },
+    {
+      "numero": 47,
+      "etiquetaOriginal": "Marxist Leninism",
+      "normalizacion": "Marxismo-leninismo",
+      "decisionOriginal": "A",
+      "tratamientoActual": {
+        "clase": "region",
+        "corrienteId": "marxismo-leninismo",
+        "decisionCapa": "A",
+        "publicacionGeometrica": "publicada",
+        "equivalenciaConCorriente": true,
+        "motivo": "Hueco útil para el plural ecosistema comunista español; no debe promediar sin más Lenin, Stalin, Mao y Hoxha."
+      }
+    },
+    {
+      "numero": 48,
+      "etiquetaOriginal": "CapCom",
+      "normalizacion": "“Capitalist communism”/CapCom",
+      "decisionOriginal": "F",
+      "tratamientoActual": {
+        "clase": "exclusion",
+        "equivalenciaConCorriente": false,
+        "motivo": "Abreviatura internética ambigua y contradictoria sin referente doctrinal estable que permita asignar posiciones."
+      }
+    },
+    {
+      "numero": 49,
+      "etiquetaOriginal": "Chavism",
+      "normalizacion": "Chavismo",
+      "decisionOriginal": "E",
+      "tratamientoActual": {
+        "clase": "contexto",
+        "corrienteId": "chavismo",
+        "decisionCapa": "B",
+        "equivalenciaConCorriente": true,
+        "motivo": "Se limita al periodo de Chávez y no se usa como insulto para izquierda populista española; Maduro exige una ficha temporal distinta."
+      }
+    },
+    {
+      "numero": 50,
+      "etiquetaOriginal": "Arab Socialism",
+      "normalizacion": "Socialismo árabe",
+      "decisionOriginal": "E",
+      "tratamientoActual": {
+        "clase": "contexto",
+        "corrienteId": "socialismo-arabe",
+        "decisionCapa": "B",
+        "equivalenciaConCorriente": true,
+        "motivo": "Contexto internacional; no equivale a todo panarabismo ni a socialismo religioso y necesita país y periodo antes de atribuir instituciones."
+      }
+    },
+    {
+      "numero": 51,
+      "etiquetaOriginal": "Titoism",
+      "normalizacion": "Titoísmo/autogestión yugoslava",
+      "decisionOriginal": "E",
+      "tratamientoActual": {
+        "clase": "contexto",
+        "corrienteId": "titoismo",
+        "decisionCapa": "B",
+        "equivalenciaConCorriente": true,
+        "motivo": "Referencia histórica útil para separar autogestión de pluralismo: cooperativas, federalismo o no alineamiento aislados no bastan para identificarlo."
+      }
+    },
+    {
+      "numero": 52,
+      "etiquetaOriginal": "Monarcho Communism",
+      "normalizacion": "Monarco-comunismo",
+      "decisionOriginal": "F",
+      "tratamientoActual": {
+        "clase": "exclusion",
+        "equivalenciaConCorriente": false,
+        "motivo": "Cruce especulativo sin corpus político estable; una jefatura monárquica y cada modelo de propiedad comunista se miden por separado."
+      }
+    },
+    {
+      "numero": 53,
+      "etiquetaOriginal": "General Authoritarianisms",
+      "normalizacion": "Autoritarismo general",
+      "decisionOriginal": "C",
+      "tratamientoActual": {
+        "clase": "faceta",
+        "corrienteId": "autoritarismos-general",
+        "decisionCapa": "B",
+        "equivalenciaConCorriente": true,
+        "motivo": "Nodo descriptivo que abre ramas de izquierda, derecha, religiosas y tecnocráticas; no fija economía ni identifica a nadie por apoyar una medida de emergencia."
+      }
+    },
+    {
+      "numero": 54,
+      "etiquetaOriginal": "Pan Arabism",
+      "normalizacion": "Panarabismo",
+      "decisionOriginal": "E",
+      "tratamientoActual": {
+        "clase": "contexto",
+        "corrienteId": "panarabismo",
+        "decisionCapa": "B",
+        "equivalenciaConCorriente": true,
+        "motivo": "Se conserva por trazabilidad internacional, pero su coordenada económica es aproximada y no tiene equivalente territorial directo en la política española."
+      }
+    },
+    {
+      "numero": 55,
+      "etiquetaOriginal": "Pan turkism",
+      "normalizacion": "Panturquismo",
+      "decisionOriginal": "E",
+      "tratamientoActual": {
+        "clase": "contexto",
+        "corrienteId": "panturquismo",
+        "decisionCapa": "B",
+        "equivalenciaConCorriente": true,
+        "motivo": "Contexto extranjero sin analogía automática con iberismo o hispanidad; cualquier lectura exige separar cultura, fronteras, ciudadanía y uso de fuerza."
+      }
+    },
+    {
+      "numero": 56,
+      "etiquetaOriginal": "Trumpism",
+      "normalizacion": "Trumpismo",
+      "decisionOriginal": "E",
+      "tratamientoActual": {
+        "clase": "contexto",
+        "corrienteId": "trumpismo",
+        "decisionCapa": "B",
+        "equivalenciaConCorriente": true,
+        "motivo": "Se usa como contexto exterior fechado y no como sinónimo de VOX, PP o populismo de derecha europeo; existe un ítem explícito de alineamiento."
+      }
+    },
+    {
+      "numero": 57,
+      "etiquetaOriginal": "Aristocracy",
+      "normalizacion": "Aristocracia",
+      "decisionOriginal": "C",
+      "tratamientoActual": {
+        "clase": "modelo-historico",
+        "corrienteId": "aristocratismo",
+        "decisionCapa": "B",
+        "equivalenciaConCorriente": true,
+        "motivo": "Referencia institucional histórica; no equivale a Senado, expertos, nobleza ceremonial o desigualdad económica sin defensa explícita del gobierno minoritario."
+      }
+    },
+    {
+      "numero": 58,
+      "etiquetaOriginal": "Feudalism",
+      "normalizacion": "Feudalismo",
+      "decisionOriginal": "E",
+      "tratamientoActual": {
+        "clase": "modelo-historico",
+        "corrienteId": "neocatolicismo-espanol-isabelino",
+        "decisionCapa": "B",
+        "equivalenciaConCorriente": false,
+        "motivo": "El orden feudal europeo sigue como modelo histórico de derechos señoriales y dependencia, nunca como etiqueta para una preferencia política contemporánea."
+      }
+    },
+    {
+      "numero": 59,
+      "etiquetaOriginal": "Leninism",
+      "normalizacion": "Leninismo",
+      "decisionOriginal": "B",
+      "tratamientoActual": {
+        "clase": "region",
+        "corrienteId": "leninismo",
+        "decisionCapa": "B",
+        "publicacionGeometrica": "publicada",
+        "equivalenciaConCorriente": true,
+        "motivo": "Referencia histórica, separada de la configuración estaliniana, del eurocomunismo y de las ramas maoísta y hoxhaísta."
+      }
+    },
+    {
+      "numero": 60,
+      "etiquetaOriginal": "Conservative Socialism",
+      "normalizacion": "Socialismo conservador",
+      "decisionOriginal": "B",
+      "tratamientoActual": {
+        "clase": "region",
+        "corrienteId": "socialismo-conservador",
+        "decisionCapa": "B",
+        "publicacionGeometrica": "publicada",
+        "equivalenciaConCorriente": true,
+        "motivo": "Necesita variante española concreta; religiosidad no implica teocracia ni una arquitectura autoritaria."
+      }
+    },
+    {
+      "numero": 61,
+      "etiquetaOriginal": "Black Nationalism",
+      "normalizacion": "Nacionalismo negro",
+      "decisionOriginal": "E",
+      "tratamientoActual": {
+        "clase": "contexto",
+        "corrienteId": "nacionalismo-negro",
+        "decisionCapa": "B",
+        "equivalenciaConCorriente": true,
+        "motivo": "Contexto estadounidense: no se proyecta sobre nacionalismos sin Estado españoles ni se confunde emancipación frente a racismo con derechos políticos étnicos."
+      }
+    },
+    {
+      "numero": 62,
+      "etiquetaOriginal": "Castroism",
+      "normalizacion": "Castrismo",
+      "decisionOriginal": "E",
+      "tratamientoActual": {
+        "clase": "contexto",
+        "corrienteId": "castrismo",
+        "decisionCapa": "B",
+        "equivalenciaConCorriente": true,
+        "motivo": "Se periodiza y no se equipara a solidaridad con Cuba, sanidad pública o antiamericanismo; democracia, propiedad y geopolítica deben coincidir conjuntamente."
+      }
+    },
+    {
+      "numero": 63,
+      "etiquetaOriginal": "Dengism",
+      "normalizacion": "Denguismo",
+      "decisionOriginal": "E",
+      "tratamientoActual": {
+        "clase": "contexto",
+        "corrienteId": "denguismo",
+        "decisionCapa": "B",
+        "equivalenciaConCorriente": true,
+        "motivo": "Referencia histórica china; no es sinónimo de socialismo de mercado democrático ni permite trasladar posiciones de la China actual a todas sus fases."
+      }
+    },
+    {
+      "numero": 64,
+      "etiquetaOriginal": "Longism",
+      "normalizacion": "Longismo (Huey Long)",
+      "decisionOriginal": "E",
+      "tratamientoActual": {
+        "clase": "contexto",
+        "corrienteId": "republicanismo-radical-socialista-espanol",
+        "decisionCapa": "B",
+        "equivalenciaConCorriente": false,
+        "motivo": "El populismo personalista de Luisiana queda como contexto estadounidense; redistribución o retórica antiélite aisladas no permiten identificarlo en España."
+      }
+    },
+    {
+      "numero": 65,
+      "etiquetaOriginal": "State Liberalism",
+      "normalizacion": "Liberalismo estatal",
+      "decisionOriginal": "F",
+      "tratamientoActual": {
+        "clase": "exclusion",
+        "equivalenciaConCorriente": false,
+        "motivo": "Etiqueta propia de comunidades de memes sin uso doctrinal estable; liberalismo político, economía mixta y autoridad estatal ya se representan como facetas independientes."
+      }
+    },
+    {
+      "numero": 66,
+      "etiquetaOriginal": "Elective Monarchism",
+      "normalizacion": "Monarquía electiva",
+      "decisionOriginal": "C",
+      "tratamientoActual": {
+        "clase": "modelo-historico",
+        "corrienteId": "monarquia-electiva",
+        "decisionCapa": "B",
+        "equivalenciaConCorriente": true,
+        "motivo": "Polo institucional histórico, no economía integral; se diferencia tanto de presidencia republicana electa como de monarquía parlamentaria hereditaria."
+      }
+    },
+    {
+      "numero": 67,
+      "etiquetaOriginal": "Paleo Conservatism",
+      "normalizacion": "Paleoconservadurismo",
+      "decisionOriginal": "B",
+      "tratamientoActual": {
+        "clase": "region",
+        "corrienteId": "paleoconservadurismo",
+        "decisionCapa": "B",
+        "publicacionGeometrica": "publicada",
+        "equivalenciaConCorriente": true,
+        "motivo": "Se mantiene como referencia internacional; no debe trasplantarse automáticamente a la derecha española."
+      }
+    },
+    {
+      "numero": 68,
+      "etiquetaOriginal": "Hamiltonianism",
+      "normalizacion": "Hamiltonianismo",
+      "decisionOriginal": "E",
+      "tratamientoActual": {
+        "clase": "contexto",
+        "corrienteId": "conservadurismo-canovista-restauracion",
+        "decisionCapa": "B",
+        "equivalenciaConCorriente": false,
+        "motivo": "La tradición federal estadounidense permanece como comparación histórica, pero no aporta una identidad incremental al instrumento español."
+      }
+    },
+    {
+      "numero": 69,
+      "etiquetaOriginal": "Pinochetism",
+      "normalizacion": "Pinochetismo",
+      "decisionOriginal": "E",
+      "tratamientoActual": {
+        "clase": "modelo-historico",
+        "corrienteId": "pinochetismo",
+        "decisionCapa": "B",
+        "equivalenciaConCorriente": true,
+        "motivo": "Referencia histórica violenta; apoyar una política de mercado no implica apoyar el régimen y la ficha nunca produce recomendación identitaria."
+      }
+    },
+    {
+      "numero": 70,
+      "etiquetaOriginal": "Collectivism",
+      "normalizacion": "Colectivismo",
+      "decisionOriginal": "C",
+      "tratamientoActual": {
+        "clase": "faceta",
+        "corrienteId": "colectivismo",
+        "decisionCapa": "B",
+        "equivalenciaConCorriente": true,
+        "motivo": "Visible como faceta económica, no identidad total: nacionalización, cooperativa obrera y comuna no son equivalentes y se separan en las preguntas."
+      }
+    },
+    {
+      "numero": 71,
+      "etiquetaOriginal": "Trotskyism",
+      "normalizacion": "Trotskismo",
+      "decisionOriginal": "A",
+      "tratamientoActual": {
+        "clase": "region",
+        "corrienteId": "trotskismo",
+        "decisionCapa": "A",
+        "publicacionGeometrica": "publicada",
+        "equivalenciaConCorriente": true,
+        "motivo": "Corriente comunista con ramas españolas reales; debe distinguirse del Posadismo y del eurocomunismo."
+      }
+    },
+    {
+      "numero": 72,
+      "etiquetaOriginal": "Agrarianism",
+      "normalizacion": "Agrarismo",
+      "decisionOriginal": "B",
+      "tratamientoActual": {
+        "clase": "faceta",
+        "corrienteId": "agrarismo",
+        "decisionCapa": "B",
+        "equivalenciaConCorriente": true,
+        "motivo": "Requiere una variante histórica o programática española y preguntas directas sobre tierra y pequeño productor."
+      }
+    },
+    {
+      "numero": 73,
+      "etiquetaOriginal": "Guevarism",
+      "normalizacion": "Guevarismo",
+      "decisionOriginal": "E",
+      "tratamientoActual": {
+        "clase": "contexto",
+        "corrienteId": "guevarismo",
+        "decisionCapa": "B",
+        "equivalenciaConCorriente": true,
+        "motivo": "Contexto latinoamericano violento; no se infiere de admiración simbólica, internacionalismo o apoyo abstracto a una ruptura revolucionaria."
+      }
+    },
+    {
+      "numero": 74,
+      "etiquetaOriginal": "Ho Chi Minh Thought",
+      "normalizacion": "Pensamiento Ho Chi Minh",
+      "decisionOriginal": "E",
+      "tratamientoActual": {
+        "clase": "contexto",
+        "corrienteId": "deleonismo",
+        "decisionCapa": "B",
+        "equivalenciaConCorriente": false,
+        "motivo": "La síntesis vietnamita queda como contexto anticolonial y partidario extranjero; el instrumento español no puede identificarla sin trivia personalista."
+      }
+    },
+    {
+      "numero": 75,
+      "etiquetaOriginal": "Religious Democracy",
+      "normalizacion": "Democracia religiosa",
+      "decisionOriginal": "C",
+      "tratamientoActual": {
+        "clase": "faceta",
+        "corrienteId": "democracia-religiosa",
+        "decisionCapa": "B",
+        "equivalenciaConCorriente": true,
+        "motivo": "Funciona como puente contextual: no equivale a democracia cristiana católica, confesionalidad ni veto clerical y no fija un programa económico."
+      }
+    },
+    {
+      "numero": 76,
+      "etiquetaOriginal": "Statism",
+      "normalizacion": "Estatismo",
+      "decisionOriginal": "C",
+      "tratamientoActual": {
+        "clase": "faceta",
+        "corrienteId": "estatismo",
+        "decisionCapa": "B",
+        "equivalenciaConCorriente": true,
+        "motivo": "Se muestra expresamente como faceta, no ideología integral: puede combinarse con izquierda, derecha, democracia, autoritarismo, centralismo o autonomía."
+      }
+    },
+    {
+      "numero": 77,
+      "etiquetaOriginal": "Kuomintangism",
+      "normalizacion": "Kuomintangismo/Tridemismo",
+      "decisionOriginal": "E",
+      "tratamientoActual": {
+        "clase": "contexto",
+        "corrienteId": "regeneracionismo-costista-joaquin-costa",
+        "decisionCapa": "B",
+        "equivalenciaConCorriente": false,
+        "motivo": "Los Tres Principios del Pueblo se conservan como historia china y taiwanesa, pero sus fases heterogéneas no producen una identidad española fiable."
+      }
+    },
+    {
+      "numero": 78,
+      "etiquetaOriginal": "Constitutional Monarchism",
+      "normalizacion": "Monarquismo constitucional",
+      "decisionOriginal": "C",
+      "tratamientoActual": {
+        "clase": "faceta",
+        "corrienteId": "monarquismo-constitucional",
+        "decisionCapa": "B",
+        "equivalenciaConCorriente": true,
+        "motivo": "Posición real sobre jefatura del Estado compatible con PP, PSOE y economías distintas; se muestra como faceta y no como partido o programa completo."
+      }
+    },
+    {
+      "numero": 79,
+      "etiquetaOriginal": "Zionism",
+      "normalizacion": "Sionismo",
+      "decisionOriginal": "C",
+      "tratamientoActual": {
+        "clase": "faceta",
+        "corrienteId": "sionismos",
+        "decisionCapa": "B",
+        "equivalenciaConCorriente": true,
+        "motivo": "Se declara familia contextual, no un punto homogéneo ni sinónimo de apoyo a cualquier gobierno israelí; Palestina, derechos y alianzas se miden aparte."
+      }
+    },
+    {
+      "numero": 80,
+      "etiquetaOriginal": "Neo Conservatism",
+      "normalizacion": "Neoconservadurismo",
+      "decisionOriginal": "B",
+      "tratamientoActual": {
+        "clase": "region",
+        "corrienteId": "neoconservadurismo",
+        "decisionCapa": "B",
+        "publicacionGeometrica": "publicada",
+        "equivalenciaConCorriente": true,
+        "motivo": "Referencia internacional y geopolítica; no debe trasladarse sin más al Partido Popular ni a toda derecha atlantista."
+      }
+    },
+    {
+      "numero": 81,
+      "etiquetaOriginal": "Banana Republicanism",
+      "normalizacion": "“Republicanismo bananero”",
+      "decisionOriginal": "F",
+      "tratamientoActual": {
+        "clase": "exclusion",
+        "equivalenciaConCorriente": false,
+        "motivo": "Sátira sobre repúblicas dependientes o capturadas, no una ideología defendida; la captura institucional queda descrita mediante corporatocracia, cleptocracia y calidad democrática."
+      }
+    },
+    {
+      "numero": 82,
+      "etiquetaOriginal": "Menshevism",
+      "normalizacion": "Menchevismo",
+      "decisionOriginal": "E",
+      "tratamientoActual": {
+        "clase": "contexto",
+        "corrienteId": "menchevismo",
+        "decisionCapa": "B",
+        "equivalenciaConCorriente": true,
+        "motivo": "Contexto histórico para distinguir modelos de partido y etapas revolucionarias; no es una etiqueta apropiada para socialdemocracia española actual."
+      }
+    },
+    {
+      "numero": 83,
+      "etiquetaOriginal": "Republicanism",
+      "normalizacion": "Republicanismo",
+      "decisionOriginal": "C",
+      "tratamientoActual": {
+        "clase": "faceta",
+        "corrienteId": "republicanismo-general",
+        "decisionCapa": "B",
+        "equivalenciaConCorriente": true,
+        "motivo": "Es una ficha paraguas visible; las ramas federal pimargalliana y social contemporánea aportan mayor precisión territorial y económica."
+      }
+    },
+    {
+      "numero": 84,
+      "etiquetaOriginal": "Gaddafism",
+      "normalizacion": "Gadafismo/Tercera Teoría Universal",
+      "decisionOriginal": "E",
+      "tratamientoActual": {
+        "clase": "contexto",
+        "corrienteId": "gadafismo",
+        "decisionCapa": "B",
+        "equivalenciaConCorriente": true,
+        "motivo": "Referencia extranjera y personalista; asambleísmo o democracia directa aislados no prueban apoyo a un régimen sin pluralismo efectivo."
+      }
+    },
+    {
+      "numero": 85,
+      "etiquetaOriginal": "Gorbachevism",
+      "normalizacion": "Gorbachovismo",
+      "decisionOriginal": "E",
+      "tratamientoActual": {
+        "clase": "contexto",
+        "corrienteId": "gorbachovismo",
+        "decisionCapa": "B",
+        "equivalenciaConCorriente": true,
+        "motivo": "Contexto histórico; no equivale a eurocomunismo, socialdemocracia o liberalización completa y debe ceñirse al periodo 1985–1991."
+      }
+    },
+    {
+      "numero": 86,
+      "etiquetaOriginal": "Labourism",
+      "normalizacion": "Laborismo",
+      "decisionOriginal": "E",
+      "tratamientoActual": {
+        "clase": "contexto",
+        "corrienteId": "laborismo-britanico",
+        "decisionCapa": "B",
+        "equivalenciaConCorriente": true,
+        "motivo": "Se usa como comparación británica, no como sinónimo de PSOE, socialdemocracia general o sindicalismo revolucionario."
+      }
+    },
+    {
+      "numero": 87,
+      "etiquetaOriginal": "Liberalism",
+      "normalizacion": "Liberalismo",
+      "decisionOriginal": "A",
+      "tratamientoActual": {
+        "clase": "faceta",
+        "corrienteId": "liberalismo",
+        "decisionCapa": "A",
+        "equivalenciaConCorriente": true,
+        "motivo": "Debe funcionar como nodo de familia y abrir ramas; no competir en distancia con liberalismo clásico o social."
+      }
+    },
+    {
+      "numero": 88,
+      "etiquetaOriginal": "Progressive Conservatism",
+      "normalizacion": "Conservadurismo progresista",
+      "decisionOriginal": "B",
+      "tratamientoActual": {
+        "clase": "region",
+        "corrienteId": "conservadurismo-progresista",
+        "decisionCapa": "B",
+        "publicacionGeometrica": "publicada",
+        "equivalenciaConCorriente": true,
+        "motivo": "El rótulo depende de país y época; se muestra como referencia exhaustiva, no como etiqueta automática de partido."
+      }
+    },
+    {
+      "numero": 89,
+      "etiquetaOriginal": "Liberal Conservatism",
+      "normalizacion": "Conservadurismo liberal europeo",
+      "decisionOriginal": "A",
+      "tratamientoActual": {
+        "clase": "region",
+        "corrienteId": "conservadurismo-liberal",
+        "decisionCapa": "A",
+        "publicacionGeometrica": "publicada",
+        "equivalenciaConCorriente": true,
+        "motivo": "Útil para distinguir derecha moderada de laissez-faire y nativismo, sin identificarlo automáticamente con la práctica del PP."
+      }
+    },
+    {
+      "numero": 90,
+      "etiquetaOriginal": "Conservatism",
+      "normalizacion": "Conservadurismo",
+      "decisionOriginal": "A",
+      "tratamientoActual": {
+        "clase": "region",
+        "corrienteId": "conservadurismo",
+        "decisionCapa": "A",
+        "publicacionGeometrica": "publicada",
+        "equivalenciaConCorriente": true,
+        "motivo": "Tipo ideal educativo, no sinónimo de PP, tradicionalismo religioso, derecha radical o inmovilismo absoluto."
+      }
+    },
+    {
+      "numero": 91,
+      "etiquetaOriginal": "Communalism",
+      "normalizacion": "Comunalismo/municipalismo libertario",
+      "decisionOriginal": "A",
+      "tratamientoActual": {
+        "clase": "region",
+        "corrienteId": "comunalismo",
+        "decisionCapa": "A",
+        "publicacionGeometrica": "publicada",
+        "equivalenciaConCorriente": true,
+        "motivo": "Aporta una referencia municipal y confederal, pero su economía no debe inventarse desde el federalismo político."
+      }
+    },
+    {
+      "numero": 92,
+      "etiquetaOriginal": "Left Communism",
+      "normalizacion": "Comunismo de izquierda",
+      "decisionOriginal": "B",
+      "tratamientoActual": {
+        "clase": "faceta",
+        "corrienteId": "comunismo-izquierda",
+        "decisionCapa": "B",
+        "equivalenciaConCorriente": true,
+        "motivo": "Debe abrir bordiguismo y consejismo por separado; un promedio entre ambas ramas sería doctrinalmente falso."
+      }
+    },
+    {
+      "numero": 93,
+      "etiquetaOriginal": "Anti Capitalism",
+      "normalizacion": "Anticapitalismo",
+      "decisionOriginal": "C",
+      "tratamientoActual": {
+        "clase": "faceta",
+        "corrienteId": "anticapitalismo",
+        "decisionCapa": "B",
+        "equivalenciaConCorriente": true,
+        "motivo": "Visible como familia, no resultado final suficiente: las preguntas posteriores separan nacionalización, autogestión, planificación y estrategia reformista o revolucionaria."
+      }
+    },
+    {
+      "numero": 94,
+      "etiquetaOriginal": "General Socialism",
+      "normalizacion": "Socialismo general",
+      "decisionOriginal": "C",
+      "tratamientoActual": {
+        "clase": "faceta",
+        "corrienteId": "socialismo-general",
+        "decisionCapa": "B",
+        "equivalenciaConCorriente": true,
+        "motivo": "Ficha paraguas: planificación estatal, socialdemocracia, socialismo de mercado y anarquismos socialistas deben seguir apareciendo por separado."
+      }
+    },
+    {
+      "numero": 95,
+      "etiquetaOriginal": "Distributism",
+      "normalizacion": "Distributismo",
+      "decisionOriginal": "A",
+      "tratamientoActual": {
+        "clase": "region",
+        "corrienteId": "distributismo",
+        "decisionCapa": "A",
+        "publicacionGeometrica": "publicada",
+        "equivalenciaConCorriente": true,
+        "motivo": "Útil para separar pequeña propiedad, gran capital y propiedad estatal; su región no debe ocupar todo el centro por falta de vecinos."
+      }
+    },
+    {
+      "numero": 96,
+      "etiquetaOriginal": "Centrism",
+      "normalizacion": "Centrismo",
+      "decisionOriginal": "C",
+      "tratamientoActual": {
+        "clase": "exclusion",
+        "equivalenciaConCorriente": false,
+        "motivo": "Posición relacional o estrategia de moderación, no un paquete doctrinal estable que merezca región propia."
+      }
+    },
+    {
+      "numero": 97,
+      "etiquetaOriginal": "National Liberalism",
+      "normalizacion": "Liberalismo nacional",
+      "decisionOriginal": "B",
+      "tratamientoActual": {
+        "clase": "region",
+        "corrienteId": "liberalismo-nacional",
+        "decisionCapa": "B",
+        "publicacionGeometrica": "publicada",
+        "equivalenciaConCorriente": true,
+        "motivo": "Necesita concretar nación cívica o cultural y periodo; no se deriva de defender símbolos o unidad territorial."
+      }
+    },
+    {
+      "numero": 98,
+      "etiquetaOriginal": "General Capitalism",
+      "normalizacion": "Capitalismo general",
+      "decisionOriginal": "C",
+      "tratamientoActual": {
+        "clase": "faceta",
+        "corrienteId": "capitalismo-general",
+        "decisionCapa": "B",
+        "equivalenciaConCorriente": true,
+        "motivo": "Es un eje económico, no una doctrina institucional completa: liberalismo social, economía mixta, nacionalcapitalismo y ancap permanecen separados."
+      }
+    },
+    {
+      "numero": 99,
+      "etiquetaOriginal": "Anti Communism",
+      "normalizacion": "Anticomunismo",
+      "decisionOriginal": "C",
+      "tratamientoActual": {
+        "clase": "exclusion",
+        "equivalenciaConCorriente": false,
+        "motivo": "Rechazo transversal compartido por doctrinas incompatibles y por motivos distintos; no determina una alternativa positiva."
+      }
+    },
+    {
+      "numero": 100,
+      "etiquetaOriginal": "Dark Enlightenment",
+      "normalizacion": "Ilustración Oscura/neorreacción",
+      "decisionOriginal": "B",
+      "tratamientoActual": {
+        "clase": "region",
+        "corrienteId": "neorreaccion",
+        "decisionCapa": "B",
+        "publicacionGeometrica": "bloqueada-investigacion",
+        "equivalenciaConCorriente": true,
+        "motivo": "Nicho anglófono de baja presencia; su economía no es única y requiere nuevos discriminantes antes de mapearse."
+      }
+    },
+    {
+      "numero": 101,
+      "etiquetaOriginal": "Social Darwinism",
+      "normalizacion": "Darwinismo social",
+      "decisionOriginal": "E",
+      "tratamientoActual": {
+        "clase": "faceta",
+        "corrienteId": "darwinismo-social",
+        "decisionCapa": "B",
+        "equivalenciaConCorriente": true,
+        "motivo": "No es biología evolutiva ni liberalismo corriente; aparece solo con periodo, contexto y cautela frente a jerarquías étnicas y eugenesia."
+      }
+    },
+    {
+      "numero": 102,
+      "etiquetaOriginal": "Progressivism",
+      "normalizacion": "Progresismo",
+      "decisionOriginal": "C",
+      "tratamientoActual": {
+        "clase": "faceta",
+        "corrienteId": "progresismo",
+        "decisionCapa": "B",
+        "equivalenciaConCorriente": true,
+        "motivo": "No equivale a izquierda económica ni a un partido concreto; derechos LGTB, feminismo, ecología y reforma institucional se desglosan en facetas independientes."
+      }
+    },
+    {
+      "numero": 103,
+      "etiquetaOriginal": "Third Way",
+      "normalizacion": "Tercera vía",
+      "decisionOriginal": "B",
+      "tratamientoActual": {
+        "clase": "region",
+        "corrienteId": "tercera-via",
+        "decisionCapa": "B",
+        "publicacionGeometrica": "bloqueada-investigacion",
+        "equivalenciaConCorriente": true,
+        "motivo": "Debe delimitarse por periodo y programa; no equivale al simple centro ni a cualquier moderación del PSOE."
+      }
+    },
+    {
+      "numero": 104,
+      "etiquetaOriginal": "Girondism",
+      "normalizacion": "Girondinismo",
+      "decisionOriginal": "E",
+      "tratamientoActual": {
+        "clase": "contexto",
+        "corrienteId": "girondinismo",
+        "decisionCapa": "B",
+        "equivalenciaConCorriente": true,
+        "motivo": "Contexto histórico francés, no sinónimo de moderación o federalismo español; su economía y cohesión interna fueron variables."
+      }
+    },
+    {
+      "numero": 105,
+      "etiquetaOriginal": "Kleptocracy",
+      "normalizacion": "Cleptocracia",
+      "decisionOriginal": "C",
+      "tratamientoActual": {
+        "clase": "diagnostico",
+        "corrienteId": "cleptocracia",
+        "decisionCapa": "B",
+        "equivalenciaConCorriente": true,
+        "motivo": "Diagnóstico, no ideología ni resultado identitario; se explica para auditar corrupción, transparencia y rendición de cuentas sin atribuirla a un eje económico."
+      }
+    },
+    {
+      "numero": 106,
+      "etiquetaOriginal": "Council Communism",
+      "normalizacion": "Comunismo de consejos",
+      "decisionOriginal": "B",
+      "tratamientoActual": {
+        "clase": "region",
+        "corrienteId": "consejismo",
+        "decisionCapa": "B",
+        "publicacionGeometrica": "publicada",
+        "equivalenciaConCorriente": true,
+        "motivo": "Referencia exhaustiva para distinguir poder obrero directo de vanguardia leninista y sindicalismo institucional."
+      }
+    },
+    {
+      "numero": 107,
+      "etiquetaOriginal": "Democratic Confederalism",
+      "normalizacion": "Confederalismo democrático",
+      "decisionOriginal": "A",
+      "tratamientoActual": {
+        "clase": "region",
+        "corrienteId": "confederalismo-democratico",
+        "decisionCapa": "A",
+        "publicacionGeometrica": "publicada",
+        "equivalenciaConCorriente": true,
+        "motivo": "Referencia internacional contextual; no debe trasladarse automáticamente al federalismo o independentismo español."
+      }
+    },
+    {
+      "numero": 108,
+      "etiquetaOriginal": "Greenism",
+      "normalizacion": "Ecologismo verde",
+      "decisionOriginal": "A",
+      "tratamientoActual": {
+        "clase": "faceta",
+        "corrienteId": "ecologismo-verde",
+        "decisionCapa": "A",
+        "equivalenciaConCorriente": true,
+        "motivo": "Debe ser nodo de familia: ecología no fija propiedad, nuclear civil, crecimiento ni arquitectura política."
+      }
+    },
+    {
+      "numero": 109,
+      "etiquetaOriginal": "Social Democracy",
+      "normalizacion": "Socialdemocracia",
+      "decisionOriginal": "A",
+      "tratamientoActual": {
+        "clase": "region",
+        "corrienteId": "socialdemocracia",
+        "decisionCapa": "A",
+        "publicacionGeometrica": "publicada",
+        "equivalenciaConCorriente": true,
+        "motivo": "Tipo doctrinal central para comparar al PSOE y otras izquierdas sin confundir programa ideal y conducta de gobierno."
+      }
+    },
+    {
+      "numero": 110,
+      "etiquetaOriginal": "Social Liberalism",
+      "normalizacion": "Liberalismo social",
+      "decisionOriginal": "A",
+      "tratamientoActual": {
+        "clase": "region",
+        "corrienteId": "liberalismo-social",
+        "decisionCapa": "A",
+        "publicacionGeometrica": "publicada",
+        "equivalenciaConCorriente": true,
+        "motivo": "Pieza central pendiente para densificar centroizquierda y separar liberalismo clásico, socialdemocracia y tercera vía."
+      }
+    },
+    {
+      "numero": 111,
+      "etiquetaOriginal": "Neo Liberalism",
+      "normalizacion": "Neoliberalismo",
+      "decisionOriginal": "A",
+      "tratamientoActual": {
+        "clase": "region",
+        "corrienteId": "neoliberalismo",
+        "decisionCapa": "A",
+        "publicacionGeometrica": "publicada",
+        "equivalenciaConCorriente": true,
+        "motivo": "La ficha es friedmaniana y no representa ordoliberalismo, todo el Consenso de Washington ni usos peyorativos del término."
+      }
+    },
+    {
+      "numero": 112,
+      "etiquetaOriginal": "Green Libertarianism",
+      "normalizacion": "Libertarismo verde",
+      "decisionOriginal": "B",
+      "tratamientoActual": {
+        "clase": "faceta",
+        "corrienteId": "libertarismo-verde",
+        "decisionCapa": "B",
+        "equivalenciaConCorriente": true,
+        "motivo": "No equivale a ecomodernismo ni permite inferir apoyo nuclear, decrecimiento o laissez-faire general."
+      }
+    },
+    {
+      "numero": 113,
+      "etiquetaOriginal": "Confederalism",
+      "normalizacion": "Confederalismo",
+      "decisionOriginal": "C",
+      "tratamientoActual": {
+        "clase": "faceta",
+        "corrienteId": "confederalismo",
+        "decisionCapa": "B",
+        "equivalenciaConCorriente": true,
+        "motivo": "Faceta territorial visible que no fija izquierda o derecha; se distingue de federalismo constitucional, autonomías y confederalismo democrático de base."
+      }
+    },
+    {
+      "numero": 114,
+      "etiquetaOriginal": "Laissez Faire Capitalism",
+      "normalizacion": "Capitalismo laissez-faire",
+      "decisionOriginal": "B",
+      "tratamientoActual": {
+        "clase": "faceta",
+        "corrienteId": "capitalismo-laissez-faire",
+        "decisionCapa": "B",
+        "equivalenciaConCorriente": true,
+        "motivo": "No determina por sí solo pluralismo, moral pública, territorio o política exterior y por eso exige eje Poder independiente."
+      }
+    },
+    {
+      "numero": 115,
+      "etiquetaOriginal": "Transhumanism",
+      "normalizacion": "Transhumanismo",
+      "decisionOriginal": "C",
+      "tratamientoActual": {
+        "clase": "faceta",
+        "corrienteId": "transhumanismo",
+        "decisionCapa": "B",
+        "equivalenciaConCorriente": true,
+        "motivo": "Se muestra como faceta bioética y tecnológica; no hereda una economía ni una posición sobre democracia y faltan preguntas específicas para matching fuerte."
+      }
+    },
+    {
+      "numero": 116,
+      "etiquetaOriginal": "Luxemburgism",
+      "normalizacion": "Luxemburgismo",
+      "decisionOriginal": "A",
+      "tratamientoActual": {
+        "clase": "region",
+        "corrienteId": "luxemburguismo",
+        "decisionCapa": "A",
+        "publicacionGeometrica": "publicada",
+        "equivalenciaConCorriente": true,
+        "motivo": "Distingue democracia obrera e internacionalismo de centralismo leninista sin convertir a Luxemburg en anarquista."
+      }
+    },
+    {
+      "numero": 117,
+      "etiquetaOriginal": "Liberal Socialism",
+      "normalizacion": "Socialismo liberal",
+      "decisionOriginal": "B",
+      "tratamientoActual": {
+        "clase": "faceta",
+        "corrienteId": "socialismo-liberal",
+        "decisionCapa": "B",
+        "equivalenciaConCorriente": true,
+        "motivo": "Necesita una variante delimitada; no es sinónimo automático de anarquismo, socioliberalismo o socialdemocracia."
+      }
+    },
+    {
+      "numero": 118,
+      "etiquetaOriginal": "Utopian Socialism",
+      "normalizacion": "Socialismo utópico",
+      "decisionOriginal": "E",
+      "tratamientoActual": {
+        "clase": "contexto",
+        "corrienteId": "socialismo-utopico",
+        "decisionCapa": "B",
+        "equivalenciaConCorriente": true,
+        "motivo": "Contexto histórico; no se usa utópico como descalificación ni se atribuye a toda persona favorable a cooperativas o propiedad social."
+      }
+    },
+    {
+      "numero": 119,
+      "etiquetaOriginal": "Democratic Socialism",
+      "normalizacion": "Socialismo democrático pluralista",
+      "decisionOriginal": "A",
+      "tratamientoActual": {
+        "clase": "region",
+        "corrienteId": "socialismo-democratico",
+        "decisionCapa": "A",
+        "publicacionGeometrica": "publicada",
+        "equivalenciaConCorriente": true,
+        "motivo": "La ficha contemporánea no debe representar por sí sola todas las variantes históricas o partidarias del socialismo democrático."
+      }
+    },
+    {
+      "numero": 120,
+      "etiquetaOriginal": "Social Libertarianism",
+      "normalizacion": "Libertarismo social",
+      "decisionOriginal": "B",
+      "tratamientoActual": {
+        "clase": "faceta",
+        "corrienteId": "libertarismo-social",
+        "decisionCapa": "B",
+        "equivalenciaConCorriente": true,
+        "motivo": "Debe abrir ramas concretas y no competir como un punto único con anarquismos o socialismo democrático."
+      }
+    },
+    {
+      "numero": 121,
+      "etiquetaOriginal": "Libertarianism",
+      "normalizacion": "Libertarismo",
+      "decisionOriginal": "C",
+      "tratamientoActual": {
+        "clase": "faceta",
+        "corrienteId": "libertarismo-general",
+        "decisionCapa": "B",
+        "equivalenciaConCorriente": true,
+        "motivo": "Nodo paraguas: no presupone capitalismo, izquierda, derecha ni abolición total del Estado y debe abrir siempre sus ramas más precisas."
+      }
+    },
+    {
+      "numero": 122,
+      "etiquetaOriginal": "Distributist Libertarianism",
+      "normalizacion": "Distributismo libertario",
+      "decisionOriginal": "B",
+      "tratamientoActual": {
+        "clase": "contexto",
+        "corrienteId": "liberalismo-igualitario-rawlsiano",
+        "decisionCapa": "B",
+        "equivalenciaConCorriente": false,
+        "motivo": "El modificador libertario carece de un corpus estable distinto del distributismo general; se conserva como contexto de la imagen, no como identidad calculable."
+      }
+    },
+    {
+      "numero": 123,
+      "etiquetaOriginal": "Classical Liberalism",
+      "normalizacion": "Liberalismo clásico",
+      "decisionOriginal": "A",
+      "tratamientoActual": {
+        "clase": "region",
+        "corrienteId": "liberalismo-clasico",
+        "decisionCapa": "A",
+        "publicacionGeometrica": "publicada",
+        "equivalenciaConCorriente": true,
+        "motivo": "Referencia doctrinal separada de minarquismo, ancap y partidos españoles actuales que usan la etiqueta liberal."
+      }
+    },
+    {
+      "numero": 124,
+      "etiquetaOriginal": "Marxism",
+      "normalizacion": "Marxismo",
+      "decisionOriginal": "C",
+      "tratamientoActual": {
+        "clase": "faceta",
+        "corrienteId": "marxismo-general",
+        "decisionCapa": "B",
+        "equivalenciaConCorriente": true,
+        "motivo": "Ficha paraguas para quien comparte el diagnóstico sin encajar en una rama; leninismo, consejismo, luxemburguismo y eurocomunismo siguen separados."
+      }
+    },
+    {
+      "numero": 125,
+      "etiquetaOriginal": "Gandhism",
+      "normalizacion": "Gandhismo",
+      "decisionOriginal": "E",
+      "tratamientoActual": {
+        "clase": "contexto",
+        "corrienteId": "gandhismo",
+        "decisionCapa": "B",
+        "equivalenciaConCorriente": true,
+        "motivo": "Contexto indio histórico, no simple pacifismo ni culto personal; exige combinar no violencia, acción directa y descentralización comunitaria."
+      }
+    },
+    {
+      "numero": 126,
+      "etiquetaOriginal": "Syndicalism",
+      "normalizacion": "Sindicalismo",
+      "decisionOriginal": "D",
+      "tratamientoActual": {
+        "clase": "faceta",
+        "corrienteId": "sindicalismo-politico",
+        "decisionCapa": "B",
+        "equivalenciaConCorriente": true,
+        "motivo": "Funciona como paraguas visible: anarcosindicalismo, sindicalismo revolucionario, concertación reformista y sindicalismo nacional no son equivalentes."
+      }
+    },
+    {
+      "numero": 127,
+      "etiquetaOriginal": "Anti Authoritarianism",
+      "normalizacion": "Antiautoritarismo",
+      "decisionOriginal": "C",
+      "tratamientoActual": {
+        "clase": "faceta",
+        "corrienteId": "antiautoritarismo",
+        "decisionCapa": "B",
+        "equivalenciaConCorriente": true,
+        "motivo": "Es una faceta institucional compatible con economías distintas; no convierte por sí sola a una persona en anarquista ni fija un programa territorial."
+      }
+    },
+    {
+      "numero": 128,
+      "etiquetaOriginal": "Astro Libertarianism",
+      "normalizacion": "Astrolibertarismo",
+      "decisionOriginal": "F",
+      "tratamientoActual": {
+        "clase": "exclusion",
+        "equivalenciaConCorriente": false,
+        "motivo": "Construcción especulativa de comunidades de memes sin tradición política delimitada ni aplicación española verificable."
+      }
+    },
+    {
+      "numero": 129,
+      "etiquetaOriginal": "National Libertarianism",
+      "normalizacion": "Libertarismo nacional",
+      "decisionOriginal": "B",
+      "tratamientoActual": {
+        "clase": "region",
+        "corrienteId": "libertarismo-nacional",
+        "decisionCapa": "B",
+        "publicacionGeometrica": "bloqueada-investigacion",
+        "equivalenciaConCorriente": true,
+        "motivo": "Debe concretar nación cívica o cultural y no puede deducirse de una respuesta fiscal o territorial aislada."
+      }
+    },
+    {
+      "numero": 130,
+      "etiquetaOriginal": "Paleo Libertarianism",
+      "normalizacion": "Paleolibertarismo",
+      "decisionOriginal": "B",
+      "tratamientoActual": {
+        "clase": "region",
+        "corrienteId": "paleolibertarismo",
+        "decisionCapa": "B",
+        "publicacionGeometrica": "publicada",
+        "equivalenciaConCorriente": true,
+        "motivo": "Referencia internacional de nicho; no debe usarse como sinónimo de ancap conservador ni de derecha española."
+      }
+    },
+    {
+      "numero": 131,
+      "etiquetaOriginal": "Situationism",
+      "normalizacion": "Situacionismo",
+      "decisionOriginal": "E",
+      "tratamientoActual": {
+        "clase": "contexto",
+        "corrienteId": "situacionismo",
+        "decisionCapa": "B",
+        "equivalenciaConCorriente": true,
+        "motivo": "Referencia europea histórica, no estilo estético ni protesta genérica; se aproxima a consejismo pero conserva crítica cultural propia."
+      }
+    },
+    {
+      "numero": 132,
+      "etiquetaOriginal": "Market Socialism",
+      "normalizacion": "Socialismo de mercado",
+      "decisionOriginal": "A",
+      "tratamientoActual": {
+        "clase": "faceta",
+        "corrienteId": "socialismo-mercado",
+        "decisionCapa": "A",
+        "equivalenciaConCorriente": true,
+        "motivo": "Distingue cooperativas competitivas de ministerios planificadores y capitalismo privado; la arquitectura política sigue separada."
+      }
+    },
+    {
+      "numero": 133,
+      "etiquetaOriginal": "Left Rothbardianism",
+      "normalizacion": "Rothbardianismo de izquierda",
+      "decisionOriginal": "B",
+      "tratamientoActual": {
+        "clase": "region",
+        "corrienteId": "rothbardianismo-izquierda",
+        "decisionCapa": "B",
+        "publicacionGeometrica": "bloqueada-investigacion",
+        "equivalenciaConCorriente": true,
+        "motivo": "Nicho exhaustivo; no debe confundirse con ancap convencional ni con mutualismo por compartir mercados y antiestatismo."
+      }
+    },
+    {
+      "numero": 134,
+      "etiquetaOriginal": "Neozapatismo",
+      "normalizacion": "Neozapatismo",
+      "decisionOriginal": "E",
+      "tratamientoActual": {
+        "clase": "contexto",
+        "corrienteId": "neozapatismo",
+        "decisionCapa": "B",
+        "equivalenciaConCorriente": true,
+        "motivo": "Contexto mexicano con origen armado y evolución propia; municipalismo, plurinacionalidad o asambleísmo españoles no lo convierten en equivalente local."
+      }
+    },
+    {
+      "numero": 135,
+      "etiquetaOriginal": "Libertarian Feminism",
+      "normalizacion": "Feminismo libertario",
+      "decisionOriginal": "B",
+      "tratamientoActual": {
+        "clase": "faceta",
+        "corrienteId": "feminismo-libertario",
+        "decisionCapa": "B",
+        "equivalenciaConCorriente": true,
+        "motivo": "Necesita una rama delimitada; no puede derivarse de un único debate sobre prostitución, cuotas o identidad trans."
+      }
+    },
+    {
+      "numero": 136,
+      "etiquetaOriginal": "Korwinism",
+      "normalizacion": "Korwinismo",
+      "decisionOriginal": "E",
+      "tratamientoActual": {
+        "clase": "contexto",
+        "corrienteId": "korwinismo",
+        "decisionCapa": "B",
+        "equivalenciaConCorriente": true,
+        "motivo": "Contexto polaco fechado; no se aplica a todo liberal conservador, euroescéptico o defensor de impuestos bajos en España."
+      }
+    },
+    {
+      "numero": 137,
+      "etiquetaOriginal": "Christian Libertarianism",
+      "normalizacion": "Libertarismo cristiano",
+      "decisionOriginal": "B",
+      "tratamientoActual": {
+        "clase": "region",
+        "corrienteId": "libertarismo-cristiano",
+        "decisionCapa": "B",
+        "publicacionGeometrica": "bloqueada-investigacion",
+        "equivalenciaConCorriente": true,
+        "motivo": "Religión personal no implica confesionalidad; exige libertad de conciencia y una posición institucional explícita."
+      }
+    },
+    {
+      "numero": 138,
+      "etiquetaOriginal": "Propertarianism",
+      "normalizacion": "Propertarianismo",
+      "decisionOriginal": "B",
+      "tratamientoActual": {
+        "clase": "region",
+        "corrienteId": "propertarianismo",
+        "decisionCapa": "B",
+        "publicacionGeometrica": "bloqueada-investigacion",
+        "equivalenciaConCorriente": true,
+        "motivo": "No se identifica por rechazar impuestos: necesita medir autoridad privada, exclusión contractual y pluralismo político."
+      }
+    },
+    {
+      "numero": 139,
+      "etiquetaOriginal": "Libertarian Socialism",
+      "normalizacion": "Socialismo libertario",
+      "decisionOriginal": "A",
+      "tratamientoActual": {
+        "clase": "faceta",
+        "corrienteId": "socialismo-libertario",
+        "decisionCapa": "A",
+        "equivalenciaConCorriente": true,
+        "motivo": "Nodo de familia para anarcocomunismo, colectivismo y otras ramas; no compite contra sus propios descendientes."
+      }
+    },
+    {
+      "numero": 140,
+      "etiquetaOriginal": "Libertarian Market Socialism",
+      "normalizacion": "Socialismo libertario de mercado",
+      "decisionOriginal": "B",
+      "tratamientoActual": {
+        "clase": "faceta",
+        "corrienteId": "socialismo-libertario-mercado",
+        "decisionCapa": "B",
+        "equivalenciaConCorriente": true,
+        "motivo": "Debe separar mutualismo, cooperativismo y democracia económica; los ítems actuales aún no fijan una rama única."
+      }
+    },
+    {
+      "numero": 141,
+      "etiquetaOriginal": "Mandelaism",
+      "normalizacion": "Mandelaísmo/mandelismo ambiguo",
+      "decisionOriginal": "F",
+      "tratamientoActual": {
+        "clase": "contexto",
+        "corrienteId": "anarquismo-sin-adjetivos",
+        "decisionCapa": "B",
+        "equivalenciaConCorriente": false,
+        "motivo": "El legado sudafricano se conserva como contexto democrático y anticolonial, no como doctrina cerrada ni identidad trasplantable al caso español."
+      }
+    },
+    {
+      "numero": 142,
+      "etiquetaOriginal": "Antifa",
+      "normalizacion": "Antifascismo militante",
+      "decisionOriginal": "D",
+      "tratamientoActual": {
+        "clase": "exclusion",
+        "equivalenciaConCorriente": false,
+        "motivo": "Red plural de movimientos y tácticas antifascistas, no una doctrina integral única; antifascismo, violencia, pluralismo y estrategia se miden por separado."
+      }
+    },
+    {
+      "numero": 143,
+      "etiquetaOriginal": "Georgism",
+      "normalizacion": "Georgismo",
+      "decisionOriginal": "B",
+      "tratamientoActual": {
+        "clase": "region",
+        "corrienteId": "georgismo",
+        "decisionCapa": "B",
+        "publicacionGeometrica": "bloqueada-investigacion",
+        "equivalenciaConCorriente": true,
+        "motivo": "Falta un ítem directo sobre renta del suelo; fiscalidad general o vivienda no identifican por sí solas georgismo."
+      }
+    },
+    {
+      "numero": 144,
+      "etiquetaOriginal": "Objectivism",
+      "normalizacion": "Objetivismo randiano",
+      "decisionOriginal": "B",
+      "tratamientoActual": {
+        "clase": "region",
+        "corrienteId": "objetivismo",
+        "decisionCapa": "B",
+        "publicacionGeometrica": "publicada",
+        "equivalenciaConCorriente": true,
+        "motivo": "Referencia filosófica de nicho; no equivale a todo libertarismo ni se deduce de apoyar empresa privada."
+      }
+    },
+    {
+      "numero": 145,
+      "etiquetaOriginal": "Bleeding-Heart Libertarianism",
+      "normalizacion": "Libertarismo compasivo",
+      "decisionOriginal": "B",
+      "tratamientoActual": {
+        "clase": "region",
+        "corrienteId": "libertarismo-compasivo",
+        "decisionCapa": "B",
+        "publicacionGeometrica": "publicada",
+        "equivalenciaConCorriente": true,
+        "motivo": "Baja relevancia partidaria directa; aporta contraste entre libertarismo económico y despreocupación distributiva."
+      }
+    },
+    {
+      "numero": 146,
+      "etiquetaOriginal": "Neo Libertarianism",
+      "normalizacion": "Neolibertarismo",
+      "decisionOriginal": "F",
+      "tratamientoActual": {
+        "clase": "contexto",
+        "corrienteId": "neolibertarismo-estadounidense",
+        "decisionCapa": "B",
+        "equivalenciaConCorriente": true,
+        "motivo": "Etiqueta internacional ambigua y de baja implantación; se declara el uso elegido y se distingue de neoliberalismo, minarquismo y libertarismo antiintervencionista."
+      }
+    },
+    {
+      "numero": 147,
+      "etiquetaOriginal": "Minarchism",
+      "normalizacion": "Minarquismo",
+      "decisionOriginal": "A",
+      "tratamientoActual": {
+        "clase": "region",
+        "corrienteId": "minarquismo",
+        "decisionCapa": "A",
+        "publicacionGeometrica": "publicada",
+        "equivalenciaConCorriente": true,
+        "motivo": "Referencia útil porque P-LIB se declara minarquista; se distingue del ancap, que elimina también esos monopolios estatales."
+      }
+    },
+    {
+      "numero": 148,
+      "etiquetaOriginal": "Accelerationism (Left)",
+      "normalizacion": "Aceleracionismo de izquierda",
+      "decisionOriginal": "B",
+      "tratamientoActual": {
+        "clase": "faceta",
+        "corrienteId": "aceleracionismo-izquierda",
+        "decisionCapa": "B",
+        "equivalenciaConCorriente": true,
+        "motivo": "No equivale a terrorismo ni a velocidad política genérica; falta un módulo sobre automatización, trabajo y tecnología."
+      }
+    },
+    {
+      "numero": 149,
+      "etiquetaOriginal": "Anarcho communism",
+      "normalizacion": "Anarcocomunismo",
+      "decisionOriginal": "A",
+      "tratamientoActual": {
+        "clase": "region",
+        "corrienteId": "anarcocomunismo",
+        "decisionCapa": "A",
+        "publicacionGeometrica": "publicada",
+        "equivalenciaConCorriente": true,
+        "motivo": "Corriente central en la historia libertaria española, separada del comunismo de partido-Estado y del colectivismo remunerado."
+      }
+    },
+    {
+      "numero": 150,
+      "etiquetaOriginal": "Minarcho Socialism",
+      "normalizacion": "Socialismo minarquista",
+      "decisionOriginal": "F",
+      "tratamientoActual": {
+        "clase": "exclusion",
+        "equivalenciaConCorriente": false,
+        "motivo": "Cruce internético sin corpus estable; socialismo de mercado, cooperativismo y distintas teorías de Estado mínimo permanecen como posiciones separadas."
+      }
+    },
+    {
+      "numero": 151,
+      "etiquetaOriginal": "Platformism",
+      "normalizacion": "Plataformismo/especifismo",
+      "decisionOriginal": "A",
+      "tratamientoActual": {
+        "clase": "region",
+        "corrienteId": "plataformismo",
+        "decisionCapa": "A",
+        "publicacionGeometrica": "publicada",
+        "equivalenciaConCorriente": true,
+        "motivo": "Distingue coordinación libertaria de espontaneísmo y vanguardia leninista; falta un ítem directo de responsabilidad colectiva."
+      }
+    },
+    {
+      "numero": 152,
+      "etiquetaOriginal": "Anarcho Pacifism",
+      "normalizacion": "Anarcopacifismo",
+      "decisionOriginal": "A",
+      "tratamientoActual": {
+        "clase": "region",
+        "corrienteId": "anarcopacifismo",
+        "decisionCapa": "A",
+        "publicacionGeometrica": "publicada",
+        "equivalenciaConCorriente": true,
+        "motivo": "La ficha es tolstoyana y no agota ramas seculares o sindicalistas; el pacifismo aislado no define anarquismo."
+      }
+    },
+    {
+      "numero": 153,
+      "etiquetaOriginal": "Mutualism",
+      "normalizacion": "Mutualismo",
+      "decisionOriginal": "A",
+      "tratamientoActual": {
+        "clase": "region",
+        "corrienteId": "mutualismo",
+        "decisionCapa": "A",
+        "publicacionGeometrica": "publicada",
+        "equivalenciaConCorriente": true,
+        "motivo": "Muestra que mercado no implica capitalismo acumulativo ni ancap y conecta con tradiciones libertarias históricas."
+      }
+    },
+    {
+      "numero": 154,
+      "etiquetaOriginal": "Religious Anarchism",
+      "normalizacion": "Anarquismo religioso",
+      "decisionOriginal": "B",
+      "tratamientoActual": {
+        "clase": "faceta",
+        "corrienteId": "anarquismo-religioso",
+        "decisionCapa": "B",
+        "equivalenciaConCorriente": true,
+        "motivo": "Religión no implica confesionalidad; se necesita una rama concreta y libertad de conciencia explícita."
+      }
+    },
+    {
+      "numero": 155,
+      "etiquetaOriginal": "Anarcho Fascism",
+      "normalizacion": "“Anarcofascismo”",
+      "decisionOriginal": "F",
+      "tratamientoActual": {
+        "clase": "exclusion",
+        "equivalenciaConCorriente": false,
+        "motivo": "Cruce de internet sin tradición estable; sus proposiciones reales deben medirse por autoridad, propiedad y violencia."
+      }
+    },
+    {
+      "numero": 156,
+      "etiquetaOriginal": "Agorism",
+      "normalizacion": "Agorismo",
+      "decisionOriginal": "B",
+      "tratamientoActual": {
+        "clase": "region",
+        "corrienteId": "agorismo",
+        "decisionCapa": "B",
+        "publicacionGeometrica": "bloqueada-investigacion",
+        "equivalenciaConCorriente": true,
+        "motivo": "Falta un ítem directo de contraeconomía; desobediencia o economía informal aisladas no bastan para identificarla."
+      }
+    },
+    {
+      "numero": 157,
+      "etiquetaOriginal": "Anarcho Monarchism",
+      "normalizacion": "“Anarcomonarquismo”",
+      "decisionOriginal": "F",
+      "tratamientoActual": {
+        "clase": "exclusion",
+        "equivalenciaConCorriente": false,
+        "motivo": "Cruce internético sin cuerpo doctrinal delimitado; monarquía simbólica y antiestatismo se miden por separado."
+      }
+    },
+    {
+      "numero": 158,
+      "etiquetaOriginal": "Pink Capitalism",
+      "normalizacion": "Capitalismo rosa",
+      "decisionOriginal": "D",
+      "tratamientoActual": {
+        "clase": "exclusion",
+        "equivalenciaConCorriente": false,
+        "motivo": "Estrategia comercial y coalición entre mercado y derechos LGTB, no corriente política integral estable."
+      }
+    },
+    {
+      "numero": 159,
+      "etiquetaOriginal": "Anarcho capitalism",
+      "normalizacion": "Anarcocapitalismo rothbardiano",
+      "decisionOriginal": "A",
+      "tratamientoActual": {
+        "clase": "region",
+        "corrienteId": "anarcocapitalismo",
+        "decisionCapa": "A",
+        "publicacionGeometrica": "publicada",
+        "equivalenciaConCorriente": true,
+        "motivo": "Tipo ideal sin partido equivalente necesario; permite que una persona aparezca aunque ninguna candidatura la represente."
+      }
+    },
+    {
+      "numero": 160,
+      "etiquetaOriginal": "Accelerationism (Right)",
+      "normalizacion": "Aceleracionismo de derecha",
+      "decisionOriginal": "B",
+      "tratamientoActual": {
+        "clase": "faceta",
+        "corrienteId": "aceleracionismo-derecha",
+        "decisionCapa": "B",
+        "equivalenciaConCorriente": true,
+        "motivo": "Debe separar neorreacción filosófica de aceleracionismo neonazi terrorista; el segundo queda fuera del atlas identitario."
+      }
+    },
+    {
+      "numero": 161,
+      "etiquetaOriginal": "Anarcho Posadism",
+      "normalizacion": "“Anarcoposadismo”",
+      "decisionOriginal": "F",
+      "tratamientoActual": {
+        "clase": "exclusion",
+        "equivalenciaConCorriente": false,
+        "motivo": "Meme que combina ramas incompatibles; el Posadismo histórico y los anarquismos serios permanecen separados."
+      }
+    },
+    {
+      "numero": 162,
+      "etiquetaOriginal": "Anarcho Syndicalism",
+      "normalizacion": "Anarcosindicalismo",
+      "decisionOriginal": "A",
+      "tratamientoActual": {
+        "clase": "region",
+        "corrienteId": "anarcosindicalismo",
+        "decisionCapa": "A",
+        "publicacionGeometrica": "publicada",
+        "equivalenciaConCorriente": true,
+        "motivo": "Referencia de máxima importancia histórica por la CNT, separada de sindicatos actuales y del sindicalismo nacional corporativo."
+      }
+    },
+    {
+      "numero": 163,
+      "etiquetaOriginal": "Anarcha Feminism",
+      "normalizacion": "Anarcofeminismo",
+      "decisionOriginal": "B",
+      "tratamientoActual": {
+        "clase": "region",
+        "corrienteId": "anarcofeminismo",
+        "decisionCapa": "B",
+        "publicacionGeometrica": "bloqueada-investigacion",
+        "equivalenciaConCorriente": true,
+        "motivo": "Mujeres Libres aporta una conexión histórica, pero faltan preguntas sobre poder doméstico no estatal."
+      }
+    },
+    {
+      "numero": 164,
+      "etiquetaOriginal": "Queer Anarchism",
+      "normalizacion": "Anarquismo queer",
+      "decisionOriginal": "B",
+      "tratamientoActual": {
+        "clase": "region",
+        "corrienteId": "anarquismo-queer",
+        "decisionCapa": "B",
+        "publicacionGeometrica": "bloqueada-investigacion",
+        "equivalenciaConCorriente": true,
+        "motivo": "Requiere módulo y fuentes propios; no se identifica por una respuesta aislada en debates LGTB o trans."
+      }
+    },
+    {
+      "numero": 165,
+      "etiquetaOriginal": "Anarcho Collectivism",
+      "normalizacion": "Anarquismo colectivista",
+      "decisionOriginal": "A",
+      "tratamientoActual": {
+        "clase": "region",
+        "corrienteId": "anarquismo-colectivista",
+        "decisionCapa": "A",
+        "publicacionGeometrica": "publicada",
+        "equivalenciaConCorriente": true,
+        "motivo": "Tradición histórica central; falta un discriminante directo para separarla de distribución por necesidades anarcocomunista."
+      }
+    },
+    {
+      "numero": 166,
+      "etiquetaOriginal": "Eco Anarchism",
+      "normalizacion": "Ecoanarquismo/ecología social",
+      "decisionOriginal": "B",
+      "tratamientoActual": {
+        "clase": "region",
+        "corrienteId": "ecoanarquismo",
+        "decisionCapa": "B",
+        "publicacionGeometrica": "publicada",
+        "equivalenciaConCorriente": true,
+        "motivo": "El comunalismo cubre una rama, pero ecoanarquismo general no debe duplicar a Bookchin ni al decrecimiento."
+      }
+    },
+    {
+      "numero": 167,
+      "etiquetaOriginal": "Egoism",
+      "normalizacion": "Egoísmo anarquista/stirneriano",
+      "decisionOriginal": "B",
+      "tratamientoActual": {
+        "clase": "region",
+        "corrienteId": "egoismo-anarquista",
+        "decisionCapa": "B",
+        "publicacionGeometrica": "bloqueada-investigacion",
+        "equivalenciaConCorriente": true,
+        "motivo": "No debe heredar la economía del individualismo tuckeriano; falta medir relación con normas comunitarias y propiedad."
+      }
+    },
+    {
+      "numero": 168,
+      "etiquetaOriginal": "Individualist Anarchism",
+      "normalizacion": "Anarquismo individualista",
+      "decisionOriginal": "A",
+      "tratamientoActual": {
+        "clase": "region",
+        "corrienteId": "anarquismo-individualista",
+        "decisionCapa": "A",
+        "publicacionGeometrica": "publicada",
+        "equivalenciaConCorriente": true,
+        "motivo": "Distingue individualismo histórico de ancap y egoísmo stirneriano; la variante tuckeriana se declara siempre."
+      }
+    },
+    {
+      "numero": 169,
+      "etiquetaOriginal": "Voluntaryism",
+      "normalizacion": "Voluntarismo político",
+      "decisionOriginal": "B",
+      "tratamientoActual": {
+        "clase": "region",
+        "corrienteId": "voluntarismo",
+        "decisionCapa": "B",
+        "publicacionGeometrica": "bloqueada-investigacion",
+        "equivalenciaConCorriente": true,
+        "motivo": "Muy solapada con ancap; necesita demostrar información incremental más allá de impuestos y Estado mínimo."
+      }
+    },
+    {
+      "numero": 170,
+      "etiquetaOriginal": "Hoppeanism",
+      "normalizacion": "Hoppeanismo",
+      "decisionOriginal": "B",
+      "tratamientoActual": {
+        "clase": "region",
+        "corrienteId": "hoppeanismo",
+        "decisionCapa": "B",
+        "publicacionGeometrica": "bloqueada-investigacion",
+        "equivalenciaConCorriente": true,
+        "motivo": "Sensible por sus posibles políticas de exclusión; no se deriva de rechazo fiscal ni se equipara a todo ancap."
+      }
+    },
+    {
+      "numero": 171,
+      "etiquetaOriginal": "Anarcho Darwinism",
+      "normalizacion": "“Anarcodarwinismo”",
+      "decisionOriginal": "F",
+      "tratamientoActual": {
+        "clase": "exclusion",
+        "equivalenciaConCorriente": false,
+        "motivo": "Cruce internético sin escuela histórica delimitada; naturalismo, jerarquía social y anarquismos reales no deben fusionarse en una identidad ficticia."
+      }
+    },
+    {
+      "numero": 172,
+      "etiquetaOriginal": "Soulism",
+      "normalizacion": "Soulism/ego-comunalismo de foro",
+      "decisionOriginal": "F",
+      "tratamientoActual": {
+        "clase": "exclusion",
+        "equivalenciaConCorriente": false,
+        "motivo": "Creación de comunidades polcompball sin corpus académico o político estable para una aplicación seria."
+      }
+    },
+    {
+      "numero": 173,
+      "etiquetaOriginal": "Anarcho Nazbol",
+      "normalizacion": "“Anarco-nazbol”",
+      "decisionOriginal": "F",
+      "tratamientoActual": {
+        "clase": "exclusion",
+        "equivalenciaConCorriente": false,
+        "motivo": "Combinación memética de doctrinas incompatibles, sin corpus estable; nacionalbolchevismo y anarquismos serios se conservan separados."
+      }
+    },
+    {
+      "numero": 174,
+      "etiquetaOriginal": "Anarcho primitivism",
+      "normalizacion": "Anarcoprimitivismo",
+      "decisionOriginal": "B",
+      "tratamientoActual": {
+        "clase": "region",
+        "corrienteId": "anarcoprimitivismo",
+        "decisionCapa": "B",
+        "publicacionGeometrica": "bloqueada-investigacion",
+        "equivalenciaConCorriente": true,
+        "motivo": "Falta un ítem directo sobre desmantelar civilización industrial; límites al crecimiento y energías limpias no bastan."
+      }
+    },
+    {
+      "numero": 175,
+      "etiquetaOriginal": "True Anarchism",
+      "normalizacion": "“Anarquismo verdadero”",
+      "decisionOriginal": "F",
+      "tratamientoActual": {
+        "clase": "exclusion",
+        "equivalenciaConCorriente": false,
+        "motivo": "Etiqueta de exclusión o gatekeeping, no una corriente; se sustituye por ramas anarquistas documentadas."
+      }
+    },
+    {
+      "numero": 176,
+      "etiquetaOriginal": "Anarcho Frontierism",
+      "normalizacion": "“Anarcofronterismo”",
+      "decisionOriginal": "F",
+      "tratamientoActual": {
+        "clase": "exclusion",
+        "equivalenciaConCorriente": false,
+        "motivo": "Etiqueta especulativa de comunidades de memes sin tradición documentada ni contenido incremental sobre anarquismo individualista, voluntarismo o descentralización."
+      }
+    },
+    {
+      "numero": 177,
+      "etiquetaOriginal": "Illegalism",
+      "normalizacion": "Ilegalismo histórico",
+      "decisionOriginal": "D",
+      "tratamientoActual": {
+        "clase": "faceta",
+        "corrienteId": "ilegalismo-anarquista",
+        "decisionCapa": "B",
+        "equivalenciaConCorriente": true,
+        "motivo": "Contexto histórico y táctico, nunca recomendación operativa ni identidad lúdica; desobediencia civil u ocupación pacífica no bastan para inferirlo."
+      }
+    },
+    {
+      "numero": 178,
+      "etiquetaOriginal": "Avaritionism",
+      "normalizacion": "Avaricionismo",
+      "decisionOriginal": "F",
+      "tratamientoActual": {
+        "clase": "exclusion",
+        "equivalenciaConCorriente": false,
+        "motivo": "Ideología meme de foro sin tradición documentada y sin preguntas neutrales que aporten información política real."
+      }
+    }
+  ]
+}

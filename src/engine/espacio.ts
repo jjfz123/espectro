@@ -1,5 +1,7 @@
 import { calcularFacetas } from './ideologia.js';
 import type { OpcionesFacetas } from './ideologia.js';
+import { coordenadaAuditable } from './evidenciaMapa.js';
+import type { CoordenadaAuditable } from './evidenciaMapa.js';
 import type { Eje, Item, PerfilAfinidad, Respuesta, ResultadoFaceta } from './types.js';
 
 /**
@@ -38,6 +40,14 @@ export interface ProyeccionEspacial {
   facetas: ResultadoFaceta[];
   /** Ejes cuya evidencia documental no alcanza el umbral. */
   ejesInsuficientes: string[];
+  /**
+   * Recibo por eje cuando se proyecta una organización con el contrato
+   * documental estricto. No existe en la proyección de un usuario ni altera
+   * la de una referencia doctrinal.
+   */
+  evidenciaDocumental?: Record<string, CoordenadaAuditable>;
+  /** Vetos del perfil que se aplican igual en brújula, planos y cubo. */
+  bloqueosPerfil?: string[];
 }
 
 /**
@@ -99,6 +109,98 @@ export function proyectarEnEspacio(
 }
 
 /**
+ * Proyecta un partido después de auditar cada posición documental.
+ *
+ * A diferencia de `proyectarEnEspacio`, esta ruta no trata cada itemId como
+ * una observación independiente: descarta fuentes incompletas, evidencia baja,
+ * pasajes sin localizador y ceros no resueltos; después concede una sola
+ * contribución a cada pasaje deduplicado. El mínimo se expresa por tanto en
+ * grupos documentales, no en posiciones crudas.
+ *
+ * Se mantiene separada de la ruta general para no cambiar la puntuación del
+ * usuario ni las referencias doctrinales, cuyos contratos de publicación son
+ * distintos.
+ */
+export function proyectarPartidoEnEspacio(
+  perfil: PerfilAfinidad,
+  items: Item[],
+  ejes: Eje[],
+  opciones: OpcionesFacetas = UMBRAL_EVIDENCIA_ENTIDADES,
+): ProyeccionEspacial {
+  const bloqueosPerfil = [
+    perfil.confianza === 'sin-datos' ? 'perfil sin datos' : null,
+    perfil.monotematico ? 'perfil monotemático sin posición general' : null,
+    perfil.publicacionMapa?.publicable === false
+      ? `veto editorial de mapa: ${perfil.publicacionMapa.motivo}`
+      : null,
+  ].filter((motivo): motivo is string => Boolean(motivo));
+  const minimoGrupos = opciones.minimoItems ?? UMBRAL_EVIDENCIA_ENTIDADES.minimoItems ?? 4;
+  const umbralCobertura =
+    opciones.umbralCobertura ?? UMBRAL_EVIDENCIA_ENTIDADES.umbralCobertura ?? 0;
+  const itemPorId = new Map(items.map((item) => [item.id, item]));
+  const evidenciaDocumental: Record<string, CoordenadaAuditable> = {};
+
+  const facetas = ejes.map((eje): ResultadoFaceta => {
+    const recibo = coordenadaAuditable(perfil.posiciones, eje.id, itemPorId);
+    evidenciaDocumental[eje.id] = recibo;
+
+    const cargasDisponibles = items.flatMap((item) =>
+      item.ejes
+        .filter(
+          (carga) =>
+            carga.eje === eje.id && Number.isFinite(carga.carga) && carga.carga !== 0,
+        )
+        .map((carga) => ({ itemId: item.id, carga: Math.abs(carga.carga) })),
+    );
+    const cargaDisponible = cargasDisponibles.reduce(
+      (total, entrada) => total + entrada.carga,
+      0,
+    );
+    // Cada grupo pesa como máximo la carga de uno de sus ítems. Repetir el
+    // mismo pasaje en varias preguntas no aumenta ni cobertura ni coordenada.
+    const cargaRespondida = recibo.componentes.reduce(
+      (total, componente) => total + componente.peso,
+      0,
+    );
+    const denominador = 2 * cargaRespondida;
+    const numerador =
+      typeof recibo.valor === 'number' ? (recibo.valor * denominador) / 100 : 0;
+    const cobertura = cargaDisponible > 0 ? cargaRespondida / cargaDisponible : 0;
+
+    return {
+      facetaId: eje.id,
+      valor: recibo.valor,
+      // En esta ruta el contador significa pruebas independientes: es la
+      // unidad que decide la publicabilidad de una organización.
+      itemsRespondidos: recibo.grupos,
+      itemsDisponibles: cargasDisponibles.length,
+      cargaRespondida: redondearEspacial(cargaRespondida, 4),
+      cargaDisponible: redondearEspacial(cargaDisponible, 4),
+      numerador: redondearEspacial(numerador, 4),
+      denominador: redondearEspacial(denominador, 4),
+      cobertura: redondearEspacial(cobertura, 3),
+      coberturaSuficiente:
+        bloqueosPerfil.length === 0 &&
+        recibo.grupos >= minimoGrupos &&
+        cobertura >= umbralCobertura &&
+        !recibo.extremoSinContrapeso,
+    };
+  });
+  const ejesInsuficientes = facetas
+    .filter((faceta) => faceta.valor === null || !faceta.coberturaSuficiente)
+    .map((faceta) => faceta.facetaId);
+
+  return {
+    entidadId: perfil.id,
+    incluida: ejesInsuficientes.length === 0,
+    facetas,
+    ejesInsuficientes,
+    evidenciaDocumental,
+    bloqueosPerfil,
+  };
+}
+
+/**
  * Distancia euclídea entre dos posiciones sobre los ejes indicados, en las
  * mismas unidades que los ejes (−100..+100). Devuelve null si a alguna de las
  * dos posiciones le falta un eje: la cercanía no se estima con huecos.
@@ -117,4 +219,9 @@ export function distanciaEspacial(
     suma += (va - vb) ** 2;
   }
   return Math.sqrt(suma);
+}
+
+function redondearEspacial(valor: number, decimales: number): number {
+  const factor = 10 ** decimales;
+  return Math.round(valor * factor) / factor;
 }

@@ -3,7 +3,7 @@
 | Campo | Valor |
 |---|---|
 | Documento | `taxonomia-mapa-ideologias` |
-| Versión | **1.1.0** |
+| Versión | **1.2.0** |
 | Fecha de corte | **11 de julio de 2026** |
 | Imagen auditada | [Imagen exacta aportada como referencia](https://preview.redd.it/where-do-you-fall-on-this-very-detailed-political-compass-v0-9bw9g7zxfns91.jpg?auto=webp&s=ca1d9e02f5d9124aed36dd80723b88d9b2171136) |
 | Copia auditada | JPEG 678×680; SHA-256 `5a10ac569b54cf9718e63a01bdaacd35b1bf1c6528e43e7ab33cd4173f79e35b` |
@@ -24,7 +24,7 @@ La imagen cumple dos funciones distintas que no deben confundirse. Es una **norm
 
 Por ello, Espectro debe usar una jerarquía **familia → tradición → rama → variante histórica**, mantener por separado los **rasgos transversales** y reservar una categoría distinta para **arquetipos de riesgo no electorales**. El perfil por facetas sigue siendo el resultado principal; el plano 2D o cubo es solo un explorador secundario. Una doctrina sin evidencia suficiente en dos macroejes no recibe un punto inventado.
 
-El corte actual reúne **46 referencias doctrinales** y un atlas de **78 corrientes A/B**, con una base especialmente densa en anarquismos y comunismos. Además de las familias ya presentes, esta fase incorpora luxemburgismo, ecosocialismo, colectivismo anarquista, plataformismo, anarcopacifismo, comunalismo, abolicionismo animal, republicanismo federal pimargalliano, socialismo de mercado autogestionario, FE de las JONS de 1934 y franquismo nacionalcatólico de 1945-1957. El arquetipo no electoral de aceleracionismo neonazi se mantiene separado y sensible. Los huecos prioritarios no consisten en copiar 150 nombres, sino en completar las **ramas españolas y los discriminantes que cambian realmente un resultado**.
+El corte actual reúne **46 referencias doctrinales** y un atlas de **175 corrientes visibles**: 28 A en la capa principal y 147 B en profundidad. Cuarenta y cinco tienen referencia instrumentada; las otras 130 son fichas informativas o de investigación con, como mínimo, tres preguntas discriminantes vigentes, pero no calculan afinidad doctrinal hasta completar fuentes y posiciones. Las **178 etiquetas exactas** de la imagen quedan resueltas nominalmente: 155 tienen ficha visible y 23 se excluyen una a una con justificación; otras 20 adaptaciones españolas o históricas completan el atlas. La expansión incorpora sistemas, movimientos y contextos reales que la primera criba C/D/E había mantenido fuera, además de tres fases separadas del fascismo italiano. La geometría ya no deja que Falangismo domine el cuadrante: su región baja al 0,32 % mediante vecinos históricos serios, no semillas ficticias.
 
 ## 1. Contrato taxonómico y editorial
 
@@ -59,9 +59,9 @@ El inventario final asigna una decisión editorial explícita:
 
 - **A — cartografiable y relevante para España:** puede merecer referencia visible si supera fuentes, cobertura e incertidumbre. “Cartografiable” no garantiza un punto 2D: puede ser una tarjeta doctrinal con facetas.
 - **B — referencia doctrinal solo en modo exhaustivo:** corriente real pero nicho, redundante o de baja relevancia española.
-- **C — posición/faceta transversal:** proposición seria, modelo institucional o rasgo que cruza ideologías; no constituye una región del primer plano.
-- **D — movimiento, estrategia o coalición:** entidad política real, táctica o etiqueta de movilización sin doctrina integral estable.
-- **E — histórica/extranjera contextual:** régimen, dirigente, tradición nacional o periodo útil para aprender, no prioridad del matching español.
+- **C — posición/faceta transversal:** proposición seria, modelo institucional o rasgo que cruza ideologías; puede recibir ficha y región pedagógica en profundidad si declara que no es identidad integral.
+- **D — movimiento, estrategia o coalición:** entidad política real, táctica o etiqueta de movilización sin doctrina integral estable; puede ser visible como contexto, nunca como partido implícito.
+- **E — histórica/extranjera contextual:** régimen, dirigente, tradición nacional o periodo útil para aprender; entra en profundidad con país, periodo y cautela, no como recomendación española.
 - **F — meme, ficción, contradicción o exclusión editorial:** se conserva únicamente para demostrar que fue revisada.
 
 Esta clasificación prima sobre el deseo de “llenar casillas”. La imagen **sí fija la gramática geométrica de partida** del primer atlas —topología, densidad, continuidad y posiciones relativas—, pero no obliga a conservar etiquetas ficticias, ambiguas o no integrales ni decide qué afirma una doctrina.
@@ -74,7 +74,7 @@ El contrato se aplica a la capa editorial del atlas, no a los puntos calculados 
 2. se preservan el orden relativo de las corrientes, sus vecindades de familia, la continuidad de las transiciones y una densidad comparable entre cuadrantes; no basta con colocar cuatro etiquetas canónicas en las esquinas;
 3. `coordenadasPrior` registra la lectura normalizada e inmutable de la imagen; `coordenadas` puede adaptarse a España, pero una distancia superior a 25 puntos exige `desviacionJustificada` y una superior a 60 requiere doble revisión editorial;
 4. retirar memes, ficción o rasgos transversales no autoriza a colapsar el mosaico: el hueco se deja visible o se cubre con una corriente seria vecina solo cuando su definición y posición tienen fuentes independientes;
-5. las corrientes A forman la capa principal; las B mantienen la profundidad y solo aparecen al activarla; C, D y F nunca se convierten en territorios ideológicos;
+5. las corrientes A forman la capa principal y las B mantienen la profundidad; rótulos C/D/E de la criba original pueden normalizarse como B si describen algo real y la ficha declara sus límites, mientras memes, ficción y nombres sin referente no se convierten en territorio;
 6. no se copian el activo, sus colores, iconos, texto, chistes ni contornos exactos. Se implementa una composición propia, degradada, accesible y en español;
 7. la cercanía geométrica comunica **proximidad proyectada, no identidad**. Las diferencias decisivas que el 2D omite deben aparecer en la ficha y en las facetas.
 
@@ -512,7 +512,7 @@ Este inventario garantiza trazabilidad, **no adopción**. Se conserva la grafía
 | 177 | `Illegalism` | Ilegalismo histórico | D | Táctica/corriente histórica minoritaria, no programa político total. |
 | 178 | `Avaritionism` | Avaricionismo | F | Ideología meme creada en comunidades polcompball; excluida. |
 
-**Control de integridad:** 178 etiquetas legibles inventariadas, una decisión A–F por etiqueta: **28 A**, **50 B**, **35 C**, **5 D**, **38 E** y **22 F**. Solo un 15,7 % entra siquiera como candidato A a la capa española principal. Que una etiqueta sea A o B no implica que deba convertirse en un punto: sigue necesitando las reglas de evidencia de §1.3.
+**Control de integridad del inventario original:** 178 etiquetas legibles, una decisión inicial A–F por etiqueta: **28 A**, **50 B**, **35 C**, **5 D**, **38 E** y **22 F**. Estas letras conservan la trazabilidad de la primera criba, no son ya un veto automático: los modelos, movimientos y contextos reales pueden aparecer en profundidad con cautela. La capa principal sigue limitada a las 28 A y ninguna región editorial se convierte por ello en punto psicométrico.
 
 ## 5. Cómo convertir la taxonomía en preguntas sin convertir el test en trivia
 
@@ -624,12 +624,13 @@ Si una referencia tiene evidencia suficiente solo en facetas, se muestra una tar
 ### P2 de investigación
 
 - Resolver fuentes primarias/académicas de todas las filas B antes de convertirlas en JSON.
-- Desambiguar `Mandelaism`; si la fuente original no lo aclara, mantener F.
-- Investigar si `State Liberalism`, `Neo Libertarianism` o `Astro Libertarianism` corresponden a una tradición seria concreta; la carga de prueba recae en incluir, no en excluir.
+- Mantener `Mandelaism` rotulado como legado contextual de Nelson Mandela, no como doctrina cerrada ni como el mandelismo trotskista de Ernest Mandel.
+- `State Liberalism` y `Astro Libertarianism` quedan excluidos por origen memético/especulativo; `Neo Libertarianism` entra solo como uso estadounidense intervencionista, con periodo y ambigüedad visibles.
 - Mantener la lista F como control de procedencia, sin exponerla en la aplicación.
 
 ## 9. Historial de versiones
 
 | Versión | Fecha | Cambio |
 |---|---|---|
+| `1.2.0` | 2026-07-11 | Cobertura nominal completa de las 178 etiquetas: 155 exactas visibles, 23 exclusiones justificadas y 20 adaptaciones adicionales; 175 fichas totales. |
 | `1.0.0` | 2026-07-11 | Primera taxonomía maestra: 178 etiquetas auditadas, decisión A–F, P1/P2, fuentes, discriminantes y reglas para referencias sensibles. |

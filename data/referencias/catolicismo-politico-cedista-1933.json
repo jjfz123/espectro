@@ -1,0 +1,109 @@
+{
+  "id": "catolicismo-politico-cedista-1933",
+  "nombre": "Catolicismo político de la CEDA (programa de 1933)",
+  "tipo": "referencia-doctrinal",
+  "definicion": "Referencia histórica del programa fundacional de la Confederación Española de Derechas Autónomas: defensa política de la Iglesia y la moral cristiana, forma de gobierno accidental, derechos individuales limitados por la ley natural, control judicial del poder, Ejecutivo reforzado y representación a la vez electoral y corporativa, con sindicación libre dentro de corporaciones obligatorias.",
+  "variante": "Programa confederal de febrero-marzo de 1933; no se generalizan a toda la CEDA la retórica posterior de las JAP ni cada declaración de José María Gil-Robles",
+  "periodo": "España, 1933",
+  "confianza": "verificada",
+  "version": "1.0",
+  "revisado": "2026-07-11",
+  "publicacionAfinidad": {
+    "publicable": false,
+    "motivo": "Referencia nueva pendiente de auditoría semántica adversarial; no participa en afinidad hasta cerrar cada equivalencia entre fuente e ítem."
+  },
+  "publicacionMapa": {
+    "publicable": false,
+    "motivo": "El programa mezcla garantías constitucionales, Ejecutivo fuerte, voto y corporación obligatoria, una combinación que los macroejes actuales no discriminan; además faltan anclas económicas suficientes para separar su reformismo social de otras derechas."
+  },
+  "facetasDefinitorias": [
+    "tradicion-moral",
+    "pluralismo-institucional",
+    "autoridad-politica",
+    "institucionalismo",
+    "autonomia-sindical",
+    "estatismo",
+    "poder-laboral"
+  ],
+  "sensibilidad": "normal",
+  "advertencia": "La CEDA fue una confederación heterogénea y su relación con la democracia sigue siendo objeto de controversia historiográfica. Esta ficha codifica el programa publicado en 1933, que combina derechos, tribunales y representación de opiniones con Ejecutivo fuerte y corporación obligatoria; no lo convierte retrospectivamente ni en democracia cristiana contemporánea ni en partido único. Tampoco traslada a toda la organización los 18 puntos de las JAP de 1934, discursos posteriores de Gil-Robles, la deriva de afiliados hacia Falange o el apoyo de dirigentes al golpe de 1936. No se fusiona con falangismo, carlismo o nacionalcatolicismo ni presume una estrategia violenta.",
+  "fuentesMarco": [
+    {
+      "tipo": "otro",
+      "titulo": "La Administración republicana y los servicios públicos (1931-1936), edición académica del Boletín Oficial del Estado",
+      "url": "https://www.boe.es/biblioteca_juridica/abrir_pdf.php?id=PUB-DH-2023-292",
+      "fecha": "2023",
+      "consultado": "2026-07-11"
+    },
+    {
+      "tipo": "otro",
+      "titulo": "El Debate, Heredera de Acción Popular se constituye la CEDA, reproducción del 5 de marzo de 1933",
+      "url": "https://www.segundarepublica.com/index.php?id=69&opcion=6",
+      "fecha": "1933-03-05",
+      "consultado": "2026-07-11"
+    }
+  ],
+  "reglaPublicacion": {
+    "minimoItems": 4,
+    "minimoCobertura": 0.65,
+    "umbralAfinidad": 82
+  },
+  "posiciones": {
+    "der-002": {
+      "valor": 2,
+      "justificacion": "El primer bloque del programa pretende derogar la legislación que considera contraria a la Iglesia, revisar la Constitución y preservar valores cristianos en familia y enseñanza; la moral católica actúa como criterio legislativo explícito.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "La Administración republicana y los servicios públicos, pp. 122-124: programa de la CEDA",
+        "url": "https://www.boe.es/biblioteca_juridica/abrir_pdf.php?id=PUB-DH-2023-292",
+        "fecha": "2023",
+        "consultado": "2026-07-11",
+        "cita": "Páginas 122-124, programa de la CEDA: revisión constitucional para proteger Iglesia, familia y enseñanza cristianas."
+      },
+      "grupoEvidencia": "pasaje-b6eb9ebfaf9b598bfaf1"
+    },
+    "dem-006": {
+      "valor": 2,
+      "justificacion": "El programa atribuye a los tribunales la protección de los derechos frente a abusos del Gobierno y la función de velar por la constitucionalidad de las leyes, incluso frente a decisiones de las Cortes.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "La Administración republicana y los servicios públicos, p. 123: programa de la CEDA",
+        "url": "https://www.boe.es/biblioteca_juridica/abrir_pdf.php?id=PUB-DH-2023-292",
+        "fecha": "2023",
+        "consultado": "2026-07-11",
+        "cita": "Página 123, programa de la CEDA: control judicial de abusos gubernativos y constitucionalidad de las leyes."
+      },
+      "grupoEvidencia": "pasaje-7111706b242438ff2297"
+    },
+    "dem-008": {
+      "valor": 1,
+      "justificacion": "Aunque refuerza el Ejecutivo, el texto exige fiscalización parlamentaria y control judicial de los excesos administrativos y de la constitucionalidad de las leyes. Se limita a +1 porque el mismo programa busca un Ejecutivo fuerte y no formula una separación rígida de poderes ante toda demora mayoritaria.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "La Administración republicana y los servicios públicos, p. 123: programa de la CEDA",
+        "url": "https://www.boe.es/biblioteca_juridica/abrir_pdf.php?id=PUB-DH-2023-292",
+        "fecha": "2023",
+        "consultado": "2026-07-11",
+        "cita": "Página 123, programa de la CEDA: fiscalización parlamentaria del Ejecutivo y control judicial independiente."
+      },
+      "grupoEvidencia": "pasaje-f33f671f229f2518dff7"
+    },
+    "dem-018": {
+      "valor": 1,
+      "justificacion": "La CEDA quiere que las Cortes reflejen la organización corporativa de la sociedad, pero también los estados de opinión política manifestados individualmente. Por eso coincide con representación profesional solo de forma parcial, no como sustitución total de los partidos.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "La Administración republicana y los servicios públicos, p. 123: programa de la CEDA",
+        "url": "https://www.boe.es/biblioteca_juridica/abrir_pdf.php?id=PUB-DH-2023-292",
+        "fecha": "2023",
+        "consultado": "2026-07-11",
+        "cita": "Página 123, programa de la CEDA: combina estados de opinión política con representación corporativa."
+      },
+      "grupoEvidencia": "pasaje-d8657fd1200558383199"
+    }
+  }
+}

@@ -198,7 +198,8 @@
   },
   {
     "id": "fem-011",
-    "texto": "El Código Penal debe mantener penas agravadas específicas cuando un hombre agrede a su pareja o expareja mujer.",
+    "texto": "El Código Penal debería mantener penas más duras cuando un hombre agrede a su pareja o expareja mujer, frente a otras agresiones.",
+    "terminos": ["codigo-penal"],
     "modulo": "feminismos-moral",
     "ejes": [],
     "polaridad": "positiva",
@@ -235,7 +236,8 @@
   },
   {
     "id": "fem-013",
-    "texto": "El Código Penal debe dejar de castigar la ofensa a los sentimientos religiosos.",
+    "texto": "El Código Penal debería dejar de castigar la ofensa a los sentimientos religiosos.",
+    "terminos": ["codigo-penal"],
     "modulo": "feminismos-moral",
     "ejes": [
       {

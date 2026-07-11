@@ -11,7 +11,7 @@
   ],
   "confianza": "verificada",
   "web": "https://geroabai.eus/",
-  "revisado": "2026-07-10",
+  "revisado": "2026-07-11",
   "actividad": "activa",
   "autodescripcion": {
     "texto": "Geroa Bai se define como una coalición navarrista, progresista, ecologista y nacionalista vasca no independentista, que aspira a una Navarra \"soberana, social y verde\" construida desde el \"consenso con ambición\", con Europa como referencia política supraestatal. Está formada actualmente por Geroa Socialverdes (partido de ideología socialverde fundado en 2020 por la expresidenta Uxue Barkos), EAJ-PNV y Atarrabia Taldea, además de independientes; Batzarre, que en su día fue uno de sus componentes, se integró después en otra candidatura y ya no forma parte de la coalición.",
@@ -33,6 +33,162 @@
     }
   ],
   "posiciones": {
+    "eco-002": {
+      "valor": -2,
+      "justificacion": "Defiende recuperar para gestión pública servicios sanitarios privatizados y revisar derivaciones y conciertos privados desde la subsidiariedad del sistema público. Rechaza que privatizar mejore por sí mismo la eficiencia.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa de Geroa Bai al Parlamento de Navarra 2023",
+        "url": "https://geroabai.eus/files/2023/05/programa-parlamento-completo-pag-2023.pdf",
+        "fecha": "2023-05-03",
+        "consultado": "2026-07-11",
+        "cita": "Recuperar para la gestión pública servicios actualmente privatizados."
+      },
+      "grupoEvidencia": "pasaje-32f6b0848a3f5acf6891"
+    },
+    "eco-005": {
+      "valor": 1,
+      "justificacion": "Propone un índice público de sostenibilidad de alquileres y penalizaciones fiscales cuando las rentas superen su referencia. Es regulación efectiva del precio, pero +1 porque el programa no establece un tope legal general idéntico al del ítem.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa de Geroa Bai al Parlamento de Navarra 2023",
+        "url": "https://geroabai.eus/files/2023/05/programa-parlamento-completo-pag-2023.pdf",
+        "fecha": "2023-05-03",
+        "consultado": "2026-07-11",
+        "cita": "Penalización a los rendimientos por arrendamiento [...] en función de que los precios [...] superen la referencia del ISA."
+      },
+      "grupoEvidencia": "pasaje-25bce3e485bcd61b1d81"
+    },
+    "eco-006": {
+      "valor": 2,
+      "justificacion": "Fija financiación estable a diez años, promoción pública de alquiler, adquisición de promociones y ampliación sustancial del parque público mediante Navarra Social Housing.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa de Geroa Bai al Parlamento de Navarra 2023",
+        "url": "https://geroabai.eus/files/2023/05/programa-parlamento-completo-pag-2023.pdf",
+        "fecha": "2023-05-03",
+        "consultado": "2026-07-11",
+        "cita": "Intensificar el desarrollo del plan Navarra Social Housing [...] para incrementar sustancialmente el parque público de vivienda de alquiler."
+      },
+      "grupoEvidencia": "pasaje-0d6031f1a0ff2ee592b4"
+    },
+    "eco-012": {
+      "valor": -2,
+      "justificacion": "Reivindica simultáneamente el pacto para la escuela pública y el acuerdo estable de financiación de la red concertada. No propone eliminar gradualmente los conciertos educativos.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa de Geroa Bai al Parlamento de Navarra 2023",
+        "url": "https://geroabai.eus/files/2023/05/programa-parlamento-completo-pag-2023.pdf",
+        "fecha": "2023-05-03",
+        "consultado": "2026-07-11",
+        "cita": "El pacto educativo para la red pública, el acuerdo para la red concertada con mesa a tres."
+      },
+      "grupoEvidencia": "pasaje-3c771220cc9246e96c0f"
+    },
+    "eco-013": {
+      "valor": 0,
+      "justificacion": "Prioriza recursos y gestión pública y quiere recuperar servicios privatizados, pero admite derivaciones y conciertos privados como complemento subsidiario. Esa combinación no permite un sí o no general ante listas de espera.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa de Geroa Bai al Parlamento de Navarra 2023",
+        "url": "https://geroabai.eus/files/2023/05/programa-parlamento-completo-pag-2023.pdf",
+        "fecha": "2023-05-03",
+        "consultado": "2026-07-11"
+      }
+    },
+    "ene-005": {
+      "valor": 0,
+      "justificacion": "Plantea una sociedad pública que invierta y comercialice electricidad en libre competencia, junto con comunidades energéticas, empresas privadas y colaboración público-privada. Es una arquitectura mixta deliberada.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa de Geroa Bai al Parlamento de Navarra 2023",
+        "url": "https://geroabai.eus/files/2023/05/programa-parlamento-completo-pag-2023.pdf",
+        "fecha": "2023-05-03",
+        "consultado": "2026-07-11"
+      }
+    },
+    "izq-005": {
+      "valor": -1,
+      "justificacion": "Promueve sector público, cooperativas y planificación ecológica, pero también pymes, iniciativa privada y colaboración público-privada en sectores estratégicos. Rechaza sustituir el mercado, aunque sí dirigirlo y regularlo.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa de Geroa Bai al Parlamento de Navarra 2023",
+        "url": "https://geroabai.eus/files/2023/05/programa-parlamento-completo-pag-2023.pdf",
+        "fecha": "2023-05-03",
+        "consultado": "2026-07-11"
+      }
+    },
+    "dem-019": {
+      "valor": -2,
+      "justificacion": "Define su cultura política por la pluralidad navarra, el respeto a quien discrepa y la coexistencia de identidades diferentes; además actúa mediante elecciones y pactos parlamentarios. Es incompatible con un movimiento único.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa de Geroa Bai al Parlamento de Navarra 2023",
+        "url": "https://geroabai.eus/files/2023/05/programa-parlamento-completo-pag-2023.pdf",
+        "fecha": "2023-05-03",
+        "consultado": "2026-07-11",
+        "cita": "La pluralidad de la sociedad navarra, el respeto al diferente y/o discrepante."
+      },
+      "grupoEvidencia": "pasaje-42aa151fe5fbbd7a1d8f"
+    },
+    "soc-001": {
+      "valor": 2,
+      "justificacion": "Propone desarrollar y financiar las leyes forales de igualdad LGTBI y trans, reforzar el servicio Kattalingune y combatir la discriminación por orientación e identidad sexual.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa de Geroa Bai al Parlamento de Navarra 2023",
+        "url": "https://geroabai.eus/files/2023/05/programa-parlamento-completo-pag-2023.pdf",
+        "fecha": "2023-05-03",
+        "consultado": "2026-07-11",
+        "cita": "Consolidar la estructura pública dedicada a atender a las personas y colectivos LGTBI+ de Navarra."
+      },
+      "grupoEvidencia": "pasaje-ac2cb35f59c734a2cb7d"
+    },
+    "izq-007": {
+      "valor": -2,
+      "justificacion": "Su proyecto se basa en desarrollar el autogobierno foral mediante Gobierno, Parlamento y administraciones públicas. Pretende ampliar y pactar esas instituciones, no abolir el Estado.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa de Geroa Bai al Parlamento de Navarra 2023",
+        "url": "https://geroabai.eus/files/2023/05/programa-parlamento-completo-pag-2023.pdf",
+        "fecha": "2023-05-03",
+        "consultado": "2026-07-11"
+      }
+    },
+    "dem-017": {
+      "valor": -2,
+      "justificacion": "La participación ciudadana que propone complementa un proyecto centrado en Parlamento, Gobierno y ayuntamientos; no plantea sustituir la representación parlamentaria por consejos laborales y locales.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa de Geroa Bai al Parlamento de Navarra 2023",
+        "url": "https://geroabai.eus/files/2023/05/programa-parlamento-completo-pag-2023.pdf",
+        "fecha": "2023-05-03",
+        "consultado": "2026-07-11"
+      }
+    },
+    "dem-015": {
+      "valor": 0,
+      "justificacion": "Los acuerdos estratégicos de la coalición requieren unanimidad y los cargos siguen el programa común, pero conservan libertad de voto en asuntos no previstos cuando no se logra unificar criterio. Es un equilibrio explícito entre cohesión y autonomía.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "estatutos",
+        "titulo": "Estatutos del pacto de coalición Geroa Bai",
+        "url": "https://geroabai.eus/files/2024/06/estatutos-del-pacto-de-coalicion-geroa-bai.pdf",
+        "fecha": "2024-06",
+        "consultado": "2026-07-11"
+      }
+    },
     "nac-002": {
       "valor": -1,
       "justificacion": "Uxue Barkos, cabeza visible de Geroa Bai, ha declarado explícitamente que \"en Navarra no estamos por el independentismo, hay otras prioridades\", situando la soberanía fiscal y social por delante de la construcción de un Estado propio como objetivo final: la coalición reúne a independentistas y no independentistas que conviven bajo un mismo proyecto navarrista, sin fijar la independencia como meta compartida.",
@@ -43,7 +199,8 @@
         "url": "https://www.publico.es/politica/uxue-barkos-navarra-independentismo-hay-prioridades.html",
         "consultado": "2026-07-10",
         "cita": "En Navarra no estamos por el independentismo, hay otras prioridades"
-      }
+      },
+      "grupoEvidencia": "pasaje-94dff5d26a148c3c9235"
     },
     "eus-005": {
       "valor": 1,

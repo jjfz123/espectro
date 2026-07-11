@@ -1,0 +1,91 @@
+{
+  "id": "neocatolicismo-espanol-isabelino",
+  "nombre": "Neocatolicismo español isabelino",
+  "tipo": "referencia-doctrinal",
+  "definicion": "Corriente político-cultural española del reinado de Isabel II, activa desde el Bienio Progresista: catolicismo intransigente y antiliberal, primacía política y social de la Iglesia, confesionalidad y recristianización de la sociedad, difundidas desde prensa, parlamento y asociacionismo por figuras como Cándido Nocedal, Antonio Aparisi, Gabino Tejado y Navarro Villoslada.",
+  "variante": "Grupo de presión y red cultural de la España isabelina, no un partido único ni una escuela doctrinal perfectamente homogénea",
+  "periodo": "España, 1854-1868",
+  "confianza": "verificada",
+  "version": "1.0",
+  "revisado": "2026-07-11",
+  "publicacionAfinidad": {
+    "publicable": false,
+    "motivo": "Es un contexto histórico heterogéneo, no una identidad que el test pueda atribuir de forma responsable a una persona; no participa en afinidad."
+  },
+  "publicacionMapa": {
+    "publicable": false,
+    "motivo": "Debe permanecer como contexto histórico no identificable: solo hay anclas vigentes suficientemente exactas sobre confesionalidad y libertad de conciencia, y faltan posiciones comunes sobre economía, forma de gobierno y pluralismo partidista para proyectar una corriente heterogénea sin rellenar huecos."
+  },
+  "facetasDefinitorias": [
+    "tradicion-moral",
+    "laicismo",
+    "libertad-conciencia"
+  ],
+  "sensibilidad": "antipluralista",
+  "advertencia": "Es una familia histórica heterogénea y debe mostrarse solo como contexto histórico, no como una identidad que el test pueda atribuir a una persona usuaria ni como sinónimo de todo catolicismo español. Priorizó la confesionalidad y restringió la autonomía individual y el pluralismo religioso, pero actuó dentro del espacio público liberal mediante prensa, asociaciones y Parlamento y no formuló una sola forma de gobierno. No se atribuye a toda la corriente la defensa excepcional de la dictadura de Donoso Cortés ni una estrategia violenta. Tras 1868 muchos neocatólicos pasaron al carlismo, pero esa convergencia posterior no borra su origen isabelino; tampoco se confunde con el Partido Integrista de 1888, la CEDA, Falange o nacionalcatolicismo.",
+  "fuentesMarco": [
+    {
+      "tipo": "otro",
+      "titulo": "María Cruz Romeo Mateo, De utopías, neocatólicos y política, Pasado y Memoria",
+      "url": "https://dialnet.unirioja.es/descarga/articulo/8043326.pdf",
+      "fecha": "2021",
+      "consultado": "2026-07-11"
+    },
+    {
+      "tipo": "otro",
+      "titulo": "Germán Prieto Escudero, El pensamiento político del doctrinarismo neocatólico español, Revista de Estudios Políticos",
+      "url": "https://dialnet.unirioja.es/descarga/articulo/2082557.pdf",
+      "fecha": "1968",
+      "consultado": "2026-07-11"
+    }
+  ],
+  "reglaPublicacion": {
+    "minimoItems": 3,
+    "minimoCobertura": 0.7,
+    "umbralAfinidad": 84
+  },
+  "posiciones": {
+    "der-002": {
+      "valor": 2,
+      "justificacion": "La corriente subordinaba la política a la moral religiosa y sostenía que la sociedad debía ajustarse al dogma, la moral y las enseñanzas de la Iglesia; la legislación cristiana era parte central de su proyecto de recatolización.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "María Cruz Romeo Mateo, De utopías, neocatólicos y política, pp. 104-110",
+        "url": "https://dialnet.unirioja.es/descarga/articulo/8043326.pdf",
+        "fecha": "2021",
+        "consultado": "2026-07-11",
+        "cita": "Páginas 104-110: subordinación de la política a la moral católica y proyecto de recristianización social."
+      },
+      "grupoEvidencia": "pasaje-d6c7f0d6b692b873be6d"
+    },
+    "dr-011": {
+      "valor": 1,
+      "justificacion": "El neocatolicismo creció bajo la confesionalidad del Concordato de 1851 y defendió la primacía política, social y cultural de la Iglesia católica. Se limita a +1 porque la corriente fue heterogénea y la fuente estudia un contexto isabelino, no un programa estatal único.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "María Cruz Romeo Mateo, De utopías, neocatólicos y política, pp. 94-105",
+        "url": "https://dialnet.unirioja.es/descarga/articulo/8043326.pdf",
+        "fecha": "2021",
+        "consultado": "2026-07-11",
+        "cita": "Páginas 94-105: primacía política, social y cultural de la Iglesia en el contexto confesional isabelino."
+      },
+      "grupoEvidencia": "pasaje-47e411c79cd3c579decc"
+    },
+    "rel-002": {
+      "valor": -1,
+      "justificacion": "La prioridad de la religión católica, el papel rector de la Iglesia y la restricción de la libertad de pensamiento se oponen a la aconfesionalidad plural. Se limita a -1 porque la fuente reconstruye una red heterogénea y no un texto común que detalle el tratamiento jurídico de todas las confesiones.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "María Cruz Romeo Mateo, De utopías, neocatólicos y política, pp. 108-110",
+        "url": "https://dialnet.unirioja.es/descarga/articulo/8043326.pdf",
+        "fecha": "2021",
+        "consultado": "2026-07-11",
+        "cita": "Páginas 108-110: primacía católica y proyecto de limitar la libertad de pensamiento en la sociedad."
+      },
+      "grupoEvidencia": "pasaje-d222e754bb3f60c40484"
+    }
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "id": "liberalismo-igualitario-rawlsiano",
+  "nombre": "Liberalismo igualitario rawlsiano",
+  "tipo": "referencia-doctrinal",
+  "definicion": "Tipo ideal de la justicia como equidad de John Rawls: garantiza un esquema igual de libertades básicas con prioridad sobre otros fines y admite desigualdades sociales y económicas solo bajo igualdad justa de oportunidades y cuando benefician al grupo menos aventajado.",
+  "variante": "Justicia como equidad en su formulación madura, incluida la democracia de propietarios o el socialismo liberal; no equivale al liberalismo económico clásico, al libertarismo ni a toda política redistributiva contemporánea",
+  "periodo": "1971-2001",
+  "confianza": "verificada",
+  "version": "1.0",
+  "revisado": "2026-07-11",
+  "publicacionAfinidad": {
+    "publicable": false,
+    "motivo": "Referencia nueva pendiente de auditoría semántica adversarial; no participa en afinidad hasta cerrar cada equivalencia entre fuente e ítem."
+  },
+  "publicacionMapa": {
+    "publicable": false,
+    "motivo": "Las libertades y la oposición a concentrar herencias están sólidamente documentadas, pero el banco aún no mide directamente el principio de diferencia ni la igualdad justa de oportunidades; tampoco determina un IRPF concreto ni un impuesto anual permanente sobre fortunas. Con un solo discriminante económico exacto no procede fijar todavía una coordenada macro."
+  },
+  "facetasDefinitorias": [
+    "economico",
+    "propiedad-mercado",
+    "pluralismo-institucional",
+    "libertades-civiles"
+  ],
+  "sensibilidad": "normal",
+  "advertencia": "Es una teoría normativa de la estructura básica de una democracia liberal, no un programa electoral español. Las tres posiciones codificadas no bastan para identificarla: faltan preguntas directas sobre el principio de diferencia y la igualdad justa de oportunidades. No se traduce automáticamente el principio de diferencia en cualquier subida de impuestos: Rawls defendió gravar progresivamente herencias y donaciones para dispersar propiedad, pero dejó buena parte del diseño fiscal a juicio político y llegó a preferir, en el esquema ideal, un impuesto proporcional al gasto. Por ello se omiten eco-001 y eco-014 en vez de atribuirle el IRPF o el impuesto permanente sobre grandes fortunas vigentes en España.",
+  "fuentesMarco": [
+    {
+      "tipo": "otro",
+      "titulo": "John Rawls, The Basic Liberties and Their Priority, Tanner Lectures (en inglés)",
+      "url": "https://tannerlectures.org/wp-content/uploads/2024/07/rawls82.pdf",
+      "fecha": "1982",
+      "consultado": "2026-07-11"
+    },
+    {
+      "tipo": "otro",
+      "titulo": "Leif Wenar, John Rawls, Stanford Encyclopedia of Philosophy (en inglés)",
+      "url": "https://plato.stanford.edu/archives/spr2024/entries/rawls/",
+      "fecha": "2024",
+      "consultado": "2026-07-11"
+    },
+    {
+      "tipo": "otro",
+      "titulo": "Maxime Desmarais-Tremblay, Incentives and taxation in Rawls’s institutional theory of justice (en inglés)",
+      "url": "https://www.cambridge.org/core/journals/journal-of-institutional-economics/article/incentives-and-taxation-in-rawlss-institutional-theory-of-justice/6D146AA8CD37459F53A57A69CFF8A2A4",
+      "fecha": "2026-03-26",
+      "consultado": "2026-07-11"
+    }
+  ],
+  "reglaPublicacion": {
+    "minimoItems": 3,
+    "minimoCobertura": 0.67,
+    "umbralAfinidad": 80
+  },
+  "posiciones": {
+    "eco-009": {
+      "valor": -2,
+      "justificacion": "Rawls asigna a la imposición progresiva de herencias y donaciones la función de limitar desigualdades intergeneracionales y dispersar propiedad; suprimir por completo el impuesto de sucesiones contradice ese instrumento explícito.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Maxime Desmarais-Tremblay, Incentives and taxation in Rawls’s institutional theory of justice (en inglés)",
+        "url": "https://www.cambridge.org/core/journals/journal-of-institutional-economics/article/incentives-and-taxation-in-rawlss-institutional-theory-of-justice/6D146AA8CD37459F53A57A69CFF8A2A4",
+        "fecha": "2026-03-26",
+        "consultado": "2026-07-11",
+        "cita": "Apartado sobre herencias y donaciones: explica su imposición progresiva para dispersar la propiedad."
+      },
+      "grupoEvidencia": "pasaje-29bb29b19e99678f70a4"
+    },
+    "dem-028": {
+      "valor": 2,
+      "justificacion": "El primer principio protege iguales libertades básicas de cada persona y Rawls rechaza sacrificar las libertades políticas o religiosas de una minoría débil para aumentar el bienestar de la mayoría.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Leif Wenar, John Rawls, Stanford Encyclopedia of Philosophy, secciones 4.3 y 4.5 (en inglés)",
+        "url": "https://plato.stanford.edu/archives/spr2024/entries/rawls/",
+        "fecha": "2024",
+        "consultado": "2026-07-11",
+        "cita": "Secciones 4.3 y 4.5: prioridad de iguales libertades básicas y protección de minorías religiosas."
+      },
+      "grupoEvidencia": "pasaje-1381465acd35e41c0c2b"
+    },
+    "dem-010": {
+      "valor": 1,
+      "justificacion": "La libertad política, de expresión y de asociación forma parte del esquema prioritario de libertades básicas y no puede intercambiarse por bienestar o eficiencia. Se modera a +1 porque Rawls admite restricciones tasadas para proteger el propio sistema de libertades y no formula la cláusula española de emergencia literalmente.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "John Rawls, The Basic Liberties and Their Priority, Tanner Lectures (en inglés)",
+        "url": "https://tannerlectures.org/wp-content/uploads/2024/07/rawls82.pdf",
+        "fecha": "1982",
+        "consultado": "2026-07-11",
+        "cita": "Parte II: enumera las libertades políticas, de expresión y asociación como libertades básicas prioritarias."
+      },
+      "grupoEvidencia": "pasaje-155c5692073a502daeb4"
+    }
+  }
+}

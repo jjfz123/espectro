@@ -1,0 +1,129 @@
+{
+  "id": "deleonismo",
+  "nombre": "Deleonismo",
+  "tipo": "referencia-doctrinal",
+  "definicion": "Tipo ideal del sindicalismo industrial socialista de Daniel De Leon: combina organización política y organización industrial durante la transición, usa la primera para desalojar y disolver el Estado capitalista y reserva a un congreso de industrias organizado por trabajadores la administración futura de la producción.",
+  "variante": "Formulación estadounidense madura de Socialist Reconstruction of Society (1905) e Industrial Unionism (1913); distinta tanto del parlamentarismo reformista como del anarcosindicalismo que prescinde de toda acción política",
+  "periodo": "1896-1913",
+  "confianza": "verificada",
+  "version": "1.0",
+  "revisado": "2026-07-11",
+  "publicacionAfinidad": {
+    "publicable": false,
+    "motivo": "Referencia nueva pendiente de auditoría semántica adversarial; no participa en afinidad hasta cerrar cada equivalencia entre fuente e ítem."
+  },
+  "publicacionMapa": {
+    "publicable": false,
+    "motivo": "La administración industrial y el papel destructivo del brazo político están bien fijados, pero faltan discriminantes independientes sobre libertades, contrapesos y límites de la autoridad del futuro gobierno industrial; no se publica una coordenada hasta revisar ese desequilibrio."
+  },
+  "facetasDefinitorias": [
+    "poder-laboral",
+    "propiedad-mercado",
+    "estatismo",
+    "institucionalismo",
+    "metodo-cambio",
+    "organizacion"
+  ],
+  "sensibilidad": "normal",
+  "advertencia": "Es una doctrina histórica concebida para el capitalismo y el sufragio de Estados Unidos a comienzos del siglo XX, no una ficha de un partido, sindicato o candidatura española. Su gobierno industrial es centralizado pero se presenta como democrático y con autogobierno local; eso no basta para atribuirle los contrapesos de una democracia constitucional contemporánea. La referencia conserva además la doble vía de partido y sindicato: no debe confundirse con una vanguardia leninista ni con acción directa antiparlamentaria pura, y la cercanía parcial nunca recomienda desmontar instituciones democráticas.",
+  "fuentesMarco": [
+    {
+      "tipo": "otro",
+      "titulo": "Daniel De Leon, Socialist Reconstruction of Society (en inglés)",
+      "url": "https://www.marxists.org/archive/deleon/works/1905/050710.htm",
+      "fecha": "1905-07-10",
+      "consultado": "2026-07-11"
+    },
+    {
+      "tipo": "otro",
+      "titulo": "Daniel De Leon, Industrial Unionism (en inglés)",
+      "url": "https://www.marxists.org/archive/deleon/works/1913/130120.htm",
+      "fecha": "1913-01-20",
+      "consultado": "2026-07-11"
+    },
+    {
+      "tipo": "otro",
+      "titulo": "University of Central Florida, Socialist reconstruction of society: registro y copia histórica (en inglés)",
+      "url": "https://stars.library.ucf.edu/prism/424/",
+      "fecha": "1934",
+      "consultado": "2026-07-11"
+    }
+  ],
+  "reglaPublicacion": {
+    "minimoItems": 4,
+    "minimoCobertura": 0.6,
+    "umbralAfinidad": 78
+  },
+  "posiciones": {
+    "lab-018": {
+      "valor": 1,
+      "justificacion": "Tras la transición, la organización industrial sustituye al partido y al Estado político como estructura representativa y administrativa. Se usa +1 porque De Leon niega que esa función futura sea política y mantiene un partido obrero indispensable antes del cambio.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Daniel De Leon, Socialist Reconstruction of Society, The Function of Unionism (en inglés)",
+        "url": "https://www.marxists.org/archive/deleon/works/1905/050710.htm",
+        "fecha": "1905-07-10",
+        "consultado": "2026-07-11",
+        "cita": "Sección «The Function of Unionism»: el órgano industrial sustituye al Estado político y administra la producción."
+      },
+      "grupoEvidencia": "pasaje-cecad4f1cb1f567d5398"
+    },
+    "lab-008": {
+      "valor": 1,
+      "justificacion": "El órgano central de la república socialista debe componerse por industrias y administrar las fuerzas productivas. La coincidencia es parcial: el texto atribuye esa función a un congreso industrial, pero no especifica consejos elegidos en cada centro de trabajo ni contrapone literalmente inversión obrera y ministerios.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Daniel De Leon, Socialist Reconstruction of Society, The Function of Unionism (en inglés)",
+        "url": "https://www.marxists.org/archive/deleon/works/1905/050710.htm",
+        "fecha": "1905-07-10",
+        "consultado": "2026-07-11",
+        "cita": "Sección «The Function of Unionism»: el órgano industrial sustituye al Estado político y administra la producción."
+      },
+      "grupoEvidencia": "pasaje-cecad4f1cb1f567d5398"
+    },
+    "izq-008": {
+      "valor": 0,
+      "justificacion": "De Leon rechaza por igual el sindicalismo económico autosuficiente y el electoralismo autosuficiente: sin organización política no hay triunfo y sin organización industrial el triunfo político se convierte en derrota. La doctrina no acepta la superioridad unilateral que formula el ítem.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Daniel De Leon, Industrial Unionism (en inglés)",
+        "url": "https://www.marxists.org/archive/deleon/works/1913/130120.htm",
+        "fecha": "1913-01-20",
+        "consultado": "2026-07-11",
+        "cita": "Pasaje sobre las dos alas del movimiento: organización política e industrial son ambas necesarias para el cambio."
+      },
+      "grupoEvidencia": "pasaje-bb44eb24780390bba5cf"
+    },
+    "izq-019": {
+      "valor": 2,
+      "justificacion": "El brazo político sirve para proclamar el objetivo revolucionario y desmontar el poder capitalista; De Leon niega que sus electos deban administrar o legislar reformas y sostiene que, al vencer, deben disolver inmediatamente sus propios órganos.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Daniel De Leon, Socialist Reconstruction of Society, The Ballot (en inglés)",
+        "url": "https://www.marxists.org/archive/deleon/works/1905/050710.htm",
+        "fecha": "1905-07-10",
+        "consultado": "2026-07-11",
+        "cita": "Sección «The Ballot»: el brazo político proclama el objetivo y se disuelve ante la organización industrial."
+      },
+      "grupoEvidencia": "pasaje-e9cbef274ba15688c431"
+    },
+    "izq-002": {
+      "valor": 0,
+      "justificacion": "La organización política es imprescindible para hacer visible el propósito revolucionario, pero no dirige por sí sola la toma ni la administración de la producción: el sindicato industrial sostiene y finalmente reemplaza al brazo político. La doble vía no permite afirmar ni negar sin matices el partido-vanguardia que formula el ítem.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Daniel De Leon, Socialist Reconstruction of Society, The Ballot (en inglés)",
+        "url": "https://www.marxists.org/archive/deleon/works/1905/050710.htm",
+        "fecha": "1905-07-10",
+        "consultado": "2026-07-11",
+        "cita": "Sección «The Ballot»: el brazo político proclama el objetivo y se disuelve ante la organización industrial."
+      },
+      "grupoEvidencia": "pasaje-e9cbef274ba15688c431"
+    }
+  }
+}

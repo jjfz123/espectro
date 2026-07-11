@@ -51,13 +51,17 @@
       { "eje": "autoridad-politica", "carga": -0.5 }
     ],
     "polaridad": "positiva",
+    "marco": {
+      "supuesto": "sistema-actual",
+      "aclaracion": "Presupone sindicatos, Gobierno y partidos como entidades separadas, como en el marco vigente."
+    },
     "tags": ["sindicatos", "partidos", "autonomia"],
     "estado": "piloto",
-    "notas": "Indicador general de autonomía; necesita combinarse con ítems de financiación y representación para discriminar respuestas de deseabilidad social."
+    "notas": "Indicador general de autonomía; necesita combinarse con ítems de financiación y representación para discriminar respuestas de deseabilidad social. El marco vigente evita confundir autonomía sindical con horizontes que disuelven la separación entre sindicato, partido y Estado."
   },
   {
     "id": "lab-006",
-    "texto": "El Estado debería reconocer una única organización sindical representativa por sector e integrarla en la gestión económica.",
+    "texto": "En el sistema actual, el Estado debería reconocer una sola organización sindical por sector como interlocutora oficial, en lugar de varias en competencia.",
     "modulo": "nucleo",
     "ejes": [
       { "eje": "autonomia-sindical", "carga": -1 },
@@ -65,9 +69,13 @@
       { "eje": "autoridad-politica", "carga": 0.75 }
     ],
     "polaridad": "positiva",
-    "tags": ["sindicato-unico", "corporativismo", "estado"],
+    "marco": {
+      "supuesto": "sistema-actual",
+      "aclaracion": "Piensa en el marco institucional vigente, no en la sociedad que preferirías."
+    },
+    "tags": ["sindicato-unico", "corporativismo", "estado", "pluralismo-representativo"],
     "estado": "piloto",
-    "notas": "Distingue corporativismo estatal de pluralismo sindical y de sindicalismo autónomo."
+    "notas": "Aísla monopolio frente a pluralismo representativo. Antes agregaba también la integración en la gestión económica, ya medida por lab-007."
   },
   {
     "id": "lab-007",
@@ -78,9 +86,13 @@
       { "eje": "poder-laboral", "carga": 0.5 }
     ],
     "polaridad": "positiva",
+    "marco": {
+      "supuesto": "sistema-actual",
+      "aclaracion": "Concertación dentro del marco vigente; no describe un modelo económico alternativo."
+    },
     "tags": ["concertacion", "corporativismo", "planificacion"],
     "estado": "piloto",
-    "notas": "Mapea concertación y planificación tripartita. Pactar con el Estado no prueba subordinación sindical, por lo que no resta autonomía; se diferencia del sindicato único integrado."
+    "notas": "Mapea concertación y planificación tripartita. Pactar con el Estado no prueba subordinación sindical, por lo que no resta autonomía; se diferencia del monopolio representativo de lab-006."
   },
   {
     "id": "lab-008",
@@ -160,6 +172,21 @@
     "notas": "Control condicional para distinguir rechazo doctrinal de protesta fiscal coyuntural. Solo-matching."
   },
   {
+    "id": "lab-027",
+    "texto": "Mi rechazo se debe a que los recursos públicos deberían reservarse prioritariamente a quienes forman parte de la comunidad nacional.",
+    "modulo": "trabajo-estado-sindicatos",
+    "ejes": [
+      { "eje": "social", "carga": 0.75 },
+      { "eje": "internacionalismo", "carga": -0.75 },
+      { "eje": "implicacion-internacional", "carga": -0.5 }
+    ],
+    "condicion": { "itemId": "lab-009", "valores": [1, 2] },
+    "polaridad": "negativa",
+    "tags": ["impuestos", "prioridad-nacional", "nativismo"],
+    "estado": "piloto",
+    "notas": "Seguimiento condicional para la justificación nacional-prioritaria o de chovinismo de bienestar, que puede coexistir con protesta fiscal en corrientes de extrema derecha. No se infiere esta motivación de lab-009 ni se usa el nombre de ninguna corriente en la pregunta."
+  },
+  {
     "id": "lab-014",
     "texto": "El derecho de huelga debería incluir los servicios esenciales siempre que se mantengan mínimos para proteger vidas.",
     "modulo": "trabajo-estado-sindicatos",
@@ -221,9 +248,13 @@
       { "eje": "institucionalismo", "carga": -0.75 }
     ],
     "polaridad": "positiva",
+    "marco": {
+      "supuesto": "sociedad-deseada",
+      "aclaracion": "Describe un orden sindicalista preferido, no una reforma dentro del parlamentarismo actual."
+    },
     "tags": ["sindicatos", "representacion", "sindicalismo-revolucionario"],
     "estado": "piloto",
-    "notas": "Distingue sindicalismo político/revolucionario de sindicalismo reivindicativo dentro del parlamentarismo."
+    "notas": "Distingue un horizonte sindicalista de la actividad sindical reivindicativa dentro del parlamentarismo."
   },
   {
     "id": "lab-019",

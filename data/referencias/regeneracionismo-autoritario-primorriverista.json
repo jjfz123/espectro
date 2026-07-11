@@ -1,0 +1,226 @@
+{
+  "id": "regeneracionismo-autoritario-primorriverista",
+  "nombre": "Regeneracionismo autoritario primorriverista",
+  "tipo": "referencia-doctrinal",
+  "definicion": "Referencia histórica del proyecto de Miguel Primo de Rivera: dictadura monárquica nacida de un golpe, suspensión del orden constitucional, Unión Patriótica como partido único personalista, representación consultiva territorial y profesional, corporativismo laboral tutelado por el Estado y modernización mediante obras públicas.",
+  "variante": "Dictadura de Primo de Rivera, con atención especial a su institucionalización civil de 1925-1930; no el falangismo de José Antonio Primo de Rivera ni el franquismo posterior",
+  "periodo": "España, 1923-1930",
+  "confianza": "verificada",
+  "version": "1.0",
+  "revisado": "2026-07-11",
+  "publicacionAfinidad": {
+    "publicable": false,
+    "motivo": "Referencia nueva pendiente de auditoría semántica adversarial; no participa en afinidad hasta cerrar cada equivalencia entre fuente e ítem."
+  },
+  "publicacionMapa": {
+    "publicable": false,
+    "motivo": "La ficha mide con solidez su autoritarismo, partido único, representación corporativa, relaciones laborales y política hidráulica, pero no ofrece una cobertura económica y moral suficiente para fijar una coordenada macro sin falsa precisión."
+  },
+  "facetasDefinitorias": [
+    "autoridad-politica",
+    "pluralismo-institucional",
+    "institucionalismo",
+    "estatismo",
+    "poder-laboral",
+    "autonomia-sindical"
+  ],
+  "sensibilidad": "violenta",
+  "advertencia": "Es el perfil histórico de una dictadura que llegó mediante un golpe, suspendió garantías, censuró la prensa y reprimió oposición y sindicalismo revolucionario; una coincidencia parcial no legitima esa coerción ni identifica a nadie con el régimen. Su corporativismo no fue idéntico al fascista italiano: mantuvo asociaciones obreras voluntarias dentro de una corporación obligatoria, aunque bajo una fuerte tutela pública. Tampoco debe confundirse a Miguel Primo de Rivera con el falangismo de su hijo José Antonio, con el franquismo o con todo regeneracionismo.",
+  "fuentesMarco": [
+    {
+      "tipo": "otro",
+      "titulo": "Congreso de los Diputados, Dictadura de Primo de Rivera: Asamblea Nacional 1923-1930",
+      "url": "https://www.congreso.es/es/cem/primoriv",
+      "consultado": "2026-07-11"
+    },
+    {
+      "tipo": "otro",
+      "titulo": "Real Decreto-ley de convocatoria de la Asamblea Nacional, Gaceta de Madrid de 14 de septiembre de 1927",
+      "url": "https://www.boe.es/gazeta/dias/1927/09/14/pdfs/GMD-1927-257.pdf",
+      "fecha": "1927-09-12",
+      "consultado": "2026-07-11"
+    },
+    {
+      "tipo": "otro",
+      "titulo": "Real Decreto-ley de Organización Corporativa Nacional, Gaceta de Madrid de 27 de noviembre de 1926",
+      "url": "https://www.boe.es/gazeta/dias/1926/11/27/pdfs/GMD-1926-331.pdf",
+      "fecha": "1926-11-26",
+      "consultado": "2026-07-11"
+    },
+    {
+      "tipo": "otro",
+      "titulo": "Miguel Ángel Perfecto García, Corporativismo y catolicismo social en la dictadura de Primo de Rivera, Studia Historica",
+      "url": "https://dialnet.unirioja.es/servlet/articulo?codigo=3115777",
+      "fecha": "1984",
+      "consultado": "2026-07-11"
+    },
+    {
+      "tipo": "otro",
+      "titulo": "Eduardo González Calleja, La dictadura de Primo de Rivera y el franquismo: ¿un modelo a imitar de dictadura liquidacionista?",
+      "url": "https://dialnet.unirioja.es/descarga/articulo/3312399.pdf",
+      "fecha": "2010",
+      "consultado": "2026-07-11"
+    },
+    {
+      "tipo": "otro",
+      "titulo": "Observatorio de la Sostenibilidad del Regadío, Planificación de regadíos: desarrollo hidráulico bajo Primo de Rivera",
+      "url": "https://observatorioregadio.gob.es/herramientas/planificacion/planificacion-de-regadios/",
+      "consultado": "2026-07-11"
+    }
+  ],
+  "reglaPublicacion": {
+    "minimoItems": 10,
+    "minimoCobertura": 0.7,
+    "umbralAfinidad": 86
+  },
+  "posiciones": {
+    "dem-010": {
+      "valor": -2,
+      "justificacion": "El régimen suspendió garantías constitucionales, censuró la prensa y se sostuvo en un partido único personalista; la competencia plural de partidos no se mantuvo durante la crisis invocada por el golpe.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Congreso de los Diputados, Dictadura de Primo de Rivera: marco político",
+        "url": "https://www.congreso.es/es/cem/primoriv",
+        "consultado": "2026-07-11",
+        "cita": "Apartado inicial: suspensión de garantías, censura y Unión Patriótica como partido único personalista."
+      },
+      "grupoEvidencia": "pasaje-e4f399cff5e1022ebf14"
+    },
+    "dem-011": {
+      "valor": 2,
+      "justificacion": "En 1926 Primo de Rivera declaró fracasado el parlamentarismo vigente y propuso un Estado de nueva estructura, basado en municipio, familia y dirección estatal; no planteaba una reforma parcial del sistema de partidos.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Miguel Ángel Perfecto García, Corporativismo y catolicismo social en la dictadura de Primo de Rivera, pp. 123-147",
+        "url": "https://dialnet.unirioja.es/servlet/articulo?codigo=3115777",
+        "fecha": "1984",
+        "consultado": "2026-07-11",
+        "cita": "Manifiesto de 5 de septiembre de 1926: «Fracasado el Sistema Parlamentario en su forma actual»."
+      },
+      "grupoEvidencia": "pasaje-eceaf47206fee663efea"
+    },
+    "dem-012": {
+      "valor": -2,
+      "justificacion": "El proyecto se instauró mediante el golpe de septiembre de 1923 y suspendió garantías y partes de la Constitución; su cambio político fundamental no siguió los procedimientos constitucionales entonces vigentes.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Congreso de los Diputados, Dictadura de Primo de Rivera: golpe y suspensión constitucional",
+        "url": "https://www.congreso.es/es/cem/primoriv",
+        "consultado": "2026-07-11",
+        "cita": "Cronología 1923-1927: golpe de Estado, garantías suspendidas y Constitución suspendida en parte."
+      },
+      "grupoEvidencia": "pasaje-ee94c6cdae29cd9c5290"
+    },
+    "dem-019": {
+      "valor": 2,
+      "justificacion": "La Unión Patriótica fue creada como partido único y personalista de sostén de la dictadura, excluyendo la competencia permanente entre organizaciones políticas autónomas.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Congreso de los Diputados, Dictadura de Primo de Rivera: Unión Patriótica",
+        "url": "https://www.congreso.es/es/cem/primoriv",
+        "consultado": "2026-07-11",
+        "cita": "Párrafo sobre 1924: la Unión Patriótica se define como partido único y personalista."
+      },
+      "grupoEvidencia": "pasaje-2de6c77aa882f454746a"
+    },
+    "dem-018": {
+      "valor": 1,
+      "justificacion": "La Asamblea consultiva combinó representantes estatales, provinciales y municipales con actividades, clases y valores, y designados de Unión Patriótica. La coincidencia es parcial porque no realizó de forma completa la tríada familia-municipio-profesión y conservó nombramientos gubernativos.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Real Decreto-ley de convocatoria de la Asamblea Nacional, preámbulo y artículos 15-20",
+        "url": "https://www.boe.es/gazeta/dias/1927/09/14/pdfs/GMD-1927-257.pdf",
+        "fecha": "1927-09-12",
+        "consultado": "2026-07-11",
+        "cita": "Preámbulo y artículos 15-20: Estado, provincias, municipios, actividades, clases y Unión Patriótica."
+      },
+      "grupoEvidencia": "pasaje-fe283e5391a3e8d39f01"
+    },
+    "dr-014": {
+      "valor": 2,
+      "justificacion": "La Organización Corporativa Nacional articuló capital y trabajo en comités paritarios y corporaciones profesionales de derecho público, con presidencias designadas por el Ministerio y acuerdos obligatorios.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Real Decreto-ley de Organización Corporativa Nacional, exposición y artículos 1, 4, 5 y 11",
+        "url": "https://www.boe.es/gazeta/dias/1926/11/27/pdfs/GMD-1926-331.pdf",
+        "fecha": "1926-11-26",
+        "consultado": "2026-07-11",
+        "cita": "Exposición y artículos 1, 4, 5 y 11: comités paritarios, corporaciones y presidencia ministerial."
+      },
+      "grupoEvidencia": "pasaje-92b2062abe27ce1f4417"
+    },
+    "lab-005": {
+      "valor": -1,
+      "justificacion": "Las asociaciones patronales y obreras elegían sus vocales por separado, pero el Ministerio creaba los comités y designaba a su presidente y vicepresidente. Existía asociación voluntaria, no plena independencia frente al Gobierno.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Real Decreto-ley de Organización Corporativa Nacional, artículos 6, 11 y 12",
+        "url": "https://www.boe.es/gazeta/dias/1926/11/27/pdfs/GMD-1926-331.pdf",
+        "fecha": "1926-11-26",
+        "consultado": "2026-07-11",
+        "cita": "Artículos 6, 11 y 12: creación ministerial, presidencias públicas y elección separada de vocales."
+      },
+      "grupoEvidencia": "pasaje-9675bed7e30871798099"
+    },
+    "lab-006": {
+      "valor": 0,
+      "justificacion": "La corporación y sus comités eran obligatorios, pero las organizaciones obreras conservaron afiliación voluntaria y una esfera propia. Por eso no equivale sin matiz a reconocer un único sindicato estatal representativo por sector.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Eduardo González Calleja, La dictadura de Primo de Rivera y el franquismo, apartado sobre la Organización Corporativa Nacional",
+        "url": "https://dialnet.unirioja.es/descarga/articulo/3312399.pdf",
+        "fecha": "2010",
+        "consultado": "2026-07-11",
+        "cita": "Apartado comparativo: «sindicato libre en la corporación obligatoria» y agrupaciones mixtas jerarquizadas."
+      },
+      "grupoEvidencia": "pasaje-db3417518b6a321cdf12"
+    },
+    "der-022": {
+      "valor": 2,
+      "justificacion": "Bajo la dictadura se dio un desarrollo intenso de la política hidráulica y se crearon las Confederaciones Hidrográficas para organizar planificación, participación y gestión por cuencas; la ampliación de regadíos y grandes obras fue una política central.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Observatorio de la Sostenibilidad del Regadío, Planificación de regadíos",
+        "url": "https://observatorioregadio.gob.es/herramientas/planificacion/planificacion-de-regadios/",
+        "consultado": "2026-07-11",
+        "cita": "Historia de la planificación: desarrollo hidráulico bajo Primo de Rivera y creación de las Confederaciones."
+      },
+      "grupoEvidencia": "pasaje-7afb7f0acf78784d8ddd"
+    },
+    "mon-001": {
+      "valor": -2,
+      "justificacion": "La dictadura se mantuvo dentro de la Monarquía de Alfonso XIII y sus decretos emanaban formalmente del Rey; no convirtió la jefatura del Estado en un cargo elegido por la ciudadanía.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Congreso de los Diputados, Dictadura de Primo de Rivera: continuidad de la Monarquía",
+        "url": "https://www.congreso.es/es/cem/primoriv",
+        "consultado": "2026-07-11",
+        "cita": "Relato institucional: Alfonso XIII mantiene la Corona y no convoca las Cortes durante la dictadura."
+      },
+      "grupoEvidencia": "pasaje-c1769e31fa49c219a17e"
+    },
+    "dr-024": {
+      "valor": 2,
+      "justificacion": "La dictadura intentó institucionalizar un régimen autoritario, corporativo, intervencionista y antidemocrático; la preferencia por autoridad sin democracia no fue una medida aislada de emergencia.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Congreso de los Diputados, Dictadura de Primo de Rivera: anteproyecto constitucional de 1929",
+        "url": "https://www.congreso.es/es/cem/primoriv",
+        "consultado": "2026-07-11",
+        "cita": "Apartado de 1929: nuevo régimen autoritario, corporativo, intervencionista y antidemocrático."
+      },
+      "grupoEvidencia": "pasaje-6d85e963306f81c3362c"
+    }
+  }
+}

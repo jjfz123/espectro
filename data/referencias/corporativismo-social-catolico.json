@@ -1,0 +1,99 @@
+{
+  "id": "corporativismo-social-catolico",
+  "nombre": "Corporativismo social católico",
+  "tipo": "referencia-doctrinal",
+  "definicion": "Tipo ideal societario de la doctrina social católica entre Rerum Novarum y Quadragesimo Anno: asociaciones libres de trabajadores y patronos, cuerpos profesionales por ramas, cooperación frente a la lucha de clases, función social de propiedad y empresa y subsidiariedad frente a la absorción estatal. No es el corporativismo de Estado de las dictaduras de entreguerras.",
+  "variante": "Corporativismo social o de asociación, de abajo arriba; se excluyen expresamente sus apropiaciones estatales, fascistas y nacional-sindicalistas",
+  "periodo": "Europa y recepción española, 1891-1931",
+  "confianza": "verificada",
+  "version": "1.0",
+  "revisado": "2026-07-11",
+  "publicacionAfinidad": {
+    "publicable": false,
+    "motivo": "Referencia nueva pendiente de auditoría semántica adversarial; no participa en afinidad hasta cerrar cada equivalencia entre fuente e ítem."
+  },
+  "publicacionMapa": {
+    "publicable": false,
+    "motivo": "Los ítems vigentes captan autonomía y concertación laboral, pero no función social de la propiedad, subsidiariedad y pluralismo asociativo con suficiente equilibrio; proyectarlo ahora confundiría corporativismo societario y corporativismo estatal."
+  },
+  "facetasDefinitorias": [
+    "economico",
+    "poder-laboral",
+    "autonomia-sindical",
+    "estatismo"
+  ],
+  "sensibilidad": "normal",
+  "advertencia": "La palabra corporativismo cubre familias incompatibles. Esta ficha conserva la libertad de asociación, permite organizaciones separadas de obreros y patronos y advierte contra la sustitución de la iniciativa social por el Estado; por ello no se fusiona con salazarismo, fascismo, falangismo ni sindicato vertical. La doctrina moral cristiana de las encíclicas no implica por sí sola Estado confesional, veto jurídico de autoridades religiosas, abolición de partidos o violencia. Tampoco describe automáticamente a la democracia cristiana ni a ningún partido católico español.",
+  "fuentesMarco": [
+    {
+      "tipo": "otro",
+      "titulo": "León XIII, Rerum Novarum",
+      "url": "https://www.vatican.va/content/leo-xiii/es/encyclicals/documents/hf_l-xiii_enc_15051891_rerum-novarum.html",
+      "fecha": "1891-05-15",
+      "consultado": "2026-07-11"
+    },
+    {
+      "tipo": "otro",
+      "titulo": "Pío XI, Quadragesimo Anno",
+      "url": "https://www.vatican.va/content/pius-xi/es/encyclicals/documents/hf_p-xi_enc_19310515_quadragesimo-anno.html",
+      "fecha": "1931-05-15",
+      "consultado": "2026-07-11"
+    },
+    {
+      "tipo": "otro",
+      "titulo": "Stanley G. Payne, El catolicismo español, capítulo sobre corporativismo",
+      "url": "https://religion.antropo.es/_libros/biblioteca/Payne.Stanley_1984_El-catolicismo-espanol.pdf",
+      "fecha": "1984",
+      "consultado": "2026-07-11"
+    }
+  ],
+  "reglaPublicacion": {
+    "minimoItems": 3,
+    "minimoCobertura": 0.65,
+    "umbralAfinidad": 80
+  },
+  "posiciones": {
+    "dr-014": {
+      "valor": 0,
+      "justificacion": "El modelo es mixto: reúne a trabajo y capital en corporaciones para los intereses comunes de cada rama, conserva asociaciones separadas para sus intereses propios y rechaza la absorción estatal de la iniciativa social. Por eso no equivale ni se opone por completo a la organización única dirigida por el Estado que formula el ítem.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Quadragesimo Anno, apartados 79-87",
+        "url": "https://www.vatican.va/content/pius-xi/es/encyclicals/documents/hf_p-xi_enc_19310515_quadragesimo-anno.html",
+        "fecha": "1931-05-15",
+        "consultado": "2026-07-11",
+        "cita": "Apartados 83-87: asociaciones separadas para intereses propios y corporaciones comunes sin absorción estatal."
+      },
+      "grupoEvidencia": "pasaje-df8f25a29b2de53ab5de"
+    },
+    "lab-005": {
+      "valor": 1,
+      "justificacion": "Rerum Novarum afirma el derecho de asociación y ordena al Estado proteger las asociaciones sin inmiscuirse en su constitución interna ni en su gobierno; la autonomía frente al poder político es una salvaguarda expresa.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Rerum Novarum, asociaciones obreras",
+        "url": "https://www.vatican.va/content/leo-xiii/es/encyclicals/documents/hf_l-xiii_enc_15051891_rerum-novarum.html",
+        "fecha": "1891-05-15",
+        "consultado": "2026-07-11",
+        "cita": "Apartados 38-41: derecho de asociación y límite a la injerencia estatal en su constitución y gobierno."
+      },
+      "grupoEvidencia": "pasaje-f5621d870b1408840f71"
+    },
+    "lab-006": {
+      "valor": -1,
+      "justificacion": "Quadragesimo Anno defiende la libertad para fundar y escoger asociaciones profesionales y teme que una organización sindical única se vuelva burocrática y política. Admite órdenes profesionales amplios, de ahí que el desacuerdo no sea absoluto.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Quadragesimo Anno, apartados 86-96",
+        "url": "https://www.vatican.va/content/pius-xi/es/encyclicals/documents/hf_p-xi_enc_19310515_quadragesimo-anno.html",
+        "fecha": "1931-05-15",
+        "consultado": "2026-07-11",
+        "cita": "Apartados 86-96: libertad para fundar y escoger asociaciones profesionales frente a un sindicato único."
+      },
+      "grupoEvidencia": "pasaje-5db8090f37ca2e73f579"
+    }
+  }
+}

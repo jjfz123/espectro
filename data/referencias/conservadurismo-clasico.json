@@ -8,7 +8,13 @@
   "confianza": "verificada",
   "version": "1.0",
   "revisado": "2026-07-10",
-  "facetasDefinitorias": ["tradicion-moral", "institucionalismo", "pluralismo-institucional", "monarquia", "democracia-directa"],
+  "facetasDefinitorias": [
+    "tradicion-moral",
+    "institucionalismo",
+    "pluralismo-institucional",
+    "monarquia",
+    "democracia-directa"
+  ],
   "sensibilidad": "normal",
   "advertencia": "Es un tipo ideal doctrinal, no la ficha de ningún partido español: no debe confundirse con el PP, Vox ni con la democracia cristiana, que parte de una fuente distinta (la doctrina social católica) aunque comparta con esta corriente el rechazo a la ruptura revolucionaria. Burke y Oakeshott no escriben sobre aborto ni eutanasia —cuestiones bioéticas que sí articula la democracia cristiana desde el personalismo católico— por lo que esta referencia no fija posición ahí. El conservadurismo clásico no es sinónimo de Estado mínimo: Burke defendía instituciones establecidas (Iglesia, Corona, aristocracia territorial) que pueden implicar un Estado extenso allí donde la costumbre lo sostenga.",
   "fuentesMarco": [
@@ -116,7 +122,8 @@
         "fecha": "1790",
         "consultado": "2026-07-10",
         "cita": "Prejudice is of ready application in the emergency; it renders a man's virtue his habit... Prejudice is the general bank and capital of nations, and of ages."
-      }
+      },
+      "grupoEvidencia": "pasaje-b46ab902f4103835055d"
     },
     "der-006": {
       "valor": 1,
@@ -141,7 +148,8 @@
         "fecha": "1790",
         "consultado": "2026-07-10",
         "cita": "To be attached to the subdivision, to love the little platoon we belong to in society, is the first principle (the germ as it were) of public affections."
-      }
+      },
+      "grupoEvidencia": "pasaje-03cdd8e32fd5b2057f61"
     },
     "der-005": {
       "valor": 1,
@@ -190,7 +198,8 @@
         "fecha": "1790",
         "consultado": "2026-07-10",
         "cita": "Your liberty... an entailed inheritance derived to us from our forefathers, and to be transmitted to our posterity."
-      }
+      },
+      "grupoEvidencia": "pasaje-9be1105fcd5ee78056d3"
     },
     "eco-004": {
       "valor": 1,

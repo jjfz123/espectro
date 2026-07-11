@@ -1,0 +1,171 @@
+{
+  "id": "conservadurismo-canovista-restauracion",
+  "nombre": "Conservadurismo canovista de la Restauración",
+  "tipo": "referencia-doctrinal",
+  "definicion": "Tipo ideal del sistema de Antonio Cánovas del Castillo: monarquía constitucional hereditaria con soberanía compartida entre Corona y Cortes, bicameralismo, alternancia pactada entre conservadores y liberales, confesionalidad católica tolerante con el culto privado, centralización matizada por el Concierto vasco y viraje económico proteccionista.",
+  "variante": "Pensamiento y diseño institucional de Cánovas entre el Manifiesto de Sandhurst, la Constitución de 1876 y el Arancel de 1891; no todo el conservadurismo español ni toda la Restauración posterior a su muerte",
+  "periodo": "España, 1874-1897",
+  "confianza": "verificada",
+  "version": "1.0",
+  "revisado": "2026-07-11",
+  "publicacionAfinidad": {
+    "publicable": false,
+    "motivo": "Referencia nueva pendiente de auditoría semántica adversarial; no participa en afinidad hasta cerrar cada equivalencia entre fuente e ítem."
+  },
+  "publicacionMapa": {
+    "publicable": false,
+    "motivo": "La ficha documenta monarquía, pluralismo limitado, confesionalidad, proteccionismo y la ambivalencia foral, pero el banco actual no traduce sin anacronismos el sufragio censitario, el turno, el caciquismo y la soberanía compartida a los dos ejes macro."
+  },
+  "facetasDefinitorias": [
+    "monarquia",
+    "pluralismo-institucional",
+    "institucionalismo",
+    "laicismo",
+    "territorial",
+    "propiedad-mercado"
+  ],
+  "sensibilidad": "normal",
+  "advertencia": "Es un tipo histórico, no la ficha del Partido Popular, Vox ni de la monarquía parlamentaria de 1978. El sistema admitió libertades y alternancia entre dos partidos, pero también sufragio inicialmente restringido, fraude electoral, oligarquía y exclusiones; por eso su pluralismo se codifica como parcial. No se deducen respuestas actuales sobre referéndums, proporcionalidad, elección judicial, autonomías o políticas sociales. Su Concierto Económico de 1878 coexistió con la abolición del régimen foral, una ambivalencia que no debe borrarse.",
+  "fuentesMarco": [
+    {
+      "tipo": "otro",
+      "titulo": "Congreso de los Diputados, Constitución de 1876: contexto, instituciones y vigencia",
+      "url": "https://constitucion.congreso.es/w/constituci%C3%B3n-de-1876",
+      "consultado": "2026-07-11"
+    },
+    {
+      "tipo": "otro",
+      "titulo": "Congreso de los Diputados, biografía de Antonio Cánovas del Castillo",
+      "url": "https://www.congreso.es/es/web/guest/presidentes-del-congreso-de-los-diputados?codigo=20640&tipoHistorico=1",
+      "consultado": "2026-07-11"
+    },
+    {
+      "tipo": "otro",
+      "titulo": "Antonio Cánovas del Castillo, Discursos parlamentarios, Biblioteca Virtual Miguel de Cervantes",
+      "url": "https://www.cervantesvirtual.com/portales/reyes_y_reinas_espana_contemporanea/obra-visor/discursos-parlamentarios--0/html/fef0f6ea-82b1-11df-acc7-002185ce6064_2.html",
+      "consultado": "2026-07-11"
+    },
+    {
+      "tipo": "otro",
+      "titulo": "Jesús María Osés Gorraiz, El sistema de Cánovas del Castillo: las verdades madres en la política, Revista de Estudios Políticos, CEPC",
+      "url": "https://www.cepc.gob.es/sites/default/files/2021-12/17213repne103197.pdf",
+      "fecha": "1997",
+      "consultado": "2026-07-11"
+    },
+    {
+      "tipo": "otro",
+      "titulo": "Jorge Palafox Gámir, España y la economía internacional, Ayer",
+      "url": "https://dialnet.unirioja.es/servlet/articulo?codigo=739307",
+      "fecha": "2003",
+      "consultado": "2026-07-11"
+    },
+    {
+      "tipo": "otro",
+      "titulo": "Gobierno Vasco, 140 aniversario del Concierto Económico: origen tras la abolición foral",
+      "url": "https://www.euskadi.eus/gobierno-vasco/-/noticia/2018/140-aniversario-del-concierto-economico-1878-2018/",
+      "fecha": "2018",
+      "consultado": "2026-07-11"
+    }
+  ],
+  "reglaPublicacion": {
+    "minimoItems": 7,
+    "minimoCobertura": 0.7,
+    "umbralAfinidad": 84
+  },
+  "posiciones": {
+    "mon-001": {
+      "valor": -2,
+      "justificacion": "Cánovas defendió expresamente la monarquía hereditaria como continuidad social y como forma preferible del Estado. La jefatura no dependía de una elección de la ciudadanía.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Antonio Cánovas del Castillo, discurso parlamentario de 14 de diciembre de 1854",
+        "url": "https://www.cervantesvirtual.com/portales/reyes_y_reinas_espana_contemporanea/obra-visor/discursos-parlamentarios--0/html/fef0f6ea-82b1-11df-acc7-002185ce6064_2.html",
+        "fecha": "1854-12-14",
+        "consultado": "2026-07-11",
+        "cita": "Párrafos finales: la continuidad social está mejor representada por la «monarquía hereditaria»."
+      },
+      "grupoEvidencia": "pasaje-5aaf285fd1c5ceca2cc1"
+    },
+    "dem-010": {
+      "valor": 1,
+      "justificacion": "El diseño constitucional permitió asociación, imprenta y alternancia entre conservadores y liberales. El apoyo es parcial: el turno estuvo condicionado por sufragio restringido, caciquismo y voces excluidas, por lo que no se equipara a competencia democrática plena en una emergencia.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Congreso de los Diputados, Constitución de 1876, libertades y etapas de la alternancia",
+        "url": "https://constitucion.congreso.es/w/constituci%C3%B3n-de-1876",
+        "consultado": "2026-07-11",
+        "cita": "Apartados sobre derecho de asociación, libertad de imprenta, alternancia y exclusiones del sistema."
+      },
+      "grupoEvidencia": "pasaje-d83d92b172d929cf852b"
+    },
+    "dem-019": {
+      "valor": -2,
+      "justificacion": "Cánovas creó el Partido Conservador y favoreció la formación de un Partido Liberal que aceptara la Constitución, estructurando una alternancia de dos organizaciones; no propuso un movimiento único permanente.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Congreso de los Diputados, biografía de Antonio Cánovas del Castillo",
+        "url": "https://www.congreso.es/es/web/guest/presidentes-del-congreso-de-los-diputados?codigo=20640&tipoHistorico=1",
+        "consultado": "2026-07-11",
+        "cita": "Biografía: creador del Partido Conservador y favorable a la formación del Partido Liberal de Sagasta."
+      },
+      "grupoEvidencia": "pasaje-0fe668135dbb565dfeff"
+    },
+    "dr-011": {
+      "valor": 2,
+      "justificacion": "La Constitución de 1876 reconocía de forma expresa el catolicismo como religión del Estado, aunque toleraba la práctica privada de otros cultos; coincide con confesionalidad, no con teocracia ni prohibición completa de otras religiones.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Congreso de los Diputados, Constitución de 1876, artículo 11 y cuestión religiosa",
+        "url": "https://constitucion.congreso.es/w/constituci%C3%B3n-de-1876",
+        "consultado": "2026-07-11",
+        "cita": "Síntesis del artículo 11: catolicismo como religión del Estado y tolerancia privada de otros cultos."
+      },
+      "grupoEvidencia": "pasaje-e6057809df5546aff270"
+    },
+    "der-020": {
+      "valor": 2,
+      "justificacion": "El texto constitucional canovista declaraba inviolable al Rey y trasladaba la responsabilidad de sus actos a los ministros, una coincidencia directa con conservar la inviolabilidad constitucional de la jefatura monárquica.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Congreso de los Diputados, Constitución de 1876, título VI sobre el Rey y sus ministros",
+        "url": "https://constitucion.congreso.es/w/constituci%C3%B3n-de-1876",
+        "consultado": "2026-07-11",
+        "cita": "Título VI: Rey inviolable y facultades ejercidas por ministros responsables."
+      },
+      "grupoEvidencia": "pasaje-0ecd15bb5cee73a1adc9"
+    },
+    "der-004": {
+      "valor": 2,
+      "justificacion": "El viraje proteccionista culminó con el arancel canovista de 1891, concebido para proteger producción agraria e industrial española frente a la competencia exterior; es una aplicación histórica directa del criterio del enunciado.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Jorge Palafox Gámir, España y la economía internacional, apartado sobre el arancel canovista de 1891",
+        "url": "https://dialnet.unirioja.es/servlet/articulo?codigo=739307",
+        "fecha": "2003",
+        "consultado": "2026-07-11",
+        "cita": "Resumen y sección inicial: periodo proteccionista iniciado por el arancel canovista de 1891."
+      },
+      "grupoEvidencia": "pasaje-a8faa43e5af42d4156d1"
+    },
+    "der-014": {
+      "valor": 0,
+      "justificacion": "Cánovas abolió la parte sustancial del régimen foral tras la guerra carlista, pero su Gobierno creó en 1878 el primer Concierto Económico y dejó capacidad recaudatoria propia. Esa combinación impide asignarle coherentemente un sí o un no simples.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Gobierno Vasco, 140 aniversario del Concierto Económico: abolición foral y acuerdo de 1878",
+        "url": "https://www.euskadi.eus/gobierno-vasco/-/noticia/2018/140-aniversario-del-concierto-economico-1878-2018/",
+        "fecha": "2018",
+        "consultado": "2026-07-11",
+        "cita": "Historia institucional: abolición foral seguida del Concierto de 1878 y recaudación por Diputaciones."
+      },
+      "grupoEvidencia": "pasaje-36b8b078064ef75b4123"
+    }
+  }
+}

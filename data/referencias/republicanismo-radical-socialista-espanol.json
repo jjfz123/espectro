@@ -1,0 +1,144 @@
+{
+  "id": "republicanismo-radical-socialista-espanol",
+  "nombre": "Republicanismo radical-socialista español",
+  "tipo": "referencia-doctrinal",
+  "definicion": "Tipo ideal programático del republicanismo radical-socialista español de 1930: propone una república democrática y participativa, derechos constitucionales, laicidad, fiscalidad progresiva, intervención social, participación obrera y reformas económicas avanzadas dentro de un horizonte republicano de izquierdas.",
+  "variante": "Ideario aprobado en 1930 antes de la Segunda República; excluye la escisión radical-socialista revolucionaria, las organizaciones posteriores con nombres parecidos y cualquier traslación automática a la política actual",
+  "periodo": "1929-1933",
+  "confianza": "verificada",
+  "version": "1.0",
+  "revisado": "2026-07-11",
+  "publicacionAfinidad": {
+    "publicable": false,
+    "motivo": "Referencia nueva pendiente de auditoría semántica adversarial; no participa en afinidad hasta cerrar cada equivalencia entre fuente e ítem."
+  },
+  "publicacionMapa": {
+    "publicable": false,
+    "motivo": "El ideario fija economía, república y participación, pero la investigación histórica documenta tensiones entre su programa pluralista y prácticas o discursos de exclusión; antes de proyectarlo al mapa hay que decidir cómo representar esa distancia sin confundir doctrina y conducta partidaria."
+  },
+  "facetasDefinitorias": [
+    "monarquia",
+    "democracia-directa",
+    "pluralismo-institucional",
+    "laicismo",
+    "economico",
+    "poder-laboral",
+    "institucionalismo"
+  ],
+  "sensibilidad": "normal",
+  "advertencia": "Es una reconstrucción histórica del ideario formal de una familia republicana, no un perfil electoral del partido que lo publicó ni de sus dirigentes. Un estudio académico identifica ambigüedades democráticas, retórica de exclusión y distancia entre programa y comportamientos; por eso la ficha no convierte la práctica de 1929-1933 en posiciones doctrinales adicionales ni oculta ese límite. Tampoco se codifica fem-009: los Acuerdos con la Santa Sede son de 1979 y no puede atribuirse una respuesta literal a una corriente desaparecida décadas antes, aunque su laicismo histórico fuera intenso.",
+  "fuentesMarco": [
+    {
+      "tipo": "programa",
+      "titulo": "Ideario del Partido Republicano Radical Socialista, transcripción de Miguel Artola, Partidos y programas políticos, 1808-1936",
+      "url": "https://es.wikisource.org/wiki/Ideario_del_Partido_Republicano_Radical_Socialista",
+      "fecha": "1930-09-26",
+      "consultado": "2026-07-11"
+    },
+    {
+      "tipo": "otro",
+      "titulo": "Manuel Álvarez Tardío, Cultura política, exclusión y violencia en el republicanismo radical-socialista en España, 1929-1933",
+      "url": "https://www.cepc.gob.es/publicaciones/revistas/revista-de-estudios-politicos/numero-148-abriljunio-2010/cultura-politica-exclusion-y-violencia-en-el-republicanismo-radical-socialista-en-espana-1929-1933-1",
+      "fecha": "2010",
+      "consultado": "2026-07-11"
+    },
+    {
+      "tipo": "otro",
+      "titulo": "Diego Cucalón Vela, Ejercer el poder con herencias del pasado: el Partido Republicano Radical Socialista ante la Segunda República española",
+      "url": "https://journals.openedition.org/ccec/6331?lang=es",
+      "fecha": "2016",
+      "consultado": "2026-07-11"
+    }
+  ],
+  "reglaPublicacion": {
+    "minimoItems": 5,
+    "minimoCobertura": 0.6,
+    "umbralAfinidad": 80
+  },
+  "posiciones": {
+    "mon-001": {
+      "valor": 1,
+      "justificacion": "El ideario abre con una república democrática cuyo presidente es revocable y plenamente responsable, una jefatura no hereditaria y sometida a control. Se limita a +1 porque el texto no precisa que la ciudadanía elija directamente al presidente.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Ideario del Partido Republicano Radical Socialista, Organización del Estado",
+        "url": "https://es.wikisource.org/wiki/Ideario_del_Partido_Republicano_Radical_Socialista",
+        "fecha": "1930-09-26",
+        "consultado": "2026-07-11",
+        "cita": "Apartado «Organización del Estado»: República democrática con presidente responsable y revocable."
+      },
+      "grupoEvidencia": "pasaje-6cd1cf5a4fc034cff402"
+    },
+    "dem-001": {
+      "valor": 2,
+      "justificacion": "Propone establecer referéndum e iniciativa popular para la participación directa en la legislación y someter además al voto nacional la guerra, la paz y la revisión constitucional.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Ideario del Partido Republicano Radical Socialista, Organización del Estado",
+        "url": "https://es.wikisource.org/wiki/Ideario_del_Partido_Republicano_Radical_Socialista",
+        "fecha": "1930-09-26",
+        "consultado": "2026-07-11",
+        "cita": "Apartado «Organización del Estado»: referéndum e iniciativa popular para participar en la legislación."
+      },
+      "grupoEvidencia": "pasaje-e8f104da8c9f8ef8e277"
+    },
+    "eco-001": {
+      "valor": 1,
+      "justificacion": "El programa hace recaer progresivamente el impuesto sobre capital, renta y sucesiones y exime el trabajo como principio. Respalda que las rentas altas soporten más carga, pero se usa +1 porque no cuantifica la subida ni sus tramos.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Ideario del Partido Republicano Radical Socialista, Economía",
+        "url": "https://es.wikisource.org/wiki/Ideario_del_Partido_Republicano_Radical_Socialista",
+        "fecha": "1930-09-26",
+        "consultado": "2026-07-11",
+        "cita": "Apartado «Economía»: impuesto progresivo sobre capital, renta y sucesiones y supresión de herencias colaterales."
+      },
+      "grupoEvidencia": "pasaje-6d69789d17207e110e8a"
+    },
+    "eco-009": {
+      "valor": -2,
+      "justificacion": "El ideario exige imposición progresiva sobre las sucesiones e incluso suprime determinadas herencias colaterales; eliminar por completo el impuesto sucesorio va en la dirección contraria a ambas medidas.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Ideario del Partido Republicano Radical Socialista, Economía",
+        "url": "https://es.wikisource.org/wiki/Ideario_del_Partido_Republicano_Radical_Socialista",
+        "fecha": "1930-09-26",
+        "consultado": "2026-07-11",
+        "cita": "Apartado «Economía»: impuesto progresivo sobre capital, renta y sucesiones y supresión de herencias colaterales."
+      },
+      "grupoEvidencia": "pasaje-6d69789d17207e110e8a"
+    },
+    "lai-001": {
+      "valor": 2,
+      "justificacion": "El programa exige instrucción integral, laica y gratuita en todos los niveles y excluye la enseñanza por comunidades religiosas, una posición más intensa que retirar la asignatura confesional del horario público.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Ideario del Partido Republicano Radical Socialista, Instrucción pública",
+        "url": "https://es.wikisource.org/wiki/Ideario_del_Partido_Republicano_Radical_Socialista",
+        "fecha": "1930-09-26",
+        "consultado": "2026-07-11",
+        "cita": "Apartado «Instrucción pública»: enseñanza integral, laica y gratuita en todos sus grados."
+      },
+      "grupoEvidencia": "pasaje-ccf51b1e3e06e86f5529"
+    },
+    "lab-002": {
+      "valor": 1,
+      "justificacion": "El ideario reconoce participación obrera en la dirección de las empresas y en sus beneficios; se limita a +1 porque no determina que la parte elegida por la plantilla sea sustancial ni diseña un órgano de cogestión concreto.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Ideario del Partido Republicano Radical Socialista, Legislación obrera y social",
+        "url": "https://es.wikisource.org/wiki/Ideario_del_Partido_Republicano_Radical_Socialista",
+        "fecha": "1930-09-26",
+        "consultado": "2026-07-11",
+        "cita": "Apartado «Legislación obrera y social»: participación obrera en la dirección y beneficios de las empresas."
+      },
+      "grupoEvidencia": "pasaje-d4f346238e619ff888c3"
+    }
+  }
+}

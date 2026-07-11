@@ -6,6 +6,8 @@ interface Props {
   valor: Valor | null | undefined;
   textoItem: string;
   alResponder: (valor: Valor | null) => void;
+  /** true = «muy de acuerdo» primero (orden descendente); false = orden ascendente por defecto. */
+  invertida?: boolean;
 }
 
 /**
@@ -13,13 +15,18 @@ interface Props {
  * «Sin opinión» va aparte y con otro estilo: no es el punto neutral
  * (que sí cuenta para el cálculo), sino la ausencia de posición
  * (excluida del cálculo).
+ *
+ * El número visible de cada opción se deriva del valor (−2→1 … +2→5), no de
+ * su posición: así el atajo de teclado 1-5 sigue señalando la misma opción
+ * aunque el usuario invierta el orden de presentación.
  */
-export function Likert({ valor, textoItem, alResponder }: Props) {
+export function Likert({ valor, textoItem, alResponder, invertida = false }: Props) {
+  const opciones = invertida ? [...ESCALA].slice().reverse() : ESCALA;
   return (
     <fieldset className="likert-campo">
       <legend className="solo-lectores">Tu posición: {textoItem}</legend>
       <div className="likert">
-        {ESCALA.map((opcion, i) => (
+        {opciones.map((opcion) => (
           <label
             key={opcion.valor}
             className="likert-opcion"
@@ -33,7 +40,7 @@ export function Likert({ valor, textoItem, alResponder }: Props) {
               onChange={() => alResponder(opcion.valor)}
             />
             <span className="likert-num" aria-hidden="true">
-              {i + 1}
+              {opcion.valor + 3}
             </span>
             <span>{opcion.etiqueta}</span>
           </label>

@@ -33,7 +33,8 @@
         "fecha": "2017-05-13",
         "consultado": "2026-07-10",
         "cita": "fiscalitat i hisenda justa, eficient, progressiva i equitativa que incentivi l'activitat econòmica i defensi les pimes i autònoms"
-      }
+      },
+      "grupoEvidencia": "pasaje-01a9cc49b69f05828fe1"
     },
     "eco-005": {
       "valor": -1,
@@ -106,7 +107,8 @@
         "fecha": "2021-03",
         "consultado": "2026-07-10",
         "cita": "PSOE, Podemos, BNG, ERC, Junts per Catalunya, PDeCAT, Más País, Bildu, PNV, Nueva Canarias, Coalición Canaria, CUP y Cs"
-      }
+      },
+      "grupoEvidencia": "pasaje-76bcf076772c564eb7b3"
     },
     "fem-001": {
       "valor": 0,
@@ -143,7 +145,8 @@
         "fecha": "2023-02-09",
         "consultado": "2026-07-10",
         "cita": "Hacen mucho más daño a España ustedes que cualquiera de los que nos subimos a esta tribuna"
-      }
+      },
+      "grupoEvidencia": "pasaje-7023e256813ce8b0089e"
     },
     "fem-012": {
       "valor": -1,
@@ -180,7 +183,8 @@
         "fecha": "2021-01-29",
         "consultado": "2026-07-10",
         "cita": "confrontación estéril"
-      }
+      },
+      "grupoEvidencia": "pasaje-4fd8a01d1f68da22a7ee"
     },
     "cat-002": {
       "valor": 2,
@@ -205,7 +209,8 @@
         "fecha": "2023-07",
         "consultado": "2026-07-10",
         "cita": "Aquesta és la solució més justa i adequada que s'ha d'aprovar. [...] L'amnistia és l'únic camí per redreçar la situació."
-      }
+      },
+      "grupoEvidencia": "pasaje-b4cbb04d5f8ba4a9955e"
     },
     "ter-002": {
       "valor": 1,

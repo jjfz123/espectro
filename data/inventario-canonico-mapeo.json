@@ -1,0 +1,33 @@
+{
+  "version": 1,
+  "partidos": {
+    "total": 65,
+    "sha256": "74fef35d3fdc50365c93e5657a63f3072484c71ba05f539e0a5cc826c378d178"
+  },
+  "sindicatos": {
+    "total": 14,
+    "sha256": "fbe082e4fa30bf9591a071b80ccbb711ec52e31500264984a78b5bf2b9951216"
+  },
+  "candidaturas": {
+    "total": 323,
+    "sha256": "a0dd02c7130751da75d663b05e479ed8957a4b5ae0ae67daf076a375f4a28415"
+  },
+  "rapido": {
+    "total": 50,
+    "sha256": "632ce8393fcba303c720fbfde56c0611381f0c02cf4603cc9724632df37b797a",
+    "ampliacionTotal": 10,
+    "ampliacionSha256": "523701ac97a6840fd15f03f408709ce543e817fcb82689b4b12c690903004c11"
+  },
+  "cribaRegiones": {
+    "total": 30,
+    "sha256": "bf9fd2afc4915896f7fc593fc10163f95f6e8e64a3fa55adbb9ca9edef27aa2e"
+  },
+  "contratoFuncional": {
+    "total": 273,
+    "sha256": "4b61ec162de2f1bdb5f22ac5413d5e87a6c569c1a7d47d8863349caf2e31a038"
+  },
+  "ideologiasImagen": {
+    "total": 178,
+    "sha256": "87b82ea6e6ddffc4421ac3555d42fb19a30254df59a4284d18aa07d7e345d430"
+  }
+}

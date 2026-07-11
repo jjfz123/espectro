@@ -7,11 +7,12 @@ import {
   distanciaEspacial,
 } from '@engine';
 import { nombreLlanoEje, poloLlano } from '../lecturaEjes';
+import { CLAVE_REABRIR_3D } from '../estadoVisores';
 import { AyudaEjes } from './AyudaEjes';
 import { FichaZonaIdeologica } from './FichaZonaIdeologica';
 import { LecturaEjes } from './LecturaEjes';
 import { LimiteError } from './LimiteError';
-import { REFERENCIAS } from '../datosResultados';
+import { REFERENCIAS } from '../datosReferencias';
 import {
   EJES_MAPA,
   EJE_ECONOMIA_BRUJULA,
@@ -27,18 +28,25 @@ import type { EntidadMapa } from '../mapaEspacial';
 import { ALTO_LINEA_ZONA, capaCorrientes } from '../zonasCorrientes';
 import {
   CORRIENTE_ATLAS_POR_ID,
+  anclasAtlasBloqueadasVisibles,
   corrientesAtlasVisibles,
   corrienteAtlasMasCercana,
+  entradasAtlasExplorables,
+  nombreCapaAtlas,
+  opcionesBusquedaAtlas,
+  resolverOpcionBusquedaAtlas,
 } from '../atlasIdeologias';
-import type { GradoEvidenciaBrujula } from '../atlasIdeologias';
+import type { CorrienteAtlas, GradoEvidenciaBrujula } from '../atlasIdeologias';
+import { idsPartidosEnCumulo } from '../cumuloPartidos';
 
 const Mapa3D = lazy(() => import('./Mapa3D'));
-const CLAVE_REABRIR_3D = 'espectro.reabrir-3d';
 
 interface Props {
   facetasUsuario: ResultadoFaceta[];
   puedeRecargar: boolean;
   alConfirmarGuardado: () => boolean;
+  /** Devuelve el foco al contexto persistente tras resolver el chunk perezoso. */
+  alMontar?: () => void;
   /** Controla qué capa abre el atlas sin confundir profundidad con identidad. */
   nivelPerfil: 'rapido' | 'intermedio' | 'exhaustivo';
 }
@@ -100,8 +108,6 @@ const ESQUINAS: Record<string, [string, string, string, string]> = {
 const MARGEN = 12;
 const LADO = 456;
 const TOTAL = LADO + MARGEN * 2;
-/** Coincide con el halo táctil móvil: todo punto que pueda interceptar el toque entra al selector. */
-const RADIO_CUMULO_PARTIDOS = 32;
 
 function aCoordenada(valor: number): number {
   return MARGEN + ((valor + 100) / 200) * LADO;
@@ -639,6 +645,70 @@ function PolosPlano({ ejeX, ejeY, children }: { ejeX: Eje; ejeY: Eje; children: 
 }
 
 /**
+ * Mantiene visibles las corrientes pendientes sin concederles territorio.
+ * El círculo hueco marca únicamente el prior editorial que debe auditarse:
+ * no recorta el Voronoi y nunca puede ser la corriente más cercana.
+ */
+function AnclasAtlasBloqueadas({
+  anclas,
+  activa,
+  alEntrar,
+  alSalir,
+  alFijar,
+}: {
+  anclas: readonly CorrienteAtlas[];
+  activa: string | null;
+  alEntrar: (id: string) => void;
+  alSalir: () => void;
+  alFijar: (id: string) => void;
+}) {
+  if (anclas.length === 0) return null;
+  return (
+    <g className="mapa-anclas-bloqueadas" aria-label="Anclas ideológicas en investigación">
+      {anclas.map((corriente) => {
+        const cx = aCoordenada(corriente.coordenadas.x);
+        const cy = TOTAL - aCoordenada(corriente.coordenadas.y);
+        const estaActiva = activa === corriente.id;
+        return (
+          <g
+            key={corriente.id}
+            className="mapa-ancla-bloqueada"
+            data-activa={estaActiva}
+            data-corriente-id={corriente.id}
+            role="button"
+            tabIndex={0}
+            aria-label={`${corriente.nombre}: ancla en investigación, sin región geométrica`}
+            onMouseEnter={() => alEntrar(corriente.id)}
+            onMouseLeave={alSalir}
+            onFocus={() => alEntrar(corriente.id)}
+            onBlur={alSalir}
+            onClick={(evento) => {
+              evento.stopPropagation();
+              alFijar(corriente.id);
+            }}
+            onKeyDown={(evento) => {
+              if (evento.key === 'Enter' || evento.key === ' ') {
+                evento.preventDefault();
+                alFijar(corriente.id);
+              }
+            }}
+          >
+            <title>{`${corriente.nombre} — prior en investigación; no posee celda ni participa en cercanía`}</title>
+            <circle className="mapa-ancla-bloqueada__hit" cx={cx} cy={cy} r={14} />
+            <circle className="mapa-ancla-bloqueada__forma" cx={cx} cy={cy} r={5} />
+            {estaActiva ? (
+              <text className="mapa-ancla-bloqueada__rotulo" x={cx + 9} y={cy - 8}>
+                {corriente.nombre}
+              </text>
+            ) : null}
+          </g>
+        );
+      })}
+    </g>
+  );
+}
+
+/**
  * Brújula clásica: Propiedad/mercado × Poder con la orientación reconocible (poder
  * concentrado arriba, libertades y poder distribuido abajo) y lavados suaves,
  * la excepción deliberada y acotada a la regla de un-solo-acento — solo el
@@ -648,6 +718,7 @@ function PolosPlano({ ejeX, ejeY, children }: { ejeX: Eje; ejeY: Eje; children: 
  */
 function Brujula({
   puntos,
+  anclasBloqueadas,
   descripcionId,
   corrientes,
   corrienteActiva,
@@ -660,6 +731,7 @@ function Brujula({
   incluirProfundidad,
 }: {
   puntos: PuntoPlano[];
+  anclasBloqueadas: readonly CorrienteAtlas[];
   descripcionId: string;
   corrientes: boolean;
   corrienteActiva: string | null;
@@ -754,6 +826,15 @@ function Brujula({
           incluirProfundidad={incluirProfundidad}
         />
       ) : null}
+      {corrientes ? (
+        <AnclasAtlasBloqueadas
+          anclas={anclasBloqueadas}
+          activa={corrienteActiva}
+          alEntrar={alEntrarCorriente}
+          alSalir={alSalirCorriente}
+          alFijar={alFijarCorriente}
+        />
+      ) : null}
       <EstructuraPlano />
       <EsquinasPlano esquinas={ESQUINAS['propiedad-autoridad']!} />
       {corrientes ? (
@@ -809,7 +890,7 @@ function Brujula({
                 className="mapa-punto__hit"
                 cx={punto.cx}
                 cy={punto.cy}
-                r={16}
+                r={24}
                 aria-hidden="true"
               />
             ) : null}
@@ -851,6 +932,7 @@ export function MapaPolitico({
   facetasUsuario,
   puedeRecargar,
   alConfirmarGuardado,
+  alMontar,
   nivelPerfil,
 }: Props) {
   const idBase = useId();
@@ -865,6 +947,7 @@ export function MapaPolitico({
   );
   const [corrienteTemporal, setCorrienteTemporal] = useState<string | null>(null);
   const [corrienteFijada, setCorrienteFijada] = useState<string | null>(null);
+  const [vistaRotuloOriginalFijada, setVistaRotuloOriginalFijada] = useState(false);
   const [partidoBrujulaFijado, setPartidoBrujulaFijado] = useState<string | null>(null);
   const [cumuloPartidos, setCumuloPartidos] = useState<string[]>([]);
   const incluirProfundidadAtlas =
@@ -873,9 +956,27 @@ export function MapaPolitico({
     () => corrientesAtlasVisibles(incluirProfundidadAtlas),
     [incluirProfundidadAtlas],
   );
-  const numeroCorrientesPrincipales = corrientesAtlasVisibles(false).length;
-  const numeroCorrientesProfundidad =
-    corrientesAtlasVisibles(true).length - numeroCorrientesPrincipales;
+  const anclasBloqueadasVisibles = useMemo(
+    () => anclasAtlasBloqueadasVisibles(incluirProfundidadAtlas),
+    [incluirProfundidadAtlas],
+  );
+  const opcionesAtlas = useMemo(
+    () => opcionesBusquedaAtlas(incluirProfundidadAtlas),
+    [incluirProfundidadAtlas],
+  );
+  const numeroRegionesPrincipales = corrientesAtlasVisibles(false).length;
+  const numeroRegionesProfundidad =
+    corrientesAtlasVisibles(true).length - numeroRegionesPrincipales;
+  const numeroAnclasBloqueadasPrincipales = anclasAtlasBloqueadasVisibles(false).length;
+  const numeroAnclasBloqueadasProfundidad =
+    anclasAtlasBloqueadasVisibles(true).length - numeroAnclasBloqueadasPrincipales;
+  const numeroEntradasPrincipales = entradasAtlasExplorables(false).length;
+  const numeroEntradasProfundidad =
+    entradasAtlasExplorables(true).length - numeroEntradasPrincipales;
+  const numeroContextosPrincipales =
+    numeroEntradasPrincipales - numeroRegionesPrincipales - numeroAnclasBloqueadasPrincipales;
+  const numeroContextosProfundidad =
+    numeroEntradasProfundidad - numeroRegionesProfundidad - numeroAnclasBloqueadasProfundidad;
 
   useEffect(() => {
     try {
@@ -887,6 +988,10 @@ export function MapaPolitico({
       // El visor sigue disponible manualmente si sessionStorage está bloqueado.
     }
   }, []);
+
+  useEffect(() => {
+    alMontar?.();
+  }, [alMontar]);
 
   const par = PARES.find((p) => p.id === parId) ?? PARES[0]!;
   const ejePorId = useMemo(() => new Map(EJES_MAPA.map((eje) => [eje.id, eje])), []);
@@ -967,9 +1072,17 @@ export function MapaPolitico({
   const corrienteActiva = corrienteActivaId
     ? CORRIENTE_ATLAS_POR_ID.get(corrienteActivaId) ?? null
     : null;
+  const vistaRotuloOriginalActiva =
+    vistaRotuloOriginalFijada &&
+    corrienteFijada !== null &&
+    corrienteFijada === corrienteActivaId;
   const corrienteActivaReferencia = corrienteActiva?.referenciaId
     ? REFERENCIAS.find((referencia) => referencia.id === corrienteActiva.referenciaId)
     : undefined;
+  const nombreFichaAtlasActiva =
+    vistaRotuloOriginalActiva && corrienteActiva?.trazabilidadOriginal
+      ? corrienteActiva.trazabilidadOriginal.nombreOriginal
+      : corrienteActiva?.nombre;
   const corrienteUsuario =
     typeof valoresUsuario[EJE_PROPIEDAD_MERCADO] === 'number' &&
     typeof valoresUsuario[EJE_AUTORIDAD_POLITICA] === 'number'
@@ -981,19 +1094,12 @@ export function MapaPolitico({
       : null;
 
   const seleccionarPartidoBrujula = (id: string, detectarCumulo = true) => {
-    const punto = partidosBrujula.find((partido) => partido.id === id);
-    const cercanos =
-      detectarCumulo && punto
-        ? partidosBrujula.filter(
-            (partido) =>
-              Math.hypot(partido.cx - punto.cx, partido.cy - punto.cy) <=
-              RADIO_CUMULO_PARTIDOS,
-          )
-        : [];
+    const idsCercanos = detectarCumulo ? idsPartidosEnCumulo(partidosBrujula, id) : [];
     setCorrienteTemporal(null);
     setCorrienteFijada(null);
-    if (cercanos.length > 1) {
-      setCumuloPartidos(cercanos.map((partido) => partido.id));
+    setVistaRotuloOriginalFijada(false);
+    if (idsCercanos.length > 1) {
+      setCumuloPartidos(idsCercanos);
       setPartidoBrujulaFijado(null);
       return;
     }
@@ -1094,6 +1200,7 @@ export function MapaPolitico({
                 if (!evento.target.checked) {
                   setCorrienteTemporal(null);
                   setCorrienteFijada(null);
+                  setVistaRotuloOriginalFijada(false);
                 }
               }}
             />
@@ -1105,8 +1212,12 @@ export function MapaPolitico({
           </span>
           {nivelPerfil === 'exhaustivo' ? (
             <span className="mapa-corrientes-control__nota" role="status">
-              Atlas exhaustivo: incluye las {numeroCorrientesPrincipales} corrientes principales y
-              las {numeroCorrientesProfundidad} de profundidad.
+              Atlas exhaustivo: incluye {numeroRegionesPrincipales + numeroRegionesProfundidad}{' '}
+              regiones geométricas,{' '}
+              {numeroAnclasBloqueadasPrincipales + numeroAnclasBloqueadasProfundidad} anclas
+              huecas en investigación y{' '}
+              {numeroContextosPrincipales + numeroContextosProfundidad} entradas contextuales
+              buscables. Solo las regiones publicadas ocupan una celda.
             </span>
           ) : (
             <>
@@ -1114,6 +1225,7 @@ export function MapaPolitico({
                 <input
                   type="checkbox"
                   checked={profundidadAtlasActivada}
+                  disabled={!verCorrientes}
                   onChange={(evento) => {
                     const activada = evento.target.checked;
                     setProfundidadAtlasActivada(activada);
@@ -1121,7 +1233,10 @@ export function MapaPolitico({
                       const seleccionada = corrienteFijada
                         ? CORRIENTE_ATLAS_POR_ID.get(corrienteFijada)
                         : undefined;
-                      if (seleccionada?.decision === 'B') setCorrienteFijada(null);
+                      if (seleccionada?.decision === 'B') {
+                        setCorrienteFijada(null);
+                        setVistaRotuloOriginalFijada(false);
+                      }
                       setCorrienteTemporal(null);
                     }
                   }}
@@ -1129,28 +1244,51 @@ export function MapaPolitico({
                 <span>Incluir corrientes de profundidad</span>
               </label>
               <span className="mapa-corrientes-control__nota">
-                La capa principal mantiene {numeroCorrientesPrincipales}; esta opción añade otras{' '}
-                {numeroCorrientesProfundidad} sin cambiar tu resultado.
+                La capa principal contiene {numeroRegionesPrincipales} regiones,{' '}
+                {numeroAnclasBloqueadasPrincipales} anclas en investigación y{' '}
+                {numeroContextosPrincipales} entradas contextuales; la profundidad añade{' '}
+                {numeroRegionesProfundidad} regiones, {numeroAnclasBloqueadasProfundidad} anclas y{' '}
+                {numeroContextosProfundidad} entradas contextuales, sin cambiar tu resultado. Las
+                anclas huecas siguen explorables, pero no poseen celda ni cuentan como cercanía.
               </span>
             </>
           )}
           <label className="mapa-corrientes-control__buscador">
             <span>Buscar en el atlas</span>
             <select
-              value={corrienteFijada ?? ''}
+              value={
+                corrienteFijada
+                  ? vistaRotuloOriginalFijada
+                    ? `rotulo-original:${corrienteFijada}`
+                    : corrienteFijada
+                  : ''
+              }
+              disabled={!verCorrientes}
               onChange={(evento) => {
-                const id = evento.target.value || null;
+                const opcion = evento.target.value
+                  ? resolverOpcionBusquedaAtlas(
+                      evento.target.value,
+                      incluirProfundidadAtlas,
+                    )
+                  : null;
                 setPartidoBrujulaFijado(null);
                 setCorrienteTemporal(null);
-                setCorrienteFijada(id);
+                setCorrienteFijada(opcion?.corrienteId ?? null);
+                setVistaRotuloOriginalFijada(opcion?.vista === 'rotulo-original');
               }}
             >
-              <option value="">Selecciona una corriente…</option>
-              {[...corrientesVisibles]
+              <option value="">Selecciona una entrada…</option>
+              {[...opcionesAtlas]
                 .sort((a, b) => a.nombre.localeCompare(b.nombre, 'es'))
-                .map((corriente) => (
-                  <option key={corriente.id} value={corriente.id}>
-                    {corriente.nombre}
+                .map((opcion) => (
+                  <option key={opcion.clave} value={opcion.clave}>
+                    {opcion.nombre}
+                    {opcion.etiquetaFuente && opcion.etiquetaFuente !== opcion.nombre
+                      ? ` (${opcion.etiquetaFuente})`
+                      : ''}
+                    {opcion.vista === 'rotulo-original'
+                      ? ` — rótulo original, ${nombreCapaAtlas(opcion.capa)}`
+                      : ` — ${nombreCapaAtlas(opcion.capa)}`}
                   </option>
                 ))}
             </select>
@@ -1191,6 +1329,7 @@ export function MapaPolitico({
         <PolosPlano ejeX={ejeEconomiaBrujula} ejeY={EJE_PODER_BRUJULA}>
           <Brujula
             puntos={puntosBrujula}
+            anclasBloqueadas={anclasBloqueadasVisibles}
             descripcionId={brujulaDescId}
             corrientes={hayCorrientes && verCorrientes}
             corrienteActiva={corrienteActivaId}
@@ -1201,7 +1340,10 @@ export function MapaPolitico({
             alFijarCorriente={(id) => {
               setPartidoBrujulaFijado(null);
               setCorrienteTemporal(null);
-              setCorrienteFijada((actual) => (actual === id ? null : id));
+              setCorrienteFijada((actual) =>
+                actual === id && !vistaRotuloOriginalFijada ? null : id,
+              );
+              setVistaRotuloOriginalFijada(false);
             }}
             alFijarPartido={(id) => {
               seleccionarPartidoBrujula(id);
@@ -1249,16 +1391,18 @@ export function MapaPolitico({
             className="mapa-corriente-lectura"
             role="region"
             aria-live="polite"
-            aria-label={`Explicación de ${corrienteActiva.nombre}`}
+            aria-label={`Explicación de ${nombreFichaAtlasActiva ?? corrienteActiva.nombre}`}
           >
             <FichaZonaIdeologica
               corriente={corrienteActiva}
               referencia={corrienteActivaReferencia}
               ejes={[ejeEconomiaBrujula, EJE_PODER_BRUJULA]}
               cercaDelUsuario={corrienteUsuario?.id === corrienteActiva.id}
+              vistaRotuloOriginal={vistaRotuloOriginalActiva}
               onCerrar={() => {
                 setCorrienteTemporal(null);
                 setCorrienteFijada(null);
+                setVistaRotuloOriginalFijada(false);
               }}
             />
           </div>
@@ -1274,7 +1418,10 @@ export function MapaPolitico({
                 <button
                   type="button"
                   className="boton boton--terciario"
-                  onClick={() => setCorrienteFijada(corrienteUsuario.id)}
+                  onClick={() => {
+                    setCorrienteFijada(corrienteUsuario.id);
+                    setVistaRotuloOriginalFijada(false);
+                  }}
                 >
                   Ver por qué
                 </button>
@@ -1503,12 +1650,14 @@ export function MapaPolitico({
           En este plano: {usuarioEnPlano ? 'tu posición, ' : ''}
           {partidosEnPlano} de {TOTAL_PARTIDOS_CATALOGO} partidos y {referenciasEnPlano} de{' '}
           {TOTAL_REFERENCIAS_CATALOGO} referencias doctrinales del catálogo.{' '}
-          Cada entidad aparece solo donde su evidencia alcanza el umbral: al menos 4 posiciones
-          con carga en cada macroeje del plano. En la brújula, una posición sólida exige 6
-          preguntas por eje, 3 familias o subdimensiones y, para Poder, al menos dos anclas de
+          En cada uno de los tres planos detallados, un partido aparece solo al alcanzar al menos
+          4 grupos documentales independientes por eje, con URL, título, fecha de consulta y pasaje
+          reproducible; repetir el mismo pasaje no suma cobertura y un extremo sin evidencia
+          moderadora se omite. La brújula aplica su contrato propio: una posición sólida exige 6
+          grupos por eje, 3 familias o subdimensiones y, para Poder, al menos dos grupos de
           contrapesos o libertades. Solo los partidos pueden publicarse provisionalmente —como
-          puntos huecos— con 3 preguntas y 2 familias por eje, y con al menos un ancla de
-          contrapesos o libertades; las referencias doctrinales nunca usan ese umbral reducido.{' '}
+          puntos huecos— con 3 grupos y 2 familias por eje, y con al menos un grupo de contrapesos
+          o libertades; las referencias doctrinales nunca usan ese umbral reducido.{' '}
           {partidosFuera + referenciasFuera > 0
             ? `Quedan fuera de todos los planos ${partidosFuera} partidos y ${referenciasFuera} referencias: antes que estimar su posición, no se dibuja.`
             : ''}

@@ -4,7 +4,9 @@
   "siglas": "TE",
   "ambito": "autonomico",
   "tipo": "partido",
-  "ccaa": ["aragon"],
+  "ccaa": [
+    "aragon"
+  ],
   "confianza": "estimada",
   "registroMir": "Nacido en 1999 como plataforma ciudadana; concurrió en 2019 como agrupación de electores (1 diputado, Tomás Guitarte, y 2 senadores) y se registró como partido político en 2023 para concurrir a autonómicas y municipales; desde 2023 concurre en coalición con Aragón Existe bajo la marca «Existe»",
   "web": "https://teruelexiste.info/",
@@ -91,7 +93,8 @@
         "fecha": "2024",
         "consultado": "2026-07-10",
         "cita": "No se nos debe juzgar en el eje derecha e izquierda, es un eje en el que no nos situamos"
-      }
+      },
+      "grupoEvidencia": "pasaje-4ad289afaba008988ea5"
     },
     "nac-017": {
       "valor": 2,

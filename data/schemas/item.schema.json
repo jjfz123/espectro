@@ -16,7 +16,12 @@
         "required": ["eje", "carga"],
         "properties": {
           "eje": { "type": "string" },
-          "carga": { "type": "number", "minimum": -1, "maximum": 1 }
+          "carga": {
+            "type": "number",
+            "minimum": -1,
+            "maximum": 1,
+            "not": { "const": 0 }
+          }
         },
         "additionalProperties": false
       }
@@ -37,6 +42,32 @@
       },
       "additionalProperties": false,
       "description": "Subpregunta: solo se muestra cuando la respuesta al ítem padre coincide con uno de estos valores."
+    },
+    "marco": {
+      "type": "object",
+      "description": "Marco de referencia que el ítem presupone. Metadato descriptivo: el motor no lo puntúa y la interfaz lo muestra como contexto. Omitirlo equivale a un supuesto neutro.",
+      "required": ["supuesto"],
+      "properties": {
+        "supuesto": {
+          "enum": ["sistema-actual", "sociedad-deseada", "neutro"],
+          "description": "Orden institucional desde el que se juzga la afirmación."
+        },
+        "aclaracion": {
+          "type": "string",
+          "minLength": 12,
+          "description": "Frase breve mostrada como contexto. Obligatoria salvo cuando el supuesto es neutro."
+        }
+      },
+      "additionalProperties": false,
+      "allOf": [
+        {
+          "if": {
+            "required": ["supuesto"],
+            "properties": { "supuesto": { "not": { "const": "neutro" } } }
+          },
+          "then": { "required": ["aclaracion"] }
+        }
+      ]
     },
     "uso": {
       "enum": ["normal", "solo-mapa"],

@@ -4,7 +4,9 @@
   "siglas": "UPN",
   "ambito": "autonomico",
   "tipo": "partido",
-  "ccaa": ["navarra"],
+  "ccaa": [
+    "navarra"
+  ],
   "confianza": "verificada",
   "web": "https://www.upn.org/",
   "revisado": "2026-07-10",
@@ -177,7 +179,8 @@
         "fecha": "2026-06-24",
         "consultado": "2026-07-10",
         "cita": "Destroza el mercado de alquiler"
-      }
+      },
+      "grupoEvidencia": "pasaje-ef7f2680501549ea06fb"
     },
     "eco-009": {
       "valor": 1,
@@ -214,7 +217,8 @@
         "fecha": "2026",
         "consultado": "2026-07-10",
         "cita": "atentado a la libertad a las familias navarras"
-      }
+      },
+      "grupoEvidencia": "pasaje-55f955682dfa1923ef94"
     },
     "fem-010": {
       "valor": -2,
@@ -239,7 +243,8 @@
         "fecha": "2026-03-17",
         "consultado": "2026-07-10",
         "cita": "El Congreso rechaza tramitar la ampliación de la prisión permanente apoyada por PP, Vox, UPN y CC"
-      }
+      },
+      "grupoEvidencia": "pasaje-afed70d70812be156139"
     },
     "soc-006": {
       "valor": -2,
@@ -276,7 +281,8 @@
         "fecha": "2025-10-07",
         "consultado": "2026-07-10",
         "cita": "censurar y prohibir la cultura popular"
-      }
+      },
+      "grupoEvidencia": "pasaje-15c661b99ed8335cf42f"
     },
     "soc-001": {
       "valor": 0,
@@ -289,7 +295,8 @@
         "fecha": "2017-06-08",
         "consultado": "2026-07-10",
         "cita": "no podemos dar la espalda a la igualdad y a los derechos"
-      }
+      },
+      "grupoEvidencia": "pasaje-c1dcac8d420111cfc95d"
     },
     "soc-003": {
       "valor": 2,
@@ -302,7 +309,8 @@
         "fecha": "2026",
         "consultado": "2026-07-10",
         "cita": "Está probado que las cámaras tienen un importante efecto disuasorio y mejoran la eficacia policial"
-      }
+      },
+      "grupoEvidencia": "pasaje-6a1e40dae74f097a3aa0"
     },
     "soc-004": {
       "valor": -1,

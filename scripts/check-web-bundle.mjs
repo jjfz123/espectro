@@ -1,45 +1,115 @@
 // Presupuestos de transferencia para impedir regresiones silenciosas en móvil.
 // Ejecutar después de `npm run web:build`.
 import { existsSync, readFileSync, readdirSync, statSync } from 'node:fs';
-import { join } from 'node:path';
+import { join, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { gzipSync } from 'node:zlib';
 
-const dist = fileURLToPath(new URL('../web/dist/', import.meta.url));
-const assets = join(dist, 'assets');
+const dist = process.argv[2]
+  ? resolve(process.cwd(), process.argv[2])
+  : fileURLToPath(new URL('../web/dist/', import.meta.url));
+const manifestPath = join(dist, '.vite/manifest.json');
 
-if (!existsSync(dist) || !existsSync(assets)) {
-  console.error('✗ Falta web/dist. Ejecuta primero npm run web:build.');
+if (!existsSync(dist) || !existsSync(manifestPath)) {
+  console.error('✗ Falta web/dist/.vite/manifest.json. Ejecuta primero npm run web:build.');
   process.exit(1);
 }
 
-const reglas = [
-  { nombre: 'aplicación inicial', patron: /^index-[^.]+\.js$/, maxGzip: 120 * 1024 },
-  // Recalibrado de 365 a 390 KiB al pasar de 39 a 46 referencias y añadir el
-  // atlas explicativo validado de 78 corrientes. Deja menos de 3 % de margen:
-  // una nueva expansión seguirá exigiendo división de chunk o poda de datos.
-  { nombre: 'resultados y catálogos', patron: /^Resultados-[^.]+\.js$/, maxGzip: 390 * 1024 },
-  { nombre: 'visor 3D', patron: /^Mapa3D-[^.]+\.js$/, maxGzip: 300 * 1024 },
-];
-
-const ficherosAssets = readdirSync(assets);
+const manifest = JSON.parse(readFileSync(manifestPath, 'utf8'));
 const errores = [];
-for (const regla of reglas) {
-  const candidatos = ficherosAssets.filter((fichero) => regla.patron.test(fichero));
-  if (candidatos.length !== 1) {
-    errores.push(`${regla.nombre}: se esperaba un chunk y se encontraron ${candidatos.length}`);
-    continue;
+
+function buscarEntrada(nombre, predicado) {
+  const candidatas = Object.entries(manifest).filter(([clave, entrada]) =>
+    predicado(clave, entrada),
+  );
+  if (candidatas.length !== 1) {
+    errores.push(`${nombre}: se esperaba una entrada de manifest y se encontraron ${candidatas.length}`);
+    return null;
   }
-  const ruta = join(assets, candidatos[0]);
-  const gzip = gzipSync(readFileSync(ruta)).byteLength;
-  if (gzip > regla.maxGzip) {
+  return candidatas[0][0];
+}
+
+/** Archivos JS que el navegador necesita para evaluar una entrada, sin imports dinámicos. */
+function cierreEstatico(claveInicial) {
+  const claves = new Set();
+  const ficheros = new Set();
+  const visitar = (clave) => {
+    if (claves.has(clave)) return;
+    claves.add(clave);
+    const entrada = manifest[clave];
+    if (!entrada) {
+      errores.push(`manifest: import estático desconocido ${clave}`);
+      return;
+    }
+    if (typeof entrada.file === 'string' && entrada.file.endsWith('.js')) {
+      ficheros.add(entrada.file);
+    }
+    for (const importado of entrada.imports ?? []) visitar(importado);
+  };
+  visitar(claveInicial);
+  return [...ficheros].sort();
+}
+
+function gzipFichero(fichero) {
+  const ruta = join(dist, fichero);
+  if (!existsSync(ruta)) {
+    errores.push(`manifest: falta el fichero ${fichero}`);
+    return 0;
+  }
+  return gzipSync(readFileSync(ruta)).byteLength;
+}
+
+function comprobarGrupo(nombre, clave, maxGzip, yaCargados = new Set()) {
+  if (!clave) return;
+  const ficheros = cierreEstatico(clave).filter((fichero) => !yaCargados.has(fichero));
+  const gzip = ficheros.reduce((total, fichero) => total + gzipFichero(fichero), 0);
+  const detalle = ficheros.map((fichero) => fichero.split('/').at(-1)).join(' + ');
+  if (gzip > maxGzip) {
     errores.push(
-      `${regla.nombre}: ${(gzip / 1024).toFixed(1)} KiB gzip supera ${(regla.maxGzip / 1024).toFixed(0)} KiB`,
+      `${nombre}: ${(gzip / 1024).toFixed(1)} KiB gzip supera ${(maxGzip / 1024).toFixed(0)} KiB (${detalle})`,
     );
   } else {
-    console.log(`✓ ${regla.nombre}: ${(gzip / 1024).toFixed(1)} KiB gzip`);
+    console.log(`✓ ${nombre}: ${(gzip / 1024).toFixed(1)} KiB gzip (${detalle})`);
   }
 }
+
+const entradaInicial = buscarEntrada(
+  'aplicación inicial',
+  (clave, entrada) => clave === 'index.html' && entrada.isEntry === true,
+);
+const entradaResultados = buscarEntrada(
+  'resultados y catálogos',
+  (_clave, entrada) => entrada.name === 'Resultados' && entrada.isDynamicEntry === true,
+);
+const entradaCompartida = buscarEntrada(
+  'resultado compartido',
+  (clave) => clave.endsWith('/vistas/ResultadoCompartido.tsx'),
+);
+const entradaMapa2d = buscarEntrada(
+  'atlas interactivo 2D',
+  (clave) => clave.endsWith('/componentes/MapaPolitico.tsx') || clave.startsWith('_MapaPolitico-'),
+);
+const entradaReferencias = buscarEntrada(
+  'referencias doctrinales',
+  (clave) => clave.endsWith('/componentes/ReferenciasDoctrinales.tsx'),
+);
+const entrada3d = buscarEntrada('visor 3D', (clave) => clave.endsWith('/componentes/Mapa3D.tsx'));
+
+const ficherosIniciales = new Set(entradaInicial ? cierreEstatico(entradaInicial) : []);
+const ficherosResultados = new Set(entradaResultados ? cierreEstatico(entradaResultados) : []);
+comprobarGrupo('aplicación inicial', entradaInicial, 120 * 1024);
+// Presupuesto real de ruta: incluye Resultados y todos sus imports estáticos,
+// especialmente datosResultados. Se mide transferencia adicional a la portada;
+// no se suman chunks dinámicos como Mapa3D.
+comprobarGrupo('resultados y catálogos', entradaResultados, 390 * 1024, ficherosIniciales);
+comprobarGrupo('resultado compartido', entradaCompartida, 250 * 1024, ficherosIniciales);
+// Atlas y referencias solo se descargan tras una acción expresa. Cada puerta
+// tiene presupuesto propio y nunca queda escondida dentro de Resultados.
+comprobarGrupo('atlas interactivo 2D', entradaMapa2d, 180 * 1024, ficherosResultados);
+comprobarGrupo('referencias doctrinales', entradaReferencias, 150 * 1024, ficherosResultados);
+// El 3D se abre desde el atlas 2D: mide solo lo que aún no estaba cargado.
+const ficherosMapa2d = new Set(entradaMapa2d ? cierreEstatico(entradaMapa2d) : []);
+comprobarGrupo('visor 3D', entrada3d, 300 * 1024, ficherosMapa2d);
 
 function tamanoDirectorio(ruta) {
   return readdirSync(ruta, { withFileTypes: true }).reduce((total, entrada) => {

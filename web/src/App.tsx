@@ -21,6 +21,11 @@ const cargarResultados = () => import('./vistas/Resultados');
 const Resultados = lazy(() =>
   cargarResultados().then((modulo) => ({ default: modulo.Resultados })),
 );
+const ResultadoCompartido = lazy(() =>
+  import('./vistas/ResultadoCompartido').then((modulo) => ({
+    default: modulo.ResultadoCompartido,
+  })),
+);
 
 function VistaCargando() {
   return (
@@ -69,13 +74,13 @@ function VistaRecuperacion({
   );
 }
 
-export function App() {
+function AplicacionLocal({ omitirGuardadoInicial }: { omitirGuardadoInicial: boolean }) {
   const [estado, despachar] = useReducer(reductor, undefined, cargarEstado);
   const [verMetodologia, setVerMetodologia] = useState(false);
   const [almacenDisponible, setAlmacenDisponible] = useState(true);
   const [actualizacionDisponible, setActualizacionDisponible] = useState(false);
   const [actualizando, setActualizando] = useState(false);
-  const omitirSiguienteGuardado = useRef(false);
+  const omitirSiguienteGuardado = useRef(omitirGuardadoInicial);
   const mainRef = useRef<HTMLElement>(null);
 
   useEffect(() => {
@@ -251,4 +256,108 @@ export function App() {
       <Pie alAbrirMetodologia={abrirMetodologia} alBorrarDatos={borrarDatos} />
     </div>
   );
+}
+
+function AplicacionCompartida({ hash, alCerrar }: { hash: string; alCerrar: () => void }) {
+  const mainRef = useRef<HTMLElement>(null);
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+    const frame = window.requestAnimationFrame(() => {
+      mainRef.current?.focus({ preventScroll: true });
+    });
+    return () => window.cancelAnimationFrame(frame);
+  }, [hash]);
+
+  return (
+    <div className="app app--compartida">
+      <header className="cabecera">
+        <div className="contenedor cabecera-fila">
+          <button type="button" className="marca" onClick={alCerrar}>
+            Espectro<sup>beta</sup>
+          </button>
+          <nav className="cabecera-nav" aria-label="Navegación del resultado compartido">
+            <button type="button" onClick={alCerrar}>
+              Volver a mi test
+            </button>
+          </nav>
+        </div>
+      </header>
+      <main ref={mainRef} tabIndex={-1}>
+        <LimiteError
+          key={hash}
+          recuperacion={
+            <div className="contenedor vista-recuperacion" role="alert">
+              <p className="kicker">No se ha podido abrir el resultado compartido</p>
+              <h1>Tu test local no se ha tocado</h1>
+              <p>
+                El visor ha fallado antes de leer la instantánea. Puedes cerrar el enlace sin
+                modificar lo que estuviera guardado en este navegador.
+              </p>
+              <button type="button" className="boton" onClick={alCerrar}>
+                Cerrar el enlace
+              </button>
+            </div>
+          }
+        >
+          <Suspense fallback={<VistaCargando />}>
+            <ResultadoCompartido hash={hash} alCerrar={alCerrar} />
+          </Suspense>
+        </LimiteError>
+      </main>
+      <footer className="pie">
+        <div className="contenedor pie-fila">
+          <p>
+            Espectro · resultado recibido en modo de solo lectura · el enlace no acredita identidad.
+          </p>
+          <button type="button" className="enlace-compartido-cerrar" onClick={alCerrar}>
+            Cerrar resultado compartido
+          </button>
+        </div>
+      </footer>
+    </div>
+  );
+}
+
+function hashDeResultadoCompartido(): string | null {
+  return window.location.hash.startsWith('#r=') ? window.location.hash : null;
+}
+
+export function App() {
+  const [hashCompartido, setHashCompartido] = useState<string | null>(
+    hashDeResultadoCompartido,
+  );
+  const [omitirGuardadoInicial, setOmitirGuardadoInicial] = useState(false);
+  const estabaCompartiendo = useRef(hashCompartido !== null);
+
+  useEffect(() => {
+    const actualizarHash = () => {
+      const siguiente = hashDeResultadoCompartido();
+      if (estabaCompartiendo.current && siguiente === null) {
+        setOmitirGuardadoInicial(true);
+      }
+      estabaCompartiendo.current = siguiente !== null;
+      setHashCompartido(siguiente);
+    };
+    window.addEventListener('hashchange', actualizarHash);
+    return () => window.removeEventListener('hashchange', actualizarHash);
+  }, []);
+
+  if (hashCompartido !== null) {
+    return (
+      <AplicacionCompartida
+        hash={hashCompartido}
+        alCerrar={() => {
+          window.history.replaceState(null, '', `${window.location.pathname}${window.location.search}`);
+          // Al volver se carga la sesión local, pero se omite su guardado inicial:
+          // cerrar un snapshot no renueva la caducidad ni altera el JSON persistido.
+          setOmitirGuardadoInicial(true);
+          estabaCompartiendo.current = false;
+          setHashCompartido(null);
+        }}
+      />
+    );
+  }
+
+  return <AplicacionLocal omitirGuardadoInicial={omitirGuardadoInicial} />;
 }

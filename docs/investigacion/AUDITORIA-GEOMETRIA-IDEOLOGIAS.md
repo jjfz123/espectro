@@ -12,14 +12,14 @@
 
 La arquitectura final separa correctamente dos cosas que la versión de partida confundía:
 
-- el **atlas editorial** de 78 corrientes usa `coordenadasPrior`/`coordenadas`, decisiones A/B y definiciones españolas;
+- el **atlas editorial** de 175 corrientes visibles usa `coordenadasPrior`/`coordenadas`, decisiones A/B y definiciones españolas;
 - los **puntos calculados** de persona, partidos y referencias solo aparecen cuando la faceta directa reúne evidencia dura.
 
-La capa del atlas ya cubre los cuatro cuadrantes: 26 abajo-izquierda, 15 arriba-izquierda, 21 abajo-derecha, 13 arriba-derecha y 3 anclas sobre un eje. Su región máxima es capitalismo nacional con **4,45 %**, Distributismo baja a **3,64 %**, Falangismo a **2,41 %** y el vacío máximo queda en **(+100,+100)** con radio **52,8**. Cumple los límites 12 %/60 y elimina el falso “Distributismo = todo el centro”.
+La capa cubre los cuatro cuadrantes con **40/49/29/48** corrientes (izquierda-abajo/izquierda-arriba/derecha-abajo/derecha-arriba), más nueve anclas sobre un eje. La región máxima es Anarcocomunismo con **1,44 %**, Falangismo baja de **2,41 % a 0,32 %** gracias a vecinos históricos reales y el vacío máximo queda en **(−100,−100)** con radio **28,6**. Cumple el contrato endurecido de 3 %/45/15 sin resolver la denuncia mediante semillas ficticias.
 
 Falangismo queda como ancla editorial en **(+17,+72)**, la posición relativa de la cuadrícula seria. Su puntuación bruta directa sería aproximadamente **(0,+100)**, pero no se dibuja como punto calculado porque no alcanza seis ítems y tres subdimensiones/familias. Así se preserva la composición sin fingir precisión psicométrica.
 
-Con el contrato endurecido **ninguna** de las 46 referencias JSON supera hoy simultáneamente la evidencia de Propiedad y Poder. No es un fallo de la capa editorial: revela que las referencias se redactaron para matching y macroejes, no para las dos nuevas facetas directas. Los rombos calculados deben esperar más anclas; los 78 territorios del atlas siguen siendo educativos y declaran su origen.
+Con el contrato endurecido **ninguna** de las 46 referencias JSON supera hoy simultáneamente la evidencia de Propiedad y Poder. No es un fallo de la capa editorial: revela que las referencias se redactaron para matching y macroejes, no para las dos nuevas facetas directas. Los rombos calculados deben esperar más anclas; los 175 territorios del atlas siguen siendo educativos y declaran su origen. De ellos, 45 enlazan una referencia instrumentada y 130 siguen como ficha informativa o investigación: cantidad geométrica no equivale a validación doctrinal.
 
 Permanece un defecto estructural: `publicacionMapa.publicable: false` veta todos los planos. En democracia cristiana el motivo cuestiona GAL–TAN y en eurocomunismo cuestiona Economía; impedir también pares no afectados es más amplio que la evidencia.
 
@@ -148,7 +148,7 @@ Recomendación: conservar el punto como provisional, limitar su área visual has
 | Economía × Territorio | 12 | 7 / 0 / 5 / 0 | anarcocomunismo 0,26 % | conservadurismo 37,82 % | (−67,+100), radio 158,1 |
 | GAL–TAN × Territorio | 11 | 9 / 0 / 2 / 0 | colectivismo anarquista 0,05 % | conservadurismo 41,31 % | (−100,+100), radio 138,8 |
 
-Umbrales visuales propuestos: ninguna región menor de 0,75 % recibe rótulo persistente; una región mayor de 12 % obliga a mostrar “zona sin cubrir” o a añadir anclas antes de colorear todo el polígono; una distancia de vacío mayor de 60 impide presentar la teselación como cobertura exhaustiva.
+La tabla anterior conserva los umbrales exploratorios de los planos calculados escasos. Para el atlas editorial ampliado rige un contrato más duro: ninguna región mayor del 3 %, Falangismo no mayor del 1 %, vacío no superior a 45 y al menos quince corrientes por cuadrante; por debajo de 0,75 % no hay rótulo persistente.
 
 ## Contrato duro vigente del atlas
 
@@ -158,16 +158,17 @@ La referencia visual es una norma dura de **composición**, no una fuente doctri
 
 Los invariantes verificables son:
 
-- 78 corrientes A/B, al menos 8 familias y 3 anclas serias por cuadrante;
-- A en la capa principal; B solo al activar profundidad; C, D y F fuera del mosaico;
+- al menos 125 corrientes visibles A/B, 16 familias y 15 anclas serias por cuadrante;
+- A en la capa principal y toda B al activar profundidad; un rótulo C/D/E del inventario original puede entrar como B contextual si describe una doctrina, movimiento o sistema real y declara que no es una identidad integral;
 - desviación prior–atlas superior a 25 con justificación y superior a 60 con doble revisión;
-- ninguna región mayor del 12 % y ningún vacío de radio superior a 60 si la capa se llama exhaustiva;
+- ninguna región mayor del 3 %, Falangismo no mayor del 1 % y ningún vacío de radio superior a 45 si la capa se llama exhaustiva;
+- tres preguntas discriminantes vigentes y distintas como mínimo para cada corriente visible, aunque todavía carezca de referencia instrumentada;
 - coordenada calculada de Propiedad con 6 ítems y 3 subdimensiones;
 - coordenada calculada de Poder con 6 ítems, 3 familias y 2 anclas de núcleo —contrapesos o libertades/coerción—;
 - corrientes violentas sin identidad, porcentaje lúdico, recomendación ni contenido operativo;
 - idioma visible para toda fuente no disponible en español.
 
-En el corte v4 el atlas cumple densidad y continuidad: 78 corrientes, distribución 26/15/21/13 más 3 anclas sobre ejes, región máxima 4,45 % y vacío máximo 52,8. Esto valida la capa editorial; no eleva automáticamente sus centros a mediciones psicométricas.
+En este corte v4 el atlas cumple densidad y continuidad: 175 corrientes, distribución 40/49/29/48 más nueve anclas sobre ejes, región máxima 1,44 %, Falangismo 0,32 % y vacío máximo 28,6. Esto valida la cobertura geométrica; no eleva automáticamente sus centros a mediciones psicométricas.
 
 La tabla siguiente transcribe únicamente candidatos A/B. Las coordenadas `x₀/y₀` son **centros aproximados de la cuadrícula original**, normalizados por `x=200·columna/18−100`, `y=100−200·fila/18`, incertidumbre visual aproximada ±6. No son coordenadas inventadas para el motor. `Ref./preguntas` dice qué existe o qué falta.
 
@@ -258,16 +259,16 @@ La tabla siguiente transcribe únicamente candidatos A/B. Las coordenadas `x₀/
 
 ## Auditoría de las 178 etiquetas y estado de implementación
 
-La integridad formal de `TAXONOMIA-MAPA-IDEOLOGIAS.md` es correcta: **178** filas consecutivas, sin etiqueta exacta duplicada, con **28 A, 50 B, 35 C, 5 D, 38 E y 22 F**. Las decisiones conceptuales más importantes también son coherentes: anticomunismo, centrismo, estatismo, monarquía constitucional, sionismo, populismo y confederalismo se tratan como faceta/familia contextual; Antifa como movimiento; memes y ficción como F.
+La integridad formal del inventario original sigue siendo correcta: **178** filas consecutivas, sin etiqueta exacta duplicada, con **28 A, 50 B, 35 C, 5 D, 38 E y 22 F** en la primera criba. Esa letra ya no funciona como veto de visibilidad: estatismo, monarquía constitucional, sionismos, populismos y confederalismo entran en profundidad como facetas o familias contextuales claramente rotuladas. Solo ficción, memes, contradicciones sin corpus y nombres imposibles de interpretar permanecen fuera.
 
 Este corte cierra los desfases narrativos de recuento y estado: 46 referencias, socialismo democrático pluralista, derecha radical nativista y conservadurismo liberal europeo ya figuran como implementados, y fascismo italiano de régimen consta con 14 posiciones. También separa expresamente la notación histórica `E−/E+` de la faceta directa `propiedad-mercado`.
 
 Quedan dos controles de implementación, no de taxonomía:
 
-1. `decision` A/B ya forma parte del atlas; la interfaz debe mantener A como capa principal y no revelar B hasta que la persona active profundidad.
+1. `decision` A/B ya forma parte del atlas; la interfaz debe mantener las 28 A como capa principal y revelar las 147 B al activar profundidad o entrar en modo exhaustivo.
 2. `publicacionMapa` sigue siendo global en referencias antiguas, mientras el contrato prescribe publicación por par de ejes. Debe evolucionar a `publicacionPlanos` o a motivos separados por constructo.
 
-No deben convertirse en regiones las 40 entradas C/D ni las 22 F. Los huecos que dejan en la composición se marcan como pendientes o se cubren con una corriente seria vecina y documentada; nunca se conserva la celda con el nombre del meme.
+Las letras C/D/E del inventario describen a menudo facetas, movimientos o contextos reales: pueden tener región pedagógica en profundidad si la ficha declara su naturaleza no integral y tres decisiones discriminantes. F exige revisión individual: no se rescata una ficción o un meme para llenar geometría, pero tampoco se excluye un movimiento existente solo por no tener partido.
 
 ### Facetas definitorias declaradas sin carga real
 
@@ -294,11 +295,11 @@ La salida JSON del script conserva para cada una de las 46 referencias el valor,
 
 ### P0 — antes de llamar exhaustivo al mapa
 
-- Aplicar A/B/E en la interfaz: A principal, B bajo profundidad, E con país/periodo; C/D/F fuera.
+- Aplicar A/B en la interfaz: A principal y **todas** las B bajo profundidad; las históricas/contextuales conservan país, periodo y cautela en su ficha.
 - Aumentar anclas directas de las referencias: los umbrales ya están activos, pero ninguna supera hoy Propiedad y Poder simultáneamente.
-- Revisar Falangismo con `N7`, Trotskismo, socialdemocracia, conservadurismo liberal y socialismo democrático contra el prior y sus definiciones, sin desplazar manualmente los puntos calculados.
+- Mantener Falangismo por debajo del 1 % con vecinos históricos reales: San Sepolcro, pre-Marcha, Salò, franquismo nacionalcatólico, Vichy, Shōwa y nacionalsocialismo. `N7` sigue pendiente para el matching, no para inflar su celda.
 - Sustituir veto global por veto por plano; liberar solo los pares no afectados en democracia cristiana/eurocomunismo cuando cumplan evidencia.
-- Mantener en validación continua área ≤12 %, vacío ≤60 y al menos tres corrientes serias por cuadrante; el atlas v4 cumple actualmente los tres límites.
+- Mantener en validación continua área ≤3 %, Falangismo ≤1 %, vacío ≤45 y al menos quince corrientes serias por cuadrante; el atlas v4 cumple actualmente los cuatro límites.
 - Hacer que la definición accesible de Poder coincida literalmente con sus componentes de código.
 
 ### P1 — densidad española útil
@@ -311,7 +312,7 @@ La salida JSON del script conserva para cada una de las 46 referencias el valor,
 ### P2 — profundidad internacional e histórica
 
 - Georgismo, agorismo, anarcoprimitivismo, neorreacción, paleolibertarismos, nacionalcomunismos y fases restantes del fascismo solo tras sus discriminantes.
-- Contextuales E por país/periodo; sensibles con revisión adversarial y sin iconografía o lenguaje identitario.
+- Las 130 fichas aún no instrumentadas requieren fuentes primarias/académicas por país y periodo antes de calcular afinidad; las sensibles mantienen revisión adversarial, sin iconografía ni lenguaje identitario.
 
 ## Discriminantes neutrales concretos
 
@@ -339,9 +340,9 @@ Las fuentes marco extranjeras del catálogo auditado indican de forma visible «
 
 ```bash
 node scripts/auditar-geometria-ideologias.mjs > /tmp/geometria.json
-jq '.resumen, .planos, .taxonomia, .validacion' /tmp/geometria.json
+jq '.resumen, .planos, .atlas, .atlasCoberturaEditorial, .taxonomia, .validacion' /tmp/geometria.json
 node scripts/validate-data.mjs
 git diff --check
 ```
 
-Resultado del script en este corte: estructura válida, 178 etiquetas A–F completas y sin duplicados, 46 referencias auditadas y doce declaraciones de faceta sin carga listadas arriba. En v4 publica 1 referencia en Propiedad × Poder, 18 en Economía × GAL–TAN, 12 en Economía × Territorio, 11 en GAL–TAN × Territorio y 11 en el cubo. El script no modifica datos ni el frontend y se adapta automáticamente cuando cambia el catálogo.
+Resultado del script en este corte: estructura válida, 178 etiquetas A–F completas y sin duplicados, 175 corrientes visibles con tres discriminantes, 46 referencias auditadas y doce declaraciones de faceta sin carga listadas arriba. El informe enumera las 130 corrientes sin referencia instrumentada; geometría y visibilidad pasan, pero esas fichas no calculan afinidad doctrinal hasta completar evidencia. Las 178 etiquetas exactas están resueltas entre 155 fichas visibles y 23 exclusiones individuales; las otras 20 fichas son adaptaciones españolas o históricas. El script no modifica datos ni el frontend y se adapta automáticamente cuando cambia el catálogo.

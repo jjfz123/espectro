@@ -452,16 +452,27 @@ La dirección editorial existente —papel, tinta, carmín, serif para títulos 
 
 Las opiniones políticas son categoría especial en el artículo 9 RGPD ([EUR-Lex](https://eur-lex.europa.eu/legal-content/EN-DE-ES/ALL/?from=EN&uri=CELEX%3A32016R0679)) y la legislación española añade cautelas específicas sobre tratamiento destinado a identificar ideología ([LO 3/2018 consolidada](https://www.boe.es/buscar/pdf/2018/BOE-A-2018-16673-consolidado.pdf?no_link=1)). El Tribunal Constitucional también protege el derecho al silencio sobre la propia posición política ([STC 76/2019](https://www.boe.es/diario_boe/txt.php?id=BOE-A-2019-9548&lang=es)). Que compartir sea voluntario no justifica exponer más de lo necesario.
 
-Diseño recomendado:
+La investigación original recomendaba compartir solo un fichero. La implementación de julio de
+2026 adopta además una excepción deliberada: un fragmento `#r=...` con resumen derivado, porque
+permite que otra persona vea el resultado sin subirlo a un servidor. El fragmento no contiene
+respuestas ni prioridades, pero sí comunidad, facetas y cinco afinidades; por tanto es información
+política sensible y se trata como exportación, no como enlace inocuo.
+
+Diseño vigente:
 
 1. Generar en el navegador un SVG/PNG 4:5 o cuadrado con las facetas que el usuario marque.
 2. No incluir respuestas literales, partido votado, localidad, identificador, timestamp fino ni referencia doctrinal por defecto.
 3. Incluir cobertura y versión: «12 facetas mostradas · perfil v1.2».
 4. Ofrecer toggles explícitos: nombres de referencias doctrinales **apagados por defecto**; afinidad electoral en otra tarjeta.
-5. Compartir un fichero mediante Web Share API o descargarlo; **no serializar respuestas en query params, fragmentos, QR o URL de resultados**.
-6. El enlace opcional debe apuntar a la portada/metodología, no reconstruir el resultado.
+5. Compartir un fichero mediante Web Share API o descargarlo; **nunca serializar respuestas,
+   prioridades, textos libres ni detalle por ítem**.
+6. El enlace de resultado usa solo fragmento, esquema cerrado, versión, límite de tamaño y vista
+   aislada. Debe advertir que cualquiera con el enlace ve el resumen, que no caduca ni se revoca,
+   que no está firmado y que puede permanecer en historial, portapapeles o mensajería.
 7. No cargar SDK de redes sociales ni píxeles. Un precedente público mostró que una URL única de resultados podía llegar a Facebook por la cabecera `Referer` incluso sin completar la acción de compartir ([investigación del Privacy Commissioner of Canada sobre MyDemocracy](https://www.priv.gc.ca/en/opc-actions-and-decisions/investigations/investigations-into-federal-institutions/2016-17/pa_20170719_pco/)).
 8. Generar junto a la imagen un botón «Copiar descripción»: «Perfil con ecología alta, nuclear favorable…; 12 facetas mostradas, 3 sin medir».
+9. El receptor nunca mezcla el fragmento con su sesión local; cerrar la vista vuelve a su Espectro
+   sin renovar la fecha ni reescribir almacenamiento.
 
 La tarjeta compartible puede usar el mosaico de la alternativa B, pero la aplicación debe conservar el cuaderno de facetas como fuente canónica. La postal es una selección hecha por el usuario, no el expediente completo.
 

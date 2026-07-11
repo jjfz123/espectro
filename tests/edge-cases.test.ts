@@ -78,7 +78,7 @@ describe('calcularAfinidad: casos límite', () => {
 });
 
 describe('rankingAfinidad: orden y suficiencia de datos', () => {
-  it('un partido con cobertura suficiente precede a otro con más afinidad pero baja cobertura', () => {
+  it('ordena por el porcentaje visible aunque una coincidencia tenga baja cobertura', () => {
     const r: Respuesta[] = [
       { itemId: 'a', valor: 2 },
       { itemId: 'b', valor: 2 },
@@ -91,8 +91,33 @@ describe('rankingAfinidad: orden y suficiencia de datos', () => {
       minimoItems: 2,
       umbralCobertura: 0.5,
     });
-    expect(ranking[0]?.entidadId).toBe('cubierto');
-    expect(ranking[1]?.bajaCobertura).toBe(true);
+    expect(ranking.map((resultado) => resultado.entidadId)).toEqual(['vacio', 'cubierto']);
+    expect(ranking[0]?.puntuacion).toBe(100);
+    expect(ranking[0]?.bajaCobertura).toBe(true);
+    expect(ranking[1]?.puntuacion).toBe(75);
+  });
+
+  it('desempata por solidez, número de comparaciones y un id estable', () => {
+    const r: Respuesta[] = [
+      { itemId: 'a', valor: 2 },
+      { itemId: 'b', valor: 2 },
+      { itemId: 'c', valor: 2 },
+      { itemId: 'd', valor: 2 },
+    ];
+    const baja = partido('z-baja', { a: 1 });
+    const dos = partido('b-dos', { a: 1, b: 1 });
+    const cuatroZ = partido('z-cuatro', { a: 1, b: 1, c: 1, d: 1 });
+    const cuatroA = partido('a-cuatro', { a: 1, b: 1, c: 1, d: 1 });
+    const ranking = rankingAfinidad(r, [baja, cuatroZ, dos, cuatroA], {
+      minimoItems: 2,
+      umbralCobertura: 0.5,
+    });
+    expect(ranking.map((resultado) => resultado.entidadId)).toEqual([
+      'a-cuatro',
+      'z-cuatro',
+      'b-dos',
+      'z-baja',
+    ]);
   });
 
   it('los sin-datos no entran en el ranking', () => {

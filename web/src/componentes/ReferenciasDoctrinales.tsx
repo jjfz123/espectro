@@ -1,23 +1,29 @@
-import { useState } from 'react';
-import type { ReferenciaDoctrinal, ResultadoReferencia } from '@engine';
+import { useEffect, useState } from 'react';
+import { compararReferenciasDoctrinales } from '@engine';
+import type { Respuesta } from '@engine';
 import { ITEM_POR_ID, formatearNumero } from '../datos';
+import { REFERENCIAS } from '../datosReferencias';
 import { InformacionIdeologia } from './FichaIdeologia';
 
 interface Props {
-  referencias: ReferenciaDoctrinal[];
-  resultados: ResultadoReferencia[];
+  respuestas: Respuesta[];
+  alMontar?: () => void;
 }
 
-export function ReferenciasDoctrinales({ referencias, resultados }: Props) {
+export function ReferenciasDoctrinales({ respuestas, alMontar }: Props) {
   const [referenciaAbierta, setReferenciaAbierta] = useState<string | null>(null);
-  const referenciaPorId = new Map(referencias.map((referencia) => [referencia.id, referencia]));
+  const referenciaPorId = new Map(REFERENCIAS.map((referencia) => [referencia.id, referencia]));
+  const resultados = compararReferenciasDoctrinales(respuestas, REFERENCIAS);
   const publicables = resultados.filter((resultado) => resultado.publicable);
 
-  if (referencias.length === 0) return null;
+  useEffect(() => {
+    alMontar?.();
+  }, [alMontar]);
+
+  if (REFERENCIAS.length === 0) return null;
 
   return (
-    <section className="seccion referencias-doctrinales">
-      <h2>Referencias doctrinales</h2>
+    <div className="referencias-doctrinales__contenido">
       <p className="nota-al-margen" style={{ maxWidth: '70ch' }}>
         Son tipos ideales para describir combinaciones que quizá ningún partido represente. No
         dicen «eres X», no son candidaturas y no usan lo que marcaste como importante. Solo
@@ -127,6 +133,6 @@ export function ReferenciasDoctrinales({ referencias, resultados }: Props) {
           })}
         </div>
       )}
-    </section>
+    </div>
   );
 }

@@ -1,0 +1,7 @@
+# El propietario conserva la atribución de los cambios. No activar todavía
+# "Require review from Code Owners": el autor no puede aprobar su propia PR y
+# el repositorio necesita antes un segundo colaborador fiable con escritura.
+* @jjfz123
+/.github/ @jjfz123
+/data/ @jjfz123
+/docs/TODO-MAPEO-EXHAUSTIVO.md @jjfz123

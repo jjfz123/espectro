@@ -1,0 +1,149 @@
+{
+  "id": "integrismo-catolico-espanol-nocedal",
+  "nombre": "Integrismo católico español de Nocedal",
+  "tipo": "referencia-doctrinal",
+  "definicion": "Referencia histórica del Partido Integrista o Católico Nacional surgido de la escisión nocedalina de 1888: soberanía social de Jesucristo, unidad católica coercitiva, subordinación de la potestad temporal a la espiritual, rechazo de las libertades de conciencia y culto y Cortes de clases sin partidos. Su forma de gobierno era accidental, aunque prefería una monarquía templada.",
+  "variante": "Nocedalismo articulado por el Partido Integrista y sintetizado por Juan de Olazábal; no equivale al conjunto del tradicionalismo español",
+  "periodo": "España, 1888-1909",
+  "confianza": "verificada",
+  "version": "1.0",
+  "revisado": "2026-07-11",
+  "publicacionAfinidad": {
+    "publicable": false,
+    "motivo": "Referencia nueva pendiente de auditoría semántica adversarial; no participa en afinidad hasta cerrar cada equivalencia entre fuente e ítem."
+  },
+  "publicacionMapa": {
+    "publicable": false,
+    "motivo": "La confesionalidad y el antipluralismo están documentados, pero faltan anclas económicas y preguntas que distingan autoridad espiritual, represión jurídica y violencia física; publicarlo en el mapa produciría una falsa equivalencia con otras derechas históricas."
+  },
+  "facetasDefinitorias": [
+    "tradicion-moral",
+    "laicismo",
+    "libertad-conciencia",
+    "pluralismo-institucional",
+    "institucionalismo"
+  ],
+  "sensibilidad": "antipluralista",
+  "advertencia": "Es una referencia histórica antipluralista: su programa pide reprimir el error religioso y hacer desaparecer los partidos, pero también abomina del absolutismo, reclama rey con Cortes y el propio partido concurrió a elecciones. La expresión programática de perseguir y aniquilar partidos se codifica como supresión institucional, no como prueba suficiente de una estrategia de violencia física. Se separa del carlismo, del que se escindió por anteponer la obediencia religiosa a la lealtad dinástica, y no se proyecta sobre falangismo, nacionalcatolicismo ni católicos actuales.",
+  "fuentesMarco": [
+    {
+      "tipo": "otro",
+      "titulo": "Juan de Olazábal, Síntesis del Programa del Partido Integrista",
+      "url": "https://es.wikisource.org/wiki/S%C3%ADntesis_del_Programa_del_Partido_Integrista_%281909%29",
+      "fecha": "1909-09-08",
+      "consultado": "2026-07-11"
+    },
+    {
+      "tipo": "otro",
+      "titulo": "María Obieta Vilallonga, Foralismo, Fuerismo y Tradicionalismo: el caso del partido integrista, 1888-1898",
+      "url": "https://dialnet.unirioja.es/descarga/articulo/6553585.pdf",
+      "fecha": "2018",
+      "consultado": "2026-07-11"
+    }
+  ],
+  "reglaPublicacion": {
+    "minimoItems": 6,
+    "minimoCobertura": 0.7,
+    "umbralAfinidad": 86
+  },
+  "posiciones": {
+    "der-002": {
+      "valor": 2,
+      "justificacion": "El programa exige que leyes, costumbres, actos e instituciones tengan como fundamento la ley eterna custodiada y enseñada por la Iglesia: la moral cristiana no es inspiración privada, sino criterio legislativo.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Síntesis del Programa del Partido Integrista, Nuestro programa en lo religioso",
+        "url": "https://es.wikisource.org/wiki/S%C3%ADntesis_del_Programa_del_Partido_Integrista_%281909%29",
+        "fecha": "1909-09-08",
+        "consultado": "2026-07-11",
+        "cita": "Apartado «Nuestro programa en lo religioso»: la ley eterna enseñada por la Iglesia fundamenta leyes e instituciones."
+      },
+      "grupoEvidencia": "pasaje-7851e32bfe04ab31bc19"
+    },
+    "dem-010": {
+      "valor": -2,
+      "justificacion": "La síntesis abomina de la división en partidos y dispone que desaparezcan del Estado propuesto y sean perseguidos si reaparecen; niega de forma expresa la competencia política permanente.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Síntesis del Programa del Partido Integrista, Somos opuestos al régimen actual",
+        "url": "https://es.wikisource.org/wiki/S%C3%ADntesis_del_Programa_del_Partido_Integrista_%281909%29",
+        "fecha": "1909-09-08",
+        "consultado": "2026-07-11",
+        "cita": "Apartado «Somos opuestos al régimen actual»: rechaza la división en partidos y ordena su desaparición."
+      },
+      "grupoEvidencia": "pasaje-6159a064dc74072d0b32"
+    },
+    "dem-011": {
+      "valor": 2,
+      "justificacion": "El programa se declara radicalmente opuesto a la esencia y la forma del sistema existente y diseña otras Cortes, otro sufragio y otra relación Iglesia-Estado; plantea sustitución, no reforma parcial.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Síntesis del Programa del Partido Integrista, Nuestro programa en lo político",
+        "url": "https://es.wikisource.org/wiki/S%C3%ADntesis_del_Programa_del_Partido_Integrista_%281909%29",
+        "fecha": "1909-09-08",
+        "consultado": "2026-07-11",
+        "cita": "Apartado «Nuestro programa en lo político»: sustituye el régimen vigente por otra organización de Rey y Cortes."
+      },
+      "grupoEvidencia": "pasaje-ed98f044e12a754f2e1d"
+    },
+    "dem-018": {
+      "valor": 1,
+      "justificacion": "Las Cortes propuestas se componen de representantes de clases sociales —agricultura, comercio, industria, clero, aristocracia, pueblo y milicia— y excluyen expresamente a los partidos. Se limita a +1 porque el diseño también conserva representación territorial y una jefatura monárquica, no solo ámbitos profesionales y municipios.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Síntesis del Programa del Partido Integrista, Rey y Cortes",
+        "url": "https://es.wikisource.org/wiki/S%C3%ADntesis_del_Programa_del_Partido_Integrista_%281909%29",
+        "fecha": "1909-09-08",
+        "consultado": "2026-07-11",
+        "cita": "Apartado «Rey y Cortes»: enumera representación de clases sociales, regiones y provincias sin partidos."
+      },
+      "grupoEvidencia": "pasaje-a9d8541ef6cc74713113"
+    },
+    "dr-011": {
+      "valor": 2,
+      "justificacion": "La unidad católica con todas sus consecuencias y la unión de Iglesia y Estado son objetivos expresos; un Estado oficialmente católico queda inequívocamente dentro del programa.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Síntesis del Programa del Partido Integrista, La Unidad Católica",
+        "url": "https://es.wikisource.org/wiki/S%C3%ADntesis_del_Programa_del_Partido_Integrista_%281909%29",
+        "fecha": "1909-09-08",
+        "consultado": "2026-07-11",
+        "cita": "Apartado «La Unidad Católica»: reclama la unión de Iglesia y Estado con todas sus consecuencias."
+      },
+      "grupoEvidencia": "pasaje-7420384e201dfbbf5891"
+    },
+    "rel-002": {
+      "valor": -2,
+      "justificacion": "El programa rechaza de manera literal la libertad de conciencia y de cultos y reclama unidad católica coercitiva; se opone tanto a la aconfesionalidad como a la expresión pública plural incluida en el enunciado.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Síntesis del Programa del Partido Integrista, Las libertades de perdición",
+        "url": "https://es.wikisource.org/wiki/S%C3%ADntesis_del_Programa_del_Partido_Integrista_%281909%29",
+        "fecha": "1909-09-08",
+        "consultado": "2026-07-11",
+        "cita": "Apartado «Las libertades de perdición»: rechaza expresamente las libertades de conciencia y de cultos."
+      },
+      "grupoEvidencia": "pasaje-d9089c1816d4b875e805"
+    },
+    "rel-003": {
+      "valor": 1,
+      "justificacion": "El programa subordina el poder temporal al espiritual y hace de la doctrina custodiada por la Iglesia fundamento de la ley. Se limita a +1 porque esa primacía doctrinal no describe un procedimiento jurídico concreto mediante el que autoridades religiosas vetasen cada ley.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Síntesis del Programa del Partido Integrista, Relación entre ambas Potestades",
+        "url": "https://es.wikisource.org/wiki/S%C3%ADntesis_del_Programa_del_Partido_Integrista_%281909%29",
+        "fecha": "1909-09-08",
+        "consultado": "2026-07-11",
+        "cita": "Apartado «Relación entre ambas Potestades»: afirma la subordinación del poder temporal al espiritual."
+      },
+      "grupoEvidencia": "pasaje-f0558152e6b4f4ba0466"
+    }
+  }
+}

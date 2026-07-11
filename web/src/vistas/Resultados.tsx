@@ -1,28 +1,29 @@
-import { useMemo } from 'react';
+import { lazy, Suspense, useCallback, useMemo, useRef, useState } from 'react';
 import type { Respuesta } from '@engine';
 import {
   EJE_AUTORIDAD_POLITICA,
   EJE_PROPIEDAD_MERCADO,
   calcularAfinidad,
   calcularFacetas,
-  compararReferenciasDoctrinales,
+  partidosPrincipalesUltimasGenerales,
   perfilContraste,
   rankingAfinidad,
+  respuestasEnCorpus,
   seleccionarPartidosElectorales,
+  sindicatoRelevanteEnCcaa,
 } from '@engine';
 import { CatalogoCandidaturas } from '../componentes/CatalogoCandidaturas';
 import { DetalleAfinidad } from '../componentes/DetallePartido';
 import type { LecturaContraste } from '../componentes/DetallePartido';
 import { EspacioPatrocinado } from '../componentes/EspacioPatrocinado';
-import { MapaPolitico } from '../componentes/MapaPolitico';
 import { PerfilFacetas } from '../componentes/PerfilFacetas';
-import { ReferenciasDoctrinales } from '../componentes/ReferenciasDoctrinales';
 import { Ranking } from '../componentes/Ranking';
 import type { DobleMarcador } from '../componentes/Ranking';
 import {
   COMUNIDADES,
   EJES,
   ELECCIONES,
+  FECHA_CORTE_DATOS,
   ITEM_POR_ID,
   ITEMS_POR_MODULO,
   MODULOS,
@@ -31,10 +32,32 @@ import {
   nombreComunidad,
   nombrePerfil,
   secuenciaItems,
+  VERSION_INSTRUMENTO,
 } from '../datos';
-import { CONVOCATORIAS, PARTIDOS, REFERENCIAS, SINDICATOS } from '../datosResultados';
+import { CONVOCATORIAS, PARTIDOS, SINDICATOS } from '../datosOrganizaciones';
 import { evidenciaAutoridadAtlas, evidenciaPropiedadAtlas } from '../atlasIdeologias';
+import { hayReapertura3DPendiente } from '../estadoVisores';
+import type { DatosParaResultadoCompartido } from '../compartirResultados';
+import type { EtiquetasParaCaptura } from '../capturaResultado';
 import type { Accion, Estado } from '../estado';
+
+const CompartirResultados = lazy(() =>
+  import('../componentes/CompartirResultados').then((modulo) => ({
+    default: modulo.CompartirResultados,
+  })),
+);
+
+const MapaPolitico = lazy(() =>
+  import('../componentes/MapaPolitico').then((modulo) => ({
+    default: modulo.MapaPolitico,
+  })),
+);
+
+const ReferenciasDoctrinales = lazy(() =>
+  import('../componentes/ReferenciasDoctrinales').then((modulo) => ({
+    default: modulo.ReferenciasDoctrinales,
+  })),
+);
 
 interface Props {
   estado: Estado;
@@ -46,8 +69,55 @@ interface Props {
 const PARTIDO_POR_ID = new Map(PARTIDOS.map((p) => [p.id, p]));
 const SINDICATO_POR_ID = new Map(SINDICATOS.map((sindicato) => [sindicato.id, sindicato]));
 const ITEMS_LABORALES_EN_NUCLEO = new Set(['lab-006']);
+const PRINCIPALES_GENERALES = partidosPrincipalesUltimasGenerales(PARTIDOS, CONVOCATORIAS, 7);
+const PODEMOS = PARTIDO_POR_ID.get('podemos');
+const FORMATO_VOTOS = new Intl.NumberFormat('es-ES', { maximumFractionDigits: 0 });
+const CONTEXTO_PRINCIPALES = new Map(
+  PRINCIPALES_GENERALES.map((principal) => [
+    principal.partido.id,
+    `Candidatura ${principal.candidatura.siglas ?? principal.candidatura.nombre} · ${FORMATO_VOTOS.format(principal.candidatura.votos)} votos`,
+  ]),
+);
+const EJES_CAPTURA: EtiquetasParaCaptura['ejes'] = new Map(
+  EJES.map((eje) => [
+    eje.id,
+    {
+      id: eje.id,
+      nombre: eje.nombre,
+      poloNegativo: eje.poloNegativo,
+      poloPositivo: eje.poloPositivo,
+    },
+  ]),
+);
+const PARTIDOS_CAPTURA: EtiquetasParaCaptura['partidos'] = new Map(
+  PARTIDOS.map((partido) => [partido.id, nombrePerfil(partido)]),
+);
+const PERMITIDOS_COMPARTIR = {
+  ejes: new Set(EJES.map((eje) => eje.id)),
+  partidos: new Set(PARTIDOS.map((partido) => partido.id)),
+  comunidades: new Set(COMUNIDADES.map((comunidad) => comunidad.id)),
+};
 
 export function Resultados({ estado, despachar, puedeRecargar, alConfirmarGuardado }: Props) {
+  const [mostrarCompartir, setMostrarCompartir] = useState(false);
+  const [mostrarMapa, setMostrarMapa] = useState(hayReapertura3DPendiente);
+  const [mostrarReferencias, setMostrarReferencias] = useState(false);
+  const tituloMapaRef = useRef<HTMLHeadingElement>(null);
+  const tituloReferenciasRef = useRef<HTMLHeadingElement>(null);
+  const enfocarTituloMapa = useCallback(() => {
+    window.requestAnimationFrame(() => {
+      window.requestAnimationFrame(() => {
+        tituloMapaRef.current?.focus({ preventScroll: true });
+      });
+    });
+  }, []);
+  const enfocarTituloReferencias = useCallback(() => {
+    window.requestAnimationFrame(() => {
+      window.requestAnimationFrame(() => {
+        tituloReferenciasRef.current?.focus({ preventScroll: true });
+      });
+    });
+  }, []);
   const itemsSesion = useMemo(
     () => secuenciaItems(estado.modulosActivos, estado.respuestas),
     [estado.modulosActivos, estado.respuestas],
@@ -79,6 +149,16 @@ export function Resultados({ estado, despachar, puedeRecargar, alConfirmarGuarda
     return rankingAfinidad(respuestas, seleccionElectoral.partidos);
   }, [respuestas, nConOpinion, seleccionElectoral.partidos]);
 
+  const resultadosPrincipalesGenerales = useMemo(() => {
+    if (nConOpinion === 0) return [];
+    return PRINCIPALES_GENERALES.map(({ partido }) => calcularAfinidad(respuestas, partido));
+  }, [respuestas, nConOpinion]);
+
+  const resultadoPodemos = useMemo(() => {
+    if (nConOpinion === 0 || !PODEMOS) return undefined;
+    return calcularAfinidad(respuestas, PODEMOS);
+  }, [respuestas, nConOpinion]);
+
   const resultadosFueraConvocatoria = useMemo(() => {
     if (nConOpinion === 0) return [];
     return rankingAfinidad(respuestas, seleccionElectoral.partidosFueraConvocatoria);
@@ -87,7 +167,7 @@ export function Resultados({ estado, despachar, puedeRecargar, alConfirmarGuarda
   const doblesMarcadores = useMemo(() => {
     const marcadores = new Map<string, DobleMarcador>();
     if (nConOpinion === 0) return marcadores;
-    for (const partido of seleccionElectoral.partidos) {
+    for (const partido of PARTIDOS) {
       if (!partido.dobleLectura) continue;
       const perfilObservado = perfilContraste(partido);
       if (!perfilObservado) continue;
@@ -100,7 +180,7 @@ export function Resultados({ estado, despachar, puedeRecargar, alConfirmarGuarda
       });
     }
     return marcadores;
-  }, [respuestas, nConOpinion, seleccionElectoral.partidos]);
+  }, [respuestas, nConOpinion]);
 
   const lecturaContraste = (partidoId: string): LecturaContraste | undefined => {
     const partido = PARTIDO_POR_ID.get(partidoId);
@@ -108,6 +188,7 @@ export function Resultados({ estado, despachar, puedeRecargar, alConfirmarGuarda
     if (!partido?.dobleLectura || !marcador) return undefined;
     return {
       etiquetaBase: partido.dobleLectura.etiquetaBase,
+      descripcionBase: partido.dobleLectura.descripcionBase,
       etiqueta: partido.dobleLectura.contraste.etiqueta,
       descripcion: partido.dobleLectura.contraste.descripcion,
       advertencia: partido.dobleLectura.contraste.advertencia,
@@ -127,20 +208,22 @@ export function Resultados({ estado, despachar, puedeRecargar, alConfirmarGuarda
     [respuestas, estado.modulosActivos],
   );
   const nOpinionLaboral = respuestasLaborales.filter((respuesta) => respuesta.valor !== null).length;
+  const sindicatosRelevantes = useMemo(
+    () => SINDICATOS.filter((sindicato) => sindicatoRelevanteEnCcaa(sindicato, estado.ccaa)),
+    [estado.ccaa],
+  );
+  const respuestasSindicalesComparables = useMemo(
+    () => respuestasEnCorpus(respuestasLaborales, sindicatosRelevantes),
+    [respuestasLaborales, sindicatosRelevantes],
+  );
   const resultadosSindicales = useMemo(() => {
     if (nOpinionLaboral === 0) return [];
-    const relevantes = SINDICATOS.filter(
-      (sindicato) =>
-        sindicato.ambito === 'estatal' ||
-        sindicato.ambito === 'sectorial' ||
-        !estado.ccaa ||
-        sindicato.ccaa?.includes(estado.ccaa),
-    );
-    return rankingAfinidad(respuestasLaborales, relevantes, {
+    return rankingAfinidad(respuestasSindicalesComparables, sindicatosRelevantes, {
       minimoItems: 3,
       umbralCobertura: 0.2,
+      bloquearCoberturaInsuficiente: true,
     });
-  }, [respuestasLaborales, nOpinionLaboral, estado.ccaa]);
+  }, [respuestasSindicalesComparables, sindicatosRelevantes, nOpinionLaboral]);
 
   const facetasUsuario = useMemo(() => {
     const calculadas = calcularFacetas(respuestas, itemsSesion, EJES);
@@ -163,11 +246,6 @@ export function Resultados({ estado, despachar, puedeRecargar, alConfirmarGuarda
   const facetasConCobertura = facetasUsuario.filter(
     (faceta) => faceta.valor !== null && faceta.coberturaSuficiente,
   ).length;
-
-  const resultadosReferencias = useMemo(
-    () => compararReferenciasDoctrinales(respuestas, REFERENCIAS),
-    [respuestas],
-  );
 
   const coincidenciasMonotematicas = useMemo(() => {
     const respuestaPorItem = new Map(respuestas.map((respuesta) => [respuesta.itemId, respuesta]));
@@ -194,6 +272,67 @@ export function Resultados({ estado, despachar, puedeRecargar, alConfirmarGuarda
   const nombreEleccion =
     ELECCIONES.find((e) => e.id === estado.eleccion)?.nombre ?? estado.eleccion;
   const comunidad = estado.ccaa ? nombreComunidad(estado.ccaa) : undefined;
+  const maximosAfinidad = resultados.filter((resultado) => resultado.itemsComparados > 0).slice(0, 3);
+  const idsMaximosAfinidad = new Set(maximosAfinidad.map((resultado) => resultado.entidadId));
+  const resultadosRestantes = resultados.filter(
+    (resultado) => !idsMaximosAfinidad.has(resultado.entidadId),
+  );
+  const idsResultadosContexto = new Set(resultados.map((resultado) => resultado.entidadId));
+  const resultadosAuditoria =
+    seleccionElectoral.metodo === 'contexto-incompleto'
+      ? resultados
+      : [
+          ...resultados,
+          ...resultadosPrincipalesGenerales.filter(
+            (resultado) => !idsResultadosContexto.has(resultado.entidadId),
+          ),
+          ...(resultadoPodemos && !idsResultadosContexto.has(resultadoPodemos.entidadId)
+            ? [resultadoPodemos]
+            : []),
+        ];
+  const convocatoriaPrincipales = PRINCIPALES_GENERALES[0]?.convocatoria;
+
+  const nivelCompartido = esPerfilIntermedio
+    ? 'intermedio'
+    : esPerfilProvisional
+      ? 'rapido'
+      : 'exhaustivo';
+  const datosCompartidos = useMemo<DatosParaResultadoCompartido>(
+    () => ({
+      versionInstrumento: VERSION_INSTRUMENTO,
+      versionCatalogo: FECHA_CORTE_DATOS,
+      nivel: nivelCompartido,
+      eleccion: estado.eleccion,
+      ccaa: estado.ccaa || undefined,
+      respuestasAdministradas: respuestas.length,
+      respuestasConOpinion: nConOpinion,
+      facetas: facetasUsuario,
+      afinidades: resultados,
+    }),
+    [
+      estado.eleccion,
+      estado.ccaa,
+      respuestas.length,
+      nConOpinion,
+      facetasUsuario,
+      resultados,
+      nivelCompartido,
+    ],
+  );
+  const etiquetasCaptura = useMemo<EtiquetasParaCaptura>(
+    () => ({
+      contexto: `${nombreEleccion}${comunidad ? ` · ${comunidad}` : ' · comunidad sin indicar'}`,
+      nivel:
+        nivelCompartido === 'intermedio'
+          ? 'Perfil intermedio'
+          : nivelCompartido === 'rapido'
+            ? 'Perfil rápido provisional'
+            : 'Perfil exhaustivo',
+      ejes: EJES_CAPTURA,
+      partidos: PARTIDOS_CAPTURA,
+    }),
+    [nombreEleccion, comunidad, nivelCompartido],
+  );
 
   const quedanModulos = MODULOS.some((m) => {
     if (m.id === 'nucleo') return false;
@@ -287,6 +426,34 @@ export function Resultados({ estado, despachar, puedeRecargar, alConfirmarGuarda
         </p>
       </div>
 
+      {mostrarCompartir ? (
+        <Suspense
+          fallback={
+            <section className="seccion compartir-resultados compartir-resultados--cargando" role="status">
+              Preparando las opciones para compartir y guardar…
+            </section>
+          }
+        >
+          <CompartirResultados
+            datos={datosCompartidos}
+            etiquetas={etiquetasCaptura}
+            permitidos={PERMITIDOS_COMPARTIR}
+          />
+        </Suspense>
+      ) : (
+        <section className="seccion compartir-resultados compartir-resultados--lanzador" aria-labelledby="abrir-compartir-titulo">
+          <p className="kicker">Compartir y guardar</p>
+          <h2 id="abrir-compartir-titulo">Lleva contigo este resultado</h2>
+          <p>
+            Puedes crear un enlace de solo lectura o tarjetas PNG sin compartir las respuestas
+            originales. Las herramientas de imagen se cargarán solo si decides usarlas.
+          </p>
+          <button type="button" className="boton" onClick={() => setMostrarCompartir(true)}>
+            Abrir opciones para compartir y guardar
+          </button>
+        </section>
+      )}
+
       <section className="seccion" id="perfil-facetas">
         <h2>Tu perfil por facetas</h2>
         <p className="nota-al-margen" style={{ maxWidth: '68ch' }}>
@@ -298,21 +465,86 @@ export function Resultados({ estado, despachar, puedeRecargar, alConfirmarGuarda
       </section>
 
       <section className="seccion" aria-labelledby="mapa-espectro-titulo">
-        <h2 id="mapa-espectro-titulo">Mapa del espectro</h2>
-        <MapaPolitico
-          facetasUsuario={facetasUsuario}
-          puedeRecargar={puedeRecargar}
-          alConfirmarGuardado={alConfirmarGuardado}
-          nivelPerfil={
-            esPerfilIntermedio ? 'intermedio' : esPerfilProvisional ? 'rapido' : 'exhaustivo'
-          }
-        />
+        <h2 id="mapa-espectro-titulo" ref={tituloMapaRef} tabIndex={-1}>
+          Mapa del espectro
+        </h2>
+        {mostrarMapa ? (
+          <Suspense
+            fallback={
+              <div className="explorador-diferido explorador-diferido--cargando" role="status">
+                Preparando el atlas interactivo y sus fuentes…
+              </div>
+            }
+          >
+            <MapaPolitico
+              facetasUsuario={facetasUsuario}
+              puedeRecargar={puedeRecargar}
+              alConfirmarGuardado={alConfirmarGuardado}
+              alMontar={enfocarTituloMapa}
+              nivelPerfil={
+                esPerfilIntermedio ? 'intermedio' : esPerfilProvisional ? 'rapido' : 'exhaustivo'
+              }
+            />
+          </Suspense>
+        ) : (
+          <div className="explorador-diferido">
+            <div>
+              <p className="kicker">Vista interactiva bajo demanda</p>
+              <h3>Abre la brújula detallada cuando quieras explorarla</h3>
+              <p>
+                Incluye las zonas ideológicas, partidos con evidencia publicable, planos por
+                facetas y sus explicaciones. Se carga al pulsar para que el resumen y el ranking
+                sigan siendo rápidos en móvil.
+              </p>
+            </div>
+            <button type="button" className="boton" onClick={() => setMostrarMapa(true)}>
+              Abrir mapa interactivo
+            </button>
+          </div>
+        )}
       </section>
 
-      <ReferenciasDoctrinales
-        referencias={REFERENCIAS}
-        resultados={resultadosReferencias}
-      />
+      <section
+        className="seccion referencias-doctrinales"
+        aria-labelledby="referencias-doctrinales-titulo"
+      >
+        <h2
+          id="referencias-doctrinales-titulo"
+          ref={tituloReferenciasRef}
+          tabIndex={-1}
+        >
+          Referencias doctrinales
+        </h2>
+        {mostrarReferencias ? (
+          <Suspense
+            fallback={
+              <div className="explorador-diferido explorador-diferido--cargando" role="status">
+                Preparando las referencias doctrinales y sus fuentes…
+              </div>
+            }
+          >
+            <ReferenciasDoctrinales
+              respuestas={respuestas}
+              alMontar={enfocarTituloReferencias}
+            />
+          </Suspense>
+        ) : (
+          <div className="explorador-diferido">
+            <div>
+              <p className="kicker">Más allá de los partidos</p>
+              <h3>Compara matices que ningún partido tiene por qué representar</h3>
+              <p>
+                Compara el perfil con corrientes históricas y contemporáneas sin afirmar
+                pertenencia ni convertirlas en candidaturas. El catálogo profundo se descarga
+                solo si decides consultarlo.
+              </p>
+            </div>
+            <button type="button" className="boton" onClick={() => setMostrarReferencias(true)}>
+              Explorar corrientes afines
+            </button>
+          </div>
+        )}
+      </section>
 
       {respuestasLaborales.length > 0 ? (
         <section className="seccion">
@@ -331,6 +563,13 @@ export function Resultados({ estado, despachar, puedeRecargar, alConfirmarGuarda
           {nOpinionLaboral === 0 ? (
             <p className="resultado-no-calculable" role="status">
               No hay similitud sindical calculable porque has marcado «Sin opinión» en este bloque.
+            </p>
+          ) : resultadosSindicales.length === 0 ? (
+            <p className="resultado-no-calculable" role="status">
+              Aún no hay una afinidad sindical publicable. Para evitar un 100 % engañoso por
+              una sola coincidencia, cada resultado necesita al menos 3 ítems comparados y
+              cubrir el 20 % de tus respuestas con opinión dentro del corpus sindical
+              documentado y comparable.
             </p>
           ) : (
             <>
@@ -447,12 +686,69 @@ export function Resultados({ estado, despachar, puedeRecargar, alConfirmarGuarda
         </p>
       )}
 
-      <section className="seccion">
-        <h2>Afinidad con partidos</h2>
+      {seleccionElectoral.metodo !== 'contexto-incompleto' &&
+      nConOpinion > 0 &&
+      resultadosPrincipalesGenerales.length > 0 ? (
+        <section className="seccion seccion--principales" aria-labelledby="principales-generales-titulo">
+          <p className="kicker">Referencia electoral común</p>
+          <h2 id="principales-generales-titulo">Partidos principales de las últimas generales</h2>
+          <p className="nota-al-margen" style={{ maxWidth: '72ch' }}>
+            Son las siete candidaturas con más votos de{' '}
+            {convocatoriaPrincipales?.nombre ?? 'las últimas elecciones generales documentadas'}
+            {' '}que tienen un perfil principal comparable. Su orden aquí es el del voto, no el
+            de afinidad. El porcentaje se calcula con tus mismas respuestas y conserva su aviso de
+            cobertura.
+          </p>
+          <div className="principales-contexto" role="note">
+            <strong>Contexto por representación, no recomendación.</strong>
+            <p>
+              Estas formaciones aparecen aquí únicamente por haber sido las más votadas en las
+              últimas generales documentadas. Espectro no favorece, prioriza ni recomienda a los
+              partidos mayoritarios y no pretende orientar el voto. Su propósito es ayudarte a
+              encontrar afinidades en toda la pluralidad política disponible en el catálogo.
+            </p>
+            <p>
+              El ranking ordenado por tu afinidad y el desplegable con el resto de formaciones
+              están inmediatamente debajo.
+            </p>
+          </div>
+          <Ranking
+            resultados={resultadosPrincipalesGenerales}
+            entidades={PARTIDO_POR_ID}
+            doblesMarcadores={doblesMarcadores}
+            compacto
+            contextoPorEntidad={CONTEXTO_PRINCIPALES}
+            separarTramos={false}
+            etiquetaPosicion={(_, indice) => `${PRINCIPALES_GENERALES[indice]?.puestoVotos ?? indice + 1}.º voto`}
+          />
+          {PODEMOS && resultadoPodemos ? (
+            <aside className="referencia-podemos" aria-labelledby="referencia-podemos-titulo">
+              <div>
+                <p className="kicker">Referencia separada</p>
+                <h3 id="referencia-podemos-titulo">Podemos concurrió dentro de Sumar</h3>
+                <p>
+                  Se ofrece su perfil propio para comparar matices, pero no se presenta como una
+                  octava candidatura: en las generales de 2023 formó parte de la coalición Sumar.
+                </p>
+              </div>
+              <Ranking
+                resultados={[resultadoPodemos]}
+                entidades={PARTIDO_POR_ID}
+                compacto
+                ordenada={false}
+              />
+            </aside>
+          ) : null}
+        </section>
+      ) : null}
+
+      <section className="seccion" aria-labelledby="maximos-afinidad-titulo">
+        <h2 id="maximos-afinidad-titulo">Máximos por afinidad</h2>
         <p className="nota-al-margen" style={{ maxWidth: '68ch' }}>
-          Se muestra después de tu perfil propio: es una comparación electoral, no tu identidad.
-          La distancia se calcula solo sobre posiciones compartidas y cada resultado declara su
-          cobertura y sus fuentes.
+          Este sí es el orden real del porcentaje visible para el contexto electoral que has
+          elegido. La cobertura nunca cambia silenciosamente el puesto: indica cuántas respuestas
+          sostienen cada cifra. Una formación puede aparecer también en el bloque anterior porque
+          allí el criterio son los votos; no es un segundo cálculo.
         </p>
         {seleccionElectoral.metodo === 'contexto-incompleto' ? (
           <div className="resultado-no-calculable" role="status">
@@ -468,33 +764,61 @@ export function Resultados({ estado, despachar, puedeRecargar, alConfirmarGuarda
             </p>
           </div>
         ) : (
-          <Ranking
-            resultados={resultados}
-            entidades={PARTIDO_POR_ID}
-            doblesMarcadores={doblesMarcadores}
-          />
+          <>
+            <Ranking
+              resultados={maximosAfinidad}
+              entidades={PARTIDO_POR_ID}
+              doblesMarcadores={doblesMarcadores}
+              compacto
+            />
+            {resultadosRestantes.length > 0 ? (
+              <details className="ranking-resto">
+                <summary>
+                  Ver el resto del ranking ({resultadosRestantes.length}{' '}
+                  {resultadosRestantes.length === 1 ? 'formación' : 'formaciones'})
+                </summary>
+                <p className="nota-al-margen">
+                  Continúa el mismo orden por afinidad. Los perfiles sin datos comparables quedan
+                  al final y no muestran un porcentaje inventado.
+                </p>
+                <Ranking
+                  resultados={resultadosRestantes}
+                  entidades={PARTIDO_POR_ID}
+                  doblesMarcadores={doblesMarcadores}
+                  inicio={maximosAfinidad.length + 1}
+                  compacto
+                />
+              </details>
+            ) : null}
+          </>
         )}
       </section>
 
-      {resultados.length > 0 ? (
-        <section className="seccion">
-          <h2>Por qué coincide</h2>
-          <p className="nota-al-margen" style={{ maxWidth: '68ch' }}>
-            Cada porcentaje se puede auditar: despliega un partido para ver tu respuesta, la
-            suya, la justificación y la fuente, ítem a ítem.
-          </p>
-          {resultados.map((r) => {
-            const partido = PARTIDO_POR_ID.get(r.entidadId);
-            if (!partido) return null;
-            return (
-              <DetalleAfinidad
-                key={r.entidadId}
-                resultado={r}
-                entidad={partido}
-                lecturaContraste={lecturaContraste(r.entidadId)}
-              />
-            );
-          })}
+      {resultadosAuditoria.length > 0 ? (
+        <section className="seccion seccion--auditoria">
+          <details className="auditoria-afinidad">
+            <summary>Auditar el cálculo y las fuentes, ítem a ítem</summary>
+            <div className="auditoria-afinidad__cuerpo">
+              <p className="nota-al-margen" style={{ maxWidth: '68ch' }}>
+                Despliega una formación para ver tu respuesta, la suya, la distancia, la
+                justificación y la fuente de cada posición usada en el porcentaje. También se
+                incluyen aquí las referencias de generales mostradas arriba aunque no pertenezcan
+                al contexto electoral seleccionado.
+              </p>
+              {resultadosAuditoria.map((r) => {
+                const partido = PARTIDO_POR_ID.get(r.entidadId);
+                if (!partido) return null;
+                return (
+                  <DetalleAfinidad
+                    key={r.entidadId}
+                    resultado={r}
+                    entidad={partido}
+                    lecturaContraste={lecturaContraste(r.entidadId)}
+                  />
+                );
+              })}
+            </div>
+          </details>
         </section>
       ) : null}
 
@@ -547,24 +871,30 @@ export function Resultados({ estado, despachar, puedeRecargar, alConfirmarGuarda
             convocatoria seleccionada. Es una comparación doctrinal con partidos reales, no una
             afirmación de que aparezcan en tu papeleta.
           </p>
-          <Ranking
-            resultados={resultadosFueraConvocatoria}
-            entidades={PARTIDO_POR_ID}
-          />
-          <div className="detalles-afinidad">
-            <h3>Por qué coincide</h3>
-            {resultadosFueraConvocatoria.map((resultado) => {
-              const partido = PARTIDO_POR_ID.get(resultado.entidadId);
-              if (!partido) return null;
-              return (
-                <DetalleAfinidad
-                  key={resultado.entidadId}
-                  resultado={resultado}
-                  entidad={partido}
-                />
-              );
-            })}
-          </div>
+          <details className="ranking-resto">
+            <summary>
+              Ver formaciones incluidas por excepción ({resultadosFueraConvocatoria.length})
+            </summary>
+            <Ranking
+              resultados={resultadosFueraConvocatoria}
+              entidades={PARTIDO_POR_ID}
+              compacto
+            />
+            <div className="detalles-afinidad auditoria-afinidad__cuerpo">
+              <h3>Por qué coincide</h3>
+              {resultadosFueraConvocatoria.map((resultado) => {
+                const partido = PARTIDO_POR_ID.get(resultado.entidadId);
+                if (!partido) return null;
+                return (
+                  <DetalleAfinidad
+                    key={resultado.entidadId}
+                    resultado={resultado}
+                    entidad={partido}
+                  />
+                );
+              })}
+            </div>
+          </details>
         </section>
       ) : null}
 

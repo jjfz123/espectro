@@ -160,5 +160,53 @@
     "termino": "Ley de plazos vs. ley de supuestos (aborto)",
     "definicion": "Una ley de plazos permite abortar libremente durante las primeras semanas (en España, 14). Una ley de supuestos solo lo permite en casos tasados (violación, riesgo para la madre, malformación), como la española de 1985. Volver a supuestos o mantener plazos es la frontera del debate.",
     "url": "https://es.wikipedia.org/wiki/Interrupci%C3%B3n_voluntaria_del_embarazo_en_Espa%C3%B1a"
+  },
+  {
+    "id": "prision-permanente-revisable",
+    "termino": "Prisión permanente revisable",
+    "definicion": "Pena de cárcel de duración indefinida para los delitos más graves: cumplido un mínimo de años (25-35 según el caso), un tribunal revisa cada cierto tiempo si la persona puede salir. Se introdujo en España en 2015. Quien la defiende la considera proporcionada para crímenes atroces y compatible con la reinserción por ser revisable; quien la critica la ve como una cadena perpetua encubierta. El Tribunal Constitucional la avaló en 2021.",
+    "url": "https://es.wikipedia.org/wiki/Prisi%C3%B3n_permanente_revisable"
+  },
+  {
+    "id": "consejo-general-poder-judicial",
+    "termino": "Consejo General del Poder Judicial (CGPJ)",
+    "definicion": "Órgano que gobierna a los jueces en España: nombra los altos cargos judiciales (Tribunal Supremo, presidencias de tribunales) e inspecciona y disciplina la carrera judicial, pero no juzga. La disputa principal es cómo elegir a sus vocales: hoy los designa el Parlamento por mayoría reforzada; un sector propone que los jueces elijan directamente a los vocales de procedencia judicial, en nombre de la independencia, mientras otro defiende la legitimación parlamentaria.",
+    "url": "https://es.wikipedia.org/wiki/Consejo_General_del_Poder_Judicial"
+  },
+  {
+    "id": "independencia-judicial",
+    "termino": "Independencia judicial",
+    "definicion": "Principio por el que los jueces deben decidir sometidos solo a la ley, sin recibir instrucciones del Gobierno, los partidos ni otros poderes. Es un consenso democrático básico; el debate está en cómo garantizarla en la práctica (método de nombramiento de los altos cargos judiciales, relación con la política) y en si el sistema español actual la protege lo suficiente.",
+    "url": "https://es.wikipedia.org/wiki/Independencia_judicial"
+  },
+  {
+    "id": "separacion-de-poderes",
+    "termino": "Separación de poderes",
+    "definicion": "Reparto del poder del Estado en tres ramas que se controlan entre sí: legislativo (el Parlamento hace las leyes), ejecutivo (el Gobierno las aplica) y judicial (los jueces las hacen cumplir). Es un pilar del Estado de derecho; la discusión política gira en torno a dónde están los límites cuando un poder considera que otro invade sus funciones.",
+    "url": "https://es.wikipedia.org/wiki/Separaci%C3%B3n_de_poderes"
+  },
+  {
+    "id": "tribunal-constitucional",
+    "termino": "Tribunal Constitucional",
+    "definicion": "Tribunal especial, distinto de la justicia ordinaria, que decide si las leyes y los actos de los poderes públicos respetan la Constitución y puede anularlos; también protege derechos fundamentales (recurso de amparo). Sus doce magistrados son propuestos por el Congreso, el Senado, el Gobierno y el CGPJ, lo que alimenta el debate sobre su politización.",
+    "url": "https://es.wikipedia.org/wiki/Tribunal_Constitucional_de_Espa%C3%B1a"
+  },
+  {
+    "id": "codigo-penal",
+    "termino": "Código Penal",
+    "definicion": "Ley que define qué conductas son delito en España y qué penas les corresponden. Reformarlo (endurecer o rebajar penas, crear o suprimir delitos) es una decisión del Parlamento y uno de los terrenos habituales de disputa entre posturas más punitivas y más garantistas.",
+    "url": "https://es.wikipedia.org/wiki/C%C3%B3digo_Penal_de_Espa%C3%B1a"
+  },
+  {
+    "id": "reinsercion-social",
+    "termino": "Reinserción social",
+    "definicion": "Objetivo, recogido en la Constitución (art. 25.2), de que las penas de prisión sirvan para preparar el regreso del condenado a la vida en libertad (permisos, progresión de grado, formación, trabajo). El debate opone a quienes la consideran la finalidad prioritaria de la pena y a quienes priorizan el castigo y la protección de las víctimas.",
+    "url": "https://es.wikipedia.org/wiki/Reinserci%C3%B3n_social"
+  },
+  {
+    "id": "inviolabilidad-jefe-estado",
+    "termino": "Inviolabilidad del Rey",
+    "definicion": "Regla constitucional (art. 56.3) por la que el Rey no responde ante los tribunales por sus actos como Jefe del Estado, que además deben ir refrendados por un cargo político que asume la responsabilidad. Quien la defiende la ve como garantía de neutralidad de la Corona; quien la critica, como un privilegio difícil de justificar en una democracia, y pide acotarla.",
+    "url": "https://es.wikipedia.org/wiki/Inviolabilidad"
   }
 ]

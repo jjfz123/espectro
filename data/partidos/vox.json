@@ -125,7 +125,8 @@
             "fecha": "2026-07-05",
             "consultado": "2026-07-10",
             "cita": "A los okupas se les acabó el chollo, Andalucía impulsará desahucios exprés"
-          }
+          },
+          "grupoEvidencia": "pasaje-91954f3f1d42b6a171e2"
         },
         "eco-010": {
           "valor": -1,
@@ -138,7 +139,8 @@
             "fecha": "2026-02-18",
             "consultado": "2026-07-10",
             "cita": "En ningún caso propone eliminar el SMI o reducir la indemnización por despido"
-          }
+          },
+          "grupoEvidencia": "pasaje-745b967d71de51bde2ef"
         }
       }
     }
@@ -539,7 +541,8 @@
         "fecha": "2023-07-07",
         "consultado": "2026-07-10",
         "cita": "Bajada radical de impuestos, drástica reducción del gasto político ineficaz, simplificación de trámites… así es el programa económico de VOX para el 23J"
-      }
+      },
+      "grupoEvidencia": "pasaje-d86deac09df901f69831"
     },
     "eco-005": {
       "valor": -2,
@@ -552,7 +555,8 @@
         "fecha": "2026",
         "consultado": "2026-07-10",
         "cita": "PP, Vox y Junts se alían para tramitar una ley que aceleraría los desahucios de vulnerables y tumbaría el tope al alquiler"
-      }
+      },
+      "grupoEvidencia": "pasaje-471b732cde3fe242819d"
     },
     "eco-007": {
       "valor": 2,
@@ -565,7 +569,8 @@
         "fecha": "2023-07-21",
         "consultado": "2026-07-10",
         "cita": "La vivienda tras el 23-J: Vox y los desalojos exprés"
-      }
+      },
+      "grupoEvidencia": "pasaje-4e3b349a604262a34e5f"
     },
     "eco-009": {
       "valor": 2,
@@ -578,7 +583,8 @@
         "fecha": "2023-12-22",
         "consultado": "2026-07-10",
         "cita": "VOX reclama una vez más la eliminación del impuesto sobre sucesiones y donaciones"
-      }
+      },
+      "grupoEvidencia": "pasaje-88bb790b16bbc60e708a"
     },
     "eco-014": {
       "valor": -2,
@@ -603,7 +609,8 @@
         "fecha": "2024-02-09",
         "consultado": "2026-07-10",
         "cita": "VOX exige que la subida del SMI vaya aparejada de bonificaciones en las cotizaciones a la seguridad social para las empresas que contraten de manera indefinida"
-      }
+      },
+      "grupoEvidencia": "pasaje-cb19d711d37a605397ef"
     },
     "eco-002": {
       "valor": 2,

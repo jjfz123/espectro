@@ -1,0 +1,98 @@
+{
+  "id": "anarquismo-sin-adjetivos",
+  "nombre": "Anarquismo sin adjetivos",
+  "tipo": "referencia-doctrinal",
+  "definicion": "Tipo ideal de la corriente libertaria formulada en el ámbito español por Fernando Tarrida del Mármol y desarrollada por Ricardo Mella: afirma la abolición del gobierno y de la autoridad organizada, la asociación voluntaria y la autonomía individual y colectiva, pero rehúsa imponer de antemano un único sistema económico anarquista.",
+  "variante": "Síntesis hispana de Tarrida del Mármol (1890) y de la cooperación libre de Mella (1900); no equivale a toda escuela anarquista posterior ni resuelve por decreto la disputa entre comunismo, colectivismo e individualismo",
+  "periodo": "1890-1911",
+  "confianza": "verificada",
+  "version": "1.0",
+  "revisado": "2026-07-11",
+  "publicacionAfinidad": {
+    "publicable": false,
+    "motivo": "Referencia nueva pendiente de auditoría semántica adversarial; no participa en afinidad hasta cerrar cada equivalencia entre fuente e ítem."
+  },
+  "publicacionMapa": {
+    "publicable": false,
+    "motivo": "La oposición al Estado y a la dirección partidaria está bien documentada, pero la corriente deja deliberadamente abiertas la coordinación económica y sus formas concretas; proyectarla ahora en Propiedad × Poder fingiría una precisión que sus propios textos rechazan."
+  },
+  "facetasDefinitorias": [
+    "organizacion",
+    "autoridad-politica",
+    "propiedad-mercado"
+  ],
+  "sensibilidad": "normal",
+  "advertencia": "Es una reconstrucción doctrinal histórica, no la ficha de una organización española actual ni un sinónimo de anarcosindicalismo. La cooperación libre de Mella respalda posesión común y gestión voluntaria, pero rechaza fijar un plan uniforme de producción y distribución; por eso no se le atribuyen planificación estatal, una forma cooperativa jurídica única ni posiciones fiscales. Tampoco se codifican ruptura necesariamente violenta ni independencia sindical respecto de partidos y Gobierno: el pluralismo entre escuelas anarquistas no demuestra por sí solo esas proposiciones.",
+  "fuentesMarco": [
+    {
+      "tipo": "otro",
+      "titulo": "Fernando Tarrida del Mármol, La anarquía sin adjetivos",
+      "url": "https://es.anarchistlibraries.net/library/fernando-tarrida-del-marmol-la-anarquia-sin-adjetivos",
+      "fecha": "1890-08-07",
+      "consultado": "2026-07-11"
+    },
+    {
+      "tipo": "otro",
+      "titulo": "Ricardo Mella, La cooperación libre y los sistemas de comunidad",
+      "url": "https://es.anarchistlibraries.net/library/ricardo-mella-la-cooperacion-libre-y-los-sistemas-de-comunidad",
+      "fecha": "1900",
+      "consultado": "2026-07-11"
+    },
+    {
+      "tipo": "otro",
+      "titulo": "Teresa Abelló Güell, Fernando Tarrida del Mármol. Anarquisme i cosmopolitisme a finals del segle XIX (en catalán)",
+      "url": "https://revistes.iec.cat/index.php/BSCEH/article/download/92132.001/141513/0",
+      "fecha": "2016",
+      "consultado": "2026-07-11"
+    }
+  ],
+  "reglaPublicacion": {
+    "minimoItems": 3,
+    "minimoCobertura": 0.75,
+    "umbralAfinidad": 80
+  },
+  "posiciones": {
+    "izq-007": {
+      "valor": 2,
+      "justificacion": "Tarrida define la anarquía sin gobiernos ni gobernados y Mella sitúa su horizonte en reducir a cero la autoridad organizada: el Estado no es un instrumento que esta corriente aspire a conquistar y conservar.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Fernando Tarrida del Mármol, La anarquía sin adjetivos",
+        "url": "https://es.anarchistlibraries.net/library/fernando-tarrida-del-marmol-la-anarquia-sin-adjetivos",
+        "fecha": "1890-08-07",
+        "consultado": "2026-07-11",
+        "cita": "Sección «La anarquía»: describe una sociedad sin gobiernos ni gobernados, superiores ni inferiores."
+      },
+      "grupoEvidencia": "pasaje-1cdab7f6704603134671"
+    },
+    "izq-003": {
+      "valor": 1,
+      "justificacion": "Mella hace depender la vida social de la voluntad de los asociados, la autonomía de individuos y grupos y la cooperación libre, sin una autoridad organizada que los dirija. Se usa +1 porque no prescribe un modelo único de consejos ni emplea la formulación moderna del ítem.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Ricardo Mella, La cooperación libre y los sistemas de comunidad",
+        "url": "https://es.anarchistlibraries.net/library/ricardo-mella-la-cooperacion-libre-y-los-sistemas-de-comunidad",
+        "fecha": "1900",
+        "consultado": "2026-07-11",
+        "cita": "Párrafos finales: la voluntad de los asociados y la autonomía individual y colectiva rigen la cooperación libre."
+      },
+      "grupoEvidencia": "pasaje-cb1215a8198de04c39cc"
+    },
+    "dem-019": {
+      "valor": -2,
+      "justificacion": "Una organización política única que dirija el Estado contradice de raíz una doctrina que elimina superiores, inferiores, gobiernos y gobernados y confía la coordinación a acuerdos voluntarios entre iguales.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Fernando Tarrida del Mármol, La anarquía sin adjetivos",
+        "url": "https://es.anarchistlibraries.net/library/fernando-tarrida-del-marmol-la-anarquia-sin-adjetivos",
+        "fecha": "1890-08-07",
+        "consultado": "2026-07-11",
+        "cita": "Sección «La anarquía»: describe una sociedad sin gobiernos ni gobernados, superiores ni inferiores."
+      },
+      "grupoEvidencia": "pasaje-1cdab7f6704603134671"
+    }
+  }
+}

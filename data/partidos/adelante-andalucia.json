@@ -4,7 +4,9 @@
   "siglas": "AA",
   "ambito": "autonomico",
   "tipo": "partido",
-  "ccaa": ["andalucia"],
+  "ccaa": [
+    "andalucia"
+  ],
   "confianza": "verificada",
   "web": "https://adelanteandalucia.org/",
   "revisado": "2026-07-10",
@@ -110,7 +112,8 @@
         "fecha": "2026-03-04",
         "consultado": "2026-07-10",
         "cita": "Adelante pide «echar al Ejército de EEUU» de las bases de Rota y Morón"
-      }
+      },
+      "grupoEvidencia": "pasaje-cf362f1d30bcab496b1d"
     },
     "eco-005": {
       "valor": 2,

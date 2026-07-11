@@ -9,9 +9,93 @@
   ],
   "confianza": "verificada",
   "web": "https://www.esquerra.cat/",
-  "revisado": "2026-07-10",
+  "revisado": "2026-07-11",
   "actividad": "activa",
   "posiciones": {
+    "eco-002": {
+      "valor": -2,
+      "justificacion": "Propone transitar hacia un servicio nacional de salud con entidades de titularidad y gestión públicas, eliminar progresivamente proveedores privados con ánimo de lucro y acabar con externalizaciones de centros públicos.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Ponència política aprovada del XXX Congrés Nacional d'ERC",
+        "url": "https://static.esquerra.cat/uploads/20250324/30cgn-ponencia-politica-aprovada.pdf",
+        "fecha": "2025-03-15",
+        "consultado": "2026-07-11",
+        "cita": "Transitant cap a un Servei Nacional de Salut català amb entitats de titularitat i gestió públiques [...] eliminant [...] centres privats amb ànim de lucre."
+      },
+      "grupoEvidencia": "pasaje-cb67502c3768165b164f"
+    },
+    "eco-006": {
+      "valor": 1,
+      "justificacion": "Plantea articular una política efectiva de parque público y alquiler asequible, especialmente donde la población joven no puede acceder a vivienda. Se codifica +1 porque el documento no fija un volumen que permita equipararlo sin reservas a un «gran parque».",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Ponència política aprovada del XXX Congrés Nacional d'ERC",
+        "url": "https://static.esquerra.cat/uploads/20250324/30cgn-ponencia-politica-aprovada.pdf",
+        "fecha": "2025-03-15",
+        "consultado": "2026-07-11",
+        "cita": "Articular una política efectiva de parc públic i lloguer assequible."
+      },
+      "grupoEvidencia": "pasaje-1c4aa391e9d864fc231d"
+    },
+    "dem-008": {
+      "valor": 2,
+      "justificacion": "Su ponencia define la separación de poderes, los frenos y contrapesos, el Estado de derecho y las elecciones periódicas como dispositivos necesarios frente al poder arbitrario; además exige un poder judicial catalán independiente.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Ponència política aprovada del XXX Congrés Nacional d'ERC",
+        "url": "https://static.esquerra.cat/uploads/20250324/30cgn-ponencia-politica-aprovada.pdf",
+        "fecha": "2025-03-15",
+        "consultado": "2026-07-11",
+        "cita": "La separació de poders, els frens i contrapesos, l'estat de dret, les eleccions periòdiques."
+      },
+      "grupoEvidencia": "pasaje-c81a812a186255f64eab"
+    },
+    "dem-019": {
+      "valor": -2,
+      "justificacion": "Su republicanismo democrático identifica la concentración y el abuso del poder como amenazas y exige elecciones periódicas, ciudadanía crítica y contrapesos institucionales. Esto es incompatible con que un movimiento único gobierne sin competencia política permanente.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Ponència política aprovada del XXX Congrés Nacional d'ERC",
+        "url": "https://static.esquerra.cat/uploads/20250324/30cgn-ponencia-politica-aprovada.pdf",
+        "fecha": "2025-03-15",
+        "consultado": "2026-07-11",
+        "cita": "La separació de poders, els frens i contrapesos, l'estat de dret, les eleccions periòdiques."
+      },
+      "grupoEvidencia": "pasaje-c81a812a186255f64eab"
+    },
+    "izq-007": {
+      "valor": -2,
+      "justificacion": "El objetivo de ERC es constituir una República catalana con instituciones, poder judicial y Estado de derecho propios; no abolir todo Estado. Su distribución republicana del poder no equivale a antiestatismo anarquista.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Ponència política aprovada del XXX Congrés Nacional d'ERC",
+        "url": "https://static.esquerra.cat/uploads/20250324/30cgn-ponencia-politica-aprovada.pdf",
+        "fecha": "2025-03-15",
+        "consultado": "2026-07-11",
+        "cita": "Proclamar la República catalana. [...] l’acció política i institucional [...] es desenvolupa des de les cambres parlamentàries."
+      },
+      "grupoEvidencia": "pasaje-4898b11a8c797018fa1f"
+    },
+    "dem-017": {
+      "valor": -2,
+      "justificacion": "ERC propone elecciones periódicas y una república con parlamento, gobierno y poder judicial, y desarrolla una estrategia estable en cámaras parlamentarias. No plantea sustituir el parlamento por consejos laborales y locales.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Ponència política aprovada del XXX Congrés Nacional d'ERC",
+        "url": "https://static.esquerra.cat/uploads/20250324/30cgn-ponencia-politica-aprovada.pdf",
+        "fecha": "2025-03-15",
+        "consultado": "2026-07-11",
+        "cita": "Proclamar la República catalana. [...] l’acció política i institucional [...] es desenvolupa des de les cambres parlamentàries."
+      },
+      "grupoEvidencia": "pasaje-4898b11a8c797018fa1f"
+    },
     "nac-001": {
       "valor": 1,
       "justificacion": "Mantiene abierta una vía propia hacia la independencia ante un bloqueo permanente, pero su estrategia vigente la condiciona a ampliar mayoría social, acumular fuerza y escoger la oportunidad.",
@@ -131,7 +215,8 @@
         "fecha": "2023-04-27",
         "consultado": "2026-07-10",
         "cita": "El Congreso aprueba la ley de vivienda con los votos en contra de las derechas"
-      }
+      },
+      "grupoEvidencia": "pasaje-215a603f401e563f8dd6"
     },
     "eco-011": {
       "valor": 2,
@@ -144,7 +229,8 @@
         "fecha": "2025-09-10",
         "consultado": "2026-07-10",
         "cita": "PP, Junts y Vox tumban la ley para reducir la jornada laboral a 37 horas y media"
-      }
+      },
+      "grupoEvidencia": "pasaje-c36041516a4d81afd6c1"
     },
     "eco-014": {
       "valor": 2,
@@ -157,7 +243,8 @@
         "fecha": "2022-11-25",
         "consultado": "2026-07-10",
         "cita": "Queríamos llegar más lejos, pero damos hoy un paso importante"
-      }
+      },
+      "grupoEvidencia": "pasaje-b1f571b4be47b617bf5d"
     },
     "eco-003": {
       "valor": 2,
@@ -170,7 +257,8 @@
         "fecha": "2025-04-30",
         "consultado": "2026-07-10",
         "cita": "ERC mueve ficha en el Congreso para crear el «Salario Mínimo Catalán»: reclama que la Generalitat pueda elevar la cuantía a «al menos 1.420 euros al mes»"
-      }
+      },
+      "grupoEvidencia": "pasaje-19c2c933c24a37f65f3e"
     },
     "sd-023": {
       "valor": 2,
@@ -219,7 +307,8 @@
         "fecha": "2022",
         "consultado": "2026-07-10",
         "cita": "Proposición de Ley de regulación integral del cannabis"
-      }
+      },
+      "grupoEvidencia": "pasaje-9556d65af1680f4ad7d6"
     },
     "soc-004": {
       "valor": 2,
@@ -232,7 +321,8 @@
         "fecha": "2024-04-09",
         "consultado": "2026-07-10",
         "cita": "El Congreso aprueba debatir la ILP sobre la regularización extraordinaria de personas migrantes"
-      }
+      },
+      "grupoEvidencia": "pasaje-b639c62b559296516ef5"
     },
     "soc-006": {
       "valor": 2,
@@ -308,16 +398,17 @@
     },
     "fem-007": {
       "valor": -2,
-      "justificacion": "El portavoz de ERC en el Congreso, Gabriel Rufián, calificó el veto parental impulsado por Vox de «pin neandertal», «otro intento más de la ultraderecha por volver a tiempos pasados»; posición coherente con el apoyo de ERC a la LOMLOE, que en 2020 eliminó la posibilidad de exigir autorización previa de las familias para actividades curriculares como la educación afectivo-sexual.",
+      "justificacion": "Gabriel Rufián, portavoz de ERC en el Congreso, calificó la exigencia de autorización familiar previa descrita por la fuente de «pin neandertal» y de intento de la extrema derecha por volver a tiempos pretéritos. Es un rechazo explícito al contenido del ítem; no se infiere aquí una posición adicional de la LOMLOE.",
       "calidadEvidencia": "media",
       "fuente": {
         "tipo": "declaracion",
         "titulo": "¿Pin parental, pin Abascal o veto parental? (El Plural)",
         "url": "https://www.elplural.com/politica/espana/pin-parental-pin-abascal-veto-parental_231579102",
-        "fecha": "2020",
-        "consultado": "2026-07-10",
-        "cita": "pin neandertal"
-      }
+        "fecha": "2020-01-20",
+        "consultado": "2026-07-11",
+        "cita": "el portavoz de ERC en el Congreso de los Diputados, Gabriel Rufián, calificaba la medida de “pin neandertal”. Lo hacía en su cuenta de Twitter"
+      },
+      "grupoEvidencia": "pasaje-9a52a1a49b5c21090cdc"
     },
     "fem-012": {
       "valor": 2,

@@ -10,9 +10,37 @@
   ],
   "confianza": "verificada",
   "web": "https://ehbildu.eus/",
-  "revisado": "2026-07-10",
+  "revisado": "2026-07-11",
   "actividad": "activa",
   "posiciones": {
+    "eco-006": {
+      "valor": 2,
+      "justificacion": "Propone un fondo público específico y una política estructural para ampliar fuertemente la vivienda pública de alquiler, con objetivos cuantificados de nueva construcción y adquisición de parque existente.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Pello Otxandiano propone utilizar el endeudamiento para crear un fondo público para vivienda pública",
+        "url": "https://ehbildu.eus/es/noticias/pello-otxandiano-propone-utilizar-el-endeudamiento-para-crear-un-fondo-publico-para-la-promocion-de-vivienda-publica",
+        "fecha": "2025-05-23",
+        "consultado": "2026-07-11",
+        "cita": "En la próxima década será necesario incorporar entre 60.000 y 70.000 nuevas viviendas [...] de las cuales 40.000 deberán construirse desde cero."
+      },
+      "grupoEvidencia": "pasaje-17259dcd4af52f02b9a6"
+    },
+    "izq-007": {
+      "valor": -2,
+      "justificacion": "Su objetivo declarado es construir un Estado vasco en forma de República Confederal de Euskal Herria, voluntaria y democrática. No propone abolir todo Estado, aunque defienda poder popular y soberanía territorial.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Ponencia política del III Congreso de EH Bildu",
+        "url": "https://ehbildu.eus/media/dokumentuak/albisteak/es-1729252550.pdf",
+        "fecha": "2024",
+        "consultado": "2026-07-11",
+        "cita": "La República Confederal de Euskal Herria solo se podrá construir si así lo deciden los tres ámbitos [...] con carácter voluntario, democrático y popular."
+      },
+      "grupoEvidencia": "pasaje-729ddc99e1a0d34190a2"
+    },
     "nac-001": {
       "valor": 1,
       "justificacion": "Su estrategia prevé un proceso democrático y popular, con unilateralidad o desobediencia condicionadas por el bloqueo; no propone automatizarlas ante cualquier desacuerdo.",
@@ -128,10 +156,12 @@
       "fuente": {
         "tipo": "declaracion",
         "titulo": "Declaración del Dieciocho de Octubre, leída conjuntamente por Sortu y la coordinación general de EH Bildu",
-        "url": "https://sortu.eus/es/noticias/urriaren-hemezortziko-adierazpena",
+        "url": "https://ehbildu.eus/es/noticias/declaracion-del-dieciocho-de-octubre",
         "fecha": "2021-10-18",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-11",
+        "cita": "El compromiso con vías exclusivamente pacíficas y democráticas [...] Es una decisión inamovible y para siempre."
+      },
+      "grupoEvidencia": "pasaje-8256c22b672e6c3dce45"
     },
     "eus-009": {
       "valor": 2,
@@ -140,10 +170,12 @@
       "fuente": {
         "tipo": "declaracion",
         "titulo": "Declaración del Dieciocho de Octubre, leída conjuntamente por Sortu y la coordinación general de EH Bildu",
-        "url": "https://sortu.eus/es/noticias/urriaren-hemezortziko-adierazpena",
+        "url": "https://ehbildu.eus/es/noticias/declaracion-del-dieciocho-de-octubre",
         "fecha": "2021-10-18",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-11",
+        "cita": "Hoy queremos hacer una mención específica a las víctimas causadas por la violencia de ETA. [...] nunca debió haberse producido."
+      },
+      "grupoEvidencia": "pasaje-d0ba5f768140223ba018"
     },
     "eus-010": {
       "valor": 2,
@@ -192,7 +224,8 @@
         "fecha": "2023-04-27",
         "consultado": "2026-07-10",
         "cita": "El Congreso aprueba la ley de vivienda con los votos en contra de las derechas"
-      }
+      },
+      "grupoEvidencia": "pasaje-215a603f401e563f8dd6"
     },
     "eco-011": {
       "valor": 2,
@@ -229,7 +262,8 @@
         "fecha": "2023-03-30",
         "consultado": "2026-07-10",
         "cita": "El Gobierno aprueba la reforma de las pensiones con la oposición del PP y la abstención de Vox y Bildu"
-      }
+      },
+      "grupoEvidencia": "pasaje-9cdf0ef31a9e3ec26d9f"
     },
     "eco-003": {
       "valor": 2,
@@ -242,7 +276,8 @@
         "fecha": "2024",
         "consultado": "2026-07-10",
         "cita": "Subir el SMI sin el consenso de la patronal demuestra que el Gobierno puede y debe tomar las decisiones que beneficien a la mayoría social y trabajadora sin la necesidad de contar con el permiso de la CEOE"
-      }
+      },
+      "grupoEvidencia": "pasaje-b6e962305907e56acb71"
     },
     "sd-023": {
       "valor": 2,
@@ -315,7 +350,8 @@
         "fecha": "2021-03-18",
         "consultado": "2026-07-10",
         "cita": "El Congreso aprueba la Ley de la Eutanasia con el voto en contra de Vox y PP"
-      }
+      },
+      "grupoEvidencia": "pasaje-42c24bd9f8bbc2a627ca"
     },
     "fem-014": {
       "valor": 2,
@@ -328,7 +364,8 @@
         "fecha": "2021-10-19",
         "consultado": "2026-07-10",
         "cita": "PSOE, PP y Vox tumban en el Congreso la primera ley para despenalizar todos los usos del cannabis"
-      }
+      },
+      "grupoEvidencia": "pasaje-cb94729587cf04ba6084"
     },
     "eco-012": {
       "valor": -1,
@@ -368,15 +405,17 @@
     },
     "eco-002": {
       "valor": -2,
-      "justificacion": "Su programa sanitario declara el objetivo de «acabar con la privatización» y revertir los servicios de Osakidetza externalizados en los últimos años (atención domiciliaria, urgencias, transporte sanitario programado, limpieza, equipos biomédicos), rechazando que la gestión privada mejore la eficiencia del servicio público.",
+      "justificacion": "Su diagnóstico sanitario oficial identifica como privatización la gestión privada de servicios de Osakidetza y enumera las externalizaciones que quiere revertir. No atribuye a esa gestión una mayor eficiencia.",
       "calidadEvidencia": "alta",
       "fuente": {
-        "tipo": "declaracion",
-        "titulo": "21-A: Bildu manda un mensaje claro sobre su plan sanitario: «Acabar con la privatización» (Diariofarma)",
-        "url": "https://diariofarma.com/2024/04/04/21-a-bildu-manda-un-mensaje-claro-sobre-su-plan-sanitario-acabar-con-la-privatizacion",
-        "fecha": "2024-04-04",
-        "consultado": "2026-07-10"
-      }
+        "tipo": "programa",
+        "titulo": "Sistema Público de Salud de la CAV — diagnóstico y propuestas de EH Bildu",
+        "url": "https://ehbildu.eus/herriak/osakidetzazutik/dokumentuak/ES_1727955953.pdf",
+        "fecha": "2024-10",
+        "consultado": "2026-07-11",
+        "cita": "Durante años [...] se ha ahondado [...] en la externalización de la gestión de diversos servicios."
+      },
+      "grupoEvidencia": "pasaje-b82499223ad0f46e71b4"
     },
     "eco-013": {
       "valor": -2,
@@ -389,7 +428,8 @@
         "fecha": "2023-09-21",
         "consultado": "2026-07-10",
         "cita": "privatiza en la práctica un servicio que ha de ser público"
-      }
+      },
+      "grupoEvidencia": "pasaje-6eb526d48457a283ef3b"
     },
     "eco-015": {
       "valor": -2,
@@ -426,7 +466,8 @@
         "fecha": "2024-11-23",
         "consultado": "2026-07-10",
         "cita": "Asumimos el error, lo lamentamos, pedimos disculpas por ello e intentaremos revertirlo y enmendarlo lo antes posible"
-      }
+      },
+      "grupoEvidencia": "pasaje-b9325e53cd7860a03ab7"
     },
     "va-002": {
       "valor": 1,
@@ -439,7 +480,8 @@
         "fecha": "2025-03-20",
         "consultado": "2026-07-10",
         "cita": "el colectivo de caza debe quedarse tranquilo, porque no hay oposición a la caza en ningún caso"
-      }
+      },
+      "grupoEvidencia": "pasaje-93a09f786b3b76fc1c22"
     },
     "va-003": {
       "valor": 0,
@@ -452,7 +494,8 @@
         "fecha": "2015-08-17",
         "consultado": "2026-07-10",
         "cita": "Prohibir los toros en Pamplona sería tan ridículo como implantar un encierro en Donostia"
-      }
+      },
+      "grupoEvidencia": "pasaje-96fb84d0b160c1084682"
     },
     "izq-044": {
       "valor": -1,
@@ -489,7 +532,8 @@
         "fecha": "2025-02-06",
         "consultado": "2026-07-10",
         "cita": "cerramos la puerta al fascismo"
-      }
+      },
+      "grupoEvidencia": "pasaje-54cb417194ee619b2d7c"
     },
     "soc-003": {
       "valor": -2,
@@ -514,7 +558,8 @@
         "fecha": "2026-04-29",
         "consultado": "2026-07-10",
         "cita": "fueron ilegalizados pero se levantaron y salieron reforzados"
-      }
+      },
+      "grupoEvidencia": "pasaje-f3d787d2ebfd8ca8bca9"
     },
     "fem-007": {
       "valor": -2,
@@ -527,7 +572,8 @@
         "fecha": "2020-01-21",
         "consultado": "2026-07-10",
         "cita": "no puede enmascararse dentro de la libertad de elección de padres y madres"
-      }
+      },
+      "grupoEvidencia": "pasaje-0621f88705efa04a6e77"
     },
     "dr-007": {
       "valor": -2,
@@ -540,7 +586,8 @@
         "fecha": "2026-06-25",
         "consultado": "2026-07-10",
         "cita": "no existe consentimiento cuando la persona está inmersa en un entorno que le dice que su forma de ser es un error o una enfermedad"
-      }
+      },
+      "grupoEvidencia": "pasaje-0db50b7774cec7009ed9"
     },
     "dem-033": {
       "valor": -1,
@@ -565,7 +612,8 @@
         "fecha": "2024-12-01",
         "consultado": "2026-07-10",
         "cita": "Es momento de avanzar hacia un Estado confederal dentro de la Constitución"
-      }
+      },
+      "grupoEvidencia": "pasaje-18f3e22a7741f37b5077"
     },
     "cat-003": {
       "valor": 2,
@@ -578,7 +626,8 @@
         "fecha": "2024-05-30",
         "consultado": "2026-07-10",
         "cita": "una respuesta necesaria a la represión sufrida por todos los exiliados, presos, multados y condenados que han luchado pacíficamente por el derecho a la autodeterminación"
-      }
+      },
+      "grupoEvidencia": "pasaje-092f3464e8bae47e43aa"
     },
     "der-014": {
       "valor": 2,

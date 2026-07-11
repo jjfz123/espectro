@@ -321,7 +321,8 @@
         "fecha": "1897",
         "consultado": "2026-07-10",
         "cita": "Occupancy and use is the only title to land in which we will protect you"
-      }
+      },
+      "grupoEvidencia": "pasaje-6bfeee110222cfcd74cd"
     },
     "eco-007": {
       "valor": -1,
@@ -334,7 +335,8 @@
         "fecha": "1897",
         "consultado": "2026-07-10",
         "cita": "Occupancy and use is the only title to land in which we will protect you"
-      }
+      },
+      "grupoEvidencia": "pasaje-6bfeee110222cfcd74cd"
     },
     "soc-003": {
       "valor": -2,
@@ -347,7 +349,8 @@
         "fecha": "1897",
         "consultado": "2026-07-10",
         "cita": "Aggression is simply another name for government."
-      }
+      },
+      "grupoEvidencia": "pasaje-9c79c7cb2d53cc460901"
     },
     "lib-009": {
       "valor": 2,
@@ -360,7 +363,8 @@
         "fecha": "1875",
         "consultado": "2026-07-10",
         "cita": "Vices are those acts by which a man harms himself or his property. Crimes are those acts by which one man harms the person or property of another."
-      }
+      },
+      "grupoEvidencia": "pasaje-de7180717b19ac830e66"
     },
     "izq-044": {
       "valor": 1,
@@ -373,7 +377,8 @@
         "fecha": "1897",
         "consultado": "2026-07-10",
         "cita": "Aggression is simply another name for government."
-      }
+      },
+      "grupoEvidencia": "pasaje-9c79c7cb2d53cc460901"
     },
     "dem-034": {
       "valor": 1,
@@ -386,7 +391,8 @@
         "fecha": "1870",
         "consultado": "2026-07-10",
         "cita": "The Constitution has no inherent authority or obligation. It has no authority or obligation at all, unless as a contract between man and man."
-      }
+      },
+      "grupoEvidencia": "pasaje-8d76c68be23cf42666da"
     },
     "dem-035": {
       "valor": 2,
@@ -399,7 +405,8 @@
         "fecha": "1870",
         "consultado": "2026-07-10",
         "cita": "The Constitution has no inherent authority or obligation. It has no authority or obligation at all, unless as a contract between man and man."
-      }
+      },
+      "grupoEvidencia": "pasaje-8d76c68be23cf42666da"
     },
     "ter-001": {
       "valor": -2,
@@ -412,7 +419,8 @@
         "fecha": "1897",
         "consultado": "2026-07-10",
         "cita": "Aggression is simply another name for government."
-      }
+      },
+      "grupoEvidencia": "pasaje-9c79c7cb2d53cc460901"
     },
     "dr-021": {
       "valor": -2,
@@ -425,7 +433,8 @@
         "fecha": "1870",
         "consultado": "2026-07-10",
         "cita": "The Constitution has no inherent authority or obligation. It has no authority or obligation at all, unless as a contract between man and man."
-      }
+      },
+      "grupoEvidencia": "pasaje-8d76c68be23cf42666da"
     }
   }
 }

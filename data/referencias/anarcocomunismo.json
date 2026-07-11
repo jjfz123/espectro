@@ -237,7 +237,8 @@
         "fecha": "1892",
         "consultado": "2026-07-10",
         "cita": "nobody has the right to seize a single one of these machines and say, 'This is mine; if you want to use it you must pay me a tax on each of your products'"
-      }
+      },
+      "grupoEvidencia": "pasaje-746f5f28dd3efb053009"
     },
     "izq-042": {
       "valor": 2,
@@ -250,7 +251,8 @@
         "fecha": "1892",
         "consultado": "2026-07-10",
         "cita": "dwelling-houses are in no sense the property of those whom the State recognizes as their owners"
-      }
+      },
+      "grupoEvidencia": "pasaje-1281482a2a60f917ba34"
     },
     "eco-007": {
       "valor": -2,
@@ -263,7 +265,8 @@
         "fecha": "1892",
         "consultado": "2026-07-10",
         "cita": "dwelling-houses are in no sense the property of those whom the State recognizes as their owners"
-      }
+      },
+      "grupoEvidencia": "pasaje-1281482a2a60f917ba34"
     },
     "soc-006": {
       "valor": 2,
@@ -276,7 +279,8 @@
         "fecha": "1887",
         "consultado": "2026-07-10",
         "cita": "Prisons are universities of crime, maintained by the state."
-      }
+      },
+      "grupoEvidencia": "pasaje-6985fbc7e9d7d1dbbd95"
     },
     "izq-014": {
       "valor": -1,
@@ -289,7 +293,8 @@
         "fecha": "1906",
         "consultado": "2026-07-10",
         "cita": "The right to vote, or equal civil rights, may be good demands, but true emancipation begins neither at the polls nor in courts. It begins in woman's soul."
-      }
+      },
+      "grupoEvidencia": "pasaje-e518530d11b661205a57"
     },
     "dem-034": {
       "valor": 1,

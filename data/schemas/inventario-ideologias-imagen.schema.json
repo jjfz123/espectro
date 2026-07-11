@@ -1,0 +1,76 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "inventario-ideologias-imagen.schema.json",
+  "title": "Trazabilidad inmutable de los 178 rótulos de la referencia visual",
+  "type": "object",
+  "required": ["version", "total", "conteoDecisionesOriginales", "rotulos"],
+  "properties": {
+    "version": { "type": "string", "pattern": "^[0-9]+\\.[0-9]+\\.[0-9]+$" },
+    "total": { "const": 178 },
+    "conteoDecisionesOriginales": {
+      "type": "object",
+      "required": ["A", "B", "C", "D", "E", "F"],
+      "properties": {
+        "A": { "const": 28 },
+        "B": { "const": 50 },
+        "C": { "const": 35 },
+        "D": { "const": 5 },
+        "E": { "const": 38 },
+        "F": { "const": 22 }
+      },
+      "additionalProperties": false
+    },
+    "rotulos": {
+      "type": "array",
+      "minItems": 178,
+      "maxItems": 178,
+      "items": { "$ref": "#/definitions/rotulo" }
+    }
+  },
+  "additionalProperties": false,
+  "definitions": {
+    "rotulo": {
+      "type": "object",
+      "required": [
+        "numero",
+        "etiquetaOriginal",
+        "normalizacion",
+        "decisionOriginal",
+        "tratamientoActual"
+      ],
+      "properties": {
+        "numero": { "type": "integer", "minimum": 1, "maximum": 178 },
+        "etiquetaOriginal": { "type": "string", "minLength": 2, "maxLength": 100 },
+        "normalizacion": { "type": "string", "minLength": 2, "maxLength": 160 },
+        "decisionOriginal": { "enum": ["A", "B", "C", "D", "E", "F"] },
+        "tratamientoActual": { "$ref": "#/definitions/tratamiento" }
+      },
+      "additionalProperties": false
+    },
+    "tratamiento": {
+      "type": "object",
+      "required": ["clase", "motivo"],
+      "properties": {
+        "clase": {
+          "enum": [
+            "region",
+            "faceta",
+            "movimiento",
+            "contexto",
+            "diagnostico",
+            "modelo-historico",
+            "exclusion"
+          ]
+        },
+        "corrienteId": { "type": "string", "pattern": "^[a-z0-9-]+$" },
+        "decisionCapa": { "enum": ["A", "B", "E"] },
+        "publicacionGeometrica": {
+          "enum": ["publicada", "bloqueada-investigacion"]
+        },
+        "equivalenciaConCorriente": { "type": "boolean" },
+        "motivo": { "type": "string", "minLength": 30, "maxLength": 600 }
+      },
+      "additionalProperties": false
+    }
+  }
+}

@@ -43,7 +43,8 @@
         "url": "https://www.eldiario.es/canariasahora/politica/no-medida-graciosa-nueva-canarias-preocupada-tratamiento-le-dio-congreso-bonificacion-75-residentes_1_9171491.html",
         "consultado": "2026-07-10",
         "cita": "No es una medida graciosa"
-      }
+      },
+      "grupoEvidencia": "pasaje-7bf84805613e83ad1ba5"
     },
     "can-001": {
       "valor": 1,
@@ -80,7 +81,8 @@
         "fecha": "2025",
         "consultado": "2026-07-10",
         "cita": "no es modo canario pactar con la extrema derecha que niega las autonomías"
-      }
+      },
+      "grupoEvidencia": "pasaje-3ba55d355638cd00bcc9"
     },
     "can-009": {
       "valor": -2,
@@ -175,7 +177,8 @@
         "fecha": "2026-06-18",
         "consultado": "2026-07-10",
         "cita": "Canarias necesita declarar las zonas tensionadas para frenar la expulsión"
-      }
+      },
+      "grupoEvidencia": "pasaje-07bd2fc7278794c7d781"
     },
     "eco-006": {
       "valor": 2,
@@ -249,15 +252,17 @@
     },
     "soc-004": {
       "valor": 2,
-      "justificacion": "NC calificó de «inadmisible» que la regularización extraordinaria de personas migrantes excluyera a las personas saharauis y exigió rectificar, mostrando un apoyo activo al mecanismo de regularización que reclama ampliar, no limitar, alineado con su defensa histórica de la causa saharaui.",
+      "justificacion": "En un comunicado reproducido por Canarias Ahora, Nueva Canarias afirma defender «de manera clara y activa» la regularización de la población migrante residente en España y reclama ampliar su cobertura a las personas saharauis excluidas. La declaración responde directamente al ítem y sostiene el acuerdo máximo.",
       "calidadEvidencia": "alta",
       "fuente": {
         "tipo": "declaracion",
         "titulo": "Nueva Canarias ve 'inadmisible' excluir a los saharauis de la regularización, y exigirá rectificar (eldiario.es)",
         "url": "https://www.eldiario.es/canariasahora/politica/nueva-canarias-inadmisible-exclusion-saharauis-regularizacion_1_13158085.html",
-        "consultado": "2026-07-10",
-        "cita": "inadmisible"
-      }
+        "fecha": "2026-04-20",
+        "consultado": "2026-07-11",
+        "cita": "Nueva Canarias, como subrayó Luis Campos, defiende “de manera clara y activa” este proceso de regularización de la población migrante residente en el Estado"
+      },
+      "grupoEvidencia": "pasaje-d256804c6a50d53df548"
     },
     "soc-006": {
       "valor": 2,

@@ -92,6 +92,19 @@
                 "baja"
               ]
             },
+            "resolucionCero": {
+              "type": "object",
+              "required": ["tipo", "explicacion"],
+              "properties": {
+                "tipo": { "enum": ["modelo-mixto", "equilibrio-explicito"] },
+                "explicacion": { "type": "string", "minLength": 30, "maxLength": 500 }
+              },
+              "additionalProperties": false
+            },
+            "grupoEvidencia": {
+              "type": "string",
+              "pattern": "^[a-z0-9][a-z0-9-]{5,100}$"
+            },
             "fuente": {
               "type": "object",
               "required": [
@@ -134,6 +147,15 @@
               "additionalProperties": false
             }
           },
+          "allOf": [
+            {
+              "if": {
+                "required": ["fuente"],
+                "properties": { "fuente": { "type": "object", "required": ["cita"] } }
+              },
+              "then": { "required": ["grupoEvidencia"] }
+            }
+          ],
           "additionalProperties": false
         }
       },

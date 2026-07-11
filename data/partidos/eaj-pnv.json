@@ -10,9 +10,53 @@
   ],
   "confianza": "verificada",
   "web": "https://www.eaj-pnv.eus/",
-  "revisado": "2026-07-10",
+  "revisado": "2026-07-11",
   "actividad": "activa",
   "posiciones": {
+    "eco-002": {
+      "valor": 0,
+      "justificacion": "La fuente combina expresamente una estructura sanitaria mayoritariamente pública con servicios complementarios prestados por empresas privadas. No afirma que la gestión privada sea superior ni exige excluirla.",
+      "resolucionCero": {
+        "tipo": "modelo-mixto",
+        "explicacion": "El pasaje acredita de forma simultánea una base sanitaria mayoritariamente pública y prestaciones privadas complementarias, sin resolver el modelo en favor de ninguno de los dos extremos."
+      },
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral EAJ-PNV 21A 2024",
+        "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21243/pdf/programa-electoral-21a",
+        "fecha": "2024",
+        "consultado": "2026-07-11",
+        "cita": "Unos recursos humanos y estructurales en su mayoría públicos. [...] Un servicio no deja de ser público porque alguno de sus elementos complementarios [...] se preste desde una empresa privada."
+      },
+      "grupoEvidencia": "pasaje-ad549a87e5ebd0a3ddda"
+    },
+    "eco-012": {
+      "valor": -2,
+      "justificacion": "Defiende expresamente mantener la red vasca de Formación Profesional concertada y compensar su exclusión de fondos públicos. Esa conducta se opone a eliminar gradualmente todos los conciertos.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "El Grupo Vasco denuncia que el Gobierno español excluya a los centros concertados de FP en los criterios de reparto de fondos europeos",
+        "url": "https://www.eaj-pnv.eus/es/noticias/51619/el-grupo-vasco-denuncia-que-el-gobierno-espanol-ex/",
+        "fecha": "2021-04-14",
+        "consultado": "2026-07-11",
+        "cita": "La realidad de Euskadi contempla también a los centros concertados [...] que se tienen que seguir manteniendo."
+      },
+      "grupoEvidencia": "pasaje-557ecf5f5d5c3a762551"
+    },
+    "izq-007": {
+      "valor": -2,
+      "justificacion": "Su programa persigue ampliar un autogobierno institucional con Gobierno, Parlamento, poder judicial y encaje federal europeo. Es una propuesta de construcción estatal y pactada, incompatible con abolir el Estado.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral EAJ-PNV 21A 2024",
+        "url": "https://www.eaj-pnv.eus/es/adjuntos-documentos/21243/pdf/programa-electoral-21a",
+        "fecha": "2024",
+        "consultado": "2026-07-11"
+      }
+    },
     "nac-001": {
       "valor": -1,
       "justificacion": "Su vía vigente prioriza pacto bilateral, actualización estatutaria y derechos históricos, no una apertura unilateral automática ante el bloqueo.",
@@ -240,7 +284,8 @@
         "fecha": "2023-04-27",
         "consultado": "2026-07-10",
         "cita": "se inmiscuye en competencias propias"
-      }
+      },
+      "grupoEvidencia": "pasaje-05df9f01ecdbb2f4a301"
     },
     "eco-011": {
       "valor": 0,
@@ -253,7 +298,8 @@
         "fecha": "2024-07-02",
         "consultado": "2026-07-10",
         "cita": "PNV cree que la reducción de jornada no tendría gran afección en Euskadi porque la mayoría de convenios tiene 37,5 horas"
-      }
+      },
+      "grupoEvidencia": "pasaje-cbf801a176fb6b513b99"
     },
     "eco-014": {
       "valor": 0,
@@ -266,7 +312,8 @@
         "fecha": "2022-06-07",
         "consultado": "2026-07-10",
         "cita": "PSOE y PNV rechazan el impuesto estatal de grandes fortunas defendido por UP y EH Bildu"
-      }
+      },
+      "grupoEvidencia": "pasaje-fe80c38b68152fe6e0eb"
     },
     "eco-008": {
       "valor": 2,
@@ -291,7 +338,8 @@
         "fecha": "2025-01-22",
         "consultado": "2026-07-10",
         "cita": "rompe el principio de relaciones con las comunidades forales, tanto con la comunidad autónoma vasca como con Navarra"
-      }
+      },
+      "grupoEvidencia": "pasaje-6858ef4557683bcecfe7"
     },
     "eco-013": {
       "valor": 1,
@@ -376,7 +424,8 @@
         "fecha": "2021-10",
         "consultado": "2026-07-10",
         "cita": "las políticas prohibicionistas no dan buenos resultados"
-      }
+      },
+      "grupoEvidencia": "pasaje-aeaf08dba62ab279b67b"
     },
     "eco-004": {
       "valor": -1,
@@ -389,7 +438,8 @@
         "fecha": "2025-10-28",
         "consultado": "2026-07-10",
         "cita": "el endeudamiento se activará solo para la inversión de carácter productivo y no para hacer frente al gasto corriente"
-      }
+      },
+      "grupoEvidencia": "pasaje-5ce543428fd37f434a88"
     },
     "eco-009": {
       "valor": -1,
@@ -402,7 +452,8 @@
         "fecha": "2018-10-30",
         "consultado": "2026-07-10",
         "cita": "ataque a la regulación foral"
-      }
+      },
+      "grupoEvidencia": "pasaje-6855d1e1d1918bfaad3a"
     },
     "eco-007": {
       "valor": 1,
@@ -427,7 +478,8 @@
         "fecha": "2025-10-20",
         "consultado": "2026-07-10",
         "cita": "negociar sin líneas rojas"
-      }
+      },
+      "grupoEvidencia": "pasaje-3181657b5fb701b7a0db"
     },
     "fem-010": {
       "valor": 2,
@@ -488,7 +540,8 @@
         "fecha": "2024-06-23",
         "consultado": "2026-07-10",
         "cita": "puede dañar lo nuestro"
-      }
+      },
+      "grupoEvidencia": "pasaje-f6f39c501415a9cbcd50"
     },
     "nac-008": {
       "valor": -1,
@@ -525,7 +578,8 @@
         "fecha": "2017-09-21",
         "consultado": "2026-07-10",
         "cita": "estados que conservan su soberanía y se rigen por unas determinadas leyes comunes"
-      }
+      },
+      "grupoEvidencia": "pasaje-5b60fb6ce27860dd5b89"
     },
     "sd-004": {
       "valor": 2,

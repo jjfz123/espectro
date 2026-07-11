@@ -6,7 +6,7 @@
   "confianza": "estimada",
   "demo": true,
   "posiciones": {
-    "eco-001": { "valor": 2, "justificacion": "DEMO: fiscalidad fuertemente progresiva.", "fuente": { "tipo": "otro", "cita": "Partido ficticio de demostración." } },
+    "eco-001": { "valor": 2, "justificacion": "DEMO: fiscalidad fuertemente progresiva.", "grupoEvidencia": "demo-pasaje-ficticio", "fuente": { "tipo": "otro", "cita": "Partido ficticio de demostración." } },
     "eco-002": { "valor": -2 },
     "eco-003": { "valor": 2 },
     "eco-004": { "valor": -2 },

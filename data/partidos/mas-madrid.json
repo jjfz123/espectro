@@ -4,23 +4,96 @@
   "siglas": "MM",
   "ambito": "autonomico",
   "tipo": "partido",
-  "ccaa": ["madrid"],
+  "ccaa": [
+    "madrid"
+  ],
   "confianza": "verificada",
   "web": "https://masmadrid.org/",
-  "revisado": "2026-07-10",
+  "revisado": "2026-07-11",
   "actividad": "activa",
   "posiciones": {
-    "dem-001": {
-      "valor": 1,
-      "justificacion": "El programa autonómico propone ampliar instrumentos de participación directa y decisión ciudadana; no exige que toda decisión de gran alcance se someta habitualmente a referéndum.",
+    "eco-012": {
+      "valor": -1,
+      "justificacion": "Propone evaluar, revisar y condicionar los conciertos para garantizar gratuidad y obligaciones públicas, pero mantiene una red concertada y recursos para ella. Por tanto se opone parcialmente a eliminarlos todos de forma gradual.",
       "calidadEvidencia": "media",
       "fuente": {
         "tipo": "programa",
-        "titulo": "Programa de Más Madrid para la Comunidad de Madrid 2023",
-        "url": "https://programa.masmadrid.org/pdf/Comunidad%20de%20Madrid/Programa%20M%C3%A1s%20Madrid%20-%20CM%202023.pdf",
+        "titulo": "Programa de Más Madrid para la Comunidad de Madrid 2023 (copia íntegra alojada por Madrid Actual)",
+        "url": "https://www.madridactual.es/images/documentos/programa-comunidad-mas-madrid.pdf",
         "fecha": "2023-05",
-        "consultado": "2026-07-09"
-      }
+        "consultado": "2026-07-11",
+        "cita": "Evaluaremos y revisaremos los conciertos educativos para asegurar la gratuidad."
+      },
+      "grupoEvidencia": "pasaje-4e70f361b650f7614b1a"
+    },
+    "izq-005": {
+      "valor": -1,
+      "justificacion": "Su programa combina orientación pública por misiones con inversión privada, apoyo a pymes y empresas innovadoras y colaboración público-privada. Rechaza que la planificación sustituya al mercado, aunque sí le asigna regulación y objetivos sociales fuertes; por eso −1 y no −2.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa de Más Madrid para la Comunidad de Madrid 2023 (copia íntegra alojada por Madrid Actual)",
+        "url": "https://www.madridactual.es/images/documentos/programa-comunidad-mas-madrid.pdf",
+        "fecha": "2023-05",
+        "consultado": "2026-07-11",
+        "cita": "Un Plan de Inversión Regional [...] que dé apoyo estratégico al despliegue público y privado de un nuevo modelo productivo."
+      },
+      "grupoEvidencia": "pasaje-6b93275bc1744c7b8884"
+    },
+    "dem-026": {
+      "valor": 2,
+      "justificacion": "Promovió una reforma para elegir la dirección de Telemadrid por mayoría cualificada y fijar un mandato de seis años desligado de la legislatura. Coincide con el contrapeso temporal e institucional del ítem.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "La Asamblea rechaza crear la Agencia Pública Audiovisual para que Telemadrid tuviera una mayor independencia",
+        "url": "https://www.europapress.es/madrid/noticia-asamblea-rechaza-crear-agencia-publica-audiovisual-telemadrid-tuviera-mayor-independencia-20230209192642.html",
+        "fecha": "2023-02-09",
+        "consultado": "2026-07-11",
+        "cita": "La mayoría cualificada para la elección de la Dirección General, los mandatos de seis años para la Dirección, desvinculándolos de la legislatura."
+      },
+      "grupoEvidencia": "pasaje-20ea3f67e338215de83d"
+    },
+    "dem-019": {
+      "valor": -2,
+      "justificacion": "Propone rebajar la barrera electoral para fomentar la pluralidad y representar la diversidad de la sociedad madrileña. Esa defensa expresa de competencia y representación multipartidista contradice un movimiento único.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Más Madrid apuesta por rebajar la barrera electoral para ampliar la pluralidad",
+        "url": "https://www.20minutos.es/noticia/5004922/0/mas-madrid-abre-puerta-reforma-estatuto-autonomia-madrid/",
+        "consultado": "2026-07-11",
+        "cita": "Esta medida [...] fomenta la pluralidad y garantiza la representación de la sociedad madrileña en su diversidad."
+      },
+      "grupoEvidencia": "pasaje-e0e7066d5cf1112b9b85"
+    },
+    "izq-007": {
+      "valor": -2,
+      "justificacion": "Su programa desarrolla un gobierno autonómico, una asamblea legislativa, justicia y organismos públicos reformados; distribuye y controla el poder institucional, pero no propone abolir el Estado.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa de Más Madrid para la Comunidad de Madrid 2023 (copia íntegra alojada por Madrid Actual)",
+        "url": "https://www.madridactual.es/images/documentos/programa-comunidad-mas-madrid.pdf",
+        "fecha": "2023-05",
+        "consultado": "2026-07-11",
+        "cita": "Reforzaremos el papel de la Asamblea de Madrid como herramienta democrática del pueblo de Madrid."
+      },
+      "grupoEvidencia": "pasaje-f99e685cd128c2b69e23"
+    },
+    "dem-017": {
+      "valor": -2,
+      "justificacion": "Propone reformar la Asamblea, el sistema de investidura y los contrapesos autonómicos, manteniendo la representación parlamentaria. Sus mecanismos participativos complementan las cámaras, no las sustituyen por consejos laborales y locales.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa de Más Madrid para la Comunidad de Madrid 2023 (copia íntegra alojada por Madrid Actual)",
+        "url": "https://www.madridactual.es/images/documentos/programa-comunidad-mas-madrid.pdf",
+        "fecha": "2023-05",
+        "consultado": "2026-07-11",
+        "cita": "Reforzaremos el papel de la Asamblea de Madrid como herramienta democrática del pueblo de Madrid."
+      },
+      "grupoEvidencia": "pasaje-f99e685cd128c2b69e23"
     },
     "eco-002": {
       "valor": -2,

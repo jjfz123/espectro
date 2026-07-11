@@ -12,7 +12,12 @@
     "publicable": false,
     "motivo": "La referencia conserva valor para el matching doctrinal, pero sus cuatro posiciones económicas cargadas miden sobre todo el rechazo a la expropiación inmediata y el sector privado transitorio; proyectarla ahora en el macroplano la desplaza artificialmente a la derecha."
   },
-  "facetasDefinitorias": ["metodo-cambio", "institucionalismo", "internacionalismo", "economico"],
+  "facetasDefinitorias": [
+    "metodo-cambio",
+    "institucionalismo",
+    "internacionalismo",
+    "economico"
+  ],
   "sensibilidad": "normal",
   "advertencia": "Es un tipo ideal doctrinal histórico de 1977, no la ficha del PCE actual: el PCE contemporáneo, integrado en IU y en Sumar, tiene perfil propio con fuentes y posiciones de hoy, más críticas con la UE y la OTAN que este momento fundacional. El eurocomunismo no fue homogéneo: Berlinguer declaró en 1976 sentirse «más seguro» permaneciendo en la OTAN, mientras el PCE de Carrillo mantuvo en España una campaña histórica contraria al ingreso en la Alianza Atlántica; esta referencia documenta la doctrina común (democracia pluralista, ruptura con Moscú) y señala esa divergencia interna como parte honesta del cuadro, no la resuelve a favor de una única posición nacional.",
   "fuentesMarco": [
@@ -108,7 +113,8 @@
         "fecha": "1976-06-15",
         "consultado": "2026-07-10",
         "cita": "Mi sento più sicuro stando di qua, ma vedo che anche di qua ci sono seri tentativi per limitare la nostra autonomia."
-      }
+      },
+      "grupoEvidencia": "pasaje-4989624efa083a3e75c9"
     },
     "izq-016": {
       "valor": -1,
@@ -265,7 +271,8 @@
         "fecha": "1977",
         "consultado": "2026-07-10",
         "cita": "las libertades democráticas y los derechos humanos representan un logro histórico irrenunciable del progreso humano"
-      }
+      },
+      "grupoEvidencia": "pasaje-98294689b491f721b038"
     },
     "dem-028": {
       "valor": 2,

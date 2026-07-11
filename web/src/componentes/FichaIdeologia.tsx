@@ -14,13 +14,38 @@ export interface FichaIdeologiaProps {
   onCerrar: () => void;
 }
 
+type OrigenAparicionIdeologia =
+  | 'seleccion'
+  | 'coincidencia-items'
+  | 'proyeccion-calculada'
+  | 'ancla-editorial';
+
 function explicacionDeAparicion(
   referencia: ReferenciaDoctrinal,
   cercaDelUsuario: boolean | undefined,
+  origen: OrigenAparicionIdeologia,
 ): string {
   const esPatronViolento = referencia.sensibilidad === 'violenta';
 
+  if (origen === 'ancla-editorial') {
+    return cercaDelUsuario
+      ? 'Esta referencia documenta la región editorial que has abierto. La cercanía indicada pertenece al ancla del atlas, no a una proyección calculada de esta referencia ni a una coincidencia doctrinal.'
+      : 'Esta referencia documenta la región editorial que has abierto. El ancla pertenece al atlas educativo: no es una proyección calculada de esta referencia ni una coincidencia doctrinal.';
+  }
+
+  if (
+    origen === 'proyeccion-calculada' &&
+    referencia.publicacionMapa?.publicable === false
+  ) {
+    return 'Se muestra como contexto de la entrada seleccionada. Su proyección calculada está vetada editorialmente, por lo que esta ficha no atribuye cercanía cartográfica.';
+  }
+
   if (cercaDelUsuario) {
+    if (origen === 'coincidencia-items') {
+      return esPatronViolento
+        ? 'Algunas respuestas comparables coinciden con este patrón doctrinal sensible. Es una lectura descriptiva: no implica pertenencia, militancia, delito ni intención violenta.'
+        : 'La comparación ítem a ítem ha encontrado coincidencias parciales con esta referencia. No es una posición en el mapa ni equivale a una identidad política o a un acuerdo completo.';
+    }
     return esPatronViolento
       ? 'Algunas respuestas comparables quedan próximas a este patrón doctrinal sensible. Es una lectura descriptiva para contextualizar posiciones: no implica pertenencia, militancia, delito ni intención violenta.'
       : 'La posición calculada en los ejes disponibles queda próxima a esta referencia. La cercanía es descriptiva: no equivale a una identidad política ni a un acuerdo completo.';
@@ -34,7 +59,10 @@ function explicacionDeAparicion(
 export function InformacionIdeologia({
   referencia,
   cercaDelUsuario,
-}: Pick<FichaIdeologiaProps, 'referencia' | 'cercaDelUsuario'>) {
+  origenAparicion = cercaDelUsuario ? 'coincidencia-items' : 'seleccion',
+}: Pick<FichaIdeologiaProps, 'referencia' | 'cercaDelUsuario'> & {
+  origenAparicion?: OrigenAparicionIdeologia;
+}) {
   const idBase = useId();
   const idMotivo = `${idBase}-motivo`;
   const idFuentes = `${idBase}-fuentes`;
@@ -60,11 +88,34 @@ export function InformacionIdeologia({
 
       <section aria-labelledby={idMotivo}>
         <h4 id={idMotivo}>Por qué se muestra y qué limita esta lectura</h4>
-        <p>{explicacionDeAparicion(referencia, cercaDelUsuario)}</p>
+        <p>{explicacionDeAparicion(referencia, cercaDelUsuario, origenAparicion)}</p>
         <p>{referencia.advertencia}</p>
-        {referencia.publicacionMapa?.motivo ? (
+        {referencia.publicacionMapa ? (
           <p>
-            <strong>Limitación cartográfica:</strong> {referencia.publicacionMapa.motivo}
+            <strong>
+              Proyección calculada en el mapa:{' '}
+              {referencia.publicacionMapa.publicable
+                ? 'admitida por el control editorial.'
+                : 'no publicable.'}
+            </strong>{' '}
+            {referencia.publicacionMapa.motivo}
+            {referencia.publicacionMapa.publicable
+              ? ' Aun así, solo se dibuja si alcanza la cobertura exigida.'
+              : ' Este veto no afecta al ancla editorial educativa del atlas.'}
+          </p>
+        ) : null}
+        {referencia.publicacionAfinidad ? (
+          <p>
+            <strong>
+              Afinidad doctrinal:{' '}
+              {referencia.publicacionAfinidad.publicable
+                ? 'admitida por el control editorial.'
+                : 'no publicable.'}
+            </strong>{' '}
+            {referencia.publicacionAfinidad.motivo}
+            {referencia.publicacionAfinidad.publicable
+              ? ' La aparición sigue dependiendo de los mínimos de similitud y cobertura.'
+              : ' No participa en el cálculo de afinidad ni puede aparecer como resultado doctrinal mientras siga vigente este veto.'}
           </p>
         ) : null}
       </section>
@@ -112,21 +163,28 @@ export function FichaIdeologia({
   const idPosicion = `${idBase}-posicion`;
   const esViolenta = referencia.sensibilidad === 'violenta';
   const esSensible = referencia.sensibilidad !== undefined && referencia.sensibilidad !== 'normal';
-  const mostrarPosicion = Boolean(valores && ejes && ejes.length > 0);
+  const cercaniaCartograficaPublicable =
+    Boolean(cercaDelUsuario) && referencia.publicacionMapa?.publicable !== false;
+  const mostrarPosicion = Boolean(
+    valores &&
+      ejes &&
+      ejes.length > 0 &&
+      referencia.publicacionMapa?.publicable !== false,
+  );
 
   return (
     <article
       className="referencia-tarjeta ficha-ideologia"
       aria-labelledby={idTitulo}
       data-sensible={esSensible}
-      data-cerca-del-usuario={cercaDelUsuario || undefined}
+      data-cerca-del-usuario={cercaniaCartograficaPublicable || undefined}
     >
       <header>
         <div>
           <p className="kicker">
             {esViolenta
               ? 'Patrón doctrinal sensible'
-              : cercaDelUsuario
+              : cercaniaCartograficaPublicable
                 ? 'Referencia doctrinal cercana'
                 : 'Referencia doctrinal'}
           </p>
@@ -166,7 +224,11 @@ export function FichaIdeologia({
       </button>
 
       <div id={idInformacion} className="referencia-fuentes ficha-ideologia__informacion" hidden={!ampliada}>
-        <InformacionIdeologia referencia={referencia} cercaDelUsuario={cercaDelUsuario} />
+        <InformacionIdeologia
+          referencia={referencia}
+          cercaDelUsuario={cercaniaCartograficaPublicable}
+          origenAparicion={cercaniaCartograficaPublicable ? 'proyeccion-calculada' : 'seleccion'}
+        />
       </div>
     </article>
   );

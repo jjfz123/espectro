@@ -2,17 +2,30 @@ name: CI
 permissions:
   contents: read
 
+concurrency:
+  group: ci-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
 on:
   push:
     branches: [main]
   pull_request:
+  workflow_dispatch:
+    inputs:
+      release_gate:
+        description: Exigir que todas las casillas del TODO estén cerradas
+        type: boolean
+        default: false
+        required: true
 
 jobs:
   test:
+    name: espectro / test
     runs-on: ubuntu-latest
+    timeout-minutes: 20
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
         with:
           node-version: 22
           cache: npm
@@ -20,15 +33,26 @@ jobs:
       - run: npm --prefix web ci
       - run: npm run typecheck
       - run: npm test
+      - run: git diff --check
       - run: npm run validate:data
+      - run: npm run validate:atlas-contract
+      - run: npm run validate:evidence-groups
+      - run: npm run validate:todo-inventory
+      - name: Puerta manual de cierre editorial
+        if: github.event_name == 'workflow_dispatch' && inputs.release_gate
+        run: npm run validate:todo
+      - run: npm run audit:atlas > /tmp/auditoria-atlas.json
+      - run: npm run audit:partidos
       - run: npm run web:build
       - run: npm run web:budget
 
   e2e:
+    name: espectro / e2e
     runs-on: ubuntu-latest
+    timeout-minutes: 20
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-node@v4
+      - uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4.4.0
         with:
           node-version: 22
           cache: npm
@@ -36,3 +60,13 @@ jobs:
       - run: npm --prefix web ci
       - run: npm --prefix web exec -- playwright install --with-deps chromium
       - run: npm --prefix web run test:e2e
+      - name: Conservar informe de Playwright si falla
+        if: failure()
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+        with:
+          name: playwright-report-${{ github.run_attempt }}
+          path: |
+            web/playwright-report/
+            web/test-results/
+          if-no-files-found: ignore
+          retention-days: 7

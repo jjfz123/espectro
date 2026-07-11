@@ -61,7 +61,8 @@
         "fecha": "2024",
         "consultado": "2026-07-10",
         "cita": "Como propuestas estrellas el Frente apostará por la salida de Unión Europea, de la OTAN, el control de nuestras fronteras y la recuperación de la soberanía nacional."
-      }
+      },
+      "grupoEvidencia": "pasaje-49ed57e40f6c2649ddbf"
     },
     "izq-011": {
       "valor": 2,
@@ -74,7 +75,8 @@
         "fecha": "2024",
         "consultado": "2026-07-10",
         "cita": "Como propuestas estrellas el Frente apostará por la salida de Unión Europea, de la OTAN, el control de nuestras fronteras y la recuperación de la soberanía nacional."
-      }
+      },
+      "grupoEvidencia": "pasaje-49ed57e40f6c2649ddbf"
     },
     "ue-001": {
       "valor": 2,
@@ -98,7 +100,8 @@
         "url": "https://es.wikipedia.org/wiki/Frente_Obrero_(Espa%C3%B1a)",
         "consultado": "2026-07-10",
         "cita": "defienden la soberanía nacional, la Hispanidad, la educación universitaria gratuita, la nacionalización de los sectores estratégicos, la soberanía energética, la energía nuclear, la subida del salario mínimo, el sector rural, las ayudas a la natalidad, la vivienda pública, a los autónomos, controlar los precios del alquiler y limitar la inmigración"
-      }
+      },
+      "grupoEvidencia": "pasaje-e6387b2a9d7ac51a2e4d"
     },
     "eco-005": {
       "valor": 2,
@@ -133,7 +136,8 @@
         "fecha": "2021-02",
         "consultado": "2026-07-10",
         "cita": "Desde el Frente Obrero tenemos claro cuál es la solución. Nacionalización de los sectores estratégicos del país para ponerlos al servicio del pueblo"
-      }
+      },
+      "grupoEvidencia": "pasaje-859edfcb536b2da40095"
     },
     "ene-007": {
       "valor": 1,
@@ -201,7 +205,8 @@
         "fecha": "2024-01-22",
         "consultado": "2026-07-10",
         "cita": "Si no reaccionamos, España va camino de ser Marsella"
-      }
+      },
+      "grupoEvidencia": "pasaje-4276f5f7bb17f7ae5427"
     },
     "cat-004": {
       "valor": 1,
@@ -214,7 +219,8 @@
         "fecha": "2024",
         "consultado": "2026-07-10",
         "cita": "Defiende Cataluña, defiende España. No a la islamización"
-      }
+      },
+      "grupoEvidencia": "pasaje-7643306b91a7ca499e13"
     },
     "izq-014": {
       "valor": 2,
@@ -229,16 +235,17 @@
     },
     "izq-015": {
       "valor": -2,
-      "justificacion": "Desarrolló una campaña estatal de carteles contra la ley trans bajo el lema #STOP-LEY-TRANS, oponiéndose frontalmente al cambio de sexo registral por libre decisión que esa ley consagra.",
+      "justificacion": "Una nota atribuida expresamente a Frente Obrero documenta su campaña nacional contra la ley trans y su ataque al borrador por defender la autodeterminación de género. La oposición al principio que permite el cambio registral sin requisitos médicos es explícita y sostiene el desacuerdo máximo.",
       "calidadEvidencia": "alta",
       "fuente": {
         "tipo": "declaracion",
         "titulo": "Frente Obrero: «#STOP-LEY-TRANS» (nota de la organización recogida por murcia.com)",
         "url": "https://www.murcia.com/region/noticias/2021/03/08-frente-obrero-stop-ley-trans.asp",
         "fecha": "2021-03-08",
-        "consultado": "2026-07-10",
-        "cita": "#STOP-LEY-TRANS"
-      }
+        "consultado": "2026-07-11",
+        "cita": "la organización obrera que dirige Roberto Vaquero (@RobertoVaquero_) ha atacado con propaganda el borrador defensor de la autodeterminación de género"
+      },
+      "grupoEvidencia": "pasaje-492b720688f3f1d955cf"
     },
     "fem-001": {
       "valor": -2,
@@ -263,7 +270,8 @@
         "fecha": "2021-06-13",
         "consultado": "2026-07-10",
         "cita": "Han vendido a la clase trabajadora"
-      }
+      },
+      "grupoEvidencia": "pasaje-5f7160b08e61fb5c5fd9"
     },
     "izq-010": {
       "valor": -2,
@@ -276,7 +284,8 @@
         "fecha": "2023-04-12",
         "consultado": "2026-07-10",
         "cita": "El Frente Obrero amenaza con escrachear a todo el Gobierno en la precampaña electoral"
-      }
+      },
+      "grupoEvidencia": "pasaje-327b1453e49b317947b3"
     },
     "izq-031": {
       "valor": -2,
@@ -301,7 +310,8 @@
         "fecha": "2025-04-26",
         "consultado": "2026-07-10",
         "cita": "¡Comegambas, sois unos vendidos, sindicatos del poder!"
-      }
+      },
+      "grupoEvidencia": "pasaje-b60413446bb5ed9cd4ec"
     },
     "izq-020": {
       "valor": 2,
@@ -347,7 +357,8 @@
         "url": "https://www.facebook.com/frenteobreroespana/posts/que-te-separe-un-programa-no-unas-banderas-espa%C3%B1a-frenteobrero-viral-pol%C3%ADtica/800012192164159/",
         "consultado": "2026-07-10",
         "cita": "Que te separe un programa, no unas banderas"
-      }
+      },
+      "grupoEvidencia": "pasaje-23a26459259cb2b00a73"
     },
     "izq-026": {
       "valor": 1,
@@ -405,7 +416,8 @@
         "url": "https://frenteobrero.es/nuestro-programa-2/",
         "consultado": "2026-07-10",
         "cita": "El feminismo hegemónico y el lobby LGTBI son algo sistémico que no tiene nada de progreso, adoctrinan a los niños en las escuelas y pervierten nuestra sociedad."
-      }
+      },
+      "grupoEvidencia": "pasaje-42cae7f5cb5dd6bb719d"
     },
     "fem-010": {
       "valor": -2,
@@ -417,7 +429,8 @@
         "url": "https://frenteobrero.es/nuestro-programa-2/",
         "consultado": "2026-07-10",
         "cita": "Derogación parcial o total de todas las leyes basadas en la discriminación positiva [...] Supresión de los cupos."
-      }
+      },
+      "grupoEvidencia": "pasaje-1a24d5a8b67ebcb99daf"
     },
     "soc-002": {
       "valor": 2,
@@ -442,7 +455,8 @@
         "fecha": "2020-12-14",
         "consultado": "2026-07-10",
         "cita": "A nosotros nos parece indigno que cualquier familia tenga que dormir aquí. No queremos suplantar el papel de las instituciones, sino que la gente tenga un trabajo digno y se gane la vida y no tenga que recurrir a esto bajo ningún concepto."
-      }
+      },
+      "grupoEvidencia": "pasaje-71d8dae6072245e8fe4b"
     },
     "eco-002": {
       "valor": -2,
@@ -455,7 +469,8 @@
         "fecha": "2021-02",
         "consultado": "2026-07-10",
         "cita": "Nacionalización de los sectores estratégicos del país para ponerlos al servicio del pueblo para tener una sanidad pública digna contra los chiringuitos que sirven a entidades privadas que juegan con nuestra salud."
-      }
+      },
+      "grupoEvidencia": "pasaje-b384a3897279e86b2305"
     },
     "eco-013": {
       "valor": -2,
@@ -468,7 +483,8 @@
         "fecha": "2021-02",
         "consultado": "2026-07-10",
         "cita": "Nacionalización de los sectores estratégicos del país para ponerlos al servicio del pueblo para tener una sanidad pública digna contra los chiringuitos que sirven a entidades privadas que juegan con nuestra salud."
-      }
+      },
+      "grupoEvidencia": "pasaje-b384a3897279e86b2305"
     }
   }
 }

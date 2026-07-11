@@ -15,7 +15,11 @@ export function compararReferenciasDoctrinales(
   referencias: ReferenciaDoctrinal[],
 ): ResultadoReferencia[] {
   return referencias
-    .filter((referencia) => referencia.confianza !== 'sin-datos')
+    .filter(
+      (referencia) =>
+        referencia.confianza !== 'sin-datos' &&
+        referencia.publicacionAfinidad?.publicable !== false,
+    )
     .map((referencia) => {
       const idsDefinitorios = new Set(Object.keys(referencia.posiciones));
       const relevantes = respuestas

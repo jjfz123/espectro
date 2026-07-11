@@ -290,7 +290,8 @@
         "fecha": "1936-05",
         "consultado": "2026-07-10",
         "cita": "Terminado el aspecto violento de la revolución, se declararán abolidos: la propiedad privada, el Estado, el principio de autoridad"
-      }
+      },
+      "grupoEvidencia": "pasaje-55036b4273ea3fa27e55"
     },
     "lab-017": {
       "valor": 2,
@@ -303,7 +304,8 @@
         "fecha": "1936-05",
         "consultado": "2026-07-10",
         "cita": "Socializada la riqueza, las organizaciones de productoras, devenidos libres, se encargarán de la administración directa de la producción y el consumo"
-      }
+      },
+      "grupoEvidencia": "pasaje-1bc289e1425f508fd789"
     },
     "izq-042": {
       "valor": 2,
@@ -316,7 +318,8 @@
         "fecha": "1936-05",
         "consultado": "2026-07-10",
         "cita": "Terminado el aspecto violento de la revolución, se declararán abolidos: la propiedad privada, el Estado, el principio de autoridad"
-      }
+      },
+      "grupoEvidencia": "pasaje-55036b4273ea3fa27e55"
     },
     "eco-007": {
       "valor": -2,
@@ -365,7 +368,8 @@
         "fecha": "1937",
         "consultado": "2026-07-10",
         "cita": "The nation is not the cause, but the result, of the state."
-      }
+      },
+      "grupoEvidencia": "pasaje-a25d270402f9396e1dc3"
     },
     "dem-034": {
       "valor": 1,
@@ -378,7 +382,8 @@
         "fecha": "1938",
         "consultado": "2026-07-10",
         "cita": "The organisation of Anarcho-Syndicalism is based upon the principles of Federalism, on free combination from below upward, putting the right of self-determination of every union above everything else"
-      }
+      },
+      "grupoEvidencia": "pasaje-e9e03e65c393a3ec3018"
     },
     "dem-035": {
       "valor": 2,
@@ -391,7 +396,8 @@
         "fecha": "1938",
         "consultado": "2026-07-10",
         "cita": "The organisation of Anarcho-Syndicalism is based upon the principles of Federalism, on free combination from below upward, putting the right of self-determination of every union above everything else"
-      }
+      },
+      "grupoEvidencia": "pasaje-e9e03e65c393a3ec3018"
     },
     "ter-001": {
       "valor": -2,
@@ -404,7 +410,8 @@
         "fecha": "1938",
         "consultado": "2026-07-10",
         "cita": "The organisation of Anarcho-Syndicalism is based upon the principles of Federalism, on free combination from below upward, putting the right of self-determination of every union above everything else"
-      }
+      },
+      "grupoEvidencia": "pasaje-e9e03e65c393a3ec3018"
     },
     "dr-021": {
       "valor": -2,
@@ -417,7 +424,8 @@
         "fecha": "1938",
         "consultado": "2026-07-10",
         "cita": "The organisation of Anarcho-Syndicalism is based upon the principles of Federalism, on free combination from below upward, putting the right of self-determination of every union above everything else"
-      }
+      },
+      "grupoEvidencia": "pasaje-e9e03e65c393a3ec3018"
     }
   }
 }

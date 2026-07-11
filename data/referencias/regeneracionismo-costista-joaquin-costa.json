@@ -1,0 +1,110 @@
+{
+  "id": "regeneracionismo-costista-joaquin-costa",
+  "nombre": "Regeneracionismo costista de Joaquín Costa",
+  "tipo": "referencia-doctrinal",
+  "definicion": "Tipo ideal del programa regeneracionista de Joaquín Costa: denuncia de la oligarquía y el caciquismo que falseaban la representación, recuperación de un autogobierno liberal efectivo y modernización material mediante educación, regadío y obras hidráulicas, con intervención estatal subsidiaria cuando la iniciativa social no pudiera realizarlas.",
+  "variante": "Costa en Oligarquía y caciquismo y Política hidráulica; no todo el regeneracionismo español ni las apropiaciones autoritarias posteriores de la metáfora del «cirujano de hierro»",
+  "periodo": "España, 1880-1911",
+  "confianza": "verificada",
+  "version": "1.0",
+  "revisado": "2026-07-11",
+  "publicacionAfinidad": {
+    "publicable": false,
+    "motivo": "Referencia nueva pendiente de auditoría semántica adversarial; no participa en afinidad hasta cerrar cada equivalencia entre fuente e ítem."
+  },
+  "publicacionMapa": {
+    "publicable": false,
+    "motivo": "El banco distingue su crítica oligárquica, su pluralismo y su política hidráulica, pero todavía no representa con equilibrio su reforma educativa, agraria y municipal; una coordenada macro sobredimensionaría cuatro respuestas parciales."
+  },
+  "facetasDefinitorias": [
+    "populismo",
+    "pluralismo-institucional",
+    "estatismo",
+    "institucionalismo"
+  ],
+  "sensibilidad": "normal",
+  "advertencia": "Es una referencia histórica, no una candidatura ni una etiqueta personal. Costa llamó a sustituir la oligarquía efectiva por libertad y selfgovernment, no a abolir el pluralismo: la fórmula episódica del «cirujano de hierro» no autoriza a presentarlo como precursor de una dictadura. Tampoco se infieren de su política hidráulica trasvases concretos actuales, una posición climática, un tamaño general del sector público ni respuestas sobre cuestiones sociales que no trató.",
+  "fuentesMarco": [
+    {
+      "tipo": "otro",
+      "titulo": "Joaquín Costa, Oligarquía y caciquismo como la forma actual de gobierno en España, Biblioteca Virtual Miguel de Cervantes",
+      "url": "https://www.cervantesvirtual.com/obra-visor/oligarquia-y-caciquismo-como-la-forma-actual-de-gobierno-en-espana-memoria-y-resumen-de-la-informacion--0/html/dca5c396-2dc6-11e2-b417-000475f5bda5_20.html",
+      "fecha": "1901",
+      "consultado": "2026-07-11"
+    },
+    {
+      "tipo": "otro",
+      "titulo": "Joaquín Costa, Política hidráulica: misión social de los riegos en España, Biblioteca Virtual Miguel de Cervantes",
+      "url": "https://www.cervantesvirtual.com/obra-visor/politica-hidraulica-mision-social-de-los-riegos-en-espana--0/html/fefa3e80-82b1-11df-acc7-002185ce6064_4.html",
+      "consultado": "2026-07-11"
+    },
+    {
+      "tipo": "otro",
+      "titulo": "Lorenzo Martín-Retortillo Baquer, Europa, Joaquín Costa y la encuesta sobre Oligarquía y caciquismo, Revista de Estudios Políticos, CEPC",
+      "url": "https://www.cepc.gob.es/sites/default/files/2021-12/16502repne062020.pdf",
+      "fecha": "1988",
+      "consultado": "2026-07-11"
+    }
+  ],
+  "reglaPublicacion": {
+    "minimoItems": 4,
+    "minimoCobertura": 0.65,
+    "umbralAfinidad": 82
+  },
+  "posiciones": {
+    "pop-001": {
+      "valor": 2,
+      "justificacion": "Costa describe la política real como una red jerárquica de oligarcas y caciques, organizada para dominar y explotar al país, frente a una mayoría sin soberanía efectiva. La coincidencia con el diagnóstico del enunciado es directa, sin convertirlo en una teoría conspirativa universal.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Joaquín Costa, Oligarquía y caciquismo, capítulo I, elementos componentes del régimen oligárquico",
+        "url": "https://www.cervantesvirtual.com/obra-visor/oligarquia-y-caciquismo-como-la-forma-actual-de-gobierno-en-espana-memoria-y-resumen-de-la-informacion--0/html/dca5c396-2dc6-11e2-b417-000475f5bda5_20.html",
+        "fecha": "1901",
+        "consultado": "2026-07-11",
+        "cita": "Capítulo I: «confabulados y organizados para la dominación y la explotación del país»."
+      },
+      "grupoEvidencia": "pasaje-452b0dd00a654ab929c7"
+    },
+    "dem-010": {
+      "valor": 1,
+      "justificacion": "Su remedio reclama órganos verdaderos de opinión y un régimen europeo de libertad y autogobierno. Es apoyo claro al pluralismo, pero se codifica como parcial porque el texto no formula la prueba extrema de conservar la competencia de partidos durante una emergencia nacional.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Joaquín Costa, Oligarquía y caciquismo, conclusión «Neoliberalismo»",
+        "url": "https://www.cervantesvirtual.com/obra-visor/oligarquia-y-caciquismo-como-la-forma-actual-de-gobierno-en-espana-memoria-y-resumen-de-la-informacion--0/html/dca5c396-2dc6-11e2-b417-000475f5bda5_20.html",
+        "fecha": "1901",
+        "consultado": "2026-07-11",
+        "cita": "Conclusión: «órganos verdaderos de opinión» y «régimen europeo de libertad y de selfgovernment»."
+      },
+      "grupoEvidencia": "pasaje-6736533fd8ea6369549d"
+    },
+    "der-022": {
+      "valor": 2,
+      "justificacion": "Costa pide ampliar el regadío mediante canales y pantanos, incluso construidos por el Estado cuando el capital privado no los acometa. El acuerdo alcanza regadíos y grandes obras hidráulicas, pero no se interpreta como respaldo automático a cualquier trasvase contemporáneo.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Joaquín Costa, Política hidráulica, capítulo I, construcción pública de canales y pantanos",
+        "url": "https://www.cervantesvirtual.com/obra-visor/politica-hidraulica-mision-social-de-los-riegos-en-espana--0/html/fefa3e80-82b1-11df-acc7-002185ce6064_4.html",
+        "consultado": "2026-07-11",
+        "cita": "Capítulo I: propone que el Estado construya canales y pantanos que no acomete la iniciativa privada."
+      },
+      "grupoEvidencia": "pasaje-2a1eed63cf160eb2c9a5"
+    },
+    "der-001": {
+      "valor": -1,
+      "justificacion": "Costa asigna al Estado una función complementaria: fomentar la acción social y realizar directamente fines necesarios cuando aquella sea incapaz, retirándose cuando despierte. Esto contradice un Estado limitado a policía y justicia, sin convertirlo en estatismo general.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Joaquín Costa, Política hidráulica, capítulo I, función complementaria del Estado",
+        "url": "https://www.cervantesvirtual.com/obra-visor/politica-hidraulica-mision-social-de-los-riegos-en-espana--0/html/fefa3e80-82b1-11df-acc7-002185ce6064_4.html",
+        "consultado": "2026-07-11",
+        "cita": "Capítulo I: intervención estatal complementaria cuando la iniciativa social no satisface un fin necesario."
+      },
+      "grupoEvidencia": "pasaje-0568cf07602f87dea321"
+    }
+  }
+}

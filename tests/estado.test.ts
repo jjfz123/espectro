@@ -71,6 +71,13 @@ describe('estado del cuestionario', () => {
     );
   });
 
+  it('mantiene el rápido general y sin organizaciones o corrientes nominales', () => {
+    const textoRapido = ITEMS_NUCLEO.map((item) => item.texto).join('\n');
+    expect(textoRapido).not.toMatch(
+      /\b(?:ETA|PSOE|PP|VOX|Sumar|Podemos|Falange|Atomwaffen|Posadismo|Gonzalo)\b/iu,
+    );
+  });
+
   it('ofrece perfil provisional o exhaustivo y conserva todas las respuestas', () => {
     const respuestas = Object.fromEntries(ITEMS_NUCLEO.map((item) => [item.id, 1 as const]));
     const completoRapido = {
@@ -203,8 +210,9 @@ describe('estado del cuestionario', () => {
       valor: 2,
     });
     const conRama = secuenciaItems(activa.modulosActivos, activa.respuestas);
-    expect(conRama.length - sinRama.length).toBe(4);
+    expect(conRama.length - sinRama.length).toBe(5);
     expect(conRama.some((item) => item.id === 'lab-010')).toBe(true);
+    expect(conRama.some((item) => item.id === 'lab-027')).toBe(true);
 
     const conSeguimiento = reductor(
       {
@@ -292,5 +300,29 @@ describe('estado del cuestionario', () => {
         expect(almacen.getItem(CLAVE_ALMACEN)).toBeNull();
       });
     }
+  });
+});
+
+describe('preferencia de orden de la escala Likert', () => {
+  it('por defecto usa el orden recomendado (no invertido)', () => {
+    expect(ESTADO_INICIAL.escalaInvertida).toBe(false);
+  });
+
+  it('«alternar-escala» invierte y vuelve, sin tocar respuestas', () => {
+    const conRespuesta = reductor(ESTADO_INICIAL, { tipo: 'responder', itemId: 'eco-001', valor: 2 });
+    const invertido = reductor(conRespuesta, { tipo: 'alternar-escala' });
+    expect(invertido.escalaInvertida).toBe(true);
+    expect(invertido.respuestas).toEqual(conRespuesta.respuestas);
+    const restaurado = reductor(invertido, { tipo: 'alternar-escala' });
+    expect(restaurado.escalaInvertida).toBe(false);
+  });
+
+  it('la preferencia se conserva al empezar de nuevo y se persiste', () => {
+    const invertido = reductor(ESTADO_INICIAL, { tipo: 'alternar-escala' });
+    expect(reductor(invertido, { tipo: 'reiniciar' }).escalaInvertida).toBe(true);
+    conLocalStorage({}, () => {
+      guardarEstado(invertido);
+      expect(cargarEstado().escalaInvertida).toBe(true);
+    });
   });
 });

@@ -18,7 +18,9 @@ La ruta recomendada es:
 
 El motor de `src/engine`, el banco y los perfiles siguen siendo compartidos. No se crea un segundo
 frontend nativo ni una API de respuestas. El servidor estático entrega código y datos públicos;
-las respuestas, la comunidad, las prioridades y el resultado permanecen en el dispositivo.
+las respuestas y prioridades permanecen en el dispositivo. Solo una acción expresa puede crear
+un fragmento de URL con un resumen derivado; esa excepción y sus límites se documentan en
+`PRIVACIDAD.md`.
 
 ```text
 datos JSON + esquemas ─┐
@@ -40,6 +42,8 @@ La base disponible ya incluye:
 - cálculo y persistencia exclusivamente locales;
 - diseño responsive, tema oscuro y objetivos táctiles;
 - carga diferida de resultados y del visor 3D;
+- carga bajo gesto del atlas 2D, referencias doctrinales y herramientas de compartir;
+- enlaces de resumen versionados, validados y aislados del estado local;
 - estado persistido versionado por instrumento y con caducidad;
 - manifest e iconos instalables;
 - service worker generado en build, con precache de shell, resultados, datos y 3D;
@@ -52,10 +56,12 @@ El build auditado como referencia produjo aproximadamente:
 
 | Recurso | Minificado | Gzip | Carga |
 |---|---:|---:|---|
-| aplicación inicial | 360 kB | 104 kB | inmediata |
-| resultados y catálogos | 1.576 kB | 362 kB | diferida |
-| visor 3D | 926 kB | 250 kB | al solicitarlo |
-| precache PWA completo | 2,81 MiB | depende de compresión HTTP | segundo plano |
+| aplicación inicial | 367 kB | 103 KiB | inmediata |
+| resultados y organizaciones | 1.133 kB | 261 KiB | diferida |
+| atlas 2D + referencias | 635 kB | 144 KiB | al solicitar el mapa |
+| comparación doctrinal | 595 kB | 131 KiB | al solicitarla |
+| visor 3D incremental | 926 kB | 244 KiB | al solicitarlo desde el mapa |
+| precache PWA completo | 3,04 MiB | depende de compresión HTTP | segundo plano |
 
 El precache garantiza el flujo offline, pero descarga los chunks diferidos en segundo plano desde
 la primera visita. Debe medirse en una red móvil real y mantenerse un presupuesto de tamaño.
@@ -176,7 +182,8 @@ altura reducida, zoom de texto, tema oscuro, alto contraste cuando esté disponi
 Mientras el catálogo crece, usar como alarma —no como sustituto de la medición real—:
 
 - JavaScript inicial ≤ 120 kB gzip;
-- resultados y datos ≤ 390 KiB gzip (recalibrado con 46 referencias y el atlas de 78 corrientes; si vuelve a crecer, separar cartografía y fichas antes de ampliar de nuevo);
+- resultados y organizaciones ≤ 390 KiB gzip;
+- atlas 2D y referencias bajo gesto ≤ 180 KiB y ≤ 150 KiB gzip adicionales;
 - visor 3D ≤ 300 kB gzip;
 - LCP ≤ 2,5 s y CLS ≤ 0,05 en un móvil medio;
 - Lighthouse rendimiento, accesibilidad, buenas prácticas y SEO ≥ 95;
@@ -188,21 +195,26 @@ catálogos, conservando navegación por teclado y lectura lineal.
 
 ## 6. Navegación, History API y botón Atrás
 
-La máquina de estados actual no debe volcarse a la URL: una URL compartida nunca contendrá
-respuestas ni resultados. Sí debe integrarse con el historial para que Atrás sea predecible:
+La máquina de estados actual no debe volcarse a la URL: ninguna URL contiene respuestas ni la
+sesión editable. La excepción es el fragmento versionado `#r=...`, creado bajo gesto, que contiene
+solo el resumen derivado descrito en `PRIVACIDAD.md` y abre una vista aislada. La navegación
+ordinaria sí debe integrarse con el historial para que Atrás sea predecible:
 
 - registrar transiciones de fase con `history.pushState` usando solo nombres genéricos;
 - usar `replaceState` para restauración inicial y cambios que no deban crear un paso;
 - traducir `popstate` a una transición segura del reductor;
 - no retroceder pregunta por pregunta salvo que se decida y pruebe expresamente;
+- abrir un resultado compartido no toca `localStorage`; al cerrarlo, una sesión vigente no se
+  reescribe ni renueva, pero la carga ordinaria sí elimina estados ya caducados o incompatibles;
 - preservar las respuestas al volver de resultados, revisión o metodología;
 - si el almacenamiento no funciona, avisar antes de una salida que destruiría la sesión;
 - en Capacitor, conectar `App.addListener('backButton', ...)` con la misma política;
 - en la portada, el Atrás nativo puede minimizar/cerrar la app; en cualquier otra fase debe volver
   a la fase lógica anterior.
 
-No se añaden rutas profundas de resultados. Una futura ruta pública de metodología o privacidad
-puede ser estática y no depender del estado personal.
+No se añaden rutas de resultados en el servidor: la vista compartida vive en el fragmento, que el
+navegador no incluye en la petición HTTP. Una futura ruta pública de metodología o privacidad puede
+ser estática y no depender del estado personal.
 
 ## 7. PWA: instalación, offline y actualizaciones
 
@@ -252,6 +264,11 @@ El estado local contiene opiniones políticas. La política por defecto sigue si
 - invalidación completa si cambia el significado del instrumento;
 - filtrado defensivo de IDs, valores, módulos y fases al restaurar.
 
+Compartir constituye una salida voluntaria de ese perímetro local. El enlace contiene comunidad,
+facetas y cinco afinidades derivadas, pero nunca las respuestas ni el estado reanudable. Debe
+mantener aviso previo, esquema cerrado, límite de tamaño, vista receptora aislada y fallos seguros;
+no caduca, no es revocable, no está firmado y puede persistir fuera del control de Espectro.
+
 Antes del lanzamiento se decidirá si el usuario puede elegir entre memoria de sesión y
 persistencia. En un dispositivo compartido, «No guardar este test» debe ser una opción clara. No
 se debe afirmar que una sesión está guardada solo porque `localStorage` exista: cada escritura
@@ -274,7 +291,8 @@ El dominio definitivo es un prerrequisito para cerrar esta fase. Cuando se elija
 - publicar `sitemap.xml` y referenciarlo desde `robots.txt`;
 - verificar el dominio en buscadores y herramientas de previsualización;
 - servir una portada prerenderizada o HTML significativo para crawlers que no ejecuten React;
-- mantener resultados y estado personal fuera de URLs, metadatos y previews.
+- mantener respuestas, estado reanudable y cualquier resultado fuera de metadatos y previews; el
+  fragmento compartible es la única excepción de URL y solo aparece bajo gesto.
 
 Hasta conocer dominio y nombre definitivo no se deben fijar canonical ni imágenes sociales con
 URLs provisionales que luego queden cacheadas.

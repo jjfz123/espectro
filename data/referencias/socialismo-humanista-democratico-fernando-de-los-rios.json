@@ -1,0 +1,99 @@
+{
+  "id": "socialismo-humanista-democratico-fernando-de-los-rios",
+  "nombre": "Socialismo humanista democrático de Fernando de los Ríos",
+  "tipo": "referencia-doctrinal",
+  "definicion": "Tipo ideal del socialismo humanista de Fernando de los Ríos: subordina gradualmente la economía a fines humanos para ampliar la libertad efectiva, rechaza la dictadura de partido y la ruptura catastrófica y vincula la transformación socialista a derechos, oposición legítima, voluntad popular y constitucionalismo democrático.",
+  "variante": "Síntesis de Mi viaje a la Rusia sovietista (1921), El sentido humanista del socialismo (1926) y su defensa constitucional de 1931; no representa automáticamente a todo el socialismo español de entreguerras",
+  "periodo": "1921-1931",
+  "confianza": "verificada",
+  "version": "1.0",
+  "revisado": "2026-07-11",
+  "publicacionAfinidad": {
+    "publicable": false,
+    "motivo": "Referencia nueva pendiente de auditoría semántica adversarial; no participa en afinidad hasta cerrar cada equivalencia entre fuente e ítem."
+  },
+  "publicacionMapa": {
+    "publicable": false,
+    "motivo": "El método reformista y las garantías pluralistas están sólidamente documentados, pero la subordinación humanista de la economía no responde por sí sola a suficientes ítems vigentes de propiedad, mercado e impuestos; publicar un punto macroeconómico exigiría inventar políticas actuales."
+  },
+  "facetasDefinitorias": [
+    "metodo-cambio",
+    "pluralismo-institucional",
+    "institucionalismo",
+    "libertades-civiles",
+    "economico"
+  ],
+  "sensibilidad": "normal",
+  "advertencia": "Es una referencia histórica personal-doctrinal, no un perfil del PSOE ni de ninguna organización contemporánea. De los Ríos defendió una economía disciplinada al interés público, pero los textos usados no fijan una subida concreta del impuesto sobre rentas altas, un impuesto permanente sobre fortunas ni la titularidad uniforme de las empresas; esos ítems se dejan vacíos. Su defensa de derechos y oposición tampoco se convierte en una respuesta sobre cualquier referéndum moderno. La comparación describe un socialismo democrático con guardarraíles liberales, no atribuye militancia ni recomienda voto.",
+  "fuentesMarco": [
+    {
+      "tipo": "otro",
+      "titulo": "Fernando de los Ríos, Mi viaje a la Rusia sovietista, segunda edición revisada y ampliada",
+      "url": "https://bibdig.biblioteca.unesp.br/bitstreams/887892ce-7d02-47a4-873d-3f366b555130/download",
+      "fecha": "1921",
+      "consultado": "2026-07-11"
+    },
+    {
+      "tipo": "declaracion",
+      "titulo": "Fernando de los Ríos, Discurso en el debate constitucional, Diario de Sesiones de las Cortes Constituyentes",
+      "url": "https://www.ciere.org/files/files/Cuadernos%20109_compressed.pdf",
+      "fecha": "1931-09-03",
+      "consultado": "2026-07-11"
+    },
+    {
+      "tipo": "otro",
+      "titulo": "Gregorio Peces-Barba Martínez, Orígenes doctrinales del socialismo democrático",
+      "url": "https://e-archivo.uc3m.es/bitstreams/96665c04-e11b-4fe9-8e0b-4c1041d24008/download",
+      "consultado": "2026-07-11"
+    }
+  ],
+  "reglaPublicacion": {
+    "minimoItems": 3,
+    "minimoCobertura": 0.67,
+    "umbralAfinidad": 80
+  },
+  "posiciones": {
+    "izq-001": {
+      "valor": -2,
+      "justificacion": "De los Ríos considera inevitables las reformas, juzga la táctica gradual de expropiación y control más eficaz que concebir la revolución como catástrofe y presenta el socialismo como sometimiento gradual de la economía al servicio de la libertad.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Fernando de los Ríos, Mi viaje a la Rusia sovietista, capítulo final, páginas 216-227",
+        "url": "https://bibdig.biblioteca.unesp.br/bitstreams/887892ce-7d02-47a4-873d-3f366b555130/download",
+        "fecha": "1921",
+        "consultado": "2026-07-11",
+        "cita": "Capítulo final, pp. 216-227: contrapone la reforma gradual y el control económico a la ruptura catastrófica."
+      },
+      "grupoEvidencia": "pasaje-14df435365dc0eb39629"
+    },
+    "dem-010": {
+      "valor": 2,
+      "justificacion": "Frente a la dictadura bolchevique, exige libertad para sindicatos, prensa e individuos y califica de autocracia que una dirección se arrogue el papel de guía sin admitir la legitimidad de la oposición; la emergencia revolucionaria no justifica el partido único.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Fernando de los Ríos, Mi viaje a la Rusia sovietista, libertad, soviets y dictadura de partido",
+        "url": "https://bibdig.biblioteca.unesp.br/bitstreams/887892ce-7d02-47a4-873d-3f366b555130/download",
+        "fecha": "1921",
+        "consultado": "2026-07-11",
+        "cita": "Capítulos sobre libertad, soviets y dictadura de partido: reclama oposición, prensa y sindicatos libres."
+      },
+      "grupoEvidencia": "pasaje-25d7c0925a7a85bbbf77"
+    },
+    "dem-020": {
+      "valor": 1,
+      "justificacion": "En las Cortes Constituyentes sostiene que la nueva Constitución nace de la voluntad jurídica de la comunidad democrática y de una transacción entre fuerzas republicanas y socialistas representadas. Se limita a +1 porque el pasaje respalda un pacto constituyente plural, pero no formula todas las garantías electorales del ítem.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Fernando de los Ríos, Discurso en el debate constitucional, Diario de Sesiones de las Cortes Constituyentes",
+        "url": "https://www.ciere.org/files/files/Cuadernos%20109_compressed.pdf",
+        "fecha": "1931-09-03",
+        "consultado": "2026-07-11",
+        "cita": "Debate constitucional del 3 de septiembre de 1931: voluntad comunitaria y transacción republicano-socialista."
+      },
+      "grupoEvidencia": "pasaje-aaaa43825fb415fad19b"
+    }
+  }
+}

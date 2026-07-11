@@ -1,0 +1,268 @@
+{
+  "id": "desarrollismo-tecnocratico-franquista-1957-1973",
+  "nombre": "Desarrollismo tecnocrático franquista (1957-1973)",
+  "tipo": "referencia-doctrinal",
+  "definicion": "Referencia histórica de la fase desarrollista de la dictadura franquista: apertura y estabilización económica desde 1959, planificación indicativa y empresas públicas, legitimación tecnocrática por el crecimiento, mientras persistían la jefatura personal de Franco, el Movimiento Nacional, la representación orgánica, la confesionalidad católica y la Organización Sindical vertical.",
+  "variante": "Gobiernos tecnocráticos y Planes de Desarrollo entre la remodelación ministerial de 1957 y la separación efectiva de las jefaturas del Estado y del Gobierno en 1973; distinta de la autarquía y del nacionalcatolicismo de 1945-1957",
+  "periodo": "España, 1957-1973",
+  "confianza": "verificada",
+  "version": "1.0",
+  "revisado": "2026-07-11",
+  "publicacionAfinidad": {
+    "publicable": false,
+    "motivo": "Referencia nueva pendiente de auditoría semántica adversarial; no participa en afinidad hasta cerrar cada equivalencia entre fuente e ítem."
+  },
+  "publicacionMapa": {
+    "publicable": false,
+    "motivo": "El banco identifica con precisión la arquitectura autoritaria, orgánica, confesional y sindical, pero no separa todavía con suficientes ítems la liberalización de mercados, la planificación indicativa y la empresa pública; proyectarla reduciría el desarrollismo a su dictadura."
+  },
+  "facetasDefinitorias": [
+    "autoridad-politica",
+    "pluralismo-institucional",
+    "institucionalismo",
+    "estatismo",
+    "propiedad-mercado",
+    "laicismo",
+    "monarquia",
+    "autonomia-sindical"
+  ],
+  "sensibilidad": "violenta",
+  "advertencia": "Es una fase histórica de una dictadura que persiguió a la oposición y restringió libertades; una coincidencia económica o institucional parcial no legitima esa coerción ni etiqueta al usuario como franquista. La apertura de 1959 no convirtió al régimen en liberal ni en Estado mínimo: mantuvo planificación, inversión y empresas públicas. Tampoco se trasladan sin prueba a esta fase la autarquía anterior, todo el programa falangista, las políticas del tardofranquismo posterior a 1973 ni posiciones actuales sobre aborto, inmigración, LGTB, clima o la Unión Europea.",
+  "fuentesMarco": [
+    {
+      "tipo": "otro",
+      "titulo": "Decreto-ley 10/1959, de 21 de julio, de ordenación económica, Boletín Oficial del Estado",
+      "url": "https://www.boe.es/gazeta/dias/1959/07/22/pdfs/BOE-1959-174.pdf",
+      "fecha": "1959-07-21",
+      "consultado": "2026-07-11"
+    },
+    {
+      "tipo": "otro",
+      "titulo": "Ley 194/1963, de 28 de diciembre, del I Plan de Desarrollo Económico y Social, Boletín Oficial del Estado",
+      "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1963-22668",
+      "fecha": "1963-12-28",
+      "consultado": "2026-07-11"
+    },
+    {
+      "tipo": "otro",
+      "titulo": "Congreso de los Diputados, Dictadura del General Franco: las Cortes Españolas 1943-1977",
+      "url": "https://www.congreso.es/es/cem/cortesp",
+      "consultado": "2026-07-11"
+    },
+    {
+      "tipo": "otro",
+      "titulo": "Textos refundidos de las Leyes Fundamentales del Reino, Decreto 779/1967, Boletín Oficial del Estado",
+      "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1967-40312",
+      "fecha": "1967-04-20",
+      "consultado": "2026-07-11"
+    },
+    {
+      "tipo": "otro",
+      "titulo": "Ley Sindical 2/1971, de 17 de febrero, Boletín Oficial del Estado",
+      "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1971-230",
+      "fecha": "1971-02-17",
+      "consultado": "2026-07-11"
+    },
+    {
+      "tipo": "otro",
+      "titulo": "Ley 62/1969, de 22 de julio, sobre la sucesión en la Jefatura del Estado, Boletín Oficial del Estado",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1969-915",
+      "fecha": "1969-07-22",
+      "consultado": "2026-07-11"
+    },
+    {
+      "tipo": "otro",
+      "titulo": "Antonio Cañellas Mas, La tecnocracia franquista: el sentido ideológico del desarrollo económico, Historia Contemporánea",
+      "url": "https://dialnet.unirioja.es/servlet/articulo?codigo=2344982",
+      "fecha": "2006",
+      "consultado": "2026-07-11"
+    }
+  ],
+  "reglaPublicacion": {
+    "minimoItems": 13,
+    "minimoCobertura": 0.75,
+    "umbralAfinidad": 88
+  },
+  "posiciones": {
+    "der-001": {
+      "valor": -2,
+      "justificacion": "Aunque liberalizó comercio e importaciones, el régimen reafirmó que el Estado debía vigilar y fomentar el desarrollo y articuló inversiones públicas, empresas nacionales y Planes de Desarrollo. No era un Estado reducido a seguridad y justicia.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Decreto-ley 10/1959 de ordenación económica, exposición y artículos 1-3",
+        "url": "https://www.boe.es/gazeta/dias/1959/07/22/pdfs/BOE-1959-174.pdf",
+        "fecha": "1959-07-21",
+        "consultado": "2026-07-11",
+        "cita": "Exposición: la libertad económica no supone que el Estado abdique de vigilar y fomentar el desarrollo."
+      },
+      "grupoEvidencia": "pasaje-ec4f86d6f80518760744"
+    },
+    "dem-008": {
+      "valor": -2,
+      "justificacion": "La Ley Orgánica del Estado definía expresamente el sistema por la unidad de poder y la mera coordinación de funciones, y atribuía al jefe del Estado el poder político y administrativo supremo; no aceptaba una separación de poderes capaz de frenar a la mayoría gobernante.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Ley Orgánica del Estado, artículos 2 y 6, texto refundido de 1967",
+        "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1967-40312",
+        "fecha": "1967-04-20",
+        "consultado": "2026-07-11",
+        "cita": "Ley Orgánica del Estado, artículos 2 y 6: «unidad de poder» y poder supremo del Jefe del Estado."
+      },
+      "grupoEvidencia": "pasaje-fe78c82402c6bfee4922"
+    },
+    "dem-010": {
+      "valor": -2,
+      "justificacion": "Las Cortes franquistas carecieron de pluralismo político y no ofrecían a partidos de oposición la posibilidad legal de competir por el Gobierno, tampoco durante situaciones de emergencia.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Congreso de los Diputados, Dictadura del General Franco: ausencia de pluralismo político",
+        "url": "https://www.congreso.es/es/cem/cortesp",
+        "consultado": "2026-07-11",
+        "cita": "Síntesis institucional: ruptura con el parlamentarismo liberal y falta de pluralismo político."
+      },
+      "grupoEvidencia": "pasaje-2538b234612a7941c20f"
+    },
+    "dem-011": {
+      "valor": 2,
+      "justificacion": "El régimen supuso una ruptura prolongada con el parlamentarismo y el liberalismo y mantuvo Cortes orgánicas, no una reforma parcial del sistema parlamentario de partidos.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Congreso de los Diputados, Dictadura del General Franco: naturaleza de las Cortes orgánicas",
+        "url": "https://www.congreso.es/es/cem/cortesp",
+        "consultado": "2026-07-11",
+        "cita": "Introducción y génesis de las Cortes: ruptura con la trayectoria parlamentaria y triunfo de la representación orgánica."
+      },
+      "grupoEvidencia": "pasaje-e739c26e6e7df70fc96d"
+    },
+    "dem-019": {
+      "valor": 2,
+      "justificacion": "El Movimiento Nacional informaba todo el orden político, consideraba ilegal cualquier organización política ajena a la representación orgánica y exigía fidelidad a sus Principios a cargos y funcionarios.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Ley de Principios del Movimiento Nacional, principio VIII, texto refundido de 1967",
+        "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1967-40312",
+        "fecha": "1967-04-20",
+        "consultado": "2026-07-11",
+        "cita": "Principio VIII: toda organización política al margen de la representación orgánica sería ilegal."
+      },
+      "grupoEvidencia": "pasaje-6dd6bdc059c79860cdad"
+    },
+    "dem-018": {
+      "valor": 2,
+      "justificacion": "Las Leyes Fundamentales establecían literalmente que la participación política se canalizara por la familia, el municipio, el sindicato y otras entidades de representación orgánica, no mediante partidos competitivos.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Ley de Principios del Movimiento Nacional, principio VIII, y Fuero de los Españoles, artículo 10",
+        "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1967-40312",
+        "fecha": "1967-04-20",
+        "consultado": "2026-07-11",
+        "cita": "Principio VIII y artículo 10: representación a través de familia, municipio, sindicato y entidades orgánicas."
+      },
+      "grupoEvidencia": "pasaje-af8a0188a7a74618eb2f"
+    },
+    "dr-011": {
+      "valor": 2,
+      "justificacion": "El Fuero de los Españoles declaraba de forma literal que la religión católica era la del Estado español y le otorgaba protección oficial, incluso tras reconocer una libertad religiosa limitada en 1967.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Fuero de los Españoles, artículo 6, texto refundido de 1967",
+        "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1967-40312",
+        "fecha": "1967-04-20",
+        "consultado": "2026-07-11",
+        "cita": "Artículo 6: «la Religión Católica, que es la del Estado español, gozará de la protección oficial»."
+      },
+      "grupoEvidencia": "pasaje-6b32052dd4108394b6be"
+    },
+    "mon-001": {
+      "valor": -2,
+      "justificacion": "Franco designó por ley a Juan Carlos de Borbón como sucesor a título de Rey; la futura jefatura del Estado se estableció por designación y sucesión monárquica, no por elección ciudadana.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Ley 62/1969 sobre la sucesión en la Jefatura del Estado, artículos 1 y 2",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1969-915",
+        "fecha": "1969-07-22",
+        "consultado": "2026-07-11",
+        "cita": "Artículos 1 y 2: Juan Carlos es designado sucesor y será proclamado Rey al quedar vacante la Jefatura."
+      },
+      "grupoEvidencia": "pasaje-68e564711c9e81d33afc"
+    },
+    "dr-014": {
+      "valor": 2,
+      "justificacion": "La Ley Sindical integraba empresarios, técnicos y trabajadores en Sindicatos por ramas como factores de la producción, con carácter de corporaciones de derecho público y dentro del orden institucional del régimen.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Ley Sindical 2/1971, artículos 1, 12 y 24",
+        "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1971-230",
+        "fecha": "1971-02-17",
+        "consultado": "2026-07-11",
+        "cita": "Artículos 1, 12 y 24: integración de empresarios, técnicos y trabajadores en corporaciones sindicales públicas."
+      },
+      "grupoEvidencia": "pasaje-36e0a7b75f56c3504048"
+    },
+    "lab-006": {
+      "valor": 2,
+      "justificacion": "La ley disponía que en cada ámbito territorial existiera un solo Sindicato para cada rama y que la Organización Sindical participara en instituciones y organismos económicos y políticos del Estado.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Ley Sindical 2/1971, artículos 25 y 33",
+        "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1971-230",
+        "fecha": "1971-02-17",
+        "consultado": "2026-07-11",
+        "cita": "Artículos 25 y 33: un solo Sindicato por rama y presencia de la Organización Sindical en el Estado."
+      },
+      "grupoEvidencia": "pasaje-532a3b83aca2c7387ce6"
+    },
+    "lab-005": {
+      "valor": -1,
+      "justificacion": "La ley concedía autonomía interna a asociaciones y uniones, pero solo dentro del Sindicato oficial y del orden institucional del Movimiento. Por ello existía un margen organizativo limitado, no independencia plena frente al Gobierno y al régimen.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Ley Sindical 2/1971, artículos 13, 17, 24 y 32",
+        "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1971-230",
+        "fecha": "1971-02-17",
+        "consultado": "2026-07-11",
+        "cita": "Artículos 13, 17, 24 y 32: asociaciones autónomas únicamente dentro del Sindicato y la Organización oficiales."
+      },
+      "grupoEvidencia": "pasaje-063bb3e213a7b8d57b73"
+    },
+    "dr-024": {
+      "valor": 2,
+      "justificacion": "La tecnocracia desarrollista operó como estrategia de legitimación y modernización dentro de una dictadura autoritaria, no como transición a competencia democrática; crecimiento y administración sustituyeron deliberadamente a participación política plural.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Antonio Cañellas Mas, La tecnocracia franquista: el sentido ideológico del desarrollo económico",
+        "url": "https://dialnet.unirioja.es/servlet/articulo?codigo=2344982",
+        "fecha": "2006",
+        "consultado": "2026-07-11",
+        "cita": "Apartados sobre gobiernos tecnócratas desde 1957 y tradición ideológica de la derecha autoritaria."
+      },
+      "grupoEvidencia": "pasaje-5b638569eeae66fde2b6"
+    },
+    "der-005": {
+      "valor": 2,
+      "justificacion": "Los Principios del Movimiento declaraban intangible la unidad entre los hombres y las tierras de España, y la Ley Orgánica definía la soberanía como una e indivisible; no reconocían una reivindicación autonómica capaz de limitar esa unidad.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Ley de Principios del Movimiento Nacional, principio IV, y Ley Orgánica del Estado, artículo 2",
+        "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1967-40312",
+        "fecha": "1967-04-20",
+        "consultado": "2026-07-11",
+        "cita": "Principio IV y artículo 2: unidad territorial intangible y soberanía una e indivisible."
+      },
+      "grupoEvidencia": "pasaje-05051b7a52a0607ed82d"
+    }
+  }
+}

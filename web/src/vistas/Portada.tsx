@@ -117,6 +117,13 @@ export function Portada({ estado, despachar, alAbrirMetodologia }: Props) {
           Elige cuánto quieres profundizar. En ambos casos puedes marcar cualquier ítem como
           «sin opinión» y señalar los temas que te importan el doble.
         </p>
+        <p className="nota-al-margen nota-marco" style={{ maxWidth: '62ch' }}>
+          <strong>Sobre qué respondes.</strong> Salvo que una pregunta indique otra cosa, responde
+          pensando en el sistema vigente (el aquí y ahora). Cuando una afirmación solo tiene sentido
+          desde un orden concreto —el actual o el que tú defiendes— la propia pregunta lo avisa con
+          una etiqueta de contexto, y algunas preguntas de seguimiento aclaran el motivo de tu
+          respuesta sin cambiar su intensidad.
+        </p>
 
         <fieldset style={{ border: 'none', padding: 0, margin: 0 }}>
           <legend className="solo-lectores">Modo del test</legend>

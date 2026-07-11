@@ -9,7 +9,7 @@
   ],
   "confianza": "verificada",
   "web": "https://www.bng.gal/",
-  "revisado": "2026-07-10",
+  "revisado": "2026-07-11",
   "actividad": "activa",
   "posiciones": {
     "ter-002": {
@@ -156,6 +156,220 @@
         "consultado": "2026-07-09"
       }
     },
+    "dem-005": {
+      "valor": -2,
+      "justificacion": "Reclama que la selección de jueces emane de las cámaras gallega y estatal. Eso se opone al procedimiento concreto del ítem —elección directa por la ciudadanía— aunque persiga reforzar su legitimidad democrática.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "O BNG rexeita o pacto PP-PSOE para o CXPX e reclama unha escolla emanada da soberanía popular",
+        "url": "https://www.bng.gal/articulo/novas/carme-da-silva-pp-psoe-non-tenen-problema-sentarse-pactar-cando-trata-manter-rexime-do-78/20240731161602038453.html",
+        "fecha": "2024-07-31",
+        "consultado": "2026-07-11",
+        "cita": "A escolla dos xuíces e xuízas debe emanar da soberanía popular, das diferentes cámaras."
+      },
+      "grupoEvidencia": "pasaje-f4556983b9650c1e3506"
+    },
+    "dem-006": {
+      "valor": 1,
+      "justificacion": "El BNG recurrió en amparo al Tribunal Constitucional los vetos impuestos por la mayoría del PP en una comisión parlamentaria para que un tribunal protegiera los derechos fundamentales de sus diputados. Es evidencia conductual favorable al contrapeso judicial, pero +1 porque no formula la regla general del ítem.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "BNG presenta un recurso de amparo ante o Constitucional polos vetos do PP na comisión de investigación",
+        "url": "https://www.bng.gal/articulo/novas/bng-presenta-recurso-amparo-constitucional-polas-imposicions-vetos-do-pp-comision-investigacion/20241209134853039351.html",
+        "fecha": "2024-12-09",
+        "consultado": "2026-07-11"
+      }
+    },
+    "dem-008": {
+      "valor": 2,
+      "justificacion": "La Executiva del BNG declaró que sin separación de poderes e independencia judicial no existe una democracia digna de ese nombre, incluso al denunciar decisiones judiciales contrarias a una mayoría soberanista. Es un apoyo explícito al contrapeso, no una inferencia desde su autoubicación.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Comunicado da Executiva do BNG pola prisión incondicional dos membros do Govern de Catalunya",
+        "url": "https://www.bng.gal/articulo/novas/comunicado-da-executiva-do-bng-pola-prision-incondicional-membros-govern-catalunya/20171102213207021006.html",
+        "fecha": "2017-11-02",
+        "consultado": "2026-07-11",
+        "cita": "Sen separación de poderes e sen independencia xudicial non hai democracia merecente de tal nome."
+      },
+      "grupoEvidencia": "pasaje-658fc12ba460672f4489"
+    },
+    "dem-013": {
+      "valor": 2,
+      "justificacion": "Sus normas establecen literalmente el mandato imperativo de las personas representantes y vinculan los cargos institucionales a las decisiones colectivas de la organización, por lo que la respuesta no se deduce solo de su carácter asambleario.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "estatutos",
+        "titulo": "Principios organizativos e normas de funcionamento do BNG (XVII Asemblea Nacional)",
+        "url": "https://bnggaliza.opennemas.com/media/bnggaliza/files/2021/12/27/Principios%20organizaci%C3%B3ns%20e%20normas%20de%20funcionamento%20%28XVII%20AN%29.pdf",
+        "fecha": "2021-12-27",
+        "consultado": "2026-07-11"
+      }
+    },
+    "dem-015": {
+      "valor": 1,
+      "justificacion": "Exige acatar las decisiones mayoritarias y que los cargos apliquen la línea colectiva, pero preserva la discrepancia pública, las minorías y las corrientes. Por esa combinación de cohesión y pluralismo corresponde +1 y no una disciplina incuestionable.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "estatutos",
+        "titulo": "Principios organizativos e normas de funcionamento do BNG (XVII Asemblea Nacional)",
+        "url": "https://bnggaliza.opennemas.com/media/bnggaliza/files/2021/12/27/Principios%20organizaci%C3%B3ns%20e%20normas%20de%20funcionamento%20%28XVII%20AN%29.pdf",
+        "fecha": "2021-12-27",
+        "consultado": "2026-07-11"
+      }
+    },
+    "dem-017": {
+      "valor": -2,
+      "justificacion": "Aunque combina acción institucional y movilización social, el BNG persigue una república democrática con parlamento y dedica una estrategia estable a su trabajo parlamentario; no propone reemplazar el parlamento por consejos laborales y locales.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Documentos definitivos da XVIII Asemblea Nacional do BNG",
+        "url": "https://www.bng.gal/media/bnggaliza/files/2025/02/07/documentos_xviii_asemblea_definitivos_corrixido.pdf",
+        "fecha": "2025-02-07",
+        "consultado": "2026-07-11"
+      }
+    },
+    "dem-019": {
+      "valor": -2,
+      "justificacion": "Ha votado y actuado expresamente contra restricciones al pluralismo político y contra la concentración de poder de una mayoría, defendiendo la representación de fuerzas distintas. Esto contradice de manera directa un movimiento único sin competencia permanente.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "O BNG votou no Congreso contra a proposta que recortaba a participación e o pluralismo político",
+        "url": "https://www.bng.gal/articulo/novas/bng-votou-congreso-proposta-do-pp-tentaban-recortar-participacion-pluralismo-politico/20200218195003026576.html",
+        "fecha": "2020-02-18",
+        "consultado": "2026-07-11"
+      }
+    },
+    "dem-021": {
+      "valor": 2,
+      "justificacion": "En sus enmiendas oficiales a la reforma de seguridad ciudadana propuso que manifestaciones y concentraciones no estén sometidas a comunicación previa y eliminar la infracción asociada. Es coincidencia literal con el supuesto de manifestación pacífica no comunicada.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "BOCG, enmiendas de Néstor Rego a la Proposición de Ley Orgánica de protección de las libertades y seguridad ciudadana",
+        "url": "https://www.congreso.es/public_oficiales/L15/CONG/BOCG/B/BOCG-15-B-148-5.PDF",
+        "fecha": "2025-01-10",
+        "consultado": "2026-07-11",
+        "cita": "Las manifestaciones y concentraciones no deban ser sometidas a comunicación previa."
+      },
+      "grupoEvidencia": "pasaje-a65cddf4f33111dd4c32"
+    },
+    "dem-022": {
+      "valor": 2,
+      "justificacion": "Propuso eliminar la infracción grave por el uso de imágenes de agentes y la presenta como garantía frente a arbitrariedades policiales. Su formulación es incluso más garantista que la excepción por riesgo concreto incluida en el ítem.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "BNG comprométese a traballar para unha derrogación total da Lei Mordaza",
+        "url": "https://www.bng.gal/articulo/novas/bng-comprometese-traballar-conseguir-derrogacion-total-da-lei-mordaza-garantir-dereitos-democraticos/20241029174613039020.html",
+        "fecha": "2024-10-29",
+        "consultado": "2026-07-11"
+      }
+    },
+    "dem-023": {
+      "valor": -2,
+      "justificacion": "Reclama eliminar de la Ley de Seguridad Ciudadana la identificación preventiva cuando no hay indicios de delito. La oposición coincide exactamente con la potestad preventiva sin indicios individualizados planteada en el ítem.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Néstor Rego: A non derrogación da Lei Mordaza é máis un exemplo dos compromisos incumpridos",
+        "url": "https://www.bng.gal/articulo/novas/nestor-rego-non-derrogacion-da-lei-mordaza-mais-exemplo-compromisos-incumpridos-polo-goberno/20230314142331034480.html",
+        "fecha": "2023-03-14",
+        "consultado": "2026-07-11"
+      }
+    },
+    "dem-029": {
+      "valor": 2,
+      "justificacion": "Presentó una reforma para obligar a debatir las iniciativas legislativas populares en un plazo máximo de un mes, con pleno extraordinario si coincidía con un periodo inhábil. La propuesta coincide literalmente con firma suficiente, debate obligatorio y plazo fijo.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Reforzar a participación directa dos cidadáns",
+        "url": "https://www.bng.gal/articulo/destacadas/reforzar-participacion-directa-cidadans/20120709165959009765.html",
+        "fecha": "2012-07-09",
+        "consultado": "2026-07-11"
+      }
+    },
+    "izq-007": {
+      "valor": -2,
+      "justificacion": "Su horizonte declarado es constituir una república gallega como Estado soberano, democrático y laico. Por tanto rechaza abolir todo Estado, incluso si comparte con corrientes libertarias la crítica al centralismo español.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Carta de Principios políticos, ideolóxicos e valores do BNG",
+        "url": "https://www.bng.gal/estaticas/principios-do-bng.html",
+        "fecha": "2016",
+        "consultado": "2026-07-11"
+      }
+    },
+    "izq-018": {
+      "valor": 2,
+      "justificacion": "Reconoce corrientes y colectivos ideológicos organizados, su autonomía interna, la defensa pública de posiciones minoritarias y el derecho individual a la discrepancia, dentro de la unidad operativa del frente.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "estatutos",
+        "titulo": "Principios organizativos e normas de funcionamento do BNG (XVII Asemblea Nacional)",
+        "url": "https://bnggaliza.opennemas.com/media/bnggaliza/files/2021/12/27/Principios%20organizaci%C3%B3ns%20e%20normas%20de%20funcionamento%20%28XVII%20AN%29.pdf",
+        "fecha": "2021-12-27",
+        "consultado": "2026-07-11"
+      }
+    },
+    "izq-038": {
+      "valor": -2,
+      "justificacion": "Su objetivo declarado es un Estado gallego soberano con instituciones nacionales. La descentralización y la participación que también defiende no equivalen a la confederación municipal sin Estado central que formula el ítem.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Carta de Principios políticos, ideolóxicos e valores do BNG",
+        "url": "https://www.bng.gal/estaticas/principios-do-bng.html",
+        "fecha": "2016",
+        "consultado": "2026-07-11"
+      }
+    },
+    "ene-005": {
+      "valor": 0,
+      "justificacion": "Su modelo combina mercado eléctrico existente con intervención pública, reforma de precios y nuevas formas de participación pública. No respalda un sector principalmente privado sin matices, pero tampoco documenta sustituir la mayoría de operadores privados; por eso se codifica como posición mixta.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa de Goberno BNG — Eleccións Galegas 2024",
+        "url": "https://www.bng.gal/media/bnggaliza/files/2024/01/24/24_bng_galegas_programa_goberno.pdf",
+        "fecha": "2024-01-24",
+        "consultado": "2026-07-11"
+      }
+    },
+    "eco-006": {
+      "valor": 2,
+      "justificacion": "El programa gallego fija alcanzar un 5% de vivienda principal pública en doce años, prioriza promoción pública en alquiler y la incorporación de activos de la SAREB al parque público. Es un compromiso cuantificado con ampliar fuertemente ese parque.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa de Goberno BNG — Eleccións Galegas 2024",
+        "url": "https://www.bng.gal/media/bnggaliza/files/2024/01/24/24_bng_galegas_programa_goberno.pdf",
+        "fecha": "2024-01-24",
+        "consultado": "2026-07-11",
+        "cita": "Acadar o 5% de vivenda principal pública nun horizonte temporal de 12 anos."
+      },
+      "grupoEvidencia": "pasaje-2f551e8d00e0e8f43766"
+    },
+    "eco-012": {
+      "valor": 2,
+      "justificacion": "El programa de 2024 marca expresamente el camino hacia la supresión de los conciertos educativos en todos los niveles, empezando por el no obligatorio y por centros que segregan por sexo.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa de Goberno BNG — Eleccións Galegas 2024",
+        "url": "https://www.bng.gal/media/bnggaliza/files/2024/01/24/24_bng_galegas_programa_goberno.pdf",
+        "fecha": "2024-01-24",
+        "consultado": "2026-07-11",
+        "cita": "No camiño da supresión dos concertos en todos os niveis educativos."
+      },
+      "grupoEvidencia": "pasaje-8aa23f0d42cfe14c04e2"
+    },
     "eco-005": {
       "valor": 1,
       "justificacion": "Defiende limitar los alquileres y exige a la Xunta declarar zonas tensionadas (Ourense, A Coruña, Santiago), con ley propia de criterios; pero en la Ley de Vivienda estatal Néstor Rego fue la única abstención del pleno, por considerarla corta e invasiva de competencias gallegas.",
@@ -179,7 +393,8 @@
         "fecha": "2025-10-14",
         "consultado": "2026-07-10",
         "cita": "El Congreso tumba la ley del BNG para reducir la jornada laboral a 35 horas con los votos de PP, Vox y Junts"
-      }
+      },
+      "grupoEvidencia": "pasaje-420ab265f75c0ac2b0be"
     },
     "eco-014": {
       "valor": 2,
@@ -204,7 +419,8 @@
         "fecha": "2025-02-17",
         "consultado": "2026-07-10",
         "cita": "BNG reclama ao Goberno subir o SMI a 60% do Salario Medio e que non grave o IRPF"
-      }
+      },
+      "grupoEvidencia": "pasaje-586ff50291ddc4e70ce7"
     },
     "sd-023": {
       "valor": 2,
@@ -217,7 +433,8 @@
         "fecha": "2024-11-21",
         "consultado": "2026-07-10",
         "cita": "El Congreso aprueba la reforma fiscal con el impuesto a la banca y el compromiso de prorrogar el de las energéticas"
-      }
+      },
+      "grupoEvidencia": "pasaje-ec031fb6c5e1eda6412d"
     },
     "soc-004": {
       "valor": 2,
@@ -230,7 +447,8 @@
         "fecha": "2024-04-09",
         "consultado": "2026-07-10",
         "cita": "El Congreso aprueba debatir la ILP sobre la regularización extraordinaria de personas migrantes"
-      }
+      },
+      "grupoEvidencia": "pasaje-b639c62b559296516ef5"
     },
     "fem-001": {
       "valor": 2,
@@ -255,7 +473,8 @@
         "fecha": "2026-03-17",
         "consultado": "2026-07-10",
         "cita": "El Congreso tumba una propuesta del PP que buscaba ampliar los casos para condenar a prisión permanente revisable"
-      }
+      },
+      "grupoEvidencia": "pasaje-f12258a0891524b4bed3"
     },
     "fem-014": {
       "valor": 2,
@@ -292,7 +511,8 @@
         "fecha": "2021-03-18",
         "consultado": "2026-07-10",
         "cita": "con 202 votos a favor (PSOE, Podemos, BNG, ERC, Junts per Catalunya, Más País, Bildu, PNV, CUP, Ciudadanos), 141 en contra (PP, Vox, UPN, Foro Asturias) y dos abstenciones"
-      }
+      },
+      "grupoEvidencia": "pasaje-888ef56ebccb38c1ba48"
     },
     "eco-002": {
       "valor": -2,
@@ -413,7 +633,8 @@
         "fecha": "2024-01-23",
         "consultado": "2026-07-10",
         "cita": "la política de inmigración no es la que corresponde a un Gobierno que se diga mínimamente progresista"
-      }
+      },
+      "grupoEvidencia": "pasaje-f9aa7c1f0f4633d5e9e3"
     },
     "soc-005": {
       "valor": 1,

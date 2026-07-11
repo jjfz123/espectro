@@ -51,6 +51,14 @@ export interface Estado {
   hitoIntermedio150Visto: boolean;
   /** La vista de resultados se abrió expresamente desde el hito de 150. */
   perfilIntermedio: boolean;
+  /**
+   * Preferencia de presentación de la escala Likert. Por defecto (false) el
+   * orden es ascendente —«muy en desacuerdo» primero—, que la evidencia de
+   * diseño de encuestas asocia a menos sesgo de aquiescencia (poner «de
+   * acuerdo» primero aumenta el asentimiento por primacía). El usuario puede
+   * invertirlo; solo afecta a la presentación, nunca al valor registrado.
+   */
+  escalaInvertida: boolean;
 }
 
 export const ESTADO_INICIAL: Estado = {
@@ -67,6 +75,7 @@ export const ESTADO_INICIAL: Estado = {
   editando: false,
   hitoIntermedio150Visto: false,
   perfilIntermedio: false,
+  escalaInvertida: false,
 };
 
 export type Accion =
@@ -88,6 +97,7 @@ export type Accion =
   | { tipo: 'terminar-edicion' }
   | { tipo: 'ir-a-resultados' }
   | { tipo: 'ir-a-portada' }
+  | { tipo: 'alternar-escala' }
   | { tipo: 'reiniciar' }
   | { tipo: 'borrar-todo' };
 
@@ -281,8 +291,17 @@ export function reductor(estado: Estado, accion: Accion): Estado {
     case 'ir-a-portada':
       return { ...estado, fase: 'portada', editando: false };
 
+    case 'alternar-escala':
+      return { ...estado, escalaInvertida: !estado.escalaInvertida };
+
     case 'reiniciar':
-      return { ...ESTADO_INICIAL, ccaa: estado.ccaa, eleccion: estado.eleccion, modo: estado.modo };
+      return {
+        ...ESTADO_INICIAL,
+        ccaa: estado.ccaa,
+        eleccion: estado.eleccion,
+        modo: estado.modo,
+        escalaInvertida: estado.escalaInvertida,
+      };
 
     case 'borrar-todo':
       return { ...ESTADO_INICIAL };
@@ -354,6 +373,7 @@ export function cargarEstado(): Estado {
       editando: datos.editando === true,
       hitoIntermedio150Visto: datos.hitoIntermedio150Visto === true,
       perfilIntermedio: datos.perfilIntermedio === true,
+      escalaInvertida: datos.escalaInvertida === true,
     };
 
     if (datos.respuestas && typeof datos.respuestas === 'object') {

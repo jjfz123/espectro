@@ -61,7 +61,8 @@
   },
   {
     "id": "dem-005",
-    "texto": "Los jueces de las instancias superiores deberían ser elegidos directamente por la ciudadanía.",
+    "texto": "Los jueces de los tribunales más altos deberían ser elegidos directamente por la ciudadanía mediante votación.",
+    "terminos": ["independencia-judicial"],
     "modulo": "democracia-instituciones",
     "ejes": [],
     "polaridad": "positiva",
@@ -71,7 +72,8 @@
   },
   {
     "id": "dem-006",
-    "texto": "Los tribunales deben poder anular decisiones de una mayoría parlamentaria cuando vulneren derechos constitucionales.",
+    "texto": "Los tribunales deberían poder anular una ley aprobada por el Parlamento si consideran que vulnera derechos recogidos en la Constitución.",
+    "terminos": ["tribunal-constitucional", "separacion-de-poderes"],
     "modulo": "democracia-instituciones",
     "ejes": [
       { "eje": "pluralismo-institucional", "carga": 1 },
@@ -84,7 +86,8 @@
   },
   {
     "id": "dem-007",
-    "texto": "El Gobierno debería poder apartar temporalmente a jueces que bloqueen de forma reiterada su programa político.",
+    "texto": "El Gobierno debería poder apartar temporalmente de sus funciones a los jueces que bloqueen de forma reiterada su programa político.",
+    "terminos": ["separacion-de-poderes", "independencia-judicial"],
     "modulo": "democracia-instituciones",
     "ejes": [
       { "eje": "pluralismo-institucional", "carga": -1 },
@@ -98,6 +101,7 @@
   {
     "id": "dem-008",
     "texto": "La separación de poderes debe respetarse incluso cuando retrase decisiones apoyadas por una mayoría social.",
+    "terminos": ["separacion-de-poderes"],
     "modulo": "democracia-instituciones",
     "ejes": [
       { "eje": "pluralismo-institucional", "carga": 1 },
@@ -291,7 +295,7 @@
   },
   {
     "id": "dem-023",
-    "texto": "La policía debería poder exigir la identificación en lugares públicos con fines preventivos aunque no existan indicios individualizados de infracción.",
+    "texto": "La policía debería poder pedir la documentación en la calle con fines preventivos, aunque la persona no haya hecho nada que la haga sospechosa.",
     "modulo": "democracia-instituciones",
     "ejes": [
       { "eje": "libertades-civiles", "carga": -1 },

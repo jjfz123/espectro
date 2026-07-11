@@ -8,7 +8,12 @@
   "confianza": "verificada",
   "version": "1.0",
   "revisado": "2026-07-10",
-  "facetasDefinitorias": ["economico", "estatismo", "tradicion-moral", "laicismo"],
+  "facetasDefinitorias": [
+    "economico",
+    "estatismo",
+    "tradicion-moral",
+    "laicismo"
+  ],
   "sensibilidad": "normal",
   "advertencia": "Es un tipo ideal doctrinal británico sin partido español que lo encarne hoy: no debe confundirse con la democracia cristiana, que acepta la gran empresa regulada y el Estado social, ni con el nacionalsindicalismo falangista, cuyo sindicato vertical estatal es el arreglo que Belloc denuncia como servil. Las posiciones del eje social salen de lo que Chesterton sí escribió —familia, hogar y educación en What's Wrong with the World (1910)— con valores moderados; la inmigración y el orden público contemporáneos no están en el corpus y quedan sin codificar. Las territoriales aplican el principio subsidiario y localista de la doctrina como extensión razonada, señalada con calidad de evidencia baja.",
   "fuentesMarco": [
@@ -171,7 +176,8 @@
         "fecha": "1927",
         "consultado": "2026-07-10",
         "cita": "Distributism may be a dream; three acres and a cow may be a joke; cows may be fabulous animals; liberty may be a name; private enterprise may be a wild goose chase on which the world can go no further."
-      }
+      },
+      "grupoEvidencia": "pasaje-a08d16662882a8927c06"
     },
     "eco-006": {
       "valor": -1,
@@ -268,7 +274,8 @@
         "fecha": "1910",
         "consultado": "2026-07-10",
         "cita": "The only persons who seem to have nothing to do with the education of the children are the parents."
-      }
+      },
+      "grupoEvidencia": "pasaje-166e6cd037ad8aadae40"
     },
     "fem-012": {
       "valor": -2,
@@ -305,7 +312,8 @@
         "fecha": "1910",
         "consultado": "2026-07-10",
         "cita": "this institution of the home is the one anarchist institution. That is to say, it is older than law, and stands outside the State."
-      }
+      },
+      "grupoEvidencia": "pasaje-ca6645ebd467fc2721b5"
     },
     "der-014": {
       "valor": 1,

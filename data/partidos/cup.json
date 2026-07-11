@@ -4,12 +4,101 @@
   "siglas": "CUP",
   "ambito": "autonomico",
   "tipo": "partido",
-  "ccaa": ["catalunya"],
+  "ccaa": [
+    "catalunya"
+  ],
   "confianza": "verificada",
   "web": "https://cup.cat/",
-  "revisado": "2026-07-09",
+  "revisado": "2026-07-11",
   "actividad": "activa",
   "posiciones": {
+    "lab-016": {
+      "valor": 1,
+      "justificacion": "Defiende control público de los sectores estratégicos, pero su modelo reparte la propiedad entre formas públicas, comunitarias, colectivas y cooperativas. El respaldo al control público es claro; atribuirlo siempre al Estado sería excesivo.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Ponència final del Procés de Garbí",
+        "url": "https://procesdegarbi.cup.cat/wp-content/uploads/2024/09/PONENCIA-FINAL-AN-CUP.pdf",
+        "fecha": "2024-09",
+        "consultado": "2026-07-11",
+        "cita": "Una economia centrada en la planificació democràtica [...] i el control públic dels sectors estratègics."
+      },
+      "grupoEvidencia": "pasaje-6f47f3d74d0c74cc8e22"
+    },
+    "lab-017": {
+      "valor": 0,
+      "justificacion": "Combina propiedad y planificación públicas con poder obrero, estructuras comunitarias y cooperativas, sin establecer que todas las grandes empresas deban transferirse a cooperativas en vez de a entidades públicas. La alternativa del ítem divide su modelo real.",
+      "resolucionCero": {
+        "tipo": "modelo-mixto",
+        "explicacion": "La misma propuesta enumera y combina propiedad pública, colectiva, comunitaria y cooperativa, por lo que ninguno de los dos polos del ítem describe por sí solo el modelo documentado."
+      },
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Ponència final del Procés de Garbí",
+        "url": "https://procesdegarbi.cup.cat/wp-content/uploads/2024/09/PONENCIA-FINAL-AN-CUP.pdf",
+        "fecha": "2024-09",
+        "consultado": "2026-07-11",
+        "cita": "Promoure la transició cap a formes de propietat col·lectives, comunitàries, públiques i cooperatives."
+      },
+      "grupoEvidencia": "pasaje-0b0b0b0e0e9255036ea3"
+    },
+    "eco-002": {
+      "valor": -2,
+      "justificacion": "La ponencia propone un único modelo de titularidad, provisión y gestión pública de los servicios y la desprivatización de estos. Rechaza frontalmente que la gestión privada sanitaria sea la vía para mejorar eficiencia.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Ponència final del Procés de Garbí",
+        "url": "https://procesdegarbi.cup.cat/wp-content/uploads/2024/09/PONENCIA-FINAL-AN-CUP.pdf",
+        "fecha": "2024-09",
+        "consultado": "2026-07-11",
+        "cita": "Aconseguir un únic model de titularitat, provisió i gestió pública."
+      },
+      "grupoEvidencia": "pasaje-e884f59a36555fc89b84"
+    },
+    "soc-001": {
+      "valor": 2,
+      "justificacion": "Su propuesta oficial exige aplicar efectivamente las leyes autonómicas contra la LGTBIfobia y de igualdad LGTBI, con presupuesto, régimen sancionador y formación pública. Es evidencia directa de mantener y desarrollar la protección legal.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Feminisme — propostes per a l'alliberament sexual i de gènere",
+        "url": "https://feminisme.cup.cat/",
+        "consultado": "2026-07-11",
+        "cita": "Implementar de forma efectiva la Llei 11/2014 contra la LGBTI-fòbia [...] i la Llei 23/2018 d’Igualtat de les persones LGBTI."
+      },
+      "grupoEvidencia": "pasaje-96633885852a27b99274"
+    },
+    "izq-007": {
+      "valor": -2,
+      "justificacion": "Su objetivo estratégico final es establecer una república socialista mediante una estrategia de toma del poder. La fuente no formula abolir todo Estado, ni siquiera uno obrero; una posibilidad posterior no declarada no puede moderar la respuesta.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Ponència final del Procés de Garbí",
+        "url": "https://procesdegarbi.cup.cat/wp-content/uploads/2024/09/PONENCIA-FINAL-AN-CUP.pdf",
+        "fecha": "2024-09",
+        "consultado": "2026-07-11",
+        "cita": "La CUP té per objectiu estratègic final l’establiment d’una república socialista."
+      },
+      "grupoEvidencia": "pasaje-4fc84ac66b94d9d470c8"
+    },
+    "dem-017": {
+      "valor": 1,
+      "justificacion": "La CUP mantiene una participación parlamentaria consolidada, pero exige construir estructuras de decisión de poder popular y obrero que no operen mediante simple delegación representativa. El acuerdo es parcial: no propone todavía una sustitución completa del parlamento.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Ponència final del Procés de Garbí",
+        "url": "https://procesdegarbi.cup.cat/wp-content/uploads/2024/09/PONENCIA-FINAL-AN-CUP.pdf",
+        "fecha": "2024-09",
+        "consultado": "2026-07-11",
+        "cita": "Estructures de poder i presa de decisió [...] que no operin sota la lògica de la delegació i representativitat, sinó de poder popular i obrer."
+      },
+      "grupoEvidencia": "pasaje-bf6b6b414dcac4aacd31"
+    },
     "nac-001": {
       "valor": 2,
       "justificacion": "Defiende ruptura y desobediencia cuando el bloqueo institucional impide ejercer la soberanía catalana.",
@@ -305,10 +394,13 @@
       "calidadEvidencia": "media",
       "fuente": {
         "tipo": "declaracion",
-        "titulo": "La CUP demana dissoldre els antidisturbis de la Guàrdia Urbana",
-        "url": "https://www.naciodigital.cat/noticia/106183/cup/demana/dissoldre/antidisturbis/guardia/urbana",
-        "consultado": "2026-07-10"
-      }
+        "titulo": "La CUP exigeix dissoldre la BRIMO i prohibir els projectils de foam (El Nacional)",
+        "url": "https://www.elnacional.cat/ca/politica/cup-exigeix-dissoldre-brimo-prohibir-foam-dimissio-samper_584523_102.html",
+        "fecha": "2021-02-18",
+        "consultado": "2026-07-11",
+        "cita": "Volen la dissolució de la brigada antidisturbis (la BRIMO) i la prohibició dels projectils foam."
+      },
+      "grupoEvidencia": "pasaje-13132808c49cef637552"
     },
     "ter-002": {
       "valor": 2,

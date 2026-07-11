@@ -8,7 +8,12 @@
   "confianza": "verificada",
   "version": "1.0",
   "revisado": "2026-07-10",
-  "facetasDefinitorias": ["economico", "estatismo", "institucionalismo", "pluralismo-institucional"],
+  "facetasDefinitorias": [
+    "economico",
+    "estatismo",
+    "institucionalismo",
+    "pluralismo-institucional"
+  ],
   "sensibilidad": "normal",
   "advertencia": "Es un tipo ideal filosófico, no la ficha de ningún partido español: P-LIB tiene perfil propio con posiciones documentadas y puede apartarse de este tipo ideal en detalles concretos. El deslinde decisivo es frente al anarcocapitalismo, ya presente en el catálogo: el minarquismo conserva un Estado único con monopolio legítimo de la justicia y la seguridad (lib-002 en contra), mientras el anarcocapitalismo lo privatiza también (lib-002 a favor). Por eso este tipo ideal tampoco busca sustituir el sistema parlamentario por otro modelo, a diferencia del anarcocapitalismo, que sí apunta a una ruptura institucional completa.",
   "fuentesMarco": [
@@ -37,7 +42,8 @@
         "fecha": "1974",
         "consultado": "2026-07-10",
         "cita": "the minimal state is the most extensive state that can be justified. Any state more extensive violates people's rights."
-      }
+      },
+      "grupoEvidencia": "pasaje-2180212440e2b55267a3"
     },
     "lib-002": {
       "valor": -2,
@@ -62,7 +68,8 @@
         "fecha": "1974",
         "consultado": "2026-07-10",
         "cita": "Individuals have rights, and there are things no person or group may do to them (without violating their rights)."
-      }
+      },
+      "grupoEvidencia": "pasaje-249a31804a2b79690832"
     },
     "dem-028": {
       "valor": 2,
@@ -87,7 +94,8 @@
         "fecha": "1974",
         "consultado": "2026-07-10",
         "cita": "Taxation of earnings from labor is on a par with forced labor."
-      }
+      },
+      "grupoEvidencia": "pasaje-b5adbf6dbd6d62b658ce"
     },
     "eco-014": {
       "valor": -2,

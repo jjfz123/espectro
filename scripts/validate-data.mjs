@@ -125,6 +125,9 @@ const validaTermino = ajv.compile(leer('data/schemas/termino.schema.json'));
 const validaConvocatoria = ajv.compile(leer('data/schemas/convocatoria.schema.json'));
 const validaReferencia = ajv.compile(leer('data/schemas/referencia.schema.json'));
 const validaMapaIdeologias = ajv.compile(leer('data/schemas/mapa-ideologias.schema.json'));
+const validaInventarioIdeologias = ajv.compile(
+  leer('data/schemas/inventario-ideologias-imagen.schema.json'),
+);
 
 const fallo = (donde, detalle) => errores.push(`- ${donde}: ${detalle}`);
 const ajvErrores = (v) =>
@@ -218,8 +221,11 @@ for (const fichero of readdirSync(join(raiz, 'data/items'))) {
     itemsPorId.set(item.id, item);
     ordenItems.set(item.id, indiceItem++);
     if (!idsModulos.has(item.modulo)) fallo(donde, `módulo inexistente: ${item.modulo}`);
+    const ejesVistos = new Set();
     for (const c of item.ejes ?? []) {
       if (!idsEjes.has(c.eje)) fallo(donde, `eje inexistente: ${c.eje}`);
+      if (ejesVistos.has(c.eje)) fallo(donde, `eje repetido en el ítem: ${c.eje}`);
+      ejesVistos.add(c.eje);
     }
     if (item.uso === 'solo-mapa' && (item.ejes?.length ?? 0) === 0) {
       fallo(donde, 'un ítem solo-mapa debe cargar al menos una faceta; si no, no produciría ningún resultado');
@@ -273,6 +279,38 @@ for (const item of itemsPorId.values()) {
 }
 for (const t of idsTerminos) {
   if (!terminosUsados.has(t)) fallo(`glosario.json (${t})`, 'término sin ningún ítem que lo use');
+}
+
+// El rápido tiene orden e identidad canónicos fuera del glob de Vite: un
+// fichero nuevo o reordenado no puede alterar silenciosamente sus 50 preguntas.
+const rapido = leer('data/rapido.json');
+const idsRapidos = Array.isArray(rapido.ids) ? rapido.ids : [];
+const idsAmpliacionRapida = Array.isArray(rapido.idsAmpliacion2026)
+  ? rapido.idsAmpliacion2026
+  : [];
+if (idsRapidos.length !== 50) fallo('rapido.json', `debe contener 50 ids, contiene ${idsRapidos.length}`);
+if (new Set(idsRapidos).size !== idsRapidos.length) fallo('rapido.json', 'contiene ids duplicados');
+if (idsAmpliacionRapida.length !== 10) {
+  fallo('rapido.json', `la ampliación debe contener 10 ids, contiene ${idsAmpliacionRapida.length}`);
+}
+if (new Set(idsAmpliacionRapida).size !== idsAmpliacionRapida.length) {
+  fallo('rapido.json', 'la ampliación contiene ids duplicados');
+}
+if (idsRapidos.slice(-idsAmpliacionRapida.length).join('|') !== idsAmpliacionRapida.join('|')) {
+  fallo('rapido.json', 'los diez ids de ampliación deben cerrar el recorrido rápido');
+}
+for (const itemId of idsRapidos) {
+  const item = itemsPorId.get(itemId);
+  if (!item) fallo('rapido.json', `ítem inexistente: ${itemId}`);
+  else if (item.estado === 'retirado') fallo('rapido.json', `ítem retirado: ${itemId}`);
+  else if (item.modulo !== 'nucleo') fallo('rapido.json', `ítem fuera del núcleo: ${itemId}`);
+}
+const nucleoVigente = [...itemsPorId.values()]
+  .filter((item) => item.modulo === 'nucleo' && item.estado !== 'retirado')
+  .map((item) => item.id);
+const fueraDelManifiesto = nucleoVigente.filter((itemId) => !idsRapidos.includes(itemId));
+if (fueraDelManifiesto.length > 0) {
+  fallo('rapido.json', `ítems vigentes del núcleo fuera del manifiesto: ${fueraDelManifiesto.join(', ')}`);
 }
 
 // 5. Partidos (los ficheros que empiezan por "_" son plantillas y se omiten)
@@ -421,10 +459,22 @@ const mapaIdeologias = leer('data/mapa-ideologias.json');
 if (!validaMapaIdeologias(mapaIdeologias)) {
   fallo('mapa-ideologias.json', ajvErrores(validaMapaIdeologias));
 }
+const inventarioIdeologias = leer('data/inventario-ideologias-imagen.json');
+if (!validaInventarioIdeologias(inventarioIdeologias)) {
+  fallo(
+    'inventario-ideologias-imagen.json',
+    ajvErrores(validaInventarioIdeologias),
+  );
+}
 
 const corrientesAtlas = Array.isArray(mapaIdeologias.corrientes)
   ? mapaIdeologias.corrientes
   : [];
+const anclasRegionalesAtlas = corrientesAtlas.filter((corriente) => corriente.capa === 'region');
+const regionesAtlas = anclasRegionalesAtlas.filter(
+  (corriente) => corriente.publicacionGeometrica === 'publicada',
+);
+const avisosAtlas = [];
 const umbralesAtlas = mapaIdeologias.umbrales ?? {};
 const subdimensionesXAtlas = mapaIdeologias.sistema?.subdimensionesX ?? {};
 const familiasYAtlas = mapaIdeologias.sistema?.familiasY ?? {};
@@ -443,7 +493,11 @@ for (const [subdimension, ids] of Object.entries(subdimensionesXAtlas)) {
     if (!item) fallo(`mapa-ideologias.json (subdimensión ${subdimension})`, `ítem inexistente: ${itemId}`);
     else if (item.estado === 'retirado') {
       fallo(`mapa-ideologias.json (subdimensión ${subdimension})`, `ítem retirado: ${itemId}`);
-    } else if (!item.ejes?.some((entrada) => entrada.eje === 'propiedad-mercado')) {
+    } else if (
+      !item.ejes?.some(
+        (entrada) => entrada.eje === 'propiedad-mercado' && entrada.carga !== 0,
+      )
+    ) {
       fallo(
         `mapa-ideologias.json (subdimensión ${subdimension})`,
         `el ítem ${itemId} no carga en propiedad-mercado`,
@@ -457,7 +511,11 @@ for (const [familia, ids] of Object.entries(familiasYAtlas)) {
     if (!item) fallo(`mapa-ideologias.json (familiaY ${familia})`, `ítem inexistente: ${itemId}`);
     else if (item.estado === 'retirado') {
       fallo(`mapa-ideologias.json (familiaY ${familia})`, `ítem retirado: ${itemId}`);
-    } else if (!item.ejes?.some((entrada) => entrada.eje === 'autoridad-politica')) {
+    } else if (
+      !item.ejes?.some(
+        (entrada) => entrada.eje === 'autoridad-politica' && entrada.carga !== 0,
+      )
+    ) {
       fallo(
         `mapa-ideologias.json (familiaY ${familia})`,
         `el ítem ${itemId} no carga en autoridad-politica`,
@@ -541,19 +599,29 @@ for (const corriente of corrientesAtlas) {
   if (nombresCorrientesAtlas.has(corriente.nombre)) fallo(donde, 'nombre de corriente duplicado');
   idsCorrientesAtlas.add(corriente.id);
   nombresCorrientesAtlas.add(corriente.nombre);
-  familiasAtlas.add(corriente.familia);
+  if (corriente.publicacionGeometrica === 'publicada') familiasAtlas.add(corriente.familia);
 
-  const claveCoordenada = `${corriente.coordenadas?.x},${corriente.coordenadas?.y}`;
-  if (coordenadasCorrientesAtlas.has(claveCoordenada)) {
-    fallo(donde, `coordenada final duplicada: ${claveCoordenada}`);
+  if (corriente.publicacionGeometrica === 'publicada') {
+    const claveCoordenada = `${corriente.coordenadas?.x},${corriente.coordenadas?.y}`;
+    if (coordenadasCorrientesAtlas.has(claveCoordenada)) {
+      fallo(donde, `coordenada final duplicada: ${claveCoordenada}`);
+    }
+    coordenadasCorrientesAtlas.add(claveCoordenada);
+
+    const { x, y } = corriente.coordenadas ?? {};
+    if (x < 0 && y > 0) cuadrantesAtlas['izquierda-arriba']++;
+    if (x > 0 && y > 0) cuadrantesAtlas['derecha-arriba']++;
+    if (x < 0 && y < 0) cuadrantesAtlas['izquierda-abajo']++;
+    if (x > 0 && y < 0) cuadrantesAtlas['derecha-abajo']++;
   }
-  coordenadasCorrientesAtlas.add(claveCoordenada);
 
-  const { x, y } = corriente.coordenadas ?? {};
-  if (x < 0 && y > 0) cuadrantesAtlas['izquierda-arriba']++;
-  if (x > 0 && y > 0) cuadrantesAtlas['derecha-arriba']++;
-  if (x < 0 && y < 0) cuadrantesAtlas['izquierda-abajo']++;
-  if (x > 0 && y < 0) cuadrantesAtlas['derecha-abajo']++;
+  if (
+    corriente.capa === 'region' &&
+    corriente.estado === 'investigacion' &&
+    corriente.publicacionGeometrica !== 'bloqueada-investigacion'
+  ) {
+    fallo(donde, 'una región en investigación no puede publicar geometría');
+  }
 
   for (const itemId of corriente.preguntasDiscriminantes ?? []) {
     const item = itemsPorId.get(itemId);
@@ -561,12 +629,33 @@ for (const corriente of corrientesAtlas) {
     else if (item.estado === 'retirado') fallo(donde, `pregunta discriminante retirada: ${itemId}`);
   }
 
+  const priorTrazable = corriente.trazabilidadOriginal?.coordenadasOriginales;
+  if (
+    priorTrazable &&
+    (corriente.coordenadasPrior?.x !== priorTrazable.x ||
+      corriente.coordenadasPrior?.y !== priorTrazable.y)
+  ) {
+    fallo(
+      donde,
+      'coordenadasPrior debe conservar coordenadasOriginales cuando una región sustituye otro rótulo',
+    );
+  }
   const distanciaPrior = distanciaCoordenadas(
-    corriente.coordenadasPrior,
+    priorTrazable ?? corriente.coordenadasPrior,
     corriente.coordenadas,
   );
   if (distanciaPrior > (umbralesAtlas.maximaDistanciaConJustificacion ?? Infinity)) {
-    fallo(donde, `se aleja ${distanciaPrior.toFixed(1)} puntos del prior visual; supera el máximo absoluto`);
+    const sustitucionRevisada =
+      priorTrazable &&
+      corriente.desviacionJustificada &&
+      corriente.revisionEditorialDoble &&
+      distanciaPrior <= (umbralesAtlas.maximaDistanciaMotorConJustificacion ?? Infinity);
+    if (!sustitucionRevisada) {
+      fallo(
+        donde,
+        `se aleja ${distanciaPrior.toFixed(1)} puntos del prior visual; una sustitución que supera el máximo exige justificación y revisión editorial doble`,
+      );
+    }
   } else if (
     distanciaPrior > (umbralesAtlas.maximaDistanciaSinJustificar ?? Infinity) &&
     !corriente.desviacionJustificada
@@ -575,12 +664,13 @@ for (const corriente of corrientesAtlas) {
   }
 
   if (corriente.estado !== 'instrumentada') continue;
-  nInstrumentadasAtlas++;
   const referencia = referenciaPorId.get(corriente.referenciaId);
   if (!referencia) {
     fallo(donde, `referenciaId inexistente: ${corriente.referenciaId ?? '(vacío)'}`);
     continue;
   }
+  if (corriente.publicacionGeometrica !== 'publicada') continue;
+  nInstrumentadasAtlas++;
   if (
     referencia.sensibilidad &&
     referencia.sensibilidad !== 'normal' &&
@@ -628,27 +718,78 @@ for (const corriente of corrientesAtlas) {
   }
 }
 
-if (corrientesAtlas.length < (umbralesAtlas.minimoCorrientes ?? Infinity)) {
-  fallo('mapa-ideologias.json', `solo contiene ${corrientesAtlas.length} corrientes`);
+const numerosInventario = new Set();
+const etiquetasInventario = new Set();
+const exclusionAtlasPorEtiqueta = new Set(
+  (mapaIdeologias.exclusiones ?? []).map((exclusion) => exclusion.etiquetaOriginal),
+);
+let sustitucionesDesacopladas = 0;
+for (const rotulo of inventarioIdeologias.rotulos ?? []) {
+  const donde = `inventario-ideologias-imagen.json (${rotulo.numero ?? '?'})`;
+  if (numerosInventario.has(rotulo.numero)) fallo(donde, 'número original duplicado');
+  if (etiquetasInventario.has(rotulo.etiquetaOriginal)) fallo(donde, 'rótulo original duplicado');
+  numerosInventario.add(rotulo.numero);
+  etiquetasInventario.add(rotulo.etiquetaOriginal);
+  const tratamiento = rotulo.tratamientoActual ?? {};
+  if (tratamiento.clase === 'exclusion') {
+    if (!exclusionAtlasPorEtiqueta.has(rotulo.etiquetaOriginal)) {
+      fallo(donde, 'la exclusión no existe en el contrato actual');
+    }
+    continue;
+  }
+  const corriente = corrientesAtlas.find((entrada) => entrada.id === tratamiento.corrienteId);
+  if (!corriente) {
+    fallo(donde, `corriente actual inexistente: ${tratamiento.corrienteId ?? '(vacía)'}`);
+    continue;
+  }
+  if (tratamiento.equivalenciaConCorriente === false) {
+    sustitucionesDesacopladas++;
+    if (corriente.trazabilidadOriginal?.etiquetaOriginal !== rotulo.etiquetaOriginal) {
+      fallo(donde, 'el registro contextual no coincide con trazabilidadOriginal');
+    }
+    if (corriente.etiquetaOriginal === rotulo.etiquetaOriginal) {
+      fallo(donde, 'el sustituto todavía usa el rótulo original como identidad técnica');
+    }
+  } else if (corriente.etiquetaOriginal !== rotulo.etiquetaOriginal) {
+    fallo(donde, 'la equivalencia declarada no coincide con la etiqueta de la corriente');
+  }
+}
+if (sustitucionesDesacopladas !== 15) {
+  fallo(
+    'inventario-ideologias-imagen.json',
+    `se esperaban 15 sustituciones desacopladas y hay ${sustitucionesDesacopladas}`,
+  );
+}
+
+if (regionesAtlas.length < (umbralesAtlas.minimoCorrientes ?? Infinity)) {
+  avisosAtlas.push(
+    `densidad: ${regionesAtlas.length} regiones publicadas frente a la referencia ${umbralesAtlas.minimoCorrientes}`,
+  );
 }
 if (nInstrumentadasAtlas < (umbralesAtlas.minimoInstrumentadas ?? Infinity)) {
-  fallo('mapa-ideologias.json', `solo ${nInstrumentadasAtlas} corrientes están instrumentadas`);
+  avisosAtlas.push(
+    `documentación: ${nInstrumentadasAtlas} regiones publicadas instrumentadas frente a la referencia ${umbralesAtlas.minimoInstrumentadas}`,
+  );
 }
 if (familiasAtlas.size < (umbralesAtlas.minimoFamilias ?? Infinity)) {
-  fallo('mapa-ideologias.json', `solo cubre ${familiasAtlas.size} familias doctrinales`);
+  avisosAtlas.push(
+    `cobertura: ${familiasAtlas.size} familias publicadas frente a la referencia ${umbralesAtlas.minimoFamilias}`,
+  );
 }
 for (const [cuadrante, numero] of Object.entries(cuadrantesAtlas)) {
   if (numero < (umbralesAtlas.minimoPorCuadrante ?? Infinity)) {
-    fallo('mapa-ideologias.json', `${cuadrante} solo tiene ${numero} anclas`);
+    avisosAtlas.push(
+      `cuadrante ${cuadrante}: ${numero} regiones publicadas frente a la referencia ${umbralesAtlas.minimoPorCuadrante}`,
+    );
   }
 }
 
 // Auditoría geométrica discreta, determinista y barata. La misma rejilla
 // estima la mayor región y el agujero más alejado; los umbrales dejan margen
 // suficiente para que la aproximación no falle por una centésima.
-if (corrientesAtlas.length > 0) {
+if (regionesAtlas.length > 0) {
   const ladoAuditoria = 121;
-  const celdasPorCorriente = new Array(corrientesAtlas.length).fill(0);
+  const celdasPorCorriente = new Array(regionesAtlas.length).fill(0);
   let radioVacio = 0;
   for (let fila = 0; fila < ladoAuditoria; fila++) {
     const y = 100 - (200 * fila) / (ladoAuditoria - 1);
@@ -656,7 +797,7 @@ if (corrientesAtlas.length > 0) {
       const x = -100 + (200 * columna) / (ladoAuditoria - 1);
       let mejor = 0;
       let distanciaMejor = Infinity;
-      corrientesAtlas.forEach((corriente, indice) => {
+      regionesAtlas.forEach((corriente, indice) => {
         const distancia = Math.hypot(
           x - corriente.coordenadas.x,
           y - corriente.coordenadas.y,
@@ -672,15 +813,13 @@ if (corrientesAtlas.length > 0) {
   }
   const areaMayor = (100 * Math.max(...celdasPorCorriente)) / (ladoAuditoria ** 2);
   if (areaMayor > (umbralesAtlas.maximaAreaRegionPorcentaje ?? Infinity) + 0.15) {
-    fallo(
-      'mapa-ideologias.json',
-      `la región mayor ocupa aproximadamente ${areaMayor.toFixed(2)} %, por encima del umbral`,
+    avisosAtlas.push(
+      `área: la región mayor ocupa aproximadamente ${areaMayor.toFixed(2)} %, por encima de la referencia`,
     );
   }
   if (radioVacio > (umbralesAtlas.maximoRadioVacio ?? Infinity) + 0.5) {
-    fallo(
-      'mapa-ideologias.json',
-      `el mayor vacío tiene radio aproximado ${radioVacio.toFixed(1)}, por encima del umbral`,
+    avisosAtlas.push(
+      `vacío: radio aproximado ${radioVacio.toFixed(1)}, por encima de la referencia`,
     );
   }
 }
@@ -765,6 +904,7 @@ for (const fichero of readdirSync(join(raiz, 'data/sindicatos'))) {
   if (!validaSindicato(sindicato)) fallo(donde, ajvErrores(validaSindicato));
   if (idsSindicatos.has(sindicato.id)) fallo(donde, 'id duplicado');
   if (idsReferencias.has(sindicato.id)) fallo(donde, 'id compartido con una referencia doctrinal');
+  if (idsPartidos.has(sindicato.id)) fallo(donde, 'id compartido con un partido real');
   idsSindicatos.add(sindicato.id);
   if (
     ['autonomico', 'territorial'].includes(sindicato.ambito) &&
@@ -797,6 +937,12 @@ for (const fichero of readdirSync(join(raiz, 'data/sindicatos'))) {
 if (errores.length > 0) {
   console.error(`✗ ${errores.length} error(es) de validación:\n${errores.join('\n')}`);
   process.exit(1);
+}
+
+if (avisosAtlas.length > 0) {
+  console.warn(
+    `⚠ ${avisosAtlas.length} diagnóstico(s) de cobertura del atlas (no bloquean ni justifican rellenar huecos):\n${avisosAtlas.map((aviso) => `- ${aviso}`).join('\n')}`,
+  );
 }
 
 // Aviso (no bloquea): sesgo de evidencia-bandera en los ejes del mapa.

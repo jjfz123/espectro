@@ -482,7 +482,8 @@
   },
   {
     "id": "soc-006",
-    "texto": "La prisión permanente revisable debería derogarse.",
+    "texto": "La prisión permanente revisable debería suprimirse.",
+    "terminos": ["prision-permanente-revisable"],
     "modulo": "nucleo",
     "ejes": [
       {
@@ -504,7 +505,8 @@
   },
   {
     "id": "nuc-001",
-    "texto": "Los vocales judiciales del Consejo General del Poder Judicial deben ser elegidos por los propios jueces y no por el Parlamento.",
+    "texto": "Los doce vocales judiciales del Consejo General del Poder Judicial deberían ser elegidos directamente por los propios jueces, en vez de por el Parlamento.",
+    "terminos": ["consejo-general-poder-judicial", "independencia-judicial"],
     "modulo": "nucleo",
     "ejes": [],
     "polaridad": "positiva",
@@ -648,7 +650,7 @@
   },
   {
     "id": "pop-003",
-    "texto": "Gobierne el PSOE o el PP, al final se aplican políticas muy parecidas.",
+    "texto": "Aunque se alternen partidos de gobierno distintos, al final suelen aplicarse políticas muy parecidas.",
     "modulo": "nucleo",
     "ejes": [
       {

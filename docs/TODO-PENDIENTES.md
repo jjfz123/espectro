@@ -5,9 +5,10 @@ Las prioridades evitan que «más partidos» desplace los problemas reales de pr
 
 ## P0 — antes de presentar la rama como terminada
 
-- [x] Matriz final de corte ejecutada con instrumento v4: datos (46 referencias y atlas de 78 corrientes), TypeScript raíz/web, Vitest, build Vite 7, presupuestos, Playwright 21/21 y `git diff --check`; incluye la regresión de desborde horizontal a 320 px añadida tras la revisión visual.
+- [ ] Cerrar el [TODO nominal de cartografía, ranking y resultados compartibles](./TODO-MAPEO-EXHAUSTIVO.md): contiene una casilla para cada uno de los 65 partidos reales, cada uno de los 178 rótulos de la imagen y cada requisito de enlaces/capturas. Los totales agregados no sustituyen esas casillas.
+- [ ] Matriz final de corte por repetir después de corregir el atlas y los contratos de partidos. Última foto preintegración: 61 referencias, 175 entradas/94 regiones, TypeScript raíz/web y Vitest 180/180 verdes; build/presupuestos y Playwright 23/23 verdes sobre el snapshot auditado, no todavía sobre el diff final.
 - [ ] Hacer un smoke test manual completo: rápido → provisional → exhaustivo → revisión → resultados → cambio de elección/CCAA → reinicio.
-- [x] Revisión visual manual de portada, pregunta, hito/perfil intermedio, resultados, brújula, selección y fichas a 320, 390 y 1440 px, incluida apariencia oscura; sin desborde horizontal. Sigue pendiente convertir esas capturas en regresión automatizada.
+- [ ] Repetir la revisión visual manual de portada, pregunta, hito/perfil intermedio, resultados, brújula, selección y fichas a 320, 390 y 1440 px, incluida apariencia oscura, sobre el build final; la revisión anterior no cubre las capas y fichas nuevas.
 - [ ] Auditar el diff final y publicar primero en `claude/espectro-political-vaa-3d35l3`. Promover a `main` solo después de revisar la versión desplegada; no se presupone que ambas ramas deban apuntar al mismo commit durante el trabajo.
 
 ## P1 — solicitudes funcionales aún incompletas
@@ -25,14 +26,14 @@ Las prioridades evitan que «más partidos» desplace los problemas reales de pr
 
 - [x] Cubo 3D: anticolisión rótulo-polo hecha (el polo pisado cede atenuándose mientras dura el solape, medido sobre el DOM proyectado con cualquier ángulo de cámara).
 - [x] Mapa 2D: el plano detallado conserva anticolisión radial y elisión; la brújula limpia deja todos los puntos visibles y revela un solo nombre de partido por hover/foco/toque. Las zonas doctrinales usan polígonos de Voronoi vectoriales, sin franjas ni bordes escalonados.
-- [x] Brújula degradada e interactiva: atlas continuo de 78 corrientes adaptadas, rótulos doctrinales ocultos por defecto y ficha en español con definición, encaje, preguntas discriminantes, cautelas y fuentes cuando existe referencia instrumentada. La capa rápida/intermedia contiene 28 corrientes A y las 50 B requieren profundidad expresa; el perfil exhaustivo abre las 78.
+- [ ] Brújula degradada e interactiva: existen 175 entradas, de las que 94 son regiones, pero las 15 sustituciones, su alcanzabilidad y la coherencia entre prior/evidencia siguen abiertas; no presentar el atlas como cerrado hasta resolver la auditoría adversarial.
 
-- [x] Dividir el bundle. Build de corte con 46 referencias y atlas: inicial 364 kB/102,2 KiB gzip; resultados y catálogos 1.695 kB/379,9 KiB gzip; 3D 926 kB/244,2 KiB gzip; PWA completa 2,93 MiB. CI aplica presupuestos de 120/390/300 KiB gzip y 3,20 MiB totales; cualquier nueva subida del límite exige justificar datos o código añadido.
+- [x] Dividir el bundle. Snapshot con 61 referencias y atlas lazy: inicial 102,9 KiB gzip; Resultados 263,3; atlas 155,4; referencias 141,9; visor compartido 5,0; 3D 244,2; PWA 3,09 MiB. CI aplica presupuestos independientes y cualquier subida exige justificar datos o código añadido.
 - [x] Cargar `Resultados` y sus catálogos con `React.lazy`/`import()` y separar `datosResultados.ts` de los datos necesarios para el cuestionario. La portada muestra el número de perfiles reales mediante un recuento en tiempo de build (`__PERFILES_REALES__`).
 - [ ] Revisar visualmente el catálogo de hasta 31 candidaturas, las referencias de escala y los dobles marcadores en pantallas pequeñas.
-- [x] Playwright cubre 21 flujos: teclado Likert, `Sin opinión`, ramas condicionales, recarga, fallo y recuperación de almacenamiento, rápido → provisional → exhaustivo, hito intermedio de 150 respuestas, 320 px sin desborde horizontal, contexto electoral incompleto, partido monotemático, referencias sensibles sin gamificación, brújula vectorial interactiva, axe, recuperación 3D y PWA offline.
+- [x] Playwright cubre 23 flujos en Chromium, incluidos compartir/privacidad, carga lazy, teclado Likert, `Sin opinión`, ramas condicionales, rápido → provisional → exhaustivo, hito de 150, 320 px, contexto electoral, referencias sensibles, brújula, axe, recuperación 3D y PWA offline. WebKit/Firefox y dispositivos reales siguen abiertos.
 - [ ] Añadir pruebas visuales o capturas de referencia para portada, pregunta, módulos, perfil, ranking y detalle.
-- [x] Auditoría Lighthouse y lector de pantalla hechas: portada 99-100/100/100/100 y resultados con rendimiento 82→100 (CLS 0.213→0, LCP 3,2s→1,2s, robots.txt real); targets táctiles ≥44 px con `@media (pointer: coarse)`; axe-core 0 violaciones en las siete superficies; región viva que anuncia la respuesta por atajos 1-5/0. Señalado sin corregir: ~32 KiB de JS sin usar en el chunk inicial; sin sourcemaps de producción.
+- [ ] Repetir Lighthouse, lector de pantalla y CWV sobre el build desplegado final. El corte anterior alcanzó portada 99-100/100/100/100, resultados 100, CLS 0 y LCP 1,2 s, targets ≥44 px y axe 0, pero no valida el diff final ni INP/WebKit.
 - [ ] Incorporar un límite/virtualización o paginación suave si el catálogo de candidaturas crece mucho más.
 - [x] Límites de error global y 3D con recuperación; toda recarga vuelve a guardar y queda bloqueada si la sesión solo vive en memoria.
 - [ ] Integrar History API y política Atrás/Adelante antes de Capacitor.
@@ -50,14 +51,14 @@ La recomendación es una sola base responsive convertida primero en **PWA**; man
 
 ## P2 — cobertura política y electoral
 
-- [x] **Criterio sistemático de cobertura**: top-20 de las últimas generales, familias comunistas activas y extrema derecha activa. Catálogo actual: 67 partidos, 64 comparables, tres paraguas `sin-datos` y un perfil monotemático separado.
+- [x] **Criterio sistemático de cobertura**: top-20 de las últimas generales, familias comunistas activas y extrema derecha activa. Catálogo actual: 65 perfiles reales, 61 comparables para afinidad general, tres `sin-datos`, un monotemático y dos demos excluidas de producción.
 - [x] Volt: 12 posiciones económicas/sociales/territoriales añadidas desde sus programas; ya aparece en Economía × Sociedad sin inventar los planos aún insuficientes.
 - [x] Nueva Canarias: moderadoras `eco-013` e `izq-044` documentadas; deja de proyectarse artificialmente en −100 económico/social.
 - [ ] Aliança Catalana: encontrar una moderadora territorial primaria atribuible al partido. Los totales del Pleno no bastan para imputar su voto; se mantiene el aviso antes que introducir una inferencia débil.
 - [x] Verificación primaria: Podemos enlazado como componente de Sumar 2023 y PCPA enlazado como organización territorial del PCPE con JEC/PCPE, sin heredar posiciones.
 - [x] Escaños en Blanco: `dem-036` y perfil monotemático verificado. Solo aparece como coincidencia específica, nunca como porcentaje de afinidad general.
 
-- [ ] El inventario tiene 323 candidaturas en 21 convocatorias y 67 perfiles (64 comparables). Seguir priorizando por votos, representación y capacidad discriminante; no rellenar cientos de fichas superficialmente.
+- [ ] El inventario tiene 323 candidaturas en 21 convocatorias y 65 perfiles reales (61 comparables para afinidad general). Cerrar el anexo nominal por identidad/relación y seguir priorizando por votos, representación y capacidad discriminante; no rellenar cientos de fichas superficialmente.
 - [ ] Completar perfiles canarios: Drago, ASG, AHI, Unidos por Gran Canaria y otros con evidencia suficiente (Nueva Canarias ya tiene perfil verificado y enlazado).
 - [ ] Completar perfiles andaluces: Adelante, Por Andalucía, Andalucistas, Jaén Merece Más y PCPA, respetando identidad exacta.
 - [ ] Completar candidaturas territoriales de Catalunya, Euskadi, Navarra, Galicia y otras CCAA que siguen como inventario sin datos.
@@ -71,7 +72,7 @@ La recomendación es una sola base responsive convertida primero en **PWA**; man
 - [ ] Pilotar las 50 preguntas con datos reales: discriminación, fiabilidad por faceta, no respuesta, efecto de orden y funcionamiento diferencial por grupos.
 - [ ] Revisar los umbrales de publicación de referencias doctrinales tras el piloto; ahora son reglas transparentes, no estimaciones empíricamente calibradas.
 - [ ] Equilibrar la evidencia macro de Eurocomunismo y Democracia cristiana antes de devolverlas a los cuadrantes. Siguen disponibles en el matching doctrinal, pero se excluyen del mapa con motivo visible para evitar coordenadas engañosas.
-- [x] Taxonomía maestra de la imagen: 178 etiquetas clasificadas A–F y 78 corrientes A/B trasladadas al atlas serio. La imagen fija como norma visual la gramática espacial, densidad, continuidad y posición relativa; no actúa como fuente factual ni obliga a conservar memes, ficción, movimientos o rasgos transversales como ideologías.
+- [ ] Taxonomía maestra de la imagen: 178 etiquetas clasificadas A–F y 175 entradas A/B trasladadas a capas, 94 como regiones. Falta cerrar las 30 revisiones nominales, hacer buscables los contextos sustituidos y regenerar los recuentos metodológicos antes de considerar serio el atlas.
 - [x] Brújula v4 separada en dos facetas directas: propiedad/coordinación económica y poder político/libertades. El nivel sólido usa 6/3 y 6/3/2; solo los partidos pueden aparecer además como punto provisional hueco con 3/2 y 3/2/1. Una sola pregunta nunca fabrica una posición y las referencias no heredan el umbral provisional.
 - [x] Primera tanda transversal añadida sin partidos: leninismo bolchevique, marxismo-leninismo soviético en fase estaliniana, socialismo democrático pluralista, fascismo italiano de régimen y neoliberalismo friedmaniano; Posadismo ampliado con evidencia suficiente en ambos macroejes.
 - [x] Segunda tanda P1 añadida: luxemburgismo, ecosocialismo, anarquismo colectivista, plataformismo, comunalismo, anarcopacifismo, abolicionismo animal, republicanismo federal pimargalliano y socialismo de mercado autogestionario. Las fichas sin macroejes suficientes siguen en matching y no reciben una coordenada inventada.

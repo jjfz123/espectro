@@ -3,6 +3,21 @@ import mapaJson from '@data/mapa-ideologias.json';
 export type DecisionAtlas = 'A' | 'B' | 'E';
 export type EstadoAtlas = 'instrumentada' | 'informativa' | 'investigacion';
 export type SensibilidadAtlas = 'normal' | 'antipluralista' | 'violenta';
+export type CapaAtlas = 'region' | 'faceta' | 'contexto' | 'diagnostico' | 'modelo-historico';
+export type PublicacionGeometricaAtlas = 'publicada' | 'bloqueada-investigacion';
+
+/** Nombres editoriales para la interfaz; los ids del contrato nunca se muestran en crudo. */
+export const NOMBRE_CAPA_ATLAS: Readonly<Record<CapaAtlas, string>> = {
+  region: 'región ideológica',
+  faceta: 'faceta transversal',
+  contexto: 'contexto histórico o comparado',
+  diagnostico: 'diagnóstico institucional',
+  'modelo-historico': 'modelo histórico',
+};
+
+export function nombreCapaAtlas(capa: CapaAtlas): string {
+  return NOMBRE_CAPA_ATLAS[capa];
+}
 
 export interface CoordenadasAtlas {
   x: number;
@@ -14,17 +29,28 @@ export interface CorrienteAtlas {
   nombre: string;
   etiquetaOriginal: string;
   familia: string;
+  capa: CapaAtlas;
   decision: DecisionAtlas;
   coordenadasPrior: CoordenadasAtlas;
   coordenadas: CoordenadasAtlas;
   origenCoordenadas: 'referencia-visual' | 'adaptacion-espanola' | 'sintesis-editorial';
   estado: EstadoAtlas;
+  publicacionGeometrica?: PublicacionGeometricaAtlas;
   referenciaId?: string;
   definicion: string;
   encajeEspana: string;
   preguntasDiscriminantes: string[];
   sensibilidad: SensibilidadAtlas;
   desviacionJustificada?: string;
+  trazabilidadOriginal?: {
+    etiquetaOriginal: string;
+    nombreOriginal: string;
+    numeroOriginal: number;
+    decisionOriginal: 'A' | 'B' | 'C' | 'D' | 'E' | 'F';
+    capa: Exclude<CapaAtlas, 'region'>;
+    motivo: string;
+    coordenadasOriginales: CoordenadasAtlas;
+  };
 }
 
 interface ContratoAtlas {
@@ -61,6 +87,18 @@ interface ContratoAtlas {
 /** Contrato validado en CI; la interfaz no inventa anclas ni umbrales. */
 export const CONTRATO_ATLAS = mapaJson as unknown as ContratoAtlas;
 export const CORRIENTES_ATLAS = CONTRATO_ATLAS.corrientes;
+/** Todas las doctrinas integrales nominales, también si su geometría sigue bloqueada. */
+export const ANCLAS_REGIONALES_ATLAS = CORRIENTES_ATLAS.filter(
+  (corriente) => corriente.capa === 'region',
+);
+/** Solo estas entradas pueden poseer una celda geométrica o ser «la más cercana». */
+export const REGIONES_ATLAS = ANCLAS_REGIONALES_ATLAS.filter(
+  (corriente) => corriente.publicacionGeometrica === 'publicada',
+);
+/** Permanecen buscables, pero no poseen Voronoi ni cercanía mientras se investigan. */
+export const ANCLAS_ATLAS_BLOQUEADAS = ANCLAS_REGIONALES_ATLAS.filter(
+  (corriente) => corriente.publicacionGeometrica === 'bloqueada-investigacion',
+);
 export const CORRIENTE_ATLAS_POR_ID: ReadonlyMap<string, CorrienteAtlas> = new Map(
   CORRIENTES_ATLAS.map((corriente) => [corriente.id, corriente]),
 );
@@ -76,10 +114,89 @@ export const CORRIENTE_ATLAS_POR_ID: ReadonlyMap<string, CorrienteAtlas> = new M
 export function corrientesAtlasVisibles(
   incluirProfundidad: boolean,
 ): readonly CorrienteAtlas[] {
+  return REGIONES_ATLAS.filter(
+    (corriente) =>
+      corriente.decision === 'A' ||
+      (incluirProfundidad && corriente.decision === 'B'),
+  );
+}
+
+/** Anclas nominales visibles que siguen en investigación y no poseen una celda. */
+export function anclasAtlasBloqueadasVisibles(
+  incluirProfundidad: boolean,
+): readonly CorrienteAtlas[] {
+  return ANCLAS_ATLAS_BLOQUEADAS.filter(
+    (corriente) =>
+      corriente.decision === 'A' ||
+      (incluirProfundidad && corriente.decision === 'B'),
+  );
+}
+
+/** Catálogo nominal: conserva facetas, contextos, diagnósticos y modelos fuera de Voronoi. */
+export function entradasAtlasExplorables(
+  incluirProfundidad: boolean,
+): readonly CorrienteAtlas[] {
   return CORRIENTES_ATLAS.filter(
     (corriente) =>
       corriente.decision === 'A' ||
       (incluirProfundidad && corriente.decision === 'B'),
+  );
+}
+
+export type VistaEntradaAtlas = 'entrada' | 'rotulo-original';
+
+export interface OpcionBusquedaAtlas {
+  /** Clave de interfaz; no sustituye al id metodológico de la corriente. */
+  clave: string;
+  corrienteId: string;
+  vista: VistaEntradaAtlas;
+  nombre: string;
+  /** Rótulo literal de la imagen de partida, conservado además de su traducción. */
+  etiquetaFuente?: string;
+  capa: CapaAtlas;
+}
+
+const PREFIJO_ROTULO_ORIGINAL = 'rotulo-original:';
+
+/**
+ * Catálogo nominal del buscador. Una sustitución conserva dos puertas de
+ * entrada deliberadamente distintas: la región española y el rótulo de la
+ * imagen de partida. La segunda abre contexto, nunca una celda ni un match.
+ */
+export function opcionesBusquedaAtlas(
+  incluirProfundidad: boolean,
+): readonly OpcionBusquedaAtlas[] {
+  return entradasAtlasExplorables(incluirProfundidad).flatMap((corriente) => {
+    const opciones: OpcionBusquedaAtlas[] = [
+      {
+        clave: corriente.id,
+        corrienteId: corriente.id,
+        vista: 'entrada',
+        nombre: corriente.nombre,
+        capa: corriente.capa,
+      },
+    ];
+    if (corriente.trazabilidadOriginal) {
+      opciones.push({
+        clave: `${PREFIJO_ROTULO_ORIGINAL}${corriente.id}`,
+        corrienteId: corriente.id,
+        vista: 'rotulo-original',
+        nombre: corriente.trazabilidadOriginal.nombreOriginal,
+        etiquetaFuente: corriente.trazabilidadOriginal.etiquetaOriginal,
+        capa: corriente.trazabilidadOriginal.capa,
+      });
+    }
+    return opciones;
+  });
+}
+
+/** Resuelve solo opciones que están realmente abiertas en la capa elegida. */
+export function resolverOpcionBusquedaAtlas(
+  clave: string,
+  incluirProfundidad: boolean,
+): OpcionBusquedaAtlas | null {
+  return (
+    opcionesBusquedaAtlas(incluirProfundidad).find((opcion) => opcion.clave === clave) ?? null
   );
 }
 
@@ -175,7 +292,7 @@ export function evidenciaAutoridadAtlas(ids: Iterable<string>): EvidenciaEjeAtla
 export function corrienteAtlasMasCercana(
   x: number,
   y: number,
-  corrientes: readonly CorrienteAtlas[] = CORRIENTES_ATLAS,
+  corrientes: readonly CorrienteAtlas[] = REGIONES_ATLAS,
 ): CorrienteAtlas | null {
   let mejor: CorrienteAtlas | null = null;
   let distanciaMejor = Infinity;

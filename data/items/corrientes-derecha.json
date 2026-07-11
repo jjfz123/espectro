@@ -337,6 +337,7 @@
   {
     "id": "der-019",
     "texto": "La prisión permanente revisable debe eliminarse del Código Penal.",
+    "terminos": ["prision-permanente-revisable", "codigo-penal"],
     "modulo": "corrientes-derecha",
     "ejes": [
       {
@@ -355,7 +356,8 @@
   },
   {
     "id": "der-020",
-    "texto": "La inviolabilidad jurídica del Rey debe mantenerse tal y como la recoge la Constitución.",
+    "texto": "La inviolabilidad constitucional del Rey debería mantenerse tal como está, sin acotar los actos que quedan protegidos.",
+    "terminos": ["inviolabilidad-jefe-estado"],
     "modulo": "corrientes-derecha",
     "ejes": [
       {

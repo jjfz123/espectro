@@ -240,7 +240,8 @@
         "fecha": "2023-04-27",
         "consultado": "2026-07-10",
         "cita": "El Congreso aprueba la ley de vivienda con los votos en contra de las derechas"
-      }
+      },
+      "grupoEvidencia": "pasaje-215a603f401e563f8dd6"
     },
     "eco-011": {
       "valor": 2,
@@ -253,7 +254,8 @@
         "fecha": "2024-12-20",
         "consultado": "2026-07-10",
         "cita": "Gobierno y sindicatos firman la reducción de la jornada semanal a 37,5 horas sin reducción salarial"
-      }
+      },
+      "grupoEvidencia": "pasaje-b3cd2aa460d1612b4407"
     },
     "eco-014": {
       "valor": 2,
@@ -278,7 +280,8 @@
         "fecha": "2024-11",
         "consultado": "2026-07-10",
         "cita": "PSOE y Sumar logran un acuerdo para mantener el impuesto a la banca y desatascar la reforma fiscal"
-      }
+      },
+      "grupoEvidencia": "pasaje-349eda5c523334f408ef"
     },
     "eco-006": {
       "valor": 2,
@@ -291,7 +294,8 @@
         "fecha": "2023-07-06",
         "consultado": "2026-07-10",
         "cita": "Las medidas de Sumar en vivienda: 2 millones de pisos públicos en 10 años e intervenir más en alquiler"
-      }
+      },
+      "grupoEvidencia": "pasaje-f2eadecc1c817780cb82"
     },
     "eco-010": {
       "valor": -2,
@@ -304,7 +308,8 @@
         "fecha": "2025",
         "consultado": "2026-07-10",
         "cita": "Yolanda Díaz activa la reforma para encarecer el despido improcedente y disuadir a las empresas"
-      }
+      },
+      "grupoEvidencia": "pasaje-85f770f7b636b2f728f1"
     },
     "soc-001": {
       "valor": 2,
@@ -329,7 +334,8 @@
         "fecha": "2024-04-09",
         "consultado": "2026-07-10",
         "cita": "El Congreso aprueba debatir la ILP sobre la regularización extraordinaria de personas migrantes"
-      }
+      },
+      "grupoEvidencia": "pasaje-b639c62b559296516ef5"
     },
     "fem-001": {
       "valor": 2,
@@ -342,7 +348,8 @@
         "fecha": "2023-02-16",
         "consultado": "2026-07-10",
         "cita": "El Congreso aprueba definitivamente la 'ley trans' que permite la libre autodeterminación a partir de los 16 años"
-      }
+      },
+      "grupoEvidencia": "pasaje-f71f66cb2a1813e39be6"
     },
     "fem-014": {
       "valor": 2,
@@ -367,7 +374,8 @@
         "fecha": "2023-05-02",
         "consultado": "2026-07-10",
         "cita": "Sumar pide derogar la prisión permanente revisable y cerrar los centros de inmigrantes"
-      }
+      },
+      "grupoEvidencia": "pasaje-d4b571133be0326577b3"
     },
     "lib-017": {
       "valor": 2,
@@ -380,7 +388,8 @@
         "fecha": "2021-03-18",
         "consultado": "2026-07-10",
         "cita": "El pleno del Congreso aprueba definitivamente la Ley de la Eutanasia"
-      }
+      },
+      "grupoEvidencia": "pasaje-8a4ea69f2ab6e3e2ea8b"
     },
     "sd-004": {
       "valor": 2,
@@ -393,7 +402,8 @@
         "fecha": "2024-12-23",
         "consultado": "2026-07-10",
         "cita": "Sumar reconoce desgaste y apuesta por una república federal y plurinacional"
-      }
+      },
+      "grupoEvidencia": "pasaje-8befff660f1834091278"
     },
     "ter-002": {
       "valor": 1,
@@ -406,7 +416,8 @@
         "fecha": "2023-07",
         "consultado": "2026-07-10",
         "cita": "El programa de Sumar: sin referéndum pero con consulta sobre la mesa de diálogo"
-      }
+      },
+      "grupoEvidencia": "pasaje-ace35e8e06b114ab2489"
     },
     "cat-003": {
       "valor": 2,
@@ -419,7 +430,8 @@
         "fecha": "2024-05-30",
         "consultado": "2026-07-10",
         "cita": "El Congreso aprueba una histórica ley de amnistía y la pone en manos de los jueces"
-      }
+      },
+      "grupoEvidencia": "pasaje-1c2b082b9d377ffa93c5"
     },
     "ter-001": {
       "valor": -2,
@@ -444,7 +456,8 @@
         "fecha": "2024-12-23",
         "consultado": "2026-07-10",
         "cita": "Sumar reconoce desgaste y apuesta por una república federal y plurinacional"
-      }
+      },
+      "grupoEvidencia": "pasaje-8befff660f1834091278"
     },
     "eco-002": {
       "valor": -2,
@@ -457,7 +470,8 @@
         "fecha": "2025-12-05",
         "consultado": "2026-07-10",
         "cita": "Nuestra salud no puede estar en manos privadas"
-      }
+      },
+      "grupoEvidencia": "pasaje-4bcde522b2bd43065275"
     },
     "eco-004": {
       "valor": -1,
@@ -554,7 +568,8 @@
         "fecha": "2025-04-30",
         "consultado": "2026-07-10",
         "cita": "que la red eléctrica pase a estar en «manos públicas»"
-      }
+      },
+      "grupoEvidencia": "pasaje-d054be93d0b23d722354"
     },
     "fem-010": {
       "valor": 2,
@@ -591,7 +606,8 @@
         "fecha": "2024-08-29",
         "consultado": "2026-07-10",
         "cita": "seguir las recetas de la derecha"
-      }
+      },
+      "grupoEvidencia": "pasaje-8e3f9cf081c684a8c391"
     },
     "dr-003": {
       "valor": -2,

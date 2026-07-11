@@ -152,7 +152,8 @@
         "fecha": "2026-02-18",
         "consultado": "2026-07-10",
         "cita": "Podemos exige subir el salario mínimo hasta los 1.800 euros"
-      }
+      },
+      "grupoEvidencia": "pasaje-af1fe563bb35b831dedc"
     },
     "eco-005": {
       "valor": 2,
@@ -165,7 +166,8 @@
         "fecha": "2024-10",
         "consultado": "2026-07-10",
         "cita": "Así es la propuesta de Podemos para bajar los alquileres un 40% y prohibir las empresas de 'desokupación'"
-      }
+      },
+      "grupoEvidencia": "pasaje-cf15f112003be5389033"
     },
     "eco-011": {
       "valor": 2,
@@ -190,7 +192,8 @@
         "fecha": "2022-09",
         "consultado": "2026-07-10",
         "cita": "Podemos pide que el impuesto a las grandes fortunas sea permanente y no temporal, como propone el PSOE"
-      }
+      },
+      "grupoEvidencia": "pasaje-9d0fc7e86e75f72f182a"
     },
     "sd-012": {
       "valor": 2,
@@ -203,7 +206,8 @@
         "fecha": "2021-10",
         "consultado": "2026-07-10",
         "cita": "Podemos pide ya nacionalizar todas las compañías eléctricas"
-      }
+      },
+      "grupoEvidencia": "pasaje-62d000bc9105e7c2b55e"
     },
     "sd-023": {
       "valor": 2,
@@ -216,7 +220,8 @@
         "fecha": "2024-11-21",
         "consultado": "2026-07-10",
         "cita": "El Congreso aprueba la reforma fiscal con el impuesto a la banca y el compromiso de prorrogar el de las energéticas"
-      }
+      },
+      "grupoEvidencia": "pasaje-ec031fb6c5e1eda6412d"
     },
     "eco-013": {
       "valor": -2,
@@ -241,7 +246,8 @@
         "fecha": "2023-02-16",
         "consultado": "2026-07-10",
         "cita": "Hoy es un día histórico para las personas trans y LGTBI que ven sus derechos convertidos en ley"
-      }
+      },
+      "grupoEvidencia": "pasaje-88528293db67df6373ca"
     },
     "fem-012": {
       "valor": 2,
@@ -254,7 +260,8 @@
         "fecha": "2022-05-17",
         "consultado": "2026-07-10",
         "cita": "El Gobierno aprueba la Ley del Aborto: a los 16, baja por regla, píldora gratis y educación sexual en clase"
-      }
+      },
+      "grupoEvidencia": "pasaje-296b1ff98de723eb3c7e"
     },
     "fem-014": {
       "valor": 2,
@@ -267,7 +274,8 @@
         "fecha": "2024-01-12",
         "consultado": "2026-07-10",
         "cita": "Podemos vuelve a intentar en el Congreso regular por ley el cannabis recreativo"
-      }
+      },
+      "grupoEvidencia": "pasaje-2898b0a0e400c16ba5fe"
     },
     "soc-004": {
       "valor": 2,
@@ -280,7 +288,8 @@
         "fecha": "2024-04-10",
         "consultado": "2026-07-10",
         "cita": "El Congreso tramita la regularización de casi 400.000 inmigrantes"
-      }
+      },
+      "grupoEvidencia": "pasaje-68161ec63feed7fb4f57"
     },
     "soc-006": {
       "valor": 2,
@@ -305,7 +314,8 @@
         "fecha": "2022-12",
         "consultado": "2026-07-10",
         "cita": "Más temprano que tarde se va a ver que no hay otra solución que el referéndum pactado"
-      }
+      },
+      "grupoEvidencia": "pasaje-1a5fcfbdac139ce079d5"
     },
     "sd-004": {
       "valor": 2,
@@ -318,7 +328,8 @@
         "fecha": "2024-12-06",
         "consultado": "2026-07-10",
         "cita": "España, República Plurinacional"
-      }
+      },
+      "grupoEvidencia": "pasaje-96983b1d247c69cb9861"
     },
     "cat-003": {
       "valor": 2,
@@ -355,7 +366,8 @@
         "fecha": "2024-06-24",
         "consultado": "2026-07-10",
         "cita": "No puede ser que los jueces fachas elijan a los jueces fachas"
-      }
+      },
+      "grupoEvidencia": "pasaje-5c55a891ed2a501aa83c"
     },
     "ter-004": {
       "valor": -2,
@@ -368,7 +380,8 @@
         "fecha": "2020-11-06",
         "consultado": "2026-07-10",
         "cita": "La Comisión de Educación del Congreso aprueba eliminar el castellano como lengua vehicular en la «ley Celaá»"
-      }
+      },
+      "grupoEvidencia": "pasaje-a113c3317ab7f13bc1d9"
     },
     "sd-008": {
       "valor": -1,
@@ -381,7 +394,8 @@
         "fecha": "2023-01-14",
         "consultado": "2026-07-10",
         "cita": "Belarra propone una renta básica para vulnerables de entre 700 y 1.400 euros al mes desde los 18 años"
-      }
+      },
+      "grupoEvidencia": "pasaje-ef32af80df37540f5005"
     },
     "izq-016": {
       "valor": -1,
@@ -562,7 +576,8 @@
         "fecha": "2017-04-14",
         "consultado": "2026-07-10",
         "cita": "No somos republicanos para cambiar una bandera, sino porque somos demócratas y patriotas"
-      }
+      },
+      "grupoEvidencia": "pasaje-c509920f618c88d71d5a"
     },
     "sd-005": {
       "valor": 1,

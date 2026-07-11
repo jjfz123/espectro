@@ -3,7 +3,9 @@
   "nombre": "Nombre oficial en el Registro de Partidos",
   "siglas": "SIGLAS",
   "ambito": "estatal | autonomico | insular | local",
-  "ccaa": ["canarias"],
+  "ccaa": [
+    "canarias"
+  ],
   "confianza": "verificada | estimada | sin-datos",
   "registroMir": "Nº de inscripción en el Registro del Ministerio del Interior",
   "web": "https://...",
@@ -17,7 +19,8 @@
         "url": "https://...",
         "fecha": "AAAA-MM-DD",
         "cita": "Extracto textual verificable (máx. 500 caracteres, modelo EU&I)."
-      }
+      },
+      "grupoEvidencia": "pasaje-a805b636a48aa230b0c6"
     }
   }
 }

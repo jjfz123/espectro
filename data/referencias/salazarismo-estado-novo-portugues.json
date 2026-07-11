@@ -1,0 +1,138 @@
+{
+  "id": "salazarismo-estado-novo-portugues",
+  "nombre": "Salazarismo del Estado Novo portugués",
+  "tipo": "referencia-doctrinal",
+  "definicion": "Referencia histórica del régimen construido por António de Oliveira Salazar en Portugal: república autoritaria, antiparlamentaria y antipluralista, con Ejecutivo reforzado, União Nacional y organización corporativa sometida a una intensa tutela estatal. Se limita a la etapa de Salazar y no convierte en doctrina todas las políticas posteriores de Marcelo Caetano.",
+  "variante": "Portugal bajo Salazar; el Estado Novo continuó entre 1968 y 1974 con Marcelo Caetano, fuera del núcleo temporal elegido",
+  "periodo": "Portugal, 1933-1968",
+  "confianza": "verificada",
+  "version": "1.0",
+  "revisado": "2026-07-11",
+  "publicacionAfinidad": {
+    "publicable": false,
+    "motivo": "Referencia nueva pendiente de auditoría semántica adversarial; no participa en afinidad hasta cerrar cada equivalencia entre fuente e ítem."
+  },
+  "publicacionMapa": {
+    "publicable": false,
+    "motivo": "El banco vigente documenta bien autoritarismo, antipluralismo y tutela sindical, pero no mide con equilibrio la economía concreta ni el colonialismo del salazarismo; una coordenada macro fingiría una precisión horizontal inexistente."
+  },
+  "facetasDefinitorias": [
+    "autoridad-politica",
+    "pluralismo-institucional",
+    "institucionalismo",
+    "estatismo",
+    "autonomia-sindical"
+  ],
+  "sensibilidad": "violenta",
+  "advertencia": "Es una referencia histórica de una dictadura que restringió libertades, persiguió a la oposición mediante censura y policía política y sostuvo guerras coloniales; una afinidad parcial no legitima esa coerción ni identifica a nadie como salazarista. Su Cámara Corporativa fue consultiva y convivió con una Asamblea elegida bajo competencia política severamente restringida, por lo que no se presenta como corporativismo integral realizado. El catolicismo influyó en el régimen, pero Portugal no se declaró constitucionalmente Estado católico: no se fusiona con nacionalcatolicismo, falangismo, carlismo ni teocracia.",
+  "fuentesMarco": [
+    {
+      "tipo": "otro",
+      "titulo": "Constituição Política da República Portuguesa de 1933, Assembleia da República (en portugués)",
+      "url": "https://www.parlamento.pt/Parlamento/Documents/CRP-1933.pdf",
+      "fecha": "1933",
+      "consultado": "2026-07-11"
+    },
+    {
+      "tipo": "otro",
+      "titulo": "Assembleia da República, A solução do problema político português: contexto de la Constitución de 1933 (en portugués)",
+      "url": "https://www.parlamento.pt/Parlamento/Paginas/solucao-problema-politico-portugues.aspx",
+      "consultado": "2026-07-11"
+    },
+    {
+      "tipo": "otro",
+      "titulo": "Nuno Estêvão Ferreira, O corporativismo e as instituições do salazarismo: a Câmara Corporativa (1935-1945) (en portugués)",
+      "url": "https://repositorio.ucp.pt/bitstreams/a2143f4c-65c7-4fff-b5cf-39401a1e2b80/download",
+      "fecha": "2008",
+      "consultado": "2026-07-11"
+    }
+  ],
+  "reglaPublicacion": {
+    "minimoItems": 5,
+    "minimoCobertura": 0.65,
+    "umbralAfinidad": 84
+  },
+  "posiciones": {
+    "dem-010": {
+      "valor": -2,
+      "justificacion": "La historia constitucional del Parlamento portugués caracteriza expresamente el ideal de la Constitución salazarista por su antipluralismo y la restricción de libertades; la oposición entre varios partidos no se preservó como competencia efectiva.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Assembleia da República, A solução do problema político português (en portugués)",
+        "url": "https://www.parlamento.pt/Parlamento/Paginas/solucao-problema-politico-portugues.aspx",
+        "consultado": "2026-07-11",
+        "cita": "Apartado sobre el ideal constitucional de 1933: antipluralismo, restricción de libertades y rechazo parlamentario."
+      },
+      "grupoEvidencia": "pasaje-31135ab45560a9c73666"
+    },
+    "dem-011": {
+      "valor": 2,
+      "justificacion": "La Constitución de 1933 fue el texto fundacional de un Estado Novo antiparlamentario: la propuesta no consistía en corregir el parlamentarismo liberal, sino en sustituir su lógica por un Ejecutivo reforzado y un orden corporativo.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Assembleia da República, A solução do problema político português (en portugués)",
+        "url": "https://www.parlamento.pt/Parlamento/Paginas/solucao-problema-politico-portugues.aspx",
+        "consultado": "2026-07-11",
+        "cita": "Apartado sobre el ideal constitucional de 1933: antipluralismo, restricción de libertades y rechazo parlamentario."
+      },
+      "grupoEvidencia": "pasaje-31135ab45560a9c73666"
+    },
+    "dem-018": {
+      "valor": 1,
+      "justificacion": "El corporativismo fue base declarada de la organización social y política y creó una Cámara de intereses profesionales. El acuerdo es parcial: esa Cámara fue consultiva y la Asamblea Nacional conservó formalmente elección directa, aunque sin pluralismo real de partidos.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Nuno Estêvão Ferreira, O corporativismo e as instituições do salazarismo (en portugués)",
+        "url": "https://repositorio.ucp.pt/bitstreams/a2143f4c-65c7-4fff-b5cf-39401a1e2b80/download",
+        "fecha": "2008",
+        "consultado": "2026-07-11",
+        "cita": "Capítulo sobre la Cámara Corporativa: representación consultiva de intereses profesionales junto a la Asamblea Nacional."
+      },
+      "grupoEvidencia": "pasaje-b4a59d9c0a35a5df3ea1"
+    },
+    "dr-014": {
+      "valor": 1,
+      "justificacion": "El régimen encuadró intereses patronales y del trabajo en una pirámide corporativa sometida al Gobierno. La coincidencia no es total: sindicatos y gremios siguieron siendo organismos de base distintos y su representación fue muy desigual.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Nuno Estêvão Ferreira, O corporativismo e as instituições do salazarismo (en portugués)",
+        "url": "https://repositorio.ucp.pt/bitstreams/a2143f4c-65c7-4fff-b5cf-39401a1e2b80/download",
+        "fecha": "2008",
+        "consultado": "2026-07-11",
+        "cita": "Capítulo sobre la organización corporativa: pirámide estatal de organismos patronales y laborales separados."
+      },
+      "grupoEvidencia": "pasaje-cf8a5eeaf81a6b3f8a8c"
+    },
+    "dr-024": {
+      "valor": 2,
+      "justificacion": "El salazarismo edificó deliberadamente una solución autoritaria frente al parlamentarismo y el pluralismo liberales; no fue una suspensión puntual, sino el principio estable del régimen constitucional de 1933.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Assembleia da República, A solução do problema político português (en portugués)",
+        "url": "https://www.parlamento.pt/Parlamento/Paginas/solucao-problema-politico-portugues.aspx",
+        "consultado": "2026-07-11",
+        "cita": "Apartado sobre el ideal constitucional de 1933: antipluralismo, restricción de libertades y rechazo parlamentario."
+      },
+      "grupoEvidencia": "pasaje-31135ab45560a9c73666"
+    },
+    "lab-005": {
+      "valor": -2,
+      "justificacion": "La organización laboral estuvo bajo tutela estatal: el Gobierno aprobaba estatutos y direcciones y podía disolver organismos, suspender su actividad o destituir dirigentes. No existía plena independencia sindical.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Nuno Estêvão Ferreira, O corporativismo e as instituições do salazarismo (en portugués)",
+        "url": "https://repositorio.ucp.pt/bitstreams/a2143f4c-65c7-4fff-b5cf-39401a1e2b80/download",
+        "fecha": "2008",
+        "consultado": "2026-07-11",
+        "cita": "Capítulo sobre sindicatos nacionales: aprobación gubernamental de estatutos y direcciones y facultad de disolución."
+      },
+      "grupoEvidencia": "pasaje-8b47b22b5da90298ff46"
+    }
+  }
+}

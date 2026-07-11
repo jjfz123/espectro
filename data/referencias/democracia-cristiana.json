@@ -12,7 +12,13 @@
     "publicable": false,
     "motivo": "La referencia sigue disponible para el matching por facetas, pero su macroeje social actual recoge inmigración y garantismo sin incorporar las posiciones bioéticas que viven en tradición moral; el cuadrante resultaría indebidamente libertario."
   },
-  "facetasDefinitorias": ["economico", "tradicion-moral", "estatismo", "poder-laboral", "modelo-territorial"],
+  "facetasDefinitorias": [
+    "economico",
+    "tradicion-moral",
+    "estatismo",
+    "poder-laboral",
+    "modelo-territorial"
+  ],
   "sensibilidad": "normal",
   "advertencia": "Es un tipo ideal doctrinal, no la ficha de ningún partido español actual: el PP se reclama a la vez liberal, democristiano y conservador según sus propios estatutos, y tiene perfil documentado propio que no debe confundirse con este tipo ideal más estrecho. La subsidiariedad territorial se deriva por extensión razonada del argumento de Rerum Novarum sobre la familia y los cuerpos intermedios, no de una mención literal a las comunidades autónomas españolas. Frente al carlismo tradicionalista, esta corriente admite un Estado aconfesional que respeta la libertad religiosa; frente al distributismo de Chesterton y Belloc, acepta la gran empresa y el Estado social en vez de exigir la ruptura de la propiedad concentrada en unidades pequeñas.",
   "fuentesMarco": [
@@ -72,7 +78,8 @@
         "fecha": "1891-05-15",
         "consultado": "2026-07-10",
         "cita": "if a workman's wages be sufficient to enable him comfortably to support himself, his wife, and his children"
-      }
+      },
+      "grupoEvidencia": "pasaje-05fce83f135924ef0222"
     },
     "lab-002": {
       "valor": 1,

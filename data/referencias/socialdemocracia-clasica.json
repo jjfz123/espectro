@@ -8,7 +8,13 @@
   "confianza": "verificada",
   "version": "1.0",
   "revisado": "2026-07-10",
-  "facetasDefinitorias": ["economico", "metodo-cambio", "estatismo", "poder-laboral", "institucionalismo"],
+  "facetasDefinitorias": [
+    "economico",
+    "metodo-cambio",
+    "estatismo",
+    "poder-laboral",
+    "institucionalismo"
+  ],
   "sensibilidad": "normal",
   "advertencia": "Es un tipo ideal doctrinal, no la ficha de ningún partido español: el PSOE tiene perfil propio y puede apartarse de este tipo ideal en cualquier ítem. El deslinde fino es frente al socioliberalismo: aquí el mercado se acepta como instrumento dentro de un proyecto de igualdad («planificación como sea necesaria»), no como fin. Las posiciones del eje social salen de los derechos y libertades de la Declaración de Frankfurt (1951) y de las secciones religiosas de Bad Godesberg, con valores moderados; los debates identitarios contemporáneos no están en ese corpus y se dejan sin codificar en vez de extrapolarse.",
   "fuentesMarco": [
@@ -51,7 +57,8 @@
         "fecha": "1899",
         "consultado": "2026-07-10",
         "cita": "This goal, whatever it may be, is nothing to me, while the movement is everything."
-      }
+      },
+      "grupoEvidencia": "pasaje-b4a8544bfbe7aebda186"
     },
     "izq-002": {
       "valor": -2,
@@ -112,7 +119,8 @@
         "fecha": "1959-11-15",
         "consultado": "2026-07-10",
         "cita": "As much competition as possible – as much planning as necessary."
-      }
+      },
+      "grupoEvidencia": "pasaje-b85b71a4ae1169718958"
     },
     "lab-016": {
       "valor": -1,
@@ -233,7 +241,8 @@
         "fecha": "1951-07-03",
         "consultado": "2026-07-10",
         "cita": "the right of every human being to a private life, protected from arbitrary invasion by the state"
-      }
+      },
+      "grupoEvidencia": "pasaje-5ebc6a74f5f9c5f9ba29"
     },
     "dem-021": {
       "valor": 1,
@@ -246,7 +255,8 @@
         "fecha": "1951-07-03",
         "consultado": "2026-07-10",
         "cita": "political liberties, like freedom of thought, expression, education, organisation and religion"
-      }
+      },
+      "grupoEvidencia": "pasaje-5837f8d7cee9b8e50e8f"
     },
     "der-017": {
       "valor": -1,
@@ -259,7 +269,8 @@
         "fecha": "1951-07-03",
         "consultado": "2026-07-10",
         "cita": "equality before the law of all citizens, whatever their birth, sex, language, creed and colour"
-      }
+      },
+      "grupoEvidencia": "pasaje-831c89c9584aac93e3f1"
     },
     "dr-002": {
       "valor": -1,
@@ -308,7 +319,8 @@
         "fecha": "1959-11-15",
         "consultado": "2026-07-10",
         "cita": "The Social Democratic Party respects churches and religious societies. It affirms their public and legal status, their special mission and their autonomy. It is always ready to co-operate with the churches on the basis of a free partnership."
-      }
+      },
+      "grupoEvidencia": "pasaje-40c47e233c0b8e76c5ea"
     }
   }
 }

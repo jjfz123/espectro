@@ -9,7 +9,7 @@
   ],
   "confianza": "verificada",
   "web": "https://compromis.net/",
-  "revisado": "2026-07-10",
+  "revisado": "2026-07-11",
   "actividad": "activa",
   "autodescripcion": {
     "texto": "Compromís se presenta como la organización unitaria del valencianismo de izquierdas desde una perspectiva feminista, ecologista, diversa y antifascista. Es, formalmente, una coalición electoral integrada por Més-Compromís (heredera del Bloc Nacionalista Valencià), Iniciativa del Poble Valencià (de perfil ecosocialista) y els Verds del País Valencià (ecologistas), junto a independientes; no se ha refundado como partido único pese al debate de integración abierto en 2024. Ese proceso quedó paralizado en 2025, cuando Més-Compromís abandonó el grupo parlamentario de Sumar en el Congreso mientras Iniciativa del Poble Valencià permanecía en él, evidenciando que la coalición conserva hoy tensiones internas de encaje.",
@@ -32,6 +32,136 @@
     }
   ],
   "posiciones": {
+    "eco-002": {
+      "valor": -2,
+      "justificacion": "Propone devolver a gestión pública directa todos los departamentos sanitarios privatizados, blindar la sanidad pública y prestar directamente tratamientos externalizados. Rechaza que la gestión privada sea la vía de eficiencia.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral de Compromís — Corts Valencianes 2023",
+        "url": "https://28m.compromis.net/docs/PROGRAMA_ELECTORAL_2023_%20CAS.pdf",
+        "fecha": "2023-05",
+        "consultado": "2026-07-11",
+        "cita": "Devolveremos a la gestión pública directa la totalidad de los departamentos de salud y servicios sanitarios privatizados."
+      },
+      "grupoEvidencia": "pasaje-007150c7cdce7172abbd"
+    },
+    "eco-005": {
+      "valor": 2,
+      "justificacion": "Su programa exige la competencia y una Ley Valenciana de Vivienda para regular los precios del alquiler. La intervención legal en zonas tensionadas forma parte expresa de su política de vivienda.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral de Compromís — Corts Valencianes 2023",
+        "url": "https://28m.compromis.net/docs/PROGRAMA_ELECTORAL_2023_%20CAS.pdf",
+        "fecha": "2023-05",
+        "consultado": "2026-07-11",
+        "cita": "Exigiremos la competencia para regular los precios del alquiler a través de la Ley Valenciana de la Vivienda."
+      },
+      "grupoEvidencia": "pasaje-f4be581abe332a353d2e"
+    },
+    "eco-006": {
+      "valor": 2,
+      "justificacion": "Compromete un plan para construir y adquirir 5.000 viviendas de alquiler social, un fondo específico y la incorporación de inmuebles de la SAREB al parque público.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral de Compromís — Corts Valencianes 2023",
+        "url": "https://28m.compromis.net/docs/PROGRAMA_ELECTORAL_2023_%20CAS.pdf",
+        "fecha": "2023-05",
+        "consultado": "2026-07-11",
+        "cita": "Construcción de 5.000 viviendas de alquiler social para ampliar el parque público."
+      },
+      "grupoEvidencia": "pasaje-8862c99f655f3f7f6465"
+    },
+    "eco-013": {
+      "valor": -2,
+      "justificacion": "Para reducir listas de espera prioriza personal y recursos propios de la sanidad pública y plantea recuperar tratamientos y departamentos externalizados, no aumentar derivaciones a clínicas privadas.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral de Compromís — Corts Valencianes 2023",
+        "url": "https://28m.compromis.net/docs/PROGRAMA_ELECTORAL_2023_%20CAS.pdf",
+        "fecha": "2023-05",
+        "consultado": "2026-07-11",
+        "cita": "Devolveremos a la gestión pública directa la totalidad de los departamentos de salud y servicios sanitarios privatizados."
+      },
+      "grupoEvidencia": "pasaje-007150c7cdce7172abbd"
+    },
+    "izq-005": {
+      "valor": -1,
+      "justificacion": "Combina empresas públicas y participación pública estratégica con colaboración público-privada, pymes, autónomos y empresas privadas. No propone sustituir el mercado en los sectores estratégicos, aunque sí dirigirlo y condicionarlo intensamente.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral de Compromís — Corts Valencianes 2023",
+        "url": "https://28m.compromis.net/docs/PROGRAMA_ELECTORAL_2023_%20CAS.pdf",
+        "fecha": "2023-05",
+        "consultado": "2026-07-11"
+      }
+    },
+    "dem-019": {
+      "valor": -2,
+      "justificacion": "Propone elecciones más proporcionales, rebajar la barrera al 3%, listas desbloqueadas, debates con candidaturas minoritarias y primarias abiertas. La defensa explícita de competencia y pluralidad contradice un movimiento único.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral de Compromís — Corts Valencianes 2023",
+        "url": "https://28m.compromis.net/docs/PROGRAMA_ELECTORAL_2023_%20CAS.pdf",
+        "fecha": "2023-05",
+        "consultado": "2026-07-11",
+        "cita": "Bajada de la barrera electoral al 3%. Voto preferencial y listas desbloqueadas."
+      },
+      "grupoEvidencia": "pasaje-f36fd8e1130da5f03d7c"
+    },
+    "rel-002": {
+      "valor": 2,
+      "justificacion": "Su programa formula expresamente la neutralidad de la Administración y el diálogo y atención a la diversidad religiosa, que coincide con un Estado aconfesional y libre expresión religiosa dentro de la ley.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral de Compromís — Corts Valencianes 2023",
+        "url": "https://28m.compromis.net/docs/PROGRAMA_ELECTORAL_2023_%20CAS.pdf",
+        "fecha": "2023-05",
+        "consultado": "2026-07-11"
+      }
+    },
+    "soc-001": {
+      "valor": 2,
+      "justificacion": "Se compromete a desarrollar las leyes valencianas LGTBI y trans, el pacto contra la LGTBIfobia, órganos de participación y campañas de protección de derechos; mantiene y amplía el marco legal existente.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral de Compromís — Corts Valencianes 2023",
+        "url": "https://28m.compromis.net/docs/PROGRAMA_ELECTORAL_2023_%20CAS.pdf",
+        "fecha": "2023-05",
+        "consultado": "2026-07-11"
+      }
+    },
+    "izq-007": {
+      "valor": -2,
+      "justificacion": "Todo el programa se articula mediante Generalitat, Corts, justicia y administraciones locales reformadas. Compromís busca ampliar y democratizar esas instituciones, no abolir todo Estado.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral de Compromís — Corts Valencianes 2023",
+        "url": "https://28m.compromis.net/docs/PROGRAMA_ELECTORAL_2023_%20CAS.pdf",
+        "fecha": "2023-05",
+        "consultado": "2026-07-11"
+      }
+    },
+    "dem-017": {
+      "valor": -2,
+      "justificacion": "Propone reformar les Corts, su ley electoral y los canales ciudadanos para complementar la representación institucional. No sustituye las cámaras por consejos laborales o municipales.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral de Compromís — Corts Valencianes 2023",
+        "url": "https://28m.compromis.net/docs/PROGRAMA_ELECTORAL_2023_%20CAS.pdf",
+        "fecha": "2023-05",
+        "consultado": "2026-07-11"
+      }
+    },
     "nac-010": {
       "valor": -2,
       "justificacion": "La infrafinanciación valenciana per cápita es la bandera económica histórica de Compromís, que puso como precio a su apoyo a la investidura de Sánchez en 2023 el reconocimiento y la condonación de 46.000 millones de euros de \"deuda histórica\" derivada de haber recibido durante años menos recursos por habitante que la media; reclama un reparto por población real, no un criterio que priorice la despoblación o la dispersión de otros territorios.",
@@ -149,7 +279,8 @@
         "fecha": "2023-10-29",
         "consultado": "2026-07-10",
         "cita": "No nos representa este acto en el siglo XXI"
-      }
+      },
+      "grupoEvidencia": "pasaje-30c171987110f7aee80f"
     },
     "lai-001": {
       "valor": 2,

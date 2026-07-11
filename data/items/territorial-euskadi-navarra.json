@@ -57,6 +57,7 @@
   {
     "id": "eus-004",
     "texto": "La política penitenciaria con los presos de ETA debe regirse por las reglas comunes de reinserción aplicables a cualquier otro preso.",
+    "terminos": ["reinsercion-social"],
     "modulo": "territorial-euskadi-navarra",
     "ejes": [],
     "polaridad": "positiva",

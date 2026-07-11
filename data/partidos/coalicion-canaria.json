@@ -275,7 +275,8 @@
         "fecha": "2023-04",
         "consultado": "2026-07-10",
         "cita": "hecha en clave electoralista no para resolver el problema de acceso a la vivienda"
-      }
+      },
+      "grupoEvidencia": "pasaje-244d8be2197562167ad3"
     },
     "eco-007": {
       "valor": 1,
@@ -312,7 +313,8 @@
         "fecha": "2024",
         "consultado": "2026-07-10",
         "cita": "No se puede devolver a la gente al desierto"
-      }
+      },
+      "grupoEvidencia": "pasaje-cc977d7bf6485cd2869a"
     },
     "fem-001": {
       "valor": 1,
@@ -337,7 +339,8 @@
         "fecha": "2020-12",
         "consultado": "2026-07-10",
         "cita": "PSOE, Podemos, BNG, ERC, Junts per Catalunya, PDeCAT, Más País, Bildu, PNV, Nueva Canarias, Coalición Canaria, CUP y Cs"
-      }
+      },
+      "grupoEvidencia": "pasaje-76bcf076772c564eb7b3"
     },
     "soc-006": {
       "valor": -2,
@@ -350,7 +353,8 @@
         "fecha": "2026-03-17",
         "consultado": "2026-07-10",
         "cita": "El Congreso rechaza tramitar la ampliación de la prisión permanente apoyada por PP, Vox, UPN y CC"
-      }
+      },
+      "grupoEvidencia": "pasaje-afed70d70812be156139"
     },
     "eco-002": {
       "valor": 1,
@@ -423,7 +427,8 @@
         "fecha": "2026-03-17",
         "consultado": "2026-07-10",
         "cita": "El Congreso rechaza tramitar la ampliación de la prisión permanente apoyada por PP, Vox, UPN y CC"
-      }
+      },
+      "grupoEvidencia": "pasaje-afed70d70812be156139"
     },
     "fem-007": {
       "valor": -2,
@@ -499,16 +504,17 @@
     },
     "sd-005": {
       "valor": 2,
-      "justificacion": "Clavijo rechazó frontalmente la financiación singular pactada entre el Estado y la Generalitat, advirtiendo de que Canarias «irá para detrás» si el modelo autonómico termina siendo lo que quiere Cataluña, y cifró en 2.500 millones anuales la pérdida para el archipiélago de extender ese modelo, inspirado en el concierto vasco, a otro territorio.",
+      "justificacion": "El Consejo Político Nacional de Coalición Canaria expresó su rechazo unánime a cualquier modelo bilateral de financiación entre el Estado y Cataluña y lo vinculó a la solidaridad y la cohesión territorial. Es una oposición inequívoca a extender a otra comunidad una financiación singular de tipo bilateral, aunque la formación distingue de ella el REF canario.",
       "calidadEvidencia": "alta",
       "fuente": {
         "tipo": "declaracion",
-        "titulo": "Clavijo avisa de que Canarias «irá para detrás» si la financiación autonómica es «lo que quiere Cataluña» (Infobae)",
-        "url": "https://www.infobae.com/espana/agencias/2024/11/26/clavijo-avisa-de-que-canarias-ira-para-detras-si-la-financiacion-autonomica-es-lo-que-quiere-cataluna/",
-        "fecha": "2024-11-26",
-        "consultado": "2026-07-10",
-        "cita": "irá para detrás"
-      }
+        "titulo": "CC acusa al PSOE de promover un modelo de financiación que choca con la Constitución y la cohesión territorial (Coalición Canaria)",
+        "url": "https://coalicioncanaria.org/cc-acusa-al-psoe-de-promover-un-modelo-de-financiacion-que-choca-con-la-constitucion-y-la-cohesion-territorial/",
+        "fecha": "2026-01-10",
+        "consultado": "2026-07-11",
+        "cita": "el rechazo unánime de la organización a cualquier intento de establecer un modelo de financiación autonómica bilateral entre el Estado y Cataluña"
+      },
+      "grupoEvidencia": "pasaje-e9065f22a3dfda79369b"
     },
     "ter-001": {
       "valor": -2,

@@ -9,9 +9,79 @@
   ],
   "confianza": "verificada",
   "web": "https://junts.cat/",
-  "revisado": "2026-07-10",
+  "revisado": "2026-07-11",
   "actividad": "activa",
   "posiciones": {
+    "eco-002": {
+      "valor": 0,
+      "justificacion": "Define el servicio de salud como un modelo mixto público-social, con instituciones públicas, de iniciativa social y de autogestión profesional. La fuente resuelve expresamente la dicotomía sin afirmar una superioridad general de la gestión privada mercantil.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Ponència 2: El país que volem, Congrés Nacional de Junts",
+        "url": "https://web.junts.cat/wp-content/uploads/2024/10/Ponencia_2.pdf",
+        "fecha": "2024-10",
+        "consultado": "2026-07-11",
+        "cita": "Un model mixt, publicosocial [...] format per institucions de titularitat pública [...] i institucions d’iniciativa social i entitats d’autogestió de professionals."
+      },
+      "grupoEvidencia": "pasaje-52cd56a97c7f4166503c"
+    },
+    "eco-012": {
+      "valor": -2,
+      "justificacion": "Propone asegurar la financiación del conjunto del Servei d'Educació de Catalunya y aprobar un nuevo decreto de conciertos adaptado a los centros de iniciativa social. Por tanto rechaza su eliminación gradual.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Ponència 2: El país que volem, Congrés Nacional de Junts",
+        "url": "https://web.junts.cat/wp-content/uploads/2024/10/Ponencia_2.pdf",
+        "fecha": "2024-10",
+        "consultado": "2026-07-11",
+        "cita": "Aprovarem un nou decret de concerts educatius [...] en col·laboració i consens amb tots els agents implicats."
+      },
+      "grupoEvidencia": "pasaje-bd5e8097d557c043e19b"
+    },
+    "dem-006": {
+      "valor": 2,
+      "justificacion": "La ponencia atribuye expresamente al poder judicial la revisión constitucional de la actuación legislativa y ejecutiva y la protección de derechos individuales y de minorías frente a una posible tiranía de la mayoría.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Ponència 2: El país que volem, Congrés Nacional de Junts",
+        "url": "https://web.junts.cat/wp-content/uploads/2024/10/Ponencia_2.pdf",
+        "fecha": "2024-10",
+        "consultado": "2026-07-11",
+        "cita": "El poder judicial [...] revisant les queixes individuals de violació [...] contra aquests drets."
+      },
+      "grupoEvidencia": "pasaje-756a6fff7ae95e7da536"
+    },
+    "dem-008": {
+      "valor": 2,
+      "justificacion": "Define un poder judicial independiente e imparcial como condición esencial del Estado de derecho democrático y como control de los poderes legislativo y ejecutivo.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Ponència 2: El país que volem, Congrés Nacional de Junts",
+        "url": "https://web.junts.cat/wp-content/uploads/2024/10/Ponencia_2.pdf",
+        "fecha": "2024-10",
+        "consultado": "2026-07-11",
+        "cita": "El poder judicial ha de ser independent i imparcial [...] control dels poders legislatiu i executiu."
+      },
+      "grupoEvidencia": "pasaje-efdf2161ef940b23af8b"
+    },
+    "izq-007": {
+      "valor": -2,
+      "justificacion": "Su objetivo es una República catalana independiente dotada de Estado, parlamento y poder judicial propios. Ese proyecto institucional contradice la abolición de todo Estado, aunque sea crítico con las instituciones españolas.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Ponència 2: El país que volem, Congrés Nacional de Junts",
+        "url": "https://web.junts.cat/wp-content/uploads/2024/10/Ponencia_2.pdf",
+        "fecha": "2024-10",
+        "consultado": "2026-07-11",
+        "cita": "Junts volem una república catalana independent."
+      },
+      "grupoEvidencia": "pasaje-ec86ffa0e3508f6880d5"
+    },
     "nac-001": {
       "valor": 1,
       "justificacion": "Mantiene confrontación y legitimidad del 1-O, pero su estrategia combina presión, negociación y construcción de poder sin automatizar la unilateralidad ante cualquier bloqueo.",
@@ -131,7 +201,8 @@
         "fecha": "2025-09-10",
         "consultado": "2026-07-10",
         "cita": "ataque frontal contra los autónomos y las pymes"
-      }
+      },
+      "grupoEvidencia": "pasaje-c09f5ca073c9083a1686"
     },
     "sd-023": {
       "valor": -1,
@@ -156,7 +227,8 @@
         "fecha": "2024",
         "consultado": "2026-07-10",
         "cita": "El giro de Junts en vivienda: de apoyar la regulación de precios en 2020 a votar junto a PP y Vox en el Congreso"
-      }
+      },
+      "grupoEvidencia": "pasaje-a37131b448fc828c4fc1"
     },
     "eco-014": {
       "valor": 0,
@@ -181,7 +253,8 @@
         "fecha": "2025-03-19",
         "consultado": "2026-07-10",
         "cita": "El Congreso aprueba tramitar una ley de Junts para desalojar 'okupas' en 48 horas"
-      }
+      },
+      "grupoEvidencia": "pasaje-8d6a0c1e48dc55877c1b"
     },
     "eco-001": {
       "valor": -1,
@@ -206,7 +279,8 @@
         "fecha": "2025-03",
         "consultado": "2026-07-10",
         "cita": "Junts quiere que la Generalitat pueda fijar las condiciones para expulsar a inmigrantes con delitos multirreincidentes"
-      }
+      },
+      "grupoEvidencia": "pasaje-95d53157e68cb55434f3"
     },
     "soc-004": {
       "valor": 0,
@@ -219,7 +293,8 @@
         "fecha": "2024-04-09",
         "consultado": "2026-07-10",
         "cita": "Todos los partidos, excepto Vox, aceptan estudiar una ILP para regularizar a miles de inmigrantes"
-      }
+      },
+      "grupoEvidencia": "pasaje-5890b25c3d8370332b3c"
     },
     "fem-001": {
       "valor": 1,
@@ -244,7 +319,8 @@
         "fecha": "2021-03",
         "consultado": "2026-07-10",
         "cita": "PSOE, Podemos, BNG, ERC, Junts per Catalunya, PDeCAT, Más País, Bildu, PNV, Nueva Canarias, Coalición Canaria, CUP y Cs"
-      }
+      },
+      "grupoEvidencia": "pasaje-76bcf076772c564eb7b3"
     },
     "eco-006": {
       "valor": 0,

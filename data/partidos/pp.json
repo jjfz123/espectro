@@ -261,7 +261,8 @@
         "fecha": "2023-09-27",
         "consultado": "2026-07-10",
         "cita": "El PP pretende hacer obligatoria la deflactación del IRPF para rentas inferiores a 40.000 euros"
-      }
+      },
+      "grupoEvidencia": "pasaje-970b96fa57d5d8f464b8"
     },
     "eco-005": {
       "valor": -2,
@@ -274,7 +275,8 @@
         "fecha": "2023",
         "consultado": "2026-07-10",
         "cita": "Las comunidades del PP boicotean la ley de vivienda y rechazan declarar zonas tensionadas para limitar alquileres"
-      }
+      },
+      "grupoEvidencia": "pasaje-3e8369c0633ae3fd07b8"
     },
     "eco-007": {
       "valor": 2,
@@ -287,7 +289,8 @@
         "fecha": "2026-05-19",
         "consultado": "2026-07-10",
         "cita": "El Congreso toma en consideración la ley antiokupas del PP gracias a la abstención del PNV y Junts"
-      }
+      },
+      "grupoEvidencia": "pasaje-7effedbaa98df256d8de"
     },
     "eco-009": {
       "valor": 1,
@@ -300,7 +303,8 @@
         "fecha": "2023-06-06",
         "consultado": "2026-07-10",
         "cita": "La revolución fiscal de Feijóo: eliminará los impuestos de Sucesiones y Donaciones en Comunidad Valenciana, Baleares, Extremadura…"
-      }
+      },
+      "grupoEvidencia": "pasaje-115fad2f1e3ee32685b7"
     },
     "eco-013": {
       "valor": 2,
@@ -325,7 +329,8 @@
         "fecha": "2023-11-07",
         "consultado": "2026-07-10",
         "cita": "El Tribunal Constitucional avala el impuesto a las grandes fortunas y desestima el recurso de la Comunidad Madrid"
-      }
+      },
+      "grupoEvidencia": "pasaje-5fe3950e6da89f434005"
     },
     "soc-002": {
       "valor": 1,
@@ -338,7 +343,8 @@
         "fecha": "2025-09-29",
         "consultado": "2026-07-10",
         "cita": "Así es el plan migratorio del PP: expulsión de los delincuentes reincidentes y visado por puntos"
-      }
+      },
+      "grupoEvidencia": "pasaje-230f6f2805e0dbb75a7b"
     },
     "soc-005": {
       "valor": 1,
@@ -363,7 +369,8 @@
         "fecha": "2026-03-17",
         "consultado": "2026-07-10",
         "cita": "El Congreso rechaza tramitar la ampliación de la prisión permanente apoyada por PP, Vox, UPN y CC"
-      }
+      },
+      "grupoEvidencia": "pasaje-afed70d70812be156139"
     },
     "der-017": {
       "valor": 2,
@@ -376,7 +383,8 @@
         "fecha": "2025-09-26",
         "consultado": "2026-07-10",
         "cita": "Feijóo perfila el nuevo plan migratorio del PP: integración y 'prioridad' a los hispanoamericanos"
-      }
+      },
+      "grupoEvidencia": "pasaje-82e30abf22409eba2363"
     },
     "der-026": {
       "valor": -1,
@@ -389,7 +397,8 @@
         "fecha": "2024-02-20",
         "consultado": "2026-07-10",
         "cita": "El PP rechaza el plan de Vox para ilegalizar partidos independentistas que planteó Feijóo en enero"
-      }
+      },
+      "grupoEvidencia": "pasaje-3c3fc94e9ed2e99f5323"
     },
     "soc-001": {
       "valor": 1,
@@ -402,7 +411,8 @@
         "fecha": "2025-06-28",
         "consultado": "2026-07-10",
         "cita": "No se puede discriminar a nadie por amar a quien ha elegido amar"
-      }
+      },
+      "grupoEvidencia": "pasaje-434d61cec8ec541a8976"
     },
     "ter-002": {
       "valor": -2,
@@ -415,7 +425,8 @@
         "fecha": "2023-07",
         "consultado": "2026-07-10",
         "cita": "Feijóo se compromete a agravar las penas por sedición y rebelión, y a tipificar como delito la convocatoria de un referéndum ilegal"
-      }
+      },
+      "grupoEvidencia": "pasaje-04eb91210a7c2dca5d18"
     },
     "ter-003": {
       "valor": -2,
@@ -428,7 +439,8 @@
         "fecha": "2026-06-03",
         "consultado": "2026-07-10",
         "cita": "Feijóo se planta ante la burguesía catalana: rechaza el cupo y avisa que no les va «a pedir favores ni a regalarlos»"
-      }
+      },
+      "grupoEvidencia": "pasaje-c97b003976922c525523"
     },
     "ter-004": {
       "valor": 2,
@@ -441,7 +453,8 @@
         "fecha": "2023-07",
         "consultado": "2026-07-10",
         "cita": "Garantizaremos que, en las comunidades autónomas con más de una lengua oficial, ambas tendrán la consideración de vehiculares de acuerdo con el patrón de equilibrio lingüístico"
-      }
+      },
+      "grupoEvidencia": "pasaje-8695b75794b18e4bf3c2"
     },
     "der-005": {
       "valor": 1,
@@ -466,7 +479,8 @@
         "fecha": "2024-05-30",
         "consultado": "2026-07-10",
         "cita": "El Congreso aprueba la Ley de Amnistía tras meses de polémica y el veto del PP en el Senado"
-      }
+      },
+      "grupoEvidencia": "pasaje-b72f4d88132098494e41"
     },
     "ter-001": {
       "valor": -1,
@@ -479,7 +493,8 @@
         "fecha": "2026-07-07",
         "consultado": "2026-07-10",
         "cita": "Feijóo asegura que quienes no defiendan el Estado de las autonomías «no quieren mucho a España»"
-      }
+      },
+      "grupoEvidencia": "pasaje-1989f1d747aeccc025f4"
     },
     "eco-008": {
       "valor": 1,
@@ -552,7 +567,8 @@
         "fecha": "2023-06-14",
         "consultado": "2026-07-10",
         "cita": "no estamos en contra de la subida del salario mínimo, sino de cómo se está haciendo"
-      }
+      },
+      "grupoEvidencia": "pasaje-511f5e63efc07bc97f02"
     },
     "dr-018": {
       "valor": -1,
@@ -613,7 +629,8 @@
         "fecha": "2026-07-07",
         "consultado": "2026-07-10",
         "cita": "ni las foralidades de Euskadi y Navarra... no quieren mucho a España"
-      }
+      },
+      "grupoEvidencia": "pasaje-98f58429906948faa8f7"
     },
     "dr-021": {
       "valor": -2,
@@ -662,7 +679,8 @@
         "fecha": "2023-07",
         "consultado": "2026-07-10",
         "cita": "Garantizaremos que, en las comunidades autónomas con más de una lengua oficial, ambas tendrán la consideración de vehiculares de acuerdo con el patrón de equilibrio lingüístico"
-      }
+      },
+      "grupoEvidencia": "pasaje-8695b75794b18e4bf3c2"
     }
   }
 }

@@ -8,7 +8,12 @@
   "confianza": "verificada",
   "version": "1.0",
   "revisado": "2026-07-10",
-  "facetasDefinitorias": ["metodo-cambio", "organizacion", "internacionalismo", "economico"],
+  "facetasDefinitorias": [
+    "metodo-cambio",
+    "organizacion",
+    "internacionalismo",
+    "economico"
+  ],
   "sensibilidad": "normal",
   "advertencia": "Es un tipo ideal doctrinal histórico, no la ficha de ningún partido español concreto: distintas organizaciones que se reclaman trotskistas (POSI, Corriente Roja, Izquierda Revolucionaria) pueden matizar posiciones puntuales. El deslinde decisivo es frente al posadismo, ya presente en el catálogo: el trotskismo ortodoxo rechaza expresamente la tesis posadista de que una guerra nuclear abriría una oportunidad revolucionaria aceptable, y frente al eurocomunismo, cuya aceptación de la Constitución de 1978 y de la vía parlamentaria de gestión institucional esta corriente lee como renuncia a la revolución permanente.",
   "fuentesMarco": [
@@ -44,7 +49,8 @@
         "fecha": "1938",
         "consultado": "2026-07-10",
         "cita": "The world political situation as a whole is chiefly characterized by a historic crisis of the leadership of the proletariat."
-      }
+      },
+      "grupoEvidencia": "pasaje-adfd657ca53ea9447b29"
     },
     "izq-002": {
       "valor": 2,

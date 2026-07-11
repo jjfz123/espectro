@@ -77,7 +77,8 @@
         "fecha": "2026-01-29",
         "consultado": "2026-07-10",
         "cita": "Hay una ausencia total de políticas de vivienda en las comunidades donde gobierna la derecha"
-      }
+      },
+      "grupoEvidencia": "pasaje-3ca7034d5b91083282f5"
     },
     "eco-006": {
       "valor": 2,
@@ -90,7 +91,8 @@
         "fecha": "2025",
         "consultado": "2026-07-10",
         "cita": "Nuestro modelo sitúa la vivienda como un derecho, no como un negocio"
-      }
+      },
+      "grupoEvidencia": "pasaje-c2919f7be37c6fdfd1f1"
     },
     "eco-009": {
       "valor": -2,
@@ -151,7 +153,8 @@
         "fecha": "2025-04-29",
         "consultado": "2026-07-10",
         "cita": "Un instrumento como REE es estratégico y debe volver a ser 100% público"
-      }
+      },
+      "grupoEvidencia": "pasaje-8caf9db87e76336a5baa"
     },
     "soc-001": {
       "valor": 2,
@@ -320,7 +323,8 @@
         "fecha": "2024-03-07",
         "consultado": "2026-07-10",
         "cita": "Avanza sin duda en normalizar la situación en Cataluña"
-      }
+      },
+      "grupoEvidencia": "pasaje-898a810fdef7e204e631"
     },
     "sd-004": {
       "valor": 2,
@@ -345,7 +349,8 @@
         "fecha": "2024-07-04",
         "consultado": "2026-07-10",
         "cita": "No frustramos la renovación imprescindible del Poder Judicial, pero tampoco votamos a favor de un pacto PP-PSOE con importantes deficiencias"
-      }
+      },
+      "grupoEvidencia": "pasaje-8b20d4aecd14ff32281a"
     }
   }
 }

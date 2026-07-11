@@ -22,6 +22,17 @@ export interface CondicionItem {
   valores: Valor[];
 }
 
+/**
+ * Orden institucional desde el que debe interpretarse un ítem.
+ * Es contexto visible para quien responde; el motor no lo puntúa.
+ */
+export interface MarcoReferencia {
+  /** Omitir `marco` en el ítem equivale a un supuesto neutro. */
+  supuesto: 'sistema-actual' | 'sociedad-deseada' | 'neutro';
+  /** Aclaración breve mostrada junto a la pregunta. */
+  aclaracion?: string;
+}
+
 export interface Item {
   id: string;
   texto: string;
@@ -34,6 +45,8 @@ export interface Item {
   terminos?: string[];
   /** Subpregunta condicional, usada solo en recorridos de profundización. */
   condicion?: CondicionItem;
+  /** Marco explícito cuando presente y horizonte deseado producirían respuestas distintas. */
+  marco?: MarcoReferencia;
   /** `solo-mapa` nunca puede utilizarse para recomendar una entidad real. */
   uso?: 'normal' | 'solo-mapa';
   estado?: 'activo' | 'piloto' | 'retirado';
@@ -74,8 +87,21 @@ export interface Posicion {
   valor: Valor;
   justificacion?: string;
   fuente?: FuenteCita;
+  /**
+   * Identidad estable del pasaje dentro de su fuente. Dos ítems apoyados por
+   * el mismo párrafo deben compartirla aunque transcriban fragmentos distintos.
+   */
+  grupoEvidencia?: string;
   /** Calidad de la evidencia concreta, independiente de la ficha global. */
   calidadEvidencia?: 'alta' | 'media' | 'baja';
+  /**
+   * Un cero solo entra en coordenadas documentales cuando la fuente resuelve
+   * de forma explícita la dicotomía; evita convertir silencio en moderación.
+   */
+  resolucionCero?: {
+    tipo: 'modelo-mixto' | 'equilibrio-explicito';
+    explicacion: string;
+  };
   /**
    * Solo para compromisos programáticos auditables. No convierte el perfil
    * completo en un porcentaje de «cumplimiento» ni sustituye a la evidencia.
@@ -183,6 +209,11 @@ export interface ReferenciaDoctrinal extends PerfilAfinidad {
   sensibilidad?: 'normal' | 'antipluralista' | 'violenta';
   advertencia: string;
   fuentesMarco: FuenteCita[];
+  /** Veto independiente del mapa: impide mostrar afinidad mientras la ficha está en auditoría. */
+  publicacionAfinidad?: {
+    publicable: boolean;
+    motivo: string;
+  };
   reglaPublicacion: {
     minimoItems: number;
     minimoCobertura: number;

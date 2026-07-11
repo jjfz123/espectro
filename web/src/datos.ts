@@ -19,6 +19,7 @@ import ejesJson from '@data/ejes.json';
 import modulosJson from '@data/modulos.json';
 import glosarioJson from '@data/glosario.json';
 import versionJson from '@data/version.json';
+import rapidoJson from '@data/rapido.json';
 
 export const VERSION_INSTRUMENTO = versionJson.versionInstrumento;
 export const FECHA_CORTE_DATOS = versionJson.fechaCorte;
@@ -85,28 +86,12 @@ export function terminosDeItem(item: Item): TerminoGlosario[] {
  * recorrido rápido. Mantener el orden explícito evita desplazar las primeras
  * cuarenta preguntas en sesiones ya empezadas.
  */
-export const IDS_AMPLIACION_NUCLEO = [
-  'dem-011',
-  'dem-014',
-  'dem-021',
-  'lab-006',
-  'ene-001',
-  'sd-002',
-  'fem-006',
-  'geo-002',
-  'geo-005',
-  'va-001',
-] as const;
+export const IDS_AMPLIACION_NUCLEO = rapidoJson.idsAmpliacion2026;
 
-const idsAmpliacionNucleo = new Set<string>(IDS_AMPLIACION_NUCLEO);
-const nucleoCompleto = ITEMS_POR_MODULO.get('nucleo') ?? [];
-
-export const ITEMS_NUCLEO: Item[] = [
-  ...nucleoCompleto.filter((item) => !idsAmpliacionNucleo.has(item.id)),
-  ...IDS_AMPLIACION_NUCLEO.map((id) => ITEM_POR_ID.get(id)).filter(
-    (item): item is Item => item !== undefined,
-  ),
-];
+/** Orden canónico versionado: no depende del orden de los ficheros ni del glob de Vite. */
+export const ITEMS_NUCLEO: Item[] = rapidoJson.ids
+  .map((id) => ITEM_POR_ID.get(id))
+  .filter((item): item is Item => item !== undefined);
 
 /**
  * Secuencia de ítems de una sesión: el núcleo y, detrás, los módulos activos
