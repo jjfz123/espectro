@@ -67,7 +67,7 @@ describe('capas del atlas ideologico', () => {
   });
 
   it('bloquea la geometría en investigación sin ocultar la entrada nominal', () => {
-    expect(ANCLAS_ATLAS_BLOQUEADAS).toHaveLength(17);
+    expect(ANCLAS_ATLAS_BLOQUEADAS).toHaveLength(20);
     expect(
       ANCLAS_ATLAS_BLOQUEADAS.every(
         (corriente) =>

@@ -45,6 +45,7 @@ Este documento es el cierre obligatorio, elemento por elemento. Una casilla solo
 - [ ] Carlismo tradicionalista, Partido Carlista/socialismo autogestionario y escisiones/etapas tienen recibos separados que prueban qué preguntas los acercan y cuáles los distinguen.
 - [ ] Aceleracionismo neonazi/Atomwaffen se trata como arquetipo de seguridad no identitario, con fuente española aportada, veto de gamificación/captación y umbral reforzado de coincidencias.
 - [ ] Revisar LeftValues (leftvalues.github.io) y RightValues (rightvaluestest.github.io) como referencia comparada aportada por el propietario para afinar la discriminación interna de izquierda y derecha: qué subejes y qué preguntas discriminantes usan, qué adaptaríamos y qué no (licencias, sesgos y calidad por auditar); sin copiar ítems literales.
+- [ ] Todo lo que ve el usuario y las citas de las fichas están en español (regla del propietario, 2026-07-11): las citas nuevas usan ediciones canónicas en español y «(en inglés)» solo se admite como excepción marcada y temporal; el retrofit de las citas ya existentes en otros idiomas se planifica como tanda propia más adelante.
 
 ## Resultado ideológico y explicación metodológica
 
@@ -78,6 +79,7 @@ Este documento es el cierre obligatorio, elemento por elemento. Una casilla solo
 - [ ] El [anexo nominal de 323 candidaturas](./TODO-CANDIDATURAS.md) está íntegro y cerrado: cada papeleta conserva recibo `perfil enlazado | inventariada sin perfil | excluida con motivo`, sin duplicar una formación como si fueran partidos distintos.
 - [ ] PSOE, PP, VOX y Movimiento Sumar tienen dos marcadores fechados y comparables: programa/posición formal y conducta/discurso observado, con fuentes por ítem y disclaimer de que ninguno es «la verdad esencial» del partido.
 - [ ] PSOE documenta compromisos cumplidos, parciales e incumplidos sin fabricar un porcentaje global; la derogación/reforma de la ley mordaza queda como caso explicado y fechado.
+- [ ] El PSOE tiene además un perfil histórico diferenciado «PSOE de Felipe González» (1982-1996: reconversiones industriales, referéndum OTAN, primeras privatizaciones) separado del PSOE actual, con fuentes de época propias y sin heredar posiciones en ninguna dirección (aportación del propietario, 2026-07-11).
 - [ ] PP documenta su programa y sus declaraciones/actuaciones recientes, incluidos los matices y cambios verificables sobre aborto, sin convertir una noticia aislada en posición permanente.
 - [ ] VOX documenta por separado programa y giro discursivo/estratégico reciente —incluido el actor o corriente citado por el usuario, cuya denominación exacta debe verificarse antes de publicarla— con ventana temporal, atribución y cautela.
 - [ ] Movimiento Sumar distingue programa de coalición, conducta propia y posiciones de componentes; Podemos se presenta separado cuando corresponde y no hereda la candidatura Sumar.
