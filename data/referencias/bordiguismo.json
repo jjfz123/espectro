@@ -235,6 +235,20 @@
         "fecha": "1922",
         "consultado": "2026-07-10"
       }
+    },
+    "lab-017": {
+      "valor": -1,
+      "justificacion": "Bordiga niega que la disposición futura sea una forma de propiedad o algo corporativo: será social, no individual ni corporativa. No respalda transferir las empresas a cooperativas de trabajadores (fórmula corporativa que rechaza), pero tampoco a ministerios: acuerdo negativo matizado, de ahí -1.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Amadeo Bordiga, Propiedad y Capital (trad. española, ed. cast. 1980, marxists.org/espanol)",
+        "url": "https://www.marxists.org/espanol/bordiga/escritos/amadeo-bordiga-propiedad-y-capital.pdf",
+        "fecha": "1948",
+        "consultado": "2026-07-11",
+        "cita": "Será una disposición social, no individual, y ni siquiera corporativa. No será más una forma de propiedad, sino de organización"
+      },
+      "grupoEvidencia": "pasaje-8369d0324d4cc6babf5d"
     }
   }
 }
