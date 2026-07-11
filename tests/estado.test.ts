@@ -1,10 +1,13 @@
 import { describe, expect, it } from 'vitest';
 import {
   CLAVE_ALMACEN,
+  CLAVE_SESION_RETIRADA,
   DIAS_CADUCIDAD,
   ESTADO_INICIAL,
   HITO_INTERMEDIO_RESPUESTAS,
+  avisoSesionRetirada,
   cargarEstado,
+  descartarAvisoSesionRetirada,
   guardarEstado,
   reductor,
 } from '../web/src/estado.js';
@@ -279,25 +282,46 @@ describe('estado del cuestionario', () => {
     });
   });
 
-  it('descarta estados de otro instrumento o caducados', () => {
+  it('retira estados de otro instrumento, caducados, futuros o corruptos con motivo y sin borrado silencioso', () => {
     const base = {
       ...ESTADO_INICIAL,
       fase: 'cuestionario',
       respuestas: { 'eco-001': 2 },
       guardadoEn: new Date().toISOString(),
     };
-    for (const datos of [
-      { ...base, versionInstrumento: 'instrumento-incompatible' },
-      {
-        ...base,
-        guardadoEn: new Date(
-          Date.now() - (DIAS_CADUCIDAD + 1) * 24 * 60 * 60 * 1000,
-        ).toISOString(),
-      },
-    ]) {
-      conLocalStorage({ [CLAVE_ALMACEN]: JSON.stringify(datos) }, (almacen) => {
+    const casos: Array<[string, string]> = [
+      [JSON.stringify({ ...base, versionInstrumento: 'instrumento-incompatible' }), 'instrumento'],
+      [
+        JSON.stringify({
+          ...base,
+          guardadoEn: new Date(
+            Date.now() - (DIAS_CADUCIDAD + 1) * 24 * 60 * 60 * 1000,
+          ).toISOString(),
+        }),
+        'caducada',
+      ],
+      [
+        JSON.stringify({
+          ...base,
+          guardadoEn: new Date(Date.now() + 3 * 24 * 60 * 60 * 1000).toISOString(),
+        }),
+        'reloj-futuro',
+      ],
+      [JSON.stringify({ ...base, guardadoEn: 'no-es-una-fecha' }), 'marca-temporal'],
+      ['{esto no es json', 'corrupta'],
+    ];
+    for (const [payload, motivoEsperado] of casos) {
+      conLocalStorage({ [CLAVE_ALMACEN]: payload }, (almacen) => {
         expect(cargarEstado()).toEqual(ESTADO_INICIAL);
+        // La clave principal queda libre, pero la sesión no desaparece en
+        // silencio: se conserva bajo la clave de retirada con su motivo.
         expect(almacen.getItem(CLAVE_ALMACEN)).toBeNull();
+        const retirada = JSON.parse(almacen.getItem(CLAVE_SESION_RETIRADA) ?? '{}');
+        expect(retirada.motivo).toBe(motivoEsperado);
+        expect(retirada.payload).toBe(payload);
+        expect(avisoSesionRetirada()).toEqual({ motivo: motivoEsperado });
+        descartarAvisoSesionRetirada();
+        expect(avisoSesionRetirada()).toBeNull();
       });
     }
   });
@@ -324,5 +348,25 @@ describe('preferencia de orden de la escala Likert', () => {
       guardarEstado(invertido);
       expect(cargarEstado().escalaInvertida).toBe(true);
     });
+  });
+});
+
+describe('fuente de verdad única de la secuencia activa', () => {
+  it('las respuestas de módulos desactivados se conservan pero no alimentan ningún cálculo', async () => {
+    const { respuestasDeSecuenciaActiva, ITEMS_POR_MODULO } = await import('../web/src/datos.js');
+    const itemVerde = ITEMS_POR_MODULO.get('verde-animalista')?.find((item) => !item.condicion);
+    expect(itemVerde).toBeDefined();
+    const respuestas = { 'eco-001': 2 as const, [itemVerde!.id]: -1 as const };
+
+    // Con el módulo activo, su respuesta cuenta.
+    const conModulo = respuestasDeSecuenciaActiva(['verde-animalista'], respuestas);
+    expect(conModulo.map((r) => r.itemId)).toContain(itemVerde!.id);
+
+    // Al desactivar el módulo la respuesta sigue guardada (no la borra nadie)
+    // pero deja de entrar en la secuencia activa: sugerencia de módulos y
+    // perfil final ven exactamente lo mismo.
+    const sinModulo = respuestasDeSecuenciaActiva([], respuestas);
+    expect(sinModulo.map((r) => r.itemId)).not.toContain(itemVerde!.id);
+    expect(sinModulo.map((r) => r.itemId)).toContain('eco-001');
   });
 });

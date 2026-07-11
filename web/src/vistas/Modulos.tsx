@@ -1,7 +1,15 @@
 import { useMemo, useState } from 'react';
 import type { Respuesta } from '@engine';
 import { calcularEjes, modulosDesbloqueados } from '@engine';
-import { EJES, ITEMS, ITEMS_NUCLEO, ITEMS_POR_MODULO, MODULOS, itemVisible } from '../datos';
+import {
+  EJES,
+  ITEMS,
+  ITEMS_NUCLEO,
+  ITEMS_POR_MODULO,
+  MODULOS,
+  itemVisible,
+  respuestasDeSecuenciaActiva,
+} from '../datos';
 import type { Accion, Estado } from '../estado';
 
 interface Props {
@@ -10,14 +18,13 @@ interface Props {
 }
 
 export function Modulos({ estado, despachar }: Props) {
+  // Misma fuente de verdad que Resultados: solo la secuencia activa alimenta
+  // la sugerencia. Respuestas de módulos desactivados quedan guardadas pero
+  // no reintroducen su señal por esta pantalla.
   const respuestas: Respuesta[] = useMemo(
     () =>
-      Object.entries(estado.respuestas).map(([itemId, valor]) => ({
-        itemId,
-        valor,
-        importante: Boolean(estado.importantes[itemId]),
-      })),
-    [estado.respuestas, estado.importantes],
+      respuestasDeSecuenciaActiva(estado.modulosActivos, estado.respuestas, estado.importantes),
+    [estado.modulosActivos, estado.respuestas, estado.importantes],
   );
 
   const desbloqueados = useMemo(() => {

@@ -12,7 +12,21 @@ import {
   PERFILES_REALES,
   secuenciaItems,
 } from '../datos';
-import type { Accion, Estado, Modo } from '../estado';
+import type { Accion, Estado, Modo, MotivoRetirada } from '../estado';
+import { avisoSesionRetirada, descartarAvisoSesionRetirada } from '../estado';
+
+const TEXTO_RETIRADA: Record<MotivoRetirada, string> = {
+  caducada:
+    'Había caducado (más de 90 días sin usarse) y reutilizarla daría un resultado desactualizado.',
+  instrumento:
+    'Venía de una versión anterior del cuestionario: las preguntas o su puntuación cambiaron y reutilizar aquellas respuestas daría un resultado engañoso.',
+  'version-app':
+    'Venía de una versión anterior de la aplicación que ya no es compatible con esta.',
+  'marca-temporal': 'No se pudo verificar cuándo se guardó, así que no es seguro restaurarla.',
+  'reloj-futuro':
+    'Su fecha de guardado estaba en el futuro; sin una marca fiable no es seguro restaurarla.',
+  corrupta: 'No se pudo leer con seguridad (datos dañados o manipulados).',
+};
 
 interface Props {
   estado: Estado;
@@ -22,6 +36,7 @@ interface Props {
 
 export function Portada({ estado, despachar, alAbrirMetodologia }: Props) {
   const [ccaa, setCcaa] = useState(estado.ccaa);
+  const [sesionRetirada, setSesionRetirada] = useState(avisoSesionRetirada);
   const [eleccion, setEleccion] = useState<TipoEleccion>(estado.eleccion);
   const [modo, setModo] = useState<Modo>(estado.modo);
 
@@ -71,6 +86,27 @@ export function Portada({ estado, despachar, alAbrirMetodologia }: Props) {
           </div>
         </div>
       </section>
+
+      {sesionRetirada ? (
+        <section className="continuar-bloque" role="status" aria-label="Sesión anterior retirada">
+          <p>
+            <strong>Tu sesión anterior se ha retirado.</strong>{' '}
+            {TEXTO_RETIRADA[sesionRetirada.motivo]}
+          </p>
+          <div className="acciones" style={{ marginTop: 0 }}>
+            <button
+              type="button"
+              className="boton--terciario boton"
+              onClick={() => {
+                descartarAvisoSesionRetirada();
+                setSesionRetirada(null);
+              }}
+            >
+              Entendido
+            </button>
+          </div>
+        </section>
+      ) : null}
 
       {hayProgreso ? (
         <section className="continuar-bloque" aria-label="Test empezado">

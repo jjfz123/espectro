@@ -6,7 +6,7 @@
  * todo viaja dentro del propio build (requisito de privacidad).
  */
 import { itemVisible } from '@engine';
-import type { Eje, Item, Modulo, PerfilAfinidad, Valor } from '@engine';
+import type { Eje, Item, Modulo, PerfilAfinidad, Respuesta, Valor } from '@engine';
 import type { TipoEleccion } from '@engine';
 
 /** Número de perfiles reales (sin demos), inyectado en tiempo de build. */
@@ -110,6 +110,29 @@ export function secuenciaItems(
     secuencia.push(...(ITEMS_POR_MODULO.get(m.id) ?? []));
   }
   return secuencia.filter((item) => itemVisible(item, respuestas));
+}
+
+/**
+ * Respuestas restringidas a la secuencia activa (núcleo + módulos activos +
+ * condicionales visibles). Es la fuente de verdad única que comparten la
+ * sugerencia de módulos y el perfil de resultados: las respuestas de módulos
+ * desactivados se conservan en el almacén —se recuperan al reactivar el
+ * módulo— pero no influyen en ningún cálculo mientras estén fuera de la
+ * secuencia. Así ninguna pantalla puede derivar una posición distinta de otra.
+ */
+export function respuestasDeSecuenciaActiva(
+  modulosActivos: string[],
+  respuestas: Readonly<Record<string, Valor | null>>,
+  importantes: Readonly<Record<string, boolean>> = {},
+): Respuesta[] {
+  const activos = new Set(secuenciaItems(modulosActivos, respuestas).map((item) => item.id));
+  return Object.entries(respuestas)
+    .filter(([itemId]) => activos.has(itemId))
+    .map(([itemId, valor]) => ({
+      itemId,
+      valor,
+      importante: Boolean(importantes[itemId]),
+    }));
 }
 
 /* ————— Vocabulario de la interfaz ————— */

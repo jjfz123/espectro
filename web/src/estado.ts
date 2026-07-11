@@ -314,6 +314,66 @@ export const CLAVE_ALMACEN = 'espectro.v1';
 export const DIAS_CADUCIDAD = 90;
 const CADUCIDAD_MS = DIAS_CADUCIDAD * 24 * 60 * 60 * 1000;
 
+/**
+ * Una sesión guardada que no puede restaurarse no se borra en silencio: se
+ * aparta bajo esta clave con su motivo, y la portada muestra un aviso honesto
+ * una sola vez. El payload retirado se conserva ahí hasta que el usuario lo
+ * descarta (o hasta que otra sesión incompatible lo sustituye).
+ */
+export const CLAVE_SESION_RETIRADA = 'espectro.v1.retirada';
+/** Margen para relojes desajustados antes de tratar una marca futura como inválida. */
+const TOLERANCIA_RELOJ_MS = 24 * 60 * 60 * 1000;
+
+export type MotivoRetirada =
+  | 'version-app'
+  | 'instrumento'
+  | 'marca-temporal'
+  | 'reloj-futuro'
+  | 'caducada'
+  | 'corrupta';
+
+function retirarSesion(motivo: MotivoRetirada, payload: string | null): void {
+  try {
+    localStorage.setItem(
+      CLAVE_SESION_RETIRADA,
+      JSON.stringify({ motivo, retiradaEn: new Date().toISOString(), payload }),
+    );
+    localStorage.removeItem(CLAVE_ALMACEN);
+  } catch {
+    // Almacenamiento bloqueado: no hay nada persistido que retirar.
+  }
+}
+
+/** Aviso pendiente de sesión retirada, si existe y es legible. */
+export function avisoSesionRetirada(): { motivo: MotivoRetirada } | null {
+  try {
+    const crudo = localStorage.getItem(CLAVE_SESION_RETIRADA);
+    if (!crudo) return null;
+    const datos = JSON.parse(crudo) as { motivo?: unknown };
+    const motivos: MotivoRetirada[] = [
+      'version-app',
+      'instrumento',
+      'marca-temporal',
+      'reloj-futuro',
+      'caducada',
+      'corrupta',
+    ];
+    return motivos.includes(datos.motivo as MotivoRetirada)
+      ? { motivo: datos.motivo as MotivoRetirada }
+      : null;
+  } catch {
+    return null;
+  }
+}
+
+export function descartarAvisoSesionRetirada(): void {
+  try {
+    localStorage.removeItem(CLAVE_SESION_RETIRADA);
+  } catch {
+    // Nada que descartar.
+  }
+}
+
 const FASES: Fase[] = [
   'portada',
   'cuestionario',
@@ -328,8 +388,9 @@ const ELECCIONES_VALIDAS: TipoEleccion[] = ['generales', 'autonomicas', 'municip
 const VALORES_VALIDOS = new Set([-2, -1, 0, 1, 2, null]);
 
 export function cargarEstado(): Estado {
+  let crudo: string | null = null;
   try {
-    const crudo = localStorage.getItem(CLAVE_ALMACEN);
+    crudo = localStorage.getItem(CLAVE_ALMACEN);
     if (!crudo) return ESTADO_INICIAL;
     const datos = JSON.parse(crudo) as Partial<Estado> & { guardadoEn?: unknown };
     const guardadoEn =
@@ -337,16 +398,24 @@ export function cargarEstado(): Estado {
     // v3 → v4 solo añade cargas a ejes nuevos: no cambia ids, texto, orden,
     // escala ni significado de ninguna respuesta. Es una migración segura y
     // deliberadamente acotada; futuras versiones vuelven a ser incompatibles
-    // hasta declarar su propia migración.
+    // hasta declarar su propia migración. El hash semántico de version.json
+    // (validate:data) obliga a decidir conscientemente cada cambio nuevo.
     const migracionCargasV3aV4 =
       VERSION_INSTRUMENTO === '4' && datos.versionInstrumento === '3';
-    const incompatible =
-      datos.version !== 3 ||
-      (datos.versionInstrumento !== VERSION_INSTRUMENTO && !migracionCargasV3aV4) ||
-      !Number.isFinite(guardadoEn) ||
-      Date.now() - guardadoEn > CADUCIDAD_MS;
-    if (incompatible) {
-      localStorage.removeItem(CLAVE_ALMACEN);
+    const motivoRetirada: MotivoRetirada | null =
+      datos.version !== 3
+        ? 'version-app'
+        : datos.versionInstrumento !== VERSION_INSTRUMENTO && !migracionCargasV3aV4
+          ? 'instrumento'
+          : !Number.isFinite(guardadoEn)
+            ? 'marca-temporal'
+            : guardadoEn - Date.now() > TOLERANCIA_RELOJ_MS
+              ? 'reloj-futuro'
+              : Date.now() - guardadoEn > CADUCIDAD_MS
+                ? 'caducada'
+                : null;
+    if (motivoRetirada) {
+      retirarSesion(motivoRetirada, crudo);
       return ESTADO_INICIAL;
     }
 
@@ -406,6 +475,9 @@ export function cargarEstado(): Estado {
     }
     return estado;
   } catch {
+    // Payload ilegible: se aparta con su motivo en lugar de dejarlo pudrirse
+    // bajo la clave principal o borrarlo sin dejar rastro.
+    if (crudo !== null) retirarSesion('corrupta', crudo);
     return ESTADO_INICIAL;
   }
 }

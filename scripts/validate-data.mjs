@@ -3,6 +3,7 @@
 // Uso: npm run validate:data   (falla con exit 1 si hay errores)
 import Ajv from 'ajv';
 import addFormats from 'ajv-formats';
+import { createHash } from 'node:crypto';
 import { existsSync, readFileSync, readdirSync } from 'node:fs';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -932,6 +933,37 @@ for (const fichero of readdirSync(join(raiz, 'data/sindicatos'))) {
       }
     }
   }
+}
+
+// Candado del instrumento: la compatibilidad de una sesión guardada depende
+// de que el contenido SEMÁNTICO del banco (ids, cargas, condiciones, uso,
+// módulo y estado de cada ítem vigente) no cambie dentro de una misma
+// versionInstrumento. Antes esa garantía era un comentario en estado.ts;
+// ahora es un hash reproducible: cualquier cambio semántico rompe CI hasta
+// que alguien decida conscientemente si es (a) compatible/aditivo —actualizar
+// hashSemantico en data/version.json—, o (b) incompatible —subir
+// versionInstrumento, declarar migración o reinicio informado, y actualizar
+// el hash—. Los cambios de solo texto (reformulaciones) no alteran el hash.
+const itemsSemanticos = [...itemsPorId.values()]
+  .filter((item) => item.estado !== 'retirado')
+  .map((item) => ({
+    id: item.id,
+    modulo: item.modulo,
+    ejes: item.ejes ?? [],
+    condicion: item.condicion ?? null,
+    uso: item.uso ?? 'normal',
+  }))
+  .sort((a, b) => a.id.localeCompare(b.id));
+const hashSemantico = createHash('sha256')
+  .update(JSON.stringify(itemsSemanticos))
+  .digest('hex')
+  .slice(0, 16);
+if (versionDatos.hashSemantico !== hashSemantico) {
+  fallo(
+    'version.json',
+    `hashSemantico desactualizado: el contenido semántico del instrumento cambió (hash actual ${hashSemantico}, declarado ${versionDatos.hashSemantico ?? 'ausente'}). ` +
+      'Decide: cambio compatible/aditivo → actualiza hashSemantico; cambio de carga, signo, condición, uso o módulo de un ítem existente → sube versionInstrumento y define migración o reinicio informado.',
+  );
 }
 
 // Campos huérfanos de presentación. La `dobleLectura` es un contrato
