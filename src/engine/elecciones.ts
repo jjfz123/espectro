@@ -138,16 +138,23 @@ function ultimaConvocatoria(
  * por CCAA, esos perfiles no deben convertirse en opciones comparables fuera
  * de su territorio ni reaparecer como tales en el catálogo contextual.
  *
+ * En autonómicas la misma regla actúa como defensa en profundidad: aunque el
+ * universo lo fija la convocatoria (y `audit:electoral` veta en CI una
+ * candidatura foránea), un perfil que declare territorio de otra comunidad
+ * nunca se vuelve comparable aquí. El motor no confía en que los datos sean
+ * perfectos: falla cerrado.
+ *
  * Las organizaciones estatales se conservan: que sean componentes de una
  * coalición no las vuelve territoriales. Si falta el perfil enlazado, tampoco
- * inferimos un ámbito que los datos no declaran.
+ * inferimos un ámbito que los datos no declaran; y un perfil territorial sin
+ * comunidad declarada no pasa el filtro (dato incompleto ≠ ámbito global).
  */
 function relacionAplicableAlContexto(
   relacion: RelacionPerfilCandidatura,
   partidosPorId: ReadonlyMap<string, Partido>,
   ctx: ContextoEleccion,
 ): boolean {
-  if (ctx.tipo !== 'generales' || !ctx.ccaa) return true;
+  if (!ctx.ccaa || (ctx.tipo !== 'generales' && ctx.tipo !== 'autonomicas')) return true;
   const perfil = partidosPorId.get(relacion.perfilId);
   if (!perfil || perfil.ambito === 'estatal') return true;
   return perfil.ccaa?.includes(ctx.ccaa) ?? false;
@@ -263,7 +270,9 @@ export function seleccionarPartidosElectorales(
         candidatura.territorios?.includes(ctx.ccaa),
     )
     .map((candidatura) => {
-      if (ctx.tipo !== 'generales' || !ctx.ccaa) return candidatura;
+      if (!ctx.ccaa || (ctx.tipo !== 'generales' && ctx.tipo !== 'autonomicas')) {
+        return candidatura;
+      }
       return {
         ...candidatura,
         perfilRelaciones: candidatura.perfilRelaciones.filter((relacion) =>

@@ -295,6 +295,29 @@ describe('fixtures sintéticos: reglas de fallo cerrado del motor', () => {
     expect(ids).not.toContain('foraneo-cat');
   });
 
+  it('una convocatoria autonómica con datos foráneos no vuelve comparable un perfil de otra comunidad', () => {
+    // Defensa en profundidad: audit:electoral ya veta este dato en CI, pero
+    // el motor tampoco debe confiar en que los datos sean perfectos.
+    const convocatoria = convocatoriaSintetica('autonomicas', 'madrid', [
+      candidaturaSintetica('sint-local', 60, [
+        { perfilId: 'propio-mad', relacion: 'misma-organizacion' },
+      ]),
+      candidaturaSintetica('sint-foranea', 40, [
+        { perfilId: 'foraneo-cat', relacion: 'misma-organizacion' },
+      ]),
+    ]);
+    const seleccion = seleccionarPartidosElectorales(
+      [
+        perfilSintetico('propio-mad', 'autonomico', ['madrid']),
+        perfilSintetico('foraneo-cat', 'autonomico', ['catalunya']),
+      ],
+      [convocatoria],
+      { tipo: 'autonomicas', ccaa: 'madrid' },
+    );
+    expect(seleccion.metodo).toBe('convocatoria-documentada');
+    expect(seleccion.partidos.map((partido) => partido.id)).toEqual(['propio-mad']);
+  });
+
   it('un perfil histórico enlazado en la convocatoria no vuelve como opción comparable', () => {
     const convocatoria = convocatoriaSintetica('autonomicas', 'madrid', [
       candidaturaSintetica('sint-activo', 60, [
