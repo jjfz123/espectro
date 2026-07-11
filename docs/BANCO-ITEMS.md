@@ -73,7 +73,8 @@ Los ~6.300 partidos inscritos en el Registro del Ministerio del Interior no requ
 5. **Hipótesis explícita**: `notas` documenta qué discrimina el ítem y las respuestas esperadas. Un ítem que no sabe decir a quién separa no entra.
 6. Todo ítem nuevo entra en `estado: "piloto"`; solo tras validación (discriminación real en datos + posiciones de partido verificadas) pasa a `activo`. Los retirados se marcan `retirado`, nunca se borran.
 7. **Términos difíciles, explicados sin sobresimplificar**: todo ítem que use un término técnico o histórico (democracia orgánica, concierto económico, mochila austriaca, reintegracionismo…) lo referencia en su campo `terminos`, y el glosario (`data/glosario.json`) da una definición de consenso en palabras sencillas **más** el matiz cuando el término está en disputa (la definición de «autodeterminación» dice explícitamente que su aplicación fuera de contextos coloniales es discutida — eso no es relleno, es la definición honesta) y un enlace de referencia (Wikipedia). La interfaz lo muestra como una marca de ayuda junto al término. El validador exige que toda referencia exista y que ningún término quede huérfano.
-8. **Equifinalidad**: si una misma respuesta puede llegar desde los dos polos del eje que el ítem carga, el ítem va **solo-matching** (`ejes: []`). Casos canónicos: cerrar fronteras (rojipardismo de izquierda económica *y* nativismo de derecha), abolicionismo de la prostitución (feminismo *y* conservadurismo moral), Palestina/Israel (izquierda pro-palestina *y* antisionismo ultra frente al sionismo de VOX *y* el atlantismo liberal), rechazo del alineamiento con Trump (europeísmo institucional *y* antiamericanismo falangista). El ítem sigue discriminando partidos —para eso está el matching por pares—, pero no puede empujar el mapa de nadie en una dirección que no es la suya. La auditoría de equifinalidad es parte obligatoria de la revisión de cada tanda; en la primera se corrigieron 6 ítems.
+8. **Marco de referencia**: si la afirmación solo es evaluable fijando antes el orden institucional (el sistema actual, un socialismo, un corporativismo fascista…), el ítem **declara ese supuesto** en el campo `marco` (`sistema-actual` | `sociedad-deseada`), y la interfaz lo muestra como contexto. Salvo indicación, un ítem describe el aquí y ahora. Es lo que separa «reconocer un sindicato único bajo las reglas vigentes» de «el sindicato vertical de un Estado corporativo», o «prohibir sindicatos bajo el capitalismo» de «que los sindicatos se disuelvan tras una transformación social»: la misma respuesta con marcos distintos es información distinta. El motor no puntúa `marco`; corrige el sesgo de encuadre de quien responde. Detalle y hoja de ruta en [investigacion/MARCO-DE-REFERENCIA.md](investigacion/MARCO-DE-REFERENCIA.md).
+9. **Equifinalidad**: si una misma respuesta puede llegar desde los dos polos del eje que el ítem carga, el ítem va **solo-matching** (`ejes: []`). Casos canónicos: cerrar fronteras (rojipardismo de izquierda económica *y* nativismo de derecha), abolicionismo de la prostitución (feminismo *y* conservadurismo moral), Palestina/Israel (izquierda pro-palestina *y* antisionismo ultra frente al sionismo de VOX *y* el atlantismo liberal), rechazo del alineamiento con Trump (europeísmo institucional *y* antiamericanismo falangista). El ítem sigue discriminando partidos —para eso está el matching por pares—, pero no puede empujar el mapa de nadie en una dirección que no es la suya. La auditoría de equifinalidad es parte obligatoria de la revisión de cada tanda; en la primera se corrigieron 6 ítems.
 
 ## 6. Flujo del usuario
 
@@ -85,22 +86,22 @@ Los ~6.300 partidos inscritos en el Registro del Ministerio del Interior no requ
 
 Esta sección se actualiza con cada ampliación; el recuento vivo lo da `npm run validate:data`.
 
-El banco contiene **342 registros versionados**: 328 vigentes y 14 retirados que se conservan para trazabilidad. Entre los vigentes hay 243 ítems de eje, 67 solo-matching, 10 seguimientos condicionales y 8 solo-mapa. Toda entrada debe declarar en `notas` qué discrimina, qué coincidencias por motivos distintos son posibles y qué no debe inferirse; el esquema y el validador lo exigen.
+El banco contiene **378 registros versionados**: 364 vigentes y 14 retirados que se conservan para trazabilidad. Entre los vigentes hay 255 ítems de eje, 88 solo-matching, 12 seguimientos condicionales y 9 solo-mapa. Toda entrada debe declarar en `notas` qué discrimina, qué coincidencias por motivos distintos son posibles y qué no debe inferirse; el esquema y el validador lo exigen.
 
 | Módulo | Ítems | Módulo | Ítems |
 |---|---|---|---|
 | nucleo | 50 | nacionalismos-regionalismos | 17 |
-| corrientes-izquierda | 43 | verde-animalista | 16 |
-| socialdemocracia-reformismo | 21 | feminismos-moral | 16 |
+| corrientes-izquierda | 43 | verde-animalista | 15 |
+| socialdemocracia-reformismo | 20 | feminismos-moral | 15 |
 | centro-liberalismo | 20 | territorial-canarias | 11 |
-| corrientes-derecha | 24 | territorial-catalunya | 6 |
-| derecha-radical | 20 | territorial-euskadi-navarra | 6 |
-| | | territorial-galicia | 5 |
-| territorial-andalucia | 4 | democracia-instituciones | 20 |
-| trabajo-estado-sindicatos | 25 | energia-modelo-productivo | 12 |
-| geopolitica-defensa | 16 | limites-antipluralismo | 6 |
+| corrientes-derecha | 24 | territorial-catalunya | 9 |
+| derecha-radical | 22 | territorial-euskadi-navarra | 11 |
+| territorial-andalucia | 8 | territorial-galicia | 5 |
+| trabajo-estado-sindicatos | 28 | democracia-instituciones | 34 |
+| geopolitica-defensa | 14 | energia-modelo-productivo | 11 |
+| | | limites-antipluralismo | 7 |
 
-Balance de polaridad vigente: 212 formulaciones positivas y 116 negativas (~35 % negativas). Sigue siendo una deuda del piloto; no se corrige invirtiendo frases mecánicamente, sino probando equivalencia de marco y retirando duplicados.
+Balance de polaridad vigente: 243 formulaciones positivas y 121 negativas (~33 % negativas). Sigue siendo una deuda del piloto; no se corrige invirtiendo frases mecánicamente, sino probando equivalencia de marco y retirando duplicados.
 
 ### Backlog de huecos conocidos (señalados en revisión, pendientes de futuras tandas)
 
