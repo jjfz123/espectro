@@ -1055,6 +1055,36 @@ if (avisosSesgo.length > 0) {
     `⚠ ${avisosSesgo.length} aviso(s) de posible sesgo de evidencia-bandera (no bloquean):\n${avisosSesgo.join('\n')}`,
   );
 }
+
+// Aviso (no bloquea): estructura muerta del instrumento. Un eje sin ítems
+// vigentes produce una faceta siempre null; un módulo sin ítems vigentes es
+// inalcanzable. No son errores porque pueden ser transitorios entre tandas,
+// pero deben verse en cada validación hasta resolverse o retirarse.
+const avisosEstructura = [];
+const ejesUsados = new Set();
+const modulosUsados = new Set();
+for (const item of itemsPorId.values()) {
+  if (item.estado === 'retirado') continue;
+  modulosUsados.add(item.modulo);
+  for (const carga of item.ejes ?? []) {
+    if (carga.carga !== 0) ejesUsados.add(carga.eje);
+  }
+}
+for (const eje of ejes) {
+  if (!ejesUsados.has(eje.id)) {
+    avisosEstructura.push(`- eje sin ítems vigentes que lo carguen: ${eje.id} (faceta siempre «sin datos»)`);
+  }
+}
+for (const m of modulos) {
+  if (!modulosUsados.has(m.id)) {
+    avisosEstructura.push(`- módulo sin ítems vigentes: ${m.id}`);
+  }
+}
+if (avisosEstructura.length > 0) {
+  console.warn(
+    `⚠ ${avisosEstructura.length} aviso(s) de estructura del instrumento (no bloquean):\n${avisosEstructura.join('\n')}`,
+  );
+}
 const itemsVigentes = [...itemsPorId.values()].filter((item) => item.estado !== 'retirado');
 const nSeguimientos = itemsVigentes.filter((item) => item.condicion).length;
 const nCartografia = itemsVigentes.filter((item) => item.uso === 'solo-mapa').length;
