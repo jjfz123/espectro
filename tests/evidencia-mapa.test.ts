@@ -335,7 +335,8 @@ describe('proyección documental de partidos en los macroejes', () => {
     expect(documental.ejesInsuficientes).toEqual([EJE.id]);
     expect(documental.facetas[0]).toMatchObject({
       valor: 100,
-      itemsRespondidos: 1,
+      itemsRespondidos: 4,
+      gruposDocumentales: 1,
       coberturaSuficiente: false,
     });
     expect(documental.evidenciaDocumental?.[EJE.id]?.grupos).toBe(1);

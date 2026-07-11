@@ -67,7 +67,7 @@ export function ReferenciasDoctrinales({ respuestas, alMontar }: Props) {
                     </div>
                     {!esViolenta ? (
                       <p className="referencia-puntuacion">
-                        {formatearNumero(resultado.puntuacion)} <small>%</small>
+                        {formatearNumero(resultado.puntuacion ?? 0)} <small>%</small>
                       </p>
                     ) : null}
                   </header>

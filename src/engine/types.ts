@@ -238,10 +238,21 @@ export interface ResultadoFaceta {
   facetaId: string;
   /** Posición en [-100, 100]; null si no hay ninguna respuesta con opinión. */
   valor: number | null;
-  /** Número de preguntas con opinión que contribuyen a la faceta. */
+  /**
+   * Número de preguntas con opinión que contribuyen a la faceta (perfil del
+   * usuario) o número de ítems posicionados con evidencia válida (proyección
+   * documental de una entidad). Nunca cuenta grupos: para eso está
+   * `gruposDocumentales`.
+   */
   itemsRespondidos: number;
   /** Número de preguntas administradas que podían contribuir a la faceta. */
   itemsDisponibles: number;
+  /**
+   * Solo en la proyección documental de entidades: nº de grupos documentales
+   * independientes que sostienen la coordenada (la unidad que decide la
+   * publicabilidad).
+   */
+  gruposDocumentales?: number;
   /** Suma de |carga| de las preguntas respondidas. */
   cargaRespondida: number;
   /** Suma de |carga| de todas las preguntas disponibles. */
@@ -289,9 +300,20 @@ export interface DetalleItem {
 
 export interface ResultadoAfinidad {
   entidadId: string;
-  /** 0–100 (distancia city-block/Manhattan normalizada y ponderada). */
-  puntuacion: number;
+  /**
+   * `calculable` cuando existe al menos un ítem comparable; `sin-datos`
+   * cuando el solapamiento es cero. La ausencia de datos nunca se codifica
+   * como un porcentaje: un 0 significa desacuerdo máximo real, no vacío.
+   */
+  estado: 'calculable' | 'sin-datos';
+  /**
+   * 0–100 (distancia city-block/Manhattan normalizada y ponderada), o `null`
+   * cuando `estado === 'sin-datos'`. Un consumidor no debe ordenar ni pintar
+   * `null` dentro de un ranking numérico: va en una sección aparte.
+   */
+  puntuacion: number | null;
   itemsComparados: number;
+  /** Respuestas del usuario con opinión dentro del universo comparado. */
   itemsRespondidos: number;
   /** itemsComparados / itemsRespondidos: proporción del test cubierta por el partido. */
   cobertura: number;
@@ -305,6 +327,12 @@ export interface ResultadoAfinidad {
 export interface ResultadoReferencia extends ResultadoAfinidad {
   /** Nº total de posiciones definitorias codificadas en la referencia. */
   itemsDefinitorios: number;
+  /**
+   * itemsComparados / itemsDefinitorios: cuánto del tipo ideal quedó cubierto
+   * por el recorrido. Es distinta de `cobertura` (que mide sobre las
+   * respuestas del usuario) y es la que gobierna la publicación.
+   */
+  coberturaDefinitoria: number;
   /** Supera simultáneamente mínimos de cobertura, ítems y similitud. */
   publicable: boolean;
   umbralAfinidad: number;

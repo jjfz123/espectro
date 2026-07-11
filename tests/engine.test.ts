@@ -616,8 +616,11 @@ describe('referencias doctrinales no electorales', () => {
     );
     expect(resultado).toMatchObject({
       itemsComparados: 2,
+      // Respuestas con opinión del usuario: no se sobrescribe con el total
+      // de posiciones definitorias de la referencia.
+      itemsRespondidos: 2,
       itemsDefinitorios: 4,
-      cobertura: 0.5,
+      coberturaDefinitoria: 0.5,
       publicable: false,
     });
   });
@@ -634,7 +637,7 @@ describe('referencias doctrinales no electorales', () => {
       [referencia],
     );
     expect(conImportancia?.puntuacion).toBe(sinImportancia?.puntuacion);
-    expect(conImportancia).toMatchObject({ cobertura: 0.75, publicable: true });
+    expect(conImportancia).toMatchObject({ coberturaDefinitoria: 0.75, publicable: true });
   });
 });
 

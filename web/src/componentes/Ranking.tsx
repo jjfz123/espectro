@@ -35,7 +35,7 @@ const ETIQUETA_CONFIANZA: Record<string, string> = {
 type TramoFiabilidad = 0 | 1 | 2;
 
 function tramoFiabilidad(resultado: ResultadoAfinidad): TramoFiabilidad {
-  if (resultado.itemsComparados === 0) return 2;
+  if (resultado.estado === 'sin-datos') return 2;
   return resultado.bajaCobertura ? 1 : 0;
 }
 
@@ -45,9 +45,9 @@ const ETIQUETA_TRAMO: Record<Exclude<TramoFiabilidad, 0>, string> = {
 };
 
 function MarcadorContraste({ doble, compacto }: { doble: DobleMarcador; compacto: boolean }) {
-  const calculable = doble.resultadoContraste.itemsComparados > 0;
+  const calculable = doble.resultadoContraste.estado === 'calculable';
   const puntuacion = calculable
-    ? `${formatearNumero(doble.resultadoContraste.puntuacion)} %`
+    ? `${formatearNumero(doble.resultadoContraste.puntuacion ?? 0)} %`
     : 'sin datos comparables';
   const resumen = calculable
     ? `${puntuacion} · ${doble.resultadoContraste.itemsComparados} ítems${
@@ -61,7 +61,7 @@ function MarcadorContraste({ doble, compacto }: { doble: DobleMarcador; compacto
           <div className="barra barra--contraste" aria-hidden="true">
             <span
               style={{
-                width: `${Math.max(0, Math.min(100, doble.resultadoContraste.puntuacion))}%`,
+                width: `${Math.max(0, Math.min(100, doble.resultadoContraste.puntuacion ?? 0))}%`,
               }}
             />
           </div>
@@ -138,7 +138,7 @@ export function Ranking({
   const filas = resultados.map((r, i) => {
     const entidad = entidades.get(r.entidadId);
     if (!entidad) return null;
-    const calculable = r.itemsComparados > 0;
+    const calculable = r.estado === 'calculable';
     const doble = doblesMarcadores?.get(r.entidadId);
     const contexto = contextoPorEntidad?.get(r.entidadId);
     const tramo = tramoFiabilidad(r);
@@ -174,7 +174,7 @@ export function Ranking({
             ) : null}
             {calculable ? (
               <>
-                {formatearNumero(r.puntuacion)}
+                {formatearNumero(r.puntuacion ?? 0)}
                 <small> %</small>
               </>
             ) : (
@@ -186,7 +186,7 @@ export function Ranking({
         {calculable ? (
           <>
             <div className="barra" aria-hidden="true">
-              <span style={{ width: `${Math.max(0, Math.min(100, r.puntuacion))}%` }} />
+              <span style={{ width: `${Math.max(0, Math.min(100, r.puntuacion ?? 0))}%` }} />
             </div>
             <p className="ranking-meta">
               Comparados {r.itemsComparados} de tus {r.itemsRespondidos} ítems con respuesta

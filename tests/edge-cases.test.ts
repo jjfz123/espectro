@@ -22,9 +22,10 @@ function partido(id: string, posiciones: Record<string, -2 | -1 | 0 | 1 | 2>): P
 }
 
 describe('calcularAfinidad: casos límite', () => {
-  it('sin respuestas: puntuación 0, cobertura 0 y bajaCobertura', () => {
+  it('sin respuestas: estado sin-datos, cobertura 0 y bajaCobertura', () => {
     const res = calcularAfinidad([], partido('p', { a: 1 }));
-    expect(res.puntuacion).toBe(0);
+    expect(res.estado).toBe('sin-datos');
+    expect(res.puntuacion).toBeNull();
     expect(res.itemsComparados).toBe(0);
     expect(res.cobertura).toBe(0);
     expect(res.bajaCobertura).toBe(true);
@@ -36,8 +37,32 @@ describe('calcularAfinidad: casos límite', () => {
       { itemId: 'b', valor: null },
     ];
     const res = calcularAfinidad(r, partido('p', { a: 2, b: -2 }), laxo);
-    expect(res.puntuacion).toBe(0);
+    expect(res.estado).toBe('sin-datos');
+    expect(res.puntuacion).toBeNull();
     expect(res.itemsRespondidos).toBe(0);
+  });
+
+  it('un 0 % real (desacuerdo máximo) sigue siendo calculable: nunca se confunde con sin-datos', () => {
+    const res = calcularAfinidad(
+      [{ itemId: 'a', valor: 2 }],
+      partido('p', { a: -2 }),
+      laxo,
+    );
+    expect(res.estado).toBe('calculable');
+    expect(res.puntuacion).toBe(0);
+    expect(res.itemsComparados).toBe(1);
+  });
+
+  it('los sin-datos cierran el ranking y no compiten numéricamente con un 0 % real', () => {
+    const respuestas: Respuesta[] = [{ itemId: 'a', valor: 2 }];
+    const orden = rankingAfinidad(
+      respuestas,
+      [partido('vacio', { b: 1 }), partido('cero-real', { a: -2 })],
+      laxo,
+    );
+    expect(orden.map((r) => r.entidadId)).toEqual(['cero-real', 'vacio']);
+    expect(orden[0]).toMatchObject({ estado: 'calculable', puntuacion: 0 });
+    expect(orden[1]).toMatchObject({ estado: 'sin-datos', puntuacion: null });
   });
 
   it('una respuesta duplicada no cuenta dos veces: prevalece la última', () => {

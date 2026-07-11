@@ -34,7 +34,8 @@ function afinidad(
 ): ResultadoAfinidad {
   return {
     entidadId,
-    puntuacion,
+    estado: itemsComparados > 0 ? 'calculable' : 'sin-datos',
+    puntuacion: itemsComparados > 0 ? puntuacion : null,
     itemsComparados,
     itemsRespondidos: 20,
     cobertura: 0.6,

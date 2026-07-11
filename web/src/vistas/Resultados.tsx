@@ -272,7 +272,7 @@ export function Resultados({ estado, despachar, puedeRecargar, alConfirmarGuarda
   const nombreEleccion =
     ELECCIONES.find((e) => e.id === estado.eleccion)?.nombre ?? estado.eleccion;
   const comunidad = estado.ccaa ? nombreComunidad(estado.ccaa) : undefined;
-  const maximosAfinidad = resultados.filter((resultado) => resultado.itemsComparados > 0).slice(0, 3);
+  const maximosAfinidad = resultados.filter((resultado) => resultado.estado === 'calculable').slice(0, 3);
   const idsMaximosAfinidad = new Set(maximosAfinidad.map((resultado) => resultado.entidadId));
   const resultadosRestantes = resultados.filter(
     (resultado) => !idsMaximosAfinidad.has(resultado.entidadId),

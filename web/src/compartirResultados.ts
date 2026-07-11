@@ -63,12 +63,13 @@ export function crearSnapshotResultadoCompartido(
   const afinidades: ResultadoCompartidoV1['p'] = datos.afinidades
     .filter(
       (resultado) =>
-        resultado.itemsComparados > 0 &&
+        resultado.estado === 'calculable' &&
+        resultado.puntuacion !== null &&
         (resultado.confianza === 'verificada' || resultado.confianza === 'estimada'),
     )
     .map((resultado) => [
       resultado.entidadId,
-      limitarEntero(resultado.puntuacion * 10, 0, 1_000),
+      limitarEntero((resultado.puntuacion ?? 0) * 10, 0, 1_000),
       limitarEntero(resultado.cobertura * 1_000, 0, 1_000),
       limitarEntero(resultado.itemsComparados, 1, 500),
       resultado.bajaCobertura ? 1 : 0,

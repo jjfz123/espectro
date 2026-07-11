@@ -115,7 +115,7 @@ function motivoDeFaceta(
     if (recibo?.extremoSinContrapeso) {
       return `${nombre}: la evidencia disponible forma un extremo sin grupo moderador o contradictorio independiente; se oculta antes que publicar una posición bandera`;
     }
-    return `${nombre}: ${faceta.itemsRespondidos} grupos documentales independientes (cobertura de carga ${cobertura} %)`;
+    return `${nombre}: ${faceta.gruposDocumentales ?? faceta.itemsRespondidos} grupos documentales independientes (cobertura de carga ${cobertura} %)`;
   }
   return `${nombre}: ${faceta.itemsRespondidos} de ${faceta.itemsDisponibles} ítems del eje documentados (cobertura ${cobertura} %)`;
 }

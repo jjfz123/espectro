@@ -170,9 +170,14 @@ export function proyectarPartidoEnEspacio(
     return {
       facetaId: eje.id,
       valor: recibo.valor,
-      // En esta ruta el contador significa pruebas independientes: es la
-      // unidad que decide la publicabilidad de una organización.
-      itemsRespondidos: recibo.grupos,
+      // Ítems posicionados con evidencia válida; los grupos documentales
+      // independientes —la unidad que decide la publicabilidad— van en su
+      // propio campo para no reutilizar `itemsRespondidos` con otro sentido.
+      itemsRespondidos: recibo.componentes.reduce(
+        (total: number, componente: { items: string[] }) => total + componente.items.length,
+        0,
+      ),
+      gruposDocumentales: recibo.grupos,
       itemsDisponibles: cargasDisponibles.length,
       cargaRespondida: redondearEspacial(cargaRespondida, 4),
       cargaDisponible: redondearEspacial(cargaDisponible, 4),

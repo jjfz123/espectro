@@ -53,6 +53,8 @@ export function perfilContraste(partido: Partido): PerfilAfinidad | undefined {
  * - «sin opinión» (valor null) se excluye: no penaliza ni favorece.
  * - Ítems sin posición del partido se excluyen y reducen la cobertura.
  * - Cobertura baja ⇒ bandera `bajaCobertura` (mostrar aviso, no ocultar el dato).
+ * - Sin ningún ítem comparable ⇒ `estado: 'sin-datos'` y `puntuacion: null`;
+ *   la ausencia de solape jamás se devuelve como un 0 % de acuerdo.
  */
 export function calcularAfinidad(
   respuestas: Respuesta[],
@@ -94,11 +96,14 @@ export function calcularAfinidad(
   const itemsComparados = detalle.length;
   const cobertura = contestadas.length > 0 ? itemsComparados / contestadas.length : 0;
   const puntuacion =
-    sumaPesos > 0 ? 100 * (1 - sumaDistancias / (sumaPesos * DISTANCIA_MAXIMA)) : 0;
+    sumaPesos > 0
+      ? redondear(100 * (1 - sumaDistancias / (sumaPesos * DISTANCIA_MAXIMA)), 1)
+      : null;
 
   return {
     entidadId: entidad.id,
-    puntuacion: redondear(puntuacion, 1),
+    estado: puntuacion === null ? 'sin-datos' : 'calculable',
+    puntuacion,
     itemsComparados,
     itemsRespondidos: contestadas.length,
     cobertura: redondear(cobertura, 3),
@@ -116,9 +121,9 @@ export function calcularAfinidad(
  * listas visualmente incoherentes (por ejemplo, un 62 % delante de un 80 %).
  * En caso de empate sí se prioriza la comparación más sólida y después la que
  * contiene más ítems. Las organizaciones monotemáticas se excluyen: un único
- * punto no puede producir un porcentaje de afinidad general. Los partidos sin
- * ningún ítem comparable quedan al final y la interfaz debe tratarlos como
- * «sin datos», nunca como una afinidad del 0 %.
+ * punto no puede producir un porcentaje de afinidad general. Los resultados
+ * `sin-datos` (puntuación `null`) quedan al final, fuera de la comparación
+ * numérica: la interfaz los presenta como «sin datos», nunca como un 0 %.
  */
 export function rankingAfinidad(
   respuestas: Respuesta[],
@@ -132,11 +137,11 @@ export function rankingAfinidad(
       opciones.bloquearCoberturaInsuficiente ? !resultado.bajaCobertura : true,
     )
     .sort((a, b) => {
-      const sinDatosA = a.itemsComparados === 0;
-      const sinDatosB = b.itemsComparados === 0;
+      const sinDatosA = a.estado === 'sin-datos';
+      const sinDatosB = b.estado === 'sin-datos';
       return (
         Number(sinDatosA) - Number(sinDatosB) ||
-        b.puntuacion - a.puntuacion ||
+        (b.puntuacion ?? 0) - (a.puntuacion ?? 0) ||
         Number(a.bajaCobertura) - Number(b.bajaCobertura) ||
         b.itemsComparados - a.itemsComparados ||
         b.cobertura - a.cobertura ||

@@ -30,20 +30,24 @@ export function compararReferenciasDoctrinales(
         umbralCobertura: referencia.reglaPublicacion.minimoCobertura,
       });
       const itemsDefinitorios = idsDefinitorios.size;
-      const cobertura = itemsDefinitorios > 0 ? base.itemsComparados / itemsDefinitorios : 0;
+      // Cobertura sobre el tipo ideal, no sobre las respuestas del usuario.
+      // Vive en su propio campo: `itemsRespondidos` y `cobertura` conservan
+      // la semántica de ResultadoAfinidad y no se sobrescriben.
+      const coberturaDefinitoria =
+        itemsDefinitorios > 0 ? base.itemsComparados / itemsDefinitorios : 0;
       const publicable =
+        base.estado === 'calculable' &&
         base.itemsComparados >= referencia.reglaPublicacion.minimoItems &&
-        cobertura >= referencia.reglaPublicacion.minimoCobertura &&
-        base.puntuacion >= referencia.reglaPublicacion.umbralAfinidad;
+        coberturaDefinitoria >= referencia.reglaPublicacion.minimoCobertura &&
+        (base.puntuacion ?? 0) >= referencia.reglaPublicacion.umbralAfinidad;
 
       return {
         ...base,
-        itemsRespondidos: itemsDefinitorios,
-        cobertura: redondear(cobertura, 3),
         bajaCobertura:
           base.itemsComparados < referencia.reglaPublicacion.minimoItems ||
-          cobertura < referencia.reglaPublicacion.minimoCobertura,
+          coberturaDefinitoria < referencia.reglaPublicacion.minimoCobertura,
         itemsDefinitorios,
+        coberturaDefinitoria: redondear(coberturaDefinitoria, 3),
         publicable,
         umbralAfinidad: referencia.reglaPublicacion.umbralAfinidad,
       };
