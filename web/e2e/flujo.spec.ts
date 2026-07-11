@@ -1241,8 +1241,9 @@ test('el plano detallado ofrece objetivos táctiles reales y desambigua los cúm
     const puntos = planoDetalle.locator('.mapa-punto');
     expect(await puntos.count()).toBeGreaterThan(3);
 
-    /* Todo punto del plano detallado (usuario, partidos y referencias) ofrece
-       un objetivo de toque real de al menos 44×44 px en 320/360/390. */
+    /* Todo punto del plano detallado (usuario, partidos y referencias) y toda
+       ancla en investigación de la brújula ofrecen un objetivo de toque real
+       de al menos 44×44 px en 320/360/390. */
     for (const ancho of [320, 360, 390]) {
       await page.setViewportSize({ width: ancho, height: 844 });
       const objetivos = await planoDetalle
@@ -1257,6 +1258,19 @@ test('el plano detallado ofrece objetivos táctiles reales y desambigua los cúm
       expect(
         Math.min(...objetivos),
         `objetivo táctil mínimo del plano detallado con viewport ${ancho}`,
+      ).toBeGreaterThanOrEqual(44);
+      const objetivosAnclas = await page
+        .locator('.mapa-plano--brujula .mapa-ancla-bloqueada__hit')
+        .evaluateAll((circulos) =>
+          circulos.map((circulo) => {
+            const caja = circulo.getBoundingClientRect();
+            return Math.min(caja.width, caja.height);
+          }),
+        );
+      expect(objetivosAnclas.length).toBeGreaterThan(0);
+      expect(
+        Math.min(...objetivosAnclas),
+        `objetivo táctil mínimo de las anclas en investigación con viewport ${ancho}`,
       ).toBeGreaterThanOrEqual(44);
     }
 
