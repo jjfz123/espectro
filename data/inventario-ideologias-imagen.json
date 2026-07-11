@@ -213,7 +213,7 @@
         "corrienteId": "fascismo-esoterico",
         "decisionCapa": "B",
         "equivalenciaConCorriente": true,
-        "motivo": "Solo contexto histórico especializado; no se deriva de religiosidad, tradicionalismo ni una respuesta aislada."
+        "motivo": "Solo contexto histórico especializado; no se deriva de religiosidad, tradicionalismo ni una respuesta aislada. El propietario sitúa la recepción española en el evolianismo metapolítico (revistas como Elementos o El Manifiesto): un nicho que lee, no un movimiento de masas."
       }
     },
     {
@@ -226,7 +226,7 @@
         "corrienteId": "nacionalsocialismo-aleman",
         "decisionCapa": "B",
         "equivalenciaConCorriente": true,
-        "motivo": "Referencia histórica violenta, separada de neonazismo posterior, Falange, franquismo y derecha radical electoral; no genera identidad ni recomendación."
+        "motivo": "Referencia histórica violenta, separada de neonazismo posterior, Falange, franquismo y derecha radical electoral; no genera identidad ni recomendación. Recepción española anotada por el propietario: CEDADE como referente histórico de propaganda; el neonazismo español posterior funciona como franquicia importada, sin doctrina propia."
       }
     },
     {
@@ -279,7 +279,7 @@
         "corrienteId": "monarquia-absoluta",
         "decisionCapa": "B",
         "equivalenciaConCorriente": true,
-        "motivo": "Se muestra como polo institucional histórico, no como economía propia ni como sinónimo de monarquía parlamentaria, carlismo o tradicionalismo."
+        "motivo": "Se muestra como polo institucional histórico, no como economía propia ni como sinónimo de monarquía parlamentaria, carlismo o tradicionalismo. El propietario identifica su expresión española en el carlismo absolutista: monarquía tradicional de origen divino sin constitución."
       }
     },
     {
@@ -750,7 +750,7 @@
         "corrienteId": "aristocratismo",
         "decisionCapa": "B",
         "equivalenciaConCorriente": true,
-        "motivo": "Referencia institucional histórica; no equivale a Senado, expertos, nobleza ceremonial o desigualdad económica sin defensa explícita del gobierno minoritario."
+        "motivo": "Referencia institucional histórica; no equivale a Senado, expertos, nobleza ceremonial o desigualdad económica sin defensa explícita del gobierno minoritario. Correlato español anotado por el propietario: el latifundismo andaluz-extremeño y la Grandeza como clase con expresión política real (derecha agraria, caciquismo terrateniente)."
       }
     },
     {
@@ -1025,7 +1025,7 @@
         "corrienteId": "monarquismo-constitucional",
         "decisionCapa": "B",
         "equivalenciaConCorriente": true,
-        "motivo": "Posición real sobre jefatura del Estado compatible con PP, PSOE y economías distintas; se muestra como faceta y no como partido o programa completo."
+        "motivo": "Posición real sobre jefatura del Estado compatible con PP, PSOE y economías distintas; se muestra como faceta y no como partido o programa completo. El propietario la asocia al consenso del 78: la monarquía parlamentaria juancarlista como posición institucional."
       }
     },
     {
@@ -1155,7 +1155,7 @@
         "decisionCapa": "B",
         "publicacionGeometrica": "publicada",
         "equivalenciaConCorriente": true,
-        "motivo": "El rótulo depende de país y época; se muestra como referencia exhaustiva, no como etiqueta automática de partido."
+        "motivo": "El rótulo depende de país y época; se muestra como referencia exhaustiva, no como etiqueta automática de partido. El propietario apunta como recepción española la democracia cristiana de UCD y las fases centristas del PP o de Ciudadanos, a documentar con fuentes."
       }
     },
     {
@@ -1313,7 +1313,7 @@
         "decisionCapa": "B",
         "publicacionGeometrica": "bloqueada-investigacion",
         "equivalenciaConCorriente": true,
-        "motivo": "Nicho anglófono de baja presencia; su economía no es única y requiere nuevos discriminantes antes de mapearse."
+        "motivo": "Nicho anglófono de baja presencia; su economía no es única y requiere nuevos discriminantes antes de mapearse. El propietario la describe como lectores españoles de un fenómeno anglosajón (Moldbug, Land) en el post-libertarianismo online: nicho de nicho."
       }
     },
     {
@@ -1897,7 +1897,7 @@
         "decisionCapa": "B",
         "publicacionGeometrica": "publicada",
         "equivalenciaConCorriente": true,
-        "motivo": "Referencia filosófica de nicho; no equivale a todo libertarismo ni se deduce de apoyar empresa privada."
+        "motivo": "Referencia filosófica de nicho; no equivale a todo libertarismo ni se deduce de apoyar empresa privada. El propietario señala que en España tiene lectores sin movimiento: choca con la cultura católica de fondo incluso en la derecha libertaria."
       }
     },
     {
@@ -2056,7 +2056,7 @@
         "decisionCapa": "B",
         "publicacionGeometrica": "bloqueada-investigacion",
         "equivalenciaConCorriente": true,
-        "motivo": "Falta un ítem directo de contraeconomía; desobediencia o economía informal aisladas no bastan para identificarla."
+        "motivo": "Falta un ítem directo de contraeconomía; desobediencia o economía informal aisladas no bastan para identificarla. Nota del propietario: la gran economía sumergida española es agorismo de facto sin agoristas — praxis sin teoría, no posición declarada."
       }
     },
     {
@@ -2214,7 +2214,7 @@
         "decisionCapa": "A",
         "publicacionGeometrica": "publicada",
         "equivalenciaConCorriente": true,
-        "motivo": "Distingue individualismo histórico de ancap y egoísmo stirneriano; la variante tuckeriana se declara siempre."
+        "motivo": "Distingue individualismo histórico de ancap y egoísmo stirneriano; la variante tuckeriana se declara siempre. El propietario subraya el vacío español: el anarquismo aquí fue abrumadoramente colectivista (CNT, colectivizaciones) y el individualismo stirneriano nunca arraigó."
       }
     },
     {
