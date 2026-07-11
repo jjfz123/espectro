@@ -143,10 +143,18 @@
     "desbloqueo": { "tipo": "siempre" }
   },
   {
+    "id": "identidad-cultura",
+    "nombre": "Identidad y cultura española",
+    "descripcion": "Asimilación o convivencia de culturas, ser español por origen o por participación, amenaza cultural percibida, símbolos e historia en la escuela, leyenda negra e Hispanidad, acentos y variedades del español, acceso a la nacionalidad y velo. Separa los patriotismos españoles entre sí y de la izquierda estatal.",
+    "orden": 19,
+    "eleccionUsuario": true,
+    "desbloqueo": { "tipo": "eje", "eje": "social", "operador": ">=", "umbral": 15 }
+  },
+  {
     "id": "limites-antipluralismo",
     "nombre": "Límites del pluralismo y del uso de la violencia",
     "descripcion": "Bloque opcional de investigación sobre concentración extrema de poder, culto a la dirección y aceleración violenta del colapso. Solo alimenta el mapa; nunca recomienda partidos u organizaciones reales.",
-    "orden": 19,
+    "orden": 20,
     "eleccionUsuario": true,
     "desbloqueo": { "tipo": "manual" }
   }

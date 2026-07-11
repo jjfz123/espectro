@@ -1,0 +1,266 @@
+[
+  {
+    "id": "cul-001",
+    "texto": "Los inmigrantes que se establecen en España deberían adoptar las costumbres y valores españoles, y no solo cumplir las leyes.",
+    "modulo": "identidad-cultura",
+    "ejes": [
+      {
+        "eje": "social",
+        "carga": 0.75
+      }
+    ],
+    "polaridad": "positiva",
+    "tags": [
+      "inmigracion",
+      "asimilacion",
+      "integracion"
+    ],
+    "terminos": [
+      "asimilacionismo"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: el modelo de integración: asimilacionismo cultural (VOX, DN, E2000 +2 —E2000 lo lleva literal en su programa: 'la naturalización debe subordinarse a la asimilación de la cultura española'—; FE-JONS +2 desde el hispanismo; Frente Obrero +2: 'que lo nuestro no se destruya ni se sustituya', Vaquero 2024) frente a la integración con la ley como único requisito común y convivencia de culturas (PSOE −1, Sumar/Podemos −2); PP +1/+2: su Plan Nacional de Inmigración (2025) adopta el marco exigente ('Exigir es integrar'). No mide política de admisión (eso es soc-002/lib-018/der-016) ni preferencia por origen (der-017/dr-004): mide qué se exige a quien ya está aquí, hueco no cubierto por el banco. | Esperado: VOX +2, DN +2, E2000 +2, FE-JONS +2, FO +2, PP +1, SALF +1, AC 0, PSOE -1, Sumar -2, Podemos -2, ERC -2. | Proyección monotónica sobre GAL-TAN (el asimilacionismo es el polo TAN del modelo de integración); el matiz jacobino de izquierda es marginal en España y se recoge en el piloto. OJO: Aliança Catalana es asimilacionista hacia la cultura CATALANA; en el literal 'españoles' su respuesta se invierte (cf. dr-016) — por eso AC 0 y no +2."
+  },
+  {
+    "id": "cul-002",
+    "texto": "Para ser verdaderamente español es importante tener antepasados españoles.",
+    "modulo": "identidad-cultura",
+    "ejes": [],
+    "polaridad": "positiva",
+    "tags": [
+      "identidad",
+      "nacion-etnica",
+      "nacion-civica",
+      "solo-matching"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: la concepción étnica del 'ser español' (ascendencia: DN +2, E2000 +2) frente a la cultural-asimilista (VOX +1: nación histórica, pero acepta plenamente al hispanoamericano nacionalizado) y frente a la doctrinal falangista (FE-JONS −1: la nación como 'unidad de destino en lo universal', no de sangre; el falangismo rechaza por escrito el determinismo biológico) y a la cívica (PSOE/Sumar −2: es español quien vive y participa). Redacción ISSP National Identity. Equifinalidad: el desacuerdo llega a la vez del civismo GAL y del hispanismo cultural TAN, y los nacionalismos periféricos rechazan el propio marco español: cargarlo sobre el eje social puntuaría en diagonal → solo-matching. | Esperado: DN +2, E2000 +2 (programa: 'único criterio jurídico el ius sanguinis'), nacional-catolicismo +1, VOX 0 (doctrina hispanista-cultural: prioriza 'idioma, historia y cultura', no sangre; electorado probablemente más etnicista), FO 0, FE-JONS -1 ('España es unidad de destino... unidad de misión', falange.es), PP -1, PSOE -2, Sumar -2, Podemos -2. | Ítems más cercanos: nac-003 (pertenencia etnolingüística a la nación periférica) y and-008 (pertenencia cívica andaluza); este aplica el constructo a la nación española estatal, que ningún ítem cubría, y es el separador interno DN/E2000 vs VOX/Falange que pedía el encargo."
+  },
+  {
+    "id": "cul-003",
+    "texto": "El modo de vida y las costumbres de España están amenazados por la llegada de personas de otras culturas.",
+    "modulo": "identidad-cultura",
+    "ejes": [
+      {
+        "eje": "social",
+        "carga": 1
+      }
+    ],
+    "polaridad": "negativa",
+    "tags": [
+      "inmigracion",
+      "identidad",
+      "amenaza-cultural"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: percepción de amenaza cultural (formulación tipo ESS: vida cultural socavada/enriquecida por la inmigración), indicador nuclear del polo TAN: VOX/DN/E2000 +2 frente a PP 0 (habla de presión sobre servicios, no de amenaza cultural), PSOE −1 y Sumar/Podemos −2. Un simpatizante de cada lado puede firmarla como descripción justa: es la tesis literal del nativismo y su negación es la tesis literal del pluralismo, sin epítetos. Distinto de soc-005 (marco económico-demográfico: necesidad de inmigración) y de cat-004 (amenaza a la identidad catalana, marcador de AC): aquí el objeto es la cultura española y el marco es cultural. | Esperado: VOX +2, DN +2, E2000 +2, AC +1, FE-JONS +1, FO +1, SALF +1, PP 0, PSOE -1, Sumar -2, Podemos -2. | Ancla del módulo: capta la gradación real del discurso identitario sin amplificarla ni caricaturizarla."
+  },
+  {
+    "id": "cul-004",
+    "texto": "Los colegios públicos deberían realizar actos regulares de homenaje a la bandera y el himno de España.",
+    "modulo": "identidad-cultura",
+    "ejes": [
+      {
+        "eje": "social",
+        "carga": 0.5
+      },
+      {
+        "eje": "territorial",
+        "carga": 0.5
+      }
+    ],
+    "polaridad": "positiva",
+    "tags": [
+      "simbolos",
+      "educacion",
+      "himno",
+      "bandera"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: la socialización patriótica escolar (VOX +2, propuestas de bandera e himno en los centros; DN/E2000 +2, FE-JONS +2) frente al patriotismo institucional sin liturgia escolar (PP +1, PSOE −1) y al rechazo GAL y periférico (Sumar/Podemos −2, ERC/Bildu −2). Distinto de ter-005 (bandera en edificios públicos: obligación legal general): aquí se mide el rito escolar formativo, el escalón siguiente. izq-025 mide si la IZQUIERDA debe reivindicar los símbolos (marcador FO); FO puede firmar ambos (+1 aquí). Cargas repartidas social/territorial: el rechazo tiene dos fuentes (antinacionalismo GAL y nación periférica), ambas monotónicas con su eje respectivo; el reparto 0.5/0.5 limita la distorsión del caso PNV (rechazo por motivo solo territorial). Voto real de referencia: moción de VOX en Murcia (2021, himno en actos solemnes y bandera visible), aprobada con PP y Cs; PSOE en contra con argumento competencial, Podemos en contra frontal. | Esperado: VOX +2, DN +2, E2000 +2, FE-JONS +2, PP +1, FO +1, SALF +1, PSOE -1, Sumar -2, Podemos -2, ERC -2, EH Bildu -2, PNV -1. | Riesgo registrado: si el piloto muestra respuesta idéntica por motivos distintos que rompa la monotonía, pasar a solo-matching como dr-016."
+  },
+  {
+    "id": "cul-005",
+    "texto": "La enseñanza de la historia de España debería reforzar el orgullo por sus logros más que la revisión crítica de sus episodios oscuros.",
+    "modulo": "identidad-cultura",
+    "ejes": [
+      {
+        "eje": "social",
+        "carga": 0.5
+      }
+    ],
+    "polaridad": "positiva",
+    "tags": [
+      "educacion",
+      "historia",
+      "relato-nacional"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: el relato escolar de orgullo (VOX +2, contra la 'autodenigración' en los currículos; nacional-catolicismo +2; PP +1, revisión de contenidos donde gobierna) frente a la revisión crítica como función formativa (PSOE −1, Sumar/Podemos −2). Es un trade-off explícito de prioridad ('más que'), no un doble barril: pregunta qué debe pesar más, y cada lado puede firmarlo. Distinto de dr-015 (balance del franquismo: un régimen concreto del s. XX) y de izq-020/izq-022 (balances soviético y chino): aquí el objeto es el relato largo de la historia de España en la escuela. | Esperado: VOX +2, nacional-catolicismo +2, DN +2, FE-JONS +2, PP +1, FO +1, SALF +1, PSOE -1, Sumar -2, Podemos -2, ERC -2. | Proyección monotónica sobre GAL-TAN; el patriotismo de clase de FO (+1) no rompe la monotonía porque FO es TAN-tendente en este eje."
+  },
+  {
+    "id": "cul-006",
+    "texto": "La imagen de una España históricamente más cruel que otros imperios se debe más a la «leyenda negra» difundida por sus rivales que a la realidad histórica.",
+    "modulo": "identidad-cultura",
+    "ejes": [
+      {
+        "eje": "social",
+        "carga": 0.5
+      }
+    ],
+    "polaridad": "positiva",
+    "tags": [
+      "historia",
+      "leyenda-negra",
+      "hispanidad"
+    ],
+    "terminos": [
+      "leyenda-negra"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: la adhesión al marco revisionista de la 'leyenda negra' (tesis tipo Imperiofobia, adoptada por VOX +2 y sectores del PP +1, p. ej. el discurso de la 'hispanofobia') frente a la historiografía crítica asumida por la izquierda (Sumar/Podemos −2) y la equidistancia del PSOE (−1/0). El término va en el enunciado porque el ítem mide precisamente la adhesión a ese marco (regla de palabras-bandera de BANCO-ITEMS §5.2) y se explica en el glosario con su disputa. Complementa cul-005: aquel mide prioridad pedagógica; este, la tesis historiográfica. Ítem más cercano del banco: dr-015 (franquismo, balance de régimen). | Esperado: VOX +2, nacional-catolicismo +2, FE-JONS +2, DN +1, PP +1, FO 0, SALF +1, PSOE -1, Sumar -2, Podemos -2. | Es juicio histórico, no política pública: como dr-015 e izq-020, se admite con carga moderada porque la adhesión es monotónica con GAL-TAN en España."
+  },
+  {
+    "id": "cul-007",
+    "texto": "El 12 de octubre debería dejar de ser la fiesta nacional de España.",
+    "modulo": "identidad-cultura",
+    "ejes": [],
+    "polaridad": "negativa",
+    "tags": [
+      "hispanidad",
+      "fiesta-nacional",
+      "simbolos",
+      "solo-matching"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina dentro de la izquierda y dentro del nacionalismo: Podemos/IU (+2/+1: Belarra 2023 'aniversario de un genocidio', propuesta 2024 de trasladar la fiesta) frente al PSOE (−2: preside y organiza el desfile), y ERC/Bildu/BNG/Junts (+2, manifiestos 'nada que celebrar') frente al PNV (+1: ausencia reiterada del desfile sin pedir suprimir la fiesta). Equifinalidad: el acuerdo llega del anticolonialismo GAL (Podemos) y también del nativismo periférico TAN (Aliança Catalana +2, que rechaza la fiesta española desde el nacionalismo catalán): cargarlo sobre el eje social puntuaría al revés a AC → solo-matching. | Esperado: Podemos +2, IU +1, ERC +2, EH Bildu +2, BNG +2, Junts +2, CUP +2, AC +2, Sumar +1, PNV +1, FO -2 (pancarta '12 de octubre, mucho de celebrar', 2024), PSOE -2, PP -2, VOX -2, FE-JONS -2. | Objeto simbólico distinto de cul-005/cul-006 (relato histórico) y de ter-005 (bandera en edificios): la fecha fundacional de la Hispanidad como fiesta de Estado."
+  },
+  {
+    "id": "cul-008",
+    "texto": "En los informativos de radio y televisión de ámbito estatal deberían escucharse con normalidad acentos andaluces, canarios y de otras variedades del español.",
+    "modulo": "identidad-cultura",
+    "ejes": [],
+    "polaridad": "positiva",
+    "tags": [
+      "lengua",
+      "acentos",
+      "medios",
+      "andaluz",
+      "solo-matching"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: jerarquía castellano-céntrica del español público frente a igual dignidad de las variedades: bandera del andalucismo (Adelante Andalucía/Nación Andaluza +2, denuncia del estigma del andaluz en medios y doblaje) con simpatía difusa de la izquierda plurinacional (+1), frente a la preferencia por un 'español neutro' que comparten el profesionalismo comunicativo apolítico y el nacionalismo lingüístico castellano-céntrico. Equifinalidad doble (la defensa del estándar llega de dos motivos; la del acento, de otros dos) → solo-matching. | Esperado: Adelante Andalucía +2, Nación Andaluza +2, Sumar +1, PSOE-A +1, PSOE 0, PP 0, Cs -1, VOX -1. | HIPÓTESIS DÉBIL declarada: pocas posiciones de partido documentables; el ítem mapea sobre todo al usuario y a los andalucismos; candidato a retirada si el piloto no discrimina. Ningún ítem del banco toca variedades internas del español; los más cercanos (ter-004, nac-013, gal-005, cat-008) son de estatus de LENGUAS."
+  },
+  {
+    "id": "cul-009",
+    "texto": "En la escuela debería corregirse a los alumnos que hablan con rasgos dialectales marcados para que se expresen en un español estándar.",
+    "modulo": "identidad-cultura",
+    "ejes": [],
+    "polaridad": "negativa",
+    "tags": [
+      "lengua",
+      "acentos",
+      "educacion",
+      "andaluz",
+      "solo-matching"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: el reverso escolar de cul-008: el estándar como requisito de corrección (jerarquía normativa) frente a las hablas andaluzas, canarias o murcianas como formas plenamente válidas (posición de la dialectología y del andalucismo político). Equifinalidad: exigir el estándar puede venir del castellano-centrismo identitario o del igualitarismo instrumental (dominar el registro formal como palanca de movilidad social, defendible desde la izquierda docente); rechazarlo, del andalucismo y del pluralismo GAL → solo-matching. | Esperado: Adelante Andalucía -2, Nación Andaluza -2, Sumar -1, PSOE -1, PP +1, VOX +1, Cs/UPyD +1. | HIPÓTESIS DÉBIL como cul-008: par de constructo con polaridad opuesta y ámbito distinto (medios/escuela) para testar en el piloto si la dimensión 'jerarquía de variedades' existe en el electorado; no son inversos literales y no deben codificarse como evidencia duplicada de partido. No confundir con enseñanza de lenguas cooficiales (cat-001, gal-005): aquí no hay lengua distinta, sino variedades del español."
+  },
+  {
+    "id": "cul-010",
+    "texto": "Los niños nacidos en España de padres extranjeros deberían tener la nacionalidad española desde el nacimiento.",
+    "modulo": "identidad-cultura",
+    "ejes": [
+      {
+        "eje": "social",
+        "carga": -0.75
+      }
+    ],
+    "polaridad": "positiva",
+    "tags": [
+      "nacionalidad",
+      "ius-soli",
+      "inmigracion"
+    ],
+    "terminos": [
+      "ius-soli"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: nacionalidad por nacimiento (ius soli) frente al régimen vigente de ius sanguinis matizado (el nacido en España de padres extranjeros solo es español de origen en supuestos tasados, aunque puede optar tras un año de residencia legal): Sumar/Podemos/ERC/Bildu +2 (propuestas de reforma del Código Civil y programas 2023), PSOE +1 (simpatía sin compromiso), PP −1, VOX/DN −2 (la nacionalidad como herencia y premio). Proyección limpia y monotónica sobre el eje social (inclusión cívica ↔ cierre nativista). | Esperado: Sumar +2, Podemos +2, ERC +2, EH Bildu +2, BNG +2, Compromís +2, PSOE +1, PP -1, VOX -2, DN -2, E2000 -2, FO 0. | Cubre el hueco 'acceso a la nacionalidad': ni soc-004 (regularización administrativa de residencia) ni lib-018 (vías de entrada laboral) deciden quién ES español; este sí, y es el complemento cívico de cul-002 (étnico)."
+  },
+  {
+    "id": "cul-011",
+    "texto": "Las pruebas de lengua y de cultura que se exigen para obtener la nacionalidad española deberían ser más exigentes.",
+    "modulo": "identidad-cultura",
+    "ejes": [
+      {
+        "eje": "social",
+        "carga": 0.5
+      }
+    ],
+    "polaridad": "negativa",
+    "tags": [
+      "nacionalidad",
+      "naturalizacion",
+      "examen-ccse"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: la naturalización como premio a la asimilación acreditada (VOX +2: PL de 2021/2024 con 15 años de residencia y 'prueba escrita de conocimientos constitucionales, históricos y culturales'; PP +2: Plan Nacional de Inmigración 2025, 'se elevará el nivel de exigencia lingüística hasta el B2 y se implantará una prueba reforzada'; FO +2: Vaquero pide 'por lo menos una generación, 25 años') frente a quienes ven el filtro cultural actual (examen CCSE y DELE A2 del Instituto Cervantes) como barrera a suavizar (Sumar/Podemos −2, PSOE −1/0). Complementa cul-001 (asimilación como expectativa difusa) con su instrumento administrativo concreto, y cul-010 (vía de nacimiento) con la vía adquirida. Carga social moderada: monotónico, con techo bajo en el centro. | Esperado: VOX +2, DN +2, E2000 +2, PP +2, FO +2, AC +1, SALF +1, FE-JONS +1, PSOE -1, Sumar -2, Podemos -2, ERC -1. | Distinto de dr-016 (requisito lingüístico AUTONÓMICO para ayudas, marcador de AC): aquí el filtro es estatal, para la ciudadanía plena, y el que endurece es el españolismo. Con PP y VOX empatados en +2, el separador PP/VOX de este tema pasa a ser cul-001/cul-003; el ítem separa sobre todo bloque restrictivo vs garantista y PSOE vs Sumar."
+  },
+  {
+    "id": "cul-012",
+    "texto": "El uso del velo islámico debería estar prohibido dentro de los centros educativos públicos.",
+    "modulo": "identidad-cultura",
+    "ejes": [],
+    "polaridad": "negativa",
+    "tags": [
+      "islam",
+      "laicismo",
+      "educacion",
+      "vestimenta",
+      "solo-matching"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: el caso canónico de equifinalidad del encargo: la prohibición une al nativismo (VOX +2; AC +2, que la abandera en Ripoll; DN/E2000 +2) con el laicismo republicano estricto (Izquierda Española +1, tradición jacobina), mientras el conservadurismo católico duda (prohibir símbolos religiosos al alumnado sienta precedente contra el crucifijo y la enseñanza confesional: democracia cristiana −1; el PP apoya vetar el velo integral pero se ha abstenido u opuesto a las iniciativas de VOX sobre el velo escolar en varias CCAA → 0/−1) y la izquierda GAL rechaza la prohibición (Sumar/Podemos −2, PSOE −1: libertad personal y no estigmatización de las alumnas). Dos polos llegan al 'sí' desde ejes opuestos → solo-matching obligado (BANCO-ITEMS §5.9). | Esperado: VOX +2, AC +2 (Orriols la propuso en Ripoll, 2025), DN +2, E2000 +2, IE +1, SALF +1, FE-JONS +1, PP 0, democracia cristiana -1, PSOE -1, Sumar -2, Podemos -2. | Distinto de dr-005 (mezquitas: infraestructura de culto, sin aliado laicista posible) y de lai-001/fem-008 (asignatura de religión): aquí se regula la vestimenta del alumnado, el único punto donde laicismo estricto y nativismo coinciden."
+  },
+  {
+    "id": "cul-013",
+    "texto": "España debería orientar su política exterior y cultural más hacia la comunidad de naciones hispanohablantes que hacia la Unión Europea.",
+    "modulo": "identidad-cultura",
+    "ejes": [],
+    "polaridad": "positiva",
+    "tags": [
+      "hispanidad",
+      "exterior",
+      "iberosfera",
+      "ue",
+      "solo-matching"
+    ],
+    "terminos": [
+      "hispanidad"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: la Hispanidad como proyecto geopolítico-cultural alternativo al eje de Bruselas: VOX +2 (la 'Iberosfera' como 'espacio de herencia hispano-portuguesa y futura área de influencia económica, cultural y política'; Foro de Madrid) y FE-JONS +2 ('España alega su condición de eje espiritual del mundo hispánico', punto 3 del ideario) frente al europeísmo prioritario de PP/PSOE/Sumar (−1) y al iberoamericanismo institucional compatible con la UE (Cumbres sí, sustitución no). Equifinalidad: el acuerdo parcial puede llegar del euroescepticismo latinoamericanista de izquierda (Podemos 0/+1 por antiatlantismo, no por Hispanidad) → solo-matching. | Esperado: VOX +2, FE-JONS +2, nacional-catolicismo +2, DN +1, FO 0, Podemos 0, SALF 0, PSOE -1, PP -1, Sumar -1, Cs -2. | Distinto de dr-004 (preferencia MIGRATORIA hispanoamericana) y de dr-023 (alineamiento con Trump): mide el marco civilizatorio propio; se puede querer la Iberosfera y rechazar a Trump (Falange) o lo contrario. Con dr-010 (euro) separa además euroescepticismo económico de reorientación identitaria."
+  },
+  {
+    "id": "cul-014",
+    "texto": "Los diputados deberían poder intervenir en catalán, euskera o gallego en el Congreso de los Diputados, con traducción simultánea.",
+    "modulo": "identidad-cultura",
+    "ejes": [
+      {
+        "eje": "territorial",
+        "carga": -0.5
+      }
+    ],
+    "polaridad": "positiva",
+    "tags": [
+      "lengua",
+      "congreso",
+      "plurilinguismo",
+      "cooficiales"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: el reconocimiento del plurilingüismo en la institución central del Estado, con votación real (reforma del Reglamento del Congreso, 21-9-2023: PSOE, Sumar y todos los periféricos a favor; PP, VOX y UPN en contra): separa al PSOE del PP con nitidez —ter-004 (vehicularidad escolar) también los separa, pero aquí el PSOE ocupa el polo positivo pleno— y a los centralismos entre sí (IE −1 desde el jacobinismo de izquierda). Proyección territorial limpia y monotónica: no hay fuente de acuerdo desde el polo centralista. | Esperado: ERC +2, Junts +2, EH Bildu +2, PNV +2, BNG +2, Sumar +2, PSOE +2, Podemos +2, CC +1, IE -1, PP -2, VOX -2, UPN -2. | Distinto de ter-004/lib-019 (lengua en la ESCUELA) y de nac-013 (cooficialidad de lenguas minoritarias): el objeto es el estatus de las cooficiales en las Cortes Generales, la cara institucional de la España plurilingüe."
+  }
+]

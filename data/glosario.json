@@ -208,5 +208,29 @@
     "termino": "Inviolabilidad del Rey",
     "definicion": "Regla constitucional (art. 56.3) por la que el Rey no responde ante los tribunales por sus actos como Jefe del Estado, que además deben ir refrendados por un cargo político que asume la responsabilidad. Quien la defiende la ve como garantía de neutralidad de la Corona; quien la critica, como un privilegio difícil de justificar en una democracia, y pide acotarla.",
     "url": "https://es.wikipedia.org/wiki/Inviolabilidad"
+  },
+  {
+    "id": "asimilacionismo",
+    "termino": "Asimilacionismo",
+    "definicion": "Modelo de integración que espera que las personas inmigradas adopten la lengua, las costumbres y los valores de la sociedad de acogida, dejando en segundo plano los de origen. Se contrapone al multiculturalismo (convivencia de culturas con reconocimiento público de la diferencia) y a la interculturalidad (interacción entre culturas sobre normas comunes). Qué debe ser exigible —solo la ley, también la lengua, además las costumbres— es exactamente lo que está en disputa política: para sus defensores el asimilacionismo es condición de cohesión; para sus críticos, una jerarquía cultural innecesaria para convivir.",
+    "url": "https://es.wikipedia.org/wiki/Asimilaci%C3%B3n_cultural"
+  },
+  {
+    "id": "ius-soli",
+    "termino": "Ius soli / ius sanguinis",
+    "definicion": "Los dos criterios clásicos de atribución de la nacionalidad: por nacer en el territorio (ius soli) o por descender de nacionales (ius sanguinis). España aplica un ius sanguinis matizado: el nacido en España de padres extranjeros no es español automáticamente —solo en supuestos tasados, como que ninguna otra ley le atribuya nacionalidad—, aunque puede optar tras un año de residencia legal. El debate político es cuánto abrir el criterio territorial: sus partidarios lo ven como igualdad entre los nacidos aquí; sus críticos, como una rebaja del vínculo nacional o un efecto llamada.",
+    "url": "https://es.wikipedia.org/wiki/Ius_soli"
+  },
+  {
+    "id": "leyenda-negra",
+    "termino": "Leyenda negra",
+    "definicion": "Nombre dado a la corriente de opinión antiespañola surgida en los siglos XVI y XVII que presentaría a España y a su imperio como singularmente crueles e intolerantes. El término está hoy en plena disputa: para una parte del debate público (por ejemplo, el ensayo «Imperiofobia y leyenda negra») esa propaganda sigue distorsionando la imagen de España y de su obra en América; para buena parte de la historiografía académica, la etiqueta se usa ahora para descalificar la investigación crítica sobre la conquista o la Inquisición. Aceptar o rechazar el marco es una posición política, no un dato.",
+    "url": "https://es.wikipedia.org/wiki/Leyenda_negra_espa%C3%B1ola"
+  },
+  {
+    "id": "hispanidad",
+    "termino": "Hispanidad",
+    "definicion": "Comunidad cultural formada por los pueblos de lengua y cultura hispánicas, con fiesta el 12 de octubre. Tiene lecturas en disputa: la panhispanista cultural (una comunidad transnacional de iguales unida por la lengua), la nacional-católica histórica (la obra civilizadora de España en América) y la geopolítica reciente (la «Iberosfera» como eje alternativo a Bruselas o Washington). Para sus críticos, el concepto dulcifica el hecho colonial y jerarquiza a las antiguas colonias; para sus defensores, nombra un vínculo real que la política exterior y cultural española debería cultivar.",
+    "url": "https://es.wikipedia.org/wiki/Hispanidad"
   }
 ]
