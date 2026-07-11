@@ -6,6 +6,7 @@ import { fileURLToPath } from 'node:url';
 
 /** Flujos críticos desde la portada hasta resultados y recuperación local. */
 
+const BASE_URL_E2E = `http://localhost:${process.env.PLAYWRIGHT_PORT ?? '4180'}`;
 const CLAVE_ALMACEN = 'espectro.v1';
 
 interface ItemDePrueba {
@@ -980,7 +981,7 @@ test('reintentar el 3D vuelve a solicitar el chunk después de un fallo', async 
 
 test('móvil estrecho no desborda y conserva objetivos táctiles utilizables', async ({ browser }) => {
   const contextoMovil = await browser.newContext({
-    baseURL: 'http://localhost:4180',
+    baseURL: BASE_URL_E2E,
     viewport: { width: 320, height: 700 },
     hasTouch: true,
     isMobile: true,
@@ -1209,7 +1210,7 @@ test('la brújula móvil distingue evidencia provisional y resuelve con segurida
   browser,
 }) => {
   const contexto = await browser.newContext({
-    baseURL: 'http://localhost:4180',
+    baseURL: BASE_URL_E2E,
     viewport: { width: 390, height: 844 },
     hasTouch: true,
     isMobile: true,
