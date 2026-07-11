@@ -8,9 +8,15 @@
   "confianza": "verificada",
   "version": "1.0",
   "revisado": "2026-07-11",
-  "facetasDefinitorias": ["economico", "pluralismo-institucional", "estatismo", "institucionalismo", "tradicion-moral"],
+  "facetasDefinitorias": [
+    "economico",
+    "pluralismo-institucional",
+    "estatismo",
+    "institucionalismo",
+    "tradicion-moral"
+  ],
   "sensibilidad": "normal",
-  "advertencia": "Es un tipo ideal europeo, no una segunda ficha del Partido Popular ni la descripción de todos los miembros del PPE. La familia discrepa sobre aborto, eutanasia, inmigración y territorio; aquí solo se codifica el mínimo común de la plataforma de 2012. Su vecina nominal en la cuadrícula es «Liberal Conservatism». La brújula la desplaza hacia libertades porque mide concentración de poder, no simple tradición cultural. Proyección auditada actual: Propiedad/mercado ≈ +27, Poder ≈ -63 y macroeconomía general ≈ +8; queda más cerca del centro que liberalismo clásico o libertarismo.",
+  "advertencia": "Es un tipo ideal europeo, no una segunda ficha del Partido Popular ni la descripción de todos los miembros del PPE. La familia discrepa sobre aborto, eutanasia, inmigración y territorio; aquí solo se codifica el mínimo común de la plataforma de 2012. Su vecina nominal en la cuadrícula es «Liberal Conservatism». La brújula la desplaza hacia libertades porque mide concentración de poder, no simple tradición cultural. Proyección auditada actual: Propiedad/mercado ≈ +34, Poder ≈ -53 y macroeconomía general ≈ +19; queda más cerca del centro que liberalismo clásico o libertarismo.",
   "fuentesMarco": [
     {
       "tipo": "programa",
@@ -181,6 +187,60 @@
         "titulo": "Partido Popular, Documento «España en libertad»",
         "url": "https://www.pp.es/actualidad/articulos/documento-espana-libertad/",
         "fecha": "2019-01-18",
+        "consultado": "2026-07-11"
+      }
+    },
+    "soc-003": {
+      "valor": 2,
+      "justificacion": "La recepción española reformista del tipo ideal amparó en legislación de seguridad la videovigilancia en espacios públicos: la Ley Orgánica 4/2015 de protección de la seguridad ciudadana, aprobada en 2015 con el voto favorable del grupo popular, autoriza la grabación con videocámaras por las fuerzas de seguridad cuando exista un riesgo razonable para la seguridad ciudadana.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Ley Orgánica 4/2015 de protección de la seguridad ciudadana (BOE-A-2015-3442)",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-3442",
+        "fecha": "2015-03-30",
+        "consultado": "2026-07-11",
+        "cita": "cuando exista un riesgo razonable para la seguridad ciudadana"
+      },
+      "grupoEvidencia": "pasaje-936a4aad307b695fbb72"
+    },
+    "eco-007": {
+      "valor": 2,
+      "justificacion": "Evidencia plural del mismo tipo ideal: el principio de propiedad privada con función social de la Plataforma del PPE de 2012 y la proposición de ley del PP para desalojar en 24 horas la ocupación, admitida a trámite en 2024. Es una proposición admitida a trámite y no una ley aprobada, por lo que sostiene la dirección sin descansar en una sola vía.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "PPE, Party Platform de 2012, propiedad privada con función social (en inglés)",
+        "url": "https://www.epp.eu/files/uploads/2015/09/Platform2012_EN1.pdf",
+        "fecha": "2012-10-17",
+        "consultado": "2026-07-11"
+      }
+    },
+    "izq-042": {
+      "valor": -2,
+      "justificacion": "La misma familia encuadra la ocupación de viviendas como un problema a erradicar desde el principio de propiedad privada con función social de la Plataforma del PPE de 2012: no reconoce ocupar edificios como forma legítima de acción política.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "PPE, Party Platform de 2012 (Bucarest), propiedad privada con función social (en inglés)",
+        "url": "https://www.epp.eu/files/uploads/2015/09/Platform2012_EN1.pdf",
+        "fecha": "2012-10-17",
+        "consultado": "2026-07-11"
+      }
+    },
+    "soc-001": {
+      "valor": 0,
+      "justificacion": "La Plataforma del PPE de 2012 reconoce el matrimonio del hombre y la mujer, pero remite las uniones civiles, el matrimonio y la adopción a la subsidiariedad de cada Estado miembro; la familia europea está dividida en esta materia y el tipo ideal no fija una única posición sobre la protección legal de los derechos LGTB.",
+      "calidadEvidencia": "media",
+      "resolucionCero": {
+        "tipo": "modelo-mixto",
+        "explicacion": "El documento sostiene a la vez un principio (matrimonio del hombre y la mujer) y su remisión expresa a la decisión de cada Estado miembro sobre uniones, matrimonio y adopción: un modelo mixto explícito y documentado, no un silencio."
+      },
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "PPE, Party Platform de 2012, familia y subsidiariedad (en inglés)",
+        "url": "https://www.epp.eu/files/uploads/2015/09/Platform2012_EN1.pdf",
+        "fecha": "2012-10-17",
         "consultado": "2026-07-11"
       }
     }

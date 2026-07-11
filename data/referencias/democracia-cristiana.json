@@ -8,10 +8,6 @@
   "confianza": "verificada",
   "version": "1.0",
   "revisado": "2026-07-11",
-  "publicacionMapa": {
-    "publicable": false,
-    "motivo": "La referencia sigue disponible para el matching por facetas, pero su macroeje social actual recoge inmigración y garantismo sin incorporar las posiciones bioéticas que viven en tradición moral; el cuadrante resultaría indebidamente libertario."
-  },
   "facetasDefinitorias": [
     "economico",
     "tradicion-moral",
@@ -296,6 +292,34 @@
         "fecha": "1943",
         "consultado": "2026-07-10"
       }
+    },
+    "fem-012": {
+      "valor": -2,
+      "justificacion": "La doctrina reconoce a los padres como los primeros y principales educadores de sus hijos, con un derecho-deber esencial, originario, primario, insustituible e inalienable: de esa primacía educativa se sigue exigir la implicación de los padres cuando una menor de 16 o 17 años decide interrumpir su embarazo, no prescindir de su consentimiento.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Juan Pablo II, Familiaris Consortio, §36",
+        "url": "https://www.vatican.va/content/john-paul-ii/es/apost_exhortations/documents/hf_jp-ii_exh_19811122_familiaris-consortio.html",
+        "fecha": "1981-11-22",
+        "consultado": "2026-07-11",
+        "cita": "Ya que ellos han dado la vida a sus hijos, tienen la gravísima obligación de educar a la prole y, por consiguiente, deben ser reconocidos como los primeros y principales educadores de ella."
+      },
+      "grupoEvidencia": "pasaje-851c1f603958642b2072"
+    },
+    "fem-001": {
+      "valor": -2,
+      "justificacion": "El magisterio sostiene que toda operación de cambio de sexo, por regla general, corre el riesgo de atentar contra la dignidad recibida desde la concepción, y rechaza la teoría de género por negar la diferencia sexual: incompatible con permitir el cambio de sexo registral por la sola voluntad, sin ningún informe.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Dicasterio para la Doctrina de la Fe, Dignitas Infinita",
+        "url": "https://www.vatican.va/roman_curia/congregations/cfaith/documents/rc_ddf_doc_20240402_dignitas-infinita_sp.html",
+        "fecha": "2024-04-08",
+        "consultado": "2026-07-11",
+        "cita": "Toda operación de cambio de sexo, por regla general, corre el riesgo de atentar contra la dignidad única que la persona ha recibido desde el momento de la concepción."
+      },
+      "grupoEvidencia": "pasaje-d9e7c8f85a473df39fc1"
     }
   }
 }
