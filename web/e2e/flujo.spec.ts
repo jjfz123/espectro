@@ -8,9 +8,6 @@ import { fileURLToPath } from 'node:url';
 
 const CLAVE_ALMACEN = 'espectro.v1';
 
-/** Mismo cálculo que playwright.config.ts, para los contextos manuales. */
-const BASE_URL = `http://localhost:${process.env.PLAYWRIGHT_PORT ?? '4180'}`;
-
 interface ItemDePrueba {
   id: string;
   modulo: string;
@@ -204,7 +201,7 @@ async function completarRapido(page: Page) {
 }
 
 async function abrirMapaInteractivo(page: Page) {
-  const boton = page.getByRole('button', { name: 'Explorar el atlas completo' });
+  const boton = page.getByRole('button', { name: 'Abrir mapa interactivo' });
   await boton.click();
   await expect(page.getByRole('heading', { name: 'Mapa del espectro' })).toBeFocused();
   await expect(page.locator('.mapa-politico')).toBeVisible();
@@ -406,7 +403,7 @@ test('resultados separa principales, top real y resto desplegable en móvil', as
   const auditoria = page.locator('.auditoria-afinidad');
   await expect(auditoria).not.toHaveAttribute('open', '');
   await expect(auditoria.getByText(/Auditar el cálculo y las fuentes/)).toBeVisible();
-  const abrirMapa = page.getByRole('button', { name: 'Explorar el atlas completo' });
+  const abrirMapa = page.getByRole('button', { name: 'Abrir mapa interactivo' });
   const abrirReferencias = page.getByRole('button', { name: 'Explorar corrientes afines' });
   await expect(abrirMapa).toBeVisible();
   await expect(abrirReferencias).toBeVisible();
@@ -983,7 +980,7 @@ test('reintentar el 3D vuelve a solicitar el chunk después de un fallo', async 
 
 test('móvil estrecho no desborda y conserva objetivos táctiles utilizables', async ({ browser }) => {
   const contextoMovil = await browser.newContext({
-    baseURL: BASE_URL,
+    baseURL: 'http://localhost:4180',
     viewport: { width: 320, height: 700 },
     hasTouch: true,
     isMobile: true,
@@ -1008,83 +1005,6 @@ test('móvil estrecho no desborda y conserva objetivos táctiles utilizables', a
   } finally {
     await contextoMovil.close();
   }
-});
-
-test('la brújula ligera es visible de entrada y el atlas sigue bajo demanda', async ({ page }) => {
-  const sesion = crearSesionResultadosRapidos(1);
-  await page.setViewportSize({ width: 320, height: 720 });
-  await page.addInitScript(
-    ({ clave, estado }) => localStorage.setItem(clave, JSON.stringify(estado)),
-    { clave: CLAVE_ALMACEN, estado: sesion },
-  );
-  await page.goto('/');
-  await expect(
-    page.getByRole('heading', { name: 'Tu posición provisional y tus afinidades' }),
-  ).toBeVisible();
-
-  // Expandida sin ningún clic, con el usuario y al menos un partido dibujados.
-  const brujula = page.locator('.brujula-ligera');
-  await expect(brujula.locator('svg').first()).toBeVisible();
-  await expect(brujula.locator('.brujula-ligera__punto[data-tipo="usuario"]')).toHaveCount(1);
-  const partidos = brujula.locator('.brujula-ligera__punto[data-tipo="partido"]');
-  expect(await partidos.count()).toBeGreaterThan(0);
-
-  // Sin descargar el atlas ni las referencias doctrinales.
-  await expect(page.locator('.mapa-politico')).toHaveCount(0);
-  const recursosProfundos = await page.evaluate(() =>
-    performance
-      .getEntriesByType('resource')
-      .map((entrada) => entrada.name)
-      .filter((nombre) => /MapaPolitico|datosReferencias|Mapa3D/u.test(nombre)),
-  );
-  expect(recursosProfundos).toEqual([]);
-
-  // Foco/tap muestran nombre, estado y cobertura sin depender del hover.
-  const primerPartido = partidos.first();
-  await primerPartido.focus();
-  await page.keyboard.press('Enter');
-  await expect(primerPartido).toHaveAttribute('aria-pressed', 'true');
-  const nombreSeleccionado = await primerPartido.getAttribute('aria-label');
-  await expect(page.locator('.brujula-ligera__estado')).toContainText(
-    (nombreSeleccionado ?? '').split('.')[0]!,
-  );
-  await expect(page.locator('.brujula-ligera__estado')).toContainText(/Propiedad y mercado/);
-
-  // Alternar conjuntos: «ninguno» vacía los partidos; «todos» dibuja el máximo.
-  const dibujadosContexto = await partidos.count();
-  await brujula.getByRole('radio', { name: /Ninguno/ }).check({ force: true });
-  await expect(partidos).toHaveCount(0);
-  await brujula.getByRole('radio', { name: /Todos con evidencia/ }).check({ force: true });
-  expect(await partidos.count()).toBeGreaterThanOrEqual(dibujadosContexto);
-  const provisionales = brujula.locator(
-    '.brujula-ligera__punto[data-tipo="partido"][data-evidencia="provisional"]',
-  );
-  expect(await provisionales.count()).toBeGreaterThan(0);
-
-  // Declaración de exclusiones y lista accesible equivalente, plegada.
-  await expect(brujula.locator('.brujula-ligera__exclusiones')).toContainText(
-    /partidos del catálogo/,
-  );
-  const lista = brujula.locator('details.brujula-ligera__lista');
-  await expect(lista).not.toHaveAttribute('open', '');
-  await activarSinDesplazamiento(lista.locator('summary'));
-  await expect(lista.locator('table')).toBeVisible();
-  expect(await lista.locator('tbody tr').count()).toBeGreaterThan(1);
-
-  // Sin desbordar a 320 px y con objetivos táctiles suficientes.
-  const desborde = await page.evaluate(
-    () => document.documentElement.scrollWidth - document.documentElement.clientWidth,
-  );
-  expect(desborde).toBeLessThanOrEqual(1);
-  const cajaPunto = await primerPartido.boundingBox();
-  expect(cajaPunto?.width ?? 0).toBeGreaterThanOrEqual(44);
-  expect(cajaPunto?.height ?? 0).toBeGreaterThanOrEqual(44);
-
-  // El atlas completo sigue cargándose solo bajo demanda.
-  await activarSinDesplazamiento(
-    page.getByRole('button', { name: 'Explorar el atlas completo' }),
-  );
-  await expect(page.locator('.mapa-politico')).toBeVisible();
 });
 
 test('el recuento del plano coincide con los puntos realmente dibujados', async ({ page }) => {
@@ -1289,7 +1209,7 @@ test('la brújula móvil distingue evidencia provisional y resuelve con segurida
   browser,
 }) => {
   const contexto = await browser.newContext({
-    baseURL: BASE_URL,
+    baseURL: 'http://localhost:4180',
     viewport: { width: 390, height: 844 },
     hasTouch: true,
     isMobile: true,
