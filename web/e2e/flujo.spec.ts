@@ -354,7 +354,7 @@ test('resultados separa principales, top real y resto desplegable en móvil', as
     'Espectro no favorece, prioriza ni recomienda a los partidos mayoritarios',
   );
   await expect(contextoRepresentacion).toContainText(
-    'El ranking ordenado por tu afinidad y el desplegable con el resto',
+    'El ranking ordenado por tu afinidad está más arriba',
   );
   const solapesContraste = await principales
     .locator('.marcador-contraste--replegado > summary')

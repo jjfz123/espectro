@@ -316,9 +316,9 @@ const CADUCIDAD_MS = DIAS_CADUCIDAD * 24 * 60 * 60 * 1000;
 
 /**
  * Una sesión guardada que no puede restaurarse no se borra en silencio: se
- * aparta bajo esta clave con su motivo, y la portada muestra un aviso honesto
- * una sola vez. El payload retirado se conserva ahí hasta que el usuario lo
- * descarta (o hasta que otra sesión incompatible lo sustituye).
+ * deja constancia bajo esta clave (solo motivo y fecha, NUNCA las respuestas:
+ * privacidad por diseño) y la portada muestra un aviso honesto descartable.
+ * El aviso caduca solo a los 90 días y desaparece también con «Borrar datos».
  */
 export const CLAVE_SESION_RETIRADA = 'espectro.v1.retirada';
 /** Margen para relojes desajustados antes de tratar una marca futura como inválida. */
@@ -332,24 +332,31 @@ export type MotivoRetirada =
   | 'caducada'
   | 'corrupta';
 
-function retirarSesion(motivo: MotivoRetirada, payload: string | null): void {
+function retirarSesion(motivo: MotivoRetirada): void {
   try {
     localStorage.setItem(
       CLAVE_SESION_RETIRADA,
-      JSON.stringify({ motivo, retiradaEn: new Date().toISOString(), payload }),
+      JSON.stringify({ motivo, retiradaEn: new Date().toISOString() }),
     );
+  } catch {
+    // Sin espacio o almacenamiento bloqueado: el aviso se pierde, pero la
+    // retirada de abajo no puede depender de que este apunte quepa.
+  }
+  try {
     localStorage.removeItem(CLAVE_ALMACEN);
   } catch {
     // Almacenamiento bloqueado: no hay nada persistido que retirar.
   }
 }
 
-/** Aviso pendiente de sesión retirada, si existe y es legible. */
+/** Aviso pendiente de sesión retirada, si existe, es legible y no ha caducado. */
 export function avisoSesionRetirada(): { motivo: MotivoRetirada } | null {
   try {
     const crudo = localStorage.getItem(CLAVE_SESION_RETIRADA);
     if (!crudo) return null;
-    const datos = JSON.parse(crudo) as { motivo?: unknown };
+    const datos = JSON.parse(crudo) as { motivo?: unknown; retiradaEn?: unknown };
+    const retiradaEn =
+      typeof datos.retiradaEn === 'string' ? Date.parse(datos.retiradaEn) : Number.NaN;
     const motivos: MotivoRetirada[] = [
       'version-app',
       'instrumento',
@@ -358,9 +365,15 @@ export function avisoSesionRetirada(): { motivo: MotivoRetirada } | null {
       'caducada',
       'corrupta',
     ];
-    return motivos.includes(datos.motivo as MotivoRetirada)
-      ? { motivo: datos.motivo as MotivoRetirada }
-      : null;
+    const valido =
+      motivos.includes(datos.motivo as MotivoRetirada) &&
+      Number.isFinite(retiradaEn) &&
+      Date.now() - retiradaEn <= CADUCIDAD_MS;
+    if (!valido) {
+      localStorage.removeItem(CLAVE_SESION_RETIRADA);
+      return null;
+    }
+    return { motivo: datos.motivo as MotivoRetirada };
   } catch {
     return null;
   }
@@ -415,7 +428,7 @@ export function cargarEstado(): Estado {
                 ? 'caducada'
                 : null;
     if (motivoRetirada) {
-      retirarSesion(motivoRetirada, crudo);
+      retirarSesion(motivoRetirada);
       return ESTADO_INICIAL;
     }
 
@@ -477,7 +490,7 @@ export function cargarEstado(): Estado {
   } catch {
     // Payload ilegible: se aparta con su motivo en lugar de dejarlo pudrirse
     // bajo la clave principal o borrarlo sin dejar rastro.
-    if (crudo !== null) retirarSesion('corrupta', crudo);
+    if (crudo !== null) retirarSesion('corrupta');
     return ESTADO_INICIAL;
   }
 }
@@ -499,6 +512,9 @@ export function guardarEstado(estado: Estado): boolean {
 export function borrarAlmacen(): void {
   try {
     localStorage.removeItem(CLAVE_ALMACEN);
+    // «Borrar datos» borra TODO rastro local, incluido el apunte de sesión
+    // retirada: la promesa de la interfaz no admite excepciones.
+    localStorage.removeItem(CLAVE_SESION_RETIRADA);
   } catch {
     // Nada que borrar.
   }

@@ -6,6 +6,7 @@ import {
   ESTADO_INICIAL,
   HITO_INTERMEDIO_RESPUESTAS,
   avisoSesionRetirada,
+  borrarAlmacen,
   cargarEstado,
   descartarAvisoSesionRetirada,
   guardarEstado,
@@ -318,7 +319,9 @@ describe('estado del cuestionario', () => {
         expect(almacen.getItem(CLAVE_ALMACEN)).toBeNull();
         const retirada = JSON.parse(almacen.getItem(CLAVE_SESION_RETIRADA) ?? '{}');
         expect(retirada.motivo).toBe(motivoEsperado);
-        expect(retirada.payload).toBe(payload);
+        // Privacidad por diseño: el apunte jamás conserva las respuestas.
+        expect(retirada).not.toHaveProperty('payload');
+        expect(JSON.stringify(retirada)).not.toContain('eco-001');
         expect(avisoSesionRetirada()).toEqual({ motivo: motivoEsperado });
         descartarAvisoSesionRetirada();
         expect(avisoSesionRetirada()).toBeNull();
@@ -348,6 +351,29 @@ describe('preferencia de orden de la escala Likert', () => {
       guardarEstado(invertido);
       expect(cargarEstado().escalaInvertida).toBe(true);
     });
+  });
+});
+
+describe('borrado y caducidad del apunte de sesión retirada', () => {
+  it('«Borrar datos» elimina también el apunte de sesión retirada', () => {
+    conLocalStorage(
+      { [CLAVE_SESION_RETIRADA]: JSON.stringify({ motivo: 'caducada', retiradaEn: new Date().toISOString() }) },
+      (almacen) => {
+        borrarAlmacen();
+        expect(almacen.getItem(CLAVE_SESION_RETIRADA)).toBeNull();
+      },
+    );
+  });
+
+  it('un aviso de retirada antiguo caduca y se limpia solo', () => {
+    const antiguo = new Date(Date.now() - (DIAS_CADUCIDAD + 1) * 24 * 60 * 60 * 1000);
+    conLocalStorage(
+      { [CLAVE_SESION_RETIRADA]: JSON.stringify({ motivo: 'caducada', retiradaEn: antiguo.toISOString() }) },
+      (almacen) => {
+        expect(avisoSesionRetirada()).toBeNull();
+        expect(almacen.getItem(CLAVE_SESION_RETIRADA)).toBeNull();
+      },
+    );
   });
 });
 

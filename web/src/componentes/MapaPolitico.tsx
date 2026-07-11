@@ -1752,7 +1752,7 @@ export function MapaPolitico({
 
       <p className="mapa-politico__facetas nota-al-margen">
         Este mapa es un resumen en tres ejes. <a href="#perfil-facetas">Tu perfil por facetas</a>,
-        más arriba, conserva cada faceta medida con sus propios polos y su evidencia, sin
+        más abajo, conserva cada faceta medida con sus propios polos y su evidencia, sin
         mezclarlas.
       </p>
     </div>

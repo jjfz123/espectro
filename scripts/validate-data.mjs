@@ -937,7 +937,7 @@ for (const fichero of readdirSync(join(raiz, 'data/sindicatos'))) {
 
 // Candado del instrumento: la compatibilidad de una sesión guardada depende
 // de que el contenido SEMÁNTICO del banco (ids, cargas, condiciones, uso,
-// módulo y estado de cada ítem vigente) no cambie dentro de una misma
+// módulo, estado, polaridad y marco de cada ítem vigente) no cambie dentro de una misma
 // versionInstrumento. Antes esa garantía era un comentario en estado.ts;
 // ahora es un hash reproducible: cualquier cambio semántico rompe CI hasta
 // que alguien decida conscientemente si es (a) compatible/aditivo —actualizar
@@ -952,6 +952,12 @@ const itemsSemanticos = [...itemsPorId.values()]
     ejes: item.ejes ?? [],
     condicion: item.condicion ?? null,
     uso: item.uso ?? 'normal',
+    estado: item.estado ?? 'activo',
+    polaridad: item.polaridad ?? null,
+    // El marco es significado, no texto: sistema-actual vs sociedad-deseada
+    // reinterpreta la misma respuesta (lab-028 vs lab-029 se distinguen solo
+    // por él). La aclaración sí es texto y queda fuera.
+    marco: item.marco?.supuesto ?? 'neutro',
   }))
   .sort((a, b) => a.id.localeCompare(b.id));
 const hashSemantico = createHash('sha256')

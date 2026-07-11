@@ -394,7 +394,7 @@ export function Resultados({ estado, despachar, puedeRecargar, alConfirmarGuarda
     </>
   );
 
-  const referenciaGeneralesNoVotable = estado.eleccion !== 'generales';
+  const referenciaGeneralesOtraConvocatoria = estado.eleccion !== 'generales';
 
   return (
     <div className="contenedor contenedor--ancho">
@@ -664,16 +664,17 @@ export function Resultados({ estado, despachar, puedeRecargar, alConfirmarGuarda
         <section className="seccion seccion--principales" aria-labelledby="principales-generales-titulo">
           <p className="kicker">Referencia electoral común</p>
           <h2 id="principales-generales-titulo">Partidos principales de las últimas generales</h2>
-          {referenciaGeneralesNoVotable ? (
+          {referenciaGeneralesOtraConvocatoria ? (
             <>
               <p className="aviso-contexto" role="note">
-                <strong>Comparación nacional, no votable en esta convocatoria.</strong> Estas
-                candidaturas corresponden a las últimas elecciones generales: no forman parte
-                del ranking de tu contexto ni de tu papeleta, y quedan plegadas como referencia
-                común.
+                <strong>Referencia de otra convocatoria.</strong> Esta lista y su orden
+                corresponden a las últimas elecciones generales, no a la elección que estás
+                consultando. Muchos de estos partidos también concurren en tu contexto y, si lo
+                hacen, ya aparecen con su porcentaje en el ranking de arriba; la lista queda
+                plegada para que no se confunda con la papeleta de tu convocatoria.
               </p>
               <details className="ranking-resto">
-                <summary>Ver la comparación nacional de referencia</summary>
+                <summary>Ver la referencia de las últimas generales</summary>
                 {contenidoPrincipalesGenerales}
               </details>
             </>
