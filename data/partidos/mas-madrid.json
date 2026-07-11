@@ -147,17 +147,15 @@
     },
     "eco-009": {
       "valor": -2,
-      "justificacion": "Más Madrid critica las sucesivas bonificaciones de Ayuso al impuesto de sucesiones y donaciones (ampliada al 50% entre hermanos, tíos y sobrinos en 2025) calificándolas de «regalo de Ayuso a las grandes fortunas»: defiende mantener y reforzar el tributo, no suprimirlo.",
+      "justificacion": "Más Madrid se opuso en la Asamblea a las sucesivas bonificaciones de Ayuso al impuesto de sucesiones y donaciones (ampliada al 50% entre hermanos, tíos y sobrinos en 2025) y defiende mantener y reforzar el tributo, no suprimirlo. La frase del titular de la fuente no se atribuye aquí porque en el pleno intervinieron portavoces de dos partidos y no está verificado quién la pronunció.",
       "calidadEvidencia": "media",
       "fuente": {
         "tipo": "declaracion",
-        "titulo": "Madrid lleva a pleno el jueves bonificar un 50% el impuesto de sucesiones entre tíos y sobrinos: «Es un regalo de Ayuso a las grandes fortunas» (Infobae)",
+        "titulo": "Madrid lleva a pleno el jueves bonificar un 50% el impuesto de sucesiones entre tíos y sobrinos (Infobae)",
         "url": "https://www.infobae.com/espana/2025/06/09/madrid-aprueba-el-jueves-la-bonificacion-del-50-del-impuesto-de-sucesiones-entre-tios-y-sobrinos-a-vox-se-le-queda-corta-pide-el-99/",
         "fecha": "2025-06-09",
-        "consultado": "2026-07-10",
-        "cita": "Es un regalo de Ayuso a las grandes fortunas"
-      },
-      "grupoEvidencia": "pasaje-83c79a7d2742199a7a45"
+        "consultado": "2026-07-10"
+      }
     },
     "eco-013": {
       "valor": -2,
@@ -217,7 +215,7 @@
       "calidadEvidencia": "media",
       "fuente": {
         "tipo": "redes",
-        "titulo": "En qué consiste el recorte de las leyes trans y LGTBI de Madrid (Newtral)",
+        "titulo": "Mónica García (X): la reforma de la Ley Trans de Ayuso «supone su derogación camuflada»",
         "url": "https://x.com/Monica_Garcia_G/status/1722958618360795460",
         "fecha": "2023-11",
         "consultado": "2026-07-10",
@@ -247,13 +245,13 @@
         "url": "https://www.izquierdadiario.es/PP-y-Ciudadanos-apoyan-a-Vox-y-piden-ilegalizar-partidos-independentistas",
         "fecha": "2019-11",
         "consultado": "2026-07-10",
-        "cita": "En democracia las leyes las aplican los jueces y los tribunales, y no de forma arbitraria"
+        "cita": "esperpento político y legal"
       },
       "grupoEvidencia": "pasaje-b6394d2eab04cbebf413"
     },
     "va-003": {
-      "valor": 2,
-      "justificacion": "Más Madrid es el único partido con representación en la Comunidad de Madrid que ha pedido acabar con las corridas de toros, proponiendo revisar y retirar la financiación pública a la tauromaquia una vez terminen los contratos vigentes.",
+      "valor": 1,
+      "justificacion": "Más Madrid pide acabar con las corridas de toros, pero su iniciativa documentada es la definanciación autonómica —revisar y retirar la financiación pública y la declaración de interés cultural al terminar los contratos vigentes—, no una proposición de ley de prohibición estatal; de ahí el acuerdo moderado y no pleno.",
       "calidadEvidencia": "media",
       "fuente": {
         "tipo": "declaracion",
