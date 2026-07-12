@@ -115,6 +115,29 @@ export function secuenciaItems(
 }
 
 /**
+ * Índice del siguiente ítem AÚN SIN RESPONDER estrictamente después de
+ * `indice`, o -1 si no queda ninguno por delante.
+ *
+ * Es el destino del avance normal del cuestionario: los módulos aceptados en
+ * vuelo se insertan en su orden canónico —que puede ser anterior a bloques ya
+ * respondidos— y el tramo contestado que queda físicamente detrás no debe
+ * re-presentarse pregunta a pregunta como si estuviera pendiente. Releer o
+ * corregir lo ya respondido sigue disponible, pero de forma explícita:
+ * «Anterior» y la vista de revisión.
+ */
+export function indiceProximoPendiente(
+  secuencia: readonly Item[],
+  indice: number,
+  respuestas: Readonly<Record<string, Valor | null>>,
+): number {
+  for (let i = indice + 1; i < secuencia.length; i += 1) {
+    const item = secuencia[i];
+    if (item && !(item.id in respuestas)) return i;
+  }
+  return -1;
+}
+
+/**
  * Respuestas restringidas a la secuencia activa (núcleo + módulos activos +
  * condicionales visibles). Es la fuente de verdad única que comparten la
  * sugerencia de módulos y el perfil de resultados: las respuestas de módulos

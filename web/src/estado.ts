@@ -17,6 +17,7 @@ import {
   MODULOS,
   MODULO_POR_ID,
   VERSION_INSTRUMENTO,
+  indiceProximoPendiente,
   itemVisible,
   respuestasDeSecuenciaActiva,
   secuenciaItems,
@@ -352,13 +353,19 @@ export function reductor(estado: Estado, accion: Accion): Estado {
           perfilIntermedio: false,
         };
       }
-      if (estado.indice < secuencia.length - 1) {
+      // El avance va al siguiente ítem SIN RESPONDER, no al físico contiguo:
+      // los módulos aceptados en vuelo se insertan en su orden canónico y el
+      // tramo ya contestado que quede detrás no se re-presenta pregunta a
+      // pregunta «ya seleccionada» (bug beta Discord 2026-07). Releer o
+      // corregir sigue siendo opt-in: «Anterior» y la revisión final.
+      const destino = indiceProximoPendiente(secuencia, estado.indice, estado.respuestas);
+      if (destino !== -1) {
         // Frontera de módulo: si las respuestas acumuladas desbloquean bloques
         // nuevos (movimiento del perfil), se ofrece añadirlos ANTES de entrar
         // al siguiente módulo, en ciego (sin nombrar áreas) y con el
         // cortafuegos anti-bucle (nada de la misma familia recién respondida).
         const actual = secuencia[estado.indice];
-        const proximo = secuencia[estado.indice + 1];
+        const proximo = secuencia[destino];
         if (
           puedeOfrecerEnVuelo(estado) &&
           actual &&
@@ -368,7 +375,7 @@ export function reductor(estado: Estado, accion: Accion): Estado {
         ) {
           return { ...estado, fase: 'oferta-modulos', perfilIntermedio: false };
         }
-        return { ...estado, indice: estado.indice + 1 };
+        return { ...estado, indice: destino };
       }
       // Fin de la secuencia activa: última oportunidad de ofrecer lo desbloqueado.
       if (puedeOfrecerEnVuelo(estado) && modulosRecienDesbloqueados(estado).length > 0) {
