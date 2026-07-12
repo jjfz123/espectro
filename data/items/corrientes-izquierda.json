@@ -141,7 +141,10 @@
       "anarcocomunismo"
     ],
     "estado": "piloto",
-    "notas": "Distingue abolición antiestatal de conquista o transformación del Estado; el acuerdo puede proceder de anarquismo o comunismo libertario y no implica una economía de mercado."
+    "notas": "Distingue abolición antiestatal de conquista o transformación del Estado; el acuerdo puede proceder de anarquismo o comunismo libertario y no implica una economía de mercado.",
+    "terminos": [
+      "consejismo"
+    ]
   },
   {
     "id": "izq-008",
@@ -181,7 +184,10 @@
       "elecciones"
     ],
     "estado": "piloto",
-    "notas": "Discrimina: Separa PCE/IU (frente amplio) de PCTE, PCOE y Frente Obrero (pureza de clase, candidaturas propias); el trotskismo queda intermedio (apoyo crítico puntual sin integración estable). | Esperado: PCE/IU +2, eurocomunismo +2, Izquierda Revolucionaria +0, PCTE -2, Frente Obrero -2, PCOE -2. | El PCE concurre dentro de IU y del espacio Sumar; el PCTE presenta siempre candidaturas propias y rechaza el frente amplio como 'colaboración de clases'. | [Corregido en revisión: Ítem sólido y buen discriminador, pero 'al estilo de IU o Sumar' viola la regla de durabilidad: Sumar es una marca de 2023 que puede no existir en dos años. IU (fundada en 1986) basta como ancla. Las posicionesEsperadas son correctas (PCTE denuncia el frente amplio como colaboración de clases; el PCE concurre en IU). Carga metodo-cambio -0.5 coherente.]"
+    "notas": "Discrimina: Separa PCE/IU (frente amplio) de PCTE, PCOE y Frente Obrero (pureza de clase, candidaturas propias); el trotskismo queda intermedio (apoyo crítico puntual sin integración estable). | Esperado: PCE/IU +2, eurocomunismo +2, Izquierda Revolucionaria +0, PCTE -2, Frente Obrero -2, PCOE -2. | El PCE concurre dentro de IU y del espacio Sumar; el PCTE presenta siempre candidaturas propias y rechaza el frente amplio como 'colaboración de clases'. | [Corregido en revisión: Ítem sólido y buen discriminador, pero 'al estilo de IU o Sumar' viola la regla de durabilidad: Sumar es una marca de 2023 que puede no existir en dos años. IU (fundada en 1986) basta como ancla. Las posicionesEsperadas son correctas (PCTE denuncia el frente amplio como colaboración de clases; el PCE concurre en IU). Carga metodo-cambio -0.5 coherente.]",
+    "terminos": [
+      "frente-popular"
+    ]
   },
   {
     "id": "izq-010",
@@ -264,7 +270,10 @@
       "rojipardismo"
     ],
     "estado": "piloto",
-    "notas": "Discrimina: Marcador central del socialpatriotismo: Frente Obrero a favor de limitar; PCE y trotskismo defienden regularización e internacionalismo migratorio; el PCTE denuncia el uso patronal de la migración pero rechaza restringirla (por eso -1 y no -2). | Esperado: Frente Obrero +2, PCTE -1, PCE/IU -2, Izquierda Revolucionaria -2, PCE(m-l)/hoxhaísmo -2. | [Corregido en revisión: Doble barril clásico premisa+prescripción (Kamoen & Holleman): un militante del PCTE suscribe la premisa del ejército de reserva pero rechaza la prescripción, y no sabe qué contestar. Reformulo como directiva única con cláusula de propósito, que conserva el marco rojipardo sin obligar a evaluar dos proposiciones. Posiciones y ejes (internacionalismo +0.5, social +0.5) correctos.]"
+    "notas": "Discrimina: Marcador central del socialpatriotismo: Frente Obrero a favor de limitar; PCE y trotskismo defienden regularización e internacionalismo migratorio; el PCTE denuncia el uso patronal de la migración pero rechaza restringirla (por eso -1 y no -2). | Esperado: Frente Obrero +2, PCTE -1, PCE/IU -2, Izquierda Revolucionaria -2, PCE(m-l)/hoxhaísmo -2. | [Corregido en revisión: Doble barril clásico premisa+prescripción (Kamoen & Holleman): un militante del PCTE suscribe la premisa del ejército de reserva pero rechaza la prescripción, y no sabe qué contestar. Reformulo como directiva única con cláusula de propósito, que conserva el marco rojipardo sin obligar a evaluar dos proposiciones. Posiciones y ejes (internacionalismo +0.5, social +0.5) correctos.]",
+    "terminos": [
+      "chovinismo-bienestar"
+    ]
   },
   {
     "id": "izq-014",
@@ -380,7 +389,10 @@
       "organizacion"
     ],
     "estado": "piloto",
-    "notas": "Discrimina: Grado de autoritarismo interno: luxemburguismo y sectores eurocomunistas admiten corrientes públicas; PCTE, PCOE y Frente Obrero aplican centralismo democrático estricto; el trotskismo admite tendencias internas pero exige unidad pública (0). | Esperado: luxemburguismo +2, PCE +1, trotskismo (IR) +0, PCTE -2, Frente Obrero -2, PCOE -2. | [Corregido en revisión: El constructo (autoritarismo interno) solo se alinea débilmente con el eje horizontalismo-vanguardismo: el propio borrador lo demuestra con el trotskismo, partidos de vanguardia que admiten tendencias internas. Con carga -0.75 un luxemburguista puro y un trotskista quedarían mal mapeados. Rebajo a -0.5. Además, PCE +1 es generoso: sus estatutos mantienen formalmente el centralismo democrático y prohíben fracciones organizadas, aunque tolere sensibilidades de facto; mejor hipótesis 0/+1.]"
+    "notas": "Discrimina: Grado de autoritarismo interno: luxemburguismo y sectores eurocomunistas admiten corrientes públicas; PCTE, PCOE y Frente Obrero aplican centralismo democrático estricto; el trotskismo admite tendencias internas pero exige unidad pública (0). | Esperado: luxemburguismo +2, PCE +1, trotskismo (IR) +0, PCTE -2, Frente Obrero -2, PCOE -2. | [Corregido en revisión: El constructo (autoritarismo interno) solo se alinea débilmente con el eje horizontalismo-vanguardismo: el propio borrador lo demuestra con el trotskismo, partidos de vanguardia que admiten tendencias internas. Con carga -0.75 un luxemburguista puro y un trotskista quedarían mal mapeados. Rebajo a -0.5. Además, PCE +1 es generoso: sus estatutos mantienen formalmente el centralismo democrático y prohíben fracciones organizadas, aunque tolere sensibilidades de facto; mejor hipótesis 0/+1.]",
+    "terminos": [
+      "centralismo-democratico"
+    ]
   },
   {
     "id": "izq-019",
@@ -448,7 +460,10 @@
       "solo-matching"
     ],
     "estado": "piloto",
-    "notas": "Discrimina: Solo-matching. Marcador del maoísmo (+2) frente al hoxhaísmo (que rompió con China, -2), al eurocomunismo (-2) y a los prosoviéticos (PCTE -1); el trotskismo la lee como pugna burocrática (-1). | Esperado: maoísmo +2, PCTE -1, trotskismo -1, Frente Obrero -1, PCE -2, PCE(m-l)/hoxhaísmo -2."
+    "notas": "Discrimina: Solo-matching. Marcador del maoísmo (+2) frente al hoxhaísmo (que rompió con China, -2), al eurocomunismo (-2) y a los prosoviéticos (PCTE -1); el trotskismo la lee como pugna burocrática (-1). | Esperado: maoísmo +2, PCTE -1, trotskismo -1, Frente Obrero -1, PCE -2, PCE(m-l)/hoxhaísmo -2.",
+    "terminos": [
+      "revolucion-cultural"
+    ]
   },
   {
     "id": "izq-023",
@@ -601,7 +616,10 @@
       "pce"
     ],
     "estado": "piloto",
-    "notas": "Discrimina: El marcador fundacional de todas las escisiones: aísla al PCE/eurocomunismo (defensa crítica de su papel en la Transición, +1/+2) de PCTE, PCOE, hoxhaísmo (que llamó al boicot constitucional), trotskismo y Frente Obrero, que leen 1978 como capitulación (-2). Referencia histórica, no coyuntural: durable indefinidamente. | Esperado: eurocomunismo +2, PCE/IU +1, PCTE -2, PCOE -2, PCE(m-l)/hoxhaísmo -2, trotskismo (IR) -2, Frente Obrero -2. | PCE en +1 y no +2: el PCE actual habla de 'superar el régimen del 78' pero reivindica su papel histórico; el ítem pregunta por la decisión de entonces, no por el presente. | [Añadido por el revisor para cubrir un hueco]"
+    "notas": "Discrimina: El marcador fundacional de todas las escisiones: aísla al PCE/eurocomunismo (defensa crítica de su papel en la Transición, +1/+2) de PCTE, PCOE, hoxhaísmo (que llamó al boicot constitucional), trotskismo y Frente Obrero, que leen 1978 como capitulación (-2). Referencia histórica, no coyuntural: durable indefinidamente. | Esperado: eurocomunismo +2, PCE/IU +1, PCTE -2, PCOE -2, PCE(m-l)/hoxhaísmo -2, trotskismo (IR) -2, Frente Obrero -2. | PCE en +1 y no +2: el PCE actual habla de 'superar el régimen del 78' pero reivindica su papel histórico; el ítem pregunta por la decisión de entonces, no por el presente. | [Añadido por el revisor para cubrir un hueco]",
+    "terminos": [
+      "eurocomunismo"
+    ]
   },
   {
     "id": "izq-031",
@@ -645,7 +663,10 @@
       "nacionalizacion"
     ],
     "estado": "piloto",
-    "notas": "Discrimina: Separa la tradición autogestionaria (CNT, CGT, municipalismo libertario: muy de acuerdo) del marxismo-leninismo (PCTE, PCE/IU: prefieren nacionalización estatal). Dentro de la izquierda es el clásico eje autogestión vs. estatismo. | Esperado: anarcosindicalismo (CNT/CGT) +2, anarcocomunismo +2, municipalismo libertario +2, CUP +1, PCE/IU -1, PCTE -2, PSOE +0. | No opone cooperativas a mercado sino a nacionalización: ambas opciones son de izquierda, lo que evita que el ítem se lea como antiizquierda."
+    "notas": "Discrimina: Separa la tradición autogestionaria (CNT, CGT, municipalismo libertario: muy de acuerdo) del marxismo-leninismo (PCTE, PCE/IU: prefieren nacionalización estatal). Dentro de la izquierda es el clásico eje autogestión vs. estatismo. | Esperado: anarcosindicalismo (CNT/CGT) +2, anarcocomunismo +2, municipalismo libertario +2, CUP +1, PCE/IU -1, PCTE -2, PSOE +0. | No opone cooperativas a mercado sino a nacionalización: ambas opciones son de izquierda, lo que evita que el ítem se lea como antiizquierda.",
+    "terminos": [
+      "autogestion"
+    ]
   },
   {
     "id": "izq-033",
@@ -937,7 +958,10 @@
       "cooperativismo"
     ],
     "estado": "piloto",
-    "notas": "Solo-matching (par de izq-047, 2026-07-12): voz afirmativa utópico-prefigurativa frente al determinismo de condiciones; ambas voces del par se preguntan por separado para no privilegiar una. Esperado: anarquismo prefigurativo, cooperativismo y socialismo utópico +1/+2; ML clásico −1/−2 (prioriza condiciones y partido); reformismo gradualista puede coincidir en +1 por motivos distintos. Redacción propia."
+    "notas": "Solo-matching (par de izq-047, 2026-07-12): voz afirmativa utópico-prefigurativa frente al determinismo de condiciones; ambas voces del par se preguntan por separado para no privilegiar una. Esperado: anarquismo prefigurativo, cooperativismo y socialismo utópico +1/+2; ML clásico −1/−2 (prioriza condiciones y partido); reformismo gradualista puede coincidir en +1 por motivos distintos. Redacción propia.",
+    "terminos": [
+      "politica-prefigurativa"
+    ]
   },
   {
     "id": "izq-049",
@@ -950,7 +974,10 @@
       "revisionismo"
     ],
     "estado": "piloto",
-    "notas": "Solo-matching (informe del propietario sobre el campo comunista, 2026-07-12; Eje 1 fino): fecha el momento de la degeneración. Esperado: hoxhaísmo y reconstitución +2 (traición revisionista de 1956); prosoviéticos ortodoxos −2 (la URSS fue socialista hasta 1991, sin degeneración); trotskismo −2 POR OTRA RAZÓN (la burocratización fue anterior, bajo Stalin: coincidencia entre ideologías por motivos distintos, se desambigua con izq-020/izq-021). Redacción propia."
+    "notas": "Solo-matching (informe del propietario sobre el campo comunista, 2026-07-12; Eje 1 fino): fecha el momento de la degeneración. Esperado: hoxhaísmo y reconstitución +2 (traición revisionista de 1956); prosoviéticos ortodoxos −2 (la URSS fue socialista hasta 1991, sin degeneración); trotskismo −2 POR OTRA RAZÓN (la burocratización fue anterior, bajo Stalin: coincidencia entre ideologías por motivos distintos, se desambigua con izq-020/izq-021). Redacción propia.",
+    "terminos": [
+      "xx-congreso-pcus"
+    ]
   },
   {
     "id": "izq-050",
@@ -1002,7 +1029,10 @@
       "tactica"
     ],
     "estado": "piloto",
-    "notas": "Solo-matching (recomendación 2 del informe, 2026-07-12): desagrega el trotskismo por táctica. Esperado: tradición del entrismo (Militant/IR) +1/+2; construcción independiente (CRT, PRT, PCTE) −2; el metadato de Internacional (FT-CI, LIT-CI, lambertismo, mandelismo) vive en `clasificacion`, no en ítems. Redacción propia."
+    "notas": "Solo-matching (recomendación 2 del informe, 2026-07-12): desagrega el trotskismo por táctica. Esperado: tradición del entrismo (Militant/IR) +1/+2; construcción independiente (CRT, PRT, PCTE) −2; el metadato de Internacional (FT-CI, LIT-CI, lambertismo, mandelismo) vive en `clasificacion`, no en ítems. Redacción propia.",
+    "terminos": [
+      "entrismo"
+    ]
   },
   {
     "id": "izq-054",

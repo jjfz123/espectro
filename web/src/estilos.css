@@ -4469,3 +4469,22 @@ dl.definiciones dd {
 .enciclopedia-entrada__definicion {
   max-width: 76ch;
 }
+
+/* Lectura rápida del resultado (feedback de usuarias, 2026-07-12): una sola
+   frase que jerarquiza las tres lecturas de la página. */
+.lectura-rapida {
+  margin: 0.9rem 0 0;
+  padding: 0.75rem 1rem;
+  border-left: 3px solid var(--acento, #c0354f);
+  background: color-mix(in srgb, var(--acento, #c0354f) 7%, transparent);
+  border-radius: 0 6px 6px 0;
+  max-width: 72ch;
+  line-height: 1.5;
+}
+
+.referencia-anecdotica {
+  margin: 0.15rem 0 0;
+  font-size: 0.82rem;
+  font-style: italic;
+  opacity: 0.85;
+}

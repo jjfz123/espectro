@@ -117,7 +117,10 @@
       "inmigracion"
     ],
     "estado": "piloto",
-    "notas": "Separa prioridad de devolución y control fronterizo de regularización/acogida; las razones laborales, identitarias o humanitarias requieren los módulos de profundización."
+    "notas": "Separa prioridad de devolución y control fronterizo de regularización/acogida; las razones laborales, identitarias o humanitarias requieren los módulos de profundización.",
+    "terminos": [
+      "remigracion"
+    ]
   },
   {
     "id": "soc-003",
@@ -327,7 +330,10 @@
       "revalorizacion"
     ],
     "estado": "piloto",
-    "notas": "Discrimina: Separa PSOE/Sumar (+2) de PP (0, revaloriza pero rechaza subir cotizaciones) y de los liberales (−2, sostenibilidad primero); capta el chovinismo de bienestar de Vox (+1), que lo distingue de la derecha liberal. | Esperado: PSOE +2, Sumar/Podemos +2, EH Bildu +2, Vox +1, PP +0, liberalismo (Cs) -1. | El coste explícito ('aunque haya que aumentar impuestos') es lo que discrimina: la revalorización sin coste tiene apoyo casi unánime."
+    "notas": "Discrimina: Separa PSOE/Sumar (+2) de PP (0, revaloriza pero rechaza subir cotizaciones) y de los liberales (−2, sostenibilidad primero); capta el chovinismo de bienestar de Vox (+1), que lo distingue de la derecha liberal. | Esperado: PSOE +2, Sumar/Podemos +2, EH Bildu +2, Vox +1, PP +0, liberalismo (Cs) -1. | El coste explícito ('aunque haya que aumentar impuestos') es lo que discrimina: la revalorización sin coste tiene apoyo casi unánime.",
+    "terminos": [
+      "pacto-toledo"
+    ]
   },
   {
     "id": "eco-009",
@@ -540,7 +546,10 @@
       "concierto"
     ],
     "estado": "piloto",
-    "notas": "Discrimina: Separa PNV/Junts/ERC (+2, financiación singular) de PP/Vox/Cs (−2, caja común e igualdad); parte al PSOE entre el PSC (+1, acuerdo con ERC) y los barones federales (0/−1); Compromís recela del privilegio catalán. | Esperado: PNV +2, Junts +2, ERC +2, PSC +1, PSOE +0, Compromís -1, PP -2, Vox -2."
+    "notas": "Discrimina: Separa PNV/Junts/ERC (+2, financiación singular) de PP/Vox/Cs (−2, caja común e igualdad); parte al PSOE entre el PSC (+1, acuerdo con ERC) y los barones federales (0/−1); Compromís recela del privilegio catalán. | Esperado: PNV +2, Junts +2, ERC +2, PSC +1, PSOE +0, Compromís -1, PP -2, Vox -2.",
+    "terminos": [
+      "concierto-economico"
+    ]
   },
   {
     "id": "ter-004",
@@ -559,7 +568,10 @@
       "educacion"
     ],
     "estado": "piloto",
-    "notas": "Discrimina: Separa Cs/Vox (+2, bandera fundacional) y PP (+2) del PSOE (−1, retiró la vehicularidad en la LOMLOE) y de ERC/Junts/Bildu/BNG (−2, inmersión como política propia). | Esperado: Ciudadanos +2, Vox +2, PP +2, PSOE -1, PNV -2, ERC -2, Junts -2, BNG -2."
+    "notas": "Discrimina: Separa Cs/Vox (+2, bandera fundacional) y PP (+2) del PSOE (−1, retiró la vehicularidad en la LOMLOE) y de ERC/Junts/Bildu/BNG (−2, inmersión como política propia). | Esperado: Ciudadanos +2, Vox +2, PP +2, PSOE -1, PNV -2, ERC -2, Junts -2, BNG -2.",
+    "terminos": [
+      "inmersion-linguistica"
+    ]
   },
   {
     "id": "ue-002",
@@ -729,7 +741,10 @@
       "religion"
     ],
     "estado": "piloto",
-    "notas": "Discrimina: Carga el eje laicismo: IU/Podemos/ERC/Bildu (+2, denuncia de los Acuerdos con la Santa Sede) frente a PP/Vox/PNV (−2, oferta obligatoria de religión); el PSOE (+1) queda retratado entre su programa laicista y su práctica de gobierno. | Esperado: Sumar/IU +2, Podemos +2, ERC +2, EH Bildu +2, PSOE +1, PNV -2, PP -2, Vox -2."
+    "notas": "Discrimina: Carga el eje laicismo: IU/Podemos/ERC/Bildu (+2, denuncia de los Acuerdos con la Santa Sede) frente a PP/Vox/PNV (−2, oferta obligatoria de religión); el PSOE (+1) queda retratado entre su programa laicista y su práctica de gobierno. | Esperado: Sumar/IU +2, Podemos +2, ERC +2, EH Bildu +2, PSOE +1, PNV -2, PP -2, Vox -2.",
+    "terminos": [
+      "acuerdos-santa-sede-1979"
+    ]
   },
   {
     "id": "eco-014",
@@ -771,7 +786,10 @@
       "jubilacion"
     ],
     "estado": "piloto",
-    "notas": "Discrimina: Separa la derecha liberal (Cs +2, indexación automática) del PP (+1, lo insinúa sin abanderarlo) y sobre todo de Vox (−1, chovinismo de bienestar: defiende a 'nuestros mayores'); y al PSOE (−1, subió a 67 pero rechaza ir más allá) de Sumar/Bildu (−2, quieren recuperar los 65). | Esperado: Ciudadanos +2, PP +1, PNV +0, PSOE -1, Vox -1, Sumar/Podemos -2, EH Bildu -2. | Es el reverso de nuc-04: mide sostenibilidad por el lado del gasto. Ligar a esperanza de vida es la formulación estándar de la propuesta real, no una premisa persuasiva. | [Añadido por el revisor para cubrir un hueco]"
+    "notas": "Discrimina: Separa la derecha liberal (Cs +2, indexación automática) del PP (+1, lo insinúa sin abanderarlo) y sobre todo de Vox (−1, chovinismo de bienestar: defiende a 'nuestros mayores'); y al PSOE (−1, subió a 67 pero rechaza ir más allá) de Sumar/Bildu (−2, quieren recuperar los 65). | Esperado: Ciudadanos +2, PP +1, PNV +0, PSOE -1, Vox -1, Sumar/Podemos -2, EH Bildu -2. | Es el reverso de nuc-04: mide sostenibilidad por el lado del gasto. Ligar a esperanza de vida es la formulación estándar de la propuesta real, no una premisa persuasiva. | [Añadido por el revisor para cubrir un hueco]",
+    "terminos": [
+      "pacto-toledo"
+    ]
   },
   {
     "id": "ter-005",

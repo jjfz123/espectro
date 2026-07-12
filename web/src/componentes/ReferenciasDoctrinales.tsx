@@ -14,7 +14,15 @@ export function ReferenciasDoctrinales({ respuestas, alMontar }: Props) {
   const [referenciaAbierta, setReferenciaAbierta] = useState<string | null>(null);
   const referenciaPorId = new Map(REFERENCIAS.map((referencia) => [referencia.id, referencia]));
   const resultados = compararReferenciasDoctrinales(respuestas, REFERENCIAS);
-  const publicables = resultados.filter((resultado) => resultado.publicable);
+  /* Fase 2 de legibilidad: la amplitud manda. Una coincidencia del 85 % sobre
+     12 preguntas compartidas es más informativa que una del 90 % sobre 4; el
+     orden ya no premia porcentajes altos con base anecdótica. */
+  const publicables = resultados
+    .filter((resultado) => resultado.publicable)
+    .sort(
+      (a, b) =>
+        b.itemsComparados * (b.puntuacion ?? 0) - a.itemsComparados * (a.puntuacion ?? 0),
+    );
 
   useEffect(() => {
     alMontar?.();
@@ -26,9 +34,12 @@ export function ReferenciasDoctrinales({ respuestas, alMontar }: Props) {
     <div className="referencias-doctrinales__contenido">
       <p className="nota-al-margen" style={{ maxWidth: '70ch' }}>
         Son tipos ideales para describir combinaciones que quizá ningún partido represente. No
-        dicen «eres X», no son candidaturas y no usan lo que marcaste como importante. Solo
-        aparecen cuando has contestado suficientes posiciones definitorias y superas el umbral
-        publicado; puede no aparecer ninguna o aparecer varias.
+        dicen «eres X», no son candidaturas y no usan lo que marcaste como importante. Cada
+        tarjeta compara únicamente sus preguntas definitorias —a veces solo un puñado—, así que
+        puedes salir cerca de corrientes rivales entre sí a la vez sin contradicción. Están
+        ordenadas por amplitud de la coincidencia (preguntas compartidas × afinidad), no solo
+        por porcentaje. Solo aparecen cuando has contestado suficientes posiciones definitorias
+        y superas el umbral publicado; puede no aparecer ninguna o aparecer varias.
       </p>
 
       {publicables.length === 0 ? (
@@ -60,9 +71,16 @@ export function ReferenciasDoctrinales({ respuestas, alMontar }: Props) {
                   <header>
                     <div>
                       <p className="kicker">
-                        {esViolenta ? 'Patrón doctrinal sensible' : 'Coincidencias parciales con'}
+                        {esViolenta
+                          ? 'Patrón doctrinal sensible'
+                          : `Coincide en ${resultado.itemsComparados} de sus ${resultado.itemsDefinitorios} preguntas`}
                       </p>
                       <h3>{referencia.nombre}</h3>
+                      {!esViolenta && resultado.itemsComparados <= 6 ? (
+                        <p className="referencia-anecdotica">
+                          Coincidencia estrecha: pocas preguntas compartidas. No es tu etiqueta.
+                        </p>
+                      ) : null}
                       {referencia.variante ? <p className="referencia-variante">{referencia.variante}</p> : null}
                     </div>
                     {!esViolenta ? (

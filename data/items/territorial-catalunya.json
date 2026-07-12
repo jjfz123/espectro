@@ -16,7 +16,10 @@
       "catalán"
     ],
     "estado": "piloto",
-    "notas": "Discrimina: Bloque de la inmersión (ERC, Junts, CUP, Aliança, Comuns) frente a PSC (ambivalente) y PP/Vox/Cs (cuotas de castellano). Dentro del sistema catalán separa al PSC de sus socios soberanistas. | Esperado: ERC +2, Junts +2, CUP +2, Aliança Catalana +2, Comuns +1, PSC -1, PP -2, VOX -2."
+    "notas": "Discrimina: Bloque de la inmersión (ERC, Junts, CUP, Aliança, Comuns) frente a PSC (ambivalente) y PP/Vox/Cs (cuotas de castellano). Dentro del sistema catalán separa al PSC de sus socios soberanistas. | Esperado: ERC +2, Junts +2, CUP +2, Aliança Catalana +2, Comuns +1, PSC -1, PP -2, VOX -2.",
+    "terminos": [
+      "inmersion-linguistica"
+    ]
   },
   {
     "id": "cat-002",
@@ -35,7 +38,10 @@
       "concierto"
     ],
     "estado": "piloto",
-    "notas": "Discrimina: Consenso independentista (ERC lo hizo bandera, Junts y AC lo asumen) frente a la ambigüedad del PSC y los Comuns y el rechazo de PP y Vox. | Esperado: ERC +2, Junts +2, Aliança Catalana +2, CUP +1, PSC +0, Comuns +0, PP -2, VOX -2."
+    "notas": "Discrimina: Consenso independentista (ERC lo hizo bandera, Junts y AC lo asumen) frente a la ambigüedad del PSC y los Comuns y el rechazo de PP y Vox. | Esperado: ERC +2, Junts +2, Aliança Catalana +2, CUP +1, PSC +0, Comuns +0, PP -2, VOX -2.",
+    "terminos": [
+      "concierto-economico"
+    ]
   },
   {
     "id": "cat-003",
@@ -116,7 +122,11 @@
     "modulo": "territorial-catalunya",
     "ejes": [],
     "polaridad": "positiva",
-    "tags": ["referendum", "independencia", "mandato-democratico"],
+    "tags": [
+      "referendum",
+      "independencia",
+      "mandato-democratico"
+    ],
     "estado": "piloto",
     "notas": "Solo-matching: mide duración y reversibilidad del mandato, no apoyo o rechazo a la independencia. Un independentista puede aceptar el cierre temporal y un no independentista rechazar fijar una generación."
   },
@@ -126,7 +136,12 @@
     "modulo": "territorial-catalunya",
     "ejes": [],
     "polaridad": "positiva",
-    "tags": ["cooficialidad", "castellano", "aranes", "independencia"],
+    "tags": [
+      "cooficialidad",
+      "castellano",
+      "aranes",
+      "independencia"
+    ],
     "estado": "piloto",
     "notas": "Solo-matching: distingue modelos lingüísticos dentro del independentismo y evita inferirlos de querer un Estado propio o de apoyar la inmersión actual."
   },
@@ -134,9 +149,18 @@
     "id": "cat-009",
     "texto": "Tras una eventual independencia, los partidos contrarios a ella deberían poder competir y gobernar si ganan elecciones libres.",
     "modulo": "territorial-catalunya",
-    "ejes": [{ "eje": "pluralismo-institucional", "carga": 1 }],
+    "ejes": [
+      {
+        "eje": "pluralismo-institucional",
+        "carga": 1
+      }
+    ],
     "polaridad": "positiva",
-    "tags": ["pluralismo", "oposicion", "independencia"],
+    "tags": [
+      "pluralismo",
+      "oposicion",
+      "independencia"
+    ],
     "estado": "piloto",
     "notas": "Salvaguarda pluralista aplicable a independentismos de izquierda y derecha; no atribuye antipluralismo por defender unilateralidad ni puntúa la preferencia territorial."
   }

@@ -5,6 +5,7 @@ import {
   EJE_PROPIEDAD_MERCADO,
   calcularAfinidad,
   calcularFacetas,
+  compararReferenciasDoctrinales,
   partidosPrincipalesUltimasGenerales,
   perfilContraste,
   rankingAfinidad,
@@ -12,6 +13,7 @@ import {
   seleccionarPartidosElectorales,
   sindicatoRelevanteEnCcaa,
 } from '@engine';
+import { REFERENCIAS } from '../datosReferencias';
 import { CatalogoCandidaturas } from '../componentes/CatalogoCandidaturas';
 import { contextoParticipacionPorPartido } from '../participacionElectoral';
 import { DetalleAfinidad } from '../componentes/DetallePartido';
@@ -72,13 +74,6 @@ const SINDICATO_POR_ID = new Map(SINDICATOS.map((sindicato) => [sindicato.id, si
 const ITEMS_LABORALES_EN_NUCLEO = new Set(['lab-006']);
 const PRINCIPALES_GENERALES = partidosPrincipalesUltimasGenerales(PARTIDOS, CONVOCATORIAS, 7);
 const PODEMOS = PARTIDO_POR_ID.get('podemos');
-const FORMATO_VOTOS = new Intl.NumberFormat('es-ES', { maximumFractionDigits: 0 });
-const CONTEXTO_PRINCIPALES = new Map(
-  PRINCIPALES_GENERALES.map((principal) => [
-    principal.partido.id,
-    `Candidatura ${principal.candidatura.siglas ?? principal.candidatura.nombre} · ${FORMATO_VOTOS.format(principal.candidatura.votos)} votos`,
-  ]),
-);
 const EJES_CAPTURA: EtiquetasParaCaptura['ejes'] = new Map(
   EJES.map((eje) => [
     eje.id,
@@ -315,7 +310,6 @@ export function Resultados({ estado, despachar, puedeRecargar, alConfirmarGuarda
             ? [resultadoPodemos]
             : []),
         ];
-  const convocatoriaPrincipales = PRINCIPALES_GENERALES[0]?.convocatoria;
 
   const nivelCompartido = esPerfilIntermedio
     ? 'intermedio'
@@ -359,6 +353,24 @@ export function Resultados({ estado, despachar, puedeRecargar, alConfirmarGuarda
     [nombreEleccion, comunidad, nivelCompartido],
   );
 
+  /* Cruce mapa↔doctrina (fase 2 de legibilidad): resumen compacto por
+     referencia para que la frase de la zona del mapa pueda decir con datos si
+     la cercanía geométrica viene o no acompañada de coincidencia doctrinal. */
+  const resumenDoctrinal = useMemo(() => {
+    const mapa = new Map<
+      string,
+      { publicable: boolean; itemsComparados: number; itemsDefinitorios: number }
+    >();
+    for (const r of compararReferenciasDoctrinales(respuestas, REFERENCIAS)) {
+      mapa.set(r.entidadId, {
+        publicable: r.publicable,
+        itemsComparados: r.itemsComparados,
+        itemsDefinitorios: r.itemsDefinitorios,
+      });
+    }
+    return mapa;
+  }, [respuestas]);
+
   const quedanModulos = MODULOS.some((m) => {
     if (m.id === 'nucleo') return false;
     const items = (ITEMS_POR_MODULO.get(m.id) ?? []).filter((item) =>
@@ -366,60 +378,6 @@ export function Resultados({ estado, despachar, puedeRecargar, alConfirmarGuarda
     );
     return items.some((i) => !(i.id in estado.respuestas));
   });
-
-  const contenidoPrincipalesGenerales = (
-    <>
-          <p className="nota-al-margen" style={{ maxWidth: '72ch' }}>
-            Son las siete candidaturas con más votos de{' '}
-            {convocatoriaPrincipales?.nombre ?? 'las últimas elecciones generales documentadas'}
-            {' '}que tienen un perfil principal comparable. Su orden aquí es el del voto, no el
-            de afinidad. El porcentaje se calcula con tus mismas respuestas y conserva su aviso de
-            cobertura.
-          </p>
-          <div className="principales-contexto" role="note">
-            <strong>Contexto por representación, no recomendación.</strong>
-            <p>
-              Estas formaciones aparecen aquí únicamente por haber sido las más votadas en las
-              últimas generales documentadas. Espectro no favorece, prioriza ni recomienda a los
-              partidos mayoritarios y no pretende orientar el voto. Su propósito es ayudarte a
-              encontrar afinidades en toda la pluralidad política disponible en el catálogo.
-            </p>
-            <p>
-              El ranking ordenado por tu afinidad está más arriba; esta lista es solo contexto
-              común y conserva el orden del voto.
-            </p>
-          </div>
-          <Ranking
-            resultados={resultadosPrincipalesGenerales}
-            entidades={PARTIDO_POR_ID}
-            doblesMarcadores={doblesMarcadores}
-            compacto
-            contextoPorEntidad={CONTEXTO_PRINCIPALES}
-            separarTramos={false}
-            etiquetaPosicion={(_, indice) => `${PRINCIPALES_GENERALES[indice]?.puestoVotos ?? indice + 1}.º voto`}
-          />
-          {PODEMOS && resultadoPodemos ? (
-            <aside className="referencia-podemos" aria-labelledby="referencia-podemos-titulo">
-              <div>
-                <p className="kicker">Referencia separada</p>
-                <h3 id="referencia-podemos-titulo">Podemos concurrió dentro de Sumar</h3>
-                <p>
-                  Se ofrece su perfil propio para comparar matices, pero no se presenta como una
-                  octava candidatura: en las generales de 2023 formó parte de la coalición Sumar.
-                </p>
-              </div>
-              <Ranking
-                resultados={[resultadoPodemos]}
-                entidades={PARTIDO_POR_ID}
-                compacto
-                ordenada={false}
-              />
-            </aside>
-          ) : null}
-    </>
-  );
-
-  const referenciaGeneralesOtraConvocatoria = estado.eleccion !== 'generales';
 
   return (
     <div className="contenedor contenedor--ancho">
@@ -444,6 +402,22 @@ export function Resultados({ estado, despachar, puedeRecargar, alConfirmarGuarda
         {nSinOpinion > 0 ? ` (${nSinOpinion} sin opinión)` : ''}. Calculado en tu navegador;
         nada se ha enviado a ningún servidor.
       </p>
+
+      {(() => {
+        const top = resultados.find((r) => typeof r.puntuacion === 'number');
+        const partidoTop = top ? PARTIDO_POR_ID.get(top.entidadId) : undefined;
+        if (!top || !partidoTop) return null;
+        return (
+          <div className="lectura-rapida" role="note">
+            <strong>Cómo leer esta página.</strong> Donde más coincides es{' '}
+            <strong>{partidoTop.nombre}</strong> ({Math.round(top.puntuacion ?? 0)} %): ese
+            ranking usa todas tus respuestas. Lo demás son lecturas de detalle que no te
+            etiquetan: las «corrientes afines» comparan solo unas pocas preguntas definitorias
+            de cada corriente —puedes salir cerca de corrientes rivales entre sí a la vez— y el
+            mapa mide cercanía geométrica en dos ejes, no tu perfil entero.
+          </div>
+        );
+      })()}
 
       {esPerfilIntermedio ? (
         <section className="resultado-provisional" aria-labelledby="resultado-intermedio-titulo">
@@ -509,6 +483,7 @@ export function Resultados({ estado, despachar, puedeRecargar, alConfirmarGuarda
         >
           <MapaPolitico
             facetasUsuario={facetasUsuario}
+            resumenDoctrinal={resumenDoctrinal}
             puedeRecargar={puedeRecargar}
             alConfirmarGuardado={alConfirmarGuardado}
             alMontar={enfocarMapaTrasRecarga ? enfocarTituloMapa : undefined}
@@ -665,31 +640,10 @@ export function Resultados({ estado, despachar, puedeRecargar, alConfirmarGuarda
         )}
       </section>
 
-      {seleccionElectoral.metodo !== 'contexto-incompleto' &&
-      nConOpinion > 0 &&
-      resultadosPrincipalesGenerales.length > 0 ? (
-        <section className="seccion seccion--principales" aria-labelledby="principales-generales-titulo">
-          <p className="kicker">Referencia electoral común</p>
-          <h2 id="principales-generales-titulo">Partidos principales de las últimas generales</h2>
-          {referenciaGeneralesOtraConvocatoria ? (
-            <>
-              <p className="aviso-contexto" role="note">
-                <strong>Referencia de otra convocatoria.</strong> Esta lista y su orden
-                corresponden a las últimas elecciones generales, no a la elección que estás
-                consultando. Muchos de estos partidos también concurren en tu contexto y, si lo
-                hacen, ya aparecen con su porcentaje en el ranking de arriba; la lista queda
-                plegada para que no se confunda con la papeleta de tu convocatoria.
-              </p>
-              <details className="ranking-resto">
-                <summary>Ver la referencia de las últimas generales</summary>
-                {contenidoPrincipalesGenerales}
-              </details>
-            </>
-          ) : (
-            contenidoPrincipalesGenerales
-          )}
-        </section>
-      ) : null}
+      {/* Orden del propietario (2026-07-12): sin bloque de mayoritarios por orden
+          de voto — un único ranking por afinidad, de más a menos, y punto. Podemos
+          y los grandes siguen auditables en «Auditar el cálculo» y comparables en
+          el propio ranking. */}
 
       {resultadosAuditoria.length > 0 ? (
         <section className="seccion seccion--auditoria">

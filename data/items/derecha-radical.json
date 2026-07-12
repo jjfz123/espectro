@@ -62,7 +62,10 @@
       "identitarismo"
     ],
     "estado": "piloto",
-    "notas": "Discrimina: Mide el grado del discurso antiinmigración: la remigración de residentes legales separa a los identitarios (DN, E2000, Aliança Catalana +2) del control duro clásico de VOX (+1, adopta el término pero con matices) y del populismo de SALF (0, centrado en irregulares y delincuentes). | Esperado: Aliança Catalana +2, Democracia Nacional +2, España 2000 +2, VOX +1, SALF +0, nacional-catolicismo +1, PP -2. | El ítem de núcleo cubre la devolución de irregulares; este mide el escalón siguiente, que es el marcador identitario. | [Corregido en revisión: Dos correcciones. (1) Quitar el paréntesis '(remigración)': es jerga de movimiento que funciona como palabra-bandera — los afines responden a la etiqueta, no a la política descrita, y contamina la medición (efecto de encuadre). (2) Actualizar la hipótesis de VOX: desde 2025 VOX asume abiertamente la 'remigración masiva' de 7-8 millones incluyendo descendientes (rueda de prensa de Rocío de Meer, julio 2025; ver https://es.euronews.com/my-europe/2025/07/08/vox-propone-de-manera-abierta-deportar-de-manera-masiva-a-millones-de-inmigrantes y https://www.publico.es/politica/partidos/vox-apuesta-abiertamente-deportar-ocho-millones-migrantes-hijos.html), aunque Abascal luego matizó las cifras. VOX esperado +2, no +1. El ítem sigue discriminando: VOX/DN/E2000/AC (+2) vs SALF (0) y nacional-catolicismo (+1).]"
+    "notas": "Discrimina: Mide el grado del discurso antiinmigración: la remigración de residentes legales separa a los identitarios (DN, E2000, Aliança Catalana +2) del control duro clásico de VOX (+1, adopta el término pero con matices) y del populismo de SALF (0, centrado en irregulares y delincuentes). | Esperado: Aliança Catalana +2, Democracia Nacional +2, España 2000 +2, VOX +1, SALF +0, nacional-catolicismo +1, PP -2. | El ítem de núcleo cubre la devolución de irregulares; este mide el escalón siguiente, que es el marcador identitario. | [Corregido en revisión: Dos correcciones. (1) Quitar el paréntesis '(remigración)': es jerga de movimiento que funciona como palabra-bandera — los afines responden a la etiqueta, no a la política descrita, y contamina la medición (efecto de encuadre). (2) Actualizar la hipótesis de VOX: desde 2025 VOX asume abiertamente la 'remigración masiva' de 7-8 millones incluyendo descendientes (rueda de prensa de Rocío de Meer, julio 2025; ver https://es.euronews.com/my-europe/2025/07/08/vox-propone-de-manera-abierta-deportar-de-manera-masiva-a-millones-de-inmigrantes y https://www.publico.es/politica/partidos/vox-apuesta-abiertamente-deportar-ocho-millones-migrantes-hijos.html), aunque Abascal luego matizó las cifras. VOX esperado +2, no +1. El ítem sigue discriminando: VOX/DN/E2000/AC (+2) vs SALF (0) y nacional-catolicismo (+1).]",
+    "terminos": [
+      "remigracion"
+    ]
   },
   {
     "id": "dr-004",
@@ -76,7 +79,10 @@
       "solo-matching"
     ],
     "estado": "piloto",
-    "notas": "Discrimina: Separa el hispanismo cultural (VOX +2, Falange +2, por la Hispanidad) del nativismo etnicista europeo (DN −1) y del nativismo catalán (Aliança Catalana −1). Solo-matching porque también los igualitaristas de izquierda responden en negativo por razones opuestas: la escala es no lineal. | Esperado: VOX +2, Falange (FE-JONS / La Falange) +2, nacional-catolicismo +1, Democracia Nacional -1, Aliança Catalana -1, SALF +0, PSOE -1. | VOX defiende explícitamente la preferencia por inmigración hispanoamericana; la Falange la enmarca en la Hispanidad."
+    "notas": "Discrimina: Separa el hispanismo cultural (VOX +2, Falange +2, por la Hispanidad) del nativismo etnicista europeo (DN −1) y del nativismo catalán (Aliança Catalana −1). Solo-matching porque también los igualitaristas de izquierda responden en negativo por razones opuestas: la escala es no lineal. | Esperado: VOX +2, Falange (FE-JONS / La Falange) +2, nacional-catolicismo +1, Democracia Nacional -1, Aliança Catalana -1, SALF +0, PSOE -1. | VOX defiende explícitamente la preferencia por inmigración hispanoamericana; la Falange la enmarca en la Hispanidad.",
+    "terminos": [
+      "hispanidad"
+    ]
   },
   {
     "id": "dr-005",
@@ -152,7 +158,10 @@
       "forma-de-estado"
     ],
     "estado": "retirado",
-    "notas": "Discrimina: Distinción clave dentro de la familia: monárquicos (VOX +2, nacional-católicos +2) frente a republicanos de ultraderecha (Falange −2, España 2000 −2), un corte que el eje izquierda-derecha no captura. Aliança Catalana −2 por razones independentistas. | Esperado: VOX +2, nacional-catolicismo +2, PP +2, SALF +0, Democracia Nacional -1, España 2000 -2, Falange (FE-JONS / La Falange) -2, Aliança Catalana -2."
+    "notas": "Discrimina: Distinción clave dentro de la familia: monárquicos (VOX +2, nacional-católicos +2) frente a republicanos de ultraderecha (Falange −2, España 2000 −2), un corte que el eje izquierda-derecha no captura. Aliança Catalana −2 por razones independentistas. | Esperado: VOX +2, nacional-catolicismo +2, PP +2, SALF +0, Democracia Nacional -1, España 2000 -2, Falange (FE-JONS / La Falange) -2, Aliança Catalana -2.",
+    "terminos": [
+      "jefatura-del-estado"
+    ]
   },
   {
     "id": "dr-009",
@@ -171,7 +180,10 @@
       "soberania"
     ],
     "estado": "retirado",
-    "notas": "Discrimina: Separa la salida de la OTAN (Falange +2, DN +1) del atlantismo condicionado de VOX (−1: permanecer exigiendo contrapartidas) y de SALF (−1). Coincide con la izquierda antimilitarista (PCE/IU +2), lo que sitúa a la Falange en su cuadrante propio. | Esperado: Falange (FE-JONS / La Falange) +2, Democracia Nacional +1, España 2000 +1, VOX -1, SALF -1, nacional-catolicismo -1, PCE/IU +2."
+    "notas": "Discrimina: Separa la salida de la OTAN (Falange +2, DN +1) del atlantismo condicionado de VOX (−1: permanecer exigiendo contrapartidas) y de SALF (−1). Coincide con la izquierda antimilitarista (PCE/IU +2), lo que sitúa a la Falange en su cuadrante propio. | Esperado: Falange (FE-JONS / La Falange) +2, Democracia Nacional +1, España 2000 +1, VOX -1, SALF -1, nacional-catolicismo -1, PCE/IU +2.",
+    "terminos": [
+      "otan"
+    ]
   },
   {
     "id": "dr-010",

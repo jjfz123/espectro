@@ -337,7 +337,7 @@ test('rápido → perfil provisional → exhaustivo conserva las 50 respuestas',
   ).toBeVisible();
 });
 
-test('resultados separa principales, top real y resto desplegable en móvil', async ({ page }) => {
+test('resultados: un único ranking por afinidad, sin bloque de mayoritarios (orden del propietario)', async ({ page }) => {
   const sesion = crearSesionResultadosRapidos(0);
   await page.setViewportSize({ width: 320, height: 720 });
   await page.addInitScript(
@@ -346,27 +346,15 @@ test('resultados separa principales, top real y resto desplegable en móvil', as
   );
   await page.goto('/');
 
-  const principales = page.locator('.seccion--principales');
+  /* Orden del propietario (2026-07-12): sin bloque de mayoritarios por orden
+     de voto — un único ranking por afinidad, de más a menos, y punto. */
+  await expect(page.locator('.seccion--principales')).toHaveCount(0);
   await expect(
-    principales.getByRole('heading', { name: 'Partidos principales de las últimas generales' }),
-  ).toBeVisible();
-  const rankingVoto = principales.locator('.ranking').first();
-  await expect(rankingVoto.locator(':scope > li')).toHaveCount(7);
-  await expect(rankingVoto.locator('.ranking-nombre').nth(0)).toContainText('Partido Popular');
-  await expect(rankingVoto.locator('.ranking-nombre').nth(1)).toContainText('Partido Socialista');
-  await expect(rankingVoto.locator('.ranking-nombre').nth(2)).toContainText('VOX');
-  await expect(rankingVoto.locator('.ranking-nombre').filter({ hasText: 'Podemos' })).toHaveCount(0);
-  await expect(principales.getByText('Podemos concurrió dentro de Sumar')).toBeVisible();
-  await expect(principales.getByText(/no se presenta como una octava candidatura/i)).toBeVisible();
-  const contextoRepresentacion = principales.locator('.principales-contexto');
-  await expect(contextoRepresentacion).toContainText('Contexto por representación, no recomendación');
-  await expect(contextoRepresentacion).toContainText(
-    'Espectro no favorece, prioriza ni recomienda a los partidos mayoritarios',
-  );
-  await expect(contextoRepresentacion).toContainText(
-    'El ranking ordenado por tu afinidad está más arriba',
-  );
-  const solapesContraste = await principales
+    page.getByRole('heading', { name: 'Partidos principales de las últimas generales' }),
+  ).toHaveCount(0);
+  await expect(page.getByText('Contexto por representación, no recomendación')).toHaveCount(0);
+
+  const solapesContraste = await page
     .locator('.marcador-contraste--replegado > summary')
     .evaluateAll((resumenes) =>
       resumenes.flatMap((resumen) => {
@@ -388,15 +376,6 @@ test('resultados separa principales, top real y resto desplegable en móvil', as
     );
   expect(solapesContraste).toEqual([]);
 
-  // Doble lectura: al desplegar un marcador se ven el disclaimer y las fechas
-  // de ambos marcadores (corte del base y periodo del contraste).
-  const marcadorDesplegado = principales.locator('.marcador-contraste--replegado').first();
-  await marcadorDesplegado.locator('summary').click();
-  const lecturas = marcadorDesplegado.locator('.marcador-contraste__lecturas');
-  await expect(lecturas).toContainText('Ninguna es «la verdad esencial»');
-  await expect(lecturas).toContainText(/corte \d{4}-\d{2}-\d{2}/);
-  await expect(lecturas).toContainText(/\d{4}-\d{2}-\d{2} – \d{4}-\d{2}-\d{2}/);
-
   const maximos = page.locator('section').filter({
     has: page.getByRole('heading', { name: 'Máximos por afinidad' }),
   });
@@ -415,6 +394,16 @@ test('resultados separa principales, top real y resto desplegable en móvil', as
   await expect(resto).not.toHaveAttribute('open', '');
   await resto.getByText(/Ver el resto del ranking/).click();
   await expect(resto).toHaveAttribute('open', '');
+
+  // Doble lectura: al desplegar un marcador se ven el disclaimer y las fechas
+  // de ambos marcadores (corte del base y periodo del contraste).
+  const marcadorDesplegado = page.locator('.marcador-contraste--replegado').first();
+  await marcadorDesplegado.locator('summary').click();
+  const lecturas = marcadorDesplegado.locator('.marcador-contraste__lecturas');
+  await expect(lecturas).toContainText('Ninguna es «la verdad esencial»');
+  await expect(lecturas).toContainText(/corte \d{4}-\d{2}-\d{2}/);
+  await expect(lecturas).toContainText(/\d{4}-\d{2}-\d{2} – \d{4}-\d{2}-\d{2}/);
+
   await expect(resto.locator('.ranking-pos').first()).toHaveText('4.');
   const nombresResto = await resto.locator('.ranking-nombre').allInnerTexts();
   expect(nombresResto.some((nombre) => nombresTop.includes(nombre))).toBe(false);
@@ -442,7 +431,6 @@ test('resultados separa principales, top real y resto desplegable en móvil', as
   );
   expect(desborde).toBeLessThanOrEqual(1);
   const accesibilidad = await new AxeBuilder({ page })
-    .include('.seccion--principales')
     .include('[aria-labelledby="maximos-afinidad-titulo"]')
     .analyze();
   expect(accesibilidad.violations).toEqual([]);

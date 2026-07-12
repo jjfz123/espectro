@@ -16,7 +16,10 @@
       "politica-exterior"
     ],
     "estado": "retirado",
-    "notas": "Discrimina: Podemos/IU (salida) frente a Sumar como coalición (ambigüedad, permanencia no cuestionada) y frente a PSOE e Izquierda Española (atlantistas claros). Es el eje atlantismo dentro de la izquierda. | Esperado: Podemos +2, PCE/IU (dentro de Sumar) +2, Sumar (dirección) +0, Más Madrid -1, PSOE (dirección) -2, Izquierda Española -2. | Hereda el «OTAN, de entrada no» y el «OTAN no» histórico; Yolanda Díaz declaró que la permanencia no se cuestiona, lo que retrata la ambigüedad de Sumar."
+    "notas": "Discrimina: Podemos/IU (salida) frente a Sumar como coalición (ambigüedad, permanencia no cuestionada) y frente a PSOE e Izquierda Española (atlantistas claros). Es el eje atlantismo dentro de la izquierda. | Esperado: Podemos +2, PCE/IU (dentro de Sumar) +2, Sumar (dirección) +0, Más Madrid -1, PSOE (dirección) -2, Izquierda Española -2. | Hereda el «OTAN, de entrada no» y el «OTAN no» histórico; Yolanda Díaz declaró que la permanencia no se cuestiona, lo que retrata la ambigüedad de Sumar.",
+    "terminos": [
+      "otan"
+    ]
   },
   {
     "id": "sd-002",
@@ -58,7 +61,9 @@
   },
   {
     "id": "sd-004",
-    "terminos": ["estado-plurinacional"],
+    "terminos": [
+      "estado-plurinacional"
+    ],
     "texto": "La Constitución debería reconocer a España como un Estado plurinacional.",
     "modulo": "socialdemocracia-reformismo",
     "ejes": [
@@ -93,7 +98,10 @@
       "igualdad-territorial"
     ],
     "estado": "piloto",
-    "notas": "Discrimina: Izquierda Española y el PSOE clásico (igualdad estricta, contra cupo/concierto) frente a PSC y Sumar (financiación singular para Cataluña como pacto legítimo); Podemos intermedio por su plurinacionalismo. | Esperado: Izquierda Española +2, PSOE (sector clásico) +1, PSOE (dirección) -1, PSC -2, Sumar -2, Podemos -1. | Distinto del ítem canario sobre financiación tipo concierto: aquí se mide el principio general de igualdad frente a singularidades. | [Corregido en revisión: Problema fáctico-lógico: tal como está redactado ('sin conciertos ni cupos singulares', en presente universal) implica derogar el concierto vasco y el convenio navarro, blindados en la disposición adicional primera de la Constitución — algo que casi ningún actor propone, ni siquiera el PSOE clásico, que defiende la igualdad pero no toca el régimen foral. Un votante socialista vasco quedaría atrapado. El debate real y duradero es la EXTENSIÓN de sistemas singulares (cupo/concierto catalán pactado en 2024). Se reformula sobre ese punto, que es exactamente la distinción de la familia (IE/PSOE clásico vs PSC/Sumar). Eje y signo correctos (acuerdo con el rechazo a extender = polo centralizador +0.75); polaridad negativa se mantiene. Ajuste de hipótesis: con el nuevo texto, PSOE (sector clásico) sube a +2 (Page, Lambán y Vara se han opuesto frontalmente al cupo catalán).]"
+    "notas": "Discrimina: Izquierda Española y el PSOE clásico (igualdad estricta, contra cupo/concierto) frente a PSC y Sumar (financiación singular para Cataluña como pacto legítimo); Podemos intermedio por su plurinacionalismo. | Esperado: Izquierda Española +2, PSOE (sector clásico) +1, PSOE (dirección) -1, PSC -2, Sumar -2, Podemos -1. | Distinto del ítem canario sobre financiación tipo concierto: aquí se mide el principio general de igualdad frente a singularidades. | [Corregido en revisión: Problema fáctico-lógico: tal como está redactado ('sin conciertos ni cupos singulares', en presente universal) implica derogar el concierto vasco y el convenio navarro, blindados en la disposición adicional primera de la Constitución — algo que casi ningún actor propone, ni siquiera el PSOE clásico, que defiende la igualdad pero no toca el régimen foral. Un votante socialista vasco quedaría atrapado. El debate real y duradero es la EXTENSIÓN de sistemas singulares (cupo/concierto catalán pactado en 2024). Se reformula sobre ese punto, que es exactamente la distinción de la familia (IE/PSOE clásico vs PSC/Sumar). Eje y signo correctos (acuerdo con el rechazo a extender = polo centralizador +0.75); polaridad negativa se mantiene. Ajuste de hipótesis: con el nuevo texto, PSOE (sector clásico) sube a +2 (Page, Lambán y Vara se han opuesto frontalmente al cupo catalán).]",
+    "terminos": [
+      "concierto-economico"
+    ]
   },
   {
     "id": "sd-006",
@@ -130,7 +138,9 @@
   },
   {
     "id": "sd-008",
-    "terminos": ["renta-basica-universal"],
+    "terminos": [
+      "renta-basica-universal"
+    ],
     "texto": "El Estado debe garantizar una renta básica universal e incondicional a toda la ciudadanía.",
     "modulo": "socialdemocracia-reformismo",
     "ejes": [
@@ -244,7 +254,10 @@
       "jefatura-estado"
     ],
     "estado": "piloto",
-    "notas": "Discrimina: Sumar y Podemos (referéndum ya) frente a la dirección del PSOE (republicanismo retórico, defensa práctica del pacto constitucional); el ala izquierda socialista queda en medio, retratando la tensión interna del PSOE. | Esperado: Podemos +2, Sumar +2, Más Madrid +1, PSOE (Izquierda Socialista/JSE) +1, PSOE (dirección) -1, Izquierda Española +1."
+    "notas": "Discrimina: Sumar y Podemos (referéndum ya) frente a la dirección del PSOE (republicanismo retórico, defensa práctica del pacto constitucional); el ala izquierda socialista queda en medio, retratando la tensión interna del PSOE. | Esperado: Podemos +2, Sumar +2, Más Madrid +1, PSOE (Izquierda Socialista/JSE) +1, PSOE (dirección) -1, Izquierda Española +1.",
+    "terminos": [
+      "jefatura-del-estado"
+    ]
   },
   {
     "id": "sd-014",
@@ -263,7 +276,10 @@
       "concordato"
     ],
     "estado": "piloto",
-    "notas": "Discrimina: Izquierda Española, Podemos, Sumar y el ala izquierda del PSOE (denuncia del Concordato) frente a la dirección del PSOE, que lo promete en programas y nunca lo ejecuta desde el Gobierno. | Esperado: Izquierda Española +2, Podemos +2, Sumar +2, PSOE (Izquierda Socialista) +1, PSOE (dirección) +0."
+    "notas": "Discrimina: Izquierda Española, Podemos, Sumar y el ala izquierda del PSOE (denuncia del Concordato) frente a la dirección del PSOE, que lo promete en programas y nunca lo ejecuta desde el Gobierno. | Esperado: Izquierda Española +2, Podemos +2, Sumar +2, PSOE (Izquierda Socialista) +1, PSOE (dirección) +0.",
+    "terminos": [
+      "acuerdos-santa-sede-1979"
+    ]
   },
   {
     "id": "sd-015",
