@@ -1,6 +1,8 @@
 # Estado de la sesión — Fable (bloque atlas-cuadrante)
 
-**Actualizado:** 2026-07-11 (noche) · Documento de relevo: otro agente debe poder continuar desde aquí sin reconstruir contexto. El relevo anterior (integración `6dce6c5`) queda registrado en el historial de git.
+**Actualizado:** 2026-07-12 (madrugada) · Documento de relevo: otro agente debe poder continuar desde aquí sin reconstruir contexto. El relevo anterior (integración `6dce6c5`) queda registrado en el historial de git.
+
+**Sesión autónoma nocturna en curso (orden del propietario, 2026-07-12 ~00:04, tras el corte por límite de sesión de las 12am UTC):** trabajar de forma independiente sin pedir checks ni verificación hasta completar el TODO; regla dura registrada en `TODO-MAPEO-EXHAUSTIVO.md` §Reglas de cierre. La autonomía no relaja puertas, adversarial, «solo crece» ni la prohibición de tocar `main`.
 
 ## SHAs
 

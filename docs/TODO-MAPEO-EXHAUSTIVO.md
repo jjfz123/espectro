@@ -12,6 +12,7 @@ Este documento es el cierre obligatorio, elemento por elemento. Una casilla solo
 - Cada tanda cerrada actualiza esta lista, ejecuta los auditores y conserva las fuentes.
 - Este archivo concentra el contrato completo. Que una tarea también figure en `TODO-PENDIENTES.md`, una auditoría o una conversación no permite omitirla aquí ni cerrarla por un total agregado.
 - Ninguna casilla funcional se marca solo porque exista código: exige prueba automatizada proporcional al riesgo, inspección visual cuando corresponda y revisión adversarial del resultado final.
+- **Sesión autónoma nocturna (orden del propietario, 2026-07-12).** Fable trabaja de forma independiente, sin pedir al propietario checks ni verificaciones intermedias, encadenando bloques de este TODO hasta completarlo. Las decisiones que antes se elevaban se resuelven con el criterio más conservador disponible y quedan documentadas como «decisión nocturna» reversible; la cola de verificación humana de URLs sigue siendo cola (no bloquea el avance). La autonomía **no relaja ninguna otra regla dura**: puertas completas reejecutadas por el integrador, revisión adversarial por tanda, «solo crece», citas en español, nada a `main` (PR solo con visto bueno expreso) y checkpoints continuos a la rama cloud.
 
 ## Modos del cuestionario, continuidad y privacidad de la respuesta
 
