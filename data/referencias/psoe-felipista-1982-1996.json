@@ -10,11 +10,11 @@
   "revisado": "2026-07-12",
   "publicacionMapa": {
     "publicable": false,
-    "motivo": "La equivalencia semántica fuente-ítem de las 11 posiciones quedó auditada adversarialmente (AUDITORIA §23, 2026-07-12) sin cambios de valor. Sigue vetada solo por el cotejo literal pendiente: seis citas son hoy títulos oficiales de norma y no pasajes reproducibles, y el pasaje de investidura de ue-001 espera cotejo con la transcripción. Se publica cuando la cola de verificación humana cierre esas citas."
+    "motivo": "Auditoría semántica cerrada (§23) y tanda de pasajes casi completa (§39): 5 de las 7 citas pendientes ya son pasajes literales del BOE/investidura cotejada. Sigue vetada SOLO por dos citas: nuc-001 (falta el texto ORIGINAL de 1985 del art. 112 LOPJ; el buscador solo devuelve la redacción reformada de 2013) y dem-032 (ningún fundamento literal estable de la STC 76/1983). Ambas en cola de verificación humana; levantar el veto con esas dos como cita-título es decisión editorial expresa."
   },
   "publicacionAfinidad": {
     "publicable": false,
-    "motivo": "Auditoría semántica adversarial cerrada (AUDITORIA §23) sin cambios de valor; no participa en afinidad hasta que el cotejo literal humano de las citas-título y del pasaje de investidura quede cerrado, el mismo requisito que su proyección en el mapa."
+    "motivo": "Misma condición que el mapa: quedan nuc-001 y dem-032 sin pasaje literal (cola humana); el resto de la ficha tiene pasajes verbatim con calidad alta."
   },
   "facetasDefinitorias": [
     "economico",
