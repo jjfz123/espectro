@@ -135,6 +135,16 @@ export function Ranking({
     );
   }
 
+  // El separador de cada tramo se pinta UNA sola vez (en su primera aparición):
+  // con tramos intercalados por puntuación se repetía hasta 4 veces en la misma
+  // lista (revisión adversarial).
+  const primerIndiceDeTramo = new Map<TramoFiabilidad, number>();
+  resultados.forEach((r, i) => {
+    const t = tramoFiabilidad(r);
+    if (!primerIndiceDeTramo.has(t)) primerIndiceDeTramo.set(t, i);
+  });
+  const sinTramoPrincipalVisible = primerIndiceDeTramo.get(1) === 0;
+
   const filas = resultados.map((r, i) => {
     const entidad = entidades.get(r.entidadId);
     if (!entidad) return null;
@@ -142,13 +152,21 @@ export function Ranking({
     const doble = doblesMarcadores?.get(r.entidadId);
     const contexto = contextoPorEntidad?.get(r.entidadId);
     const tramo = tramoFiabilidad(r);
-    const tramoAnterior = i > 0 ? tramoFiabilidad(resultados[i - 1]!) : 0;
     const abreTramo =
-      ordenada && separarTramos && tramo > 0 && (i === 0 || tramo !== tramoAnterior);
+      ordenada && separarTramos && tramo > 0 && primerIndiceDeTramo.get(tramo) === i;
     return (
       <li key={r.entidadId} className={abreTramo ? 'ranking-fila--abre-tramo' : undefined}>
         {abreTramo ? (
-          <span className="ranking-separador">{ETIQUETA_TRAMO[tramo as 1 | 2]}</span>
+          <span className="ranking-separador">
+            {ETIQUETA_TRAMO[tramo as 1 | 2]}
+            {tramo === 1 ? (
+              <small className="ranking-separador__nota">
+                {sinTramoPrincipalVisible
+                  ? 'Con las respuestas que llevas, todos los resultados de esta lista tienen cobertura baja: los porcentajes salen de pocos ítems y son solo orientativos. Responder más preguntas hace la comparación fiable.'
+                  : 'Los porcentajes de este tramo salen de muy pocos ítems: se muestran apagados y en pequeño porque no son comparables con los del tramo principal.'}
+              </small>
+            ) : null}
+          </span>
         ) : null}
         <div className="ranking-cabecera">
           {ordenada ? (
@@ -168,12 +186,21 @@ export function Ranking({
             {ETIQUETA_CONFIANZA[r.confianza] ?? r.confianza}
           </span>
           {entidad.demo ? <span className="insignia insignia--acento">demo</span> : null}
-          <span className="ranking-pct">
+          <span
+            className={`ranking-pct${
+              calculable && r.bajaCobertura ? ' ranking-pct--orientativo' : ''
+            }`}
+          >
             {doble ? (
               <small className="ranking-pct__etiqueta">{doble.etiquetaBase}</small>
             ) : null}
             {calculable ? (
               <>
+                {r.bajaCobertura ? (
+                  <small className="ranking-pct__etiqueta">
+                    orientativo · {r.itemsComparados} ítems
+                  </small>
+                ) : null}
                 {formatearNumero(r.puntuacion ?? 0)}
                 <small> %</small>
               </>
@@ -185,7 +212,10 @@ export function Ranking({
         {contexto ? <p className="ranking-contexto">{contexto}</p> : null}
         {calculable ? (
           <>
-            <div className="barra" aria-hidden="true">
+            <div
+              className={`barra${r.bajaCobertura ? ' barra--orientativa' : ''}`}
+              aria-hidden="true"
+            >
               <span style={{ width: `${Math.max(0, Math.min(100, r.puntuacion ?? 0))}%` }} />
             </div>
             <p className="ranking-meta">

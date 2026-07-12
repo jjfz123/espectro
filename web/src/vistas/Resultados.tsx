@@ -276,7 +276,15 @@ export function Resultados({ estado, despachar, puedeRecargar, alConfirmarGuarda
   const nombreEleccion =
     ELECCIONES.find((e) => e.id === estado.eleccion)?.nombre ?? estado.eleccion;
   const comunidad = estado.ccaa ? nombreComunidad(estado.ccaa) : undefined;
-  const maximosAfinidad = resultados.filter((resultado) => resultado.estado === 'calculable').slice(0, 3);
+  // «Máximos por afinidad» prioriza resultados con cobertura comparable: los
+  // de cobertura baja solo rellenan el top-3 cuando no hay alternativa mejor
+  // (revisión adversarial: a 50 respuestas el podio eran tres partidos de 1-7
+  // ítems mientras el primer resultado sólido quedaba replegado).
+  const calculables = resultados.filter((resultado) => resultado.estado === 'calculable');
+  const maximosAfinidad = [
+    ...calculables.filter((resultado) => !resultado.bajaCobertura),
+    ...calculables.filter((resultado) => resultado.bajaCobertura),
+  ].slice(0, 3);
   const idsMaximosAfinidad = new Set(maximosAfinidad.map((resultado) => resultado.entidadId));
   const resultadosRestantes = resultados.filter(
     (resultado) => !idsMaximosAfinidad.has(resultado.entidadId),

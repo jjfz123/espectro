@@ -1,0 +1,159 @@
+{
+  "id": "anarcofeminismo",
+  "nombre": "Anarcofeminismo",
+  "tipo": "referencia-doctrinal",
+  "definicion": "Tipo ideal anarcofeminista: el patriarcado, el Estado, el capital y las jerarquías morales y religiosas se analizan como un único sistema de dominación, de modo que la emancipación de las mujeres exige autoorganización, educación y acción directa libertarias y no se agota en la igualdad legal ni en la tutela estatal.",
+  "variante": "Formulación clásica de Emma Goldman en sus ediciones españolas y práctica de Mujeres Libres (1936-1939) recogida por Mary Nash; no cubre los anarcofeminismos contemporáneos ni fija posición sobre el trabajo sexual, disputado dentro de la corriente",
+  "periodo": "1906-1939",
+  "confianza": "verificada",
+  "version": "1.0",
+  "revisado": "2026-07-12",
+  "publicacionMapa": {
+    "publicable": false,
+    "motivo": "El eje económico documenta 3 anclas (falta la 4.ª, en cola: demandas laborales verbatim de la revista Mujeres Libres); dos renglones citados tienen cotejo humano pendiente. Se publica cuando la pluralidad económica quede cerrada."
+  },
+  "facetasDefinitorias": [
+    "economico",
+    "estatismo",
+    "poder-laboral",
+    "social",
+    "tradicion-moral"
+  ],
+  "sensibilidad": "normal",
+  "advertencia": "Es una referencia doctrinal no electoral, no una identidad asignada ni una descripción de Mujeres Libres como organización histórica completa, de CNT ni de ningún colectivo feminista actual. El corpus 1906-1939 no se traduce a debates regulatorios contemporáneos: no se codifica la autodeterminación registral de 2023, y el disenso interno documentado sobre el trabajo sexual impide codificar posiciones sobre prostitución. La etapa ministerial de Federica Montseny queda fuera del tipo ideal. Una coincidencia parcial nunca identifica a nadie con esta corriente.",
+  "fuentesMarco": [
+    {
+      "tipo": "otro",
+      "titulo": "Emma Goldman, Anarquismo: lo que significa realmente (trad. esp., marxists.org/espanol)",
+      "url": "https://www.marxists.org/espanol/goldman/1910/002.htm",
+      "fecha": "1910",
+      "consultado": "2026-07-11"
+    },
+    {
+      "tipo": "otro",
+      "titulo": "Emma Goldman, La tragedia de la emancipación de la mujer (trad. esp., marxists.org/espanol)",
+      "url": "https://www.marxists.org/espanol/goldman/1906/001.htm",
+      "fecha": "1906",
+      "consultado": "2026-07-11"
+    },
+    {
+      "tipo": "otro",
+      "titulo": "Emma Goldman, Matrimonio y amor (trad. esp., marxists.org/espanol)",
+      "url": "https://www.marxists.org/espanol/goldman/1910/001.htm",
+      "fecha": "1910",
+      "consultado": "2026-07-11"
+    },
+    {
+      "tipo": "otro",
+      "titulo": "Mary Nash (ed.), Mujeres Libres. España 1936-1939 (Tusquets, 1975)",
+      "url": "https://solidaridadobrera.org/ateneo_nacho/libros/Mary%20Nash%20-%20Mujeres%20Libres.%20Espa%C3%B1a%201936-1939.pdf",
+      "fecha": "1936",
+      "consultado": "2026-07-11"
+    }
+  ],
+  "reglaPublicacion": {
+    "minimoItems": 7,
+    "minimoCobertura": 0.55,
+    "umbralAfinidad": 74
+  },
+  "posiciones": {
+    "lab-010": {
+      "valor": -2,
+      "justificacion": "La razón individual-propietaria del ítem contradice la tríada goldmaniana: el cuerpo humano se libera precisamente del dominio de la propiedad, no de los servicios colectivos, y el rechazo anarquista del Estado nunca es una defensa del título propietario. Coherente con la tradición anarcocomunista madre sin reutilizar sus pasajes.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Emma Goldman, Anarquismo: lo que significa realmente (trad. esp., marxists.org/espanol)",
+        "url": "https://www.marxists.org/espanol/goldman/1910/002.htm",
+        "fecha": "1910",
+        "consultado": "2026-07-11",
+        "cita": "…la liberación de la mente humana del dominio de la religión; la liberación del cuerpo humano del dominio de la propiedad; la liberación de las cadenas y prohibiciones del gobierno"
+      },
+      "grupoEvidencia": "pasaje-6e0ec3cc08fa0f3ee73d"
+    },
+    "lab-017": {
+      "valor": 1,
+      "justificacion": "Prefiere la agrupación libre de quienes producen a la dirección ministerial, en la dirección cooperativa del ítem; +1 y no +2 porque el tipo ideal es comunista-libertario, no cooperativista-propietario. Pasaje distinto de la misma obra citada para lab-010, con eje económico compartido: se declara en ambas posiciones.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Emma Goldman, Anarquismo: lo que significa realmente (trad. esp., marxists.org/espanol)",
+        "url": "https://www.marxists.org/espanol/goldman/1910/002.htm",
+        "fecha": "1910",
+        "consultado": "2026-07-11",
+        "cita": "El anarquismo representa un orden social basado en la agrupación libre de los individuos, con el propósito de producir verdadera riqueza social"
+      },
+      "grupoEvidencia": "pasaje-b40a02b8be324569d5b6"
+    },
+    "lab-011": {
+      "valor": 1,
+      "justificacion": "La objeción anarcofeminista es quién posee y manda —la esclavitud como productora—, no el gravamen del salario; +1 porque el pasaje no discute impuestos. El mismo pasaje de Nash refuerza izq-014 únicamente en su justificación y en eje distinto: la posición social cita a Goldman 1906.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Mujeres Libres (1936-1939), en Mary Nash (ed.), Mujeres Libres. España 1936-1939 (Tusquets, 1975)",
+        "url": "https://solidaridadobrera.org/ateneo_nacho/libros/Mary%20Nash%20-%20Mujeres%20Libres.%20Espa%C3%B1a%201936-1939.pdf",
+        "fecha": "1936",
+        "consultado": "2026-07-11",
+        "cita": "la triple esclavitud que sobre ella pesaba: esclavitud de ignorancia, esclavitud como productora y esclavitud como mujer"
+      },
+      "grupoEvidencia": "pasaje-819ca1bb734f6a240b79"
+    },
+    "izq-014": {
+      "valor": -2,
+      "justificacion": "La doctrina niega la premisa del ítem: la emancipación de la mujer no es una distracción de la lucha económica sino su condición, y ni siquiera la emancipación legal basta —hay que emanciparse de la emancipación—. Refuerzo: la triple esclavitud (ignorancia, productora, mujer) denunciada por Mujeres Libres en Nash, cuyo pasaje sostiene lab-011 en el eje económico, distinto de este.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Emma Goldman, La tragedia de la emancipación de la mujer (trad. esp., marxists.org/espanol)",
+        "url": "https://www.marxists.org/espanol/goldman/1906/001.htm",
+        "fecha": "1906",
+        "consultado": "2026-07-11",
+        "cita": "Ahora la mujer se enfrenta a la necesidad de emanciparse de la emancipación, si realmente quiere ser libre"
+      },
+      "grupoEvidencia": "pasaje-4d36a35c4af91eeed6fe"
+    },
+    "soc-001": {
+      "valor": 1,
+      "justificacion": "Defiende la vida afectiva libre de las personas LGTB, pero desconfía del matrimonio como institución estatal-económica: apoyo direccional a mantener derechos sin entusiasmo por la institución matrimonial, de ahí +1.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Emma Goldman, Matrimonio y amor (trad. esp., marxists.org/espanol)",
+        "url": "https://www.marxists.org/espanol/goldman/1910/001.htm",
+        "fecha": "1910",
+        "consultado": "2026-07-11",
+        "cita": "El matrimonio es ante todo un arreglo económico, un contrato de seguros, que sólo se distingue de un contrato normal de seguro de vida en que obliga más y exige más"
+      },
+      "grupoEvidencia": "pasaje-efc7c5a31584102ab84e"
+    },
+    "soc-006": {
+      "valor": 2,
+      "justificacion": "Abolicionismo penitenciario explícito: si todo el aparato de prisiones y castigos debe concluir, a fortiori se suprime la prisión permanente revisable. Renglón exacto pendiente de cotejo humano; por eso la calidad queda en media pese a ser doctrina primaria.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Emma Goldman, Prisiones: el crimen social y su fracaso (trad. esp., portaloaca.com)",
+        "url": "https://portaloaca.com/pensamientolibertario/textosanarquismo/prisiones-el-crimen-social-y-su-fracaso-emma-goldman/",
+        "fecha": "1910",
+        "consultado": "2026-07-11",
+        "cita": "…todo el aparato de prisiones y castigos es una abominación que debe concluir"
+      },
+      "grupoEvidencia": "pasaje-7bae72b1f6eb2c8d464a"
+    },
+    "fem-012": {
+      "valor": 1,
+      "justificacion": "La maternidad es una decisión libre que no necesita más tutela que amor y libertad, lo que apunta a la autonomía reproductiva de las jóvenes; extrapolación declarada, porque el corpus no discute la franja de edad del ítem. Pasaje distinto de la misma obra citada para soc-001, con eje social compartido: se declara en ambas posiciones.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Emma Goldman, Matrimonio y amor (trad. esp., marxists.org/espanol)",
+        "url": "https://www.marxists.org/espanol/goldman/1910/001.htm",
+        "fecha": "1910",
+        "consultado": "2026-07-11",
+        "cita": "Si la maternidad es la realización más completa de la naturaleza femenina, ¿qué otra protección necesita si no es amor y libertad?"
+      },
+      "grupoEvidencia": "pasaje-2d194e4d022321b52fbc"
+    }
+  }
+}

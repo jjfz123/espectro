@@ -626,7 +626,10 @@ test('el enlace compartido es mínimo, accesible y no toca la sesión local', as
       (window as unknown as { __operacionesAlmacenEspectro?: string[] })
         .__operacionesAlmacenEspectro ?? [],
   );
-  expect(operaciones).toEqual([]);
+  // Única operación tolerada: LEER la preferencia de tema (UI del dispositivo,
+  // nunca la sesión). Cualquier escritura o cualquier acceso a otra clave
+  // sigue rompiendo el contrato de solo-lectura del snapshot.
+  expect(operaciones.filter((op) => op !== 'getItem:espectro.v1.tema')).toEqual([]);
   const desborde = await page.evaluate(
     () => document.documentElement.scrollWidth - document.documentElement.clientWidth,
   );
@@ -643,7 +646,9 @@ test('el enlace compartido es mínimo, accesible y no toca la sesión local', as
       (window as unknown as { __operacionesAlmacenEspectro?: string[] })
         .__operacionesAlmacenEspectro ?? [],
   );
-  expect(operacionesCargaDirecta).toEqual([]);
+  // Misma tolerancia única que arriba: leer la preferencia de tema no monta
+  // el reducer ni toca la sesión; todo lo demás sigue prohibido.
+  expect(operacionesCargaDirecta.filter((op) => op !== 'getItem:espectro.v1.tema')).toEqual([]);
 
   await page.getByRole('button', { name: 'Cerrar el enlace y volver a mi Espectro' }).click();
   await expect(page).toHaveURL(/\/$/);
@@ -1577,4 +1582,106 @@ test('resultados y visor 3D siguen disponibles sin conexión tras instalar la PW
   await page.getByRole('button', { name: 'Ver en 3D' }).click();
   await expect(page.getByText(/Arrastra para girar|no puede mostrar el cubo 3D/)).toBeVisible();
   await context.setOffline(false);
+});
+
+/** Sesión al borde del afinamiento: núcleo respondido al extremo económico izquierdo. */
+function crearSesionConOfertaPendiente() {
+  const directorioDatos = resolve(dirname(fileURLToPath(import.meta.url)), '../../data');
+  const items = readdirSync(resolve(directorioDatos, 'items'))
+    .filter((archivo) => archivo.endsWith('.json'))
+    .flatMap(
+      (archivo) =>
+        JSON.parse(readFileSync(resolve(directorioDatos, 'items', archivo), 'utf8')) as Array<
+          ItemDePrueba & { ejes?: Array<{ eje: string; carga: number }> }
+        >,
+    )
+    .filter((item) => item.estado !== 'retirado');
+  const respuestas: Record<string, number> = {};
+  for (const item of items) {
+    if (item.modulo !== 'nucleo' || item.condicion) continue;
+    const cargaEco = item.ejes?.find((c) => c.eje === 'economico' && c.carga !== 0);
+    respuestas[item.id] = cargaEco ? (cargaEco.carga > 0 ? -2 : 2) : 0;
+  }
+  return {
+    version: 3,
+    versionInstrumento: '4',
+    guardadoEn: new Date().toISOString(),
+    fase: 'oferta-modulos',
+    ccaa: '',
+    eleccion: 'generales',
+    modo: 'completo',
+    respuestas,
+    importantes: {},
+    modulosActivos: ['democracia-instituciones'],
+    modulosOfrecidos: [],
+    indice: 0,
+    editando: false,
+    hitoIntermedio150Visto: true,
+    perfilIntermedio: false,
+  };
+}
+
+test('la oferta dinámica de módulos es ciega, suma preguntas al aceptar y no repite', async ({
+  page,
+}) => {
+  const sesion = crearSesionConOfertaPendiente();
+  await page.setViewportSize({ width: 390, height: 844 });
+  await page.addInitScript(
+    ({ clave, estado }) => {
+      localStorage.setItem(clave, JSON.stringify(estado));
+    },
+    { clave: CLAVE_ALMACEN, estado: sesion },
+  );
+  await page.goto('/');
+
+  await expect(page.getByRole('heading', { name: /Tus respuestas abren/ })).toBeVisible();
+  // Oferta CIEGA: ni nombres de módulos ni áreas, y TAMPOCO recuentos exactos
+  // (con un banco asimétrico, el número de bloques/preguntas/minutos delataría
+  // hacia dónde apunta el perfil — revisión adversarial holística).
+  await expect(page.getByText('Corrientes de la izquierda')).toHaveCount(0);
+  await expect(page.getByText('no te decimos cuáles son')).toBeVisible();
+  const textoOferta = await page.locator('main').innerText();
+  expect(textoOferta).not.toMatch(/\d+\s*(bloques?|preguntas?|min)/i);
+  const accesibilidad = await new AxeBuilder({ page }).include('main').analyze();
+  expect(accesibilidad.violations).toEqual([]);
+
+  await page.getByRole('button', { name: 'Añadirlos y seguir' }).click();
+  await expect(page.getByRole('radio', { name: 'Muy de acuerdo', exact: true })).toBeVisible();
+  const guardado = await page.evaluate((clave) => {
+    const crudo = localStorage.getItem(clave);
+    return crudo ? (JSON.parse(crudo) as { modulosActivos: string[]; modulosOfrecidos: string[] }) : null;
+  }, CLAVE_ALMACEN);
+  expect(guardado?.modulosActivos).toContain('corrientes-izquierda');
+  expect(guardado?.modulosOfrecidos).toContain('corrientes-izquierda');
+  // Ninguna respuesta se pierde al aceptar.
+  const respondidasTrasAceptar = await page.evaluate((clave) => {
+    const crudo = localStorage.getItem(clave);
+    return crudo ? Object.keys((JSON.parse(crudo) as { respuestas: object }).respuestas).length : 0;
+  }, CLAVE_ALMACEN);
+  expect(respondidasTrasAceptar).toBeGreaterThanOrEqual(
+    Object.keys(crearSesionConOfertaPendiente().respuestas).length,
+  );
+});
+
+test('el conmutador de tema alterna sistema→claro→oscuro y persiste tras recargar', async ({
+  page,
+}) => {
+  await page.goto('/');
+  const boton = page.getByRole('button', { name: /Tema: sistema/ });
+  await expect(boton).toBeVisible();
+  await expect(page.locator('html')).not.toHaveAttribute('data-tema', /./);
+
+  await boton.click();
+  await expect(page.locator('html')).toHaveAttribute('data-tema', 'claro');
+  await page.getByRole('button', { name: /Tema: claro/ }).click();
+  await expect(page.locator('html')).toHaveAttribute('data-tema', 'oscuro');
+
+  await page.reload();
+  await expect(page.locator('html')).toHaveAttribute('data-tema', 'oscuro');
+  await expect(page.getByRole('button', { name: /Tema: oscuro/ })).toBeVisible();
+
+  await page.getByRole('button', { name: /Tema: oscuro/ }).click();
+  await expect(page.locator('html')).not.toHaveAttribute('data-tema', /./);
+  const clave = await page.evaluate(() => localStorage.getItem('espectro.v1.tema'));
+  expect(clave).toBeNull();
 });

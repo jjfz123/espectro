@@ -14,6 +14,7 @@
   },
   {
     "id": "dem-002",
+    "terminos": ["otan"],
     "texto": "Los votantes deberían poder revocar a un representante antes de que termine su mandato mediante un procedimiento reglado.",
     "modulo": "democracia-instituciones",
     "ejes": [
@@ -308,6 +309,7 @@
   },
   {
     "id": "dem-024",
+    "terminos": ["otan"],
     "texto": "En las elecciones al Congreso, cada votante debería poder alterar el orden de los candidatos dentro de la lista elegida.",
     "modulo": "democracia-instituciones",
     "ejes": [],

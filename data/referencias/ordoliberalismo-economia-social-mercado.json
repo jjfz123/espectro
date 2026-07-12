@@ -8,10 +8,21 @@
   "confianza": "verificada",
   "version": "1.0",
   "revisado": "2026-07-11",
-  "facetasDefinitorias": ["economico", "estatismo", "pluralismo-institucional"],
+  "facetasDefinitorias": [
+    "economico",
+    "estatismo",
+    "pluralismo-institucional"
+  ],
   "sensibilidad": "normal",
-  "advertencia": "Ordoliberalismo y economía social de mercado están emparentados, pero no son sinónimos perfectos: Eucken formula el orden competitivo; Müller-Armack amplía su conciliación con objetivos sociales. La ficha no atribuye posiciones sobre aborto, inmigración, religión, monarquía o territorio. En la cuadrícula, «Neo Liberalism» es la celda más próxima, pero esta corriente queda más cerca del centro vertical porque necesita una autoridad pública capaz de impedir carteles. Proyección auditada actual: Propiedad/mercado ≈ +38, Poder ≈ -50 y macroeconomía general ≈ +30; una deriva al extremo inferior derecho confundiría regulación competitiva con antiestatismo.",
+  "advertencia": "Ordoliberalismo y economía social de mercado están emparentados, pero no son sinónimos perfectos: Eucken formula el orden competitivo; Müller-Armack amplía su conciliación con objetivos sociales. La ficha no atribuye posiciones sobre aborto, inmigración, religión, monarquía o territorio. En la cuadrícula, «Neo Liberalism» es la celda más próxima, pero esta corriente queda más cerca del centro vertical porque necesita una autoridad pública capaz de impedir carteles. Proyección auditada actual: Propiedad/mercado ≈ +38, Poder ≈ -50 y macroeconomía general ≈ +30; una deriva al extremo inferior derecho confundiría regulación competitiva con antiestatismo. Cautela: Röpke defendió el apartheid sudafricano (1964); no forma parte del tipo ideal ni puntúa ningún ítem (ver fuentesMarco).",
   "fuentesMarco": [
+    {
+      "tipo": "otro",
+      "titulo": "Cautela biográfica del corpus: W. Röpke, South Africa: An Attempt at a Positive Appraisal (1964) — defensa documentada del apartheid; no forma parte del tipo ideal modelado ni de ningún ítem puntuado, pero quien use sus obras como fuente debe conocerla (en inglés)",
+      "url": "https://archive.org/details/ropke-south-africa",
+      "fecha": "1964",
+      "consultado": "2026-07-12"
+    },
     {
       "tipo": "otro",
       "titulo": "Dominik H. Ernste, Economía social de mercado desde una perspectiva «ordoliberal», edición académica en español",
@@ -178,6 +189,20 @@
         "url": "https://www.eucken.de/en/institute/history/",
         "consultado": "2026-07-11"
       }
+    },
+    "fem-007": {
+      "valor": 1,
+      "justificacion": "La Vitalpolitik de Röpke construye la sociedad desde comunidades naturales empezando por la familia, previa al Estado y a la escuela: extensión declarada hacia la prioridad de autorización familiar del ítem; +1 y no +2 porque el pasaje no trata contenidos escolares. Edición española canónica (Más allá de la oferta y la demanda, Unión Editorial) sin texto digital localizado: retrofit de la cita en cola.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Wilhelm Röpke, A Humane Economy: The Social Framework of the Free Market (en inglés)",
+        "url": "https://www.mises.ch/library/Roepke_Humane_Economy.pdf",
+        "fecha": "1958",
+        "consultado": "2026-07-12",
+        "cita": "the organic building-up of society from natural and neighborly communities starting with the family through parish and county to nation (en inglés)"
+      },
+      "grupoEvidencia": "pasaje-3477fa82a86c26d661e4"
     }
   }
 }

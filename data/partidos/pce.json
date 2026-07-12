@@ -163,6 +163,86 @@
         "fecha": "2023-11-20",
         "consultado": "2026-07-09"
       }
+    },
+    "izq-012": {
+      "valor": -1,
+      "justificacion": "Su secretario general —entonces también secretario de Estado— asumió que pertenecer a la OTAN implica cumplir obligaciones mientras se forme parte de ella: participó en el Gobierno sin poner la salida como condición. Triple corroboración; atribución al PCE por su rol de SG declarada por la fuente.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Enrique Santiago (SG del PCE) sobre la OTAN: si formamos parte, hay obligaciones (El Común)",
+        "url": "https://elcomun.es/2021/06/14/enrique-santiago-sobre-la-otan-si-formamos-parte-de-una-organizacion-internacional-hay-obligaciones/",
+        "fecha": "2021-06-14",
+        "consultado": "2026-07-12",
+        "cita": "Si formamos parte de una organización internacional y tenemos obligaciones, es evidente que mientras formemos parte de ella tenemos que cumplirlas"
+      },
+      "grupoEvidencia": "pasaje-d740e31bdc5ab68008f7"
+    },
+    "sd-003": {
+      "valor": -2,
+      "justificacion": "Rechazo expreso y reiterado al envío de armas a Ucrania (titular de su propia web, corroborado por Mundo Obrero en 2023 y 2024, que añade la propuesta de una conferencia internacional de paz).",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Reiteramos nuestro rechazo al envío de armas a Ucrania (titular de la propia organización; fecha exacta pendiente de cotejo)",
+        "url": "https://www.pce.es/reiteramos-nuestro-rechazo-al-envio-de-armas-a-ucrania-y-condenamos-la-escalada-belicista-en-europa/",
+        "consultado": "2026-07-12",
+        "cita": "Reiteramos nuestro rechazo al envío de armas a Ucrania y condenamos la escalada belicista en Europa"
+      },
+      "grupoEvidencia": "pasaje-19568919d3254aa1b78c"
+    },
+    "izq-015": {
+      "valor": 1,
+      "justificacion": "Se declara «a la vanguardia» de los derechos LGTBI; el titular no menciona la autodeterminación registral sin requisitos médicos que exige el ítem: extensión declarada, valor moderado.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "¡Basta de mentiras! El PCE siempre a la vanguardia por los derechos del colectivo LGTBI (titular de la propia organización)",
+        "url": "https://www.pce.es/el-pce-siempre-a-la-vanguardia-por-los-derechos-del-colectivo-lgtbi/",
+        "consultado": "2026-07-12",
+        "cita": "El PCE siempre a la vanguardia por los derechos del colectivo LGTBI"
+      },
+      "grupoEvidencia": "pasaje-c784277a66e427cb388a"
+    },
+    "izq-014": {
+      "valor": -2,
+      "justificacion": "Rechaza la premisa del ítem integrando el movimiento LGTB como «movimiento de clase y combativo», con crítica propia a su mercantilización: la agenda no desvía de la lucha económica, forma parte de ella. Pasaje distinto del usado en izq-015.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Orgullo y rebeldía: ante la mercantilización, movimiento LGTB de clase y combativo (titular de la propia organización)",
+        "url": "https://www.pce.es/orgullo-y-rebeldia-ante-la-mercantilizacion-movimiento-lgbt-de-clase-y-combativo/",
+        "consultado": "2026-07-12",
+        "cita": "Orgullo y rebeldía: ante la mercantilización, movimiento LGTB de clase y combativo"
+      },
+      "grupoEvidencia": "pasaje-468dde82c6d8849035a1"
+    },
+    "izq-019": {
+      "valor": -2,
+      "justificacion": "Su secretario general reivindica la gestión institucional como vía de transformación real («hemos dejado atrás multitud de políticas neoliberales dañinas»), la negación directa del parlamento como mera tribuna. Publicado en el órgano del propio partido.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Enrique Santiago: «Gracias a nuestra presencia en el Gobierno hemos dejado atrás multitud de políticas neoliberales dañinas» (Mundo Obrero)",
+        "url": "https://mundoobrero.es/2023/10/01/enrique-santiago-gracias-a-nuestra-presencia-en-el-gobierno-hemos-dejado-atras-multitud-de-politicas-neoliberales-daninas/",
+        "fecha": "2023-10-01",
+        "consultado": "2026-07-12",
+        "cita": "Gracias a nuestra presencia en el Gobierno hemos dejado atrás multitud de políticas neoliberales dañinas"
+      },
+      "grupoEvidencia": "pasaje-ef2385e6f05374a863cc"
+    },
+    "sd-013": {
+      "valor": 1,
+      "justificacion": "Vincula el fin de la monarquía a la «madurez democrática del pueblo», compatible con la consulta que plantea el ítem pero sin nombrar el mecanismo de referéndum: extensión declarada. Entrevista de su etapa como secretario de Estado (2021-2023), día exacto pendiente de cotejo.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Enrique Santiago: «El fin de la monarquía no depende de las actitudes de Casa Real, sino de la madurez democrática del pueblo» (Público)",
+        "url": "https://www.publico.es/entrevistas/entrevista-secretario-agenda-2030-enrique-santiago-proceso-convergencia-unidas-irreversible-necesario-izquierda.html",
+        "consultado": "2026-07-12",
+        "cita": "El fin de la monarquía no depende de las actitudes de Casa Real, sino de la madurez democrática del pueblo"
+      },
+      "grupoEvidencia": "pasaje-a5b9fa071a580f426589"
     }
   }
 }

@@ -351,6 +351,104 @@
         "cita": "No frustramos la renovación imprescindible del Poder Judicial, pero tampoco votamos a favor de un pacto PP-PSOE con importantes deficiencias"
       },
       "grupoEvidencia": "pasaje-8b20d4aecd14ff32281a"
+    },
+    "def-002": {
+      "valor": 2,
+      "justificacion": "Su portavoz parlamentario reclama en el Pleno la salida de la OTAN, reafirmando el «OTAN no» histórico desde dentro del Gobierno de coalición; la tensión declarada-vs-práctica es real: IU no ha condicionado su permanencia en el Ejecutivo a esa salida.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Enrique Santiago reclama a Sánchez en el Pleno que «salgamos de la OTAN» (titular de la propia organización)",
+        "url": "https://izquierdaunida.org/2025/07/09/enrique-santiago-reclama-a-sanchez-en-el-pleno-que-salgamos-de-la-otan-y-le-recuerda-que-la-posicion-de-iu-y-de-toda-la-izquierda-plurinacional-es-clara-ni-5-ni-2-del-pib/",
+        "fecha": "2025-07-09",
+        "consultado": "2026-07-12",
+        "cita": "Salgamos de la OTAN, presidente"
+      },
+      "grupoEvidencia": "pasaje-201d372b55199b1a9656"
+    },
+    "sd-002": {
+      "valor": -2,
+      "justificacion": "Rechaza expresamente los objetivos de gasto militar del 2% y del 5% del PIB. Frase distinta de la misma intervención citada para def-002 (fuente compartida declarada); ambos ítems miden ejes de defensa distintos.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Enrique Santiago: «ni 5%, ni 2% del PIB para rearme» (titular de la propia organización)",
+        "url": "https://izquierdaunida.org/2025/07/09/enrique-santiago-reclama-a-sanchez-en-el-pleno-que-salgamos-de-la-otan-y-le-recuerda-que-la-posicion-de-iu-y-de-toda-la-izquierda-plurinacional-es-clara-ni-5-ni-2-del-pib/",
+        "fecha": "2025-07-09",
+        "consultado": "2026-07-12",
+        "cita": "ni 5%, ni 2% del PIB para rearme"
+      },
+      "grupoEvidencia": "pasaje-f33b0363c3956cc33808"
+    },
+    "sd-003": {
+      "valor": -1,
+      "justificacion": "Rechaza la OTAN como marco de respuesta y prioriza el alto el fuego y un acuerdo de paz liderado por la ONU; la cita no menciona el envío de armas del ítem: extensión de principio declarada, de ahí el valor moderado.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "IU: «una organización criminal como la OTAN no es respuesta para Ucrania» (titular de la propia organización)",
+        "url": "https://izquierdaunida.org/2025/03/03/iu-senala-que-una-organizacion-criminal-como-la-otan-no-es-respuesta-para-ucrania-y-prioriza-el-alto-el-fuego-y-un-acuerdo-de-paz-liderado-por-la-onu-con-una-europa-soberana/",
+        "fecha": "2025-03-03",
+        "consultado": "2026-07-12",
+        "cita": "una organización criminal como la OTAN no es respuesta para Ucrania"
+      },
+      "grupoEvidencia": "pasaje-78e6b54d85d98f74d203"
+    },
+    "mon-001": {
+      "valor": 2,
+      "justificacion": "Su coordinador federal encabezó la II Marcha Republicana bajo el lema citado: jefatura del Estado electiva frente a la hereditaria. Eslogan de movilización propia (no prosa argumental): calidad media.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "¡Hasta que se vayan! — II Marcha Republicana a Madrid (titular de la propia organización)",
+        "url": "https://izquierdaunida.org/2025/05/27/hasta-que-se-vayan-ii-marcha-republicana-a-madrid/",
+        "fecha": "2025-05-27",
+        "consultado": "2026-07-12",
+        "cita": "¡Hasta que se vayan!"
+      },
+      "grupoEvidencia": "pasaje-6c791dc2d5d39830ebdd"
+    },
+    "izq-010": {
+      "valor": 2,
+      "justificacion": "Su coordinador defiende permanecer en el Gobierno de coalición y presentar presupuestos como estrategia política propia, no como claudicación. IU es la federación en la que milita el PCE, no un partido comunista en sentido estricto: extensión declarada al enunciado del ítem.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Maíllo: «un Gobierno que se precie siempre tiene que presentar los presupuestos» (titular de la propia organización)",
+        "url": "https://izquierdaunida.org/2025/02/21/maillo-afirma-que-un-gobierno-que-se-precie-siempre-tiene-que-presentar-los-presupuestos-para-que-sean-el-espejo-en-el-que-contraponer-el-auge-de-lo-reaccionario-para-atacar/",
+        "fecha": "2025-02-21",
+        "consultado": "2026-07-12",
+        "cita": "Un Gobierno que se precie siempre tiene que presentar los presupuestos"
+      },
+      "grupoEvidencia": "pasaje-3c992a10e91431b21306"
+    },
+    "fem-009": {
+      "valor": 1,
+      "justificacion": "Pide renegociar el acuerdo con la Santa Sede, no ponerle fin: acuerdo direccional moderado con el ítem, con el matiz de que lo formula como pregunta al Gobierno del que forma parte y no como exigencia de derogación.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "IU pide al Gobierno que aclare si va a «renegociar el acuerdo con la Santa Sede» (titular de la propia organización)",
+        "url": "https://izquierdaunida.org/2025/06/25/iu-pide-a-los-responsables-del-gobierno-que-aclaren-si-van-a-renegociar-el-acuerdo-con-la-santa-sede-tras-actuar-la-iglesia-como-un-partido-de-derechas-mas-al-pedir-un-adelanto-elect/",
+        "fecha": "2025-06-25",
+        "consultado": "2026-07-12",
+        "cita": "Renegociar el acuerdo con la Santa Sede"
+      },
+      "grupoEvidencia": "pasaje-c3e5600b126850d74d92"
+    },
+    "geo-013": {
+      "valor": 2,
+      "justificacion": "Presionó desde dentro del Gobierno —con amenaza de ruptura y de bloqueo del Consejo de Ministros— hasta la aprobación del embargo de armas a Israel (consolidado en septiembre de 2025 y aprobado por el Congreso en octubre): secuencia corroborada por cuatro fuentes independientes. La cita es un titular de prensa: calidad media.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "IU amenaza con romper el Gobierno si no se cancelan todas las compras de armas a Israel (El Confidencial Digital)",
+        "url": "https://www.elconfidencialdigital.com/articulo/politica/iu-amenaza-romper-gobierno-anulan-todos-contratos-armas-israel/20250505050000962165.html",
+        "fecha": "2025-05-05",
+        "consultado": "2026-07-12",
+        "cita": "IU amenaza con romper el Gobierno si no se cancelan todas las compras de armas a Israel"
+      },
+      "grupoEvidencia": "pasaje-5f0a3e3a4fa926320f7f"
     }
   }
 }

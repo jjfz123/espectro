@@ -51,6 +51,7 @@
   },
   {
     "id": "geo-005",
+    "terminos": ["disuasion-nuclear"],
     "texto": "España debería seguir protegida por la disuasión nuclear de sus aliados mientras existan otros arsenales nucleares.",
     "modulo": "nucleo",
     "ejes": [{ "eje": "armas-nucleares", "carga": 0.75 }],

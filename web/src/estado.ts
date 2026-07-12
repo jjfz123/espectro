@@ -6,13 +6,19 @@
  */
 import type { Valor } from '@engine';
 import type { TipoEleccion } from '@engine';
+import { calcularEjes, calcularFacetas, modulosDesbloqueados } from '@engine';
+import { CLAVE_TEMA } from './tema';
 import {
   COMUNIDADES,
+  EJES,
   ITEMS,
+  ITEMS_POR_MODULO,
   ITEM_POR_ID,
+  MODULOS,
   MODULO_POR_ID,
   VERSION_INSTRUMENTO,
   itemVisible,
+  respuestasDeSecuenciaActiva,
   secuenciaItems,
 } from './datos';
 
@@ -22,6 +28,7 @@ export type Fase =
   | 'fin-rapido'
   | 'modulos'
   | 'hito-intermedio'
+  | 'oferta-modulos'
   | 'revision'
   | 'resultados';
 export type Modo = 'rapido' | 'completo';
@@ -49,6 +56,12 @@ export interface Estado {
   editando: boolean;
   /** Evita volver a interrumpir el exhaustivo después de decidir en el hito de 150. */
   hitoIntermedio150Visto: boolean;
+  /**
+   * Módulos ya ofrecidos por el re-check dinámico (aceptados o rechazados) o
+   * ya vistos como desbloqueados al confirmar la selección: no se vuelven a
+   * ofrecer en vuelo. La lista de «Elegir temas» manual no se ve afectada.
+   */
+  modulosOfrecidos: string[];
   /** La vista de resultados se abrió expresamente desde el hito de 150. */
   perfilIntermedio: boolean;
   /**
@@ -74,6 +87,7 @@ export const ESTADO_INICIAL: Estado = {
   indice: 0,
   editando: false,
   hitoIntermedio150Visto: false,
+  modulosOfrecidos: [],
   perfilIntermedio: false,
   escalaInvertida: false,
 };
@@ -87,6 +101,8 @@ export type Accion =
   | { tipo: 'anterior' }
   | { tipo: 'siguiente' }
   | { tipo: 'confirmar-modulos'; seleccion: string[] }
+  | { tipo: 'aceptar-oferta-modulos' }
+  | { tipo: 'rechazar-oferta-modulos' }
   | { tipo: 'ver-perfil-provisional' }
   | { tipo: 'ver-perfil-intermedio' }
   | { tipo: 'seguir-exhaustivo' }
@@ -128,6 +144,101 @@ function debeMostrarHitoIntermedio(estado: Estado): boolean {
     contarRespuestasDeSesion(estado) >= HITO_INTERMEDIO_RESPUESTAS &&
     !todoRespondido(estado)
   );
+}
+
+/**
+ * Piso de evidencia del eje gatillo para la oferta EN VUELO: interrumpir el
+ * cuestionario exige más señal que sugerir en una pantalla de selección. Un
+ * único ítem con opinión proyecta ±100 en su eje y dispararía ofertas
+ * (revisión adversarial); cuatro respuestas con opinión es el mismo mínimo
+ * que usa el plano Economía×Sociedad para dibujar una entidad. No se usa la
+ * cobertura global del banco (392 ítems): tras el núcleo nunca se alcanzaría
+ * y mataría la adaptación legítima.
+ */
+const MINIMO_ITEMS_EJE_OFERTA = 4;
+
+/**
+ * Módulos que las respuestas actuales desbloquean y que ni están activos ni
+ * se ofrecieron ya, con el piso de evidencia por eje para la oferta en vuelo.
+ */
+export function modulosRecienDesbloqueados(estado: Estado): string[] {
+  const respuestas = respuestasDeSecuenciaActiva(
+    estado.modulosActivos,
+    estado.respuestas,
+    estado.importantes,
+  );
+  const facetas = calcularFacetas(respuestas, ITEMS, EJES);
+  const ejesUsuario: Record<string, number | null> = Object.fromEntries(
+    facetas.map((f) => [
+      f.facetaId,
+      f.itemsRespondidos >= MINIMO_ITEMS_EJE_OFERTA ? f.valor : null,
+    ]),
+  );
+  const activos = new Set(estado.modulosActivos);
+  const ofrecidos = new Set(estado.modulosOfrecidos);
+  return modulosDesbloqueados(MODULOS, ejesUsuario, { ccaa: estado.ccaa || undefined }).filter(
+    (id) => id !== 'nucleo' && !activos.has(id) && !ofrecidos.has(id),
+  );
+}
+
+/** Ejes que cargan los ítems de un módulo (para el cortafuegos anti-bucle). */
+function ejesDelModulo(moduloId: string): Set<string> {
+  const ejes = new Set<string>();
+  for (const item of ITEMS_POR_MODULO.get(moduloId) ?? []) {
+    for (const carga of item.ejes) if (carga.carga) ejes.add(carga.eje);
+  }
+  return ejes;
+}
+
+/**
+ * Oferta en una FRONTERA de módulo: excluye los módulos cuyo eje gatillo lo
+ * carga el módulo que se acaba de terminar (revisión adversarial: responder
+ * socialdemocracia no puede encadenar en el acto una oferta de
+ * corrientes-izquierda — el bucle de confirmación queda cortado). El núcleo
+ * está exento: es el set de calibración y su frontera es la adaptación
+ * legítima. Lo excluido NO se marca como ofrecido: podrá ofrecerse al
+ * completar la secuencia o activarse a mano.
+ */
+export function modulosOfertablesEnFrontera(estado: Estado, moduloTerminado: string): string[] {
+  const nuevos = modulosRecienDesbloqueados(estado);
+  if (moduloTerminado === 'nucleo') return nuevos;
+  const ejesTerminado = ejesDelModulo(moduloTerminado);
+  return nuevos.filter((id) => {
+    const gatillo = MODULO_POR_ID.get(id)?.desbloqueo;
+    const eje = gatillo && 'eje' in gatillo ? gatillo.eje : undefined;
+    return !eje || !ejesTerminado.has(eje);
+  });
+}
+
+/** Todo lo desbloqueado ahora mismo (sin nucleo): se marca como visto al confirmar módulos. */
+function desbloqueadosActuales(estado: Estado): string[] {
+  const respuestas = respuestasDeSecuenciaActiva(
+    estado.modulosActivos,
+    estado.respuestas,
+    estado.importantes,
+  );
+  const ejesUsuario = calcularEjes(respuestas, ITEMS, EJES);
+  return modulosDesbloqueados(MODULOS, ejesUsuario, { ccaa: estado.ccaa || undefined }).filter(
+    (id) => id !== 'nucleo',
+  );
+}
+
+/** La oferta en vuelo solo existe dentro del exhaustivo con módulos ya confirmados. */
+function puedeOfrecerEnVuelo(estado: Estado): boolean {
+  return estado.modo === 'completo' && estado.modulosActivos.length > 0 && !estado.editando;
+}
+
+/**
+ * La oferta vigente en la fase `oferta-modulos` (y la que se evalúa antes de
+ * entrar en ella): en una frontera aplica el cortafuegos anti-bucle respecto
+ * al módulo donde está el índice; con la secuencia completada, no hay módulo
+ * «recién terminado» y se consideran todos los desbloqueos pendientes.
+ */
+export function ofertaVigente(estado: Estado): string[] {
+  if (todoRespondido(estado)) return modulosRecienDesbloqueados(estado);
+  const secuencia = secuenciaItems(estado.modulosActivos, estado.respuestas);
+  const moduloActual = secuencia[estado.indice]?.modulo ?? 'nucleo';
+  return modulosOfertablesEnFrontera(estado, moduloActual);
 }
 
 function seguirCuestionario(estado: Estado): Estado {
@@ -223,7 +334,26 @@ export function reductor(estado: Estado, accion: Accion): Estado {
         };
       }
       if (estado.indice < secuencia.length - 1) {
+        // Frontera de módulo: si las respuestas acumuladas desbloquean bloques
+        // nuevos (movimiento del perfil), se ofrece añadirlos ANTES de entrar
+        // al siguiente módulo, en ciego (sin nombrar áreas) y con el
+        // cortafuegos anti-bucle (nada de la misma familia recién respondida).
+        const actual = secuencia[estado.indice];
+        const proximo = secuencia[estado.indice + 1];
+        if (
+          puedeOfrecerEnVuelo(estado) &&
+          actual &&
+          proximo &&
+          actual.modulo !== proximo.modulo &&
+          modulosOfertablesEnFrontera(estado, actual.modulo).length > 0
+        ) {
+          return { ...estado, fase: 'oferta-modulos', perfilIntermedio: false };
+        }
         return { ...estado, indice: estado.indice + 1 };
+      }
+      // Fin de la secuencia activa: última oportunidad de ofrecer lo desbloqueado.
+      if (puedeOfrecerEnVuelo(estado) && modulosRecienDesbloqueados(estado).length > 0) {
+        return { ...estado, fase: 'oferta-modulos', perfilIntermedio: false };
       }
       return { ...estado, fase: faseTrasCompletar(estado), perfilIntermedio: false };
     }
@@ -234,8 +364,32 @@ export function reductor(estado: Estado, accion: Accion): Estado {
         modulosActivos: accion.seleccion,
         perfilIntermedio: false,
       };
+      // Lo ya desbloqueado al pasar por esta pantalla no se re-ofrece en vuelo:
+      // solo un desbloqueo NUEVO (posterior, por movimiento) dispara la oferta.
+      siguiente.modulosOfrecidos = [
+        ...new Set([...estado.modulosOfrecidos, ...desbloqueadosActuales(siguiente)]),
+      ];
       if (todoRespondido(siguiente)) return { ...siguiente, fase: 'resultados' };
       return { ...siguiente, fase: 'cuestionario', indice: primerSinResponder(siguiente) };
+    }
+
+    case 'aceptar-oferta-modulos': {
+      const nuevos = ofertaVigente(estado);
+      return seguirCuestionario({
+        ...estado,
+        modulosActivos: [...estado.modulosActivos, ...nuevos],
+        modulosOfrecidos: [...new Set([...estado.modulosOfrecidos, ...nuevos])],
+      });
+    }
+
+    case 'rechazar-oferta-modulos': {
+      // Solo lo realmente ofrecido queda marcado; lo diferido por el
+      // cortafuegos podrá ofrecerse más adelante o activarse a mano.
+      const nuevos = ofertaVigente(estado);
+      return seguirCuestionario({
+        ...estado,
+        modulosOfrecidos: [...new Set([...estado.modulosOfrecidos, ...nuevos])],
+      });
     }
 
     case 'ver-perfil-provisional':
@@ -393,6 +547,7 @@ const FASES: Fase[] = [
   'fin-rapido',
   'modulos',
   'hito-intermedio',
+  'oferta-modulos',
   'revision',
   'resultados',
 ];
@@ -451,6 +606,12 @@ export function cargarEstado(): Estado {
               typeof m === 'string' && m !== 'nucleo' && MODULO_POR_ID.has(m),
           )
         : [],
+      modulosOfrecidos: Array.isArray(datos.modulosOfrecidos)
+        ? [...new Set(datos.modulosOfrecidos)].filter(
+            (m): m is string =>
+              typeof m === 'string' && m !== 'nucleo' && MODULO_POR_ID.has(m),
+          )
+        : [],
       indice: typeof datos.indice === 'number' && datos.indice >= 0 ? Math.floor(datos.indice) : 0,
       editando: datos.editando === true,
       hitoIntermedio150Visto: datos.hitoIntermedio150Visto === true,
@@ -481,6 +642,18 @@ export function cargarEstado(): Estado {
         !todoRespondido(estado);
       if (hitoValido) estado.hitoIntermedio150Visto = true;
       else estado.fase = todoRespondido(estado) ? faseTrasCompletar(estado) : 'cuestionario';
+    }
+    if (estado.fase === 'oferta-modulos') {
+      // Una oferta guardada solo sigue siendo válida si aún hay algo que ofrecer;
+      // si no, la sesión se reanuda por el camino canónico sin interrumpir.
+      const ofertaValida =
+        estado.modo === 'completo' &&
+        estado.modulosActivos.length > 0 &&
+        ofertaVigente(estado).length > 0;
+      if (!ofertaValida) {
+        estado.fase = todoRespondido(estado) ? faseTrasCompletar(estado) : 'cuestionario';
+        if (estado.fase === 'cuestionario') estado.indice = primerSinResponder(estado);
+      }
     }
     if (estado.perfilIntermedio && todoRespondido(estado)) estado.perfilIntermedio = false;
     if (estado.fase !== 'portada' && Object.keys(estado.respuestas).length === 0 && estado.fase !== 'cuestionario') {
@@ -513,8 +686,10 @@ export function borrarAlmacen(): void {
   try {
     localStorage.removeItem(CLAVE_ALMACEN);
     // «Borrar datos» borra TODO rastro local, incluido el apunte de sesión
-    // retirada: la promesa de la interfaz no admite excepciones.
+    // retirada y la preferencia de tema: la promesa de la interfaz no admite
+    // excepciones.
     localStorage.removeItem(CLAVE_SESION_RETIRADA);
+    localStorage.removeItem(CLAVE_TEMA);
   } catch {
     // Nada que borrar.
   }

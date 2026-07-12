@@ -7,10 +7,10 @@
   "periodo": "2019-2026",
   "confianza": "verificada",
   "version": "1.0",
-  "revisado": "2026-07-11",
+  "revisado": "2026-07-12",
   "publicacionMapa": {
     "publicable": false,
-    "motivo": "El prior visual la situaría en la zona inferior izquierda, entre Democratic Socialism, Republicanism y Greenism, más estatal que el comunalismo. El banco documenta bien forma de Estado, laicidad y economía pública, pero no aporta anclas moderadoras de mercado ni suficientes contrapesos y derechos frente a mayorías; publicarla la llevaría falsamente al extremo económico."
+    "motivo": "El banco queda 4+4 en Economía×Sociedad pero proyecta −100 económico. Investigación dedicada (2026-07-12): el corpus federal se autodefine «más Estado y menos mercado» (asambleas de 2021, 2023 y 2024) y las moderadoras reales de IU (autónomos, comercio de proximidad) carecen de ítem que las capture. El −100 mezcla doctrina real con cobertura incompleta del instrumento; se publica cuando existan discriminantes neutrales del espacio de mercado (ver advertencia) o se acepte la coordenada extrema."
   },
   "facetasDefinitorias": [
     "monarquia",
@@ -24,6 +24,13 @@
   "sensibilidad": "normal",
   "advertencia": "Es una variante contemporánea de la tradición de IU, no un sinónimo de toda república ni un perfil completo de IU, PCE, PSOE o de los republicanismos territoriales. Se distingue del federalismo pimargalliano del catálogo por laicidad, fiscalidad, vivienda y propiedad pública; y del socialismo democrático genérico por la forma republicana y federal-plurinacional española. No se infieren secesión, confederación, política exterior, energía nuclear ni organización interna. Para publicarla en el mapa faltan dos discriminantes neutrales: el espacio reservado a empresas privadas y mercados ordinarios, y la capacidad de jueces y derechos constitucionales para limitar decisiones mayoritarias.",
   "fuentesMarco": [
+    {
+      "tipo": "otro",
+      "titulo": "IU, Horizonte República — documento político-organizativo de la XII Asamblea Federal («más Estado y menos mercado»; sustenta el motivo del veto de mapa; cotejo humano pendiente)",
+      "url": "https://izquierdaunida.org/documento-politico-organizativo/",
+      "fecha": "2021-03",
+      "consultado": "2026-07-12"
+    },
     {
       "tipo": "estatutos",
       "titulo": "Estatutos de Izquierda Unida, aprobados en la XIII Asamblea Federal",
@@ -204,8 +211,8 @@
     },
     "soc-001": {
       "valor": 2,
-      "justificacion": "El programa 10N de IU dedica un eje a la conquista de la igualdad real LGTBI; la corriente defiende mantener y reforzar por ley la protección del matrimonio igualitario y los derechos LGTB.",
-      "calidadEvidencia": "alta",
+      "justificacion": "El programa 10N de IU dedica un eje a la conquista de la igualdad real LGTBI; la corriente defiende mantener y reforzar por ley la protección del matrimonio igualitario y los derechos LGTB. La cita es el epígrafe del cuadernillo, no prosa argumental: calidad media hasta citar el cuerpo (revisión adversarial).",
+      "calidadEvidencia": "media",
       "fuente": {
         "tipo": "programa",
         "titulo": "IU, Programa 10N, cuadernillo 14: un país que lucha por los derechos LGTBI",
@@ -218,10 +225,10 @@
     },
     "eco-009": {
       "valor": -2,
-      "justificacion": "IU impulsa una proposición de ley para crear un impuesto a las grandes herencias y donaciones por encima del millón de euros: defiende reforzar la imposición sucesoria, lo contrario de suprimir el impuesto de sucesiones y donaciones que plantea el ítem. El titular citado es el título de la propia nota.",
-      "calidadEvidencia": "alta",
+      "justificacion": "IU impulsa una proposición de ley para crear un impuesto a las grandes herencias y donaciones por encima del millón de euros: defiende reforzar la imposición sucesoria, lo contrario de suprimir el impuesto de sucesiones y donaciones que plantea el ítem. El titular citado es el título de la propia nota (no prosa argumental): calidad media.",
+      "calidadEvidencia": "media",
       "fuente": {
-        "tipo": "programa",
+        "tipo": "declaracion",
         "titulo": "IU, proposición de ley de Impuesto a las Grandes Herencias y Donaciones por encima del millón de euros",
         "url": "https://izquierdaunida.org/2026/05/22/izquierda-unida-impulsa-una-proposicion-de-ley-para-crear-un-impuesto-a-las-grandes-herencias-y-donaciones-por-encima-del-millon-de-euros/",
         "fecha": "2026-05-22",
@@ -246,8 +253,8 @@
     },
     "fem-001": {
       "valor": 2,
-      "justificacion": "Bajo ese título, el comunicado celebra el avance de la Ley Trans y de derechos LGTBI: la autodeterminación registral sin requisitos médicos ni psicológicos que la ley consagra es lo que formula el ítem.",
-      "calidadEvidencia": "alta",
+      "justificacion": "Bajo ese título, el comunicado celebra el avance de la Ley Trans y de derechos LGTBI. La cita es el eslogan del comunicado y no menciona por sí sola la autodeterminación registral sin informes que formula el ítem (la aporta el contenido de la ley celebrada): calidad media hasta citar el cuerpo del comunicado (revisión adversarial).",
+      "calidadEvidencia": "media",
       "fuente": {
         "tipo": "declaracion",
         "titulo": "IU, Son derechos, no deseos ¡es ley! Unidas Podemos reivindica el avance de la Ley Trans y de derechos LGTBI",
@@ -260,8 +267,8 @@
     },
     "soc-004": {
       "valor": 2,
-      "justificacion": "El Programa Marco de 2023 recoge como epígrafe la regularización extraordinaria de las personas migrantes y los derechos de ciudadanía, coincidente con la regularización extraordinaria del ítem; la cita es el título de la sección programática; cotejo humano del PDF pendiente.",
-      "calidadEvidencia": "alta",
+      "justificacion": "El Programa Marco de 2023 recoge como epígrafe la regularización extraordinaria de las personas migrantes y los derechos de ciudadanía, coincidente con la regularización extraordinaria del ítem; la cita es el título de la sección programática; cotejo humano del PDF pendiente y por eso calidad media (una verificación pendiente no puede declararse alta).",
+      "calidadEvidencia": "media",
       "fuente": {
         "tipo": "programa",
         "titulo": "Programa Marco IU Elecciones Generales 2023",

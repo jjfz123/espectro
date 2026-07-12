@@ -96,10 +96,21 @@ function mezclarHex(a: string, b: string, proporcionB: number): string {
 function useTema(): Tema {
   const [tema, setTema] = useState<Tema>(leerTema);
   useEffect(() => {
-    const consulta = window.matchMedia('(prefers-color-scheme: dark)');
     const alCambiar = () => setTema(leerTema());
+    const consulta = window.matchMedia('(prefers-color-scheme: dark)');
     consulta.addEventListener('change', alCambiar);
-    return () => consulta.removeEventListener('change', alCambiar);
+    // El conmutador manual cambia `data-tema` en <html> sin tocar la media
+    // query: sin este observador el cubo se quedaba a medio tema hasta el
+    // remount (hallazgo de la revisión adversarial, verificado por píxel).
+    const observador = new MutationObserver(alCambiar);
+    observador.observe(document.documentElement, {
+      attributes: true,
+      attributeFilter: ['data-tema'],
+    });
+    return () => {
+      consulta.removeEventListener('change', alCambiar);
+      observador.disconnect();
+    };
   }, []);
   return tema;
 }
