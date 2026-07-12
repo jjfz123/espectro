@@ -262,6 +262,102 @@
         "fecha": "2022-10-06",
         "consultado": "2026-07-12"
       }
+    },
+    "lab-002": {
+      "valor": -1,
+      "justificacion": "Ciudadanos, partido de liberalismo económico, defiende que la dirección de la empresa corresponde a la propiedad y a los gestores; nunca propuso cogestión ni que las plantillas elijan una parte sustancial del órgano de dirección, aunque acepte la negociación colectiva en el marco europeo. Desacuerdo, sin el máximo.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Valores, Estrategia y Acción Política (Ciudadanos)",
+        "url": "https://www.ciudadanos-cs.org/estrategia",
+        "fecha": "2024-10-26",
+        "consultado": "2026-07-12"
+      }
+    },
+    "lab-005": {
+      "valor": 1,
+      "justificacion": "Ciudadanos, partido liberal, defiende la autonomía asociativa y la independencia de los sindicatos respecto del Gobierno y de los partidos, y ha criticado la dependencia de los grandes sindicatos de la financiación pública. De acuerdo, sin situarse en un polo antisindical.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Valores, Estrategia y Acción Política (Ciudadanos)",
+        "url": "https://www.ciudadanos-cs.org/estrategia",
+        "fecha": "2024-10-26",
+        "consultado": "2026-07-12"
+      }
+    },
+    "pop-001": {
+      "valor": -2,
+      "justificacion": "Ciudadanos se define por el «descrédito de los populismos» y la defensa de la calidad democrática y de las instituciones; rechaza la visión populista de unas élites políticas y económicas coordinadas contra la gente corriente, discurso que combatió por principio.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Valores, Estrategia y Acción Política (Ciudadanos)",
+        "url": "https://www.ciudadanos-cs.org/estrategia",
+        "fecha": "2024-10-26",
+        "consultado": "2026-07-12"
+      }
+    },
+    "sd-013": {
+      "valor": -1,
+      "justificacion": "Ciudadanos es un partido constitucionalista que asume la monarquía parlamentaria fijada en la Constitución de 1978 y nunca planteó sustituirla por una república; se opone a reabrir la forma de Estado con un referéndum entre monarquía y república. Desacuerdo, sin el máximo.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Valores, Estrategia y Acción Política (Ciudadanos)",
+        "url": "https://www.ciudadanos-cs.org/estrategia",
+        "fecha": "2024-10-26",
+        "consultado": "2026-07-12"
+      }
+    },
+    "rel-002": {
+      "valor": 2,
+      "justificacion": "Ciudadanos se define expresamente como partido aconfesional, alineado con la Constitución: defiende un Estado no confesional y la libre expresión pública de todas las confesiones dentro de la ley, con neutralidad religiosa.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Valores, Estrategia y Acción Política (Ciudadanos)",
+        "url": "https://www.ciudadanos-cs.org/estrategia",
+        "fecha": "2024-10-26",
+        "consultado": "2026-07-12"
+      }
+    },
+    "dem-034": {
+      "valor": -2,
+      "justificacion": "Ciudadanos nació frente al nacionalismo y defiende una España constitucional y unida; rechaza de plano un modelo confederal de territorios soberanos con derecho de salida, contrario a su unionismo y a la igualdad entre españoles.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Valores, Estrategia y Acción Política (Ciudadanos)",
+        "url": "https://www.ciudadanos-cs.org/estrategia",
+        "fecha": "2024-10-26",
+        "consultado": "2026-07-12"
+      }
+    },
+    "der-015": {
+      "valor": -2,
+      "justificacion": "Ciudadanos es europeísta e integrado en las redes liberales europeas (Renew Europe); apoya los marcos internacionales de sostenibilidad y se opone frontalmente a abandonar la Agenda 2030, a diferencia de la derecha nacional-populista.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral de Ciudadanos para las europeas de 2024",
+        "url": "https://www.ciudadanos-cs.org/var/public/documentos/2024-05/programa-electoral-9j-europeas.pdf",
+        "fecha": "2024-05",
+        "consultado": "2026-07-12"
+      }
+    },
+    "izq-001": {
+      "valor": -2,
+      "justificacion": "Ciudadanos es un partido de liberalismo reformista que persigue el cambio por vías graduales, institucionales y pactistas; rechaza por completo la idea de una ruptura revolucionaria como motor de la transformación social.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Valores, Estrategia y Acción Política (Ciudadanos)",
+        "url": "https://www.ciudadanos-cs.org/estrategia",
+        "fecha": "2024-10-26",
+        "consultado": "2026-07-12"
+      }
     }
   }
 }
