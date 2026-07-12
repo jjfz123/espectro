@@ -1,0 +1,114 @@
+{
+  "id": "agorismo",
+  "nombre": "Agorismo",
+  "tipo": "referencia-doctrinal",
+  "definicion": "Estrategia libertaria de mercado (Samuel Edward Konkin III, New Libertarian Manifesto, 1980) que busca sustituir el Estado y el capitalismo privilegiado mediante la contraeconomía: el mercado negro y gris y las redes voluntarias que operan fuera de la ley estatal, entendidos como praxis revolucionaria que va vaciando de recursos al Estado hasta disolverlo, rechazando por principio la vía electoral y de partido.",
+  "variante": "Estrategia de contraeconomía de Konkin; comparte el fin anarcocapitalista pero lo persigue por el mercado negro y gris, no por la política ni la reforma",
+  "periodo": "1980 (New Libertarian Manifesto) – actualidad",
+  "confianza": "estimada",
+  "version": "1.0",
+  "revisado": "2026-07-12",
+  "facetasDefinitorias": [
+    "estatismo",
+    "propiedad-mercado",
+    "metodo-cambio",
+    "institucionalismo"
+  ],
+  "sensibilidad": "normal",
+  "advertencia": "Tipo ideal doctrinal, no un partido español ni una identidad asignada. El instrumento carece de un ítem directo de contraeconomía, que es su rasgo definitorio; por eso muchas de sus posiciones coinciden con el anarcocapitalismo y su especificidad —el mercado negro y gris como praxis revolucionaria— queda infrarrepresentada. La economía sumergida masiva no es agorismo declarado: es praxis sin teoría.",
+  "fuentesMarco": [
+    {
+      "tipo": "otro",
+      "titulo": "Samuel Edward Konkin III, New Libertarian Manifesto (The Anarchist Library, en inglés)",
+      "url": "https://theanarchistlibrary.org/library/samuel-edward-konkin-iii-new-libertarian-manifesto",
+      "fecha": "1980",
+      "consultado": "2026-07-12"
+    },
+    {
+      "tipo": "otro",
+      "titulo": "Black-Market Activism: Agorism and Samuel Edward Konkin III (Libertarianism.org, en inglés)",
+      "url": "https://www.libertarianism.org/columns/black-market-activism-agorism-samuel-edward-konkin-iii",
+      "fecha": "1980",
+      "consultado": "2026-07-12"
+    }
+  ],
+  "reglaPublicacion": {
+    "minimoItems": 4,
+    "minimoCobertura": 0.55,
+    "umbralAfinidad": 83
+  },
+  "posiciones": {
+    "lab-009": {
+      "valor": 2,
+      "justificacion": "La contraeconomía es rechazo activo del impuesto: operar en el mercado negro y gris para no financiar al Estado presupone que la exacción fiscal coactiva es un despojo, no un intercambio consentido.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "New Libertarian Manifesto, cap. III «Counter-Economics: Our Means» (en inglés)",
+        "url": "https://theanarchistlibrary.org/library/samuel-edward-konkin-iii-new-libertarian-manifesto",
+        "fecha": "1980",
+        "consultado": "2026-07-12"
+      }
+    },
+    "izq-008": {
+      "valor": 1,
+      "justificacion": "Konkin sostuvo que el libertarismo político es una contradicción y que presentar candidatos cae en la trampa de la política; el agorismo prioriza la praxis extraparlamentaria, pero su medio es la contraeconomía y no la huelga de masas, de ahí el acuerdo parcial.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Black-Market Activism: la estrategia antipartido del agorismo (Libertarianism.org, en inglés)",
+        "url": "https://www.libertarianism.org/columns/black-market-activism-agorism-samuel-edward-konkin-iii",
+        "fecha": "1980",
+        "consultado": "2026-07-12"
+      }
+    },
+    "dem-011": {
+      "valor": 2,
+      "justificacion": "El objetivo es disolver el Estado haciendo crecer la contraeconomía hasta privarlo de recursos, no reformar el sistema parlamentario: la ruptura llega por el mercado, no por el diseño constitucional.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "New Libertarian Manifesto, «Revolution: Our Strategy» (en inglés)",
+        "url": "https://theanarchistlibrary.org/library/samuel-edward-konkin-iii-new-libertarian-manifesto",
+        "fecha": "1980",
+        "consultado": "2026-07-12"
+      }
+    },
+    "lib-002": {
+      "valor": 2,
+      "justificacion": "En el ágora las funciones de protección y arbitraje las prestan agencias voluntarias en competencia; la contraeconomía ya contiene servicios de defensa y seguro que operan al margen del monopolio estatal.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "New Libertarian Manifesto, «Agorism: Our Goal» (en inglés)",
+        "url": "https://theanarchistlibrary.org/library/samuel-edward-konkin-iii-new-libertarian-manifesto",
+        "fecha": "1980",
+        "consultado": "2026-07-12"
+      }
+    },
+    "lib-009": {
+      "valor": 2,
+      "justificacion": "La contraeconomía abarca el mercado negro y gris, incluidos los intercambios hoy ilegales entre adultos; legalizar y regular la venta de cannabis reconoce como lícita justamente la clase de transacción voluntaria que el agorista practica como praxis.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Black-Market Activism: trabajo «off the books» y mercado gris (Libertarianism.org, en inglés)",
+        "url": "https://www.libertarianism.org/columns/black-market-activism-agorism-samuel-edward-konkin-iii",
+        "fecha": "1980",
+        "consultado": "2026-07-12"
+      }
+    },
+    "lib-008": {
+      "valor": 2,
+      "justificacion": "La prestación sin licencia —el transporte gris al margen del cupo de licencias— es contraeconomía en acto; suprimir los límites de licencias reconoce en la ley el intercambio voluntario que el ágora ya realiza sin permiso estatal.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "New Libertarian Manifesto, contraeconomía frente a la licencia estatal (en inglés)",
+        "url": "https://theanarchistlibrary.org/library/samuel-edward-konkin-iii-new-libertarian-manifesto",
+        "fecha": "1980",
+        "consultado": "2026-07-12"
+      }
+    }
+  }
+}
