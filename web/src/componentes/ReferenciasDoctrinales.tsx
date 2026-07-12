@@ -26,7 +26,9 @@ export function ReferenciasDoctrinales({ respuestas, alMontar }: Props) {
     <div className="referencias-doctrinales__contenido">
       <p className="nota-al-margen" style={{ maxWidth: '70ch' }}>
         Son tipos ideales para describir combinaciones que quizá ningún partido represente. No
-        dicen «eres X», no son candidaturas y no usan lo que marcaste como importante. Solo
+        dicen «eres X», no son candidaturas y no usan lo que marcaste como importante. Cada
+        tarjeta compara únicamente sus preguntas definitorias —a veces solo un puñado—, así que
+        puedes salir cerca de corrientes rivales entre sí a la vez sin contradicción. Solo
         aparecen cuando has contestado suficientes posiciones definitorias y superas el umbral
         publicado; puede no aparecer ninguna o aparecer varias.
       </p>
@@ -60,9 +62,16 @@ export function ReferenciasDoctrinales({ respuestas, alMontar }: Props) {
                   <header>
                     <div>
                       <p className="kicker">
-                        {esViolenta ? 'Patrón doctrinal sensible' : 'Coincidencias parciales con'}
+                        {esViolenta
+                          ? 'Patrón doctrinal sensible'
+                          : `Coincide en ${resultado.itemsComparados} de sus ${resultado.itemsDefinitorios} preguntas`}
                       </p>
                       <h3>{referencia.nombre}</h3>
+                      {!esViolenta && resultado.itemsComparados <= 6 ? (
+                        <p className="referencia-anecdotica">
+                          Coincidencia estrecha: pocas preguntas compartidas. No es tu etiqueta.
+                        </p>
+                      ) : null}
                       {referencia.variante ? <p className="referencia-variante">{referencia.variante}</p> : null}
                     </div>
                     {!esViolenta ? (

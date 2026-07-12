@@ -445,6 +445,22 @@ export function Resultados({ estado, despachar, puedeRecargar, alConfirmarGuarda
         nada se ha enviado a ningún servidor.
       </p>
 
+      {(() => {
+        const top = resultados.find((r) => typeof r.puntuacion === 'number');
+        const partidoTop = top ? PARTIDO_POR_ID.get(top.entidadId) : undefined;
+        if (!top || !partidoTop) return null;
+        return (
+          <div className="lectura-rapida" role="note">
+            <strong>Cómo leer esta página.</strong> Donde más coincides es{' '}
+            <strong>{partidoTop.nombre}</strong> ({Math.round(top.puntuacion ?? 0)} %): ese
+            ranking usa todas tus respuestas. Lo demás son lecturas de detalle que no te
+            etiquetan: las «corrientes afines» comparan solo unas pocas preguntas definitorias
+            de cada corriente —puedes salir cerca de corrientes rivales entre sí a la vez— y el
+            mapa mide cercanía geométrica en dos ejes, no tu perfil entero.
+          </div>
+        );
+      })()}
+
       {esPerfilIntermedio ? (
         <section className="resultado-provisional" aria-labelledby="resultado-intermedio-titulo">
           <div>

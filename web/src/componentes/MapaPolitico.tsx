@@ -1397,7 +1397,9 @@ export function MapaPolitico({
                 <span>
                   En estas dos dimensiones, tu punto queda más cerca de la zona{' '}
                   <strong>{corrienteUsuario.nombre}</strong>. Es orientación geométrica, no una
-                  identidad ni el resultado doctrinal completo.
+                  identidad ni el resultado doctrinal completo: estar cerca aquí y no aparecer
+                  en «corrientes afines» es normal (esto mide dos ejes; aquello, sus preguntas
+                  definitorias).
                 </span>{' '}
                 <button
                   type="button"
