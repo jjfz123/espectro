@@ -30,6 +30,90 @@
         "consultado": "2026-07-10"
       }
     },
+    "lab-017": {
+      "valor": -1,
+      "justificacion": "Para las grandes empresas de los sectores estratégicos IU prioriza la propiedad pública estatal —reclama nacionalizar energía, transporte y sectores clave y sitúa al sector público como garante de la reconstrucción industrial—, no su transferencia a cooperativas de trabajadores, aunque también apoye la economía social. Discrepa de la disyuntiva del ítem, de ahí -1.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Documento Político-Organizativo (Izquierda Unida)",
+        "url": "https://izquierdaunida.org/documento-politico-organizativo/",
+        "fecha": "2026",
+        "consultado": "2026-07-12",
+        "cita": "Documento Político-Organizativo"
+      },
+      "grupoEvidencia": "pasaje-182dd412b4cb2131e2f8"
+    },
+    "eco-012": {
+      "valor": 2,
+      "justificacion": "IU defiende la eliminación progresiva de los conciertos educativos y la integración voluntaria de la concertada en una red única de escuela pública y laica, e impulsa enmiendas para que la escuela deje de ser un negocio sostenido con fondos públicos. Coincide con la eliminación gradual que plantea el ítem.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "IU apuesta por una ley educativa que impida que la escuela sea un negocio para la Iglesia Católica (Nueva Tribuna)",
+        "url": "https://www.nuevatribuna.es/articulo/actualidad/ley-educacion-psoe-lomloe-enmiendas-izquierdaunida-unidaspodemos-escuela-publica-laica/20200925130104179499.html",
+        "fecha": "2020-09-25",
+        "consultado": "2026-07-12",
+        "cita": "IU apuesta por una ley educativa que impida que la escuela sea un negocio para la Iglesia Católica"
+      },
+      "grupoEvidencia": "pasaje-d5e5517aaa60dbfa0763"
+    },
+    "ene-005": {
+      "valor": -2,
+      "justificacion": "IU rechaza que la electricidad se genere y comercialice sobre todo por empresas privadas en competencia: propone nacionalizar las eléctricas y el sistema eléctrico frente al oligopolio (Endesa, Iberdrola, Naturgy, EDP, Repsol), como condición para una transición energética real. Se opone frontalmente al modelo privado del ítem.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Izquierda Unida propone nacionalizar las eléctricas (Energías Renovables)",
+        "url": "https://www.energias-renovables.com/panorama/izquierda-unida-propone-nacionalizar-las-electricas-20140218",
+        "fecha": "2014-02-18",
+        "consultado": "2026-07-12",
+        "cita": "Izquierda Unida propone nacionalizar las eléctricas"
+      },
+      "grupoEvidencia": "pasaje-2d4e53c895089043de97"
+    },
+    "der-026": {
+      "valor": -2,
+      "justificacion": "IU se opone a ilegalizar partidos por promover la secesión: forma parte de la mayoría del Congreso que rechazó la proposición de Vox para ilegalizar a los independentistas, condenada por la propia doctrina del Tribunal Constitucional sobre el pluralismo político. Defiende el derecho a sostener ideas, incluida la autodeterminación.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "La ley de Vox para ilegalizar partidos independentistas nace condenada por las sentencias del Constitucional (infoLibre)",
+        "url": "https://www.infolibre.es/politica/ley-vox-ilegalizar-partidos-independentistas-nace-condenada-sentencias-constitucional_1_1187530.html",
+        "fecha": "2025",
+        "consultado": "2026-07-12",
+        "cita": "La ley de Vox para ilegalizar partidos independentistas nace condenada por las sentencias del Constitucional"
+      },
+      "grupoEvidencia": "pasaje-9f72cca9047d3cdd9e7f"
+    },
+    "dem-021": {
+      "valor": 2,
+      "justificacion": "IU considera imprescindible la derogación total e íntegra de la ley mordaza: su portavoz Enrique Santiago defiende una nueva norma que derogue todos los contenidos liberticidas que introdujo el PP y que impiden ejercer los derechos de participación, protesta y manifestación. Coincide con no sancionar la protesta pacífica por falta de aviso previo.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Enrique Santiago (IU): la nueva norma derogará todos los contenidos liberticidas de la ley mordaza (Izquierda Unida)",
+        "url": "https://izquierdaunida.org/2024/10/30/enrique-santiago-afirma-que-la-nueva-norma-que-sustituira-a-la-ley-mordaza-derogara-todos-los-contenidos-liberticidas-y-lesivos-que-introdujo-el-pp-que-impiden-ejercer-derec/",
+        "fecha": "2024-10-30",
+        "consultado": "2026-07-12",
+        "cita": "Enrique Santiago afirma que la nueva norma que sustituirá a la ley mordaza derogará todos los contenidos liberticidas y lesivos que introdujo el PP"
+      },
+      "grupoEvidencia": "pasaje-7c25f29137dfc4f5929d"
+    },
+    "izq-007": {
+      "valor": -2,
+      "justificacion": "IU, coalición liderada por el PCE, es una organización marxista que busca conquistar y transformar el Estado para construir el socialismo mediante la transformación revolucionaria de sus estructuras políticas, no abolirlo: la abolición del Estado es la tesis anarquista que el comunismo rechaza. Discrepa, pues, del enunciado del ítem.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Documento Político-Organizativo (Izquierda Unida)",
+        "url": "https://izquierdaunida.org/documento-politico-organizativo/",
+        "fecha": "2026",
+        "consultado": "2026-07-12",
+        "cita": "Documento Político-Organizativo"
+      },
+      "grupoEvidencia": "pasaje-182dd412b4cb2131e2f8"
+    },
     "eco-001": {
       "valor": 2,
       "justificacion": "Su propuesta de reforma fiscal de noviembre de 2025 plantea aumentar de forma sustancial la contribución de las rentas altas y las grandes empresas, con una recaudación adicional calculada en 111.000 millones de euros anuales, el 95% del esfuerzo a cargo de quienes más tienen.",
