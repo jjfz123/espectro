@@ -70,7 +70,7 @@ function ejecutarCli() {
     );
   } else {
     console.log(
-      `Brújula de partidos (${alcance}): ${resumen.solidas}/${resumen.perfiles} sólidas, ${resumen.provisionales} provisionales, ${resumen.insuficientes} insuficientes; ${resumen.extremosInsuficientes} extremos sin evidencia completa.`,
+      `Brújula de partidos (${alcance}): ${resumen.solidas}/${resumen.perfiles} sólidas, ${resumen.provisionales} provisionales, ${resumen.estimadas} estimadas, ${resumen.insuficientes} insuficientes; ${resumen.extremosInsuficientes} extremos sin evidencia completa.`,
     );
     for (const resultado of resultados.filter((entrada) => entrada.grado !== 'solida')) {
       const x = resultado.x.valor === null ? '—' : resultado.x.valor.toFixed(1);

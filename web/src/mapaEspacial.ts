@@ -280,13 +280,6 @@ function clasificar(
               : [
                   `Poder: ${evidenciaPoder.items} ${auditoriaPartido ? 'grupos independientes' : 'ítems'} en ${evidenciaPoder.familias} familias (${evidenciaPoder.itemsNucleo} de contrapesos/libertades); evidencia insuficiente`,
                 ],
-          )
-          .concat(
-            auditoriaPartido?.problemas.includes(
-              'extremo sin evidencia moderadora o contradictoria independiente',
-            )
-              ? ['La brújula omite el extremo hasta documentar una posición moderadora o contradictoria independiente.']
-              : [],
           ),
       });
     }

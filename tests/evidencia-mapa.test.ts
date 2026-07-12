@@ -460,7 +460,11 @@ describe('proyección documental de partidos en los macroejes', () => {
         minimoItemsNucleoY: 2,
       },
     });
-    expect(resultado.grado).toBe('insuficiente');
+    /* El bloqueo de MAP-05 sigue vigente para sólida y provisional (el recibo
+       lista el desequilibrio); desde el nivel «estimada» (orden de producto:
+       todos los partidos computables a la vista) la coordenada calculable se
+       muestra tenue y con recibo en vez de ocultarse. */
+    expect(resultado.grado).toBe('estimada');
     expect(resultado.problemas).toContain(
       'X subdimensiones con una sola ancla independiente: b, c',
     );

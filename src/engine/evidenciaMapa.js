@@ -439,22 +439,24 @@ export function auditarPerfilBrujula(perfil, items, atlas) {
   if (perfil.publicacionMapa?.publicable === false) {
     problemas.push('veto editorial de mapa incompatible con cobertura total');
   }
-  const grado =
-    solidaX &&
-    solidaY &&
+  const publicableGeneral =
     perfil.confianza !== 'sin-datos' &&
     !perfil.monotematico &&
-    perfil.publicacionMapa?.publicable !== false &&
-    !extremoSinContrapeso
+    perfil.publicacionMapa?.publicable !== false;
+  /* «estimada»: tercer nivel, por orden de producto del propietario («todos
+     los partidos a la vista»). No rebaja nada de arriba: exige una coordenada
+     CALCULABLE en ambos ejes desde posiciones auditables y hereda los vetos
+     duros (sin-datos, monotemático, veto editorial). A diferencia de sólida y
+     provisional, el flag de extremo-sin-contrapeso NO la bloquea: el punto se
+     dibuja tenue y con recibo, en vez de ocultarse — el recibo dice qué falta. */
+  const grado =
+    solidaX && solidaY && publicableGeneral && !extremoSinContrapeso
       ? 'solida'
-      : provisionalX &&
-          provisionalY &&
-          perfil.confianza !== 'sin-datos' &&
-          !perfil.monotematico &&
-          perfil.publicacionMapa?.publicable !== false &&
-          !extremoSinContrapeso
+      : provisionalX && provisionalY && publicableGeneral && !extremoSinContrapeso
         ? 'provisional'
-        : 'insuficiente';
+        : coordenadaXCalculable && coordenadaYCalculable && publicableGeneral
+          ? 'estimada'
+          : 'insuficiente';
   return {
     id: perfil.id,
     nombre: perfil.nombre,
@@ -482,13 +484,14 @@ export function auditarPerfilBrujula(perfil, items, atlas) {
 
 export function crearAuditoriaBrujula({ items, partidos, atlas }) {
   const resultados = partidos.map((partido) => auditarPerfilBrujula(partido, items, atlas)).sort((a, b) => {
-    const orden = { insuficiente: 0, provisional: 1, solida: 2 };
+    const orden = { insuficiente: 0, estimada: 1, provisional: 2, solida: 3 };
     return orden[a.grado] - orden[b.grado] || a.id.localeCompare(b.id, 'es');
   });
   const resumen = {
     perfiles: resultados.length,
     solidas: resultados.filter((resultado) => resultado.grado === 'solida').length,
     provisionales: resultados.filter((resultado) => resultado.grado === 'provisional').length,
+    estimadas: resultados.filter((resultado) => resultado.grado === 'estimada').length,
     insuficientes: resultados.filter((resultado) => resultado.grado === 'insuficiente').length,
     extremosInsuficientes: resultados.filter((resultado) =>
       resultado.problemas.includes('extremo sin evidencia moderadora o contradictoria independiente'),

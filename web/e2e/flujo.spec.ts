@@ -1413,6 +1413,17 @@ test('la brújula móvil distingue evidencia provisional y resuelve con segurida
     await expect(partidos.first()).toBeVisible();
     const numeroPartidos = await partidos.count();
     expect(numeroPartidos).toBeGreaterThanOrEqual(1);
+
+    /* Nivel «estimada» (orden de producto: todos los partidos con coordenada
+       calculable a la vista): existe al menos un punto tenue, la nota colectiva
+       lo explica y solo los incomputables quedan fuera. */
+    const estimados = page.locator(
+      '.mapa-plano--brujula .mapa-punto[data-tipo="partido"][data-evidencia="estimada"]',
+    );
+    expect(await estimados.count()).toBeGreaterThanOrEqual(1);
+    await expect(page.locator('.mapa-evidencia-estimada')).toContainText(
+      'posición estimada',
+    );
     for (const ancho of [320, 360, 390]) {
       await page.setViewportSize({ width: ancho, height: 844 });
       const tamanos = await partidos.evaluateAll((puntos) =>
