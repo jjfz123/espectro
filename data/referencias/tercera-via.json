@@ -1,0 +1,162 @@
+{
+  "id": "tercera-via",
+  "nombre": "Tercera vía socialdemócrata",
+  "tipo": "referencia-doctrinal",
+  "definicion": "Programa reformista de renovación socialdemócrata teorizado por Anthony Giddens (1998) y aplicado por Blair y Schröder: acepta el mercado competitivo y la gestión privada de servicios, combina inversión social, activación laboral (welfare-to-work) y disciplina fiscal con objetivos de inclusión, y abandona la nacionalización. «Ni vieja izquierda ni nueva derecha», de origen laborista.",
+  "variante": "Síntesis de The Third Way de Giddens (1998) y de la Declaración Blair-Schröder / Die Neue Mitte (1999); no equivale al simple centro, ni al liberalismo social sin raíz laborista, ni a cualquier moderación posterior del PSOE.",
+  "periodo": "1994-2010",
+  "confianza": "estimada",
+  "version": "1.0",
+  "revisado": "2026-07-12",
+  "facetasDefinitorias": [
+    "economico",
+    "propiedad-mercado",
+    "poder-laboral",
+    "metodo-cambio",
+    "social"
+  ],
+  "sensibilidad": "normal",
+  "advertencia": "Es una reconstrucción de un programa político de finales del siglo XX (New Labour, Neue Mitte), no una ficha de un partido español actual ni una atribución de militancia. Una similitud doctrinal parcial no determina la identidad política de ninguna persona. Delimita un periodo y un programa concretos: su carácter promercado la separa de la socialdemocracia clásica y su origen laborista (suelo salarial, activación, inversión social) la separa del liberalismo social.",
+  "fuentesMarco": [
+    {
+      "tipo": "otro",
+      "titulo": "Anthony Giddens, The Third Way: The Renewal of Social Democracy (Wikipedia, ficha de referencia)",
+      "url": "https://en.wikipedia.org/wiki/Third_Way",
+      "fecha": "1998",
+      "consultado": "2026-07-12"
+    },
+    {
+      "tipo": "declaracion",
+      "titulo": "Blair y Schröder, Europe: The Third Way / Die Neue Mitte (Friedrich-Ebert-Stiftung)",
+      "url": "https://library.fes.de/pdf-files/bueros/suedafrika/02828.pdf",
+      "fecha": "1999",
+      "consultado": "2026-07-12"
+    },
+    {
+      "tipo": "otro",
+      "titulo": "Cláusula IV del Partido Laborista y su reescritura de 1995 (Wikipedia, ficha de referencia)",
+      "url": "https://en.wikipedia.org/wiki/Clause_IV",
+      "fecha": "1995",
+      "consultado": "2026-07-12"
+    }
+  ],
+  "reglaPublicacion": {
+    "minimoItems": 5,
+    "minimoCobertura": 0.6,
+    "umbralAfinidad": 85
+  },
+  "posiciones": {
+    "eco-002": {
+      "valor": 2,
+      "justificacion": "La tercera vía asume el mercado y la gestión privada en los servicios públicos —colaboración público-privada, PFI, elección y competencia en la sanidad— como palanca de eficiencia dentro de una financiación mayoritariamente pública: «lo que importa es lo que funciona». Más promercado que la socialdemocracia clásica.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Giddens, The Third Way; New Labour y la Private Finance Initiative",
+        "url": "https://en.wikipedia.org/wiki/Third_Way",
+        "fecha": "1998",
+        "consultado": "2026-07-12"
+      }
+    },
+    "sd-012": {
+      "valor": -2,
+      "justificacion": "El giro fundacional es abandonar la nacionalización: Blair reescribió en 1995 la Cláusula IV que comprometía al laborismo con la propiedad común, cerrando el compromiso de nacionalizar la industria. La titularidad pública de las grandes empresas queda rechazada.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Reescritura de la Cláusula IV del Partido Laborista (1995)",
+        "url": "https://en.wikipedia.org/wiki/Clause_IV",
+        "fecha": "1995",
+        "consultado": "2026-07-12"
+      }
+    },
+    "sd-009": {
+      "valor": 2,
+      "justificacion": "La activación laboral es la seña de identidad de la tercera vía: el welfare-to-work (New Deal) y el «Estado de inversión social» condicionan las prestaciones a buscar empleo o formarse, bajo el lema de derechos y responsabilidades («una mano que ayuda, no una limosna»).",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Giddens, The Third Way; programa welfare-to-work del New Labour",
+        "url": "https://en.wikipedia.org/wiki/Third_Way",
+        "fecha": "1998",
+        "consultado": "2026-07-12"
+      }
+    },
+    "lab-001": {
+      "valor": -1,
+      "justificacion": "La tercera vía afloja los lazos con los sindicatos y prioriza la flexibilidad del mercado laboral y la «asociación» sobre la primacía de la negociación colectiva sectorial. Se puntúa −1 y no −2 porque la subordina, no la suprime; la separa del laborismo fuerte de la socialdemocracia clásica.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Blair y Schröder, Europe: The Third Way / Die Neue Mitte, sobre flexibilidad laboral",
+        "url": "https://library.fes.de/pdf-files/bueros/suedafrika/02828.pdf",
+        "fecha": "1999",
+        "consultado": "2026-07-12"
+      }
+    },
+    "eco-004": {
+      "valor": 1,
+      "justificacion": "Disciplina fiscal y estabilidad macroeconómica como marca de la casa: reglas de gasto, prioridad a la solvencia y a la contención de la deuda frente a la expansión del gasto, para conservar la confianza de los mercados. La separa de la prioridad clásica al gasto social.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Blair y Schröder, Europe: The Third Way / Die Neue Mitte, sobre disciplina fiscal",
+        "url": "https://library.fes.de/pdf-files/bueros/suedafrika/02828.pdf",
+        "fecha": "1999",
+        "consultado": "2026-07-12"
+      }
+    },
+    "eco-001": {
+      "valor": 0,
+      "justificacion": "El «ni vieja izquierda ni nueva derecha» se materializa en la fiscalidad: no sube los tipos altos —Blair y Brown los mantuvieron— pero redistribuye hacia abajo por otras vías. Equilibrio documentado, no ausencia de posición.",
+      "calidadEvidencia": "media",
+      "resolucionCero": {
+        "tipo": "modelo-mixto",
+        "explicacion": "Redistribuye hacia los peor pagados (salario mínimo, créditos fiscales a familias trabajadoras) pero congela los tipos altos para retener la confianza inversora: ni la subida de la vieja izquierda ni la rebaja de la nueva derecha."
+      },
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Política fiscal del New Labour (tipos altos y créditos fiscales)",
+        "url": "https://en.wikipedia.org/wiki/New_Labour",
+        "fecha": "1998",
+        "consultado": "2026-07-12"
+      }
+    },
+    "eco-003": {
+      "valor": 1,
+      "justificacion": "Su origen laborista se ve en el suelo salarial legal: el laborismo introdujo en 1999 el salario mínimo nacional, a un nivel moderado para no frenar el empleo, medida que el liberalismo económico rechaza. +1: protección salarial subordinada al empleo, no maximalista.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "New Labour: introducción del salario mínimo nacional (1999)",
+        "url": "https://en.wikipedia.org/wiki/New_Labour",
+        "fecha": "1999",
+        "consultado": "2026-07-12"
+      }
+    },
+    "izq-001": {
+      "valor": -2,
+      "justificacion": "La tercera vía es reformismo de mercado explícito: «modernizar» la socialdemocracia dentro del capitalismo, no romper con él. Sitúa el cambio en la gestión eficaz y no en la transformación sistémica ni en ninguna ruptura revolucionaria.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Giddens, The Third Way, sobre la renovación reformista de la socialdemocracia",
+        "url": "https://en.wikipedia.org/wiki/Third_Way",
+        "fecha": "1998",
+        "consultado": "2026-07-12"
+      }
+    },
+    "soc-001": {
+      "valor": 2,
+      "justificacion": "El componente socialmente liberal de la «nueva» izquierda: bajo la tercera vía el laborismo derogó la Sección 28, igualó la edad de consentimiento e introdujo las uniones civiles; protección jurídica de los derechos de las personas LGTB.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Reformas sociales del New Labour (Sección 28, uniones civiles)",
+        "url": "https://en.wikipedia.org/wiki/New_Labour",
+        "fecha": "1998",
+        "consultado": "2026-07-12"
+      }
+    }
+  }
+}
