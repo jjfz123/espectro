@@ -437,6 +437,23 @@ if (existsSync(directorioReferencias)) {
     if ((referencia.reglaPublicacion?.minimoItems ?? Infinity) > posiciones.length) {
       fallo(donde, 'el mínimo publicable supera el número de posiciones definitorias');
     }
+    // Corrientes sensibles o violentas: la cercanía exige EVIDENCIA COMBINADA
+    // (triple llave: ítems + cobertura + umbral), nunca una coincidencia suelta.
+    if (referencia.sensibilidad && referencia.sensibilidad !== 'normal') {
+      const regla = referencia.reglaPublicacion;
+      if (!regla) {
+        fallo(donde, 'referencia sensible sin reglaPublicacion (evidencia combinada obligatoria)');
+      } else if (
+        (regla.minimoItems ?? 0) < 3 ||
+        (regla.minimoCobertura ?? 0) < 0.5 ||
+        (regla.umbralAfinidad ?? 0) < 78
+      ) {
+        fallo(
+          donde,
+          'referencia sensible con triple llave por debajo del suelo (ítems ≥ 3, cobertura ≥ 0,5, umbral ≥ 78)',
+        );
+      }
+    }
     for (const [itemId, posicion] of posiciones) {
       const item = itemsPorId.get(itemId);
       if (!item) fallo(donde, `posición sobre ítem inexistente: ${itemId}`);

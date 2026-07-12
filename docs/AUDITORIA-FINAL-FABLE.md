@@ -286,3 +286,7 @@ Cherry-pick verificado de su worktree (3 commits): **Ciudadanos 9→13** (eco-00
 ## 32. Versionado por ventana temporal cerrado con trinquete de fechas (2026-07-12)
 
 El mecanismo ya estaba entero tras los bloques de doble lectura y felipismo (ventanas con periodo/corte visibles, capas sin promediar, perfiles de época sin herencia, contraste 100% fechado por test, divergencia dicho/hecho anotada). La deuda restante —161 posiciones de partidos y 82 de referencias sin `fuente.fecha`, concentradas en perfiles menores— queda acotada por un trinquete «solo decrece» (tests/fechas-fuentes-ratchet.test.ts): añadir posiciones sin fecha rompe CI; fechar deuda obliga a bajar el tope en el mismo commit. La cola de fechado entra en las tandas de datos ordinarias.
+
+## 33. Corrientes sensibles: contrato quíntuple cerrado (2026-07-12)
+
+La casilla de corrientes sensibles/violentas queda cerrada con contrato: (1) lenguaje clínico con negación expresa de pertenencia e identidad en FichaIdeologia, vista de referencias y enciclopedia; (2) evidencia combinada elevada de práctica a REGLA — el validador exige a toda referencia con sensibilidad ≠ normal una triple llave con suelo (ítems ≥ 3, cobertura ≥ 0,5, umbral ≥ 78; los 17 perfiles sensibles actuales ya la cumplían); (3) las capturas predeterminadas no dibujan ninguna zona del atlas (test negativo sobre capturaResultado); (4) nada gamificado; (5) tests/corrientes-sensibles.test.ts fija los cinco frentes.
