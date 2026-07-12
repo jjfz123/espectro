@@ -224,6 +224,90 @@
         "fecha": "2026-05",
         "consultado": "2026-07-09"
       }
+    },
+    "cul-013": {
+      "valor": 2,
+      "justificacion": "Su ideario aspira a liderar el «área de influencia hispánica» y sitúa a España como eje del mundo hispánico (punto 3 del programa histórico y doctrina vigente), priorizando la esfera de la Hispanidad frente a entidades supranacionales como la UE.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Nuestras ideas — Falange Española de las JONS",
+        "url": "https://falange.es/nuestras-ideas/",
+        "fecha": "2026",
+        "consultado": "2026-07-12"
+      }
+    },
+    "cul-001": {
+      "valor": 2,
+      "justificacion": "Defiende la homogeneidad cultural nacional y la remigración de quienes «han fracasado en su integración»: exige la asimilación a la cultura española, no solo el cumplimiento de la ley.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Nuestras ideas — Falange Española de las JONS",
+        "url": "https://falange.es/nuestras-ideas/",
+        "fecha": "2026",
+        "consultado": "2026-07-12"
+      }
+    },
+    "cul-002": {
+      "valor": -1,
+      "justificacion": "El falangismo define la nación como «unidad de destino en lo universal» —misión espiritual y cultural, no de sangre— y enmarca su hispanismo en una Hispanidad que integra a los hispanoamericanos; rechaza la ascendencia como criterio de lo español, a diferencia del etnicismo de DN o España 2000.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Nuestras ideas — Falange Española de las JONS",
+        "url": "https://falange.es/nuestras-ideas/",
+        "fecha": "2026",
+        "consultado": "2026-07-12"
+      }
+    },
+    "der-004": {
+      "valor": 2,
+      "justificacion": "Su modelo nacionalsindicalista, anticapitalista y antiliberal, defiende una economía nacional protegida frente al libre mercado global: el proteccionismo en defensa de la producción y el empleo nacionales es coherente con su doctrina.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Nuestras ideas — Falange Española de las JONS",
+        "url": "https://falange.es/nuestras-ideas/",
+        "fecha": "2026",
+        "consultado": "2026-07-12"
+      }
+    },
+    "der-005": {
+      "valor": 2,
+      "justificacion": "La unidad de España es principio central de su doctrina: reclama restaurar la unidad nacional y cerrar los parlamentos autonómicos, situándola por encima de cualquier reivindicación autonómica.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Nuestras ideas — Falange Española de las JONS",
+        "url": "https://falange.es/nuestras-ideas/",
+        "fecha": "2026",
+        "consultado": "2026-07-12"
+      }
+    },
+    "mon-001": {
+      "valor": 2,
+      "justificacion": "Se declara abiertamente republicana y antiborbónica: aspira a abolir la monarquía parlamentaria, a la que considera un privilegio unipersonal, y a instaurar un Estado republicano; rechaza por tanto una jefatura del Estado hereditaria.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Nuestras ideas — Falange Española de las JONS",
+        "url": "https://falange.es/nuestras-ideas/",
+        "fecha": "2026",
+        "consultado": "2026-07-12"
+      }
+    },
+    "fem-005": {
+      "valor": 2,
+      "justificacion": "Provida sin fisuras: defiende la vida «desde la concepción hasta la muerte natural» y se presenta frente al «consenso de la muerte, la eutanasia y el aborto», por lo que apoya derogar la ley de eutanasia.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Nuestras ideas — Falange Española de las JONS",
+        "url": "https://falange.es/nuestras-ideas/",
+        "fecha": "2026",
+        "consultado": "2026-07-12"
+      }
     }
   }
 }
