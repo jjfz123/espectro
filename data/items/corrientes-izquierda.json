@@ -1003,5 +1003,31 @@
     ],
     "estado": "piloto",
     "notas": "Solo-matching (recomendación 2 del informe, 2026-07-12): desagrega el trotskismo por táctica. Esperado: tradición del entrismo (Militant/IR) +1/+2; construcción independiente (CRT, PRT, PCTE) −2; el metadato de Internacional (FT-CI, LIT-CI, lambertismo, mandelismo) vive en `clasificacion`, no en ítems. Redacción propia."
+  },
+  {
+    "id": "izq-054",
+    "texto": "Si mi organización toma una decisión en común, debería estar obligada a defenderla y aplicarla toda ella por igual, aunque una parte hubiera votado en contra.",
+    "modulo": "corrientes-izquierda",
+    "ejes": [],
+    "polaridad": "positiva",
+    "tags": [
+      "plataformismo",
+      "organizacion"
+    ],
+    "estado": "piloto",
+    "notas": "Solo-matching (dosier MATRIZ-ANARQUISMOS §5.3; hueco confirmado en la nota del propietario: «falta un ítem directo de responsabilidad colectiva»). Mide el compromiso HORIZONTAL de ejecutar lo acordado en común (responsabilidad colectiva plataformista), no la disciplina vertical que ya mide dem-015. Esperado: plataformismo-anarcocomunista +2 (unidad táctica); anarcocomunismo espontaneísta −1; anarquismo-individualista −2. Ojo: el centralismo democrático leninista también puntúa alto — el deslinde frente a él lo hace izq-002 (partido de vanguardia). Redacción propia."
+  },
+  {
+    "id": "izq-055",
+    "texto": "Ninguna causa superior —ni la humanidad, ni la justicia, ni la comunidad— está por encima de mi propio interés; no me debo a ningún ideal.",
+    "modulo": "corrientes-izquierda",
+    "ejes": [],
+    "polaridad": "positiva",
+    "tags": [
+      "egoismo",
+      "individualismo"
+    ],
+    "estado": "piloto",
+    "notas": "Solo-matching (dosier MATRIZ-ANARQUISMOS §5.4): instrumenta el discriminante stirneriano (rechazo de lo «sagrado») que separa el egoísmo del individualismo tuckeriano de derechos; si acumula corpus citable en español, el egoísmo podría ascender de faceta a ficha propia. Esperado: egoísmo stirneriano +2; anarquismo-individualista (Tucker, sistema de derechos) −1/−2; anarquismos comunitarios −2. Ojo: el objetivismo también puntúa alto por egoísmo ético — su deslinde (sistema moral racionalista, capitalismo) vive en su ficha, no en este ítem. Redacción propia."
   }
 ]
