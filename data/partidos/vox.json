@@ -975,6 +975,116 @@
         "fecha": "2022",
         "consultado": "2026-07-12"
       }
+    },
+    "mon-001": {
+      "valor": -2,
+      "justificacion": "Partido monárquico declarado desde su fundación; en 2025-2026 se distanció de Felipe VI (no asistió al 50.º aniversario de la monarquía parlamentaria) sin plantear en ningún momento una jefatura electiva: el desacuerdo es con el titular, no con la institución hereditaria (Infobae, 2025-12-27; El Independiente, 2026-02-22).",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Santiago Abascal: «la monarquía no es el problema de España» (Monarquía Confidencial)",
+        "url": "https://monarquia.elconfidencialdigital.com/articulo/monarquia_confidencial/Santiago-Abascal-Vox-monarquia-Espana/20140125214754010201.html",
+        "fecha": "2014-01-25",
+        "consultado": "2026-07-12",
+        "cita": "la monarquía no es el problema de España"
+      },
+      "grupoEvidencia": "pasaje-798c99ec8fe862b9a2cb"
+    },
+    "der-020": {
+      "valor": 2,
+      "justificacion": "Conducta parlamentaria: votó con la mayoría que rechazó eliminar la inviolabilidad y el aforamiento (iniciativa de ERC, 2021); eldiario.es registró el «no» conjunto de PSOE, PP, Vox y Ciudadanos. A favor de mantener la protección constitucional tal como está.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "El Congreso ratifica la inviolabilidad del Rey, con Podemos y ERC en contra (República.com)",
+        "url": "https://www.republica.com/espana/el-congreso-de-los-diputados-ratifica-la-inviolabilidad-del-rey-con-podemos-y-erc-en-contra-20210225-12051245688/",
+        "fecha": "2021-02-25",
+        "consultado": "2026-07-12"
+      }
+    },
+    "geo-015": {
+      "valor": -2,
+      "justificacion": "Su programa europeo defiende la supremacía de la Constitución española sobre el derecho europeo y recuperar competencias en relaciones internacionales (Ceuta Actualidad, 2024-05-30): incompatible con aceptar decisiones exteriores de la UE aprobadas por mayoría cualificada contra el voto español.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral de VOX, elecciones europeas 2024 (PDF oficial)",
+        "url": "https://www.voxespana.es/wp-content/uploads/2024/05/Programa_EUROPEAS-3.pdf",
+        "fecha": "2024-05",
+        "consultado": "2026-07-12"
+      }
+    },
+    "dem-012": {
+      "valor": 1,
+      "justificacion": "Canaliza su proyecto de reordenación profunda (devolución de competencias autonómicas al Estado) por la vía de reformas legales y constitucionales y de proposiciones en el Congreso (El Debate, 2022-04-15; Público): cambios de máximos, pero por procedimiento.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral de VOX (23J) y proposiciones registradas en el Congreso",
+        "url": "https://www.voxespana.es/programa/programa-electoral-vox",
+        "fecha": "2023",
+        "consultado": "2026-07-12"
+      }
+    },
+    "dem-011": {
+      "valor": -1,
+      "justificacion": "Propone derogar el Estado autonómico mediante reforma, pero mantiene y usa el sistema parlamentario (grupo propio, proposiciones de ley): no plantea sustituir el modelo parlamentario por otro.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Las razones que hacen improbable derogar el Estado de las autonomías como propone Vox (El Debate)",
+        "url": "https://www.eldebate.com/espana/20220415/razones-hacen-improbable-derogar-estado-autonomias-como-propone-vox.html",
+        "fecha": "2022-04-15",
+        "consultado": "2026-07-12"
+      }
+    },
+    "dem-001": {
+      "valor": -1,
+      "justificacion": "Su proposición de 2024 prohíbe expresamente los referéndums «con fines contrarios a la unidad nacional» y su programa no contempla la decisión habitual por referéndum vinculante: posición restrictiva frente al uso ordinario del referéndum.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Vox lleva a votación su ley para ilegalizar partidos independentistas y recuperar la sedición (COPE)",
+        "url": "https://www.cope.es/actualidad/espana/noticias/vox-lleva-hoy-votacion-congreso-ley-para-ilegalizar-partidos-independentistas-recuperar-sedicion-20240220_3154416",
+        "fecha": "2024-02-20",
+        "consultado": "2026-07-12"
+      }
+    },
+    "dem-014": {
+      "valor": -2,
+      "justificacion": "Eliminó las primarias de sus estatutos para la selección de cargos: tras las sentencias que ordenaban repetirlas en Granada y Murcia ya no fue posible al haberlas suprimido, y la Asamblea Extraordinaria de 2024 ratificó la presidencia sin voto competitivo de la militancia (Infobae; Vozpópuli).",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Las voces críticas sacuden a Vox: un movimiento interno busca refundar el partido (Infobae)",
+        "url": "https://www.infobae.com/espana/2025/02/22/las-voces-criticas-sacuden-a-vox-un-movimiento-interno-busca-refundar-el-partido-para-recuperar-su-esencia/",
+        "fecha": "2025-02-22",
+        "consultado": "2026-07-12"
+      }
+    },
+    "dem-015": {
+      "valor": 2,
+      "justificacion": "Práctica sostenida de disciplina pública: purgas y salidas de dirigentes críticos (Olona, Espinosa de los Monteros, García-Gallardo) y sanción del desacuerdo expresado en público, documentadas por prensa plural (Infobae; Ara; Vozpópuli); la dirección ejerce y reivindica esa cohesión.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Las voces críticas sacuden a Vox: un movimiento interno busca refundar el partido (Infobae)",
+        "url": "https://www.infobae.com/espana/2025/02/22/las-voces-criticas-sacuden-a-vox-un-movimiento-interno-busca-refundar-el-partido-para-recuperar-su-esencia/",
+        "fecha": "2025-02-22",
+        "consultado": "2026-07-12"
+      }
+    },
+    "izq-001": {
+      "valor": -2,
+      "justificacion": "Método íntegramente electoral e institucional: concurre a todas las convocatorias, legisla vía proposiciones y condena la violencia política; nada en su corpus contempla una ruptura revolucionaria.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral de VOX (23J)",
+        "url": "https://www.voxespana.es/programa/programa-electoral-vox",
+        "fecha": "2023",
+        "consultado": "2026-07-12"
+      }
     }
   }
 }

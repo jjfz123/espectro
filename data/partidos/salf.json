@@ -329,6 +329,42 @@
         "fecha": "2024-10-24",
         "consultado": "2026-07-10"
       }
+    },
+    "dem-001": {
+      "valor": 1,
+      "justificacion": "Propone «reducir el partidismo» con una democracia «más directa y participativa» y llegó a plantear un referéndum sobre la salida de la UE si no se renegocia (El Español, 2024-06-10): favorable al referéndum para grandes decisiones, sin diseño institucional detallado (nunca ha presentado un programa formal).",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Las propuestas de Se Acabó La Fiesta, el partido de Alvise Pérez (El Generacional Post)",
+        "url": "https://elgeneracionalpost.com/politica/2024/0613/153232/las-propuestas-de-se-acabo-la-fiesta-el-polemico-partido-de-alvise-perez.html",
+        "fecha": "2024-06-13",
+        "consultado": "2026-07-12"
+      }
+    },
+    "dem-012": {
+      "valor": 1,
+      "justificacion": "Sus estatutos declaran el respeto a la Constitución y al Estado de derecho y su vía es electoral (tres eurodiputados en 2024); el cotejo literal del articulado queda en cola humana: la web oficial devuelve 403 a la consulta automatizada.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Estatutos de Se Acabó La Fiesta (web oficial)",
+        "url": "https://www.seacabolafiesta.com/estatutos",
+        "fecha": "2026",
+        "consultado": "2026-07-12"
+      }
+    },
+    "izq-001": {
+      "valor": -1,
+      "justificacion": "Retórica rupturista («se acabó la fiesta») pero método electoral y judicial: candidatura a las europeas de 2024 con tres escaños y promesa de persecución judicial de la corrupción, no de ruptura revolucionaria.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Alvise llega a Bruselas: éstas son sus propuestas, aunque nunca ha tenido programa electoral (El Español)",
+        "url": "https://www.elespanol.com/reportajes/20240610/alvise-llega-bruselas-propuestas-nunca-programa-electoral/861663974_0.html",
+        "fecha": "2024-06-10",
+        "consultado": "2026-07-12"
+      }
     }
   }
 }
