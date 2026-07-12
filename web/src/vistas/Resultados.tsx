@@ -185,6 +185,7 @@ export function Resultados({ estado, despachar, puedeRecargar, alConfirmarGuarda
         periodo: partido.dobleLectura.contraste.desde
           ? `${partido.dobleLectura.contraste.desde} – ${partido.dobleLectura.contraste.hasta}`
           : `hasta ${partido.dobleLectura.contraste.hasta}`,
+        fechaBase: partido.revisado,
       });
     }
     return marcadores;

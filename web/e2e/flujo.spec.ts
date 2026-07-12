@@ -388,6 +388,15 @@ test('resultados separa principales, top real y resto desplegable en móvil', as
     );
   expect(solapesContraste).toEqual([]);
 
+  // Doble lectura: al desplegar un marcador se ven el disclaimer y las fechas
+  // de ambos marcadores (corte del base y periodo del contraste).
+  const marcadorDesplegado = principales.locator('.marcador-contraste--replegado').first();
+  await marcadorDesplegado.locator('summary').click();
+  const lecturas = marcadorDesplegado.locator('.marcador-contraste__lecturas');
+  await expect(lecturas).toContainText('Ninguna es «la verdad esencial»');
+  await expect(lecturas).toContainText(/corte \d{4}-\d{2}-\d{2}/);
+  await expect(lecturas).toContainText(/\d{4}-\d{2}-\d{2} – \d{4}-\d{2}-\d{2}/);
+
   const maximos = page.locator('section').filter({
     has: page.getByRole('heading', { name: 'Máximos por afinidad' }),
   });

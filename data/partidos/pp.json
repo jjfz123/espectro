@@ -10,11 +10,11 @@
   "actividad": "activa",
   "dobleLectura": {
     "etiquetaBase": "Posición nacional declarada",
-    "descripcionBase": "Programa, ponencia y declaraciones oficiales del Partido Popular en el ámbito estatal.",
+    "descripcionBase": "Programa, ponencia, votaciones y declaraciones oficiales del Partido Popular en el ámbito estatal; cada posición declara su tipo de fuente y su fecha.",
     "contraste": {
       "etiqueta": "Votaciones y actuación reciente",
-      "descripcion": "Contraste separado con decisiones parlamentarias del grupo estatal; no se promedia con la posición declarada.",
-      "desde": "2026-04-20",
+      "descripcion": "Contraste separado con decisiones parlamentarias del grupo estatal y, cuando se etiqueta expresamente, con la actuación de gobiernos autonómicos del PP; no se promedia con la posición declarada.",
+      "desde": "2024-07-23",
       "hasta": "2026-07-09",
       "advertencia": "Una enmienda contra el blindaje constitucional del aborto no equivale por sí sola a defender que solo sea legal en supuestos tasados. Las medidas de un gobierno autonómico del PP se citan solo cuando están explícitamente etiquetadas como tales (mismo partido, mismo registro, sin marca propia) y nunca se generalizan sin más al conjunto de barones regionales.",
       "posiciones": {
@@ -64,6 +64,32 @@
             "url": "https://www.libertaddigital.com/andalucia/2026-07-03/estas-son-las-claves-del-pacto-entre-el-pp-y-vox-en-andalucia-7430263/",
             "fecha": "2026-07-03",
             "consultado": "2026-07-10"
+          }
+        },
+        "nuc-001": {
+          "valor": -1,
+          "justificacion": "Pese a defender que los jueces elijan a los vocales, el 23-7-2024 el Grupo Popular pactó con el PSOE y votó la renovación del CGPJ manteniendo el sistema de elección parlamentaria vigente, cerrando cinco años y medio de bloqueo; en octubre de 2025 registró una proposición de ley para volver a su modelo, aún sin mayoría. La única decisión consumada siguió el sistema que su posición nacional rechaza.",
+          "calidadEvidencia": "alta",
+          "estadoCompromiso": "parcial",
+          "fuente": {
+            "tipo": "votacion",
+            "titulo": "El Congreso elige a los 10 nuevos vocales del CGPJ que le corresponden con los votos de PSOE, PP y Sumar (Infobae)",
+            "url": "https://www.infobae.com/espana/agencias/2024/07/23/el-congreso-elige-a-los-10-nuevos-vocales-del-cgpj-que-le-corresponden-con-los-votos-de-psoe-pp-y-sumar/",
+            "fecha": "2024-07-23",
+            "consultado": "2026-07-12"
+          }
+        },
+        "fem-001": {
+          "valor": -1,
+          "justificacion": "En Aragón (gobierno autonómico del PP, citado expresamente como tal), el 13-3-2025 el PP impulsó solo una modificación parcial de la ley trans autonómica y no acompañó la derogación total que VOX llevó a las Cortes, que quedó en solitario: al decidir, mantuvo la mayor parte de la norma en vigor pese a su rechazo nacional. Calidad media: no consta el detalle de los artículos modificados.",
+          "calidadEvidencia": "media",
+          "estadoCompromiso": "parcial",
+          "fuente": {
+            "tipo": "votacion",
+            "titulo": "PP y Vox chocan también en las Cortes por la «Ley trans» aragonesa (Aragón Digital)",
+            "url": "https://www.aragondigital.es/articulo/politica/pp-vox-chocan-tambien-cortes-ley-trans-aragonesa/20250313174127911673.html",
+            "fecha": "2025-03-13",
+            "consultado": "2026-07-12"
           }
         }
       }
@@ -681,6 +707,18 @@
         "cita": "Garantizaremos que, en las comunidades autónomas con más de una lengua oficial, ambas tendrán la consideración de vehiculares de acuerdo con el patrón de equilibrio lingüístico"
       },
       "grupoEvidencia": "pasaje-8695b75794b18e4bf3c2"
+    },
+    "fem-001": {
+      "valor": -2,
+      "justificacion": "El Grupo Popular votó contra la ley trans en su aprobación definitiva (16-2-2023), tras pedir su devolución con enmienda a la totalidad, y recurrió la norma ante el Tribunal Constitucional en 2023: rechaza la autodeterminación registral del sexo sin informes previos.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "El PP reivindica los avances en derechos LGTBI de España: todas las veces que votó contra las leyes que los impulsaron (elDiario.es)",
+        "url": "https://www.eldiario.es/sociedad/pp-reivindica-avances-derechos-lgtbi-espana-veces-voto-leyes-impulsaron_1_13345879.html",
+        "fecha": "2023-02-16",
+        "consultado": "2026-07-12"
+      }
     }
   }
 }

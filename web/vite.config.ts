@@ -81,7 +81,8 @@ function minimizarCatalogosResultados() {
         delete dato.registroMir;
         delete dato.autodescripcion;
         delete dato.clasificacion;
-        delete dato.revisado;
+        // `revisado` SÍ viaja: el marcador de doble lectura muestra el corte
+        // documental del marcador base («corte AAAA-MM-DD»).
         delete dato.web;
         delete dato.componentes;
       } else if (id.includes('/data/sindicatos/')) {

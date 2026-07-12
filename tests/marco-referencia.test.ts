@@ -102,4 +102,25 @@ describe('doble lectura de partidos', () => {
     );
     expect(detalle).toContain('{lecturaContraste.descripcionBase}');
   });
+
+  it('las cuatro grandes tienen doble lectura fechada: corte del perfil, ventana y fecha en cada fuente observada', () => {
+    for (const id of ['psoe', 'pp', 'vox', 'movimiento-sumar']) {
+      const partido = PARTIDOS.find((p) => p.id === id);
+      expect(partido?.dobleLectura, id).toBeDefined();
+      expect(partido?.revisado, `${id} sin fecha de corte`).toMatch(/^\d{4}-\d{2}-\d{2}$/);
+      const contraste = partido!.dobleLectura!.contraste;
+      expect(contraste.hasta, id).toMatch(/^\d{4}-\d{2}-\d{2}$/);
+      for (const [itemId, pos] of Object.entries(contraste.posiciones)) {
+        expect(pos.fuente?.fecha, `${id} ${itemId}: conducta sin fechar`).toBeTruthy();
+      }
+    }
+  });
+
+  it('el disclaimer «ninguna es la verdad esencial» viaja a la interfaz con corte base y periodo de contraste', () => {
+    const ranking = readFileSync(join(raiz, 'web/src/componentes/Ranking.tsx'), 'utf8');
+    const resultados = readFileSync(join(raiz, 'web/src/vistas/Resultados.tsx'), 'utf8');
+    expect(ranking).toContain('la verdad esencial');
+    expect(ranking).toContain('doble.fechaBase');
+    expect(resultados).toContain('fechaBase: partido.revisado');
+  });
 });

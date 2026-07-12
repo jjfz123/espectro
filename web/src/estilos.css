@@ -1960,6 +1960,15 @@ h3 {
   line-height: 1.4;
 }
 
+.marcador-contraste__lecturas {
+  max-width: 76ch;
+  margin-top: 0.4rem;
+  color: var(--tinta-suave);
+  font-size: 0.75rem;
+  line-height: 1.4;
+  font-style: italic;
+}
+
 /* ————— Resultados: referencias doctrinales ————— */
 
 .lista-referencias {

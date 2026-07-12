@@ -22,13 +22,13 @@
   ],
   "dobleLectura": {
     "etiquetaBase": "Programa y posición oficial",
-    "descripcionBase": "Programa general de 2023, programa europeo de 2024 y declaraciones oficiales identificadas por fecha.",
+    "descripcionBase": "Programa general de 2023, programa europeo de 2024, votaciones y declaraciones oficiales identificadas por fecha; cada posición declara su tipo de fuente.",
     "contraste": {
       "etiqueta": "Conducta y discurso recientes",
       "descripcion": "Votaciones, iniciativas y declaraciones de 2026, conservadas como una segunda capa independiente.",
       "desde": "2026-02-03",
       "hasta": "2026-07-09",
-      "advertencia": "Esta capa no se promedia con el programa ni rellena sus huecos. ACOM es una asociación externa que se declara independiente: no se atribuye a ACOM la dirección de VOX ni un giro causal sin evidencia primaria. El Acuerdo de Gobierno y Estabilidad para Andalucía (2 de julio de 2026) es la primera entrada de VOX en un gobierno autonómico y se cita explícitamente como tal, sin generalizarlo a otros territorios donde VOX no gobierna.",
+      "advertencia": "Esta capa no se promedia con el programa ni rellena sus huecos. ACOM es una asociación externa que se declara independiente: no se atribuye a ACOM la dirección de VOX ni un giro causal sin evidencia primaria. El Acuerdo de Gobierno y Estabilidad para Andalucía (2 de julio de 2026) marca el regreso de VOX a un gobierno autonómico —tras las coaliciones de 2022-2024 en Castilla y León, Extremadura, Aragón, Comunitat Valenciana y Murcia, que abandonó en julio de 2024— y se cita explícitamente como tal, sin generalizarlo a otros territorios donde VOX no gobierna.",
       "posiciones": {
         "dr-003": {
           "valor": 1,
