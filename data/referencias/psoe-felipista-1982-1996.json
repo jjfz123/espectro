@@ -10,11 +10,11 @@
   "revisado": "2026-07-12",
   "publicacionMapa": {
     "publicable": false,
-    "motivo": "Referencia nueva: la mayoría de las citas proceden de títulos y artículos de normas del BOE con cotejo literal pendiente (solo las dos cláusulas del RD 214/1986 alcanzan verbatim alto). Se publica cuando la auditoría adversarial cierre las citas y los encajes declarados como medios (reconversión, ajuste de 1992)."
+    "motivo": "La equivalencia semántica fuente-ítem de las 11 posiciones quedó auditada adversarialmente (AUDITORIA §23, 2026-07-12) sin cambios de valor. Sigue vetada solo por el cotejo literal pendiente: seis citas son hoy títulos oficiales de norma y no pasajes reproducibles, y el pasaje de investidura de ue-001 espera cotejo con la transcripción. Se publica cuando la cola de verificación humana cierre esas citas."
   },
   "publicacionAfinidad": {
     "publicable": false,
-    "motivo": "Referencia nueva pendiente de auditoría semántica adversarial; no participa en afinidad hasta cerrar cada equivalencia entre fuente e ítem."
+    "motivo": "Auditoría semántica adversarial cerrada (AUDITORIA §23) sin cambios de valor; no participa en afinidad hasta que el cotejo literal humano de las citas-título y del pasaje de investidura quede cerrado, el mismo requisito que su proyección en el mapa."
   },
   "facetasDefinitorias": [
     "economico",
@@ -65,7 +65,7 @@
   "posiciones": {
     "def-002": {
       "valor": -2,
-      "justificacion": "El Gobierno convocó el referéndum de 1986 defendiendo la permanencia (González anunció que dimitiría si ganaba el no), tras girar en el 30.º Congreso desde el «OTAN, de entrada no» de la oposición: el giro es el rasgo definitorio de la etapa y se narra en la definición, no se puntúa dos veces.",
+      "justificacion": "El Gobierno convocó el referéndum de 1986 defendiendo la permanencia (González vinculó públicamente su continuidad al resultado), tras girar en el 30.º Congreso desde el «OTAN, de entrada no» de la oposición: el giro es el rasgo definitorio de la etapa y se narra en la definición, no se puntúa dos veces.",
       "calidadEvidencia": "alta",
       "fuente": {
         "tipo": "otro",
@@ -107,7 +107,7 @@
     },
     "eco-002": {
       "valor": -2,
-      "justificacion": "La Ley General de Sanidad crea el Sistema Nacional de Salud público y universal financiado por impuestos, sustituyendo la cobertura contributiva fragmentada: la opción de la etapa fue reforzar la gestión pública, no la privada. Cotejo literal del artículo 1 pendiente (redacción corroborada en fuentes jurídicas coincidentes).",
+      "justificacion": "La Ley General de Sanidad crea el Sistema Nacional de Salud público y universal financiado por impuestos, sustituyendo la cobertura contributiva fragmentada: la opción de la etapa fue reforzar la gestión pública, no la privada. Cotejo literal del artículo 1 pendiente (redacción corroborada en fuentes jurídicas coincidentes). El Informe Abril (1991), encargado por el propio Gobierno, exploró fórmulas de gestión privada sin traducirse en reforma dentro de la etapa.",
       "calidadEvidencia": "media",
       "fuente": {
         "tipo": "otro",
@@ -205,7 +205,7 @@
     },
     "eco-014": {
       "valor": 2,
-      "justificacion": "Convirtió en figura permanente del sistema tributario el gravamen sobre el patrimonio que desde 1977 era extraordinario y transitorio.",
+      "justificacion": "Convirtió en figura permanente del sistema tributario el gravamen sobre el patrimonio que desde 1977 era extraordinario y transitorio; es un gravamen general sobre el patrimonio con mínimo exento, no un impuesto separado que afecte solo a los mayores patrimonios.",
       "calidadEvidencia": "media",
       "fuente": {
         "tipo": "otro",
