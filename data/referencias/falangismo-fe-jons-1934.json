@@ -18,7 +18,7 @@
     "uso-fuerza"
   ],
   "sensibilidad": "antipluralista",
-  "advertencia": "Es una referencia histórica sensible y no la ficha de FE-JONS actual. Se delimita al programa de 1934 para no sumarle retrospectivamente la confesionalidad, la monarquía y la práctica del franquismo, ni el foralismo carlista. Fue un programa totalitario y revolucionario, pero guarda silencio sobre muchos derechos contemporáneos; esos huecos no se codifican. Solo entra en Economía × Poder mediante anclas económicas, de pluralismo y de organización: queda fuera de Economía × Sociedad, de los planos territoriales que no cubra y del cubo 3D, sin inventar una posición GAL–TAN. Una afinidad parcial nunca identifica al usuario como falangista ni legitima el antipluralismo o la violencia política.",
+  "advertencia": "Es una referencia histórica sensible y no la ficha de FE-JONS actual. Se delimita al programa de 1934 —con los «Puntos iniciales» de 1933 como doctrina fundacional declarada— para no sumarle retrospectivamente la confesionalidad, la monarquía y la práctica del franquismo, ni el foralismo carlista. Fue un programa totalitario y revolucionario, pero guarda silencio sobre muchos derechos contemporáneos; esos huecos no se codifican. Entra en Economía × Poder por sus anclas económicas, de pluralismo y de organización; en Economía × Sociedad sigue fuera: sus anclas sociales documentadas no alcanzan aún cuatro pasajes independientes y no se rellenan. Una afinidad parcial nunca identifica al usuario como falangista ni legitima el antipluralismo o la violencia política.",
   "fuentesMarco": [
     {
       "tipo": "otro",
@@ -275,6 +275,34 @@
         "fecha": "1934-11-30",
         "consultado": "2026-07-11"
       }
+    },
+    "izq-044": {
+      "valor": -2,
+      "justificacion": "Doctrina de coacción legítima al servicio del orden nacional: acepta la violencia como lícita al servicio del ideal y nada en el corpus apunta a reducir las funciones coercitivas del Estado ni a trasladar los conflictos a mecanismos comunitarios. La fuente son los «Puntos iniciales» de Falange Española (dic. 1933, previos a la fusión con las JONS), usados como doctrina fundacional que el programa de 1934 continúa, y así se declara. Evaluación de principio, no de la policía de la época.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Falange Española, «Puntos iniciales», semanario F.E.",
+        "url": "https://filosofia.org/hem/193/fes/fe0106.htm",
+        "fecha": "1933-12-07",
+        "consultado": "2026-07-11",
+        "cita": "La violencia puede ser lícita cuando se emplea por un ideal que la justifique. La razón, la justicia y la Patria serán defendidas por la violencia cuando por la violencia —o por la insidia— se las ataque."
+      },
+      "grupoEvidencia": "pasaje-05abdbec39b512916c8d"
+    },
+    "izq-042": {
+      "valor": -2,
+      "justificacion": "El punto 13 reconoce y protege la propiedad privada como medio lícito de los fines individuales, familiares y sociales, y los puntos 17-19 (reforma agraria dirigida por el Estado, propiedad familiar) y 27 (acción solo bajo la disciplina del movimiento) la subordinan al interés nacional: rechaza legitimar la ocupación de edificios como acción política. Valoración de principio; la okupación urbana moderna no existía en 1934.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "27 Puntos de FE de las JONS, punto 13 (reproducción de ABC, 30 de noviembre de 1934)",
+        "url": "https://filosofia.org/hem/dep/abc/9341130.htm",
+        "fecha": "1934-11-30",
+        "consultado": "2026-07-11",
+        "cita": "El Estado reconocerá la propiedad privada como medio lícito para el cumplimiento de los fines individuales, familiares y sociales, y la protegerá contra los abusos del gran capital financiero, de los especuladores y de los prestamistas."
+      },
+      "grupoEvidencia": "pasaje-ba664e28a466b406d6ac"
     }
   }
 }

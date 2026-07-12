@@ -218,8 +218,10 @@
         "titulo": "Estatutos Federales aprobados en el 41.º Congreso",
         "url": "https://41congreso.psoe.es/wp-content/uploads/2025/03/ESTATUTOS41o-CF.pdf",
         "fecha": "2025-03",
-        "consultado": "2026-07-09"
-      }
+        "consultado": "2026-07-09",
+        "cita": "será obligatorio consultar a la militancia del nivel territorial correspondiente sobre los acuerdos de gobierno en los que el PSOE sea parte o sobre el sentido del voto en las sesiones de investidura que supongan facilitar Gobierno a otra fuerza política"
+      },
+      "grupoEvidencia": "pasaje-d5219da90d7822b1b55b"
     },
     "dem-015": {
       "valor": 2,
@@ -474,8 +476,10 @@
         "titulo": "PSOE-Sumar, un acuerdo de investidura que contempla aumentar los conciertos educativos (El Diario de la Educación)",
         "url": "https://eldiariodelaeducacion.com/2023/10/25/psoe-sumar-un-acuerdo-de-investidura-que-contempla-aumentar-los-conciertos-educativos/",
         "fecha": "2023-10-25",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "Combatiremos la segregación escolar mediante la actualización de los módulos y de otros costes de funcionamiento de los centros concertados sostenidos con fondos públicos para asegurar que su oferta es accesible a todas las familias sin peajes ocultos o sesgos de cualquier tipo en la admisión."
+      },
+      "grupoEvidencia": "pasaje-9fe6b032418eadb1eb49"
     },
     "eco-004": {
       "valor": 0,
@@ -515,15 +519,17 @@
     },
     "eco-013": {
       "valor": 1,
-      "justificacion": "En las comunidades que gobierna, el PSOE mantiene y usa en la práctica conciertos con clínicas privadas para aliviar listas de espera: Castilla-La Mancha destina en torno al 5% de su presupuesto sanitario a estos conciertos, y la Junta de Andalucía lo hizo de forma continuada durante sus 36 años de gobierno socialista. Es una conducta real de derivación, aunque el PSOE lo denuncia como privatización cuando lo aplican gobiernos del PP, de ahí un acuerdo moderado y no pleno.",
+      "justificacion": "En las comunidades que gobierna, el PSOE mantiene y usa en la práctica conciertos con clínicas privadas para aliviar listas de espera; la propia fuente compara los porcentajes de presupuesto sanitario destinados a conciertos en comunidades de uno y otro color. Es una conducta real de derivación, aunque el PSOE lo denuncia como privatización cuando lo aplican gobiernos del PP, de ahí un acuerdo moderado y no pleno.",
       "calidadEvidencia": "media",
       "fuente": {
         "tipo": "otro",
         "titulo": "Las regiones del PSOE gastan más en conciertos sanitarios que Andalucía (The Objective)",
         "url": "https://theobjective.com/economia/2025-09-17/regiones-psoe-conciertos-sanitarios-andalucia/",
         "fecha": "2025-09-17",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "Andalucía destina un 4,4% de su presupuesto sanitario a conciertos con la sanidad privada, la mitad de la media nacional (8,6%) y muy por debajo de las comunidades gobernadas por el PSOE"
+      },
+      "grupoEvidencia": "pasaje-b36cf9beec0f4d94bfc8"
     },
     "eco-011": {
       "valor": 2,
@@ -534,8 +540,10 @@
         "titulo": "El Gobierno presenta la reducción de la jornada laboral ordinaria a 37,5 horas semanales (La Moncloa, Consejo de Ministros)",
         "url": "https://www.lamoncloa.gob.es/consejodeministros/resumenes/paginas/2025/040225-rueda-de-prensa-ministros.aspx",
         "fecha": "2025-02-04",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "que la jornada máxima legal sea de 37,5 horas semanales en cómputo anual tras más de cuatro décadas de vigencia de la establecida actualmente, de 40 horas semanales"
+      },
+      "grupoEvidencia": "pasaje-1f3f6d4bf9fa326258d9"
     },
     "fem-010": {
       "valor": 2,

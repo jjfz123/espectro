@@ -406,6 +406,44 @@
         "fecha": "1926-06-20",
         "consultado": "2026-07-11"
       }
+    },
+    "eco-007": {
+      "valor": -2,
+      "justificacion": "La Plataforma reclama la propiedad común de la tierra y la industria y considera que la economía privada reconstruye comercio, acumulación y propiedad privada: rechaza de plano el desalojo exprés que protege el título privado de vivienda frente a su ocupación.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Dielo Truda, Organizational Platform (1926) (en inglés)",
+        "url": "https://www.marxists.org/reference/archive/makhno-nestor/works/1926/platform/ch03.htm",
+        "fecha": "1926-06-20",
+        "consultado": "2026-07-11",
+        "cita": "private economy in agriculture leads, as in private industry, to commerce, accumulation, private property and the restoration of capital"
+      },
+      "grupoEvidencia": "pasaje-29acdc062f353cc82043"
+    },
+    "izq-042": {
+      "valor": 2,
+      "justificacion": "El mismo principio de propiedad común y acción directa de masas (apartado 3 de la Sección General e izq-008) hace de la ocupación de edificios para autogestión una forma legítima de expropiación directa sin mediación legal; el texto habla de fábricas y tierra, no de edificios urbanos, por lo que es valoración de principio.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Organizational Platform, General Section, apartado 3 (en inglés)",
+        "url": "https://www.marxists.org/reference/archive/makhno-nestor/works/1926/platform/ch02.htm",
+        "fecha": "1926-06-20",
+        "consultado": "2026-07-11"
+      }
+    },
+    "der-026": {
+      "valor": -1,
+      "justificacion": "Extensión del rechazo del Estado y del partido único (dem-019, dr-025): el plataformismo niega la maquinaria estatal que ilegalizaría partidos, pero no dispone de una cita directa sobre prohibir formaciones secesionistas, por lo que el desacuerdo se modera a -1.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Organizational Platform, General Section, apartados 5 y 6 (en inglés)",
+        "url": "https://www.marxists.org/reference/archive/makhno-nestor/works/1926/platform/ch02.htm",
+        "fecha": "1926-06-20",
+        "consultado": "2026-07-11"
+      }
     }
   }
 }

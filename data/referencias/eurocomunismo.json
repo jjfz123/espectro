@@ -8,10 +8,6 @@
   "confianza": "verificada",
   "version": "1.0",
   "revisado": "2026-07-11",
-  "publicacionMapa": {
-    "publicable": false,
-    "motivo": "La referencia conserva valor para el matching doctrinal, pero sus cuatro posiciones económicas cargadas miden sobre todo el rechazo a la expropiación inmediata y el sector privado transitorio; proyectarla ahora en el macroplano la desplaza artificialmente a la derecha."
-  },
   "facetasDefinitorias": [
     "metodo-cambio",
     "institucionalismo",
@@ -392,6 +388,42 @@
         "url": "https://omegalfa.es/downloadfile.php?file=libros/eurocomunismo-y-estado.pdf",
         "fecha": "1977",
         "consultado": "2026-07-10"
+      }
+    },
+    "lab-016": {
+      "valor": 2,
+      "justificacion": "El Manifiesto-Programa del PCE de 1975 fija como objetivo estructural la nacionalización de la banca, los monopolios y los latifundios: dirigir desde el Estado las empresas estratégicas, aunque pudieran operar de forma rentable en manos privadas, es el núcleo afirmativo del programa económico eurocomunista.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Manifiesto Programa del PCE (1975)",
+        "url": "https://www.profesionalespcm.org/_php/MuestraArticulo2.php?id=3925",
+        "fecha": "1975",
+        "consultado": "2026-07-11"
+      }
+    },
+    "der-001": {
+      "valor": -2,
+      "justificacion": "El eurocomunismo acepta expresamente el intervencionismo económico y la concertación de los Pactos de la Moncloa (lab-007) y rechaza en todo su ciclo doctrinal la reducción del Estado a seguridad y justicia: es la negación del Estado mínimo.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Santiago Carrillo, «Eurocomunismo» y Estado",
+        "url": "https://omegalfa.es/downloadfile.php?file=libros/eurocomunismo-y-estado.pdf",
+        "fecha": "1977",
+        "consultado": "2026-07-11"
+      }
+    },
+    "izq-005": {
+      "valor": 1,
+      "justificacion": "El programa eurocomunista planifica los sectores estratégicos en combinación con un amplio sector privado subordinado (izq-017), no en sustitución del mercado: comparte la dirección de la planificación pública sin llegar al reemplazo, por lo que el acuerdo es +1 y no máximo.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Santiago Carrillo, «Eurocomunismo» y Estado",
+        "url": "https://omegalfa.es/downloadfile.php?file=libros/eurocomunismo-y-estado.pdf",
+        "fecha": "1977",
+        "consultado": "2026-07-11"
       }
     }
   }

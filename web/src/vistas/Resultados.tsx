@@ -100,7 +100,11 @@ const PERMITIDOS_COMPARTIR = {
 
 export function Resultados({ estado, despachar, puedeRecargar, alConfirmarGuardado }: Props) {
   const [mostrarCompartir, setMostrarCompartir] = useState(false);
-  const [mostrarMapa, setMostrarMapa] = useState(hayReapertura3DPendiente);
+  /* El mapa ya no vive tras una puerta: el cuadrante rico se muestra
+     desplegado sin exigir un clic (norma dura del atlas). Solo se conserva
+     la señal efímera de reapertura del 3D para devolver el foco tras esa
+     recarga intencional; en una carga normal el foco no se roba. */
+  const [enfocarMapaTrasRecarga] = useState(hayReapertura3DPendiente);
   const [mostrarReferencias, setMostrarReferencias] = useState(false);
   const tituloMapaRef = useRef<HTMLHeadingElement>(null);
   const tituloReferenciasRef = useRef<HTMLHeadingElement>(null);
@@ -475,40 +479,23 @@ export function Resultados({ estado, despachar, puedeRecargar, alConfirmarGuarda
         <h2 id="mapa-espectro-titulo" ref={tituloMapaRef} tabIndex={-1}>
           Mapa del espectro
         </h2>
-        {mostrarMapa ? (
-          <Suspense
-            fallback={
-              <div className="explorador-diferido explorador-diferido--cargando" role="status">
-                Preparando el atlas interactivo y sus fuentes…
-              </div>
-            }
-          >
-            <MapaPolitico
-              facetasUsuario={facetasUsuario}
-              puedeRecargar={puedeRecargar}
-              alConfirmarGuardado={alConfirmarGuardado}
-              alMontar={enfocarTituloMapa}
-              nivelPerfil={
-                esPerfilIntermedio ? 'intermedio' : esPerfilProvisional ? 'rapido' : 'exhaustivo'
-              }
-            />
-          </Suspense>
-        ) : (
-          <div className="explorador-diferido">
-            <div>
-              <p className="kicker">Vista interactiva bajo demanda</p>
-              <h3>Abre la brújula detallada cuando quieras explorarla</h3>
-              <p>
-                Incluye las zonas ideológicas, partidos con evidencia publicable, planos por
-                facetas y sus explicaciones. Se carga al pulsar para que el resumen y el ranking
-                sigan siendo rápidos en móvil.
-              </p>
+        <Suspense
+          fallback={
+            <div className="explorador-diferido explorador-diferido--cargando" role="status">
+              Preparando el atlas interactivo y sus fuentes…
             </div>
-            <button type="button" className="boton" onClick={() => setMostrarMapa(true)}>
-              Abrir mapa interactivo
-            </button>
-          </div>
-        )}
+          }
+        >
+          <MapaPolitico
+            facetasUsuario={facetasUsuario}
+            puedeRecargar={puedeRecargar}
+            alConfirmarGuardado={alConfirmarGuardado}
+            alMontar={enfocarMapaTrasRecarga ? enfocarTituloMapa : undefined}
+            nivelPerfil={
+              esPerfilIntermedio ? 'intermedio' : esPerfilProvisional ? 'rapido' : 'exhaustivo'
+            }
+          />
+        </Suspense>
       </section>
 
       <div className="nota-catalogo">

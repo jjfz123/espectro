@@ -47,7 +47,15 @@ function minimizarBancoItems() {
 /**
  * Metadatos editoriales que valida el repositorio pero que ninguna vista usa
  * no deben viajar a cada móvil. Se conservan intactos en `data/`; solo se poda
- * su proyección de producción. Fuentes y justificaciones nunca se eliminan.
+ * su proyección de producción. En partidos y sindicatos las fuentes y
+ * justificaciones SÍ viajan (DetallePartido las muestra). En las referencias
+ * doctrinales ninguna vista muestra los recibos por posición —la ficha enseña
+ * `fuentesMarco` y el motor de proyección solo lee valores y vetos—, así que
+ * se podan `justificacion` y `fuente` de cada posición (decisión del
+ * propietario, 2026-07-11; registrada en docs/PRODUCCION-APP.md «Payload
+ * ligero de referencias»). Los recibos íntegros siguen en data/ bajo
+ * validate:data y auditoría adversarial, y check-web-bundle verifica la poda
+ * contra el artefacto real en cada build.
  */
 function minimizarCatalogosResultados() {
   return {
@@ -84,6 +92,11 @@ function minimizarCatalogosResultados() {
       } else if (id.includes('/data/referencias/')) {
         delete dato.revisado;
         delete dato.version;
+        const posiciones = (dato.posiciones ?? {}) as Record<string, Record<string, unknown>>;
+        for (const posicion of Object.values(posiciones)) {
+          delete posicion.justificacion;
+          delete posicion.fuente;
+        }
       } else if (id.includes('/data/convocatorias/')) {
         delete dato.nota;
         delete dato.fuentesAdicionales;

@@ -342,6 +342,58 @@
         "fecha": "1918-12-14",
         "consultado": "2026-07-11"
       }
+    },
+    "der-026": {
+      "valor": -2,
+      "justificacion": "«La libertad es siempre, y exclusivamente, libertad para el que piensa de otro modo»: Luxemburg hace de la libertad de los que disienten el rasgo esencial de la vida política, coherente con dem-010, dem-019 y lim-005 y con su crítica práctica a la supresión de mencheviques y socialrevolucionarios. Incompatible con ilegalizar partidos por su ideario.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Rosa Luxemburg, The Russian Revolution (1918), cap. 6 (en inglés)",
+        "url": "https://www.marxists.org/archive/luxemburg/1918/russian-revolution/ch06.htm",
+        "fecha": "1918",
+        "consultado": "2026-07-11",
+        "cita": "Freedom is always and exclusively freedom for the one who thinks differently."
+      },
+      "grupoEvidencia": "pasaje-9b2abe7240f1842eca77"
+    },
+    "soc-006": {
+      "valor": 1,
+      "justificacion": "Luxemburg exigió eliminar la pena de muerte del Código Penal alemán; a fortiori, quien pide abolir la pena máxima se inclina contra una condena sin ninguna posibilidad de revisión. Se modera a +1 porque la prisión permanente revisable es una figura española de 2015 y la extensión es de principio, no textual.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Rosa Luxemburg, «Against Capital Punishment», Die Rote Fahne (en inglés)",
+        "url": "https://www.marxists.org/archive/luxemburg/1918/11/18c-alt.htm",
+        "fecha": "1918-11",
+        "consultado": "2026-07-11",
+        "cita": "We demand the excision of capital punishment from the German penal code!"
+      },
+      "grupoEvidencia": "pasaje-a48608f19f75bfd65c71"
+    },
+    "soc-003": {
+      "valor": -1,
+      "justificacion": "Extensión de su defensa de la libertad política irrestricta (dem-010, lim-006): la vigilancia estatal ampliada sin garantías es difícil de conciliar con esa vida pública libre, aunque Luxemburg no trata la tecnología de videovigilancia; por eso el desacuerdo es -1 y la evidencia, baja.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Luxemburg, On the Russian Revolution, democracia y vida pública (en inglés)",
+        "url": "https://www.rosalux.de/stiftung/rosa-luxemburg-1/on-the-russian-revolution",
+        "fecha": "1918",
+        "consultado": "2026-07-11"
+      }
+    },
+    "eco-007": {
+      "valor": -2,
+      "justificacion": "El Programa Espartaquista exige confiscar la riqueza dinástica y expropiar las tierras de las grandes y medianas explotaciones agrarias, además de transformar de raíz el sistema de vivienda: rechaza de plano el desalojo exprés que protege el título privado de vivienda.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Luxemburg, What Does the Spartacus League Want?, demandas económicas (en inglés)",
+        "url": "https://www.rosalux.de/stiftung/rosa-luxemburg-1/what-does-the-spartacus-league-want",
+        "fecha": "1918-12-14",
+        "consultado": "2026-07-11"
+      }
     }
   }
 }

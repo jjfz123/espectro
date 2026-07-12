@@ -1,4 +1,9 @@
-/** Referencias doctrinales: se descargan solo al abrir atlas o comparación. */
+/**
+ * Referencias doctrinales: se descargan solo al abrir atlas o comparación.
+ * Viajan en payload ligero: el plugin de build poda justificacion/fuente de
+ * cada posición porque ninguna vista los muestra (los recibos íntegros viven
+ * en data/ y los verifica CI); ver docs/PRODUCCION-APP.md.
+ */
 import type { ReferenciaDoctrinal } from '@engine';
 
 const modulosReferencias = import.meta.glob('../../data/referencias/*.json', {

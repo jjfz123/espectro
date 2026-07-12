@@ -8,10 +8,6 @@
   "confianza": "verificada",
   "version": "1.0",
   "revisado": "2026-07-11",
-  "publicacionMapa": {
-    "publicable": false,
-    "motivo": "La referencia sigue disponible para el matching por facetas, pero su macroeje social actual recoge inmigración y garantismo sin incorporar las posiciones bioéticas que viven en tradición moral; el cuadrante resultaría indebidamente libertario."
-  },
   "facetasDefinitorias": [
     "economico",
     "tradicion-moral",
@@ -20,7 +16,7 @@
     "modelo-territorial"
   ],
   "sensibilidad": "normal",
-  "advertencia": "Es un tipo ideal doctrinal, no la ficha de ningún partido español actual: el PP se reclama a la vez liberal, democristiano y conservador según sus propios estatutos, y tiene perfil documentado propio que no debe confundirse con este tipo ideal más estrecho. La subsidiariedad territorial se deriva por extensión razonada del argumento de Rerum Novarum sobre la familia y los cuerpos intermedios, no de una mención literal a las comunidades autónomas españolas. Frente al carlismo tradicionalista, esta corriente admite un Estado aconfesional que respeta la libertad religiosa; frente al distributismo de Chesterton y Belloc, acepta la gran empresa y el Estado social en vez de exigir la ruptura de la propiedad concentrada en unidades pequeñas.",
+  "advertencia": "Es un tipo ideal doctrinal, no la ficha de ningún partido español actual: el PP se reclama a la vez liberal, democristiano y conservador y tiene perfil documentado propio. La subsidiariedad territorial se deriva por extensión razonada de Rerum Novarum, no de una mención literal a las comunidades autónomas. Frente al carlismo tradicionalista admite un Estado aconfesional; frente al distributismo acepta la gran empresa y el Estado social. Su eje social recalculado con las anclas bioéticas (fem-012, fem-001) pasa de -42,3 a +2,6 sobre ±100: próximo al centro, con la tradición moral (+90) medida aparte; el veto de mapa se levantó al corregirse el sesgo «indebidamente libertario».",
   "fuentesMarco": [
     {
       "tipo": "otro",
@@ -296,6 +292,34 @@
         "fecha": "1943",
         "consultado": "2026-07-10"
       }
+    },
+    "fem-012": {
+      "valor": -2,
+      "justificacion": "La doctrina reconoce a los padres como los primeros y principales educadores de sus hijos, con un derecho-deber esencial, originario, primario, insustituible e inalienable: de esa primacía educativa se sigue exigir la implicación de los padres cuando una menor de 16 o 17 años decide interrumpir su embarazo, no prescindir de su consentimiento.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Juan Pablo II, Familiaris Consortio, §36",
+        "url": "https://www.vatican.va/content/john-paul-ii/es/apost_exhortations/documents/hf_jp-ii_exh_19811122_familiaris-consortio.html",
+        "fecha": "1981-11-22",
+        "consultado": "2026-07-11",
+        "cita": "Puesto que los padres han dado la vida a los hijos, tienen la gravísima obligación de educar a la prole, y por tanto hay que reconocerlos como los primeros y principales educadores de sus hijos."
+      },
+      "grupoEvidencia": "pasaje-851c1f603958642b2072"
+    },
+    "fem-001": {
+      "valor": -2,
+      "justificacion": "El magisterio sostiene que toda operación de cambio de sexo, por regla general, corre el riesgo de atentar contra la dignidad recibida desde la concepción, y rechaza la teoría de género por negar la diferencia sexual: incompatible con permitir el cambio de sexo registral por la sola voluntad, sin ningún informe.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Dicasterio para la Doctrina de la Fe, Dignitas Infinita",
+        "url": "https://www.vatican.va/roman_curia/congregations/cfaith/documents/rc_ddf_doc_20240402_dignitas-infinita_sp.html",
+        "fecha": "2024-04-02",
+        "consultado": "2026-07-11",
+        "cita": "Toda operación de cambio de sexo, por regla general, corre el riesgo de atentar contra la dignidad única que la persona ha recibido desde el momento de la concepción."
+      },
+      "grupoEvidencia": "pasaje-d9e7c8f85a473df39fc1"
     }
   }
 }

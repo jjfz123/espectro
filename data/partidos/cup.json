@@ -240,8 +240,10 @@
         "titulo": "La CUP proposa d'ampliar el parc públic d'habitatge amb més de 400.000 pisos buits",
         "url": "https://www.vilaweb.cat/noticies/cup-habitatge-pisos-buits-eleccions-catalunya-2024/",
         "fecha": "2024",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "La CUP proposa d'ampliar el parc públic d'habitatge amb més de 400.000 pisos buits"
+      },
+      "grupoEvidencia": "pasaje-f5cfd258f9c29bf86924"
     },
     "eco-007": {
       "valor": -2,
@@ -257,13 +259,15 @@
     "eco-009": {
       "valor": -2,
       "justificacion": "Votó junto a PSC, ERC y els Comuns para tumbar la propuesta del PP de suprimir el impuesto de sucesiones y donaciones en el Parlament, y reclama recuperar su regulación anterior a 2010.",
-      "calidadEvidencia": "alta",
+      "calidadEvidencia": "media",
       "fuente": {
         "tipo": "votacion",
         "titulo": "PSC, ERC, Comuns i CUP tomben la supressió de l'impost de successions i donacions del PP al Parlament",
         "url": "https://www.elnacional.cat/ca/politica/psc-erc-comuns-cup-tomben-supressio-impost-successions-donacions-pp-parlament_1599479_102.html",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "PSC, ERC, Comuns i CUP tomben la supressió de l'impost de successions i donacions del PP al Parlament"
+      },
+      "grupoEvidencia": "pasaje-60393b73c39a516922de"
     },
     "eco-013": {
       "valor": -2,
@@ -313,13 +317,15 @@
     "sd-012": {
       "valor": 2,
       "justificacion": "Votó por el control público pleno de la red eléctrica, propuesta que solo respaldaron ERC, els Comuns y la CUP y que rechazó el bloque de PSC, Junts, PP y Vox; su objetivo declarado es acabar con el oligopolio eléctrico privado.",
-      "calidadEvidencia": "alta",
+      "calidadEvidencia": "media",
       "fuente": {
         "tipo": "votacion",
         "titulo": "La CUP arrenca el compromís d'una transició energètica pública i arrelada al territori, però la cambra blinda l'oligopoli de la xarxa elèctrica",
         "url": "https://cup.cat/la-cup-arrenca-el-compromis-duna-transicio-energetica-publica-i-arrelada-al-territori-pero-la-cambra-blinda-loligopoli-de-la-xarxa-electrica/",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "però la cambra blinda l'oligopoli de la xarxa elèctrica"
+      },
+      "grupoEvidencia": "pasaje-3835e97eaedadfb9818d"
     },
     "sd-008": {
       "valor": 2,
@@ -374,19 +380,23 @@
         "tipo": "declaracion",
         "titulo": "La CUP s'oposa a l'ordenança que pràcticament prohibeix els clubs socials de cànnabis",
         "url": "https://mataro.cup.cat/noticia/la-cup-soposa-lordenan%C3%A7a-que-pr%C3%A0cticament-prohibeix-els-clubs-socials-de-c%C3%A0nnabis",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "La CUP s'oposa a l'ordenança que pràcticament prohibeix els clubs socials de cànnabis"
+      },
+      "grupoEvidencia": "pasaje-3db12be81682c483a332"
     },
     "soc-004": {
       "valor": 2,
-      "justificacion": "Su diputada defendió tener todas las competencias en inmigración para 'acollir millor' y demandó una ILP de regularización extraordinaria de personas migrantes, además del cierre de los CIE.",
-      "calidadEvidencia": "alta",
+      "justificacion": "Su diputada defendió asumir todas las competencias en inmigración para «acollir millor» y cerrar los CIE, que es lo que documenta la fuente citada; la formación se ha sumado además a iniciativas de regularización extraordinaria, extremo que requeriría fuente propia.",
+      "calidadEvidencia": "media",
       "fuente": {
         "tipo": "declaracion",
         "titulo": "La CUP vol les competències en immigració per 'tancar CIES' i 'acollir millor'",
         "url": "https://e-noticies.cat/politica/cup-competencies-immigracio-tancar-cies-acollir-millor",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "La CUP vol les competències en immigració per 'tancar CIES' i 'acollir millor'"
+      },
+      "grupoEvidencia": "pasaje-3dfeaa9cffe1495657bb"
     },
     "izq-044": {
       "valor": 2,
