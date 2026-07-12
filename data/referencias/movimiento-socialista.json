@@ -55,26 +55,30 @@
     "izq-001": {
       "valor": 2,
       "justificacion": "El Movimiento Socialista se plantea la superación revolucionaria de la dominación burguesa y rechaza expresamente la gestión institucional moderada de la izquierda abertzale como vía de transformación; su horizonte es la ruptura, no la acumulación de reformas.",
-      "calidadEvidencia": "baja",
+      "calidadEvidencia": "media",
       "fuente": {
-        "tipo": "otro",
-        "titulo": "Movimiento Socialista, Wikipedia (marxismo revolucionario y comunismo) — corroborado con El Salto",
-        "url": "https://es.wikipedia.org/wiki/Movimiento_Socialista",
-        "fecha": "2026",
-        "consultado": "2026-07-12"
-      }
+        "tipo": "autoubicacion",
+        "titulo": "EHKS — Euskal Herriko Kontseilu Sozialista (web oficial en castellano): reivindicación de la ruptura política frente al régimen del 78",
+        "url": "https://kontseilusozialista.eus/es/2025/09/ehks-reivindicara-la-necesidad-de-la-ruptura-politica-de-los-trabajadores-frente-al-regimen-burgues-espanol-del-78/",
+        "fecha": "2025-09",
+        "consultado": "2026-07-12",
+        "cita": "EHKS reivindicará la necesidad de la ruptura política de los trabajadores frente al régimen burgués español del 78"
+      },
+      "grupoEvidencia": "pasaje-c1c9bf71df02bb579184"
     },
     "izq-002": {
       "valor": 1,
       "justificacion": "Sostiene la necesidad de reconstruir grandes partidos comunistas con militancia, compromiso e ideología clara, y erige EHKS como dirección político-partidaria; el partido comunista es imprescindible, aunque lo formule como partido de nuevo tipo y de masas más que como cuadro estrecho clásico.",
-      "calidadEvidencia": "baja",
+      "calidadEvidencia": "media",
       "fuente": {
-        "tipo": "autoubicacion",
-        "titulo": "EHKS — «Nor gara»: dirección y referente del Movimiento Socialista",
-        "url": "https://kontseilusozialista.eus/es/nor-gara/",
-        "fecha": "2023-12",
-        "consultado": "2026-07-12"
-      }
+        "tipo": "otro",
+        "titulo": "«Euskal Herriko Kontseilu Sozialista, la nueva organización del Movimiento Socialista», GARA (Naiz), sobre su presentación en el frontón Astelena de Éibar",
+        "url": "https://www.naiz.eus/es/hemeroteca/gara/editions/2023-12-17/hemeroteca_articles/euskal-herriko-kontseilu-sozialista-la-nueva-organizacion-del-movimiento-socialista",
+        "fecha": "2023-12-17",
+        "consultado": "2026-07-12",
+        "cita": "Euskal Herriko Kontseilu Sozialista, la nueva organización del Movimiento Socialista"
+      },
+      "grupoEvidencia": "pasaje-765a90f5964ab2aad8a1"
     },
     "izq-009": {
       "valor": -2,
@@ -91,14 +95,16 @@
     "izq-010": {
       "valor": -2,
       "justificacion": "Critica frontalmente a EH Bildu y Sortu por su «política de colaboración de clases» y su gestión institucional dentro del sistema; participar en gobiernos con la socialdemocracia es justo lo que reprocha a la izquierda abertzale institucional.",
-      "calidadEvidencia": "baja",
+      "calidadEvidencia": "media",
       "fuente": {
         "tipo": "otro",
-        "titulo": "El Salto Diario: GKS frente a la moderación institucional de la izquierda abertzale",
-        "url": "https://www.elsaltodiario.com/politica/gks-matar-padre-resucitar-marx",
-        "fecha": "2022",
-        "consultado": "2026-07-12"
-      }
+        "titulo": "«La disidencia de la izquierda abertzale acusa a EH Bildu de ser un partido burgués», Noticias de Gipuzkoa (presentación de EHKS)",
+        "url": "https://www.noticiasdegipuzkoa.eus/politica/2023/12/16/disidencia-izquierda-abertzale-acusa-eh-7645276.html",
+        "fecha": "2023-12-16",
+        "consultado": "2026-07-12",
+        "cita": "La disidencia de la izquierda abertzale acusa a EH Bildu de ser un partido «burgués»"
+      },
+      "grupoEvidencia": "pasaje-2c533d828eab13bd1a7f"
     },
     "izq-019": {
       "valor": 1,

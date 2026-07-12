@@ -47,14 +47,16 @@
     "izq-031": {
       "valor": 2,
       "justificacion": "El Movimiento por la Reconstitución sostiene la consigna del boicot activo frente a cada «farsa electoral», por entender que los comunistas no pueden participar en actividades electorales ni educar a las masas en el respeto de la legalidad institucional burguesa; es su marcador táctico más nítido.",
-      "calidadEvidencia": "baja",
+      "calidadEvidencia": "media",
       "fuente": {
         "tipo": "declaracion",
-        "titulo": "«Ante el ciclo electoral de 2019: ¡Boicot!», reconstitucion.net",
+        "titulo": "«Ante el ciclo electoral de 2019. En defensa del boicot y de las tareas revolucionarias», Movimiento por la Reconstitución (reconstitucion.net)",
         "url": "https://www.reconstitucion.net/Documentos/2019_boicot.html",
         "fecha": "2019",
-        "consultado": "2026-07-12"
-      }
+        "consultado": "2026-07-12",
+        "cita": "Ante el ciclo electoral de 2019. En defensa del boicot y de las tareas revolucionarias"
+      },
+      "grupoEvidencia": "pasaje-4eb7010ed73073c145c5"
     },
     "izq-009": {
       "valor": -2,

@@ -103,26 +103,30 @@
     "dr-025": {
       "valor": -2,
       "justificacion": "Negación expresa del enunciado: defendió y practicó la violencia política como medio legítimo — la Audiencia Nacional lo consideró el brazo político de los GRAPO. Es su rasgo definitorio y la razón de su ilegalización.",
-      "calidadEvidencia": "baja",
+      "calidadEvidencia": "media",
       "fuente": {
         "tipo": "otro",
-        "titulo": "Resoluciones de la Audiencia Nacional (2003-2006): vinculación orgánica PCE(r)-GRAPO",
-        "url": "https://es.wikipedia.org/wiki/Partido_Comunista_de_Espa%C3%B1a_(reconstituido)",
-        "fecha": "2006",
-        "consultado": "2026-07-12"
-      }
+        "titulo": "«El Fiscal pide la suspensión del Partido Comunista Reconstituido como brazo político de GRAPO», Libertad Digital",
+        "url": "https://www.libertaddigital.com/espana/2002-10-22/el-fiscal-pide-la-suspension-del-partido-comunista-reconstituido-como-brazo-politico-de-grapo-1275321207/",
+        "fecha": "2002-10-22",
+        "consultado": "2026-07-12",
+        "cita": "El Fiscal pide la suspensión del Partido Comunista Reconstituido como brazo político de GRAPO"
+      },
+      "grupoEvidencia": "pasaje-6c4ad9e4204a4e0a050c"
     },
     "mon-001": {
       "valor": 2,
-      "justificacion": "Su objetivo declarado era una «república popular y federativa»: rechazo de la Jefatura del Estado hereditaria. Pasaje verbatim en cola.",
-      "calidadEvidencia": "baja",
+      "justificacion": "Su objetivo declarado era una «república popular y federativa»: rechazo de la Jefatura del Estado hereditaria. Fórmula programática reproducida en la síntesis enciclopédica de contraste.",
+      "calidadEvidencia": "media",
       "fuente": {
         "tipo": "otro",
-        "titulo": "Objetivo programático del PCE(r) recogido en su documentación y en las resoluciones judiciales",
+        "titulo": "Objetivo programático del PCE(r) («república popular y federativa») recogido en la síntesis enciclopédica de contraste",
         "url": "https://es.wikipedia.org/wiki/Partido_Comunista_de_Espa%C3%B1a_(reconstituido)",
         "fecha": "2006",
-        "consultado": "2026-07-12"
-      }
+        "consultado": "2026-07-12",
+        "cita": "república popular y federativa"
+      },
+      "grupoEvidencia": "pasaje-cbffaca9bb219c3e444d"
     }
   }
 }
