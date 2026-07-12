@@ -348,7 +348,7 @@ Cada fila solo se cierra cuando existe expediente primario + académico, contrae
 - [ ] Cada punto interactivo de la brújula ofrece un objetivo táctil medido ≥44×44 CSS px a 320/360/390 px; la forma puede seguir pequeña, pero su hit target y foco no.
 - [ ] Arquitectura preparada para una app posterior: lógica/datos compartibles, PWA offline correcta y ningún supuesto irreversible exclusivo del navegador de escritorio.
 
-## Partidos (65)
+## Partidos (66)
 
 - [x] Un único contrato puro de evidencia alimenta CLI, CI y mapa web; no existen contadores paralelos de IDs y pasajes independientes.
 - [ ] Las 399 posiciones citadas conservan `grupoEvidencia` canónico y revisión nominal: las 398 reales tienen hoy URL HTTPS y localizador runtime; el único aviso restante es el perfil ficticio `demo-vanguardia`, sin URL y excluido de producción. El migrador es determinista, idempotente y transaccional ante conflictos; cualquier identidad textual incoherente bloquea el grupo.
@@ -367,7 +367,7 @@ Cada fila solo se cierra cuando existe expediente primario + académico, contrae
 - [ ] En generales, cada relación candidatura–perfil declara explícitamente su ámbito territorial (`territorios`/CCAA) además del perfil enlazado: elegir Catalunya, Galicia, Madrid o Aragón no depende de inferir el ámbito del perfil ni arrastra componentes nacionales de Sumar que no son votables allí.
 - [x] La doble lectura de PSOE, PP, VOX y Sumar clasifica cada fuente como programa/formal o conducta fechada; una base llamada «Programa 2023» no mezcla votaciones, declaraciones y otros documentos sin explicarlo (tipo de fuente por posición; las cuatro descripcionBase declaran ahora la mezcla real de tipos; test de que toda posición de contraste lleva fuente.fecha; 2026-07-12).
 - [ ] BNG, Compromís, EH Bildu y Geroa Bai declaran componentes/identidades completos o una limitación explícita; el detalle los muestra sin heredar posiciones entre ellos.
-- [ ] Las 1.392 posiciones partidistas inventariadas alcanzan cita/localizador y fecha suficientes según el contrato final; una URL al documento completo no cuenta como pasaje reproducible y cualquier alta posterior actualiza de forma explícita este total.
+- [ ] Las 1.428 posiciones partidistas inventariadas alcanzan cita/localizador y fecha suficientes según el contrato final; una URL al documento completo no cuenta como pasaje reproducible y cualquier alta posterior actualiza de forma explícita este total.
 - [ ] La puerta semántica final ejecuta el auditor partidista estricto o una lista nominal de excepciones `auditado-no-mapa`; el modo no estricto queda solo para desarrollo incremental.
 - [ ] Prioridad de cierre documentada: PP/PSOE/CUP/Más Madrid; ERC/VOX/EAJ-PNV; Geroa Bai/Junts/Podemos; luego CC/Compromís/UPN/IU/Por Andalucía/Adelante/NC/Aliança; después comunistas, FE-JONS/extrema derecha, P-LIB y PACMA.
 
@@ -403,7 +403,8 @@ Cada fila solo se cierra cuando existe expediente primario + académico, contrae
 - [ ] `mas-madrid` — Más Madrid _(actividad: activa)_
 - [ ] `movimiento-sumar` — Movimiento Sumar _(actividad: activa)_
 - [ ] `nacion-andaluza` — Nación Andaluza _(actividad: activa)_
-- [ ] `nucleo-nacional` — Noviembre Nacional _(actividad: activa)_
+- [ ] `el-pi` — El Pi – Proposta per les Illes _(actividad: activa; alta 2026-07-12 desde la matriz de la derecha, 9 posiciones verificadas)_
+- [ ] `noviembre-nacional` — Noviembre Nacional _(actividad: activa; id renombrado 2026-07-12: el fichero histórico `nucleo-nacional` describía al partido, no a la asociación)_
 - [ ] `nueva-canarias` — Nueva Canarias-Bloque Canarista _(actividad: activa)_
 - [ ] `pacma` — Partido Animalista con el Medio Ambiente _(actividad: activa)_
 - [ ] `partido-carlista` — Partido Carlista _(actividad: activa)_

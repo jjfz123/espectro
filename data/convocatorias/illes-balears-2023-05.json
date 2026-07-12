@@ -135,7 +135,13 @@
         "Mallorca"
       ],
       "motivoInclusion": "umbral",
-      "perfilRelaciones": [],
+      "perfilRelaciones": [
+        {
+          "perfilId": "el-pi",
+          "relacion": "misma-organizacion",
+          "nota": "Perfil de El Pi – Proposta per les Illes enlazado a su papeleta autonómica de 2023."
+        }
+      ],
       "nota": "Naturaleza inventariada: partido-territorial. Vigencia comprobada: no-comprobada. Tratamiento previsto: perfil-especifico."
     },
     {
@@ -293,7 +299,13 @@
         "Ibiza"
       ],
       "motivoInclusion": "umbral",
-      "perfilRelaciones": [],
+      "perfilRelaciones": [
+        {
+          "perfilId": "el-pi",
+          "relacion": "componente",
+          "nota": "El Pi integró la candidatura conjunta EPIC-El Pi (Eivissa); sus posiciones no se atribuyen automáticamente a la coalición."
+        }
+      ],
       "nota": "Naturaleza inventariada: coalicion-electoral. Vigencia comprobada: matrices-verificadas. Tratamiento previsto: perfil-especifico."
     },
     {
