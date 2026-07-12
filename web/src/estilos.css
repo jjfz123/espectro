@@ -290,6 +290,32 @@ main:focus {
   font-size: 0.82rem;
 }
 
+.tema-conmutador__glifo {
+  margin-right: 0.3rem;
+}
+
+/* En pantallas estrechas el conmutador queda en solo-glifo: el nombre
+   accesible completo vive en aria-label y no depende del texto visible. */
+@media (max-width: 480px) {
+  .cabecera-fila {
+    flex-wrap: wrap;
+    row-gap: 0.15rem;
+  }
+
+  .cabecera-nav {
+    gap: 0.8rem;
+  }
+
+  .tema-conmutador__texto {
+    display: none;
+  }
+
+  .tema-conmutador__glifo {
+    margin-right: 0;
+    font-size: 1rem;
+  }
+}
+
 .cabecera-nav button {
   appearance: none;
   background: none;

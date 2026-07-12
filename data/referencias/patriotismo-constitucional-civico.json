@@ -12,7 +12,13 @@
     "publicable": false,
     "motivo": "La cuadrícula de referencia no contiene una celda homóloga: «National Liberalism» añade economía de mercado y nacionalismo que aquí no se presuponen. El banco estima con solidez Poder en torno a -85/-100, pero carece de anclas económicas; publicar un punto en Economía × Poder inventaría su horizontal."
   },
-  "facetasDefinitorias": ["pluralismo-institucional", "institucionalismo", "social", "libertad-conciencia", "ue"],
+  "facetasDefinitorias": [
+    "pluralismo-institucional",
+    "institucionalismo",
+    "social",
+    "libertad-conciencia",
+    "ue"
+  ],
   "sensibilidad": "normal",
   "advertencia": "Este perfil no declara «constitucionalista» a un bloque partidista ni congela la Constitución española de 1978. Lealtad constitucional significa precisamente que el texto puede interpretarse y reformarse por sus procedimientos sin transformar al discrepante pacífico en enemigo. Tampoco es sinónimo de nacionalismo cívico de Estado: Habermas busca una identidad posnacional basada en derechos, y la literatura española advierte que la etiqueta se ha usado también para legitimar un nacionalismo español excluyente. La cuadrícula aportada carece de equivalente limpio; «National Liberalism» es solo un vecino visual que debe rechazarse. Coordenada esperada: Economía indeterminada y Poder ≈ -95.",
   "fuentesMarco": [
@@ -187,6 +193,34 @@
         "fecha": "2010",
         "consultado": "2026-07-11"
       }
+    },
+    "eco-001": {
+      "valor": 1,
+      "justificacion": "Habermas reclama que los países acreedores acepten efectos redistributivos negativos a corto plazo en su propio interés a largo plazo, como ejemplo clásico de solidaridad fiscal: extensión declarada del plano interestatal europeo a la subida de impuestos a las rentas altas del ítem; por eso +1 moderado y no +2.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Jürgen Habermas, Democracy, Solidarity and the European Crisis (conferencia de Lovaina, publicada en Social Europe; réplica íntegra datada en EU Reporter) (en inglés)",
+        "url": "https://www.eureporter.co/frontpage/2013/05/12/democracy-solidarity-and-the-european-crisis/",
+        "fecha": "2013-04-26",
+        "consultado": "2026-07-12",
+        "cita": "Such an effort would require Germany and several other countries to accept short- and medium-term negative redistribution effects in its own longer-term self-interest — a classic example of solidarity. (en inglés)"
+      },
+      "grupoEvidencia": "pasaje-3b9198034e100dc9c965"
+    },
+    "sd-023": {
+      "valor": 1,
+      "justificacion": "El manifiesto exige re-regulación vinculante del sector financiero como condición inevitable de la disciplina fiscal y de la estabilidad del sistema: extensión declarada hacia consolidar como permanentes los gravámenes a banca y energéticas del ítem, que el texto no cita en concreto; por eso +1 y calidad media. Pasaje distinto del usado en eco-001.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Jürgen Habermas, Peter Bofinger y Julian Nida-Rümelin (coautoría), Only deeper European unification can save the eurozone (orig. FAZ, Für einen Kurswechsel in der Europa-Politik; trad. esp. en El País) (en inglés)",
+        "url": "https://www.theguardian.com/commentisfree/2012/aug/09/deeper-european-unification-save-eurozone",
+        "fecha": "2012-08-09",
+        "consultado": "2026-07-12",
+        "cita": "unavoidable in order to effectively enforce fiscal discipline and guarantee a stable financial system (en inglés)"
+      },
+      "grupoEvidencia": "pasaje-a521c388da2e0b558a0b"
     }
   }
 }

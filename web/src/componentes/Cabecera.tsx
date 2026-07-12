@@ -17,11 +17,17 @@ export function Cabecera({ alIrAPortada, alAbrirMetodologia, tema, alCambiarTema
         <nav className="cabecera-nav" aria-label="Navegación principal">
           <button
             type="button"
+            className="tema-conmutador"
             onClick={alCambiarTema}
             aria-label={`${etiquetaTema(tema)}. Pulsa para cambiar`}
             title="Cambiar entre tema del sistema, claro y oscuro"
           >
-            {etiquetaTema(tema)}
+            <span className="tema-conmutador__glifo" aria-hidden="true">
+              ◐
+            </span>
+            <span className="tema-conmutador__texto" aria-hidden="true">
+              {tema === 'sistema' ? 'sistema' : tema}
+            </span>
           </button>
           <button type="button" onClick={alAbrirMetodologia}>
             Metodología y privacidad
