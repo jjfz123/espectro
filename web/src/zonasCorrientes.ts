@@ -87,9 +87,20 @@ function redondear(n: number): number {
  * fuera paréntesis aclaratorios y, si sigue siendo kilométrico, se corta en
  * la primera rama («… y …») o en la primera coma. El nombre íntegro vive en
  * el tooltip de la zona. Regla genérica: nada de nombres codificados a mano.
+ * Excepción también genérica: un paréntesis que es un periodo histórico
+ * («(1945-1957)») no es un aclaratorio prescindible — «Franquismo
+ * nacionalcatólico 1945-57» y «Franquismo» no se leen igual bajo el punto
+ * del usuario (feedback beta, 2026-07) — y se conserva abreviado.
  */
 export function rotuloZona(nombre: string): string {
-  let corto = nombre.replace(/\s*\([^)]*\)/g, ' ').replace(/\s+/g, ' ').trim();
+  let corto = nombre
+    .replace(/\s*\((\d{4})\s*[–-]\s*(\d{4})\)/g, (_, inicio: string, fin: string) => {
+      const finCorto = fin.slice(0, 2) === inicio.slice(0, 2) ? fin.slice(2) : fin;
+      return ` ${inicio}-${finCorto}`;
+    })
+    .replace(/\s*\([^)]*\)/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim();
   if (corto.length > 26) {
     const rama = corto.split(' y ')[0] ?? corto;
     if (rama.length >= 6) corto = rama.trim();
@@ -99,6 +110,52 @@ export function rotuloZona(nombre: string): string {
     if (coma.length >= 6) corto = coma.trim();
   }
   return corto || nombre;
+}
+
+/** Umbral (en unidades de eje) a partir del cual la zona se declara lejana. */
+export const UMBRAL_ZONA_LEJANA = 25;
+
+export interface ZonaCercanaUsuario {
+  id: string;
+  nombre: string;
+  distancia: number;
+  /** Referencias dibujadas en este cruce (denominador de la advertencia). */
+  dibujadas: number;
+}
+
+/**
+ * Referencia dibujable más cercana al punto del usuario en un cruce de ejes —
+ * por construcción, la dueña de la zona de Voronoi que queda bajo su punto.
+ * Devuelve null si el usuario no tiene valor en ambos ejes o no hay capa.
+ * Existe para poder DECIR debajo del plano lo que el fondo solo insinúa:
+ * que la zona es la referencia más cercana (con su distancia), no una
+ * etiqueta que el instrumento le ponga al usuario.
+ */
+export function zonaMasCercanaDelPar(
+  ejeXId: string,
+  ejeYId: string,
+  valoresUsuario: Record<string, number | null>,
+): ZonaCercanaUsuario | null {
+  const vx = valoresUsuario[ejeXId];
+  const vy = valoresUsuario[ejeYId];
+  if (typeof vx !== 'number' || typeof vy !== 'number') return null;
+  const referencias = referenciasDelPar(ejeXId, ejeYId);
+  let mejor: ZonaCercanaUsuario | null = null;
+  for (const referencia of referencias) {
+    const distancia = Math.hypot(
+      (referencia.valores[ejeXId] as number) - vx,
+      (referencia.valores[ejeYId] as number) - vy,
+    );
+    if (!mejor || distancia < mejor.distancia) {
+      mejor = {
+        id: referencia.id,
+        nombre: referencia.nombre,
+        distancia,
+        dibujadas: referencias.length,
+      };
+    }
+  }
+  return mejor;
 }
 
 /**

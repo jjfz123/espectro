@@ -445,3 +445,24 @@ cubre gatillos: sin cambio de versión.
 **En cola (bloque de ítems, no en esta integración)**: los 6 ítems propuestos en §2b
 (lab-034…038, der-028) con verificación §0 de sus fuentes, y las propuestas del §4 sobre
 la densidad del cuadrante izquierda-autoritaria del plano Economía×Sociedad.
+
+## Integración 2 (FABLE, 2026-07-12): ítems aplicados y arreglo del cuadrante
+
+**§2b aplicado**: los 6 ítems entran como piloto solo-matching (patrón lab-032/033: `ejes: []`,
+cargas propuestas anotadas para calibración pos-piloto) — lab-034…038 en
+trabajo-estado-sindicatos y el sexto como **ene-013 en energia-modelo-productivo** (la
+alternativa que el propio dosier preveía): la queja era de visibilidad y ese módulo lo ve
+todo el espectro, no solo quien dispara corrientes-derecha. Glosario 76 → **78**
+(corporativismo, planificación indicativa, cruzada con la entrada existente de
+planificación económica). Banco 408 → **414**; hash aditivo 649d81ec69349067.
+
+**§4 aplicado (propuestas 2 y 3, orden expresa del propietario)**:
+`rotuloZona` conserva el periodo histórico abreviado («Franquismo nacionalcatólico
+1945-57») y los planos detallados declaran bajo el plano la referencia dibujada más
+cercana al punto del usuario CON su distancia («a N puntos de ti… no una etiqueta»),
+añadiendo el aviso de capa poco poblada cuando queda a ≥25 unidades — el caso exacto del
+tester (−60, +70 → franquismo a ~30). Contrato en tests/zona-usuario-detalle.test.ts con
+datos reales. **La propuesta 1 (densificar: strasserismo n=3/2, ML-maoísmo 3/1,
+izquierda-social-patriótica 3/2, marxismo-ortodoxo 2/0) queda ENCOLADA como tanda de
+anclas con proceso de evidencia completo** — posiciones doctrinales nuevas no se
+improvisan en el sellado.

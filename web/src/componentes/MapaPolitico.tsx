@@ -25,7 +25,12 @@ import {
   TOTAL_REFERENCIAS_CATALOGO,
 } from '../mapaEspacial';
 import type { EntidadMapa } from '../mapaEspacial';
-import { ALTO_LINEA_ZONA, capaCorrientes } from '../zonasCorrientes';
+import {
+  ALTO_LINEA_ZONA,
+  UMBRAL_ZONA_LEJANA,
+  capaCorrientes,
+  zonaMasCercanaDelPar,
+} from '../zonasCorrientes';
 import {
   CORRIENTE_ATLAS_POR_ID,
   anclasAtlasBloqueadasVisibles,
@@ -1095,6 +1100,15 @@ export function MapaPolitico({
   const hayCorrientes = corrientesVisibles.length > 0;
   const partidosFuera = TOTAL_PARTIDOS_CATALOGO - partidosEnAlgunPlano;
   const referenciasFuera = TOTAL_REFERENCIAS_CATALOGO - referenciasEnAlgunPlano;
+  /* La zona del fondo bajo el punto del usuario, con su distancia real:
+     el Voronoi reparte TODO el plano entre las anclas dibujadas, así que en
+     cruces poco poblados una referencia puede «poseer» media franja (el caso
+     «izquierda + orden → franquismo» del feedback beta). Decirlo debajo del
+     plano convierte una etiqueta aparente en una lectura de cercanía. */
+  const zonaUsuarioDetalle = useMemo(
+    () => zonaMasCercanaDelPar(par.x, par.y, valoresUsuario),
+    [par, valoresUsuario],
+  );
   /* Una selección fijada por clic/teclado tiene prioridad sobre el hover.
      Así la ficha no cambia mientras la persona mueve el puntero desde el
      mapa hasta «Más información». Para elegir otra zona basta con pulsarla. */
@@ -1702,6 +1716,18 @@ export function MapaPolitico({
             .map((eje) => `el eje ${NOMBRE_CORTO_EJE[eje] ?? eje}`)
             .join(' y ')}
           . Nunca se dibuja una posición inventada.
+        </p>
+      ) : null}
+
+      {usuarioEnPlano && hayCorrientes && zonaUsuarioDetalle ? (
+        <p className="mapa-zona-usuario nota-al-margen" role="status">
+          La zona de fondo bajo tu punto se nombra por la referencia dibujada más cercana:{' '}
+          <strong>{zonaUsuarioDetalle.nombre}</strong>, a{' '}
+          {Math.round(zonaUsuarioDetalle.distancia)} puntos de ti. Es una cercanía geométrica
+          orientativa, no una etiqueta que te ponga el instrumento.
+          {zonaUsuarioDetalle.distancia >= UMBRAL_ZONA_LEJANA
+            ? ` Y queda lejos: en este cruce solo ${zonaUsuarioDetalle.dibujadas} referencias superan el umbral de evidencia, así que las zonas son grandes y aproximadas; la capa se afinará al documentarse más corrientes.`
+            : ''}
         </p>
       ) : null}
 
