@@ -1,0 +1,153 @@
+{
+  "id": "neonazismo",
+  "nombre": "Neonazismo",
+  "tipo": "referencia-doctrinal",
+  "definicion": "Tipo ideal doctrinal de la rearticulación posbélica del nacionalsocialismo: ultranacionalismo racial, supremacismo y antisemitismo, aspiración a un Estado organizado según criterios étnicos y principio de caudillaje (Führerprinzip), junto a la rehabilitación del régimen nacionalsocialista. Los politólogos lo describen como corriente no electoral y antipluralista; se distingue de la derecha radical que compite en las urnas y del arquetipo aceleracionista terrorista, modelado por separado.",
+  "variante": "Tipo ideal doctrinal reconstruido a partir de la literatura politológica y de síntesis enciclopédicas de contraste; no equivale a ninguna organización o persona concreta, ni a la derecha radical electoral española, ni al nacionalsocialismo histórico alemán.",
+  "periodo": "Europa y España, posguerra (1945) a la actualidad, como tipo ideal doctrinal",
+  "confianza": "estimada",
+  "version": "1.0",
+  "revisado": "2026-07-12",
+  "facetasDefinitorias": [
+    "pluralismo-institucional",
+    "autoridad-politica",
+    "social",
+    "organizacion",
+    "uso-fuerza"
+  ],
+  "sensibilidad": "violenta",
+  "advertencia": "REFERENCIA VIOLENTA Y TIPO IDEAL HISTÓRICO, con lenguaje clínico: describir el neonazismo no lo legitima. Los politólogos lo caracterizan como rearticulación posbélica del nacionalsocialismo (supremacismo racial, antisemitismo, Estado racial y principio de caudillaje); no se confunde con la derecha radical electoral ni con el arquetipo aceleracionista terrorista. En España, el artículo 510 del Código Penal castiga el discurso de odio y el enaltecimiento, negación o trivialización grave del genocidio (Circular 7/2019 de la Fiscalía General del Estado); en Europa, los tribunales han condenado dirigencias neonazis como organización criminal (Amanecer Dorado, Grecia, 2020). Ninguna cercanía parcial en ítems identifica a nadie con esta corriente ni con delito alguno.",
+  "fuentesMarco": [
+    {
+      "tipo": "otro",
+      "titulo": "Neonazismo: síntesis enciclopédica de contraste (ultranacionalismo racial, nacionalismo étnico, antisemitismo y objetivo de Estado fascista)",
+      "url": "https://es.wikipedia.org/wiki/Neonazismo",
+      "fecha": "2026",
+      "consultado": "2026-07-12"
+    },
+    {
+      "tipo": "otro",
+      "titulo": "Fiscalía General del Estado, Circular 7/2019 sobre pautas para interpretar los delitos de odio del artículo 510 del Código Penal (BOE-A-2019-7771)",
+      "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2019-7771",
+      "fecha": "2019-05-14",
+      "consultado": "2026-07-12"
+    },
+    {
+      "tipo": "otro",
+      "titulo": "Líderes del grupo neonazi Amanecer Dorado condenados en Grecia por dirigir una organización criminal (CNN en Español)",
+      "url": "https://cnnespanol.cnn.com/2020/10/07/lideres-del-grupo-neonazi-amanecer-dorado-en-grecia-fueron-declarados-culpables-por-dirigir-organizacion-criminal",
+      "fecha": "2020-10-07",
+      "consultado": "2026-07-12"
+    },
+    {
+      "tipo": "otro",
+      "titulo": "Jorge Ferreira, Vox como representante de la derecha radical en España (Revista Española de Ciencia Política): criterio de Mudde que separa derecha radical de extremismo neonazi",
+      "url": "https://recyt.fecyt.es/index.php/recp/article/download/72190/html_126?inline=1",
+      "fecha": "2019",
+      "consultado": "2026-07-12"
+    }
+  ],
+  "reglaPublicacion": {
+    "minimoItems": 6,
+    "minimoCobertura": 0.65,
+    "umbralAfinidad": 92
+  },
+  "posiciones": {
+    "lim-007": {
+      "valor": 2,
+      "justificacion": "La literatura politológica sitúa en el centro del neonazismo un Estado organizado por criterios raciales; que los derechos políticos dependan del origen étnico expresa esa exclusión etnopolítica, su rasgo más definitorio.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Neonazismo: nacionalismo étnico, racismo y antisemitismo (síntesis enciclopédica de contraste)",
+        "url": "https://es.wikipedia.org/wiki/Neonazismo",
+        "fecha": "2026",
+        "consultado": "2026-07-12"
+      }
+    },
+    "lim-005": {
+      "valor": 2,
+      "justificacion": "El modelo nacionalsocialista que el neonazismo rehabilita suprimió toda oposición organizada; retirar a los opositores del nuevo orden sus derechos de asociación y expresión, aun sin delito violento, es coherente con ese Estado de partido único.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Neonazismo: antipluralismo y rehabilitación del Estado nacionalsocialista (síntesis enciclopédica de contraste)",
+        "url": "https://es.wikipedia.org/wiki/Neonazismo",
+        "fecha": "2026",
+        "consultado": "2026-07-12"
+      }
+    },
+    "lim-001": {
+      "valor": 2,
+      "justificacion": "El principio de caudillaje (Führerprinzip) que las síntesis atribuyen al nacionalsocialismo y a sus herederos afirma una dirección doctrinal incuestionable cuya interpretación obliga a todos los miembros de la organización.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Neonazismo y nacionalsocialismo: ultranacionalismo y principio de caudillaje (síntesis enciclopédica de contraste)",
+        "url": "https://es.wikipedia.org/wiki/Neonazismo",
+        "fecha": "2026",
+        "consultado": "2026-07-12"
+      }
+    },
+    "cul-002": {
+      "valor": 2,
+      "justificacion": "El nacionalismo étnico y racial que los politólogos consideran nuclear del neonazismo define la pertenencia por la ascendencia; el ítem —exigir antepasados para ser «verdaderamente» del país— capta esa concepción de sangre frente a la cívica.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Neonazismo: nacionalismo étnico y concepción racial de la pertenencia (síntesis enciclopédica de contraste)",
+        "url": "https://es.wikipedia.org/wiki/Neonazismo",
+        "fecha": "2026",
+        "consultado": "2026-07-12"
+      }
+    },
+    "dem-019": {
+      "valor": 2,
+      "justificacion": "El neonazismo rehabilita el Estado de partido único nacionalsocialista; un movimiento unificado que dirija el Estado sin competencia permanente entre partidos describe esa forma antipluralista de poder.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Neonazismo: antipluralismo y objetivo de Estado fascista (síntesis enciclopédica de contraste)",
+        "url": "https://es.wikipedia.org/wiki/Neonazismo",
+        "fecha": "2026",
+        "consultado": "2026-07-12"
+      }
+    },
+    "dr-024": {
+      "valor": 2,
+      "justificacion": "Los politólogos usan la preferencia abierta por un régimen autoritario frente a la democracia como separador entre la derecha radical, que rechaza esa preferencia, y el extremismo neonazi, que la afirma.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Jorge Ferreira, Vox como representante de la derecha radical en España (Revista Española de Ciencia Política): criterio de Mudde",
+        "url": "https://recyt.fecyt.es/index.php/recp/article/download/72190/html_126?inline=1",
+        "fecha": "2019",
+        "consultado": "2026-07-12"
+      }
+    },
+    "dr-025": {
+      "valor": -1,
+      "justificacion": "El neonazismo no sostiene que la violencia política nunca sea legítima —glorifica la del régimen que reivindica—, por lo que rechaza el enunciado; se codifica en grado moderado para separarlo del arquetipo aceleracionista terrorista, que hace de la violencia armada su método principal.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Jorge Ferreira, Vox como representante de la derecha radical en España (Revista Española de Ciencia Política): rechazo de la violencia como separador de la derecha radical frente al extremismo",
+        "url": "https://recyt.fecyt.es/index.php/recp/article/download/72190/html_126?inline=1",
+        "fecha": "2019",
+        "consultado": "2026-07-12"
+      }
+    },
+    "lim-006": {
+      "valor": -2,
+      "justificacion": "La salvaguarda inversa del ítem —proteger a la población civil y permitir la crítica pública a los dirigentes— es negada por el modelo racial y de caudillaje que el neonazismo reivindica, que persiguió a poblaciones enteras y suprimió la crítica.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Neonazismo: violencia, opresión y discriminación contra minorías como objetivo declarado (síntesis enciclopédica de contraste)",
+        "url": "https://es.wikipedia.org/wiki/Neonazismo",
+        "fecha": "2026",
+        "consultado": "2026-07-12"
+      }
+    }
+  }
+}
