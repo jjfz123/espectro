@@ -1,6 +1,6 @@
 {
   "id": "fascismo-italiano-regimen",
-  "nombre": "Fascismo italiano de régimen",
+  "nombre": "Fascismo italiano del Ventennio",
   "tipo": "referencia-doctrinal",
   "definicion": "Tipo ideal del régimen del Partido Nacional Fascista consolidado entre 1925 y 1943: Estado totalitario y partido único, representación corporativa en lugar del pluralismo parlamentario, propiedad privada subordinada al interés estatal, concertación laboral coercitiva, nacionalismo autárquico y jerarquización política y social.",
   "variante": "Italia del PNF desde las leyes fascistísimas y la Carta del Trabajo hasta la caída de Mussolini; no incluye el programa sansepolcrista de 1919 ni la República Social Italiana de Salò",
@@ -8,7 +8,14 @@
   "confianza": "verificada",
   "version": "1.0",
   "revisado": "2026-07-11",
-  "facetasDefinitorias": ["institucionalismo", "pluralismo-institucional", "estatismo", "economico", "tradicion-moral", "organizacion"],
+  "facetasDefinitorias": [
+    "institucionalismo",
+    "pluralismo-institucional",
+    "estatismo",
+    "economico",
+    "tradicion-moral",
+    "organizacion"
+  ],
   "sensibilidad": "violenta",
   "advertencia": "Es una referencia histórica sensible para análisis comparado, no una recomendación, una identidad personal ni la ficha de ningún partido español. Se delimita al régimen de 1925-1943 porque el Manifiesto de San Sepolcro de 1919 fue republicano, anticlerical y socialmente radical, mientras la República de Salò de 1943-1945 recuperó retórica socializadora: fusionar las tres fases fabricaría un perfil incoherente. La Carta del Trabajo preserva la iniciativa privada bajo tutela estatal; por eso no se codifica como planificación socialista ni como propiedad pública general. La coincidencia parcial de respuestas nunca autoriza a llamar fascista al usuario.",
   "fuentesMarco": [
