@@ -13,6 +13,7 @@ import {
   sindicatoRelevanteEnCcaa,
 } from '@engine';
 import { CatalogoCandidaturas } from '../componentes/CatalogoCandidaturas';
+import { contextoParticipacionPorPartido } from '../participacionElectoral';
 import { DetalleAfinidad } from '../componentes/DetallePartido';
 import type { LecturaContraste } from '../componentes/DetallePartido';
 import { EspacioPatrocinado } from '../componentes/EspacioPatrocinado';
@@ -146,6 +147,13 @@ export function Resultados({ estado, despachar, puedeRecargar, alConfirmarGuarda
         ccaa: estado.ccaa || undefined,
       }),
     [estado.eleccion, estado.ccaa],
+  );
+
+  // Participación: quién concurre dentro de qué candidatura (sin papeleta con
+  // su propio nombre), para que la mayor afinidad no sea inencontrable en la urna.
+  const contextoParticipacion = useMemo(
+    () => contextoParticipacionPorPartido(seleccionElectoral),
+    [seleccionElectoral],
   );
 
   const resultados = useMemo(() => {
@@ -633,6 +641,7 @@ export function Resultados({ estado, despachar, puedeRecargar, alConfirmarGuarda
               resultados={maximosAfinidad}
               entidades={PARTIDO_POR_ID}
               doblesMarcadores={doblesMarcadores}
+              contextoPorEntidad={contextoParticipacion}
               compacto
             />
             {resultadosRestantes.length > 0 ? (
@@ -649,6 +658,7 @@ export function Resultados({ estado, despachar, puedeRecargar, alConfirmarGuarda
                   resultados={resultadosRestantes}
                   entidades={PARTIDO_POR_ID}
                   doblesMarcadores={doblesMarcadores}
+                  contextoPorEntidad={contextoParticipacion}
                   inicio={maximosAfinidad.length + 1}
                   compacto
                 />
