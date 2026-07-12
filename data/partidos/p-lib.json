@@ -260,6 +260,186 @@
         "fecha": "2025-12",
         "consultado": "2026-07-09"
       }
+    },
+    "lab-002": {
+      "valor": -2,
+      "justificacion": "Rechaza la cogestión: la dirección de la empresa corresponde a sus propietarios y gestores, no a órganos elegidos por la plantilla; defiende la negociación directa entre empresa y trabajador y la primacía del acuerdo de empresa sobre el sectorial.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa Político Marco vigente del Partido Libertario",
+        "url": "https://www.p-lib.es/wp-content/uploads/2025/12/PPM-vigente.pdf",
+        "fecha": "2025-12",
+        "consultado": "2026-07-12"
+      }
+    },
+    "lab-001": {
+      "valor": -2,
+      "justificacion": "Rechaza que los convenios colectivos de sector prevalezcan sobre los acuerdos individuales: aboga por descentralizar la negociación a la empresa y por la contratación individual sin la protección del convenio sectorial.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa Político Marco vigente del Partido Libertario",
+        "url": "https://www.p-lib.es/wp-content/uploads/2025/12/PPM-vigente.pdf",
+        "fecha": "2025-12",
+        "consultado": "2026-07-12"
+      }
+    },
+    "dem-012": {
+      "valor": 2,
+      "justificacion": "Persigue sus objetivos mediante reformas legislativas dentro del orden constitucional y el marco legal —no la sustitución del sistema—, con fuerte énfasis en los límites al Estado y los derechos individuales.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa Político Marco vigente del Partido Libertario",
+        "url": "https://www.p-lib.es/wp-content/uploads/2025/12/PPM-vigente.pdf",
+        "fecha": "2025-12",
+        "consultado": "2026-07-12"
+      }
+    },
+    "dem-029": {
+      "valor": 2,
+      "justificacion": "Propone ampliar las materias que la ciudadanía puede impulsar por Iniciativa Legislativa Popular, de modo que un respaldo suficiente de firmas obligue a tramitar y votar propuestas de ley.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa Político Marco vigente del Partido Libertario",
+        "url": "https://www.p-lib.es/wp-content/uploads/2025/12/PPM-vigente.pdf",
+        "fecha": "2025-12",
+        "consultado": "2026-07-12"
+      }
+    },
+    "dem-001": {
+      "valor": 1,
+      "justificacion": "Defiende que la ciudadanía participe mediante referéndums en las decisiones que afecten sustancialmente a su futuro; apoya un mayor uso de la consulta directa, sin convertirla en la regla única.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa Político Marco vigente del Partido Libertario",
+        "url": "https://www.p-lib.es/wp-content/uploads/2025/12/PPM-vigente.pdf",
+        "fecha": "2025-12",
+        "consultado": "2026-07-12"
+      }
+    },
+    "dem-008": {
+      "valor": 2,
+      "justificacion": "Exige garantías de separación efectiva de poderes y que la elección de jueces y magistrados de los altos tribunales y del Ministerio Fiscal no quede en manos de los partidos.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa Político Marco vigente del Partido Libertario",
+        "url": "https://www.p-lib.es/wp-content/uploads/2025/12/PPM-vigente.pdf",
+        "fecha": "2025-12",
+        "consultado": "2026-07-12"
+      }
+    },
+    "dem-021": {
+      "valor": 2,
+      "justificacion": "Su defensa intensa de la soberanía individual y de los límites al poder ampara la protesta pacífica; rechaza sancionar una manifestación pacífica por la mera falta de comunicación previa.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa Político Marco vigente del Partido Libertario",
+        "url": "https://www.p-lib.es/wp-content/uploads/2025/12/PPM-vigente.pdf",
+        "fecha": "2025-12",
+        "consultado": "2026-07-12"
+      }
+    },
+    "dem-023": {
+      "valor": -2,
+      "justificacion": "Coherente con su defensa de la privacidad y de los límites al Estado, rechaza que la policía identifique a una persona con fines preventivos sin ningún indicio de infracción.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa Político Marco vigente del Partido Libertario",
+        "url": "https://www.p-lib.es/wp-content/uploads/2025/12/PPM-vigente.pdf",
+        "fecha": "2025-12",
+        "consultado": "2026-07-12"
+      }
+    },
+    "lib-010": {
+      "valor": 2,
+      "justificacion": "Por autopropiedad del cuerpo, defiende la legalización regulada de todas las drogas, no solo del cannabis, dejando a cada persona la decisión sobre su propio consumo.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa Político Marco vigente del Partido Libertario",
+        "url": "https://www.p-lib.es/wp-content/uploads/2025/12/PPM-vigente.pdf",
+        "fecha": "2025-12",
+        "consultado": "2026-07-12"
+      }
+    },
+    "der-007": {
+      "valor": -2,
+      "justificacion": "Rechaza prohibir el aborto salvo riesgo vital: defiende la libertad de la mujer para decidir sin coacción en la primera etapa del embarazo, con un Estado neutral en las decisiones morales.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa Político Marco vigente del Partido Libertario",
+        "url": "https://www.p-lib.es/wp-content/uploads/2025/12/PPM-vigente.pdf",
+        "fecha": "2025-12",
+        "consultado": "2026-07-12"
+      }
+    },
+    "der-003": {
+      "valor": 2,
+      "justificacion": "Defiende los derechos de las personas sin distinción de orientación sexual; una defensa sin complejos de los derechos LGTB es coherente con su liberalismo pleno en las costumbres.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa Político Marco vigente del Partido Libertario",
+        "url": "https://www.p-lib.es/wp-content/uploads/2025/12/PPM-vigente.pdf",
+        "fecha": "2025-12",
+        "consultado": "2026-07-12"
+      }
+    },
+    "dr-021": {
+      "valor": -2,
+      "justificacion": "Rechaza suprimir las autonomías en un Estado unitario con una sola administración: defiende el modelo más descentralizado posible, de preferencia federal, y devolver poder a municipios e islas.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Federalismo libertario (Partido Libertario)",
+        "url": "https://www.p-lib.es/2023/11/16/federalismo-libertario/",
+        "fecha": "2023-11-16",
+        "consultado": "2026-07-12"
+      }
+    },
+    "dem-034": {
+      "valor": 1,
+      "justificacion": "Su federalismo voluntario se aproxima a una confederación de territorios que delegan competencias limitadas en instituciones comunes y pueden reconfigurarse por voluntad mayoritaria; matiz: no es soberanismo identitario.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Federalismo libertario (Partido Libertario)",
+        "url": "https://www.p-lib.es/2023/11/16/federalismo-libertario/",
+        "fecha": "2023-11-16",
+        "consultado": "2026-07-12"
+      }
+    },
+    "izq-046": {
+      "valor": 2,
+      "justificacion": "Considera la permanencia y la movilidad geográfica derechos inherentes a la persona que en ningún caso deben quedar al arbitrio del Estado; defiende la libre circulación y una inmigración sin trabas estatales.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Reflexión libertaria sobre la migración y sus efectos en la sociedad (Partido Libertario)",
+        "url": "https://www.p-lib.es/2025/02/10/reflexion-libertaria-sobre-la-migracion-y-sus-efectos-en-la-sociedad",
+        "fecha": "2025-02-10",
+        "consultado": "2026-07-12"
+      }
+    },
+    "izq-001": {
+      "valor": -2,
+      "justificacion": "Es un partido reformista que concurre a las elecciones y busca el cambio por vías graduales y legales; rechaza la ruptura revolucionaria como forma de transformación social.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa Político Marco vigente del Partido Libertario",
+        "url": "https://www.p-lib.es/wp-content/uploads/2025/12/PPM-vigente.pdf",
+        "fecha": "2025-12",
+        "consultado": "2026-07-12"
+      }
     }
   }
 }
