@@ -143,6 +143,42 @@
         "fecha": "2024",
         "consultado": "2026-07-12"
       }
+    },
+    "eco-009": {
+      "valor": 1,
+      "justificacion": "El Pi propone suspender el impuesto de sucesiones y donaciones y el de transmisiones patrimoniales en la compra de la vivienda habitual, una rebaja fiscal coherente con su perfil regionalista liberal. La propuesta se acota a la vivienda habitual y no se formula como supresión permanente y general del tributo, de ahí un acuerdo moderado.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "El Pi presenta su programa electoral centrado en la financiación, la diversificación económica y la vivienda (dBalears)",
+        "url": "https://www.dbalears.cat/balears/politica/2023/04/22/379439/presenta-seu-programa-electoral-centrat-financament-diversificacio-economica-habitatge.html",
+        "fecha": "2023-04-22",
+        "consultado": "2026-07-12"
+      }
+    },
+    "dr-018": {
+      "valor": -1,
+      "justificacion": "El Pi se declara comprometido con la igualdad y contra la violencia de género y apoya las medidas que supongan avances en la erradicación de la violencia machista, lo que va en contra de sustituir la legislación específica de violencia de género por una ley neutra que no distinga el sexo del agresor. Es una inferencia desde esa posición general, sin declaración expresa sobre esta propuesta, de ahí el valor moderado.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Quiénes somos — El Pi – Proposta per les Illes (web oficial)",
+        "url": "https://www.el-pi.com/es/quienes-somos/",
+        "fecha": "2026",
+        "consultado": "2026-07-12"
+      }
+    },
+    "va-012": {
+      "valor": 1,
+      "justificacion": "El Pi asume la contención de la saturación turística y demográfica: respaldó en el Parlament que las islas no pueden crecer más de 300.000 personas cada 15 años, aboga por una Palma más compacta y su diputada propuso el cambio de uso para eliminar plazas turísticas obsoletas y de baja calidad. Favorece limitar las plazas en zonas saturadas, aunque prefiere herramientas flexibles a una moratoria rígida.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Los regionalistas del PI en Baleares también se apuntan a la turismofobia del Govern de Armengol (OKDiario)",
+        "url": "https://okdiario.com/baleares/regionalistas-del-pi-baleares-tambien-apuntan-turismofobia-del-govern-armengol-9609522",
+        "fecha": "2023",
+        "consultado": "2026-07-12"
+      }
     }
   }
 }
