@@ -527,6 +527,54 @@
         "fecha": "2025-10",
         "consultado": "2026-07-10"
       }
+    },
+    "dem-012": {
+      "valor": 2,
+      "justificacion": "Coalición Canaria persigue el máximo autogobierno dentro de España por vías estrictamente institucionales: negociación de investiduras y presupuestos, reforma del Estatuto de Autonomía y del REF, sin plantear rupturas ni salidas unilaterales. Canaliza todo cambio profundo por los procedimientos constitucionales y estatutarios.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Coalición Canaria — quiénes somos (autonomismo constitucional)",
+        "url": "https://coalicioncanaria.org/quienes-somos/",
+        "fecha": "2026",
+        "consultado": "2026-07-12"
+      }
+    },
+    "lab-016": {
+      "valor": -1,
+      "justificacion": "La ponencia ideológica de CC encamina su acción política a 'promover y propiciar la iniciativa privada, la responsabilidad individual, el esfuerzo, el mérito y la emprendeduría'; aunque reclama que los sectores estratégicos permanezcan en manos canarias, no defiende la dirección estatal de empresas rentables, por lo que se inclina en contra del estatismo empresarial.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Ponencia ideológica de Coalición Canaria (iniciativa privada)",
+        "url": "https://coalicioncanaria.org/historia-e-ideologia/",
+        "fecha": "2026",
+        "consultado": "2026-07-12"
+      }
+    },
+    "izq-013": {
+      "valor": -1,
+      "justificacion": "CC lidera la agenda migratoria canaria: votó a favor de tramitar la regularización extraordinaria y Clavijo defiende regularizar a quienes ya trabajan en las islas para no condenarlos a la economía sumergida. Rechaza limitar la entrada de trabajadores extranjeros por presión salarial, aunque reclama corresponsabilidad estatal y europea ante la saturación.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "El Congreso apoya la iniciativa de regularización extraordinaria de extranjeros (Infobae)",
+        "url": "https://www.infobae.com/espana/2024/04/09/el-congreso-apoya-la-iniciativa-de-regularizacion-extraordinaria-de-extranjeros/",
+        "fecha": "2024-04-09",
+        "consultado": "2026-07-12"
+      }
+    },
+    "dem-015": {
+      "valor": -1,
+      "justificacion": "CC funciona como una federación de sensibilidades insulares articulada en organizaciones insulares y extraterritoriales, con equilibrio entre islas y elección de la dirección autonómica por los congresos, más que como un partido centralizado clásico. Su estructura prioriza la autonomía insular sobre la disciplina jerárquica de una dirección nacional cohesionada.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Órganos y estructura federal de Coalición Canaria",
+        "url": "https://coalicioncanaria.org/organos-del-partido/",
+        "fecha": "2026",
+        "consultado": "2026-07-12"
+      }
     }
   }
 }
