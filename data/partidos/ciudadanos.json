@@ -116,6 +116,61 @@
         "fecha": "2024",
         "consultado": "2026-07-09"
       }
+    },
+    "ter-004": {
+      "valor": 2,
+      "justificacion": "La defensa del castellano como lengua vehicular en toda España es una bandera fundacional de Ciudadanos: Albert Rivera prometió garantizar que el castellano fuera lengua vehicular en todos los colegios públicos y concertados del país si el partido llegaba al Gobierno. Acuerdo pleno con el enunciado del ítem.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Rivera promete que si gobierna Ciudadanos el castellano será lengua vehicular en todos los colegios de España (elEconomista)",
+        "url": "https://www.eleconomista.es/politica/noticias/9710725/02/19/Rivera-promete-que-si-gobierna-el-castellano-sera-lengua-vehicular-en-los-colegios-publicos-y-concertados-de-toda-Espana.html",
+        "fecha": "2019-02",
+        "consultado": "2026-07-12",
+        "cita": "el castellano será lengua vehicular en todos los colegios de España"
+      },
+      "grupoEvidencia": "pasaje-259127ab4e00e6f36660"
+    },
+    "nuc-001": {
+      "valor": 2,
+      "justificacion": "Ciudadanos registró una proposición para que doce de los veinte vocales del CGPJ fueran elegidos directamente por los jueces y magistrados mediante elecciones con listas abiertas, como fórmula de «despolitización» de la Justicia. Es exactamente el mecanismo de elección corporativa que plantea el ítem.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "La receta de Ciudadanos para despolitizar la Justicia: elecciones entre jueces para el CGPJ (El Español)",
+        "url": "https://www.elespanol.com/espana/politica/20180711/receta-ciudadanos-despolitizar-justicia-elecciones-jueces-cgpj/321719067_0.html",
+        "fecha": "2018-07-11",
+        "consultado": "2026-07-12",
+        "cita": "elecciones entre jueces para el CGPJ"
+      },
+      "grupoEvidencia": "pasaje-ea2fddd725063bde344f"
+    },
+    "eco-009": {
+      "valor": 2,
+      "justificacion": "Ciudadanos presentó una ley para suprimir el impuesto de sucesiones en toda España y acabar con la desigualdad entre comunidades; donde ha gobernado ha impulsado su bonificación. Acuerdo pleno con suprimir el impuesto de sucesiones y donaciones.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Cs presenta una Ley para suprimir el impuesto de sucesiones y acabar con la desigualdad actual según la CCAA donde se muera (web oficial de Ciudadanos)",
+        "url": "https://www.ciudadanos-cs.org/prensa/cs-presenta-una-ley-para-suprimir-el-impuesto-de-sucesiones-y-acabar-con-la-desigualdad-actual-segun-la-ccaa-donde-se-muera/10845",
+        "consultado": "2026-07-12",
+        "cita": "Cs presenta una Ley para suprimir el impuesto de sucesiones y acabar con la desigualdad actual según la CCAA donde se muera"
+      },
+      "grupoEvidencia": "pasaje-7219dccbde4ab77fb82f"
+    },
+    "eco-010": {
+      "valor": 2,
+      "justificacion": "El modelo laboral insignia de Ciudadanos —el contrato único indefinido con indemnización creciente y la «mochila austriaca»— es la propuesta de flexibilización del despido que el ítem asocia expresamente al liberalismo (Cs +2 en la nota del ítem); el partido lo defendió en el Congreso. Se honra el ancla editorial del ítem.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Ciudadanos defiende hoy en el Congreso su modelo laboral de contrato único y «mochila austriaca» (elEconomista)",
+        "url": "https://www.eleconomista.es/economia/noticias/9216961/06/18/Ciudadanos-defiende-hoy-en-el-Congreso-su-modelo-laboral-de-contrato-unico-y-mochila-austriaca.html",
+        "fecha": "2018-06",
+        "consultado": "2026-07-12",
+        "cita": "su modelo laboral de contrato único y mochila austriaca"
+      },
+      "grupoEvidencia": "pasaje-0bb086ed591afb679eae"
     }
   }
 }
