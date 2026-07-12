@@ -386,48 +386,6 @@
       },
       "grupoEvidencia": "trbj-upn-eco002-publicoprivada"
     },
-    "ene-005": {
-      "valor": 1,
-      "justificacion": "UPN votó junto a PP, Vox, Junts y PNV para tumbar el decreto del gravamen extraordinario a las energéticas, coherente con oponerse a la intervención estatal sobre el sector eléctrico privado; acuerdo con matiz al no ser una declaración directa sobre la competencia en generación y comercialización.",
-      "calidadEvidencia": "media",
-      "fuente": {
-        "tipo": "votacion",
-        "titulo": "El Congreso tumba el decreto del gravamen energético, con el voto de PP, Vox, Junts, PNV y UPN (Teleprensa)",
-        "url": "https://www.teleprensa.com/articulo/economia/congreso-tumba-decreto-gravamen-energetico-voto-pp-vox-junts-pnv-upn/202501221608332012007.html",
-        "fecha": "2025-01-22",
-        "consultado": "2026-07-12",
-        "cita": "El Congreso tumba el decreto del gravamen energético, con el voto de PP, Vox, Junts, PNV y UPN"
-      },
-      "grupoEvidencia": "trbj-upn-ene005-gravamen"
-    },
-    "eco-006": {
-      "valor": -1,
-      "justificacion": "UPN se opone al modelo de fuerte intervención pública en el alquiler que impulsa el Gobierno de Chivite: carga contra su ley de vivienda por dificultar el alquiler y castigar a los propietarios, y rechaza expandir el gran parque público de vivienda en alquiler; de ahí el desacuerdo con matiz.",
-      "calidadEvidencia": "media",
-      "fuente": {
-        "tipo": "declaracion",
-        "titulo": "UPN carga contra la ley de vivienda de Chivite y Bildu (OKDiario Navarra)",
-        "url": "https://navarra.okdiario.com/articulo/politica/upn-carga-ley-vivienda-dificulta-alquiler-castiga-propietarios-familias/20250422121847590279.html",
-        "fecha": "2025-04-22",
-        "consultado": "2026-07-12",
-        "cita": "UPN carga contra la ley de vivienda de Chivite y Bildu"
-      },
-      "grupoEvidencia": "trbj-upn-eco006-vivienda"
-    },
-    "eco-014": {
-      "valor": -1,
-      "justificacion": "La coalición Navarra Suma, que integraba a UPN, votó en el Congreso contra el paquete que creó el Impuesto de Solidaridad de las Grandes Fortunas; prueba indirecta (voto conjunto con el impuesto a banca y energéticas) pero consistente con el rechazo de UPN a este impuesto, de ahí el desacuerdo con matiz.",
-      "calidadEvidencia": "media",
-      "fuente": {
-        "tipo": "votacion",
-        "titulo": "El Congreso aprueba el impuesto a banca, energéticas y grandes fortunas y lo remite al Senado (Forbes)",
-        "url": "https://forbes.es/ultima-hora/199607/el-congreso-aprueba-el-impuesto-a-banca-energeticas-y-grandes-fortunas-y-lo-remite-al-senado/",
-        "fecha": "2022-11-24",
-        "consultado": "2026-07-12",
-        "cita": "El Congreso aprueba el impuesto a banca, energéticas y grandes fortunas y lo remite al Senado"
-      },
-      "grupoEvidencia": "trbj-upn-eco014-fortunas"
-    },
     "dem-008": {
       "valor": 1,
       "justificacion": "UPN votó en contra de la ley de amnistía —criticada por el CGPJ y el Tribunal Supremo como vulneración de la separación de poderes—, defendiendo el respeto a la separación de poderes frente a un acuerdo de investidura; su discurso enfatiza la impunidad más que el término técnico, de ahí el acuerdo con matiz.",
@@ -445,7 +403,7 @@
     "dem-010": {
       "valor": 2,
       "justificacion": "UPN reclamó mantener el control parlamentario y la competencia política durante el estado de alarma, denunciando el «abuso» de un estado de alarma que «secuestra a los parlamentarios y acalla a los representantes» de los ciudadanos.",
-      "calidadEvidencia": "alta",
+      "calidadEvidencia": "media",
       "fuente": {
         "tipo": "declaracion",
         "titulo": "UPN denuncia el «abuso» del Gobierno y la «cobardía impresentable» de Sánchez con el estado de alarma (Servimedia)",
@@ -497,20 +455,6 @@
         "cita": "en ningún momento informaron a la dirección de UPN de que su voto en la convalidación del Real Decreto-ley 32/2021 iba a ser negativo, contraviniendo así la postura oficial acordada"
       },
       "grupoEvidencia": "trbj-upn-dem015-disciplina"
-    },
-    "dem-001": {
-      "valor": -1,
-      "justificacion": "UPN impulsó sin éxito eliminar la Disposición Transitoria Cuarta, el mecanismo constitucional que habilitaría un futuro referéndum vinculante para la incorporación de Navarra a Euskadi, mostrando reticencia a mantener vías de referéndum vinculante para decisiones de gran alcance; ajuste indirecto (caso único), de ahí el matiz.",
-      "calidadEvidencia": "media",
-      "fuente": {
-        "tipo": "votacion",
-        "titulo": "UPN fracasa en su intento de cercenar la capacidad de decidir de los navarros (Noticias de Navarra)",
-        "url": "https://www.noticiasdenavarra.com/politica/2026/04/30/upn-fracasa-cercenar-capacidad-decidir-11008928.html",
-        "fecha": "2026-04-30",
-        "consultado": "2026-07-12",
-        "cita": "UPN fracasa en su intento de cercenar la capacidad de decidir de los navarros"
-      },
-      "grupoEvidencia": "trbj-upn-dem001-transitoria"
     }
   }
 }

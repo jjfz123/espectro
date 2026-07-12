@@ -27,9 +27,9 @@ function posicionesSinFecha(carpeta: string): string[] {
  * fecha; si fechas antiguas, baja el tope aquí en el mismo commit.
  */
 describe('trinquete de fechas en las fuentes', () => {
-  it('posiciones de partidos sin fecha: nunca más de las heredadas (161, 2026-07-12)', () => {
+  it('posiciones de partidos sin fecha: nunca más de las heredadas (160, 2026-07-12)', () => {
     const sinFecha = posicionesSinFecha('data/partidos');
-    expect(sinFecha.length, sinFecha.slice(0, 8).join(', ')).toBeLessThanOrEqual(161);
+    expect(sinFecha.length, sinFecha.slice(0, 8).join(', ')).toBeLessThanOrEqual(160);
   });
 
   it('posiciones de referencias doctrinales sin fecha: nunca más de las heredadas (72 tras el lote del 2026-07-12)', () => {

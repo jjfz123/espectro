@@ -339,7 +339,8 @@ Cada fila solo se cierra cuando existe expediente primario + académico, contrae
 - [x] El presupuesto calcula el cierre transitivo de imports del manifest de Vite; ningún chunk de datos pesado queda fuera del recuento por su nombre.
 - [x] El auditor acepta una carpeta de build explícita y se ejecuta sobre el artefacto recién construido; un `web/dist` obsoleto no puede producir un verde falso.
 - [ ] El auditor de presupuesto, ejecutado de forma aislada, exige una prueba de frescura o un manifest del build de la misma invocación; fuera del orden protegido de CI tampoco puede dar verde sobre un `dist` antiguo.
-- [x] Transferencia adicional de Resultados y catálogos ≤390 KiB gzip, sin ocultar fuentes ni perfiles para aprobar.
+- [x] Transferencia adicional de Resultados y catálogos ≤420 KiB gzip, sin ocultar fuentes ni perfiles para aprobar (tope 390→420 el 2026-07-12: citas de la brújula de partidos que DetallePartido renderiza + datosReferencias en el cierre estático por el cruce mapa↔doctrina).
+- [ ] Recuperación del presupuesto web: el catálogo doctrinal se carga perezoso desde Resultados (el cruce mapa↔doctrina no lo necesita en el cierre estático) y los topes vuelven a ≤120 KiB inicial y ≤390 KiB de resultados; ningún tope se sube dos veces seguidas sin un bloque de recuperación ejecutado entre medias.
 - [x] Atlas 2D y referencias doctrinales tienen puertas bajo gesto, fallback accesible y presupuestos independientes ≤180/≤150 KiB gzip; la PWA sigue precargando sus chunks para uso offline.
 - [x] Visor de resultado compartido ≤250 KiB gzip adicionales y aislado de los datos completos que no necesita.
 - [x] Visor 3D ≤300 KiB gzip adicionales después de Resultados; PWA instalable completa ≤3,20 MiB en este corte.
@@ -367,7 +368,7 @@ Cada fila solo se cierra cuando existe expediente primario + académico, contrae
 - [ ] En generales, cada relación candidatura–perfil declara explícitamente su ámbito territorial (`territorios`/CCAA) además del perfil enlazado: elegir Catalunya, Galicia, Madrid o Aragón no depende de inferir el ámbito del perfil ni arrastra componentes nacionales de Sumar que no son votables allí.
 - [x] La doble lectura de PSOE, PP, VOX y Sumar clasifica cada fuente como programa/formal o conducta fechada; una base llamada «Programa 2023» no mezcla votaciones, declaraciones y otros documentos sin explicarlo (tipo de fuente por posición; las cuatro descripcionBase declaran ahora la mezcla real de tipos; test de que toda posición de contraste lleva fuente.fecha; 2026-07-12).
 - [ ] BNG, Compromís, EH Bildu y Geroa Bai declaran componentes/identidades completos o una limitación explícita; el detalle los muestra sin heredar posiciones entre ellos.
-- [ ] Las 1.604 posiciones partidistas inventariadas alcanzan cita/localizador y fecha suficientes según el contrato final; una URL al documento completo no cuenta como pasaje reproducible y cualquier alta posterior actualiza de forma explícita este total.
+- [ ] Las 1.631 posiciones partidistas inventariadas alcanzan cita/localizador y fecha suficientes según el contrato final; una URL al documento completo no cuenta como pasaje reproducible y cualquier alta posterior actualiza de forma explícita este total.
 - [ ] La puerta semántica final ejecuta el auditor partidista estricto o una lista nominal de excepciones `auditado-no-mapa`; el modo no estricto queda solo para desarrollo incremental.
 - [ ] Prioridad de cierre documentada: PP/PSOE/CUP/Más Madrid; ERC/VOX/EAJ-PNV; Geroa Bai/Junts/Podemos; luego CC/Compromís/UPN/IU/Por Andalucía/Adelante/NC/Aliança; después comunistas, FE-JONS/extrema derecha, P-LIB y PACMA.
 

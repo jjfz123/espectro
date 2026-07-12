@@ -254,3 +254,75 @@ aparecen** en la lista de problemas del auditor).
   de esas entradas (`eco-006`/`eco-009`/`eco-014`, `lab-016`, `dem-015`, `dem-001`), varios
   de esos perfiles subirían de grado.
 - **Pendiente de acceso a PDF (cola humana):** frente-obrero (programa en PDF con 403).
+
+---
+
+## Integración (FABLE, 2026-07-12)
+
+El triaje del agente («aceptar sin más: compromis, geroa-bai, upn») **no superó la
+re-verificación §0**. Se integran 27 de las 40 altas; 13 se retiran y 9 se rebajan de
+calidad. Ningún valor preexistente tocado.
+
+### Retiradas por contrato previo de test (6) — `tests/partidos-regionales-geometria.test.ts`
+
+| Posición | Motivo anclado |
+| --- | --- |
+| mas-madrid `dem-001` | participación municipal (Decide Madrid) ≠ referéndum vinculante habitual; además sin fecha |
+| compromis `eco-014` | voto al impuesto **temporal** de solidaridad ≠ «impuesto permanente» |
+| compromis `eco-011` | la evidencia de 32h no acredita la cláusula «sin rebaja de salario» |
+| geroa-bai `eco-011` | ídem: la resolución de 37,5h «sin mención de rebaja salarial» (confesado en la justificación) |
+| geroa-bai `eco-014` | respaldo a incorporar el ITSGF (temporal) al régimen foral ≠ impuesto permanente |
+| geroa-bai `dem-001` | derecho a decidir sobre el estatus de Navarra = UN referéndum concreto, no «habitualmente» |
+
+### Retiradas por la misma vara de «instrumento exacto» (7, decisión §0 del integrador)
+
+| Posición | Motivo |
+| --- | --- |
+| compromis `lab-017` | «fomento de cooperativas» ≠ transferir grandes empresas a cooperativas (la propia justificación lo concede); además sin fecha. La CUP, más radical, tiene 0 anclado |
+| geroa-bai `dem-002` | la Ley Foral 12/2019 crea **censura/reprobación**, no revocación de mandato (concedido: «no siempre equivalente a revocación plena») |
+| upn `dem-001` | oponerse al referéndum de la DT4ª (incorporación a Euskadi) ≠ rechazar referendos habituales; simétrico exacto del retiro de geroa-bai |
+| upn `eco-014` | voto en contra de un **paquete agrupado** (banca+energéticas+fortunas) y temporal; «prueba indirecta» confesada |
+| upn `ene-005` | tumbar un gravamen fiscal ≠ posición sobre estructura de mercado eléctrico; «no ser una declaración directa» confesado |
+| upn `eco-006` | oponerse a la ley de alquiler de Chivite ≠ rechazar parque público de vivienda; la cita (titular) no contiene esa atribución |
+| mas-madrid `rel-002` | ítem compuesto (aconfesionalidad **y** permitir expresión pública): la PNL restringe predicación en el Metro y la cita-titular hostil no contiene el apoyo aconfesional |
+
+### Rebajas alta→media por titular-como-cita (9)
+
+compromis `dem-026`, `soc-006`, `rel-003`, `eco-009` (cita retórica sin el instrumento), `lib-008`;
+geroa-bai `dem-021`, `soc-006`; upn `dem-010`; coalicion-canaria `dem-021`.
+
+### Fechas completadas (2)
+
+compromis `eco-009` → 2023-07-21 (Valencia Plaza, verificado por búsqueda);
+compromis `lib-008` → 2026-05-13 (TodoTaxi, con Pérez Llorca ya president).
+
+### Grados reales tras la integración
+
+La regla de equilibrio del motor (`evidenciaMapa.js`: ninguna subdimensión cubierta puede
+reposar en una sola ancla independiente, también para «provisional») deja:
+
+| Perfil | main (7cafb3c) | tras integración | Falta para subir |
+| --- | --- | --- | --- |
+| compromis | insuficiente, polo (−100,−100) | insuficiente, (−77.9, −71.7), X 7/6 y 4/3, Y limpia | 2ª ancla en `control-productivo` (lab-017 con resolución explícita) → **sólida directa** |
+| geroa-bai | insuficiente, (−55.4,−100) | insuficiente, (−54.5, −58.3), X 5/6 y 3/3 | 2ª ancla en `coordinacion-mercado` |
+| upn | insuficiente, polo (100,100) | insuficiente, (72.2, −23.7) | 2ª ancla en `coordinacion-mercado` + más X |
+| coalicion-canaria | insuficiente, (50,100) extremo | insuficiente, (2.3, −7.3), Y 5/6 | 2ª familia X; 3ª familia Y |
+| mas-madrid | provisional | provisional (idéntica: los 2 altas retiradas eran su única novedad) | citas de entradas preexistentes (regla de intocabilidad) |
+| frente-obrero | insuficiente | sin cambios (0 altas, PDF 403) | extracción manual de PDFs (cola humana) |
+
+Global: **0/65 sólidas y 2 provisionales en main → 4/65 sólidas (PSOE, CUP, ERC, PNV) y 5
+provisionales (PP, Cs, Sumar, Podemos, MM) tras las cuatro tandas**; extremos sin evidencia
+moderadora 19 → 9. Los polos de caricatura de UPN, Compromís y CC quedan sustituidos por
+coordenadas con recibo.
+
+### Cola de re-revisión expresa (palancas retiradas, recuperables con mejor fuente)
+
+1. compromis/geroa-bai `eco-011`: buscar pasaje que cubra «sin rebaja de salario» explícito.
+2. compromis `lab-017`: resolución explícita tipo CUP (0 documentado) con pasaje localizable.
+3. geroa-bai `dem-002`: texto BOE de la Ley Foral 12/2019 — si algún artículo crea revocación
+   efectiva local, reconsiderar con localizador.
+4. upn `eco-006`/`eco-014`/`ene-005` y mm `rel-002`: declaraciones directas sobre el
+   instrumento (parque público, patrimonio/fortunas como figura permanente, estructura del
+   mercado eléctrico, PNL literal).
+5. upn/geroa-bai `dem-001`: solo con declaraciones generales sobre referendos, no sobre UN
+   referéndum identitario concreto.

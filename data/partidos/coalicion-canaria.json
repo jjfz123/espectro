@@ -635,7 +635,7 @@
     "dem-021": {
       "valor": 2,
       "justificacion": "CC firmó en 2015 el recurso de inconstitucionalidad contra la Ley de Seguridad Ciudadana (ley mordaza), que alegaba vulneración de los derechos de reunión y manifestación, incluida la sanción a quien participa en concentraciones no comunicadas previamente.",
-      "calidadEvidencia": "alta",
+      "calidadEvidencia": "media",
       "fuente": {
         "tipo": "otro",
         "titulo": "Coalición Canaria recurre ante el Constitucional la «ley mordaza» (Canarias Ahora)",

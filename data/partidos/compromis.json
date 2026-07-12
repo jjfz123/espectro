@@ -310,53 +310,27 @@
     "eco-009": {
       "valor": -2,
       "justificacion": "El síndic de Compromís, Joan Baldoví, criticó que la primera medida fiscal del Consell de Mazón fuera acelerar la bonificación del impuesto de sucesiones y donaciones hasta el 99%; Compromís defiende mantener el impuesto y no bonificarlo, postura opuesta a suprimirlo.",
-      "calidadEvidencia": "alta",
+      "calidadEvidencia": "media",
       "fuente": {
         "tipo": "declaracion",
         "titulo": "PSPV y Compromís cargan contra el primer «regalo fiscal» de Mazón: «Ellos saben bien para quién trabajan» (Valencia Plaza)",
         "url": "https://valenciaplaza.com/pspv-compromis-cargan-primer-regalo-fiscal-mazon-ellos-saben-quien-trabajan",
         "consultado": "2026-07-12",
+        "fecha": "2023-07-21",
         "cita": "¿Pensabas que el Partido Popular te iba a bajar impuestos a ti? Ellos saben bien para quién trabajan"
       },
       "grupoEvidencia": "trbj-com-eco009-sucesiones"
     },
-    "eco-014": {
-      "valor": 2,
-      "justificacion": "Compromís votó a favor del impuesto a las grandes fortunas en el Congreso (noviembre de 2022) y, junto a Más País, pidió el llamamiento público para visibilizar el apoyo; Baldoví lo defendió desde la progresividad fiscal constitucional.",
-      "calidadEvidencia": "alta",
-      "fuente": {
-        "tipo": "votacion",
-        "titulo": "El Congreso aprueba el impuesto a grandes fortunas y lo remite al Senado (Idealista)",
-        "url": "https://www.idealista.com/news/finanzas/economia/2022/11/25/800323-el-congreso-aprueba-el-impuesto-a-grandes-fortunas-y-lo-remite-al-senado",
-        "fecha": "2022-11-25",
-        "consultado": "2026-07-12",
-        "cita": "la iniciativa contó con el respaldo de 186 diputados del PSOE, Unidas Podemos, ERC, Bildu, Junts, Más País-Equo, Compromís, CC, la CUP y BNG"
-      },
-      "grupoEvidencia": "trbj-com-eco014-fortunas"
-    },
-    "eco-011": {
-      "valor": 2,
-      "justificacion": "Compromís aboga por reducir la jornada laboral hacia un horizonte de 32 horas semanales y reivindica haber liderado esa apuesta desde la Conselleria de Economía en el Botànic; respalda la reducción de jornada por ley, que en el debate español se plantea sin rebaja salarial.",
-      "calidadEvidencia": "alta",
-      "fuente": {
-        "tipo": "declaracion",
-        "titulo": "Compromís aboga por «un horizonte» de una jornada laboral de 32 horas (Infobae)",
-        "url": "https://www.infobae.com/espana/agencias/2025/05/01/compromis-aboga-por-un-horizonte-de-una-jornada-laboral-de-32-horas/",
-        "fecha": "2025-05-01",
-        "consultado": "2026-07-12",
-        "cita": "Compromís aboga por «un horizonte» de una jornada laboral de 32 horas"
-      },
-      "grupoEvidencia": "trbj-com-eco011-jornada"
-    },
     "lib-008": {
       "valor": -2,
       "justificacion": "Compromís reclama de forma consistente en varias ciudades regular y limitar las VTC para reducir la congestión y proteger al taxi, lo contrario de eliminar los límites de licencias.",
-      "calidadEvidencia": "alta",
+      "calidadEvidencia": "media",
       "fuente": {
         "tipo": "declaracion",
         "titulo": "Compromís reclama regular las VTC para reducir la congestión en València (TodoTaxi)",
         "url": "https://todotaxi.org/compromis-reclama-regular-las-vtc-para-reducir-la-congestion-en-valencia/",
         "consultado": "2026-07-12",
+        "fecha": "2026-05-13",
         "cita": "Compromís reclama regular las VTC para reducir la congestión en València"
       },
       "grupoEvidencia": "trbj-com-lib008-vtc"
@@ -392,7 +366,7 @@
     "dem-026": {
       "valor": 2,
       "justificacion": "Compromís (Baldoví) rechazó participar en el «secuestro» de À Punt por PP y Vox, denunciando el intento de controlar la televisión pública y reclamando volver al consenso y la mayoría reforzada del Botànic para elegir su dirección.",
-      "calidadEvidencia": "alta",
+      "calidadEvidencia": "media",
       "fuente": {
         "tipo": "declaracion",
         "titulo": "PP y Vox defienden a sus candidatos al consejo de À Punt y PSPV y Compromís rechazan participar en su «secuestro» (Valencia Plaza)",
@@ -406,7 +380,7 @@
     "soc-006": {
       "valor": 2,
       "justificacion": "Compromís (Enric Bataller) se posicionó a favor de derogar la prisión permanente revisable, comparándola con una condena a «pudrirse y no a reinsertarse», y apoyó la iniciativa de derogación en el Congreso.",
-      "calidadEvidencia": "alta",
+      "calidadEvidencia": "media",
       "fuente": {
         "tipo": "votacion",
         "titulo": "El Congreso da el primer paso para derogar la prisión permanente revisable (Público)",
@@ -420,7 +394,7 @@
     "rel-003": {
       "valor": -2,
       "justificacion": "Compromís mantiene una postura laicista consistente: reclama suprimir la exención fiscal de la Iglesia y denunciar y derogar los acuerdos con la Santa Sede (Concordato), rechazando cualquier injerencia institucional de las autoridades religiosas en la legislación.",
-      "calidadEvidencia": "alta",
+      "calidadEvidencia": "media",
       "fuente": {
         "tipo": "declaracion",
         "titulo": "Compromís exige a Sánchez que «cobre impuestos» a la Iglesia «como a cualquier hijo de vecino» (Press Digital)",
@@ -476,19 +450,6 @@
         "cita": "Bautismo de fuego de Baldoví ante la patronal: reindustrialización, escuela de negocios pública y VPP con colaboración privada"
       },
       "grupoEvidencia": "trbj-com-lab016-mixto"
-    },
-    "lab-017": {
-      "valor": 1,
-      "justificacion": "Compromís fomenta las cooperativas y la economía social e impulsa fórmulas para la recuperación de empresas por parte de sus trabajadores ante empresas con problemas de continuidad; favorece la propiedad cooperativa y obrera, aunque no plantea explícitamente rechazar la dirección estatal, de ahí el acuerdo parcial.",
-      "calidadEvidencia": "media",
-      "fuente": {
-        "tipo": "programa",
-        "titulo": "Compromiso 98. Fomento de las cooperativas y la economía social — Rendició de comptes (Generalitat Valenciana)",
-        "url": "https://rendiciocomptes.gva.es/es/compromis98",
-        "consultado": "2026-07-12",
-        "cita": "Fomentaremos las cooperativas y la economía social para impulsar un cambio en el modelo productivo basado en valores democráticos, participativos, igualitarios y sostenibles."
-      },
-      "grupoEvidencia": "trbj-com-lab017-cooperativas"
     }
   }
 }
