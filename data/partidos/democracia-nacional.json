@@ -243,6 +243,64 @@
         "fecha": "2026",
         "consultado": "2026-07-12"
       }
+    },
+    "izq-046": {
+      "valor": -2,
+      "justificacion": "Su nativismo —lema «Los españoles primero» y reclamación de deportaciones masivas frente a lo que llama inmigración de «reemplazo»— es incompatible con reconocer la libre circulación entre países como derecho universal de toda persona: antepone a los nacionales sobre cualquier origen.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Democracia Nacional — Los españoles primero (web oficial)",
+        "url": "https://democracianacional.es/",
+        "fecha": "2026",
+        "consultado": "2026-07-12"
+      }
+    },
+    "pop-001": {
+      "valor": 2,
+      "justificacion": "La politología la describe como extrema derecha de modelo lepenista (nacional-populismo identitario) y su presidente opone el «falso igualitarismo» de las élites ilustradas a una «democracia orgánica»: sostiene un marco de pueblo frente a élites, aquí en clave identitaria.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Entrevista a Pedro Chaparro, presidente de Democracia Nacional (SevillaInfo)",
+        "url": "https://www.sevillainfo.es/noticias-nacional/entrevista-a-pedro-chaparro-presidente-de-democracia-nacional-dn/",
+        "consultado": "2026-07-12"
+      }
+    },
+    "ter-001": {
+      "valor": 2,
+      "justificacion": "Su nacionalismo español centralista, en oposición frontal a los nacionalismos periféricos, sostiene la recentralización: que las comunidades autónomas devuelvan competencias al Estado central.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Democracia Nacional — Wikipedia (nacionalismo español y oposición a los nacionalismos periféricos)",
+        "url": "https://es.wikipedia.org/wiki/Democracia_Nacional",
+        "fecha": "2026",
+        "consultado": "2026-07-12"
+      }
+    },
+    "dem-019": {
+      "valor": 2,
+      "justificacion": "Su presidente propone sustituir la democracia liberal de partidos por una «democracia orgánica» que rechaza el «falso igualitarismo» ilustrado: un modelo de movimiento nacional unificado que dirige el Estado sin competencia permanente entre partidos.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Entrevista a Pedro Chaparro, presidente de Democracia Nacional (SevillaInfo)",
+        "url": "https://www.sevillainfo.es/noticias-nacional/entrevista-a-pedro-chaparro-presidente-de-democracia-nacional-dn/",
+        "consultado": "2026-07-12"
+      }
+    },
+    "geo-015": {
+      "valor": -2,
+      "justificacion": "Su euroescepticismo declarado —salida del euro y de Schengen, y la tesis de que la Unión Europea debe desaparecer— es incompatible con que la política exterior de la UE se apruebe por mayoría cualificada contra el criterio de España.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Democracia Nacional — Wikipedia (posición euroescéptica declarada)",
+        "url": "https://es.wikipedia.org/wiki/Democracia_Nacional",
+        "fecha": "2026",
+        "consultado": "2026-07-12"
+      }
     }
   }
 }
