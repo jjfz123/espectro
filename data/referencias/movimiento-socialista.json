@@ -135,6 +135,42 @@
         "fecha": "2025",
         "consultado": "2026-07-12"
       }
+    },
+    "izq-050": {
+      "valor": 1,
+      "justificacion": "Comparte la lógica en clave propia («recomposición del proletariado», partido comunista de masas de nuevo tipo), sin el corpus doctrinal de la Línea de Reconstitución: +1, no +2. Pasaje en cola.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Movimiento Socialista: recomposición y partido de nuevo tipo (caracterización del informe)",
+        "url": "https://es.wikipedia.org/wiki/Movimiento_Socialista",
+        "fecha": "2023-12",
+        "consultado": "2026-07-12"
+      }
+    },
+    "izq-051": {
+      "valor": 2,
+      "justificacion": "Critica el interclasismo de los nuevos movimientos desde la centralidad de la clase, según su caracterización doctrinal. Pasaje en cola.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Movimiento Socialista: crítica del interclasismo (caracterización del informe)",
+        "url": "https://es.wikipedia.org/wiki/Movimiento_Socialista",
+        "fecha": "2025",
+        "consultado": "2026-07-12"
+      }
+    },
+    "izq-053": {
+      "valor": -2,
+      "justificacion": "Construcción extraparlamentaria independiente: rechaza militar dentro de la izquierda institucional (su ruptura con la izquierda abertzale oficial es constitutiva). Pasaje en cola.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Movimiento Socialista: independencia organizativa (caracterización del informe)",
+        "url": "https://es.wikipedia.org/wiki/Movimiento_Socialista",
+        "fecha": "2023-12",
+        "consultado": "2026-07-12"
+      }
     }
   }
 }

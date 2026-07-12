@@ -139,6 +139,66 @@
         "fecha": "2026",
         "consultado": "2026-07-12"
       }
+    },
+    "izq-049": {
+      "valor": 2,
+      "justificacion": "Sitúa la traición revisionista en el XX Congreso (1956), cierre del «Ciclo de Octubre» que obliga a reconstituir el comunismo. Pasaje verbatim en cola.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Línea Proletaria: balance del Ciclo de Octubre (caracterización del informe)",
+        "url": "https://www.reconstitucion.net/Documentos/2019_boicot.html",
+        "fecha": "2019",
+        "consultado": "2026-07-12"
+      }
+    },
+    "izq-050": {
+      "valor": 2,
+      "justificacion": "Es SU tesis constitutiva: el Partido Comunista ya no existe y debe reconstituirse ideológica y orgánicamente antes de dirigir luchas de masas. Pasaje en cola.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Línea Proletaria: tesis de la reconstitución",
+        "url": "https://www.reconstitucion.net/Documentos/2019_boicot.html",
+        "fecha": "2019",
+        "consultado": "2026-07-12"
+      }
+    },
+    "izq-051": {
+      "valor": 2,
+      "justificacion": "Critica el «posmodernismo interclasista» de los nuevos movimientos como desviación de la contradicción capital-trabajo, según su caracterización doctrinal. Pasaje en cola.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Línea Proletaria: crítica del interclasismo (caracterización del informe)",
+        "url": "https://www.reconstitucion.net/Documentos/2019_boicot.html",
+        "fecha": "2019",
+        "consultado": "2026-07-12"
+      }
+    },
+    "izq-052": {
+      "valor": -2,
+      "justificacion": "Rechaza que ninguna experiencia estatal actual (China, Cuba, Venezuela) sea socialista: el Ciclo de Octubre está cerrado. Pasaje en cola.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Línea Proletaria: cierre del Ciclo de Octubre (caracterización del informe)",
+        "url": "https://www.reconstitucion.net/Documentos/2019_boicot.html",
+        "fecha": "2019",
+        "consultado": "2026-07-12"
+      }
+    },
+    "izq-053": {
+      "valor": -2,
+      "justificacion": "Rechaza el entrismo y toda táctica dentro de la izquierda institucional: la reconstitución es previa e independiente. Pasaje en cola.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Línea Proletaria: independencia frente al electoralismo y el entrismo",
+        "url": "https://www.reconstitucion.net/Documentos/2019_boicot.html",
+        "fecha": "2019",
+        "consultado": "2026-07-12"
+      }
     }
   }
 }
