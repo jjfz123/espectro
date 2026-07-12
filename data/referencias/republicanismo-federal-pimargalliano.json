@@ -8,10 +8,6 @@
   "confianza": "verificada",
   "version": "1.0",
   "revisado": "2026-07-11",
-  "publicacionMapa": {
-    "publicable": false,
-    "motivo": "La evidencia delimita con claridad república, pacto, autonomía y poder federal, pero no ofrece posiciones comparables suficientes en los macroejes económico y social; proyectarlo al cuadrante principal inventaría coordenadas."
-  },
   "facetasDefinitorias": [
     "monarquia",
     "modelo-territorial",
@@ -94,6 +90,7 @@
         "tipo": "otro",
         "titulo": "Pere Gabriel, Pi y Margall y el federalismo popular democrático (CEPC)",
         "url": "https://www.cepc.gob.es/sites/default/files/2021-12/26633peregabrielpyh06.pdf",
+        "fecha": "2021",
         "consultado": "2026-07-11"
       }
     },

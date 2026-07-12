@@ -68,7 +68,9 @@
   },
   {
     "id": "izq-004",
-    "terminos": ["socialismo-real"],
+    "terminos": [
+      "socialismo-real"
+    ],
     "texto": "El balance histórico de la Unión Soviética fue, en conjunto, más positivo que negativo para la clase trabajadora.",
     "modulo": "corrientes-izquierda",
     "ejes": [],
@@ -221,7 +223,9 @@
   },
   {
     "id": "izq-012",
-    "terminos": ["otan"],
+    "terminos": [
+      "otan"
+    ],
     "texto": "La salida de la OTAN debe ser condición innegociable para apoyar o participar en cualquier gobierno.",
     "modulo": "corrientes-izquierda",
     "ejes": [
@@ -399,7 +403,9 @@
   },
   {
     "id": "izq-020",
-    "terminos": ["socialismo-real"],
+    "terminos": [
+      "socialismo-real"
+    ],
     "texto": "El balance de la etapa de Stalin al frente de la URSS es, en conjunto, positivo para el socialismo.",
     "modulo": "corrientes-izquierda",
     "ejes": [],
@@ -415,7 +421,9 @@
   },
   {
     "id": "izq-021",
-    "terminos": ["burocratizacion-urss"],
+    "terminos": [
+      "burocratizacion-urss"
+    ],
     "texto": "Trotski representó una oposición revolucionaria legítima frente a la burocratización de la URSS.",
     "modulo": "corrientes-izquierda",
     "ejes": [],
@@ -559,7 +567,9 @@
   },
   {
     "id": "izq-029",
-    "terminos": ["otan"],
+    "terminos": [
+      "otan"
+    ],
     "texto": "En un conflicto entre la OTAN y potencias como Rusia, los comunistas deben apoyar al bando enfrentado a Estados Unidos.",
     "modulo": "corrientes-izquierda",
     "ejes": [],
@@ -899,5 +909,125 @@
     ],
     "estado": "piloto",
     "notas": "Discrimina: Separa el internacionalismo libertario (abolición de fronteras como principio: muy de acuerdo) de la izquierda que acepta la gestión estatal de flujos migratorios (PSOE) y del soberanismo obrerista que desconfía de la libre circulación bajo el capitalismo (PCTE). Complementa sin duplicar el ítem de devoluciones del núcleo, que mide política coyuntural y no el principio. | Esperado: anarcocomunismo +2, CNT +2, CUP +1, Podemos +1, PCE/IU +0, PSOE -1, PCTE -1. | Activa el eje 'internacionalismo' (signo negativo = polo internacionalista, correcto). Añade una positiva para compensar el balance de polaridad del conjunto. | [Añadido por el revisor para cubrir un hueco]"
+  },
+  {
+    "id": "izq-047",
+    "terminos": [
+      "materialismo-historico"
+    ],
+    "texto": "La transformación social debe guiarse por un análisis científico de la economía y de la historia, más que por ideales morales sobre cómo deberían ser las personas.",
+    "modulo": "corrientes-izquierda",
+    "ejes": [],
+    "polaridad": "positiva",
+    "tags": [
+      "metodo",
+      "socialismo-cientifico"
+    ],
+    "estado": "piloto",
+    "notas": "Solo-matching (hueco «ciencia vs. utopía» detectado en la revisión comparada, 2026-07-12): separa el socialismo autodenominado «científico» (marxismo-leninismo, bordiguismo) de corrientes ético-utópicas y prefigurativas, sin cargar ejes. Esperado: ML/bordiguismo +2; socialismo ético, anarquismo prefigurativo y cristianismo social −1/−2; socialdemocracia 0/−1. Redacción propia, sin copiar enunciados de terceros."
+  },
+  {
+    "id": "izq-048",
+    "texto": "Construir ya, a pequeña escala, la sociedad deseada —cooperativas, comunidades, instituciones propias— transforma más que esperar a que las condiciones históricas estén maduras.",
+    "modulo": "corrientes-izquierda",
+    "ejes": [],
+    "polaridad": "positiva",
+    "tags": [
+      "prefiguracion",
+      "cooperativismo"
+    ],
+    "estado": "piloto",
+    "notas": "Solo-matching (par de izq-047, 2026-07-12): voz afirmativa utópico-prefigurativa frente al determinismo de condiciones; ambas voces del par se preguntan por separado para no privilegiar una. Esperado: anarquismo prefigurativo, cooperativismo y socialismo utópico +1/+2; ML clásico −1/−2 (prioriza condiciones y partido); reformismo gradualista puede coincidir en +1 por motivos distintos. Redacción propia."
+  },
+  {
+    "id": "izq-049",
+    "texto": "El giro de la URSS tras la muerte de Stalin (el XX Congreso del PCUS, 1956) supuso el abandono del socialismo que hasta entonces se construía.",
+    "modulo": "corrientes-izquierda",
+    "ejes": [],
+    "polaridad": "positiva",
+    "tags": [
+      "urss",
+      "revisionismo"
+    ],
+    "estado": "piloto",
+    "notas": "Solo-matching (informe del propietario sobre el campo comunista, 2026-07-12; Eje 1 fino): fecha el momento de la degeneración. Esperado: hoxhaísmo y reconstitución +2 (traición revisionista de 1956); prosoviéticos ortodoxos −2 (la URSS fue socialista hasta 1991, sin degeneración); trotskismo −2 POR OTRA RAZÓN (la burocratización fue anterior, bajo Stalin: coincidencia entre ideologías por motivos distintos, se desambigua con izq-020/izq-021). Redacción propia."
+  },
+  {
+    "id": "izq-050",
+    "texto": "El partido comunista debe reconstituirse desde cero, ideológica y orgánicamente, antes de intentar dirigir las luchas de masas.",
+    "modulo": "corrientes-izquierda",
+    "ejes": [],
+    "polaridad": "positiva",
+    "tags": [
+      "reconstitucion",
+      "partido"
+    ],
+    "estado": "piloto",
+    "notas": "Solo-matching (Eje 9 del informe, 2026-07-12): tesis de la reconstitución frente a la continuidad orgánica. Esperado: Línea Proletaria/CxR +2 y Movimiento Socialista +1/+2 en clave propia («recomposición»); PCE, PCTE, PCPE y PCOE −2 (todos se reivindican continuidad del partido histórico). Redacción propia, sin copiar el fraseo del informe."
+  },
+  {
+    "id": "izq-051",
+    "texto": "Las luchas feministas, LGTBI y ecologistas, tal como se plantean hoy, desvían al movimiento obrero de la contradicción entre capital y trabajo.",
+    "modulo": "corrientes-izquierda",
+    "ejes": [],
+    "polaridad": "positiva",
+    "tags": [
+      "clase",
+      "nuevos-movimientos"
+    ],
+    "estado": "piloto",
+    "notas": "Solo-matching (Eje 10 del informe, 2026-07-12; el más discriminante del campo): crítica al «posmodernismo interclasista» frente a la integración de los nuevos movimientos. Formulación clínica sobre el planteamiento actual («tal como se plantean hoy»), no sobre la legitimidad de los derechos: mide una tesis estratégica, no aprueba hostilidad. Esperado: PCTE, Reconstrucción Comunista/Frente Obrero, CxR y GKS +1/+2; PCE, comuns, CRT/Pan y Rosas, IR/Libres y Combativas −2. Redacción propia."
+  },
+  {
+    "id": "izq-052",
+    "texto": "Cuba y Venezuela representan hoy referencias positivas para construir el socialismo.",
+    "modulo": "corrientes-izquierda",
+    "ejes": [],
+    "polaridad": "positiva",
+    "tags": [
+      "cuba",
+      "venezuela"
+    ],
+    "estado": "piloto",
+    "notas": "Solo-matching (Eje 13 del informe, 2026-07-12; China ya está en izq-028): experiencias actuales como referencia. Esperado: PCE, PCPE, UPG y Nación Andaluza +1/+2; trotskismo y reconstitución −1/−2 (ninguna las considera socialistas). Redacción propia."
+  },
+  {
+    "id": "izq-053",
+    "texto": "Los revolucionarios deben militar dentro de los grandes partidos de la izquierda institucional para ganarlos desde dentro, en vez de construir un partido propio desde el principio.",
+    "modulo": "corrientes-izquierda",
+    "ejes": [],
+    "polaridad": "positiva",
+    "tags": [
+      "entrismo",
+      "tactica"
+    ],
+    "estado": "piloto",
+    "notas": "Solo-matching (recomendación 2 del informe, 2026-07-12): desagrega el trotskismo por táctica. Esperado: tradición del entrismo (Militant/IR) +1/+2; construcción independiente (CRT, PRT, PCTE) −2; el metadato de Internacional (FT-CI, LIT-CI, lambertismo, mandelismo) vive en `clasificacion`, no en ítems. Redacción propia."
+  },
+  {
+    "id": "izq-054",
+    "texto": "Si mi organización toma una decisión en común, debería estar obligada a defenderla y aplicarla toda ella por igual, aunque una parte hubiera votado en contra.",
+    "modulo": "corrientes-izquierda",
+    "ejes": [],
+    "polaridad": "positiva",
+    "tags": [
+      "plataformismo",
+      "organizacion"
+    ],
+    "estado": "piloto",
+    "notas": "Solo-matching (dosier MATRIZ-ANARQUISMOS §5.3; hueco confirmado en la nota del propietario: «falta un ítem directo de responsabilidad colectiva»). Mide el compromiso HORIZONTAL de ejecutar lo acordado en común (responsabilidad colectiva plataformista), no la disciplina vertical que ya mide dem-015. Esperado: plataformismo-anarcocomunista +2 (unidad táctica); anarcocomunismo espontaneísta −1; anarquismo-individualista −2. Ojo: el centralismo democrático leninista también puntúa alto — el deslinde frente a él lo hace izq-002 (partido de vanguardia). Redacción propia."
+  },
+  {
+    "id": "izq-055",
+    "texto": "Ninguna causa superior —ni la humanidad, ni la justicia, ni la comunidad— está por encima de mi propio interés; no me debo a ningún ideal.",
+    "modulo": "corrientes-izquierda",
+    "ejes": [],
+    "polaridad": "positiva",
+    "tags": [
+      "egoismo",
+      "individualismo"
+    ],
+    "estado": "piloto",
+    "notas": "Solo-matching (dosier MATRIZ-ANARQUISMOS §5.4): instrumenta el discriminante stirneriano (rechazo de lo «sagrado») que separa el egoísmo del individualismo tuckeriano de derechos; si acumula corpus citable en español, el egoísmo podría ascender de faceta a ficha propia. Esperado: egoísmo stirneriano +2; anarquismo-individualista (Tucker, sistema de derechos) −1/−2; anarquismos comunitarios −2. Ojo: el objetivismo también puntúa alto por egoísmo ético — su deslinde (sistema moral racionalista, capitalismo) vive en su ficha, no en este ítem. Redacción propia."
   }
 ]

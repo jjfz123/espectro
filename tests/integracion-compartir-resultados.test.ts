@@ -4,6 +4,7 @@ import { crearSnapshotResultadoCompartido } from '../web/src/compartirResultados
 import {
   crearFragmentoResultadoCompartido,
   leerResultadoCompartido,
+  ordenarPartidosParaVista,
 } from '../web/src/resultadoCompartido';
 
 function faceta(
@@ -158,5 +159,76 @@ describe('integración del snapshot compartible', () => {
     if (lectura.estado === 'valido') {
       expect(lectura.resultado.p.map(([id]) => id)).toEqual(['solido', 'debil']);
     }
+  });
+});
+
+describe('selección del top compartido con cobertura mixta (caso Madrid del propietario)', () => {
+  function afinidadConCobertura(
+    entidadId: string,
+    puntuacion: number,
+    itemsComparados: number,
+    bajaCobertura: boolean,
+  ): ResultadoAfinidad {
+    return {
+      ...afinidad(entidadId, puntuacion),
+      itemsComparados,
+      cobertura: bajaCobertura ? 0.02 : 0.6,
+      bajaCobertura,
+    };
+  }
+
+  it('un 100 % sobre 3 ítems no desplaza del top-5 a resultados cubiertos, y la vista los ordena cubiertos primero', () => {
+    const snapshot = crearSnapshotResultadoCompartido({
+      versionInstrumento: '4',
+      versionCatalogo: '2026-07-12',
+      nivel: 'exhaustivo',
+      eleccion: 'autonomicas',
+      ccaa: 'madrid',
+      respuestasAdministradas: 200,
+      respuestasConOpinion: 180,
+      facetas: [],
+      afinidades: [
+        afinidadConCobertura('alianza-verde', 100, 3, true),
+        afinidadConCobertura('verdes-equo', 79.2, 6, true),
+        afinidadConCobertura('pacma', 77.3, 11, true),
+        afinidadConCobertura('podemos', 84, 44, false),
+        afinidadConCobertura('psoe', 71, 48, false),
+        afinidadConCobertura('pp', 42, 46, false),
+        afinidadConCobertura('vox', 30, 55, false),
+        afinidadConCobertura('mas-madrid', 76, 21, false),
+      ],
+    });
+
+    const ids = snapshot.p.map((partido) => partido[0]);
+    // Los cinco cubiertos ocupan las cinco plazas; ninguno de baja cobertura entra.
+    expect(new Set(ids)).toEqual(new Set(['podemos', 'psoe', 'pp', 'vox', 'mas-madrid']));
+    // El cable conserva el orden canónico histórico (afinidad primero): los
+    // clientes ya desplegados siguen validando el enlace.
+    expect(ids[0]).toBe('podemos');
+    // La vista ordena cubiertos primero (aquí todos lo son) por afinidad.
+    const vista = ordenarPartidosParaVista(snapshot.p);
+    expect(vista[0]?.[0]).toBe('podemos');
+  });
+
+  it('cuando quedan plazas libres, la baja cobertura entra al final de la vista aunque puntúe 100', () => {
+    const snapshot = crearSnapshotResultadoCompartido({
+      versionInstrumento: '4',
+      versionCatalogo: '2026-07-12',
+      nivel: 'exhaustivo',
+      eleccion: 'autonomicas',
+      ccaa: 'madrid',
+      respuestasAdministradas: 200,
+      respuestasConOpinion: 180,
+      facetas: [],
+      afinidades: [
+        afinidadConCobertura('alianza-verde', 100, 3, true),
+        afinidadConCobertura('podemos', 84, 44, false),
+        afinidadConCobertura('psoe', 71, 48, false),
+      ],
+    });
+    const vista = ordenarPartidosParaVista(snapshot.p);
+    expect(vista.map((partido) => partido[0])).toEqual(['podemos', 'psoe', 'alianza-verde']);
+    // En el cable, el 100 % figura primero (orden canónico estable de siempre).
+    expect(snapshot.p[0]?.[0]).toBe('alianza-verde');
   });
 });

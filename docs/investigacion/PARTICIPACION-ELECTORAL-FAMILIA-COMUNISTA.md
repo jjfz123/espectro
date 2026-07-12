@@ -13,7 +13,7 @@ completas constan en el dosier archivado y en los ficheros de convocatorias del 
 | CRT | Sí, candidatura propia | Europeas 2024 (BOE-A-2024-9318) | Lista propia proclamada por la JEC |
 | PCPE | Mixto | Europeas 2024: candidatura conjunta PCPE-PCPC (BOE-A-2024-9687); generales 2023: **voto nulo táctico** (no candidatura) | |
 | POSI | **Sin candidatura confirmada desde 2011** | BOE-A-2011-17267 | Búsquedas específicas 2015/2016/2019/2023 sin resultado |
-| Partido Carlista | **No** en mayo 2023, por decisión propia | Nota en partidocarlista.com (2023-05) | Rechaza presentarse por la ley electoral de listas cerradas y orienta el voto por principios |
+| Partido Carlista | **No** en las municipales/autonómicas del 28-M-2023, por decisión propia (la nota citada es de ESA convocatoria); tampoco figura entre las 31 candidaturas proclamadas de las generales del 23-J (`data/convocatorias/congreso-2023-07.json`) | Nota en partidocarlista.com (2023-05) + convocatoria del repo | Rechaza presentarse por la ley electoral de listas cerradas y orienta el voto por principios |
 | PCOE | **Sin confirmar** en ningún sentido | Programa del XVII Congreso (2024-10) | Actividad programática confirmada; candidaturas recientes ni confirmadas ni desmentidas — hueco |
 
 ## Implicaciones para el producto (pendientes de decisión)

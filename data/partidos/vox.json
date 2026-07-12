@@ -22,13 +22,13 @@
   ],
   "dobleLectura": {
     "etiquetaBase": "Programa y posición oficial",
-    "descripcionBase": "Programa general de 2023, programa europeo de 2024 y declaraciones oficiales identificadas por fecha.",
+    "descripcionBase": "Programa general de 2023, programa europeo de 2024, votaciones y declaraciones oficiales identificadas por fecha; cada posición declara su tipo de fuente.",
     "contraste": {
       "etiqueta": "Conducta y discurso recientes",
       "descripcion": "Votaciones, iniciativas y declaraciones de 2026, conservadas como una segunda capa independiente.",
       "desde": "2026-02-03",
       "hasta": "2026-07-09",
-      "advertencia": "Esta capa no se promedia con el programa ni rellena sus huecos. ACOM es una asociación externa que se declara independiente: no se atribuye a ACOM la dirección de VOX ni un giro causal sin evidencia primaria. El Acuerdo de Gobierno y Estabilidad para Andalucía (2 de julio de 2026) es la primera entrada de VOX en un gobierno autonómico y se cita explícitamente como tal, sin generalizarlo a otros territorios donde VOX no gobierna.",
+      "advertencia": "Esta capa no se promedia con el programa ni rellena sus huecos. ACOM es una asociación externa que se declara independiente: no se atribuye a ACOM la dirección de VOX ni un giro causal sin evidencia primaria. El Acuerdo de Gobierno y Estabilidad para Andalucía (2 de julio de 2026) marca el regreso de VOX a un gobierno autonómico —tras las coaliciones de 2022-2024 en Castilla y León, Extremadura, Aragón, Comunitat Valenciana y Murcia, que abandonó en julio de 2024— y se cita explícitamente como tal, sin generalizarlo a otros territorios donde VOX no gobierna.",
       "posiciones": {
         "dr-003": {
           "valor": 1,
@@ -327,16 +327,18 @@
       }
     },
     "dr-003": {
-      "valor": 1,
-      "justificacion": "Su programa incluye expulsar a residentes legales en categorías concretas —delitos graves o reincidencia—, no retornar indistintamente a toda persona inmigrante regular.",
-      "calidadEvidencia": "alta",
+      "valor": 2,
+      "justificacion": "Giro doctrinal documentado: el programa de 2023 limitaba la expulsión de residentes regulares a delitos o reincidencia, pero en julio de 2025 su portavoz de Emergencia Demográfica cuantificó una «remigración masiva» de siete a ocho millones de personas incluyendo a descendientes nacidos en España — es decir, retorno promovido también de población en situación regular.",
+      "calidadEvidencia": "media",
       "fuente": {
-        "tipo": "programa",
-        "titulo": "Programa electoral de VOX para las elecciones generales de 2023",
-        "url": "https://www.voxespana.es/wp-content/uploads/2023/07/Programa-VOX-2023-con-menos-peso.pdf",
-        "fecha": "2023-07",
-        "consultado": "2026-07-09"
-      }
+        "tipo": "declaracion",
+        "titulo": "Vox propone deportar de manera «masiva» a 7 millones de inmigrantes de España (Euronews)",
+        "url": "https://es.euronews.com/my-europe/2025/07/08/vox-propone-de-manera-abierta-deportar-de-manera-masiva-a-millones-de-inmigrantes",
+        "fecha": "2025-07-08",
+        "consultado": "2026-07-12",
+        "cita": "Vox propone de manera abierta deportar de manera masiva a millones de inmigrantes"
+      },
+      "grupoEvidencia": "pasaje-c59ba089738e5bb853d6"
     },
     "dr-004": {
       "valor": 2,
@@ -910,6 +912,180 @@
         "url": "https://www.voxespana.es/grupo_parlamentario/actividad-parlamentaria/aprobada-la-iniciativa-de-vox-para-que-se-garantice-el-uso-del-espanol-en-todo-el-territorio-nacional-20240409",
         "fecha": "2024-04-09",
         "consultado": "2026-07-10"
+      }
+    },
+    "soc-002": {
+      "valor": 2,
+      "justificacion": "Sitúa la salida de inmigrantes en el centro de su política: su portavoz de Inmigración defiende «deportaciones masivas» y el partido reclama la devolución como respuesta prioritaria a la entrada irregular.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Rocío de Meer (Vox): «No hemos cambiado; hay que hacer deportaciones masivas porque hubo entradas masivas» (El Debate)",
+        "url": "https://www.eldebate.com/espana/20250709/rocio-meer-vox-no-hemos-cambiado-hay-hacer-deportaciones-masivas-porque-hubo-entradas-masivas_315265.html",
+        "fecha": "2025-07-09",
+        "consultado": "2026-07-12",
+        "cita": "hay que hacer deportaciones masivas porque hubo entradas masivas"
+      },
+      "grupoEvidencia": "pasaje-68ec58693375ed1365fc"
+    },
+    "soc-004": {
+      "valor": -2,
+      "justificacion": "Vox fue el único grupo del Congreso que votó en contra de admitir a trámite la Iniciativa Legislativa Popular de regularización extraordinaria de inmigrantes (abril de 2024): rechaza frontalmente cualquier regularización.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "Todos los partidos, excepto Vox, aceptan estudiar una ILP para regularizar a miles de inmigrantes (El Español)",
+        "url": "https://www.elespanol.com/espana/20240409/partidos-excepto-vox-aprueban-ilp-regularizar-miles-inmigrantes-espana/846415638_0.html",
+        "fecha": "2024-04-09",
+        "consultado": "2026-07-12"
+      }
+    },
+    "cul-001": {
+      "valor": 2,
+      "justificacion": "Condiciona las políticas de integración y las ayudas a los inmigrantes que residan legalmente y respeten la ley, la identidad, las costumbres y las tradiciones de España: exige asimilación cultural, no solo cumplimiento de la ley.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Vox pide que el Consell introduzca la prioridad nacional en tres leyes y proteja «el derecho a la vida del no nacido» (Valencia Plaza)",
+        "url": "https://valenciaplaza.com/valenciaplaza/comunitat-valenciana1/vox-pide-que-el-consell-introduzca-la-prioridad-nacional-en-tres-leyes-y-proteja-el-derecho-a-la-vida-del-no-nacido-2026-07-09-2026-07-09",
+        "fecha": "2026-07-09",
+        "consultado": "2026-07-12"
+      }
+    },
+    "cul-003": {
+      "valor": 2,
+      "justificacion": "Enmarca la inmigración como amenaza a la identidad y las costumbres españolas: propone la expulsión masiva de migrantes y sus hijos «para preservar la identidad española», con retórica próxima a la teoría del reemplazo.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "CONTEXTO: «Vox plantea abiertamente un proceso de expulsión masiva de migrantes y sus hijos para preservar la identidad española» (Maldita.es)",
+        "url": "https://maldita.es/buloteca/respuesta/vox-plantea-abiertamente-un-proceso-de-expulsion-masiva-de-migrantes-y-sus-hijos-para-preservar-la-identidad-espanola",
+        "fecha": "2025-07",
+        "consultado": "2026-07-12",
+        "cita": "para preservar la identidad española"
+      },
+      "grupoEvidencia": "pasaje-ae57dfa857d70779d6ce"
+    },
+    "cul-013": {
+      "valor": 2,
+      "justificacion": "Impulsa la «Iberosfera» y el Foro de Madrid como comunidad hispánica y área de influencia, un proyecto geopolítico-cultural que orienta a España hacia el mundo hispanohablante y la contrapone al marco de la Unión Europea.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Vox, la Iberosfera y el Foro de Madrid: discursos compartidos y estrategia (AECPA, ponencia de congreso)",
+        "url": "https://www.aecpa.es/es-es/vox-la-iberosfera-y-el-foro-de-madrid-discursos-compartidos-y-estrat/congress-papers/4332/",
+        "fecha": "2022",
+        "consultado": "2026-07-12"
+      }
+    },
+    "mon-001": {
+      "valor": -2,
+      "justificacion": "Partido monárquico declarado desde su fundación; en 2025-2026 se distanció de Felipe VI (no asistió al 50.º aniversario de la monarquía parlamentaria) sin plantear en ningún momento una jefatura electiva: el desacuerdo es con el titular, no con la institución hereditaria (Infobae, 2025-12-27; El Independiente, 2026-02-22).",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Santiago Abascal: «la monarquía no es el problema de España» (Monarquía Confidencial)",
+        "url": "https://monarquia.elconfidencialdigital.com/articulo/monarquia_confidencial/Santiago-Abascal-Vox-monarquia-Espana/20140125214754010201.html",
+        "fecha": "2014-01-25",
+        "consultado": "2026-07-12",
+        "cita": "la monarquía no es el problema de España"
+      },
+      "grupoEvidencia": "pasaje-798c99ec8fe862b9a2cb"
+    },
+    "der-020": {
+      "valor": 2,
+      "justificacion": "Conducta parlamentaria: votó con la mayoría que rechazó eliminar la inviolabilidad y el aforamiento (iniciativa de ERC, 2021); eldiario.es registró el «no» conjunto de PSOE, PP, Vox y Ciudadanos. A favor de mantener la protección constitucional tal como está.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "El Congreso ratifica la inviolabilidad del Rey, con Podemos y ERC en contra (República.com)",
+        "url": "https://www.republica.com/espana/el-congreso-de-los-diputados-ratifica-la-inviolabilidad-del-rey-con-podemos-y-erc-en-contra-20210225-12051245688/",
+        "fecha": "2021-02-25",
+        "consultado": "2026-07-12"
+      }
+    },
+    "geo-015": {
+      "valor": -2,
+      "justificacion": "Su programa europeo defiende la supremacía de la Constitución española sobre el derecho europeo y recuperar competencias en relaciones internacionales (Ceuta Actualidad, 2024-05-30): incompatible con aceptar decisiones exteriores de la UE aprobadas por mayoría cualificada contra el voto español.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral de VOX, elecciones europeas 2024 (PDF oficial)",
+        "url": "https://www.voxespana.es/wp-content/uploads/2024/05/Programa_EUROPEAS-3.pdf",
+        "fecha": "2024-05",
+        "consultado": "2026-07-12"
+      }
+    },
+    "dem-012": {
+      "valor": 1,
+      "justificacion": "Canaliza su proyecto de reordenación profunda (devolución de competencias autonómicas al Estado) por la vía de reformas legales y constitucionales y de proposiciones en el Congreso (El Debate, 2022-04-15; Público): cambios de máximos, pero por procedimiento.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral de VOX (23J) y proposiciones registradas en el Congreso",
+        "url": "https://www.voxespana.es/programa/programa-electoral-vox",
+        "fecha": "2023",
+        "consultado": "2026-07-12"
+      }
+    },
+    "dem-011": {
+      "valor": -1,
+      "justificacion": "Propone derogar el Estado autonómico mediante reforma, pero mantiene y usa el sistema parlamentario (grupo propio, proposiciones de ley): no plantea sustituir el modelo parlamentario por otro.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Las razones que hacen improbable derogar el Estado de las autonomías como propone Vox (El Debate)",
+        "url": "https://www.eldebate.com/espana/20220415/razones-hacen-improbable-derogar-estado-autonomias-como-propone-vox.html",
+        "fecha": "2022-04-15",
+        "consultado": "2026-07-12"
+      }
+    },
+    "dem-001": {
+      "valor": -1,
+      "justificacion": "Su proposición de 2024 prohíbe expresamente los referéndums «con fines contrarios a la unidad nacional» y su programa no contempla la decisión habitual por referéndum vinculante: posición restrictiva frente al uso ordinario del referéndum.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Vox lleva a votación su ley para ilegalizar partidos independentistas y recuperar la sedición (COPE)",
+        "url": "https://www.cope.es/actualidad/espana/noticias/vox-lleva-hoy-votacion-congreso-ley-para-ilegalizar-partidos-independentistas-recuperar-sedicion-20240220_3154416",
+        "fecha": "2024-02-20",
+        "consultado": "2026-07-12"
+      }
+    },
+    "dem-014": {
+      "valor": -2,
+      "justificacion": "Eliminó las primarias de sus estatutos para la selección de cargos: tras las sentencias que ordenaban repetirlas en Granada y Murcia ya no fue posible al haberlas suprimido, y la Asamblea Extraordinaria de 2024 ratificó la presidencia sin voto competitivo de la militancia (Infobae; Vozpópuli).",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Las voces críticas sacuden a Vox: un movimiento interno busca refundar el partido (Infobae)",
+        "url": "https://www.infobae.com/espana/2025/02/22/las-voces-criticas-sacuden-a-vox-un-movimiento-interno-busca-refundar-el-partido-para-recuperar-su-esencia/",
+        "fecha": "2025-02-22",
+        "consultado": "2026-07-12"
+      }
+    },
+    "dem-015": {
+      "valor": 2,
+      "justificacion": "Práctica sostenida de disciplina pública: purgas y salidas de dirigentes críticos (Olona, Espinosa de los Monteros, García-Gallardo) y sanción del desacuerdo expresado en público, documentadas por prensa plural (Infobae; Ara; Vozpópuli); la dirección ejerce y reivindica esa cohesión.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Las voces críticas sacuden a Vox: un movimiento interno busca refundar el partido (Infobae)",
+        "url": "https://www.infobae.com/espana/2025/02/22/las-voces-criticas-sacuden-a-vox-un-movimiento-interno-busca-refundar-el-partido-para-recuperar-su-esencia/",
+        "fecha": "2025-02-22",
+        "consultado": "2026-07-12"
+      }
+    },
+    "izq-001": {
+      "valor": -2,
+      "justificacion": "Método íntegramente electoral e institucional: concurre a todas las convocatorias, legisla vía proposiciones y condena la violencia política; nada en su corpus contempla una ruptura revolucionaria.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral de VOX (23J)",
+        "url": "https://www.voxespana.es/programa/programa-electoral-vox",
+        "fecha": "2023",
+        "consultado": "2026-07-12"
       }
     }
   }

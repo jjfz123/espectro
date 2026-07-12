@@ -1,0 +1,125 @@
+{
+  "id": "libertarismo-cristiano",
+  "nombre": "Libertarismo cristiano",
+  "tipo": "referencia-doctrinal",
+  "definicion": "Cruce doctrinal que justifica un gobierno muy limitado y la asociación voluntaria desde una ética o antropología cristiana: funda el principio de no agresión en la ley natural (Aquino, Escuela de Salamanca) y en la subsidiariedad, y sostiene que la fe debe ser libre y no impuesta. Comparte la economía de mercado del libertarismo secular, pero se distingue por el fundamento y por afirmar la libertad religiosa frente a la confesionalidad del Estado.",
+  "variante": "Fundamenta el gobierno muy limitado y la no agresión en una ética cristiana, la ley natural y la subsidiariedad; se distingue del anarcocapitalismo secular por el fundamento y por afirmar la libertad religiosa, no la confesionalidad",
+  "periodo": "Raíz en la ley natural escolástica (Aquino, Escuela de Salamanca); articulación libertaria contemporánea (Edmund Opitz, 1970; Libertarian Christian Institute, actualidad)",
+  "confianza": "estimada",
+  "version": "1.0",
+  "revisado": "2026-07-12",
+  "facetasDefinitorias": [
+    "economico",
+    "propiedad-mercado",
+    "libertad-conciencia",
+    "laicismo"
+  ],
+  "sensibilidad": "normal",
+  "advertencia": "Tipo ideal doctrinal, no un partido español ni una identidad asignada. Su especificidad frente al anarcocapitalismo secular no está en la economía —que comparten— sino en el fundamento (ley natural, subsidiariedad, no agresión fundada en la fe) y en la religión y la moral. Religión personal no implica confesionalidad: exige libertad de conciencia y rechaza tanto el ateísmo de Estado como imponer por ley la moral cristiana.",
+  "fuentesMarco": [
+    {
+      "tipo": "otro",
+      "titulo": "Understanding the Non-Aggression Principle (Libertarian Christian Institute, en inglés)",
+      "url": "https://libertarianchristians.com/2021/12/07/libertarianism-2-understanding-the-nap/",
+      "fecha": "2021",
+      "consultado": "2026-07-12"
+    },
+    {
+      "tipo": "otro",
+      "titulo": "Non-aggression principle: raíces en la ley natural escolástica (Aquino, Escuela de Salamanca) (ficha enciclopédica, en inglés)",
+      "url": "https://en.wikipedia.org/wiki/Non-aggression_principle",
+      "consultado": "2026-07-12"
+    }
+  ],
+  "reglaPublicacion": {
+    "minimoItems": 4,
+    "minimoCobertura": 0.55,
+    "umbralAfinidad": 84
+  },
+  "posiciones": {
+    "der-001": {
+      "valor": 2,
+      "justificacion": "La subsidiariedad manda que el Estado no haga lo que pueden hacer la persona, la familia, la iglesia y las comunidades menores; un Estado reducido a seguridad y justicia es su traducción política, no un fin en sí mismo.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Libertarian Christian Institute: gobierno limitado y no agresión desde la fe (en inglés)",
+        "url": "https://libertarianchristians.com/2021/12/07/libertarianism-2-understanding-the-nap/",
+        "fecha": "2021",
+        "consultado": "2026-07-12"
+      }
+    },
+    "lib-003": {
+      "valor": 2,
+      "justificacion": "Fundado en la administración responsable de los bienes y en la mínima coacción, favorece una fiscalidad baja y no progresiva; el tipo único reduce la carga sin castigar el esfuerzo por tramos.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Libertarian Christian Institute: propiedad, mayordomía y coacción mínima (en inglés)",
+        "url": "https://libertarianchristians.com/2021/12/07/libertarianism-2-understanding-the-nap/",
+        "fecha": "2021",
+        "consultado": "2026-07-12"
+      }
+    },
+    "rel-002": {
+      "valor": 2,
+      "justificacion": "Es su núcleo religioso: la fe debe darse libremente, de modo que el Estado ha de ser aconfesional, sin religión oficial, y permitir la expresión pública de todas dentro de la ley. Afirma la libertad religiosa, no la confesionalidad, lo que lo aleja del catolicismo político.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Libertarian Christian Institute: separar la convicción religiosa de la coacción estatal (en inglés)",
+        "url": "https://libertarianchristians.com/2022/06/09/political-neutrality-abortion-pro-life-libertarians/",
+        "fecha": "2022",
+        "consultado": "2026-07-12"
+      }
+    },
+    "der-002": {
+      "valor": -1,
+      "justificacion": "Aquí gana la mitad libertaria: el mismo principio de no agresión que fundan en la fe les impide coaccionar a otros hacia la moral cristiana por ley. Son cristianos en lo personal pero contrarios a imponerlo, lo que los separa del confesionalismo y del integrismo, que lo afirmarían.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Libertarian Christian Institute: la legislación coactiva como vía equivocada para la moral (en inglés)",
+        "url": "https://libertarianchristians.com/2022/06/09/political-neutrality-abortion-pro-life-libertarians/",
+        "fecha": "2022",
+        "consultado": "2026-07-12"
+      }
+    },
+    "geo-003": {
+      "valor": 2,
+      "justificacion": "El no intervencionismo cristiano (paradigma de Ron Paul) combina la doctrina de la guerra justa con la no agresión: rechaza que el país participe en guerras agresivas en el extranjero.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Libertarian Christian Institute: no agresión y crítica de la guerra (en inglés)",
+        "url": "https://libertarianchristians.com/2021/12/07/libertarianism-2-understanding-the-nap/",
+        "fecha": "2021",
+        "consultado": "2026-07-12"
+      }
+    },
+    "lab-010": {
+      "valor": 2,
+      "justificacion": "Desde la ley natural y la mayordomía de los bienes, gravar la propiedad por la fuerza para financiar servicios colectivos sin consentimiento individual vulnera el principio de no agresión que fundan en la fe.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Libertarian Christian Institute: no iniciar fuerza contra la persona o la propiedad (en inglés)",
+        "url": "https://libertarianchristians.com/2021/12/07/libertarianism-2-understanding-the-nap/",
+        "fecha": "2021",
+        "consultado": "2026-07-12"
+      }
+    },
+    "sd-014": {
+      "valor": 1,
+      "justificacion": "Acepta poner fin a la financiación y el privilegio estatal de la Iglesia —la fe libre no necesita subsidio fiscal—, pero se distancia del ánimo anticlerical del planteamiento, de ahí un acuerdo moderado y no pleno; separa débilmente del anarcocapitalismo secular, que lo apoyaría sin reservas.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Libertarian Christian Institute: fe voluntaria sin coacción ni privilegio estatal (en inglés)",
+        "url": "https://libertarianchristians.com/2022/06/09/political-neutrality-abortion-pro-life-libertarians/",
+        "fecha": "2022",
+        "consultado": "2026-07-12"
+      }
+    }
+  }
+}

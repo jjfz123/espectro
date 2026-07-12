@@ -195,6 +195,114 @@
         "fecha": "2022-03-14",
         "consultado": "2026-07-10"
       }
+    },
+    "ter-002": {
+      "valor": -2,
+      "justificacion": "Defiende la unidad de España y un nacionalismo español en oposición frontal a los nacionalismos periféricos: un referéndum de autodeterminación es incompatible con su proyecto.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Democracia Nacional — Wikipedia (unidad de España y oposición a los nacionalismos periféricos)",
+        "url": "https://es.wikipedia.org/wiki/Democracia_Nacional",
+        "fecha": "2026",
+        "consultado": "2026-07-12"
+      }
+    },
+    "cul-002": {
+      "valor": 2,
+      "justificacion": "Concepción étnica de la nación: propone reforzar el ius sanguinis (la nacionalidad por ascendencia) y presenta la inmigración como reemplazo del pueblo español; para DN lo español se hereda por sangre.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Democracia Nacional — Wikipedia (ius sanguinis y discurso antiinmigración)",
+        "url": "https://es.wikipedia.org/wiki/Democracia_Nacional",
+        "fecha": "2026",
+        "consultado": "2026-07-12"
+      }
+    },
+    "cul-003": {
+      "valor": 2,
+      "justificacion": "Enmarca la inmigración como amenaza a la identidad y las costumbres españolas —habla de «profundas diferencias entre las costumbres de la inmigración masiva y la cultura española»— y difunde la tesis del «reemplazo» del pueblo español.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "El partido xenófobo Democracia Nacional refuerza sus vínculos con ultras rusos y sueña con más «Torre Pachecos» (Público)",
+        "url": "https://www.publico.es/politica/partido-xenofobo-democracia-nacional-refuerza-vinculos-ultras-rusos-suena-torre-pachecos.html",
+        "fecha": "2026",
+        "consultado": "2026-07-12"
+      }
+    },
+    "def-002": {
+      "valor": 1,
+      "justificacion": "Se opone a la cesión de soberanía militar a la OTAN y cultiva de forma activa lazos con la Rusia soberanista (Liga Internacional Soberanista, San Petersburgo 2025): su antiatlantismo apunta a salir de la Alianza, aunque no lo formula como consigna central.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Democracia Nacional — Wikipedia (oposición a la cesión de soberanía a la OTAN)",
+        "url": "https://es.wikipedia.org/wiki/Democracia_Nacional",
+        "fecha": "2026",
+        "consultado": "2026-07-12"
+      }
+    },
+    "izq-046": {
+      "valor": -2,
+      "justificacion": "Su nativismo —lema «Los españoles primero» y reclamación de deportaciones masivas frente a lo que llama inmigración de «reemplazo»— es incompatible con reconocer la libre circulación entre países como derecho universal de toda persona: antepone a los nacionales sobre cualquier origen.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Democracia Nacional — Los españoles primero (web oficial)",
+        "url": "https://democracianacional.es/",
+        "fecha": "2026",
+        "consultado": "2026-07-12"
+      }
+    },
+    "pop-001": {
+      "valor": 2,
+      "justificacion": "La politología la describe como extrema derecha de modelo lepenista (nacional-populismo identitario) y su presidente opone el «falso igualitarismo» de las élites ilustradas a una «democracia orgánica»: sostiene un marco de pueblo frente a élites, aquí en clave identitaria.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Entrevista a Pedro Chaparro, presidente de Democracia Nacional (SevillaInfo)",
+        "url": "https://www.sevillainfo.es/noticias-nacional/entrevista-a-pedro-chaparro-presidente-de-democracia-nacional-dn/",
+        "fecha": "2025-05-12",
+        "consultado": "2026-07-12"
+      }
+    },
+    "ter-001": {
+      "valor": 2,
+      "justificacion": "Su nacionalismo español centralista, en oposición frontal a los nacionalismos periféricos, sostiene la recentralización: que las comunidades autónomas devuelvan competencias al Estado central.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Democracia Nacional — Wikipedia (nacionalismo español y oposición a los nacionalismos periféricos)",
+        "url": "https://es.wikipedia.org/wiki/Democracia_Nacional",
+        "fecha": "2026",
+        "consultado": "2026-07-12"
+      }
+    },
+    "dem-019": {
+      "valor": 2,
+      "justificacion": "Su presidente propone sustituir la democracia liberal de partidos por una «democracia orgánica» que rechaza el «falso igualitarismo» ilustrado: un modelo de movimiento nacional unificado que dirige el Estado sin competencia permanente entre partidos.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Entrevista a Pedro Chaparro, presidente de Democracia Nacional (SevillaInfo)",
+        "url": "https://www.sevillainfo.es/noticias-nacional/entrevista-a-pedro-chaparro-presidente-de-democracia-nacional-dn/",
+        "fecha": "2025-05-12",
+        "consultado": "2026-07-12"
+      }
+    },
+    "geo-015": {
+      "valor": -2,
+      "justificacion": "Su euroescepticismo declarado —salida del euro y de Schengen, y la tesis de que la Unión Europea debe desaparecer— es incompatible con que la política exterior de la UE se apruebe por mayoría cualificada contra el criterio de España.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Democracia Nacional — Wikipedia (posición euroescéptica declarada)",
+        "url": "https://es.wikipedia.org/wiki/Democracia_Nacional",
+        "fecha": "2026",
+        "consultado": "2026-07-12"
+      }
     }
   }
 }

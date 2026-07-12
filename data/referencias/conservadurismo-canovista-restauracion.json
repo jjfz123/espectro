@@ -8,14 +8,6 @@
   "confianza": "verificada",
   "version": "1.0",
   "revisado": "2026-07-11",
-  "publicacionAfinidad": {
-    "publicable": false,
-    "motivo": "Referencia nueva pendiente de auditoría semántica adversarial; no participa en afinidad hasta cerrar cada equivalencia entre fuente e ítem."
-  },
-  "publicacionMapa": {
-    "publicable": false,
-    "motivo": "La ficha documenta monarquía, pluralismo limitado, confesionalidad, proteccionismo y la ambivalencia foral, pero el banco actual no traduce sin anacronismos el sufragio censitario, el turno, el caciquismo y la soberanía compartida a los dos ejes macro."
-  },
   "facetasDefinitorias": [
     "monarquia",
     "pluralismo-institucional",

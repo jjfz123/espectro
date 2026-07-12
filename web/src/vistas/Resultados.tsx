@@ -13,6 +13,7 @@ import {
   sindicatoRelevanteEnCcaa,
 } from '@engine';
 import { CatalogoCandidaturas } from '../componentes/CatalogoCandidaturas';
+import { contextoParticipacionPorPartido } from '../participacionElectoral';
 import { DetalleAfinidad } from '../componentes/DetallePartido';
 import type { LecturaContraste } from '../componentes/DetallePartido';
 import { EspacioPatrocinado } from '../componentes/EspacioPatrocinado';
@@ -148,6 +149,13 @@ export function Resultados({ estado, despachar, puedeRecargar, alConfirmarGuarda
     [estado.eleccion, estado.ccaa],
   );
 
+  // Participación: quién concurre dentro de qué candidatura (sin papeleta con
+  // su propio nombre), para que la mayor afinidad no sea inencontrable en la urna.
+  const contextoParticipacion = useMemo(
+    () => contextoParticipacionPorPartido(seleccionElectoral),
+    [seleccionElectoral],
+  );
+
   const resultados = useMemo(() => {
     if (nConOpinion === 0) return [];
     return rankingAfinidad(respuestas, seleccionElectoral.partidos);
@@ -181,6 +189,11 @@ export function Resultados({ estado, despachar, puedeRecargar, alConfirmarGuarda
         etiquetaContraste: partido.dobleLectura.contraste.etiqueta,
         resultadoContraste,
         advertencia: partido.dobleLectura.contraste.advertencia,
+        // Casilla del TODO: «cobertura y fecha acompañan siempre cada marcador».
+        periodo: partido.dobleLectura.contraste.desde
+          ? `${partido.dobleLectura.contraste.desde} – ${partido.dobleLectura.contraste.hasta}`
+          : `hasta ${partido.dobleLectura.contraste.hasta}`,
+        fechaBase: partido.revisado,
       });
     }
     return marcadores;
@@ -499,9 +512,6 @@ export function Resultados({ estado, despachar, puedeRecargar, alConfirmarGuarda
             puedeRecargar={puedeRecargar}
             alConfirmarGuardado={alConfirmarGuardado}
             alMontar={enfocarMapaTrasRecarga ? enfocarTituloMapa : undefined}
-            nivelPerfil={
-              esPerfilIntermedio ? 'intermedio' : esPerfilProvisional ? 'rapido' : 'exhaustivo'
-            }
           />
         </Suspense>
       </section>
@@ -628,6 +638,7 @@ export function Resultados({ estado, despachar, puedeRecargar, alConfirmarGuarda
               resultados={maximosAfinidad}
               entidades={PARTIDO_POR_ID}
               doblesMarcadores={doblesMarcadores}
+              contextoPorEntidad={contextoParticipacion}
               compacto
             />
             {resultadosRestantes.length > 0 ? (
@@ -644,6 +655,7 @@ export function Resultados({ estado, despachar, puedeRecargar, alConfirmarGuarda
                   resultados={resultadosRestantes}
                   entidades={PARTIDO_POR_ID}
                   doblesMarcadores={doblesMarcadores}
+                  contextoPorEntidad={contextoParticipacion}
                   inicio={maximosAfinidad.length + 1}
                   compacto
                 />

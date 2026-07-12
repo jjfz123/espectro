@@ -118,6 +118,11 @@
           "perfilId": "alianza-verde",
           "relacion": "componente",
           "nota": "Alianza Verde figura como componente de esta candidatura fechada; sus posiciones no se atribuyen automáticamente a la coalición."
+        },
+        {
+          "perfilId": "iu",
+          "relacion": "componente",
+          "nota": "Izquierda Unida integra la candidatura proclamada «Podemos-Izquierda Unida-Alianza Verde» (nº 13) según el listado oficial de candidaturas de la Comunidad de Madrid y la propia Izquierda Unida; sus posiciones no se atribuyen automáticamente a la coalición."
         }
       ],
       "nota": "Naturaleza inventariada: coalicion-electoral. Vigencia comprobada: matrices-verificadas. Tratamiento previsto: perfil-especifico."

@@ -209,7 +209,11 @@ describe('contrato de la brújula Propiedad/mercado × Poder', () => {
   });
 
   it('mide Poder con cargas directas sin derivarlo de GAL–TAN o tradición moral', () => {
-    expect(autoridad('falangismo-fe-jons-1934')!).toBeGreaterThanOrEqual(75);
+    // 2026-07-12: lim-007 −2 (el discurso fundacional niega la raza como
+    // fundamento de la nación) entra en el eje de autoridad y baja la
+    // proyección de ~76 a ~65: sigue siendo claramente autoritaria, con más
+    // evidencia y menos extrema. El umbral se ajusta al nuevo estado honesto.
+    expect(autoridad('falangismo-fe-jons-1934')!).toBeGreaterThanOrEqual(60);
     expect(autoridad('trotskismo')!).toBeGreaterThan(0);
     expect(autoridad('anarcocapitalismo-rothbardiano')!).toBeLessThanOrEqual(-75);
   });

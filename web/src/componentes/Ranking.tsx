@@ -24,6 +24,10 @@ export interface DobleMarcador {
   etiquetaContraste: string;
   resultadoContraste: ResultadoAfinidad;
   advertencia: string;
+  /** Periodo observado del marcador de contraste (desde–hasta), siempre visible. */
+  periodo?: string;
+  /** Fecha de corte documental del marcador base (partido.revisado). */
+  fechaBase?: string;
 }
 
 const ETIQUETA_CONFIANZA: Record<string, string> = {
@@ -71,6 +75,12 @@ function MarcadorContraste({ doble, compacto }: { doble: DobleMarcador; compacto
           </p>
         </>
       ) : null}
+      <p className="marcador-contraste__lecturas">
+        Dos lecturas del mismo partido, sin promediar: «{doble.etiquetaBase}»
+        {doble.fechaBase ? ` (corte ${doble.fechaBase})` : ''} frente a «
+        {doble.etiquetaContraste}»{doble.periodo ? ` (${doble.periodo})` : ''}.{' '}
+        {'Ninguna es «la verdad esencial»: una recoge lo que el partido dice; la otra, lo que hizo en el periodo observado.'}
+      </p>
       <p className="marcador-contraste__aviso">{doble.advertencia}</p>
       {calculable && doble.resultadoContraste.bajaCobertura ? (
         <p className="aviso-cobertura aviso-cobertura--contraste">

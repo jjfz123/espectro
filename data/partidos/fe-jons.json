@@ -224,6 +224,162 @@
         "fecha": "2026-05",
         "consultado": "2026-07-09"
       }
+    },
+    "cul-013": {
+      "valor": 2,
+      "justificacion": "Su ideario aspira a liderar el «área de influencia hispánica» y sitúa a España como eje del mundo hispánico (punto 3 del programa histórico y doctrina vigente), priorizando la esfera de la Hispanidad frente a entidades supranacionales como la UE.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Nuestras ideas — Falange Española de las JONS",
+        "url": "https://falange.es/nuestras-ideas/",
+        "fecha": "2026",
+        "consultado": "2026-07-12"
+      }
+    },
+    "cul-001": {
+      "valor": 2,
+      "justificacion": "Defiende la homogeneidad cultural nacional y la remigración de quienes «han fracasado en su integración»: exige la asimilación a la cultura española, no solo el cumplimiento de la ley.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Nuestras ideas — Falange Española de las JONS",
+        "url": "https://falange.es/nuestras-ideas/",
+        "fecha": "2026",
+        "consultado": "2026-07-12"
+      }
+    },
+    "cul-002": {
+      "valor": -1,
+      "justificacion": "El falangismo define la nación como «unidad de destino en lo universal» —misión espiritual y cultural, no de sangre— y enmarca su hispanismo en una Hispanidad que integra a los hispanoamericanos; rechaza la ascendencia como criterio de lo español, a diferencia del etnicismo de DN o España 2000.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Nuestras ideas — Falange Española de las JONS",
+        "url": "https://falange.es/nuestras-ideas/",
+        "fecha": "2026",
+        "consultado": "2026-07-12"
+      }
+    },
+    "der-004": {
+      "valor": 2,
+      "justificacion": "Su modelo nacionalsindicalista, anticapitalista y antiliberal, defiende una economía nacional protegida frente al libre mercado global: el proteccionismo en defensa de la producción y el empleo nacionales es coherente con su doctrina.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Nuestras ideas — Falange Española de las JONS",
+        "url": "https://falange.es/nuestras-ideas/",
+        "fecha": "2026",
+        "consultado": "2026-07-12"
+      }
+    },
+    "der-005": {
+      "valor": 2,
+      "justificacion": "La unidad de España es principio central de su doctrina: reclama restaurar la unidad nacional y cerrar los parlamentos autonómicos, situándola por encima de cualquier reivindicación autonómica.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Nuestras ideas — Falange Española de las JONS",
+        "url": "https://falange.es/nuestras-ideas/",
+        "fecha": "2026",
+        "consultado": "2026-07-12"
+      }
+    },
+    "mon-001": {
+      "valor": 2,
+      "justificacion": "Se declara abiertamente republicana y antiborbónica: aspira a abolir la monarquía parlamentaria, a la que considera un privilegio unipersonal, y a instaurar un Estado republicano; rechaza por tanto una jefatura del Estado hereditaria.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Nuestras ideas — Falange Española de las JONS",
+        "url": "https://falange.es/nuestras-ideas/",
+        "fecha": "2026",
+        "consultado": "2026-07-12"
+      }
+    },
+    "fem-005": {
+      "valor": 2,
+      "justificacion": "Provida sin fisuras: defiende la vida «desde la concepción hasta la muerte natural» y se presenta frente al «consenso de la muerte, la eutanasia y el aborto», por lo que apoya derogar la ley de eutanasia.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Nuestras ideas — Falange Española de las JONS",
+        "url": "https://falange.es/nuestras-ideas/",
+        "fecha": "2026",
+        "consultado": "2026-07-12"
+      }
+    },
+    "lab-018": {
+      "valor": 2,
+      "justificacion": "Su doctrina nacionalsindicalista articula la representación política desde el sindicato nacional y el lugar de trabajo en vez de por partidos: los sindicatos sustituyen a los partidos como vía de representación de los trabajadores, un horizonte sindicalista, no una reforma del parlamentarismo.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral FE de las JONS Andalucía 2026",
+        "url": "https://falange.es/wp-content/uploads/2026/05/PROGRAMA-ELECTORAL-FEdelasJONS_ANDALUCIA-2026.pdf",
+        "fecha": "2026-05",
+        "consultado": "2026-07-12"
+      }
+    },
+    "pop-001": {
+      "valor": 2,
+      "justificacion": "El falangismo confronta al «pueblo» con la «oligarquía» y el caciquismo y denuncia la partitocracia como gobierno de una élite: su doctrina vigente sostiene un marco de pueblo frente a élites coordinadas contra los trabajadores.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Nuestras ideas — Falange Española de las JONS",
+        "url": "https://falange.es/nuestras-ideas/",
+        "fecha": "2026",
+        "consultado": "2026-07-12"
+      }
+    },
+    "izq-046": {
+      "valor": -2,
+      "justificacion": "Defiende la remigración de inmigrantes y la homogeneidad cultural nacional y reclama contratación preferente de españoles: rechaza reconocer la libre circulación entre países como derecho universal de toda persona.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Nuestras ideas — Falange Española de las JONS",
+        "url": "https://falange.es/nuestras-ideas/",
+        "fecha": "2026",
+        "consultado": "2026-07-12"
+      }
+    },
+    "geo-003": {
+      "valor": 2,
+      "justificacion": "Bajo el lema «No es nuestra guerra» rechaza que España participe en guerras exteriores que considera ajenas e imperialistas y reclama salir de la OTAN, limitando la misión del ejército a garantizar la integridad territorial: renuncia a intervenir en guerras exteriores aunque lo pidan aliados.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "No es nuestra guerra — Falange Española de las JONS",
+        "url": "https://falange.es/no-es-nuestra-guerra",
+        "fecha": "2026",
+        "consultado": "2026-07-12"
+      }
+    },
+    "geo-015": {
+      "valor": -2,
+      "justificacion": "Reclama recuperar la soberanía mediante la salida de la Unión Europea: es incompatible con aceptar que la política exterior de la UE se apruebe por mayoría cualificada contra el criterio de España.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Nuestras ideas — Falange Española de las JONS",
+        "url": "https://falange.es/nuestras-ideas/",
+        "fecha": "2026",
+        "consultado": "2026-07-12"
+      }
+    },
+    "izq-001": {
+      "valor": 2,
+      "justificacion": "Su nacionalsindicalismo aspira a una transformación integral del sistema —una revolución nacional pendiente— y no a reformas graduales del orden liberal, que rechaza de raíz; concurre a elecciones como táctica, pero su horizonte declarado es rupturista.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Nuestras ideas — Falange Española de las JONS",
+        "url": "https://falange.es/nuestras-ideas/",
+        "fecha": "2026",
+        "consultado": "2026-07-12"
+      }
     }
   }
 }

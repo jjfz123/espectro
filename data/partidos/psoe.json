@@ -10,7 +10,7 @@
   "actividad": "activa",
   "dobleLectura": {
     "etiquetaBase": "Programa y compromisos reiterados",
-    "descripcionBase": "Resoluciones congresuales, programa electoral y declaraciones públicas reiteradas de Pedro Sánchez y del PSOE.",
+    "descripcionBase": "Resoluciones congresuales, programa electoral, votaciones y declaraciones públicas reiteradas de Pedro Sánchez y del PSOE; cada posición declara su tipo de fuente y su fecha.",
     "contraste": {
       "etiqueta": "Gobierno y tramitación parlamentaria reciente",
       "descripcion": "Estado real de la acción de gobierno y de la tramitación en las Cortes durante 2026, con los compromisos auditados ítem a ítem; no se promedia con el programa ni rellena sus huecos.",
@@ -730,6 +730,20 @@
         "fecha": "2020-11-05",
         "consultado": "2026-07-10"
       }
+    },
+    "sd-019": {
+      "valor": -1,
+      "justificacion": "Giro de 2022 mantenido desde entonces: la carta de Pedro Sánchez a Mohamed VI (14-3-2022) califica el plan de autonomía marroquí de «base más seria, creíble y realista» para resolver el conflicto; en 2023 el grupo socialista votó en solitario contra tramitar la nacionalidad para saharauis y la resolución del 41.º Congreso (dic. 2024) ya no menciona el referéndum. No hay renuncia formal a la doctrina ONU: por eso −1 y no −2.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Sánchez cede ante Marruecos y defiende la autonomía del Sáhara en una carta a Mohamed VI (El Independiente)",
+        "url": "https://www.elindependiente.com/espana/2022/03/18/sanchez-cede-ante-marruecos-y-defiende-la-autonomia-del-sahara-en-una-carta-a-mohamed-vi/",
+        "fecha": "2022-03-18",
+        "consultado": "2026-07-12",
+        "cita": "la base más seria, creíble y realista"
+      },
+      "grupoEvidencia": "pasaje-f0284d2740b5838de769"
     }
   }
 }

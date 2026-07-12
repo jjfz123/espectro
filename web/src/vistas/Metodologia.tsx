@@ -107,6 +107,49 @@ export function Metodologia({ alVolver, alBorrarDatos }: Props) {
       </section>
 
       <section className="seccion prosa">
+        <h2>Limitaciones que conviene tener delante</h2>
+        <ul>
+          <li>
+            <strong>Los ejes son constructos normativos.</strong> Qué ejes existen, dónde
+            están sus polos y cuánto carga cada pregunta son decisiones editoriales
+            argumentadas y públicas, no hechos de la naturaleza: otro equipo podría trazar el
+            mapa de otra manera. Por eso cada carga es auditable en el repositorio.
+          </li>
+          <li>
+            <strong>Parte de los datos son autodeclarados.</strong> Programas, estatutos y
+            autoubicaciones los redactan las propias organizaciones, que pueden presentarse
+            estratégicamente. Cuando dichos y hechos divergen se prioriza la conducta y se
+            anota la divergencia, pero el sesgo de origen no desaparece del todo.
+          </li>
+          <li>
+            <strong>La cobertura es desigual.</strong> No todos los perfiles tienen posición
+            en las mismas preguntas: los porcentajes con poca base se marcan como
+            orientativos y un perfil poco documentado puede parecer más afín o más lejano de
+            lo que es. El aviso de baja cobertura nunca se oculta.
+          </li>
+          <li>
+            <strong>Hay error de medición.</strong> Una escala de cinco puntos es gruesa, el
+            banco de preguntas es una muestra finita de cada debate y tu resultado puede
+            moverse unos puntos con pocas respuestas más. Las medidas con poca evidencia se
+            marcan como provisionales; ningún decimal debe leerse como precisión real.
+          </li>
+          <li>
+            <strong>Todo tiene fecha de corte.</strong> Los datos describen a cada
+            organización hasta su fecha de revisión (visible en cada perfil y en cada
+            marcador de doble lectura); lo que haya pasado después no está. Un test de
+            afinidad es una foto fechada, no un juicio permanente.
+          </li>
+          <li>
+            <strong>Doctrina, programa, discurso y conducta son planos distintos.</strong>{' '}
+            Una referencia doctrinal histórica, un programa electoral, una declaración de
+            campaña y una votación consumada no se mezclan: cada posición declara de cuál de
+            esos planos sale su fuente, y las referencias del atlas no compiten en el ranking
+            con las candidaturas reales.
+          </li>
+        </ul>
+      </section>
+
+      <section className="seccion prosa">
         <h2>Privacidad por diseño</h2>
         <p>
           Las opiniones políticas son una categoría especial de datos (art. 9 RGPD). En

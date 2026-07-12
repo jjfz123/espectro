@@ -1,3 +1,4 @@
+import { ordenarPartidosParaVista } from './resultadoCompartido';
 import type { ResultadoCompartidoV1 } from './resultadoCompartido';
 
 export type TipoCapturaResultado = 'resumen' | 'brujula' | 'afinidades' | 'facetas';
@@ -272,7 +273,8 @@ function dibujarResumen(
   contexto.font = '700 24px Georgia, serif';
   contexto.fillText('Mayores afinidades', 735, 235);
   contexto.font = '700 21px Arial, sans-serif';
-  const afinidades = resultado.p.slice(0, 3).map((partido) => ({
+  // Cobertura comparable primero: el orden de cable del snapshot no es el visible.
+  const afinidades = ordenarPartidosParaVista(resultado.p).slice(0, 3).map((partido) => ({
     partido,
     lineas: envolver(
       contexto,
@@ -408,8 +410,8 @@ function dibujarAfinidades(
   contexto.fillText('Partidos más próximos', 70, 155);
   contexto.fillStyle = COLORES.suave;
   contexto.font = '400 20px Arial, sans-serif';
-  contexto.fillText(`${etiquetas.contexto} · orden por afinidad visible`, 70, 194);
-  resultado.p.slice(0, 5).forEach((partido, indice) => {
+  contexto.fillText(`${etiquetas.contexto} · cobertura comparable primero`, 70, 194);
+  ordenarPartidosParaVista(resultado.p).slice(0, 5).forEach((partido, indice) => {
     const y = 245 + indice * 188;
     redondearRectangulo(contexto, 70, y, 940, 155, 10);
     contexto.fillStyle = COLORES.superficie;

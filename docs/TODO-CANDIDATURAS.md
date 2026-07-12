@@ -10,7 +10,7 @@ Anexo generado desde `data/convocatorias`. Una casilla solo se cierra cuando la 
 - [ ] `andalucia-2026-05|and-2026-psoe-a` — PARTIDO SOCIALISTA OBRERO ESPAÑOL DE ANDALUCÍA — 22,984383 % — perfiles: `psoe` (organizacion-territorial); inclusión: umbral.
 - [ ] `andalucia-2026-05|and-2026-vox` — VOX — 13,957618 % — perfiles: `vox` (misma-organizacion); inclusión: umbral.
 - [ ] `andalucia-2026-05|and-2026-adelante` — ADELANTE ANDALUCÍA — 9,706711 % — perfiles: `adelante-andalucia` (misma-organizacion); inclusión: umbral.
-- [ ] `andalucia-2026-05|and-2026-por-andalucia` — POR ANDALUCÍA: IZQUIERDA UNIDA ANDALUCÍA–PODEMOS–MOVIMIENTO SUMAR–INICIATIVA DEL PUEBLO ANDALUZ–VERDES EQUO–ALTERNATIVA REPUBLICANA–ALIANZA VERDE — 6,403144 % — perfiles: `por-andalucia` (coalicion), `podemos` (componente), `movimiento-sumar` (componente), `verdes-equo` (componente), `alianza-verde` (componente); inclusión: umbral.
+- [x] `andalucia-2026-05|and-2026-por-andalucia` — POR ANDALUCÍA: IZQUIERDA UNIDA ANDALUCÍA–PODEMOS–MOVIMIENTO SUMAR–INICIATIVA DEL PUEBLO ANDALUZ–VERDES EQUO–ALTERNATIVA REPUBLICANA–ALIANZA VERDE — 6,403144 % — perfiles: `por-andalucia` (coalicion), `podemos` (componente), `movimiento-sumar` (componente), `verdes-equo` (componente), `alianza-verde` (componente), `iu` (componente); inclusión: umbral.
 - [ ] `andalucia-2026-05|and-2026-salf` — SE ACABÓ LA FIESTA — 2,557332 % — perfiles: `salf` (misma-organizacion); inclusión: umbral.
 - [ ] `andalucia-2026-05|and-2026-pacma` — PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE — 0,610313 % — perfiles: `pacma` (misma-organizacion); inclusión: umbral.
 - [ ] `andalucia-2026-05|and-2026-100x100` — 100X100 UNIDOS — 0,355643 % — sin perfil enlazado; inventariada sin datos políticos; inclusión: umbral.
@@ -33,7 +33,7 @@ Anexo generado desde `data/convocatorias`. Una casilla solo se cierra cuando la 
 - [ ] `aragon-2026-02|ara-2026-vox` — VOX — 18,045974 % — perfiles: `vox` (misma-organizacion); inclusión: umbral.
 - [ ] `aragon-2026-02|ara-2026-chunta-aragonesista` — CHUNTA ARAGONESISTA — 9,851676 % — perfiles: `chunta-aragonesista` (misma-organizacion); inclusión: umbral.
 - [ ] `aragon-2026-02|ara-2026-aragon-existe-coalicion-existe` — ARAGÓN EXISTE / COALICIÓN EXISTE — 3,572855 % — perfiles: `coalicion-existe` (coalicion), `teruel-existe` (componente), `aragon-existe` (componente); inclusión: umbral.
-- [ ] `aragon-2026-02|ara-2026-izquierda-unida-movimiento-sumar` — IZQUIERDA UNIDA-MOVIMIENTO SUMAR — 3,000375 % — perfiles: `movimiento-sumar` (componente); inclusión: umbral.
+- [x] `aragon-2026-02|ara-2026-izquierda-unida-movimiento-sumar` — IZQUIERDA UNIDA-MOVIMIENTO SUMAR — 3,000375 % — perfiles: `movimiento-sumar` (componente), `iu` (componente); inclusión: umbral.
 - [ ] `aragon-2026-02|ara-2026-se-acabo-la-fiesta` — SE ACABÓ LA FIESTA — 2,761943 % — perfiles: `salf` (misma-organizacion); inclusión: umbral.
 - [ ] `aragon-2026-02|ara-2026-partido-aragones` — PARTIDO ARAGONÉS — 1,260091 % — sin perfil enlazado; inventariada sin datos políticos; inclusión: umbral.
 - [ ] `aragon-2026-02|ara-2026-podemos-alianza-verde` — PODEMOS ALIANZA VERDE — 0,980054 % — perfiles: `podemos` (componente), `alianza-verde` (componente); inclusión: umbral.
@@ -69,7 +69,7 @@ Anexo generado desde `data/convocatorias`. Una casilla solo se cierra cuando la 
 - [ ] `canarias-2023-05|can-2023-partido-popular` — PARTIDO POPULAR — 20,067816 % — perfiles: `pp` (misma-organizacion); inclusión: umbral.
 - [ ] `canarias-2023-05|can-2023-vox` — VOX — 8,004688 % — perfiles: `vox` (misma-organizacion); inclusión: umbral.
 - [ ] `canarias-2023-05|can-2023-nueva-canarias` — NUEVA CANARIAS — 7,657749 % — perfiles: `nueva-canarias` (misma-organizacion); inclusión: umbral.
-- [ ] `canarias-2023-05|can-2023-unidas-si-podemos` — UNIDAS SÍ PODEMOS — 3,641221 % — perfiles: `podemos` (componente); inclusión: umbral.
+- [x] `canarias-2023-05|can-2023-unidas-si-podemos` — UNIDAS SÍ PODEMOS — 3,641221 % — perfiles: `podemos` (componente), `iu` (componente); inclusión: umbral.
 - [ ] `canarias-2023-05|can-2023-drago-verdes-canarias` — DRAGO VERDES CANARIAS — 3,30448 % — perfiles: `verdes-equo` (componente); inclusión: umbral.
 - [ ] `canarias-2023-05|can-2023-unidos-por-gran-canaria` — UNIDOS POR GRAN CANARIA — 1,722882 % — sin perfil enlazado; inventariada sin datos políticos; inclusión: umbral.
 - [ ] `canarias-2023-05|can-2023-partido-animalista-con-el-medio-ambiente` — PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE — 1,281475 % — perfiles: `pacma` (misma-organizacion); inclusión: umbral.
@@ -97,7 +97,7 @@ Anexo generado desde `data/convocatorias`. Una casilla solo se cierra cuando la 
 - [ ] `cantabria-2023-05|cnt-2023-partido-regionalista-de-cantabria` — PARTIDO REGIONALISTA DE CANTABRIA — 21,172461 % — sin perfil enlazado; inventariada sin datos políticos; inclusión: umbral.
 - [ ] `cantabria-2023-05|cnt-2023-partido-socialista-de-cantabria-psoe` — PARTIDO SOCIALISTA DE CANTABRIA-PSOE — 20,982444 % — perfiles: `psoe` (organizacion-territorial); inclusión: umbral.
 - [ ] `cantabria-2023-05|cnt-2023-vox` — VOX — 11,282489 % — perfiles: `vox` (misma-organizacion); inclusión: umbral.
-- [ ] `cantabria-2023-05|cnt-2023-podemos-izquierda-unida` — PODEMOS-IZQUIERDA UNIDA — 4,200126 % — perfiles: `podemos` (componente); inclusión: umbral.
+- [x] `cantabria-2023-05|cnt-2023-podemos-izquierda-unida` — PODEMOS-IZQUIERDA UNIDA — 4,200126 % — perfiles: `podemos` (componente), `iu` (componente); inclusión: umbral.
 - [ ] `cantabria-2023-05|cnt-2023-ciudadanos-partido-de-la-ciudadania` — CIUDADANOS-PARTIDO DE LA CIUDADANIA — 2,36016 % — perfiles: `ciudadanos` (misma-organizacion); inclusión: umbral.
 - [ ] `cantabria-2023-05|cnt-2023-cantabristas` — CANTABRISTAS — 1,731474 % — sin perfil enlazado; inventariada sin datos políticos; inclusión: umbral.
 - [ ] `cantabria-2023-05|cnt-2023-partido-animalista-con-el-medio-ambiente` — PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE — 0,576008 % — perfiles: `pacma` (misma-organizacion); inclusión: umbral.
@@ -111,7 +111,7 @@ Anexo generado desde `data/convocatorias`. Una casilla solo se cierra cuando la 
 - [ ] `castilla-la-mancha-2023-05|clm-2023-psoe` — PARTIDO SOCIALISTA OBRERO ESPAÑOL — 45,69818 % — perfiles: `psoe` (misma-organizacion); inclusión: umbral.
 - [ ] `castilla-la-mancha-2023-05|clm-2023-pp` — PARTIDO POPULAR — 34,142772 % — perfiles: `pp` (misma-organizacion); inclusión: umbral.
 - [ ] `castilla-la-mancha-2023-05|clm-2023-vox` — VOX — 13,012323 % — perfiles: `vox` (misma-organizacion); inclusión: umbral.
-- [ ] `castilla-la-mancha-2023-05|clm-2023-unidas` — UNIDAS PODEMOS CASTILLA-LA MANCHA — 4,223853 % — perfiles: `podemos` (componente); inclusión: umbral.
+- [x] `castilla-la-mancha-2023-05|clm-2023-unidas` — UNIDAS PODEMOS CASTILLA-LA MANCHA — 4,223853 % — perfiles: `podemos` (componente), `iu` (componente), `verdes-equo` (componente); inclusión: umbral.
 - [ ] `castilla-la-mancha-2023-05|clm-2023-cs` — CIUDADANOS-PARTIDO DE LA CIUDADANÍA — 1,014556 % — perfiles: `ciudadanos` (misma-organizacion); inclusión: umbral.
 - [ ] `castilla-la-mancha-2023-05|clm-2023-pacma` — PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE — 0,999829 % — perfiles: `pacma` (misma-organizacion); inclusión: umbral.
 - [ ] `castilla-la-mancha-2023-05|clm-2023-pais-gestores` — PAÍS CON GESTORES — 0,200488 % — sin perfil enlazado; inventariada sin datos políticos; inclusión: umbral.
@@ -129,7 +129,7 @@ Anexo generado desde `data/convocatorias`. Una casilla solo se cierra cuando la 
 - [ ] `castilla-y-leon-2026-03|cyl-2026-psoe` — PARTIDO SOCIALISTA OBRERO ESPAÑOL — 31,273342 % — perfiles: `psoe` (misma-organizacion); inclusión: umbral.
 - [ ] `castilla-y-leon-2026-03|cyl-2026-vox` — VOX — 19,171168 % — perfiles: `vox` (misma-organizacion); inclusión: umbral.
 - [ ] `castilla-y-leon-2026-03|cyl-2026-upl` — UNIÓN DEL PUEBLO LEONÉS — 4,374034 % — perfiles: `upl` (misma-organizacion); inclusión: umbral.
-- [ ] `castilla-y-leon-2026-03|cyl-2026-iu-ms-vq` — IZQUIERDA UNIDA-MOVIMIENTO SUMAR-VERDES EQUO — 2,284611 % — perfiles: `movimiento-sumar` (componente), `verdes-equo` (componente); inclusión: umbral.
+- [x] `castilla-y-leon-2026-03|cyl-2026-iu-ms-vq` — IZQUIERDA UNIDA-MOVIMIENTO SUMAR-VERDES EQUO — 2,284611 % — perfiles: `movimiento-sumar` (componente), `verdes-equo` (componente), `iu` (componente); inclusión: umbral.
 - [ ] `castilla-y-leon-2026-03|cyl-2026-salf` — SE ACABÓ LA FIESTA — 1,419362 % — perfiles: `salf` (misma-organizacion); inclusión: umbral.
 - [ ] `castilla-y-leon-2026-03|cyl-2026-xav` — POR ÁVILA — 0,93131 % — perfiles: `por-avila` (misma-organizacion); inclusión: umbral.
 - [ ] `castilla-y-leon-2026-03|cyl-2026-podemos-av` — PODEMOS-ALIANZA VERDE CYL 2026 — 0,775984 % — perfiles: `podemos` (componente), `alianza-verde` (componente); inclusión: umbral.
@@ -189,7 +189,7 @@ Anexo generado desde `data/convocatorias`. Una casilla solo se cierra cuando la 
 - [ ] `comunitat-valenciana-2023-05|val-2023-partido-socialista-obrero-espanol` — Partido Socialista Obrero Español — 29,070453 % — perfiles: `psoe` (misma-organizacion); inclusión: umbral.
 - [ ] `comunitat-valenciana-2023-05|val-2023-compromis-mes-iniciativa-verdsequo` — Compromís: Més-Iniciativa-Verdsequo — 14,696067 % — perfiles: `compromis` (coalicion), `verdes-equo` (componente); inclusión: umbral.
 - [ ] `comunitat-valenciana-2023-05|val-2023-vox` — Vox — 12,733589 % — perfiles: `vox` (misma-organizacion); inclusión: umbral.
-- [ ] `comunitat-valenciana-2023-05|val-2023-unides-podem-esquerra-unida` — Unides Podem-Esquerra Unida — 3,618792 % — perfiles: `podemos` (componente); inclusión: umbral.
+- [x] `comunitat-valenciana-2023-05|val-2023-unides-podem-esquerra-unida` — Unides Podem-Esquerra Unida — 3,618792 % — perfiles: `podemos` (componente), `iu` (componente); inclusión: umbral.
 - [ ] `comunitat-valenciana-2023-05|val-2023-ciudadanos-partido-de-la-ciudadania` — Ciudadanos-Partido de la Ciudadanía — 1,522814 % — perfiles: `ciudadanos` (misma-organizacion); inclusión: umbral.
 - [ ] `comunitat-valenciana-2023-05|val-2023-partido-animalista-con-el-medio-ambiente` — Partido Animalista con el Medio Ambiente — 0,855354 % — perfiles: `pacma` (misma-organizacion); inclusión: umbral.
 - [ ] `comunitat-valenciana-2023-05|val-2023-los-verdes-ecopacifistas-centro-moderado` — Los Verdes-Ecopacifistas (CENTRO MODERADO) — 0,198937 % — sin perfil enlazado; inventariada sin datos políticos; inclusión: umbral.
@@ -274,7 +274,7 @@ Anexo generado desde `data/convocatorias`. Una casilla solo se cierra cuando la 
 - [ ] `extremadura-2025-12|ext-2025-pp` — PARTIDO POPULAR — 43,63088 % — perfiles: `pp` (misma-organizacion); inclusión: umbral.
 - [ ] `extremadura-2025-12|ext-2025-psoe` — PARTIDO SOCIALISTA OBRERO ESPAÑOL — 26,072476 % — perfiles: `psoe` (misma-organizacion); inclusión: umbral.
 - [ ] `extremadura-2025-12|ext-2025-vox` — VOX — 17,103977 % — perfiles: `vox` (misma-organizacion); inclusión: umbral.
-- [ ] `extremadura-2025-12|ext-2025-unidas` — UNIDAS POR EXTREMADURA PODEMOS IZQUIERDA UNIDA ALIANZA VERDE — 10,391988 % — perfiles: `podemos` (componente), `alianza-verde` (componente); inclusión: umbral.
+- [x] `extremadura-2025-12|ext-2025-unidas` — UNIDAS POR EXTREMADURA PODEMOS IZQUIERDA UNIDA ALIANZA VERDE — 10,391988 % — perfiles: `podemos` (componente), `alianza-verde` (componente), `iu` (componente); inclusión: umbral.
 - [ ] `extremadura-2025-12|ext-2025-juntos-levanta` — JUNTOS POR EXTREMADURA-LEVANTA EXTREMADURA — 0,796628 % — sin perfil enlazado; inventariada sin datos políticos; inclusión: umbral.
 - [ ] `extremadura-2025-12|ext-2025-nex` — NUEVO EXTREMEÑISMO-ADELANTE EXTREMADURA — 0,609713 % — sin perfil enlazado; inventariada sin datos políticos; inclusión: umbral.
 - [ ] `extremadura-2025-12|ext-2025-pacma` — PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE — 0,438612 % — perfiles: `pacma` (misma-organizacion); inclusión: umbral.
@@ -303,7 +303,7 @@ Anexo generado desde `data/convocatorias`. Una casilla solo se cierra cuando la 
 - [ ] `illes-balears-2023-05|bal-2023-partit-socialista-de-les-illes-balears` — Partit Socialista de les Illes Balears — 26,957606 % — perfiles: `psoe` (organizacion-territorial); inclusión: umbral.
 - [ ] `illes-balears-2023-05|bal-2023-vox` — VOX — 14,125344 % — perfiles: `vox` (misma-organizacion); inclusión: umbral.
 - [ ] `illes-balears-2023-05|bal-2023-mes-per-mallorca` — MÉS per Mallorca — 8,490721 % — sin perfil enlazado; inventariada sin datos políticos; inclusión: umbral.
-- [ ] `illes-balears-2023-05|bal-2023-unidas-podemos` — Unidas Podemos — 4,505713 % — perfiles: `podemos` (componente); inclusión: umbral.
+- [x] `illes-balears-2023-05|bal-2023-unidas-podemos` — Unidas Podemos — 4,505713 % — perfiles: `podemos` (componente), `iu` (componente); inclusión: umbral.
 - [ ] `illes-balears-2023-05|bal-2023-el-pi-proposta-per-les-illes-balears` — El PI-Proposta per les Illes Balears — 3,853761 % — sin perfil enlazado; inventariada sin datos políticos; inclusión: umbral.
 - [ ] `illes-balears-2023-05|bal-2023-mes-per-menorca` — MÉS per Menorca — 1,462665 % — sin perfil enlazado; inventariada sin datos políticos; inclusión: umbral.
 - [ ] `illes-balears-2023-05|bal-2023-ciudadanos-partido-de-la-ciudadania` — Ciudadanos-Partido de la Ciudadanía — 1,374942 % — perfiles: `ciudadanos` (misma-organizacion); inclusión: umbral.
@@ -323,7 +323,7 @@ Anexo generado desde `data/convocatorias`. Una casilla solo se cierra cuando la 
 - [ ] `la-rioja-2023-05|rio-2023-pp` — PARTIDO POPULAR — 46,028908 % — perfiles: `pp` (misma-organizacion); inclusión: umbral.
 - [ ] `la-rioja-2023-05|rio-2023-psoe` — PARTIDO SOCIALISTA OBRERO ESPAÑOL — 32,352213 % — perfiles: `psoe` (misma-organizacion); inclusión: umbral.
 - [ ] `la-rioja-2023-05|rio-2023-vox` — VOX — 7,715074 % — perfiles: `vox` (misma-organizacion); inclusión: umbral.
-- [ ] `la-rioja-2023-05|rio-2023-podemos-iu` — PODEMOS-IZQUIERDA UNIDA — 5,160094 % — perfiles: `podemos` (componente); inclusión: umbral.
+- [x] `la-rioja-2023-05|rio-2023-podemos-iu` — PODEMOS-IZQUIERDA UNIDA — 5,160094 % — perfiles: `podemos` (componente), `iu` (componente); inclusión: umbral.
 - [ ] `la-rioja-2023-05|rio-2023-pr-ev` — PARTIDO RIOJANO+ESPAÑA VACIADA — 3,63375 % — sin perfil enlazado; inventariada sin datos políticos; inclusión: umbral.
 - [ ] `la-rioja-2023-05|rio-2023-por-la-rioja` — POR LA RIOJA — 2,626858 % — sin perfil enlazado; inventariada sin datos políticos; inclusión: umbral.
 - [ ] `la-rioja-2023-05|rio-2023-cs` — CIUDADANOS-PARTIDO DE LA CIUDADANÍA — 0,889713 % — perfiles: `ciudadanos` (misma-organizacion); inclusión: umbral.
@@ -333,19 +333,19 @@ Anexo generado desde `data/convocatorias`. Una casilla solo se cierra cuando la 
 
 ## Elecciones autonómicas de Comunidad de Madrid del 28 de mayo de 2023 (`madrid-2023-05`)
 
-- [ ] `madrid-2023-05|mad-2023-pp` — PARTIDO POPULAR — 47,817257 % — perfiles: `pp` (misma-organizacion); inclusión: umbral.
-- [ ] `madrid-2023-05|mad-2023-mas-madrid-vq` — MÁS MADRID-VERDES EQUO — 18,557486 % — perfiles: `mas-madrid` (componente), `verdes-equo` (componente); inclusión: umbral.
-- [ ] `madrid-2023-05|mad-2023-psoe` — PARTIDO SOCIALISTA OBRERO ESPAÑOL — 18,368063 % — perfiles: `psoe` (misma-organizacion); inclusión: umbral.
-- [ ] `madrid-2023-05|mad-2023-vox` — VOX — 7,42678 % — perfiles: `vox` (misma-organizacion); inclusión: umbral.
-- [ ] `madrid-2023-05|mad-2023-podemos-iu-av` — PODEMOS-IZQUIERDA UNIDA-ALIANZA VERDE — 4,815017 % — perfiles: `podemos` (componente), `alianza-verde` (componente); inclusión: umbral.
-- [ ] `madrid-2023-05|mad-2023-cs` — CIUDADANOS-PARTIDO DE LA CIUDADANÍA — 1,58251 % — perfiles: `ciudadanos` (misma-organizacion); inclusión: umbral.
-- [ ] `madrid-2023-05|mad-2023-pacma` — PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE — 0,701208 % — perfiles: `pacma` (misma-organizacion); inclusión: umbral.
-- [ ] `madrid-2023-05|mad-2023-mas-justo` — POR UN MUNDO MÁS JUSTO — 0,215855 % — perfiles: `pum-j` (misma-organizacion); inclusión: umbral.
-- [ ] `madrid-2023-05|mad-2023-pfe` — PARTIDO FEMINISTA DE ESPAÑA — 0,160748 % — sin perfil enlazado; inventariada sin datos políticos; inclusión: umbral.
-- [ ] `madrid-2023-05|mad-2023-pcte` — PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA — 0,124029 % — perfiles: `pcte` (misma-organizacion); inclusión: umbral.
-- [ ] `madrid-2023-05|mad-2023-fe` — FALANGE ESPAÑOLA DE LAS J.O.N.S. — 0,083095 % — perfiles: `fe-jons` (misma-organizacion); inclusión: umbral.
-- [ ] `madrid-2023-05|mad-2023-uleg` — UNIÓN POR LEGANÉS — 0,076068 % — sin perfil enlazado; inventariada sin datos políticos; inclusión: umbral.
-- [ ] `madrid-2023-05|mad-2023-ph` — PARTIDO HUMANISTA — 0,071882 % — sin perfil enlazado; inventariada sin datos políticos; inclusión: umbral.
+- [x] `madrid-2023-05|mad-2023-pp` — PARTIDO POPULAR — 47,817257 % — perfiles: `pp` (misma-organizacion); inclusión: umbral.
+- [x] `madrid-2023-05|mad-2023-mas-madrid-vq` — MÁS MADRID-VERDES EQUO — 18,557486 % — perfiles: `mas-madrid` (componente), `verdes-equo` (componente); inclusión: umbral.
+- [x] `madrid-2023-05|mad-2023-psoe` — PARTIDO SOCIALISTA OBRERO ESPAÑOL — 18,368063 % — perfiles: `psoe` (misma-organizacion); inclusión: umbral.
+- [x] `madrid-2023-05|mad-2023-vox` — VOX — 7,42678 % — perfiles: `vox` (misma-organizacion); inclusión: umbral.
+- [x] `madrid-2023-05|mad-2023-podemos-iu-av` — PODEMOS-IZQUIERDA UNIDA-ALIANZA VERDE — 4,815017 % — perfiles: `podemos` (componente), `alianza-verde` (componente), `iu` (componente); inclusión: umbral.
+- [x] `madrid-2023-05|mad-2023-cs` — CIUDADANOS-PARTIDO DE LA CIUDADANÍA — 1,58251 % — perfiles: `ciudadanos` (misma-organizacion); inclusión: umbral.
+- [x] `madrid-2023-05|mad-2023-pacma` — PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE — 0,701208 % — perfiles: `pacma` (misma-organizacion); inclusión: umbral.
+- [x] `madrid-2023-05|mad-2023-mas-justo` — POR UN MUNDO MÁS JUSTO — 0,215855 % — perfiles: `pum-j` (misma-organizacion); inclusión: umbral.
+- [x] `madrid-2023-05|mad-2023-pfe` — PARTIDO FEMINISTA DE ESPAÑA — 0,160748 % — sin perfil enlazado; inventariada sin datos políticos; inclusión: umbral.
+- [x] `madrid-2023-05|mad-2023-pcte` — PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA — 0,124029 % — perfiles: `pcte` (misma-organizacion); inclusión: umbral.
+- [x] `madrid-2023-05|mad-2023-fe` — FALANGE ESPAÑOLA DE LAS J.O.N.S. — 0,083095 % — perfiles: `fe-jons` (misma-organizacion); inclusión: umbral.
+- [x] `madrid-2023-05|mad-2023-uleg` — UNIÓN POR LEGANÉS — 0,076068 % — sin perfil enlazado; inventariada sin datos políticos; inclusión: umbral.
+- [x] `madrid-2023-05|mad-2023-ph` — PARTIDO HUMANISTA — 0,071882 % — sin perfil enlazado; inventariada sin datos políticos; inclusión: umbral.
 
 ## Elecciones autonómicas de Melilla del 28 de mayo de 2023 (`melilla-2023-05`)
 
@@ -363,7 +363,7 @@ Anexo generado desde `data/convocatorias`. Una casilla solo se cierra cuando la 
 - [ ] `murcia-2023-05|mur-2023-pp` — Partido Popular — 43,315242 % — perfiles: `pp` (misma-organizacion); inclusión: umbral.
 - [ ] `murcia-2023-05|mur-2023-psoe` — Partido Socialista Obrero Español — 25,941019 % — perfiles: `psoe` (misma-organizacion); inclusión: umbral.
 - [ ] `murcia-2023-05|mur-2023-vox` — VOX — 17,932198 % — perfiles: `vox` (misma-organizacion); inclusión: umbral.
-- [ ] `murcia-2023-05|mur-2023-podemos-iu-av` — Podemos-Izquierda Unida Verdes-Alianza Verde — 4,755422 % — perfiles: `podemos` (componente), `alianza-verde` (componente); inclusión: umbral.
+- [x] `murcia-2023-05|mur-2023-podemos-iu-av` — Podemos-Izquierda Unida Verdes-Alianza Verde — 4,755422 % — perfiles: `podemos` (componente), `alianza-verde` (componente), `iu` (componente); inclusión: umbral.
 - [ ] `murcia-2023-05|mur-2023-mc` — MC Regional — 2,986606 % — sin perfil enlazado; inventariada sin datos políticos; inclusión: umbral.
 - [ ] `murcia-2023-05|mur-2023-cs` — Ciudadanos-Partido de la Ciudadanía — 1,549026 % — perfiles: `ciudadanos` (misma-organizacion); inclusión: umbral.
 - [ ] `murcia-2023-05|mur-2023-mas-region-vq` — Mas Region-Verdes Equo — 1,318298 % — perfiles: `verdes-equo` (componente); inclusión: umbral.
@@ -383,9 +383,10 @@ Anexo generado desde `data/convocatorias`. Una casilla solo se cierra cuando la 
 - [ ] `navarra-2023-05|nav-2023-eh-bildu` — EH Bildu — 17,44902 % — perfiles: `eh-bildu` (misma-organizacion); inclusión: umbral.
 - [ ] `navarra-2023-05|nav-2023-geroa-bai` — Geroa Bai — 13,475267 % — perfiles: `geroa-bai` (coalicion), `eaj-pnv` (componente); inclusión: umbral.
 - [ ] `navarra-2023-05|nav-2023-ppn` — PPN — 7,413249 % — perfiles: `pp` (organizacion-territorial); inclusión: umbral.
-- [ ] `navarra-2023-05|nav-2023-contigo` — Contigo Navarra-Zurekin Nafarroa — 6,202141 % — perfiles: `podemos` (componente); inclusión: umbral.
+- [x] `navarra-2023-05|nav-2023-contigo` — Contigo Navarra-Zurekin Nafarroa — 6,202141 % — perfiles: `podemos` (componente), `iu` (componente); inclusión: umbral.
 - [ ] `navarra-2023-05|nav-2023-vox` — Vox — 4,381777 % — perfiles: `vox` (misma-organizacion); inclusión: umbral.
 - [ ] `navarra-2023-05|nav-2023-pumj` — Por Un Mundo Más Justo — 0,537035 % — perfiles: `pum-j` (misma-organizacion); inclusión: umbral.
 - [ ] `navarra-2023-05|nav-2023-cs` — Ciudadanos — 0,3929 % — perfiles: `ciudadanos` (misma-organizacion); inclusión: umbral.
 - [ ] `navarra-2023-05|nav-2023-eguzkilore` — Eguzkilore — 0,389196 % — sin perfil enlazado; inventariada sin datos políticos; inclusión: umbral.
 - [ ] `navarra-2023-05|nav-2023-voluntad-foral` — Voluntad Foral-Nabarra Gurea — 0,179629 % — sin perfil enlazado; inventariada sin datos políticos; inclusión: umbral.
+

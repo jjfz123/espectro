@@ -360,5 +360,18 @@
     ],
     "estado": "piloto",
     "notas": "Discrimina: Solo-matching por no linealidad: separa al abolicionismo animalista (contra toda ganadería, también la extensiva) del resto de la familia verde, que defiende la extensiva como aliada ambiental frente a la intensiva; a la vez, une a verdes, España vaciada y derecha en el sí, invirtiendo las coaliciones de va-04. Es el reverso en positivo de los separadores prohibicionistas va-10 y va-14. | Esperado: Verdes Equo / Alianza Verde +2, ecosocialismo (Sumar/Podemos) +2, Teruel Existe / España vaciada +2, PSOE +2, PP +1, PACMA -1, animalismo de derechos -2. | El único ítem donde PACMA queda solo frente a todo el arco, incluido su vecindario verde: máximo poder de matching para distinguir el voto animalista del voto ecologista. | [Añadido por el revisor para cubrir un hueco]"
+  },
+  {
+    "id": "va-019",
+    "texto": "Deberíamos desmontar la sociedad industrial y su tecnología, no solo hacerla más pequeña o más limpia, y volver a formas de vida sencillas en comunidades reducidas.",
+    "modulo": "verde-animalista",
+    "ejes": [],
+    "polaridad": "positiva",
+    "tags": [
+      "primitivismo",
+      "tecnologia"
+    ],
+    "estado": "piloto",
+    "notas": "Solo-matching (dosier MATRIZ-ANARQUISMOS §5.1; hueco confirmado en la nota del propietario del atlas: «falta un ítem directo sobre desmantelar la civilización industrial»). Discriminante del primitivismo frente al decrecimiento: desmantelar, no reducir. Esperado: anarcoprimitivismo +2; decrecimiento-democratico −1/0; comunalismo-bookchiniano −1 (tecnología liberadora racional); anarquismos industrialistas (anarcocomunismo, anarcosindicalismo) −2; aceleracionismos −2. Redacción propia."
   }
 ]

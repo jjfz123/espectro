@@ -42,7 +42,7 @@ for (let i = 0; i < lineas.length; i += 1) {
   lineas[i] = `${sangria}${JSON.stringify(entrada)}${coma ? ',' : ''}`;
   cambios += 1;
 }
-if (regiones !== 92 || bloqueadas !== 20) {
+if (regiones !== 92 || bloqueadas !== 0) {
   throw new Error(`Contrato inesperado: ${regiones} regiones y ${bloqueadas} bloqueadas.`);
 }
 if (comprobar && cambios) throw new Error(`${cambios} puertas geométricas desincronizadas.`);

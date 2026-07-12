@@ -1,0 +1,198 @@
+{
+  "id": "reconstitucion-comunista",
+  "nombre": "Tesis de la Reconstitución del comunismo (Línea Proletaria)",
+  "tipo": "referencia-doctrinal",
+  "definicion": "Tipo ideal de la corriente maoísta española del «Movimiento por la Reconstitución» (Comité por la Reconstitución / Línea Proletaria): sostiene que, cerrado el «Ciclo de Octubre», el Partido Comunista ya no existe y debe reconstituirse ideológicamente antes de fusionarse con las masas, mediante el Balance del Ciclo y la lucha de dos líneas. Defiende el boicot electoral activo, la guerra popular y la Dictadura del Proletariado mediante revoluciones culturales, y combate por igual el «revisionismo» del PCE/IU y el «sindicalismo-parlamentarismo» del PCTE.",
+  "variante": "Vanguardia teórica no registrada ni electoral, editora de «Línea Proletaria». No debe confundirse con Reconstrucción Comunista (RC, hoxhista, vehículo electoral Frente Obrero): comparten la palabra «reconstruir/reconstituir» pero no la doctrina —esta corriente es maoísta y RC es antimaoísta— ni continuidad orgánica.",
+  "periodo": "años 2010 – actualidad (Balance del Ciclo de Octubre)",
+  "confianza": "estimada",
+  "version": "1.0",
+  "revisado": "2026-07-12",
+  "facetasDefinitorias": [
+    "metodo-cambio",
+    "organizacion"
+  ],
+  "sensibilidad": "violenta",
+  "advertencia": "Es un tipo ideal doctrinal de una vanguardia teórica no registrada ni electoral; reivindica la guerra popular, por lo que las preguntas miden posiciones sin normalizar la violencia ni ofrecer la corriente como resultado lúdico. Quien puntúe alto en boicot y reconstitución no encaja en ningún partido que concurra a las urnas: es, precisamente, la señal de este perfil. Las descalificaciones que emplea contra otras corrientes («revisionismo», «oportunismo») se recogen como autoposición atribuida, no como juicio editorial.",
+  "fuentesMarco": [
+    {
+      "tipo": "declaracion",
+      "titulo": "Línea Proletaria — reconstitucion.net (órgano por la Reconstitución del comunismo)",
+      "url": "https://reconstitucion.net/",
+      "fecha": "2026",
+      "consultado": "2026-07-12"
+    },
+    {
+      "tipo": "declaracion",
+      "titulo": "«Ante el ciclo electoral de 2019: ¡Boicot!», Movimiento por la Reconstitución",
+      "url": "https://www.reconstitucion.net/Documentos/2019_boicot.html",
+      "fecha": "2019",
+      "consultado": "2026-07-12"
+    }
+  ],
+  "reglaPublicacion": {
+    "minimoItems": 6,
+    "minimoCobertura": 0.5,
+    "umbralAfinidad": 80
+  },
+  "posiciones": {
+    "izq-031": {
+      "valor": 2,
+      "justificacion": "El Movimiento por la Reconstitución sostiene la consigna del boicot activo frente a cada «farsa electoral», por entender que los comunistas no pueden participar en actividades electorales ni educar a las masas en el respeto de la legalidad institucional burguesa; es su marcador táctico más nítido.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "«Ante el ciclo electoral de 2019. En defensa del boicot y de las tareas revolucionarias», Movimiento por la Reconstitución (reconstitucion.net)",
+        "url": "https://www.reconstitucion.net/Documentos/2019_boicot.html",
+        "fecha": "2019",
+        "consultado": "2026-07-12",
+        "cita": "Ante el ciclo electoral de 2019. En defensa del boicot y de las tareas revolucionarias"
+      },
+      "grupoEvidencia": "pasaje-4eb7010ed73073c145c5"
+    },
+    "izq-009": {
+      "valor": -2,
+      "justificacion": "Combate como «oportunismo» tanto el electoralismo del PCE/IU como el «sindicalismo-parlamentarismo» del PCTE; rechaza cualquier integración en frentes amplios y defiende la independencia del espacio político de la vanguardia en reconstitución.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Línea Proletaria — reconstitucion.net: crítica al revisionismo y al frente amplio",
+        "url": "https://reconstitucion.net/",
+        "fecha": "2026",
+        "consultado": "2026-07-12"
+      }
+    },
+    "izq-001": {
+      "valor": 2,
+      "justificacion": "Su horizonte es la revolución proletaria y la Dictadura del Proletariado, no la reforma gradual; toda su estrategia (Balance del Ciclo, reconstitución del Partido, guerra popular) presupone la ruptura revolucionaria.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Línea Proletaria — reconstitucion.net: reconstitución del comunismo como sujeto revolucionario",
+        "url": "https://reconstitucion.net/",
+        "fecha": "2026",
+        "consultado": "2026-07-12"
+      }
+    },
+    "izq-002": {
+      "valor": 2,
+      "justificacion": "El eje de la corriente es reconstituir el Partido Comunista como sujeto revolucionario y destacamento de vanguardia; sostiene que el Partido ya no existe y que hay que reconstituirlo ideológicamente antes de dirigir las luchas de masas, lo que hace del partido de vanguardia una condición imprescindible.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Línea Proletaria — reconstitucion.net: la reconstitución del Partido Comunista",
+        "url": "https://reconstitucion.net/",
+        "fecha": "2026",
+        "consultado": "2026-07-12"
+      }
+    },
+    "izq-030": {
+      "valor": -2,
+      "justificacion": "Como corriente antirrevisionista lee la Transición y el marco de 1978 aceptado por el PCE como capitulación oportunista; el Balance del Ciclo sitúa ahí una de las claudicaciones que obligan a reconstituir el comunismo desde cero.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Línea Proletaria — reconstitucion.net: balance crítico del revisionismo del PCE",
+        "url": "https://reconstitucion.net/",
+        "fecha": "2026",
+        "consultado": "2026-07-12"
+      }
+    },
+    "izq-020": {
+      "valor": 1,
+      "justificacion": "Como corriente maoísta reivindica en lo esencial la obra de Stalin dentro del Ciclo de Octubre, pero su Balance revisa aciertos y errores en lugar de una defensa acrítica; se codifica +1 (aprecio con balance), coherente con la lectura maoísta del periodo.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Línea Proletaria — reconstitucion.net: Balance del Ciclo de Octubre",
+        "url": "https://reconstitucion.net/",
+        "fecha": "2026",
+        "consultado": "2026-07-12"
+      }
+    },
+    "izq-022": {
+      "valor": 2,
+      "justificacion": "Reivindica las revoluciones culturales como método para impedir la restauración capitalista bajo la Dictadura del Proletariado; la Revolución Cultural china es referencia positiva central de esta corriente maoísta.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Línea Proletaria — reconstitucion.net: revoluciones culturales y guerra popular",
+        "url": "https://reconstitucion.net/",
+        "fecha": "2026",
+        "consultado": "2026-07-12"
+      }
+    },
+    "izq-028": {
+      "valor": 2,
+      "justificacion": "El Balance del Ciclo de Octubre da por cerrada la experiencia socialista; en coherencia, la China posterior a la restauración capitalista no se considera socialista, sino un producto de la derrota del Ciclo.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Línea Proletaria — reconstitucion.net: cierre del Ciclo de Octubre",
+        "url": "https://reconstitucion.net/",
+        "fecha": "2026",
+        "consultado": "2026-07-12"
+      }
+    },
+    "izq-049": {
+      "valor": 2,
+      "justificacion": "Sitúa la traición revisionista en el XX Congreso (1956), cierre del «Ciclo de Octubre» que obliga a reconstituir el comunismo. Pasaje verbatim en cola.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Línea Proletaria: balance del Ciclo de Octubre (caracterización del informe)",
+        "url": "https://www.reconstitucion.net/Documentos/2019_boicot.html",
+        "fecha": "2019",
+        "consultado": "2026-07-12"
+      }
+    },
+    "izq-050": {
+      "valor": 2,
+      "justificacion": "Es SU tesis constitutiva: el Partido Comunista ya no existe y debe reconstituirse ideológica y orgánicamente antes de dirigir luchas de masas. Pasaje en cola.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Línea Proletaria: tesis de la reconstitución",
+        "url": "https://www.reconstitucion.net/Documentos/2019_boicot.html",
+        "fecha": "2019",
+        "consultado": "2026-07-12"
+      }
+    },
+    "izq-051": {
+      "valor": 2,
+      "justificacion": "Critica el «posmodernismo interclasista» de los nuevos movimientos como desviación de la contradicción capital-trabajo, según su caracterización doctrinal. Pasaje en cola.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Línea Proletaria: crítica del interclasismo (caracterización del informe)",
+        "url": "https://www.reconstitucion.net/Documentos/2019_boicot.html",
+        "fecha": "2019",
+        "consultado": "2026-07-12"
+      }
+    },
+    "izq-052": {
+      "valor": -2,
+      "justificacion": "Rechaza que ninguna experiencia estatal actual (China, Cuba, Venezuela) sea socialista: el Ciclo de Octubre está cerrado. Pasaje en cola.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Línea Proletaria: cierre del Ciclo de Octubre (caracterización del informe)",
+        "url": "https://www.reconstitucion.net/Documentos/2019_boicot.html",
+        "fecha": "2019",
+        "consultado": "2026-07-12"
+      }
+    },
+    "izq-053": {
+      "valor": -2,
+      "justificacion": "Rechaza el entrismo y toda táctica dentro de la izquierda institucional: la reconstitución es previa e independiente. Pasaje en cola.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Línea Proletaria: independencia frente al electoralismo y el entrismo",
+        "url": "https://www.reconstitucion.net/Documentos/2019_boicot.html",
+        "fecha": "2019",
+        "consultado": "2026-07-12"
+      }
+    }
+  }
+}

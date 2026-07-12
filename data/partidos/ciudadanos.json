@@ -116,6 +116,248 @@
         "fecha": "2024",
         "consultado": "2026-07-09"
       }
+    },
+    "ter-004": {
+      "valor": 2,
+      "justificacion": "Seña fundacional de Ciudadanos: defiende garantizar por ley que el castellano sea lengua vehicular en la escuela de toda España, junto a las lenguas cooficiales.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Albert Rivera: «Si gobernamos, el español será lengua vehicular en los colegios de España» (Infolibre)",
+        "url": "https://www.infolibre.es/politica/albert-rivera-si-gobernamos-espanol-sera-lengua-vehicular-colegios-espana_1_1167552.html",
+        "fecha": "2019-02-19",
+        "consultado": "2026-07-12",
+        "cita": "Si gobernamos, el español será lengua vehicular en los colegios de España"
+      },
+      "grupoEvidencia": "pasaje-c51bdbb6c52aa53ba718"
+    },
+    "nuc-001": {
+      "valor": 2,
+      "justificacion": "Ciudadanos registró una proposición para que doce de los veinte vocales del CGPJ fueran elegidos directamente por los jueces y magistrados mediante elecciones con listas abiertas, como fórmula de «despolitización» de la Justicia. Es exactamente el mecanismo de elección corporativa que plantea el ítem.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "La receta de Ciudadanos para despolitizar la Justicia: elecciones entre jueces para el CGPJ (El Español)",
+        "url": "https://www.elespanol.com/espana/politica/20180711/receta-ciudadanos-despolitizar-justicia-elecciones-jueces-cgpj/321719067_0.html",
+        "fecha": "2018-07-11",
+        "consultado": "2026-07-12",
+        "cita": "elecciones entre jueces para el CGPJ"
+      },
+      "grupoEvidencia": "pasaje-ea2fddd725063bde344f"
+    },
+    "eco-009": {
+      "valor": 2,
+      "justificacion": "Ciudadanos presentó una ley para suprimir el impuesto de sucesiones en toda España y acabar con la desigualdad entre comunidades; donde ha gobernado ha impulsado su bonificación. Acuerdo pleno con suprimir el impuesto de sucesiones y donaciones.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Cs presenta una Ley para suprimir el impuesto de sucesiones y acabar con la desigualdad actual según la CCAA donde se muera (web oficial de Ciudadanos)",
+        "url": "https://www.ciudadanos-cs.org/prensa/cs-presenta-una-ley-para-suprimir-el-impuesto-de-sucesiones-y-acabar-con-la-desigualdad-actual-segun-la-ccaa-donde-se-muera/10845",
+        "consultado": "2026-07-12",
+        "cita": "Cs presenta una Ley para suprimir el impuesto de sucesiones y acabar con la desigualdad actual según la CCAA donde se muera",
+        "fecha": "2018-10-30"
+      },
+      "grupoEvidencia": "pasaje-7219dccbde4ab77fb82f"
+    },
+    "eco-010": {
+      "valor": 2,
+      "justificacion": "El modelo laboral insignia de Ciudadanos —el contrato único indefinido con indemnización creciente y la «mochila austriaca»— es la propuesta de flexibilización del despido que el ítem asocia expresamente al liberalismo (Cs +2 en la nota del ítem); el partido lo defendió en el Congreso. Se honra el ancla editorial del ítem.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Ciudadanos defiende hoy en el Congreso su modelo laboral de contrato único y «mochila austriaca» (elEconomista)",
+        "url": "https://www.eleconomista.es/economia/noticias/9216961/06/18/Ciudadanos-defiende-hoy-en-el-Congreso-su-modelo-laboral-de-contrato-unico-y-mochila-austriaca.html",
+        "fecha": "2018-06",
+        "consultado": "2026-07-12",
+        "cita": "su modelo laboral de contrato único y mochila austriaca"
+      },
+      "grupoEvidencia": "pasaje-0bb086ed591afb679eae"
+    },
+    "lib-017": {
+      "valor": 2,
+      "justificacion": "Ciudadanos votó a favor de la Ley Orgánica de Regulación de la Eutanasia (2020-2021), que defendió en clave de libertad individual: es partidario de reconocer la eutanasia como derecho.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "El Congreso aprueba la Ley de Eutanasia, con Cs en el bloque gubernamental y el voto en contra de PP y Vox (El Español)",
+        "url": "https://www.elespanol.com/espana/politica/20201217/congreso-ley-eutanasia-cs-gubernamental-pp-vox/544196169_0.html",
+        "fecha": "2020-12-17",
+        "consultado": "2026-07-12"
+      }
+    },
+    "lib-012": {
+      "valor": 2,
+      "justificacion": "Ciudadanos registró en el Congreso (2017, 2019 y 2023) una proposición de ley para regular la gestación subrogada altruista y garantista, sin ánimo de lucro: es una de sus banderas.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Ciudadanos registra en el Congreso una proposición para regular la gestación subrogada (El Independiente)",
+        "url": "https://www.elindependiente.com/espana/2023/03/30/ciudadanos-registra-en-el-congreso-una-proposicion-para-regular-la-gestacion-subrogada/",
+        "fecha": "2023-03-30",
+        "consultado": "2026-07-12"
+      }
+    },
+    "der-024": {
+      "valor": 2,
+      "justificacion": "Ciudadanos volvió a registrar en el Congreso su ley de gestación subrogada «garantista y altruista»: dentro de la derecha es el único que defiende su legalización, frente a la oposición de PP y Vox.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Ciudadanos vuelve a registrar en el Congreso su ley de gestación subrogada «garantista y altruista» (Servimedia)",
+        "url": "https://www.servimedia.es/noticias/ciudadanos-vuelve-registrar-congreso-ley-gestacion-subrogada-garantista-altruista/3655527",
+        "fecha": "2023-03-30",
+        "consultado": "2026-07-12",
+        "cita": "ley de gestación subrogada «garantista y altruista»"
+      },
+      "grupoEvidencia": "pasaje-824d6fa6cab86ea4209b"
+    },
+    "lib-020": {
+      "valor": 2,
+      "justificacion": "Propuesta laboral más identitaria de Ciudadanos: defiende el contrato único indefinido y la «mochila austríaca», un fondo individual de indemnización que el trabajador conserva al cambiar de empresa.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Ciudadanos defiende hoy en el Congreso su modelo laboral de contrato único y «mochila austríaca» (El Economista)",
+        "url": "https://www.eleconomista.es/economia/noticias/9216961/06/18/Ciudadanos-defiende-hoy-en-el-Congreso-su-modelo-laboral-de-contrato-unico-y-mochila-austriaca.html",
+        "fecha": "2018-06",
+        "consultado": "2026-07-12",
+        "cita": "modelo laboral de contrato único y «mochila austríaca»"
+      },
+      "grupoEvidencia": "pasaje-0bb086ed591afb679eae"
+    },
+    "lib-008": {
+      "valor": 2,
+      "justificacion": "Ciudadanos fue el único partido favorable a las VTC (Uber, Cabify): defendió la liberalización del sector frente al monopolio del taxi y votó en contra del decreto que las restringía.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Qué opina cada partido político sobre el conflicto entre el taxi, Uber y las licencias VTC (Xataka Magnet)",
+        "url": "https://magnet.xataka.com/en-diez-minutos/que-opina-cada-partido-politico-conflicto-taxi-uber-licencias-vtc",
+        "fecha": "2019",
+        "consultado": "2026-07-12"
+      }
+    },
+    "lib-016": {
+      "valor": 2,
+      "justificacion": "El programa electoral de Ciudadanos propone suprimir las diputaciones provinciales y traspasar sus funciones a otras administraciones.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Las diez medidas clave del programa electoral de Ciudadanos (El Independiente)",
+        "url": "https://www.elindependiente.com/politica/2019/03/14/las-diez-medidas-clave-del-programa-electoral-de-ciudadanos/",
+        "fecha": "2019-03-14",
+        "consultado": "2026-07-12",
+        "cita": "Suprimiremos las diputaciones provinciales, garantizando mejores servicios públicos, más baratos y sin corrupción"
+      },
+      "grupoEvidencia": "pasaje-650798a49fba4b93f9fd"
+    },
+    "fem-001": {
+      "valor": -1,
+      "justificacion": "Ciudadanos se abstuvo en el primer trámite y se situó en contra de la ley trans (2022), con reparos expresos a la autodeterminación registral del sexo sin informes y a su aplicación a menores.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "La Ley Trans pasa su primer examen en el Congreso con la abstención de Ciudadanos (El Español)",
+        "url": "https://www.elespanol.com/espana/politica/20221006/ley-trans-primer-examen-congreso-abstencion-ciudadanos/708679164_0.html",
+        "fecha": "2022-10-06",
+        "consultado": "2026-07-12"
+      }
+    },
+    "lab-002": {
+      "valor": -1,
+      "justificacion": "Ciudadanos, partido de liberalismo económico, defiende que la dirección de la empresa corresponde a la propiedad y a los gestores; nunca propuso cogestión ni que las plantillas elijan una parte sustancial del órgano de dirección, aunque acepte la negociación colectiva en el marco europeo. Desacuerdo, sin el máximo.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Valores, Estrategia y Acción Política (Ciudadanos)",
+        "url": "https://www.ciudadanos-cs.org/estrategia",
+        "fecha": "2024-10-26",
+        "consultado": "2026-07-12"
+      }
+    },
+    "lab-005": {
+      "valor": 1,
+      "justificacion": "Ciudadanos, partido liberal, defiende la autonomía asociativa y la independencia de los sindicatos respecto del Gobierno y de los partidos, y ha criticado la dependencia de los grandes sindicatos de la financiación pública. De acuerdo, sin situarse en un polo antisindical.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Valores, Estrategia y Acción Política (Ciudadanos)",
+        "url": "https://www.ciudadanos-cs.org/estrategia",
+        "fecha": "2024-10-26",
+        "consultado": "2026-07-12"
+      }
+    },
+    "pop-001": {
+      "valor": -2,
+      "justificacion": "Ciudadanos se define por el «descrédito de los populismos» y la defensa de la calidad democrática y de las instituciones; rechaza la visión populista de unas élites políticas y económicas coordinadas contra la gente corriente, discurso que combatió por principio.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Valores, Estrategia y Acción Política (Ciudadanos)",
+        "url": "https://www.ciudadanos-cs.org/estrategia",
+        "fecha": "2024-10-26",
+        "consultado": "2026-07-12"
+      }
+    },
+    "sd-013": {
+      "valor": -1,
+      "justificacion": "Ciudadanos es un partido constitucionalista que asume la monarquía parlamentaria fijada en la Constitución de 1978 y nunca planteó sustituirla por una república; se opone a reabrir la forma de Estado con un referéndum entre monarquía y república. Desacuerdo, sin el máximo.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Valores, Estrategia y Acción Política (Ciudadanos)",
+        "url": "https://www.ciudadanos-cs.org/estrategia",
+        "fecha": "2024-10-26",
+        "consultado": "2026-07-12"
+      }
+    },
+    "rel-002": {
+      "valor": 2,
+      "justificacion": "Ciudadanos se define expresamente como partido aconfesional, alineado con la Constitución: defiende un Estado no confesional y la libre expresión pública de todas las confesiones dentro de la ley, con neutralidad religiosa.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Valores, Estrategia y Acción Política (Ciudadanos)",
+        "url": "https://www.ciudadanos-cs.org/estrategia",
+        "fecha": "2024-10-26",
+        "consultado": "2026-07-12"
+      }
+    },
+    "dem-034": {
+      "valor": -2,
+      "justificacion": "Ciudadanos nació frente al nacionalismo y defiende una España constitucional y unida; rechaza de plano un modelo confederal de territorios soberanos con derecho de salida, contrario a su unionismo y a la igualdad entre españoles.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Valores, Estrategia y Acción Política (Ciudadanos)",
+        "url": "https://www.ciudadanos-cs.org/estrategia",
+        "fecha": "2024-10-26",
+        "consultado": "2026-07-12"
+      }
+    },
+    "der-015": {
+      "valor": -2,
+      "justificacion": "Ciudadanos es europeísta e integrado en las redes liberales europeas (Renew Europe); apoya los marcos internacionales de sostenibilidad y se opone frontalmente a abandonar la Agenda 2030, a diferencia de la derecha nacional-populista.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral de Ciudadanos para las europeas de 2024",
+        "url": "https://www.ciudadanos-cs.org/var/public/documentos/2024-05/programa-electoral-9j-europeas.pdf",
+        "fecha": "2024-05",
+        "consultado": "2026-07-12"
+      }
+    },
+    "izq-001": {
+      "valor": -2,
+      "justificacion": "Ciudadanos es un partido de liberalismo reformista que persigue el cambio por vías graduales, institucionales y pactistas; rechaza por completo la idea de una ruptura revolucionaria como motor de la transformación social.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Valores, Estrategia y Acción Política (Ciudadanos)",
+        "url": "https://www.ciudadanos-cs.org/estrategia",
+        "fecha": "2024-10-26",
+        "consultado": "2026-07-12"
+      }
     }
   }
 }

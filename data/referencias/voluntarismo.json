@@ -1,0 +1,114 @@
+{
+  "id": "voluntarismo",
+  "nombre": "Voluntarismo político",
+  "tipo": "referencia-doctrinal",
+  "definicion": "Corriente que considera legítimas únicamente las relaciones políticas y económicas basadas en el consentimiento individual voluntario: como el medio determina el fin, una sociedad libre solo puede buscarse por medios voluntarios. En su forma contemporánea (Carl Watner, George H. Smith y Wendy McElroy, revista The Voluntaryist, 1982) rechaza el voto y la acción electoral por legitimar la coacción estatal y apuesta por la educación y la retirada del consentimiento.",
+  "variante": "Del voluntarismo de Auberon Herbert (que admitía un Estado financiado voluntariamente) al voluntarismo anarquista de Watner, G. H. Smith y McElroy; su rasgo propio es rechazar el voto y la acción electoral como legitimación de la coacción",
+  "periodo": "Década de 1880 (Auberon Herbert acuña «voluntaryism») – 1982 (revival) – actualidad",
+  "confianza": "estimada",
+  "version": "1.0",
+  "revisado": "2026-07-12",
+  "facetasDefinitorias": [
+    "estatismo",
+    "autoridad-politica",
+    "propiedad-mercado",
+    "institucionalismo"
+  ],
+  "sensibilidad": "normal",
+  "advertencia": "Tipo ideal doctrinal, no un partido español ni una identidad asignada. Está muy solapado con el anarcocapitalismo: su información incremental está en el purismo del consentimiento y en el rechazo del voto y la acción electoral como formas de legitimar la coacción, más que en una economía distinta. Auberon Herbert admitía un Estado financiado voluntariamente; el voluntarismo contemporáneo es antiestatista integral.",
+  "fuentesMarco": [
+    {
+      "tipo": "otro",
+      "titulo": "Voluntaryism: relaciones por consentimiento mutuo y rechazo de la acción electoral (ficha enciclopédica, en inglés)",
+      "url": "https://en.wikipedia.org/wiki/Voluntaryism",
+      "fecha": "1982",
+      "consultado": "2026-07-12"
+    },
+    {
+      "tipo": "otro",
+      "titulo": "Auberon Herbert, «A Plea for Voluntaryism» (Online Library of Liberty, en inglés)",
+      "url": "https://oll.libertyfund.org/pages/rc-herbert1",
+      "fecha": "1908",
+      "consultado": "2026-07-12"
+    }
+  ],
+  "reglaPublicacion": {
+    "minimoItems": 4,
+    "minimoCobertura": 0.6,
+    "umbralAfinidad": 85
+  },
+  "posiciones": {
+    "lab-010": {
+      "valor": 2,
+      "justificacion": "El consentimiento individual es el único criterio de legitimidad: la propiedad de una persona no puede destinarse a financiar servicios colectivos sin su acuerdo expreso, así que el rechazo al impuesto es corolario directo del principio voluntarista.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Voluntaryism: relaciones entre personas por consentimiento mutuo o de ningún modo (en inglés)",
+        "url": "https://en.wikipedia.org/wiki/Voluntaryism",
+        "fecha": "1982",
+        "consultado": "2026-07-12"
+      }
+    },
+    "lib-002": {
+      "valor": 2,
+      "justificacion": "El monopolio estatal de seguridad y justicia se impone sin consentimiento de quienes lo financian y padecen; solo la provisión voluntaria y contratada de esos servicios supera el test del consentimiento.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Voluntaryism: ilegitimidad de la coacción estatal frente a la asociación voluntaria (en inglés)",
+        "url": "https://en.wikipedia.org/wiki/Voluntaryism",
+        "fecha": "1982",
+        "consultado": "2026-07-12"
+      }
+    },
+    "dem-011": {
+      "valor": 2,
+      "justificacion": "El parlamentarismo descansa en un consentimiento presunto, no real; el voluntarismo busca sustituir el gobierno político no consentido por relaciones de acuerdo mutuo, no reformarlo por partes.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Voluntaryism: la sociedad plenamente voluntaria como fin buscado por medios voluntarios (en inglés)",
+        "url": "https://en.wikipedia.org/wiki/Voluntaryism",
+        "fecha": "1982",
+        "consultado": "2026-07-12"
+      }
+    },
+    "dem-029": {
+      "valor": -1,
+      "justificacion": "El voluntarismo contemporáneo rechaza el voto y la acción electoral por legitimar la coacción; reforzar el proceso legislativo obligando al Congreso a votar iniciativas ciudadanas sigue operando dentro del aparato estatal, de modo que no lo respalda. Es su rasgo diferencial frente al anarcocapitalismo, que no siempre condena el voto.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "The Voluntaryist (Watner, Smith, McElroy): crítica de la política electoral y el partido (en inglés)",
+        "url": "https://en.wikipedia.org/wiki/Voluntaryism",
+        "fecha": "1982",
+        "consultado": "2026-07-12"
+      }
+    },
+    "geo-003": {
+      "valor": 2,
+      "justificacion": "La guerra estatal en el extranjero es el ejemplo máximo de coacción no consentida sobre contribuyentes y terceros; el voluntarismo, desde Herbert, rechaza que el Estado comprometa por la fuerza a sus miembros en conflictos exteriores.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Auberon Herbert, «A Plea for Voluntaryism»: límites al uso coactivo del poder estatal (en inglés)",
+        "url": "https://oll.libertyfund.org/pages/rc-herbert1",
+        "fecha": "1908",
+        "consultado": "2026-07-12"
+      }
+    },
+    "soc-002": {
+      "valor": -1,
+      "justificacion": "Convertir la deportación en respuesta prioritaria hace del Estado el agente coactivo contra personas pacíficas; el voluntarismo rechaza esa coacción estatal y remite la admisión o exclusión a los titulares de la propiedad, no al poder político.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Voluntaryism: rechazo de la coacción estatal sobre el no agresor (en inglés)",
+        "url": "https://en.wikipedia.org/wiki/Voluntaryism",
+        "fecha": "1982",
+        "consultado": "2026-07-12"
+      }
+    }
+  }
+}

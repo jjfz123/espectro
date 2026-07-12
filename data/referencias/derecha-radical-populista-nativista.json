@@ -8,11 +8,12 @@
   "confianza": "verificada",
   "version": "1.0",
   "revisado": "2026-07-11",
-  "publicacionMapa": {
-    "publicable": false,
-    "motivo": "La cuadrícula de referencia la sitúa en el sector autoritario de derechas, cerca del populismo de derecha, pero el tipo ideal no tiene un núcleo económico: sus partidos abarcan neoliberalismo, proteccionismo y chovinismo del bienestar. El banco estima Poder en torno a +80/+90, pero no una coordenada económica limpia; dibujarla en Economía × Poder fabricaría el eje horizontal."
-  },
-  "facetasDefinitorias": ["social", "populismo", "libertades-civiles", "pluralismo-institucional"],
+  "facetasDefinitorias": [
+    "social",
+    "populismo",
+    "libertades-civiles",
+    "pluralismo-institucional"
+  ],
   "sensibilidad": "antipluralista",
   "advertencia": "Esta referencia describe una familia ideológica en sentido politológico, no diagnostica a una persona ni convierte una respuesta restrictiva sobre inmigración en identidad política. Se separa expresamente del fascismo: la derecha radical acepta la competencia electoral, aunque su mayoritarismo y nativismo puedan erosionar garantías liberales; la extrema derecha antidemocrática, el supremacismo racial y la violencia requieren evidencias adicionales. En la cuadrícula visual aportada, su vecindad razonable es «Populism (Right)» y el borde inferior de «Authoritarian Capitalism», nunca «Fascism» o «Nazism». Al faltar un programa económico común, la proyección auditada es Economía indeterminada y Poder aproximadamente +86, no una falsa acumulación estatista en la izquierda.",
   "fuentesMarco": [

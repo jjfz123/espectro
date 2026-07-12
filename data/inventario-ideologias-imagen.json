@@ -145,7 +145,7 @@
         "clase": "region",
         "corrienteId": "cuarta-teoria-politica",
         "decisionCapa": "B",
-        "publicacionGeometrica": "bloqueada-investigacion",
+        "publicacionGeometrica": "publicada",
         "equivalenciaConCorriente": true,
         "motivo": "La economía no está instrumentada y su influencia española no debe sobredimensionarse; el punto es solo un prior pendiente."
       }
@@ -238,7 +238,7 @@
         "clase": "region",
         "corrienteId": "neonazismo",
         "decisionCapa": "B",
-        "publicacionGeometrica": "bloqueada-investigacion",
+        "publicacionGeometrica": "publicada",
         "equivalenciaConCorriente": true,
         "motivo": "Referencia sensible e histórica; no se confunde con derecha radical electoral ni con el arquetipo aceleracionista terrorista."
       }
@@ -491,7 +491,7 @@
         "clase": "region",
         "corrienteId": "strasserismo",
         "decisionCapa": "B",
-        "publicacionGeometrica": "bloqueada-investigacion",
+        "publicacionGeometrica": "publicada",
         "equivalenciaConCorriente": true,
         "motivo": "No es izquierda por una posición económica aislada y solo puede aparecer con contexto histórico y advertencia."
       }
@@ -1311,7 +1311,7 @@
         "clase": "region",
         "corrienteId": "neorreaccion",
         "decisionCapa": "B",
-        "publicacionGeometrica": "bloqueada-investigacion",
+        "publicacionGeometrica": "publicada",
         "equivalenciaConCorriente": true,
         "motivo": "Nicho anglófono de baja presencia; su economía no es única y requiere nuevos discriminantes antes de mapearse. El propietario la describe como lectores españoles de un fenómeno anglosajón (Moldbug, Land) en el post-libertarianismo online: nicho de nicho."
       }
@@ -1351,7 +1351,7 @@
         "clase": "region",
         "corrienteId": "tercera-via",
         "decisionCapa": "B",
-        "publicacionGeometrica": "bloqueada-investigacion",
+        "publicacionGeometrica": "publicada",
         "equivalenciaConCorriente": true,
         "motivo": "Debe delimitarse por periodo y programa; no equivale al simple centro ni a cualquier moderación del PSOE."
       }
@@ -1696,7 +1696,7 @@
         "clase": "region",
         "corrienteId": "libertarismo-nacional",
         "decisionCapa": "B",
-        "publicacionGeometrica": "bloqueada-investigacion",
+        "publicacionGeometrica": "publicada",
         "equivalenciaConCorriente": true,
         "motivo": "Debe concretar nación cívica o cultural y no puede deducirse de una respuesta fiscal o territorial aislada."
       }
@@ -1750,7 +1750,7 @@
         "clase": "region",
         "corrienteId": "rothbardianismo-izquierda",
         "decisionCapa": "B",
-        "publicacionGeometrica": "bloqueada-investigacion",
+        "publicacionGeometrica": "publicada",
         "equivalenciaConCorriente": true,
         "motivo": "Nicho exhaustivo; no debe confundirse con ancap convencional ni con mutualismo por compartir mercados y antiestatismo."
       }
@@ -1803,7 +1803,7 @@
         "clase": "region",
         "corrienteId": "libertarismo-cristiano",
         "decisionCapa": "B",
-        "publicacionGeometrica": "bloqueada-investigacion",
+        "publicacionGeometrica": "publicada",
         "equivalenciaConCorriente": true,
         "motivo": "Religión personal no implica confesionalidad; exige libertad de conciencia y una posición institucional explícita."
       }
@@ -1817,7 +1817,7 @@
         "clase": "region",
         "corrienteId": "propertarianismo",
         "decisionCapa": "B",
-        "publicacionGeometrica": "bloqueada-investigacion",
+        "publicacionGeometrica": "publicada",
         "equivalenciaConCorriente": true,
         "motivo": "No se identifica por rechazar impuestos: necesita medir autoridad privada, exclusión contractual y pluralismo político."
       }
@@ -1881,7 +1881,7 @@
         "clase": "region",
         "corrienteId": "georgismo",
         "decisionCapa": "B",
-        "publicacionGeometrica": "bloqueada-investigacion",
+        "publicacionGeometrica": "publicada",
         "equivalenciaConCorriente": true,
         "motivo": "Falta un ítem directo sobre renta del suelo; fiscalidad general o vivienda no identifican por sí solas georgismo."
       }
@@ -2054,7 +2054,7 @@
         "clase": "region",
         "corrienteId": "agorismo",
         "decisionCapa": "B",
-        "publicacionGeometrica": "bloqueada-investigacion",
+        "publicacionGeometrica": "publicada",
         "equivalenciaConCorriente": true,
         "motivo": "Falta un ítem directo de contraeconomía; desobediencia o economía informal aisladas no bastan para identificarla. Nota del propietario: la gran economía sumergida española es agorismo de facto sin agoristas — praxis sin teoría, no posición declarada."
       }
@@ -2142,7 +2142,7 @@
         "clase": "region",
         "corrienteId": "anarcofeminismo",
         "decisionCapa": "B",
-        "publicacionGeometrica": "bloqueada-investigacion",
+        "publicacionGeometrica": "publicada",
         "equivalenciaConCorriente": true,
         "motivo": "Mujeres Libres aporta una conexión histórica, pero faltan preguntas sobre poder doméstico no estatal."
       }
@@ -2156,7 +2156,7 @@
         "clase": "region",
         "corrienteId": "anarquismo-queer",
         "decisionCapa": "B",
-        "publicacionGeometrica": "bloqueada-investigacion",
+        "publicacionGeometrica": "publicada",
         "equivalenciaConCorriente": true,
         "motivo": "Requiere módulo y fuentes propios; no se identifica por una respuesta aislada en debates LGTB o trans."
       }
@@ -2198,7 +2198,7 @@
         "clase": "region",
         "corrienteId": "egoismo-anarquista",
         "decisionCapa": "B",
-        "publicacionGeometrica": "bloqueada-investigacion",
+        "publicacionGeometrica": "publicada",
         "equivalenciaConCorriente": true,
         "motivo": "No debe heredar la economía del individualismo tuckeriano; falta medir relación con normas comunitarias y propiedad."
       }
@@ -2226,7 +2226,7 @@
         "clase": "region",
         "corrienteId": "voluntarismo",
         "decisionCapa": "B",
-        "publicacionGeometrica": "bloqueada-investigacion",
+        "publicacionGeometrica": "publicada",
         "equivalenciaConCorriente": true,
         "motivo": "Muy solapada con ancap; necesita demostrar información incremental más allá de impuestos y Estado mínimo."
       }
@@ -2240,7 +2240,7 @@
         "clase": "region",
         "corrienteId": "hoppeanismo",
         "decisionCapa": "B",
-        "publicacionGeometrica": "bloqueada-investigacion",
+        "publicacionGeometrica": "publicada",
         "equivalenciaConCorriente": true,
         "motivo": "Sensible por sus posibles políticas de exclusión; no se deriva de rechazo fiscal ni se equipara a todo ancap."
       }
@@ -2287,7 +2287,7 @@
         "clase": "region",
         "corrienteId": "anarcoprimitivismo",
         "decisionCapa": "B",
-        "publicacionGeometrica": "bloqueada-investigacion",
+        "publicacionGeometrica": "publicada",
         "equivalenciaConCorriente": true,
         "motivo": "Falta un ítem directo sobre desmantelar civilización industrial; límites al crecimiento y energías limpias no bastan."
       }

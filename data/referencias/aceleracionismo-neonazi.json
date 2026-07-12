@@ -8,10 +8,6 @@
   "confianza": "verificada",
   "version": "1.0",
   "revisado": "2026-07-11",
-  "publicacionMapa": {
-    "publicable": false,
-    "motivo": "La corriente define con claridad violencia, supremacismo y antipluralismo, pero no un programa económico coherente. Colocarla como un punto preciso en Economía × Sociedad inventaría su coordenada horizontal; permanece en el matching doctrinal sensible y en sus facetas propias."
-  },
   "facetasDefinitorias": [
     "uso-fuerza",
     "pluralismo-institucional",
@@ -19,7 +15,7 @@
     "social"
   ],
   "sensibilidad": "violenta",
-  "advertencia": "Esta referencia describe una corriente vinculada al terrorismo supremacista. No es una candidatura, no muestra símbolos, materiales ni procedimientos y nunca debe presentarse como resultado lúdico o pertenencia personal. Una respuesta aislada no permite inferir delito, militancia ni intención violenta; la comparación solo señala actitudes declaradas y exige el umbral más alto del catálogo.",
+  "advertencia": "Esta referencia describe una corriente vinculada al terrorismo supremacista. No es una candidatura, no muestra símbolos, materiales ni procedimientos y nunca debe presentarse como resultado lúdico o pertenencia personal. Una respuesta aislada no permite inferir delito, militancia ni intención violenta; la comparación solo señala actitudes declaradas y exige el umbral más alto del catálogo. En España, elDiario.es documentó (dic. 2025) un intento de implantación —el grupo de Telegram «Spanish Waffen», una cincuentena de participantes hacia 2020-2021, con instrucciones para fabricar armas y explosivos y llamamientos a la acción— sin ninguna acción reivindicada en España hasta su publicación: esa cautela se conserva y el intento no se presenta como organización operativa consumada.",
   "fuentesMarco": [
     {
       "tipo": "otro",

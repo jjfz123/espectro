@@ -1,0 +1,124 @@
+{
+  "id": "pce-reconstituido-1975-2006",
+  "nombre": "PCE(r) — Partido Comunista de España (reconstituido)",
+  "tipo": "referencia-doctrinal",
+  "definicion": "Organización marxista-leninista de inspiración maoísta inicial fundada en 1975 desde la OMLE, que defendió la vía armada hacia una «república popular y federativa» y rechazó participar en las instituciones surgidas de la Transición. La Audiencia Nacional la consideró el brazo político de los GRAPO, organización terrorista responsable de asesinatos, secuestros y atentados. Nunca se inscribió en el registro de partidos ni concurrió a elecciones.",
+  "variante": "Doctrina del periodo 1975-2006 según sus documentos y las resoluciones judiciales que la caracterizaron; no incluye a ninguna organización posterior que reivindique sus siglas.",
+  "periodo": "España, 1975-2006 (suspendido en 2003; disuelto por la Audiencia Nacional en 2006)",
+  "confianza": "verificada",
+  "version": "1.0",
+  "revisado": "2026-07-12",
+  "facetasDefinitorias": [
+    "metodo-cambio",
+    "autoridad-politica",
+    "organizacion"
+  ],
+  "sensibilidad": "violenta",
+  "advertencia": "ORGANIZACIÓN ILEGAL: la Audiencia Nacional consideró al PCE(r) el brazo político de la organización terrorista GRAPO; fue suspendido judicialmente en 2003 e ilegalizado y disuelto en 2006, y los GRAPO asesinaron a decenas de personas. Esta ficha es un registro doctrinal histórico con lenguaje clínico: describir su doctrina no la legitima, pertenecer a estas organizaciones o colaborar con ellas es delito en España, y ninguna cercanía parcial en ítems identifica a nadie con ellas ni con la violencia.",
+  "fuentesMarco": [
+    {
+      "tipo": "otro",
+      "titulo": "Auto del Juzgado Central de Instrucción nº 5 (Audiencia Nacional) de suspensión de actividades del PCE(r), en el marco del sumario contra GRAPO-PCE(r)",
+      "url": "https://www.poderjudicial.es/search/indexAN.jsp",
+      "fecha": "2003",
+      "consultado": "2026-07-12"
+    },
+    {
+      "tipo": "otro",
+      "titulo": "Resolución de la Audiencia Nacional que declara la disolución del PCE(r) por su vinculación con los GRAPO",
+      "url": "https://www.poderjudicial.es/search/indexAN.jsp",
+      "fecha": "2006",
+      "consultado": "2026-07-12"
+    },
+    {
+      "tipo": "otro",
+      "titulo": "PCE(r): trayectoria, ilegalización y vinculación con los GRAPO (síntesis enciclopédica de contraste)",
+      "url": "https://es.wikipedia.org/wiki/Partido_Comunista_de_Espa%C3%B1a_(reconstituido)",
+      "fecha": "2026",
+      "consultado": "2026-07-12"
+    }
+  ],
+  "reglaPublicacion": {
+    "minimoItems": 6,
+    "minimoCobertura": 0.65,
+    "umbralAfinidad": 92
+  },
+  "posiciones": {
+    "izq-001": {
+      "valor": 2,
+      "justificacion": "Defendió la ruptura revolucionaria por la vía armada como única salida, rechazando expresamente la reforma gradual del régimen del 78. Sin pasaje verbatim aún: caracterización judicial y documental en cola.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Caracterización doctrinal del PCE(r) en las resoluciones de la Audiencia Nacional y en su documentación histórica",
+        "url": "https://es.wikipedia.org/wiki/Partido_Comunista_de_Espa%C3%B1a_(reconstituido)",
+        "fecha": "2006",
+        "consultado": "2026-07-12"
+      }
+    },
+    "izq-002": {
+      "valor": 2,
+      "justificacion": "Se organizó como partido de vanguardia clandestino de tipo leninista, con dirección centralizada, como condición del proceso revolucionario.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Caracterización doctrinal del PCE(r) (Audiencia Nacional y documentación histórica)",
+        "url": "https://es.wikipedia.org/wiki/Partido_Comunista_de_Espa%C3%B1a_(reconstituido)",
+        "fecha": "2006",
+        "consultado": "2026-07-12"
+      }
+    },
+    "izq-031": {
+      "valor": 2,
+      "justificacion": "Nunca se inscribió ni concurrió a elecciones: practicó el rechazo activo de la vía electoral durante toda su existencia (1975-2006).",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Trayectoria registral y electoral del PCE(r): ausencia deliberada del registro y de las urnas",
+        "url": "https://es.wikipedia.org/wiki/Partido_Comunista_de_Espa%C3%B1a_(reconstituido)",
+        "fecha": "2006",
+        "consultado": "2026-07-12"
+      }
+    },
+    "izq-009": {
+      "valor": -2,
+      "justificacion": "Rechazó frontalmente la política de coaliciones amplias del PCE/IU, a las que consideraba integración en el régimen; su ruptura con esa línea es constitutiva de la organización.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Caracterización doctrinal del PCE(r) frente a la línea del PCE (documentación histórica)",
+        "url": "https://es.wikipedia.org/wiki/Partido_Comunista_de_Espa%C3%B1a_(reconstituido)",
+        "fecha": "2006",
+        "consultado": "2026-07-12"
+      }
+    },
+    "dr-025": {
+      "valor": -2,
+      "justificacion": "Negación expresa del enunciado: defendió y practicó la violencia política como medio legítimo — la Audiencia Nacional lo consideró el brazo político de los GRAPO. Es su rasgo definitorio y la razón de su ilegalización.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "«El Fiscal pide la suspensión del Partido Comunista Reconstituido como brazo político de GRAPO», Libertad Digital",
+        "url": "https://www.libertaddigital.com/espana/2002-10-22/el-fiscal-pide-la-suspension-del-partido-comunista-reconstituido-como-brazo-politico-de-grapo-1275321207/",
+        "fecha": "2002-10-22",
+        "consultado": "2026-07-12",
+        "cita": "El Fiscal pide la suspensión del Partido Comunista Reconstituido como brazo político de GRAPO"
+      },
+      "grupoEvidencia": "pasaje-6c4ad9e4204a4e0a050c"
+    },
+    "mon-001": {
+      "valor": 2,
+      "justificacion": "Su objetivo declarado era una «república popular y federativa»: rechazo de la Jefatura del Estado hereditaria. Fórmula programática reproducida en la síntesis enciclopédica de contraste.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Objetivo programático del PCE(r) («república popular y federativa») recogido en la síntesis enciclopédica de contraste",
+        "url": "https://es.wikipedia.org/wiki/Partido_Comunista_de_Espa%C3%B1a_(reconstituido)",
+        "fecha": "2006",
+        "consultado": "2026-07-12",
+        "cita": "república popular y federativa"
+      },
+      "grupoEvidencia": "pasaje-cbffaca9bb219c3e444d"
+    }
+  }
+}

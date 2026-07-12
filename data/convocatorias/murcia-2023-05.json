@@ -88,6 +88,11 @@
           "perfilId": "alianza-verde",
           "relacion": "componente",
           "nota": "Alianza Verde figura como componente de esta candidatura fechada; sus posiciones no se atribuyen automáticamente a la coalición."
+        },
+        {
+          "perfilId": "iu",
+          "relacion": "componente",
+          "nota": "Izquierda Unida (IU-Verdes de la Región de Murcia) integra la coalición «Podemos-Izquierda Unida-Alianza Verde» junto a Podemos y Alianza Verde; confirmado por Podemos Región de Murcia y prensa regional (Murcia Plaza). Sus posiciones no se atribuyen automáticamente a la coalición."
         }
       ],
       "nota": "Naturaleza inventariada: coalicion-electoral. Vigencia comprobada: matrices-verificadas. Tratamiento previsto: perfil-especifico."

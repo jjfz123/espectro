@@ -1,8 +1,8 @@
 {
   "version": 1,
   "partidos": {
-    "total": 65,
-    "sha256": "74fef35d3fdc50365c93e5657a63f3072484c71ba05f539e0a5cc826c378d178"
+    "total": 66,
+    "sha256": "ce6bd136b230da260b76ef4b73afc819e20ee1750859c6178e4d8830a664f1e3"
   },
   "sindicatos": {
     "total": 14,
@@ -23,8 +23,8 @@
     "sha256": "bf9fd2afc4915896f7fc593fc10163f95f6e8e64a3fa55adbb9ca9edef27aa2e"
   },
   "contratoFuncional": {
-    "total": 287,
-    "sha256": "40aa111c6c5eb19839ee3c708e353165daf0803f73e1f965a87dc5c7d76edd92"
+    "total": 290,
+    "sha256": "44c4af243f6a1f6719dbdd604befdcf9d33fe765a72bc198ba16d536f0ed71c9"
   },
   "ideologiasImagen": {
     "total": 178,

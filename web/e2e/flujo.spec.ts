@@ -388,6 +388,15 @@ test('resultados separa principales, top real y resto desplegable en móvil', as
     );
   expect(solapesContraste).toEqual([]);
 
+  // Doble lectura: al desplegar un marcador se ven el disclaimer y las fechas
+  // de ambos marcadores (corte del base y periodo del contraste).
+  const marcadorDesplegado = principales.locator('.marcador-contraste--replegado').first();
+  await marcadorDesplegado.locator('summary').click();
+  const lecturas = marcadorDesplegado.locator('.marcador-contraste__lecturas');
+  await expect(lecturas).toContainText('Ninguna es «la verdad esencial»');
+  await expect(lecturas).toContainText(/corte \d{4}-\d{2}-\d{2}/);
+  await expect(lecturas).toContainText(/\d{4}-\d{2}-\d{2} – \d{4}-\d{2}-\d{2}/);
+
   const maximos = page.locator('section').filter({
     has: page.getByRole('heading', { name: 'Máximos por afinidad' }),
   });
@@ -699,11 +708,13 @@ test('el hito de 150 persiste, ofrece perfil intermedio y reanuda sin repetirse'
   await expect(page.getByText('Una lectura profunda, todavía provisional')).toBeVisible();
   await expect(page.getByText(/150 ítems respondidos/)).toBeVisible();
   await esperarMapaDesplegado(page);
-  /* La vista de profundidad es el estado por defecto en todos los niveles. */
+  /* Orden del propietario (2026-07-12): el atlas completo es el ÚNICO modo,
+     sin conmutadores de profundidad ni variante simplificada, en ningún nivel. */
   await expect(page.locator('.mapa-plano--brujula .mapa-zona--interactiva')).toHaveCount(
     TOTAL_CORRIENTES_MAPA,
   );
-  await expect(page.getByLabel('Incluir corrientes de profundidad')).toBeChecked();
+  await expect(page.getByLabel('Incluir corrientes de profundidad')).toHaveCount(0);
+  await expect(page.getByLabel('Explorar corrientes ideológicas')).toHaveCount(0);
   await page.reload();
   await expect(
     page.getByRole('heading', { name: 'Tu perfil con profundidad intermedia' }),
@@ -900,7 +911,7 @@ test('un partido monotemático aparece sin porcentaje de afinidad general', asyn
   await expect(
     page.getByText(
       new RegExp(
-        `Atlas exhaustivo: incluye ${TOTAL_CORRIENTES_MAPA} regiones geométricas, ${ANCLAS_BLOQUEADAS_MAPA.length} anclas huecas en investigación y ${ENTRADAS_CONTEXTO_ATLAS} entradas contextuales`,
+        `El atlas completo es el único modo: incluye ${TOTAL_CORRIENTES_MAPA} regiones geométricas, ${ANCLAS_BLOQUEADAS_MAPA.length} anclas huecas en investigación y ${ENTRADAS_CONTEXTO_ATLAS} entradas contextuales`,
         'i',
       ),
     ),
@@ -1086,8 +1097,8 @@ test('la brújula degrada el fondo y revela corrientes solo al enfocar o tocar',
     'aria-label',
     /Propiedad y mercado por Poder político/i,
   );
-  /* Profundidad activada de entrada: el atlas rico completo, sin exigir clic. */
-  await expect(page.getByLabel('Incluir corrientes de profundidad')).toBeChecked();
+  /* Atlas completo como único modo: sin conmutador y sin exigir clic. */
+  await expect(page.getByLabel('Incluir corrientes de profundidad')).toHaveCount(0);
   await expect(page.locator('.mapa-plano--brujula .mapa-zona--interactiva')).toHaveCount(
     TOTAL_CORRIENTES_MAPA,
   );
@@ -1125,7 +1136,7 @@ test('la brújula degrada el fondo y revela corrientes solo al enfocar o tocar',
   await expect(
     page.getByText(
       new RegExp(
-        `La capa principal contiene ${CORRIENTES_PRINCIPALES_MAPA} regiones, ${ANCLAS_BLOQUEADAS_PRINCIPALES} anclas en investigación y ${ENTRADAS_CONTEXTO_PRINCIPALES} entradas contextuales`,
+        `El atlas completo es el único modo: incluye ${TOTAL_CORRIENTES_MAPA} regiones geométricas`,
         'i',
       ),
     ),
@@ -1134,17 +1145,8 @@ test('la brújula degrada el fondo y revela corrientes solo al enfocar o tocar',
     (clave) => Object.keys(JSON.parse(localStorage.getItem(clave) ?? '{}').respuestas ?? {}).length,
     CLAVE_ALMACEN,
   );
-  await page.getByLabel('Incluir corrientes de profundidad').uncheck();
-  await expect(page.locator('.mapa-plano--brujula .mapa-zona--interactiva')).toHaveCount(
-    CORRIENTES_PRINCIPALES_MAPA,
-  );
-  await expect(page.locator('.mapa-plano--brujula .mapa-ancla-bloqueada')).toHaveCount(
-    ANCLAS_BLOQUEADAS_PRINCIPALES,
-  );
-  await expect(
-    page.getByLabel('Buscar en el atlas').locator('option', { hasText: 'Posadismo' }),
-  ).toHaveCount(0);
-  await page.getByLabel('Incluir corrientes de profundidad').check();
+  /* Sin variante simplificada que restar: la profundidad no es conmutable. */
+  await expect(page.getByLabel('Incluir corrientes de profundidad')).toHaveCount(0);
   await expect(page.locator('.mapa-plano--brujula .mapa-zona--interactiva')).toHaveCount(
     TOTAL_CORRIENTES_MAPA,
   );
@@ -1175,14 +1177,17 @@ test('la brújula degrada el fondo y revela corrientes solo al enfocar o tocar',
   await otraZona.click();
   await expect(ficha.getByRole('heading', { level: 3 })).not.toHaveText(tituloFijado);
 
-  const anclaInvestigacion = page.locator(
-    '.mapa-plano--brujula .mapa-ancla-bloqueada[data-corriente-id="cuarta-teoria-politica"]',
+  /* 2026-07-12: las 20 anclas en investigación quedaron instrumentadas
+     (contrato 92/0) — no queda ningún ancla hueca y la antigua
+     cuarta-teoria-politica se abre como región publicada con ancla editorial. */
+  await expect(page.locator('.mapa-plano--brujula .mapa-ancla-bloqueada')).toHaveCount(0);
+  const zonaCuarta = page.locator(
+    '.mapa-plano--brujula .mapa-zona--interactiva[data-zona-id="cuarta-teoria-politica"]',
   );
-  await expect(anclaInvestigacion).toHaveCount(1);
-  await anclaInvestigacion.click();
+  await expect(zonaCuarta).toHaveCount(1);
+  await zonaCuarta.click();
   await expect(ficha.getByRole('heading', { level: 3 })).toHaveText('Cuarta Teoría Política');
-  await expect(ficha).toContainText('ancla hueca');
-  await expect(ficha.getByLabel('Ancla editorial de la corriente')).toHaveCount(0);
+  await expect(ficha.getByLabel('Ancla editorial de la corriente')).toBeVisible();
 
   const buscadorAtlas = page.getByLabel('Buscar en el atlas');
   const rotuloRawls = buscadorAtlas.locator(
@@ -1206,25 +1211,24 @@ test('la brújula degrada el fondo y revela corrientes solo al enfocar o tocar',
     'Liberalismo igualitario rawlsiano',
   );
   await expect(ficha.getByLabel('Ancla editorial de la corriente')).toBeVisible();
-  await expect(ficha).toContainText('Proyección calculada en el mapa: no publicable.');
-  await expect(ficha).toContainText('Afinidad doctrinal: no publicable.');
-  await expect(ficha).toContainText('No participa en el cálculo de afinidad');
+  /* Sin vetos editoriales (orden del propietario, 2026-07-12): la ficha del
+     atlas declara que el ancla es editorial y no una proyección calculada;
+     la afinidad queda guardada por su regla de publicación, no por veto. */
+  await expect(ficha).toContainText('región educativa publicada del atlas');
+  await expect(ficha).toContainText(
+    'no es una proyección calculada de esta referencia ni una coincidencia doctrinal',
+  );
   await page.getByRole('button', { name: 'Ocultar información', exact: true }).click();
 
   await buscadorAtlas.selectOption('posadismo');
   await page.getByRole('button', { name: 'Más información', exact: true }).click();
   await expect(page.getByRole('heading', { name: 'Fuentes marco' })).toBeVisible();
-  await page.getByLabel('Incluir corrientes de profundidad').uncheck();
-  await expect(page.locator('.mapa-plano--brujula .mapa-zona--interactiva')).toHaveCount(
-    CORRIENTES_PRINCIPALES_MAPA,
-  );
-  await expect(page.locator('.mapa-corriente-lectura')).toHaveCount(0);
-  await page.getByLabel('Explorar corrientes ideológicas').uncheck();
-  await expect(buscadorAtlas).toBeDisabled();
-  await expect(page.getByLabel('Incluir corrientes de profundidad')).toBeDisabled();
-  await expect(page.locator('.mapa-corriente-lectura')).toHaveCount(0);
-  await page.getByLabel('Explorar corrientes ideológicas').check();
+  /* Sin conmutadores: el buscador del atlas siempre está operativo y la
+     lectura de la corriente se cierra con su propio control, no apagando capas. */
+  await expect(page.getByLabel('Incluir corrientes de profundidad')).toHaveCount(0);
+  await expect(page.getByLabel('Explorar corrientes ideológicas')).toHaveCount(0);
   await expect(buscadorAtlas).toBeEnabled();
+  await page.getByRole('button', { name: 'Ocultar información', exact: true }).click();
   const respuestasDespues = await page.evaluate(
     (clave) => Object.keys(JSON.parse(localStorage.getItem(clave) ?? '{}').respuestas ?? {}).length,
     CLAVE_ALMACEN,
@@ -1272,6 +1276,9 @@ test('el plano detallado ofrece objetivos táctiles reales y desambigua los cúm
         Math.min(...objetivos),
         `objetivo táctil mínimo del plano detallado con viewport ${ancho}`,
       ).toBeGreaterThanOrEqual(44);
+      /* 2026-07-12: las 20 anclas en investigación quedaron instrumentadas
+         (contrato 92/0); si alguna reapareciera, su objetivo táctil vuelve a
+         exigirse ≥44 px. */
       const objetivosAnclas = await page
         .locator('.mapa-plano--brujula .mapa-ancla-bloqueada__hit')
         .evaluateAll((circulos) =>
@@ -1280,11 +1287,14 @@ test('el plano detallado ofrece objetivos táctiles reales y desambigua los cúm
             return Math.min(caja.width, caja.height);
           }),
         );
-      expect(objetivosAnclas.length).toBeGreaterThan(0);
-      expect(
-        Math.min(...objetivosAnclas),
-        `objetivo táctil mínimo de las anclas en investigación con viewport ${ancho}`,
-      ).toBeGreaterThanOrEqual(44);
+      if (objetivosAnclas.length > 0) {
+        expect(
+          Math.min(...objetivosAnclas),
+          `objetivo táctil mínimo de las anclas en investigación con viewport ${ancho}`,
+        ).toBeGreaterThanOrEqual(44);
+      } else {
+        expect(objetivosAnclas).toHaveLength(0);
+      }
     }
 
     /* Un cúmulo no premia al punto de encima: el toque abre la
@@ -1336,7 +1346,7 @@ test('el plano detallado ofrece objetivos táctiles reales y desambigua los cúm
   }
 });
 
-test('la vista simple es un compass pelado conmutable y nunca el estado inicial', async ({
+test('el atlas completo es el único modo: sin conmutadores ni variante simplificada (orden del propietario)', async ({
   page,
 }) => {
   const sesion = crearSesionResultadosRapidos(1);
@@ -1347,35 +1357,24 @@ test('la vista simple es un compass pelado conmutable y nunca el estado inicial'
   await page.goto('/');
   await esperarMapaDesplegado(page);
 
-  /* Estado inicial: vista de profundidad, nunca la simple. */
-  const explorar = page.getByLabel('Explorar corrientes ideológicas');
-  await expect(explorar).toBeChecked();
-  await expect(page.getByLabel('Incluir corrientes de profundidad')).toBeChecked();
-  expect(await page.locator('.mapa-zona').count()).toBeGreaterThan(0);
+  /* Ningún conmutador de capas: ni corrientes ni profundidad. */
+  await expect(page.getByLabel('Explorar corrientes ideológicas')).toHaveCount(0);
+  await expect(page.getByLabel('Incluir corrientes de profundidad')).toHaveCount(0);
 
-  /* Vista simple: ejes, cuadrantes, tu punto y los partidos; sin capa densa,
-     con buscador y ficha del atlas apagados de forma coherente. */
-  await explorar.uncheck();
-  await expect(page.locator('.mapa-zona')).toHaveCount(0);
-  await expect(page.locator('.mapa-plano--brujula .mapa-ancla-bloqueada')).toHaveCount(0);
-  await expect(page.getByLabel('Buscar en el atlas')).toBeDisabled();
-  await expect(page.getByLabel('Incluir corrientes de profundidad')).toBeDisabled();
-  await expect(page.locator('.mapa-corriente-lectura')).toHaveCount(0);
-  await expect(
-    page.locator('.mapa-plano--brujula .mapa-punto[data-tipo="usuario"]'),
-  ).toHaveCount(1);
-  expect(
-    await page.locator('.mapa-plano--brujula .mapa-punto[data-tipo="partido"]').count(),
-  ).toBeGreaterThan(0);
-  await expect(page.locator('.mapa-plano--brujula .mapa-plano__marco')).toHaveCount(1);
-  const esquinas = page.locator('.mapa-plano--brujula .mapa-plano__esquinas text');
-  expect(await esquinas.count()).toBeGreaterThanOrEqual(4);
-
-  /* Conmutable: volver a la profundidad restaura el atlas completo. */
-  await explorar.check();
+  /* El atlas completo está presente de entrada, con buscador operativo. */
   await expect(page.locator('.mapa-plano--brujula .mapa-zona--interactiva')).toHaveCount(
     TOTAL_CORRIENTES_MAPA,
   );
+  await expect(page.locator('.mapa-plano--brujula .mapa-ancla-bloqueada')).toHaveCount(
+    ANCLAS_BLOQUEADAS_MAPA.length,
+  );
+  await expect(page.getByLabel('Buscar en el atlas')).toBeEnabled();
+  await expect(
+    page.locator('.mapa-plano--brujula .mapa-punto[data-tipo="usuario"]'),
+  ).toHaveCount(1);
+  await expect(page.locator('.mapa-plano--brujula .mapa-plano__marco')).toHaveCount(1);
+  const esquinas = page.locator('.mapa-plano--brujula .mapa-plano__esquinas text');
+  expect(await esquinas.count()).toBeGreaterThanOrEqual(4);
 });
 
 test('la brújula móvil distingue evidencia provisional y resuelve con seguridad los puntos disponibles', async ({
@@ -1684,4 +1683,46 @@ test('el conmutador de tema alterna sistema→claro→oscuro y persiste tras rec
   await expect(page.locator('html')).not.toHaveAttribute('data-tema', /./);
   const clave = await page.evaluate(() => localStorage.getItem('espectro.v1.tema'));
   expect(clave).toBeNull();
+});
+
+test('la enciclopedia ideológica se explora desde la portada sin hacer el test', async ({
+  page,
+}) => {
+  await page.goto('/');
+  await page.getByRole('button', { name: 'Abrir la enciclopedia ideológica' }).click();
+  await expect(page.getByRole('heading', { name: 'Enciclopedia ideológica' })).toBeVisible();
+  await expect(page.getByText(/corrientes, de la A a la Z/)).toBeVisible();
+
+  const buscador = page.getByLabel('Buscar una corriente');
+  await buscador.fill('posadismo');
+  const entrada = page.locator('.enciclopedia-entrada');
+  await expect(entrada).toHaveCount(1);
+  await entrada.locator('summary').click();
+  await expect(entrada.getByRole('heading', { name: 'Fuentes marco' })).toBeVisible();
+
+  // Explorar no toca la sesión: sin respuestas nuevas y la fase sigue en portada.
+  const guardado = await page.evaluate(() => localStorage.getItem('espectro.v1'));
+  const sesionGuardada = JSON.parse(guardado ?? '{}');
+  expect(Object.keys(sesionGuardada.respuestas ?? {})).toHaveLength(0);
+  expect(sesionGuardada.fase).toBe('portada');
+
+  await page.getByRole('button', { name: 'Volver' }).click();
+  await expect(
+    page.getByRole('button', { name: 'Abrir la enciclopedia ideológica' }),
+  ).toBeVisible();
+});
+
+test('la enciclopedia muestra el aviso legal de las corrientes ilegalizadas al abrirlas', async ({
+  page,
+}) => {
+  await page.goto('/');
+  await page.getByRole('button', { name: 'Abrir la enciclopedia ideológica' }).click();
+  await page.getByLabel('Buscar una corriente').fill('reconstituido');
+  const entrada = page.locator('.enciclopedia-entrada');
+  await expect(entrada).toHaveCount(1);
+  await expect(entrada.getByText('patrón sensible documentado')).toBeVisible();
+  await entrada.locator('summary').click();
+  await expect(entrada.getByText(/ORGANIZACIÓN ILEGAL/)).toBeVisible();
+  await expect(entrada.getByText(/brazo político de la organización terrorista GRAPO/)).toBeVisible();
+  await expect(entrada.getByText(/ninguna cercanía parcial en ítems identifica a nadie/)).toBeVisible();
 });

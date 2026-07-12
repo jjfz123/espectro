@@ -165,6 +165,11 @@
           "perfilId": "movimiento-sumar",
           "relacion": "componente",
           "nota": "Movimiento Sumar figura como componente de esta candidatura fechada; sus posiciones no se atribuyen automáticamente a la coalición."
+        },
+        {
+          "perfilId": "iu",
+          "relacion": "componente",
+          "nota": "Izquierda Unida Aragón encabeza la coalición «Izquierda Unida-Movimiento Sumar» (candidata Marta Abengochea, líder de IU Aragón), constituida oficialmente ante la Junta Electoral de Aragón el 26-12-2025; confirmado por Aragón Digital. Sus posiciones no se atribuyen automáticamente a la coalición."
         }
       ],
       "nota": "Naturaleza inventariada: coalicion-electoral. Vigencia comprobada: electoral-2026. Tratamiento previsto: perfil-especifico."

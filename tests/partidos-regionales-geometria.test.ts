@@ -189,9 +189,9 @@ describe('alcance nominal del auditor', () => {
       resumen: { perfiles: number };
       resultados: Array<Resultado & { actividad: string }>;
     };
-    expect(activos.resumen.perfiles).toBe(64);
+    expect(activos.resumen.perfiles).toBe(65);
     expect(activos.resultados.some(({ id }) => id === 'pdecat')).toBe(false);
-    expect(todos.resumen.perfiles).toBe(65);
+    expect(todos.resumen.perfiles).toBe(66);
     expect(todos.resultados.find(({ id }) => id === 'pdecat')?.actividad).toBe('historica');
   });
 });

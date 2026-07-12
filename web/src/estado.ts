@@ -54,6 +54,8 @@ export interface Estado {
   indice: number;
   /** La pregunta actual se abrió desde la revisión final. */
   editando: boolean;
+  /** La oferta ciega vigente se disparó al volver de una edición en revisión. */
+  ofertaDesdeRevision: boolean;
   /** Evita volver a interrumpir el exhaustivo después de decidir en el hito de 150. */
   hitoIntermedio150Visto: boolean;
   /**
@@ -86,6 +88,7 @@ export const ESTADO_INICIAL: Estado = {
   modulosActivos: [],
   indice: 0,
   editando: false,
+  ofertaDesdeRevision: false,
   hitoIntermedio150Visto: false,
   modulosOfrecidos: [],
   perfilIntermedio: false,
@@ -323,7 +326,23 @@ export function reductor(estado: Estado, accion: Accion): Estado {
       return estado.indice > 0 ? { ...estado, indice: estado.indice - 1 } : estado;
 
     case 'siguiente': {
-      if (estado.editando) return { ...estado, fase: 'revision', editando: false };
+      if (estado.editando) {
+        // La edición desde revisión también re-evalúa desbloqueos (casilla del
+        // TODO): si la respuesta editada cruza un umbral que abre módulos aún
+        // no ofrecidos ni rechazados, la oferta ciega aparece al volver. El
+        // libro de ofrecidos impide re-ofrecer, así que no hay bucle de
+        // confirmación posible por reeditar.
+        const vuelta: Estado = { ...estado, fase: 'revision', editando: false };
+        if (puedeOfrecerEnVuelo(vuelta) && ofertaVigente(vuelta).length > 0) {
+          return {
+            ...vuelta,
+            fase: 'oferta-modulos',
+            ofertaDesdeRevision: true,
+            perfilIntermedio: false,
+          };
+        }
+        return vuelta;
+      }
       const secuencia = secuenciaItems(estado.modulosActivos, estado.respuestas);
       if (debeMostrarHitoIntermedio(estado)) {
         return {
@@ -379,6 +398,7 @@ export function reductor(estado: Estado, accion: Accion): Estado {
         ...estado,
         modulosActivos: [...estado.modulosActivos, ...nuevos],
         modulosOfrecidos: [...new Set([...estado.modulosOfrecidos, ...nuevos])],
+        ofertaDesdeRevision: false,
       });
     }
 
@@ -386,10 +406,17 @@ export function reductor(estado: Estado, accion: Accion): Estado {
       // Solo lo realmente ofrecido queda marcado; lo diferido por el
       // cortafuegos podrá ofrecerse más adelante o activarse a mano.
       const nuevos = ofertaVigente(estado);
-      return seguirCuestionario({
+      const marcado: Estado = {
         ...estado,
         modulosOfrecidos: [...new Set([...estado.modulosOfrecidos, ...nuevos])],
-      });
+        ofertaDesdeRevision: false,
+      };
+      // Quien venía de revisión vuelve a revisión: rechazar bloques nuevos no
+      // debe expulsarle a resultados a mitad de su repaso.
+      if (estado.ofertaDesdeRevision) {
+        return { ...marcado, fase: 'revision', editando: false, perfilIntermedio: false };
+      }
+      return seguirCuestionario(marcado);
     }
 
     case 'ver-perfil-provisional':
@@ -614,6 +641,7 @@ export function cargarEstado(): Estado {
         : [],
       indice: typeof datos.indice === 'number' && datos.indice >= 0 ? Math.floor(datos.indice) : 0,
       editando: datos.editando === true,
+      ofertaDesdeRevision: datos.ofertaDesdeRevision === true,
       hitoIntermedio150Visto: datos.hitoIntermedio150Visto === true,
       perfilIntermedio: datos.perfilIntermedio === true,
       escalaInvertida: datos.escalaInvertida === true,

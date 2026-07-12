@@ -1,0 +1,123 @@
+{
+  "id": "anarcoprimitivismo",
+  "nombre": "Anarcoprimitivismo",
+  "tipo": "referencia-doctrinal",
+  "definicion": "Tipo ideal del anarcoprimitivismo (John Zerzan y afines): crítica anarquista radical de la civilización industrial que sitúa el origen de la dominación, la alienación y la jerarquía en la domesticación, la agricultura, la división del trabajo y la técnica. No reduce ni «limpia» la sociedad industrial —como el decrecimiento o la ecología social—, sino que aspira a desmontarla y a volver a comunidades reducidas y a formas de vida sencillas y no domesticadas.",
+  "variante": "Corriente articulada por John Zerzan y el entorno de la revista Fifth Estate. Comparte con el anarquismo verde la crítica de la civilización, pero la lleva al extremo de la domesticación y la cultura simbólica; se deslinda del decrecimiento y de la ecología social (Bookchin), que reducen o racionalizan la técnica industrial en vez de desmantelarla.",
+  "periodo": "Finales del siglo XX (obra de referencia de 1994), sin implantación electoral en España",
+  "confianza": "estimada",
+  "version": "1.0",
+  "revisado": "2026-07-12",
+  "facetasDefinitorias": [
+    "ecologia"
+  ],
+  "sensibilidad": "normal",
+  "advertencia": "Referencia doctrinal (tipo ideal), no una identidad personal ni un partido; sin implantación en España. Construida a partir del veredicto de la matriz de anarquismos del atlas, que la fija como ficha discriminante en el extremo tecnológico-ecológico. No hereda posiciones de género, religión ni violencia por deducción: aunque Zerzan vincula domesticación y patriarcado y critica el lenguaje, el tiempo y la religión como alienación, esas tesis exigen fuente explícita y aquí se dejan en silencio, no en cero. Se distingue del decrecimiento y de la ecología social: no reduce ni racionaliza la técnica, aspira a desmontarla. El anclaje verbatim en la edición española queda pendiente de verificación humana.",
+  "fuentesMarco": [
+    {
+      "tipo": "otro",
+      "titulo": "John Zerzan, Futuro primitivo (en Future Primitive and Other Essays; ed. esp. Futuro primitivo y otros ensayos)",
+      "url": "https://www.solidaridadobrera.org/ateneo_nacho/libros/John%20Zerzan%20-%20Futuro%20Primitivo.pdf",
+      "fecha": "1994",
+      "consultado": "2026-07-12"
+    },
+    {
+      "tipo": "otro",
+      "titulo": "John Zerzan, Futuro primitivo y otros ensayos (The Anarchist Library, edición española)",
+      "url": "https://es.anarchistlibraries.net/library/john-zerzan-futuro-primitivo",
+      "fecha": "1994",
+      "consultado": "2026-07-12"
+    }
+  ],
+  "reglaPublicacion": {
+    "minimoItems": 4,
+    "minimoCobertura": 0.6,
+    "umbralAfinidad": 85
+  },
+  "posiciones": {
+    "ene-010": {
+      "valor": 2,
+      "justificacion": "Reducir la producción material y el consumo es para el primitivismo un piso, no un techo: su crítica de la civilización industrial va más allá del límite ecológico, de modo que suscribe el enunciado sin reservas. Dirección fijada por la matriz de anarquismos del atlas.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "John Zerzan, Futuro primitivo y otros ensayos (ed. esp.)",
+        "url": "https://www.solidaridadobrera.org/ateneo_nacho/libros/John%20Zerzan%20-%20Futuro%20Primitivo.pdf",
+        "fecha": "1994",
+        "consultado": "2026-07-12"
+      }
+    },
+    "ene-011": {
+      "valor": -2,
+      "justificacion": "Niega de raíz que la innovación desacople crecimiento e impacto: para Zerzan la técnica no es un instrumento neutral que pueda «limpiar» el crecimiento, sino el núcleo mismo de la dominación. Rechazo frontal del enunciado.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "John Zerzan, Futuro primitivo y otros ensayos (ed. esp.)",
+        "url": "https://www.solidaridadobrera.org/ateneo_nacho/libros/John%20Zerzan%20-%20Futuro%20Primitivo.pdf",
+        "fecha": "1994",
+        "consultado": "2026-07-12"
+      }
+    },
+    "va-016": {
+      "valor": -2,
+      "justificacion": "La edición genética y los transgénicos son, en la lectura primitivista, la culminación de la domesticación de plantas y animales que Zerzan sitúa en el origen de la jerarquía; la corriente la rechaza como forma extrema de control técnico de lo vivo.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "John Zerzan, Futuro primitivo y otros ensayos (ed. esp.)",
+        "url": "https://www.solidaridadobrera.org/ateneo_nacho/libros/John%20Zerzan%20-%20Futuro%20Primitivo.pdf",
+        "fecha": "1994",
+        "consultado": "2026-07-12"
+      }
+    },
+    "va-008": {
+      "valor": -2,
+      "justificacion": "Confiar la crisis climática a la innovación y a los incentivos de mercado es precisamente la huida hacia adelante tecnológica que el primitivismo denuncia: sustituye el desmantelamiento de la máquina industrial por más máquina. Oposición máxima.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "John Zerzan, Futuro primitivo y otros ensayos (ed. esp.)",
+        "url": "https://www.solidaridadobrera.org/ateneo_nacho/libros/John%20Zerzan%20-%20Futuro%20Primitivo.pdf",
+        "fecha": "1994",
+        "consultado": "2026-07-12"
+      }
+    },
+    "va-006": {
+      "valor": 2,
+      "justificacion": "Incluso la infraestructura «verde» —grandes parques eólicos y solares— es industria a gran escala; el primitivismo antepone lo salvaje y no domesticado a cualquier megaproyecto energético. Posición inferida de su crítica de la técnica, sin pasaje directo.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "John Zerzan, Futuro primitivo y otros ensayos (ed. esp.)",
+        "url": "https://www.solidaridadobrera.org/ateneo_nacho/libros/John%20Zerzan%20-%20Futuro%20Primitivo.pdf",
+        "fecha": "1994",
+        "consultado": "2026-07-12"
+      }
+    },
+    "izq-045": {
+      "valor": 2,
+      "justificacion": "Producir y consumir menos y renunciar al crecimiento coincide con la dirección primitivista, aunque su horizonte desborda el marco «de izquierda» del enunciado: no busca una economía menor, sino salir de la civilización industrial.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "John Zerzan, Futuro primitivo y otros ensayos (ed. esp.)",
+        "url": "https://www.solidaridadobrera.org/ateneo_nacho/libros/John%20Zerzan%20-%20Futuro%20Primitivo.pdf",
+        "fecha": "1994",
+        "consultado": "2026-07-12"
+      }
+    },
+    "va-019": {
+      "valor": 2,
+      "justificacion": "Enunciado que captura el rasgo definitorio de la corriente: desmontar la sociedad industrial y su tecnología —no reducirla ni hacerla más limpia— y volver a comunidades reducidas y formas de vida sencillas. Es la tesis central de Zerzan y el discriminante que la matriz del atlas exige para separarla del decrecimiento.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "John Zerzan, Futuro primitivo y otros ensayos (ed. esp.)",
+        "url": "https://www.solidaridadobrera.org/ateneo_nacho/libros/John%20Zerzan%20-%20Futuro%20Primitivo.pdf",
+        "fecha": "1994",
+        "consultado": "2026-07-12"
+      }
+    }
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "id": "nucleo-nacional",
+  "id": "noviembre-nacional",
   "nombre": "Noviembre Nacional",
   "siglas": "NN",
   "ambito": "estatal",
@@ -26,6 +26,29 @@
         "titulo": "Núcleo Nacional, el nuevo rostro de neonazis y fascistas en España (El Independiente)",
         "url": "https://www.elindependiente.com/espana/2025/09/06/nucleo-nacional-el-nuevo-rostro-de-neonazis-y-fascistas-en-espana/",
         "fecha": "2025-09-06"
+      }
+    },
+    {
+      "etiqueta": "continuidad orgánica con la asociación Núcleo Nacional (nacionalsocialismo/neonazismo)",
+      "explicacion": "Noviembre Nacional es el vehículo partidista de la asociación neonazi Núcleo Nacional: según la prensa lo registró un dirigente de esta (un veterano vinculado además a Democracia Nacional) y comparte con ella el domicilio legal en Valladolid y los símbolos, con Iván Rico como portavoz visible. La prensa describe a Núcleo Nacional como el grupo que «une a nazis, franquistas y falangistas» y lo caracteriza como nacionalsocialista y neonazi; es una etiqueta atribuida por medios e investigadores, no una calificación judicial.",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Hitler, defensa de la raza y Reconquista: la expansión de Núcleo Nacional, el grupo que une a «nazis, franquistas y falangistas» (elDiario.es)",
+        "url": "https://www.eldiario.es/sociedad/hitler-defensa-raza-reconquista-expansion-nucleo-nacional-grupo-une-nazis-franquistas-falangistas_1_12487588.html",
+        "fecha": "2025",
+        "consultado": "2026-07-12",
+        "cita": "nazis, franquistas y falangistas"
+      }
+    },
+    {
+      "etiqueta": "advertencia: etiquetas atribuidas; entidad investigada, no condenada",
+      "explicacion": "Las calificaciones de «neonazi» y «nacionalsocialista» proceden de la prensa de referencia, de investigadores del extremismo y en parte de la autodescripción del entorno del grupo; nunca de una resolución judicial. Núcleo Nacional está siendo investigado por presuntos delitos de odio —investigado no equivale a condenado— y expertos citados por la prensa le atribuyen un «riesgo elevado de extremismo violento». El perfil se ofrece con cautela clínica: documenta una posición política, no imputa delitos a personas concretas.",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Quién está detrás de Núcleo Nacional: «representan un riesgo elevado de extremismo violento» (Cadena SER)",
+        "url": "https://cadenaser.com/nacional/2025/04/09/quien-esta-detras-de-nucleo-nacional-representan-un-riesgo-elevado-de-extremismo-violento-cadena-ser/",
+        "fecha": "2025-04-09",
+        "consultado": "2026-07-12"
       }
     }
   ],
@@ -298,6 +321,30 @@
         "url": "https://theobjective.com/espana/politica/2026-07-07/grupo-neonazi-nucleo-nacional-partido-elecciones-generales/",
         "fecha": "2026-07-07",
         "consultado": "2026-07-10"
+      }
+    },
+    "dem-011": {
+      "valor": 2,
+      "justificacion": "Su portavoz enmarca el partido en combatir el «régimen del 78» y desprecia el sistema parlamentario liberal, cuyas herramientas dice que solo usará para derribarlo desde dentro: su horizonte es sustituir ese orden, no reformarlo.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "El grupo Núcleo Nacional presenta un partido pero no irá a las elecciones generales (The Objective)",
+        "url": "https://theobjective.com/espana/politica/2026-07-07/grupo-neonazi-nucleo-nacional-partido-elecciones-generales/",
+        "fecha": "2026-07-07",
+        "consultado": "2026-07-12"
+      }
+    },
+    "dem-019": {
+      "valor": 2,
+      "justificacion": "Rechaza en bloque el «régimen del 78» y el sistema liberal de partidos —cuyas herramientas dice que solo usará para derribarlo— y combate por igual liberalismo y marxismo; prensa e investigadores le atribuyen una orientación nacionalsocialista, no una resolución judicial, coherente con un movimiento único que dirige el Estado sin competencia entre partidos. Codificación cauta y atribuida.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "El grupo Núcleo Nacional presenta un partido pero no irá a las elecciones generales (The Objective)",
+        "url": "https://theobjective.com/espana/politica/2026-07-07/grupo-neonazi-nucleo-nacional-partido-elecciones-generales/",
+        "fecha": "2026-07-07",
+        "consultado": "2026-07-12"
       }
     }
   }

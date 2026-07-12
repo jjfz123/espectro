@@ -1,0 +1,114 @@
+{
+  "id": "rothbardianismo-izquierda",
+  "nombre": "Rothbardianismo de izquierda",
+  "tipo": "referencia-doctrinal",
+  "definicion": "Corriente libertaria de mercado que combina el antiestatismo rothbardiano con la crítica al privilegio empresarial y la alianza con la nueva izquierda. Nace del momento de Murray Rothbard y Karl Hess en los años sesenta y setenta (revista Left and Right, 1965-1968), contra la guerra de Vietnam y el complejo militar-industrial entendido como bienestar corporativo, y se prolonga en el «anticapitalismo de libre mercado» que prefiere cooperativas y mutuales a la concentración corporativa amparada por el Estado.",
+  "variante": "Momento y estrategia propios: alianza rothbardiana con la nueva izquierda contra el imperialismo y el privilegio corporativo, distinta del agorismo (contraeconomía, 1980) por época y por buscar coalición política, no solo mercado",
+  "periodo": "Años 1960-1970 (revista Left and Right, 1965-1968; Karl Hess); reactivada por el mutualismo de mercado contemporáneo",
+  "confianza": "estimada",
+  "version": "1.0",
+  "revisado": "2026-07-12",
+  "facetasDefinitorias": [
+    "propiedad-mercado",
+    "estatismo",
+    "internacionalismo",
+    "economico"
+  ],
+  "sensibilidad": "normal",
+  "advertencia": "Tipo ideal doctrinal, no un partido español ni una identidad asignada. Encarna una paradoja —anticapitalismo de libre mercado—: es rothbardiano y antiestatista, pero proyecta a la izquierda por su antiimperialismo y su ataque al privilegio corporativo, al que considera creación del Estado. No debe confundirse con el anarcocapitalismo convencional ni con el mutualismo proudhoniano, pese a compartir mercado y antiestatismo.",
+  "fuentesMarco": [
+    {
+      "tipo": "otro",
+      "titulo": "Left and Right: A Journal of Libertarian Thought (ficha enciclopédica, en inglés)",
+      "url": "https://en.wikipedia.org/wiki/Left_and_Right:_A_Journal_of_Libertarian_Thought",
+      "fecha": "1965",
+      "consultado": "2026-07-12"
+    },
+    {
+      "tipo": "otro",
+      "titulo": "Kevin Carson, Libertarian Left: Free-Market Anti-Capitalism (Center for a Stateless Society, en inglés)",
+      "url": "https://c4ss.org/content/16089",
+      "fecha": "2011",
+      "consultado": "2026-07-12"
+    }
+  ],
+  "reglaPublicacion": {
+    "minimoItems": 4,
+    "minimoCobertura": 0.5,
+    "umbralAfinidad": 82
+  },
+  "posiciones": {
+    "geo-003": {
+      "valor": 2,
+      "justificacion": "El antiimperialismo es su seña: Rothbard y Hess se aliaron con el movimiento contra la guerra de Vietnam y denunciaron el complejo militar-industrial como bienestar corporativo, de modo que renunciar a las guerras estatales en el extranjero es posición central.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Left and Right: la reactivación del antiimperialismo de la vieja derecha con la nueva izquierda (en inglés)",
+        "url": "https://en.wikipedia.org/wiki/Left_and_Right:_A_Journal_of_Libertarian_Thought",
+        "fecha": "1965",
+        "consultado": "2026-07-12"
+      }
+    },
+    "izq-046": {
+      "valor": 2,
+      "justificacion": "Su internacionalismo antiimperialista lo sitúa a favor de la libre circulación de las personas frente al control estatal de fronteras, en las antípodas del cierre hoppeano o nacional-libertario. Es un discriminante fuerte dentro de la familia.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Libertarian Left: internacionalismo y antiimperialismo del libre mercado (C4SS, en inglés)",
+        "url": "https://c4ss.org/content/16089",
+        "fecha": "2011",
+        "consultado": "2026-07-12"
+      }
+    },
+    "izq-032": {
+      "valor": 1,
+      "justificacion": "Prefiere que un mercado liberado de privilegios genere cooperativas y mutuales de trabajadores antes que la concentración corporativa o la nacionalización estatal; comparte con la izquierda autogestionaria el fin cooperativo, aunque por la vía del mercado y no del Estado.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Libertarian Left: cooperativas y mutualismo en un mercado sin privilegios (C4SS, en inglés)",
+        "url": "https://c4ss.org/content/16089",
+        "fecha": "2011",
+        "consultado": "2026-07-12"
+      }
+    },
+    "lib-007": {
+      "valor": 2,
+      "justificacion": "El ataque al privilegio gremial es núcleo de su anticorporativismo: la colegiación obligatoria es una barrera de entrada creada por el Estado que protege a los establecidos, y suprimirla libera la competencia sin favorecer al gran capital.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Libertarian Left: el privilegio corporativo como creación estatal (C4SS, en inglés)",
+        "url": "https://c4ss.org/content/16089",
+        "fecha": "2011",
+        "consultado": "2026-07-12"
+      }
+    },
+    "izq-007": {
+      "valor": 2,
+      "justificacion": "Rothbard y Hess derivaron hacia el anarquismo: cualquier Estado, también uno que se dijera obrero, debe abolirse, no conquistarse; su fundamento es la propiedad y no la emancipación socialista, pero coinciden en la abolición.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Left and Right: la salida de Rothbard y Hess hacia el anarquismo de mercado (en inglés)",
+        "url": "https://en.wikipedia.org/wiki/Left_and_Right:_A_Journal_of_Libertarian_Thought",
+        "fecha": "1965",
+        "consultado": "2026-07-12"
+      }
+    },
+    "lab-009": {
+      "valor": 2,
+      "justificacion": "Como rothbardianos, caracterizan el impuesto cobrado por la coacción estatal como despojo; su giro a la izquierda no atenúa el antifiscalismo, solo añade que la carga sirve además al privilegio corporativo.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Left and Right: antiestatismo rothbardiano de la corriente (en inglés)",
+        "url": "https://en.wikipedia.org/wiki/Left_and_Right:_A_Journal_of_Libertarian_Thought",
+        "fecha": "1965",
+        "consultado": "2026-07-12"
+      }
+    }
+  }
+}

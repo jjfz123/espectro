@@ -8,14 +8,6 @@
   "confianza": "verificada",
   "version": "1.0",
   "revisado": "2026-07-11",
-  "publicacionAfinidad": {
-    "publicable": false,
-    "motivo": "Referencia nueva pendiente de auditoría semántica adversarial; no participa en afinidad hasta cerrar cada equivalencia entre fuente e ítem."
-  },
-  "publicacionMapa": {
-    "publicable": false,
-    "motivo": "El método reformista y las garantías pluralistas están sólidamente documentados, pero la subordinación humanista de la economía no responde por sí sola a suficientes ítems vigentes de propiedad, mercado e impuestos; publicar un punto macroeconómico exigiría inventar políticas actuales."
-  },
   "facetasDefinitorias": [
     "metodo-cambio",
     "pluralismo-institucional",

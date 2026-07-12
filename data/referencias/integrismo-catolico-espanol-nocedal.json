@@ -8,14 +8,6 @@
   "confianza": "verificada",
   "version": "1.0",
   "revisado": "2026-07-11",
-  "publicacionAfinidad": {
-    "publicable": false,
-    "motivo": "Referencia nueva pendiente de auditoría semántica adversarial; no participa en afinidad hasta cerrar cada equivalencia entre fuente e ítem."
-  },
-  "publicacionMapa": {
-    "publicable": false,
-    "motivo": "La confesionalidad y el antipluralismo están documentados, pero faltan anclas económicas y preguntas que distingan autoridad espiritual, represión jurídica y violencia física; publicarlo en el mapa produciría una falsa equivalencia con otras derechas históricas."
-  },
   "facetasDefinitorias": [
     "tradicion-moral",
     "laicismo",

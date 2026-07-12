@@ -1,0 +1,139 @@
+{
+  "id": "hoppeanismo",
+  "nombre": "Hoppeanismo",
+  "tipo": "referencia-doctrinal",
+  "definicion": "Tipo ideal libertario de propiedad radical asociado a Hans-Hermann Hoppe (Democracy: The God That Failed, 2001), que presenta la democracia como una degeneración frente a la monarquía y ambas frente a un «orden natural» anarcocapitalista sin impuestos ni monopolio coercitivo, articulado en comunidades de pacto con derecho de exclusión, élites naturales y secesión ilimitada.",
+  "variante": "Corriente hoppeana o paleolibertaria de propiedad radical; no representa a todo el anarcocapitalismo rothbardiano, del que se aparta por su antidemocratismo y su defensa de la exclusión en comunidades de pacto",
+  "periodo": "2001 (Democracy: The God That Failed) – actualidad",
+  "confianza": "estimada",
+  "version": "1.0",
+  "revisado": "2026-07-12",
+  "facetasDefinitorias": [
+    "autoridad-politica",
+    "pluralismo-institucional",
+    "propiedad-mercado",
+    "institucionalismo",
+    "estatismo"
+  ],
+  "sensibilidad": "antipluralista",
+  "advertencia": "Tipo ideal doctrinal, no una identidad asignada ni un partido español. Se marca antipluralista porque Hoppe defiende que las comunidades de pacto pueden excluir y expulsar a demócratas, comunistas y disidentes pacíficos por sus ideas, sin que medie agresión alguna; es esa exclusión selectiva del discrepante —y no un culto a un liderazgo infalible— la que activa la cautela clínica. No se deduce de un mero rechazo fiscal ni equivale a todo el anarcocapitalismo secular.",
+  "fuentesMarco": [
+    {
+      "tipo": "otro",
+      "titulo": "Hans-Hermann Hoppe, Democracy: The God That Failed (copia de archivo, en inglés)",
+      "url": "https://archive.org/details/democracythegodt00hans",
+      "fecha": "2001",
+      "consultado": "2026-07-12"
+    },
+    {
+      "tipo": "otro",
+      "titulo": "Democracy: The God That Failed (ficha enciclopédica, en inglés)",
+      "url": "https://en.wikipedia.org/wiki/Democracy:_The_God_That_Failed",
+      "fecha": "2001",
+      "consultado": "2026-07-12"
+    }
+  ],
+  "reglaPublicacion": {
+    "minimoItems": 5,
+    "minimoCobertura": 0.6,
+    "umbralAfinidad": 85
+  },
+  "posiciones": {
+    "dem-011": {
+      "valor": 2,
+      "justificacion": "Presenta la democracia como una degeneración respecto al orden natural: no busca reformar el parlamentarismo, sino sustituir el gobierno de propiedad pública por una sociedad de derecho privado sin soberanía política.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Hans-Hermann Hoppe, Democracy: The God That Failed (en inglés)",
+        "url": "https://archive.org/details/democracythegodt00hans",
+        "fecha": "2001",
+        "consultado": "2026-07-12"
+      }
+    },
+    "lim-005": {
+      "valor": 1,
+      "justificacion": "Sus comunidades de pacto pueden excluir y expulsar a demócratas, comunistas y defensores de estilos de vida ajenos, negándoles asociación y expresión pese a no haber agredido; el ítem lo formula como orden estatal y no como exclusión privada, de ahí que el acuerdo sea parcial y no pleno.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Democracy: The God That Failed, comunidades de pacto y exclusión (ficha enciclopédica, en inglés)",
+        "url": "https://en.wikipedia.org/wiki/Democracy:_The_God_That_Failed",
+        "fecha": "2001",
+        "consultado": "2026-07-12"
+      }
+    },
+    "lim-001": {
+      "valor": -2,
+      "justificacion": "Su orden es propiedad privada descentralizada y élites naturales en competencia, no una dirección doctrinal única e infalible que obligue a todos: excluye al disidente por vía privada, pero rechaza el culto a un liderazgo político central.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Hans-Hermann Hoppe, Democracy: The God That Failed (en inglés)",
+        "url": "https://archive.org/details/democracythegodt00hans",
+        "fecha": "2001",
+        "consultado": "2026-07-12"
+      }
+    },
+    "izq-046": {
+      "valor": -2,
+      "justificacion": "Rechaza la libre circulación como derecho universal: la «integración forzosa» que impone la apertura estatal de fronteras se combate con el derecho de los propietarios a excluir, de modo que nadie tiene derecho a trasladarse a territorio ajeno sin consentimiento del titular.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Hoppe y las perspectivas libertarias sobre inmigración: integración forzosa (ficha enciclopédica, en inglés)",
+        "url": "https://en.wikipedia.org/wiki/Libertarian_perspectives_on_immigration",
+        "fecha": "2001",
+        "consultado": "2026-07-12"
+      }
+    },
+    "der-025": {
+      "valor": 2,
+      "justificacion": "La comunidad de pacto se ordena para proteger a la familia y la parentela; la autoridad doméstica y paterna sobre la formación de los hijos es central, por lo que la autorización previa de los padres sobre los contenidos escolares encaja de lleno.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Democracy: The God That Failed, comunidades fundadas para proteger familia y parentela (ficha enciclopédica, en inglés)",
+        "url": "https://en.wikipedia.org/wiki/Democracy:_The_God_That_Failed",
+        "fecha": "2001",
+        "consultado": "2026-07-12"
+      }
+    },
+    "dem-010": {
+      "valor": -1,
+      "justificacion": "Antepone el orden jerárquico y la homogeneidad del pacto a la competencia multipartidista y no valora el pluralismo político como un bien, coherente con su crítica a la democracia en cuanto tal, aunque no reclame que un Estado prohíba partidos.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Hans-Hermann Hoppe, Democracy: The God That Failed (en inglés)",
+        "url": "https://archive.org/details/democracythegodt00hans",
+        "fecha": "2001",
+        "consultado": "2026-07-12"
+      }
+    },
+    "dem-035": {
+      "valor": 2,
+      "justificacion": "La secesión ilimitada —hasta el pueblo, el barrio o el individuo— es su antídoto contra la centralización democrática: cada unidad debe conservar el derecho de salida frente al conjunto.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Hans-Hermann Hoppe, Democracy: The God That Failed, secesión y descentralización (en inglés)",
+        "url": "https://archive.org/details/democracythegodt00hans",
+        "fecha": "2001",
+        "consultado": "2026-07-12"
+      }
+    },
+    "lab-009": {
+      "valor": 2,
+      "justificacion": "El orden natural que defiende es libre de tributación y de monopolio coercitivo: el impuesto estatal se caracteriza como apropiación por la fuerza y no como intercambio consentido.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Hans-Hermann Hoppe, Democracy: The God That Failed, orden natural sin impuestos (en inglés)",
+        "url": "https://archive.org/details/democracythegodt00hans",
+        "fecha": "2001",
+        "consultado": "2026-07-12"
+      }
+    }
+  }
+}

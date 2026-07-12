@@ -483,7 +483,9 @@
   {
     "id": "soc-006",
     "texto": "La prisión permanente revisable debería suprimirse.",
-    "terminos": ["prision-permanente-revisable"],
+    "terminos": [
+      "prision-permanente-revisable"
+    ],
     "modulo": "nucleo",
     "ejes": [
       {
@@ -506,7 +508,10 @@
   {
     "id": "nuc-001",
     "texto": "Los doce vocales judiciales del Consejo General del Poder Judicial deberían ser elegidos directamente por los propios jueces, en vez de por el Parlamento.",
-    "terminos": ["consejo-general-poder-judicial", "independencia-judicial"],
+    "terminos": [
+      "consejo-general-poder-judicial",
+      "independencia-judicial"
+    ],
     "modulo": "nucleo",
     "ejes": [],
     "polaridad": "positiva",
@@ -668,7 +673,9 @@
   },
   {
     "id": "mon-001",
-    "terminos": ["jefatura-del-estado"],
+    "terminos": [
+      "jefatura-del-estado"
+    ],
     "texto": "La Jefatura del Estado debería ser un cargo elegido por la ciudadanía, no hereditario.",
     "modulo": "nucleo",
     "ejes": [
@@ -787,7 +794,9 @@
   },
   {
     "id": "def-002",
-    "terminos": ["otan"],
+    "terminos": [
+      "otan"
+    ],
     "texto": "España debería abandonar la OTAN.",
     "modulo": "nucleo",
     "ejes": [

@@ -8,14 +8,6 @@
   "confianza": "verificada",
   "version": "1.0",
   "revisado": "2026-07-11",
-  "publicacionAfinidad": {
-    "publicable": false,
-    "motivo": "Referencia nueva pendiente de auditoría semántica adversarial; no participa en afinidad hasta cerrar cada equivalencia entre fuente e ítem."
-  },
-  "publicacionMapa": {
-    "publicable": false,
-    "motivo": "La oposición al Estado y a la dirección partidaria está bien documentada, pero la corriente deja deliberadamente abiertas la coordinación económica y sus formas concretas; proyectarla ahora en Propiedad × Poder fingiría una precisión que sus propios textos rechazan."
-  },
   "facetasDefinitorias": [
     "organizacion",
     "autoridad-politica",

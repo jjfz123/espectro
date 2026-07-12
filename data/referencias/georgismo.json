@@ -1,0 +1,124 @@
+{
+  "id": "georgismo",
+  "nombre": "Georgismo",
+  "tipo": "referencia-doctrinal",
+  "definicion": "Doctrina económica de Henry George (Progreso y miseria, 1879) que conserva los mercados y la propiedad de las mejoras producidas por el trabajo, pero considera el valor no mejorado del suelo un bien común: propone recuperarlo mediante un impuesto sobre la renta de la tierra —en su formulación clásica, un impuesto único que sustituye a los que gravan el trabajo y la actividad.",
+  "variante": "Formulación clásica del impuesto único; la tradición posterior añade el dividendo ciudadano (reparto del excedente de la renta del suelo) y variantes fiscales parciales. No es socialismo de los medios de producción ni liberalismo fiscal general: la frontera pasa por qué se grava, no por cuánto.",
+  "periodo": "Estados Unidos, 1879-1897; recepción internacional desde 1880",
+  "confianza": "verificada",
+  "version": "1.0",
+  "revisado": "2026-07-12",
+  "facetasDefinitorias": [
+    "economico",
+    "propiedad-mercado"
+  ],
+  "sensibilidad": "normal",
+  "advertencia": "Tipo ideal doctrinal histórico: una preferencia actual por gravar el suelo o abaratar el trabajo no identifica a nadie con el georgismo completo, que exige además su fundamento (la renta del suelo como bien común) y su programa de sustitución fiscal.",
+  "fuentesMarco": [
+    {
+      "tipo": "otro",
+      "titulo": "Henry George, «Progreso y miseria» (1879) — reseña y síntesis doctrinal",
+      "url": "https://revistasdederecho.com/progreso-y-miseria-henry-george-rchrlps/",
+      "fecha": "1879",
+      "consultado": "2026-07-12"
+    },
+    {
+      "tipo": "otro",
+      "titulo": "José Luis Ramos Gorostiza, «Henry George y el georgismo» (ResearchGate)",
+      "url": "https://www.researchgate.net/publication/39160159_Henry_George_y_el_georgismo",
+      "fecha": "2003",
+      "consultado": "2026-07-12"
+    }
+  ],
+  "reglaPublicacion": {
+    "minimoItems": 4,
+    "minimoCobertura": 0.6,
+    "umbralAfinidad": 84
+  },
+  "posiciones": {
+    "lab-031": {
+      "valor": 2,
+      "justificacion": "Es la tesis nuclear: recuperar para lo común la renta del valor no mejorado del suelo y desgravar a cambio el trabajo y la actividad (el «impuesto único» clásico).",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Henry George, «Progreso y miseria» (1879); síntesis doctrinal en Revistas de Derecho",
+        "url": "https://revistasdederecho.com/progreso-y-miseria-henry-george-rchrlps/",
+        "fecha": "1879",
+        "consultado": "2026-07-12"
+      }
+    },
+    "lab-009": {
+      "valor": -1,
+      "justificacion": "Rechaza el enunciado absoluto: gravar el trabajo le parece confiscatorio, pero el impuesto sobre la renta del suelo no es un robo sino la recuperación de un valor creado por la comunidad.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Henry George, «Progreso y miseria» (1879); síntesis doctrinal en Revistas de Derecho",
+        "url": "https://revistasdederecho.com/progreso-y-miseria-henry-george-rchrlps/",
+        "fecha": "1879",
+        "consultado": "2026-07-12"
+      }
+    },
+    "eco-009": {
+      "valor": 1,
+      "justificacion": "El programa clásico del impuesto único implica suprimir o reducir los demás tributos, incluidos los que gravan transmisiones como sucesiones, desplazando la carga al valor del suelo.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Henry George, «Progreso y miseria» (1879); síntesis doctrinal en Revistas de Derecho",
+        "url": "https://revistasdederecho.com/progreso-y-miseria-henry-george-rchrlps/",
+        "fecha": "1879",
+        "consultado": "2026-07-12"
+      }
+    },
+    "eco-014": {
+      "valor": -1,
+      "justificacion": "No grava la fortuna en general sino la renta de la tierra: un impuesto permanente sobre patrimonios diversificados (capital y mejoras incluidos) contradice la delimitación georgista de lo que pertenece a la comunidad.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Henry George, «Progreso y miseria» (1879); síntesis doctrinal en Revistas de Derecho",
+        "url": "https://revistasdederecho.com/progreso-y-miseria-henry-george-rchrlps/",
+        "fecha": "1879",
+        "consultado": "2026-07-12"
+      }
+    },
+    "eco-001": {
+      "valor": -1,
+      "justificacion": "La renta del trabajo pertenece íntegra a quien la produce: subir su gravamen es lo contrario del programa georgista, que desplaza la carga fiscal desde el trabajo hacia el suelo.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Henry George, «Progreso y miseria» (1879); síntesis doctrinal en Revistas de Derecho",
+        "url": "https://revistasdederecho.com/progreso-y-miseria-henry-george-rchrlps/",
+        "fecha": "1879",
+        "consultado": "2026-07-12"
+      }
+    },
+    "lib-006": {
+      "valor": 1,
+      "justificacion": "Gravar el valor del suelo penaliza retenerlo ocioso e incentiva construir; la tradición georgista converge con liberalizar la edificación de vivienda, sin ser su motivo urbanístico sino fiscal.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Henry George, «Progreso y miseria» (1879); síntesis doctrinal en Revistas de Derecho",
+        "url": "https://revistasdederecho.com/progreso-y-miseria-henry-george-rchrlps/",
+        "fecha": "1879",
+        "consultado": "2026-07-12"
+      }
+    },
+    "sd-008": {
+      "valor": 1,
+      "justificacion": "La tradición georgista del «dividendo ciudadano» reparte el excedente de la renta del suelo como ingreso incondicional; converge con una renta básica financiada así, no con cualquier diseño.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Henry George, «Progreso y miseria» (1879); síntesis doctrinal en Revistas de Derecho",
+        "url": "https://revistasdederecho.com/progreso-y-miseria-henry-george-rchrlps/",
+        "fecha": "1879",
+        "consultado": "2026-07-12"
+      }
+    }
+  }
+}

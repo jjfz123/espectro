@@ -16,8 +16,10 @@ type Referencia = {
   periodo: string;
   advertencia: string;
   fuentesMarco: Fuente[];
-  publicacionAfinidad: { publicable: boolean; motivo: string };
-  publicacionMapa: { publicable: boolean; motivo: string };
+  publicacionAfinidad?: { publicable: boolean; motivo: string };
+  publicacionMapa?: { publicable: boolean; motivo: string };
+  sensibilidad?: string;
+  reglaPublicacion: { minimoItems: number; minimoCobertura: number; umbralAfinidad: number };
   posiciones: Record<
     string,
     {
@@ -63,7 +65,7 @@ const valores = (id: string) =>
   );
 
 describe('referencias históricas de derecha religiosa y corporativa', () => {
-  it('delimita seis corrientes por país y periodo y mantiene su publicación bloqueada', () => {
+  it('delimita seis corrientes por país y periodo y las publica con salvaguardas (decisión editorial 2026-07-12)', () => {
     expect([...porId.keys()]).toEqual([
       'salazarismo-estado-novo-portugues',
       'integrismo-catolico-espanol-nocedal',
@@ -88,12 +90,13 @@ describe('referencias históricas de derecha religiosa y corporativa', () => {
     );
 
     for (const referencia of referencias) {
-      expect(referencia.publicacionAfinidad.publicable, referencia.id).toBe(false);
-      expect(referencia.publicacionAfinidad.motivo.length, referencia.id).toBeGreaterThan(40);
-      expect(referencia.publicacionMapa.publicable, referencia.id).toBe(false);
-      expect(referencia.publicacionMapa.motivo, referencia.id).toMatch(
-        /falta|faltan|insuficiente|equilib|ninguna base|no mide|no discriminan/i,
-      );
+      expect(referencia.publicacionAfinidad, referencia.id).toBeUndefined();
+      expect(referencia.publicacionMapa, referencia.id).toBeUndefined();
+      expect(referencia.reglaPublicacion.minimoItems, referencia.id).toBeGreaterThanOrEqual(3);
+      expect(referencia.reglaPublicacion.umbralAfinidad, referencia.id).toBeGreaterThanOrEqual(78);
+      if ((referencia.sensibilidad ?? 'normal') !== 'normal') {
+        expect(referencia.advertencia.length, referencia.id).toBeGreaterThan(80);
+      }
     }
   });
 

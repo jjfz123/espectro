@@ -1,0 +1,166 @@
+{
+  "id": "marxismo-clasico",
+  "nombre": "Marxismo clásico (Marx y Engels)",
+  "tipo": "referencia-doctrinal",
+  "definicion": "Corpus original de Marx y Engels (1848-1895): crítica científica de la economía política, lucha de clases y emancipación del trabajo, con revolución proletaria e internacionalismo, pero sin el partido de vanguardia leninista y con la Comuna como forma política de referencia. Tronco anterior a sus sistematizaciones ortodoxa, leninista o consejista.",
+  "variante": "Reconstrucción del núcleo doctrinal de Marx y Engels entre el Manifiesto (1848) y la muerte de Engels (1895); no equivale a cada uso posterior del adjetivo «marxista» ni a las corrientes que se reclaman continuadoras suyas.",
+  "periodo": "1848-1895",
+  "confianza": "estimada",
+  "version": "1.0",
+  "revisado": "2026-07-12",
+  "facetasDefinitorias": [
+    "metodo-cambio",
+    "organizacion",
+    "economico",
+    "propiedad-mercado",
+    "poder-laboral",
+    "internacionalismo"
+  ],
+  "sensibilidad": "normal",
+  "advertencia": "Es una reconstrucción histórica de la obra de Marx y Engels, no una ficha de un partido español contemporáneo ni una atribución de militancia. Una similitud doctrinal parcial no determina la identidad política de ninguna persona. El corpus original no contiene el partido de vanguardia leninista ni la doctrina del socialismo en un solo país, y su antiparlamentarismo se atempera con el uso táctico del sufragio que el propio Engels admitió en 1895.",
+  "fuentesMarco": [
+    {
+      "tipo": "programa",
+      "titulo": "Marx y Engels, Manifiesto del Partido Comunista (en español, marxists.org)",
+      "url": "https://www.marxists.org/espanol/m-e/1840s/48-manif.htm",
+      "fecha": "1848",
+      "consultado": "2026-07-12"
+    },
+    {
+      "tipo": "otro",
+      "titulo": "Marx, Crítica del Programa de Gotha (en español, marxists.org)",
+      "url": "https://www.marxists.org/espanol/m-e/1870s/gotha/gothai.htm",
+      "fecha": "1875",
+      "consultado": "2026-07-12"
+    },
+    {
+      "tipo": "otro",
+      "titulo": "Marx, La guerra civil en Francia (en español, marxists.org)",
+      "url": "https://www.marxists.org/espanol/m-e/1870s/gcfran/guer.htm",
+      "fecha": "1871",
+      "consultado": "2026-07-12"
+    },
+    {
+      "tipo": "otro",
+      "titulo": "Engels, Del socialismo utópico al socialismo científico (en español, marxists.org)",
+      "url": "https://www.marxists.org/espanol/m-e/1880s/dsusc/",
+      "fecha": "1880",
+      "consultado": "2026-07-12"
+    }
+  ],
+  "reglaPublicacion": {
+    "minimoItems": 5,
+    "minimoCobertura": 0.55,
+    "umbralAfinidad": 84
+  },
+  "posiciones": {
+    "izq-001": {
+      "valor": 2,
+      "justificacion": "El Manifiesto culmina llamando al derrocamiento por la fuerza de todo el orden social existente y presenta la revolución proletaria, no la reforma gradual del capitalismo, como la vía de la transformación de las bases económicas de la sociedad.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Manifiesto del Partido Comunista, secciones II y IV",
+        "url": "https://www.marxists.org/espanol/m-e/1840s/48-manif.htm",
+        "fecha": "1848",
+        "consultado": "2026-07-12"
+      }
+    },
+    "izq-002": {
+      "valor": -1,
+      "justificacion": "El Manifiesto declara que los comunistas no forman un partido aparte y opuesto a los demás partidos obreros ni tienen intereses separados del conjunto del proletariado: Marx y Engels no conciben una vanguardia disciplinada que dirija a la clase por encima de ella, aunque tampoco niegan toda organización comunista, de ahí el −1 y no −2.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Manifiesto del Partido Comunista, sección II (Proletarios y comunistas)",
+        "url": "https://www.marxists.org/espanol/m-e/1840s/48-manif.htm",
+        "fecha": "1848",
+        "consultado": "2026-07-12"
+      }
+    },
+    "izq-047": {
+      "valor": 2,
+      "justificacion": "Marx y Engels fundan el «socialismo científico»: la acción se apoya en el análisis materialista de la economía y de la historia (concepción materialista, teoría de la plusvalía), no en ideales morales sobre cómo deberían ser las personas.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Engels, Del socialismo utópico al socialismo científico",
+        "url": "https://www.marxists.org/espanol/m-e/1880s/dsusc/",
+        "fecha": "1880",
+        "consultado": "2026-07-12"
+      }
+    },
+    "izq-048": {
+      "valor": -2,
+      "justificacion": "Marx y Engels critican a los socialistas utópicos por querer edificar de antemano sociedades modelo en vez de partir del desarrollo histórico real; el comunismo es para ellos el movimiento real que suprime el estado de cosas presente, no un ideal a prefigurar a pequeña escala.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Engels, Del socialismo utópico al socialismo científico; Manifiesto, sección III",
+        "url": "https://www.marxists.org/espanol/m-e/1880s/dsusc/",
+        "fecha": "1880",
+        "consultado": "2026-07-12"
+      }
+    },
+    "izq-016": {
+      "valor": 2,
+      "justificacion": "Entre las medidas del Manifiesto figuran centralizar el crédito y la banca en un banco estatal, confiscar la propiedad de los rebeldes y abolir la propiedad burguesa: expropiación de los expropiadores, sin previsión de indemnización general a los propietarios.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Manifiesto del Partido Comunista, medidas de la sección II",
+        "url": "https://www.marxists.org/espanol/m-e/1840s/48-manif.htm",
+        "fecha": "1848",
+        "consultado": "2026-07-12"
+      }
+    },
+    "lab-011": {
+      "valor": 2,
+      "justificacion": "La Crítica del Programa de Gotha subordina la distribución a las relaciones de producción: repartir o gravar la renta no altera quién posee y dirige los medios de producción, que es lo decisivo. La objeción no es la existencia del impuesto sino su insuficiencia frente a la propiedad y el control.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Marx, Crítica del Programa de Gotha, apartado sobre distribución y modo de producción",
+        "url": "https://www.marxists.org/espanol/m-e/1870s/gotha/gothai.htm",
+        "fecha": "1875",
+        "consultado": "2026-07-12"
+      }
+    },
+    "izq-005": {
+      "valor": 2,
+      "justificacion": "El programa del Manifiesto centraliza la producción en manos del proletariado organizado como Estado y apunta a superar la producción mercantil; quien busca abolir el mercado a fortiori lo desplaza por planificación en los sectores estratégicos.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Manifiesto del Partido Comunista, medidas de la sección II",
+        "url": "https://www.marxists.org/espanol/m-e/1840s/48-manif.htm",
+        "fecha": "1848",
+        "consultado": "2026-07-12"
+      }
+    },
+    "izq-006": {
+      "valor": -2,
+      "justificacion": "El internacionalismo proletario del Manifiesto —los obreros no tienen patria, la acción común internacional es condición de la emancipación— es incompatible con construir primero el socialismo en un solo país, doctrina posterior y ajena a Marx y Engels.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Manifiesto del Partido Comunista, secciones II y IV (proletarios de todos los países)",
+        "url": "https://www.marxists.org/espanol/m-e/1840s/48-manif.htm",
+        "fecha": "1848",
+        "consultado": "2026-07-12"
+      }
+    },
+    "dem-017": {
+      "valor": 1,
+      "justificacion": "En La guerra civil en Francia Marx ve en la Comuna la forma «al fin descubierta»: un cuerpo de trabajo, no parlamentario, con delegados elegidos por sufragio y revocables en todo momento. Se puntúa +1 y no +2 porque Marx y Engels también usaron tácticamente el sufragio y no absolutizaron el antiparlamentarismo consejista.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Marx, La guerra civil en Francia, sobre la Comuna de París",
+        "url": "https://www.marxists.org/espanol/m-e/1870s/gcfran/guer.htm",
+        "fecha": "1871",
+        "consultado": "2026-07-12"
+      }
+    }
+  }
+}

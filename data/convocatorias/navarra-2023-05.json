@@ -138,6 +138,11 @@
           "perfilId": "podemos",
           "relacion": "componente",
           "nota": "Podemos Navarra figura como componente de esta candidatura fechada; sus posiciones no se atribuyen automáticamente a la coalición."
+        },
+        {
+          "perfilId": "iu",
+          "relacion": "componente",
+          "nota": "Izquierda Unida de Navarra integra la coalición «Contigo Navarra-Zurekin Nafarroa» junto a Podemos, Batzarre, Alianza Verde y Verdes Equo; confirmado por Izquierda Unida de Navarra (IUN-NEB) y prensa. Sus posiciones no se atribuyen automáticamente a la coalición."
         }
       ],
       "nota": "Naturaleza inventariada: coalicion-electoral. Vigencia comprobada: representacion-2023. Tratamiento previsto: perfil-especifico."

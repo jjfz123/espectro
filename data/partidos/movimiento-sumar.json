@@ -9,8 +9,8 @@
   "revisado": "2026-07-10",
   "actividad": "activa",
   "dobleLectura": {
-    "etiquetaBase": "Programa electoral de 2023",
-    "descripcionBase": "«Un Programa para ti», programa de Sumar para las elecciones generales del 23J de 2023.",
+    "etiquetaBase": "Programa de 2023 y posición formal",
+    "descripcionBase": "Punto de partida: «Un Programa para ti» (23J de 2023), completado con votaciones, declaraciones y documentos oficiales fechados del propio espacio cuando el programa no se pronuncia; cada posición declara su tipo de fuente.",
     "contraste": {
       "etiqueta": "Gobierno y tramitación parlamentaria reciente",
       "descripcion": "Estado real de la tramitación en las Cortes durante la coalición de gobierno con el PSOE hasta 2026; no se promedia con el programa ni rellena sus huecos.",
@@ -55,6 +55,19 @@
             "url": "https://eldiariodelaeducacion.com/2023/10/25/psoe-sumar-un-acuerdo-de-investidura-que-contempla-aumentar-los-conciertos-educativos/",
             "fecha": "2023-10-25",
             "consultado": "2026-07-10"
+          }
+        },
+        "eco-006": {
+          "valor": 1,
+          "justificacion": "El programa de Sumar promete 2 millones de viviendas públicas en 10 años, once veces el objetivo del PSOE; la ejecución del Gobierno de coalición que comparte va muy por detrás incluso del objetivo menor: 120.479 viviendas «movilizadas» (no entregadas) a 30-4-2026 y en torno al 5,5% entregado del plan estatal. El dato mide el plan conjunto del Gobierno, no un programa propio de Sumar: se declara la limitación.",
+          "calidadEvidencia": "alta",
+          "estadoCompromiso": "parcial",
+          "fuente": {
+            "tipo": "otro",
+            "titulo": "De las 184.000 viviendas prometidas por Sánchez solo se ha entregado el 5,5% (El Debate)",
+            "url": "https://www.eldebate.com/economia/20241004/184000-viviendas-prometidas-sanchez-solo-entregado-55_232548.html",
+            "fecha": "2024-10-04",
+            "consultado": "2026-07-12"
           }
         }
       }

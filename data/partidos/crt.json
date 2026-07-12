@@ -18,6 +18,19 @@
       "consultado": "2026-07-09"
     }
   },
+  "clasificacion": [
+    {
+      "etiqueta": "Sección de la Fracción Trotskista-Cuarta Internacional (FT-CI)",
+      "explicacion": "La CRT es la sección española de la Fracción Trotskista-Cuarta Internacional, corriente trotskista internacional de raíz morenista que edita la red La Izquierda Diario; es un metadato de clasificación por Internacional que la distingue de otras familias trotskistas españolas (POSI, lambertista; PRT/Corriente Roja, LIT-CI; IZAR, mandelista).",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "La Izquierda Diario (red de la FT-CI en el Estado español)",
+        "url": "https://www.izquierdadiario.es/",
+        "fecha": "2026",
+        "consultado": "2026-07-12"
+      }
+    }
+  ],
   "posiciones": {
     "izq-001": {
       "valor": 2,
@@ -41,6 +54,42 @@
         "url": "https://crtweb.org/por-que-luchamos/",
         "fecha": "2026",
         "consultado": "2026-07-09"
+      }
+    },
+    "izq-021": {
+      "valor": 2,
+      "justificacion": "Como organización trotskista de la FT-CI, la CRT reivindica a Trotski y a la Oposición de Izquierda como la alternativa revolucionaria legítima frente a la burocratización estalinista de la URSS; su red editorial reivindica la lucha del trotskismo contra el estalinismo en defensa del comunismo.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "La lucha del trotskismo contra el estalinismo (La Izquierda Diario, red de la CRT)",
+        "url": "https://www.izquierdadiario.es/La-lucha-del-trotskismo-contra-el-estalinismo",
+        "fecha": "2026",
+        "consultado": "2026-07-12"
+      }
+    },
+    "izq-020": {
+      "valor": -2,
+      "justificacion": "La CRT juzga negativamente la etapa de Stalin: la considera responsable de la degeneración burocrática de la URSS y de la falsificación estalinista, y contrapone la pluralidad de partidos en una democracia de consejos al partido único estalinista. Balance netamente negativo.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "El combate de Trotsky contra la escuela de falsificación estalinista (La Izquierda Diario)",
+        "url": "https://www.laizquierdadiario.com/El-combate-de-Trotsky-contra-la-escuela-de-falsificacion-estalinista",
+        "fecha": "2026",
+        "consultado": "2026-07-12"
+      }
+    },
+    "izq-004": {
+      "valor": -1,
+      "justificacion": "Coherente con la tradición trotskista, la CRT lee la URSS como un Estado obrero degenerado: reconoce las conquistas de la propiedad nacionalizada frente al imperialismo pero denuncia la dictadura política de la burocracia, un balance mixto que se inclina a lo negativo, no un balance globalmente positivo.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "La lucha del trotskismo contra el estalinismo (La Izquierda Diario, red de la CRT)",
+        "url": "https://www.izquierdadiario.es/La-lucha-del-trotskismo-contra-el-estalinismo",
+        "fecha": "2026",
+        "consultado": "2026-07-12"
       }
     },
     "dem-015": {

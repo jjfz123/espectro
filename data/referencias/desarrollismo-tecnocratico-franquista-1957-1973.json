@@ -8,14 +8,6 @@
   "confianza": "verificada",
   "version": "1.0",
   "revisado": "2026-07-11",
-  "publicacionAfinidad": {
-    "publicable": false,
-    "motivo": "Referencia nueva pendiente de auditoría semántica adversarial; no participa en afinidad hasta cerrar cada equivalencia entre fuente e ítem."
-  },
-  "publicacionMapa": {
-    "publicable": false,
-    "motivo": "El banco identifica con precisión la arquitectura autoritaria, orgánica, confesional y sindical, pero no separa todavía con suficientes ítems la liberalización de mercados, la planificación indicativa y la empresa pública; proyectarla reduciría el desarrollismo a su dictadura."
-  },
   "facetasDefinitorias": [
     "autoridad-politica",
     "pluralismo-institucional",

@@ -8,14 +8,6 @@
   "confianza": "verificada",
   "version": "1.0",
   "revisado": "2026-07-11",
-  "publicacionAfinidad": {
-    "publicable": false,
-    "motivo": "Referencia nueva pendiente de auditoría semántica adversarial; no participa en afinidad hasta cerrar cada equivalencia entre fuente e ítem."
-  },
-  "publicacionMapa": {
-    "publicable": false,
-    "motivo": "El banco vigente documenta bien autoritarismo, antipluralismo y tutela sindical, pero no mide con equilibrio la economía concreta ni el colonialismo del salazarismo; una coordenada macro fingiría una precisión horizontal inexistente."
-  },
   "facetasDefinitorias": [
     "autoridad-politica",
     "pluralismo-institucional",

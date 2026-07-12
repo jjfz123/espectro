@@ -56,6 +56,20 @@
         "consultado": "2026-07-09"
       }
     },
+    "izq-028": {
+      "valor": 2,
+      "justificacion": "La Resolución del Comité Central del PCTE sobre el Movimiento Comunista Internacional sostiene que China se desarrolla bajo relaciones capitalistas de producción y la caracteriza como potencia capitalista e imperialista, no como país socialista, en contra de la tesis del «socialismo con características chinas».",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Resolución del Comité Central del PCTE: Sobre la situación del Movimiento Comunista Internacional y nuestras tareas",
+        "url": "https://www.pcte.es/comunicados-centrales/resolucion-del-comite-central-del-pcte-sobre-la-situacion-del-movimiento-comunista-internacional-y-nuestras-tareas/",
+        "fecha": "2024",
+        "consultado": "2026-07-12",
+        "cita": "China y Estados Unidos, se desarrollan bajo relaciones capitalistas de producción"
+      },
+      "grupoEvidencia": "pasaje-3b95412a914e4834698a"
+    },
     "izq-011": {
       "valor": 2,
       "justificacion": "Exige la salida unilateral de la Unión Europea y del euro, vinculada a un proceso de implantación del poder obrero.",
@@ -432,7 +446,7 @@
     },
     "izq-023": {
       "valor": -1,
-      "justificacion": "Lucha por una república socialista regida por el centralismo democrático; el pasaje no valora expresamente la república democrática intermedia del ítem, pero su programa no la formula como objetivo propio: desacuerdo moderado por extensión declarada. Pasaje ya verificado en esta ficha para izq-038 (ejes distintos).",
+      "justificacion": "Lucha por una república socialista regida por el centralismo democrático; el pasaje no valora expresamente la república democrática intermedia del ítem, pero su programa no la formula como objetivo propio: desacuerdo moderado por extensión declarada. Pasaje ya verificado en esta ficha para izq-038 (ejes distintos). El banco anticipa −2 para el PCTE; se asigna −1 porque este pasaje no formula expresamente el rechazo del etapismo — si aparece un pasaje específico, elevar con él.",
       "calidadEvidencia": "media",
       "fuente": {
         "tipo": "programa",

@@ -262,5 +262,31 @@
     ],
     "estado": "piloto",
     "notas": "Discrimina: el reconocimiento del plurilingüismo en la institución central del Estado, con votación real (reforma del Reglamento del Congreso, 21-9-2023: PSOE, Sumar y todos los periféricos a favor; PP, VOX y UPN en contra): separa al PSOE del PP con nitidez —ter-004 (vehicularidad escolar) también los separa, pero aquí el PSOE ocupa el polo positivo pleno— y a los centralismos entre sí (IE −1 desde el jacobinismo de izquierda). Proyección territorial limpia y monotónica: no hay fuente de acuerdo desde el polo centralista. | Esperado: ERC +2, Junts +2, EH Bildu +2, PNV +2, BNG +2, Sumar +2, PSOE +2, Podemos +2, CC +1, IE -1, PP -2, VOX -2, UPN -2. | Distinto de ter-004/lib-019 (lengua en la ESCUELA) y de nac-013 (cooficialidad de lenguas minoritarias): el objeto es el estatus de las cooficiales en las Cortes Generales, la cara institucional de la España plurilingüe."
+  },
+  {
+    "id": "cul-015",
+    "texto": "Acelerar la innovación tecnológica y el desarrollo urbano debe ser una prioridad del país, aunque transforme costumbres, oficios y paisajes tradicionales.",
+    "modulo": "identidad-cultura",
+    "ejes": [],
+    "polaridad": "positiva",
+    "tags": [
+      "modernidad",
+      "tecnologia"
+    ],
+    "estado": "piloto",
+    "notas": "Solo-matching (derivado de la revisión comparada de instrumentos, 2026-07-12): modernismo tecnológico-urbano frente a tradición/ruralismo NO violento; deliberadamente separado del arquetipo de seguridad aceleracionista de limites-antipluralismo, que queda intacto. Esperado: corrientes tecnófilas y desarrollistas +1/+2; tradicionalismo rural y decrecimiento −1/−2 por motivos distintos (el par se desambigua con los ejes ecologia y tradición moral y con cul-016). Redacción propia, sin copiar enunciados de terceros."
+  },
+  {
+    "id": "cul-016",
+    "texto": "España estaría mejor si más gente pudiera volver a una vida de pueblo, con economías locales pequeñas y más ligadas a la tierra, aunque eso frene la concentración urbana y el crecimiento.",
+    "modulo": "identidad-cultura",
+    "ejes": [],
+    "polaridad": "positiva",
+    "tags": [
+      "ruralismo",
+      "localismo"
+    ],
+    "estado": "piloto",
+    "notas": "Solo-matching (derivado de la revisión comparada, 2026-07-12): voz afirmativa del retorno rural/localista, para que el par modernidad-tradición no se mida solo desde la voz modernista (cul-015). Distingue ruralismo tradicionalista de decrecimiento ecologista solo en combinación con otros ejes; ninguna asociación binaria a una etiqueta. Sin componente de colapso ni violencia (arquetipo de seguridad aparte). Redacción propia."
   }
 ]

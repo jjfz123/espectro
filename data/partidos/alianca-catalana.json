@@ -575,6 +575,68 @@
         "fecha": "2026-04-15",
         "consultado": "2026-07-10"
       }
+    },
+    "dem-012": {
+      "valor": -2,
+      "justificacion": "El método declarado de AC para la independencia no es el cambio por los procedimientos de la Constitución española, sino la vía unilateral: su manifiesto se compromete a declararla unilateralmente y a defenderla hasta expulsar al Estado español de Cataluña (traducción del catalán de la cita). En 2024 registró en el Parlament una propuesta para restituir el Estado catalán sobre la base de la DUI de 2017, sin referéndum previo, rechazando la vía constitucional.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Independència, Economia Productiva, Seguretat i Família (web oficial d'Aliança Catalana)",
+        "url": "https://web.aliancacatalana.cat/",
+        "fecha": "2026",
+        "consultado": "2026-07-12",
+        "cita": "Declararem unilateralment la independència i la defensarem fins expulsar definitivament l'Estat espanyol de Catalunya."
+      },
+      "grupoEvidencia": "pasaje-861ccf727578ad5f6913"
+    },
+    "dem-015": {
+      "valor": 2,
+      "justificacion": "La prensa describe a AC como un partido de liderazgo personalista y férreo en torno a Sílvia Orriols, figura central e indiscutida, con el control en manos de un núcleo reducido de una decena de personas: una dirección cohesionada que impone disciplina pública a sus miembros por encima del debate interno.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Quién está detrás de Sílvia Orriols: el engranaje que impulsa el ascenso de Aliança Catalana (Público)",
+        "url": "https://www.publico.es/politica/partidos/detras-silvia-orriols-asi-engranaje-impulsa-ascenso-ultras-alianca-catalana.html",
+        "fecha": "2025",
+        "consultado": "2026-07-12"
+      }
+    },
+    "ue-001": {
+      "valor": 1,
+      "justificacion": "AC ha buscado alianzas en Bruselas con el grupo Europa de las Naciones Soberanas (AfD, Reconquête) y se declara cercana al PVV de Geert Wilders, formaciones euroescépticas que cuestionan que las políticas de la UE mermen la soberanía nacional. Ese euroescepticismo soberanista convive con el reconocimiento pragmático de que una Cataluña independiente aspiraría a la UE, de ahí un valor moderado.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Aliança Catalana seduce a la extrema derecha alemana para hacerse un hueco en Europa (Crónica Global)",
+        "url": "https://cronicaglobal.elespanol.com/politica/20241002/alianca-catalana-extrema-derecha-alemana-hacerse-europa/890161069_0.html",
+        "fecha": "2024-10-02",
+        "consultado": "2026-07-12"
+      }
+    },
+    "soc-003": {
+      "valor": 1,
+      "justificacion": "La seguridad es uno de los cuatro ejes declarados de AC (web oficial: Independència, Economia Productiva, Seguretat i Família) y su programa de 2024 pone el acento en más Mossos, tolerancia cero con la reincidencia y control estricto del orden público. Ampliar la videovigilancia por seguridad ciudadana es coherente con ese eje, aunque el programa no detalla esta medida concreta, de ahí la baja confianza.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral de Aliança Catalana para las Autonómicas 2024 en Cataluña (politicaelectoral.com)",
+        "url": "https://www.politicaelectoral.com/es/espana/autonomicas-2024/cataluna/alianca-catalana",
+        "fecha": "2024",
+        "consultado": "2026-07-12"
+      }
+    },
+    "rel-002": {
+      "valor": -1,
+      "justificacion": "AC no defiende un Estado que permita por igual la expresión pública de todas las religiones dentro de la ley: llevó al Parlament (enero de 2025) una moratoria a nuevas mezquitas y el cierre de centros de culto musulmanes (dr-005), restringiendo específicamente al islam. No es una posición teocrática ni contraria a toda libertad religiosa, de ahí un rechazo moderado del ítem.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "PP y Vox se alían con Sílvia Orriols para intentar cerrar mezquitas en Catalunya (Ara)",
+        "url": "https://es.ara.cat/politica/parlament-de-catalunya/pp-vox-alian-silvia-orriols-cerrar-mezquitas-catalunya_1_5270650.html",
+        "fecha": "2025-01",
+        "consultado": "2026-07-12"
+      }
     }
   }
 }

@@ -310,6 +310,47 @@
         "fecha": "2026-07-07",
         "consultado": "2026-07-10"
       }
+    },
+    "eco-001": {
+      "valor": 2,
+      "justificacion": "El plan fiscal de Más Madrid para la Comunidad propone subir el IRPF a las rentas superiores a 100.000 euros y recuperar los impuestos de Patrimonio y de Sucesiones (bonificados por Ayuso), bajo el principio de «recuperar la progresividad: quien más tiene, paga más». Es acuerdo pleno con subir de forma significativa los impuestos a las rentas más altas.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Más Madrid propondrá reformar el sistema de impuestos para «recuperar la progresividad»: «Quien más tiene, paga más» (Última Hora)",
+        "url": "https://www.ultimahora.es/noticias/comunidades/2026/05/22/2634637/mas-madrid-propondra-reformar-sistema-impuestos-para-recuperar-progresividad-quien-mas-tiene-paga-mas.html",
+        "fecha": "2026-05-22",
+        "consultado": "2026-07-12",
+        "cita": "Quien más tiene, paga más"
+      },
+      "grupoEvidencia": "pasaje-2a2a231f050cd8b2ab3c"
+    },
+    "soc-004": {
+      "valor": 2,
+      "justificacion": "Rita Maestre (Más Madrid) reclamó al Ayuntamiento contratar 400 funcionarios para tramitar con urgencia la regularización extraordinaria de personas migrantes y acusó al PP de boicotearla: apoya activamente y quiere ejecutar la regularización de quienes ya viven y trabajan aquí, que es exactamente lo que plantea el ítem.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Maestre exige 400 funcionarios para regularizar inmigrantes en Madrid (Moncloa.com)",
+        "url": "https://www.moncloa.com/2026/05/06/regularizacion-inmigrantes-madrid-exige-400-funcionarios-3375530/",
+        "fecha": "2026-05-06",
+        "consultado": "2026-07-12",
+        "cita": "Maestre exige 400 funcionarios para regularizar inmigrantes en Madrid"
+      },
+      "grupoEvidencia": "pasaje-deb2333b48490fc2e522"
+    },
+    "soc-005": {
+      "valor": 2,
+      "justificacion": "Rita Maestre (Más Madrid) refuta públicamente la teoría del «Gran Reemplazo» y defiende la aportación de la inmigración, señalando como responsables de la desigualdad a «los de arriba» y no a los migrantes; el partido se sitúa en el polo abiertamente favorable a la inmigración. La evidencia acredita ese marco pro-inmigración, no una tesis literal de necesidad económica, de ahí la calidad media.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Rita Maestre desmonta la teoría del Gran Reemplazo (web oficial de Más Madrid)",
+        "url": "https://masmadrid.org/rita-maestre-desmonta-la-teoria-del-gran-reemplazo-mira-hacia-arriba-para-descubrir-a-los-verdaderos-culpables-de-la-desigualdad/",
+        "consultado": "2026-07-12",
+        "cita": "Mira hacia arriba para descubrir a los verdaderos culpables de la desigualdad"
+      },
+      "grupoEvidencia": "pasaje-742b7fcd35534e081afc"
     }
   }
 }

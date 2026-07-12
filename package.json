@@ -1,6 +1,6 @@
 {
   "name": "espectro",
-  "version": "0.1.0",
+  "version": "0.9.0",
   "private": true,
   "description": "Test de afinidad política de espectro completo para España: matching electoral + cartografía ideológica fina, con privacidad por diseño.",
   "type": "module",
@@ -18,6 +18,7 @@
     "audit:atlas": "node scripts/auditar-geometria-ideologias.mjs",
     "audit:partidos": "node scripts/auditar-brujula-partidos.mjs",
     "audit:electoral": "node scripts/auditar-contexto-electoral.mjs",
+    "audit:anexo": "node scripts/audit-anexo-candidaturas.mjs",
     "calibrar": "node scripts/calibrar-espacio.mjs",
     "catalogo:partidos": "node scripts/importar-registro-partidos.mjs",
     "resultados:generales": "node scripts/importar-resultados-generales.mjs",

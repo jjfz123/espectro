@@ -8,10 +8,6 @@
   "confianza": "verificada",
   "version": "1.0",
   "revisado": "2026-07-11",
-  "publicacionMapa": {
-    "publicable": false,
-    "motivo": "La posición económica y la autogestión laboral están bien ancladas, pero el modelo no especifica separación de poderes, sistema de partidos ni un catálogo de libertades civiles; proyectar su democracia económica como una coordenada completa de poder político sería engañoso."
-  },
   "facetasDefinitorias": [
     "economico",
     "poder-laboral",

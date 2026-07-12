@@ -131,6 +131,11 @@
           "perfilId": "podemos",
           "relacion": "componente",
           "nota": "Podem figura como componente de esta candidatura fechada; sus posiciones no se atribuyen automáticamente a la coalición."
+        },
+        {
+          "perfilId": "iu",
+          "relacion": "componente",
+          "nota": "Esquerra Unida del País Valencià (federación de Izquierda Unida) integra «Unides Podem-Esquerra Unida» (nº 2 en València, Rosa Pérez Garijo, EUPV); confirmado por Público y la Junta Electoral de la Comunitat Valenciana. Sus posiciones no se atribuyen automáticamente a la coalición."
         }
       ],
       "nota": "Naturaleza inventariada: coalicion-electoral. Vigencia comprobada: matrices-verificadas. Tratamiento previsto: perfil-especifico."

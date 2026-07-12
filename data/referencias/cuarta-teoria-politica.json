@@ -1,0 +1,121 @@
+{
+  "id": "cuarta-teoria-politica",
+  "nombre": "Cuarta Teoría Política",
+  "tipo": "referencia-doctrinal",
+  "definicion": "Proyecto doctrinal de Aleksandr Duguin que pretende superar y rechazar las tres grandes ideologías del siglo XX —liberalismo, comunismo y fascismo— mediante una «cuarta teoría política» posliberal, fundada en la identidad de los pueblos, el tradicionalismo y el eurasianismo. Postula un orden mundial multipolar de civilizaciones frente a la hegemonía atlantista y liberal, con Rusia como polo eurasiático.",
+  "variante": "Núcleo del proyecto duginista (obra La cuarta teoría política, 2009) y su lógica de multipolaridad civilizacional; su recepción española es minoritaria y su economía no está instrumentada, por lo que el mapeo es un prior pendiente y no una afinidad plena.",
+  "periodo": "Rusia, desde 2009 (obra fundacional); tipo ideal doctrinal contemporáneo",
+  "confianza": "estimada",
+  "version": "1.0",
+  "revisado": "2026-07-12",
+  "facetasDefinitorias": [
+    "ue",
+    "atlantismo",
+    "pluralismo-institucional",
+    "autoridad-politica"
+  ],
+  "sensibilidad": "antipluralista",
+  "advertencia": "Referencia sensible descrita en términos politológicos, no un diagnóstico de ninguna persona. Los analistas caracterizan la cuarta teoría política como proyecto antiliberal integral y eurasianista de Aleksandr Duguin, hostil a la democracia liberal y al orden atlantista, con un modelo positivo tradicionalista y poco especificado. Su influencia española no debe sobredimensionarse y su economía no está instrumentada. Una afinidad parcial en geopolítica o antiliberalismo no equivale a adhesión a la doctrina ni identifica a nadie.",
+  "fuentesMarco": [
+    {
+      "tipo": "otro",
+      "titulo": "Aleksandr Dugin: eurasianismo, antiliberalismo y multipolaridad frente a la hegemonía atlantista (síntesis enciclopédica de contraste, en inglés)",
+      "url": "https://en.wikipedia.org/wiki/Aleksandr_Dugin",
+      "fecha": "2026",
+      "consultado": "2026-07-12"
+    },
+    {
+      "tipo": "otro",
+      "titulo": "The Fourth Political Theory (Journal of Ecohumanism): exposición académica del proyecto duginista",
+      "url": "https://ecohumanism.co.uk/joe/ecohumanism/article/download/6487/6656/15367",
+      "fecha": "2024",
+      "consultado": "2026-07-12"
+    },
+    {
+      "tipo": "otro",
+      "titulo": "Alexander Dugin's Intellectual Framework: Traditionalism, Eurasianism, and the Fourth Political Theory (estudio académico, ResearchGate)",
+      "url": "https://www.researchgate.net/publication/384363152",
+      "fecha": "2024",
+      "consultado": "2026-07-12"
+    }
+  ],
+  "reglaPublicacion": {
+    "minimoItems": 4,
+    "minimoCobertura": 0.6,
+    "umbralAfinidad": 85
+  },
+  "posiciones": {
+    "dr-019": {
+      "valor": 2,
+      "justificacion": "El eurasianismo de Duguin sitúa a Rusia como polo civilizatorio frente a la hegemonía atlantista y reclama cooperación continental; buscar la cooperación con Rusia en vez de tratarla como amenaza es coherente con ese eje.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Aleksandr Dugin: eurasianismo y rechazo del Occidente atlantista (síntesis enciclopédica de contraste, en inglés)",
+        "url": "https://en.wikipedia.org/wiki/Aleksandr_Dugin",
+        "fecha": "2026",
+        "consultado": "2026-07-12"
+      }
+    },
+    "ue-001": {
+      "valor": 2,
+      "justificacion": "La cuarta teoría política rechaza el orden liberal occidental y sus instituciones supranacionales; recuperar soberanía frente a Bruselas encaja con su antiliberalismo y su defensa de las civilizaciones frente a la integración liberal.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "The Fourth Political Theory (Journal of Ecohumanism): antiliberalismo integral frente a las instituciones occidentales",
+        "url": "https://ecohumanism.co.uk/joe/ecohumanism/article/download/6487/6656/15367",
+        "fecha": "2024",
+        "consultado": "2026-07-12"
+      }
+    },
+    "ue-002": {
+      "valor": -2,
+      "justificacion": "Duguin considera el liberalismo y su universalismo ajenos y perniciosos; una federación política europea que ceda más soberanía a instituciones liberales es lo contrario de su proyecto multipolar de civilizaciones.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Aleksandr Dugin: el liberalismo como valor occidental ajeno y la multipolaridad como alternativa (síntesis enciclopédica de contraste, en inglés)",
+        "url": "https://en.wikipedia.org/wiki/Aleksandr_Dugin",
+        "fecha": "2026",
+        "consultado": "2026-07-12"
+      }
+    },
+    "dr-024": {
+      "valor": 2,
+      "justificacion": "El antiliberalismo integral de la cuarta teoría política rechaza la democracia liberal como valor occidental ajeno; al preferir formas de poder no liberales, un régimen autoritario puede resultarle preferible a la democracia liberal.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Alexander Dugin's Intellectual Framework: Traditionalism, Eurasianism, and the Fourth Political Theory (estudio académico, ResearchGate)",
+        "url": "https://www.researchgate.net/publication/384363152",
+        "fecha": "2024",
+        "consultado": "2026-07-12"
+      }
+    },
+    "dem-019": {
+      "valor": 2,
+      "justificacion": "Al rechazar el pluralismo liberal de partidos, la doctrina favorece una dirección política orgánica y unificada del Estado sin competencia permanente entre partidos; su modelo positivo es tradicionalista y está poco especificado, de ahí calidad baja.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Aleksandr Dugin: rechazo del pluralismo liberal y organicismo tradicionalista (síntesis enciclopédica de contraste, en inglés)",
+        "url": "https://en.wikipedia.org/wiki/Aleksandr_Dugin",
+        "fecha": "2026",
+        "consultado": "2026-07-12"
+      }
+    },
+    "cul-013": {
+      "valor": 1,
+      "justificacion": "La lógica de «grandes espacios» y civilizaciones lleva a preferir un bloque civilizatorio propio frente al eje liberal-atlantista; para el instrumento español, priorizar la comunidad hispanohablante sobre la UE es un eco parcial de esa reorientación multipolar, no un enunciado literal de la doctrina.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "The Fourth Political Theory (Journal of Ecohumanism): multipolaridad civilizacional y grandes espacios",
+        "url": "https://ecohumanism.co.uk/joe/ecohumanism/article/download/6487/6656/15367",
+        "fecha": "2024",
+        "consultado": "2026-07-12"
+      }
+    }
+  }
+}

@@ -592,6 +592,126 @@
         "fecha": "2023-11-09",
         "consultado": "2026-07-10"
       }
+    },
+    "rel-002": {
+      "valor": 2,
+      "justificacion": "El PNV se autodefine en su doctrina como partido 'democrático, participativo, plural, aconfesional y humanista'; desde su Asamblea de Pamplona (1977) se desligó de la confesión católica de sus orígenes. Esa aconfesionalidad militante respalda un Estado sin religión oficial que garantice la libre expresión de todas las creencias.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Historia e ideología de EAJ-PNV (autodefinición doctrinal del partido)",
+        "url": "https://www.eaj-pnv.eus/es/historia-e-ideologia/",
+        "fecha": "2026",
+        "consultado": "2026-07-12"
+      }
+    },
+    "dem-021": {
+      "valor": 1,
+      "justificacion": "El PNV es uno de los grupos que impulsan la reforma de la 'ley mordaza' con enfoque de derechos humanos, que retira de las infracciones las perturbaciones causadas por manifestaciones ante las cámaras parlamentarias y exige avisos claros antes de disolver una concentración; prioriza el libre ejercicio del derecho de reunión sobre la mera falta de comunicación previa.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "El Congreso rechaza el intento de PP y Vox de tumbar la reforma de la ley mordaza (elDiario.es)",
+        "url": "https://www.eldiario.es/politica/congreso-rechaza-enmiendas-pp-vox-reforma-ley-mordaza_1_11894158.html",
+        "fecha": "2025",
+        "consultado": "2026-07-12"
+      }
+    },
+    "der-015": {
+      "valor": -2,
+      "justificacion": "El PNV define la Agenda 2030 y los ODS como 'una apuesta firme, sincera y total' y como una oportunidad para fortalecer el modelo socioeconómico vasco; su Gobierno articula la Agenda Euskadi-Basque Country 2030. Se opone frontalmente a abandonar ese marco de políticas públicas.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "La Agenda 2030 es una oportunidad para avanzar en el fortalecimiento del modelo socioeconómico del pueblo vasco (EAJ-PNV)",
+        "url": "https://www.eaj-pnv.eus/es/noticias/52427/la-agenda-2030-es-una-oportunidad-para-avanzar-en-",
+        "fecha": "2026",
+        "consultado": "2026-07-12"
+      }
+    },
+    "lab-027": {
+      "valor": -2,
+      "justificacion": "El PNV sostiene que la inmigración es imprescindible para el mercado laboral y las pensiones vascas —el lehendakari Pradales afirma que 'sin inmigración Euskadi no tiene futuro'— y reclama agilizar los permisos de trabajo. Rechaza reservar los recursos públicos prioritariamente a los miembros de la comunidad nacional.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "El PNV plantea extender las EPSV y agilizar los permisos de trabajo de los migrantes (Noticias de Gipuzkoa)",
+        "url": "https://www.noticiasdegipuzkoa.eus/politica/2024/12/10/pnv-plantea-extender-epsv-agilizar-9033730.html",
+        "fecha": "2024",
+        "consultado": "2026-07-12"
+      }
+    },
+    "lab-007": {
+      "valor": 1,
+      "justificacion": "El PNV apuesta por la concertación y el diálogo social tripartito: promueve la Mesa de Diálogo Social e insta a Gobierno vasco, Confebask y sindicatos a acordar entre ellos materias como un SMI vasco. Respalda planes pactados por sectores, aunque enmarcados en la negociación colectiva más que en la planificación estatal vinculante.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "EAJ-PNV apuesta por la negociación colectiva para acordar un salario mínimo en Euskadi (EAJ-PNV)",
+        "url": "https://www.eaj-pnv.eus/es/noticias/57232/eaj-pnv-apuesta-por-la-negociacion-colectiva-para-/",
+        "fecha": "2025",
+        "consultado": "2026-07-12"
+      }
+    },
+    "lab-001": {
+      "valor": 2,
+      "justificacion": "El PNV logró que el Consejo de Ministros aprobara la prevalencia de los convenios colectivos autonómicos y provinciales vascos sobre los sectoriales estatales; su prioridad estratégica es reforzar la fuerza de la negociación colectiva frente a la contratación individual.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "EAJ-PNV logra que el Consejo de Ministros apruebe la prevalencia de los convenios vascos sobre los estatales (EAJ-PNV)",
+        "url": "https://www.eaj-pnv.eus/es/noticias/55667/eaj-pnv-logra-que-el-consejo-de-ministros-apruebe-/",
+        "fecha": "2024",
+        "consultado": "2026-07-12"
+      }
+    },
+    "lab-005": {
+      "valor": 1,
+      "justificacion": "El acuerdo de gobierno PNV-PSE se compromete a impulsar la Mesa de Diálogo Social 'respetando la autonomía de los agentes sociales' y remite la fijación del SMI vasco a la negociación entre Confebask y sindicatos, sin subordinarlos al Gobierno; su tradición de concertación asume la independencia sindical.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "El PNV defiende un SMI vasco e insta a Confebask y a los sindicatos a negociar sin líneas rojas (Noticias de Álava)",
+        "url": "https://www.noticiasdealava.eus/politica/2025/10/20/pnv-defiende-smi-vasco-insta-10242052.html",
+        "fecha": "2025",
+        "consultado": "2026-07-12"
+      }
+    },
+    "dem-012": {
+      "valor": 1,
+      "justificacion": "La vía vigente del PNV para ampliar el autogobierno es el pacto bilateral, la actualización estatutaria y los derechos históricos dentro del orden constitucional; canaliza el cambio profundo por procedimientos institucionales (reforma del Estatuto, acuerdos de investidura), aunque reserva un horizonte de soberanía que trasciende el marco actual.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Historia e ideología de EAJ-PNV (vía pactista y estatutaria)",
+        "url": "https://www.eaj-pnv.eus/es/historia-e-ideologia/",
+        "fecha": "2026",
+        "consultado": "2026-07-12"
+      }
+    },
+    "sd-013": {
+      "valor": 2,
+      "justificacion": "El 16-09-2014, tras la abdicación de Juan Carlos I, el PNV votó a favor de la moción de la Izquierda Plural que instaba a un referéndum consultivo entre monarquía y república (26 votos a favor, frente a 274 en contra de PP, PSOE y UPyD); su portavoz Aitor Esteban defendió la consulta como vía para legitimar democráticamente el modelo de Estado.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "La última vez que España votó entre monarquía y república (Ara)",
+        "url": "https://es.ara.cat/politica/ultima-vez-espana-voto-monarquia-republica_1_4204843.html",
+        "fecha": "2014",
+        "consultado": "2026-07-12"
+      }
+    },
+    "ene-003": {
+      "valor": 1,
+      "justificacion": "El PNV votó en contra de retrasar el calendario de cierre del parque nuclear y apuesta por las renovables advirtiendo del elevado coste de la energía nuclear; la admite solo como energía de transición mientras las renovables no garanticen el suministro. Respalda mantener el calendario de cierre, con reserva pragmática ante prórrogas que decidan el Estado o las eléctricas.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "El PNV apuesta por las renovables y previene del coste de la energía nuclear (Deia)",
+        "url": "https://www.deia.eus/politica/2025/05/05/pnv-apuesta-renovables-previene-coste-9594683.html",
+        "fecha": "2025",
+        "consultado": "2026-07-12"
+      }
     }
   }
 }

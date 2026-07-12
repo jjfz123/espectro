@@ -9,3 +9,8 @@ coverage/
 /data/catalogo-formaciones-politicas.json
 web/test-results/
 web/playwright-report/
+
+# Worktrees de agentes (Claude Code): nunca forman parte del árbol versionado.
+/.claude/
+test-results/
+web/test-results/

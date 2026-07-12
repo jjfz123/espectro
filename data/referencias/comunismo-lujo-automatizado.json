@@ -1,0 +1,147 @@
+{
+  "id": "comunismo-lujo-automatizado",
+  "nombre": "Comunismo de lujo totalmente automatizado",
+  "tipo": "referencia-doctrinal",
+  "definicion": "Programa poscapitalista contemporáneo de Aaron Bastani (2019): la «Tercera Disrupción» —automatización plena, energía y materiales de coste marginal decreciente, edición genética y alimentos sin animales— hace posible una abundancia postrabajo que supera la escasez y el trabajo asalariado mediante propiedad común, servicios básicos universales y planificación democrática. Ecomodernista y tecnófilo frente al decrecimiento.",
+  "variante": "Reconstrucción del manifiesto de Bastani (Fully Automated Luxury Communism, 2019; ed. española Comunismo de lujo totalmente automatizado, 2020); solo la propuesta publicada, no la celda-meme «fully automated luxury gay space communism».",
+  "periodo": "2019",
+  "confianza": "estimada",
+  "version": "1.0",
+  "revisado": "2026-07-12",
+  "facetasDefinitorias": [
+    "ecologia",
+    "energia-nuclear",
+    "economico",
+    "propiedad-mercado",
+    "poder-laboral",
+    "social"
+  ],
+  "sensibilidad": "normal",
+  "advertencia": "Es una reconstrucción de un texto programático de 2019, no una ficha de un partido español ni una atribución de militancia. Una similitud doctrinal parcial no determina la identidad política de ninguna persona. Su rasgo distintivo es el ecomodernismo tecnófilo —abundancia por automatización, no decrecimiento—; varias posiciones sobre energía nuclear y derechos personales se infieren del marco general del libro y quedan marcadas con calidad baja y a verificación humana.",
+  "fuentesMarco": [
+    {
+      "tipo": "programa",
+      "titulo": "Aaron Bastani, Fully Automated Luxury Communism: A Manifesto (Verso Books)",
+      "url": "https://www.versobooks.com/products/476-fully-automated-luxury-communism",
+      "fecha": "2019",
+      "consultado": "2026-07-12"
+    },
+    {
+      "tipo": "otro",
+      "titulo": "Fully Automated Luxury Communism (Wikipedia, ficha de referencia)",
+      "url": "https://en.wikipedia.org/wiki/Fully_Automated_Luxury_Communism",
+      "fecha": "2019",
+      "consultado": "2026-07-12"
+    },
+    {
+      "tipo": "otro",
+      "titulo": "Comunismo de lujo totalmente automatizado (ed. española, Traficantes de Sueños)",
+      "url": "https://traficantes.net/libros/comunismo-de-lujo-totalmente-automatizado",
+      "fecha": "2020",
+      "consultado": "2026-07-12"
+    }
+  ],
+  "reglaPublicacion": {
+    "minimoItems": 4,
+    "minimoCobertura": 0.5,
+    "umbralAfinidad": 82
+  },
+  "posiciones": {
+    "cul-015": {
+      "valor": 2,
+      "justificacion": "El programa hace de la aceleración tecnológica —automatización plena, energía y materiales casi gratuitos, edición genética— la palanca de la abundancia poscapitalista y abraza expresamente la modernidad frente al ecologismo del repliegue. Es su discriminante estrella frente al decrecimiento.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Bastani, Fully Automated Luxury Communism, sobre la Tercera Disrupción",
+        "url": "https://www.versobooks.com/products/476-fully-automated-luxury-communism",
+        "fecha": "2019",
+        "consultado": "2026-07-12"
+      }
+    },
+    "izq-045": {
+      "valor": -2,
+      "justificacion": "El FALC rechaza de plano el decrecimiento: no propone producir y consumir menos, sino multiplicar la abundancia mediante la tecnología. Renunciar al crecimiento equivale, para Bastani, a ceder ante una escasez que la técnica puede abolir.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Fully Automated Luxury Communism, exposición del contraste con el decrecimiento",
+        "url": "https://en.wikipedia.org/wiki/Fully_Automated_Luxury_Communism",
+        "fecha": "2019",
+        "consultado": "2026-07-12"
+      }
+    },
+    "ene-011": {
+      "valor": 2,
+      "justificacion": "Tesis ecomodernista central: la innovación —energía renovable de coste marginal casi nulo, nuevos materiales— desacopla el crecimiento del daño ecológico y permite seguir produciendo abundancia dentro de los límites del planeta.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Bastani, Fully Automated Luxury Communism, sobre energía y materiales de coste decreciente",
+        "url": "https://www.versobooks.com/products/476-fully-automated-luxury-communism",
+        "fecha": "2019",
+        "consultado": "2026-07-12"
+      }
+    },
+    "ene-009": {
+      "valor": 1,
+      "justificacion": "El programa apuesta por la inversión pública en las tecnologías energéticas de la Tercera Disrupción (energía de coste marginal decreciente, incluidas tecnologías avanzadas). El +1 refleja que el énfasis de Bastani es la solar antes que la nuclear, por lo que su respaldo específico a la I+D nuclear queda a verificación.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Fully Automated Luxury Communism, sobre inversión pública en energía avanzada",
+        "url": "https://en.wikipedia.org/wiki/Fully_Automated_Luxury_Communism",
+        "fecha": "2019",
+        "consultado": "2026-07-12"
+      }
+    },
+    "lab-011": {
+      "valor": 2,
+      "justificacion": "El FALC es comunista: busca superar el trabajo asalariado y socializar la infraestructura automatizada, no gravar salarios. La fiscalidad redistributiva dentro del capitalismo no toca quién posee y dirige los medios automatizados de producción, que es lo decisivo.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Bastani, Fully Automated Luxury Communism, sobre propiedad común de la infraestructura automatizada",
+        "url": "https://www.versobooks.com/products/476-fully-automated-luxury-communism",
+        "fecha": "2019",
+        "consultado": "2026-07-12"
+      }
+    },
+    "izq-005": {
+      "valor": 1,
+      "justificacion": "Bastani defiende la propiedad común y la planificación democrática de la infraestructura automatizada y de los servicios básicos, desplazando al mercado en los sectores clave. Se puntúa +1 porque su transición combina medios electorales-populistas y provisión pública, no una planificación central completa.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Bastani, Fully Automated Luxury Communism, sobre planificación democrática",
+        "url": "https://www.versobooks.com/products/476-fully-automated-luxury-communism",
+        "fecha": "2019",
+        "consultado": "2026-07-12"
+      }
+    },
+    "sd-008": {
+      "valor": 1,
+      "justificacion": "El programa garantiza de forma universal sanidad, vivienda, educación y transporte (servicios básicos universales) y una vida más allá del trabajo asalariado. Se puntúa +1 y no +2 porque Bastani prefiere los servicios universales a una renta básica en metálico incondicional.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Fully Automated Luxury Communism, sobre servicios básicos universales y postrabajo",
+        "url": "https://en.wikipedia.org/wiki/Fully_Automated_Luxury_Communism",
+        "fecha": "2019",
+        "consultado": "2026-07-12"
+      }
+    },
+    "lib-017": {
+      "valor": 1,
+      "justificacion": "La matriz del «comunismo de lujo» es culturalmente libertaria (autonomía corporal, emancipación personal); de ese progresismo se infiere el respaldo a derechos como la eutanasia libremente solicitada. Inferencia del marco, no texto explícito del libro: calidad baja, a verificación humana.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Fully Automated Luxury Communism, marco culturalmente libertario del proyecto",
+        "url": "https://en.wikipedia.org/wiki/Fully_Automated_Luxury_Communism",
+        "fecha": "2019",
+        "consultado": "2026-07-12"
+      }
+    }
+  }
+}

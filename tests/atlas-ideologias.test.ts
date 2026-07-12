@@ -66,13 +66,15 @@ describe('capas del atlas ideologico', () => {
     expect(profunda?.id).toBe('posadismo');
   });
 
-  it('bloquea la geometría en investigación sin ocultar la entrada nominal', () => {
-    expect(ANCLAS_ATLAS_BLOQUEADAS).toHaveLength(20);
+  it('las anclas de investigación quedaron instrumentadas: 0 bloqueadas y geometría publicada coherente (2026-07-12)', () => {
+    expect(ANCLAS_ATLAS_BLOQUEADAS).toHaveLength(0);
     expect(
-      ANCLAS_ATLAS_BLOQUEADAS.every(
+      CORRIENTES_ATLAS.filter((corriente) => corriente.capa === 'region').every(
         (corriente) =>
-          corriente.estado === 'investigacion' &&
-          corriente.publicacionGeometrica === 'bloqueada-investigacion',
+          corriente.estado !== 'investigacion' &&
+          (corriente.estado !== 'instrumentada' ||
+            (typeof corriente.referenciaId === 'string' &&
+              corriente.publicacionGeometrica === 'publicada')),
       ),
     ).toBe(true);
     expect(
@@ -116,7 +118,8 @@ describe('capas del atlas ideologico', () => {
     ).toBe(true);
     expect(CONTRATO_ATLAS.umbrales.minimoCorrientes).toBeGreaterThan(0);
     expect(CONTRATO_ATLAS.umbrales.minimoPorCuadrante).toBeGreaterThan(0);
-    expect(REGIONES_ATLAS.length).toBeLessThan(ANCLAS_REGIONALES_ATLAS.length);
+    /* 92/92 tras cerrar las 20 anclas (2026-07-12): toda ancla regional dibuja región. */
+    expect(REGIONES_ATLAS.length).toBeLessThanOrEqual(ANCLAS_REGIONALES_ATLAS.length);
   });
 
   it('mantiene diagnósticos y contextos localizables pero fuera de Voronoi', () => {

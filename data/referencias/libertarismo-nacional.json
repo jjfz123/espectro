@@ -1,0 +1,125 @@
+{
+  "id": "libertarismo-nacional",
+  "nombre": "Libertarismo nacional",
+  "tipo": "referencia-doctrinal",
+  "definicion": "Cruce minoritario entre economía libertaria, reducción del Estado y una concepción fuerte de nación, soberanía o comunidad política. Defiende el mercado libre y la baja fiscalidad al tiempo que reivindica fronteras duras, control de la inmigración y soberanía nacional frente a entidades supranacionales, una combinación en tensión con el cosmopolitismo y el antiestatismo integral del libertarismo dominante.",
+  "variante": "Cruce en tensión entre libertarismo económico y una concepción fuerte de nación, soberanía y fronteras; la ficha no lo resuelve a favor de ninguno de los dos polos",
+  "periodo": "Corriente contemporánea difusa, sin texto fundacional único (raíz intelectual en el giro paleolibertario y en la crítica de Hoppe a la «integración forzosa», 2001)",
+  "confianza": "estimada",
+  "version": "1.0",
+  "revisado": "2026-07-12",
+  "facetasDefinitorias": [
+    "economico",
+    "propiedad-mercado",
+    "social",
+    "estatismo"
+  ],
+  "sensibilidad": "normal",
+  "advertencia": "Tipo ideal doctrinal difuso, no un partido español ni una identidad asignada, y sin obra fundacional única (documentación débil, calidad baja). Combina mercado libre con soberanismo y fronteras duras: esa mezcla es internamente tensa —quiere un Estado mínimo y a la vez un Estado-nación capaz de cerrar fronteras y sostener la defensa—, y la ficha documenta la tensión sin resolverla. No debe deducirse de una respuesta fiscal o territorial aislada.",
+  "fuentesMarco": [
+    {
+      "tipo": "otro",
+      "titulo": "National Libertarianism: síntesis de principios libertarios y soberanía nacional (Inside Political Science, en inglés)",
+      "url": "https://insidepoliticalscience.com/national-libertarianism/",
+      "consultado": "2026-07-12"
+    },
+    {
+      "tipo": "otro",
+      "titulo": "Perspectivas libertarias sobre inmigración: la «integración forzosa» de Hoppe como raíz del cierre de fronteras (ficha enciclopédica, en inglés)",
+      "url": "https://en.wikipedia.org/wiki/Libertarian_perspectives_on_immigration",
+      "fecha": "2001",
+      "consultado": "2026-07-12"
+    }
+  ],
+  "reglaPublicacion": {
+    "minimoItems": 4,
+    "minimoCobertura": 0.55,
+    "umbralAfinidad": 86
+  },
+  "posiciones": {
+    "der-001": {
+      "valor": 1,
+      "justificacion": "En lo económico busca un Estado mínimo, pero conserva funciones nacionales fuertes —fronteras, defensa, soberanía— que van más allá de «seguridad, justicia y poco más»; por eso el acuerdo con el enunciado es solo parcial y expresa la tensión libertad/nación.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "National Libertarianism: libertad individual y mercado con soberanía nacional (en inglés)",
+        "url": "https://insidepoliticalscience.com/national-libertarianism/",
+        "fecha": "2026",
+        "consultado": "2026-07-12"
+      }
+    },
+    "izq-046": {
+      "valor": -2,
+      "justificacion": "Rechaza la libre circulación como derecho universal: la nación es una comunidad delimitada y la frontera la protege; recoge la crítica de Hoppe a la «integración forzosa» que impondría la apertura estatal de fronteras. Es el discriminante más nítido frente al libertarismo cosmopolita.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Perspectivas libertarias sobre inmigración: restricción de fronteras y comunidad nacional (en inglés)",
+        "url": "https://en.wikipedia.org/wiki/Libertarian_perspectives_on_immigration",
+        "fecha": "2001",
+        "consultado": "2026-07-12"
+      }
+    },
+    "ue-001": {
+      "valor": 2,
+      "justificacion": "El soberanismo es su otra mitad: reivindica recuperar soberanía frente a la integración supranacional, a la que ve como una amenaza a la vez para la libertad individual y para la identidad nacional.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "National Libertarianism: soberanía nacional frente a entidades supranacionales (en inglés)",
+        "url": "https://insidepoliticalscience.com/national-libertarianism/",
+        "fecha": "2026",
+        "consultado": "2026-07-12"
+      }
+    },
+    "lib-003": {
+      "valor": 2,
+      "justificacion": "En su mitad de mercado defiende una fiscalidad baja y no progresiva; el tipo único del IRPF es coherente con su preferencia por reducir la carga y la intervención económica.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "National Libertarianism: economía de libre mercado y bajos impuestos (en inglés)",
+        "url": "https://insidepoliticalscience.com/national-libertarianism/",
+        "fecha": "2026",
+        "consultado": "2026-07-12"
+      }
+    },
+    "lib-006": {
+      "valor": 2,
+      "justificacion": "Coherente con su liberalismo económico, apoya liberalizar el suelo y eliminar la mayoría de las restricciones urbanísticas para que la oferta responda al mercado.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "National Libertarianism: preferencia por el mercado frente a la intervención (en inglés)",
+        "url": "https://insidepoliticalscience.com/national-libertarianism/",
+        "fecha": "2026",
+        "consultado": "2026-07-12"
+      }
+    },
+    "soc-002": {
+      "valor": 2,
+      "justificacion": "La frontera dura se traduce en política: la respuesta prioritaria a la inmigración irregular debe ser la devolución, porque es la comunidad nacional —y no el individuo o el mercado— la que controla la entrada.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "National Libertarianism: control de la inmigración como interés nacional (en inglés)",
+        "url": "https://insidepoliticalscience.com/national-libertarianism/",
+        "fecha": "2026",
+        "consultado": "2026-07-12"
+      }
+    },
+    "lab-009": {
+      "valor": 1,
+      "justificacion": "Comparte en principio el rechazo libertario al impuesto coactivo, pero de forma templada: acepta que las funciones nacionales que reivindica —fronteras y defensa— exigen financiación pública, y esa contradicción con el antifiscalismo se deja aquí planteada, no resuelta.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "National Libertarianism: tensión entre bajos impuestos y funciones estatales nacionales (en inglés)",
+        "url": "https://insidepoliticalscience.com/national-libertarianism/",
+        "fecha": "2026",
+        "consultado": "2026-07-12"
+      }
+    }
+  }
+}

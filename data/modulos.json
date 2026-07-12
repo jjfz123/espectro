@@ -20,7 +20,7 @@
     "descripcion": "Tercera vía, socialismo democrático, ecosocialismo reformista, populismo de izquierda y socialdemocracia antinacionalista. Separa PSOE, Sumar, Podemos, Más Madrid e Izquierda Española.",
     "orden": 15,
     "eleccionUsuario": true,
-    "desbloqueo": { "tipo": "eje-banda", "eje": "economico", "min": -60, "max": 5 }
+    "desbloqueo": { "tipo": "eje-banda", "eje": "economico", "min": -60, "max": 15 }
   },
   {
     "id": "centro-liberalismo",
@@ -68,7 +68,7 @@
     "descripcion": "Abolicionismo/regulacionismo, autodeterminación de género, gestación subrogada, bioética y laicismo. Los cortes que parten en dos tanto a la izquierda como a la derecha.",
     "orden": 8,
     "eleccionUsuario": true,
-    "desbloqueo": { "tipo": "eje-banda", "eje": "social", "min": -100, "max": 20 }
+    "desbloqueo": { "tipo": "eje-banda", "eje": "social", "min": -100, "max": 35 }
   },
   {
     "id": "territorial-canarias",
@@ -148,7 +148,7 @@
     "descripcion": "Asimilación o convivencia de culturas, ser español por origen o por participación, amenaza cultural percibida, símbolos e historia en la escuela, leyenda negra e Hispanidad, acentos y variedades del español, acceso a la nacionalidad y velo. Separa los patriotismos españoles entre sí y de la izquierda estatal.",
     "orden": 6,
     "eleccionUsuario": true,
-    "desbloqueo": { "tipo": "eje", "eje": "social", "operador": ">=", "umbral": 15 }
+    "desbloqueo": { "tipo": "siempre" }
   },
   {
     "id": "limites-antipluralismo",

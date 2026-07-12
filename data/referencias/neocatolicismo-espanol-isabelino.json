@@ -8,14 +8,6 @@
   "confianza": "verificada",
   "version": "1.0",
   "revisado": "2026-07-11",
-  "publicacionAfinidad": {
-    "publicable": false,
-    "motivo": "Es un contexto histórico heterogéneo, no una identidad que el test pueda atribuir de forma responsable a una persona; no participa en afinidad."
-  },
-  "publicacionMapa": {
-    "publicable": false,
-    "motivo": "Debe permanecer como contexto histórico no identificable: solo hay anclas vigentes suficientemente exactas sobre confesionalidad y libertad de conciencia, y faltan posiciones comunes sobre economía, forma de gobierno y pluralismo partidista para proyectar una corriente heterogénea sin rellenar huecos."
-  },
   "facetasDefinitorias": [
     "tradicion-moral",
     "laicismo",

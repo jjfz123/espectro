@@ -9,6 +9,9 @@ import { Cuestionario } from './vistas/Cuestionario';
 import { FinRapido } from './vistas/FinRapido';
 import { HitoIntermedio } from './vistas/HitoIntermedio';
 import { Metodologia } from './vistas/Metodologia';
+const Enciclopedia = lazy(() =>
+  import('./vistas/Enciclopedia').then((m) => ({ default: m.Enciclopedia })),
+);
 import { Modulos } from './vistas/Modulos';
 import { OfertaModulos } from './vistas/OfertaModulos';
 import { Portada } from './vistas/Portada';
@@ -79,6 +82,7 @@ function VistaRecuperacion({
 function AplicacionLocal({ omitirGuardadoInicial }: { omitirGuardadoInicial: boolean }) {
   const [estado, despachar] = useReducer(reductor, undefined, cargarEstado);
   const [verMetodologia, setVerMetodologia] = useState(false);
+  const [verEnciclopedia, setVerEnciclopedia] = useState(false);
   const [tema, setTema] = useState<Tema>(cargarTema);
   const [almacenDisponible, setAlmacenDisponible] = useState(true);
   const [actualizacionDisponible, setActualizacionDisponible] = useState(false);
@@ -100,7 +104,7 @@ function AplicacionLocal({ omitirGuardadoInicial }: { omitirGuardadoInicial: boo
       mainRef.current?.focus({ preventScroll: true });
     });
     return () => window.cancelAnimationFrame(frame);
-  }, [estado.fase, verMetodologia]);
+  }, [estado.fase, verMetodologia, verEnciclopedia]);
 
   useEffect(() => {
     // Las fases previas al resultado anticipan la descarga del chunk para
@@ -122,6 +126,7 @@ function AplicacionLocal({ omitirGuardadoInicial }: { omitirGuardadoInicial: boo
   }, []);
 
   const abrirMetodologia = () => setVerMetodologia(true);
+  const abrirEnciclopedia = () => setVerEnciclopedia(true);
 
   const cambiarTema = () => {
     const siguiente = siguienteTema(tema);
@@ -149,6 +154,7 @@ function AplicacionLocal({ omitirGuardadoInicial }: { omitirGuardadoInicial: boo
       setTema('sistema');
       aplicarTema('sistema');
       setVerMetodologia(false);
+      setVerEnciclopedia(false);
     }
   };
 
@@ -157,11 +163,23 @@ function AplicacionLocal({ omitirGuardadoInicial }: { omitirGuardadoInicial: boo
     vista = (
       <Metodologia alVolver={() => setVerMetodologia(false)} alBorrarDatos={borrarDatos} />
     );
+  } else if (verEnciclopedia) {
+    vista = (
+      <Suspense
+        fallback={
+          <p className="vista-cargando" role="status">
+            Abriendo la enciclopedia…
+          </p>
+        }
+      >
+        <Enciclopedia alVolver={() => setVerEnciclopedia(false)} />
+      </Suspense>
+    );
   } else {
     switch (estado.fase) {
       case 'portada':
         vista = (
-          <Portada estado={estado} despachar={despachar} alAbrirMetodologia={abrirMetodologia} />
+          <Portada estado={estado} despachar={despachar} alAbrirMetodologia={abrirMetodologia} alAbrirEnciclopedia={abrirEnciclopedia} />
         );
         break;
       case 'cuestionario':
@@ -206,6 +224,7 @@ function AplicacionLocal({ omitirGuardadoInicial }: { omitirGuardadoInicial: boo
       <Cabecera
         alIrAPortada={() => {
           setVerMetodologia(false);
+          setVerEnciclopedia(false);
           despachar({ tipo: 'ir-a-portada' });
         }}
         alAbrirMetodologia={abrirMetodologia}
@@ -262,6 +281,7 @@ function AplicacionLocal({ omitirGuardadoInicial }: { omitirGuardadoInicial: boo
               }}
               alVolver={() => {
                 setVerMetodologia(false);
+                setVerEnciclopedia(false);
                 despachar({ tipo: 'ir-a-portada' });
               }}
             />
