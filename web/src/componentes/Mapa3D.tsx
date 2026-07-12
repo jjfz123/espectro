@@ -714,6 +714,13 @@ export default function Mapa3D({ ejes, valoresUsuario, usuarioProvisional, entid
           .
         </span>{' '}
         <AyudaEjes ejes={ejes} etiqueta="Qué mide cada eje del cubo, con su nombre académico" />
+        <span className="nota-al-margen">
+          El cubo resume estos tres ejes y nada más: las demás facetas medidas quedan en tu
+          perfil por facetas. Dos puntos pueden verse cerca en un plano 2D y lejos aquí —o al
+          revés— porque cada plano ignora el tercer eje; la distancia es geométrica y
+          orientativa, no una recomendación. Si falta evidencia en un eje, el punto no se
+          dibuja: nunca se inventa una posición.
+        </span>
       </div>
 
       {puntoSeleccionado ? (

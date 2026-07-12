@@ -1796,8 +1796,10 @@ export function MapaPolitico({
           {ver3D ? 'Ocultar el 3D' : 'Ver en 3D'}
         </button>
         <span className="nota-al-margen">
-          Cubo Economía × Sociedad × Territorio. Se muestra solo si lo abres y queda preparado
-          para funcionar sin conexión.
+          Cubo Economía × Sociedad × Territorio: los mismos tres ejes de los cruces, vistos a
+          la vez — dos puntos pueden verse cerca en un plano y lejos en el cubo porque cada
+          plano ignora el tercer eje. Se muestra solo si lo abres y queda preparado para
+          funcionar sin conexión.
         </span>
       </div>
 
