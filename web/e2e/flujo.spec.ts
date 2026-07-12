@@ -1698,3 +1698,18 @@ test('la enciclopedia ideológica se explora desde la portada sin hacer el test'
     page.getByRole('button', { name: 'Abrir la enciclopedia ideológica' }),
   ).toBeVisible();
 });
+
+test('la enciclopedia muestra el aviso legal de las corrientes ilegalizadas al abrirlas', async ({
+  page,
+}) => {
+  await page.goto('/');
+  await page.getByRole('button', { name: 'Abrir la enciclopedia ideológica' }).click();
+  await page.getByLabel('Buscar una corriente').fill('reconstituido');
+  const entrada = page.locator('.enciclopedia-entrada');
+  await expect(entrada).toHaveCount(1);
+  await expect(entrada.getByText('patrón sensible documentado')).toBeVisible();
+  await entrada.locator('summary').click();
+  await expect(entrada.getByText(/ORGANIZACIÓN ILEGAL/)).toBeVisible();
+  await expect(entrada.getByText(/brazo político de la organización terrorista GRAPO/)).toBeVisible();
+  await expect(entrada.getByText(/ninguna cercanía parcial en ítems identifica a nadie/)).toBeVisible();
+});
