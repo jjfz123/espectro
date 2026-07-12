@@ -256,7 +256,8 @@
     "id": "otan",
     "url": "https://es.wikipedia.org/wiki/Organizaci%C3%B3n_del_Tratado_del_Atl%C3%A1ntico_Norte",
     "termino": "OTAN (Alianza Atlántica)",
-    "definicion": "Alianza militar de defensa mutua fundada en 1949 entre Estados Unidos, Canadá y países europeos. España entró en 1982 y lo ratificó en el referéndum de 1986 con condiciones. Sus partidarios la ven como garantía de seguridad colectiva; sus críticos, como subordinación a la política exterior estadounidense o como obstáculo para una defensa europea autónoma."
+    "definicion": "Alianza militar de defensa mutua fundada en 1949 entre Estados Unidos, Canadá y países europeos. España entró en 1982 y lo ratificó en el referéndum de 1986 con condiciones. Sus partidarios la ven como garantía de seguridad colectiva; sus críticos, como subordinación a la política exterior estadounidense o como obstáculo para una defensa europea autónoma.",
+    "ampliacion": "España entró en 1982 con gobierno de UCD y el PSOE llegó al poder ese año prometiendo un referéndum con la campaña «OTAN, de entrada no»; ya en el Gobierno defendió quedarse, y el referéndum de 1986 aprobó la permanencia con tres condiciones: sin estructura militar integrada (revertida en 1999), prohibición de armas nucleares en territorio español y reducción de la presencia militar estadounidense. Hoy el arco va desde el atlantismo pleno (PP, PSOE, VOX con matices soberanistas) hasta la salida (izquierda transformadora y parte del soberanismo), pasando por quienes piden una defensa europea menos dependiente."
   },
   {
     "id": "socialismo-real",
@@ -398,5 +399,78 @@
     "definicion": "Acuerdo parlamentario permanente (desde 1995) que fija por consenso las recomendaciones sobre el sistema público de pensiones: separación de fuentes, revalorización, sostenibilidad. Las reformas de 2021-2023 ligaron de nuevo las pensiones al IPC y crearon el mecanismo de equidad intergeneracional. Invocarlo señala voluntad de consenso; saltárselo, reforma unilateral.",
     "ampliacion": "Nació en 1995 como acuerdo de todos los grupos parlamentarios para sacar las pensiones de la pelea electoral: una comisión permanente emite recomendaciones por consenso y los gobiernos las traducen en reformas. La reforma de 2011 (Zapatero, con acuerdo social) elevó gradualmente la edad de jubilación; la de 2013 (Rajoy, sin consenso del Pacto) desligó las pensiones del IPC con un «índice de revalorización» propio; las de 2021-2023 (Escrivá) restauraron el IPC, crearon el mecanismo de equidad intergeneracional y reforzaron ingresos por cotizaciones. Invocar el Pacto señala búsqueda de consenso; reformar al margen, como en 2013, es la excepción que confirma su peso simbólico.",
     "url": "https://es.wikipedia.org/wiki/Pacto_de_Toledo"
+  },
+  {
+    "id": "mandato-imperativo",
+    "termino": "Mandato imperativo",
+    "definicion": "Vínculo por el que un cargo electo queda obligado a votar y actuar según las instrucciones expresas de quienes lo eligieron, que pueden retirarle la representación si se aparta de ellas. Se opone al mandato representativo, en el que el electo decide en conciencia y no puede ser destituido a mitad de mandato. La Constitución española (art. 67.2) prohíbe el mandato imperativo de diputados y senadores. Las tradiciones asamblearias y consejistas lo reivindican como control popular; sus críticos lo ven como fuente de rigidez y disciplina externa sobre el representante.",
+    "url": "https://es.wikipedia.org/wiki/Mandato_representativo"
+  },
+  {
+    "id": "entrismo",
+    "termino": "Entrismo",
+    "definicion": "Táctica por la que los militantes de una organización revolucionaria pequeña se afilian a un partido grande de masas —socialdemócrata, laborista o comunista— para ganar a sus bases desde dentro, en lugar de fundar de inmediato un partido propio. La postuló Trotski en los años treinta y la practicaron corrientes trotskistas en el laborismo británico o el peronismo argentino. Sus defensores la ven como vía para llegar a trabajadores que no seguirían a un grupo minoritario; sus críticos la consideran maniobra oportunista o condenada a diluir al que entra.",
+    "url": "https://es.wikipedia.org/wiki/Entrismo"
+  },
+  {
+    "id": "eurocomunismo",
+    "termino": "Eurocomunismo",
+    "definicion": "Corriente que desde los años setenta llevó a los grandes partidos comunistas de Europa occidental (el italiano, el francés y el PCE de Santiago Carrillo) a distanciarse de Moscú, aceptar la democracia parlamentaria, el pluralismo y las libertades y renunciar a la dictadura del proletariado. Sus partidarios lo presentaron como la vía democrática al socialismo adaptada a Occidente; sus críticos comunistas lo denunciaron como abandono del leninismo y deriva socialdemócrata. En España marca la divisoria entre el PCE y las escisiones prosoviéticas o marxistas-leninistas que le reprocharon esa renuncia.",
+    "url": "https://es.wikipedia.org/wiki/Eurocomunismo"
+  },
+  {
+    "id": "consejismo",
+    "termino": "Comunismo consejista (consejismo)",
+    "definicion": "Corriente marxista revolucionaria surgida en Alemania y Países Bajos en los años veinte que sostiene que la clase trabajadora debe organizarse y gobernar mediante consejos obreros de base —elegidos en fábricas y barrios, con delegados revocables— y no a través de un partido de vanguardia ni del Parlamento. Se sitúa entre el marxismo y el anarquismo: comparte con el leninismo el objetivo comunista, pero rechaza su centralismo. Sus críticos leninistas lo consideran espontaneísta e incapaz de dirigir una revolución; para sus partidarios evita precisamente la burocratización del poder.",
+    "url": "https://es.wikipedia.org/wiki/Comunismo_consejista"
+  },
+  {
+    "id": "revolucion-cultural",
+    "termino": "Revolución Cultural china",
+    "definicion": "Campaña política lanzada por Mao Zedong en China entre 1966 y 1976 para, según su objetivo declarado, impedir una restauración capitalista purgando del partido y de la sociedad a los dirigentes y las costumbres considerados burgueses, movilizando a los jóvenes «guardias rojos». Provocó persecuciones masivas, caos y muertes. En el comunismo actual sigue siendo un marcador de corriente: el maoísmo la reivindica como intento de mantener viva la revolución; el resto de familias (prosoviéticos, trotskistas, eurocomunistas) la valoran críticamente. Valorarla positiva o negativamente distingue corrientes entre sí.",
+    "url": "https://es.wikipedia.org/wiki/Revoluci%C3%B3n_Cultural"
+  },
+  {
+    "id": "xx-congreso-pcus",
+    "termino": "XX Congreso del PCUS (1956) y revisionismo",
+    "definicion": "Congreso del Partido Comunista soviético de 1956 en el que Nikita Jruschov denunció en un discurso secreto los crímenes de Stalin y su «culto a la personalidad», iniciando la desestalinización. Para las corrientes prosoviéticas ortodoxas fue una corrección necesaria; para maoístas y hoxhaístas marcó el «revisionismo», el momento en que la URSS habría abandonado el socialismo e iniciado una restauración capitalista; el trotskismo, en cambio, sitúa la degeneración mucho antes, ya bajo Stalin. Fechar —o negar— ese punto de ruptura distingue a las familias comunistas entre sí.",
+    "url": "https://es.wikipedia.org/wiki/XX_Congreso_del_Partido_Comunista_de_la_Uni%C3%B3n_Sovi%C3%A9tica"
+  },
+  {
+    "id": "inmersion-linguistica",
+    "termino": "Inmersión lingüística y lengua vehicular",
+    "definicion": "La lengua vehicular es aquella en la que se imparten las asignaturas en la escuela (matemáticas, ciencias…), distinta de la lengua que se estudia como materia. En un modelo de inmersión, la lengua cooficial (catalán, gallego, euskera) es la vehicular principal y el castellano se aprende sobre todo como asignatura. El debate enfrenta a quienes defienden la inmersión como herramienta de normalización de la lengua propia y de cohesión social, y a quienes reclaman que el castellano tenga también garantizado un porcentaje mínimo de horas lectivas como lengua vehicular.",
+    "ampliacion": "El modelo catalán de inmersión nació en los años ochenta con amplio consenso y fue avalado por el Tribunal Constitucional en 1994; la sentencia del 25 % de castellano (TSJC 2020, firme en 2022) reabrió el conflicto sobre los porcentajes vehiculares, que la Generalitat sorteó con reformas legales exprés. En Euskadi conviven modelos A/B/D con matrícula mayoritaria en inmersión (D), y en Galicia el decreto de plurilingüismo de 2010 fija topes por lengua. La disputa de fondo —normalización frente a derecho a estudiar en castellano— sigue viva en los tribunales y en las urnas.",
+    "url": "https://es.wikipedia.org/wiki/Inmersi%C3%B3n_ling%C3%BC%C3%ADstica"
+  },
+  {
+    "id": "cogestion",
+    "termino": "Cogestión",
+    "definicion": "Modelo por el que los trabajadores participan en la dirección de la empresa ocupando parte de sus órganos de gobierno, junto a los propietarios y sin llegar a sustituirlos. Su referencia clásica es Alemania, donde la ley reserva a las plantillas de las grandes empresas parte de los puestos del consejo de vigilancia. Se distingue de la autogestión (empresa dirigida solo por sus trabajadores) y de la negociación colectiva. Sus defensores la ven como democracia económica; sus críticos, como injerencia en la gestión o corresponsabilidad que desactiva el conflicto.",
+    "url": "https://es.wikipedia.org/wiki/Cogesti%C3%B3n"
+  },
+  {
+    "id": "autogestion",
+    "termino": "Autogestión",
+    "definicion": "Gestión de una empresa, un servicio o una comunidad por las propias personas implicadas —trabajadores, vecinos—, que toman democráticamente las decisiones, sin propietarios externos ni dirección estatal. En economía, su forma típica es la cooperativa de trabajo. Es un principio central de las tradiciones anarquista y del socialismo autogestionario, que la oponen tanto a la empresa capitalista como a la nacionalización dirigida por el Estado. Sus críticos, incluidos otros sectores de la izquierda, discuten su viabilidad en sectores que exigen gran escala o coordinación central.",
+    "url": "https://es.wikipedia.org/wiki/Autogesti%C3%B3n"
+  },
+  {
+    "id": "frente-popular",
+    "termino": "Frente popular / frente amplio",
+    "definicion": "Coalición electoral amplia entre partidos de izquierda y, a veces, de centro para sumar fuerzas frente a un adversario común. La expresión nació en los años treinta para las alianzas antifascistas impulsadas por la Internacional Comunista (en España, el Frente Popular de 1936). En la izquierda actual divide estrategias: unas corrientes defienden concurrir en coaliciones amplias (el PCE dentro de Izquierda Unida) para tener influencia; otras las rechazan como «colaboración de clases» que diluye el programa y prefieren candidaturas propias de clase.",
+    "url": "https://es.wikipedia.org/wiki/Frentes_populares"
+  },
+  {
+    "id": "proceso-constituyente",
+    "termino": "Proceso constituyente",
+    "definicion": "Procedimiento por el que un país elabora una Constitución nueva, en lugar de reformar la vigente, normalmente a través de una asamblea constituyente elegida para ese fin y de su ratificación popular. Implica reabrir las reglas básicas del Estado. En España lo reclaman sobre todo sectores de la izquierda y del soberanismo que consideran agotado el marco de 1978; sus críticos advierten del riesgo de inestabilidad y prefieren reformar la Constitución actual por sus propios cauces. Un proceso constituyente puede ser plural y democrático o excluyente, según cómo se diseñe.",
+    "url": "https://es.wikipedia.org/wiki/Proceso_constituyente"
+  },
+  {
+    "id": "sorteo-democratico",
+    "termino": "Sorteo (selección de cargos por azar)",
+    "definicion": "Método de designación de cargos o representantes por sorteo entre la ciudadanía, en lugar de por elección. Se usó en la democracia ateniense y hoy se propone sobre todo para asambleas ciudadanas deliberativas que asesoran o deciden sobre asuntos concretos, buscando una muestra representativa de la población ajena a los partidos. Sus partidarios lo ven como forma de acercar la política a la gente corriente y reducir el peso de los aparatos; sus críticos dudan de la competencia y de la rendición de cuentas de personas no elegidas ni reelegibles.",
+    "url": "https://es.wikipedia.org/wiki/Sorteo_democr%C3%A1tico_(Lotocracia)"
   }
 ]

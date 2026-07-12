@@ -79,7 +79,10 @@
       "solo-matching"
     ],
     "estado": "piloto",
-    "notas": "Discrimina: Separa el hispanismo cultural (VOX +2, Falange +2, por la Hispanidad) del nativismo etnicista europeo (DN −1) y del nativismo catalán (Aliança Catalana −1). Solo-matching porque también los igualitaristas de izquierda responden en negativo por razones opuestas: la escala es no lineal. | Esperado: VOX +2, Falange (FE-JONS / La Falange) +2, nacional-catolicismo +1, Democracia Nacional -1, Aliança Catalana -1, SALF +0, PSOE -1. | VOX defiende explícitamente la preferencia por inmigración hispanoamericana; la Falange la enmarca en la Hispanidad."
+    "notas": "Discrimina: Separa el hispanismo cultural (VOX +2, Falange +2, por la Hispanidad) del nativismo etnicista europeo (DN −1) y del nativismo catalán (Aliança Catalana −1). Solo-matching porque también los igualitaristas de izquierda responden en negativo por razones opuestas: la escala es no lineal. | Esperado: VOX +2, Falange (FE-JONS / La Falange) +2, nacional-catolicismo +1, Democracia Nacional -1, Aliança Catalana -1, SALF +0, PSOE -1. | VOX defiende explícitamente la preferencia por inmigración hispanoamericana; la Falange la enmarca en la Hispanidad.",
+    "terminos": [
+      "hispanidad"
+    ]
   },
   {
     "id": "dr-005",
@@ -155,7 +158,10 @@
       "forma-de-estado"
     ],
     "estado": "retirado",
-    "notas": "Discrimina: Distinción clave dentro de la familia: monárquicos (VOX +2, nacional-católicos +2) frente a republicanos de ultraderecha (Falange −2, España 2000 −2), un corte que el eje izquierda-derecha no captura. Aliança Catalana −2 por razones independentistas. | Esperado: VOX +2, nacional-catolicismo +2, PP +2, SALF +0, Democracia Nacional -1, España 2000 -2, Falange (FE-JONS / La Falange) -2, Aliança Catalana -2."
+    "notas": "Discrimina: Distinción clave dentro de la familia: monárquicos (VOX +2, nacional-católicos +2) frente a republicanos de ultraderecha (Falange −2, España 2000 −2), un corte que el eje izquierda-derecha no captura. Aliança Catalana −2 por razones independentistas. | Esperado: VOX +2, nacional-catolicismo +2, PP +2, SALF +0, Democracia Nacional -1, España 2000 -2, Falange (FE-JONS / La Falange) -2, Aliança Catalana -2.",
+    "terminos": [
+      "jefatura-del-estado"
+    ]
   },
   {
     "id": "dr-009",
@@ -174,7 +180,10 @@
       "soberania"
     ],
     "estado": "retirado",
-    "notas": "Discrimina: Separa la salida de la OTAN (Falange +2, DN +1) del atlantismo condicionado de VOX (−1: permanecer exigiendo contrapartidas) y de SALF (−1). Coincide con la izquierda antimilitarista (PCE/IU +2), lo que sitúa a la Falange en su cuadrante propio. | Esperado: Falange (FE-JONS / La Falange) +2, Democracia Nacional +1, España 2000 +1, VOX -1, SALF -1, nacional-catolicismo -1, PCE/IU +2."
+    "notas": "Discrimina: Separa la salida de la OTAN (Falange +2, DN +1) del atlantismo condicionado de VOX (−1: permanecer exigiendo contrapartidas) y de SALF (−1). Coincide con la izquierda antimilitarista (PCE/IU +2), lo que sitúa a la Falange en su cuadrante propio. | Esperado: Falange (FE-JONS / La Falange) +2, Democracia Nacional +1, España 2000 +1, VOX -1, SALF -1, nacional-catolicismo -1, PCE/IU +2.",
+    "terminos": [
+      "otan"
+    ]
   },
   {
     "id": "dr-010",

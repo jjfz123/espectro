@@ -546,7 +546,10 @@
       "concierto"
     ],
     "estado": "piloto",
-    "notas": "Discrimina: Separa PNV/Junts/ERC (+2, financiación singular) de PP/Vox/Cs (−2, caja común e igualdad); parte al PSOE entre el PSC (+1, acuerdo con ERC) y los barones federales (0/−1); Compromís recela del privilegio catalán. | Esperado: PNV +2, Junts +2, ERC +2, PSC +1, PSOE +0, Compromís -1, PP -2, Vox -2."
+    "notas": "Discrimina: Separa PNV/Junts/ERC (+2, financiación singular) de PP/Vox/Cs (−2, caja común e igualdad); parte al PSOE entre el PSC (+1, acuerdo con ERC) y los barones federales (0/−1); Compromís recela del privilegio catalán. | Esperado: PNV +2, Junts +2, ERC +2, PSC +1, PSOE +0, Compromís -1, PP -2, Vox -2.",
+    "terminos": [
+      "concierto-economico"
+    ]
   },
   {
     "id": "ter-004",
@@ -565,7 +568,10 @@
       "educacion"
     ],
     "estado": "piloto",
-    "notas": "Discrimina: Separa Cs/Vox (+2, bandera fundacional) y PP (+2) del PSOE (−1, retiró la vehicularidad en la LOMLOE) y de ERC/Junts/Bildu/BNG (−2, inmersión como política propia). | Esperado: Ciudadanos +2, Vox +2, PP +2, PSOE -1, PNV -2, ERC -2, Junts -2, BNG -2."
+    "notas": "Discrimina: Separa Cs/Vox (+2, bandera fundacional) y PP (+2) del PSOE (−1, retiró la vehicularidad en la LOMLOE) y de ERC/Junts/Bildu/BNG (−2, inmersión como política propia). | Esperado: Ciudadanos +2, Vox +2, PP +2, PSOE -1, PNV -2, ERC -2, Junts -2, BNG -2.",
+    "terminos": [
+      "inmersion-linguistica"
+    ]
   },
   {
     "id": "ue-002",
@@ -735,7 +741,10 @@
       "religion"
     ],
     "estado": "piloto",
-    "notas": "Discrimina: Carga el eje laicismo: IU/Podemos/ERC/Bildu (+2, denuncia de los Acuerdos con la Santa Sede) frente a PP/Vox/PNV (−2, oferta obligatoria de religión); el PSOE (+1) queda retratado entre su programa laicista y su práctica de gobierno. | Esperado: Sumar/IU +2, Podemos +2, ERC +2, EH Bildu +2, PSOE +1, PNV -2, PP -2, Vox -2."
+    "notas": "Discrimina: Carga el eje laicismo: IU/Podemos/ERC/Bildu (+2, denuncia de los Acuerdos con la Santa Sede) frente a PP/Vox/PNV (−2, oferta obligatoria de religión); el PSOE (+1) queda retratado entre su programa laicista y su práctica de gobierno. | Esperado: Sumar/IU +2, Podemos +2, ERC +2, EH Bildu +2, PSOE +1, PNV -2, PP -2, Vox -2.",
+    "terminos": [
+      "acuerdos-santa-sede-1979"
+    ]
   },
   {
     "id": "eco-014",

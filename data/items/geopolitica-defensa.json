@@ -4,10 +4,17 @@
     "texto": "España debería mantener una neutralidad militar permanente y no integrarse en ningún bloque armado.",
     "modulo": "geopolitica-defensa",
     "ejes": [
-      { "eje": "atlantismo", "carga": -0.75 }
+      {
+        "eje": "atlantismo",
+        "carga": -0.75
+      }
     ],
     "polaridad": "negativa",
-    "tags": ["neutralidad", "alianzas", "defensa"],
+    "tags": [
+      "neutralidad",
+      "alianzas",
+      "defensa"
+    ],
     "estado": "piloto",
     "notas": "Separa neutralidad militar de pertenencia a alianzas. No implica pacifismo absoluto ni baja cooperación diplomática, comercial o humanitaria."
   },
@@ -16,11 +23,20 @@
     "texto": "España debería participar en una misión militar autorizada por el Consejo de Seguridad de la ONU para impedir matanzas masivas de civiles.",
     "modulo": "nucleo",
     "ejes": [
-      { "eje": "uso-fuerza", "carga": 1 },
-      { "eje": "implicacion-internacional", "carga": 0.75 }
+      {
+        "eje": "uso-fuerza",
+        "carga": 1
+      },
+      {
+        "eje": "implicacion-internacional",
+        "carga": 0.75
+      }
     ],
     "polaridad": "positiva",
-    "tags": ["intervencion-humanitaria", "multilateralismo"],
+    "tags": [
+      "intervencion-humanitaria",
+      "multilateralismo"
+    ],
     "estado": "piloto",
     "notas": "Caso favorable difícil para el pacifismo; especificar el Consejo de Seguridad de la ONU evita mezclar legitimidad multilateral, OTAN, UE o invitación unilateral."
   },
@@ -29,10 +45,16 @@
     "texto": "España debería renunciar a participar en guerras en el extranjero aunque sus aliados solicitaran ayuda.",
     "modulo": "geopolitica-defensa",
     "ejes": [
-      { "eje": "uso-fuerza", "carga": -1 }
+      {
+        "eje": "uso-fuerza",
+        "carga": -1
+      }
     ],
     "polaridad": "negativa",
-    "tags": ["pacifismo", "no-intervencion"],
+    "tags": [
+      "pacifismo",
+      "no-intervencion"
+    ],
     "estado": "piloto",
     "notas": "Ancla no intervención militar con coste de alianza. Un pacifista puede defender cooperación internacional activa, por lo que no reduce implicación no militar."
   },
@@ -41,22 +63,42 @@
     "texto": "La Unión Europea debería disponer de una defensa común capaz de actuar sin depender de Estados Unidos.",
     "modulo": "geopolitica-defensa",
     "ejes": [
-      { "eje": "ue", "carga": -0.75 },
-      { "eje": "implicacion-internacional", "carga": 0.75 }
+      {
+        "eje": "ue",
+        "carga": -0.75
+      },
+      {
+        "eje": "implicacion-internacional",
+        "carga": 0.75
+      }
     ],
     "polaridad": "positiva",
-    "tags": ["defensa-europea", "autonomia-estrategica"],
+    "tags": [
+      "defensa-europea",
+      "autonomia-estrategica"
+    ],
     "estado": "piloto",
     "notas": "No carga atlantismo: puede defenderse como pilar de la OTAN o como autonomía frente a ella."
   },
   {
     "id": "geo-005",
-    "terminos": ["disuasion-nuclear"],
+    "terminos": [
+      "disuasion-nuclear"
+    ],
     "texto": "España debería seguir protegida por la disuasión nuclear de sus aliados mientras existan otros arsenales nucleares.",
     "modulo": "nucleo",
-    "ejes": [{ "eje": "armas-nucleares", "carga": 0.75 }],
+    "ejes": [
+      {
+        "eje": "armas-nucleares",
+        "carga": 0.75
+      }
+    ],
     "polaridad": "positiva",
-    "tags": ["armas-nucleares", "paraguas-nuclear", "disuasion"],
+    "tags": [
+      "armas-nucleares",
+      "paraguas-nuclear",
+      "disuasion"
+    ],
     "estado": "piloto",
     "notas": "Distingue aceptación del paraguas aliado de poseer un arsenal español."
   },
@@ -65,22 +107,39 @@
     "texto": "España debería firmar y ratificar el Tratado sobre la Prohibición de las Armas Nucleares aunque sus aliados nucleares se opusieran.",
     "modulo": "geopolitica-defensa",
     "ejes": [
-      { "eje": "armas-nucleares", "carga": -1 }
+      {
+        "eje": "armas-nucleares",
+        "carga": -1
+      }
     ],
     "polaridad": "negativa",
-    "tags": ["desarme-nuclear", "prohibicion", "tpan"],
+    "tags": [
+      "desarme-nuclear",
+      "prohibicion",
+      "tpan"
+    ],
     "estado": "piloto",
-    "notas": "Introduce coste diplomático para separar apoyo abstracto de una política efectiva de desarme; no permite inferir rechazo de la fuerza convencional."
+    "notas": "Introduce coste diplomático para separar apoyo abstracto de una política efectiva de desarme; no permite inferir rechazo de la fuerza convencional.",
+    "terminos": [
+      "disuasion-nuclear"
+    ]
   },
   {
     "id": "geo-007",
     "texto": "España debería desarrollar una capacidad nuclear militar propia para no depender de otros países.",
     "modulo": "geopolitica-defensa",
     "ejes": [
-      { "eje": "armas-nucleares", "carga": 1 }
+      {
+        "eje": "armas-nucleares",
+        "carga": 1
+      }
     ],
     "polaridad": "positiva",
-    "tags": ["armas-nucleares", "arsenal-propio", "soberania"],
+    "tags": [
+      "armas-nucleares",
+      "arsenal-propio",
+      "soberania"
+    ],
     "uso": "solo-mapa",
     "estado": "piloto",
     "notas": "Arquetipo solo-mapa sin ancla partidaria española suficiente: separa arsenal propio de paraguas aliado. Exigiría abandonar o vulnerar el TNP y no debe recomendar organizaciones reales por inferencia."
@@ -90,21 +149,40 @@
     "texto": "El uso de armas nucleares nunca estaría justificado, ni siquiera como respuesta a un ataque nuclear previo.",
     "modulo": "geopolitica-defensa",
     "ejes": [
-      { "eje": "armas-nucleares", "carga": -1 }
+      {
+        "eje": "armas-nucleares",
+        "carga": -1
+      }
     ],
     "polaridad": "negativa",
-    "tags": ["armas-nucleares", "no-uso-nuclear", "represalia-nuclear"],
+    "tags": [
+      "armas-nucleares",
+      "no-uso-nuclear",
+      "represalia-nuclear"
+    ],
     "uso": "solo-mapa",
     "estado": "piloto",
-    "notas": "Arquetipo solo-mapa: mide rechazo absoluto del empleo nuclear, incluida represalia, frente a disuasión. No equivale a mera doctrina de no primer uso ni permite inferir pacifismo convencional."
+    "notas": "Arquetipo solo-mapa: mide rechazo absoluto del empleo nuclear, incluida represalia, frente a disuasión. No equivale a mera doctrina de no primer uso ni permite inferir pacifismo convencional.",
+    "terminos": [
+      "disuasion-nuclear"
+    ]
   },
   {
     "id": "geo-009",
     "texto": "El envío de tropas españolas a una operación de combate en el extranjero debería requerir un referéndum vinculante, además de la autorización del Congreso.",
     "modulo": "geopolitica-defensa",
-    "ejes": [{ "eje": "democracia-directa", "carga": 0.75 }],
+    "ejes": [
+      {
+        "eje": "democracia-directa",
+        "carga": 0.75
+      }
+    ],
     "polaridad": "positiva",
-    "tags": ["referendum", "guerra", "tropas"],
+    "tags": [
+      "referendum",
+      "guerra",
+      "tropas"
+    ],
     "estado": "piloto",
     "notas": "Aplica democracia directa a una operación de combate y reconoce el control parlamentario vigente; evita incluir evacuación o mantenimiento de paz y separa procedimiento de pacifismo."
   },
@@ -114,7 +192,11 @@
     "modulo": "geopolitica-defensa",
     "ejes": [],
     "polaridad": "positiva",
-    "tags": ["iberismo", "portugal", "federacion"],
+    "tags": [
+      "iberismo",
+      "portugal",
+      "federacion"
+    ],
     "estado": "piloto",
     "notas": "Solo-matching iberista: la doble aprobación evita una lectura anexionista. No prueba una preferencia general por democracia directa ni encaja linealmente en nacionalismo/internacionalismo."
   },
@@ -124,7 +206,10 @@
     "modulo": "geopolitica-defensa",
     "ejes": [],
     "polaridad": "negativa",
-    "tags": ["reclamaciones-territoriales", "autodeterminacion"],
+    "tags": [
+      "reclamaciones-territoriales",
+      "autodeterminacion"
+    ],
     "estado": "piloto",
     "notas": "Solo-matching: enfrenta título histórico y consentimiento actual. No mide descentralización dentro de España ni solidaridad internacional de forma monotónica."
   },
@@ -134,7 +219,11 @@
     "modulo": "geopolitica-defensa",
     "ejes": [],
     "polaridad": "positiva",
-    "tags": ["gibraltar", "soberania", "reclamaciones-territoriales"],
+    "tags": [
+      "gibraltar",
+      "soberania",
+      "reclamaciones-territoriales"
+    ],
     "estado": "piloto",
     "notas": "Solo-matching de intensidad soberanista: la reclamación une a PSOE, PP y Vox con medios distintos. Gibraltar no mide el eje territorial doméstico ni internacionalismo lineal."
   },
@@ -144,7 +233,10 @@
     "modulo": "geopolitica-defensa",
     "ejes": [],
     "polaridad": "negativa",
-    "tags": ["exportacion-armas", "derechos-humanos"],
+    "tags": [
+      "exportacion-armas",
+      "derechos-humanos"
+    ],
     "estado": "piloto",
     "notas": "Solo-matching: introduce un coste industrial y una condición de derechos humanos, pero puede apoyarse desde internacionalismo ético o aislacionismo y no mide uso propio de la fuerza."
   },
@@ -154,7 +246,10 @@
     "modulo": "geopolitica-defensa",
     "ejes": [],
     "polaridad": "positiva",
-    "tags": ["servicio-militar", "defensa"],
+    "tags": [
+      "servicio-militar",
+      "defensa"
+    ],
     "estado": "piloto",
     "notas": "Solo-matching sobre conscripción: Falange ofrece un ancla real, mientras reserva voluntaria no prueba apoyo. No equivale a intervencionismo exterior ni a conservadurismo social general."
   },
@@ -163,11 +258,20 @@
     "texto": "Las decisiones de política exterior de la Unión Europea deberían poder aprobarse por mayoría cualificada aunque España votara en contra.",
     "modulo": "geopolitica-defensa",
     "ejes": [
-      { "eje": "implicacion-internacional", "carga": 0.75 },
-      { "eje": "ue", "carga": -0.5 }
+      {
+        "eje": "implicacion-internacional",
+        "carga": 0.75
+      },
+      {
+        "eje": "ue",
+        "carga": -0.5
+      }
     ],
     "polaridad": "positiva",
-    "tags": ["multilateralismo", "soberania"],
+    "tags": [
+      "multilateralismo",
+      "soberania"
+    ],
     "estado": "piloto",
     "notas": "Caso institucional con coste de soberanía que distingue integración multilateral de unanimidad estatal; evita el acuerdo abstracto con «compromisos internacionales»."
   },
@@ -177,9 +281,15 @@
     "modulo": "geopolitica-defensa",
     "ejes": [],
     "polaridad": "positiva",
-    "tags": ["sahara", "politica-exterior", "autodeterminacion"],
+    "tags": [
+      "sahara",
+      "politica-exterior",
+      "autodeterminacion"
+    ],
     "estado": "piloto",
     "notas": "Solo-matching y sujeto a vigencia: tras la Resolución 2797 del Consejo de Seguridad de 2025, la autonomía marroquí es base de negociación pero continúa el principio de libre determinación. Distingue el giro del PSOE de fuerzas que mantienen el referéndum, sin convertir el caso en un eje genérico de internacionalismo.",
-    "terminos": ["autodeterminacion"]
+    "terminos": [
+      "autodeterminacion"
+    ]
   }
 ]

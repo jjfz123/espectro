@@ -293,7 +293,10 @@
       "revocacion"
     ],
     "estado": "piloto",
-    "notas": "Rama del rechazo parlamentario: alternativa consejista y revocable, separada de partido único o representación orgánica."
+    "notas": "Rama del rechazo parlamentario: alternativa consejista y revocable, separada de partido único o representación orgánica.",
+    "terminos": [
+      "consejismo"
+    ]
   },
   {
     "id": "dem-018",
@@ -391,7 +394,10 @@
       "elecciones"
     ],
     "estado": "piloto",
-    "notas": "Rama pluralista de ruptura constitucional; separa querer otro marco de querer concentración de poder."
+    "notas": "Rama pluralista de ruptura constitucional; separa querer otro marco de querer concentración de poder.",
+    "terminos": [
+      "proceso-constituyente"
+    ]
   },
   {
     "id": "dem-012",
@@ -432,7 +438,10 @@
       "representacion"
     ],
     "estado": "piloto",
-    "notas": "Mide mandato imperativo frente a representación libre; requiere explicar el término en glosario antes del lanzamiento."
+    "notas": "Mide mandato imperativo frente a representación libre; requiere explicar el término en glosario antes del lanzamiento.",
+    "terminos": [
+      "mandato-imperativo"
+    ]
   },
   {
     "id": "dem-014",
@@ -495,7 +504,10 @@
       "asambleas-ciudadanas"
     ],
     "estado": "piloto",
-    "notas": "Solo-matching: el sorteo selecciona una muestra deliberativa, no una decisión directa de toda la ciudadanía; debe representarse como faceta propia en el desglose institucional."
+    "notas": "Solo-matching: el sorteo selecciona una muestra deliberativa, no una decisión directa de toda la ciudadanía; debe representarse como faceta propia en el desglose institucional.",
+    "terminos": [
+      "sorteo-democratico"
+    ]
   },
   {
     "id": "dem-021",

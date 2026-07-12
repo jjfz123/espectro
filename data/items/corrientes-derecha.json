@@ -118,7 +118,10 @@
       "aborto"
     ],
     "estado": "piloto",
-    "notas": "Ancla la posición provida más restrictiva y separa tradicionalismo/democracia cristiana de conservadurismo pragmático y liberalismo en costumbres."
+    "notas": "Ancla la posición provida más restrictiva y separa tradicionalismo/democracia cristiana de conservadurismo pragmático y liberalismo en costumbres.",
+    "terminos": [
+      "ley-plazos"
+    ]
   },
   {
     "id": "der-008",
@@ -137,7 +140,10 @@
       "moral"
     ],
     "estado": "piloto",
-    "notas": "Discrimina: Democristianos y tradicionalistas (derogar, +2) frente a liberales-conservadores y tecnócratas (mantener la ley vigente, −1/−2); el PP queda en +1 (la recurrió pero no promete derogarla). Complementa al ítem existente de aborto con la otra frontera bioética. | Esperado: democracia cristiana +2, tradicionalismo/carlismo +2, Vox +2, PP +1, ala tecnócrata -1, Ciudadanos -2, PNV -1, PSOE -2. | Ciudadanos votó a favor de la ley de eutanasia (2021); PP y Vox la recurrieron al Tribunal Constitucional pero el PP no ha comprometido su derogación."
+    "notas": "Discrimina: Democristianos y tradicionalistas (derogar, +2) frente a liberales-conservadores y tecnócratas (mantener la ley vigente, −1/−2); el PP queda en +1 (la recurrió pero no promete derogarla). Complementa al ítem existente de aborto con la otra frontera bioética. | Esperado: democracia cristiana +2, tradicionalismo/carlismo +2, Vox +2, PP +1, ala tecnócrata -1, Ciudadanos -2, PNV -1, PSOE -2. | Ciudadanos votó a favor de la ley de eutanasia (2021); PP y Vox la recurrieron al Tribunal Constitucional pero el PP no ha comprometido su derogación.",
+    "terminos": [
+      "ley-eutanasia"
+    ]
   },
   {
     "id": "der-009",

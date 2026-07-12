@@ -16,7 +16,10 @@
       "estrategia"
     ],
     "estado": "piloto",
-    "notas": "Discrimina: Separa unilateralistas (CUP, Junts, Aliança Catalana) de pactistas: ERC lo matiza tras el procés, PNV y BNG rechazan la vía unilateral. | Esperado: CUP +2, Junts +2, Aliança Catalana +2, ERC +1, EH Bildu +1, PNV -1, BNG +0, UPN -2. | Formulado como principio condicional para que no caduque; la no linealidad fina se recoge en posicionesEsperadas."
+    "notas": "Discrimina: Separa unilateralistas (CUP, Junts, Aliança Catalana) de pactistas: ERC lo matiza tras el procés, PNV y BNG rechazan la vía unilateral. | Esperado: CUP +2, Junts +2, Aliança Catalana +2, ERC +1, EH Bildu +1, PNV -1, BNG +0, UPN -2. | Formulado como principio condicional para que no caduque; la no linealidad fina se recoge en posicionesEsperadas.",
+    "terminos": [
+      "autodeterminacion"
+    ]
   },
   {
     "id": "nac-002",
@@ -249,7 +252,9 @@
   },
   {
     "id": "nac-015",
-    "terminos": ["region-leonesa"],
+    "terminos": [
+      "region-leonesa"
+    ],
     "texto": "León, Zamora y Salamanca deberían separarse de Castilla y León para constituir una comunidad autónoma propia.",
     "modulo": "nacionalismos-regionalismos",
     "ejes": [

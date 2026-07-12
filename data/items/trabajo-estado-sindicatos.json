@@ -33,7 +33,10 @@
       "empresa"
     ],
     "estado": "piloto",
-    "notas": "Distingue cogestión laboral de nacionalización y de dirección exclusiva de propietarios."
+    "notas": "Distingue cogestión laboral de nacionalización y de dirección exclusiva de propietarios.",
+    "terminos": [
+      "cogestion"
+    ]
   },
   {
     "id": "lab-003",
@@ -182,7 +185,11 @@
       "sindicalismo-revolucionario"
     ],
     "estado": "piloto",
-    "notas": "Mide control productivo por consejos laborales, separado de sustituir parlamentos o partidos. Puede unir consejismo marxista y sindicalismo revolucionario por fundamentos distintos."
+    "notas": "Mide control productivo por consejos laborales, separado de sustituir parlamentos o partidos. Puede unir consejismo marxista y sindicalismo revolucionario por fundamentos distintos.",
+    "terminos": [
+      "consejismo",
+      "autogestion"
+    ]
   },
   {
     "id": "lab-009",
@@ -444,7 +451,10 @@
       "propiedad"
     ],
     "estado": "piloto",
-    "notas": "Separa socialización autogestionaria de nacionalización estatal y de propiedad capitalista."
+    "notas": "Separa socialización autogestionaria de nacionalización estatal y de propiedad capitalista.",
+    "terminos": [
+      "autogestion"
+    ]
   },
   {
     "id": "lab-018",
@@ -693,5 +703,47 @@
     "terminos": [
       "impuesto-valor-suelo"
     ]
+  },
+  {
+    "id": "lab-032",
+    "texto": "Mi rechazo se debe a que las grandes empresas no deberían quitarse a sus dueños, sea cual sea quien las gestione después.",
+    "modulo": "trabajo-estado-sindicatos",
+    "ejes": [],
+    "condicion": {
+      "itemId": "lab-017",
+      "valores": [
+        -2,
+        -1
+      ]
+    },
+    "polaridad": "positiva",
+    "tags": [
+      "cooperativas",
+      "propiedad",
+      "seguimiento"
+    ],
+    "estado": "piloto",
+    "notas": "Seguimiento del desacuerdo con lab-017 (petición expresa del propietario, 2026-07-12; dosier ADVERSARIAL-LEGIBILIDAD §5.1): aísla el motivo PROPIETARISTA (b) — rechazo a la transferencia, no a la forma cooperativa. Piloto solo-matching; cargas propuestas para calibración tras el piloto: propiedad-mercado +, economico + (el dosier documenta que sin este par el capitalista que rechaza lab-017 era empujado erróneamente hacia el polo pro-Estado). Esperado: liberales/conservadores +2; socialistas de ambas familias −2."
+  },
+  {
+    "id": "lab-033",
+    "texto": "Mi rechazo se debe a que las grandes empresas debería dirigirlas el Estado, no cooperativas de trabajadores.",
+    "modulo": "trabajo-estado-sindicatos",
+    "ejes": [],
+    "condicion": {
+      "itemId": "lab-017",
+      "valores": [
+        -2,
+        -1
+      ]
+    },
+    "polaridad": "positiva",
+    "tags": [
+      "cooperativas",
+      "estatismo",
+      "seguimiento"
+    ],
+    "estado": "piloto",
+    "notas": "Seguimiento del desacuerdo con lab-017 (petición expresa del propietario, 2026-07-12; dosier §5.1): aísla el motivo ESTATISTA (c) — prefiere la nacionalización ministerial a la cooperativa. Piloto solo-matching; cargas propuestas para calibración tras el piloto: estatismo +, organizacion + (sin este par el socialista estatista era empujado erróneamente hacia el polo de mercado). Esperado: marxismo-leninismo/estatistas +2; libertarios y autogestionarios −2."
   }
 ]

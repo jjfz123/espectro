@@ -52,12 +52,17 @@
       "perfiles lingüísticos"
     ],
     "estado": "piloto",
-    "notas": "Discrimina: Bildu maximalista frente a PNV gradualista (perfiles progresivos); ambos frente a PSE (mérito, no requisito) y al rechazo de PP, UPN y Vox. | Esperado: EH Bildu +2, PNV +1, Geroa Bai +1, PSE-EE -1, PP vasco -2, UPN -2, Sumar/Podemos Euskadi +0."
+    "notas": "Discrimina: Bildu maximalista frente a PNV gradualista (perfiles progresivos); ambos frente a PSE (mérito, no requisito) y al rechazo de PP, UPN y Vox. | Esperado: EH Bildu +2, PNV +1, Geroa Bai +1, PSE-EE -1, PP vasco -2, UPN -2, Sumar/Podemos Euskadi +0.",
+    "terminos": [
+      "inmersion-linguistica"
+    ]
   },
   {
     "id": "eus-004",
     "texto": "La política penitenciaria con los presos de ETA debe regirse por las reglas comunes de reinserción aplicables a cualquier otro preso.",
-    "terminos": ["reinsercion-social"],
+    "terminos": [
+      "reinsercion-social"
+    ],
     "modulo": "territorial-euskadi-navarra",
     "ejes": [],
     "polaridad": "positiva",

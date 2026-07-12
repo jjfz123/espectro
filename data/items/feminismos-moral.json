@@ -177,7 +177,10 @@
       "iglesia-estado"
     ],
     "estado": "piloto",
-    "notas": "Discrimina: El laicismo duro: distingue a la izquierda republicana (IU/ERC +2) del PSOE (+1, lo aprueba en congresos pero no lo hace en el Gobierno) y a los democristianos (PNV, PP) del resto de la derecha laica. | Esperado: IU/PCE +2, Podemos +2, ERC +2, PSOE +1, Ciudadanos +0, PNV -2, PP -2, VOX -2. | Complementa a fem-09: quien apoya sacar la religión del aula pero no denunciar el Concordato es laicista moderado (PSOE) y no republicano-laicista (IU)."
+    "notas": "Discrimina: El laicismo duro: distingue a la izquierda republicana (IU/ERC +2) del PSOE (+1, lo aprueba en congresos pero no lo hace en el Gobierno) y a los democristianos (PNV, PP) del resto de la derecha laica. | Esperado: IU/PCE +2, Podemos +2, ERC +2, PSOE +1, Ciudadanos +0, PNV -2, PP -2, VOX -2. | Complementa a fem-09: quien apoya sacar la religión del aula pero no denunciar el Concordato es laicista moderado (PSOE) y no republicano-laicista (IU).",
+    "terminos": [
+      "acuerdos-santa-sede-1979"
+    ]
   },
   {
     "id": "fem-010",
@@ -240,7 +243,10 @@
       "bioetica"
     ],
     "estado": "piloto",
-    "notas": "Discrimina: Gradúa el bloque pro-plazos por un flanco distinto a fem-07: toda la izquierda (+2) frente a Cs (que aceptaba los plazos para adultas pero apoyó el consentimiento paterno de la reforma de 2015, −1) y al PP (−2, autor de esa exigencia). Separa así 'pro-plazos con tutela familiar' de 'pro-plazos pleno'. | Esperado: PSOE +2, Podemos +2, Sumar +2, ERC +2, Ciudadanos -1, PP -2, VOX -2. | La reforma de 2022 restauró lo que la ley de 2010 preveía y el PP suprimió en 2015. Formulado sin citar ninguna ley para que dure. | [Añadido por el revisor para cubrir un hueco]"
+    "notas": "Discrimina: Gradúa el bloque pro-plazos por un flanco distinto a fem-07: toda la izquierda (+2) frente a Cs (que aceptaba los plazos para adultas pero apoyó el consentimiento paterno de la reforma de 2015, −1) y al PP (−2, autor de esa exigencia). Separa así 'pro-plazos con tutela familiar' de 'pro-plazos pleno'. | Esperado: PSOE +2, Podemos +2, Sumar +2, ERC +2, Ciudadanos -1, PP -2, VOX -2. | La reforma de 2022 restauró lo que la ley de 2010 preveía y el PP suprimió en 2015. Formulado sin citar ninguna ley para que dure. | [Añadido por el revisor para cubrir un hueco]",
+    "terminos": [
+      "ley-plazos"
+    ]
   },
   {
     "id": "fem-013",
@@ -308,7 +314,10 @@
       "vida-publica"
     ],
     "estado": "piloto",
-    "notas": "Ancla el extremo de ateísmo de Estado y lo separa del laicismo que protege la libertad religiosa privada y asociativa."
+    "notas": "Ancla el extremo de ateísmo de Estado y lo separa del laicismo que protege la libertad religiosa privada y asociativa.",
+    "terminos": [
+      "aconfesionalidad"
+    ]
   },
   {
     "id": "rel-002",
@@ -364,6 +373,9 @@
       "leyes"
     ],
     "estado": "piloto",
-    "notas": "Ancla teocrática explícita, distinta de una confesionalidad simbólica sin poder jurídico del clero."
+    "notas": "Ancla teocrática explícita, distinta de una confesionalidad simbólica sin poder jurídico del clero.",
+    "terminos": [
+      "aconfesionalidad"
+    ]
   }
 ]
