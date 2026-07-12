@@ -118,10 +118,13 @@ function sinDuplicados(valores: readonly (readonly unknown[])[]): boolean {
 }
 
 /**
- * Desempate canónico del ranking visible. La afinidad manda siempre; a igual
+ * Desempate canónico DEL CABLE. La afinidad manda siempre; a igual
  * porcentaje se prefiere una estimación sin aviso de baja cobertura y, solo
  * después, mayor base comparada. Lo usan tanto el snapshot como el codec para
- * que compartir un resultado nunca cambie sus puestos empatados.
+ * que compartir un resultado nunca cambie sus puestos empatados. Este orden
+ * es un formato estable: NO cambiarlo (los enlaces publicados y los clientes
+ * en caché lo validan tal cual). El orden que ve la persona es otro
+ * (`compararPartidosVisibles`).
  */
 export function compararPartidosCompartidos(
   a: PartidoCompartido,
@@ -133,6 +136,36 @@ export function compararPartidosCompartidos(
     b[3] - a[3] ||
     b[2] - a[2] ||
     a[0].localeCompare(b[0], 'es')
+  );
+}
+
+/**
+ * Orden de PRESENTACIÓN del ranking compartido: un resultado con cobertura
+ * comparable siempre precede a uno de baja cobertura, aunque este último
+ * puntúe más alto (un 100 % sobre 3 ítems no es «mayor afinidad» que un 84 %
+ * sobre 40). Mismo criterio que el ranking principal y su tramo orientativo.
+ * Se aplica al seleccionar el top del snapshot y al pintar tarjeta y vista
+ * compartida; el orden de cable (`compararPartidosCompartidos`) no cambia.
+ */
+export function compararPartidosVisibles(
+  a: PartidoCompartido,
+  b: PartidoCompartido,
+): number {
+  return (
+    a[4] - b[4] ||
+    b[1] - a[1] ||
+    b[3] - a[3] ||
+    b[2] - a[2] ||
+    a[0].localeCompare(b[0], 'es')
+  );
+}
+
+/** Copia ordenada para pintar: cubiertos primero, sin tocar el snapshot. */
+export function ordenarPartidosParaVista(
+  partidos: readonly PartidoCompartido[],
+): PartidoCompartido[] {
+  return partidos.map((partido) => [...partido] as PartidoCompartido).sort(
+    compararPartidosVisibles,
   );
 }
 

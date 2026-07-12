@@ -6,6 +6,7 @@ import {
 } from '../datosCompartidos';
 import {
   leerResultadoCompartido,
+  ordenarPartidosParaVista,
   type EleccionResultadoCompartido,
   type FacetaCompartida,
   type NivelResultadoCompartido,
@@ -101,14 +102,15 @@ function AfinidadesCompartidas({ resultado }: { resultado: ResultadoCompartidoV1
     <section className="seccion compartido-seccion" aria-labelledby="compartido-afinidades-titulo">
       <h2 id="compartido-afinidades-titulo">Mayores afinidades del snapshot</h2>
       <p className="nota-al-margen">
-        El orden corresponde al porcentaje visible cuando se creó el enlace. La cobertura figura
-        expresamente y el resultado no es una recomendación de voto.
+        Los resultados con cobertura comparable van primero; un porcentaje alto sobre muy pocos
+        ítems es solo orientativo y no determina el puesto. La cobertura figura expresamente y
+        el resultado no es una recomendación de voto.
       </p>
       {resultado.p.length === 0 ? (
         <p className="resultado-no-calculable">No se compartieron afinidades calculables.</p>
       ) : (
         <ol className="compartido-afinidades">
-          {resultado.p.map((partido) => {
+          {ordenarPartidosParaVista(resultado.p).map((partido) => {
             const perfil = PARTIDO_POR_ID.get(partido[0]);
             return (
               <li key={partido[0]}>

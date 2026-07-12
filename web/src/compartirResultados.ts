@@ -1,6 +1,7 @@
 import type { ResultadoAfinidad, ResultadoFaceta, TipoEleccion } from '@engine';
 import {
   compararPartidosCompartidos,
+  compararPartidosVisibles,
   ESQUEMA_RESULTADO_COMPARTIDO,
   type EleccionResultadoCompartido,
   type NivelResultadoCompartido,
@@ -75,8 +76,13 @@ export function crearSnapshotResultadoCompartido(
       resultado.bajaCobertura ? 1 : 0,
       resultado.confianza === 'verificada' ? 'v' : 'e',
     ] as ResultadoCompartidoV1['p'][number])
-    .sort(compararPartidosCompartidos)
-    .slice(0, 5);
+    // Selección de plazas: cobertura comparable primero (un 100 % sobre 3
+    // ítems no desplaza del top a un 84 % sobre 40). Después, el orden de
+    // CABLE canónico de siempre — así los enlaces nuevos siguen siendo
+    // válidos para los clientes ya desplegados y los antiguos no cambian.
+    .sort(compararPartidosVisibles)
+    .slice(0, 5)
+    .sort(compararPartidosCompartidos);
 
   return {
     s: ESQUEMA_RESULTADO_COMPARTIDO,
