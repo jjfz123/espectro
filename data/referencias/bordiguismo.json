@@ -249,6 +249,48 @@
         "cita": "Será una disposición social, no individual, y ni siquiera corporativa. No será más una forma de propiedad, sino de organización"
       },
       "grupoEvidencia": "pasaje-8369d0324d4cc6babf5d"
+    },
+    "izq-016": {
+      "valor": 2,
+      "justificacion": "El programa comunista exige abolir no solo las empresas sino la compraventa, el dinero, el salario y el mercado: a fortiori respalda expropiar la banca y los grandes grupos sin indemnizar a sus propietarios; la doctrina va más allá de lo que formula el ítem.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Amadeo Bordiga, The Fundamentals of Revolutionary Communism (1957, marxists.org) (en inglés)",
+        "url": "https://www.marxists.org/archive/bordiga/works/1957/fundamentals.htm",
+        "fecha": "1957",
+        "consultado": "2026-07-11",
+        "cita": "the abolition not only of enterprises but also of buying and selling, of money, of wages, of the market (en inglés)"
+      },
+      "grupoEvidencia": "pasaje-aa68ecbe3a4361ee4dc8"
+    },
+    "izq-005": {
+      "valor": 2,
+      "justificacion": "La coordinación y disciplina de la actividad de los productores y de la distribución de los productos por órganos centrales que representan a la colectividad sustituye a la coordinación mercantil: encaja con que la planificación desplace al mercado en los sectores estratégicos.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Amadeo Bordiga, The original content of the communist program (1958, marxists.org) (en inglés)",
+        "url": "https://www.marxists.org/archive/bordiga/works/1958/marxism-property.htm",
+        "fecha": "1958",
+        "consultado": "2026-07-11",
+        "cita": "the co-ordination and the disciplining of the activity of the producers and the distribution of the products by central organisms representing the collectivity (en inglés)"
+      },
+      "grupoEvidencia": "pasaje-49fe66bd698270dfb3ba"
+    },
+    "fem-007": {
+      "valor": -2,
+      "justificacion": "El comunismo combate abiertamente la institución familiar, que el propio capitalismo ha deformado y disuelto, y propone suplantarla; el veto familiar previo sobre la educación afectivo-sexual escolar refuerza la primacía educativa de esa institución que la doctrina quiere superar: extensión de principio declarada.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Amadeo Bordiga, The Fundamentals for a Marxist Orientation (1946, marxists.org) (en inglés)",
+        "url": "https://www.marxists.org/archive/bordiga/works/1946/orientation.htm",
+        "fecha": "1946",
+        "consultado": "2026-07-11",
+        "cita": "the capitalist system has already deformed and dissolved the sanctity of the family institution, [communism] fights it openly and proposes to supplant it (en inglés)"
+      },
+      "grupoEvidencia": "pasaje-24821890514724798b9b"
     }
   }
 }
