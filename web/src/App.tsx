@@ -4,11 +4,13 @@ import { LimiteError } from './componentes/LimiteError';
 import { Pie } from './componentes/Pie';
 import { borrarAlmacen, cargarEstado, guardarEstado, reductor } from './estado';
 import { actualizarPWA, EVENTO_ACTUALIZACION_PWA } from './pwa';
+import { aplicarTema, cargarTema, guardarTema, siguienteTema, type Tema } from './tema';
 import { Cuestionario } from './vistas/Cuestionario';
 import { FinRapido } from './vistas/FinRapido';
 import { HitoIntermedio } from './vistas/HitoIntermedio';
 import { Metodologia } from './vistas/Metodologia';
 import { Modulos } from './vistas/Modulos';
+import { OfertaModulos } from './vistas/OfertaModulos';
 import { Portada } from './vistas/Portada';
 import { Revision } from './vistas/Revision';
 
@@ -77,6 +79,7 @@ function VistaRecuperacion({
 function AplicacionLocal({ omitirGuardadoInicial }: { omitirGuardadoInicial: boolean }) {
   const [estado, despachar] = useReducer(reductor, undefined, cargarEstado);
   const [verMetodologia, setVerMetodologia] = useState(false);
+  const [tema, setTema] = useState<Tema>(cargarTema);
   const [almacenDisponible, setAlmacenDisponible] = useState(true);
   const [actualizacionDisponible, setActualizacionDisponible] = useState(false);
   const [actualizando, setActualizando] = useState(false);
@@ -120,6 +123,13 @@ function AplicacionLocal({ omitirGuardadoInicial }: { omitirGuardadoInicial: boo
 
   const abrirMetodologia = () => setVerMetodologia(true);
 
+  const cambiarTema = () => {
+    const siguiente = siguienteTema(tema);
+    setTema(siguiente);
+    aplicarTema(siguiente);
+    guardarTema(siguiente);
+  };
+
   /** Ninguna actualización o recuperación recarga si la sesión solo vive en memoria. */
   const guardarAntesDeRecargar = (): boolean => {
     const guardado = guardarEstado(estado);
@@ -136,6 +146,8 @@ function AplicacionLocal({ omitirGuardadoInicial }: { omitirGuardadoInicial: boo
       borrarAlmacen();
       omitirSiguienteGuardado.current = true;
       despachar({ tipo: 'borrar-todo' });
+      setTema('sistema');
+      aplicarTema('sistema');
       setVerMetodologia(false);
     }
   };
@@ -170,6 +182,9 @@ function AplicacionLocal({ omitirGuardadoInicial }: { omitirGuardadoInicial: boo
           />
         );
         break;
+      case 'oferta-modulos':
+        vista = <OfertaModulos estado={estado} despachar={despachar} />;
+        break;
       case 'revision':
         vista = <Revision estado={estado} despachar={despachar} />;
         break;
@@ -194,6 +209,8 @@ function AplicacionLocal({ omitirGuardadoInicial }: { omitirGuardadoInicial: boo
           despachar({ tipo: 'ir-a-portada' });
         }}
         alAbrirMetodologia={abrirMetodologia}
+        tema={tema}
+        alCambiarTema={cambiarTema}
       />
       <main ref={mainRef} tabIndex={-1}>
         {actualizacionDisponible ? (
@@ -327,6 +344,12 @@ export function App() {
   const [hashCompartido, setHashCompartido] = useState<string | null>(
     hashDeResultadoCompartido,
   );
+
+  // El tema elegido se aplica también fuera de la sesión local (p. ej. al
+  // abrir un resultado compartido) antes de que exista cualquier cabecera.
+  useEffect(() => {
+    aplicarTema(cargarTema());
+  }, []);
   const [omitirGuardadoInicial, setOmitirGuardadoInicial] = useState(false);
   const estabaCompartiendo = useRef(hashCompartido !== null);
 

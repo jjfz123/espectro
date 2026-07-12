@@ -14,10 +14,27 @@
   --filete-fuerte: #b1a999;
   --acento: #9b1c31;
   --sobre-acento: #ffffff;
+  --mapa-io: #a34d3f;
+  --mapa-do: #4a648c;
+  --mapa-il: #5a7a4f;
+  --mapa-dl: #8a6f38;
+  --zona-op: 0.025;
+  --zona-op-1: 0.045;
+  --zona-op-2: 0.065;
+  --zona-op-3: 0.085;
+  --zona-op-activa: 0.18;
+  --cubo-lienzo-fondo: radial-gradient(120% 95% at 50% 30%, var(--papel) 35%, var(--superficie) 100%);
   --serif: 'Iowan Old Style', Georgia, Charter, 'Times New Roman', serif;
   --sans: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
 }
 
+/*
+ * Tema. Tres fuentes, por prioridad: data-tema explícito en <html> («claro» u
+ * «oscuro», elegido con el conmutador de la cabecera y persistido) y, en su
+ * ausencia, la preferencia del sistema. Los TRES bloques siguientes deben
+ * mantener el mismo conjunto de variables (paleta oscura ×2 + reafirmación
+ * clara); si añades una variable temada, añádela en los tres.
+ */
 @media (prefers-color-scheme: dark) {
   :root {
     --papel: #17161a;
@@ -28,7 +45,59 @@
     --filete-fuerte: #5c5763;
     --acento: #d9677a;
     --sobre-acento: #1a0d12;
+    --mapa-io: #d98977;
+    --mapa-do: #8fa7d1;
+    --mapa-il: #97b98a;
+    --mapa-dl: #d3b06b;
+    --zona-op: 0.04;
+    --zona-op-1: 0.065;
+    --zona-op-2: 0.09;
+    --zona-op-3: 0.115;
+  --zona-op-activa: 0.2;
+    --cubo-lienzo-fondo: radial-gradient(120% 95% at 50% 30%, var(--superficie) 0%, var(--papel) 78%);
   }
+}
+
+:root[data-tema='oscuro'] {
+  --papel: #17161a;
+  --superficie: #211f25;
+  --tinta: #e9e6df;
+  --tinta-suave: #a49e93;
+  --filete: #322f37;
+  --filete-fuerte: #5c5763;
+  --acento: #d9677a;
+  --sobre-acento: #1a0d12;
+  --mapa-io: #d98977;
+  --mapa-do: #8fa7d1;
+  --mapa-il: #97b98a;
+  --mapa-dl: #d3b06b;
+  --zona-op: 0.04;
+  --zona-op-1: 0.065;
+  --zona-op-2: 0.09;
+  --zona-op-3: 0.115;
+  --zona-op-activa: 0.2;
+  --cubo-lienzo-fondo: radial-gradient(120% 95% at 50% 30%, var(--superficie) 0%, var(--papel) 78%);
+}
+
+:root[data-tema='claro'] {
+  --papel: #faf9f7;
+  --superficie: #f1eee8;
+  --tinta: #211e1b;
+  --tinta-suave: #6b6459;
+  --filete: #ddd8cd;
+  --filete-fuerte: #b1a999;
+  --acento: #9b1c31;
+  --sobre-acento: #ffffff;
+  --mapa-io: #a34d3f;
+  --mapa-do: #4a648c;
+  --mapa-il: #5a7a4f;
+  --mapa-dl: #8a6f38;
+  --zona-op: 0.025;
+  --zona-op-1: 0.045;
+  --zona-op-2: 0.065;
+  --zona-op-3: 0.085;
+  --zona-op-activa: 0.18;
+  --cubo-lienzo-fondo: radial-gradient(120% 95% at 50% 30%, var(--papel) 35%, var(--superficie) 100%);
 }
 
 * {
@@ -1601,6 +1670,32 @@ h3 {
   white-space: normal;
 }
 
+/*
+ * Tramo de cobertura baja: el porcentaje existe por transparencia, pero NO
+ * compite tipográficamente con el tramo principal — apagado, más pequeño y
+ * con su barra atenuada, para que un 90 % sobre 10 ítems nunca se lea por
+ * encima de un 83 % sobre 21.
+ */
+.ranking-pct--orientativo {
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: var(--tinta-suave);
+}
+
+.barra--orientativa {
+  opacity: 0.45;
+}
+
+.ranking-separador__nota {
+  display: block;
+  margin-top: 0.25rem;
+  font-size: 0.72rem;
+  font-weight: 400;
+  letter-spacing: 0.01em;
+  text-transform: none;
+  color: var(--tinta-suave);
+}
+
 .insignia {
   display: inline-block;
   border: 1px solid var(--filete-fuerte);
@@ -2595,37 +2690,19 @@ h3 {
  * Puntos, rótulos y UI siguen en tinta + carmín.
  */
 .mapa-gradiente__io {
-  stop-color: #a34d3f;
+  stop-color: var(--mapa-io);
 }
 
 .mapa-gradiente__do {
-  stop-color: #4a648c;
+  stop-color: var(--mapa-do);
 }
 
 .mapa-gradiente__il {
-  stop-color: #5a7a4f;
+  stop-color: var(--mapa-il);
 }
 
 .mapa-gradiente__dl {
-  stop-color: #8a6f38;
-}
-
-@media (prefers-color-scheme: dark) {
-  .mapa-gradiente__io {
-    stop-color: #d98977;
-  }
-
-  .mapa-gradiente__do {
-    stop-color: #8fa7d1;
-  }
-
-  .mapa-gradiente__il {
-    stop-color: #97b98a;
-  }
-
-  .mapa-gradiente__dl {
-    stop-color: #d3b06b;
-  }
+  stop-color: var(--mapa-dl);
 }
 
 /*
@@ -2637,19 +2714,19 @@ h3 {
  */
 .mapa-zona {
   fill: var(--tinta);
-  fill-opacity: 0.025;
+  fill-opacity: var(--zona-op);
 }
 
 .mapa-zona[data-tono='1'] {
-  fill-opacity: 0.045;
+  fill-opacity: var(--zona-op-1);
 }
 
 .mapa-zona[data-tono='2'] {
-  fill-opacity: 0.065;
+  fill-opacity: var(--zona-op-2);
 }
 
 .mapa-zona[data-tono='3'] {
-  fill-opacity: 0.085;
+  fill-opacity: var(--zona-op-3);
 }
 
 .mapa-zona--interactiva {
@@ -2662,7 +2739,7 @@ h3 {
 .mapa-zona--interactiva:focus-visible,
 .mapa-zona--interactiva[data-activa='true'] {
   fill: var(--acento);
-  fill-opacity: 0.18;
+  fill-opacity: var(--zona-op-activa, 0.18);
   outline: none;
 }
 
@@ -2738,30 +2815,6 @@ h3 {
 @media (max-width: 34rem) {
   .mapa-ancla-bloqueada__hit {
     r: 40px;
-  }
-}
-
-@media (prefers-color-scheme: dark) {
-  .mapa-zona {
-    fill-opacity: 0.04;
-  }
-
-  .mapa-zona[data-tono='1'] {
-    fill-opacity: 0.065;
-  }
-
-  .mapa-zona[data-tono='2'] {
-    fill-opacity: 0.09;
-  }
-
-  .mapa-zona[data-tono='3'] {
-    fill-opacity: 0.115;
-  }
-
-  .mapa-zona--interactiva:hover,
-  .mapa-zona--interactiva:focus-visible,
-  .mapa-zona--interactiva[data-activa='true'] {
-    fill-opacity: 0.2;
   }
 }
 
@@ -3413,13 +3466,7 @@ h3 {
   border-radius: 2px;
   overflow: hidden;
   touch-action: none;
-  background: radial-gradient(120% 95% at 50% 30%, var(--papel) 35%, var(--superficie) 100%);
-}
-
-@media (prefers-color-scheme: dark) {
-  .cubo3d__lienzo {
-    background: radial-gradient(120% 95% at 50% 30%, var(--superficie) 0%, var(--papel) 78%);
-  }
+  background: var(--cubo-lienzo-fondo);
 }
 
 .cubo3d__ayuda {

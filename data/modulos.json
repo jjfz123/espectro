@@ -10,7 +10,7 @@
     "id": "corrientes-izquierda",
     "nombre": "Corrientes de la izquierda",
     "descripcion": "Reforma/revolución, vanguardia/consejos, plan/mercado, internacionalismo, balance de la URSS, anarquismo y asamblearismo. Separa marxismo-leninismo, maoísmo, trotskismo, luxemburguismo, anarcocomunismo, rojipardismo y socialdemocracia.",
-    "orden": 2,
+    "orden": 17,
     "eleccionUsuario": true,
     "desbloqueo": { "tipo": "eje", "eje": "economico", "operador": "<=", "umbral": -40 }
   },
@@ -18,7 +18,7 @@
     "id": "socialdemocracia-reformismo",
     "nombre": "Socialdemocracia y reformismo",
     "descripcion": "Tercera vía, socialismo democrático, ecosocialismo reformista, populismo de izquierda y socialdemocracia antinacionalista. Separa PSOE, Sumar, Podemos, Más Madrid e Izquierda Española.",
-    "orden": 3,
+    "orden": 15,
     "eleccionUsuario": true,
     "desbloqueo": { "tipo": "eje-banda", "eje": "economico", "min": -60, "max": 5 }
   },
@@ -26,7 +26,7 @@
     "id": "centro-liberalismo",
     "nombre": "Centro y liberalismo",
     "descripcion": "Socioliberalismo, liberalismo clásico, libertarianismo/anarcocapitalismo, centrismo pragmático y tecnocracia. Separa al liberal progresista del conservador liberal y del ancap.",
-    "orden": 4,
+    "orden": 16,
     "eleccionUsuario": true,
     "desbloqueo": { "tipo": "eje-banda", "eje": "economico", "min": -15, "max": 60 }
   },
@@ -34,7 +34,7 @@
     "id": "corrientes-derecha",
     "nombre": "Corrientes de la derecha",
     "descripcion": "Democracia cristiana, conservadurismo liberal, tradicionalismo, agrarismo y tecnocracia. Derecha liberal en costumbres (línea pro-LGTB) vs. derecha moral; economía social de mercado vs. liberalismo duro.",
-    "orden": 5,
+    "orden": 18,
     "eleccionUsuario": true,
     "desbloqueo": { "tipo": "eje", "eje": "economico", "operador": ">=", "umbral": 40 }
   },
@@ -42,7 +42,7 @@
     "id": "derecha-radical",
     "nombre": "Derecha radical y ultraderecha",
     "descripcion": "Nacional-conservadurismo liberal (VOX), falangismo/nacionalsindicalismo, identitarismo nativista, populismo digital antipolítico y nacional-catolicismo. Separa lo que la etiqueta «extrema derecha» esconde.",
-    "orden": 6,
+    "orden": 19,
     "eleccionUsuario": true,
     "desbloqueo": { "tipo": "eje", "eje": "social", "operador": ">=", "umbral": 40 }
   },
@@ -50,7 +50,7 @@
     "id": "nacionalismos-regionalismos",
     "nombre": "Nacionalismos y regionalismos",
     "descripcion": "Vía unilateral/pactada, independencia/confederalismo/foralismo, nación cívica/cultural, pactismo territorial y España vaciada. Común a todos los nacionalismos periféricos y regionalismos.",
-    "orden": 7,
+    "orden": 9,
     "eleccionUsuario": true,
     "desbloqueo": { "tipo": "eje-o-ccaa", "eje": "territorial", "operador": "<=", "umbral": -30, "ccaa": ["andalucia", "castilla-y-leon", "catalunya"] }
   },
@@ -58,7 +58,7 @@
     "id": "verde-animalista",
     "nombre": "Ecologismo y animalismo",
     "descripcion": "Derechos de los animales vs. bienestarismo, decrecimiento vs. crecimiento verde, nuclear, renovables vs. territorio, caza y tauromaquia. Separa PACMA, verdes, ecosocialistas y ecomodernistas.",
-    "orden": 8,
+    "orden": 7,
     "eleccionUsuario": true,
     "desbloqueo": { "tipo": "eje", "eje": "ecologia", "operador": ">=", "umbral": 30 }
   },
@@ -66,7 +66,7 @@
     "id": "feminismos-moral",
     "nombre": "Feminismos y moral pública",
     "descripcion": "Abolicionismo/regulacionismo, autodeterminación de género, gestación subrogada, bioética y laicismo. Los cortes que parten en dos tanto a la izquierda como a la derecha.",
-    "orden": 9,
+    "orden": 8,
     "eleccionUsuario": true,
     "desbloqueo": { "tipo": "eje-banda", "eje": "social", "min": -100, "max": 20 }
   },
@@ -114,7 +114,7 @@
     "id": "democracia-instituciones",
     "nombre": "Democracia, instituciones y toma de decisiones",
     "descripcion": "Parlamentarismo y sus alternativas, democracia directa, revocación, reelección, separación de poderes, elección de jueces, organización interna y arquitectura territorial unitaria, autonómica, federal o confederal.",
-    "orden": 15,
+    "orden": 2,
     "eleccionUsuario": true,
     "desbloqueo": { "tipo": "siempre" }
   },
@@ -122,7 +122,7 @@
     "id": "trabajo-estado-sindicatos",
     "nombre": "Trabajo, Estado y sindicatos",
     "descripcion": "Poder en el centro de trabajo, autonomía sindical, cogestión, corporativismo, sindicalismo revolucionario y distintos motivos para rechazar impuestos o intervención estatal.",
-    "orden": 16,
+    "orden": 3,
     "eleccionUsuario": true,
     "desbloqueo": { "tipo": "siempre" }
   },
@@ -130,7 +130,7 @@
     "id": "energia-modelo-productivo",
     "nombre": "Energía y modelo productivo",
     "descripcion": "Energía nuclear civil, renovables, propiedad de la red, límites al consumo y distintas estrategias climáticas sin identificar ecologismo con antinuclearismo.",
-    "orden": 17,
+    "orden": 4,
     "eleccionUsuario": true,
     "desbloqueo": { "tipo": "siempre" }
   },
@@ -138,7 +138,7 @@
     "id": "geopolitica-defensa",
     "nombre": "Geopolítica, defensa y paz",
     "descripcion": "Pacifismo, intervención, neutralidad, OTAN, armas nucleares, Sáhara Occidental, reclamaciones históricas e hipótesis de integración ibérica.",
-    "orden": 18,
+    "orden": 5,
     "eleccionUsuario": true,
     "desbloqueo": { "tipo": "siempre" }
   },
@@ -146,7 +146,7 @@
     "id": "identidad-cultura",
     "nombre": "Identidad y cultura española",
     "descripcion": "Asimilación o convivencia de culturas, ser español por origen o por participación, amenaza cultural percibida, símbolos e historia en la escuela, leyenda negra e Hispanidad, acentos y variedades del español, acceso a la nacionalidad y velo. Separa los patriotismos españoles entre sí y de la izquierda estatal.",
-    "orden": 19,
+    "orden": 6,
     "eleccionUsuario": true,
     "desbloqueo": { "tipo": "eje", "eje": "social", "operador": ">=", "umbral": 15 }
   },

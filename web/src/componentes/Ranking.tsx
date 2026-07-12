@@ -148,7 +148,15 @@ export function Ranking({
     return (
       <li key={r.entidadId} className={abreTramo ? 'ranking-fila--abre-tramo' : undefined}>
         {abreTramo ? (
-          <span className="ranking-separador">{ETIQUETA_TRAMO[tramo as 1 | 2]}</span>
+          <span className="ranking-separador">
+            {ETIQUETA_TRAMO[tramo as 1 | 2]}
+            {tramo === 1 ? (
+              <small className="ranking-separador__nota">
+                Los porcentajes de este tramo salen de muy pocos ítems: se muestran apagados y en
+                pequeño porque no son comparables con los del tramo principal.
+              </small>
+            ) : null}
+          </span>
         ) : null}
         <div className="ranking-cabecera">
           {ordenada ? (
@@ -168,12 +176,21 @@ export function Ranking({
             {ETIQUETA_CONFIANZA[r.confianza] ?? r.confianza}
           </span>
           {entidad.demo ? <span className="insignia insignia--acento">demo</span> : null}
-          <span className="ranking-pct">
+          <span
+            className={`ranking-pct${
+              calculable && r.bajaCobertura ? ' ranking-pct--orientativo' : ''
+            }`}
+          >
             {doble ? (
               <small className="ranking-pct__etiqueta">{doble.etiquetaBase}</small>
             ) : null}
             {calculable ? (
               <>
+                {r.bajaCobertura ? (
+                  <small className="ranking-pct__etiqueta">
+                    orientativo · {r.itemsComparados} ítems
+                  </small>
+                ) : null}
                 {formatearNumero(r.puntuacion ?? 0)}
                 <small> %</small>
               </>
@@ -185,7 +202,10 @@ export function Ranking({
         {contexto ? <p className="ranking-contexto">{contexto}</p> : null}
         {calculable ? (
           <>
-            <div className="barra" aria-hidden="true">
+            <div
+              className={`barra${r.bajaCobertura ? ' barra--orientativa' : ''}`}
+              aria-hidden="true"
+            >
               <span style={{ width: `${Math.max(0, Math.min(100, r.puntuacion ?? 0))}%` }} />
             </div>
             <p className="ranking-meta">

@@ -249,6 +249,7 @@
   },
   {
     "id": "nac-015",
+    "terminos": ["region-leonesa"],
     "texto": "León, Zamora y Salamanca deberían separarse de Castilla y León para constituir una comunidad autónoma propia.",
     "modulo": "nacionalismos-regionalismos",
     "ejes": [
