@@ -660,24 +660,6 @@
         "consultado": "2026-07-10"
       }
     },
-    "dr-001": {
-      "valor": 0,
-      "justificacion": "Propone crear una banca pública gallega y un Instituto Galego de Crédito para financiar a empresas y minimizar los efectos de una banca privada orientada solo al beneficio, pero no plantea nacionalizar el sector financiero: un banco público que complementa y disciplina a la banca privada existente.",
-      "resolucionCero": {
-        "tipo": "modelo-mixto",
-        "explicacion": "Su propuesta suma una banca pública gallega y un instituto de crédito al sistema privado vigente, sin expropiar ni nacionalizar la banca privada; ninguno de los dos polos del ítem describe por sí solo ese modelo mixto."
-      },
-      "calidadEvidencia": "media",
-      "fuente": {
-        "tipo": "declaracion",
-        "titulo": "Pontón propone elevar el gasto en I+D+i al 2,5% del PIB y crear instrumentos financiaros para apoyar a empresas (Galicia Press)",
-        "url": "https://www.galiciapress.es/articulo/politica/2026-06-04/5907310-ponton-propone-elevar-gasto-i-d-i-25-pib-crear-instrumentos-financiaros-apoyar-empresas",
-        "fecha": "2026-06-04",
-        "consultado": "2026-07-12",
-        "cita": "crear instrumentos financiaros para apoyar a empresas, como un Instituto Galego de Crédito"
-      },
-      "grupoEvidencia": "bng-banca-publica-galega"
-    },
     "eco-013": {
       "valor": -2,
       "justificacion": "Denuncia el aumento del traspaso de fondos públicos a la sanidad privada y exige acabar con la derivación de pacientes en lista de espera a la privada concertada, defendiendo reforzar el sistema público en lugar de subvencionar clínicas privadas.",
