@@ -17,7 +17,10 @@ interface Referencia {
   variante: string;
   periodo: string;
   advertencia: string;
-  publicacionMapa: { publicable: boolean; motivo: string };
+  publicacionMapa?: { publicable: boolean; motivo: string };
+  publicacionAfinidad?: { publicable: boolean; motivo: string };
+  sensibilidad?: string;
+  reglaPublicacion: { minimoItems: number; minimoCobertura: number; umbralAfinidad: number };
   posiciones: Record<string, Posicion>;
   [clave: string]: unknown;
 }
@@ -126,9 +129,17 @@ describe('semántica de cuatro referencias históricas de Estado y derecha', () 
     expect(referencias.canovas.advertencia).toMatch(/abolición.*Concierto|Concierto.*abolición/i);
   });
 
-  it.each(Object.values(referencias))('$nombre queda bloqueada para publicación cartográfica', (referencia) => {
-    expect(referencia.publicacionMapa.publicable).toBe(false);
-    expect(referencia.publicacionMapa.motivo.length).toBeGreaterThan(80);
+  it.each(Object.values(referencias))('$nombre se publica sin veto y con salvaguardas (decisión editorial 2026-07-12)', (referencia) => {
+    expect(referencia.publicacionMapa).toBeUndefined();
+    expect(referencia.publicacionAfinidad).toBeUndefined();
+    expect(referencia.reglaPublicacion.minimoItems).toBeGreaterThanOrEqual(3);
+    expect(referencia.reglaPublicacion.minimoItems).toBeLessThanOrEqual(
+      Object.keys(referencia.posiciones).length,
+    );
+    expect(referencia.reglaPublicacion.umbralAfinidad).toBeGreaterThanOrEqual(78);
+    if ((referencia.sensibilidad ?? 'normal') !== 'normal') {
+      expect(referencia.advertencia.length).toBeGreaterThan(80);
+    }
     expect(referencia.tipo).toBe('referencia-doctrinal');
     expect(referencia.definicion.length).toBeGreaterThanOrEqual(80);
     expect(referencia.variante.length).toBeGreaterThanOrEqual(40);

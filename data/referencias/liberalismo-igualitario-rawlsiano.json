@@ -8,14 +8,6 @@
   "confianza": "verificada",
   "version": "1.0",
   "revisado": "2026-07-11",
-  "publicacionAfinidad": {
-    "publicable": false,
-    "motivo": "Referencia nueva pendiente de auditoría semántica adversarial; no participa en afinidad hasta cerrar cada equivalencia entre fuente e ítem."
-  },
-  "publicacionMapa": {
-    "publicable": false,
-    "motivo": "Las libertades y la oposición a concentrar herencias están sólidamente documentadas, pero el banco aún no mide directamente el principio de diferencia ni la igualdad justa de oportunidades; tampoco determina un IRPF concreto ni un impuesto anual permanente sobre fortunas. Con un solo discriminante económico exacto no procede fijar todavía una coordenada macro."
-  },
   "facetasDefinitorias": [
     "economico",
     "propiedad-mercado",

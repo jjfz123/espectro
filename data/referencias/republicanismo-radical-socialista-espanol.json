@@ -8,14 +8,6 @@
   "confianza": "verificada",
   "version": "1.0",
   "revisado": "2026-07-11",
-  "publicacionAfinidad": {
-    "publicable": false,
-    "motivo": "Referencia nueva pendiente de auditoría semántica adversarial; no participa en afinidad hasta cerrar cada equivalencia entre fuente e ítem."
-  },
-  "publicacionMapa": {
-    "publicable": false,
-    "motivo": "El ideario fija economía, república y participación, pero la investigación histórica documenta tensiones entre su programa pluralista y prácticas o discursos de exclusión; antes de proyectarlo al mapa hay que decidir cómo representar esa distancia sin confundir doctrina y conducta partidaria."
-  },
   "facetasDefinitorias": [
     "monarquia",
     "democracia-directa",

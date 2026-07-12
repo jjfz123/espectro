@@ -103,10 +103,12 @@ describe('semántica de las cinco referencias doctrinales sustitutas', () => {
     expect(posiciones['fem-009']).toBeUndefined();
   });
 
-  it.each(Object.values(referencias))('$nombre queda fuera del mapa hasta integración editorial', (referencia) => {
-    expect(referencia.publicacionAfinidad?.publicable).toBe(false);
-    expect(referencia.publicacionAfinidad?.motivo.length).toBeGreaterThan(40);
-    expect(referencia.publicacionMapa?.publicable).toBe(false);
-    expect(referencia.publicacionMapa?.motivo.length).toBeGreaterThan(40);
+  it.each(Object.values(referencias))('$nombre se publica sin veto y con salvaguardas (decisión editorial 2026-07-12)', (referencia) => {
+    expect(referencia.publicacionAfinidad).toBeUndefined();
+    expect(referencia.publicacionMapa).toBeUndefined();
+    const regla = (referencia as { reglaPublicacion?: { minimoItems: number; umbralAfinidad: number } })
+      .reglaPublicacion;
+    expect(regla?.minimoItems).toBeGreaterThanOrEqual(3);
+    expect(regla?.umbralAfinidad).toBeGreaterThanOrEqual(78);
   });
 });

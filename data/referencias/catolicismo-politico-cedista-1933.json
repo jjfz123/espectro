@@ -8,14 +8,6 @@
   "confianza": "verificada",
   "version": "1.0",
   "revisado": "2026-07-11",
-  "publicacionAfinidad": {
-    "publicable": false,
-    "motivo": "Referencia nueva pendiente de auditoría semántica adversarial; no participa en afinidad hasta cerrar cada equivalencia entre fuente e ítem."
-  },
-  "publicacionMapa": {
-    "publicable": false,
-    "motivo": "El programa mezcla garantías constitucionales, Ejecutivo fuerte, voto y corporación obligatoria, una combinación que los macroejes actuales no discriminan; además faltan anclas económicas suficientes para separar su reformismo social de otras derechas."
-  },
   "facetasDefinitorias": [
     "tradicion-moral",
     "pluralismo-institucional",

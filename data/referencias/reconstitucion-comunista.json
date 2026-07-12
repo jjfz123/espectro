@@ -8,14 +8,6 @@
   "confianza": "estimada",
   "version": "1.0",
   "revisado": "2026-07-12",
-  "publicacionMapa": {
-    "publicable": false,
-    "motivo": "Esqueleto cableado por orden del propietario (2026-07-12) SIN pasajes verbatim: las posiciones se apoyan en fuentes fechadas corroboradas por búsqueda plural pero sin cita reproducible (calidad baja forzada por el integrador). PROHIBIDA su publicación en mapa y afinidad hasta que una tanda futura o la cola humana aporte los pasajes; mientras tanto solo la ficha descriptiva es visible."
-  },
-  "publicacionAfinidad": {
-    "publicable": false,
-    "motivo": "Esqueleto cableado por orden del propietario (2026-07-12) SIN pasajes verbatim: las posiciones se apoyan en fuentes fechadas corroboradas por búsqueda plural pero sin cita reproducible (calidad baja forzada por el integrador). PROHIBIDA su publicación en mapa y afinidad hasta que una tanda futura o la cola humana aporte los pasajes; mientras tanto solo la ficha descriptiva es visible."
-  },
   "facetasDefinitorias": [
     "metodo-cambio",
     "organizacion"
