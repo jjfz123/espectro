@@ -251,5 +251,59 @@
     "url": "https://es.wikipedia.org/wiki/Regi%C3%B3n_de_Le%C3%B3n",
     "termino": "Región leonesa (leonesismo)",
     "definicion": "La región histórica de León agrupaba las provincias de León, Zamora y Salamanca antes del mapa autonómico de 1983, cuando se integraron con las ocho de Castilla la Vieja en Castilla y León. El leonesismo defiende una comunidad autónoma propia para esas tres provincias; sus críticos consideran que la comunidad actual ya garantiza el autogobierno y que dividirla tendría costes institucionales. Varios ayuntamientos, incluido el de León, han aprobado mociones a favor; ninguna Cortes ha iniciado el procedimiento."
+  },
+  {
+    "id": "otan",
+    "url": "https://es.wikipedia.org/wiki/Organizaci%C3%B3n_del_Tratado_del_Atl%C3%A1ntico_Norte",
+    "termino": "OTAN (Alianza Atlántica)",
+    "definicion": "Alianza militar de defensa mutua fundada en 1949 entre Estados Unidos, Canadá y países europeos. España entró en 1982 y lo ratificó en el referéndum de 1986 con condiciones. Sus partidarios la ven como garantía de seguridad colectiva; sus críticos, como subordinación a la política exterior estadounidense o como obstáculo para una defensa europea autónoma."
+  },
+  {
+    "id": "socialismo-real",
+    "url": "https://es.wikipedia.org/wiki/Socialismo_real",
+    "termino": "Socialismo real (URSS y bloque del Este)",
+    "definicion": "Nombre dado a los sistemas de partido único y economía planificada del bloque soviético (1917/1945-1991). Su balance divide a la propia izquierda: hay quien subraya industrialización, pleno empleo y derrota del nazismo, y quien subraya represión política, burocracia y escasez. Valorarlo positiva o negativamente distingue corrientes comunistas entre sí, no solo izquierda de derecha."
+  },
+  {
+    "id": "burocratizacion-urss",
+    "url": "https://es.wikipedia.org/wiki/Le%C3%B3n_Trotski",
+    "termino": "Burocratización de la URSS (crítica trotskista)",
+    "definicion": "Tesis de León Trotski y sus seguidores: la URSS dejó de ser gobernada por los trabajadores cuando una capa de funcionarios del partido (la burocracia, con Stalin al frente) monopolizó el poder desde los años veinte. Para el trotskismo la URSS seguía siendo un «Estado obrero» pero «degenerado»; para sus críticos comunistas ortodoxos, esta tesis es una deslealtad; para otros, se quedó corta."
+  },
+  {
+    "id": "aconfesionalidad",
+    "url": "https://es.wikipedia.org/wiki/Estado_aconfesional",
+    "termino": "Estado aconfesional vs. laico",
+    "definicion": "España es constitucionalmente aconfesional: ninguna religión es estatal, pero los poderes públicos «tendrán en cuenta las creencias religiosas» y cooperan con las confesiones (acuerdos con la Santa Sede de 1979). El laicismo pide separación más estricta (sin acuerdos, símbolos ni financiación); la confesionalidad, reconocimiento oficial de una religión. La casilla del IRPF y la clase de religión nacen de ese régimen de cooperación."
+  },
+  {
+    "id": "disuasion-nuclear",
+    "url": "https://es.wikipedia.org/wiki/Disuasi%C3%B3n_nuclear",
+    "termino": "Disuasión nuclear",
+    "definicion": "Doctrina según la cual poseer armas nucleares (o cobijarse bajo las de un aliado, el «paraguas» de la OTAN) evita guerras porque el coste de atacar sería inasumible. Sus partidarios le atribuyen la ausencia de guerras directas entre grandes potencias desde 1945; sus críticos señalan el riesgo de accidente o escalada y defienden el Tratado de Prohibición de Armas Nucleares de la ONU (2017), que España no ha firmado."
+  },
+  {
+    "id": "jefatura-del-estado",
+    "url": "https://es.wikipedia.org/wiki/Jefe_de_Estado",
+    "termino": "Jefatura del Estado",
+    "definicion": "Órgano que representa la unidad del Estado: en España es el Rey (monarquía parlamentaria, título II de la Constitución), con funciones tasadas y actos refrendados por el Gobierno. En una república la jefatura es electiva, directa o parlamentariamente, con poderes que varían mucho según el diseño (de simbólicos, como en Alemania, a ejecutivos, como en Francia). El debate monarquía/república discute este órgano, no el sistema parlamentario."
+  },
+  {
+    "id": "estado-plurinacional",
+    "url": "https://es.wikipedia.org/wiki/Plurinacionalismo",
+    "termino": "Estado plurinacional",
+    "definicion": "Modelo que reconoce que dentro de un mismo Estado conviven varias naciones (no solo «nacionalidades y regiones», como dice el artículo 2 de la Constitución). Implica reconocimiento simbólico y, según versiones, derechos políticos diferenciados o bilateralidad. Sus partidarios lo ven como la descripción realista de España; sus críticos temen que fragmente la igualdad entre ciudadanos o abra la puerta a la secesión. Bolivia (2009) lo adoptó expresamente."
+  },
+  {
+    "id": "renta-basica-universal",
+    "url": "https://es.wikipedia.org/wiki/Renta_b%C3%A1sica_universal",
+    "termino": "Renta básica universal (RBU)",
+    "definicion": "Ingreso periódico pagado por el Estado a toda persona, sin condición de recursos ni contraprestación laboral. Se distingue del Ingreso Mínimo Vital español, que es condicionado y focalizado. Sus defensores (de izquierdas y liberales, por motivos distintos) destacan libertad material y simplificación administrativa; sus críticos, el coste fiscal, el posible desincentivo al empleo o la preferencia por servicios públicos y empleo garantizado."
+  },
+  {
+    "id": "armonizacion-fiscal",
+    "url": "https://es.wikipedia.org/wiki/Armonizaci%C3%B3n_fiscal",
+    "termino": "Armonización fiscal",
+    "definicion": "Fijar mínimos comunes en impuestos entre territorios para evitar que compitan a la baja («dumping fiscal»). En España el debate señala sobre todo a Madrid (Patrimonio y Sucesiones bonificados) y a los regímenes forales; en la UE, al impuesto de sociedades (mínimo global del 15% pactado en la OCDE). Sus partidarios defienden suficiencia y equidad; sus críticos, la autonomía fiscal y la competencia como límite al gasto ineficiente."
   }
 ]

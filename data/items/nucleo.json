@@ -668,6 +668,7 @@
   },
   {
     "id": "mon-001",
+    "terminos": ["jefatura-del-estado"],
     "texto": "La Jefatura del Estado debería ser un cargo elegido por la ciudadanía, no hereditario.",
     "modulo": "nucleo",
     "ejes": [
@@ -786,6 +787,7 @@
   },
   {
     "id": "def-002",
+    "terminos": ["otan"],
     "texto": "España debería abandonar la OTAN.",
     "modulo": "nucleo",
     "ejes": [

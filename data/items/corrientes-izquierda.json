@@ -68,6 +68,7 @@
   },
   {
     "id": "izq-004",
+    "terminos": ["socialismo-real"],
     "texto": "El balance histórico de la Unión Soviética fue, en conjunto, más positivo que negativo para la clase trabajadora.",
     "modulo": "corrientes-izquierda",
     "ejes": [],
@@ -220,6 +221,7 @@
   },
   {
     "id": "izq-012",
+    "terminos": ["otan"],
     "texto": "La salida de la OTAN debe ser condición innegociable para apoyar o participar en cualquier gobierno.",
     "modulo": "corrientes-izquierda",
     "ejes": [
@@ -397,6 +399,7 @@
   },
   {
     "id": "izq-020",
+    "terminos": ["socialismo-real"],
     "texto": "El balance de la etapa de Stalin al frente de la URSS es, en conjunto, positivo para el socialismo.",
     "modulo": "corrientes-izquierda",
     "ejes": [],
@@ -412,6 +415,7 @@
   },
   {
     "id": "izq-021",
+    "terminos": ["burocratizacion-urss"],
     "texto": "Trotski representó una oposición revolucionaria legítima frente a la burocratización de la URSS.",
     "modulo": "corrientes-izquierda",
     "ejes": [],
@@ -555,6 +559,7 @@
   },
   {
     "id": "izq-029",
+    "terminos": ["otan"],
     "texto": "En un conflicto entre la OTAN y potencias como Rusia, los comunistas deben apoyar al bando enfrentado a Estados Unidos.",
     "modulo": "corrientes-izquierda",
     "ejes": [],

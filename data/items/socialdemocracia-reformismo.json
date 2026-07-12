@@ -58,6 +58,7 @@
   },
   {
     "id": "sd-004",
+    "terminos": ["estado-plurinacional"],
     "texto": "La Constitución debería reconocer a España como un Estado plurinacional.",
     "modulo": "socialdemocracia-reformismo",
     "ejes": [
@@ -129,6 +130,7 @@
   },
   {
     "id": "sd-008",
+    "terminos": ["renta-basica-universal"],
     "texto": "El Estado debe garantizar una renta básica universal e incondicional a toda la ciudadanía.",
     "modulo": "socialdemocracia-reformismo",
     "ejes": [
