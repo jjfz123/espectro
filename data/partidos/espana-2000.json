@@ -213,6 +213,39 @@
         "url": "https://es.wikipedia.org/wiki/Espa%C3%B1a_2000",
         "consultado": "2026-07-10"
       }
+    },
+    "ue-001": {
+      "valor": 2,
+      "justificacion": "Sostiene que «el fortalecimiento del Estado Nacional es la única defensa contra la globalización» y presenta a la UE como un fracaso: reclama recuperar soberanía frente a Bruselas desde una postura antiglobalización.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "España 2000 — Programa político (web oficial)",
+        "url": "https://espana2000.es/programa-politico/",
+        "consultado": "2026-07-12"
+      }
+    },
+    "def-002": {
+      "valor": 2,
+      "justificacion": "Su programa propone abandonar la OTAN, a la que considera dominada por Estados Unidos, y una defensa europea común «de Portugal a Rusia» que incluya a Rusia: es antiatlantista.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "España 2000 — Programa político (web oficial)",
+        "url": "https://espana2000.es/programa-politico/",
+        "consultado": "2026-07-12"
+      }
+    },
+    "der-001": {
+      "valor": -2,
+      "justificacion": "Su modelo es estatista y nacional-populista —banca pública, empresas nacionales controladas por el Estado, recuperación de sectores estratégicos y protección social garantizada—, opuesto a reducir el Estado al mínimo imprescindible.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "España 2000 — Programa político (web oficial)",
+        "url": "https://espana2000.es/programa-politico/",
+        "consultado": "2026-07-12"
+      }
     }
   }
 }

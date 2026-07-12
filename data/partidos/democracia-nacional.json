@@ -195,6 +195,50 @@
         "fecha": "2022-03-14",
         "consultado": "2026-07-10"
       }
+    },
+    "ter-002": {
+      "valor": -2,
+      "justificacion": "Defiende la unidad de España y un nacionalismo español en oposición frontal a los nacionalismos periféricos: un referéndum de autodeterminación es incompatible con su proyecto.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Democracia Nacional — Wikipedia (unidad de España y oposición a los nacionalismos periféricos)",
+        "url": "https://es.wikipedia.org/wiki/Democracia_Nacional",
+        "consultado": "2026-07-12"
+      }
+    },
+    "cul-002": {
+      "valor": 2,
+      "justificacion": "Concepción étnica de la nación: propone reforzar el ius sanguinis (la nacionalidad por ascendencia) y presenta la inmigración como reemplazo del pueblo español; para DN lo español se hereda por sangre.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Democracia Nacional — Wikipedia (ius sanguinis y discurso antiinmigración)",
+        "url": "https://es.wikipedia.org/wiki/Democracia_Nacional",
+        "consultado": "2026-07-12"
+      }
+    },
+    "cul-003": {
+      "valor": 2,
+      "justificacion": "Enmarca la inmigración como amenaza a la identidad y las costumbres españolas —habla de «profundas diferencias entre las costumbres de la inmigración masiva y la cultura española»— y difunde la tesis del «reemplazo» del pueblo español.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "El partido xenófobo Democracia Nacional refuerza sus vínculos con ultras rusos y sueña con más «Torre Pachecos» (Público)",
+        "url": "https://www.publico.es/politica/partido-xenofobo-democracia-nacional-refuerza-vinculos-ultras-rusos-suena-torre-pachecos.html",
+        "consultado": "2026-07-12"
+      }
+    },
+    "def-002": {
+      "valor": 1,
+      "justificacion": "Se opone a la cesión de soberanía militar a la OTAN y cultiva de forma activa lazos con la Rusia soberanista (Liga Internacional Soberanista, San Petersburgo 2025): su antiatlantismo apunta a salir de la Alianza, aunque no lo formula como consigna central.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Democracia Nacional — Wikipedia (oposición a la cesión de soberanía a la OTAN)",
+        "url": "https://es.wikipedia.org/wiki/Democracia_Nacional",
+        "consultado": "2026-07-12"
+      }
     }
   }
 }
