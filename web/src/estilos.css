@@ -4416,3 +4416,56 @@ dl.definiciones dd {
     transition: opacity 0.25s ease;
   }
 }
+
+/* ————— Enciclopedia ideológica ————— */
+.enciclopedia-buscador {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  max-width: 34rem;
+  margin-top: 1rem;
+}
+
+.enciclopedia-buscador input {
+  padding: 0.55rem 0.75rem;
+  border: 1px solid var(--filete);
+  border-radius: 8px;
+  background: var(--superficie);
+  color: var(--tinta);
+  font: inherit;
+}
+
+.enciclopedia-lista {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.enciclopedia-entrada {
+  border: 1px solid var(--filete);
+  border-radius: 10px;
+  background: var(--superficie);
+  padding: 0.35rem 0.85rem;
+}
+
+.enciclopedia-entrada > summary {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.5rem 0.15rem;
+  cursor: pointer;
+}
+
+.enciclopedia-entrada__nombre {
+  font-weight: 700;
+}
+
+.enciclopedia-entrada__cuerpo {
+  padding: 0.25rem 0.15rem 0.75rem;
+}
+
+.enciclopedia-entrada__definicion {
+  max-width: 76ch;
+}

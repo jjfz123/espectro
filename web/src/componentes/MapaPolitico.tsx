@@ -48,7 +48,6 @@ interface Props {
   /** Devuelve el foco al contexto persistente tras resolver el chunk perezoso. */
   alMontar?: () => void;
   /** Controla qué capa abre el atlas sin confundir profundidad con identidad. */
-  nivelPerfil: 'rapido' | 'intermedio' | 'exhaustivo';
 }
 
 interface ParEjes {
@@ -957,21 +956,15 @@ export function MapaPolitico({
   puedeRecargar,
   alConfirmarGuardado,
   alMontar,
-  nivelPerfil,
 }: Props) {
   const idBase = useId();
   const [parId, setParId] = useState(PARES[0]?.id ?? 'economico-social');
   const [seleccion, setSeleccion] = useState<string | null>(null);
   const [ver3D, setVer3D] = useState(false);
-  /* Corrientes activadas por defecto, sin sopa de rótulos: el nombre y la
-     explicación aparecen al pasar, enfocar o tocar una región. Desactivarlas
-     deja la vista simple (compass pelado), siempre como alternativa
-     conmutable y nunca como estado inicial. */
-  const [verCorrientes, setVerCorrientes] = useState(true);
-  /* Norma dura del atlas: la vista de profundidad es el estado por defecto
-     en todos los niveles de perfil; «Incluir corrientes de profundidad» va
-     activado de entrada y sigue siendo conmutable fuera del exhaustivo. */
-  const [profundidadAtlasActivada, setProfundidadAtlasActivada] = useState(true);
+  /* Orden del propietario (2026-07-12): el atlas completo con corrientes y
+     profundidad es el ÚNICO modo — sin conmutadores ni variante simplificada.
+     El nombre y la explicación de cada región siguen apareciendo solo al
+     pasar, enfocar o tocar (sin sopa de rótulos). */
   const [corrienteTemporal, setCorrienteTemporal] = useState<string | null>(null);
   const [corrienteFijada, setCorrienteFijada] = useState<string | null>(null);
   const [vistaRotuloOriginalFijada, setVistaRotuloOriginalFijada] = useState(false);
@@ -991,20 +984,9 @@ export function MapaPolitico({
   useEffect(() => {
     if (cumuloDetalle.length > 1) cumuloDetalleRef.current?.focus();
   }, [cumuloDetalle]);
-  const incluirProfundidadAtlas =
-    nivelPerfil === 'exhaustivo' || profundidadAtlasActivada;
-  const corrientesVisibles = useMemo(
-    () => corrientesAtlasVisibles(incluirProfundidadAtlas),
-    [incluirProfundidadAtlas],
-  );
-  const anclasBloqueadasVisibles = useMemo(
-    () => anclasAtlasBloqueadasVisibles(incluirProfundidadAtlas),
-    [incluirProfundidadAtlas],
-  );
-  const opcionesAtlas = useMemo(
-    () => opcionesBusquedaAtlas(incluirProfundidadAtlas),
-    [incluirProfundidadAtlas],
-  );
+  const corrientesVisibles = useMemo(() => corrientesAtlasVisibles(true), []);
+  const anclasBloqueadasVisibles = useMemo(() => anclasAtlasBloqueadasVisibles(true), []);
+  const opcionesAtlas = useMemo(() => opcionesBusquedaAtlas(true), []);
   const numeroRegionesPrincipales = corrientesAtlasVisibles(false).length;
   const numeroRegionesProfundidad =
     corrientesAtlasVisibles(true).length - numeroRegionesPrincipales;
@@ -1234,69 +1216,19 @@ export function MapaPolitico({
 
       {hayCorrientes ? (
         <div className="mapa-corrientes-control">
-          <label className="mapa-corrientes-control__toggle">
-            <input
-              type="checkbox"
-              checked={verCorrientes}
-              onChange={(evento) => {
-                setVerCorrientes(evento.target.checked);
-                if (!evento.target.checked) {
-                  setCorrienteTemporal(null);
-                  setCorrienteFijada(null);
-                  setVistaRotuloOriginalFijada(false);
-                }
-              }}
-            />
-            <span>Explorar corrientes ideológicas</span>
-          </label>
           <span className="mapa-corrientes-control__nota">
             Explora una zona para explicar una corriente; señala un punto para identificar un
-            partido. Sin marcar queda la vista simple: un plano pelado con ejes, cuadrantes, tu
-            punto y los partidos.
+            partido.
           </span>
-          {nivelPerfil === 'exhaustivo' ? (
-            <span className="mapa-corrientes-control__nota" role="status">
-              Atlas exhaustivo: incluye {numeroRegionesPrincipales + numeroRegionesProfundidad}{' '}
-              regiones geométricas,{' '}
-              {numeroAnclasBloqueadasPrincipales + numeroAnclasBloqueadasProfundidad} anclas
-              huecas en investigación y{' '}
-              {numeroContextosPrincipales + numeroContextosProfundidad} entradas contextuales
-              buscables. Solo las regiones publicadas ocupan una celda.
-            </span>
-          ) : (
-            <>
-              <label className="mapa-corrientes-control__toggle">
-                <input
-                  type="checkbox"
-                  checked={profundidadAtlasActivada}
-                  disabled={!verCorrientes}
-                  onChange={(evento) => {
-                    const activada = evento.target.checked;
-                    setProfundidadAtlasActivada(activada);
-                    if (!activada) {
-                      const seleccionada = corrienteFijada
-                        ? CORRIENTE_ATLAS_POR_ID.get(corrienteFijada)
-                        : undefined;
-                      if (seleccionada?.decision === 'B') {
-                        setCorrienteFijada(null);
-                        setVistaRotuloOriginalFijada(false);
-                      }
-                      setCorrienteTemporal(null);
-                    }
-                  }}
-                />
-                <span>Incluir corrientes de profundidad</span>
-              </label>
-              <span className="mapa-corrientes-control__nota">
-                La capa principal contiene {numeroRegionesPrincipales} regiones,{' '}
-                {numeroAnclasBloqueadasPrincipales} anclas en investigación y{' '}
-                {numeroContextosPrincipales} entradas contextuales; la profundidad añade{' '}
-                {numeroRegionesProfundidad} regiones, {numeroAnclasBloqueadasProfundidad} anclas y{' '}
-                {numeroContextosProfundidad} entradas contextuales, sin cambiar tu resultado. Las
-                anclas huecas siguen explorables, pero no poseen celda ni cuentan como cercanía.
-              </span>
-            </>
-          )}
+          <span className="mapa-corrientes-control__nota" role="status">
+            El atlas completo es el único modo: incluye{' '}
+            {numeroRegionesPrincipales + numeroRegionesProfundidad} regiones geométricas,{' '}
+            {numeroAnclasBloqueadasPrincipales + numeroAnclasBloqueadasProfundidad} anclas
+            huecas en investigación y{' '}
+            {numeroContextosPrincipales + numeroContextosProfundidad} entradas contextuales
+            buscables, sin cambiar tu resultado. Solo las regiones publicadas ocupan una celda;
+            las anclas huecas son explorables, pero no poseen celda ni cuentan como cercanía.
+          </span>
           <label className="mapa-corrientes-control__buscador">
             <span>Buscar en el atlas</span>
             <select
@@ -1307,12 +1239,11 @@ export function MapaPolitico({
                     : corrienteFijada
                   : ''
               }
-              disabled={!verCorrientes}
               onChange={(evento) => {
                 const opcion = evento.target.value
                   ? resolverOpcionBusquedaAtlas(
                       evento.target.value,
-                      incluirProfundidadAtlas,
+                      true,
                     )
                   : null;
                 setPartidoBrujulaFijado(null);
@@ -1375,7 +1306,7 @@ export function MapaPolitico({
             puntos={puntosBrujula}
             anclasBloqueadas={anclasBloqueadasVisibles}
             descripcionId={brujulaDescId}
-            corrientes={hayCorrientes && verCorrientes}
+            corrientes={hayCorrientes}
             corrienteActiva={corrienteActivaId}
             corrienteFijada={corrienteFijada}
             partidoFijado={partidoBrujulaFijado}
@@ -1392,7 +1323,7 @@ export function MapaPolitico({
             alFijarPartido={(id) => {
               seleccionarPartidoBrujula(id);
             }}
-            incluirProfundidad={incluirProfundidadAtlas}
+            incluirProfundidad={true}
           />
         </PolosPlano>
       </div>
@@ -1438,7 +1369,7 @@ export function MapaPolitico({
         </div>
       ) : null}
 
-      {verCorrientes ? (
+      {hayCorrientes ? (
         corrienteActiva ? (
           <div
             className="mapa-corriente-lectura"
@@ -1607,10 +1538,10 @@ export function MapaPolitico({
               width={LADO}
               height={LADO}
             />
-            {hayCorrientes && verCorrientes ? <CapaCorrientes par={par} parte="fondo" /> : null}
+            {hayCorrientes ? <CapaCorrientes par={par} parte="fondo" /> : null}
             <EstructuraPlano />
             <EsquinasPlano esquinas={ESQUINAS[par.id] ?? ESQUINAS['economico-social']!} />
-            {hayCorrientes && verCorrientes ? <CapaCorrientes par={par} parte="rotulos" /> : null}
+            {hayCorrientes ? <CapaCorrientes par={par} parte="rotulos" /> : null}
 
             {puntos.map((punto) => {
               const etiqueta = etiquetas.get(punto.id);

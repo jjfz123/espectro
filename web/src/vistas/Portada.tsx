@@ -32,9 +32,10 @@ interface Props {
   estado: Estado;
   despachar: (accion: Accion) => void;
   alAbrirMetodologia: () => void;
+  alAbrirEnciclopedia: () => void;
 }
 
-export function Portada({ estado, despachar, alAbrirMetodologia }: Props) {
+export function Portada({ estado, despachar, alAbrirMetodologia, alAbrirEnciclopedia }: Props) {
   const [ccaa, setCcaa] = useState(estado.ccaa);
   const [sesionRetirada, setSesionRetirada] = useState(avisoSesionRetirada);
   const [eleccion, setEleccion] = useState<TipoEleccion>(estado.eleccion);
@@ -239,6 +240,27 @@ export function Portada({ estado, despachar, alAbrirMetodologia }: Props) {
               ? `${ITEMS_NUCLEO.length} preguntas; afinidad, cobertura e incertidumbre se revelan solo al terminar.`
               : `${ITEMS_NUCLEO.length} ítems de núcleo; la profundización se prepara después.`}
           </span>
+        </div>
+      </section>
+
+      <section className="seccion">
+        <h2>Enciclopedia ideológica</h2>
+        <div className="privacidad-bloque">
+          <p>
+            ¿Solo quieres leer? Explora todas las corrientes documentadas del proyecto —del
+            anarquismo al distributismo, con sus variantes datadas y sus fuentes— sin hacer el
+            test y sin que nada se guarde. Son tipos ideales descriptivos: nunca etiquetas
+            sobre personas.
+          </p>
+          <p>
+            <button
+              type="button"
+              className="boton boton--secundario"
+              onClick={alAbrirEnciclopedia}
+            >
+              Abrir la enciclopedia ideológica
+            </button>
+          </p>
         </div>
       </section>
 

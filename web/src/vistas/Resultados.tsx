@@ -512,9 +512,6 @@ export function Resultados({ estado, despachar, puedeRecargar, alConfirmarGuarda
             puedeRecargar={puedeRecargar}
             alConfirmarGuardado={alConfirmarGuardado}
             alMontar={enfocarMapaTrasRecarga ? enfocarTituloMapa : undefined}
-            nivelPerfil={
-              esPerfilIntermedio ? 'intermedio' : esPerfilProvisional ? 'rapido' : 'exhaustivo'
-            }
           />
         </Suspense>
       </section>
