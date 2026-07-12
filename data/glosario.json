@@ -317,5 +317,86 @@
     "url": "https://es.wikipedia.org/wiki/Distributismo",
     "termino": "Distributismo",
     "definicion": "Corriente económica de inspiración social-cristiana (Chesterton, Belloc, a partir de la encíclica Rerum Novarum) que propone repartir la propiedad productiva —tierra, talleres, comercios— entre el mayor número posible de familias, frente a su concentración tanto en grandes empresas como en el Estado. Se presenta como una «tercera vía»; sus críticos la consideran poco viable en economías industriales complejas."
+  },
+  {
+    "id": "listas-electorales",
+    "termino": "Listas cerradas, bloqueadas y abiertas",
+    "definicion": "En las elecciones al Congreso se vota una lista cerrada y bloqueada: el orden de los candidatos lo fija el partido y el votante no puede alterarlo. En el Senado la lista es abierta y se marcan candidatos individuales. Desbloquear las listas permitiría al votante reordenar la lista elegida; sus defensores lo ven como control ciudadano sobre los aparatos y sus críticos temen personalismo y competencia interna.",
+    "ampliacion": "El sistema del Congreso viene del artículo 96 de la LOREG (1985). Países como Bélgica o Países Bajos usan listas desbloqueadas con voto preferente; la reforma se ha propuesto varias veces en España sin llegar a votarse.",
+    "url": "https://es.wikipedia.org/wiki/Lista_cerrada"
+  },
+  {
+    "id": "revocatoria-mandato",
+    "termino": "Revocatoria de mandato",
+    "definicion": "Mecanismo por el que los electores pueden destituir a un cargo electo antes de terminar su mandato, normalmente reuniendo firmas y celebrando una votación. No existe en el ordenamiento español para cargos públicos; sí lo contemplan países como Suiza (cantones), varios estados de EE. UU. o Venezuela. Sus partidarios lo ven como control democrático continuo; sus críticos, como fuente de inestabilidad y campaña permanente.",
+    "url": "https://es.wikipedia.org/wiki/Refer%C3%A9ndum_revocatorio"
+  },
+  {
+    "id": "ley-mordaza",
+    "termino": "Ley de Seguridad Ciudadana («ley mordaza»)",
+    "definicion": "Ley Orgánica 4/2015 de protección de la seguridad ciudadana, que regula sanciones administrativas por manifestaciones no comunicadas, faltas de respeto a agentes, difusión de sus imágenes o negativa a identificarse. Sus críticos la llaman «ley mordaza» por limitar la protesta; sus defensores la consideran necesaria para el orden público. Su reforma se negoció en 2023-2024 sin acuerdo final.",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-3442"
+  },
+  {
+    "id": "iniciativa-legislativa-popular",
+    "termino": "Iniciativa legislativa popular (ILP)",
+    "definicion": "Mecanismo del artículo 87.3 de la Constitución por el que 500.000 firmas permiten proponer una ley al Congreso, que decide si la tramita. Quedan excluidas materias como las de ley orgánica, tributarias o de gracia. La mayoría de ILP no llegan a debatirse o se rechazan en toma en consideración; la de la dación en pago (2013) o la de regularización de migrantes (2024) son de las pocas que avanzaron.",
+    "url": "https://es.wikipedia.org/wiki/Iniciativa_legislativa_popular_en_Espa%C3%B1a"
+  },
+  {
+    "id": "remigracion",
+    "termino": "Remigración",
+    "definicion": "Término acuñado por corrientes identitarias europeas para el retorno forzado o incentivado a los países de origen de inmigrantes y, en algunas formulaciones, de sus descendientes ya nacidos en el país. En España lo adoptó VOX en 2025 cuantificándolo en millones de personas. Organismos de derechos humanos lo consideran incompatible con la igualdad ante la ley cuando alcanza a ciudadanos y residentes regulares.",
+    "ampliacion": "El término nació en los círculos identitarios franceses y austriacos de la década de 2010 (Génération Identitaire, Martin Sellner) como eufemismo programático del retorno forzado masivo. En España saltó al primer plano en julio de 2025, cuando la dirección de VOX lo cuantificó en «siete u ocho millones» de personas incluyendo expresamente a hijos de inmigrantes nacidos en España. Juristas y organismos de derechos humanos objetan que aplicado a ciudadanos españoles o residentes legales chocaría con la igualdad ante la ley (art. 14 CE) y con el derecho internacional. En este cuestionario el término se usa de forma descriptiva, citando quién lo propone y en qué términos.",
+    "url": "https://es.wikipedia.org/wiki/Remigraci%C3%B3n"
+  },
+  {
+    "id": "chovinismo-bienestar",
+    "termino": "Chovinismo del bienestar",
+    "definicion": "Posición que defiende mantener o ampliar el Estado del bienestar pero reservándolo total o preferentemente a los nacionales, excluyendo o postergando a los inmigrantes. Es característica de la derecha radical europea contemporánea; la politología la usa como categoría descriptiva, no como insulto.",
+    "url": "https://es.wikipedia.org/wiki/Chovinismo_del_bienestar"
+  },
+  {
+    "id": "impuesto-valor-suelo",
+    "termino": "Impuesto sobre el valor del suelo",
+    "definicion": "Tributo que grava el valor del suelo sin contar las mejoras construidas sobre él, asociado al georgismo (Henry George, 1879): la renta del suelo la crea la comunidad y debería financiarla, desgravando a cambio trabajo y actividad. Milton Friedman lo llamó «el impuesto menos malo»; sus críticos señalan la dificultad de tasar el suelo por separado.",
+    "url": "https://es.wikipedia.org/wiki/Impuesto_sobre_el_valor_de_la_tierra"
+  },
+  {
+    "id": "politica-prefigurativa",
+    "termino": "Política prefigurativa",
+    "definicion": "Estrategia que construye ya, en las propias organizaciones y comunidades, las relaciones sociales de la sociedad futura —asambleas, cooperativas, apoyo mutuo— en lugar de esperar a conquistar el poder. Es central en las tradiciones anarquistas y en parte de los movimientos sociales; sus críticos marxistas la consideran insuficiente frente al poder estatal.",
+    "url": "https://es.wikipedia.org/wiki/Pol%C3%ADtica_prefigurativa"
+  },
+  {
+    "id": "centralismo-democratico",
+    "termino": "Centralismo democrático",
+    "definicion": "Principio organizativo leninista: libertad de debate interno hasta que el órgano competente decide, y disciplina total en la ejecución de lo decidido, sin corrientes públicas permanentes. Sus defensores lo ven como eficacia revolucionaria; sus críticos, como la semilla de la burocratización y del mando vertical.",
+    "url": "https://es.wikipedia.org/wiki/Centralismo_democr%C3%A1tico"
+  },
+  {
+    "id": "ius-sanguinis",
+    "termino": "Ius sanguinis y ius soli",
+    "definicion": "Dos criterios de nacionalidad: por descendencia (ius sanguinis, «derecho de sangre») o por nacimiento en el territorio (ius soli, «derecho de suelo»). España combina ambos con predominio del primero: nacer en España no da por sí solo la nacionalidad salvo casos tasados. Las corrientes étnico-nacionalistas defienden el ius sanguinis estricto; otras piden ampliar el ius soli.",
+    "url": "https://es.wikipedia.org/wiki/Ius_sanguinis"
+  },
+  {
+    "id": "acuerdos-santa-sede-1979",
+    "termino": "Acuerdos con la Santa Sede (1979)",
+    "definicion": "Cuatro tratados internacionales firmados entre España y el Vaticano en enero de 1979 que regulan asuntos jurídicos, enseñanza (religión en la escuela), financiación de la Iglesia y asistencia religiosa a las Fuerzas Armadas. Tienen rango de tratado, por lo que derogarlos exige denuncia internacional, no una ley ordinaria. Su revisión o denuncia aparece de forma recurrente en programas laicistas.",
+    "url": "https://es.wikipedia.org/wiki/Acuerdos_entre_el_Estado_espa%C3%B1ol_y_la_Santa_Sede"
+  },
+  {
+    "id": "ley-eutanasia",
+    "termino": "Ley de eutanasia (LO 3/2021)",
+    "definicion": "Ley Orgánica 3/2021 que regula la eutanasia como derecho: una persona con enfermedad grave e incurable o padecimiento crónico imposibilitante puede solicitar ayuda para morir, con controles médicos y de una comisión de garantías. España fue el cuarto país europeo en legalizarla. Sus críticos plantean objeciones éticas o piden reforzar antes los cuidados paliativos.",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2021-4628"
+  },
+  {
+    "id": "pacto-toledo",
+    "termino": "Pacto de Toledo",
+    "definicion": "Acuerdo parlamentario permanente (desde 1995) que fija por consenso las recomendaciones sobre el sistema público de pensiones: separación de fuentes, revalorización, sostenibilidad. Las reformas de 2021-2023 ligaron de nuevo las pensiones al IPC y crearon el mecanismo de equidad intergeneracional. Invocarlo señala voluntad de consenso; saltárselo, reforma unilateral.",
+    "ampliacion": "Nació en 1995 como acuerdo de todos los grupos parlamentarios para sacar las pensiones de la pelea electoral: una comisión permanente emite recomendaciones por consenso y los gobiernos las traducen en reformas. La reforma de 2011 (Zapatero, con acuerdo social) elevó gradualmente la edad de jubilación; la de 2013 (Rajoy, sin consenso del Pacto) desligó las pensiones del IPC con un «índice de revalorización» propio; las de 2021-2023 (Escrivá) restauraron el IPC, crearon el mecanismo de equidad intergeneracional y reforzaron ingresos por cotizaciones. Invocar el Pacto señala búsqueda de consenso; reformar al margen, como en 2013, es la excepción que confirma su peso simbólico.",
+    "url": "https://es.wikipedia.org/wiki/Pacto_de_Toledo"
   }
 ]

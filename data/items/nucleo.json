@@ -117,7 +117,10 @@
       "inmigracion"
     ],
     "estado": "piloto",
-    "notas": "Separa prioridad de devolución y control fronterizo de regularización/acogida; las razones laborales, identitarias o humanitarias requieren los módulos de profundización."
+    "notas": "Separa prioridad de devolución y control fronterizo de regularización/acogida; las razones laborales, identitarias o humanitarias requieren los módulos de profundización.",
+    "terminos": [
+      "remigracion"
+    ]
   },
   {
     "id": "soc-003",
@@ -327,7 +330,10 @@
       "revalorizacion"
     ],
     "estado": "piloto",
-    "notas": "Discrimina: Separa PSOE/Sumar (+2) de PP (0, revaloriza pero rechaza subir cotizaciones) y de los liberales (−2, sostenibilidad primero); capta el chovinismo de bienestar de Vox (+1), que lo distingue de la derecha liberal. | Esperado: PSOE +2, Sumar/Podemos +2, EH Bildu +2, Vox +1, PP +0, liberalismo (Cs) -1. | El coste explícito ('aunque haya que aumentar impuestos') es lo que discrimina: la revalorización sin coste tiene apoyo casi unánime."
+    "notas": "Discrimina: Separa PSOE/Sumar (+2) de PP (0, revaloriza pero rechaza subir cotizaciones) y de los liberales (−2, sostenibilidad primero); capta el chovinismo de bienestar de Vox (+1), que lo distingue de la derecha liberal. | Esperado: PSOE +2, Sumar/Podemos +2, EH Bildu +2, Vox +1, PP +0, liberalismo (Cs) -1. | El coste explícito ('aunque haya que aumentar impuestos') es lo que discrimina: la revalorización sin coste tiene apoyo casi unánime.",
+    "terminos": [
+      "pacto-toledo"
+    ]
   },
   {
     "id": "eco-009",
@@ -771,7 +777,10 @@
       "jubilacion"
     ],
     "estado": "piloto",
-    "notas": "Discrimina: Separa la derecha liberal (Cs +2, indexación automática) del PP (+1, lo insinúa sin abanderarlo) y sobre todo de Vox (−1, chovinismo de bienestar: defiende a 'nuestros mayores'); y al PSOE (−1, subió a 67 pero rechaza ir más allá) de Sumar/Bildu (−2, quieren recuperar los 65). | Esperado: Ciudadanos +2, PP +1, PNV +0, PSOE -1, Vox -1, Sumar/Podemos -2, EH Bildu -2. | Es el reverso de nuc-04: mide sostenibilidad por el lado del gasto. Ligar a esperanza de vida es la formulación estándar de la propuesta real, no una premisa persuasiva. | [Añadido por el revisor para cubrir un hueco]"
+    "notas": "Discrimina: Separa la derecha liberal (Cs +2, indexación automática) del PP (+1, lo insinúa sin abanderarlo) y sobre todo de Vox (−1, chovinismo de bienestar: defiende a 'nuestros mayores'); y al PSOE (−1, subió a 67 pero rechaza ir más allá) de Sumar/Bildu (−2, quieren recuperar los 65). | Esperado: Ciudadanos +2, PP +1, PNV +0, PSOE -1, Vox -1, Sumar/Podemos -2, EH Bildu -2. | Es el reverso de nuc-04: mide sostenibilidad por el lado del gasto. Ligar a esperanza de vida es la formulación estándar de la propuesta real, no una premisa persuasiva. | [Añadido por el revisor para cubrir un hueco]",
+    "terminos": [
+      "pacto-toledo"
+    ]
   },
   {
     "id": "ter-005",

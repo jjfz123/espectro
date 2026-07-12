@@ -340,7 +340,10 @@
       "nativismo"
     ],
     "estado": "piloto",
-    "notas": "Seguimiento condicional para la justificación nacional-prioritaria o de chovinismo de bienestar, que puede coexistir con protesta fiscal en corrientes de extrema derecha. No se infiere esta motivación de lab-009 ni se usa el nombre de ninguna corriente en la pregunta."
+    "notas": "Seguimiento condicional para la justificación nacional-prioritaria o de chovinismo de bienestar, que puede coexistir con protesta fiscal en corrientes de extrema derecha. No se infiere esta motivación de lab-009 ni se usa el nombre de ninguna corriente en la pregunta.",
+    "terminos": [
+      "chovinismo-bienestar"
+    ]
   },
   {
     "id": "lab-014",
@@ -686,6 +689,9 @@
       "fiscalidad"
     ],
     "estado": "piloto",
-    "notas": "Solo-matching (2026-07-12): cierra el hueco declarado en el ancla del georgismo del atlas («falta un ítem directo sobre renta del suelo; fiscalidad general o vivienda no identifican por sí solas georgismo»). Esperado: georgismo +2 (impuesto único sobre el valor no mejorado del suelo, Progreso y miseria 1879); libertarios anti-fiscales −1/−2 (lab-009 rechaza toda coacción fiscal, también esta); socialdemocracia fiscal-general 0/−1 (prefiere renta y patrimonio). Redacción propia."
+    "notas": "Solo-matching (2026-07-12): cierra el hueco declarado en el ancla del georgismo del atlas («falta un ítem directo sobre renta del suelo; fiscalidad general o vivienda no identifican por sí solas georgismo»). Esperado: georgismo +2 (impuesto único sobre el valor no mejorado del suelo, Progreso y miseria 1879); libertarios anti-fiscales −1/−2 (lab-009 rechaza toda coacción fiscal, también esta); socialdemocracia fiscal-general 0/−1 (prefiere renta y patrimonio). Redacción propia.",
+    "terminos": [
+      "impuesto-valor-suelo"
+    ]
   }
 ]

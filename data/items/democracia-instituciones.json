@@ -4,25 +4,45 @@
     "texto": "Las decisiones políticas de mayor alcance deberían someterse habitualmente a referéndum vinculante.",
     "modulo": "democracia-instituciones",
     "ejes": [
-      { "eje": "democracia-directa", "carga": 1 },
-      { "eje": "autoridad-politica", "carga": -0.25 }
+      {
+        "eje": "democracia-directa",
+        "carga": 1
+      },
+      {
+        "eje": "autoridad-politica",
+        "carga": -0.25
+      }
     ],
     "polaridad": "positiva",
-    "tags": ["referendum", "democracia-directa"],
+    "tags": [
+      "referendum",
+      "democracia-directa"
+    ],
     "estado": "piloto",
     "notas": "Distingue la decisión directa habitual de la delegación representativa. 'Mayor alcance' evita convertir cualquier trámite en referéndum."
   },
   {
     "id": "dem-002",
-    "terminos": ["otan"],
+    "terminos": [
+      "revocatoria-mandato"
+    ],
     "texto": "Los votantes deberían poder revocar a un representante antes de que termine su mandato mediante un procedimiento reglado.",
     "modulo": "democracia-instituciones",
     "ejes": [
-      { "eje": "democracia-directa", "carga": 1 },
-      { "eje": "autoridad-politica", "carga": -0.5 }
+      {
+        "eje": "democracia-directa",
+        "carga": 1
+      },
+      {
+        "eje": "autoridad-politica",
+        "carga": -0.5
+      }
     ],
     "polaridad": "positiva",
-    "tags": ["revocacion", "mandato"],
+    "tags": [
+      "revocacion",
+      "mandato"
+    ],
     "estado": "piloto",
     "notas": "Mide revocación popular sin confundirla con destitución judicial o moción parlamentaria."
   },
@@ -31,12 +51,28 @@
     "texto": "Cualquier cargo electo debería poder ser revocado en todo momento por quienes lo eligieron.",
     "modulo": "democracia-instituciones",
     "ejes": [
-      { "eje": "democracia-directa", "carga": 1 },
-      { "eje": "autoridad-politica", "carga": -0.5 }
+      {
+        "eje": "democracia-directa",
+        "carga": 1
+      },
+      {
+        "eje": "autoridad-politica",
+        "carga": -0.5
+      }
     ],
-    "condicion": { "itemId": "dem-002", "valores": [1, 2] },
+    "condicion": {
+      "itemId": "dem-002",
+      "valores": [
+        1,
+        2
+      ]
+    },
     "polaridad": "positiva",
-    "tags": ["revocabilidad", "asamblearismo", "democracia-directa"],
+    "tags": [
+      "revocabilidad",
+      "asamblearismo",
+      "democracia-directa"
+    ],
     "estado": "piloto",
     "notas": "Seguimiento de dem-002: distingue una revocación regulada con umbrales de la revocabilidad permanente. Se pregunta solo a quien acepta el principio general para evitar doble peso automático."
   },
@@ -46,7 +82,10 @@
     "modulo": "democracia-instituciones",
     "ejes": [],
     "polaridad": "negativa",
-    "tags": ["limite-mandatos", "reeleccion"],
+    "tags": [
+      "limite-mandatos",
+      "reeleccion"
+    ],
     "estado": "piloto",
     "notas": "Solo-matching: enfrenta rotación obligatoria y libertad de reelección; no se proyecta limpiamente sobre democracia directa."
   },
@@ -56,60 +95,105 @@
     "modulo": "democracia-instituciones",
     "ejes": [],
     "polaridad": "positiva",
-    "tags": ["reeleccion", "limite-mandatos"],
+    "tags": [
+      "reeleccion",
+      "limite-mandatos"
+    ],
     "estado": "retirado",
     "notas": "Retirado antes del piloto: era el inverso de dem-003 y duplicaba el peso de límites de mandato; la libertad de reelección se explicará como contrapolo del único ítem puntuable."
   },
   {
     "id": "dem-005",
     "texto": "Los jueces de los tribunales más altos deberían ser elegidos directamente por la ciudadanía mediante votación.",
-    "terminos": ["independencia-judicial"],
+    "terminos": [
+      "independencia-judicial"
+    ],
     "modulo": "democracia-instituciones",
     "ejes": [],
     "polaridad": "positiva",
-    "tags": ["jueces", "eleccion-directa"],
+    "tags": [
+      "jueces",
+      "eleccion-directa"
+    ],
     "estado": "piloto",
     "notas": "Solo-matching: mide un método de selección judicial. Elegir jueces popularmente no equivale de forma lineal a más democracia directa ni garantiza independencia o rendición de cuentas."
   },
   {
     "id": "dem-006",
     "texto": "Los tribunales deberían poder anular una ley aprobada por el Parlamento si consideran que vulnera derechos recogidos en la Constitución.",
-    "terminos": ["tribunal-constitucional", "separacion-de-poderes"],
+    "terminos": [
+      "tribunal-constitucional",
+      "separacion-de-poderes"
+    ],
     "modulo": "democracia-instituciones",
     "ejes": [
-      { "eje": "pluralismo-institucional", "carga": 1 },
-      { "eje": "autoridad-politica", "carga": -0.75 }
+      {
+        "eje": "pluralismo-institucional",
+        "carga": 1
+      },
+      {
+        "eje": "autoridad-politica",
+        "carga": -0.75
+      }
     ],
     "polaridad": "positiva",
-    "tags": ["justicia", "contrapesos", "derechos"],
+    "tags": [
+      "justicia",
+      "contrapesos",
+      "derechos"
+    ],
     "estado": "piloto",
     "notas": "Contrapone constitucionalismo y supremacía simple de la mayoría sin asumir un método concreto de designación judicial."
   },
   {
     "id": "dem-007",
     "texto": "El Gobierno debería poder apartar temporalmente de sus funciones a los jueces que bloqueen de forma reiterada su programa político.",
-    "terminos": ["separacion-de-poderes", "independencia-judicial"],
+    "terminos": [
+      "separacion-de-poderes",
+      "independencia-judicial"
+    ],
     "modulo": "democracia-instituciones",
     "ejes": [
-      { "eje": "pluralismo-institucional", "carga": -1 },
-      { "eje": "autoridad-politica", "carga": 1 }
+      {
+        "eje": "pluralismo-institucional",
+        "carga": -1
+      },
+      {
+        "eje": "autoridad-politica",
+        "carga": 1
+      }
     ],
     "polaridad": "negativa",
-    "tags": ["justicia", "ejecutivo", "concentracion-poder"],
+    "tags": [
+      "justicia",
+      "ejecutivo",
+      "concentracion-poder"
+    ],
     "estado": "piloto",
     "notas": "Indicador directo de subordinación judicial al ejecutivo; el adverbio temporal reduce una lectura exclusivamente punitiva."
   },
   {
     "id": "dem-008",
     "texto": "La separación de poderes debe respetarse incluso cuando retrase decisiones apoyadas por una mayoría social.",
-    "terminos": ["separacion-de-poderes"],
+    "terminos": [
+      "separacion-de-poderes"
+    ],
     "modulo": "democracia-instituciones",
     "ejes": [
-      { "eje": "pluralismo-institucional", "carga": 1 },
-      { "eje": "autoridad-politica", "carga": -1 }
+      {
+        "eje": "pluralismo-institucional",
+        "carga": 1
+      },
+      {
+        "eje": "autoridad-politica",
+        "carga": -1
+      }
     ],
     "polaridad": "positiva",
-    "tags": ["separacion-poderes", "contrapesos"],
+    "tags": [
+      "separacion-poderes",
+      "contrapesos"
+    ],
     "estado": "piloto",
     "notas": "Introduce un coste real al apoyo abstracto a la separación de poderes y reduce deseabilidad social."
   },
@@ -118,11 +202,21 @@
     "texto": "En una crisis grave, concentrar temporalmente la decisión en un ejecutivo fuerte puede ser preferible al bloqueo entre instituciones.",
     "modulo": "democracia-instituciones",
     "ejes": [
-      { "eje": "pluralismo-institucional", "carga": -1 },
-      { "eje": "autoridad-politica", "carga": 0.75 }
+      {
+        "eje": "pluralismo-institucional",
+        "carga": -1
+      },
+      {
+        "eje": "autoridad-politica",
+        "carga": 0.75
+      }
     ],
     "polaridad": "positiva",
-    "tags": ["ejecutivo", "crisis", "concentracion-poder"],
+    "tags": [
+      "ejecutivo",
+      "crisis",
+      "concentracion-poder"
+    ],
     "estado": "piloto",
     "notas": "Mide tolerancia a poderes de excepción sin afirmar suspensión indefinida de derechos."
   },
@@ -131,11 +225,21 @@
     "texto": "La oposición política y la competencia entre varios partidos deben mantenerse incluso durante una emergencia nacional.",
     "modulo": "democracia-instituciones",
     "ejes": [
-      { "eje": "pluralismo-institucional", "carga": 1 },
-      { "eje": "autoridad-politica", "carga": -1 }
+      {
+        "eje": "pluralismo-institucional",
+        "carga": 1
+      },
+      {
+        "eje": "autoridad-politica",
+        "carga": -1
+      }
     ],
     "polaridad": "positiva",
-    "tags": ["pluralismo", "partidos", "emergencia"],
+    "tags": [
+      "pluralismo",
+      "partidos",
+      "emergencia"
+    ],
     "estado": "piloto",
     "notas": "Indicador de pluralismo con un coste contextual; evita la afirmación consensual sin condiciones."
   },
@@ -143,9 +247,17 @@
     "id": "dem-011",
     "texto": "El sistema parlamentario vigente debería sustituirse por otro modelo, no limitarse a reformas parciales.",
     "modulo": "nucleo",
-    "ejes": [{ "eje": "institucionalismo", "carga": -1 }],
+    "ejes": [
+      {
+        "eje": "institucionalismo",
+        "carga": -1
+      }
+    ],
     "polaridad": "negativa",
-    "tags": ["parlamentarismo", "ruptura"],
+    "tags": [
+      "parlamentarismo",
+      "ruptura"
+    ],
     "estado": "piloto",
     "notas": "La respuesta no identifica la alternativa: se combina con democracia directa y pluralismo para separar rupturas participativas, autoritarias o corporativas."
   },
@@ -154,13 +266,32 @@
     "texto": "El parlamento debería sustituirse por consejos locales y laborales cuyos delegados fueran revocables.",
     "modulo": "democracia-instituciones",
     "ejes": [
-      { "eje": "democracia-directa", "carga": 1 },
-      { "eje": "institucionalismo", "carga": -0.75 },
-      { "eje": "autoridad-politica", "carga": -0.35 }
+      {
+        "eje": "democracia-directa",
+        "carga": 1
+      },
+      {
+        "eje": "institucionalismo",
+        "carga": -0.75
+      },
+      {
+        "eje": "autoridad-politica",
+        "carga": -0.35
+      }
     ],
-    "condicion": { "itemId": "dem-011", "valores": [1, 2] },
+    "condicion": {
+      "itemId": "dem-011",
+      "valores": [
+        1,
+        2
+      ]
+    },
     "polaridad": "positiva",
-    "tags": ["consejos", "delegados", "revocacion"],
+    "tags": [
+      "consejos",
+      "delegados",
+      "revocacion"
+    ],
     "estado": "piloto",
     "notas": "Rama del rechazo parlamentario: alternativa consejista y revocable, separada de partido único o representación orgánica."
   },
@@ -169,12 +300,28 @@
     "texto": "La representación política debería organizarse por municipios y ámbitos profesionales en lugar de por partidos.",
     "modulo": "democracia-instituciones",
     "ejes": [
-      { "eje": "institucionalismo", "carga": -1 },
-      { "eje": "estatismo", "carga": 0.25 }
+      {
+        "eje": "institucionalismo",
+        "carga": -1
+      },
+      {
+        "eje": "estatismo",
+        "carga": 0.25
+      }
     ],
-    "condicion": { "itemId": "dem-011", "valores": [1, 2] },
+    "condicion": {
+      "itemId": "dem-011",
+      "valores": [
+        1,
+        2
+      ]
+    },
     "polaridad": "positiva",
-    "tags": ["representacion-organica", "municipios", "profesiones"],
+    "tags": [
+      "representacion-organica",
+      "municipios",
+      "profesiones"
+    ],
     "estado": "piloto",
     "notas": "Rama orgánica/corporativa sin referencias históricas ni etiquetas. Sustituye el duplicado dr-013."
   },
@@ -183,13 +330,32 @@
     "texto": "Un movimiento político unificado debería dirigir el Estado sin competencia permanente entre partidos.",
     "modulo": "democracia-instituciones",
     "ejes": [
-      { "eje": "pluralismo-institucional", "carga": -1 },
-      { "eje": "organizacion", "carga": 0.75 },
-      { "eje": "autoridad-politica", "carga": 1 }
+      {
+        "eje": "pluralismo-institucional",
+        "carga": -1
+      },
+      {
+        "eje": "organizacion",
+        "carga": 0.75
+      },
+      {
+        "eje": "autoridad-politica",
+        "carga": 1
+      }
     ],
-    "condicion": { "itemId": "dem-011", "valores": [1, 2] },
+    "condicion": {
+      "itemId": "dem-011",
+      "valores": [
+        1,
+        2
+      ]
+    },
     "polaridad": "positiva",
-    "tags": ["movimiento-unico", "pluralismo", "direccion"],
+    "tags": [
+      "movimiento-unico",
+      "pluralismo",
+      "direccion"
+    ],
     "estado": "piloto",
     "notas": "Rama no pluralista del rechazo parlamentario; no presupone una ideología económica o nacional concreta."
   },
@@ -198,13 +364,32 @@
     "texto": "La sustitución del sistema actual debería decidirse mediante un proceso constituyente plural con elecciones libres.",
     "modulo": "democracia-instituciones",
     "ejes": [
-      { "eje": "pluralismo-institucional", "carga": 1 },
-      { "eje": "democracia-directa", "carga": 0.5 },
-      { "eje": "autoridad-politica", "carga": -0.75 }
+      {
+        "eje": "pluralismo-institucional",
+        "carga": 1
+      },
+      {
+        "eje": "democracia-directa",
+        "carga": 0.5
+      },
+      {
+        "eje": "autoridad-politica",
+        "carga": -0.75
+      }
     ],
-    "condicion": { "itemId": "dem-011", "valores": [1, 2] },
+    "condicion": {
+      "itemId": "dem-011",
+      "valores": [
+        1,
+        2
+      ]
+    },
     "polaridad": "positiva",
-    "tags": ["proceso-constituyente", "pluralismo", "elecciones"],
+    "tags": [
+      "proceso-constituyente",
+      "pluralismo",
+      "elecciones"
+    ],
     "estado": "piloto",
     "notas": "Rama pluralista de ruptura constitucional; separa querer otro marco de querer concentración de poder."
   },
@@ -212,9 +397,18 @@
     "id": "dem-012",
     "texto": "Los cambios políticos profundos deben realizarse mediante los procedimientos previstos por la Constitución.",
     "modulo": "democracia-instituciones",
-    "ejes": [{ "eje": "institucionalismo", "carga": 1 }],
+    "ejes": [
+      {
+        "eje": "institucionalismo",
+        "carga": 1
+      }
+    ],
     "polaridad": "positiva",
-    "tags": ["constitucion", "reforma", "institucionalismo"],
+    "tags": [
+      "constitucion",
+      "reforma",
+      "institucionalismo"
+    ],
     "estado": "piloto",
     "notas": "Ancla reformista del eje; no presupone apoyo al contenido actual de la Constitución."
   },
@@ -223,11 +417,20 @@
     "texto": "Los representantes deberían estar obligados por las instrucciones políticas expresas de quienes los eligieron.",
     "modulo": "democracia-instituciones",
     "ejes": [
-      { "eje": "democracia-directa", "carga": 0.75 },
-      { "eje": "autoridad-politica", "carga": -0.25 }
+      {
+        "eje": "democracia-directa",
+        "carga": 0.75
+      },
+      {
+        "eje": "autoridad-politica",
+        "carga": -0.25
+      }
     ],
     "polaridad": "positiva",
-    "tags": ["mandato-imperativo", "representacion"],
+    "tags": [
+      "mandato-imperativo",
+      "representacion"
+    ],
     "estado": "piloto",
     "notas": "Mide mandato imperativo frente a representación libre; requiere explicar el término en glosario antes del lanzamiento."
   },
@@ -236,12 +439,25 @@
     "texto": "Las decisiones estratégicas de un partido deberían someterse a votación vinculante de toda su militancia.",
     "modulo": "nucleo",
     "ejes": [
-      { "eje": "organizacion", "carga": -1 },
-      { "eje": "democracia-directa", "carga": 0.5 },
-      { "eje": "autoridad-politica", "carga": -0.25 }
+      {
+        "eje": "organizacion",
+        "carga": -1
+      },
+      {
+        "eje": "democracia-directa",
+        "carga": 0.5
+      },
+      {
+        "eje": "autoridad-politica",
+        "carga": -0.25
+      }
     ],
     "polaridad": "positiva",
-    "tags": ["partidos", "militancia", "organizacion-interna"],
+    "tags": [
+      "partidos",
+      "militancia",
+      "organizacion-interna"
+    ],
     "estado": "piloto",
     "notas": "Aplica la forma de decisión a la organización interna, transversal a todas las familias ideológicas."
   },
@@ -250,11 +466,21 @@
     "texto": "Una dirección política cohesionada debe poder exigir disciplina pública a sus miembros aunque exista desacuerdo interno.",
     "modulo": "democracia-instituciones",
     "ejes": [
-      { "eje": "organizacion", "carga": 1 },
-      { "eje": "autoridad-politica", "carga": 0.5 }
+      {
+        "eje": "organizacion",
+        "carga": 1
+      },
+      {
+        "eje": "autoridad-politica",
+        "carga": 0.5
+      }
     ],
     "polaridad": "positiva",
-    "tags": ["disciplina", "direccion", "organizacion-interna"],
+    "tags": [
+      "disciplina",
+      "direccion",
+      "organizacion-interna"
+    ],
     "estado": "piloto",
     "notas": "Separa centralización organizativa de ideología sustantiva; aplicable a partidos de izquierda, derecha y nacionalistas."
   },
@@ -264,7 +490,10 @@
     "modulo": "democracia-instituciones",
     "ejes": [],
     "polaridad": "positiva",
-    "tags": ["sorteo", "asambleas-ciudadanas"],
+    "tags": [
+      "sorteo",
+      "asambleas-ciudadanas"
+    ],
     "estado": "piloto",
     "notas": "Solo-matching: el sorteo selecciona una muestra deliberativa, no una decisión directa de toda la ciudadanía; debe representarse como faceta propia en el desglose institucional."
   },
@@ -273,48 +502,93 @@
     "texto": "Participar pacíficamente en una manifestación no comunicada previamente no debería sancionarse solo por la falta de aviso.",
     "modulo": "nucleo",
     "ejes": [
-      { "eje": "libertades-civiles", "carga": 1 },
-      { "eje": "autoridad-politica", "carga": -0.75 }
+      {
+        "eje": "libertades-civiles",
+        "carga": 1
+      },
+      {
+        "eje": "autoridad-politica",
+        "carga": -0.75
+      }
     ],
     "polaridad": "positiva",
-    "tags": ["manifestacion", "protesta", "seguridad-ciudadana"],
+    "tags": [
+      "manifestacion",
+      "protesta",
+      "seguridad-ciudadana"
+    ],
     "estado": "piloto",
-    "notas": "Separa la protección reforzada de la protesta pacífica del deber sancionable de comunicación previa. No legitima violencia, daños ni obstrucciones peligrosas."
+    "notas": "Separa la protección reforzada de la protesta pacífica del deber sancionable de comunicación previa. No legitima violencia, daños ni obstrucciones peligrosas.",
+    "terminos": [
+      "ley-mordaza"
+    ]
   },
   {
     "id": "dem-022",
     "texto": "Difundir imágenes de agentes durante una actuación pública debería ser legal salvo que cree un riesgo concreto y acreditado para personas u operaciones.",
     "modulo": "democracia-instituciones",
     "ejes": [
-      { "eje": "libertades-civiles", "carga": 1 },
-      { "eje": "autoridad-politica", "carga": -0.75 }
+      {
+        "eje": "libertades-civiles",
+        "carga": 1
+      },
+      {
+        "eje": "autoridad-politica",
+        "carga": -0.75
+      }
     ],
     "polaridad": "positiva",
-    "tags": ["policia", "derecho-informacion", "imagenes"],
+    "tags": [
+      "policia",
+      "derecho-informacion",
+      "imagenes"
+    ],
     "estado": "piloto",
-    "notas": "Formula el conflicto entre información y seguridad con una excepción explícita; evita afirmar falsamente que fotografiar a agentes sea siempre una infracción."
+    "notas": "Formula el conflicto entre información y seguridad con una excepción explícita; evita afirmar falsamente que fotografiar a agentes sea siempre una infracción.",
+    "terminos": [
+      "ley-mordaza"
+    ]
   },
   {
     "id": "dem-023",
     "texto": "La policía debería poder pedir la documentación en la calle con fines preventivos, aunque la persona no haya hecho nada que la haga sospechosa.",
     "modulo": "democracia-instituciones",
     "ejes": [
-      { "eje": "libertades-civiles", "carga": -1 },
-      { "eje": "autoridad-politica", "carga": 0.75 }
+      {
+        "eje": "libertades-civiles",
+        "carga": -1
+      },
+      {
+        "eje": "autoridad-politica",
+        "carga": 0.75
+      }
     ],
     "polaridad": "negativa",
-    "tags": ["identificacion", "policia", "prevencion"],
+    "tags": [
+      "identificacion",
+      "policia",
+      "prevencion"
+    ],
     "estado": "piloto",
-    "notas": "Introduce el coste operativo del garantismo y mide potestad preventiva amplia; no describe como vigente una facultad ilimitada ni presupone perfil racial."
+    "notas": "Introduce el coste operativo del garantismo y mide potestad preventiva amplia; no describe como vigente una facultad ilimitada ni presupone perfil racial.",
+    "terminos": [
+      "ley-mordaza"
+    ]
   },
   {
     "id": "dem-024",
-    "terminos": ["otan"],
+    "terminos": [
+      "listas-electorales"
+    ],
     "texto": "En las elecciones al Congreso, cada votante debería poder alterar el orden de los candidatos dentro de la lista elegida.",
     "modulo": "democracia-instituciones",
     "ejes": [],
     "polaridad": "positiva",
-    "tags": ["listas-abiertas", "sistema-electoral", "candidatos"],
+    "tags": [
+      "listas-abiertas",
+      "sistema-electoral",
+      "candidatos"
+    ],
     "estado": "piloto",
     "notas": "Solo-matching: mide listas desbloqueadas o voto preferencial. No equivale por sí mismo a proporcionalidad, democracia directa ni primarias internas."
   },
@@ -324,7 +598,11 @@
     "modulo": "democracia-instituciones",
     "ejes": [],
     "polaridad": "positiva",
-    "tags": ["proporcionalidad", "gobernabilidad", "sistema-electoral"],
+    "tags": [
+      "proporcionalidad",
+      "gobernabilidad",
+      "sistema-electoral"
+    ],
     "estado": "piloto",
     "notas": "Solo-matching: hace explícito el intercambio proporcionalidad-gobernabilidad. No se mezcla con listas abiertas ni con centralización territorial."
   },
@@ -333,11 +611,21 @@
     "texto": "La dirección de los medios públicos debería requerir una mayoría parlamentaria reforzada y un mandato no coincidente con el del Gobierno.",
     "modulo": "democracia-instituciones",
     "ejes": [
-      { "eje": "pluralismo-institucional", "carga": 0.75 },
-      { "eje": "autoridad-politica", "carga": -0.75 }
+      {
+        "eje": "pluralismo-institucional",
+        "carga": 0.75
+      },
+      {
+        "eje": "autoridad-politica",
+        "carga": -0.75
+      }
     ],
     "polaridad": "positiva",
-    "tags": ["medios-publicos", "independencia", "mayoria-reforzada"],
+    "tags": [
+      "medios-publicos",
+      "independencia",
+      "mayoria-reforzada"
+    ],
     "estado": "piloto",
     "notas": "Mide un diseño concreto de independencia frente al ejecutivo. La mayoría reforzada puede producir bloqueo, coste incluido deliberadamente en la frase."
   },
@@ -346,11 +634,21 @@
     "texto": "Los responsables de organismos reguladores deberían conservar su mandato cuando cambia el Gobierno, salvo causa legal tasada.",
     "modulo": "democracia-instituciones",
     "ejes": [
-      { "eje": "pluralismo-institucional", "carga": 0.75 },
-      { "eje": "autoridad-politica", "carga": -0.75 }
+      {
+        "eje": "pluralismo-institucional",
+        "carga": 0.75
+      },
+      {
+        "eje": "autoridad-politica",
+        "carga": -0.75
+      }
     ],
     "polaridad": "positiva",
-    "tags": ["reguladores", "independencia", "administracion"],
+    "tags": [
+      "reguladores",
+      "independencia",
+      "administracion"
+    ],
     "estado": "piloto",
     "notas": "Distingue independencia institucional de control político directo; la causa legal tasada evita convertir el mandato en irresponsabilidad absoluta."
   },
@@ -359,11 +657,21 @@
     "texto": "Los derechos fundamentales de una minoría no deberían poder eliminarse mediante un referéndum, aunque participe una mayoría amplia.",
     "modulo": "democracia-instituciones",
     "ejes": [
-      { "eje": "pluralismo-institucional", "carga": 1 },
-      { "eje": "autoridad-politica", "carga": -1 }
+      {
+        "eje": "pluralismo-institucional",
+        "carga": 1
+      },
+      {
+        "eje": "autoridad-politica",
+        "carga": -1
+      }
     ],
     "polaridad": "positiva",
-    "tags": ["derechos-fundamentales", "minorias", "referendum"],
+    "tags": [
+      "derechos-fundamentales",
+      "minorias",
+      "referendum"
+    ],
     "estado": "piloto",
     "notas": "Mide límites constitucionales al mayoritarismo y debe leerse junto al apoyo general a referéndums; no niega toda decisión directa."
   },
@@ -372,13 +680,26 @@
     "texto": "Una iniciativa legislativa respaldada por suficientes firmas debería obligar al Congreso a debatirla y votarla en un plazo fijo.",
     "modulo": "democracia-instituciones",
     "ejes": [
-      { "eje": "democracia-directa", "carga": 0.75 },
-      { "eje": "autoridad-politica", "carga": -0.25 }
+      {
+        "eje": "democracia-directa",
+        "carga": 0.75
+      },
+      {
+        "eje": "autoridad-politica",
+        "carga": -0.25
+      }
     ],
     "polaridad": "positiva",
-    "tags": ["iniciativa-legislativa-popular", "participacion", "congreso"],
+    "tags": [
+      "iniciativa-legislativa-popular",
+      "participacion",
+      "congreso"
+    ],
     "estado": "piloto",
-    "notas": "Amplía la faceta participativa sin exigir que la propuesta ciudadana se apruebe ni sustituir el debate representativo."
+    "notas": "Amplía la faceta participativa sin exigir que la propuesta ciudadana se apruebe ni sustituir el debate representativo.",
+    "terminos": [
+      "iniciativa-legislativa-popular"
+    ]
   },
   {
     "id": "dem-030",
@@ -386,7 +707,11 @@
     "modulo": "democracia-instituciones",
     "ejes": [],
     "polaridad": "positiva",
-    "tags": ["transparencia", "lobbies", "agendas-publicas"],
+    "tags": [
+      "transparencia",
+      "lobbies",
+      "agendas-publicas"
+    ],
     "estado": "piloto",
     "notas": "Solo-matching: política concreta de transparencia con riesgo de deseabilidad social; se conserva para auditar programas y conducta sin fabricar un eje ideológico."
   },
@@ -395,12 +720,25 @@
     "texto": "Quien denuncie corrupción dentro de una institución debería contar con protección independiente aunque rompa la disciplina de su organización.",
     "modulo": "democracia-instituciones",
     "ejes": [
-      { "eje": "pluralismo-institucional", "carga": 0.5 },
-      { "eje": "organizacion", "carga": -0.5 },
-      { "eje": "autoridad-politica", "carga": -0.5 }
+      {
+        "eje": "pluralismo-institucional",
+        "carga": 0.5
+      },
+      {
+        "eje": "organizacion",
+        "carga": -0.5
+      },
+      {
+        "eje": "autoridad-politica",
+        "carga": -0.5
+      }
     ],
     "polaridad": "positiva",
-    "tags": ["alertadores", "corrupcion", "disciplina"],
+    "tags": [
+      "alertadores",
+      "corrupcion",
+      "disciplina"
+    ],
     "estado": "piloto",
     "notas": "Introduce un conflicto real entre control interno, independencia y disciplina; no presupone que toda filtración sea veraz o quede fuera de investigación."
   },
@@ -410,7 +748,11 @@
     "modulo": "democracia-instituciones",
     "ejes": [],
     "polaridad": "positiva",
-    "tags": ["estado-autonomico", "statu-quo", "modelo-territorial"],
+    "tags": [
+      "estado-autonomico",
+      "statu-quo",
+      "modelo-territorial"
+    ],
     "estado": "piloto",
     "notas": "Referencia intermedia de la arquitectura territorial. Es solo-matching porque el acuerdo expresa el centro de la escala y no puede cargarse linealmente hacia ninguno de sus polos. Debe leerse junto a las opciones federal, confederal y unitaria."
   },
@@ -419,11 +761,21 @@
     "texto": "España debería transformarse en un Estado federal donde las competencias de cada territorio queden garantizadas por la Constitución.",
     "modulo": "democracia-instituciones",
     "ejes": [
-      { "eje": "modelo-territorial", "carga": -0.75 },
-      { "eje": "territorial", "carga": -0.25 }
+      {
+        "eje": "modelo-territorial",
+        "carga": -0.75
+      },
+      {
+        "eje": "territorial",
+        "carga": -0.25
+      }
     ],
     "polaridad": "positiva",
-    "tags": ["federalismo", "competencias-garantizadas", "modelo-territorial"],
+    "tags": [
+      "federalismo",
+      "competencias-garantizadas",
+      "modelo-territorial"
+    ],
     "estado": "piloto",
     "notas": "Polo federal: autonomía constitucionalmente garantizada dentro de una soberanía común. No implica confederación, derecho unilateral de salida ni idéntica distribución de competencias entre todos los territorios."
   },
@@ -432,11 +784,21 @@
     "texto": "España debería organizarse como una confederación de territorios soberanos que delegan competencias limitadas en instituciones comunes.",
     "modulo": "democracia-instituciones",
     "ejes": [
-      { "eje": "modelo-territorial", "carga": -1 },
-      { "eje": "territorial", "carga": -0.5 }
+      {
+        "eje": "modelo-territorial",
+        "carga": -1
+      },
+      {
+        "eje": "territorial",
+        "carga": -0.5
+      }
     ],
     "polaridad": "positiva",
-    "tags": ["confederalismo", "soberania-territorial", "competencias-delegadas"],
+    "tags": [
+      "confederalismo",
+      "soberania-territorial",
+      "competencias-delegadas"
+    ],
     "estado": "piloto",
     "notas": "Polo confederal entre el federalismo de soberanía común y la independencia plena. La pregunta define dónde reside originariamente la soberanía; la vía de secesión y la unilateralidad se preguntan por separado."
   },
@@ -445,11 +807,21 @@
     "texto": "En un modelo confederal, cada territorio miembro debería conservar un derecho legal de salida aunque el resto se opusiera.",
     "modulo": "democracia-instituciones",
     "ejes": [
-      { "eje": "modelo-territorial", "carga": -0.5 },
-      { "eje": "territorial", "carga": -0.5 }
+      {
+        "eje": "modelo-territorial",
+        "carga": -0.5
+      },
+      {
+        "eje": "territorial",
+        "carga": -0.5
+      }
     ],
     "polaridad": "positiva",
-    "tags": ["confederalismo", "derecho-de-salida", "secesion"],
+    "tags": [
+      "confederalismo",
+      "derecho-de-salida",
+      "secesion"
+    ],
     "estado": "piloto",
     "notas": "Separa confederación con retirada jurídicamente prevista de federalismo profundo o pacto confederal irreversible. No pregunta si sería políticamente conveniente ejercerla ni legitima por sí sola una ruptura fuera de la ley."
   },
@@ -459,7 +831,11 @@
     "modulo": "democracia-instituciones",
     "ejes": [],
     "polaridad": "positiva",
-    "tags": ["voto-en-blanco", "escanos-vacios", "representacion"],
+    "tags": [
+      "voto-en-blanco",
+      "escanos-vacios",
+      "representacion"
+    ],
     "estado": "piloto",
     "notas": "Ítem solo-matching para detectar apoyo a una reforma electoral monotemática sin atribuirle por ello una ideología general, rechazo integral del parlamentarismo ni posiciones sobre otros asuntos."
   }

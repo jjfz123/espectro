@@ -264,7 +264,10 @@
       "rojipardismo"
     ],
     "estado": "piloto",
-    "notas": "Discrimina: Marcador central del socialpatriotismo: Frente Obrero a favor de limitar; PCE y trotskismo defienden regularización e internacionalismo migratorio; el PCTE denuncia el uso patronal de la migración pero rechaza restringirla (por eso -1 y no -2). | Esperado: Frente Obrero +2, PCTE -1, PCE/IU -2, Izquierda Revolucionaria -2, PCE(m-l)/hoxhaísmo -2. | [Corregido en revisión: Doble barril clásico premisa+prescripción (Kamoen & Holleman): un militante del PCTE suscribe la premisa del ejército de reserva pero rechaza la prescripción, y no sabe qué contestar. Reformulo como directiva única con cláusula de propósito, que conserva el marco rojipardo sin obligar a evaluar dos proposiciones. Posiciones y ejes (internacionalismo +0.5, social +0.5) correctos.]"
+    "notas": "Discrimina: Marcador central del socialpatriotismo: Frente Obrero a favor de limitar; PCE y trotskismo defienden regularización e internacionalismo migratorio; el PCTE denuncia el uso patronal de la migración pero rechaza restringirla (por eso -1 y no -2). | Esperado: Frente Obrero +2, PCTE -1, PCE/IU -2, Izquierda Revolucionaria -2, PCE(m-l)/hoxhaísmo -2. | [Corregido en revisión: Doble barril clásico premisa+prescripción (Kamoen & Holleman): un militante del PCTE suscribe la premisa del ejército de reserva pero rechaza la prescripción, y no sabe qué contestar. Reformulo como directiva única con cláusula de propósito, que conserva el marco rojipardo sin obligar a evaluar dos proposiciones. Posiciones y ejes (internacionalismo +0.5, social +0.5) correctos.]",
+    "terminos": [
+      "chovinismo-bienestar"
+    ]
   },
   {
     "id": "izq-014",
@@ -380,7 +383,10 @@
       "organizacion"
     ],
     "estado": "piloto",
-    "notas": "Discrimina: Grado de autoritarismo interno: luxemburguismo y sectores eurocomunistas admiten corrientes públicas; PCTE, PCOE y Frente Obrero aplican centralismo democrático estricto; el trotskismo admite tendencias internas pero exige unidad pública (0). | Esperado: luxemburguismo +2, PCE +1, trotskismo (IR) +0, PCTE -2, Frente Obrero -2, PCOE -2. | [Corregido en revisión: El constructo (autoritarismo interno) solo se alinea débilmente con el eje horizontalismo-vanguardismo: el propio borrador lo demuestra con el trotskismo, partidos de vanguardia que admiten tendencias internas. Con carga -0.75 un luxemburguista puro y un trotskista quedarían mal mapeados. Rebajo a -0.5. Además, PCE +1 es generoso: sus estatutos mantienen formalmente el centralismo democrático y prohíben fracciones organizadas, aunque tolere sensibilidades de facto; mejor hipótesis 0/+1.]"
+    "notas": "Discrimina: Grado de autoritarismo interno: luxemburguismo y sectores eurocomunistas admiten corrientes públicas; PCTE, PCOE y Frente Obrero aplican centralismo democrático estricto; el trotskismo admite tendencias internas pero exige unidad pública (0). | Esperado: luxemburguismo +2, PCE +1, trotskismo (IR) +0, PCTE -2, Frente Obrero -2, PCOE -2. | [Corregido en revisión: El constructo (autoritarismo interno) solo se alinea débilmente con el eje horizontalismo-vanguardismo: el propio borrador lo demuestra con el trotskismo, partidos de vanguardia que admiten tendencias internas. Con carga -0.75 un luxemburguista puro y un trotskista quedarían mal mapeados. Rebajo a -0.5. Además, PCE +1 es generoso: sus estatutos mantienen formalmente el centralismo democrático y prohíben fracciones organizadas, aunque tolere sensibilidades de facto; mejor hipótesis 0/+1.]",
+    "terminos": [
+      "centralismo-democratico"
+    ]
   },
   {
     "id": "izq-019",
@@ -937,7 +943,10 @@
       "cooperativismo"
     ],
     "estado": "piloto",
-    "notas": "Solo-matching (par de izq-047, 2026-07-12): voz afirmativa utópico-prefigurativa frente al determinismo de condiciones; ambas voces del par se preguntan por separado para no privilegiar una. Esperado: anarquismo prefigurativo, cooperativismo y socialismo utópico +1/+2; ML clásico −1/−2 (prioriza condiciones y partido); reformismo gradualista puede coincidir en +1 por motivos distintos. Redacción propia."
+    "notas": "Solo-matching (par de izq-047, 2026-07-12): voz afirmativa utópico-prefigurativa frente al determinismo de condiciones; ambas voces del par se preguntan por separado para no privilegiar una. Esperado: anarquismo prefigurativo, cooperativismo y socialismo utópico +1/+2; ML clásico −1/−2 (prioriza condiciones y partido); reformismo gradualista puede coincidir en +1 por motivos distintos. Redacción propia.",
+    "terminos": [
+      "politica-prefigurativa"
+    ]
   },
   {
     "id": "izq-049",

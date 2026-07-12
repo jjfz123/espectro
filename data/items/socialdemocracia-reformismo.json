@@ -58,7 +58,9 @@
   },
   {
     "id": "sd-004",
-    "terminos": ["estado-plurinacional"],
+    "terminos": [
+      "estado-plurinacional"
+    ],
     "texto": "La Constitución debería reconocer a España como un Estado plurinacional.",
     "modulo": "socialdemocracia-reformismo",
     "ejes": [
@@ -130,7 +132,9 @@
   },
   {
     "id": "sd-008",
-    "terminos": ["renta-basica-universal"],
+    "terminos": [
+      "renta-basica-universal"
+    ],
     "texto": "El Estado debe garantizar una renta básica universal e incondicional a toda la ciudadanía.",
     "modulo": "socialdemocracia-reformismo",
     "ejes": [
@@ -263,7 +267,10 @@
       "concordato"
     ],
     "estado": "piloto",
-    "notas": "Discrimina: Izquierda Española, Podemos, Sumar y el ala izquierda del PSOE (denuncia del Concordato) frente a la dirección del PSOE, que lo promete en programas y nunca lo ejecuta desde el Gobierno. | Esperado: Izquierda Española +2, Podemos +2, Sumar +2, PSOE (Izquierda Socialista) +1, PSOE (dirección) +0."
+    "notas": "Discrimina: Izquierda Española, Podemos, Sumar y el ala izquierda del PSOE (denuncia del Concordato) frente a la dirección del PSOE, que lo promete en programas y nunca lo ejecuta desde el Gobierno. | Esperado: Izquierda Española +2, Podemos +2, Sumar +2, PSOE (Izquierda Socialista) +1, PSOE (dirección) +0.",
+    "terminos": [
+      "acuerdos-santa-sede-1979"
+    ]
   },
   {
     "id": "sd-015",

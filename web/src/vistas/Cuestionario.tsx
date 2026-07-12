@@ -191,7 +191,11 @@ export function Cuestionario({ estado, despachar }: Props) {
                     </details>
                   ) : null}
                   <a href={t.url} target="_blank" rel="noopener noreferrer">
-                    Ver en Wikipedia
+                    {t.url.includes('wikipedia.org')
+                      ? 'Ver en Wikipedia'
+                      : t.url.includes('boe.es')
+                        ? 'Ver en el BOE'
+                        : 'Ver la fuente'}
                   </a>
                 </dd>
               </div>

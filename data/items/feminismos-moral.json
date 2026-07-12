@@ -88,7 +88,10 @@
       "final-de-vida"
     ],
     "estado": "piloto",
-    "notas": "Discrimina: Separa el bloque democristiano/tradicionalista (VOX +2, democristianos +2, PP +1) del consenso izquierda + liberales (Cs votó a favor de la ley, −2). Dentro de la derecha, distingue a los liberales de los confesionales. | Esperado: VOX +2, sector democristiano del PP +2, PP (oficial) +1, PNV -1, Ciudadanos -2, PSOE -2, Podemos -2. | La ley de eutanasia (2021) fue votada a favor por PSOE, UP, Cs, ERC, PNV y Bildu; PP y VOX en contra y recurrieron al TC. | [Corregido en revisión: Ambigüedad real: 'la regulación que permite la eutanasia EN LA SANIDAD PÚBLICA debe derogarse' admite la lectura de 'que siga siendo legal pero fuera de la pública' — un democristiano moderado y un liberal podrían marcar acuerdo por razones opuestas. La ley de 2021 regula la eutanasia como derecho, no solo su prestación pública. Eliminada la coletilla, el ítem mide lo que dice medir. Cargas correctas (acuerdo = tradicionalismo moral + confesionalismo) y es de los pocos ítems invertidos del módulo, lo que ayuda contra la aquiescencia. Posiciones acordes con la votación real de 2021.]"
+    "notas": "Discrimina: Separa el bloque democristiano/tradicionalista (VOX +2, democristianos +2, PP +1) del consenso izquierda + liberales (Cs votó a favor de la ley, −2). Dentro de la derecha, distingue a los liberales de los confesionales. | Esperado: VOX +2, sector democristiano del PP +2, PP (oficial) +1, PNV -1, Ciudadanos -2, PSOE -2, Podemos -2. | La ley de eutanasia (2021) fue votada a favor por PSOE, UP, Cs, ERC, PNV y Bildu; PP y VOX en contra y recurrieron al TC. | [Corregido en revisión: Ambigüedad real: 'la regulación que permite la eutanasia EN LA SANIDAD PÚBLICA debe derogarse' admite la lectura de 'que siga siendo legal pero fuera de la pública' — un democristiano moderado y un liberal podrían marcar acuerdo por razones opuestas. La ley de 2021 regula la eutanasia como derecho, no solo su prestación pública. Eliminada la coletilla, el ítem mide lo que dice medir. Cargas correctas (acuerdo = tradicionalismo moral + confesionalismo) y es de los pocos ítems invertidos del módulo, lo que ayuda contra la aquiescencia. Posiciones acordes con la votación real de 2021.]",
+    "terminos": [
+      "ley-eutanasia"
+    ]
   },
   {
     "id": "fem-006",
@@ -152,7 +155,10 @@
       "religion"
     ],
     "estado": "retirado",
-    "notas": "Discrimina: Eje laicismo escolar: IU/Podemos/ERC (+2) frente a PP/VOX/PNV (−2), con el PSOE en un +1 programático que nunca ejecuta del todo. Separa también a Cs (laicista tibio) del PP. | Esperado: IU/PCE +2, Podemos +2, ERC +2, PSOE +1, Ciudadanos +1, PNV -2, PP -2, VOX -2."
+    "notas": "Discrimina: Eje laicismo escolar: IU/Podemos/ERC (+2) frente a PP/VOX/PNV (−2), con el PSOE en un +1 programático que nunca ejecuta del todo. Separa también a Cs (laicista tibio) del PP. | Esperado: IU/PCE +2, Podemos +2, ERC +2, PSOE +1, Ciudadanos +1, PNV -2, PP -2, VOX -2.",
+    "terminos": [
+      "acuerdos-santa-sede-1979"
+    ]
   },
   {
     "id": "fem-009",
@@ -199,7 +205,9 @@
   {
     "id": "fem-011",
     "texto": "El Código Penal debería mantener penas más duras cuando un hombre agrede a su pareja o expareja mujer, frente a otras agresiones.",
-    "terminos": ["codigo-penal"],
+    "terminos": [
+      "codigo-penal"
+    ],
     "modulo": "feminismos-moral",
     "ejes": [],
     "polaridad": "positiva",
@@ -237,7 +245,9 @@
   {
     "id": "fem-013",
     "texto": "El Código Penal debería dejar de castigar la ofensa a los sentimientos religiosos.",
-    "terminos": ["codigo-penal"],
+    "terminos": [
+      "codigo-penal"
+    ],
     "modulo": "feminismos-moral",
     "ejes": [
       {
@@ -278,26 +288,50 @@
     "texto": "El Estado debería promover activamente el ateísmo y excluir a las organizaciones religiosas de la vida pública.",
     "modulo": "feminismos-moral",
     "ejes": [
-      { "eje": "laicismo", "carga": -1 },
-      { "eje": "libertad-conciencia", "carga": -1 },
-      { "eje": "autoridad-politica", "carga": 0.5 }
+      {
+        "eje": "laicismo",
+        "carga": -1
+      },
+      {
+        "eje": "libertad-conciencia",
+        "carga": -1
+      },
+      {
+        "eje": "autoridad-politica",
+        "carga": 0.5
+      }
     ],
     "polaridad": "negativa",
-    "tags": ["ateismo-estado", "religion", "vida-publica"],
+    "tags": [
+      "ateismo-estado",
+      "religion",
+      "vida-publica"
+    ],
     "estado": "piloto",
     "notas": "Ancla el extremo de ateísmo de Estado y lo separa del laicismo que protege la libertad religiosa privada y asociativa."
   },
   {
     "id": "rel-002",
-    "terminos": ["aconfesionalidad"],
+    "terminos": [
+      "aconfesionalidad"
+    ],
     "texto": "El Estado debe ser aconfesional: no adoptar una religión oficial y permitir la expresión pública de todas dentro de la ley.",
     "modulo": "feminismos-moral",
     "ejes": [
-      { "eje": "libertad-conciencia", "carga": 1 },
-      { "eje": "autoridad-politica", "carga": -0.5 }
+      {
+        "eje": "libertad-conciencia",
+        "carga": 1
+      },
+      {
+        "eje": "autoridad-politica",
+        "carga": -0.5
+      }
     ],
     "polaridad": "positiva",
-    "tags": ["aconfesionalidad", "libertad-religiosa"],
+    "tags": [
+      "aconfesionalidad",
+      "libertad-religiosa"
+    ],
     "estado": "piloto",
     "notas": "Punto central del continuo institucional. No carga laicismo porque el acuerdo con una posición central no debe empujar hacia un polo; sí aporta al eje independiente de libertad de conciencia."
   },
@@ -306,13 +340,29 @@
     "texto": "Las autoridades religiosas deberían poder impedir la aprobación de leyes contrarias a su doctrina.",
     "modulo": "feminismos-moral",
     "ejes": [
-      { "eje": "laicismo", "carga": 1 },
-      { "eje": "pluralismo-institucional", "carga": -0.5 },
-      { "eje": "libertad-conciencia", "carga": -1 },
-      { "eje": "autoridad-politica", "carga": 1 }
+      {
+        "eje": "laicismo",
+        "carga": 1
+      },
+      {
+        "eje": "pluralismo-institucional",
+        "carga": -0.5
+      },
+      {
+        "eje": "libertad-conciencia",
+        "carga": -1
+      },
+      {
+        "eje": "autoridad-politica",
+        "carga": 1
+      }
     ],
     "polaridad": "positiva",
-    "tags": ["teocracia", "veto-religioso", "leyes"],
+    "tags": [
+      "teocracia",
+      "veto-religioso",
+      "leyes"
+    ],
     "estado": "piloto",
     "notas": "Ancla teocrática explícita, distinta de una confesionalidad simbólica sin poder jurídico del clero."
   }
