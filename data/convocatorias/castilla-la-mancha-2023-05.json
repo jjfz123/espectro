@@ -83,6 +83,16 @@
           "perfilId": "podemos",
           "relacion": "componente",
           "nota": "Podemos figura como componente de esta candidatura fechada; sus posiciones no se atribuyen automáticamente a la coalición."
+        },
+        {
+          "perfilId": "iu",
+          "relacion": "componente",
+          "nota": "Izquierda Unida integra la coalición cuya denominación oficial es «UNIDAS PODEMOS-IZQUIERDA UNIDA-EQUO CLM (PODEMOS-IU-EQUO CLM)»; confirmado por el portal electoral de Castilla-La Mancha y eldiario.es. Sus posiciones no se atribuyen automáticamente a la coalición."
+        },
+        {
+          "perfilId": "verdes-equo",
+          "relacion": "componente",
+          "nota": "Verdes Equo (Equo) figura en la denominación oficial de la coalición «PODEMOS-IU-EQUO CLM» y aporta candidatos a sus listas; confirmado por el portal electoral de Castilla-La Mancha y eldiario.es. Sus posiciones no se atribuyen automáticamente a la coalición."
         }
       ],
       "nota": "Naturaleza inventariada: coalicion-electoral. Vigencia comprobada: matrices-verificadas. Tratamiento previsto: perfil-especifico."

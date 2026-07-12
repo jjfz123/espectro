@@ -114,6 +114,11 @@
           "perfilId": "podemos",
           "relacion": "componente",
           "nota": "Podemos figura como componente de esta candidatura fechada; sus posiciones no se atribuyen automáticamente a la coalición."
+        },
+        {
+          "perfilId": "iu",
+          "relacion": "componente",
+          "nota": "Esquerra Unida de les Illes Balears (federación de Izquierda Unida) integra la candidatura «Unidas Podemos», presentada con las siglas EUIB-PODEMOS; confirmado por la Junta Electoral y Wikipedia. Sus posiciones no se atribuyen automáticamente a la coalición."
         }
       ],
       "nota": "Naturaleza inventariada: coalicion-electoral. Vigencia comprobada: matrices-verificadas. Tratamiento previsto: perfil-especifico."

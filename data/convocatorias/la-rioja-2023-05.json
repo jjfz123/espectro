@@ -90,6 +90,11 @@
           "perfilId": "podemos",
           "relacion": "componente",
           "nota": "Podemos figura como componente de esta candidatura fechada; sus posiciones no se atribuyen automáticamente a la coalición."
+        },
+        {
+          "perfilId": "iu",
+          "relacion": "componente",
+          "nota": "Izquierda Unida encabezó la candidatura «Podemos-Izquierda Unida» (nº 1, Henar Moreno, líder de IU La Rioja); confirmado por Público e Izquierda Unida. Sus posiciones no se atribuyen automáticamente a la coalición."
         }
       ],
       "nota": "Naturaleza inventariada: coalicion-electoral. Vigencia comprobada: matrices-verificadas. Tratamiento previsto: perfil-especifico."

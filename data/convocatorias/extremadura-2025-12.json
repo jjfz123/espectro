@@ -95,6 +95,11 @@
           "perfilId": "alianza-verde",
           "relacion": "componente",
           "nota": "Alianza Verde figura como componente de esta candidatura fechada; sus posiciones no se atribuyen automáticamente a la coalición."
+        },
+        {
+          "perfilId": "iu",
+          "relacion": "componente",
+          "nota": "Izquierda Unida integra «Unidas por Extremadura» junto a Podemos y Alianza Verde (el coordinador federal de IU, Antonio Maíllo, participó en la campaña); confirmado por eldiario.es y Demócrata. Sus posiciones no se atribuyen automáticamente a la coalición."
         }
       ],
       "nota": "Naturaleza inventariada: coalicion-electoral. Vigencia comprobada: electoral-2025. Tratamiento previsto: perfil-especifico."

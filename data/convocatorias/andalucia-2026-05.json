@@ -138,6 +138,11 @@
           "perfilId": "alianza-verde",
           "relacion": "componente",
           "nota": "Alianza Verde figura como componente de esta candidatura fechada; sus posiciones no se atribuyen automáticamente a la coalición."
+        },
+        {
+          "perfilId": "iu",
+          "relacion": "componente",
+          "nota": "Izquierda Unida integra la coalición «Por Andalucía» junto a Podemos y Movimiento Sumar (candidato Antonio Maíllo, coordinador federal de IU); confirmado por prensa (ORAIN, Demócrata). Sus posiciones no se atribuyen automáticamente a la coalición."
         }
       ],
       "nota": "Naturaleza inventariada: coalicion-electoral. Vigencia comprobada: electoral-2026. Tratamiento previsto: perfil-especifico."

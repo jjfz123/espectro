@@ -143,6 +143,11 @@
           "perfilId": "podemos",
           "relacion": "componente",
           "nota": "Podemos figura como componente de esta candidatura fechada; sus posiciones no se atribuyen automáticamente a la coalición."
+        },
+        {
+          "perfilId": "iu",
+          "relacion": "componente",
+          "nota": "Izquierda Unida Canaria integra la coalición «Unidas Sí Podemos» junto a Podemos Canarias y Sí se puede; confirmado por Sí se puede Canarias y RTVC. Sus posiciones no se atribuyen automáticamente a la coalición."
         }
       ],
       "nota": "Naturaleza inventariada: coalicion-electoral. Vigencia comprobada: matrices-verificadas. Tratamiento previsto: perfil-especifico."

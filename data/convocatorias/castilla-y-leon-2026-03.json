@@ -117,6 +117,11 @@
           "perfilId": "verdes-equo",
           "relacion": "componente",
           "nota": "Verdes Equo figura como componente de esta candidatura fechada; sus posiciones no se atribuyen automáticamente a la coalición."
+        },
+        {
+          "perfilId": "iu",
+          "relacion": "componente",
+          "nota": "Izquierda Unida de Castilla y León encabeza la coalición «Izquierda Unida, Movimiento Sumar, Verdes Equo: En Común» (nº 1, Juan Gascón, coordinador general de IU CyL); confirmado por la Junta Electoral y prensa regional. Sus posiciones no se atribuyen automáticamente a la coalición."
         }
       ],
       "nota": "Naturaleza inventariada: coalicion-electoral. Vigencia comprobada: electoral-2026. Tratamiento previsto: perfil-especifico."
