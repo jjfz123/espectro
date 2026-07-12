@@ -139,34 +139,6 @@
       },
       "grupoEvidencia": "pasaje-f10156866de5e5e5656e"
     },
-    "izq-016": {
-      "valor": 2,
-      "justificacion": "De Leon exige que la clase obrera se oriente a abolir el sistema salarial en vez de retocar sus efectos: el rechazo del reformismo respalda la expropiación revolucionaria sin indemnización de banca y grandes empresas.",
-      "calidadEvidencia": "media",
-      "fuente": {
-        "tipo": "otro",
-        "titulo": "Daniel De Leon, Reform or Revolution (1896, marxists.org) (en inglés)",
-        "url": "https://www.marxists.org/archive/deleon/pdf/1896/RefRev.pdf",
-        "fecha": "1896",
-        "consultado": "2026-07-11",
-        "cita": "the working class must direct itself toward the abolition of the wages system instead of tinkering with its effects (en inglés)"
-      },
-      "grupoEvidencia": "pasaje-a381b5b45a809a2d7bac"
-    },
-    "sd-008": {
-      "valor": -2,
-      "justificacion": "En la misma obra De Leon tacha de fatuas reformas como el seguro de desempleo o la propiedad municipal; una renta básica universal es una reforma paliativa afín que rechazaría. Extensión declarada; pasaje distinto del citado para izq-016.",
-      "calidadEvidencia": "media",
-      "fuente": {
-        "tipo": "otro",
-        "titulo": "Daniel De Leon, Reform or Revolution (1896, marxists.org) (en inglés)",
-        "url": "https://www.marxists.org/archive/deleon/pdf/1896/RefRev.pdf",
-        "fecha": "1896",
-        "consultado": "2026-07-11",
-        "cita": "cheaper transportation, municipal ownership, unemployment insurance, and other kindred and fatuous reforms (en inglés)"
-      },
-      "grupoEvidencia": "pasaje-c9597321bcd1d9ddaf3f"
-    },
     "izq-013": {
       "valor": -2,
       "justificacion": "De Leon niega que la inmigración baje los salarios y atribuye esa presión a la clase capitalista: contradice frontalmente limitar la entrada de trabajadores extranjeros para proteger salarios.",

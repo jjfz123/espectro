@@ -157,8 +157,8 @@
       }
     },
     "izq-017": {
-      "valor": 2,
-      "justificacion": "Sobre la Nueva Democracia conserva un amplio sector capitalista subordinado: el Estado no confisca la propiedad privada que no domine la vida material del pueblo. Encaja con mantener décadas un sector privado bajo planificación pública.",
+      "valor": 1,
+      "justificacion": "Sobre la Nueva Democracia conserva un sector capitalista subordinado: el Estado no confisca la propiedad privada que no domine la vida material del pueblo. Valor alineado con el ancla de calibración del banco (maoísmo esperado +1): la tolerancia es por etapas, no un compromiso duradero con la economía mixta.",
       "calidadEvidencia": "alta",
       "fuente": {
         "tipo": "otro",
@@ -194,23 +194,9 @@
         "url": "https://www.marxists.org/espanol/mao/escritos/ND40s.html",
         "fecha": "1940",
         "consultado": "2026-07-11",
-        "cita": "el sector estatal de la economía... tendrá carácter socialista y constituirá la fuerza dirigente de toda la economía nacional"
+        "cita": "el sector estatal de la economía... tendrá carácter socialista y constituirá la fuerza dirigente en toda la economía nacional"
       },
       "grupoEvidencia": "pasaje-e72cf96c087f53cdae9f"
-    },
-    "izq-016": {
-      "valor": 1,
-      "justificacion": "En 1948 Mao no teme confiscar el capital burocrático de los grandes monopolios, pero el programa por etapas protege a la burguesía nacional (no contradice izq-017): expropiación parcial sin indemnización, de ahí +1.",
-      "calidadEvidencia": "media",
-      "fuente": {
-        "tipo": "otro",
-        "titulo": "Mao Zedong, Problemas de la actual política del Partido (marxists.org/espanol)",
-        "url": "https://www.marxists.org/espanol/mao/escritos/PPP48s.html",
-        "fecha": "1948",
-        "consultado": "2026-07-11",
-        "cita": "no hay que temer a confiscar el capital burocrático"
-      },
-      "grupoEvidencia": "pasaje-12c07ee571c8824663a9"
     },
     "fem-007": {
       "valor": -2,

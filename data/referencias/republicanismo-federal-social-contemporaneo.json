@@ -211,8 +211,8 @@
     },
     "soc-001": {
       "valor": 2,
-      "justificacion": "El programa 10N de IU dedica un eje a la conquista de la igualdad real LGTBI; la corriente defiende mantener y reforzar por ley la protección del matrimonio igualitario y los derechos LGTB.",
-      "calidadEvidencia": "alta",
+      "justificacion": "El programa 10N de IU dedica un eje a la conquista de la igualdad real LGTBI; la corriente defiende mantener y reforzar por ley la protección del matrimonio igualitario y los derechos LGTB. La cita es el epígrafe del cuadernillo, no prosa argumental: calidad media hasta citar el cuerpo (revisión adversarial).",
+      "calidadEvidencia": "media",
       "fuente": {
         "tipo": "programa",
         "titulo": "IU, Programa 10N, cuadernillo 14: un país que lucha por los derechos LGTBI",
@@ -225,10 +225,10 @@
     },
     "eco-009": {
       "valor": -2,
-      "justificacion": "IU impulsa una proposición de ley para crear un impuesto a las grandes herencias y donaciones por encima del millón de euros: defiende reforzar la imposición sucesoria, lo contrario de suprimir el impuesto de sucesiones y donaciones que plantea el ítem. El titular citado es el título de la propia nota.",
-      "calidadEvidencia": "alta",
+      "justificacion": "IU impulsa una proposición de ley para crear un impuesto a las grandes herencias y donaciones por encima del millón de euros: defiende reforzar la imposición sucesoria, lo contrario de suprimir el impuesto de sucesiones y donaciones que plantea el ítem. El titular citado es el título de la propia nota (no prosa argumental): calidad media.",
+      "calidadEvidencia": "media",
       "fuente": {
-        "tipo": "programa",
+        "tipo": "declaracion",
         "titulo": "IU, proposición de ley de Impuesto a las Grandes Herencias y Donaciones por encima del millón de euros",
         "url": "https://izquierdaunida.org/2026/05/22/izquierda-unida-impulsa-una-proposicion-de-ley-para-crear-un-impuesto-a-las-grandes-herencias-y-donaciones-por-encima-del-millon-de-euros/",
         "fecha": "2026-05-22",
@@ -253,8 +253,8 @@
     },
     "fem-001": {
       "valor": 2,
-      "justificacion": "Bajo ese título, el comunicado celebra el avance de la Ley Trans y de derechos LGTBI: la autodeterminación registral sin requisitos médicos ni psicológicos que la ley consagra es lo que formula el ítem.",
-      "calidadEvidencia": "alta",
+      "justificacion": "Bajo ese título, el comunicado celebra el avance de la Ley Trans y de derechos LGTBI. La cita es el eslogan del comunicado y no menciona por sí sola la autodeterminación registral sin informes que formula el ítem (la aporta el contenido de la ley celebrada): calidad media hasta citar el cuerpo del comunicado (revisión adversarial).",
+      "calidadEvidencia": "media",
       "fuente": {
         "tipo": "declaracion",
         "titulo": "IU, Son derechos, no deseos ¡es ley! Unidas Podemos reivindica el avance de la Ley Trans y de derechos LGTBI",
@@ -267,8 +267,8 @@
     },
     "soc-004": {
       "valor": 2,
-      "justificacion": "El Programa Marco de 2023 recoge como epígrafe la regularización extraordinaria de las personas migrantes y los derechos de ciudadanía, coincidente con la regularización extraordinaria del ítem; la cita es el título de la sección programática; cotejo humano del PDF pendiente.",
-      "calidadEvidencia": "alta",
+      "justificacion": "El Programa Marco de 2023 recoge como epígrafe la regularización extraordinaria de las personas migrantes y los derechos de ciudadanía, coincidente con la regularización extraordinaria del ítem; la cita es el título de la sección programática; cotejo humano del PDF pendiente y por eso calidad media (una verificación pendiente no puede declararse alta).",
+      "calidadEvidencia": "media",
       "fuente": {
         "tipo": "programa",
         "titulo": "Programa Marco IU Elecciones Generales 2023",
