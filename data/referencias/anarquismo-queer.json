@@ -1,0 +1,121 @@
+{
+  "id": "anarquismo-queer",
+  "nombre": "Anarquismo queer",
+  "tipo": "referencia-doctrinal",
+  "definicion": "Tipo ideal del anarquismo queer contemporáneo: la crítica de las normas de sexualidad y género y la crítica del Estado, las jerarquías y las relaciones capitalistas forman un único análisis, y frente a la asimilación en las instituciones —matrimonio, cárcel, ejército— se propone la liberación sexual y de género mediante autoorganización antiautoritaria.",
+  "variante": "Corpus angloamericano contemporáneo (Against Equality, Queering Anarchism, Bash Back!) con recepción española a través de la prensa confederal; el disenso interno entre ramas organizadoras y nihilistas-insurreccionalistas impide atribuir una táctica única",
+  "periodo": "2000–actualidad",
+  "confianza": "verificada",
+  "version": "1.0",
+  "revisado": "2026-07-12",
+  "publicacionMapa": {
+    "publicable": false,
+    "motivo": "Solo 1 ancla económica documentable sin lectura directa de los PDF del corpus; publicarla proyectaría su eje económico desde evidencia insuficiente."
+  },
+  "facetasDefinitorias": [
+    "social",
+    "tradicion-moral",
+    "autoridad-politica",
+    "estatismo",
+    "economico"
+  ],
+  "sensibilidad": "normal",
+  "advertencia": "Es una referencia doctrinal no electoral construida sobre un corpus angloamericano contemporáneo con recepción española parcial; no describe a CNT ni a ningún colectivo LGTB real, y nadie queda identificado con ella por una respuesta aislada en debates LGTB o trans. El disenso interno es real: la crítica del matrimonio igualitario como asimilación convive con ramas que priorizan la conquista de derechos, y la rama nihilista respondería distinto en varios ítems. No fija posición sobre el trabajo sexual y su eje económico permanece en investigación.",
+  "fuentesMarco": [
+    {
+      "tipo": "otro",
+      "titulo": "La teoría queer y el anarquismo (CNT)",
+      "url": "https://www.cnt.es/noticias/la-teoria-queer-y-el-anarquismo/",
+      "consultado": "2026-07-11"
+    },
+    {
+      "tipo": "otro",
+      "titulo": "Yasmin Nair, Neoliberalism’s Handiest Little Tool: Against Equality on Marriage (entrevista, No More Potlucks) (en inglés)",
+      "url": "https://yasminnair.com/neoliberalisms-handiest-little-tool-against-equality-on-marriage-interview-in-no-more-potlucks/",
+      "fecha": "2010",
+      "consultado": "2026-07-11"
+    },
+    {
+      "tipo": "otro",
+      "titulo": "Against Equality (colectivo editorial), Wikipedia (en inglés)",
+      "url": "https://en.wikipedia.org/wiki/Against_Equality",
+      "consultado": "2026-07-11"
+    }
+  ],
+  "reglaPublicacion": {
+    "minimoItems": 5,
+    "minimoCobertura": 0.55,
+    "umbralAfinidad": 74
+  },
+  "posiciones": {
+    "izq-014": {
+      "valor": -2,
+      "justificacion": "La tesis constitutiva es que la crítica de género y sexualidad y la crítica de clase son un solo análisis, no agendas rivales: niega frontalmente que las agendas feminista y LGTB desvíen de la lucha económica. Refuerzo doctrinal: Queering Anarchism (AK Press, 2012), «queer politics needs an analysis of class and power (en inglés)».",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "La teoría queer y el anarquismo (CNT)",
+        "url": "https://www.cnt.es/noticias/la-teoria-queer-y-el-anarquismo/",
+        "consultado": "2026-07-11",
+        "cita": "El movimiento queer tiene mucho que ver con el anarquismo, siempre preocupado por el reconocimiento de las minorías, excluidos a nivel económico y social"
+      },
+      "grupoEvidencia": "pasaje-57f0e0f67f481cbccebf"
+    },
+    "soc-001": {
+      "valor": 1,
+      "justificacion": "Defiende a las personas LGTB pero impugna el matrimonio —también el igualitario— como asimilación y privatización capitalista del parentesco: apoyo a mantener derechos sin adhesión a la institución, con disenso interno declarado (la rama nihilista respondería distinto). El pasaje se comparte con lab-010 en ejes distintos: aquí social y poder político; allí económico y estatismo.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Yasmin Nair, introducción a Against Equality: Queer Critiques of Gay Marriage (Ryan Conrad ed.) (en inglés)",
+        "url": "https://yasminnair.com/neoliberalisms-handiest-little-tool-against-equality-on-marriage-interview-in-no-more-potlucks/",
+        "fecha": "2010",
+        "consultado": "2026-07-11",
+        "cita": "a queer radical critique of gay marriage exposes how capitalism structures our notion of \"family\" and the privatization of the social relationships we depend on to survive (en inglés)"
+      },
+      "grupoEvidencia": "pasaje-bd0f14098b8531abd9f4"
+    },
+    "fem-001": {
+      "valor": 1,
+      "justificacion": "La despatologización es radical: si queer es el rechazo de toda identidad fija, sobran los informes médicos y psicológicos que certifiquen una; el recelo ante el registro civil estatal como productor de identidades impide el máximo, de ahí +1.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Introducción a Queer Ultraviolence: Bash Back! Anthology (Fray Baroque y Tegan Eanelli, eds.) (en inglés)",
+        "url": "https://libcom.org/article/queer-ultraviolence-bash-back-anthology",
+        "fecha": "2011",
+        "consultado": "2026-07-11",
+        "cita": "We view queer as the blurring of sexual and gender identities. Queer is the refusal of fixed identities. It is a war on all identity. (en inglés)"
+      },
+      "grupoEvidencia": "pasaje-096522cb7b0cb4195d6e"
+    },
+    "soc-006": {
+      "valor": 1,
+      "justificacion": "El abolicionismo penal —anti-prison industrial complex— es frente constitutivo del corpus y apunta a suprimir la prisión permanente revisable, pero la cita disponible es un descriptor editorial del colectivo, no un pasaje interior del volumen: valor moderado hasta extraer pasaje interior (cola humana), rebaja fijada por revisión editorial.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Against Equality, autodefinición del colectivo (volumen Prisons Will Not Protect You, Ryan Conrad ed.; vía Wikipedia) (en inglés)",
+        "url": "https://en.wikipedia.org/wiki/Against_Equality",
+        "fecha": "2012",
+        "consultado": "2026-07-11",
+        "cita": "radicals, anarchists and revolution seeking queers who are anti-marriage, anti-prison industrial complex, anti-military and anti-assimilation (en inglés)"
+      },
+      "grupoEvidencia": "pasaje-a028b557fb6a80cbb0d6"
+    },
+    "lab-010": {
+      "valor": -1,
+      "justificacion": "El análisis es anticapitalista —el capitalismo estructura la noción de familia y privatiza las relaciones de las que dependemos para sobrevivir—, así que rechaza la razón individual-propietaria del ítem; −1 y no −2 porque el pasaje no discute impuestos ni propiedad productiva. El pasaje se comparte con soc-001 en ejes distintos: aquí económico y estatismo; allí social y poder político.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Yasmin Nair, introducción a Against Equality: Queer Critiques of Gay Marriage (Ryan Conrad ed.) (en inglés)",
+        "url": "https://yasminnair.com/neoliberalisms-handiest-little-tool-against-equality-on-marriage-interview-in-no-more-potlucks/",
+        "fecha": "2010",
+        "consultado": "2026-07-11",
+        "cita": "a queer radical critique of gay marriage exposes how capitalism structures our notion of \"family\" and the privatization of the social relationships we depend on to survive (en inglés)"
+      },
+      "grupoEvidencia": "pasaje-bd0f14098b8531abd9f4"
+    }
+  }
+}
