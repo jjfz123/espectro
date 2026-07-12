@@ -1,0 +1,107 @@
+{
+  "id": "propertarianismo",
+  "nombre": "Propertarianismo",
+  "tipo": "referencia-doctrinal",
+  "definicion": "Corriente que atribuye prioridad política radical a la propiedad, el contrato y las facultades de exclusión, reduciendo todo derecho —empezando por la propiedad de uno mismo— a derecho de propiedad (así describe Brian Doherty el libertarismo de Rothbard) y proponiendo sustituir las burocracias estatales por relaciones contractuales; abarca desde un cuerpo mínimo que solo haga cumplir contratos y propiedad hasta la provisión enteramente privada.",
+  "variante": "Foco en la propiedad como fundamento de todo derecho; abarca desde minarquistas de contrato hasta anarquistas de mercado, sin la carga antidemocrática del hoppeanismo",
+  "periodo": "Siglo XX–actualidad (uso positivo por L. Neil Smith, The Probability Broach, 1980)",
+  "confianza": "estimada",
+  "version": "1.0",
+  "revisado": "2026-07-12",
+  "facetasDefinitorias": [
+    "propiedad-mercado",
+    "economico",
+    "estatismo",
+    "pluralismo-institucional"
+  ],
+  "sensibilidad": "normal",
+  "advertencia": "Tipo ideal doctrinal, no un partido español ni una identidad asignada. No se identifica por rechazar impuestos, sino por reducir todo derecho —empezando por la propiedad de uno mismo— a derecho de propiedad y por medir autoridad privada, exclusión contractual y pluralismo político. La etiqueta abarca desde variantes minarquistas de contrato hasta anarquistas de mercado y no presupone conservadurismo moral.",
+  "fuentesMarco": [
+    {
+      "tipo": "otro",
+      "titulo": "Propertarianism: propiedad como fundamento del derecho y reducción de todos los derechos a la propiedad (ficha enciclopédica, en inglés)",
+      "url": "https://en.wikipedia.org/wiki/Propertarianism",
+      "fecha": "1980",
+      "consultado": "2026-07-12"
+    }
+  ],
+  "reglaPublicacion": {
+    "minimoItems": 4,
+    "minimoCobertura": 0.55,
+    "umbralAfinidad": 84
+  },
+  "posiciones": {
+    "lab-010": {
+      "valor": 2,
+      "justificacion": "Es la tesis propertarista pura: si todo derecho se reduce a propiedad, la propiedad privada no puede financiar servicios colectivos sin el consentimiento individual de su titular, de modo que el rechazo fiscal se funda en la propiedad y no en el gasto.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Propertarianism: todos los derechos como derechos de propiedad desde la propiedad de uno mismo (en inglés)",
+        "url": "https://en.wikipedia.org/wiki/Propertarianism",
+        "fecha": "1980",
+        "consultado": "2026-07-12"
+      }
+    },
+    "lib-002": {
+      "valor": 1,
+      "justificacion": "El propertarismo defiende sustituir la burocracia estatal por relaciones contractuales, pero abarca desde un cuerpo mínimo que solo haga cumplir contratos y propiedad hasta la competencia privada plena: acepta la provisión privada de seguridad y justicia sin convertirla en dogma anarquista.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Propertarianism: relaciones contractuales frente a burocracias estatales monopolistas (en inglés)",
+        "url": "https://en.wikipedia.org/wiki/Propertarianism",
+        "fecha": "1980",
+        "consultado": "2026-07-12"
+      }
+    },
+    "eco-007": {
+      "valor": 2,
+      "justificacion": "Si la propiedad es el derecho supremo, ocupar una vivienda sin título es la violación paradigmática y debe cesar de inmediato mediante un procedimiento rápido de restitución al titular.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Propertarianism: exclusión y defensa de la propiedad privada como prioridad (en inglés)",
+        "url": "https://en.wikipedia.org/wiki/Propertarianism",
+        "fecha": "1980",
+        "consultado": "2026-07-12"
+      }
+    },
+    "der-025": {
+      "valor": 1,
+      "justificacion": "El apoyo a la autorización previa de los padres deriva de la prioridad de la autoridad privada y doméstica sobre la provisión estatal de contenidos, no de un moralismo tradicional: el propertarismo puede ser laxo en costumbres y sostener a la vez el control paterno como facultad cuasipropietaria.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Propertarianism: autoridad privada y facultades de exclusión contractual (en inglés)",
+        "url": "https://en.wikipedia.org/wiki/Propertarianism",
+        "fecha": "1980",
+        "consultado": "2026-07-12"
+      }
+    },
+    "dem-010": {
+      "valor": 1,
+      "justificacion": "En su versión civil-libertaria (L. Neil Smith) defiende la competencia y la oposición como extensión de la libertad individual incluso en emergencia; esto lo separa del hoppeanismo, que subordina el pluralismo político a la homogeneidad del pacto.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "L. Neil Smith y el uso positivo de «propertarianism» como filosofía libertaria (en inglés)",
+        "url": "https://en.wikipedia.org/wiki/Propertarianism",
+        "fecha": "1980",
+        "consultado": "2026-07-12"
+      }
+    },
+    "lib-010": {
+      "valor": 2,
+      "justificacion": "La propiedad de uno mismo entendida como propiedad del propio cuerpo extiende la libertad a todo consumo voluntario: el propertarista defiende la legalización de todas las sustancias como facultad dominical sobre la persona, sin celebrar ni condenar el consumo.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Propertarianism: la propiedad de uno mismo como base de todos los demás derechos (en inglés)",
+        "url": "https://en.wikipedia.org/wiki/Propertarianism",
+        "fecha": "1980",
+        "consultado": "2026-07-12"
+      }
+    }
+  }
+}
