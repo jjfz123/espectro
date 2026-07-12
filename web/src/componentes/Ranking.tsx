@@ -24,6 +24,8 @@ export interface DobleMarcador {
   etiquetaContraste: string;
   resultadoContraste: ResultadoAfinidad;
   advertencia: string;
+  /** Periodo observado del marcador de contraste (desde–hasta), siempre visible. */
+  periodo?: string;
 }
 
 const ETIQUETA_CONFIANZA: Record<string, string> = {
@@ -68,6 +70,7 @@ function MarcadorContraste({ doble, compacto }: { doble: DobleMarcador; compacto
           <p className="ranking-meta">
             {doble.resultadoContraste.itemsComparados} ítems observados · cobertura del{' '}
             {formatearNumero(100 * doble.resultadoContraste.cobertura, 0)} %
+            {doble.periodo ? ` · periodo ${doble.periodo}` : ''}
           </p>
         </>
       ) : null}

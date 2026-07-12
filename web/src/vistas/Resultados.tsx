@@ -181,6 +181,10 @@ export function Resultados({ estado, despachar, puedeRecargar, alConfirmarGuarda
         etiquetaContraste: partido.dobleLectura.contraste.etiqueta,
         resultadoContraste,
         advertencia: partido.dobleLectura.contraste.advertencia,
+        // Casilla del TODO: «cobertura y fecha acompañan siempre cada marcador».
+        periodo: partido.dobleLectura.contraste.desde
+          ? `${partido.dobleLectura.contraste.desde} – ${partido.dobleLectura.contraste.hasta}`
+          : `hasta ${partido.dobleLectura.contraste.hasta}`,
       });
     }
     return marcadores;
