@@ -633,6 +633,76 @@
         "fecha": "2025-03",
         "consultado": "2026-07-12"
       }
+    },
+    "dr-001": {
+      "valor": -2,
+      "justificacion": "Su conseller de Economía, Jaume Giró (cuota de Junts), enterró la idea de convertir el ICF en un banco público catalán, marcando distancias con la CUP; Junts es un partido pro-mercado que defiende la banca privada y rechaza nacionalizar el sector financiero.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Giró alimentará la tensión con la CUP al enterrar la idea de un banco público catalán (Vozpópuli)",
+        "url": "https://www.vozpopuli.com/espana/cataluna/giro-enterrar-banco-catalan.html",
+        "fecha": "2022",
+        "consultado": "2026-07-12",
+        "cita": "Giró alimentará la tensión con la CUP al enterrar la idea de un banco público catalán"
+      },
+      "grupoEvidencia": "junts-contra-banca-publica"
+    },
+    "eco-009": {
+      "valor": 2,
+      "justificacion": "Su congreso nacional aprobó eliminar el impuesto de sucesiones y el de donaciones, y en sus enmiendas presupuestarias defiende suprimir sucesiones y rebajar el IRPF y el ITP: apoyo pleno a suprimir ese tributo.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Junts aprueba en su congreso eliminar el impuesto de sucesiones y el de donaciones (elDiario.es)",
+        "url": "https://www.eldiario.es/catalunya/politica/junts-aprueba-congreso-eliminar-impuesto-sucesiones-donaciones_1_9178520.html",
+        "fecha": "2022",
+        "consultado": "2026-07-12",
+        "cita": "Junts aprueba en su congreso eliminar el impuesto de sucesiones y el de donaciones"
+      },
+      "grupoEvidencia": "junts-suprimir-sucesiones"
+    },
+    "soc-001": {
+      "valor": 2,
+      "justificacion": "Votó a favor de la reforma de la ley catalana contra la LGTBIfobia, junto a PSC, ERC, Comuns y CUP, que amplía la protección de las personas LGTBI y su régimen sancionador: respalda mantener y ampliar esos derechos por ley.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "Catalunya aprueba una reforma de la ley contra la LGTBIfobia con multas de hasta medio millón de euros (elDiario.es)",
+        "url": "https://www.eldiario.es/catalunya/catalunya-aprueba-reforma-ley-lgtbifobia-multas-medio-millon-euros_1_12854115.html",
+        "fecha": "2025-12",
+        "consultado": "2026-07-12",
+        "cita": "Catalunya aprueba una reforma de la ley contra la LGTBIfobia con multas de hasta medio millón de euros"
+      },
+      "grupoEvidencia": "junts-ley-lgtbi-catalana"
+    },
+    "dem-001": {
+      "valor": 2,
+      "justificacion": "Reclama un referéndum de autodeterminación pactado sobre el futuro político de Cataluña, que vincula al artículo 92 de la Constitución, y lo incorporó al acuerdo de investidura: apoyo a someter la decisión de mayor alcance a referéndum.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Qué dice y qué no dice el acuerdo entre PSOE y Junts sobre el referéndum de autodeterminación en Cataluña (Maldita.es)",
+        "url": "https://maldita.es/malditateexplica/20231110/referendum-acuerdo-junts-psoe-constitucion/",
+        "fecha": "2023-11-10",
+        "consultado": "2026-07-12",
+        "cita": "el referéndum de autodeterminación en Cataluña"
+      },
+      "grupoEvidencia": "junts-referendum-autodeterminacion"
+    },
+    "der-026": {
+      "valor": -2,
+      "justificacion": "Es una de las formaciones que Vox pretendía ilegalizar y rechaza esa vía: defiende el derecho a promover la independencia por cauces democráticos frente a la ley de partidos que buscaba prohibir a los independentistas.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Vox se queda solo en el Congreso defendiendo su ley para ilegalizar a los partidos independentistas como ERC, Junts o Bildu (elEconomista)",
+        "url": "https://www.eleconomista.es/politica/noticias/10769663/09/20/Vox-intenta-que-el-Congreso-tramite-su-ley-para-ilegalizar-partidos-independentistas-como-ERC-Junts-o-Bildu.html",
+        "fecha": "2020-09",
+        "consultado": "2026-07-12",
+        "cita": "ilegalizar a los partidos independentistas como ERC, Junts o Bildu"
+      },
+      "grupoEvidencia": "junts-contra-ilegalizacion-vox"
     }
   }
 }

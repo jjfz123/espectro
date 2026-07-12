@@ -2,7 +2,14 @@ import { useEffect, useRef, useState } from 'react';
 import type { Valor } from '@engine';
 import { BarraProgreso } from '../componentes/BarraProgreso';
 import { Likert } from '../componentes/Likert';
-import { ITEM_POR_ID, etiquetaValor, pad2, secuenciaItems, terminosDeItem } from '../datos';
+import {
+  ITEM_POR_ID,
+  etiquetaValor,
+  indiceProximoPendiente,
+  pad2,
+  secuenciaItems,
+  terminosDeItem,
+} from '../datos';
 import type { Accion, Estado } from '../estado';
 
 interface Props {
@@ -97,7 +104,10 @@ export function Cuestionario({ estado, despachar }: Props) {
   const respuestaPadre = item.condicion
     ? estado.respuestas[item.condicion.itemId]
     : undefined;
-  const esUltimo = estado.indice === secuencia.length - 1;
+  // Última pantalla del avance = no queda NINGUNA pregunta sin responder por
+  // delante (los ítems ya contestados no se re-presentan, así que el botón
+  // debe anunciar el cierre aunque detrás quede un tramo respondido).
+  const esUltimo = indiceProximoPendiente(secuencia, estado.indice, estado.respuestas) === -1;
   const etiquetaSiguiente = !esUltimo
     ? 'Siguiente'
     : estado.modo === 'rapido' && estado.modulosActivos.length === 0

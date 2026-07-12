@@ -1,4 +1,4 @@
-import type { Eje, Item, Modulo, Respuesta, ResultadoFaceta, Valor } from './types.js';
+import type { CondicionEje, Eje, Item, Modulo, Respuesta, ResultadoFaceta, Valor } from './types.js';
 
 export interface OpcionesFacetas {
   /** Nº mínimo de preguntas con opinión para considerar estable una faceta (def. 3). */
@@ -145,6 +145,25 @@ export interface ContextoUsuario {
 }
 
 /**
+ * Evalúa una condición de eje (umbral con operador u horquilla min–max).
+ * Un eje sin señal (null) nunca cumple: no se asume ninguna posición.
+ */
+function cumpleCondicionEje(
+  condicion: CondicionEje,
+  ejesUsuario: Record<string, number | null>,
+): boolean {
+  const valor = ejesUsuario[condicion.eje];
+  if (typeof valor !== 'number') return false;
+  if (condicion.operador && typeof condicion.umbral === 'number') {
+    return condicion.operador === '<=' ? valor <= condicion.umbral : valor >= condicion.umbral;
+  }
+  if (typeof condicion.min === 'number' && typeof condicion.max === 'number') {
+    return valor >= condicion.min && valor <= condicion.max;
+  }
+  return false;
+}
+
+/**
  * Módulos que se activan para este usuario:
  * - "siempre": el núcleo.
  * - "eje": profundización desbloqueada por la posición en un eje
@@ -152,6 +171,8 @@ export interface ContextoUsuario {
  * - "eje-banda": desbloqueo por franja (min <= valor <= max), para corrientes
  *   que viven en zonas intermedias de un eje (socialdemocracia, centro liberal).
  * - "ccaa": módulo territorial según la comunidad del usuario (una o varias).
+ * - "ejes-todos": conjunción de condiciones de eje; todas deben cumplirse con
+ *   señal suficiente (permite gatillos que exijan dos dimensiones a la vez).
  * Los módulos con `eleccionUsuario: true` pueden activarse además manualmente.
  */
 export function modulosDesbloqueados(
@@ -182,6 +203,12 @@ export function modulosDesbloqueados(
       }
     } else if (d.tipo === 'ccaa' && d.ccaa && contexto.ccaa) {
       ok = Array.isArray(d.ccaa) ? d.ccaa.includes(contexto.ccaa) : contexto.ccaa === d.ccaa;
+    } else if (
+      d.tipo === 'ejes-todos' &&
+      Array.isArray(d.condiciones) &&
+      d.condiciones.length > 0
+    ) {
+      ok = d.condiciones.every((condicion) => cumpleCondicionEje(condicion, ejesUsuario));
     } else if (
       d.tipo === 'eje-o-ccaa' &&
       d.eje &&

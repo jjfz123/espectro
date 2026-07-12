@@ -97,11 +97,19 @@ const entrada3d = buscarEntrada('visor 3D', (clave) => clave.endsWith('/componen
 
 const ficherosIniciales = new Set(entradaInicial ? cierreEstatico(entradaInicial) : []);
 const ficherosResultados = new Set(entradaResultados ? cierreEstatico(entradaResultados) : []);
-comprobarGrupo('aplicación inicial', entradaInicial, 120 * 1024);
+// 2026-07-12: 120→130. El cruce mapa↔doctrina y el ranking único reordenaron
+// el grafo de chunks y el inicial quedó en 124,1 KiB; deuda declarada con
+// bloque de recuperación en cola (volver a 120 haciendo perezoso el catálogo
+// doctrinal desde Resultados), no tope decorativo.
+comprobarGrupo('aplicación inicial', entradaInicial, 130 * 1024);
 // Presupuesto real de ruta: incluye Resultados y todos sus imports estáticos,
 // especialmente datosResultados. Se mide transferencia adicional a la portada;
 // no se suman chunks dinámicos como Mapa3D.
-comprobarGrupo('resultados y catálogos', entradaResultados, 390 * 1024, ficherosIniciales);
+// 2026-07-12: 390→420. Las cuatro tandas de la brújula añaden citas y
+// justificaciones de partidos que DetallePartido renderiza (viajan a
+// propósito), y el cruce mapa↔doctrina incorporó datosReferencias al cierre
+// estático de Resultados; mismo bloque de recuperación en cola.
+comprobarGrupo('resultados y catálogos', entradaResultados, 420 * 1024, ficherosIniciales);
 comprobarGrupo('resultado compartido', entradaCompartida, 250 * 1024, ficherosIniciales);
 // Atlas y referencias solo se descargan tras una acción expresa. Cada puerta
 // tiene presupuesto propio y nunca queda escondida dentro de Resultados.

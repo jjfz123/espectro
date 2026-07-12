@@ -745,5 +745,79 @@
     ],
     "estado": "piloto",
     "notas": "Seguimiento del desacuerdo con lab-017 (petición expresa del propietario, 2026-07-12; dosier §5.1): aísla el motivo ESTATISTA (c) — prefiere la nacionalización ministerial a la cooperativa. Piloto solo-matching; cargas propuestas para calibración tras el piloto: estatismo +, organizacion + (sin este par el socialista estatista era empujado erróneamente hacia el polo de mercado). Esperado: marxismo-leninismo/estatistas +2; libertarios y autogestionarios −2."
+  },
+  {
+    "id": "lab-034",
+    "texto": "Las grandes reformas económicas y laborales deberían negociarse en mesas permanentes de diálogo social entre Gobierno, sindicatos y patronal, institucionalizadas por ley.",
+    "modulo": "trabajo-estado-sindicatos",
+    "ejes": [],
+    "polaridad": "positiva",
+    "tags": [
+      "concertacion",
+      "dialogo-social",
+      "tripartismo"
+    ],
+    "estado": "piloto",
+    "notas": "PROPUESTA DE CARGAS (calibración pos-piloto): estatismo +0.4, poder-laboral +0.4; sin carga en economico (la concertación la practican gobiernos de ambos signos). Distinto de der-012: mide la institucionalización permanente por ley, no el pacto previo puntual. Fuentes de diseño: Ley 21/1991 (CES) y art. 131.2 CE (dosier FEEDBACK-BETA-DISCORD §2b)."
+  },
+  {
+    "id": "lab-035",
+    "texto": "Los organismos que gestionan pensiones, desempleo y formación deberían estar gobernados de forma paritaria por la Administración, los sindicatos y las organizaciones empresariales.",
+    "modulo": "trabajo-estado-sindicatos",
+    "ejes": [],
+    "polaridad": "positiva",
+    "tags": [
+      "tripartismo",
+      "seguridad-social",
+      "participacion-institucional"
+    ],
+    "estado": "piloto",
+    "notas": "PROPUESTA DE CARGAS (calibración pos-piloto): poder-laboral +0.5, estatismo +0.2. Cogobierno paritario continental frente a gestión puramente administrativa o privatizada; no presupone propiedad pública (sin carga en propiedad-mercado). Fuentes de diseño: RDL 36/1978 y Orden 17-1-1980 (consejos generales INSS por partes iguales), art. 129.1 CE."
+  },
+  {
+    "id": "lab-036",
+    "texto": "Empresarios y trabajadores de cada sector deberían integrarse en corporaciones únicas por rama de producción, con funciones públicas, en vez de organizarse en sindicatos y patronales enfrentados.",
+    "modulo": "trabajo-estado-sindicatos",
+    "ejes": [],
+    "polaridad": "positiva",
+    "tags": [
+      "corporativismo",
+      "organizacion-intereses"
+    ],
+    "estado": "piloto",
+    "terminos": [
+      "corporativismo"
+    ],
+    "notas": "PROPUESTA DE CARGAS (calibración pos-piloto): autonomia-sindical -0.75 (polo integración), estatismo +0.4, poder-laboral 0. Discriminante corporativista (falangismo, organicismo católico) frente a sindicalismo de clase Y frente a pluralismo liberal: ambos en contra por motivos opuestos. Fuentes de diseño: Fuero del Trabajo 1938 (decl. XIII, sindicatos verticales por ramas) y Quadragesimo Anno 1931 (variante no estatal)."
+  },
+  {
+    "id": "lab-037",
+    "texto": "El Estado debería aprobar planes económicos plurianuales que fijen prioridades y orienten la inversión privada mediante incentivos, sin sustituir la iniciativa ni la propiedad privadas.",
+    "modulo": "trabajo-estado-sindicatos",
+    "ejes": [],
+    "polaridad": "positiva",
+    "tags": [
+      "planificacion-indicativa",
+      "economia-mixta"
+    ],
+    "estado": "piloto",
+    "terminos": [
+      "planificacion-indicativa"
+    ],
+    "notas": "PROPUESTA DE CARGAS (calibración pos-piloto): estatismo +0.6; propiedad-mercado 0 o -0.1 (orienta el mercado, conserva la propiedad). Peldaño que faltaba entre eco-004 e izq-005: economía mixta con plan indicativo (art. 131 CE; planificación francesa de posguerra). Junto a izq-005 separa dirigismo de colectivización."
+  },
+  {
+    "id": "lab-038",
+    "texto": "En sectores como la banca, las telecomunicaciones o el transporte, el Estado debería tener empresas públicas que compitan con las privadas, sin excluirlas del mercado.",
+    "modulo": "trabajo-estado-sindicatos",
+    "ejes": [],
+    "polaridad": "positiva",
+    "tags": [
+      "empresa-publica",
+      "economia-mixta",
+      "sector-publico-empresarial"
+    ],
+    "estado": "piloto",
+    "notas": "PROPUESTA DE CARGAS (calibración pos-piloto): propiedad-mercado -0.35, estatismo +0.3, economico -0.25. Generaliza ene-007/sd-011 (hoy solo energía); discrimina nacionalización sectorial en competencia (SEPI, art. 128.2 CE) frente a lab-016 (dirección estatal general) e izq-016 (expropiación). Pieza clave del gatillo fino: apoyar esto NO es colectivización general."
   }
 ]

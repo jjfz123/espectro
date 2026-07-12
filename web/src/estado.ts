@@ -4,7 +4,7 @@
  * El progreso se guarda en localStorage —nunca sale del dispositivo— y puede
  * borrarse desde la interfaz en cualquier momento (docs/PRIVACIDAD.md).
  */
-import type { Valor } from '@engine';
+import type { Desbloqueo, Valor } from '@engine';
 import type { TipoEleccion } from '@engine';
 import { calcularEjes, calcularFacetas, modulosDesbloqueados } from '@engine';
 import { CLAVE_TEMA } from './tema';
@@ -17,6 +17,7 @@ import {
   MODULOS,
   MODULO_POR_ID,
   VERSION_INSTRUMENTO,
+  indiceProximoPendiente,
   itemVisible,
   respuestasDeSecuenciaActiva,
   secuenciaItems,
@@ -193,14 +194,24 @@ function ejesDelModulo(moduloId: string): Set<string> {
   return ejes;
 }
 
+/** Ejes de los que depende un gatillo de desbloqueo (vacío si no depende de ejes). */
+function ejesDelGatillo(gatillo: Desbloqueo): string[] {
+  if (gatillo.tipo === 'ejes-todos') {
+    return (gatillo.condiciones ?? []).map((condicion) => condicion.eje);
+  }
+  return gatillo.eje ? [gatillo.eje] : [];
+}
+
 /**
  * Oferta en una FRONTERA de módulo: excluye los módulos cuyo eje gatillo lo
  * carga el módulo que se acaba de terminar (revisión adversarial: responder
  * socialdemocracia no puede encadenar en el acto una oferta de
- * corrientes-izquierda — el bucle de confirmación queda cortado). El núcleo
- * está exento: es el set de calibración y su frontera es la adaptación
- * legítima. Lo excluido NO se marca como ofrecido: podrá ofrecerse al
- * completar la secuencia o activarse a mano.
+ * corrientes-izquierda — el bucle de confirmación queda cortado). En un
+ * gatillo conjuntivo basta con que UNO de sus ejes lo cargue el módulo
+ * terminado (criterio conservador, mismo anti-bucle). El núcleo está exento:
+ * es el set de calibración y su frontera es la adaptación legítima. Lo
+ * excluido NO se marca como ofrecido: podrá ofrecerse al completar la
+ * secuencia o activarse a mano.
  */
 export function modulosOfertablesEnFrontera(estado: Estado, moduloTerminado: string): string[] {
   const nuevos = modulosRecienDesbloqueados(estado);
@@ -208,8 +219,8 @@ export function modulosOfertablesEnFrontera(estado: Estado, moduloTerminado: str
   const ejesTerminado = ejesDelModulo(moduloTerminado);
   return nuevos.filter((id) => {
     const gatillo = MODULO_POR_ID.get(id)?.desbloqueo;
-    const eje = gatillo && 'eje' in gatillo ? gatillo.eje : undefined;
-    return !eje || !ejesTerminado.has(eje);
+    const ejesGatillo = gatillo ? ejesDelGatillo(gatillo) : [];
+    return !ejesGatillo.some((eje) => ejesTerminado.has(eje));
   });
 }
 
@@ -352,13 +363,19 @@ export function reductor(estado: Estado, accion: Accion): Estado {
           perfilIntermedio: false,
         };
       }
-      if (estado.indice < secuencia.length - 1) {
+      // El avance va al siguiente ítem SIN RESPONDER, no al físico contiguo:
+      // los módulos aceptados en vuelo se insertan en su orden canónico y el
+      // tramo ya contestado que quede detrás no se re-presenta pregunta a
+      // pregunta «ya seleccionada» (bug beta Discord 2026-07). Releer o
+      // corregir sigue siendo opt-in: «Anterior» y la revisión final.
+      const destino = indiceProximoPendiente(secuencia, estado.indice, estado.respuestas);
+      if (destino !== -1) {
         // Frontera de módulo: si las respuestas acumuladas desbloquean bloques
         // nuevos (movimiento del perfil), se ofrece añadirlos ANTES de entrar
         // al siguiente módulo, en ciego (sin nombrar áreas) y con el
         // cortafuegos anti-bucle (nada de la misma familia recién respondida).
         const actual = secuencia[estado.indice];
-        const proximo = secuencia[estado.indice + 1];
+        const proximo = secuencia[destino];
         if (
           puedeOfrecerEnVuelo(estado) &&
           actual &&
@@ -368,7 +385,7 @@ export function reductor(estado: Estado, accion: Accion): Estado {
         ) {
           return { ...estado, fase: 'oferta-modulos', perfilIntermedio: false };
         }
-        return { ...estado, indice: estado.indice + 1 };
+        return { ...estado, indice: destino };
       }
       // Fin de la secuencia activa: última oportunidad de ofrecer lo desbloqueado.
       if (puedeOfrecerEnVuelo(estado) && modulosRecienDesbloqueados(estado).length > 0) {

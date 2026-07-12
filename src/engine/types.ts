@@ -273,8 +273,21 @@ export interface ResultadoFaceta {
   coberturaSuficiente: boolean;
 }
 
+/**
+ * Condición individual de un desbloqueo conjuntivo: o bien umbral con
+ * operador, o bien horquilla min–max sobre un eje. Sin señal en el eje
+ * (valor null) la condición no se cumple: nunca se asume una posición.
+ */
+export interface CondicionEje {
+  eje: string;
+  operador?: '<=' | '>=';
+  umbral?: number;
+  min?: number;
+  max?: number;
+}
+
 export interface Desbloqueo {
-  tipo: 'siempre' | 'eje' | 'eje-banda' | 'ccaa' | 'eje-o-ccaa' | 'manual';
+  tipo: 'siempre' | 'eje' | 'eje-banda' | 'ccaa' | 'eje-o-ccaa' | 'ejes-todos' | 'manual';
   eje?: string;
   operador?: '<=' | '>=';
   umbral?: number;
@@ -283,6 +296,14 @@ export interface Desbloqueo {
   max?: number;
   /** Una CCAA o varias (p. ej. un módulo compartido Euskadi–Navarra). */
   ccaa?: string | string[];
+  /**
+   * Para tipo "ejes-todos": TODAS las condiciones deben cumplirse a la vez.
+   * Permite gatillos más finos que un solo eje: p. ej. exigir izquierda
+   * económica Y señal de colectivización (propiedad-mercado) antes de ofrecer
+   * corrientes-izquierda, en vez de tratar todo intervencionismo como
+   * anticapitalismo.
+   */
+  condiciones?: CondicionEje[];
 }
 
 export interface Modulo {

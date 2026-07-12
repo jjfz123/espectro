@@ -664,6 +664,90 @@
         "fecha": "2026-02-04",
         "consultado": "2026-07-10"
       }
+    },
+    "lab-016": {
+      "valor": 2,
+      "justificacion": "Defiende un mayor control público de los sectores estratégicos: propone un banco vasco de inversiones y una comercializadora pública de energía, y reforzar el sector público como palanca del modelo económico vasco.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "EH Bildu propone la creación de un banco vasco de inversiones y una comercializadora pública de energía (EITB)",
+        "url": "https://www.eitb.eus/es/noticias/politica/detalle/9986980/eh-bildu-plantea-14-propuestas-para-cambiar-politicas-industriales",
+        "fecha": "2024",
+        "consultado": "2026-07-12",
+        "cita": "EH Bildu propone la creación de un banco vasco de inversiones y una comercializadora pública de energía"
+      },
+      "grupoEvidencia": "bildu-control-publico-estrategico"
+    },
+    "lab-017": {
+      "valor": 1,
+      "justificacion": "Impulsa la economía social y cooperativa vasca y el poder de los trabajadores sobre las empresas, en la estela del cooperativismo del país; +1 y no +2 porque su modelo combina la propiedad cooperativa con un fuerte control público, no la transferencia exclusiva a cooperativas frente al Estado.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral de EH Bildu para las elecciones en País Vasco 2024 (Política Electoral)",
+        "url": "https://www.politicaelectoral.com/es/espana/autonomicas-2024/pais-vasco/eh-bildu",
+        "fecha": "2024",
+        "consultado": "2026-07-12",
+        "cita": "Programa electoral de EH Bildu para las elecciones en País Vasco 2024: economía social y cooperativa"
+      },
+      "grupoEvidencia": "bildu-economia-social-cooperativa"
+    },
+    "dem-021": {
+      "valor": 2,
+      "justificacion": "Reclama la derogación completa de la Ley Mordaza y rechaza su régimen sancionador sobre la protesta, incluida la sanción por manifestaciones y concentraciones no comunicadas: defiende que el ejercicio pacífico del derecho de manifestación no debe castigarse.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "ERC y Bildu tumban la reforma de la ley mordaza por no prohibir las pelotas de goma y las devoluciones en caliente (elDiario.es)",
+        "url": "https://www.eldiario.es/politica/reforma-ley-mordaza-fracasara-martes-anunciar-erc-eh-bildu-votaran_1_10030909.html",
+        "fecha": "2023",
+        "consultado": "2026-07-12",
+        "cita": "ERC y Bildu tumban la reforma de la ley mordaza por no prohibir las pelotas de goma y las devoluciones en caliente"
+      },
+      "grupoEvidencia": "bildu-ley-mordaza-derogacion"
+    },
+    "dem-020": {
+      "valor": 2,
+      "justificacion": "Reclama una relación confederal con España y la posibilidad de cambiar la forma política del Estado hacia la república, abriendo un proceso democrático de reconocimiento plurinacional: apoyo a sustituir el marco vigente mediante un proceso constituyente con elecciones libres.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Claves del programa de EH Bildu: relación «confederal» con España, repliegue de la Guardia Civil y mantener la concertada (elDiario.es)",
+        "url": "https://www.eldiario.es/euskadi/claves-programa-eh-bildu-relacion-confederal-espana-repliegue-guardia-civil-mantener-concertada_1_11262861.html",
+        "fecha": "2024",
+        "consultado": "2026-07-12",
+        "cita": "relación «confederal» con España"
+      },
+      "grupoEvidencia": "bildu-confederal-constituyente"
+    },
+    "dem-001": {
+      "valor": 2,
+      "justificacion": "Sostiene que Euskal Herria es una nación con derecho a decidir libremente su futuro y pactó reclamar el reconocimiento del derecho a decidir de los pueblos y la habilitación de consultas: apoyo a someter la decisión de mayor alcance a referéndum.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Acuerdo de PNV, EH Bildu y Elkarrekin Podemos-IU por el derecho a decidir y la república (Naiz)",
+        "url": "https://www.naiz.eus/en/info/noticia/20230328/acuerdo-de-pnv-eh-bildu-y-elkarrekin-podemos-iu-por-el-derecho-a-decidir-y-la-republica",
+        "fecha": "2023-03-28",
+        "consultado": "2026-07-12",
+        "cita": "por el derecho a decidir y la república"
+      },
+      "grupoEvidencia": "bildu-derecho-decidir-2023"
+    },
+    "rel-002": {
+      "valor": 2,
+      "justificacion": "Como fuerza de la izquierda abertzale de tradición laica, defiende un Estado aconfesional que no adopte una religión oficial y garantice la libertad y la igualdad de todas las creencias dentro de la ley.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral de EH Bildu para las elecciones en País Vasco 2024 (Política Electoral)",
+        "url": "https://www.politicaelectoral.com/es/espana/autonomicas-2024/pais-vasco/eh-bildu",
+        "fecha": "2024",
+        "consultado": "2026-07-12",
+        "cita": "Programa electoral de EH Bildu para las elecciones en País Vasco 2024: convivencia laica e inclusiva"
+      },
+      "grupoEvidencia": "bildu-estado-laico-aconfesional"
     }
   }
 }

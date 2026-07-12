@@ -101,6 +101,48 @@
       },
       "grupoEvidencia": "pasaje-0461dac0b2af668a4a20"
     },
+    "eco-002": {
+      "valor": -2,
+      "justificacion": "El PSOE rechaza que la gestión privada mejore la eficiencia sanitaria: Sánchez presentó su Gobierno como cortafuegos frente a la privatización y el Ejecutivo impulsa la Ley de Gestión Pública e Integridad del SNS, que deroga la Ley 15/1997, consagra la gestión directa como norma y limita la colaboración privada. Su práctica de conciertos (véase eco-013) matiza el discurso, pero la posición programática es de rechazo firme.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Sánchez promete blindar al SNS de la «corriente de privatización» mundial (Redacción Médica)",
+        "url": "https://www.redaccionmedica.com/secciones/sanidad-hoy/sanchez-promete-blindar-al-sns-de-la-corriente-de-privatizacion-mundial-7003",
+        "fecha": "2023",
+        "consultado": "2026-07-12",
+        "cita": "Sánchez promete blindar al SNS de la corriente de privatización mundial"
+      },
+      "grupoEvidencia": "pasaje-be0a3c4ebd679eb0af5b"
+    },
+    "dem-026": {
+      "valor": -1,
+      "justificacion": "Conducta reveladora: mediante el RDL 5/2024 el Gobierno de coalición liderado por el PSOE rebajó a mayoría absoluta la elección de los consejeros de RTVE cuando no se alcanza el tercio reforzado, reforzó los poderes del presidente y renovó el consejo con su mayoría parlamentaria, coincidiendo con el mandato del Gobierno; el PP lo denunció como «control absoluto». Mantuvo el 2/3 como requisito primero y amplió el consejo a 15, por eso -1 y no -2.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "El Gobierno reforma la ley de RTVE para rebajar las mayorías para la elección de sus consejeros (Civio)",
+        "url": "https://civio.es/el-boe-nuestro-de-cada-dia/2024/10/23/el-gobierno-reforma-la-ley-de-rtve-para-rebajar-las-mayorias-para-la-eleccion-de-sus-consejeros-que-pasan-de-10-a-15/",
+        "fecha": "2024-10-23",
+        "consultado": "2026-07-12",
+        "cita": "El Gobierno reforma la ley de RTVE para rebajar las mayorías para la elección de sus consejeros"
+      },
+      "grupoEvidencia": "pasaje-7d3f53d22ead159fb71c"
+    },
+    "dem-031": {
+      "valor": 2,
+      "justificacion": "El Gobierno del PSOE impulsó y aprobó la Ley 2/2023, que traspone la Directiva UE 2019/1937 y crea una Autoridad Independiente de Protección del Informante: blinda frente a represalias a quien denuncia infracciones y corrupción dentro de una organización, pública o privada, incluso contra la disciplina interna de su entidad. Coincide con la protección independiente al denunciante que plantea el ítem.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "Ley 2/2023, de 20 de febrero, reguladora de la protección de las personas que informen sobre infracciones normativas y de lucha contra la corrupción (BOE)",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-4513",
+        "fecha": "2023-02-20",
+        "consultado": "2026-07-12",
+        "cita": "Ley 2/2023, de 20 de febrero, reguladora de la protección de las personas que informen sobre infracciones normativas y de lucha contra la corrupción"
+      },
+      "grupoEvidencia": "pasaje-6e324f5fe5e3f817f6c4"
+    },
     "sd-002": {
       "valor": 2,
       "justificacion": "La resolución congresual respalda el cumplimiento de los compromisos de defensa y el objetivo de gasto aliado, por lo que apoya un aumento sustancial en los próximos años.",

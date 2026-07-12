@@ -1473,9 +1473,20 @@ test('la brújula móvil distingue evidencia provisional y resuelve con segurida
     });
     const cumulo = page.locator('.mapa-cumulo');
     if (origenCumulo) {
-      await page
-        .locator(`.mapa-plano--brujula .mapa-punto[data-entidad-id="${origenCumulo}"]`)
-        .tap();
+      /* Dedo real, no locator.tap(): cuando dos hits se solapan, el punto de
+         arriba intercepta el pixel y locator.tap() sobre el de abajo reintenta
+         para siempre. El usuario toca una coordenada y quien la reciba debe
+         abrir la desambiguación (radioCumuloEfectivo ≥ solape de hits). */
+      const formaOrigen = page.locator(
+        `.mapa-plano--brujula .mapa-punto[data-entidad-id="${origenCumulo}"] .mapa-punto__forma`,
+      );
+      await formaOrigen.scrollIntoViewIfNeeded();
+      const cajaOrigen = await formaOrigen.boundingBox();
+      expect(cajaOrigen).toBeTruthy();
+      await page.touchscreen.tap(
+        cajaOrigen!.x + cajaOrigen!.width / 2,
+        cajaOrigen!.y + cajaOrigen!.height / 2,
+      );
       await expect(cumulo).toBeVisible();
       const botonesCumulo = cumulo.getByRole('button');
       expect(await botonesCumulo.count()).toBeGreaterThanOrEqual(2);

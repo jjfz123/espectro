@@ -269,6 +269,62 @@
         "fecha": "2023-05-18",
         "consultado": "2026-07-10"
       }
+    },
+    "eco-009": {
+      "valor": -1,
+      "justificacion": "Geroa Bai votó a favor de la reforma fiscal foral de 2021 que elevó el mínimo exento de Sucesiones pero mantuvo el impuesto, rechazando junto al bloque de gobierno las enmiendas de Navarra Suma hacia mayores rebajas; no apoya la supresión total, aunque sí alivios parciales, de ahí el desacuerdo con matiz.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "Ley Foral 19/2021, de 29 de diciembre, de modificación de diversos impuestos y otras medidas tributarias (BOE)",
+        "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2022-2067",
+        "fecha": "2021-12-29",
+        "consultado": "2026-07-12",
+        "cita": "Ley Foral 19/2021, de 29 de diciembre, de modificación de diversos impuestos y otras medidas tributarias"
+      },
+      "grupoEvidencia": "trbj-gb-eco009-sucesiones"
+    },
+    "soc-006": {
+      "valor": 2,
+      "justificacion": "Geroa Bai copresentó y votó a favor de la declaración institucional del Parlamento de Navarra que pide derogar la prisión permanente revisable, por considerarla contraria al principio de reinserción social.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "El Parlamento de Navarra solicita la derogación de la prisión permanente revisable (Junta de Portavoces)",
+        "url": "https://parlamentodenavarra.es/fr/node/137072",
+        "fecha": "2018-01-22",
+        "consultado": "2026-07-12",
+        "cita": "El Parlamento solicita la actualización de las pensiones conforme al IPC y la derogación de la prisión permanente revisable"
+      },
+      "grupoEvidencia": "trbj-gb-soc006-prision"
+    },
+    "dem-021": {
+      "valor": 2,
+      "justificacion": "Geroa Bai pide reformar y derogar la ley mordaza por suponer «una carencia democrática grave», y en 2015 firmó el recurso de inconstitucionalidad contra la Ley de Seguridad Ciudadana, que sanciona reuniones y manifestaciones no comunicadas previamente.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Geroa Bai pide la reforma de la «ley mordaza» porque supone una carencia democrática grave para nuestra sociedad (GeroaBai)",
+        "url": "https://geroabai.eus/es/actualidad/geroa-bai-pide-la-reforma-de-la-ley-mordaza-porque-supone-una-carencia-democratica-grave-para-nuestra-sociedad",
+        "fecha": "2024-09-13",
+        "consultado": "2026-07-12",
+        "cita": "Geroa Bai pide la reforma de la «ley mordaza» porque supone una carencia democrática grave para nuestra sociedad"
+      },
+      "grupoEvidencia": "trbj-gb-dem021-mordaza"
+    },
+    "dem-008": {
+      "valor": -1,
+      "justificacion": "Geroa Bai contesta reiteradamente la autoridad del Tribunal Supremo y del Constitucional cuando sus sentencias limitan el autogobierno de Navarra (anulación del traspaso de Tráfico, competencias forales), calificándolas de «ataque grave al autogobierno» y «recentralización encubierta» y cuestionando la independencia judicial; prioriza el mandato político foral sobre el control judicial, de ahí el desacuerdo con matiz.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Uxue Barkos: «Es un ataque grave al autogobierno» (Deia)",
+        "url": "https://www.deia.eus/politica/2024/02/20/uxue-barkos-ataque-grave-autogobierno-7896449.html",
+        "fecha": "2024-02-20",
+        "consultado": "2026-07-12",
+        "cita": "Es un ataque grave al autogobierno"
+      },
+      "grupoEvidencia": "trbj-gb-dem008-supremo"
     }
   }
 }

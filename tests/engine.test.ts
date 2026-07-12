@@ -281,16 +281,45 @@ describe('itinerario condicional', () => {
 });
 
 describe('modulosDesbloqueados', () => {
-  it('núcleo siempre; corrientes-izquierda con economico ≤ −40; territorial por CCAA', () => {
+  it('núcleo siempre; corrientes-izquierda con las DOS señales; territorial por CCAA', () => {
     const activos = modulosDesbloqueados(
       modulos,
-      { economico: -75 },
+      { economico: -75, 'propiedad-mercado': -70 },
       { ccaa: 'canarias' },
     );
     expect(activos).toContain('nucleo');
     expect(activos).toContain('corrientes-izquierda');
     expect(activos).toContain('territorial-canarias');
     expect(activos).not.toContain('corrientes-derecha');
+  });
+
+  it('feedback beta 2026-07: el intervencionismo moderado NO dispara corrientes-izquierda', () => {
+    /* El ±1 uniforme del núcleo da (−50, −50): cruza el −40 del macroeje
+       económico pero NO acredita colectivización (umbral −55). El gatillo
+       conjuntivo corta el «te pone preguntas asumiendo que eres comunista»
+       sin cerrar el módulo a quien trae convicción real o lo activa a mano. */
+    const moderado = modulosDesbloqueados(
+      modulos,
+      { economico: -50, 'propiedad-mercado': -50 },
+      {},
+    );
+    expect(moderado).not.toContain('corrientes-izquierda');
+    // Sin señal del segundo eje (bajo el piso de ítems) tampoco se asume nada.
+    const sinSegundaSenal = modulosDesbloqueados(modulos, { economico: -75 }, {});
+    expect(sinSegundaSenal).not.toContain('corrientes-izquierda');
+    // Simétrico exacto a la derecha: mercado moderado sin señal de propiedad.
+    const moderadoDerecha = modulosDesbloqueados(
+      modulos,
+      { economico: 50, 'propiedad-mercado': 50 },
+      {},
+    );
+    expect(moderadoDerecha).not.toContain('corrientes-derecha');
+    const convencidoDerecha = modulosDesbloqueados(
+      modulos,
+      { economico: 75, 'propiedad-mercado': 70 },
+      {},
+    );
+    expect(convencidoDerecha).toContain('corrientes-derecha');
   });
 
   it('sin puntuación de eje solo activa módulos universales', () => {

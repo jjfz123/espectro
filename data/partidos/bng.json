@@ -659,6 +659,76 @@
         "fecha": "2021-03-11",
         "consultado": "2026-07-10"
       }
+    },
+    "eco-013": {
+      "valor": -2,
+      "justificacion": "Denuncia el aumento del traspaso de fondos públicos a la sanidad privada y exige acabar con la derivación de pacientes en lista de espera a la privada concertada, defendiendo reforzar el sistema público en lugar de subvencionar clínicas privadas.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Ana Pontón denuncia o aumento do traspaso de fondos á sanidade privada por parte do Goberno do PP mentres recorta na pública (bng.gal)",
+        "url": "https://www.bng.gal/articulo/novas/ana-ponton-denuncia-aumento-do-traspaso-fondos-sanidade-privada-parte-do-goberno-do-pp-mentres-recorta-publica/20250402141433040178.html",
+        "fecha": "2025-04-02",
+        "consultado": "2026-07-12",
+        "cita": "aumento do traspaso de fondos á sanidade privada por parte do Goberno do PP mentres recorta na pública"
+      },
+      "grupoEvidencia": "bng-sanidade-privada-derivacion"
+    },
+    "eco-009": {
+      "valor": -2,
+      "justificacion": "Reclama eliminar las modificaciones regresivas introducidas por el PP en el impuesto de sucesiones y aplicar progresividad real a sucesiones, donaciones y patrimonio: se opone frontalmente a suprimir o rebajar ese tributo.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "BNG propón un modelo fiscal máis xusto fronte a un PP que beneficia a quen máis ten e discrimina as clases traballadoras (bng.gal)",
+        "url": "https://www.bng.gal/articulo/novas/bng-propon-modelo-fiscal-mais-xusto-fronte-pp-que-beneficia-quen-mais-ten-discrimina-clases-traballadoras/20251118081334041733.html",
+        "fecha": "2025-11-18",
+        "consultado": "2026-07-12",
+        "cita": "eliminar as modificacións regresivas introducidas polo PP no imposto de sucesións"
+      },
+      "grupoEvidencia": "bng-fiscalidade-sucesions-progresiva"
+    },
+    "izq-003": {
+      "valor": -2,
+      "justificacion": "Aunque tiene una base asamblearia, el BNG es un frente nacionalista organizado que actúa a través de órganos de dirección (Consello Nacional, Executiva) y de una estrategia institucional estable; no comparte que la emancipación deba organizarse solo desde asambleas de base y nunca desde una organización dirigente.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "estatutos",
+        "titulo": "Principios organizativos e normas de funcionamento do BNG (XVII Asemblea Nacional)",
+        "url": "https://bnggaliza.opennemas.com/media/bnggaliza/files/2021/12/27/Principios%20organizaci%C3%B3ns%20e%20normas%20de%20funcionamento%20%28XVII%20AN%29.pdf",
+        "fecha": "2021-12-27",
+        "consultado": "2026-07-12",
+        "cita": "Principios organizativos e normas de funcionamento do BNG: Asemblea Nacional, Consello Nacional e Executiva"
+      },
+      "grupoEvidencia": "bng-frente-organizado-direccion"
+    },
+    "dem-001": {
+      "valor": 2,
+      "justificacion": "Reivindica el reconocimiento del carácter plurinacional del Estado y el derecho de Galicia a decidir su futuro mediante consulta democrática, en la estela del plebiscito estatutario: apoyo a someter la decisión de mayor alcance a referéndum vinculante.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Ana Pontón demanda o recoñecemento plurinacional do Estado e o dereito da Galiza a decidir desde un novo status de nación (Nós Diario)",
+        "url": "https://www.nosdiario.gal/articulo/politica/ponton-demanda-reconecemento-plurinacional-do-estado-dereito-galiza-decidir-novo-status-nacion/20260628165732260511.html",
+        "fecha": "2026-06-28",
+        "consultado": "2026-07-12",
+        "cita": "o dereito da Galiza a decidir desde un novo status de nación"
+      },
+      "grupoEvidencia": "bng-dereito-decidir-2026"
+    },
+    "der-026": {
+      "valor": -2,
+      "justificacion": "Rechazó frontalmente la ley de Vox para ilegalizar a los partidos nacionalistas: su diputado Néstor Rego respondió que con leyes antidemocráticas quieren lograr lo que el pueblo les niega en las urnas, defendiendo el derecho a promover el nacionalismo y la soberanía por vías democráticas.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "El BNG responde a Vox sobre la prohibición de partidos nacionalistas: «Quieren ganar con leyes antidemocráticas lo que el pueblo les niega» (elDiario.es)",
+        "url": "https://www.eldiario.es/galicia/politica/bng-responde-vox-prohibicion-partidos-nacionalistas-quieren-ganar-leyes-antidemocraticas-pueblo-les-niega_1_6222127.html",
+        "fecha": "2020-09-15",
+        "consultado": "2026-07-12",
+        "cita": "Quieren ganar con leyes antidemocráticas lo que el pueblo les niega"
+      },
+      "grupoEvidencia": "bng-contra-ilegalizacion-vox"
     }
   }
 }

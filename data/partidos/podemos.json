@@ -21,6 +21,118 @@
         "consultado": "2026-07-09"
       }
     },
+    "dr-001": {
+      "valor": 2,
+      "justificacion": "Podemos defiende una banca pública: convirtió el no privatizar Bankia (rescatada con dinero público) en línea roja de gobierno y propone crear una entidad financiera pública que financie la economía productiva y las pymes. Apoya la titularidad pública de la banca en el sentido del ítem.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Más voces en favor de una Bankia pública (elDiario.es / Alternativas Económicas)",
+        "url": "https://www.eldiario.es/alternativaseconomicas/banca-publica_132_2686799.html",
+        "fecha": "2019",
+        "consultado": "2026-07-12",
+        "cita": "Más voces en favor de una Bankia pública"
+      },
+      "grupoEvidencia": "pasaje-1938614eea11c7f26dc3"
+    },
+    "lab-016": {
+      "valor": 2,
+      "justificacion": "Podemos propone empresas públicas en los sectores estratégicos (banca, energía, farmacia, telecomunicaciones) bajo control democrático y al servicio del interés general (art. 128 CE), sosteniendo que eficiencia y privatización no van de la mano. Coincide con dirigir desde el Estado las empresas estratégicas del ítem.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Podemos quiere empresas públicas de banca, energía, farmacia y telecomunicaciones para 2030 (Servimedia)",
+        "url": "https://www.servimedia.es/noticias/1925892",
+        "fecha": "2021",
+        "consultado": "2026-07-12",
+        "cita": "Podemos quiere empresas públicas de banca, energía, farmacia y telecomunicaciones para 2030"
+      },
+      "grupoEvidencia": "pasaje-76c72246a8bd0cb01433"
+    },
+    "lab-017": {
+      "valor": -1,
+      "justificacion": "Para las grandes empresas de los sectores estratégicos Podemos prioriza la propiedad pública estatal (nacionalizar la energía, banca pública, empresas públicas de farmacia y telecomunicaciones), no su transferencia a cooperativas de trabajadores; reserva el cooperativismo para la economía social de menor escala. Discrepa de la disyuntiva del ítem, aunque no de forma frontal, de ahí -1.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Iglesias: «Se ha mentido a este país diciendo que eficiencia y privatización iban de la mano» (Podemos)",
+        "url": "https://podemos.info/en/podemos-propone-crear-empresa-publica-energia-bajar-factura-luz-garantizar-transicion-energetica/",
+        "fecha": "2021",
+        "consultado": "2026-07-12",
+        "cita": "Iglesias: Se ha mentido a este país diciendo que eficiencia y privatización iban de la mano"
+      },
+      "grupoEvidencia": "pasaje-1c54984ef06b86120052"
+    },
+    "ene-005": {
+      "valor": -2,
+      "justificacion": "Podemos rechaza que la electricidad se genere y comercialice sobre todo por empresas privadas en competencia: denuncia el oligopolio eléctrico y propone nacionalizar o crear una gran empresa eléctrica pública que comercialice solo renovables. Se opone frontalmente al modelo privado del ítem.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Unidas Podemos propone nacionalizar una compañía eléctrica (Energías Renovables)",
+        "url": "https://www.energias-renovables.com/panorama/unidas-podemos-propone-nacionalizar-una-compania-electrica-20210111",
+        "fecha": "2021-01-11",
+        "consultado": "2026-07-12",
+        "cita": "Unidas Podemos propone nacionalizar una compañía eléctrica"
+      },
+      "grupoEvidencia": "pasaje-1e3e67fc68dc8f6a7ea3"
+    },
+    "eco-009": {
+      "valor": -2,
+      "justificacion": "Podemos rechaza suprimir el impuesto de sucesiones y donaciones: su programa fiscal defiende reforzar la tributación sobre patrimonio, sucesiones y donaciones y derogar de forma coordinada las bonificaciones autonómicas, porque su desaparición reduciría la igualdad de oportunidades y beneficiaría a las mayores rentas.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Propuestas para un impuesto de sucesiones y donaciones justo y equitativo (Podemos)",
+        "url": "https://podemos.info/en/propuestas-impuesto-sucesiones-donaciones-justo-equitativo/",
+        "fecha": "2026",
+        "consultado": "2026-07-12",
+        "cita": "Propuestas para un impuesto de sucesiones y donaciones justo y equitativo"
+      },
+      "grupoEvidencia": "pasaje-c2282a3e3e4f92b1e4da"
+    },
+    "soc-001": {
+      "valor": 2,
+      "justificacion": "Podemos impulsó desde el Ministerio de Igualdad (Irene Montero) la Ley 4/2023 trans y LGTBI, que reconoce la autodeterminación de género y blinda estatalmente los derechos del colectivo; Montero la reivindicó como «día histórico». Defiende mantener protegidos por ley los derechos LGTB, incluido el matrimonio igualitario.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Irene Montero: «Hoy es un día histórico para las personas trans y LGTBI que ven sus derechos convertidos en ley» (Ministerio de Igualdad)",
+        "url": "https://www.igualdad.gob.es/comunicacion/sala-de-prensa/irene-montero-hoy-es-un-dia-historico-trans-lgtbi/",
+        "fecha": "2023",
+        "consultado": "2026-07-12",
+        "cita": "Irene Montero: Hoy es un día histórico para las personas trans y LGTBI que ven sus derechos convertidos en ley"
+      },
+      "grupoEvidencia": "pasaje-211f12d003d0976d719c"
+    },
+    "der-026": {
+      "valor": -2,
+      "justificacion": "Podemos se opone a ilegalizar partidos por promover la secesión: forma parte de la mayoría del Congreso que rechazó la proposición de Vox para ilegalizar a los independentistas, bajo el principio de que no se pueden prohibir las ideas y en defensa del pluralismo político.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Vox se queda solo en su intento de ilegalizar a los partidos independentistas: «No se pueden prohibir las ideas» (Público)",
+        "url": "https://www.publico.es/politica/vox-queda-ilegalizar-partidos-independentistas-no-prohibir-ideas.html",
+        "fecha": "2024",
+        "consultado": "2026-07-12",
+        "cita": "Vox se queda solo en su intento de ilegalizar a los partidos independentistas: No se pueden prohibir las ideas"
+      },
+      "grupoEvidencia": "pasaje-06a73c4dc26d61bf43b4"
+    },
+    "izq-007": {
+      "valor": -2,
+      "justificacion": "Podemos nace para conquistar y usar el poder del Estado, no para abolirlo: su estrategia del «asalto a los cielos» (Iglesias, Vistalegre 2014) buscaba ganar y formar gobierno, y el partido ocupó vicepresidencia y ministerios. Rechaza la tesis de que el Estado sea una estructura que haya que abolir en vez de conquistar.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Pablo Iglesias abre la Asamblea de Podemos: «El cielo no se toma por consenso: se toma por asalto» (elDiario.es)",
+        "url": "https://www.eldiario.es/politica/pablo-iglesias-asamblea-podemos-toma_1_4576968.html",
+        "fecha": "2014",
+        "consultado": "2026-07-12",
+        "cita": "Pablo Iglesias abre la Asamblea de Podemos: El cielo no se toma por consenso: se toma por asalto"
+      },
+      "grupoEvidencia": "pasaje-ff21f251a6117107b23d"
+    },
     "ene-002": {
       "valor": -2,
       "justificacion": "Exige excluir la fisión nuclear de la taxonomía europea de inversiones sostenibles.",
@@ -247,7 +359,7 @@
         "consultado": "2026-07-10",
         "cita": "Hoy es un día histórico para las personas trans y LGTBI que ven sus derechos convertidos en ley"
       },
-      "grupoEvidencia": "pasaje-88528293db67df6373ca"
+      "grupoEvidencia": "pasaje-211f12d003d0976d719c"
     },
     "fem-012": {
       "valor": 2,

@@ -365,6 +365,34 @@
         "fecha": "2024-06-10",
         "consultado": "2026-07-12"
       }
+    },
+    "dem-023": {
+      "valor": 2,
+      "justificacion": "Se Acabó La Fiesta reclama \"mano dura\" contra la delincuencia y la inmigración ilegal y una política de máxima seguridad (macrocárcel al estilo de Bukele, tolerancia cero); respalda que la policía tenga amplias facultades preventivas de identificación y control en la calle.",
+      "calidadEvidencia": "media",
+      "grupoEvidencia": "pasaje-f4cd9ea7d0e4e0fe6360",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Entrevista a Alvise Pérez: «Mano dura contra la delincuencia, la corrupción y la inmigración ilegal» (Alicante al Día)",
+        "url": "https://alicantealdia.es/entrevista-a-alvise-perez-mano-dura-contra-la-delincuencia-la-corrupcion-y-la-inmigracion-ilegal/",
+        "fecha": "2024",
+        "consultado": "2026-07-12",
+        "cita": "Mano dura contra la delincuencia, la corrupción y la inmigración ilegal (identificación y control)"
+      }
+    },
+    "dem-031": {
+      "valor": 2,
+      "justificacion": "Se Acabó La Fiesta nació como plataforma anticorrupción y \"paladín contra la corrupción\" de la casta: ampara y difunde denuncias contra la corrupción del sistema y prometió publicar grabaciones comprometedoras. Respalda que quien denuncie corrupción cuente con protección aunque rompa la disciplina de su organización.",
+      "calidadEvidencia": "media",
+      "grupoEvidencia": "salf-anticorrupcion-denuncias",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Alvise Pérez: de paladín contra la corrupción a investigado por financiación ilegal (Nueva Revolución)",
+        "url": "https://nuevarevolucion.es/alvise-perez-de-paladin-contra-la-corrupcion-a-investigado-por-financiacion-ilegal/",
+        "fecha": "2025",
+        "consultado": "2026-07-12",
+        "cita": "Alvise Pérez: de paladín contra la corrupción a investigado por financiación ilegal"
+      }
     }
   }
 }

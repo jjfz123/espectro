@@ -4,7 +4,9 @@
     "nombre": "Núcleo",
     "descripcion": "50 ítems generales que posicionan en los ejes principales y sirven para el perfil y el matching electoral provisional.",
     "orden": 1,
-    "desbloqueo": { "tipo": "siempre" }
+    "desbloqueo": {
+      "tipo": "siempre"
+    }
   },
   {
     "id": "corrientes-izquierda",
@@ -12,7 +14,21 @@
     "descripcion": "Reforma/revolución, vanguardia/consejos, plan/mercado, internacionalismo, balance de la URSS, anarquismo y asamblearismo. Separa marxismo-leninismo, maoísmo, trotskismo, luxemburguismo, anarcocomunismo, rojipardismo y socialdemocracia.",
     "orden": 17,
     "eleccionUsuario": true,
-    "desbloqueo": { "tipo": "eje", "eje": "economico", "operador": "<=", "umbral": -40 }
+    "desbloqueo": {
+      "tipo": "ejes-todos",
+      "condiciones": [
+        {
+          "eje": "economico",
+          "operador": "<=",
+          "umbral": -40
+        },
+        {
+          "eje": "propiedad-mercado",
+          "operador": "<=",
+          "umbral": -55
+        }
+      ]
+    }
   },
   {
     "id": "socialdemocracia-reformismo",
@@ -20,7 +36,12 @@
     "descripcion": "Tercera vía, socialismo democrático, ecosocialismo reformista, populismo de izquierda y socialdemocracia antinacionalista. Separa PSOE, Sumar, Podemos, Más Madrid e Izquierda Española.",
     "orden": 15,
     "eleccionUsuario": true,
-    "desbloqueo": { "tipo": "eje-banda", "eje": "economico", "min": -60, "max": 15 }
+    "desbloqueo": {
+      "tipo": "eje-banda",
+      "eje": "economico",
+      "min": -60,
+      "max": 15
+    }
   },
   {
     "id": "centro-liberalismo",
@@ -28,7 +49,12 @@
     "descripcion": "Socioliberalismo, liberalismo clásico, libertarianismo/anarcocapitalismo, centrismo pragmático y tecnocracia. Separa al liberal progresista del conservador liberal y del ancap.",
     "orden": 16,
     "eleccionUsuario": true,
-    "desbloqueo": { "tipo": "eje-banda", "eje": "economico", "min": -15, "max": 60 }
+    "desbloqueo": {
+      "tipo": "eje-banda",
+      "eje": "economico",
+      "min": -15,
+      "max": 60
+    }
   },
   {
     "id": "corrientes-derecha",
@@ -36,7 +62,21 @@
     "descripcion": "Democracia cristiana, conservadurismo liberal, tradicionalismo, agrarismo y tecnocracia. Derecha liberal en costumbres (línea pro-LGTB) vs. derecha moral; economía social de mercado vs. liberalismo duro.",
     "orden": 18,
     "eleccionUsuario": true,
-    "desbloqueo": { "tipo": "eje", "eje": "economico", "operador": ">=", "umbral": 40 }
+    "desbloqueo": {
+      "tipo": "ejes-todos",
+      "condiciones": [
+        {
+          "eje": "economico",
+          "operador": ">=",
+          "umbral": 40
+        },
+        {
+          "eje": "propiedad-mercado",
+          "operador": ">=",
+          "umbral": 55
+        }
+      ]
+    }
   },
   {
     "id": "derecha-radical",
@@ -44,7 +84,12 @@
     "descripcion": "Nacional-conservadurismo liberal (VOX), falangismo/nacionalsindicalismo, identitarismo nativista, populismo digital antipolítico y nacional-catolicismo. Separa lo que la etiqueta «extrema derecha» esconde.",
     "orden": 19,
     "eleccionUsuario": true,
-    "desbloqueo": { "tipo": "eje", "eje": "social", "operador": ">=", "umbral": 40 }
+    "desbloqueo": {
+      "tipo": "eje",
+      "eje": "social",
+      "operador": ">=",
+      "umbral": 40
+    }
   },
   {
     "id": "nacionalismos-regionalismos",
@@ -52,7 +97,17 @@
     "descripcion": "Vía unilateral/pactada, independencia/confederalismo/foralismo, nación cívica/cultural, pactismo territorial y España vaciada. Común a todos los nacionalismos periféricos y regionalismos.",
     "orden": 9,
     "eleccionUsuario": true,
-    "desbloqueo": { "tipo": "eje-o-ccaa", "eje": "territorial", "operador": "<=", "umbral": -30, "ccaa": ["andalucia", "castilla-y-leon", "catalunya"] }
+    "desbloqueo": {
+      "tipo": "eje-o-ccaa",
+      "eje": "territorial",
+      "operador": "<=",
+      "umbral": -30,
+      "ccaa": [
+        "andalucia",
+        "castilla-y-leon",
+        "catalunya"
+      ]
+    }
   },
   {
     "id": "verde-animalista",
@@ -60,7 +115,12 @@
     "descripcion": "Derechos de los animales vs. bienestarismo, decrecimiento vs. crecimiento verde, nuclear, renovables vs. territorio, caza y tauromaquia. Separa PACMA, verdes, ecosocialistas y ecomodernistas.",
     "orden": 7,
     "eleccionUsuario": true,
-    "desbloqueo": { "tipo": "eje", "eje": "ecologia", "operador": ">=", "umbral": 30 }
+    "desbloqueo": {
+      "tipo": "eje",
+      "eje": "ecologia",
+      "operador": ">=",
+      "umbral": 30
+    }
   },
   {
     "id": "feminismos-moral",
@@ -68,7 +128,12 @@
     "descripcion": "Abolicionismo/regulacionismo, autodeterminación de género, gestación subrogada, bioética y laicismo. Los cortes que parten en dos tanto a la izquierda como a la derecha.",
     "orden": 8,
     "eleccionUsuario": true,
-    "desbloqueo": { "tipo": "eje-banda", "eje": "social", "min": -100, "max": 35 }
+    "desbloqueo": {
+      "tipo": "eje-banda",
+      "eje": "social",
+      "min": -100,
+      "max": 35
+    }
   },
   {
     "id": "territorial-canarias",
@@ -76,7 +141,10 @@
     "descripcion": "REF, insularidad, ultraperiferia, descuento de residente, moratoria turística, frontera sur. Plantilla replicable para el resto de CCAA.",
     "orden": 10,
     "eleccionUsuario": true,
-    "desbloqueo": { "tipo": "ccaa", "ccaa": "canarias" }
+    "desbloqueo": {
+      "tipo": "ccaa",
+      "ccaa": "canarias"
+    }
   },
   {
     "id": "territorial-catalunya",
@@ -84,7 +152,10 @@
     "descripcion": "Independentismo (todas sus familias), inmersión lingüística, financiación singular y el cruce único de Aliança Catalana.",
     "orden": 11,
     "eleccionUsuario": true,
-    "desbloqueo": { "tipo": "ccaa", "ccaa": "catalunya" }
+    "desbloqueo": {
+      "tipo": "ccaa",
+      "ccaa": "catalunya"
+    }
   },
   {
     "id": "territorial-euskadi-navarra",
@@ -92,7 +163,13 @@
     "descripcion": "Concierto económico, foralismo y soberanía, Navarra en Euskal Herria, euskera, memoria, víctimas, violencia y estrategia democrática.",
     "orden": 12,
     "eleccionUsuario": true,
-    "desbloqueo": { "tipo": "ccaa", "ccaa": ["euskadi", "navarra"] }
+    "desbloqueo": {
+      "tipo": "ccaa",
+      "ccaa": [
+        "euskadi",
+        "navarra"
+      ]
+    }
   },
   {
     "id": "territorial-galicia",
@@ -100,7 +177,10 @@
     "descripcion": "Galeguismo, lengua, industria electrointensiva, litoral y mar.",
     "orden": 13,
     "eleccionUsuario": true,
-    "desbloqueo": { "tipo": "ccaa", "ccaa": "galicia" }
+    "desbloqueo": {
+      "tipo": "ccaa",
+      "ccaa": "galicia"
+    }
   },
   {
     "id": "territorial-andalucia",
@@ -108,7 +188,10 @@
     "descripcion": "Andalucismo soberanista e institucional, sucursalismo, mundo jornalero, turismo y vivienda.",
     "orden": 14,
     "eleccionUsuario": true,
-    "desbloqueo": { "tipo": "ccaa", "ccaa": "andalucia" }
+    "desbloqueo": {
+      "tipo": "ccaa",
+      "ccaa": "andalucia"
+    }
   },
   {
     "id": "democracia-instituciones",
@@ -116,7 +199,9 @@
     "descripcion": "Parlamentarismo y sus alternativas, democracia directa, revocación, reelección, separación de poderes, elección de jueces, organización interna y arquitectura territorial unitaria, autonómica, federal o confederal.",
     "orden": 2,
     "eleccionUsuario": true,
-    "desbloqueo": { "tipo": "siempre" }
+    "desbloqueo": {
+      "tipo": "siempre"
+    }
   },
   {
     "id": "trabajo-estado-sindicatos",
@@ -124,7 +209,9 @@
     "descripcion": "Poder en el centro de trabajo, autonomía sindical, cogestión, corporativismo, sindicalismo revolucionario y distintos motivos para rechazar impuestos o intervención estatal.",
     "orden": 3,
     "eleccionUsuario": true,
-    "desbloqueo": { "tipo": "siempre" }
+    "desbloqueo": {
+      "tipo": "siempre"
+    }
   },
   {
     "id": "energia-modelo-productivo",
@@ -132,7 +219,9 @@
     "descripcion": "Energía nuclear civil, renovables, propiedad de la red, límites al consumo y distintas estrategias climáticas sin identificar ecologismo con antinuclearismo.",
     "orden": 4,
     "eleccionUsuario": true,
-    "desbloqueo": { "tipo": "siempre" }
+    "desbloqueo": {
+      "tipo": "siempre"
+    }
   },
   {
     "id": "geopolitica-defensa",
@@ -140,7 +229,9 @@
     "descripcion": "Pacifismo, intervención, neutralidad, OTAN, armas nucleares, Sáhara Occidental, reclamaciones históricas e hipótesis de integración ibérica.",
     "orden": 5,
     "eleccionUsuario": true,
-    "desbloqueo": { "tipo": "siempre" }
+    "desbloqueo": {
+      "tipo": "siempre"
+    }
   },
   {
     "id": "identidad-cultura",
@@ -148,7 +239,9 @@
     "descripcion": "Asimilación o convivencia de culturas, ser español por origen o por participación, amenaza cultural percibida, símbolos e historia en la escuela, leyenda negra e Hispanidad, acentos y variedades del español, acceso a la nacionalidad y velo. Separa los patriotismos españoles entre sí y de la izquierda estatal.",
     "orden": 6,
     "eleccionUsuario": true,
-    "desbloqueo": { "tipo": "siempre" }
+    "desbloqueo": {
+      "tipo": "siempre"
+    }
   },
   {
     "id": "limites-antipluralismo",
@@ -156,6 +249,8 @@
     "descripcion": "Bloque opcional de investigación sobre concentración extrema de poder, culto a la dirección y aceleración violenta del colapso. Solo alimenta el mapa; nunca recomienda partidos u organizaciones reales.",
     "orden": 20,
     "eleccionUsuario": true,
-    "desbloqueo": { "tipo": "manual" }
+    "desbloqueo": {
+      "tipo": "manual"
+    }
   }
 ]

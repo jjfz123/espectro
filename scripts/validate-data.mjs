@@ -187,6 +187,26 @@ for (const m of modulos) {
   if (m.desbloqueo?.tipo === 'eje-banda' && m.desbloqueo.min > m.desbloqueo.max) {
     fallo(`modulos.json (${m.id})`, 'la banda tiene min mayor que max');
   }
+  if (m.desbloqueo?.tipo === 'ejes-todos') {
+    const condiciones = m.desbloqueo.condiciones;
+    if (!Array.isArray(condiciones) || condiciones.length === 0) {
+      fallo(`modulos.json (${m.id})`, 'ejes-todos exige una lista de condiciones no vacía');
+    }
+    for (const condicion of condiciones ?? []) {
+      if (!idsEjes.has(condicion.eje)) {
+        fallo(`modulos.json (${m.id})`, `condición referencia un eje inexistente: ${condicion.eje}`);
+      }
+      const conUmbral =
+        ['<=', '>='].includes(condicion.operador) && typeof condicion.umbral === 'number';
+      const conBanda = typeof condicion.min === 'number' && typeof condicion.max === 'number';
+      if (!conUmbral && !conBanda) {
+        fallo(`modulos.json (${m.id})`, `condición sin umbral ni banda válidos (eje ${condicion.eje ?? '?'})`);
+      }
+      if (conBanda && condicion.min > condicion.max) {
+        fallo(`modulos.json (${m.id})`, `la banda de ${condicion.eje} tiene min mayor que max`);
+      }
+    }
+  }
   if (['ccaa', 'eje-o-ccaa'].includes(m.desbloqueo?.tipo)) {
     const comunidades = Array.isArray(m.desbloqueo.ccaa) ? m.desbloqueo.ccaa : [m.desbloqueo.ccaa];
     for (const ccaa of comunidades) {

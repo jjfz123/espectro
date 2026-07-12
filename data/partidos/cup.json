@@ -467,6 +467,48 @@
         "url": "https://e-noticies.cat/politica/cup-competencies-immigracio-tancar-cies-acollir-millor",
         "consultado": "2026-07-10"
       }
+    },
+    "dr-001": {
+      "valor": 2,
+      "justificacion": "Su programa anticapitalista defiende una banca pública catalana como pilar de la soberanía financiera y contempla nacionalizar la banca y los sectores estratégicos: apoyo pleno a poner el sistema bancario bajo titularidad pública.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "La CUP creu que Catalunya no tindrà «sobirania financera» sense «banca pública» (La República)",
+        "url": "https://www.larepublica.cat/noticies/la-cup-creu-que-catalunya-no-tindra-sobirania-financera-sense-banca-publica-pero-veu-negativa-lopa-del-bbva/",
+        "fecha": "2024",
+        "consultado": "2026-07-12",
+        "cita": "La CUP creu que Catalunya no tindrà «sobirania financera» sense «banca pública»"
+      },
+      "grupoEvidencia": "cup-banca-publica-sobirania"
+    },
+    "der-026": {
+      "valor": -2,
+      "justificacion": "La CUP es una de las formaciones independentistas que Vox pretendía ilegalizar; defiende el derecho a promover la independencia por vías democráticas y rechaza que un partido pueda ilegalizarse por sus fines secesionistas, como reflejó el debate en que ningún grupo salvo Vox respaldó esa vía.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Vox se queda solo en su intento de ilegalizar a los partidos independentistas: «No se pueden prohibir las ideas» (Público)",
+        "url": "https://www.publico.es/politica/vox-queda-ilegalizar-partidos-independentistas-no-prohibir-ideas.html",
+        "fecha": "2020-09",
+        "consultado": "2026-07-12",
+        "cita": "Vox se queda solo en su intento de ilegalizar a los partidos independentistas: no se pueden prohibir las ideas"
+      },
+      "grupoEvidencia": "cup-contra-ilegalitzacio-vox"
+    },
+    "dem-001": {
+      "valor": 2,
+      "justificacion": "Su proyecto político central es el ejercicio de un referéndum vinculante de autodeterminación y reivindica repetir la ruptura democrática de octubre de 2017; su cultura asamblearia somete habitualmente las grandes decisiones a consulta vinculante de la base.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Què diu el programa electoral de la CUP per a les eleccions catalanes? (VilaWeb)",
+        "url": "https://www.vilaweb.cat/noticies/cup-programa-electoral-eleccions-catalunya-2024/",
+        "fecha": "2024-05",
+        "consultado": "2026-07-12",
+        "cita": "Què diu el programa electoral de la CUP per a les eleccions catalanes?"
+      },
+      "grupoEvidencia": "cup-referendum-programa-2024"
     }
   }
 }

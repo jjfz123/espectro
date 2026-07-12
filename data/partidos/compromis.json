@@ -292,6 +292,164 @@
         "url": "https://laicismo.org/en-la-comision-de-educacion-del-congreso-de-diputados-la-proposicion-no-de-ley-pnl-impulsada-por-europa-laica-y-mas-de-40-colectivos-por-una-escuela-publica-y-laica/174057",
         "consultado": "2026-07-10"
       }
+    },
+    "eco-012": {
+      "valor": 1,
+      "justificacion": "El programa educativo de Compromís propone eliminar los conciertos de los centros que discriminan o segregan por razón de género, y su grupo ha exigido revocar conciertos a colegios que segregan por sexo. Es una eliminación focalizada, no una supresión gradual y general de todos los conciertos, de ahí el acuerdo parcial.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Educación — Programa 2023 de Compromís",
+        "url": "https://28m.compromis.net/cas/programa/educacio",
+        "fecha": "2023",
+        "consultado": "2026-07-12",
+        "cita": "Eliminaremos todos los conciertos educativos en aquellos centros que discriminan por razón de género"
+      },
+      "grupoEvidencia": "trbj-com-eco012-conciertos"
+    },
+    "eco-009": {
+      "valor": -2,
+      "justificacion": "El síndic de Compromís, Joan Baldoví, criticó que la primera medida fiscal del Consell de Mazón fuera acelerar la bonificación del impuesto de sucesiones y donaciones hasta el 99%; Compromís defiende mantener el impuesto y no bonificarlo, postura opuesta a suprimirlo.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "PSPV y Compromís cargan contra el primer «regalo fiscal» de Mazón: «Ellos saben bien para quién trabajan» (Valencia Plaza)",
+        "url": "https://valenciaplaza.com/pspv-compromis-cargan-primer-regalo-fiscal-mazon-ellos-saben-quien-trabajan",
+        "consultado": "2026-07-12",
+        "fecha": "2023-07-21",
+        "cita": "¿Pensabas que el Partido Popular te iba a bajar impuestos a ti? Ellos saben bien para quién trabajan"
+      },
+      "grupoEvidencia": "trbj-com-eco009-sucesiones"
+    },
+    "lib-008": {
+      "valor": -2,
+      "justificacion": "Compromís reclama de forma consistente en varias ciudades regular y limitar las VTC para reducir la congestión y proteger al taxi, lo contrario de eliminar los límites de licencias.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Compromís reclama regular las VTC para reducir la congestión en València (TodoTaxi)",
+        "url": "https://todotaxi.org/compromis-reclama-regular-las-vtc-para-reducir-la-congestion-en-valencia/",
+        "consultado": "2026-07-12",
+        "fecha": "2026-05-13",
+        "cita": "Compromís reclama regular las VTC para reducir la congestión en València"
+      },
+      "grupoEvidencia": "trbj-com-lib008-vtc"
+    },
+    "der-026": {
+      "valor": -2,
+      "justificacion": "Compromís rechaza ilegalizar partidos por promover la secesión: Baldoví se burló de la propuesta de Vox instándole a ilegalizar a todos los partidos menos Vox «como hicieron los nazis», y el partido reserva ese criterio para formaciones antidemocráticas (franquismo/Vox), no para partidos secesionistas.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "Vox se queda solo en su propuesta en el Congreso para ilegalizar partidos independentistas (Vozpópuli)",
+        "url": "https://www.vozpopuli.com/espana/vox-queda-solo-propuesta-ilegalizar-partidos-independentistas.html",
+        "fecha": "2020-09-15",
+        "consultado": "2026-07-12",
+        "cita": "Vox se queda solo en su propuesta en el Congreso para ilegalizar partidos independentistas"
+      },
+      "grupoEvidencia": "trbj-com-der026-ilegalizar"
+    },
+    "dem-010": {
+      "valor": 1,
+      "justificacion": "Durante la pandemia, Compromís (Baldoví) mostró su preocupación por una prórroga «excesiva» de seis meses del estado de alarma sin control parlamentario suficiente y reclamó mantener la rendición de cuentas de la Cámara, aunque finalmente apoyó la prórroga; de ahí el acuerdo parcial.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "Los socios del Gobierno rechazan una alarma de seis meses sin control en el Congreso (El Independiente)",
+        "url": "https://www.elindependiente.com/espana/2020/10/27/los-socios-del-gobierno-rechazan-una-alarma-de-seis-meses-sin-control-en-el-congreso/",
+        "fecha": "2020-10-27",
+        "consultado": "2026-07-12",
+        "cita": "Los socios del Gobierno rechazan una alarma de seis meses sin control en el Congreso"
+      },
+      "grupoEvidencia": "trbj-com-dem010-alarma"
+    },
+    "dem-026": {
+      "valor": 2,
+      "justificacion": "Compromís (Baldoví) rechazó participar en el «secuestro» de À Punt por PP y Vox, denunciando el intento de controlar la televisión pública y reclamando volver al consenso y la mayoría reforzada del Botànic para elegir su dirección.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "PP y Vox defienden a sus candidatos al consejo de À Punt y PSPV y Compromís rechazan participar en su «secuestro» (Valencia Plaza)",
+        "url": "https://valenciaplaza.com/valenciaplaza/pp-y-vox-defienden-candidatos-consejo-a-punt-pspv-compromis-rechazan-participar-secuestro",
+        "fecha": "2024-12-10",
+        "consultado": "2026-07-12",
+        "cita": "PP y Vox defienden a sus candidatos al consejo de À Punt y PSPV y Compromís rechazan participar en su «secuestro»"
+      },
+      "grupoEvidencia": "trbj-com-dem026-apunt"
+    },
+    "soc-006": {
+      "valor": 2,
+      "justificacion": "Compromís (Enric Bataller) se posicionó a favor de derogar la prisión permanente revisable, comparándola con una condena a «pudrirse y no a reinsertarse», y apoyó la iniciativa de derogación en el Congreso.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "El Congreso da el primer paso para derogar la prisión permanente revisable (Público)",
+        "url": "https://www.publico.es/politica/congreso-da-primer-paso-derogar-prision-permanente-revisable.html",
+        "fecha": "2017-10",
+        "consultado": "2026-07-12",
+        "cita": "El Congreso da el primer paso para derogar la prisión permanente revisable"
+      },
+      "grupoEvidencia": "trbj-com-soc006-prision"
+    },
+    "rel-003": {
+      "valor": -2,
+      "justificacion": "Compromís mantiene una postura laicista consistente: reclama suprimir la exención fiscal de la Iglesia y denunciar y derogar los acuerdos con la Santa Sede (Concordato), rechazando cualquier injerencia institucional de las autoridades religiosas en la legislación.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Compromís exige a Sánchez que «cobre impuestos» a la Iglesia «como a cualquier hijo de vecino» (Press Digital)",
+        "url": "https://www.pressdigital.es/articulo/politica/2025-12-14/5703634-compromis-exige-sanchez-cobre-impuestos-iglesia-como-cualquier-hijo-vecino",
+        "fecha": "2025-12-14",
+        "consultado": "2026-07-12",
+        "cita": "Compromís exige a Sánchez que «cobre impuestos» a la Iglesia «como a cualquier hijo de vecino»"
+      },
+      "grupoEvidencia": "trbj-com-rel003-iglesia"
+    },
+    "dem-015": {
+      "valor": 2,
+      "justificacion": "La militancia de Més-Compromís decidió con un 92,68% en una consulta interna vinculante que su diputada Àgueda Micó abandonara el grupo de Sumar y pasara al Mixto, y ella lo acató pese a existir posiciones internas divididas; muestra la exigencia de disciplina pública basada en una decisión vinculante de la organización.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Àgueda Micó (Compromís) formaliza su paso al Grupo Mixto para desarrollar su tarea «con mayor independencia» (El Español)",
+        "url": "https://www.elespanol.com/valencia/20250703/agueda-mico-compromis-formaliza-paso-grupo-mixto-desarrollar-tarea-mayor-independencia/1003743832282_0.html",
+        "fecha": "2025-07-03",
+        "consultado": "2026-07-12",
+        "cita": "Àgueda Micó (Compromís) formaliza su paso al Grupo Mixto para desarrollar su tarea «con mayor independencia»"
+      },
+      "grupoEvidencia": "trbj-com-dem015-mico"
+    },
+    "dem-029": {
+      "valor": 1,
+      "justificacion": "Compromís (Àgueda Micó) apoyó activamente que la ILP de regularización de migrantes, avalada por más de 600.000 firmas, fuera tomada en consideración y debatida en el Congreso; respalda que una iniciativa popular con firmas suficientes se debata, aunque no consta una postura general sobre plazos fijos, de ahí el acuerdo parcial.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "El Congreso apoya la iniciativa popular para regularizar a cientos de miles de migrantes que ya viven y trabajan en España (elDiario.es)",
+        "url": "https://www.eldiario.es/desalambre/congreso-apoyara-iniciativa-popular-regularizar-cientos-miles-migrantes-viven-espana_1_11273877.html",
+        "fecha": "2024-04",
+        "consultado": "2026-07-12",
+        "cita": "El Congreso apoya la iniciativa popular para regularizar a cientos de miles de migrantes que ya viven y trabajan en España"
+      },
+      "grupoEvidencia": "trbj-com-dem029-ilp"
+    },
+    "lab-016": {
+      "valor": 0,
+      "justificacion": "Compromís defiende un modelo de colaboración público-privada para los sectores estratégicos e industriales: planificación pública que atrae inversión privada con «efecto tractor» y una banca pública de inversión (IVF) complementaria a la privada. No aboga por la dirección estatal exclusiva de las empresas estratégicas ni por dejarlas solo al mercado.",
+      "calidadEvidencia": "media",
+      "resolucionCero": {
+        "tipo": "modelo-mixto",
+        "explicacion": "Compromís plantea los sectores estratégicos mediante colaboración público-privada (planificación e inversión pública que traccionan capital privado y banca pública complementaria de la privada), no dirección estatal exclusiva ni mercado puro."
+      },
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Bautismo de fuego de Baldoví ante la patronal: reindustrialización, escuela de negocios pública y VPP con colaboración privada (elDiario.es)",
+        "url": "https://www.eldiario.es/comunitat-valenciana/economia/bautismo-fuego-baldovi-patronal-reindustrializacion-escuela-negocios-publica-vpp-colaboracion-privada_1_13213829.html",
+        "fecha": "2025",
+        "consultado": "2026-07-12",
+        "cita": "Bautismo de fuego de Baldoví ante la patronal: reindustrialización, escuela de negocios pública y VPP con colaboración privada"
+      },
+      "grupoEvidencia": "trbj-com-lab016-mixto"
     }
   }
 }

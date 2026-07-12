@@ -472,5 +472,19 @@
     "termino": "Sorteo (selección de cargos por azar)",
     "definicion": "Método de designación de cargos o representantes por sorteo entre la ciudadanía, en lugar de por elección. Se usó en la democracia ateniense y hoy se propone sobre todo para asambleas ciudadanas deliberativas que asesoran o deciden sobre asuntos concretos, buscando una muestra representativa de la población ajena a los partidos. Sus partidarios lo ven como forma de acercar la política a la gente corriente y reducir el peso de los aparatos; sus críticos dudan de la competencia y de la rendición de cuentas de personas no elegidas ni reelegibles.",
     "url": "https://es.wikipedia.org/wiki/Sorteo_democr%C3%A1tico_(Lotocracia)"
+  },
+  {
+    "id": "corporativismo",
+    "termino": "Corporativismo",
+    "definicion": "Organización de los intereses económicos por ramas de producción: empresarios y trabajadores de cada sector se integran en corporaciones únicas con reconocimiento y funciones públicas, en lugar de sindicatos y patronales independientes entre sí.",
+    "ampliacion": "Es el modelo del sindicato vertical franquista (Fuero del Trabajo, 1938) y de los fascismos, y tiene una variante católica no estatal (encíclica Quadragesimo Anno, 1931). No confundir con el uso coloquial de «corporativismo» como defensa cerrada de los intereses de un gremio o profesión.",
+    "url": "https://es.wikipedia.org/wiki/Corporativismo"
+  },
+  {
+    "id": "planificacion-indicativa",
+    "termino": "Planificación indicativa",
+    "definicion": "Planes económicos públicos que fijan prioridades y orientan la inversión privada mediante incentivos e información, sin sustituir al mercado ni a la propiedad privada. La Constitución la habilita en su artículo 131.",
+    "ampliacion": "Modelo asociado a la Francia de posguerra (Comisaría General del Plan, 1946) y a la economía mixta. Se distingue de la planificación imperativa o sustitutiva —ver «Planificación económica»— en que el plan orienta y complementa el mercado en vez de reemplazarlo.",
+    "url": "https://es.wikipedia.org/wiki/Planificaci%C3%B3n_indicativa"
   }
 ]

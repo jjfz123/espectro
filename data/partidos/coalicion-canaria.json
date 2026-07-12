@@ -575,6 +575,90 @@
         "fecha": "2026",
         "consultado": "2026-07-12"
       }
+    },
+    "izq-005": {
+      "valor": -1,
+      "justificacion": "La ponencia ideológica de CC prioriza la iniciativa privada, el mérito y la atracción de capital como motores del progreso, y defiende que los sectores estratégicos permanezcan en manos canarias más que planificados públicamente. Rechaza, con matiz regionalista, que la planificación pública sustituya al mercado en los sectores estratégicos.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Ponencia Ideológica de Coalición Canaria",
+        "url": "https://coalicioncanaria.org/wp-content/uploads/2017/10/PONENCIA-IDEOLOGICA.pdf",
+        "fecha": "2017",
+        "consultado": "2026-07-12",
+        "cita": "la iniciativa privada, la responsabilidad individual, el esfuerzo, el mérito y la emprendeduría como modos de articular la sociedad"
+      },
+      "grupoEvidencia": "trbj-cc-izq005-ponencia"
+    },
+    "lib-008": {
+      "valor": -2,
+      "justificacion": "El consejero de Transportes de CC, Pablo Rodríguez, impulsó una modificación de la Ley de Transportes para condicionar las licencias VTC a criterios medioambientales y prorrogar la moratoria a nuevas autorizaciones, en lugar de liberalizar; postura opuesta a eliminar los límites de licencias.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Cabildos y Parlamento, a favor del cambio para otorgar licencias VTC por criterios medioambientales (Atlántico Hoy)",
+        "url": "https://www.atlanticohoy.com/politica/cabildos-parlamento-favor-cambio-otorgar-licencias-vtc-por-criterios-medioambientales_1535993_102.html",
+        "fecha": "2025",
+        "consultado": "2026-07-12",
+        "cita": "los criterios de los que dispondrán los cabildos para conceder las licencias serán medioambientales, como la calidad del aire, y la capacidad de las vías"
+      },
+      "grupoEvidencia": "trbj-cc-lib008-vtc"
+    },
+    "dem-026": {
+      "valor": -2,
+      "justificacion": "El Gobierno de CC y PP impulsó una ley audiovisual que rebaja la mayoría cualificada de tres quintos para elegir la dirección de RTVC y vincula sus mandatos al ciclo político de la legislatura, justo lo contrario del mandato reforzado y no coincidente con el Gobierno que plantea el ítem.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "NC alerta de que la nueva ley audiovisual «secuestra» la Televisión Canaria al servicio del Gobierno de CC y PP (Canarias Ahora)",
+        "url": "https://www.eldiario.es/canariasahora/politica/nc-nueva-ley-audiovisual-secuestra-television-canaria-gobierno-cc-pp_1_12893474.html",
+        "fecha": "2026-01",
+        "consultado": "2026-07-12",
+        "cita": "cambia el proceso de elección de los órganos de dirección de RTVC de exigir una mayoría cualificada de tres quintos a permitir la elección por mayoría absoluta si no se alcanza la mayoría cualificada"
+      },
+      "grupoEvidencia": "trbj-cc-dem026-rtvc"
+    },
+    "soc-001": {
+      "valor": 2,
+      "justificacion": "Coalición Canaria votó a favor de la ley que abrió el matrimonio a las parejas del mismo sexo en 2005, alineándose con la protección legal de los derechos de las personas LGTB, incluido el matrimonio igualitario.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Sucedió en... 2005. Se aprueba el matrimonio igualitario (PSOE)",
+        "url": "https://www.psoe.es/el-socialista/sucedio-en/sucedio-en-2005-se-aprueba-el-matrimonio-igualitario/",
+        "fecha": "2005-06-30",
+        "consultado": "2026-07-12",
+        "cita": "el botón verde lo pulsaron diputados del PSOE, Izquierda Unida, PNV, Coalición Canaria, BNG y CHA"
+      },
+      "grupoEvidencia": "trbj-cc-soc001-matrimonio"
+    },
+    "dem-021": {
+      "valor": 2,
+      "justificacion": "CC firmó en 2015 el recurso de inconstitucionalidad contra la Ley de Seguridad Ciudadana (ley mordaza), que alegaba vulneración de los derechos de reunión y manifestación, incluida la sanción a quien participa en concentraciones no comunicadas previamente.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Coalición Canaria recurre ante el Constitucional la «ley mordaza» (Canarias Ahora)",
+        "url": "https://www.eldiario.es/canariasahora/politica/ley-mordaza-seguridad-ciudadana_1_2670362.html",
+        "fecha": "2015",
+        "consultado": "2026-07-12",
+        "cita": "Coalición Canaria recurre ante el Constitucional la «ley mordaza»"
+      },
+      "grupoEvidencia": "trbj-cc-dem021-mordaza"
+    },
+    "dem-022": {
+      "valor": 1,
+      "justificacion": "El recurso de inconstitucionalidad de 2015 que CC firmó impugnó el artículo que sancionaba el uso no autorizado de imágenes de agentes; el Tribunal Constitucional (2021) anuló la expresión «no autorizado», dejando sancionable solo el riesgo acreditado, en línea con el enunciado. Media por tratarse de un recurso conjunto y no de una declaración individual de CC sobre ese artículo.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Declarada constitucional la «Ley Mordaza» salvo las grabaciones «no autorizadas» a las fuerzas de seguridad (El Derecho)",
+        "url": "https://elderecho.com/declarada-constitucional-la-ley-mordaza-salvo-las-grabaciones-no-autorizadas-a-las-fuerzas-de-seguridad",
+        "fecha": "2021",
+        "consultado": "2026-07-12",
+        "cita": "el TC declaró la inconstitucionalidad de la expresión «no autorizado» del artículo 36.23 que preveía como infracción grave el uso no autorizado de imágenes de las Fuerzas y Cuerpos de Seguridad"
+      },
+      "grupoEvidencia": "trbj-cc-dem022-grabar"
     }
   }
 }

@@ -1087,6 +1087,104 @@
         "fecha": "2023",
         "consultado": "2026-07-12"
       }
+    },
+    "dem-006": {
+      "valor": 2,
+      "justificacion": "VOX recurre de forma sistemática al Tribunal Constitucional para que anule normas y medidas del Gobierno que considera contrarias a derechos de la Constitución: impugnó el confinamiento del estado de alarma (estimado por el TC) y después la tramitación de la ley de amnistía. Respalda que los tribunales anulen leyes que vulneran la Constitución.",
+      "calidadEvidencia": "media",
+      "grupoEvidencia": "vox-recurso-estado-alarma",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "VOX presenta un recurso de inconstitucionalidad contra el Estado de Alarma decretado por el Gobierno Sánchez",
+        "url": "https://www.voxespana.es/actualidad/vox-presenta-un-recurso-de-inconstitucionalidad-contra-el-estado-de-alarma-decretado-por-el-gobierno-sanchez-20200429",
+        "fecha": "2020-04-29",
+        "consultado": "2026-07-12",
+        "cita": "VOX presenta un recurso de inconstitucionalidad contra el Estado de Alarma decretado por el Gobierno Sánchez"
+      }
+    },
+    "dem-007": {
+      "valor": -2,
+      "justificacion": "El plan de VOX para \"despolitizar la justicia\" reclama que los vocales del CGPJ sean elegidos por y entre jueces y magistrados y restaurar la independencia judicial frente al poder político; es contrario a que el Gobierno pueda apartar de sus funciones a jueces que bloqueen su programa.",
+      "calidadEvidencia": "media",
+      "grupoEvidencia": "vox-cgpj-jueces-entre-jueces",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "El plan de VOX para despolitizar la justicia: vocales del CGPJ elegidos por y entre jueces y magistrados, modificar la LOPJ y destituir al fiscal general del Estado",
+        "url": "https://www.voxespana.es/grupo_parlamentario/actividad-parlamentaria/el-plan-de-vox-para-despolitizar-la-justicia-vocales-del-cgpj-elegidos-por-y-entre-jueces-y-magistrados-modificar-la-lopj-y-destituir-al-fiscal-general-del-estado-20240516",
+        "fecha": "2024-05-16",
+        "consultado": "2026-07-12",
+        "cita": "El plan de VOX para despolitizar la justicia: vocales del CGPJ elegidos por y entre jueces y magistrados"
+      }
+    },
+    "dem-023": {
+      "valor": 2,
+      "justificacion": "VOX defiende una policía con plena autoridad y capacidad preventiva de identificación en la calle: rechazó la reforma de la ley de seguridad ciudadana por \"desarmar a la policía\" y recortar sus facultades. Apoya que la policía pueda pedir la documentación con fines preventivos.",
+      "calidadEvidencia": "media",
+      "grupoEvidencia": "vox-reforma-seguridad-ciudadana",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "VOX denuncia que la reforma de la ley de seguridad ciudadana se hace 'a medida de delincuentes para hacer de España una nación más insegura' y 'desarmar a la policía'",
+        "url": "https://www.voxespana.es/grupo_parlamentario/actividad-parlamentaria/vox-denuncia-que-la-reforma-de-la-ley-de-seguridad-ciudadana-se-hace-a-medida-de-delincuentes-para-hacer-de-espana-una-nacion-mas-insegura-y-desarmar-a-la-policia-20230131",
+        "fecha": "2023-01-31",
+        "consultado": "2026-07-12",
+        "cita": "la reforma de la ley de seguridad ciudadana se hace a medida de delincuentes para hacer de España una nación más insegura"
+      }
+    },
+    "soc-003": {
+      "valor": 2,
+      "justificacion": "VOX promueve de forma reiterada ampliar la videovigilancia con cámaras en calles, parques y espacios públicos como medida de seguridad ciudadana, con iniciativas coincidentes en numerosos municipios (Zamora, Novelda, Camas, El Puerto).",
+      "calidadEvidencia": "media",
+      "grupoEvidencia": "vox-videovigilancia-camaras",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "VOX Zamora propone instalar más cámaras de vigilancia para reforzar la seguridad ciudadana",
+        "url": "https://www.zamoranews.com/articulo/zamora/vox-zamora-propone-instalar-mas-camaras-vigilancia-reforzar-seguridad-ciudadana/20250729182458344034.html",
+        "fecha": "2025-07-29",
+        "consultado": "2026-07-12",
+        "cita": "VOX Zamora propone instalar más cámaras de vigilancia para reforzar la seguridad ciudadana"
+      }
+    },
+    "soc-001": {
+      "valor": -2,
+      "justificacion": "VOX reclama derogar \"inmediatamente\" las leyes LGTBI y trans y ha defendido suprimir el matrimonio igualitario para sustituirlo por \"uniones civiles\", en contra de mantener protegidos por ley los derechos LGTB y el matrimonio igualitario.",
+      "calidadEvidencia": "media",
+      "grupoEvidencia": "vox-derogar-ley-lgtbi",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "VOX exige al PP que derogue 'inmediatamente' la Ley LGTBI y la Ley Trans en la Región",
+        "url": "https://www.voxespana.es/noticias/vox-exige-al-pp-que-derogue-inmediatamente-la-ley-lgtbi-y-la-ley-trans-en-la-region-20250131?provincia=murcia",
+        "fecha": "2025-01-31",
+        "consultado": "2026-07-12",
+        "cita": "VOX exige al PP que derogue inmediatamente la Ley LGTBI y la Ley Trans en la Región"
+      }
+    },
+    "lab-005": {
+      "valor": 2,
+      "justificacion": "VOX sostiene que los grandes sindicatos han perdido independencia por vivir de subvenciones públicas y reclama eliminarlas para que sean \"verdaderamente independientes\"; defiende la plena autonomía sindical frente al Gobierno y al poder político.",
+      "calidadEvidencia": "media",
+      "grupoEvidencia": "vox-subvenciones-sindicatos-independencia",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "VOX reclamará el apoyo del Parlamento para que el Gobierno del PP elimine las subvenciones a los sindicatos y dedicar el dinero a 'beneficiar' a los andaluces",
+        "url": "https://www.voxespana.es/noticias/vox-solicitara-apoyo-parlamento-gobierno-pp-moreno-bonilla-elimine-subvenciones-nominativas-sindicatos-asegurar-independencia-financiera-20240604",
+        "fecha": "2024-06-04",
+        "consultado": "2026-07-12",
+        "cita": "elimine las subvenciones a los sindicatos y dedicar el dinero a beneficiar a los andaluces"
+      }
+    },
+    "lib-008": {
+      "valor": 1,
+      "justificacion": "VOX dice creer en \"la libertad y la libre competencia\" y ha planteado liberalizar el sector del taxi y las VTC previa compensación de los derechos adquiridos, para que compitan en igualdad de condiciones. Apoya con matices eliminar las restricciones de licencias.",
+      "calidadEvidencia": "media",
+      "grupoEvidencia": "vox-liberalizar-taxi-vtc",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Vox, único partido que habla de liberalizar el taxi tras una compensación previa (Libre Mercado)",
+        "url": "https://www.libremercado.com/2019-01-22/vox-unico-partido-que-habla-de-liberalizar-el-taxi-tras-una-compensacion-previa-1276631717/",
+        "fecha": "2019-01-22",
+        "consultado": "2026-07-12",
+        "cita": "Vox, único partido que habla de liberalizar el taxi tras una compensación previa"
+      }
     }
   }
 }

@@ -371,6 +371,90 @@
         "fecha": "2023",
         "consultado": "2026-07-12"
       }
+    },
+    "eco-002": {
+      "valor": 1,
+      "justificacion": "UPN defiende la colaboración público-privada como forma de gestión eficiente de los servicios públicos: su programa propone recuperar la colaboración público-privada para los servicios sociales y su presidenta, Cristina Ibarrola, reivindica la colaboración público-privada en sanidad con criterios de eficiencia, calidad y efectividad, dentro de un marco de control público; endoso parcial de la participación privada para mejorar la eficiencia.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral de UPN para las Elecciones Autonómicas 2023 en Navarra",
+        "url": "https://www.politicaelectoral.com/es/espana/autonomicas-2023/navarra/upn",
+        "fecha": "2023",
+        "consultado": "2026-07-12",
+        "cita": "Recuperación de la colaboración público-privada como forma de gestión de servicios sociales de calidad"
+      },
+      "grupoEvidencia": "trbj-upn-eco002-publicoprivada"
+    },
+    "dem-008": {
+      "valor": 1,
+      "justificacion": "UPN votó en contra de la ley de amnistía —criticada por el CGPJ y el Tribunal Supremo como vulneración de la separación de poderes—, defendiendo el respeto a la separación de poderes frente a un acuerdo de investidura; su discurso enfatiza la impunidad más que el término técnico, de ahí el acuerdo con matiz.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "UPN acusa a Pedro Sánchez de someterse a una investidura basada en la «impunidad de delincuentes» (El Nacional)",
+        "url": "https://www.elnacional.cat/es/politica/upn-acusa-pedro-sanchez-someterse-investidura-basada-impunidad-delincuentes_1124079_102.html",
+        "fecha": "2023-11",
+        "consultado": "2026-07-12",
+        "cita": "un proceso de investidura basado en la impunidad de delincuentes y el blanqueo de los herederos políticos de la banda terrorista ETA"
+      },
+      "grupoEvidencia": "trbj-upn-dem008-amnistia"
+    },
+    "dem-010": {
+      "valor": 2,
+      "justificacion": "UPN reclamó mantener el control parlamentario y la competencia política durante el estado de alarma, denunciando el «abuso» de un estado de alarma que «secuestra a los parlamentarios y acalla a los representantes» de los ciudadanos.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "UPN denuncia el «abuso» del Gobierno y la «cobardía impresentable» de Sánchez con el estado de alarma (Servimedia)",
+        "url": "https://www.servimedia.es/noticias/1327001",
+        "fecha": "2020-10-29",
+        "consultado": "2026-07-12",
+        "cita": "UPN denuncia el «abuso» del Gobierno y la «cobardía impresentable» de Sánchez con el estado de alarma"
+      },
+      "grupoEvidencia": "trbj-upn-dem010-alarma"
+    },
+    "dem-007": {
+      "valor": -2,
+      "justificacion": "UPN votó a favor de la moción para que sean los propios jueces quienes elijan a los vocales judiciales del CGPJ y por revertir las reformas de Bolaños, defendiendo la independencia judicial frente al control gubernamental de la judicatura.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "El Congreso tumba la moción de Vox que pedía que los jueces eligieran a parte del CGPJ y revocar las reformas de Bolaños (Infobae)",
+        "url": "https://www.infobae.com/espana/agencias/2026/05/28/el-congreso-tumba-la-mocion-de-vox-que-pedia-que-los-jueces-eligieran-a-parte-del-cgpj-y-revocar-las-reformas-de-bolanos/",
+        "fecha": "2026-05-28",
+        "consultado": "2026-07-12",
+        "cita": "recibió votos favorables del PP y UPN, mientras el resto de la Cámara votó en contra"
+      },
+      "grupoEvidencia": "trbj-upn-dem007-cgpj"
+    },
+    "dem-023": {
+      "valor": 1,
+      "justificacion": "UPN se opuso (junto a PP y Vox) a suavizar la Ley de Seguridad Ciudadana, defendiendo el mantenimiento de las facultades policiales y acusando al Gobierno de dejar «abandonada a la Policía»; respalda potestades policiales amplias, de ahí el acuerdo con matiz sobre la identificación preventiva.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "La reforma de la ley mordaza echa a andar con el rechazo del PP, Vox y UPN (Infobae)",
+        "url": "https://www.infobae.com/espana/agencias/2024/10/29/la-reforma-de-la-ley-mordaza-echa-a-andar-con-el-rechazo-del-pp-vox-y-upn/",
+        "fecha": "2024-10-29",
+        "consultado": "2026-07-12",
+        "cita": "La reforma de la ley mordaza echa a andar con el rechazo del PP, Vox y UPN"
+      },
+      "grupoEvidencia": "trbj-upn-dem023-mordaza"
+    },
+    "dem-015": {
+      "valor": 2,
+      "justificacion": "El Comité de Garantías y Disciplina de UPN sancionó y suspendió de militancia dos años y medio a los diputados Sayas y Adanero por incumplir la disciplina de voto pactada en la convalidación de la reforma laboral, pese a sus discrepancias sustantivas; exigencia directa de disciplina pública a sus miembros.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "UPN confirma la sanción a Sayas y Adanero y los suspende de militancia (OKDiario Navarra)",
+        "url": "https://navarra.okdiario.com/articulo/politica/sayas-adanero-upn-comite-disciplina-ratifica-sancion/20220301095150397956.html",
+        "fecha": "2022-03-01",
+        "consultado": "2026-07-12",
+        "cita": "en ningún momento informaron a la dirección de UPN de que su voto en la convalidación del Real Decreto-ley 32/2021 iba a ser negativo, contraviniendo así la postura oficial acordada"
+      },
+      "grupoEvidencia": "trbj-upn-dem015-disciplina"
     }
   }
 }
