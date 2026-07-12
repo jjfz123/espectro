@@ -337,7 +337,10 @@
   {
     "id": "der-019",
     "texto": "La prisión permanente revisable debe eliminarse del Código Penal.",
-    "terminos": ["prision-permanente-revisable", "codigo-penal"],
+    "terminos": [
+      "prision-permanente-revisable",
+      "codigo-penal"
+    ],
     "modulo": "corrientes-derecha",
     "ejes": [
       {
@@ -357,7 +360,9 @@
   {
     "id": "der-020",
     "texto": "La inviolabilidad constitucional del Rey debería mantenerse tal como está, sin acotar los actos que quedan protegidos.",
-    "terminos": ["inviolabilidad-jefe-estado"],
+    "terminos": [
+      "inviolabilidad-jefe-estado"
+    ],
     "modulo": "corrientes-derecha",
     "ejes": [
       {
@@ -494,5 +499,21 @@
     ],
     "estado": "piloto",
     "notas": "Discrimina: Frontera institucional entre derecha convencional y radical: Vox (+2, lo lleva en programa) frente a PP, democristianos y tecnócratas (−2, constitucionalismo pluralista: combatir la secesión con la ley, no proscribiendo idearios). Complementa a der-108: aquel marca la frontera climática, este la del pluralismo. No duplica 'unidad de España sobre reivindicación autonómica' (que mide prioridad, no proscripción). | Esperado: Vox +2, tradicionalismo/carlismo +1, neoconservadurismo +0, Ciudadanos -1, PP -2, democracia cristiana -2, ala tecnócrata -2, PSOE -2. | Vox ha propuesto la ilegalización de partidos separatistas; el PP la ha rechazado expresamente. Cs propuso endurecer la LO de partidos sin llegar a la proscripción por ideario (−1). | [Añadido por el revisor para cubrir un hueco]"
+  },
+  {
+    "id": "der-027",
+    "terminos": [
+      "distributismo"
+    ],
+    "texto": "Lo deseable es que la propiedad productiva —tierra, talleres, comercios— esté repartida entre el mayor número posible de familias, antes que concentrada en grandes empresas o en manos del Estado.",
+    "modulo": "corrientes-derecha",
+    "ejes": [],
+    "polaridad": "positiva",
+    "tags": [
+      "distributismo",
+      "propiedad"
+    ],
+    "estado": "piloto",
+    "notas": "Solo-matching (hueco distributista detectado en la revisión comparada, 2026-07-12): tercera vía de propiedad muy repartida que un eje bipolar propiedad-mercado no puede recoger. Esperado: distributismo/social-cristianismo +2; liberalismo económico de gran empresa −1/−2; estatismo económico −1/−2; el cooperativismo de izquierda puede coincidir en +1/+2 por motivos distintos (coincidencia entre ideologías por diseño, se desambigua con ejes económicos). Redacción propia, sin copiar enunciados de terceros."
   }
 ]

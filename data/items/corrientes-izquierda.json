@@ -68,7 +68,9 @@
   },
   {
     "id": "izq-004",
-    "terminos": ["socialismo-real"],
+    "terminos": [
+      "socialismo-real"
+    ],
     "texto": "El balance histórico de la Unión Soviética fue, en conjunto, más positivo que negativo para la clase trabajadora.",
     "modulo": "corrientes-izquierda",
     "ejes": [],
@@ -221,7 +223,9 @@
   },
   {
     "id": "izq-012",
-    "terminos": ["otan"],
+    "terminos": [
+      "otan"
+    ],
     "texto": "La salida de la OTAN debe ser condición innegociable para apoyar o participar en cualquier gobierno.",
     "modulo": "corrientes-izquierda",
     "ejes": [
@@ -399,7 +403,9 @@
   },
   {
     "id": "izq-020",
-    "terminos": ["socialismo-real"],
+    "terminos": [
+      "socialismo-real"
+    ],
     "texto": "El balance de la etapa de Stalin al frente de la URSS es, en conjunto, positivo para el socialismo.",
     "modulo": "corrientes-izquierda",
     "ejes": [],
@@ -415,7 +421,9 @@
   },
   {
     "id": "izq-021",
-    "terminos": ["burocratizacion-urss"],
+    "terminos": [
+      "burocratizacion-urss"
+    ],
     "texto": "Trotski representó una oposición revolucionaria legítima frente a la burocratización de la URSS.",
     "modulo": "corrientes-izquierda",
     "ejes": [],
@@ -559,7 +567,9 @@
   },
   {
     "id": "izq-029",
-    "terminos": ["otan"],
+    "terminos": [
+      "otan"
+    ],
     "texto": "En un conflicto entre la OTAN y potencias como Rusia, los comunistas deben apoyar al bando enfrentado a Estados Unidos.",
     "modulo": "corrientes-izquierda",
     "ejes": [],
@@ -899,5 +909,34 @@
     ],
     "estado": "piloto",
     "notas": "Discrimina: Separa el internacionalismo libertario (abolición de fronteras como principio: muy de acuerdo) de la izquierda que acepta la gestión estatal de flujos migratorios (PSOE) y del soberanismo obrerista que desconfía de la libre circulación bajo el capitalismo (PCTE). Complementa sin duplicar el ítem de devoluciones del núcleo, que mide política coyuntural y no el principio. | Esperado: anarcocomunismo +2, CNT +2, CUP +1, Podemos +1, PCE/IU +0, PSOE -1, PCTE -1. | Activa el eje 'internacionalismo' (signo negativo = polo internacionalista, correcto). Añade una positiva para compensar el balance de polaridad del conjunto. | [Añadido por el revisor para cubrir un hueco]"
+  },
+  {
+    "id": "izq-047",
+    "terminos": [
+      "materialismo-historico"
+    ],
+    "texto": "La transformación social debe guiarse por un análisis científico de la economía y de la historia, más que por ideales morales sobre cómo deberían ser las personas.",
+    "modulo": "corrientes-izquierda",
+    "ejes": [],
+    "polaridad": "positiva",
+    "tags": [
+      "metodo",
+      "socialismo-cientifico"
+    ],
+    "estado": "piloto",
+    "notas": "Solo-matching (hueco «ciencia vs. utopía» detectado en la revisión comparada, 2026-07-12): separa el socialismo autodenominado «científico» (marxismo-leninismo, bordiguismo) de corrientes ético-utópicas y prefigurativas, sin cargar ejes. Esperado: ML/bordiguismo +2; socialismo ético, anarquismo prefigurativo y cristianismo social −1/−2; socialdemocracia 0/−1. Redacción propia, sin copiar enunciados de terceros."
+  },
+  {
+    "id": "izq-048",
+    "texto": "Construir ya, a pequeña escala, la sociedad deseada —cooperativas, comunidades, instituciones propias— transforma más que esperar a que las condiciones históricas estén maduras.",
+    "modulo": "corrientes-izquierda",
+    "ejes": [],
+    "polaridad": "positiva",
+    "tags": [
+      "prefiguracion",
+      "cooperativismo"
+    ],
+    "estado": "piloto",
+    "notas": "Solo-matching (par de izq-047, 2026-07-12): voz afirmativa utópico-prefigurativa frente al determinismo de condiciones; ambas voces del par se preguntan por separado para no privilegiar una. Esperado: anarquismo prefigurativo, cooperativismo y socialismo utópico +1/+2; ML clásico −1/−2 (prioriza condiciones y partido); reformismo gradualista puede coincidir en +1 por motivos distintos. Redacción propia."
   }
 ]
