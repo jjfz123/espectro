@@ -10,11 +10,11 @@
   "revisado": "2026-07-12",
   "publicacionMapa": {
     "publicable": false,
-    "motivo": "Corriente sensible que reivindica la guerra popular; su distintivo (reconstitución ideológica previa a la práctica de masas) no tiene ítem propio del banco todavía y se aproxima por ítems vecinos. Veto de proyección macro hasta revisión editorial y cotejo verbatim de su corpus."
+    "motivo": "Esqueleto cableado por orden del propietario (2026-07-12) SIN pasajes verbatim: las posiciones se apoyan en fuentes fechadas corroboradas por búsqueda plural pero sin cita reproducible (calidad baja forzada por el integrador). PROHIBIDA su publicación en mapa y afinidad hasta que una tanda futura o la cola humana aporte los pasajes; mientras tanto solo la ficha descriptiva es visible."
   },
   "publicacionAfinidad": {
     "publicable": false,
-    "motivo": "Vanguardia teórica no electoral que defiende el boicot: por definición no remite a ninguna papeleta y su afinidad visible podría leerse como opción de voto. Se retiene la comparación hasta revisión editorial, dado además su marcador de sensibilidad."
+    "motivo": "Esqueleto cableado por orden del propietario (2026-07-12) SIN pasajes verbatim: las posiciones se apoyan en fuentes fechadas corroboradas por búsqueda plural pero sin cita reproducible (calidad baja forzada por el integrador). PROHIBIDA su publicación en mapa y afinidad hasta que una tanda futura o la cola humana aporte los pasajes; mientras tanto solo la ficha descriptiva es visible."
   },
   "facetasDefinitorias": [
     "metodo-cambio",
@@ -47,7 +47,7 @@
     "izq-031": {
       "valor": 2,
       "justificacion": "El Movimiento por la Reconstitución sostiene la consigna del boicot activo frente a cada «farsa electoral», por entender que los comunistas no pueden participar en actividades electorales ni educar a las masas en el respeto de la legalidad institucional burguesa; es su marcador táctico más nítido.",
-      "calidadEvidencia": "media",
+      "calidadEvidencia": "baja",
       "fuente": {
         "tipo": "declaracion",
         "titulo": "«Ante el ciclo electoral de 2019: ¡Boicot!», reconstitucion.net",
@@ -59,7 +59,7 @@
     "izq-009": {
       "valor": -2,
       "justificacion": "Combate como «oportunismo» tanto el electoralismo del PCE/IU como el «sindicalismo-parlamentarismo» del PCTE; rechaza cualquier integración en frentes amplios y defiende la independencia del espacio político de la vanguardia en reconstitución.",
-      "calidadEvidencia": "media",
+      "calidadEvidencia": "baja",
       "fuente": {
         "tipo": "declaracion",
         "titulo": "Línea Proletaria — reconstitucion.net: crítica al revisionismo y al frente amplio",
@@ -71,7 +71,7 @@
     "izq-001": {
       "valor": 2,
       "justificacion": "Su horizonte es la revolución proletaria y la Dictadura del Proletariado, no la reforma gradual; toda su estrategia (Balance del Ciclo, reconstitución del Partido, guerra popular) presupone la ruptura revolucionaria.",
-      "calidadEvidencia": "media",
+      "calidadEvidencia": "baja",
       "fuente": {
         "tipo": "declaracion",
         "titulo": "Línea Proletaria — reconstitucion.net: reconstitución del comunismo como sujeto revolucionario",
@@ -83,7 +83,7 @@
     "izq-002": {
       "valor": 2,
       "justificacion": "El eje de la corriente es reconstituir el Partido Comunista como sujeto revolucionario y destacamento de vanguardia; sostiene que el Partido ya no existe y que hay que reconstituirlo ideológicamente antes de dirigir las luchas de masas, lo que hace del partido de vanguardia una condición imprescindible.",
-      "calidadEvidencia": "media",
+      "calidadEvidencia": "baja",
       "fuente": {
         "tipo": "declaracion",
         "titulo": "Línea Proletaria — reconstitucion.net: la reconstitución del Partido Comunista",
@@ -119,7 +119,7 @@
     "izq-022": {
       "valor": 2,
       "justificacion": "Reivindica las revoluciones culturales como método para impedir la restauración capitalista bajo la Dictadura del Proletariado; la Revolución Cultural china es referencia positiva central de esta corriente maoísta.",
-      "calidadEvidencia": "media",
+      "calidadEvidencia": "baja",
       "fuente": {
         "tipo": "declaracion",
         "titulo": "Línea Proletaria — reconstitucion.net: revoluciones culturales y guerra popular",

@@ -10,11 +10,11 @@
   "revisado": "2026-07-12",
   "publicacionMapa": {
     "publicable": false,
-    "motivo": "Corpus contemporáneo aún en formación y sostenido en buena parte por prensa secundaria; el cotejo verbatim con documentación primaria propia (EHKS/GKS) queda pendiente antes de proyectar una coordenada macro. Veto inicial a la espera de revisión editorial."
+    "motivo": "Esqueleto cableado por orden del propietario (2026-07-12) SIN pasajes verbatim: las posiciones se apoyan en fuentes fechadas corroboradas por búsqueda plural pero sin cita reproducible (calidad baja forzada por el integrador). PROHIBIDA su publicación en mapa y afinidad hasta que una tanda futura o la cola humana aporte los pasajes; mientras tanto solo la ficha descriptiva es visible."
   },
   "publicacionAfinidad": {
     "publicable": false,
-    "motivo": "Etiqueta de afinidad de una organización no electoral que remite a un espacio en construcción sin papeleta propia; se retiene la comparación doctrinal visible hasta cotejar sus posiciones con fuentes primarias y decidir a qué candidatura real (si alguna) se aproxima al usuario."
+    "motivo": "Esqueleto cableado por orden del propietario (2026-07-12) SIN pasajes verbatim: las posiciones se apoyan en fuentes fechadas corroboradas por búsqueda plural pero sin cita reproducible (calidad baja forzada por el integrador). PROHIBIDA su publicación en mapa y afinidad hasta que una tanda futura o la cola humana aporte los pasajes; mientras tanto solo la ficha descriptiva es visible."
   },
   "facetasDefinitorias": [
     "metodo-cambio",
@@ -55,7 +55,7 @@
     "izq-001": {
       "valor": 2,
       "justificacion": "El Movimiento Socialista se plantea la superación revolucionaria de la dominación burguesa y rechaza expresamente la gestión institucional moderada de la izquierda abertzale como vía de transformación; su horizonte es la ruptura, no la acumulación de reformas.",
-      "calidadEvidencia": "media",
+      "calidadEvidencia": "baja",
       "fuente": {
         "tipo": "otro",
         "titulo": "Movimiento Socialista, Wikipedia (marxismo revolucionario y comunismo) — corroborado con El Salto",
@@ -67,7 +67,7 @@
     "izq-002": {
       "valor": 1,
       "justificacion": "Sostiene la necesidad de reconstruir grandes partidos comunistas con militancia, compromiso e ideología clara, y erige EHKS como dirección político-partidaria; el partido comunista es imprescindible, aunque lo formule como partido de nuevo tipo y de masas más que como cuadro estrecho clásico.",
-      "calidadEvidencia": "media",
+      "calidadEvidencia": "baja",
       "fuente": {
         "tipo": "autoubicacion",
         "titulo": "EHKS — «Nor gara»: dirección y referente del Movimiento Socialista",
@@ -79,7 +79,7 @@
     "izq-009": {
       "valor": -2,
       "justificacion": "Rechaza integrarse en frentes amplios y coaliciones progresistas; su seña de identidad es la independencia de clase frente a la política de alianzas de la izquierda institucional, a la que acusa de colaboración de clases.",
-      "calidadEvidencia": "media",
+      "calidadEvidencia": "baja",
       "fuente": {
         "tipo": "otro",
         "titulo": "elDiario.es: GKS y el Movimiento Socialista, a la izquierda de EH Bildu",
@@ -91,7 +91,7 @@
     "izq-010": {
       "valor": -2,
       "justificacion": "Critica frontalmente a EH Bildu y Sortu por su «política de colaboración de clases» y su gestión institucional dentro del sistema; participar en gobiernos con la socialdemocracia es justo lo que reprocha a la izquierda abertzale institucional.",
-      "calidadEvidencia": "media",
+      "calidadEvidencia": "baja",
       "fuente": {
         "tipo": "otro",
         "titulo": "El Salto Diario: GKS frente a la moderación institucional de la izquierda abertzale",
@@ -115,7 +115,7 @@
     "ter-002": {
       "valor": 2,
       "justificacion": "Su objetivo declarado es un Estado socialista vasco; asume el marco nacional de Euskal Herria y el derecho de su clase trabajadora a decidir y construir ese Estado propio, frente al marco autonómico español.",
-      "calidadEvidencia": "media",
+      "calidadEvidencia": "baja",
       "fuente": {
         "tipo": "otro",
         "titulo": "Gazte Koordinadora Sozialista, Wikipedia (construcción de un Estado socialista vasco)",
