@@ -712,6 +712,118 @@
         "fecha": "2025",
         "consultado": "2026-07-12"
       }
+    },
+    "eco-006": {
+      "valor": 1,
+      "justificacion": "Impulsa la construcción de vivienda protegida y un parque público de alquiler social (7.000 viviendas de alquiler social pactadas con el PSE), pero dentro de un modelo que combina promoción pública con colaboración privada e incentivos de mercado: apoyo parcial, no el gran parque público máximo del ítem.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "EAJ-PNV apuesta por impulsar la construcción de viviendas protegidas, priorizando a jóvenes, y fortalecer el mercado de alquiler (Parlamento Vasco)",
+        "url": "https://parlamentovasco.eaj-pnv.eus/es/noticias/55942/eaj-pnv-apuesta-por-impulsar-la-construccian-de-vi",
+        "fecha": "2025",
+        "consultado": "2026-07-12",
+        "cita": "impulsar la construcción de viviendas protegidas, priorizando a jóvenes, y fortalecer el mercado de alquiler"
+      },
+      "grupoEvidencia": "pnv-vivienda-publica-alquiler"
+    },
+    "eco-010": {
+      "valor": -1,
+      "justificacion": "Votó en contra de la reforma laboral de 2012 por considerarla desequilibrada y agresiva con los trabajadores y por abaratar el despido, y defiende reforzar los convenios vascos; aunque reivindica la competitividad empresarial, se opone a abaratar el despido, por eso -1 y no un rechazo máximo.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "El PNV defenderá los derechos laborales y el marco vasco en la tramitación de la reforma (Deia)",
+        "url": "https://www.deia.eus/economia/2012/03/09/pnv-defendera-derechos-laborales-marco-5462597.html",
+        "fecha": "2012-03-09",
+        "consultado": "2026-07-12",
+        "cita": "El PNV defenderá los derechos laborales y el marco vasco en la tramitación de la reforma"
+      },
+      "grupoEvidencia": "pnv-reforma-laboral-despido"
+    },
+    "der-026": {
+      "valor": -2,
+      "justificacion": "Rechazó la ley de Vox para ilegalizar a los partidos nacionalistas: su portavoz Aitor Esteban reprochó a Vox querer eliminar el modelo de Estado que dicen defender; PNV defiende el derecho a promover el autogobierno y el nacionalismo por vías democráticas.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Vox se queda solo en el Congreso con su ley para ilegalizar a partidos nacionalistas (Deia)",
+        "url": "https://www.deia.eus/politica/2020/09/15/vox-queda-congreso-ley-ilegalizar-4680849.html",
+        "fecha": "2020-09-15",
+        "consultado": "2026-07-12",
+        "cita": "Vox se queda solo en el Congreso con su ley para ilegalizar a partidos nacionalistas"
+      },
+      "grupoEvidencia": "pnv-contra-ilegalizacion-vox"
+    },
+    "dem-028": {
+      "valor": 2,
+      "justificacion": "Sostiene que el reconocimiento de Euskadi como nación y su autogobierno no pueden ser eliminados ni impuestos por una mayoría estatal: Esteban recordó que EAJ-PNV ni aprobó ni aprobaría una Constitución que no reconozca a Euskadi como nación, defendiendo derechos nacionales indisponibles para la mayoría.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Esteban recuerda que EAJ-PNV ni aprobó en 1978 ni aprobaría hoy una Constitución Española que no reconozca a Euskadi como nación (EAJ-PNV)",
+        "url": "https://www.eaj-pnv.eus/noticias/esteban-recuerda-que-eajpnv-aproba_36455.html",
+        "fecha": "2023",
+        "consultado": "2026-07-12",
+        "cita": "EAJ-PNV ni aprobó en 1978 ni aprobaría hoy una Constitución Española que no reconozca a Euskadi como nación"
+      },
+      "grupoEvidencia": "pnv-nacion-vasca-mayoria"
+    },
+    "soc-003": {
+      "valor": 1,
+      "justificacion": "En los ayuntamientos y el Gobierno vasco que dirige, el PNV impulsa planes de seguridad ciudadana que amplían la videovigilancia y las cámaras policiales por motivos de seguridad, dentro de un modelo de policía de proximidad: apoyo moderado a ampliar la videovigilancia justificada por la seguridad.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Bilbao pondrá cámaras de grabación a la Policía local dentro de su nuevo plan de seguridad ciudadana (elDiario.es)",
+        "url": "https://www.eldiario.es/euskadi/bilbao-pondra-camaras-grabacion-policia-local-nuevo-plan-seguridad-ciudadana_1_11525810.html",
+        "fecha": "2024",
+        "consultado": "2026-07-12",
+        "cita": "Bilbao pondrá cámaras de grabación a la Policía local dentro de su nuevo plan de seguridad ciudadana"
+      },
+      "grupoEvidencia": "pnv-videovigilancia-seguridad"
+    },
+    "dem-001": {
+      "valor": 1,
+      "justificacion": "Defiende el derecho a decidir y propuso un nuevo Estatuto que se sometería a referéndum de la ciudadanía vasca; su modelo prevé una consulta refrendaria, aunque en su versión pactada la planteó con carácter consultivo antes de la negociación con el Estado: apoyo a someter la decisión a referéndum, +1 y no pleno.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "PNV y Bildu, aliados por el derecho a decidir: todos los «proyectiles» del nuevo Estatuto (El Español)",
+        "url": "https://www.elespanol.com/espana/politica/20180706/pnv-bildu-aliados-derecho-decidir-proyectiles-estatuto/320469069_0.html",
+        "fecha": "2018-07-06",
+        "consultado": "2026-07-12",
+        "cita": "PNV y Bildu, aliados por el derecho a decidir: todos los proyectiles del nuevo Estatuto"
+      },
+      "grupoEvidencia": "pnv-derecho-decidir-estatuto"
+    },
+    "izq-039": {
+      "valor": 1,
+      "justificacion": "Sus normas internas evitan que los dirigentes permanezcan más de tres mandatos en el mismo cargo, favoreciendo la renovación y el relevo de responsables; apoyo parcial a que ninguna organización tenga un liderazgo permanente, aunque conserva estructuras de dirección estables.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Partido Nacionalista Vasco (Wikipedia): organización interna y límite de mandatos",
+        "url": "https://es.wikipedia.org/wiki/Partido_Nacionalista_Vasco",
+        "fecha": "2026",
+        "consultado": "2026-07-12",
+        "cita": "El PNV evita que sus dirigentes estén más de tres mandatos en el mismo cargo"
+      },
+      "grupoEvidencia": "pnv-limitacion-mandatos"
+    },
+    "dem-008": {
+      "valor": 2,
+      "justificacion": "Defiende de forma reiterada la separación de poderes y el Estado de derecho, y critica la designación partidista y la falta de imparcialidad del Tribunal Constitucional; reivindica el respeto a los contrapesos institucionales incluso frente a decisiones respaldadas por mayorías.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Aitor Esteban (PNV) reprocha a la derecha su uso partidista de la separación de poderes (El Plural)",
+        "url": "https://www.elplural.com/politica/espana/esteban-pnv-resucita-rima-tractor-rajoy-tumbar-feijoo_320138102",
+        "fecha": "2023",
+        "consultado": "2026-07-12",
+        "cita": "dónde está la separación de poderes cuya bandera dicen enarbolar"
+      },
+      "grupoEvidencia": "pnv-separacion-poderes"
     }
   }
 }
