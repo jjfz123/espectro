@@ -86,6 +86,80 @@
         "consultado": "2026-07-10"
       }
     },
+    "dr-001": {
+      "valor": 0,
+      "justificacion": "Sumar no propone nacionalizar el conjunto del sector bancario, sino crear banca pública (un banco de inversión con el ICO y Correos) que compita con la privada para frenar el poder oligopólico de precios. Ni la nacionalización plena que enuncia el ítem ni el statu quo describen su modelo: coexistencia de banca pública y privada.",
+      "resolucionCero": {
+        "tipo": "modelo-mixto",
+        "explicacion": "El modelo de Sumar combina una banca pública nueva (ICO, Correos) con el sistema privado existente, sin nacionalizar el sector; ninguno de los dos polos del ítem lo describe por sí solo."
+      },
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Sumar propone trocear las eléctricas para evitar abusos de mercado y crear un banco público con el ICO y Correos (elDiario.es)",
+        "url": "https://www.eldiario.es/economia/sumar-propone-trocear-electricas-evitar-abusos-mercado_1_10356026.html",
+        "fecha": "2023",
+        "consultado": "2026-07-12",
+        "cita": "Sumar propone trocear las eléctricas para evitar abusos de mercado y crear un banco público con el ICO y Correos"
+      },
+      "grupoEvidencia": "pasaje-0576ae557602440f8128"
+    },
+    "eco-009": {
+      "valor": -2,
+      "justificacion": "Sumar rechaza suprimir el impuesto de sucesiones y donaciones: al contrario, registró junto a IU una ley para crear un impuesto estatal complementario que grave las herencias y donaciones superiores a un millón de euros y acabe con el «dumping fiscal» autonómico. Defiende reforzar, no eliminar, la tributación sucesoria.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Sumar propone un impuesto complementario al de Sucesiones y Donaciones para gravar las herencias superiores a un millón de euros (elEconomista)",
+        "url": "https://www.eleconomista.es/economia/noticias/13933486/05/26/sumar-propone-un-impuesto-complementario-al-de-sucesiones-y-donaciones-para-gravar-las-herencias-superiores-a-un-millon-de-euros.html",
+        "fecha": "2026",
+        "consultado": "2026-07-12",
+        "cita": "Sumar propone un impuesto complementario al de Sucesiones y Donaciones para gravar las herencias superiores a un millón de euros"
+      },
+      "grupoEvidencia": "pasaje-695a954ad7cf561af7ae"
+    },
+    "dem-022": {
+      "valor": 2,
+      "justificacion": "Sumar impulsa derogar el artículo de la ley mordaza que sanciona el uso no autorizado de imágenes de agentes; ese precepto (art. 36.23) fue declarado inconstitucional y el acuerdo PSOE-Sumar lo elimina. Coincide con el ítem: difundir imágenes de una actuación policial debe ser legal salvo riesgo concreto acreditado.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "El artículo de la ley mordaza que derogarán PSOE y Sumar fue declarado inconstitucional y los policías ya no lo aplican (Infobae)",
+        "url": "https://www.infobae.com/espana/2024/07/17/el-articulo-de-la-ley-mordaza-que-derogaran-psoe-y-sumar-fue-declarado-inconstitucional-y-los-policias-ya-no-lo-aplican/",
+        "fecha": "2024-07-17",
+        "consultado": "2026-07-12",
+        "cita": "El artículo de la ley mordaza que derogarán PSOE y Sumar fue declarado inconstitucional y los policías ya no lo aplican"
+      },
+      "grupoEvidencia": "pasaje-6428b0335b308cbdf87d"
+    },
+    "der-026": {
+      "valor": -2,
+      "justificacion": "Sumar se opone a ilegalizar partidos por promover la secesión: forma parte de la mayoría que en el Congreso rechazó de forma unánime la proposición de Vox para ilegalizar a los partidos independentistas, y defiende la plurinacionalidad y la convivencia con ERC y EH Bildu como socios.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "El Congreso, al unísono, rechaza la ley de Vox para ilegalizar partidos independentistas (El Plural)",
+        "url": "https://www.elplural.com/politica/espana/congreso-unisono-rechaza-ley-vox-ilegalizar-partidos-independentistas_325049102",
+        "fecha": "2025",
+        "consultado": "2026-07-12",
+        "cita": "El Congreso, al unísono, rechaza la ley de Vox para ilegalizar partidos independentistas"
+      },
+      "grupoEvidencia": "pasaje-990f2acc66c6c4855a90"
+    },
+    "izq-007": {
+      "valor": -2,
+      "justificacion": "Sumar es un proyecto de izquierda de gobierno que busca conquistar y transformar el Estado desde las instituciones, no abolirlo: Yolanda Díaz reivindica que «gobernar es transformar» y sitúa a Sumar en la «centralidad» con vocación de poder. Rechaza de plano la tesis de que el Estado sea una estructura que haya que abolir.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Yolanda Díaz afirma que «gobernar es transformar» y no sólo resistir (infoLibre)",
+        "url": "https://www.infolibre.es/politica/yolanda-diaz-afirma-gobernar-transformar-no-resistir_1_1873897.html",
+        "fecha": "2024",
+        "consultado": "2026-07-12",
+        "cita": "Yolanda Díaz afirma que «gobernar es transformar» y no sólo resistir"
+      },
+      "grupoEvidencia": "pasaje-6c8adb2dc1f398dcd6cd"
+    },
     "lab-001": {
       "valor": 2,
       "justificacion": "El documento político sitúa los convenios y la negociación colectiva sectorial en el centro de su modelo laboral.",
