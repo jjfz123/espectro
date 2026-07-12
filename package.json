@@ -1,6 +1,6 @@
 {
   "name": "espectro",
-  "version": "0.1.0",
+  "version": "0.9.0",
   "private": true,
   "description": "Test de afinidad política de espectro completo para España: matching electoral + cartografía ideológica fina, con privacidad por diseño.",
   "type": "module",

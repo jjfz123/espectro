@@ -1177,14 +1177,17 @@ test('la brújula degrada el fondo y revela corrientes solo al enfocar o tocar',
   await otraZona.click();
   await expect(ficha.getByRole('heading', { level: 3 })).not.toHaveText(tituloFijado);
 
-  const anclaInvestigacion = page.locator(
-    '.mapa-plano--brujula .mapa-ancla-bloqueada[data-corriente-id="cuarta-teoria-politica"]',
+  /* 2026-07-12: las 20 anclas en investigación quedaron instrumentadas
+     (contrato 92/0) — no queda ningún ancla hueca y la antigua
+     cuarta-teoria-politica se abre como región publicada con ancla editorial. */
+  await expect(page.locator('.mapa-plano--brujula .mapa-ancla-bloqueada')).toHaveCount(0);
+  const zonaCuarta = page.locator(
+    '.mapa-plano--brujula .mapa-zona--interactiva[data-zona-id="cuarta-teoria-politica"]',
   );
-  await expect(anclaInvestigacion).toHaveCount(1);
-  await anclaInvestigacion.click();
+  await expect(zonaCuarta).toHaveCount(1);
+  await zonaCuarta.click();
   await expect(ficha.getByRole('heading', { level: 3 })).toHaveText('Cuarta Teoría Política');
-  await expect(ficha).toContainText('ancla hueca');
-  await expect(ficha.getByLabel('Ancla editorial de la corriente')).toHaveCount(0);
+  await expect(ficha.getByLabel('Ancla editorial de la corriente')).toBeVisible();
 
   const buscadorAtlas = page.getByLabel('Buscar en el atlas');
   const rotuloRawls = buscadorAtlas.locator(
@@ -1273,6 +1276,9 @@ test('el plano detallado ofrece objetivos táctiles reales y desambigua los cúm
         Math.min(...objetivos),
         `objetivo táctil mínimo del plano detallado con viewport ${ancho}`,
       ).toBeGreaterThanOrEqual(44);
+      /* 2026-07-12: las 20 anclas en investigación quedaron instrumentadas
+         (contrato 92/0); si alguna reapareciera, su objetivo táctil vuelve a
+         exigirse ≥44 px. */
       const objetivosAnclas = await page
         .locator('.mapa-plano--brujula .mapa-ancla-bloqueada__hit')
         .evaluateAll((circulos) =>
@@ -1281,11 +1287,14 @@ test('el plano detallado ofrece objetivos táctiles reales y desambigua los cúm
             return Math.min(caja.width, caja.height);
           }),
         );
-      expect(objetivosAnclas.length).toBeGreaterThan(0);
-      expect(
-        Math.min(...objetivosAnclas),
-        `objetivo táctil mínimo de las anclas en investigación con viewport ${ancho}`,
-      ).toBeGreaterThanOrEqual(44);
+      if (objetivosAnclas.length > 0) {
+        expect(
+          Math.min(...objetivosAnclas),
+          `objetivo táctil mínimo de las anclas en investigación con viewport ${ancho}`,
+        ).toBeGreaterThanOrEqual(44);
+      } else {
+        expect(objetivosAnclas).toHaveLength(0);
+      }
     }
 
     /* Un cúmulo no premia al punto de encima: el toque abre la

@@ -15,7 +15,7 @@
     "autoridad-politica",
     "pluralismo-institucional"
   ],
-  "sensibilidad": "antipluralista",
+  "sensibilidad": "violenta",
   "advertencia": "Referencia histórica sensible descrita en términos clínicos. Los historiadores caracterizan el strasserismo como el ala anticapitalista del nacionalsocialismo, no como izquierda: su programa económico obrerista era inseparable del ultranacionalismo racial, el antisemitismo y el Estado étnico. Una posición económica de nacionalización o expropiación, aislada, no lo convierte en izquierda ni identifica a nadie; solo el conjunto —economía obrerista más exclusión racial y caudillaje— define el tipo. Peter Stachura y otros advierten además que Otto Strasser exageró retrospectivamente un «socialismo strasseriano» de izquierdas. Una afinidad parcial no equivale a adhesión.",
   "fuentesMarco": [
     {
@@ -48,9 +48,9 @@
     }
   ],
   "reglaPublicacion": {
-    "minimoItems": 4,
-    "minimoCobertura": 0.6,
-    "umbralAfinidad": 85
+    "minimoItems": 5,
+    "minimoCobertura": 0.65,
+    "umbralAfinidad": 90
   },
   "posiciones": {
     "dr-001": {
