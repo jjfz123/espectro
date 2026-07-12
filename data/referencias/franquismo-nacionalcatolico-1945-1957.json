@@ -248,6 +248,104 @@
         "fecha": "1954-07-15",
         "consultado": "2026-07-11"
       }
+    },
+    "lab-010": {
+      "valor": -2,
+      "justificacion": "El Fuero reconoce la propiedad privada pero la subordina expresamente al interés supremo de la Nación interpretado por el Estado: la negación frontal de la premisa individual-consentimiento del ítem.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Fuero del Trabajo, Declaración XII, punto 1 (Fuero del Trabajo (BOE, 9 de marzo de 1938))",
+        "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1938-3093",
+        "fecha": "1938-03-09",
+        "consultado": "2026-07-12",
+        "cita": "El Estado reconoce y ampara la propiedad privada como medio natural para el cumplimiento de las funciones individuales, familiares y sociales. Todas las formas de propiedad quedan subordinadas al interés supremo de la Nación, cuyo intérprete es el Estado."
+      },
+      "grupoEvidencia": "pasaje-cd68bcda1818c695a482"
+    },
+    "der-012": {
+      "valor": -2,
+      "justificacion": "La organización sindical única de Unidad, Totalidad y Jerarquía suprime a los interlocutores libres del ítem (sindicatos y patronal independientes): sin ellos no existe pacto bilateral posible — inferencia declarada del propio diseño corporativo.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Fuero del Trabajo, Declaración XIII (Fuero del Trabajo (BOE, 9 de marzo de 1938))",
+        "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1938-3093",
+        "fecha": "1938-03-09",
+        "consultado": "2026-07-12",
+        "cita": "La Organización Nacional-Sindicalista del Estado se inspirará en los principios de Unidad, Totalidad y Jerarquía."
+      },
+      "grupoEvidencia": "pasaje-09a54af436b1d7303eb2"
+    },
+    "eco-011": {
+      "valor": 1,
+      "justificacion": "El Estado se compromete a limitar la jornada «para que no sea excesiva» con garantías defensivas: protección paternalista afín pero no equivalente a la reducción legal continuada sin rebaja salarial del ítem — acuerdo parcial declarado.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Fuero del Trabajo, Declaración II (Fuero del Trabajo (BOE, 9 de marzo de 1938))",
+        "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1938-3093",
+        "fecha": "1938-03-09",
+        "consultado": "2026-07-12",
+        "cita": "limitará convenientemente la duración de la jornada para que no sea excesiva, y otorgará al trabajo toda suerte de garantías de orden defensivo y humanitario"
+      },
+      "grupoEvidencia": "pasaje-c7a3e3cfba5761cac30d"
+    },
+    "dr-002": {
+      "valor": 2,
+      "justificacion": "Mandato expreso de protección del trabajo nacional en el territorio: coincide de lleno con la preferencia legal a trabajadores españoles del ítem.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Fuero del Trabajo, Declaración II (Fuero del Trabajo (BOE, 9 de marzo de 1938)); pasaje distinto del citado para eco-011",
+        "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1938-3093",
+        "fecha": "1938-03-09",
+        "consultado": "2026-07-12",
+        "cita": "El Estado dictará las oportunas medidas de protección del trabajo nacional en nuestro territorio y, mediante Tratados de trabajo con otras Potencias, cuidará de amparar la situación profesional de los trabajadores españoles residentes en el extranjero."
+      },
+      "grupoEvidencia": "pasaje-d5eeb347d9ff637f33a5"
+    },
+    "fem-010": {
+      "valor": -2,
+      "justificacion": "El régimen «libertará a la mujer casada del taller y de la fábrica»: exclusión doctrinal de la mujer del trabajo remunerado, la lógica inversa a exigir su presencia en consejos de administración — extensión declarada entre contextos (fábrica 1938 / consejos hoy), misma lógica de exclusión económica.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Fuero del Trabajo, Declaración II (Fuero del Trabajo (BOE, 9 de marzo de 1938)); pasaje distinto de los citados para eco-011 y dr-002",
+        "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1938-3093",
+        "fecha": "1938-03-09",
+        "consultado": "2026-07-12",
+        "cita": "En especial prohibirá el trabajo nocturno de las mujeres y niños, regulará el trabajo a domicilio y libertará a la mujer casada del taller y de la fábrica."
+      },
+      "grupoEvidencia": "pasaje-5af5cddc30fbcb23e116"
+    },
+    "cul-005": {
+      "valor": 2,
+      "justificacion": "La escuela primaria recibe la misión expresa de instalar «la alegría y el orgullo de la Patria» mediante disciplina rigurosa: la historia como formación de orgullo nacional, no revisión crítica.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Ley de Educación Primaria de 1945, artículo 6, De la formación del espíritu nacional (Ley de Educación Primaria de 17 de julio de 1945 (BOE))",
+        "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1945-7246",
+        "fecha": "1945-07-17",
+        "consultado": "2026-07-12",
+        "cita": "Es misión de la educación primaria, mediante una disciplina rigurosa, conseguir un espíritu nacional fuerte y unido e instalar en el alma de las futuras generaciones la alegría y el orgullo de la Patria."
+      },
+      "grupoEvidencia": "pasaje-48db3bd8503dfddaa8df"
+    },
+    "nac-013": {
+      "valor": -2,
+      "justificacion": "El español se impone como lengua obligatoria y de cultivo especial de toda la educación primaria nacional; el marco excluye de la escuela cualquier cooficialidad de las demás lenguas — extensión declarada (obligatoriedad escolar, no prohibición literal de cooficialidad); numeración del artículo pendiente de cotejo.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Ley de Educación Primaria de 1945, artículo 7 (Ley de Educación Primaria de 17 de julio de 1945 (BOE))",
+        "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1945-7246",
+        "fecha": "1945-07-17",
+        "consultado": "2026-07-12",
+        "cita": "La lengua española, vínculo fundamental de la comunidad hispánica, será obligatoria y objeto de cultivo especial, como imprescindible instrumento de expresión y de formación humana, en toda la educación primaria nacional."
+      },
+      "grupoEvidencia": "pasaje-45e64d65b9fb94877485"
     }
   }
 }

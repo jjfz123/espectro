@@ -3,7 +3,7 @@
   "nombre": "Falangismo de FE de las JONS (1934)",
   "tipo": "referencia-doctrinal",
   "definicion": "Tipo ideal del programa de veintisiete puntos aprobado por Falange Española de las JONS en 1934: Estado totalitario sin partidos, representación familiar, municipal y sindical, sindicatos verticales, nacionalización de la banca y de grandes servicios públicos, propiedad privada subordinada al interés nacional, proteccionismo, revolución nacional, militarismo y unidad territorial coercitiva.",
-  "variante": "Programa original de FE de las JONS publicado en noviembre de 1934; no incluye la unificación forzosa con el tradicionalismo en FET y de las JONS en 1937, la doctrina del régimen de Franco, el nacionalcatolicismo de posguerra ni los programas de organizaciones falangistas actuales",
+  "variante": "Programa original de FE de las JONS publicado en noviembre de 1934; no incluye la unificación forzosa con el tradicionalismo en FET y de las JONS en 1937, la doctrina del régimen de Franco, el nacionalcatolicismo de posguerra ni los programas de organizaciones falangistas actuales Incluye también el discurso de proclamación de FE de las JONS (Teatro Calderón de Valladolid, 4 de marzo de 1934) como documento fundacional del mismo corpus de 1934.",
   "periodo": "1934",
   "confianza": "verificada",
   "version": "1.0",
@@ -303,6 +303,34 @@
         "cita": "El Estado reconocerá la propiedad privada como medio lícito para el cumplimiento de los fines individuales, familiares y sociales, y la protegerá contra los abusos del gran capital financiero, de los especuladores y de los prestamistas."
       },
       "grupoEvidencia": "pasaje-ba664e28a466b406d6ac"
+    },
+    "der-017": {
+      "valor": 1,
+      "justificacion": "La doctrina de la Hispanidad del punto 3 (unificación de cultura, intereses y Poder con Hispanoamérica) apunta direccionalmente a la preferencia cultural hispanoamericana del ítem, pero España en 1934 era país emisor de emigración y el pasaje no formula política migratoria: extensión declarada, valor moderado.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Programa de la Falange Española de las JONS de 1934, punto 3 (reproducción de ABC, 30 de noviembre de 1934)",
+        "url": "https://www.filosofia.org/hem/dep/abc/9341130.htm",
+        "fecha": "1934-11-30",
+        "consultado": "2026-07-12",
+        "cita": "Respecto de los países de Hispanoamérica, tendemos a la unificación de cultura, de intereses económicos y de Poder. España alega su condición de eje espiritual del mundo hispánico como título de preeminencia en las empresas universales."
+      },
+      "grupoEvidencia": "pasaje-76030aeb10c591d01bb0"
+    },
+    "lim-007": {
+      "valor": -2,
+      "justificacion": "El discurso fundacional niega expresamente la raza (y la lengua) como fundamento de la nación —«unidad de destino en lo universal»—, el rasgo que separa doctrinalmente al falangismo del racialismo nazi; contradice que los derechos políticos dependan del origen étnico. Documento fundacional del 4 de marzo de 1934, incorporado a la variante.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Discurso de proclamación de Falange Española de las J.O.N.S., Teatro Calderón, Valladolid (Wikisource)",
+        "url": "https://es.wikisource.org/wiki/Discurso_de_proclamaci%C3%B3n_de_Falange_Espa%C3%B1ola_de_las_J.O.N.S.",
+        "fecha": "1934-03-04",
+        "consultado": "2026-07-12",
+        "cita": "Una nación no es una lengua, ni una raza, ni un territorio. Es una unidad de destino en lo universal."
+      },
+      "grupoEvidencia": "pasaje-38d8f6664bfc1ae559f5"
     }
   }
 }

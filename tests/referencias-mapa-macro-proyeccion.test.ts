@@ -123,24 +123,32 @@ describe('la coordenada macro dibujable proviene solo de la proyección document
     },
   );
 
-  it('falangismo-fe-jons-1934 NO se dibuja en Economía × Sociedad: sus anclas sociales no llegan a cuatro pasajes independientes', () => {
-    /* Guardia de la revisión adversarial: dos posiciones que comparten el
-       mismo pasaje documental (punto 13) no pueden sumar dos evidencias del
-       eje social. Al retirarse eco-007, el eje queda con tres anclas y la
-       referencia permanece honestamente fuera del plano; si alguien vuelve a
-       cruzar el umbral duplicando un pasaje, este test lo detiene. */
+  it('falangismo-fe-jons-1934 se dibuja en Economía × Sociedad con 4 pasajes sociales independientes (guardia anti-duplicación intacta)', () => {
+    /* Guardia de la revisión adversarial (§14), actualizada por la tanda
+       atlas-derecha de 2026-07-12: eco-007 (el duplicado del punto 13) sigue
+       vetado; der-017 y lim-007 añadieron pasajes sociales NUEVOS y el eje
+       social alcanza 4 grupos de evidencia distintos entre sí — la condición
+       que este guardia exigía para dibujar. Se verifica además que ningún
+       grupo social se repite (si alguien vuelve a cruzar el umbral duplicando
+       un pasaje, este test lo detiene). Deuda declarada aparte: 5 posiciones
+       económicas antiguas siguen sin cita (retrofit en cola). */
     const referencia = leer<ReferenciaDoctrinal>(
       'data/referencias/falangismo-fe-jons-1934.json',
     );
     expect(referencia.posiciones['eco-007']).toBeUndefined();
-    const social = Object.entries(referencia.posiciones).filter(([itemId]) =>
-      (ITEM_POR_ID.get(itemId)?.ejes ?? []).some(
-        (entrada) => entrada.eje === 'social' && entrada.carga !== 0,
-      ),
+    const socialConGrupo = Object.entries(referencia.posiciones).filter(
+      ([itemId, posicion]) =>
+        (ITEM_POR_ID.get(itemId)?.ejes ?? []).some(
+          (entrada) => entrada.eje === 'social' && entrada.carga !== 0,
+        ) && typeof (posicion as { grupoEvidencia?: string }).grupoEvidencia === 'string',
     );
-    expect(social.length).toBeLessThan(4);
+    expect(socialConGrupo.length).toBeGreaterThanOrEqual(4);
+    const gruposSociales = socialConGrupo.map(
+      ([, posicion]) => (posicion as { grupoEvidencia?: string }).grupoEvidencia,
+    );
+    expect(new Set(gruposSociales).size).toBe(gruposSociales.length);
     const proyeccion = proyectarEnEspacio(referencia, ITEMS, PAR_MACRO);
-    expect(proyeccion.incluida).toBe(false);
+    expect(proyeccion.incluida).toBe(true);
   });
 });
 
