@@ -351,6 +351,33 @@
         "cita": "Mira hacia arriba para descubrir a los verdaderos culpables de la desigualdad"
       },
       "grupoEvidencia": "pasaje-742b7fcd35534e081afc"
+    },
+    "rel-002": {
+      "valor": 2,
+      "justificacion": "Más Madrid registró en mayo de 2026 una PNL en la Asamblea para regular la predicación y el proselitismo religioso en el Metro apelando expresamente al carácter aconfesional del Estado y a la neutralidad de los servicios públicos, y a la vez rechazó prohibir el burka en el espacio público. Defiende un Estado aconfesional que no adopta religión oficial pero permite la expresión religiosa dentro de la ley.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Más Madrid pide perseguir a los predicadores evangélicos en el Metro tras rechazar prohibir el burka en espacios públicos (El Español)",
+        "url": "https://www.elespanol.com/espana/politica/20260514/madrid-pide-perseguir-predicadores-evangelicos-metro-rechazar-prohibir-burka-espacios-publicos/1003744246230_0.html",
+        "fecha": "2026-05-14",
+        "consultado": "2026-07-12",
+        "cita": "Más Madrid pide perseguir a los predicadores evangélicos en el Metro tras rechazar prohibir el burka en espacios públicos"
+      },
+      "grupoEvidencia": "trbj-mm-rel002-metro-aconfesional"
+    },
+    "dem-001": {
+      "valor": 1,
+      "justificacion": "Más Madrid propone un nuevo modelo de participación con consulta ciudadana obligatoria a través de Decide Madrid para que los vecinos se posicionen sobre las iniciativas llevadas al pleno, además de presupuestos participativos y elección directa de los vocales vecinos. Apoya someter decisiones a consulta ciudadana de forma habitual, aunque su propuesta documentada es de ámbito municipal y no necesariamente vinculante en sentido estricto, de ahí el acuerdo moderado.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Más Madrid dará más poder a los distritos y voz a los vecinos en su nuevo modelo de participación ciudadana (web oficial de Más Madrid)",
+        "url": "https://masmadrid.org/mas-madrid-dara-mas-poder-a-los-distritos-y-voz-a-los-vecinos-a-partir-de-mayo-en-su-nuevo-modelo-de-participacion-ciudadana/",
+        "consultado": "2026-07-12",
+        "cita": "Más Madrid dará más poder a los distritos y voz a los vecinos a partir de mayo en su nuevo modelo de participación ciudadana"
+      },
+      "grupoEvidencia": "trbj-mm-dem001-participacion"
     }
   }
 }
