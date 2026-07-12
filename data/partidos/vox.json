@@ -911,6 +911,70 @@
         "fecha": "2024-04-09",
         "consultado": "2026-07-10"
       }
+    },
+    "soc-002": {
+      "valor": 2,
+      "justificacion": "Sitúa la salida de inmigrantes en el centro de su política: su portavoz de Inmigración defiende «deportaciones masivas» y el partido reclama la devolución como respuesta prioritaria a la entrada irregular.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Rocío de Meer (Vox): «No hemos cambiado; hay que hacer deportaciones masivas porque hubo entradas masivas» (El Debate)",
+        "url": "https://www.eldebate.com/espana/20250709/rocio-meer-vox-no-hemos-cambiado-hay-hacer-deportaciones-masivas-porque-hubo-entradas-masivas_315265.html",
+        "fecha": "2025-07-09",
+        "consultado": "2026-07-12",
+        "cita": "hay que hacer deportaciones masivas porque hubo entradas masivas"
+      },
+      "grupoEvidencia": "pasaje-68ec58693375ed1365fc"
+    },
+    "soc-004": {
+      "valor": -2,
+      "justificacion": "Vox fue el único grupo del Congreso que votó en contra de admitir a trámite la Iniciativa Legislativa Popular de regularización extraordinaria de inmigrantes (abril de 2024): rechaza frontalmente cualquier regularización.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "Todos los partidos, excepto Vox, aceptan estudiar una ILP para regularizar a miles de inmigrantes (El Español)",
+        "url": "https://www.elespanol.com/espana/20240409/partidos-excepto-vox-aprueban-ilp-regularizar-miles-inmigrantes-espana/846415638_0.html",
+        "fecha": "2024-04-09",
+        "consultado": "2026-07-12"
+      }
+    },
+    "cul-001": {
+      "valor": 2,
+      "justificacion": "Condiciona las políticas de integración y las ayudas a los inmigrantes que residan legalmente y respeten la ley, la identidad, las costumbres y las tradiciones de España: exige asimilación cultural, no solo cumplimiento de la ley.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Vox pide que el Consell introduzca la prioridad nacional en tres leyes y proteja «el derecho a la vida del no nacido» (Valencia Plaza)",
+        "url": "https://valenciaplaza.com/valenciaplaza/comunitat-valenciana1/vox-pide-que-el-consell-introduzca-la-prioridad-nacional-en-tres-leyes-y-proteja-el-derecho-a-la-vida-del-no-nacido-2026-07-09-2026-07-09",
+        "fecha": "2026-07-09",
+        "consultado": "2026-07-12"
+      }
+    },
+    "cul-003": {
+      "valor": 2,
+      "justificacion": "Enmarca la inmigración como amenaza a la identidad y las costumbres españolas: propone la expulsión masiva de migrantes y sus hijos «para preservar la identidad española», con retórica próxima a la teoría del reemplazo.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "CONTEXTO: «Vox plantea abiertamente un proceso de expulsión masiva de migrantes y sus hijos para preservar la identidad española» (Maldita.es)",
+        "url": "https://maldita.es/buloteca/respuesta/vox-plantea-abiertamente-un-proceso-de-expulsion-masiva-de-migrantes-y-sus-hijos-para-preservar-la-identidad-espanola",
+        "fecha": "2025-07",
+        "consultado": "2026-07-12",
+        "cita": "para preservar la identidad española"
+      },
+      "grupoEvidencia": "pasaje-ae57dfa857d70779d6ce"
+    },
+    "cul-013": {
+      "valor": 2,
+      "justificacion": "Impulsa la «Iberosfera» y el Foro de Madrid como comunidad hispánica y área de influencia, un proyecto geopolítico-cultural que orienta a España hacia el mundo hispanohablante y la contrapone al marco de la Unión Europea.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Vox, la Iberosfera y el Foro de Madrid: discursos compartidos y estrategia (AECPA, ponencia de congreso)",
+        "url": "https://www.aecpa.es/es-es/vox-la-iberosfera-y-el-foro-de-madrid-discursos-compartidos-y-estrat/congress-papers/4332/",
+        "fecha": "2022",
+        "consultado": "2026-07-12"
+      }
     }
   }
 }
