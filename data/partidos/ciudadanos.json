@@ -134,7 +134,7 @@
     "nuc-001": {
       "valor": 2,
       "justificacion": "Ciudadanos registró una proposición para que doce de los veinte vocales del CGPJ fueran elegidos directamente por los jueces y magistrados mediante elecciones con listas abiertas, como fórmula de «despolitización» de la Justicia. Es exactamente el mecanismo de elección corporativa que plantea el ítem.",
-      "calidadEvidencia": "alta",
+      "calidadEvidencia": "media",
       "fuente": {
         "tipo": "declaracion",
         "titulo": "La receta de Ciudadanos para despolitizar la Justicia: elecciones entre jueces para el CGPJ (El Español)",
@@ -148,7 +148,7 @@
     "eco-009": {
       "valor": 2,
       "justificacion": "Ciudadanos presentó una ley para suprimir el impuesto de sucesiones en toda España y acabar con la desigualdad entre comunidades; donde ha gobernado ha impulsado su bonificación. Acuerdo pleno con suprimir el impuesto de sucesiones y donaciones.",
-      "calidadEvidencia": "alta",
+      "calidadEvidencia": "media",
       "fuente": {
         "tipo": "declaracion",
         "titulo": "Cs presenta una Ley para suprimir el impuesto de sucesiones y acabar con la desigualdad actual según la CCAA donde se muera (web oficial de Ciudadanos)",
