@@ -43,8 +43,9 @@ export function Enciclopedia({ alVolver }: Props) {
         Las {REFERENCIAS.length} corrientes documentadas del proyecto, con su definición, su
         variante datada y sus fuentes marco. Son <strong>tipos ideales</strong> construidos
         desde textos: no son candidaturas, no se te asignan como identidad y explorarlas no
-        toca tus respuestas. {dibujadas} tienen hoy proyección publicada en el atlas; el resto
-        sigue en investigación o con su proyección vetada por honestidad documental.
+        toca tus respuestas. {dibujadas} tienen hoy proyección publicable; el atlas dibuja las
+        que además alcanzan evidencia suficiente por eje, y el resto sigue en investigación o
+        con su proyección vetada por honestidad documental.
       </p>
 
       <label className="enciclopedia-buscador">
