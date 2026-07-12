@@ -119,17 +119,17 @@
     },
     "ter-004": {
       "valor": 2,
-      "justificacion": "La defensa del castellano como lengua vehicular en toda España es una bandera fundacional de Ciudadanos: Albert Rivera prometió garantizar que el castellano fuera lengua vehicular en todos los colegios públicos y concertados del país si el partido llegaba al Gobierno. Acuerdo pleno con el enunciado del ítem.",
+      "justificacion": "Seña fundacional de Ciudadanos: defiende garantizar por ley que el castellano sea lengua vehicular en la escuela de toda España, junto a las lenguas cooficiales.",
       "calidadEvidencia": "alta",
       "fuente": {
         "tipo": "declaracion",
-        "titulo": "Rivera promete que si gobierna Ciudadanos el castellano será lengua vehicular en todos los colegios de España (elEconomista)",
-        "url": "https://www.eleconomista.es/politica/noticias/9710725/02/19/Rivera-promete-que-si-gobierna-el-castellano-sera-lengua-vehicular-en-los-colegios-publicos-y-concertados-de-toda-Espana.html",
-        "fecha": "2019-02",
+        "titulo": "Albert Rivera: «Si gobernamos, el español será lengua vehicular en los colegios de España» (Infolibre)",
+        "url": "https://www.infolibre.es/politica/albert-rivera-si-gobernamos-espanol-sera-lengua-vehicular-colegios-espana_1_1167552.html",
+        "fecha": "2019-02-19",
         "consultado": "2026-07-12",
-        "cita": "el castellano será lengua vehicular en todos los colegios de España"
+        "cita": "Si gobernamos, el español será lengua vehicular en los colegios de España"
       },
-      "grupoEvidencia": "pasaje-259127ab4e00e6f36660"
+      "grupoEvidencia": "pasaje-c51bdbb6c52aa53ba718"
     },
     "nuc-001": {
       "valor": 2,
@@ -154,7 +154,8 @@
         "titulo": "Cs presenta una Ley para suprimir el impuesto de sucesiones y acabar con la desigualdad actual según la CCAA donde se muera (web oficial de Ciudadanos)",
         "url": "https://www.ciudadanos-cs.org/prensa/cs-presenta-una-ley-para-suprimir-el-impuesto-de-sucesiones-y-acabar-con-la-desigualdad-actual-segun-la-ccaa-donde-se-muera/10845",
         "consultado": "2026-07-12",
-        "cita": "Cs presenta una Ley para suprimir el impuesto de sucesiones y acabar con la desigualdad actual según la CCAA donde se muera"
+        "cita": "Cs presenta una Ley para suprimir el impuesto de sucesiones y acabar con la desigualdad actual según la CCAA donde se muera",
+        "fecha": "2018-10-30"
       },
       "grupoEvidencia": "pasaje-7219dccbde4ab77fb82f"
     },
@@ -171,6 +172,96 @@
         "cita": "su modelo laboral de contrato único y mochila austriaca"
       },
       "grupoEvidencia": "pasaje-0bb086ed591afb679eae"
+    },
+    "lib-017": {
+      "valor": 2,
+      "justificacion": "Ciudadanos votó a favor de la Ley Orgánica de Regulación de la Eutanasia (2020-2021), que defendió en clave de libertad individual: es partidario de reconocer la eutanasia como derecho.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "El Congreso aprueba la Ley de Eutanasia, con Cs en el bloque gubernamental y el voto en contra de PP y Vox (El Español)",
+        "url": "https://www.elespanol.com/espana/politica/20201217/congreso-ley-eutanasia-cs-gubernamental-pp-vox/544196169_0.html",
+        "fecha": "2020-12-17",
+        "consultado": "2026-07-12"
+      }
+    },
+    "lib-012": {
+      "valor": 2,
+      "justificacion": "Ciudadanos registró en el Congreso (2017, 2019 y 2023) una proposición de ley para regular la gestación subrogada altruista y garantista, sin ánimo de lucro: es una de sus banderas.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Ciudadanos registra en el Congreso una proposición para regular la gestación subrogada (El Independiente)",
+        "url": "https://www.elindependiente.com/espana/2023/03/30/ciudadanos-registra-en-el-congreso-una-proposicion-para-regular-la-gestacion-subrogada/",
+        "fecha": "2023-03-30",
+        "consultado": "2026-07-12"
+      }
+    },
+    "der-024": {
+      "valor": 2,
+      "justificacion": "Ciudadanos volvió a registrar en el Congreso su ley de gestación subrogada «garantista y altruista»: dentro de la derecha es el único que defiende su legalización, frente a la oposición de PP y Vox.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Ciudadanos vuelve a registrar en el Congreso su ley de gestación subrogada «garantista y altruista» (Servimedia)",
+        "url": "https://www.servimedia.es/noticias/ciudadanos-vuelve-registrar-congreso-ley-gestacion-subrogada-garantista-altruista/3655527",
+        "fecha": "2023-03-30",
+        "consultado": "2026-07-12",
+        "cita": "ley de gestación subrogada «garantista y altruista»"
+      },
+      "grupoEvidencia": "pasaje-824d6fa6cab86ea4209b"
+    },
+    "lib-020": {
+      "valor": 2,
+      "justificacion": "Propuesta laboral más identitaria de Ciudadanos: defiende el contrato único indefinido y la «mochila austríaca», un fondo individual de indemnización que el trabajador conserva al cambiar de empresa.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Ciudadanos defiende hoy en el Congreso su modelo laboral de contrato único y «mochila austríaca» (El Economista)",
+        "url": "https://www.eleconomista.es/economia/noticias/9216961/06/18/Ciudadanos-defiende-hoy-en-el-Congreso-su-modelo-laboral-de-contrato-unico-y-mochila-austriaca.html",
+        "fecha": "2018-06",
+        "consultado": "2026-07-12",
+        "cita": "modelo laboral de contrato único y «mochila austríaca»"
+      },
+      "grupoEvidencia": "pasaje-fb7108d96c528b6f0b56"
+    },
+    "lib-008": {
+      "valor": 2,
+      "justificacion": "Ciudadanos fue el único partido favorable a las VTC (Uber, Cabify): defendió la liberalización del sector frente al monopolio del taxi y votó en contra del decreto que las restringía.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Qué opina cada partido político sobre el conflicto entre el taxi, Uber y las licencias VTC (Xataka Magnet)",
+        "url": "https://magnet.xataka.com/en-diez-minutos/que-opina-cada-partido-politico-conflicto-taxi-uber-licencias-vtc",
+        "fecha": "2019",
+        "consultado": "2026-07-12"
+      }
+    },
+    "lib-016": {
+      "valor": 2,
+      "justificacion": "El programa electoral de Ciudadanos propone suprimir las diputaciones provinciales y traspasar sus funciones a otras administraciones.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Las diez medidas clave del programa electoral de Ciudadanos (El Independiente)",
+        "url": "https://www.elindependiente.com/politica/2019/03/14/las-diez-medidas-clave-del-programa-electoral-de-ciudadanos/",
+        "fecha": "2019-03-14",
+        "consultado": "2026-07-12",
+        "cita": "Suprimiremos las diputaciones provinciales, garantizando mejores servicios públicos, más baratos y sin corrupción"
+      },
+      "grupoEvidencia": "pasaje-650798a49fba4b93f9fd"
+    },
+    "fem-001": {
+      "valor": -1,
+      "justificacion": "Ciudadanos se abstuvo en el primer trámite y se situó en contra de la ley trans (2022), con reparos expresos a la autodeterminación registral del sexo sin informes y a su aplicación a menores.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "La Ley Trans pasa su primer examen en el Congreso con la abstención de Ciudadanos (El Español)",
+        "url": "https://www.elespanol.com/espana/politica/20221006/ley-trans-primer-examen-congreso-abstencion-ciudadanos/708679164_0.html",
+        "fecha": "2022-10-06",
+        "consultado": "2026-07-12"
+      }
     }
   }
 }
