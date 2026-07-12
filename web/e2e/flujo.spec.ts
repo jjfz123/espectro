@@ -1208,9 +1208,13 @@ test('la brújula degrada el fondo y revela corrientes solo al enfocar o tocar',
     'Liberalismo igualitario rawlsiano',
   );
   await expect(ficha.getByLabel('Ancla editorial de la corriente')).toBeVisible();
-  await expect(ficha).toContainText('Proyección calculada en el mapa: no publicable.');
-  await expect(ficha).toContainText('Afinidad doctrinal: no publicable.');
-  await expect(ficha).toContainText('No participa en el cálculo de afinidad');
+  /* Sin vetos editoriales (orden del propietario, 2026-07-12): la ficha del
+     atlas declara que el ancla es editorial y no una proyección calculada;
+     la afinidad queda guardada por su regla de publicación, no por veto. */
+  await expect(ficha).toContainText('región educativa publicada del atlas');
+  await expect(ficha).toContainText(
+    'no es una proyección calculada de esta referencia ni una coincidencia doctrinal',
+  );
   await page.getByRole('button', { name: 'Ocultar información', exact: true }).click();
 
   await buscadorAtlas.selectOption('posadismo');
