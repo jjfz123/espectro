@@ -416,3 +416,32 @@ sin matiz**.
 La propuesta 2 o 3 puede implementarse en una tanda posterior si el
 propietario las prioriza; no se han tocado en esta tanda para no mezclar
 alcances.
+
+---
+
+## Integración (FABLE, 2026-07-12)
+
+Los 5 commits del agente entraron por cherry-pick sin conflicto (triaje: 0 posiciones
+tocadas, ficheros exactamente los declarados). El arreglo del avance y el motor
+`ejes-todos` se verificaron línea a línea y quedan como estaban.
+
+**Corrección §0 al umbral propuesto**: el −35 de `propiedad-mercado` era un placebo.
+Medido sobre el banco real: el perfil «±1 uniforme hacia la izquierda» del §3 —el caso
+exacto de la queja— da **economico −50 y propiedad-mercado −50**, porque los 12 ítems del
+núcleo que cargan `propiedad-mercado` son de redistribución/servicios (impuestos, SMI,
+alquileres, parque público, conciertos, sanidad), no de colectivización: en datos de
+núcleo ambos ejes son casi colineales y −35 se cruza igual. Umbral aplicado: **−55**
+(el ±1 uniforme queda fuera; convicción con varios ±2 entra; el extremo −100/−100 de los
+tests de oferta entra de sobra). Gatillo aplicado SIMÉTRICO también a
+`corrientes-derecha` (+40 ∧ +55): la neutralidad del instrumento exige que el liberal
+moderado tampoco reciba la batería anarcocapitalista por las mismas razones.
+
+Aplicado además: esquema `modulo.schema.json` (tipo `ejes-todos` + `condiciones`),
+validador `validate-data.mjs` (ejes existentes, umbral/banda coherentes, lista no vacía)
+y contrato en `tests/engine.test.ts` que pina las cuatro esquinas (moderado fuera,
+convencido dentro, sin-segunda-señal fuera, simétrico derecha). El hash semántico no
+cubre gatillos: sin cambio de versión.
+
+**En cola (bloque de ítems, no en esta integración)**: los 6 ítems propuestos en §2b
+(lab-034…038, der-028) con verificación §0 de sus fuentes, y las propuestas del §4 sobre
+la densidad del cuadrante izquierda-autoritaria del plano Economía×Sociedad.
