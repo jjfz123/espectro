@@ -158,6 +158,19 @@
         "url": "https://www.chunta.org/cha-condena-el-ultimo-asesinato-machista-ocurrido-en-sevilla-y-reafirma-su-compromiso-con-la-lucha-contra-la-violencia-contra-las-mujeres/",
         "consultado": "2026-07-10"
       }
+    },
+    "soc-001": {
+      "valor": 2,
+      "justificacion": "CHA reafirma sistemáticamente su compromiso con los derechos de las personas LGTBI+, reclama la implantación real de la legislación trans y LGTBI y advierte contra cualquier retroceso; se opone a revertir esos derechos, en línea con mantener protegido por ley el matrimonio igualitario y el resto de derechos LGTB.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "CHA reafirma su compromiso con los derechos, la dignidad y la libertad de las personas LGTBI+ (web oficial de Chunta Aragonesista)",
+        "url": "https://www.chunta.org/cha-reafirma-su-compromiso-con-los-derechos-la-dignidad-y-la-libertad-de-las-personas-lgtbi-con-motivo-del-dia-internacional-contra-la-lgtbifobia/",
+        "consultado": "2026-07-12",
+        "cita": "CHA reafirma su compromiso con los derechos, la dignidad y la libertad de las personas LGTBI+"
+      },
+      "grupoEvidencia": "pasaje-027f5a801f2676f9cb81"
     }
   }
 }
