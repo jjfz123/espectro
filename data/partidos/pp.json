@@ -719,6 +719,78 @@
         "fecha": "2023-02-16",
         "consultado": "2026-07-12"
       }
+    },
+    "der-020": {
+      "valor": 2,
+      "justificacion": "La Ponencia Política del 21.º Congreso (2025) sitúa la monarquía parlamentaria como pilar fundacional del sistema; el PP defiende la Corona y no respalda acotar su inviolabilidad constitucional, frente a las propuestas de la izquierda de limitarla.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Ponencia Política del 21.º Congreso Nacional del PP",
+        "url": "https://www.pp.es/storage/2025/06/21_Congreso_Ponencia_Politica.pdf",
+        "fecha": "2025-06",
+        "consultado": "2026-07-12"
+      }
+    },
+    "dem-023": {
+      "valor": 1,
+      "justificacion": "El PP impulsó y defiende la Ley Orgánica de Seguridad Ciudadana (2015), que habilita la identificación policial con fines preventivos, y sostiene que la seguridad es la primera razón de ser del Estado. Inclinación hacia potestades amplias de seguridad, sin el máximo.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "La Ley de Seguridad Ciudadana amplía las garantías de los ciudadanos (Partido Popular)",
+        "url": "https://www.pp.es/actualidad-noticia/ley-seguridad-ciudadana-amplia-las-garantias-ciudadanos",
+        "fecha": "2015",
+        "consultado": "2026-07-12"
+      }
+    },
+    "pop-001": {
+      "valor": -1,
+      "justificacion": "El PP es un partido de gobierno constitucional e institucional que acepta el orden parlamentario y la separación de poderes; no comparte la visión populista de unas élites políticas y económicas coordinadas contra la gente corriente, aunque emplee retórica anti-Gobierno. Desacuerdo moderado.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Ponencia Política del 21.º Congreso Nacional del PP",
+        "url": "https://www.pp.es/storage/2025/06/21_Congreso_Ponencia_Politica.pdf",
+        "fecha": "2025-06",
+        "consultado": "2026-07-12"
+      }
+    },
+    "rel-001": {
+      "valor": -2,
+      "justificacion": "Ideario liberal-conservador y democristiano: el PP defiende la presencia de la religión en la vida pública (enseñanza religiosa, tradiciones) y una laicidad de cooperación con las confesiones; rechaza que el Estado promueva el ateísmo y excluya a las organizaciones religiosas.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "El nuevo ideario del PP: endurecimiento sobre inmigración, sin rastro del aborto y defensa de la libertad de prensa o la tauromaquia (El País)",
+        "url": "https://elpais.com/espana/2025-07-06/el-nuevo-ideario-del-pp-endurecimiento-sobre-inmigracion-sin-rastro-del-aborto-y-defensa-de-la-libertad-de-prensa-o-la-tauromaquia.html",
+        "fecha": "2025-07-06",
+        "consultado": "2026-07-12"
+      }
+    },
+    "lab-002": {
+      "valor": -1,
+      "justificacion": "El programa del PP prioriza la flexibilidad y los instrumentos individuales (capitalización de indemnizaciones), sin cogestión ni control obrero: la dirección de la empresa corresponde a la propiedad y a los gestores, no a órganos elegidos por la plantilla. Acepta el diálogo social, por eso desacuerdo sin el máximo.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Las claves del programa del PP de 2023: rebaja fiscal, una selectividad única y vuelta al pasado en la política medioambiental (El País)",
+        "url": "https://elpais.com/espana/elecciones-generales/2023-07-04/las-claves-del-programa-del-pp-rebaja-fiscal-una-selectividad-unica-y-vuelta-al-pasado-en-la-politica-medioambiental.html",
+        "fecha": "2023-07-04",
+        "consultado": "2026-07-12"
+      }
+    },
+    "izq-001": {
+      "valor": -2,
+      "justificacion": "El PP es un partido de democracia constitucional y representativa que persigue el cambio por reformas electorales y parlamentarias; rechaza por completo la ruptura revolucionaria como vía de transformación social.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Ponencia Política del 21.º Congreso Nacional del PP",
+        "url": "https://www.pp.es/storage/2025/06/21_Congreso_Ponencia_Politica.pdf",
+        "fecha": "2025-06",
+        "consultado": "2026-07-12"
+      }
     }
   }
 }
