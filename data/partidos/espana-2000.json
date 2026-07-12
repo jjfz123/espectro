@@ -249,6 +249,66 @@
         "fecha": "2026",
         "consultado": "2026-07-12"
       }
+    },
+    "izq-046": {
+      "valor": -2,
+      "justificacion": "Su nativismo declarado —lema «Los españoles primero» y oposición a la inmigración «descontrolada e invasiva que merma los recursos y derechos de los nativos»— es incompatible con reconocer la libre circulación entre países como derecho universal de toda persona: antepone a los nacionales sobre cualquier origen.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "España 2000 — Los españoles primero (web oficial)",
+        "url": "https://espana2000.es/los-espanoles-primero/",
+        "fecha": "2026",
+        "consultado": "2026-07-12"
+      }
+    },
+    "pop-001": {
+      "valor": 2,
+      "justificacion": "Combina antielitismo y antiglobalismo: sostiene que «el fortalecimiento del Estado Nacional es la única defensa contra la globalización» y presenta a las élites globalistas, la UE y los gobiernos como adversarios del pueblo; la investigación académica (Dialnet) lo encuadra como derecha radical populista de Mudde por ese marco de pueblo frente a élites.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "España 2000 — Programa político (web oficial)",
+        "url": "https://espana2000.es/programa-politico/",
+        "fecha": "2026",
+        "consultado": "2026-07-12"
+      }
+    },
+    "geo-015": {
+      "valor": -2,
+      "justificacion": "Su euroescepticismo declarado —el Estado nacional como «única defensa contra la globalización», la UE presentada como fracaso y la reclamación de recuperar soberanía frente a Bruselas— es incompatible con que la política exterior de la UE se apruebe por mayoría cualificada contra el criterio de España.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "España 2000 — Programa político (web oficial)",
+        "url": "https://espana2000.es/programa-politico/",
+        "fecha": "2026",
+        "consultado": "2026-07-12"
+      }
+    },
+    "dem-012": {
+      "valor": 1,
+      "justificacion": "Concurre a las elecciones (candidaturas municipales verificadas en 2023) y la investigación académica lo encuadra como derecha radical populista que opera «dentro de las reglas democráticas formales», a diferencia del neofascismo que las rechaza: busca el cambio por vías constitucionales. Acuerdo moderado por su retórica de confrontación con el sistema.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "España 2000 — web oficial",
+        "url": "https://espana2000.es/",
+        "fecha": "2026",
+        "consultado": "2026-07-12"
+      }
+    },
+    "geo-003": {
+      "valor": 1,
+      "justificacion": "Inferencia desde su antiatlantismo documentado: propone abandonar la OTAN «dominada por Estados Unidos» y una defensa europea «de Portugal a Rusia»; ese rechazo a la tutela militar atlántica apunta a no participar en guerras exteriores decididas por aliados, aunque no formula un pacifismo integral. Codificación cauta.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "España 2000 — Programa político (web oficial)",
+        "url": "https://espana2000.es/programa-politico/",
+        "fecha": "2026",
+        "consultado": "2026-07-12"
+      }
     }
   }
 }
