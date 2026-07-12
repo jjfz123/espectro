@@ -1,0 +1,221 @@
+{
+  "id": "psoe-felipista-1982-1996",
+  "nombre": "Felipismo: PSOE de gobierno (1982-1996)",
+  "tipo": "referencia-doctrinal",
+  "definicion": "Tipo ideal del PSOE en el ejercicio del Gobierno bajo Felipe González, de la investidura de 1982 a la derrota de 1996: socialdemocracia de modernización que abandonó el rechazo a la OTAN una vez en el poder (referéndum de 1986), culminó la entrada en la CEE, universalizó la sanidad pública, reguló los conciertos educativos (LODE), despenalizó el aborto en supuestos tasados, acometió una reconversión industrial con fuerte coste social —incluida la ruptura con la UGT y la huelga general del 14-D de 1988— y fijó la elección parlamentaria del Consejo General del Poder Judicial.",
+  "variante": "Etapa de gobierno con mayoría absoluta (1982-1989) y en minoría con apoyo de CiU y PNV (1993-1996). No incluye la oposición previa a 1982 (la campaña «OTAN, de entrada no» es antecedente contrastante), ni el PSOE fundacional de Pablo Iglesias Posse, ni el PSOE posterior a 1996.",
+  "periodo": "España, 1982-1996",
+  "confianza": "verificada",
+  "version": "1.0",
+  "revisado": "2026-07-12",
+  "publicacionMapa": {
+    "publicable": false,
+    "motivo": "Referencia nueva: la mayoría de las citas proceden de títulos y artículos de normas del BOE con cotejo literal pendiente (solo las dos cláusulas del RD 214/1986 alcanzan verbatim alto). Se publica cuando la auditoría adversarial cierre las citas y los encajes declarados como medios (reconversión, ajuste de 1992)."
+  },
+  "publicacionAfinidad": {
+    "publicable": false,
+    "motivo": "Referencia nueva pendiente de auditoría semántica adversarial; no participa en afinidad hasta cerrar cada equivalencia entre fuente e ítem."
+  },
+  "facetasDefinitorias": [
+    "economico",
+    "atlantismo",
+    "ue",
+    "modelo-territorial",
+    "tradicion-moral",
+    "pluralismo-institucional",
+    "propiedad-mercado"
+  ],
+  "sensibilidad": "normal",
+  "advertencia": "No es la ficha del PSOE actual (perfil de partido aparte) ni la del PSOE fundacional (1879-1936): una similitud parcial con esta etapa no identifica políticamente a nadie hoy. La ficha no evalúa ni resuelve el caso de los GAL: solo lo documentaría con sentencias firmes y sin asignarle valor en ningún eje (hoy queda fuera de las posiciones). La Ley del Divorcio de 1981 es del Gobierno de UCD, anterior a la investidura: antecedente heredado, no posición de esta etapa.",
+  "fuentesMarco": [
+    {
+      "tipo": "programa",
+      "titulo": "Programa electoral del PSOE, Elecciones Generales 1982",
+      "url": "https://www.psoe.es/media-content/2015/03/Programa-Electoral-Generales-1982.pdf",
+      "fecha": "1982",
+      "consultado": "2026-07-12"
+    },
+    {
+      "tipo": "otro",
+      "titulo": "PSOE, Resolución Política del 30.º Congreso Federal (giro sobre la permanencia en la OTAN)",
+      "url": "https://www.psoe.es/media-content/2016/04/resoluciones-198412-30congreso.pdf",
+      "fecha": "1984-12-16",
+      "consultado": "2026-07-12"
+    },
+    {
+      "tipo": "declaracion",
+      "titulo": "La Moncloa, discurso de investidura de Felipe González (30 de noviembre de 1982)",
+      "url": "https://www.lamoncloa.gob.es/presidente/presidentes/investiduras/Paginas/30111982_InvestGonzalez.aspx",
+      "fecha": "1982-11-30",
+      "consultado": "2026-07-12"
+    },
+    {
+      "tipo": "otro",
+      "titulo": "Real Decreto 214/1986, de 6 de febrero, por el que se somete a referéndum la decisión política del Gobierno en relación con la Alianza Atlántica (BOE)",
+      "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1986-3251",
+      "fecha": "1986-02-06",
+      "consultado": "2026-07-12"
+    }
+  ],
+  "reglaPublicacion": {
+    "minimoItems": 11,
+    "minimoCobertura": 0.75,
+    "umbralAfinidad": 88
+  },
+  "posiciones": {
+    "def-002": {
+      "valor": -2,
+      "justificacion": "El Gobierno convocó el referéndum de 1986 defendiendo la permanencia (González anunció que dimitiría si ganaba el no), tras girar en el 30.º Congreso desde el «OTAN, de entrada no» de la oposición: el giro es el rasgo definitorio de la etapa y se narra en la definición, no se puntúa dos veces.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Real Decreto 214/1986 (BOE), referéndum sobre la Alianza Atlántica",
+        "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1986-3251",
+        "fecha": "1986-02-06",
+        "consultado": "2026-07-12",
+        "cita": "1.º La participación de España en la Alianza Atlántica no incluirá su incorporación a la estructura militar integrada."
+      },
+      "grupoEvidencia": "pasaje-3d57dd8367d8614b9e18"
+    },
+    "geo-005": {
+      "valor": 1,
+      "justificacion": "Acepta el paraguas de la Alianza pero excluye expresamente instalar, almacenar o introducir armas nucleares en territorio español: acuerdo condicionado, no pleno. Cláusula distinta (punto 2.º) de la citada para def-002: ejes distintos del mismo decreto, declarado.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Real Decreto 214/1986 (BOE), referéndum sobre la Alianza Atlántica",
+        "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1986-3251",
+        "fecha": "1986-02-06",
+        "consultado": "2026-07-12",
+        "cita": "2.º Se mantendrá la prohibición de instalar, almacenar o introducir armas nucleares en territorio español."
+      },
+      "grupoEvidencia": "pasaje-ed95cb950b373376cfa0"
+    },
+    "ue-001": {
+      "valor": -2,
+      "justificacion": "El discurso de investidura fija la adhesión a las Comunidades Europeas como objetivo de la legislatura; el Tratado se firmó en 1985 y entró en vigor el 1 de enero de 1986. Cotejo literal del discurso pendiente (la transcripción procede de resúmenes coincidentes).",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "La Moncloa, discurso de investidura de Felipe González",
+        "url": "https://www.lamoncloa.gob.es/presidente/presidentes/investiduras/Paginas/30111982_InvestGonzalez.aspx",
+        "fecha": "1982-11-30",
+        "consultado": "2026-07-12",
+        "cita": "trabajaremos con tesón para allanar los obstáculos que aún se oponen a nuestra plena integración en las Comunidades Europeas"
+      },
+      "grupoEvidencia": "pasaje-33e3837485ba3dafabed"
+    },
+    "eco-002": {
+      "valor": -2,
+      "justificacion": "La Ley General de Sanidad crea el Sistema Nacional de Salud público y universal financiado por impuestos, sustituyendo la cobertura contributiva fragmentada: la opción de la etapa fue reforzar la gestión pública, no la privada. Cotejo literal del artículo 1 pendiente (redacción corroborada en fuentes jurídicas coincidentes).",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Ley 14/1986, de 25 de abril, General de Sanidad (BOE)",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1986-10499",
+        "fecha": "1986-04-25",
+        "consultado": "2026-07-12",
+        "cita": "Son titulares del derecho a la protección de la salud y a la atención sanitaria todos los españoles y los ciudadanos extranjeros que tengan establecida su residencia en el territorio nacional"
+      },
+      "grupoEvidencia": "pasaje-64bfdf6666cce75c7a05"
+    },
+    "eco-012": {
+      "valor": -1,
+      "justificacion": "La LODE no eliminó la red concertada: la reguló y consolidó como red permanente sostenida con fondos públicos — el sistema de conciertos vigente nace de esta norma. La cita es el título oficial de la ley; el articulado de conciertos queda en cola de cotejo.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Ley Orgánica 8/1985, de 3 de julio, reguladora del Derecho a la Educación (BOE)",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-12978",
+        "fecha": "1985-07-03",
+        "consultado": "2026-07-12",
+        "cita": "Ley Orgánica 8/1985, de 3 de julio, reguladora del Derecho a la Educación"
+      },
+      "grupoEvidencia": "pasaje-4f170ef30bcf603b1aa3"
+    },
+    "fem-006": {
+      "valor": 2,
+      "justificacion": "El modelo de la etapa es exactamente el del ítem: despenalización en tres supuestos tasados (peligro grave para la madre, violación, graves taras fetales). Redacción del artículo 417 bis corroborada en múltiples fuentes jurídicas independientes.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Ley Orgánica 9/1985, de 5 de julio, de reforma del artículo 417 bis del Código Penal (BOE)",
+        "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1985-14138",
+        "fecha": "1985-07-05",
+        "consultado": "2026-07-12",
+        "cita": "No será punible el aborto practicado por un Médico... cuando concurra alguna de las circunstancias siguientes: 1.ª Que sea necesario para evitar un grave peligro para la vida o la salud física o psíquica de la embarazada... 2.ª Que el embarazo sea consecuencia de un hecho constitutivo de delito de violación... 3.ª Que se presuma que el feto habrá de nacer con graves taras físicas o psíquicas"
+      },
+      "grupoEvidencia": "pasaje-51b8f207ab9aef6cebf8"
+    },
+    "dem-032": {
+      "valor": 1,
+      "justificacion": "Tras la STC 76/1983 (que anuló el carácter armonizador de la LOAPA, pactada por UCD y PSOE en 1981 desde la oposición), el Gobierno la reformuló como Ley 12/1983 del Proceso Autonómico y consolidó el Estado autonómico generalizado sin recentralizar ni federalizar. La cita es la identificación oficial de la sentencia; su argumentación queda en cola de cotejo.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Tribunal Constitucional, Pleno, Sentencia 76/1983, de 5 de agosto, sobre la LOAPA (BOE)",
+        "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-T-1983-22276",
+        "fecha": "1983-08-05",
+        "consultado": "2026-07-12",
+        "cita": "Sentencia número 76/1983, de 5 de agosto"
+      },
+      "grupoEvidencia": "pasaje-e8d6730bb54024a81a97"
+    },
+    "eco-010": {
+      "valor": 1,
+      "justificacion": "La reconversión (siderurgia, naval, minería) facilitó la salida de empleo mediante regulaciones colectivas incentivadas y Fondos de Promoción de Empleo — mecanismo pariente pero no idéntico al abaratamiento genérico del despido del ítem: encaje declarado medio, de ahí el valor moderado. Provocó la huelga general del 14-D de 1988 y la ruptura con la UGT (narrado en la definición).",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Ley 27/1984, de 26 de julio, sobre reconversión y reindustrialización (BOE)",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1984-17004",
+        "fecha": "1984-07-26",
+        "consultado": "2026-07-12",
+        "cita": "Ley 27/1984, de 26 de julio, sobre reconversión y reindustrialización"
+      },
+      "grupoEvidencia": "pasaje-644acefb1858fddfef90"
+    },
+    "eco-004": {
+      "valor": 1,
+      "justificacion": "En la última etapa el Gobierno priorizó la consolidación fiscal previa a Maastricht sobre la expansión del gasto: el decreto de 1992 recortó prestaciones por desempleo y motivó la huelga general del 28-M. Encaje declarado medio (la norma es de prestaciones, no de deuda en sentido amplio); el Programa de Convergencia queda en cola.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Real Decreto-ley 1/1992, de 3 de abril, de Medidas Urgentes sobre Fomento del Empleo y Protección por Desempleo (BOE)",
+        "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-1992-7714",
+        "fecha": "1992-04-03",
+        "consultado": "2026-07-12",
+        "cita": "Real Decreto-ley 1/1992, de 3 de abril, de Medidas Urgentes sobre Fomento del Empleo y Protección por Desempleo"
+      },
+      "grupoEvidencia": "pasaje-db87f6ed03c6d7f28ca3"
+    },
+    "nuc-001": {
+      "valor": -2,
+      "justificacion": "La LOPJ de 1985 invirtió el modelo de 1980: los veinte vocales del CGPJ, incluidos los doce de origen judicial, pasan a elegirse por las Cortes. La STC 108/1986 lo declaró constitucional advirtiendo del riesgo de trasladar al Consejo las divisiones ideológicas de la sociedad (paráfrasis declarada).",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Ley Orgánica 6/1985, de 1 de julio, del Poder Judicial (BOE)",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-12666",
+        "fecha": "1985-07-01",
+        "consultado": "2026-07-12",
+        "cita": "Ley Orgánica 6/1985, de 1 de julio, del Poder Judicial"
+      },
+      "grupoEvidencia": "pasaje-192acc081409dc9b0d16"
+    },
+    "eco-014": {
+      "valor": 2,
+      "justificacion": "Convirtió en figura permanente del sistema tributario el gravamen sobre el patrimonio que desde 1977 era extraordinario y transitorio.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Ley 19/1991, de 6 de junio, del Impuesto sobre el Patrimonio (BOE)",
+        "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1991-14392",
+        "fecha": "1991-06-06",
+        "consultado": "2026-07-12",
+        "cita": "Ley 19/1991, de 6 de junio, del Impuesto sobre el Patrimonio"
+      },
+      "grupoEvidencia": "pasaje-b2832557b415ee66e00c"
+    }
+  }
+}
