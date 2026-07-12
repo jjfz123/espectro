@@ -429,6 +429,34 @@
         "cita": "El Partido trabaja para que la clase obrera española exprese su solidaridad internacionalista con la clase obrera y los pueblos de todos los países en su lucha contra el sistema imperialista mundial, combatiendo toda expresión nacionalista, chovinista, racista y xenófoba."
       },
       "grupoEvidencia": "pasaje-59351516471744480d1f"
+    },
+    "izq-023": {
+      "valor": -1,
+      "justificacion": "Lucha por una república socialista regida por el centralismo democrático; el pasaje no valora expresamente la república democrática intermedia del ítem, pero su programa no la formula como objetivo propio: desacuerdo moderado por extensión declarada. Pasaje ya verificado en esta ficha para izq-038 (ejes distintos).",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Manifiesto-Programa del PCTE (II Congreso)",
+        "url": "https://s3.eu-west-3.amazonaws.com/cdn.pcte.es/wp-content/uploads/2022/09/06194642/Manifiesto_Programa_PCTE_Digital-1.pdf",
+        "fecha": "2021-11",
+        "consultado": "2026-07-12",
+        "cita": "Los comunistas somos defensores del centralismo democrático y luchamos por construir una República Socialista regida por tales principios"
+      },
+      "grupoEvidencia": "pasaje-99e61dbada68226993da"
+    },
+    "sd-003": {
+      "valor": -1,
+      "justificacion": "Caracteriza la guerra de Ucrania como interimperialista con responsabilidad determinante de EEUU/UE/OTAN; el titular no menciona el envío de armas del ítem: extensión declarada y posible desfase temporal (declaración de 2022 sin reafirmación fechada posterior localizada).",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Declaración del Buró Político del PCTE: ¡NO A LA GUERRA IMPERIALISTA!",
+        "url": "https://www.pcte.es/comunicados-centrales/declaracion-del-buro-politico-del-pcte-no-a-la-guerra-imperialista/",
+        "fecha": "2022-02-24",
+        "consultado": "2026-07-12",
+        "cita": "¡NO A LA GUERRA IMPERIALISTA!"
+      },
+      "grupoEvidencia": "pasaje-02c517432588f88c5d3d"
     }
   }
 }
