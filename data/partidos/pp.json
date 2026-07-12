@@ -790,6 +790,80 @@
         "fecha": "2025-06",
         "consultado": "2026-07-12"
       }
+    },
+    "eco-010": {
+      "valor": 2,
+      "justificacion": "La reforma laboral del PP de 2012 abarató la indemnización por despido improcedente de 45 a 33 días por año y flexibilizó el despido objetivo; el PP defiende esa flexibilidad y se opuso a revertirla, sosteniendo que agiliza y abarata el ajuste del empleo.",
+      "calidadEvidencia": "media",
+      "grupoEvidencia": "pp-reforma-laboral-2012-despido",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "La reforma laboral de Díaz apenas cambia ocho detalles de la del PP (The Objective)",
+        "url": "https://theobjective.com/economia/2021-12-30/reforma-laboral-yolanda-diaz-partido-popular/",
+        "fecha": "2021-12-30",
+        "consultado": "2026-07-12",
+        "cita": "La reforma laboral de Díaz apenas cambia ocho detalles de la del PP"
+      }
+    },
+    "eco-006": {
+      "valor": 0,
+      "justificacion": "El PP promueve construir algo de vivienda protegida (pisos sociales, planes autonómicos) pero apoyándose sobre todo en la colaboración público-privada, avales, suelo e incentivos fiscales al promotor; no defiende un gran parque estatal en alquiler sufragado con un fuerte aumento del gasto público directo.",
+      "calidadEvidencia": "media",
+      "grupoEvidencia": "pp-vivienda-modelo-mixto",
+      "resolucionCero": {
+        "tipo": "modelo-mixto",
+        "explicacion": "Posición mixta: sí a promover vivienda protegida, pero mediante colaboración público-privada y avales, no a un gran parque público en alquiler financiado por un fuerte aumento del gasto público directo."
+      },
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Facilitar la emancipación, priorizar los municipios rurales y construir pisos sociales: las propuestas de vivienda del PP (Infobae)",
+        "url": "https://www.infobae.com/espana/2025/12/19/facilitar-la-emancipacion-priorizar-los-municipios-rurales-y-construir-pisos-sociales-las-propuestas-de-vivienda-del-pp-para-las-elecciones-de-extremadura/",
+        "fecha": "2025-12-19",
+        "consultado": "2026-07-12",
+        "cita": "construir pisos sociales: las propuestas de vivienda del PP"
+      }
+    },
+    "dem-006": {
+      "valor": 2,
+      "justificacion": "El PP recurre ante el Tribunal Constitucional las leyes que considera contrarias a la Constitución: presentó el recurso de inconstitucionalidad contra la Ley de Amnistía por vulnerar la igualdad y la separación de poderes. Respalda que los tribunales puedan anular leyes que vulneran derechos constitucionales.",
+      "calidadEvidencia": "media",
+      "grupoEvidencia": "pp-recurso-amnistia",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "El PP registra su recurso de inconstitucionalidad contra la Ley de Amnistía (El Plural)",
+        "url": "https://www.elplural.com/politica/pp-registra-recurso-inconstitucionalidad-contra-ley-amnistia_336421102",
+        "fecha": "2024",
+        "consultado": "2026-07-12",
+        "cita": "El PP registra su recurso de inconstitucionalidad contra la Ley de Amnistía"
+      }
+    },
+    "dem-007": {
+      "valor": -2,
+      "justificacion": "El PP reclama que sean los jueces quienes elijan a los doce vocales judiciales del CGPJ, en vez del reparto parlamentario, y defiende la independencia judicial y la separación de poderes; es contrario a que el Gobierno pueda apartar de sus funciones a jueces que bloqueen su programa.",
+      "calidadEvidencia": "media",
+      "grupoEvidencia": "pp-cgpj-jueces-eligen",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Socialists and PP agree to renew Spain's top judicial body after five-year deadlock (Catalan News)",
+        "url": "https://www.catalannews.com/politics/item/socialists-and-pp-agree-to-renew-spains-top-judicial-body-after-five-year-deadlock",
+        "fecha": "2024",
+        "consultado": "2026-07-12",
+        "cita": "Socialists and PP agree to renew Spain's top judicial body after five-year deadlock"
+      }
+    },
+    "soc-003": {
+      "valor": 2,
+      "justificacion": "El PP promueve ampliar la videovigilancia con cámaras en espacios públicos como medida de seguridad ciudadana frente al vandalismo y los actos incívicos, con iniciativas en distintos municipios.",
+      "calidadEvidencia": "media",
+      "grupoEvidencia": "pp-videovigilancia-camaras",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "El Grupo Popular reclama más cámaras de videovigilancia ante el incremento de episodios de vandalismo en Cuenca",
+        "url": "https://www.enciendecuenca.com/2025/07/21/el-grupo-popular-reclama-mas-camaras-de-videovigilancia-ante-el-incremento-de-episodios-de-vandalismo-en-cuenca/",
+        "fecha": "2025-07-21",
+        "consultado": "2026-07-12",
+        "cita": "El Grupo Popular reclama más cámaras de videovigilancia ante el incremento de episodios de vandalismo"
+      }
     }
   }
 }
