@@ -334,6 +334,18 @@
         "fecha": "2026-07-07",
         "consultado": "2026-07-12"
       }
+    },
+    "dem-019": {
+      "valor": 2,
+      "justificacion": "Rechaza en bloque el «régimen del 78» y el sistema liberal de partidos —cuyas herramientas dice que solo usará para derribarlo— y combate por igual liberalismo y marxismo; prensa e investigadores le atribuyen una orientación nacionalsocialista, no una resolución judicial, coherente con un movimiento único que dirige el Estado sin competencia entre partidos. Codificación cauta y atribuida.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "El grupo Núcleo Nacional presenta un partido pero no irá a las elecciones generales (The Objective)",
+        "url": "https://theobjective.com/espana/politica/2026-07-07/grupo-neonazi-nucleo-nacional-partido-elecciones-generales/",
+        "fecha": "2026-07-07",
+        "consultado": "2026-07-12"
+      }
     }
   }
 }
