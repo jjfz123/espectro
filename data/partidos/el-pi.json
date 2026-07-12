@@ -1,0 +1,143 @@
+{
+  "id": "el-pi",
+  "nombre": "El Pi – Proposta per les Illes",
+  "siglas": "El Pi",
+  "ambito": "autonomico",
+  "tipo": "partido",
+  "ccaa": [
+    "illes-balears"
+  ],
+  "confianza": "estimada",
+  "web": "https://www.el-pi.com/",
+  "revisado": "2026-07-12",
+  "actividad": "activa",
+  "autodescripcion": {
+    "texto": "Se define como partido «balearista y con tendencia al centrismo», amplio, plural y pragmático, centrado en el máximo autogobierno de las Islas Baleares dentro de España y en la defensa de su lengua propia, su territorio y su financiación. En noviembre de 2025 acordó integrarse en la coalición «Per Mallorca» de cara a 2027, conservando su representación institucional durante el mandato en curso.",
+    "fuente": {
+      "tipo": "declaracion",
+      "titulo": "El Pi – Proposta per les Illes — Quiénes somos (web oficial)",
+      "url": "https://www.el-pi.com/es/quienes-somos/",
+      "consultado": "2026-07-12",
+      "cita": "balearista y con tendencia al centrismo"
+    }
+  },
+  "clasificacion": [
+    {
+      "etiqueta": "regionalismo balear de centro (autonomista, liberal, no independentista)",
+      "explicacion": "Partido regionalista/balearista de centro a centro-derecha liberal: reclama más autogobierno y una financiación singular para Baleares dentro del marco constitucional, sin plantear la independencia. Concurrió a las europeas de 2024 en la coalición CEUS junto al PNV y Coalición Canaria.",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "El Pi-Proposta per les Illes — Wikipedia",
+        "url": "https://es.wikipedia.org/wiki/El_Pi-Proposta_per_les_Illes",
+        "consultado": "2026-07-12"
+      }
+    }
+  ],
+  "posiciones": {
+    "nac-009": {
+      "valor": 2,
+      "justificacion": "Pactismo transversal explícito: su líder Josep Melià declaró estar dispuesto a investir tanto a Prohens (PP) como a Armengol (PSOE), priorizando lo que convenga a Baleares por encima del eje izquierda-derecha.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Josep Melià: «Estamos dispuestos a investir a Prohens (PP) o a Armengol (PSOE)» (elDiario.es Illes Balears)",
+        "url": "https://www.eldiario.es/illes-balears/politica/josep-melia-candidato-pi-presidir-balears-dispuestos-investir-prohens-pp-armengol-psoe_1_10226320.html",
+        "fecha": "2023",
+        "consultado": "2026-07-12",
+        "cita": "Estamos dispuestos a investir a Prohens (PP) o a Armengol (PSOE)"
+      },
+      "grupoEvidencia": "pasaje-3ec4e6ca291e08143976"
+    },
+    "lib-015": {
+      "valor": 2,
+      "justificacion": "Practica un pactismo territorial de geometría variable: cogobierna municipios de Mallorca tanto con el PP (Ses Salines) como con Més (Llubí), apoyando a fuerzas de distinto color a cambio de beneficios para su territorio.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "El Pi-Proposta per les Illes — Wikipedia (gobiernos municipales con distintos socios)",
+        "url": "https://es.wikipedia.org/wiki/El_Pi-Proposta_per_les_Illes",
+        "consultado": "2026-07-12"
+      }
+    },
+    "ter-003": {
+      "valor": 2,
+      "justificacion": "Reclama un concierto económico para Baleares al estilo del vasco-navarro, al considerar el actual REB insuficiente y a la comunidad «aportadora neta» infrafinanciada: quiere una hacienda propia, no depender de Madrid.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "El PI pide un sistema de financiación propio y critica los «discursos vacíos» de PP y PSOE (Última Hora)",
+        "url": "https://www.ultimahora.es/noticias/local/2025/07/15/2430893/pide-sistema-financiacion-propio-para-baleares-critica-discursos-vacios-psoe.html",
+        "fecha": "2025-07-15",
+        "consultado": "2026-07-12"
+      }
+    },
+    "ter-001": {
+      "valor": -2,
+      "justificacion": "Su razón de ser es ampliar el autogobierno balear: aspira al «máximo autogobierno» y a nuevas competencias (inmigración, ordenación territorial), lo contrario de devolver competencias al Estado central.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "El Pi-Proposta per les Illes — Wikipedia (máximo autogobierno dentro de España)",
+        "url": "https://es.wikipedia.org/wiki/El_Pi-Proposta_per_les_Illes",
+        "consultado": "2026-07-12"
+      }
+    },
+    "der-005": {
+      "valor": -1,
+      "justificacion": "Como partido balearista, sitúa el autogobierno de las islas y sus intereses en el centro de su proyecto y rechaza el «sucursalismo» de los partidos estatales; no antepone la unidad de España a cualquier reivindicación autonómica, aunque se mantiene dentro del marco constitucional.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "El Pi-Proposta per les Illes — Wikipedia (balearismo autonomista)",
+        "url": "https://es.wikipedia.org/wiki/El_Pi-Proposta_per_les_Illes",
+        "consultado": "2026-07-12"
+      }
+    },
+    "dem-012": {
+      "valor": 2,
+      "justificacion": "Partido constitucionalista y reformista que actúa dentro de las instituciones autonómicas, insulares y municipales y persigue el autogobierno por vías legales y estatutarias, no rupturistas.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "El Pi – Proposta per les Illes — Quiénes somos (web oficial)",
+        "url": "https://www.el-pi.com/es/quienes-somos/",
+        "consultado": "2026-07-12"
+      }
+    },
+    "dem-008": {
+      "valor": 1,
+      "justificacion": "Su perfil moderado, plural y constitucionalista, y su práctica institucional de acuerdos, encajan con la defensa de la separación de poderes y los contrapesos, sin discurso antiinstitucional.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "El Pi – Proposta per les Illes — Quiénes somos (web oficial)",
+        "url": "https://www.el-pi.com/es/quienes-somos/",
+        "consultado": "2026-07-12"
+      }
+    },
+    "pop-003": {
+      "valor": 1,
+      "justificacion": "Critica los «discursos vacíos» de PP y PSOE en materia de financiación y denuncia el «sucursalismo» de los partidos estatales, a los que presenta como indistinguibles frente a los intereses de Baleares.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "El PI pide un sistema de financiación propio y critica los «discursos vacíos» de PP y PSOE (Última Hora)",
+        "url": "https://www.ultimahora.es/noticias/local/2025/07/15/2430893/pide-sistema-financiacion-propio-para-baleares-critica-discursos-vacios-psoe.html",
+        "fecha": "2025-07-15",
+        "consultado": "2026-07-12"
+      }
+    },
+    "ue-001": {
+      "valor": -1,
+      "justificacion": "Es europeísta: concurrió a las europeas de 2024 en la coalición CEUS con un manifiesto favorable a una UE fuerte y contraria al populismo y el autoritarismo; no comparte que la integración europea haya ido demasiado lejos.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "El Pi aprueba concurrir a las europeas con Coalición Canaria y el PNV (web oficial)",
+        "url": "https://www.el-pi.com/es/el-pi-aprova-anar-a-les-eleccions-europees-amb-coalicion-canaria-i-el-pnv-2/",
+        "fecha": "2024",
+        "consultado": "2026-07-12"
+      }
+    }
+  }
+}
