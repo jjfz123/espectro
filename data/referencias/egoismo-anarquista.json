@@ -1,0 +1,138 @@
+{
+  "id": "egoismo-anarquista",
+  "nombre": "Egoísmo anarquista",
+  "tipo": "referencia-doctrinal",
+  "definicion": "Tipo ideal del anarquismo egoísta de Max Stirner: el Único (der Einzige) no se debe a ninguna abstracción obligatoria —Estado, sociedad, humanidad, moral o derecho, tratadas como «espectros» o ideas fijas—; la propiedad es aquello que el yo tiene en su poder, no un derecho natural, y la cooperación adopta la forma de una «unión de egoístas» voluntaria, renovada por la voluntad y disoluble a discreción.",
+  "variante": "Rama stirneriana (El único y su propiedad, 1845). Se deslinda del individualismo tuckeriano, que conserva un sistema de derechos y una propiedad por ocupación y uso: aquí no hay derecho, solo poder, y la ficha no hereda su economía de mercado. Y se deslinda del objetivismo, que erige una moral racionalista con derechos individuales: el egoísmo stirneriano rechaza toda moral y todo lo «sagrado», incluido el de la razón.",
+  "periodo": "Mediados del siglo XIX (obra de 1844-1845), con recepción en el individualismo anarquista posterior",
+  "confianza": "estimada",
+  "version": "1.0",
+  "revisado": "2026-07-12",
+  "facetasDefinitorias": [
+    "libertad-conciencia",
+    "laicismo",
+    "estatismo",
+    "organizacion"
+  ],
+  "sensibilidad": "normal",
+  "advertencia": "Referencia doctrinal (tipo ideal), no una identidad personal ni un partido; en España el egoísmo stirneriano apenas arraigó. Construida a partir del veredicto de la matriz de anarquismos del atlas, que lo trata como faceta-borde ascendida a ficha por su discriminante moral (rechazo de lo «sagrado») y de propiedad (poder, no derecho). No hereda la economía de mercado del individualismo tuckeriano ni posiciones de género por deducción. El ilegalismo asociado es contexto histórico-táctico, nunca identidad. El anclaje verbatim en la edición española queda pendiente de verificación humana.",
+  "fuentesMarco": [
+    {
+      "tipo": "otro",
+      "titulo": "Max Stirner, El único y su propiedad (Der Einzige und sein Eigentum; edición española)",
+      "url": "https://www.solidaridadobrera.org/ateneo_nacho/libros/Max%20Stirner%20-%20El%20unico%20y%20su%20propiedad.pdf",
+      "fecha": "1845",
+      "consultado": "2026-07-12"
+    },
+    {
+      "tipo": "otro",
+      "titulo": "Max Stirner, El único y su propiedad (The Anarchist Library, edición española)",
+      "url": "https://es.anarchistlibraries.net/library/max-stirner-el-unico-y-su-propiedad",
+      "fecha": "1845",
+      "consultado": "2026-07-12"
+    }
+  ],
+  "reglaPublicacion": {
+    "minimoItems": 3,
+    "minimoCobertura": 0.5,
+    "umbralAfinidad": 82
+  },
+  "posiciones": {
+    "izq-055": {
+      "valor": 2,
+      "justificacion": "El enunciado es casi una paráfrasis del núcleo stirneriano: ninguna causa superior —humanidad, justicia, comunidad— obliga al Único; todas son «espectros» o ideas fijas ante las que el yo no se debe. Es el discriminante que la matriz de anarquismos usa para separar el egoísmo del individualismo con derechos y del objetivismo moral.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Max Stirner, El único y su propiedad (ed. esp.)",
+        "url": "https://www.solidaridadobrera.org/ateneo_nacho/libros/Max%20Stirner%20-%20El%20unico%20y%20su%20propiedad.pdf",
+        "fecha": "1845",
+        "consultado": "2026-07-12"
+      }
+    },
+    "lab-010": {
+      "valor": 1,
+      "justificacion": "Comparte el rechazo a que se le exija financiar servicios colectivos sin su consentimiento, pero por una razón propia: para Stirner la propiedad es lo que el yo tiene en su poder, no un derecho ni una «ficción legal». De ahí el valor moderado: no sacraliza la propiedad privada como principio, a diferencia del propietarismo.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Max Stirner, El único y su propiedad (ed. esp.)",
+        "url": "https://www.solidaridadobrera.org/ateneo_nacho/libros/Max%20Stirner%20-%20El%20unico%20y%20su%20propiedad.pdf",
+        "fecha": "1845",
+        "consultado": "2026-07-12"
+      }
+    },
+    "izq-039": {
+      "valor": 1,
+      "justificacion": "La «unión de egoístas» es voluntaria y disoluble: ninguna autoridad permanente tiene título sobre el yo. Coincide con eliminar líderes fijos, pero sin elevar la rotación de portavoces a regla obligatoria —eso sería otra idea fija—; de ahí el acuerdo moderado.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Max Stirner, El único y su propiedad (ed. esp.)",
+        "url": "https://www.solidaridadobrera.org/ateneo_nacho/libros/Max%20Stirner%20-%20El%20unico%20y%20su%20propiedad.pdf",
+        "fecha": "1845",
+        "consultado": "2026-07-12"
+      }
+    },
+    "izq-007": {
+      "valor": 2,
+      "justificacion": "Entre el egoísmo y el Estado hay, en Stirner, hostilidad radical: el Estado es un «espectro» cuyo fin es domar y subordinar al individuo, y el yo no le debe nada. Rechaza conquistarlo —eso solo entronizaría un nuevo amo— y afirma disolver su dominio sobre uno mismo.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Max Stirner, El único y su propiedad (ed. esp.)",
+        "url": "https://www.solidaridadobrera.org/ateneo_nacho/libros/Max%20Stirner%20-%20El%20unico%20y%20su%20propiedad.pdf",
+        "fecha": "1845",
+        "consultado": "2026-07-12"
+      }
+    },
+    "dem-014": {
+      "valor": -1,
+      "justificacion": "La unión de egoístas se renueva por voluntad y se abandona a discreción; un voto «vinculante» de toda la militancia impondría la voluntad de la masa sobre el yo. El egoísta recela de esa obligación colectiva, aunque su objeción es al carácter vinculante, no a la coordinación horizontal: de ahí el rechazo moderado e inferido.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Max Stirner, El único y su propiedad (ed. esp.)",
+        "url": "https://www.solidaridadobrera.org/ateneo_nacho/libros/Max%20Stirner%20-%20El%20unico%20y%20su%20propiedad.pdf",
+        "fecha": "1845",
+        "consultado": "2026-07-12"
+      }
+    },
+    "rel-001": {
+      "valor": -2,
+      "justificacion": "Un Estado que imponga el ateísmo y excluya lo religioso no libera al yo: relocaliza «lo sagrado» en un nuevo dogma —la Humanidad o la Razón deificadas— sostenido por coacción. Stirner combate lo sagrado como tal, no la religión en nombre de un credo secular; rechazo máximo.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Max Stirner, El único y su propiedad (ed. esp.)",
+        "url": "https://www.solidaridadobrera.org/ateneo_nacho/libros/Max%20Stirner%20-%20El%20unico%20y%20su%20propiedad.pdf",
+        "fecha": "1845",
+        "consultado": "2026-07-12"
+      }
+    },
+    "rel-002": {
+      "valor": 1,
+      "justificacion": "Un Estado no confesional que no imponga credo y deje expresarse a todos se acerca a «dejar en paz» al individuo, y por eso el egoísta lo prefiere a la imposición; pero no consagra al Estado como garante ni al «derecho» como marco. Acuerdo moderado e inferido.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Max Stirner, El único y su propiedad (ed. esp.)",
+        "url": "https://www.solidaridadobrera.org/ateneo_nacho/libros/Max%20Stirner%20-%20El%20unico%20y%20su%20propiedad.pdf",
+        "fecha": "1845",
+        "consultado": "2026-07-12"
+      }
+    },
+    "rel-003": {
+      "valor": -2,
+      "justificacion": "Que una autoridad religiosa pueda vetar leyes es la forma más pura de «lo sagrado» mandando sobre los demás; el Único no reconoce autoridad sacra alguna sobre sí ni sobre nadie. Rechazo frontal.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Max Stirner, El único y su propiedad (ed. esp.)",
+        "url": "https://www.solidaridadobrera.org/ateneo_nacho/libros/Max%20Stirner%20-%20El%20unico%20y%20su%20propiedad.pdf",
+        "fecha": "1845",
+        "consultado": "2026-07-12"
+      }
+    }
+  }
+}
