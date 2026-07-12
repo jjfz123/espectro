@@ -43,6 +43,12 @@ const Mapa3D = lazy(() => import('./Mapa3D'));
 
 interface Props {
   facetasUsuario: ResultadoFaceta[];
+  /** Cruce mapa↔doctrina: por referencia, si el usuario publica coincidencia
+      doctrinal y con cuántas preguntas compartidas (fase 2 de legibilidad). */
+  resumenDoctrinal?: Map<
+    string,
+    { publicable: boolean; itemsComparados: number; itemsDefinitorios: number }
+  >;
   puedeRecargar: boolean;
   alConfirmarGuardado: () => boolean;
   /** Devuelve el foco al contexto persistente tras resolver el chunk perezoso. */
@@ -953,6 +959,7 @@ function Brujula({
 
 export function MapaPolitico({
   facetasUsuario,
+  resumenDoctrinal,
   puedeRecargar,
   alConfirmarGuardado,
   alMontar,
@@ -1397,9 +1404,23 @@ export function MapaPolitico({
                 <span>
                   En estas dos dimensiones, tu punto queda más cerca de la zona{' '}
                   <strong>{corrienteUsuario.nombre}</strong>. Es orientación geométrica, no una
-                  identidad ni el resultado doctrinal completo: estar cerca aquí y no aparecer
-                  en «corrientes afines» es normal (esto mide dos ejes; aquello, sus preguntas
-                  definitorias).
+                  identidad ni el resultado doctrinal completo.
+                  {(() => {
+                    const cruce =
+                      corrienteUsuario.referenciaId &&
+                      corrienteUsuario.sensibilidad === 'normal'
+                        ? resumenDoctrinal?.get(corrienteUsuario.referenciaId)
+                        : undefined;
+                    if (!cruce) {
+                      return (
+                        ' Estar cerca aquí y no aparecer en «corrientes afines» es normal: esto' +
+                        ' mide dos ejes; aquello, sus preguntas definitorias.'
+                      );
+                    }
+                    return cruce.publicable
+                      ? ` Ahí también apareces: coincides en ${cruce.itemsComparados} de sus ${cruce.itemsDefinitorios} preguntas definitorias (ver «corrientes afines»).`
+                      : ` En sus preguntas definitorias no llegas a su umbral: por eso NO aparece en «corrientes afines». Cercanía geométrica sin coincidencia doctrinal — es normal.`;
+                  })()}
                 </span>{' '}
                 <button
                   type="button"

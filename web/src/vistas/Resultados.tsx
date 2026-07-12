@@ -5,6 +5,7 @@ import {
   EJE_PROPIEDAD_MERCADO,
   calcularAfinidad,
   calcularFacetas,
+  compararReferenciasDoctrinales,
   partidosPrincipalesUltimasGenerales,
   perfilContraste,
   rankingAfinidad,
@@ -12,6 +13,7 @@ import {
   seleccionarPartidosElectorales,
   sindicatoRelevanteEnCcaa,
 } from '@engine';
+import { REFERENCIAS } from '../datosReferencias';
 import { CatalogoCandidaturas } from '../componentes/CatalogoCandidaturas';
 import { contextoParticipacionPorPartido } from '../participacionElectoral';
 import { DetalleAfinidad } from '../componentes/DetallePartido';
@@ -359,6 +361,24 @@ export function Resultados({ estado, despachar, puedeRecargar, alConfirmarGuarda
     [nombreEleccion, comunidad, nivelCompartido],
   );
 
+  /* Cruce mapa↔doctrina (fase 2 de legibilidad): resumen compacto por
+     referencia para que la frase de la zona del mapa pueda decir con datos si
+     la cercanía geométrica viene o no acompañada de coincidencia doctrinal. */
+  const resumenDoctrinal = useMemo(() => {
+    const mapa = new Map<
+      string,
+      { publicable: boolean; itemsComparados: number; itemsDefinitorios: number }
+    >();
+    for (const r of compararReferenciasDoctrinales(respuestas, REFERENCIAS)) {
+      mapa.set(r.entidadId, {
+        publicable: r.publicable,
+        itemsComparados: r.itemsComparados,
+        itemsDefinitorios: r.itemsDefinitorios,
+      });
+    }
+    return mapa;
+  }, [respuestas]);
+
   const quedanModulos = MODULOS.some((m) => {
     if (m.id === 'nucleo') return false;
     const items = (ITEMS_POR_MODULO.get(m.id) ?? []).filter((item) =>
@@ -525,6 +545,7 @@ export function Resultados({ estado, despachar, puedeRecargar, alConfirmarGuarda
         >
           <MapaPolitico
             facetasUsuario={facetasUsuario}
+            resumenDoctrinal={resumenDoctrinal}
             puedeRecargar={puedeRecargar}
             alConfirmarGuardado={alConfirmarGuardado}
             alMontar={enfocarMapaTrasRecarga ? enfocarTituloMapa : undefined}

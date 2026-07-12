@@ -646,15 +646,14 @@
     },
     "der-014": {
       "valor": 2,
-      "justificacion": "En un acto ante empresarios vascos en Bilbao (07-07-2026), Feijóo afirmó que quienes no estén dispuestos a defender el Estado de las autonomías, ni los estatutos, «ni las foralidades de Euskadi y Navarra, no quieren mucho a España», y sostuvo que defender la unidad del Estado es compatible con proteger el autogobierno vasco y navarro, «amparado por la Constitución y por la disposición adicional que reconoce sus derechos históricos».",
+      "justificacion": "Revisado 2026-07-12 (bandera del encargo de la derecha): el PP defiende activamente la continuidad del concierto vasco y del convenio navarro — en 2024 el PP vasco lideró la oposición a extender el modelo a Cataluña alegando que dañaría la singularidad foral («perderemos protagonismo, autonomía y dinero») — con el matiz de que Feijóo llegó a considerar discutible la extensión en 2016. La ambivalencia es sobre EXTENDER el modelo, no sobre mantenerlo donde existe.",
       "calidadEvidencia": "alta",
       "fuente": {
-        "tipo": "declaracion",
-        "titulo": "Feijóo asegura que quienes no defiendan el Estado de las autonomías «no quieren mucho a España» (El Debate)",
-        "url": "https://www.eldebate.com/espana/20260707/feijoo-asegura-quienes-no-defiendan-estado-autonomias-no-quieren-mucho-espana_437075.html",
-        "fecha": "2026-07-07",
-        "consultado": "2026-07-10",
-        "cita": "ni las foralidades de Euskadi y Navarra... no quieren mucho a España"
+        "tipo": "otro",
+        "titulo": "La defensa del Cupo vasco ante una «réplica» catalana: del «no se toca» del PNV al temor del PP (El Independiente)",
+        "url": "https://www.elindependiente.com/espana/2024/08/02/la-defensa-del-cupo-vasco-ante-una-replica-catalana-del-no-se-toca-del-pnv-al-temor-a-perder-dinero-del-pp/",
+        "fecha": "2024-08-02",
+        "consultado": "2026-07-12"
       },
       "grupoEvidencia": "pasaje-98f58429906948faa8f7"
     },
