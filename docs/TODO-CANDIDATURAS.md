@@ -333,19 +333,19 @@ Anexo generado desde `data/convocatorias`. Una casilla solo se cierra cuando la 
 
 ## Elecciones autonómicas de Comunidad de Madrid del 28 de mayo de 2023 (`madrid-2023-05`)
 
-- [ ] `madrid-2023-05|mad-2023-pp` — PARTIDO POPULAR — 47,817257 % — perfiles: `pp` (misma-organizacion); inclusión: umbral.
-- [ ] `madrid-2023-05|mad-2023-mas-madrid-vq` — MÁS MADRID-VERDES EQUO — 18,557486 % — perfiles: `mas-madrid` (componente), `verdes-equo` (componente); inclusión: umbral.
-- [ ] `madrid-2023-05|mad-2023-psoe` — PARTIDO SOCIALISTA OBRERO ESPAÑOL — 18,368063 % — perfiles: `psoe` (misma-organizacion); inclusión: umbral.
-- [ ] `madrid-2023-05|mad-2023-vox` — VOX — 7,42678 % — perfiles: `vox` (misma-organizacion); inclusión: umbral.
-- [ ] `madrid-2023-05|mad-2023-podemos-iu-av` — PODEMOS-IZQUIERDA UNIDA-ALIANZA VERDE — 4,815017 % — perfiles: `podemos` (componente), `alianza-verde` (componente), `iu` (componente); inclusión: umbral.
-- [ ] `madrid-2023-05|mad-2023-cs` — CIUDADANOS-PARTIDO DE LA CIUDADANÍA — 1,58251 % — perfiles: `ciudadanos` (misma-organizacion); inclusión: umbral.
-- [ ] `madrid-2023-05|mad-2023-pacma` — PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE — 0,701208 % — perfiles: `pacma` (misma-organizacion); inclusión: umbral.
-- [ ] `madrid-2023-05|mad-2023-mas-justo` — POR UN MUNDO MÁS JUSTO — 0,215855 % — perfiles: `pum-j` (misma-organizacion); inclusión: umbral.
-- [ ] `madrid-2023-05|mad-2023-pfe` — PARTIDO FEMINISTA DE ESPAÑA — 0,160748 % — sin perfil enlazado; inventariada sin datos políticos; inclusión: umbral.
-- [ ] `madrid-2023-05|mad-2023-pcte` — PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA — 0,124029 % — perfiles: `pcte` (misma-organizacion); inclusión: umbral.
-- [ ] `madrid-2023-05|mad-2023-fe` — FALANGE ESPAÑOLA DE LAS J.O.N.S. — 0,083095 % — perfiles: `fe-jons` (misma-organizacion); inclusión: umbral.
-- [ ] `madrid-2023-05|mad-2023-uleg` — UNIÓN POR LEGANÉS — 0,076068 % — sin perfil enlazado; inventariada sin datos políticos; inclusión: umbral.
-- [ ] `madrid-2023-05|mad-2023-ph` — PARTIDO HUMANISTA — 0,071882 % — sin perfil enlazado; inventariada sin datos políticos; inclusión: umbral.
+- [x] `madrid-2023-05|mad-2023-pp` — PARTIDO POPULAR — 47,817257 % — perfiles: `pp` (misma-organizacion); inclusión: umbral.
+- [x] `madrid-2023-05|mad-2023-mas-madrid-vq` — MÁS MADRID-VERDES EQUO — 18,557486 % — perfiles: `mas-madrid` (componente), `verdes-equo` (componente); inclusión: umbral.
+- [x] `madrid-2023-05|mad-2023-psoe` — PARTIDO SOCIALISTA OBRERO ESPAÑOL — 18,368063 % — perfiles: `psoe` (misma-organizacion); inclusión: umbral.
+- [x] `madrid-2023-05|mad-2023-vox` — VOX — 7,42678 % — perfiles: `vox` (misma-organizacion); inclusión: umbral.
+- [x] `madrid-2023-05|mad-2023-podemos-iu-av` — PODEMOS-IZQUIERDA UNIDA-ALIANZA VERDE — 4,815017 % — perfiles: `podemos` (componente), `alianza-verde` (componente), `iu` (componente); inclusión: umbral.
+- [x] `madrid-2023-05|mad-2023-cs` — CIUDADANOS-PARTIDO DE LA CIUDADANÍA — 1,58251 % — perfiles: `ciudadanos` (misma-organizacion); inclusión: umbral.
+- [x] `madrid-2023-05|mad-2023-pacma` — PARTIDO ANIMALISTA CON EL MEDIO AMBIENTE — 0,701208 % — perfiles: `pacma` (misma-organizacion); inclusión: umbral.
+- [x] `madrid-2023-05|mad-2023-mas-justo` — POR UN MUNDO MÁS JUSTO — 0,215855 % — perfiles: `pum-j` (misma-organizacion); inclusión: umbral.
+- [x] `madrid-2023-05|mad-2023-pfe` — PARTIDO FEMINISTA DE ESPAÑA — 0,160748 % — sin perfil enlazado; inventariada sin datos políticos; inclusión: umbral.
+- [x] `madrid-2023-05|mad-2023-pcte` — PARTIDO COMUNISTA DE LOS TRABAJADORES DE ESPAÑA — 0,124029 % — perfiles: `pcte` (misma-organizacion); inclusión: umbral.
+- [x] `madrid-2023-05|mad-2023-fe` — FALANGE ESPAÑOLA DE LAS J.O.N.S. — 0,083095 % — perfiles: `fe-jons` (misma-organizacion); inclusión: umbral.
+- [x] `madrid-2023-05|mad-2023-uleg` — UNIÓN POR LEGANÉS — 0,076068 % — sin perfil enlazado; inventariada sin datos políticos; inclusión: umbral.
+- [x] `madrid-2023-05|mad-2023-ph` — PARTIDO HUMANISTA — 0,071882 % — sin perfil enlazado; inventariada sin datos políticos; inclusión: umbral.
 
 ## Elecciones autonómicas de Melilla del 28 de mayo de 2023 (`melilla-2023-05`)
 
