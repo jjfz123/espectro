@@ -18,6 +18,19 @@
     <meta name="theme-color" media="(prefers-color-scheme: light)" content="#faf9f7" />
     <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#17161a" />
     <title>Espectro — test de afinidad política</title>
+    <script>
+      // Tema elegido aplicado ANTES del primer pintado (anti-FOUC): debe usar
+      // la misma clave que web/src/tema.ts. Sin try, un localStorage bloqueado
+      // dejaría la página en blanco.
+      try {
+        var temaGuardado = localStorage.getItem('espectro.v1.tema');
+        if (temaGuardado === 'claro' || temaGuardado === 'oscuro') {
+          document.documentElement.dataset.tema = temaGuardado;
+        }
+      } catch (error) {
+        /* sin almacenamiento: manda prefers-color-scheme */
+      }
+    </script>
   </head>
   <body>
     <div id="raiz"></div>

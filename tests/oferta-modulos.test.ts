@@ -2,7 +2,9 @@ import { describe, expect, it } from 'vitest';
 import {
   ESTADO_INICIAL,
   cargarEstado,
+  modulosOfertablesEnFrontera,
   modulosRecienDesbloqueados,
+  ofertaVigente,
   reductor,
   type Estado,
 } from '../web/src/estado.js';
@@ -76,7 +78,8 @@ describe('re-check dinámico de módulos (oferta en vuelo)', () => {
     // Reanuda en la primera pendiente, nunca pierde respuestas.
     expect(Object.keys(tras.respuestas)).toEqual(Object.keys(estado.respuestas));
     const secuencia = secuenciaItems(tras.modulosActivos, tras.respuestas);
-    expect(secuencia[tras.indice]?.id in tras.respuestas).toBe(false);
+    const itemActual = secuencia[tras.indice];
+    expect(itemActual !== undefined && itemActual.id in tras.respuestas).toBe(false);
   });
 
   it('rechazar marca como ofrecidos, no activa nada y no vuelve a interrumpir', () => {
@@ -159,7 +162,7 @@ describe('re-check dinámico de módulos (oferta en vuelo)', () => {
       ...ESTADO_INICIAL,
       modo: 'completo',
       fase: 'cuestionario',
-      respuestas: { [ITEMS_NUCLEO[0].id]: 0 },
+      respuestas: { [ITEMS_NUCLEO[0]!.id]: 0 },
       modulosActivos: ['democracia-instituciones'],
       modulosOfrecidos: ['corrientes-izquierda', 'no-existe', 'nucleo'],
       guardadoEn: new Date().toISOString(),
@@ -223,10 +226,70 @@ describe('re-check dinámico de módulos (oferta en vuelo)', () => {
       const cargado = cargarEstado();
       expect(cargado.fase).toBe('cuestionario');
       const secuencia = secuenciaItems(cargado.modulosActivos, cargado.respuestas);
-      expect(secuencia[cargado.indice]?.id in cargado.respuestas).toBe(false);
+      const itemActual = secuencia[cargado.indice];
+      expect(itemActual !== undefined && itemActual.id in cargado.respuestas).toBe(false);
     } finally {
       if (descriptor) Object.defineProperty(globalThis, 'localStorage', descriptor);
       else delete (globalThis as { localStorage?: Storage }).localStorage;
     }
+  });
+});
+
+describe('endurecimientos de la revisión adversarial holística', () => {
+  it('un solo ítem con opinión no dispara la oferta: el eje gatillo exige cobertura suficiente', () => {
+    const items = secuenciaItems([], {});
+    const unEconomico = items.find((item) =>
+      item.ejes.some((c) => c.eje === 'economico' && c.carga !== 0),
+    );
+    expect(unEconomico).toBeDefined();
+    const estado: Estado = {
+      ...ESTADO_INICIAL,
+      modo: 'completo',
+      fase: 'cuestionario',
+      modulosActivos: ['democracia-instituciones'],
+      modulosOfrecidos: [],
+      respuestas: {
+        [unEconomico!.id]: (unEconomico!.ejes.find((c) => c.eje === 'economico')!.carga > 0
+          ? -2
+          : 2) as -2 | 2,
+      },
+    };
+    // El valor puntual del eje sería extremo, pero con cobertura insuficiente
+    // el desbloqueo por eje no puede ofertarse en vuelo.
+    expect(modulosRecienDesbloqueados(estado)).not.toContain('corrientes-izquierda');
+  });
+
+  it('cortafuegos anti-bucle: terminar un módulo no encadena ofertas de su mismo eje', () => {
+    const respuestas = responderNucleoIzquierdaEconomica();
+    const estado: Estado = {
+      ...ESTADO_INICIAL,
+      modo: 'completo',
+      fase: 'cuestionario',
+      modulosActivos: ['socialdemocracia-reformismo'],
+      modulosOfrecidos: [],
+      respuestas,
+    };
+    // Con el núcleo al extremo económico, corrientes-izquierda está desbloqueado…
+    expect(modulosRecienDesbloqueados(estado)).toContain('corrientes-izquierda');
+    // …pero en la frontera de un módulo que carga el eje económico NO se ofrece…
+    expect(
+      modulosOfertablesEnFrontera(estado, 'socialdemocracia-reformismo'),
+    ).not.toContain('corrientes-izquierda');
+    // …mientras que la frontera del núcleo (calibración) sí lo ofrece, y al
+    // completar la secuencia (ofertaVigente con todo respondido) también.
+    expect(modulosOfertablesEnFrontera(estado, 'nucleo')).toContain('corrientes-izquierda');
+    const respuestasCompletas = { ...respuestas };
+    for (let vuelta = 0; vuelta < 6; vuelta += 1) {
+      const pendientes = secuenciaItems(estado.modulosActivos, respuestasCompletas).filter(
+        (item) => !(item.id in respuestasCompletas),
+      );
+      if (pendientes.length === 0) break;
+      for (const item of pendientes) respuestasCompletas[item.id] = 0;
+    }
+    expect(
+      ofertaVigente({ ...estado, respuestas: respuestasCompletas }),
+    ).toContain('corrientes-izquierda');
+    // Lo diferido por el cortafuegos NO queda marcado como ofrecido.
+    expect(estado.modulosOfrecidos).toEqual([]);
   });
 });

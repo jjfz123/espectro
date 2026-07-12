@@ -1635,9 +1635,13 @@ test('la oferta dinámica de módulos es ciega, suma preguntas al aceptar y no r
   await page.goto('/');
 
   await expect(page.getByRole('heading', { name: /Tus respuestas abren/ })).toBeVisible();
-  // Oferta CIEGA: ni nombres de módulos ni áreas; solo recuento y minutos.
+  // Oferta CIEGA: ni nombres de módulos ni áreas, y TAMPOCO recuentos exactos
+  // (con un banco asimétrico, el número de bloques/preguntas/minutos delataría
+  // hacia dónde apunta el perfil — revisión adversarial holística).
   await expect(page.getByText('Corrientes de la izquierda')).toHaveCount(0);
   await expect(page.getByText('no te decimos cuáles son')).toBeVisible();
+  const textoOferta = await page.locator('main').innerText();
+  expect(textoOferta).not.toMatch(/\d+\s*(bloques?|preguntas?|min)/i);
   const accesibilidad = await new AxeBuilder({ page }).include('main').analyze();
   expect(accesibilidad.violations).toEqual([]);
 
