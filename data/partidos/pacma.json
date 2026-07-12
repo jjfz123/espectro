@@ -176,6 +176,19 @@
         "fecha": "2016-10-20",
         "consultado": "2026-07-10"
       }
+    },
+    "mon-001": {
+      "valor": 1,
+      "justificacion": "PACMA reclama un referéndum vinculante para que la ciudadanía elija el modelo de Estado, cuestionando el carácter hereditario e impuesto de la Jefatura del Estado. Es una posición favorable a que la ciudadanía decida frente a la sucesión hereditaria, aunque enmarcada como consulta y no como afirmación republicana explícita; de ahí el valor moderado.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "PACMA solicita un referéndum vinculante para elegir el modelo de Estado (web oficial de PACMA)",
+        "url": "https://pacma.es/campana-politica/pacma-solicita-un-referendum-vinculante-para-elegir-el-modelo-de-estado/",
+        "consultado": "2026-07-12",
+        "cita": "PACMA solicita un referéndum vinculante para elegir el modelo de Estado"
+      },
+      "grupoEvidencia": "pasaje-11f45a0bc3ddaa2423af"
     }
   }
 }
