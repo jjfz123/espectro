@@ -358,6 +358,94 @@
         "fecha": "2024-10-26",
         "consultado": "2026-07-12"
       }
+    },
+    "izq-005": {
+      "valor": -2,
+      "justificacion": "Ciudadanos defendió un modelo económico de mercado frente al intervencionismo: en el primer debate electoral de 2015 Albert Rivera opuso su modelo liberal al de Podemos. Rechaza que la planificación pública sustituya al mercado en los sectores estratégicos.",
+      "calidadEvidencia": "media",
+      "grupoEvidencia": "cs-modelo-mercado-2015",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Pablo Iglesias y Albert Rivera enfrentan dos modelos económicos opuestos en el primer debate electoral (elDiario.es)",
+        "url": "https://www.eldiario.es/politica/pablo-iglesias-albert-rivera-economicos_1_2344872.html",
+        "fecha": "2015-12",
+        "consultado": "2026-07-12",
+        "cita": "Pablo Iglesias y Albert Rivera enfrentan dos modelos económicos opuestos"
+      }
+    },
+    "eco-014": {
+      "valor": -2,
+      "justificacion": "En su programa fiscal de las generales de 2019 Ciudadanos propuso suprimir el Impuesto sobre el Patrimonio y bajar impuestos; se oponía por tanto a un impuesto permanente sobre las grandes fortunas.",
+      "calidadEvidencia": "media",
+      "grupoEvidencia": "cs-suprimir-patrimonio-2019",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Las propuestas fiscales del 28A: los impuestos que quieren subir o bajar los principales partidos políticos (idealista)",
+        "url": "https://www.idealista.com/news/finanzas/fiscalidad/2019/04/10/772624-las-propuestas-fiscales-del-28a-los-impuestos-que-quiere-subir-o-bajar-cada-partido",
+        "fecha": "2019-04-10",
+        "consultado": "2026-07-12",
+        "cita": "los impuestos que quieren subir o bajar los principales partidos políticos"
+      }
+    },
+    "eco-006": {
+      "valor": 0,
+      "justificacion": "Ciudadanos defendía ampliar la oferta de vivienda y fomentar el alquiler asequible combinando algo de promoción pública/VPO con incentivos de mercado y movilización de suelo; no proponía un gran parque estatal en alquiler financiado con un fuerte aumento del gasto público directo.",
+      "calidadEvidencia": "media",
+      "grupoEvidencia": "cs-vivienda-modelo-mixto",
+      "resolucionCero": {
+        "tipo": "modelo-mixto",
+        "explicacion": "Modelo mixto: sí a ampliar la oferta asequible con algo de promoción pública/VPO, pero apoyada en incentivos de mercado y suelo, no en un gran parque público en alquiler con fuerte aumento del gasto público."
+      },
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Ayudas al alquiler, más VPO y programas juveniles, propuestas electorales para una vivienda digna (Castellón Plaza)",
+        "url": "https://castellonplaza.com/AyudasalalquilermsVPOyprogramasjuvenilespropuestaselectoralesparaunaviviendadigna2",
+        "fecha": "2019",
+        "consultado": "2026-07-12",
+        "cita": "Ayudas al alquiler, más VPO y programas juveniles, propuestas electorales para una vivienda digna"
+      }
+    },
+    "dem-027": {
+      "valor": 2,
+      "justificacion": "Ciudadanos hizo de la despolitización de supervisores y reguladores (Banco de España, CNMV, CNMC) una bandera de regeneración: pedía que ninguna persona de los partidos ocupara esos puestos, para preservar su independencia y su mandato al margen del cambio de Gobierno.",
+      "calidadEvidencia": "media",
+      "grupoEvidencia": "cs-descolonizar-reguladores",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Ciudadanos pretende 'descolonizar' el Banco de España, la CNMV y la CNMC (Vozpópuli)",
+        "url": "https://www.vozpopuli.com/espana/Ciudadanos-Albert_Rivera-Ines_Arrimadas-Banco_de_Espana-CNMV-CNMC_0_826117419.html",
+        "fecha": "2017",
+        "consultado": "2026-07-12",
+        "cita": "Ciudadanos pretende descolonizar el Banco de España, la CNMV y la CNMC"
+      }
+    },
+    "soc-006": {
+      "valor": -2,
+      "justificacion": "Ciudadanos se opuso a derogar la prisión permanente revisable y presentó enmiendas para mantenerla y endurecer el acceso al tercer grado; defendía conservarla, en contra de suprimirla.",
+      "calidadEvidencia": "media",
+      "grupoEvidencia": "cs-prision-permanente-mantener",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "La izquierda y los nacionalistas imponen la derogación de la prisión permanente revisable (El Español)",
+        "url": "https://www.elespanol.com/espana/20180315/girauta-psoe-abstenga-prision-permanente-salvan-no/292221122_0.html",
+        "fecha": "2018-03-15",
+        "consultado": "2026-07-12",
+        "cita": "imponen la derogación de la prisión permanente revisable"
+      }
+    },
+    "dem-028": {
+      "valor": 2,
+      "justificacion": "Ciudadanos sostuvo que la mayoría independentista no podía imponer un referéndum unilateral que atropellaba los derechos de la otra mitad de catalanes y la legalidad constitucional, y votó a favor del artículo 155 para restaurarla. Defiende que un referéndum no puede eliminar derechos ni el orden constitucional.",
+      "calidadEvidencia": "media",
+      "grupoEvidencia": "cs-155-contra-referendum-unilateral",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Aplicación del artículo 155 de la Constitución española de 1978 en Cataluña (Wikipedia)",
+        "url": "https://es.wikipedia.org/wiki/Aplicaci%C3%B3n_del_art%C3%ADculo_155_de_la_Constituci%C3%B3n_espa%C3%B1ola_de_1978_en_Catalu%C3%B1a",
+        "fecha": "2017",
+        "consultado": "2026-07-12",
+        "cita": "Ciudadanos fue uno de los partidos que votó a favor de la autorización del Senado para aplicar las medidas del artículo 155"
+      }
     }
   }
 }
