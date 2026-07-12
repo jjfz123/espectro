@@ -32,8 +32,8 @@ describe('trinquete de fechas en las fuentes', () => {
     expect(sinFecha.length, sinFecha.slice(0, 8).join(', ')).toBeLessThanOrEqual(161);
   });
 
-  it('posiciones de referencias doctrinales sin fecha: nunca más de las heredadas (82, 2026-07-12)', () => {
+  it('posiciones de referencias doctrinales sin fecha: nunca más de las heredadas (72 tras el lote del 2026-07-12)', () => {
     const sinFecha = posicionesSinFecha('data/referencias');
-    expect(sinFecha.length, sinFecha.slice(0, 8).join(', ')).toBeLessThanOrEqual(82);
+    expect(sinFecha.length, sinFecha.slice(0, 8).join(', ')).toBeLessThanOrEqual(72);
   });
 });
