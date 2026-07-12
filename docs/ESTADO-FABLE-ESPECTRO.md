@@ -6,8 +6,9 @@
 
 ## SHAs
 
-- **Base del bloque (`BASE_SHA`):** `4f54de90feab1af6b485a5bbb856b1a78ef1c950` = `origin/main` en el corte.
-- **Rama del bloque:** `fable/todo-atlas-cuadrante` (local). Checkpoint remoto: `claude/espectro-root-agent-fr21qz` (misma historia; sin PR, `main` intacta).
+- **HITO 2026-07-12 ~00:35 UTC:** el propietario ordenó por escrito llevar el trabajo a `main` → **PR #1 fusionado** (`e768cc8`, método merge, 26 commits). `main` ya NO está en la base congelada original (`4f54de9`): contiene todos los bloques 1-4 de esta sesión.
+- **Base actual de trabajo:** `origin/main` = `e768cc8`. Rama local `fable/todo-atlas-cuadrante` REINICIADA desde ese main (regla de PR fusionado: no se apila sobre historia fusionada); checkpoint remoto `claude/espectro-root-agent-fr21qz` sincronizado con la nueva historia.
+- Trabajo post-merge en la rama: `a71641b` (veto republicanismo re-motivado) · `4916d80`/`321214d` (fichas anarcofeminismo y anarquismo-queer) · docs de este cierre.
 - Commits: `e26ff1c` UI del cuadrante · `db58679` datos de referencias (cherry-pick del worktree `agent/atlas-poblar-referencias`, entrega `e0e1669`) · `8f64518` E2E anclas · `14e726f` cierre adversarial+casillas · `4b794bd` mecánica del glosario (esquema+motor+panel «Más detalle») · contenido de las 13 ampliaciones + tests-contrato (este commit).
 
 ## Bloque ejecutado: atlas-cuadrante (casillas TODO §Resultado ideológico)
