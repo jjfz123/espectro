@@ -440,6 +440,62 @@
         "fecha": "2025-12",
         "consultado": "2026-07-12"
       }
+    },
+    "dem-007": {
+      "valor": -2,
+      "justificacion": "El Partido Libertario denuncia el aferramiento del Ejecutivo al poder y la erosión de la separación de poderes (cargas policiales, ley de amnistía) y defiende la independencia del poder judicial frente al poder político; es contrario a que el Gobierno pueda apartar de sus funciones a jueces que bloqueen su programa.",
+      "calidadEvidencia": "media",
+      "grupoEvidencia": "plib-separacion-poderes-sanchez",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Cargas policiales, ley de amnistía y aferramiento de Sánchez al poder (Partido Libertario)",
+        "url": "https://www.p-lib.es/2023/11/08/cargas-policiales-ley-de-amnistia-y-aferramiento-de-sanchez-al-poder",
+        "fecha": "2023-11-08",
+        "consultado": "2026-07-12",
+        "cita": "Cargas policiales, ley de amnistía y aferramiento de Sánchez al poder"
+      }
+    },
+    "dem-010": {
+      "valor": 2,
+      "justificacion": "El Partido Libertario critica la \"democracia iliberal\" que concentra el poder y erosiona a la oposición (a propósito de Orbán); defiende el pluralismo y la competencia entre partidos como parte esencial de la libertad política, también frente a las emergencias.",
+      "calidadEvidencia": "media",
+      "grupoEvidencia": "plib-contra-democracia-iliberal",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Orbán: la caída del adalid de la 'democracia iliberal' (Partido Libertario)",
+        "url": "https://www.p-lib.es/2026/04/16/orban-la-caida-del-adalid-de-la-democracia-iliberal",
+        "fecha": "2026-04-16",
+        "consultado": "2026-07-12",
+        "cita": "Orbán: la caída del adalid de la 'democracia iliberal'"
+      }
+    },
+    "izq-038": {
+      "valor": 1,
+      "justificacion": "El Partido Libertario defiende un \"federalismo libertario\": construir una España descentralizada, con el poder empezando desde lo local y autonomía real de los territorios. Coincide en buena medida con construir el poder de abajo arriba, aunque conservando un Estado mínimo por encima.",
+      "calidadEvidencia": "media",
+      "grupoEvidencia": "plib-federalismo-libertario",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Federalismo libertario (Partido Libertario)",
+        "url": "https://www.p-lib.es/2023/11/16/federalismo-libertario/",
+        "fecha": "2023-11-16",
+        "consultado": "2026-07-12",
+        "cita": "Federalismo libertario, una España más libre y descentralizada"
+      }
+    },
+    "eco-014": {
+      "valor": -2,
+      "justificacion": "El Partido Libertario propone un tipo único del 10% y mantener los impuestos lo más bajos posible, aligerando la carga fiscal al contribuyente; se opone a un impuesto permanente sobre las grandes fortunas.",
+      "calidadEvidencia": "media",
+      "grupoEvidencia": "plib-aligerar-carga-fiscal",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Aligeremos el peso fiscal al contribuyente (Partido Libertario)",
+        "url": "https://www.p-lib.es/2015/10/16/aligeremos-el-peso-fiscal-al-contribuyente/",
+        "fecha": "2015-10-16",
+        "consultado": "2026-07-12",
+        "cita": "Aligeremos el peso fiscal al contribuyente"
+      }
     }
   }
 }
