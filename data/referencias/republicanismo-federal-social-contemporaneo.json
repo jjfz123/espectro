@@ -7,10 +7,10 @@
   "periodo": "2019-2026",
   "confianza": "verificada",
   "version": "1.0",
-  "revisado": "2026-07-11",
+  "revisado": "2026-07-12",
   "publicacionMapa": {
     "publicable": false,
-    "motivo": "El prior visual la situaría en la zona inferior izquierda, entre Democratic Socialism, Republicanism y Greenism, más estatal que el comunalismo. El banco documenta bien forma de Estado, laicidad y economía pública, pero no aporta anclas moderadoras de mercado ni suficientes contrapesos y derechos frente a mayorías; publicarla la llevaría falsamente al extremo económico."
+    "motivo": "El banco queda 4+4 en Economía×Sociedad pero proyecta −100 económico. Investigación dedicada (2026-07-12): el corpus federal se autodefine «más Estado y menos mercado» (asambleas de 2021, 2023 y 2024) y las moderadoras reales de IU (autónomos, comercio de proximidad) carecen de ítem que las capture. El −100 mezcla doctrina real con cobertura incompleta del instrumento; se publica cuando existan discriminantes neutrales del espacio de mercado (ver advertencia) o se acepte la coordenada extrema."
   },
   "facetasDefinitorias": [
     "monarquia",
@@ -24,6 +24,13 @@
   "sensibilidad": "normal",
   "advertencia": "Es una variante contemporánea de la tradición de IU, no un sinónimo de toda república ni un perfil completo de IU, PCE, PSOE o de los republicanismos territoriales. Se distingue del federalismo pimargalliano del catálogo por laicidad, fiscalidad, vivienda y propiedad pública; y del socialismo democrático genérico por la forma republicana y federal-plurinacional española. No se infieren secesión, confederación, política exterior, energía nuclear ni organización interna. Para publicarla en el mapa faltan dos discriminantes neutrales: el espacio reservado a empresas privadas y mercados ordinarios, y la capacidad de jueces y derechos constitucionales para limitar decisiones mayoritarias.",
   "fuentesMarco": [
+    {
+      "tipo": "otro",
+      "titulo": "IU, Horizonte República — documento político-organizativo de la XII Asamblea Federal («más Estado y menos mercado»; sustenta el motivo del veto de mapa; cotejo humano pendiente)",
+      "url": "https://izquierdaunida.org/documento-politico-organizativo/",
+      "fecha": "2021-03",
+      "consultado": "2026-07-12"
+    },
     {
       "tipo": "estatutos",
       "titulo": "Estatutos de Izquierda Unida, aprobados en la XIII Asamblea Federal",
