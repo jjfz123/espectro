@@ -1,0 +1,141 @@
+{
+  "id": "strasserismo",
+  "nombre": "Strasserismo",
+  "tipo": "referencia-doctrinal",
+  "definicion": "Tipo ideal de la corriente disidente del nacionalsocialismo desarrollada por los hermanos Gregor y Otto Strasser dentro y en el margen del NSDAP: combina un anticapitalismo revolucionario y obrerista —nacionalización de la banca y de los grandes trusts, «socialismo alemán», solidarismo— con ultranacionalismo racial, antisemitismo y principio de caudillaje. Los historiadores la separan del ala hitleriana por su énfasis económico, no por abandonar el racismo ni la exclusión.",
+  "variante": "Reconstrucción del núcleo doctrinal de los hermanos Strasser (programa de 1925-1926, «socialismo alemán» de Otto, Frente Negro), con la advertencia historiográfica de que Otto Strasser magnificó a posteriori un «strasserismo de izquierdas»; no equivale a ninguna organización española.",
+  "periodo": "Alemania, 1925-1934 (Gregor Strasser) y hasta la posguerra (Otto Strasser y el Frente Negro); tipo ideal doctrinal",
+  "confianza": "estimada",
+  "version": "1.0",
+  "revisado": "2026-07-12",
+  "facetasDefinitorias": [
+    "economico",
+    "propiedad-mercado",
+    "social",
+    "autoridad-politica",
+    "pluralismo-institucional"
+  ],
+  "sensibilidad": "antipluralista",
+  "advertencia": "Referencia histórica sensible descrita en términos clínicos. Los historiadores caracterizan el strasserismo como el ala anticapitalista del nacionalsocialismo, no como izquierda: su programa económico obrerista era inseparable del ultranacionalismo racial, el antisemitismo y el Estado étnico. Una posición económica de nacionalización o expropiación, aislada, no lo convierte en izquierda ni identifica a nadie; solo el conjunto —economía obrerista más exclusión racial y caudillaje— define el tipo. Peter Stachura y otros advierten además que Otto Strasser exageró retrospectivamente un «socialismo strasseriano» de izquierdas. Una afinidad parcial no equivale a adhesión.",
+  "fuentesMarco": [
+    {
+      "tipo": "otro",
+      "titulo": "Strasserism: anticapitalismo revolucionario, ultranacionalismo racial y antisemitismo (síntesis enciclopédica de contraste, en inglés)",
+      "url": "https://en.wikipedia.org/wiki/Strasserism",
+      "fecha": "2026",
+      "consultado": "2026-07-12"
+    },
+    {
+      "tipo": "otro",
+      "titulo": "Gregor Strasser: programa de nacionalización de trusts y banca dentro del NSDAP (síntesis enciclopédica de contraste, en inglés)",
+      "url": "https://en.wikipedia.org/wiki/Gregor_Strasser",
+      "fecha": "2026",
+      "consultado": "2026-07-12"
+    },
+    {
+      "tipo": "otro",
+      "titulo": "Otto Strasser: «socialismo alemán», solidarismo y Frente Negro (síntesis enciclopédica de contraste, en inglés)",
+      "url": "https://en.wikipedia.org/wiki/Otto_Strasser",
+      "fecha": "2026",
+      "consultado": "2026-07-12"
+    },
+    {
+      "tipo": "otro",
+      "titulo": "Gregor Strasser (Encyclopædia Britannica): biografía y papel en el ala «socialista» del nazismo",
+      "url": "https://www.britannica.com/biography/Gregor-Strasser",
+      "fecha": "2026",
+      "consultado": "2026-07-12"
+    }
+  ],
+  "reglaPublicacion": {
+    "minimoItems": 4,
+    "minimoCobertura": 0.6,
+    "umbralAfinidad": 85
+  },
+  "posiciones": {
+    "dr-001": {
+      "valor": 2,
+      "justificacion": "El programa que Gregor Strasser impulsó dentro del NSDAP reclamaba la nacionalización de la banca y de los grandes trusts; la nacionalización de la banca es una de sus demandas económicas más características.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Gregor Strasser: nacionalización de trusts y banca (síntesis enciclopédica de contraste, en inglés)",
+        "url": "https://en.wikipedia.org/wiki/Gregor_Strasser",
+        "fecha": "2026",
+        "consultado": "2026-07-12"
+      }
+    },
+    "izq-016": {
+      "valor": 1,
+      "justificacion": "Los historiadores documentan la voluntad strasserista de nacionalizar banca y gran industria, pero la enmarcan en un «socialismo alemán» solidarista bajo caudillaje, no en la expropiación proletaria sin indemnización; de ahí un acuerdo fuerte pero no pleno con el enunciado.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Strasserism: «socialismo alemán» y solidarismo frente a la socialización marxista (síntesis enciclopédica de contraste, en inglés)",
+        "url": "https://en.wikipedia.org/wiki/Strasserism",
+        "fecha": "2026",
+        "consultado": "2026-07-12"
+      }
+    },
+    "dr-002": {
+      "valor": 2,
+      "justificacion": "La doctrina obrerista y racial del strasserismo reservaba el trabajo y la economía a la comunidad nacional-racial y excluía a los considerados ajenos; la preferencia nacional en el empleo es coherente con ese principio völkisch.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Strasserism: ultranacionalismo racial y empoderamiento obrero dentro de la comunidad nacional (síntesis enciclopédica de contraste, en inglés)",
+        "url": "https://en.wikipedia.org/wiki/Strasserism",
+        "fecha": "2026",
+        "consultado": "2026-07-12"
+      }
+    },
+    "cul-002": {
+      "valor": 2,
+      "justificacion": "El ultranacionalismo racial (völkisch) que los historiadores consideran constitutivo del strasserismo define la pertenencia por la ascendencia; el ítem capta esa concepción étnica del vínculo nacional frente a la cívica.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Strasserism: ultranacionalismo racial y antisemitismo (síntesis enciclopédica de contraste, en inglés)",
+        "url": "https://en.wikipedia.org/wiki/Strasserism",
+        "fecha": "2026",
+        "consultado": "2026-07-12"
+      }
+    },
+    "lim-007": {
+      "valor": 2,
+      "justificacion": "El programa Strasser de 1925-1926 proponía la segregación y la exclusión legal, económica y social de la población judía; hacer depender los derechos políticos del origen étnico expresa ese Estado racial.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Gregor Strasser: antisemitismo y exclusión legal, económica y social de los judíos en el programa de 1925-1926 (síntesis enciclopédica de contraste, en inglés)",
+        "url": "https://en.wikipedia.org/wiki/Gregor_Strasser",
+        "fecha": "2026",
+        "consultado": "2026-07-12"
+      }
+    },
+    "lim-001": {
+      "valor": 2,
+      "justificacion": "Las síntesis historiográficas subrayan que, pese a su retórica obrerista, el strasserismo mantuvo el principio de caudillaje (Führerprinzip): una dirección doctrinal incuestionable que obliga a todos los miembros.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Strasserism: nacionalización enmarcada en un Führerprinzip jerárquico (síntesis enciclopédica de contraste, en inglés)",
+        "url": "https://en.wikipedia.org/wiki/Strasserism",
+        "fecha": "2026",
+        "consultado": "2026-07-12"
+      }
+    },
+    "dr-024": {
+      "valor": 2,
+      "justificacion": "Como corriente del nacionalsocialismo, el strasserismo era antiparlamentario y hostil a la democracia de Weimar; prefería abiertamente un régimen autoritario a la democracia liberal.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Strasserism: corriente autoritaria y antiparlamentaria del nacionalsocialismo (síntesis enciclopédica de contraste, en inglés)",
+        "url": "https://en.wikipedia.org/wiki/Strasserism",
+        "fecha": "2026",
+        "consultado": "2026-07-12"
+      }
+    }
+  }
+}
