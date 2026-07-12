@@ -19,6 +19,19 @@
       "consultado": "2026-07-09"
     }
   },
+  "clasificacion": [
+    {
+      "etiqueta": "Trotskismo lambertista (IV Internacional / OCRFI)",
+      "explicacion": "El POSI es la sección española de la corriente lambertista de la IV Internacional (Organización Comunista Reconstructora de la IV Internacional, OCRFI); es un metadato de clasificación por Internacional que lo distingue de otras familias trotskistas españolas (CRT, FT-CI morenista; PRT/Corriente Roja, LIT-CI morenista; IZAR, mandelista del Secretariado Unificado).",
+      "fuente": {
+        "tipo": "autoubicacion",
+        "titulo": "Qué es el POSI y por qué lucha (sección de la IV Internacional)",
+        "url": "https://posicuarta.org/cartasblog/que-es-el-posi-y-por-que-lucha/",
+        "fecha": "2021-03-16",
+        "consultado": "2026-07-12"
+      }
+    }
+  ],
   "posiciones": {
     "izq-001": {
       "valor": 2,

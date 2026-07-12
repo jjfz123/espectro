@@ -19,6 +19,19 @@
       "consultado": "2026-07-09"
     }
   },
+  "clasificacion": [
+    {
+      "etiqueta": "Tradición maoísta (marxismo-leninismo-pensamiento Mao Zedong)",
+      "explicacion": "La UCE nació en 1973 (origen en Tribuna Obrera, 1968) dentro de la tradición del marxismo-leninismo-pensamiento Mao Zedong, en el espíritu de la Revolución Cultural china y en crítica al «revisionismo» y al «socialimperialismo» soviéticos; fue de las pocas organizaciones maoístas activas en los años ochenta. Corrige el encuadre inicial como hoxhista: la UCE es maoísta, no proalbanesa. Rasgo genealógico atribuido, no imputable a los votantes de la candidatura Recortes Cero.",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Unificación Comunista de España (UCE), ficha de autoridad — Archivo General de la Región de Murcia",
+        "url": "https://archivogeneral.carm.es/archivoGeneral/arg.detalle_documento?idDetalle=8081859",
+        "fecha": "2015",
+        "consultado": "2026-07-12"
+      }
+    }
+  ],
   "posiciones": {
     "izq-001": {
       "valor": 2,

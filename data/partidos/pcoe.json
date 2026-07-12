@@ -44,6 +44,30 @@
         "consultado": "2026-07-09"
       }
     },
+    "izq-004": {
+      "valor": 2,
+      "justificacion": "El PCOE, marxista-leninista prosoviético fundado por Líster, reivindica la construcción del socialismo en la URSS y la victoria soviética sobre el fascismo como conquistas históricas de la clase trabajadora; su balance de la experiencia soviética es netamente positivo. Extensión declarada del artículo, sin cita verbatim cotejada.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Stalingrado: la victoria del Socialismo contra el fascismo (Análisis, PCOE)",
+        "url": "https://analisis.pcoe.net/stalingrado-la-victoria-del-socialismo-fascismo/",
+        "fecha": "2026",
+        "consultado": "2026-07-12"
+      }
+    },
+    "izq-020": {
+      "valor": 2,
+      "justificacion": "El PCOE reivindica expresamente a Stalin como continuador de Marx, Engels y Lenin y publica una defensa editorial de su figura frente a lo que llama las mentiras difundidas sobre él; su balance de la etapa estaliniana es positivo. Titular editorial propio; sin cita verbatim del cuerpo cotejada.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Desmontando las mentiras sobre el camarada Stalin (Editorial, PCOE)",
+        "url": "https://pcoe.net/pcoe/editorial/desmontando-las-mentiras-sobre-el-camarada-stalin/",
+        "fecha": "2026",
+        "consultado": "2026-07-12"
+      }
+    },
     "izq-005": {
       "valor": 2,
       "justificacion": "Propone producción planificada, nacionalización y control obrero de la banca y de una extensa relación de sectores básicos y estratégicos.",
