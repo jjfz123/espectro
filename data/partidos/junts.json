@@ -465,6 +465,174 @@
         "fecha": "2026-03-17",
         "consultado": "2026-07-10"
       }
+    },
+    "mon-001": {
+      "valor": 2,
+      "justificacion": "El objetivo fundacional y declarado de Junts es constituir Cataluña como un Estado independiente en forma de república (coherente con izq-007 y nac-002), forma de Estado que por definición conlleva una jefatura elegida por la ciudadanía y no hereditaria.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Ponència 2: El país que volem, Congrés Nacional de Junts",
+        "url": "https://web.junts.cat/wp-content/uploads/2024/10/Ponencia_2.pdf",
+        "fecha": "2024-10",
+        "consultado": "2026-07-12"
+      }
+    },
+    "ter-001": {
+      "valor": -2,
+      "justificacion": "Lejos de devolver competencias al Estado central, Junts reclama ampliarlas hasta la independencia: hacienda propia con recaudación plena (cat-002) y delegación integral de la política migratoria a la Generalitat (cat-006). Devolver competencias al Estado es la dirección opuesta a todo su proyecto.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Ponència 2: El país que volem, Congrés Nacional de Junts",
+        "url": "https://web.junts.cat/wp-content/uploads/2024/10/Ponencia_2.pdf",
+        "fecha": "2024-10",
+        "consultado": "2026-07-12"
+      }
+    },
+    "dem-035": {
+      "valor": 2,
+      "justificacion": "Junts defiende que Cataluña pueda decidir unilateralmente su futuro y separarse del Estado aunque este se oponga, coherente con su reivindicación de un referéndum de autodeterminación (ter-002) y con la legitimidad que otorga al 1-O (nac-001). Un derecho legal de salida para cada territorio es la traducción institucional de esa posición.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Ponència 1: estratègia, Congrés Nacional de Junts",
+        "url": "https://web.junts.cat/wp-content/uploads/2024/10/Ponencia-1.pdf",
+        "fecha": "2024-10",
+        "consultado": "2026-07-12"
+      }
+    },
+    "ue-001": {
+      "valor": -2,
+      "justificacion": "Junts es una formación de marcado corte europeísta: aspira a que una Cataluña independiente sea miembro de pleno derecho de la UE y la eurozona y defiende profundizar en la integración europea. Rechaza por tanto la tesis de que la integración haya ido demasiado lejos y de que haya que recuperar soberanía frente a Bruselas.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Junts per Catalunya — Europa (web oficial)",
+        "url": "https://junts.cat/europa",
+        "fecha": "2026",
+        "consultado": "2026-07-12"
+      }
+    },
+    "ue-002": {
+      "valor": 1,
+      "justificacion": "Junts aboga por una Europa más federal —ha registrado en el Congreso una reforma de los tratados que elimine la unanimidad para avanzar más rápido hacia una Europa federal— pero la enmarca en una UE de estados más pequeños y en su soberanismo nacional catalán, de modo que su respaldo a ceder más soberanía al conjunto es real pero condicionado, no incondicional.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Junts per Catalunya — Europa (web oficial)",
+        "url": "https://junts.cat/europa",
+        "fecha": "2026",
+        "consultado": "2026-07-12"
+      }
+    },
+    "ene-003": {
+      "valor": 0,
+      "justificacion": "Ante la enmienda del PP (noviembre de 2025) para suprimir el calendario vigente de cierre de las centrales nucleares, Junts se abstuvo —su abstención hizo decaer la supresión por un voto— pero fuentes de Nogueras justificaron la abstención en que hay un problema, mostrando simpatía hacia la prórroga sin comprometerse con ella: posición neta ambivalente sobre mantener el calendario y descartar prórrogas.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "El PP fracasa en su intento de suprimir el calendario de cierre de las nucleares por la abstención de Junts (Público)",
+        "url": "https://www.publico.es/politica/congreso/pp-fracasa-intento-suprimir-calendario-cierre-nucleares-abstencion-junts.html",
+        "fecha": "2025-11",
+        "consultado": "2026-07-12"
+      }
+    },
+    "ene-011": {
+      "valor": 1,
+      "justificacion": "El programa de Junts enmarca la transición ecológica como compatible con la competitividad industrial y el crecimiento: impulsa renovables, economía circular y reindustrialización, y reclama menos trabas administrativas para proyectos energéticos estratégicos, en la línea de que el crecimiento puede continuar si la innovación reduce suficientemente el impacto ambiental.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "¿Qué lugar ocupa la industria en los programas electorales de los partidos catalanes? (industry TALKS)",
+        "url": "https://industrytalks.es/que-lugar-ocupa-la-industria-en-los-programas-electorales-catalanes/",
+        "fecha": "2026",
+        "consultado": "2026-07-12"
+      }
+    },
+    "va-002": {
+      "valor": 1,
+      "justificacion": "El programa de Junts defiende la caza como activo necesario para el equilibrio de las poblaciones de fauna y solo plantea eliminar la caza recreativa salvo casos de sobrepoblación acreditada por los organismos competentes, de modo que reconoce la caza regulada como herramienta legítima de gestión de la fauna silvestre.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Analizamos las propuestas de protección animal para las elecciones catalanas (AnimaNaturalis)",
+        "url": "https://www.animanaturalis.org/n/analizamos-las-propuestas-de-proteccion-animal-para-las-elecciones-catalanas-2021",
+        "fecha": "2021",
+        "consultado": "2026-07-12"
+      }
+    },
+    "va-004": {
+      "valor": 1,
+      "justificacion": "En materia de ganadería, el programa de Junts plantea reducir las explotaciones intensivas y apostar por modelos extensivos y ecológicos que prioricen el bienestar animal, en la línea de no autorizar nuevas macroexplotaciones de ganadería intensiva de gran tamaño.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Analizamos las propuestas de protección animal para las elecciones catalanas (AnimaNaturalis)",
+        "url": "https://www.animanaturalis.org/n/analizamos-las-propuestas-de-proteccion-animal-para-las-elecciones-catalanas-2021",
+        "fecha": "2021",
+        "consultado": "2026-07-12"
+      }
+    },
+    "dem-011": {
+      "valor": -2,
+      "justificacion": "Junts no propone sustituir el modelo parlamentario por otro sistema: su proyecto es una república catalana con separación de poderes y un poder judicial independiente como control del legislativo y el ejecutivo (coherente con dem-006 y dem-008). Es un demócrata parlamentario que rechaza reemplazar el parlamentarismo por consejos u otros modelos, aunque haya recurrido a vías unilaterales en la cuestión territorial.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Ponència 2: El país que volem, Congrés Nacional de Junts",
+        "url": "https://web.junts.cat/wp-content/uploads/2024/10/Ponencia_2.pdf",
+        "fecha": "2024-10",
+        "consultado": "2026-07-12"
+      }
+    },
+    "dem-021": {
+      "valor": 1,
+      "justificacion": "Junts apoyó tramitar la reforma de la Ley de Seguridad Ciudadana (Ley Mordaza) y la condicionó a que fuera más garantista: objetó que la norma mantuviera las pelotas de goma y que siguiera trasladando a los organizadores la responsabilidad por los actos de las manifestaciones, criminalizando la protesta democrática. Su exigencia va en la dirección de no sancionar la manifestación pacífica por defectos de comunicación.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "La reforma de la Ley de Seguridad Ciudadana avanza entre advertencias de Junts y Podemos (Demócrata)",
+        "url": "https://www.democrata.es/actualidad/la-reforma-de-la-ley-de-seguridad-ciudadana-avanza-entre-advertencias-de-junts-y-podemos-de-no-rebajar-sus-exigencias/",
+        "fecha": "2026",
+        "consultado": "2026-07-12"
+      }
+    },
+    "rel-002": {
+      "valor": 1,
+      "justificacion": "El programa de Junts adopta una posición aconfesional y pluralista en materia religiosa: no propone una religión oficial, reconoce la contribución social de las comunidades religiosas, promueve el diálogo interreligioso y la adaptación de espacios de culto y cementerios a la diversidad religiosa, lo que encaja con un Estado aconfesional que permite la expresión pública de todas las confesiones dentro de la ley.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Elecciones catalanas: religión en los programas electorales de los partidos (Religión en Libertad)",
+        "url": "https://www.religionenlibertad.com/espana/240511/elecciones-catalanas-2024-religion-candidatos-religion-programas-electorales-partidos_77135.html",
+        "fecha": "2024-05",
+        "consultado": "2026-07-12"
+      }
+    },
+    "pop-003": {
+      "valor": 1,
+      "justificacion": "Junts ha endurecido un discurso contra el régimen del 78 que presenta a PSOE y PP como fuerzas de un mismo sistema deficiente; ese marco se acerca a la idea de que la alternancia entre partidos de gobierno acaba aplicando políticas parecidas. Como partido de gobierno con tradición institucional (Convergència) no es antisistema en su práctica, de ahí la baja confianza.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "El auge de Aliança Catalana entierra a Junts: el apoyo a Sánchez penaliza a Puigdemont (The Objective)",
+        "url": "https://theobjective.com/espana/politica/2026-07-10/auge-alianca-catalana-junts-apoyo-sanchez/",
+        "fecha": "2026-07",
+        "consultado": "2026-07-12"
+      }
+    },
+    "izq-046": {
+      "valor": -1,
+      "justificacion": "Junts reivindica el control catalán de la inmigración (delegación integral de competencias a la Generalitat, condiciones para expulsar a multirreincidentes, exigencia lingüística) y un soberanismo nacional que antepone la nación catalana, por lo que rechaza una libertad plena de movimiento entre países como derecho incondicional; matiza el rechazo el reconocimiento de Puigdemont de que la inmigración es necesaria para el progreso (soc-005).",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Junts quiere que la Generalitat pueda fijar las condiciones para expulsar a inmigrantes con delitos multirreincidentes (Ara)",
+        "url": "https://es.ara.cat/politica/junts-quiere-generalitat-pueda-fijar-condiciones-expulsar-inmigrantes-delitos-multirreincidentes_1_4907247.html",
+        "fecha": "2025-03",
+        "consultado": "2026-07-12"
+      }
     }
   }
 }
