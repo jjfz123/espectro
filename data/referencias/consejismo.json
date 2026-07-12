@@ -220,12 +220,12 @@
       "fuente": {
         "tipo": "otro",
         "titulo": "Anton Pannekoek, Public Ownership and Common Ownership (1947, archivo Pannekoek en marxists.org) (en inglés)",
-        "url": "https://www.marxists.org/archive/pannekoe/index.htm",
+        "url": "https://www.marxists.org/archive/pannekoe/1947/public-ownership.htm",
         "fecha": "1947",
         "consultado": "2026-07-11",
         "cita": "The state officials, forming the new ruling class, have the disposal over the product... whereas the workers receive wages only, thus forming an exploited class (en inglés)"
       },
-      "grupoEvidencia": "pasaje-7fa1f2ac9640f0d58e25"
+      "grupoEvidencia": "pasaje-819c056793806cd5def2"
     },
     "lab-017": {
       "valor": 2,
@@ -234,12 +234,12 @@
       "fuente": {
         "tipo": "otro",
         "titulo": "Anton Pannekoek, Public Ownership and Common Ownership (1947, archivo Pannekoek en marxists.org) (en inglés)",
-        "url": "https://www.marxists.org/archive/pannekoe/index.htm",
+        "url": "https://www.marxists.org/archive/pannekoe/1947/public-ownership.htm",
         "fecha": "1947",
         "consultado": "2026-07-11",
         "cita": "Common ownership demands common management of the work as well as common productive activity (en inglés)"
       },
-      "grupoEvidencia": "pasaje-5058939b098cd29451bf"
+      "grupoEvidencia": "pasaje-5a8169a40a59c731f432"
     },
     "izq-005": {
       "valor": 1,
@@ -248,12 +248,40 @@
       "fuente": {
         "tipo": "otro",
         "titulo": "Anton Pannekoek, Public Ownership and Common Ownership (1947, archivo Pannekoek en marxists.org) (en inglés)",
-        "url": "https://www.marxists.org/archive/pannekoe/index.htm",
+        "url": "https://www.marxists.org/archive/pannekoe/1947/public-ownership.htm",
         "fecha": "1947",
         "consultado": "2026-07-11",
         "cita": "the entirety of producers is master of the means of production and works them in a well planned system of social production (en inglés)"
       },
-      "grupoEvidencia": "pasaje-332787ac60d2dc90812c"
+      "grupoEvidencia": "pasaje-5fe334cebd7a73e58d3f"
+    },
+    "fem-007": {
+      "valor": -2,
+      "justificacion": "Es un manifiesto juvenil que Rühle cita y suscribe: exige acabar con el cuento de la amistad desinteresada de los adultos hacia la juventud y defiende la autoorganización juvenil frente a la tutela adulta; el requisito de autorización familiar previa prolonga esa tutela sobre la educación afectivo-sexual: extensión declarada.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Otto Rühle, The Psyche of the Proletarian Child (1925, marxists.org) (en inglés)",
+        "url": "https://www.marxists.org/archive/ruhle/1925/proletarian-child.htm",
+        "fecha": "1925",
+        "consultado": "2026-07-11",
+        "cita": "It is high time that an end be put to the fairy tale of disinterested and selfless friendship of age to youth (en inglés)"
+      },
+      "grupoEvidencia": "pasaje-270ae4d2f6dc85d4d17a"
+    },
+    "izq-046": {
+      "valor": 1,
+      "justificacion": "El proletariado revolucionario del mundo entero lucha unido contra la burguesía internacional cada vez más unificada: ese internacionalismo sin fronteras apunta hacia la libre circulación de las personas, pero la carta no formula un derecho individual de migración, de ahí el acuerdo moderado como extensión declarada.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Herman Gorter, Open Letter to Comrade Lenin (1920, marxists.org) (en inglés)",
+        "url": "https://www.marxists.org/archive/gorter/1920/open-letter.htm",
+        "fecha": "1920",
+        "consultado": "2026-07-11",
+        "cita": "The revolutionary proletariat of the whole world is today engaged in the struggle against the always-more-firmly-uniting international bourgeoisie (en inglés)"
+      },
+      "grupoEvidencia": "pasaje-f0c12a76c26dd3bc1e18"
     }
   }
 }
