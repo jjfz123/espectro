@@ -1,0 +1,140 @@
+{
+  "id": "movimiento-socialista",
+  "nombre": "Movimiento Socialista (Mugimendu Sozialista)",
+  "tipo": "referencia-doctrinal",
+  "definicion": "Tipo ideal del espacio comunista vasco surgido en 2019 por escisión de la izquierda abertzale (Gazte Koordinadora Sozialista y, desde 2023, Euskal Herriko Kontseilu Sozialista): marxismo revolucionario de lectura propia, no trotskista, que sostiene la necesidad de recomponer el proletariado como clase y de construir un partido comunista de nuevo tipo, de masas y extraparlamentario, para un Estado socialista vasco; en fuerte conflicto con EH Bildu y Sortu, a los que acusa de socialdemocracia y colaboración de clases.",
+  "variante": "Movimiento Socialista de Euskal Herria; su dirección político-partidaria es Euskal Herriko Kontseilu Sozialista (EHKS), presentada en diciembre de 2023 en el frontón Astelena de Éibar. No debe confundirse con el trotskismo (rechaza esa filiación) ni con la izquierda abertzale institucional de la que se escinde. Su modelo se extendió a Països Catalans (OJS) y al conjunto del Estado (Coordinadora Juvenil Socialista).",
+  "periodo": "2019 (aparición pública de GKS) – actualidad",
+  "confianza": "estimada",
+  "version": "1.0",
+  "revisado": "2026-07-12",
+  "publicacionMapa": {
+    "publicable": false,
+    "motivo": "Corpus contemporáneo aún en formación y sostenido en buena parte por prensa secundaria; el cotejo verbatim con documentación primaria propia (EHKS/GKS) queda pendiente antes de proyectar una coordenada macro. Veto inicial a la espera de revisión editorial."
+  },
+  "publicacionAfinidad": {
+    "publicable": false,
+    "motivo": "Etiqueta de afinidad de una organización no electoral que remite a un espacio en construcción sin papeleta propia; se retiene la comparación doctrinal visible hasta cotejar sus posiciones con fuentes primarias y decidir a qué candidatura real (si alguna) se aproxima al usuario."
+  },
+  "facetasDefinitorias": [
+    "metodo-cambio",
+    "organizacion",
+    "territorial"
+  ],
+  "sensibilidad": "normal",
+  "advertencia": "Es un tipo ideal doctrinal, no la ficha de un partido con papeleta: el Movimiento Socialista es extraparlamentario y no concurre con siglas propias. Una afinidad alta no equivale a una opción de voto; en su ámbito, el usuario encontraría en las urnas a EH Bildu (a cuya dirección este espacio critica frontalmente), no a esta corriente. Las caracterizaciones de rivales («socialdemocracia», «colaboración de clases») se recogen como autoposición atribuida, no como juicio editorial.",
+  "fuentesMarco": [
+    {
+      "tipo": "autoubicacion",
+      "titulo": "EHKS — Euskal Herriko Kontseilu Sozialista: «Nor gara» (Quiénes somos)",
+      "url": "https://kontseilusozialista.eus/es/nor-gara/",
+      "fecha": "2023-12",
+      "consultado": "2026-07-12"
+    },
+    {
+      "tipo": "otro",
+      "titulo": "«El diccionario de siglas alrededor de GKS, el ‹movimiento socialista›», elDiario.es",
+      "url": "https://www.eldiario.es/euskadi/diccionario-siglas-alrededor-gks-movimiento-socialista-convocado-movilizaciones-bilbao-pamplona_1_12935391.html",
+      "fecha": "2025",
+      "consultado": "2026-07-12"
+    },
+    {
+      "tipo": "otro",
+      "titulo": "«Matar al padre, resucitar a Marx», El Salto Diario (sobre GKS y el Movimiento Socialista)",
+      "url": "https://www.elsaltodiario.com/politica/gks-matar-padre-resucitar-marx",
+      "fecha": "2022",
+      "consultado": "2026-07-12"
+    }
+  ],
+  "reglaPublicacion": {
+    "minimoItems": 6,
+    "minimoCobertura": 0.5,
+    "umbralAfinidad": 78
+  },
+  "posiciones": {
+    "izq-001": {
+      "valor": 2,
+      "justificacion": "El Movimiento Socialista se plantea la superación revolucionaria de la dominación burguesa y rechaza expresamente la gestión institucional moderada de la izquierda abertzale como vía de transformación; su horizonte es la ruptura, no la acumulación de reformas.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Movimiento Socialista, Wikipedia (marxismo revolucionario y comunismo) — corroborado con El Salto",
+        "url": "https://es.wikipedia.org/wiki/Movimiento_Socialista",
+        "fecha": "2026",
+        "consultado": "2026-07-12"
+      }
+    },
+    "izq-002": {
+      "valor": 1,
+      "justificacion": "Sostiene la necesidad de reconstruir grandes partidos comunistas con militancia, compromiso e ideología clara, y erige EHKS como dirección político-partidaria; el partido comunista es imprescindible, aunque lo formule como partido de nuevo tipo y de masas más que como cuadro estrecho clásico.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "autoubicacion",
+        "titulo": "EHKS — «Nor gara»: dirección y referente del Movimiento Socialista",
+        "url": "https://kontseilusozialista.eus/es/nor-gara/",
+        "fecha": "2023-12",
+        "consultado": "2026-07-12"
+      }
+    },
+    "izq-009": {
+      "valor": -2,
+      "justificacion": "Rechaza integrarse en frentes amplios y coaliciones progresistas; su seña de identidad es la independencia de clase frente a la política de alianzas de la izquierda institucional, a la que acusa de colaboración de clases.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "elDiario.es: GKS y el Movimiento Socialista, a la izquierda de EH Bildu",
+        "url": "https://www.eldiario.es/euskadi/diccionario-siglas-alrededor-gks-movimiento-socialista-convocado-movilizaciones-bilbao-pamplona_1_12935391.html",
+        "fecha": "2025",
+        "consultado": "2026-07-12"
+      }
+    },
+    "izq-010": {
+      "valor": -2,
+      "justificacion": "Critica frontalmente a EH Bildu y Sortu por su «política de colaboración de clases» y su gestión institucional dentro del sistema; participar en gobiernos con la socialdemocracia es justo lo que reprocha a la izquierda abertzale institucional.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "El Salto Diario: GKS frente a la moderación institucional de la izquierda abertzale",
+        "url": "https://www.elsaltodiario.com/politica/gks-matar-padre-resucitar-marx",
+        "fecha": "2022",
+        "consultado": "2026-07-12"
+      }
+    },
+    "izq-019": {
+      "valor": 1,
+      "justificacion": "Subordina las instituciones a la construcción de poder obrero fuera de ellas: su estrategia es extraparlamentaria y ve el trabajo institucional, cuando existe, como subordinado a la organización de clase, no como vía de gestión transformadora.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "autoubicacion",
+        "titulo": "EHKS — «Nor gara»: construir poder de la clase trabajadora fuera de las instituciones",
+        "url": "https://kontseilusozialista.eus/es/nor-gara/",
+        "fecha": "2023-12",
+        "consultado": "2026-07-12"
+      }
+    },
+    "ter-002": {
+      "valor": 2,
+      "justificacion": "Su objetivo declarado es un Estado socialista vasco; asume el marco nacional de Euskal Herria y el derecho de su clase trabajadora a decidir y construir ese Estado propio, frente al marco autonómico español.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Gazte Koordinadora Sozialista, Wikipedia (construcción de un Estado socialista vasco)",
+        "url": "https://es.wikipedia.org/wiki/Gazte_Koordinadora_Sozialista",
+        "fecha": "2026",
+        "consultado": "2026-07-12"
+      }
+    },
+    "izq-024": {
+      "valor": -1,
+      "justificacion": "Prioriza construir organización de clase propia (colectivos obreros y estructuras del Movimiento Socialista) frente a orientar el trabajo a los grandes sindicatos; se codifica -1 y no -2 porque el corpus localizado no fija de forma tan explícita el rechazo a militar en las centrales mayoritarias como su distancia de la izquierda institucional.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "elDiario.es: el Movimiento Socialista construye estructuras propias de clase",
+        "url": "https://www.eldiario.es/euskadi/diccionario-siglas-alrededor-gks-movimiento-socialista-convocado-movilizaciones-bilbao-pamplona_1_12935391.html",
+        "fecha": "2025",
+        "consultado": "2026-07-12"
+      }
+    }
+  }
+}
