@@ -1,0 +1,163 @@
+{
+  "id": "marxismo-ortodoxo",
+  "nombre": "Marxismo ortodoxo (II Internacional)",
+  "tipo": "referencia-doctrinal",
+  "definicion": "Tradición kautskiana de la II Internacional cristalizada en el Programa de Erfurt (1891): determinismo histórico, concepción materialista como ciencia, partido obrero de masas y conquista del poder político por la organización y el sufragio universal. Mantiene el objetivo revolucionario pero rechaza la insurrección de vanguardia; anterior a la escisión bolchevique y al revisionismo reformista de Bernstein.",
+  "variante": "Síntesis del Programa de Erfurt (1891) y de la ortodoxia de Kautsky; no equivale a cada uso posterior del término «marxismo ortodoxo» ni al leninismo, que se reclama continuador suyo, ni a la socialdemocracia de mercado posterior.",
+  "periodo": "1891-1918",
+  "confianza": "estimada",
+  "version": "1.0",
+  "revisado": "2026-07-12",
+  "facetasDefinitorias": [
+    "metodo-cambio",
+    "institucionalismo",
+    "organizacion",
+    "economico",
+    "propiedad-mercado",
+    "poder-laboral"
+  ],
+  "sensibilidad": "normal",
+  "advertencia": "Es una reconstrucción histórica de la doctrina de la II Internacional entre 1891 y 1918, no una ficha de un partido español contemporáneo ni una atribución de militancia. Una similitud doctrinal parcial no determina la identidad política de ninguna persona. La ortodoxia kautskiana combina un horizonte revolucionario con la vía electoral y la defensa de la democracia; su lectura determinista de la historia y su rechazo de la insurrección la separan tanto del leninismo como del reformismo posterior.",
+  "fuentesMarco": [
+    {
+      "tipo": "programa",
+      "titulo": "Kautsky, La lucha de clases (comentario del Programa de Erfurt) (en inglés, marxists.org)",
+      "url": "https://www.marxists.org/archive/kautsky/1892/erfurt/",
+      "fecha": "1892",
+      "consultado": "2026-07-12"
+    },
+    {
+      "tipo": "otro",
+      "titulo": "Kautsky, La dictadura del proletariado (en inglés, marxists.org)",
+      "url": "https://www.marxists.org/archive/kautsky/1918/dictprole/index.htm",
+      "fecha": "1918",
+      "consultado": "2026-07-12"
+    },
+    {
+      "tipo": "otro",
+      "titulo": "Programa de Erfurt del SPD (Wikipedia, ficha de referencia)",
+      "url": "https://en.wikipedia.org/wiki/Erfurt_Program",
+      "fecha": "1891",
+      "consultado": "2026-07-12"
+    }
+  ],
+  "reglaPublicacion": {
+    "minimoItems": 5,
+    "minimoCobertura": 0.55,
+    "umbralAfinidad": 84
+  },
+  "posiciones": {
+    "izq-001": {
+      "valor": 0,
+      "justificacion": "La ortodoxia sostiene un objetivo de transformación revolucionaria (colapso del capitalismo, conquista del poder por el proletariado) pero rechaza la insurrección: el partido es «revolucionario, no hacedor de revoluciones». No es ni ruptura insurreccional ni mera reforma gradual del capitalismo.",
+      "calidadEvidencia": "media",
+      "resolucionCero": {
+        "tipo": "modelo-mixto",
+        "explicacion": "Combina objetivo revolucionario con la vía electoral-parlamentaria y el rechazo de la insurrección; el ítem opone ruptura y reforma gradual, y la ortodoxia kautskiana se sitúa deliberadamente entre ambas."
+      },
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Kautsky, La lucha de clases (Programa de Erfurt), sobre la conquista del poder",
+        "url": "https://www.marxists.org/archive/kautsky/1892/erfurt/",
+        "fecha": "1892",
+        "consultado": "2026-07-12"
+      }
+    },
+    "dem-012": {
+      "valor": 2,
+      "justificacion": "Kautsky hace de la democracia y la legalidad la base para construir el socialismo y la vía de la clase obrera al poder, frente a la dictadura y el terror bolcheviques: los cambios profundos deben lograrse por procedimientos democráticos, con mayorías y sufragio universal.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Kautsky, La dictadura del proletariado, sobre democracia y dictadura",
+        "url": "https://www.marxists.org/archive/kautsky/1918/dictprole/index.htm",
+        "fecha": "1918",
+        "consultado": "2026-07-12"
+      }
+    },
+    "izq-019": {
+      "valor": -2,
+      "justificacion": "Para la ortodoxia el proletariado conquista el poder político por el sufragio y lo ejerce; el parlamento no es mera tribuna de agitación como en el bolchevismo, sino el instrumento de la conquista y la gestión del poder. Rechaza usarlo «solo para denunciar».",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Kautsky, La dictadura del proletariado, sobre parlamentarismo y conquista del poder",
+        "url": "https://www.marxists.org/archive/kautsky/1918/dictprole/index.htm",
+        "fecha": "1918",
+        "consultado": "2026-07-12"
+      }
+    },
+    "dem-011": {
+      "valor": -1,
+      "justificacion": "Frente a los soviets bolcheviques y al modelo consejista, Kautsky no sustituye el parlamentarismo democrático: lo conquista mediante el sufragio universal y lo democratiza. Se puntúa −1 y no −2 porque sí aspira a reformarlo a fondo, no a conservarlo intacto.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Kautsky, La dictadura del proletariado, sobre democracia parlamentaria y soviets",
+        "url": "https://www.marxists.org/archive/kautsky/1918/dictprole/index.htm",
+        "fecha": "1918",
+        "consultado": "2026-07-12"
+      }
+    },
+    "izq-002": {
+      "valor": -1,
+      "justificacion": "La II Internacional se organiza como partido obrero de masas de toda la clase, no como vanguardia disciplinada de minoría; Kautsky rechaza el modelo insurreccional-vanguardista que Lenin edifica, aunque él mismo teorizara que la conciencia socialista llega «desde fuera», de ahí el −1 y no −2.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Kautsky, La lucha de clases (Programa de Erfurt), sobre el partido de masas",
+        "url": "https://www.marxists.org/archive/kautsky/1892/erfurt/",
+        "fecha": "1892",
+        "consultado": "2026-07-12"
+      }
+    },
+    "izq-016": {
+      "valor": 1,
+      "justificacion": "El Programa de Erfurt reclama transformar la propiedad capitalista en propiedad social, pero la ortodoxia busca la socialización por la conquista democrática del poder y no erige la confiscación sin indemnización en principio absoluto como el bolchevismo: +1 frente al +2 del marxismo clásico.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Kautsky, La lucha de clases (Programa de Erfurt), sobre la propiedad social",
+        "url": "https://www.marxists.org/archive/kautsky/1892/erfurt/",
+        "fecha": "1892",
+        "consultado": "2026-07-12"
+      }
+    },
+    "lab-011": {
+      "valor": 2,
+      "justificacion": "La ortodoxia combate el revisionismo de Bernstein: las reformas y la redistribución fiscal alivian pero no transforman; solo la conquista del poder y la socialización de los medios de producción cambian quién posee y dirige la economía. Gravar salarios no toca esa relación.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Kautsky, La lucha de clases (Programa de Erfurt), sobre reforma y propiedad",
+        "url": "https://www.marxists.org/archive/kautsky/1892/erfurt/",
+        "fecha": "1892",
+        "consultado": "2026-07-12"
+      }
+    },
+    "izq-047": {
+      "valor": 2,
+      "justificacion": "Kautsky es el gran sistematizador del marxismo «ortodoxo» como ciencia: el determinismo histórico y la concepción materialista guían la acción por encima de ideales morales sobre cómo deberían ser las personas.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Kautsky, La lucha de clases (Programa de Erfurt), sobre la concepción materialista",
+        "url": "https://www.marxists.org/archive/kautsky/1892/erfurt/",
+        "fecha": "1892",
+        "consultado": "2026-07-12"
+      }
+    },
+    "izq-048": {
+      "valor": -2,
+      "justificacion": "El determinismo kautskiano subordina la acción a la madurez de las condiciones objetivas: el socialismo llega cuando el desarrollo capitalista lo hace posible; se puede acelerar pero no saltar etapas construyendo de antemano la sociedad futura a pequeña escala.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Kautsky, La lucha de clases (Programa de Erfurt), sobre madurez histórica",
+        "url": "https://www.marxists.org/archive/kautsky/1892/erfurt/",
+        "fecha": "1892",
+        "consultado": "2026-07-12"
+      }
+    }
+  }
+}
