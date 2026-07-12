@@ -6,16 +6,8 @@
   "variante": "Etapa de gobierno con mayoría absoluta (1982-1989) y en minoría con apoyo de CiU y PNV (1993-1996). No incluye la oposición previa a 1982 (la campaña «OTAN, de entrada no» es antecedente contrastante), ni el PSOE fundacional de Pablo Iglesias Posse, ni el PSOE posterior a 1996.",
   "periodo": "España, 1982-1996",
   "confianza": "verificada",
-  "version": "1.0",
+  "version": "1.1",
   "revisado": "2026-07-12",
-  "publicacionMapa": {
-    "publicable": false,
-    "motivo": "Auditoría semántica cerrada (§23) y tanda de pasajes casi completa (§39): 5 de las 7 citas pendientes ya son pasajes literales del BOE/investidura cotejada. Sigue vetada SOLO por dos citas: nuc-001 (falta el texto ORIGINAL de 1985 del art. 112 LOPJ; el buscador solo devuelve la redacción reformada de 2013) y dem-032 (ningún fundamento literal estable de la STC 76/1983). Ambas en cola de verificación humana; levantar el veto con esas dos como cita-título es decisión editorial expresa."
-  },
-  "publicacionAfinidad": {
-    "publicable": false,
-    "motivo": "Misma condición que el mapa: quedan nuc-001 y dem-032 sin pasaje literal (cola humana); el resto de la ficha tiene pasajes verbatim con calidad alta."
-  },
   "facetasDefinitorias": [
     "economico",
     "atlantismo",
