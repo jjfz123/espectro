@@ -517,6 +517,80 @@
         "fecha": "2026-03-10",
         "consultado": "2026-07-10"
       }
+    },
+    "dr-001": {
+      "valor": 0,
+      "justificacion": "Promueve convertir el Institut Català de Finances en la banca pública catalana y negoció con el PSOE impulsar su licencia bancaria para operar en el mercado, pero no plantea nacionalizar el sector bancario privado: su modelo combina un banco público con la banca privada existente.",
+      "resolucionCero": {
+        "tipo": "modelo-mixto",
+        "explicacion": "Su propuesta financiera suma un banco público (ICF con licencia bancaria) al sistema privado vigente, sin expropiar ni nacionalizar la banca privada; ninguno de los dos polos del ítem describe por sí solo ese modelo mixto."
+      },
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "ERC i PSOE acorden impulsar la llicència bancària per a l'Institut Català de Finances (El Nacional / On Economia)",
+        "url": "https://www.elnacional.cat/oneconomia/ca/economia/erc-psoe-acorden-impulsar-llicencia-bancaria-institut-catala-finances-icf_1411741_102.html",
+        "fecha": "2024",
+        "consultado": "2026-07-12",
+        "cita": "ERC i PSOE acorden impulsar la llicència bancària per a l'Institut Català de Finances"
+      },
+      "grupoEvidencia": "erc-icf-banca-publica"
+    },
+    "der-026": {
+      "valor": -2,
+      "justificacion": "Su portavoz Gabriel Rufián calificó de «cafrada» la ley de Vox para ilegalizar a los partidos independentistas y advirtió del peligro de callar ante ella; ERC rechaza que un partido pueda ilegalizarse por defender la secesión por vías democráticas.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Vox se queda solo en el Congreso defendiendo su ley para ilegalizar a los partidos independentistas (elEconomista)",
+        "url": "https://www.eleconomista.es/politica/noticias/10769663/09/20/Vox-intenta-que-el-Congreso-tramite-su-ley-para-ilegalizar-partidos-independentistas-como-ERC-Junts-o-Bildu.html",
+        "fecha": "2020-09",
+        "consultado": "2026-07-12",
+        "cita": "Vox se queda solo en el Congreso defendiendo su ley para ilegalizar a los partidos independentistas"
+      },
+      "grupoEvidencia": "erc-contra-ilegalizacion-vox"
+    },
+    "soc-001": {
+      "valor": 2,
+      "justificacion": "Votó a favor del matrimonio igualitario en 2005 y ha respaldado de forma sostenida la legislación LGTBI (ley trans, protección frente a terapias de conversión): defiende mantener y ampliar esos derechos por ley.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "Así aprobó el matrimonio igualitario el Congreso hace 16 años (Público)",
+        "url": "https://www.publico.es/sociedad/asi-aprobo-matrimonio-igualitario-congreso-16-anos.html",
+        "fecha": "2021",
+        "consultado": "2026-07-12",
+        "cita": "Así aprobó el matrimonio igualitario el Congreso hace 16 años"
+      },
+      "grupoEvidencia": "erc-matrimonio-igualitario-2005"
+    },
+    "dem-021": {
+      "valor": 2,
+      "justificacion": "Reclama la derogación completa de la Ley Mordaza y no una reforma parcial, rechazando el régimen sancionador que penaliza la protesta ciudadana: defiende que el ejercicio pacífico del derecho de manifestación no debe castigarse.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "ERC y Bildu tumban la reforma de la ley mordaza por no prohibir las pelotas de goma y las devoluciones en caliente (elDiario.es)",
+        "url": "https://www.eldiario.es/politica/reforma-ley-mordaza-fracasara-martes-anunciar-erc-eh-bildu-votaran_1_10030909.html",
+        "fecha": "2023",
+        "consultado": "2026-07-12",
+        "cita": "ERC y Bildu tumban la reforma de la ley mordaza por no prohibir las pelotas de goma y las devoluciones en caliente"
+      },
+      "grupoEvidencia": "erc-ley-mordaza-derogacion"
+    },
+    "dem-001": {
+      "valor": 2,
+      "justificacion": "Propone un referéndum vinculante de autodeterminación pactado con el Estado (umbrales del modelo de Montenegro) para decidir el futuro político de Catalunya: apoyo a someter las decisiones de mayor alcance a referéndum vinculante.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "La fórmula de Montenegro: así es el referéndum de independencia propuesto por ERC que el Gobierno rechaza (El Plural)",
+        "url": "https://www.elplural.com/politica/independencia-cataluna-55-si-50-participacion-propuesta-erc-referendum_302678102",
+        "fecha": "2025",
+        "consultado": "2026-07-12",
+        "cita": "La fórmula de Montenegro: así es el referéndum de independencia propuesto por ERC que el Gobierno rechaza"
+      },
+      "grupoEvidencia": "erc-referendum-montenegro"
     }
   }
 }
