@@ -1,0 +1,152 @@
+{
+  "id": "neorreaccion",
+  "nombre": "Neorreacción o Ilustración Oscura",
+  "tipo": "referencia-doctrinal",
+  "definicion": "Corriente elitista y antidemocrática angloamericana, también llamada Ilustración Oscura (Dark Enlightenment), asociada a Curtis Yarvin (Mencius Moldbug) y Nick Land. Cuestiona la igualdad política y el gobierno representativo, describe las instituciones liberales —academia y prensa— como «la Catedral» y propone formas jerárquicas de dirección: el «neocameralismo», un Estado gobernado como una empresa por un consejo o un director-monarca, con «salida» en lugar de «voz».",
+  "variante": "Tipo ideal reconstruido a partir de Yarvin y Land; el propietario del atlas la describe como lectores españoles de un fenómeno anglosajón del postlibertarismo en línea (nicho de nicho), con economía no instrumentada y mapeo pendiente de nuevos discriminantes.",
+  "periodo": "Angloesfera, desde finales de la década de 2000; tipo ideal doctrinal",
+  "confianza": "estimada",
+  "version": "1.0",
+  "revisado": "2026-07-12",
+  "facetasDefinitorias": [
+    "autoridad-politica",
+    "pluralismo-institucional",
+    "institucionalismo",
+    "democracia-directa"
+  ],
+  "sensibilidad": "antipluralista",
+  "advertencia": "Referencia sensible descrita en términos politológicos, no un diagnóstico de ninguna persona. Los estudios sobre populismo y radicalismo caracterizan la neorreacción como movimiento antiigualitario y antidemocrático que propone sustituir la democracia por una jerarquía tecno-elitista o neomonárquica; algunos autores la asocian además a posiciones eugenistas y racistas. Es un nicho anglófono de escasa presencia en España; una afinidad parcial en antipluralismo o tecnocracia no equivale a adhesión a la doctrina ni identifica a nadie.",
+  "fuentesMarco": [
+    {
+      "tipo": "otro",
+      "titulo": "Dark Enlightenment (Ilustración Oscura): movimiento neorreaccionario antiigualitario y antidemocrático (síntesis enciclopédica de contraste, en inglés)",
+      "url": "https://en.wikipedia.org/wiki/Dark_Enlightenment",
+      "fecha": "2026",
+      "consultado": "2026-07-12"
+    },
+    {
+      "tipo": "otro",
+      "titulo": "Curtis Yarvin (Mencius Moldbug): neocameralismo, «la Catedral» y gobierno del Estado como empresa (síntesis enciclopédica de contraste, en inglés)",
+      "url": "https://en.wikipedia.org/wiki/Curtis_Yarvin",
+      "fecha": "2026",
+      "consultado": "2026-07-12"
+    },
+    {
+      "tipo": "otro",
+      "titulo": "Nick Land: aceleracionismo, «Dark Enlightenment» y crítica de la democracia y el igualitarismo (síntesis enciclopédica de contraste, en inglés)",
+      "url": "https://en.wikipedia.org/wiki/Nick_Land",
+      "fecha": "2026",
+      "consultado": "2026-07-12"
+    },
+    {
+      "tipo": "otro",
+      "titulo": "European Center for Populism Studies (ECPS), voz «Dark Enlightenment»: jerarquía, tecnocracia y neomonarquismo frente a la democracia liberal",
+      "url": "https://www.populismstudies.org/Vocabulary/dark-enlightenment/",
+      "fecha": "2026",
+      "consultado": "2026-07-12"
+    }
+  ],
+  "reglaPublicacion": {
+    "minimoItems": 4,
+    "minimoCobertura": 0.6,
+    "umbralAfinidad": 85
+  },
+  "posiciones": {
+    "dem-001": {
+      "valor": -2,
+      "justificacion": "La neorreacción rechaza la democracia de masas y la participación electoral como fuente de decadencia; someter las decisiones de mayor alcance a referéndum vinculante es lo contrario de su modelo de soberanía no electiva.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Dark Enlightenment: crítica de la democracia como fracaso que promueve la mediocridad (síntesis enciclopédica de contraste, en inglés)",
+        "url": "https://en.wikipedia.org/wiki/Dark_Enlightenment",
+        "fecha": "2026",
+        "consultado": "2026-07-12"
+      }
+    },
+    "dem-008": {
+      "valor": -2,
+      "justificacion": "Yarvin describe la división y separación de poderes como una disfunción; su neocameralismo concentra la soberanía en una dirección única, por lo que rechaza que la separación de poderes deba respetarse aunque retrase decisiones.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Curtis Yarvin: neocameralismo y soberanía concentrada frente a la división de poderes (síntesis enciclopédica de contraste, en inglés)",
+        "url": "https://en.wikipedia.org/wiki/Curtis_Yarvin",
+        "fecha": "2026",
+        "consultado": "2026-07-12"
+      }
+    },
+    "dem-010": {
+      "valor": -2,
+      "justificacion": "El movimiento considera la democracia un fracaso que fomenta mediocridad e inestabilidad; mantener la oposición y la competencia entre partidos, incluso en emergencia, contradice su rechazo del gobierno representativo.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Dark Enlightenment: rechazo del gobierno representativo y de la competencia democrática (síntesis enciclopédica de contraste, en inglés)",
+        "url": "https://en.wikipedia.org/wiki/Dark_Enlightenment",
+        "fecha": "2026",
+        "consultado": "2026-07-12"
+      }
+    },
+    "dem-011": {
+      "valor": 2,
+      "justificacion": "El neocameralismo no reforma el parlamentarismo sino que lo sustituye por un Estado gobernado como empresa por un director-monarca o un consejo; el ítem de sustitución integral del sistema parlamentario recoge esa ruptura.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Curtis Yarvin: sustitución del gobierno representativo por un Estado-empresa neocameralista (síntesis enciclopédica de contraste, en inglés)",
+        "url": "https://en.wikipedia.org/wiki/Curtis_Yarvin",
+        "fecha": "2026",
+        "consultado": "2026-07-12"
+      }
+    },
+    "dem-019": {
+      "valor": 2,
+      "justificacion": "La dirección única y soberana del «Estado-empresa» sin competencia entre partidos que propone Yarvin encaja con un poder unificado que dirige el Estado sin pluralismo partidista, aunque su vehículo sea un soberano corporativo y no un movimiento de masas.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Curtis Yarvin: soberano corporativo único sin competencia entre partidos (síntesis enciclopédica de contraste, en inglés)",
+        "url": "https://en.wikipedia.org/wiki/Curtis_Yarvin",
+        "fecha": "2026",
+        "consultado": "2026-07-12"
+      }
+    },
+    "dr-024": {
+      "valor": 2,
+      "justificacion": "La neorreacción sostiene explícitamente que un gobierno jerárquico y no democrático —de élites competentes o un director-monarca— es preferible a la democracia; los analistas la definen como antidemocrática y antiigualitaria.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "European Center for Populism Studies (ECPS), voz «Dark Enlightenment»: preferencia por jerarquía y neomonarquismo frente a la democracia",
+        "url": "https://www.populismstudies.org/Vocabulary/dark-enlightenment/",
+        "fecha": "2026",
+        "consultado": "2026-07-12"
+      }
+    },
+    "lib-014": {
+      "valor": 2,
+      "justificacion": "El neocameralismo quiere gobernar el Estado como una empresa dirigida por gestores competentes en lugar de políticos de partido; confiar los ministerios a profesionales independientes es un reflejo parcial de esa preferencia gerencial, que la doctrina extiende a todo el soberano.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Curtis Yarvin: gobierno del Estado como empresa por gestores competentes frente a los políticos de partido (síntesis enciclopédica de contraste, en inglés)",
+        "url": "https://en.wikipedia.org/wiki/Curtis_Yarvin",
+        "fecha": "2026",
+        "consultado": "2026-07-12"
+      }
+    },
+    "lim-005": {
+      "valor": 1,
+      "justificacion": "Bajo el soberano neocameralista los residentes carecen de voz política y no hay oposición organizada; retirar derechos políticos a los opositores del nuevo orden es coherente con su lógica de «salida, no voz», aunque afirme tolerar la vida privada, de ahí un grado moderado.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Curtis Yarvin: «salida» en lugar de «voz» y ausencia de derechos políticos de oposición bajo el soberano (síntesis enciclopédica de contraste, en inglés)",
+        "url": "https://en.wikipedia.org/wiki/Curtis_Yarvin",
+        "fecha": "2026",
+        "consultado": "2026-07-12"
+      }
+    }
+  }
+}
