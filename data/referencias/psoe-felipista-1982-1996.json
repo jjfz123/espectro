@@ -93,8 +93,8 @@
     },
     "ue-001": {
       "valor": -2,
-      "justificacion": "El discurso de investidura fija la adhesión a las Comunidades Europeas como objetivo de la legislatura; el Tratado se firmó en 1985 y entró en vigor el 1 de enero de 1986. Cotejo literal del discurso pendiente (la transcripción procede de resúmenes coincidentes).",
-      "calidadEvidencia": "media",
+      "justificacion": "El discurso de investidura fija la adhesión a las Comunidades Europeas como objetivo de la legislatura; el Tratado se firmó en 1985 y entró en vigor el 1 de enero de 1986. Pasaje cotejado literalmente con la transcripción oficial de La Moncloa y con el archivo de Felipe González (coincidentes).",
+      "calidadEvidencia": "alta",
       "fuente": {
         "tipo": "declaracion",
         "titulo": "La Moncloa, discurso de investidura de Felipe González",
@@ -121,15 +121,15 @@
     },
     "eco-012": {
       "valor": -1,
-      "justificacion": "La LODE no eliminó la red concertada: la reguló y consolidó como red permanente sostenida con fondos públicos — el sistema de conciertos vigente nace de esta norma. La cita es el título oficial de la ley; el articulado de conciertos queda en cola de cotejo.",
-      "calidadEvidencia": "media",
+      "justificacion": "La LODE no eliminó la red concertada: la reguló y consolidó como red permanente sostenida con fondos públicos — el sistema de conciertos vigente nace de esta norma. La cita reproduce el artículo 47 en su redacción original de 1985, que instaura el régimen de conciertos.",
+      "calidadEvidencia": "alta",
       "fuente": {
         "tipo": "otro",
-        "titulo": "Ley Orgánica 8/1985, de 3 de julio, reguladora del Derecho a la Educación (BOE)",
+        "titulo": "Ley Orgánica 8/1985, de 3 de julio, reguladora del Derecho a la Educación (BOE), artículo 47",
         "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1985-12978",
         "fecha": "1985-07-03",
         "consultado": "2026-07-12",
-        "cita": "Ley Orgánica 8/1985, de 3 de julio, reguladora del Derecho a la Educación"
+        "cita": "Para el sostenimiento de Centros privados con fondos públicos se establecerá un régimen de conciertos al que podrán acogerse aquellos Centros privados que, en orden a la prestación del servicio público de la educación en los términos previstos en esta Ley, impartan la educación básica y reúnan los requisitos previstos en este Título."
       },
       "grupoEvidencia": "pasaje-4f170ef30bcf603b1aa3"
     },
@@ -164,28 +164,28 @@
     "eco-010": {
       "valor": 1,
       "justificacion": "La reconversión (siderurgia, naval, minería) facilitó la salida de empleo mediante regulaciones colectivas incentivadas y Fondos de Promoción de Empleo — mecanismo pariente pero no idéntico al abaratamiento genérico del despido del ítem: encaje declarado medio, de ahí el valor moderado. Provocó la huelga general del 14-D de 1988 y la ruptura con la UGT (narrado en la definición).",
-      "calidadEvidencia": "media",
+      "calidadEvidencia": "alta",
       "fuente": {
         "tipo": "otro",
-        "titulo": "Ley 27/1984, de 26 de julio, sobre reconversión y reindustrialización (BOE)",
+        "titulo": "Ley 27/1984, de 26 de julio, sobre reconversión y reindustrialización (BOE), artículo 22",
         "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1984-17004",
         "fecha": "1984-07-26",
         "consultado": "2026-07-12",
-        "cita": "Ley 27/1984, de 26 de julio, sobre reconversión y reindustrialización"
+        "cita": "Con la finalidad de mejorar la intensidad de la protección por desempleo... así como de colaborar en la recolocación en nuevos empleos de los trabajadores afectados por la reconversión, mediante la incentivación económica a la creación de empleos de carácter estable y la readaptación profesional de los trabajadores excedentes, los Reales Decretos de reconversión podrán prever la constitución de Fondos de Promoción de Empleo."
       },
       "grupoEvidencia": "pasaje-644acefb1858fddfef90"
     },
     "eco-004": {
       "valor": 1,
-      "justificacion": "En la última etapa el Gobierno priorizó la consolidación fiscal previa a Maastricht sobre la expansión del gasto: el decreto de 1992 recortó prestaciones por desempleo y motivó la huelga general del 28-M. Encaje declarado medio (la norma es de prestaciones, no de deuda en sentido amplio); el Programa de Convergencia queda en cola.",
-      "calidadEvidencia": "media",
+      "justificacion": "En la última etapa el Gobierno priorizó la consolidación fiscal previa a Maastricht sobre la expansión del gasto: el decreto de 1992 recortó prestaciones por desempleo y motivó la huelga general del 28-M. Encaje declarado medio (la norma es de prestaciones, no de deuda en sentido amplio); la cita es de su exposición de motivos.",
+      "calidadEvidencia": "alta",
       "fuente": {
         "tipo": "otro",
-        "titulo": "Real Decreto-ley 1/1992, de 3 de abril, de Medidas Urgentes sobre Fomento del Empleo y Protección por Desempleo (BOE)",
+        "titulo": "Real Decreto-ley 1/1992, de 3 de abril, de Medidas Urgentes sobre Fomento del Empleo y Protección por Desempleo (BOE), exposición de motivos",
         "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-1992-7714",
         "fecha": "1992-04-03",
         "consultado": "2026-07-12",
-        "cita": "Real Decreto-ley 1/1992, de 3 de abril, de Medidas Urgentes sobre Fomento del Empleo y Protección por Desempleo"
+        "cita": "introducir un conjunto de medidas que, respetando la norma del artículo 41 de la Constitución, corrija las desviaciones y desequilibrios más notorios y urgentes"
       },
       "grupoEvidencia": "pasaje-db87f6ed03c6d7f28ca3"
     },
@@ -206,14 +206,14 @@
     "eco-014": {
       "valor": 2,
       "justificacion": "Convirtió en figura permanente del sistema tributario el gravamen sobre el patrimonio que desde 1977 era extraordinario y transitorio; es un gravamen general sobre el patrimonio con mínimo exento, no un impuesto separado que afecte solo a los mayores patrimonios.",
-      "calidadEvidencia": "media",
+      "calidadEvidencia": "alta",
       "fuente": {
         "tipo": "otro",
-        "titulo": "Ley 19/1991, de 6 de junio, del Impuesto sobre el Patrimonio (BOE)",
+        "titulo": "Ley 19/1991, de 6 de junio, del Impuesto sobre el Patrimonio (BOE), artículo 1",
         "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-1991-14392",
         "fecha": "1991-06-06",
         "consultado": "2026-07-12",
-        "cita": "Ley 19/1991, de 6 de junio, del Impuesto sobre el Patrimonio"
+        "cita": "El Impuesto sobre el Patrimonio es un tributo de carácter directo y naturaleza personal que grava el patrimonio neto de las personas físicas en los términos previstos en esta Ley."
       },
       "grupoEvidencia": "pasaje-b2832557b415ee66e00c"
     }
