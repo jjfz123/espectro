@@ -215,6 +215,62 @@
         "cita": "Un país que lucha por los derechos LGTBI: por la conquista de la igualdad real"
       },
       "grupoEvidencia": "pasaje-18294fc9377aac526e15"
+    },
+    "eco-009": {
+      "valor": -2,
+      "justificacion": "IU impulsa una proposición de ley para crear un impuesto a las grandes herencias y donaciones por encima del millón de euros: defiende reforzar la imposición sucesoria, lo contrario de suprimir el impuesto de sucesiones y donaciones que plantea el ítem. El titular citado es el título de la propia nota.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "IU, proposición de ley de Impuesto a las Grandes Herencias y Donaciones por encima del millón de euros",
+        "url": "https://izquierdaunida.org/2026/05/22/izquierda-unida-impulsa-una-proposicion-de-ley-para-crear-un-impuesto-a-las-grandes-herencias-y-donaciones-por-encima-del-millon-de-euros/",
+        "fecha": "2026-05-22",
+        "consultado": "2026-07-11",
+        "cita": "Izquierda Unida impulsa una proposición de ley para crear un Impuesto a las Grandes Herencias y Donaciones por encima del millón de euros"
+      },
+      "grupoEvidencia": "pasaje-406b251e382cad92fd29"
+    },
+    "soc-003": {
+      "valor": -1,
+      "justificacion": "El portavoz anuncia que la norma que sustituirá a la ley mordaza derogará los contenidos liberticidas y lesivos que introdujo el PP en la ley de seguridad ciudadana; la cita no menciona la videovigilancia del ítem: extensión de principio declarada contra ampliar potestades de seguridad, de ahí el valor moderado y la calidad media.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Enrique Santiago (IU), declaraciones sobre la norma que sustituirá a la ley mordaza",
+        "url": "https://izquierdaunida.org/2024/10/30/enrique-santiago-afirma-que-la-nueva-norma-que-sustituira-a-la-ley-mordaza-derogara-todos-los-contenidos-liberticidas-y-lesivos-que-introdujo-el-pp-que-impiden-ejercer-derec/",
+        "fecha": "2024-10-30",
+        "consultado": "2026-07-11",
+        "cita": "derogará todos los contenidos liberticidas y lesivos que introdujo el PP"
+      },
+      "grupoEvidencia": "pasaje-a6aff8ed621217866b61"
+    },
+    "fem-001": {
+      "valor": 2,
+      "justificacion": "Bajo ese título, el comunicado celebra el avance de la Ley Trans y de derechos LGTBI: la autodeterminación registral sin requisitos médicos ni psicológicos que la ley consagra es lo que formula el ítem.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "IU, Son derechos, no deseos ¡es ley! Unidas Podemos reivindica el avance de la Ley Trans y de derechos LGTBI",
+        "url": "https://izquierdaunida.org/2021/07/02/son-derechos-no-deseos-es-ley-unidas-podemos-reivindica-este-orgullo-el-avance-de-la-ley-trans-y-de-derechos-lgtbi/",
+        "fecha": "2021-07-02",
+        "consultado": "2026-07-11",
+        "cita": "Son derechos, no deseos ¡es ley!"
+      },
+      "grupoEvidencia": "pasaje-f7c7d552702560c5db2c"
+    },
+    "soc-004": {
+      "valor": 2,
+      "justificacion": "El Programa Marco de 2023 recoge como epígrafe la regularización extraordinaria de las personas migrantes y los derechos de ciudadanía, coincidente con la regularización extraordinaria del ítem; la cita es el título de la sección programática; cotejo humano del PDF pendiente.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa Marco IU Elecciones Generales 2023",
+        "url": "https://izquierdaunida.org/wp-content/uploads/2023/07/Programa-IU-Elecciones-Generales-Jl2023.pdf",
+        "fecha": "2023-07",
+        "consultado": "2026-07-11",
+        "cita": "Regularización extraordinaria de las personas migrantes y derechos de ciudadanía"
+      },
+      "grupoEvidencia": "pasaje-19b7241595c8656f0d85"
     }
   }
 }
