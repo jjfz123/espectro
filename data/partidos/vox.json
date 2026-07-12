@@ -327,16 +327,18 @@
       }
     },
     "dr-003": {
-      "valor": 1,
-      "justificacion": "Su programa incluye expulsar a residentes legales en categorías concretas —delitos graves o reincidencia—, no retornar indistintamente a toda persona inmigrante regular.",
-      "calidadEvidencia": "alta",
+      "valor": 2,
+      "justificacion": "Giro doctrinal documentado: el programa de 2023 limitaba la expulsión de residentes regulares a delitos o reincidencia, pero en julio de 2025 su portavoz de Emergencia Demográfica cuantificó una «remigración masiva» de siete a ocho millones de personas incluyendo a descendientes nacidos en España — es decir, retorno promovido también de población en situación regular.",
+      "calidadEvidencia": "media",
       "fuente": {
-        "tipo": "programa",
-        "titulo": "Programa electoral de VOX para las elecciones generales de 2023",
-        "url": "https://www.voxespana.es/wp-content/uploads/2023/07/Programa-VOX-2023-con-menos-peso.pdf",
-        "fecha": "2023-07",
-        "consultado": "2026-07-09"
-      }
+        "tipo": "declaracion",
+        "titulo": "Vox propone deportar de manera «masiva» a 7 millones de inmigrantes de España (Euronews)",
+        "url": "https://es.euronews.com/my-europe/2025/07/08/vox-propone-de-manera-abierta-deportar-de-manera-masiva-a-millones-de-inmigrantes",
+        "fecha": "2025-07-08",
+        "consultado": "2026-07-12",
+        "cita": "Vox propone de manera abierta deportar de manera masiva a millones de inmigrantes"
+      },
+      "grupoEvidencia": "pasaje-c59ba089738e5bb853d6"
     },
     "dr-004": {
       "valor": 2,
