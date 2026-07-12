@@ -323,6 +323,54 @@
         "fecha": "2026-03-18",
         "consultado": "2026-07-10"
       }
+    },
+    "dr-021": {
+      "valor": -2,
+      "justificacion": "UPN existe para defender el régimen foral propio y diferenciado de Navarra y su Amejoramiento como autogobierno dentro de la unidad constitucional; sitúa la foralidad y la singularidad navarra por encima incluso de la derecha estatal. Suprimir las autonomías para sustituirlas por un Estado unitario de administración única eliminaría las instituciones forales que son su razón de ser.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Principios y valores de Unión del Pueblo Navarro (defensa del régimen foral)",
+        "url": "https://www.upn.org/principios-y-valores/",
+        "fecha": "2026",
+        "consultado": "2026-07-12"
+      }
+    },
+    "dem-012": {
+      "valor": 2,
+      "justificacion": "UPN encuadra toda su acción territorial dentro de la Constitución y del Amejoramiento del Fuero (LORAFNA) y rechaza cualquier apertura unilateral; canaliza el cambio político por los procedimientos institucionales y constitucionales vigentes.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Principios y valores de Unión del Pueblo Navarro (constitucionalismo)",
+        "url": "https://www.upn.org/principios-y-valores/",
+        "fecha": "2026",
+        "consultado": "2026-07-12"
+      }
+    },
+    "ue-001": {
+      "valor": -1,
+      "justificacion": "El 22-01-2026 UPN votó a favor de la resolución del Parlamento de Navarra que reafirma el compromiso proeuropeo en el 40º aniversario del ingreso de España en la UE, defendiendo el proyecto europeo como espacio de paz, derechos, igualdad y cohesión. Su europeísmo, alineado con el PPE, rechaza el discurso de que la integración ha ido demasiado lejos, sin abrazar el federalismo.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "El Parlamento de Navarra reafirma el compromiso en el 40º aniversario del ingreso de España en la UE (Navarra Información)",
+        "url": "https://www.navarrainformacion.es/2026/01/22/el-parlamento-de-navarra-reafirma-el-compromiso-en-el-40o-aniversario-del-ingreso-de-espana-en-la-ue/",
+        "fecha": "2026-01",
+        "consultado": "2026-07-12"
+      }
+    },
+    "lab-016": {
+      "valor": -1,
+      "justificacion": "UPN es un partido de centro-derecha proempresa: su programa foral impulsa rebajas fiscales generalizadas, la exención de Patrimonio y la reducción de Sucesiones, y se opuso a los topes al alquiler por 'destrozar' el mercado. Ese perfil económico liberal es incompatible con reservar al Estado la dirección de empresas estratégicas rentables.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral de UPN para Navarra 2023 (orientación económica liberal)",
+        "url": "https://elecciones.upn.org/programa/",
+        "fecha": "2023",
+        "consultado": "2026-07-12"
+      }
     }
   }
 }
