@@ -17,7 +17,6 @@ export const PERFILES_REALES: number =
 
 import ejesJson from '@data/ejes.json';
 import modulosJson from '@data/modulos.json';
-import glosarioJson from '@data/glosario.json';
 import versionJson from '@data/version.json';
 import rapidoJson from '@data/rapido.json';
 
@@ -71,21 +70,13 @@ export interface TerminoGlosario {
   url: string;
 }
 
-export const GLOSARIO_POR_ID: ReadonlyMap<string, TerminoGlosario> = new Map(
-  (glosarioJson as TerminoGlosario[]).map((t) => [t.id, t]),
-);
-
-/** Términos del glosario que usa un ítem, en el orden en que los declara. */
-export function terminosDeItem(item: Item): TerminoGlosario[] {
-  if (!item.terminos) return [];
-  return item.terminos
-    .map((id) => GLOSARIO_POR_ID.get(id))
-    .filter((t): t is TerminoGlosario => t !== undefined);
-}
+/* El glosario ya no viaja en el cierre estático inicial: vive en
+   web/src/glosario.ts con carga perezosa y prefetch (palanca de recuperación
+   del presupuesto ejecutada el 2026-07-13, al crecer a 96 términos). */
 
 /**
- * Ampliación de 2026: diez discriminantes generales añadidos al final del
- * recorrido rápido. Mantener el orden explícito evita desplazar las primeras
+ * Ampliación de 2026: veinticinco preguntas añadidas al final del recorrido
+ * rápido (diez discriminantes generales y quince de cobertura partidista, v5). Mantener el orden explícito evita desplazar las primeras
  * cuarenta preguntas en sesiones ya empezadas.
  */
 export const IDS_AMPLIACION_NUCLEO = rapidoJson.idsAmpliacion2026;

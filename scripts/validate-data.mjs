@@ -309,16 +309,18 @@ const idsRapidos = Array.isArray(rapido.ids) ? rapido.ids : [];
 const idsAmpliacionRapida = Array.isArray(rapido.idsAmpliacion2026)
   ? rapido.idsAmpliacion2026
   : [];
-if (idsRapidos.length !== 50) fallo('rapido.json', `debe contener 50 ids, contiene ${idsRapidos.length}`);
+// v5 (2026-07-13): el rápido crece a 65 — 50 originales + ampliación 2026 de 25
+// (los 10 discriminantes del día 12 y los 15 de cobertura partidista del día 13).
+if (idsRapidos.length !== 65) fallo('rapido.json', `debe contener 65 ids, contiene ${idsRapidos.length}`);
 if (new Set(idsRapidos).size !== idsRapidos.length) fallo('rapido.json', 'contiene ids duplicados');
-if (idsAmpliacionRapida.length !== 10) {
-  fallo('rapido.json', `la ampliación debe contener 10 ids, contiene ${idsAmpliacionRapida.length}`);
+if (idsAmpliacionRapida.length !== 25) {
+  fallo('rapido.json', `la ampliación debe contener 25 ids, contiene ${idsAmpliacionRapida.length}`);
 }
 if (new Set(idsAmpliacionRapida).size !== idsAmpliacionRapida.length) {
   fallo('rapido.json', 'la ampliación contiene ids duplicados');
 }
 if (idsRapidos.slice(-idsAmpliacionRapida.length).join('|') !== idsAmpliacionRapida.join('|')) {
-  fallo('rapido.json', 'los diez ids de ampliación deben cerrar el recorrido rápido');
+  fallo('rapido.json', 'los ids de ampliación deben cerrar el recorrido rápido');
 }
 for (const itemId of idsRapidos) {
   const item = itemsPorId.get(itemId);

@@ -480,33 +480,6 @@
     "notas": "Discrimina: Tradicionalistas y Vox (+2, primacía educativa de la familia) y democristianos (+1) frente a tecnócratas y liberales (−1, la escuela no se veta) con el PP en un +1 incómodo (lo pactó en Murcia pero lo relativizó). Mide control moral parental sin pasar por la asignatura de Religión (der-103) ni por la moral cristiana del banco. | Esperado: Vox +2, tradicionalismo/carlismo +2, neoconservadurismo +1, democracia cristiana +1, PP +1, ala tecnócrata -1, Ciudadanos -1, PSOE -2. | Redactado sin la etiqueta 'pin parental' (palabra-bandera) y sin 'adoctrinamiento': describe el mecanismo (autorización previa) de forma que ambos bandos lo reconocen como neutro. | [Añadido por el revisor para cubrir un hueco]"
   },
   {
-    "id": "der-026",
-    "texto": "Los partidos que promueven la secesión de una parte de España deben poder ser ilegalizados.",
-    "modulo": "corrientes-derecha",
-    "ejes": [
-      {
-        "eje": "territorial",
-        "carga": 0.5
-      },
-      {
-        "eje": "social",
-        "carga": 0.5
-      },
-      {
-        "eje": "autoridad-politica",
-        "carga": 0.75
-      }
-    ],
-    "polaridad": "negativa",
-    "tags": [
-      "partidos",
-      "unidad-nacional",
-      "pluralismo"
-    ],
-    "estado": "piloto",
-    "notas": "Discrimina: Frontera institucional entre derecha convencional y radical: Vox (+2, lo lleva en programa) frente a PP, democristianos y tecnócratas (−2, constitucionalismo pluralista: combatir la secesión con la ley, no proscribiendo idearios). Complementa a der-108: aquel marca la frontera climática, este la del pluralismo. No duplica 'unidad de España sobre reivindicación autonómica' (que mide prioridad, no proscripción). | Esperado: Vox +2, tradicionalismo/carlismo +1, neoconservadurismo +0, Ciudadanos -1, PP -2, democracia cristiana -2, ala tecnócrata -2, PSOE -2. | Vox ha propuesto la ilegalización de partidos separatistas; el PP la ha rechazado expresamente. Cs propuso endurecer la LO de partidos sin llegar a la proscripción por ideario (−1). | [Añadido por el revisor para cubrir un hueco]"
-  },
-  {
     "id": "der-027",
     "terminos": [
       "distributismo"

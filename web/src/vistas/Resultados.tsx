@@ -418,17 +418,27 @@ export function Resultados({ estado, despachar, puedeRecargar, alConfirmarGuarda
       </p>
 
       {(() => {
-        const top = resultados.find((r) => typeof r.puntuacion === 'number');
+        /* El titular del panel debe nombrar al MISMO nº 1 que muestra el
+           ranking: el primero con cobertura comparable. Tomar el máximo bruto
+           coronaba a un perfil de 3-6 ítems al 75 % por delante de partidos
+           comparados en 26-32 (bug reportado por el propietario: perfil de
+           centro-derecha «etiquetado» con el PCTE). */
+        const top =
+          resultados.find((r) => typeof r.puntuacion === 'number' && !r.bajaCobertura) ??
+          resultados.find((r) => typeof r.puntuacion === 'number');
         const partidoTop = top ? PARTIDO_POR_ID.get(top.entidadId) : undefined;
         if (!top || !partidoTop) return null;
         return (
           <div className="lectura-rapida" role="note">
-            <strong>Cómo leer esta página.</strong> Donde más coincides es{' '}
-            <strong>{partidoTop.nombre}</strong> ({Math.round(top.puntuacion ?? 0)} %): ese
-            ranking usa todas tus respuestas. Lo demás son lecturas de detalle que no te
-            etiquetan: las «corrientes afines» comparan solo unas pocas preguntas definitorias
-            de cada corriente —puedes salir cerca de corrientes rivales entre sí a la vez— y el
-            mapa mide cercanía geométrica en dos ejes, no tu perfil entero.
+            <strong>Cómo leer esta página.</strong> Donde más coincides con datos suficientes es{' '}
+            <strong>{partidoTop.nombre}</strong> ({Math.round(top.puntuacion ?? 0)} %,
+            comparando {top.itemsComparados} de tus {respuestas.length} respuestas): es el
+            primero del ranking, que ordena por porcentaje y deja aparte los perfiles con pocos
+            datos comparables — esos aparecen después como «cobertura baja» y su porcentaje es
+            solo orientativo. Lo demás son lecturas de detalle que no te etiquetan: las
+            «corrientes afines» comparan solo unas pocas preguntas definitorias de cada
+            corriente —puedes salir cerca de corrientes rivales entre sí a la vez— y el mapa
+            mide cercanía geométrica en dos ejes, no tu perfil entero.
           </div>
         );
       })()}

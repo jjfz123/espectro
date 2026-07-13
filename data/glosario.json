@@ -486,5 +486,119 @@
     "definicion": "Planes económicos públicos que fijan prioridades y orientan la inversión privada mediante incentivos e información, sin sustituir al mercado ni a la propiedad privada. La Constitución la habilita en su artículo 131.",
     "ampliacion": "Modelo asociado a la Francia de posguerra (Comisaría General del Plan, 1946) y a la economía mixta. Se distingue de la planificación imperativa o sustitutiva —ver «Planificación económica»— en que el plan orienta y complementa el mercado en vez de reemplazarlo.",
     "url": "https://es.wikipedia.org/wiki/Planificaci%C3%B3n_indicativa"
+  },
+  {
+    "id": "referendum-vinculante",
+    "termino": "Referéndum vinculante",
+    "definicion": "Consulta popular cuyo resultado obliga jurídicamente a los poderes públicos. En España el referéndum del artículo 92 de la Constitución es consultivo: pregunta, pero no obliga por sí mismo.",
+    "ampliacion": "Sí son vinculantes el referéndum de reforma constitucional y los de aprobación o reforma de ciertos estatutos de autonomía. Convertir la consulta vinculante en herramienta habitual exigiría cambios constitucionales.",
+    "url": "https://app.congreso.es/consti/constitucion/indice/sinopsis/sinopsis.jsp?art=92&tipo=2"
+  },
+  {
+    "id": "disciplina-de-voto",
+    "termino": "Disciplina de voto",
+    "definicion": "Obligación práctica de que los cargos de un partido voten lo que decide su dirección o su grupo, con sanciones internas si se desmarcan.",
+    "ampliacion": "No está en la ley: nace de los estatutos de cada partido. Convive con la prohibición constitucional del mandato imperativo (los escaños pertenecen al representante, no al partido), tensión que los tribunales han resuelto protegiendo el escaño del díscolo.",
+    "url": "https://es.wikipedia.org/wiki/Disciplina_de_voto"
+  },
+  {
+    "id": "concierto-sanitario",
+    "termino": "Concierto sanitario",
+    "definicion": "Contrato por el que la sanidad pública paga a clínicas privadas por atender pacientes del sistema público, por ejemplo para acortar listas de espera.",
+    "url": "https://es.wikipedia.org/wiki/Sanidad_privada_en_Espa%C3%B1a"
+  },
+  {
+    "id": "sujeto-de-derechos",
+    "termino": "Sujeto de derechos",
+    "definicion": "Quien puede ser titular de derechos propios ante la ley, y no solo objeto de protección. Reconocer a los animales como sujetos les daría derechos exigibles en su nombre, más allá de las leyes de bienestar animal que limitan lo que las personas pueden hacerles.",
+    "url": "https://es.wikipedia.org/wiki/Derechos_de_los_animales"
+  },
+  {
+    "id": "ilegalizacion-de-partidos",
+    "termino": "Ilegalización de partidos",
+    "definicion": "Disolución de un partido por decisión judicial. La Ley de Partidos de 2002 la permite por actividades (apoyar la violencia o vulnerar sistemáticamente derechos), no por las ideas o programas que defienda.",
+    "ampliacion": "Se aplicó a Batasuna en 2003, confirmada por el Tribunal Europeo de Derechos Humanos. Ilegalizar por defender pacíficamente la secesión no cabe en la ley vigente; exigiría reformarla y chocaría con la jurisprudencia europea.",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2002-12756"
+  },
+  {
+    "id": "impuesto-sucesiones",
+    "termino": "Impuesto de sucesiones y donaciones",
+    "definicion": "Impuesto que paga quien recibe una herencia o una donación. Está cedido a las comunidades autónomas, que lo han bonificado de forma muy desigual: en varias apenas se paga entre padres e hijos.",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-1987-28141"
+  },
+  {
+    "id": "impuesto-grandes-fortunas",
+    "termino": "Impuesto a las grandes fortunas",
+    "definicion": "Impuesto estatal creado en 2022 sobre patrimonios netos superiores a 3 millones de euros, pensado también para neutralizar las bonificaciones autonómicas del impuesto de patrimonio.",
+    "ampliacion": "Nació como «impuesto temporal de solidaridad» para 2023-2024 y después se prorrogó sin fecha de fin, lo que reabrió el debate sobre convertirlo en figura permanente. Grava con tipos del 1,7 % al 3,5 % y descuenta lo ya pagado por patrimonio, así que su recaudación efectiva depende de cada comunidad: en las que bonifican patrimonio (como Madrid o Andalucía) actúa de suelo estatal; en el resto apenas añade cuota.",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2022-22684"
+  },
+  {
+    "id": "zona-tensionada",
+    "termino": "Zona de mercado residencial tensionado",
+    "definicion": "Área que una comunidad autónoma declara oficialmente con alquileres o precios desproporcionados respecto a las rentas. La declaración activa medidas de la Ley de Vivienda de 2023, incluidos topes a la subida de alquileres.",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-12203"
+  },
+  {
+    "id": "parque-publico-vivienda",
+    "termino": "Parque público de vivienda",
+    "definicion": "Conjunto de viviendas propiedad de administraciones públicas destinadas al alquiler social o asequible. En España ronda el 1-3 % del total de hogares, frente a cifras muy superiores en países como Países Bajos o Austria.",
+    "url": "https://es.wikipedia.org/wiki/Vivienda_p%C3%BAblica"
+  },
+  {
+    "id": "coste-del-despido",
+    "termino": "Coste del despido",
+    "definicion": "Indemnización que la empresa paga al despedir: hoy, con carácter general, 33 días de salario por año trabajado en el despido improcedente y 20 en el objetivo o procedente, con topes.",
+    "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2015-11430"
+  },
+  {
+    "id": "regularizacion-extraordinaria",
+    "termino": "Regularización extraordinaria",
+    "definicion": "Proceso puntual por el que se concede permiso de residencia y trabajo a extranjeros que ya viven en el país sin papeles, normalmente acreditando arraigo. España hizo la última gran regularización en 2005.",
+    "ampliacion": "La vía ordinaria actual es el arraigo (laboral, social, familiar o de formación), que regulariza caso a caso tras años de estancia. Una regularización extraordinaria abre una ventana colectiva con requisitos generales: la de 2005 documentó a unas 580.000 personas. En 2024 el Congreso tomó en consideración una iniciativa legislativa popular, avalada por más de 600.000 firmas, para aprobar una nueva.",
+    "url": "https://es.wikipedia.org/wiki/Regularizaci%C3%B3n_de_inmigrantes_en_Espa%C3%B1a_de_2005"
+  },
+  {
+    "id": "federalismo-europeo",
+    "termino": "Federalismo europeo",
+    "definicion": "Corriente que aspira a convertir la Unión Europea en una federación política: más decisiones por mayoría, hacienda y política exterior comunes y menos vetos nacionales, a costa de ceder soberanía estatal.",
+    "url": "https://es.wikipedia.org/wiki/Federalismo_europeo"
+  },
+  {
+    "id": "prohibicion-combustion-2035",
+    "termino": "Fin de la venta de coches de combustión (2035)",
+    "definicion": "Norma de la UE que prohíbe matricular coches y furgonetas nuevos con emisiones de CO2 a partir de 2035 — en la práctica, los de gasolina y diésel. No afecta a los ya matriculados ni al mercado de segunda mano.",
+    "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX%3A32023R0851"
+  },
+  {
+    "id": "consejo-seguridad-onu",
+    "termino": "Consejo de Seguridad de la ONU",
+    "definicion": "Órgano de Naciones Unidas responsable de la paz internacional: sus resoluciones son obligatorias y puede autorizar el uso de la fuerza. Cinco miembros permanentes (EE. UU., Rusia, China, Francia y Reino Unido) tienen derecho de veto.",
+    "url": "https://www.un.org/securitycouncil/es"
+  },
+  {
+    "id": "sector-estrategico",
+    "termino": "Sector estratégico",
+    "definicion": "Actividad considerada esencial para el funcionamiento o la seguridad del país: energía, banca, telecomunicaciones, defensa, agua o transporte. Que el Estado deba dirigir empresas en esos sectores, participar en ellas o solo regularlas es un eje clásico de desacuerdo político.",
+    "url": "https://es.wikipedia.org/wiki/Sector_estrat%C3%A9gico"
+  },
+  {
+    "id": "colaboracion-publico-privada",
+    "termino": "Colaboración público-privada",
+    "definicion": "Fórmula en la que la administración mantiene la titularidad y financiación de un servicio público pero encarga su gestión o provisión a empresas privadas mediante contratos o conciertos.",
+    "url": "https://es.wikipedia.org/wiki/Colaboraci%C3%B3n_p%C3%BAblico-privada",
+    "ampliacion": "En España adopta formas muy distintas: conciertos sanitarios y educativos, mutuas colaboradoras, concesiones de obra o de servicios (autopistas, agua, hospitales como los del «modelo Alzira») y contratos de gestión. Sus defensores subrayan eficiencia y flexibilidad; sus críticos, pérdida de control público, opacidad y selección de lo rentable. Buena parte del debate sanitario y educativo español es, en el fondo, un debate sobre cuánta colaboración público-privada debe haber y con qué límites."
+  },
+  {
+    "id": "ocupacion-de-vivienda",
+    "termino": "Ocupación de vivienda",
+    "definicion": "Uso de una vivienda sin título legal. El Código Penal distingue el allanamiento de morada (vivienda habitada, delito más grave y desalojo inmediato) de la usurpación (inmueble deshabitado); los tiempos de desalojo dependen de la vía penal o civil y de si hay vulnerabilidad acreditada.",
+    "url": "https://es.wikipedia.org/wiki/Ocupaci%C3%B3n_de_inmuebles_en_Espa%C3%B1a"
+  },
+  {
+    "id": "competencias-autonomicas",
+    "termino": "Competencias autonómicas",
+    "definicion": "Materias que la Constitución y los estatutos reparten entre el Estado y las comunidades autónomas (sanidad, educación o vivienda son autonómicas; defensa o pensiones, estatales). «Devolver competencias» significa recentralizar ese reparto.",
+    "url": "https://app.congreso.es/consti/constitucion/indice/titulos/articulos.jsp?ini=148&fin=149&tipo=2"
   }
 ]

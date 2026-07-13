@@ -83,30 +83,6 @@
     "notas": "Ítem solo-matching: separa estalinismo de trotskismo/luxemburguismo sin cargar ejes."
   },
   {
-    "id": "izq-005",
-    "texto": "La planificación pública debe sustituir al mercado en los sectores estratégicos de la economía.",
-    "modulo": "corrientes-izquierda",
-    "ejes": [
-      {
-        "eje": "economico",
-        "carga": -1
-      },
-      {
-        "eje": "propiedad-mercado",
-        "carga": -0.5
-      }
-    ],
-    "polaridad": "positiva",
-    "tags": [
-      "planificacion"
-    ],
-    "estado": "piloto",
-    "terminos": [
-      "planificacion-economica"
-    ],
-    "notas": "Separa planificación pública de coordinación por mercado, pero no distingue propiedad estatal, control obrero o planificación democrática; esas razones se miden en otros ítems."
-  },
-  {
     "id": "izq-006",
     "texto": "Es legítimo construir el socialismo primero en el propio país antes que subordinarlo a una estrategia internacional.",
     "modulo": "corrientes-izquierda",
@@ -120,30 +96,6 @@
     "notas": "Solo-matching: socialismo en un país vs. internacionalismo.",
     "terminos": [
       "socialismo-en-un-pais"
-    ]
-  },
-  {
-    "id": "izq-007",
-    "texto": "El Estado, incluso uno obrero, es una estructura que hay que abolir, no conquistar.",
-    "modulo": "corrientes-izquierda",
-    "ejes": [
-      {
-        "eje": "organizacion",
-        "carga": -0.5
-      },
-      {
-        "eje": "autoridad-politica",
-        "carga": -0.75
-      }
-    ],
-    "polaridad": "positiva",
-    "tags": [
-      "anarcocomunismo"
-    ],
-    "estado": "piloto",
-    "notas": "Distingue abolición antiestatal de conquista o transformación del Estado; el acuerdo puede proceder de anarquismo o comunismo libertario y no implica una economía de mercado.",
-    "terminos": [
-      "consejismo"
     ]
   },
   {

@@ -189,6 +189,48 @@
         "cita": "PACMA solicita un referéndum vinculante para elegir el modelo de Estado"
       },
       "grupoEvidencia": "pasaje-11f45a0bc3ddaa2423af"
+    },
+    "eco-001": {
+      "valor": 1,
+      "justificacion": "Su presidenta y cabeza de lista defendía en campaña aumentar la presión fiscal a los más ricos y bajarla a los más pobres como concreción de una mayor redistribución de la riqueza; apoya la subida a las rentas altas sin cuantificarla.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Hablamos de corrupción, paraísos fiscales y ecología con la presidenta del PACMA (Vice)",
+        "url": "https://www.vice.com/es/article/hablamos-corrupcion-paraisos-fiscales-ecologia-presidenta-pacma/",
+        "cita": "no sólo se debe luchar contra la evasión, también tenemos que aumentar la presión fiscal a los más ricos y bajarla a los más pobres",
+        "fecha": "2016",
+        "consultado": "2026-07-13"
+      },
+      "grupoEvidencia": "pasaje-370f21ff7045a684c21e"
+    },
+    "ene-001": {
+      "valor": -2,
+      "justificacion": "Su compromiso energético de campaña plantea impulsar las renovables como alternativa a las fuentes contaminantes —entre las que incluye la nuclear— hasta alcanzar un sistema eléctrico 100% renovable en menos de una década, lo que excluye autorizar nuevas centrales nucleares.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Compromiso político: modelo energético basado en la eficiencia y renovables (campaña de PACMA, generales 2016)",
+        "url": "https://pacma.es/campana-politica/compromiso-politico-modelo-energetico-basado-en-la-eficiencia-y-renovables/",
+        "cita": "sistema eléctrico 100% renovable",
+        "fecha": "2016-06",
+        "consultado": "2026-07-13"
+      },
+      "grupoEvidencia": "pasaje-f05b5d9d8d7f7e567509"
+    },
+    "dem-021": {
+      "valor": 2,
+      "justificacion": "En su campaña contra la Ley Mordaza, PACMA afirma que «El derecho a la protesta pacífica es fundamental» y se opone frontalmente a la Ley de Seguridad Ciudadana que sanciona las manifestaciones; de ese rechazo se sigue que participar pacíficamente en una manifestación no debería sancionarse por no haberse comunicado previamente.",
+      "calidadEvidencia": "media",
+      "grupoEvidencia": "pacma-ley-mordaza-protesta-pacifica",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "El Régimen que impone la Ley Mordaza (PACMA)",
+        "url": "https://pacma.es/campana-politica/el-regimen-que-impone-la-ley-mordaza/",
+        "cita": "El derecho a la protesta pacífica es fundamental",
+        "fecha": "2015",
+        "consultado": "2026-07-13"
+      }
     }
   }
 }

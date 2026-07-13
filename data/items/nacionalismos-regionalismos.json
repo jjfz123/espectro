@@ -22,25 +22,6 @@
     ]
   },
   {
-    "id": "nac-002",
-    "texto": "El objetivo final para mi nación debe ser un Estado independiente, no un encaje pactado de más autogobierno dentro de España.",
-    "modulo": "nacionalismos-regionalismos",
-    "ejes": [
-      {
-        "eje": "territorial",
-        "carga": -1
-      }
-    ],
-    "polaridad": "positiva",
-    "tags": [
-      "independencia",
-      "confederalismo",
-      "foralismo"
-    ],
-    "estado": "piloto",
-    "notas": "Discrimina: Independentistas (ERC, Junts, CUP, EH Bildu) frente a confederalistas/foralistas (PNV, Geroa Bai, PDeCAT) y frente al foralismo españolista (UPN); BNG soberanista pero gradualista. | Esperado: EH Bildu +2, ERC +2, CUP +2, Junts +2, PNV -1, Geroa Bai -1, BNG +1, UPN -2."
-  },
-  {
     "id": "nac-003",
     "texto": "Quien no habla la lengua propia del territorio no puede considerarse plenamente miembro de la nación.",
     "modulo": "nacionalismos-regionalismos",

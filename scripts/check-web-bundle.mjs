@@ -97,14 +97,12 @@ const entrada3d = buscarEntrada('visor 3D', (clave) => clave.endsWith('/componen
 
 const ficherosIniciales = new Set(entradaInicial ? cierreEstatico(entradaInicial) : []);
 const ficherosResultados = new Set(entradaResultados ? cierreEstatico(entradaResultados) : []);
-// 2026-07-13: 130→126 (recuperación parcial del 120→130 del día 12). El
-// catálogo doctrinal ya no entra al cierre de Resultados, pero el inicial no
-// vuelve a 120 porque su crecimiento era CONTENIDO, no fuga: glosario 64→78
-// con ampliaciones, banco 396→414, motor de desbloqueo conjuntivo y salto de
-// contestadas (los ítems ya viajan podados de notas/tags). Suelo medido:
-// 125,2. Palanca identificada si hace falta bajar más: glosario perezoso
-// tras el primer «?» (~2,5 KiB; exige rehacer su contrato E2E síncrono).
-comprobarGrupo('aplicación inicial', entradaInicial, 126 * 1024);
+// 2026-07-13 (tarde): 126→120 — RECUPERACIÓN COMPLETA del 120→130 del día 12.
+// La palanca del glosario perezoso se ejecutó al crecer a 96 términos (v5):
+// el catálogo sale del cierre inicial con prefetch al montar el cuestionario
+// y el inicial queda en 107,2 KiB medidos, por debajo incluso del objetivo
+// original pese a llevar 65 preguntas de núcleo y el motor conjuntivo.
+comprobarGrupo('aplicación inicial', entradaInicial, 120 * 1024);
 // Presupuesto real de ruta: incluye Resultados y todos sus imports estáticos,
 // especialmente datosResultados. Se mide transferencia adicional a la portada;
 // no se suman chunks dinámicos como Mapa3D.

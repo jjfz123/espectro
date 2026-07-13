@@ -13,10 +13,10 @@
     "sha256": "a0dd02c7130751da75d663b05e479ed8957a4b5ae0ae67daf076a375f4a28415"
   },
   "rapido": {
-    "total": 50,
-    "sha256": "632ce8393fcba303c720fbfde56c0611381f0c02cf4603cc9724632df37b797a",
-    "ampliacionTotal": 10,
-    "ampliacionSha256": "523701ac97a6840fd15f03f408709ce543e817fcb82689b4b12c690903004c11"
+    "total": 65,
+    "sha256": "d12ea197d708607789278b9ae85fc26169826093ee466cb4e20408143edbd1ed",
+    "ampliacionTotal": 25,
+    "ampliacionSha256": "9fd528ad196b7dbfa031cb1909ba14ac2d04ed094847dff89f03b9b2c94e20ba"
   },
   "cribaRegiones": {
     "total": 30,
@@ -24,7 +24,7 @@
   },
   "contratoFuncional": {
     "total": 291,
-    "sha256": "7dff93c0d7e1bc9142b038655fb18897b002380fa4266ee5e23a96cd08487b93"
+    "sha256": "ee340830782925d63a265defd6ef14f02364f7656690ffd1a78810353e804153"
   },
   "ideologiasImagen": {
     "total": 178,

@@ -4,10 +4,27 @@
   "siglas": "BEX",
   "ambito": "autonomico",
   "tipo": "partido",
-  "ccaa": ["castilla-y-leon"],
+  "ccaa": [
+    "castilla-y-leon"
+  ],
   "confianza": "sin-datos",
   "web": "https://www.elbierzoexiste.org/",
   "revisado": "2026-07-10",
   "actividad": "activa",
-  "posiciones": {}
+  "posiciones": {
+    "nac-013": {
+      "valor": 2,
+      "justificacion": "El Bierzo Existe concurre integrada en Coalición por El Bierzo, cuya plataforma bercianista reclama reconocer el gallego como lengua oficial en Castilla y León y protegerlo en las zonas de El Bierzo donde se habla; el bercianismo «maniobra para considerar el gallego lengua oficial en Castilla y León».",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "El bercianismo maniobra para considerar el gallego lengua oficial en Castilla y León mientras aguarda su provincia (El Debate)",
+        "url": "https://www.eldebate.com/espana/castilla-y-leon/20260217/bercianismo-maniobra-considerar-gallego-lengua-oficial-castilla-leon-mientras-aguarda-provincia_385696.html",
+        "cita": "El bercianismo maniobra para considerar el gallego lengua oficial en Castilla y León mientras aguarda su provincia",
+        "fecha": "2026-02-17",
+        "consultado": "2026-07-13"
+      },
+      "grupoEvidencia": "pasaje-76dc0794bfbe7df8e6fe"
+    }
+  }
 }

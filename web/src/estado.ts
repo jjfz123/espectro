@@ -614,10 +614,20 @@ export function cargarEstado(): Estado {
     // (validate:data) obliga a decidir conscientemente cada cambio nuevo.
     const migracionCargasV3aV4 =
       VERSION_INSTRUMENTO === '4' && datos.versionInstrumento === '3';
+    // v4 → v5 amplía el núcleo/rápido de 50 a 65 preguntas moviendo 15 ítems
+    // desde sus módulos temáticos: ids, textos, escala y cargas intactos, así
+    // que cada respuesta guardada conserva exactamente su significado. Una
+    // sesión v4 en curso simplemente encuentra más preguntas pendientes (el
+    // avance salta lo contestado); una terminada conserva su resultado y
+    // puede ampliarlo. Nada que reinterpretar: migración compatible.
+    const migracionNucleoV4aV5 =
+      VERSION_INSTRUMENTO === '5' && datos.versionInstrumento === '4';
     const motivoRetirada: MotivoRetirada | null =
       datos.version !== 3
         ? 'version-app'
-        : datos.versionInstrumento !== VERSION_INSTRUMENTO && !migracionCargasV3aV4
+        : datos.versionInstrumento !== VERSION_INSTRUMENTO &&
+            !migracionCargasV3aV4 &&
+            !migracionNucleoV4aV5
           ? 'instrumento'
           : !Number.isFinite(guardadoEn)
             ? 'marca-temporal'

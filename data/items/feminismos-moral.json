@@ -1,28 +1,5 @@
 [
   {
-    "id": "fem-001",
-    "texto": "Cualquier persona adulta debe poder cambiar su sexo en el registro civil por su sola voluntad, sin necesidad de informes médicos ni psicológicos.",
-    "modulo": "feminismos-moral",
-    "ejes": [
-      {
-        "eje": "social",
-        "carga": -1
-      },
-      {
-        "eje": "tradicion-moral",
-        "carga": -0.5
-      }
-    ],
-    "polaridad": "positiva",
-    "tags": [
-      "trans",
-      "autodeterminacion-genero",
-      "ley-trans"
-    ],
-    "estado": "piloto",
-    "notas": "Discrimina: El GRAN corte intra-izquierda: Podemos/Sumar/ERC (+2) frente al feminismo clásico del PSOE (−1/−2); el PSOE oficial queda en un +1 incómodo. También separa PP (−1) de VOX (−2). | Esperado: Podemos +2, Sumar +2, ERC +2, PSOE (oficial) +1, feminismo clásico (Contra el Borrado, sector Calvo del PSOE) -2, Cs -1, PP -1, VOX -2. | Núcleo de la ley trans de 2023 (autodeterminación registral desde 16 años). El PSOE la votó pero con disidencias sonadas (Carmen Calvo). | [Corregido en revisión: El ítem es sólido y es el gran discriminante intra-izquierda, pero 'Cualquier persona' incluye implícitamente a los menores, que ya tienen su propio ítem (fem-02). Sin acotar la edad, un votante conservador responde a la lectura más dura (niños) y uno de Podemos a la lectura de la ley (16+), generando ruido de medición y solapamiento con fem-02. Acotado a adultos, el ítem queda limpio. Cargas correctas (acuerdo = GAL, antitradicionalismo). Posiciones plausibles; PP en −1 es defendible (rechaza la autodeterminación pero Feijóo evitó comprometerse a derogar la ley), aunque −2 también sería razonable.]"
-  },
-  {
     "id": "fem-002",
     "texto": "Los menores de 14 a 16 años deben poder modificar su sexo registral con el consentimiento de sus padres o tutores.",
     "modulo": "feminismos-moral",
@@ -271,25 +248,6 @@
     "notas": "Discrimina: Tercer ángulo del eje laicismo (expresión, no escuela ni dinero): IU/ERC/Podemos (+2) frente a un PSOE que lo promete y no lo deroga (+1); y dentro de la derecha separa a los liberales (Cs +1, favorables a despenalizar) de PP y VOX (−2), que han defendido el art. 525 ante casos mediáticos. | Esperado: IU/PCE +2, Podemos +2, ERC +2, PSOE +1, Ciudadanos +1, PNV -1, PP -2, VOX -2. | Casos reales recurrentes (procesiones paródicas, artistas procesados) mantienen vivo el debate; la referencia al tipo penal es estructural, no coyuntural. | [Añadido por el revisor para cubrir un hueco]"
   },
   {
-    "id": "fem-014",
-    "texto": "La venta regulada de cannabis a personas adultas debe ser legal.",
-    "modulo": "feminismos-moral",
-    "ejes": [
-      {
-        "eje": "social",
-        "carga": -0.75
-      }
-    ],
-    "polaridad": "positiva",
-    "tags": [
-      "cannabis",
-      "moral-publica",
-      "drogas"
-    ],
-    "estado": "piloto",
-    "notas": "Discrimina: Corte intra-izquierda nítido que ningún otro ítem da: el PSOE se opone (−1, tumbó las proposiciones de regulación integral) frente a Podemos/Sumar/ERC (+2). E intra-derecha: Cs presentó su propia ley de regulación (+1) y los liberales están a favor (+2) frente a PP/VOX (−2). | Esperado: Podemos +2, Sumar +2, ERC +2, liberales (P-LIB) +2, Ciudadanos +1, PSOE -1, PP -2, VOX -2. | En 2021-2022 se debatieron en el Congreso las propuestas de regulación de Más País/Podemos y de Cs; el PSOE votó con PP y VOX contra la toma en consideración. Discriminante raro: junta a liberales con la izquierda alternativa contra los dos grandes polos del bipartidismo moral. | [Añadido por el revisor para cubrir un hueco]"
-  },
-  {
     "id": "rel-001",
     "texto": "El Estado debería promover activamente el ateísmo y excluir a las organizaciones religiosas de la vida pública.",
     "modulo": "feminismos-moral",
@@ -318,31 +276,6 @@
     "terminos": [
       "aconfesionalidad"
     ]
-  },
-  {
-    "id": "rel-002",
-    "terminos": [
-      "aconfesionalidad"
-    ],
-    "texto": "El Estado debe ser aconfesional: no adoptar una religión oficial y permitir la expresión pública de todas dentro de la ley.",
-    "modulo": "feminismos-moral",
-    "ejes": [
-      {
-        "eje": "libertad-conciencia",
-        "carga": 1
-      },
-      {
-        "eje": "autoridad-politica",
-        "carga": -0.5
-      }
-    ],
-    "polaridad": "positiva",
-    "tags": [
-      "aconfesionalidad",
-      "libertad-religiosa"
-    ],
-    "estado": "piloto",
-    "notas": "Punto central del continuo institucional. No carga laicismo porque el acuerdo con una posición central no debe empujar hacia un polo; sí aporta al eje independiente de libertad de conciencia."
   },
   {
     "id": "rel-003",

@@ -132,7 +132,10 @@
       "pluralismo-representativo"
     ],
     "estado": "piloto",
-    "notas": "Aísla monopolio frente a pluralismo representativo. Antes agregaba también la integración en la gestión económica, ya medida por lab-007."
+    "notas": "Aísla monopolio frente a pluralismo representativo. Antes agregaba también la integración en la gestión económica, ya medida por lab-007.",
+    "terminos": [
+      "sindicato-vertical"
+    ]
   },
   {
     "id": "lab-007",
@@ -395,66 +398,6 @@
     ],
     "estado": "piloto",
     "notas": "Mide prioridad del orden económico sobre autonomía del conflicto laboral."
-  },
-  {
-    "id": "lab-016",
-    "texto": "Las empresas estratégicas deberían estar dirigidas por el Estado aunque pudieran operar de forma rentable en manos privadas.",
-    "modulo": "trabajo-estado-sindicatos",
-    "ejes": [
-      {
-        "eje": "estatismo",
-        "carga": 1
-      },
-      {
-        "eje": "economico",
-        "carga": -0.75
-      },
-      {
-        "eje": "propiedad-mercado",
-        "carga": -0.5
-      }
-    ],
-    "polaridad": "positiva",
-    "tags": [
-      "empresas-publicas",
-      "sectores-estrategicos"
-    ],
-    "estado": "piloto",
-    "notas": "Añade un coste de oportunidad para separar dirección estatal doctrinal de nacionalización por fallo de mercado."
-  },
-  {
-    "id": "lab-017",
-    "texto": "Las grandes empresas privadas deberían transferirse a cooperativas gestionadas por sus trabajadores, no a ministerios estatales.",
-    "modulo": "trabajo-estado-sindicatos",
-    "ejes": [
-      {
-        "eje": "economico",
-        "carga": -1
-      },
-      {
-        "eje": "propiedad-mercado",
-        "carga": -1
-      },
-      {
-        "eje": "poder-laboral",
-        "carga": 1
-      },
-      {
-        "eje": "estatismo",
-        "carga": -1
-      }
-    ],
-    "polaridad": "positiva",
-    "tags": [
-      "cooperativas",
-      "autogestion",
-      "propiedad"
-    ],
-    "estado": "piloto",
-    "notas": "Separa socialización autogestionaria de nacionalización estatal y de propiedad capitalista.",
-    "terminos": [
-      "autogestion"
-    ]
   },
   {
     "id": "lab-018",
