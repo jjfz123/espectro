@@ -107,6 +107,20 @@
         "fecha": "2024-01-18",
         "consultado": "2026-07-10"
       }
+    },
+    "eco-002": {
+      "valor": -2,
+      "justificacion": "Teruel Existe denuncia la «privatización encubierta» de la sanidad pública mediante contratación externa a Quirón y Ribera Salud, con datos propios de sobrecoste —la externalización «cuesta 6 veces más» que la gestión directa—, rechazando que la gestión privada mejore la eficiencia sanitaria.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Teruel Existe advierte sobre la «privatización encubierta» de la sanidad «mediante contratación externa»: «Cuesta 6 veces más» (El Español)",
+        "url": "https://www.elespanol.com/aragon/actualidad/20260129/aragon-existe-advierte-privatizacion-encubierta-sanidad-mediante-contratacion-externa-cuesta-veces/1003744109321_0.html",
+        "cita": "Teruel Existe advierte sobre la «privatización encubierta» de la sanidad «mediante contratación externa»: «Cuesta 6 veces más»",
+        "fecha": "2026-01-29",
+        "consultado": "2026-07-13"
+      },
+      "grupoEvidencia": "pasaje-836f7cf5dfe955d5f3a0"
     }
   }
 }
