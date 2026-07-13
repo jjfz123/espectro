@@ -1734,9 +1734,10 @@
       "normalizacion": "Socialismo de mercado",
       "decisionOriginal": "A",
       "tratamientoActual": {
-        "clase": "faceta",
+        "clase": "region",
         "corrienteId": "socialismo-mercado",
         "decisionCapa": "A",
+        "publicacionGeometrica": "publicada",
         "equivalenciaConCorriente": true,
         "motivo": "Distingue cooperativas competitivas de ministerios planificadores y capitalismo privado; la arquitectura política sigue separada."
       }
