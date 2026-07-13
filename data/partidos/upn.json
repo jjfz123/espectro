@@ -455,6 +455,20 @@
         "cita": "en ningún momento informaron a la dirección de UPN de que su voto en la convalidación del Real Decreto-ley 32/2021 iba a ser negativo, contraviniendo así la postura oficial acordada"
       },
       "grupoEvidencia": "trbj-upn-dem015-disciplina"
+    },
+    "cat-003": {
+      "valor": -2,
+      "justificacion": "UPN votó en contra de la ley de amnistía en todas sus votaciones en Congreso y Senado (admisión, veto y aprobación definitiva), alineado con PP y Vox: rechaza la amnistía como salida al conflicto catalán y defiende la vía penal ordinaria.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "Ley de amnistía de España de 2024 (Wikipedia, con los resultados de las votaciones)",
+        "url": "https://es.wikipedia.org/wiki/Ley_de_amnist%C3%ADa_de_Espa%C3%B1a_de_2024",
+        "cita": "PP, Vox, UPN y Coalición Canaria",
+        "fecha": "2024-05-30",
+        "consultado": "2026-07-13"
+      },
+      "grupoEvidencia": "pasaje-48ac8e1ce05c081e9cae"
     }
   }
 }
