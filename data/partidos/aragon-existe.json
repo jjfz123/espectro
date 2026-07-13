@@ -4,7 +4,9 @@
   "siglas": "AE",
   "ambito": "autonomico",
   "tipo": "partido",
-  "ccaa": ["aragon"],
+  "ccaa": [
+    "aragon"
+  ],
   "confianza": "sin-datos",
   "registroMir": "Partido político constituido en asamblea fundacional en Murillo de Gállego (Zaragoza) en noviembre de 2022, con estatutos y ejecutiva propios; coordinador general, Francisco Javier Juárez. Concurre en coalición con Teruel Existe bajo la marca «Existe» en las provincias de Huesca y Zaragoza",
   "revisado": "2026-07-10",
@@ -18,5 +20,48 @@
       "fecha": "2022-11-26"
     }
   },
-  "posiciones": {}
+  "posiciones": {
+    "nac-010": {
+      "valor": 2,
+      "justificacion": "El programa de Aragón Existe reclama reformar la financiación autonómica para que los criterios se ajusten al coste efectivo de los servicios, ponderando dispersión y densidad frente a la población; el grupo Aragón-Teruel Existe sostiene que «la despoblación no puede salir de los criterios de financiación autonómica».",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Guitarte: «La despoblación no puede salir de los criterios de financiación autonómica» (Teruel Existe Web Oficial)",
+        "url": "https://teruelexiste.info/guitarte-la-despoblacion-no-puede-salir-de-los-criterios-de-financiacion-autonomica/",
+        "cita": "La despoblación no puede salir de los criterios de financiación autonómica",
+        "fecha": "2026",
+        "consultado": "2026-07-13"
+      },
+      "grupoEvidencia": "pasaje-c719b12b2693fe7da8d3"
+    },
+    "eco-002": {
+      "valor": -2,
+      "justificacion": "Aragón Existe denuncia que la concesión privada del transporte sanitario urgente incumple la respuesta en 30 minutos en el 29% de los núcleos, y su grupo Aragón-Teruel Existe reclama que el servicio pase a ser público por las «importantes deficiencias» del modelo privado, rechazando que la gestión privada mejore la eficiencia sanitaria.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Aragón-Teruel Existe reclama que el transporte sanitario urgente pase a ser público para garantizar la atención en el medio rural (El Alto Jalón)",
+        "url": "https://www.elaltojalon.es/texto-diario/mostrar/5928109/aragon-teruel-existe-reclama-transporte-sanitario-urgente-pase-publico-garantizar-atencion-medio-rural",
+        "cita": "Aragón-Teruel Existe reclama que el transporte sanitario urgente pase a ser público para garantizar la atención en el medio rural",
+        "fecha": "2025",
+        "consultado": "2026-07-13"
+      },
+      "grupoEvidencia": "pasaje-1b10e903f7b156c51e7f"
+    },
+    "nac-016": {
+      "valor": 2,
+      "justificacion": "Como partido aragonés de la España Vaciada y cofundador de la coalición Existe, Aragón Existe asume la transversalidad declarada por la cabeza de lista de la coalición, Tomás Guitarte: no situarse en el eje izquierda-derecha, sino en un eje propio de equilibrio y cohesión territorial.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Tomás Guitarte, candidato de la coalición Existe en las elecciones europeas (Diario de Teruel)",
+        "url": "https://www.diariodeteruel.es/teruel/tomas-guitarte-candidato-de-la-coalicion-existe-en-las-elecciones-europeas-no-se-nos-debe-juzgar-en-el-eje-derecha-e-izquierda-es-un-eje-en-el-que-no-nos-situamos",
+        "cita": "No se nos debe juzgar en el eje derecha e izquierda, es un eje en el que no nos situamos",
+        "fecha": "2024",
+        "consultado": "2026-07-13"
+      },
+      "grupoEvidencia": "pasaje-4ad289afaba008988ea5"
+    }
+  }
 }
