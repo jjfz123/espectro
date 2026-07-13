@@ -887,9 +887,13 @@ function Brujula({
         const partidoSeleccionado = partidoInteractivo && partidoFijado === punto.id;
         const posicionProvisional =
           partidoInteractivo && punto.evidenciaBrujula === 'provisional';
+        const posicionEstimada =
+          partidoInteractivo && punto.evidenciaBrujula === 'estimada';
         const descripcionEvidencia = posicionProvisional
           ? ' Posición provisional: se calcula con evidencia parcial y se dibuja hueca.'
-          : '';
+          : posicionEstimada
+            ? ' Posición estimada: la evidencia todavía no alcanza el contrato y el punto se dibuja tenue; el detalle lista lo que falta.'
+            : '';
         return (
           <g
             key={punto.id}
@@ -1081,6 +1085,9 @@ export function MapaPolitico({
   const partidosBrujula = puntosBrujula.filter((punto) => punto.tipo === 'partido');
   const partidosProvisionalesBrujula = partidosBrujula.filter(
     (punto) => punto.evidenciaBrujula === 'provisional',
+  );
+  const partidosEstimadosBrujula = partidosBrujula.filter(
+    (punto) => punto.evidenciaBrujula === 'estimada',
   );
   const usuarioEnBrujula = puntosBrujula.some((punto) => punto.tipo === 'usuario');
 
@@ -1312,7 +1319,9 @@ export function MapaPolitico({
                       {partido.nombre}
                       {partido.evidenciaBrujula === 'provisional'
                         ? ' — posición provisional'
-                        : ''}
+                        : partido.evidenciaBrujula === 'estimada'
+                          ? ' — posición estimada'
+                          : ''}
                     </option>
                   ))}
               </select>
@@ -1359,6 +1368,17 @@ export function MapaPolitico({
         </p>
       ) : null}
 
+      {partidosEstimadosBrujula.length > 0 ? (
+        <p className="mapa-evidencia-provisional mapa-evidencia-estimada">
+          <strong>Puntos tenues: posición estimada.</strong>{' '}
+          {partidosEstimadosBrujula.length} de {partidosBrujula.length} partidos se dibujan con la
+          media de las posiciones documentadas que tienen, aunque su evidencia aún no llega ni al
+          nivel provisional — puede descansar en pocas fuentes o carecer de contrapesos. Están a la
+          vista para no esconder el sistema de partidos, pero cada punto tenue lleva su recibo de
+          lo que falta al tocarlo; solo quedan fuera los partidos sin ninguna coordenada calculable.
+        </p>
+      ) : null}
+
       {cumuloPartidos.length > 1 ? (
         <div
           className="mapa-cumulo"
@@ -1382,13 +1402,40 @@ export function MapaPolitico({
                   }}
                 >
                   {partido.nombre}
-                  {partido.evidenciaBrujula === 'provisional' ? ' (posición provisional)' : ''}
+                  {partido.evidenciaBrujula === 'provisional'
+                    ? ' (posición provisional)'
+                    : partido.evidenciaBrujula === 'estimada'
+                      ? ' (posición estimada)'
+                      : ''}
                 </button>
               ) : null;
             })}
           </div>
         </div>
       ) : null}
+
+      {(() => {
+        /* Recibo del punto fijado: qué evidencia sostiene la coordenada y qué
+           pide el contrato. Es lo que convierte un punto tenue o hueco en una
+           lectura auditable en vez de una etiqueta sin explicación. */
+        const fijado = partidoBrujulaFijado
+          ? ENTIDADES_MAPA.find((entidad) => entidad.id === partidoBrujulaFijado)
+          : null;
+        const evidencia = fijado?.evidenciaBrujula;
+        if (!fijado || !evidencia || evidencia.grado === 'solida') return null;
+        return (
+          <p className="mapa-lectura__distancia mapa-recibo-brujula" role="status">
+            <strong>{fijado.nombre}</strong> — posición{' '}
+            {evidencia.grado === 'provisional' ? 'provisional' : 'estimada'}. Propiedad y
+            mercado: {evidencia.propiedad.items} grupos independientes en{' '}
+            {evidencia.propiedad.familias} subdimensiones. Poder:{' '}
+            {evidencia.poder.items} grupos en {evidencia.poder.familias} familias, con{' '}
+            {evidencia.poder.itemsNucleo} de contrapesos o libertades. El contrato completo pide
+            6 grupos y 3 subdimensiones o familias por eje (2 de núcleo en Poder); hasta
+            entonces la coordenada es la media de lo documentado, sin rellenar huecos.
+          </p>
+        );
+      })()}
 
       {hayCorrientes ? (
         corrienteActiva ? (
@@ -1475,6 +1522,14 @@ export function MapaPolitico({
               <circle cx="8" cy="8" r="5" className="mapa-leyenda__partido-provisional" />
             </svg>
             Partido con posición provisional
+          </li>
+        ) : null}
+        {partidosEstimadosBrujula.length > 0 ? (
+          <li>
+            <svg viewBox="0 0 16 16" aria-hidden="true" focusable="false">
+              <circle cx="8" cy="8" r="4" className="mapa-leyenda__partido-estimado" />
+            </svg>
+            Partido con posición estimada (evidencia inicial)
           </li>
         ) : null}
         <li>
@@ -1745,9 +1800,12 @@ export function MapaPolitico({
           grupos por eje, 3 familias o subdimensiones y, para Poder, al menos dos grupos de
           contrapesos o libertades. Solo los partidos pueden publicarse provisionalmente —como
           puntos huecos— con 3 grupos y 2 familias por eje, y con al menos un grupo de contrapesos
-          o libertades; las referencias doctrinales nunca usan ese umbral reducido.{' '}
+          o libertades; y, por debajo, como posición estimada —punto tenue a trazos— cuando existe
+          una coordenada calculable desde posiciones documentadas aunque la evidencia no llegue a
+          esos mínimos: cada punto tenue lleva su recibo de lo que falta. Las referencias
+          doctrinales nunca usan estos umbrales reducidos.{' '}
           {partidosFuera + referenciasFuera > 0
-            ? `Quedan fuera de todos los planos ${partidosFuera} partidos y ${referenciasFuera} referencias: antes que estimar su posición, no se dibuja.`
+            ? `Quedan fuera de todos los planos ${partidosFuera} partidos y ${referenciasFuera} referencias: sin ninguna coordenada calculable desde posiciones documentadas no se dibuja nada — los huecos no se rellenan ni se estiman.`
             : ''}
         </p>
         {EXCLUIDAS_MAPA.length > 0 ? (

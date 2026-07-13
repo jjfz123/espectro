@@ -191,6 +191,74 @@
         "fecha": "2025",
         "consultado": "2026-07-11"
       }
+    },
+    "eco-005": {
+      "valor": 2,
+      "justificacion": "El programa «Recuperar España» incluye controlar los precios del alquiler entre sus compromisos económicos, junto a la vivienda pública: es la intervención legal sobre los alquileres que plantea el ítem, formulada sin condiciones.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Frente Obrero (España) — Wikipedia, resumen del programa «Recuperar España»",
+        "url": "https://es.wikipedia.org/wiki/Frente_Obrero_(Espa%C3%B1a)",
+        "fecha": "2026",
+        "consultado": "2026-07-12",
+        "cita": "defienden la soberanía nacional, la Hispanidad, la educación universitaria gratuita, la nacionalización de los sectores estratégicos, la soberanía energética, la energía nuclear, la subida del salario mínimo, el sector rural, las ayudas a la natalidad, la vivienda pública, a los autónomos, controlar los precios del alquiler y limitar la inmigración"
+      },
+      "grupoEvidencia": "pasaje-e6387b2a9d7ac51a2e4d"
+    },
+    "eco-003": {
+      "valor": 2,
+      "justificacion": "La subida del salario mínimo figura entre los compromisos del programa sin reservas sobre posibles costes de empleo a corto plazo; la formulación doctrinal asume la protección salarial por ley que plantea el ítem. Mismo pasaje-resumen que eco-005.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Frente Obrero (España) — Wikipedia, resumen del programa «Recuperar España»",
+        "url": "https://es.wikipedia.org/wiki/Frente_Obrero_(Espa%C3%B1a)",
+        "fecha": "2026",
+        "consultado": "2026-07-12",
+        "cita": "defienden la soberanía nacional, la Hispanidad, la educación universitaria gratuita, la nacionalización de los sectores estratégicos, la soberanía energética, la energía nuclear, la subida del salario mínimo, el sector rural, las ayudas a la natalidad, la vivienda pública, a los autónomos, controlar los precios del alquiler y limitar la inmigración"
+      },
+      "grupoEvidencia": "pasaje-e6387b2a9d7ac51a2e4d"
+    },
+    "fem-010": {
+      "valor": -2,
+      "justificacion": "El programa pide derogar total o parcialmente todas las leyes basadas en la discriminación positiva y suprimir los cupos; la cuota obligatoria de mujeres en los consejos de administración es exactamente una de esas leyes de cupo que la doctrina rechaza.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Nuestro Programa — Frente Obrero («Recuperemos España»)",
+        "url": "https://frenteobrero.es/nuestro-programa-2/",
+        "fecha": "2026-01-20",
+        "consultado": "2026-07-12",
+        "cita": "Derogación parcial o total de todas las leyes basadas en la discriminación positiva [...] Supresión de los cupos."
+      },
+      "grupoEvidencia": "pasaje-1a24d5a8b67ebcb99daf"
+    },
+    "fem-001": {
+      "valor": -2,
+      "justificacion": "Su campaña estatal contra la ley trans (#STOP-LEY-TRANS) atacó expresamente el borrador por consagrar la autodeterminación de género, el principio de cambio registral por sola voluntad que formula el ítem; su programa mantiene el combate a la «ideología de género» como punto doctrinal.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Frente Obrero: «#STOP-LEY-TRANS» (nota de la organización recogida por murcia.com)",
+        "url": "https://www.murcia.com/region/noticias/2021/03/08-frente-obrero-stop-ley-trans.asp",
+        "fecha": "2021-03-08",
+        "consultado": "2026-07-12",
+        "cita": "la organización obrera que dirige Roberto Vaquero (@RobertoVaquero_) ha atacado con propaganda el borrador defensor de la autodeterminación de género"
+      },
+      "grupoEvidencia": "pasaje-492b720688f3f1d955cf"
+    },
+    "soc-002": {
+      "valor": 2,
+      "justificacion": "Su presidente sostiene que regularizar a quien entró de forma irregular invierte los incentivos y que lo correcto es el regreso al país de origen y los cauces legales, reprochando incluso a VOX quedarse corto ante la masividad del modelo migratorio; la devolución como respuesta prioritaria es su posición sostenida.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Roberto Vaquero acusa a Vox de ocultar «la masividad» del modelo migratorio y de proponer medidas insuficientes (El Diario de Madrid)",
+        "url": "https://www.eldiariodemadrid.es/articulo/politica/vaquero-acusa-vox-masividad-modelo-migratorio/20251118222003114413.html",
+        "fecha": "2025-11-18",
+        "consultado": "2026-07-12"
+      }
     }
   }
 }

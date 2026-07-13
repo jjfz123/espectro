@@ -1,4 +1,4 @@
-import { lazy, Suspense, useCallback, useMemo, useRef, useState } from 'react';
+import { lazy, Suspense, useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import type { Respuesta } from '@engine';
 import {
   EJE_AUTORIDAD_POLITICA,
@@ -13,7 +13,6 @@ import {
   seleccionarPartidosElectorales,
   sindicatoRelevanteEnCcaa,
 } from '@engine';
-import { REFERENCIAS } from '../datosReferencias';
 import { CatalogoCandidaturas } from '../componentes/CatalogoCandidaturas';
 import { contextoParticipacionPorPartido } from '../participacionElectoral';
 import { DetalleAfinidad } from '../componentes/DetallePartido';
@@ -355,20 +354,35 @@ export function Resultados({ estado, despachar, puedeRecargar, alConfirmarGuarda
 
   /* Cruce mapa↔doctrina (fase 2 de legibilidad): resumen compacto por
      referencia para que la frase de la zona del mapa pueda decir con datos si
-     la cercanía geométrica viene o no acompañada de coincidencia doctrinal. */
-  const resumenDoctrinal = useMemo(() => {
-    const mapa = new Map<
-      string,
-      { publicable: boolean; itemsComparados: number; itemsDefinitorios: number }
-    >();
-    for (const r of compararReferenciasDoctrinales(respuestas, REFERENCIAS)) {
-      mapa.set(r.entidadId, {
-        publicable: r.publicable,
-        itemsComparados: r.itemsComparados,
-        itemsDefinitorios: r.itemsDefinitorios,
-      });
-    }
-    return mapa;
+     la cercanía geométrica viene o no acompañada de coincidencia doctrinal.
+     El catálogo doctrinal se carga PEREZOSO: es la pieza que en PR #4 metió
+     datosReferencias en el cierre estático de Resultados y reventó el
+     presupuesto (§60). Mientras llega, la frase de zona usa su variante
+     estática — la prop es opcional a propósito. */
+  const [resumenDoctrinal, setResumenDoctrinal] = useState<
+    Map<string, { publicable: boolean; itemsComparados: number; itemsDefinitorios: number }>
+    | undefined
+  >(undefined);
+  useEffect(() => {
+    let vigente = true;
+    import('../datosReferencias').then(({ REFERENCIAS }) => {
+      if (!vigente) return;
+      const mapa = new Map<
+        string,
+        { publicable: boolean; itemsComparados: number; itemsDefinitorios: number }
+      >();
+      for (const r of compararReferenciasDoctrinales(respuestas, REFERENCIAS)) {
+        mapa.set(r.entidadId, {
+          publicable: r.publicable,
+          itemsComparados: r.itemsComparados,
+          itemsDefinitorios: r.itemsDefinitorios,
+        });
+      }
+      setResumenDoctrinal(mapa);
+    });
+    return () => {
+      vigente = false;
+    };
   }, [respuestas]);
 
   const quedanModulos = MODULOS.some((m) => {

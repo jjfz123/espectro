@@ -207,7 +207,7 @@ export interface EvidenciaEjeAtlas {
   suficiente: boolean;
 }
 
-export type GradoEvidenciaBrujula = 'solida' | 'provisional' | 'insuficiente';
+export type GradoEvidenciaBrujula = 'solida' | 'provisional' | 'estimada' | 'insuficiente';
 
 /**
  * Umbral de publicación cauta para partidos que aún no alcanzan el contrato

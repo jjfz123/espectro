@@ -202,25 +202,26 @@ describe('capas del atlas ideologico', () => {
     ).toBe('insuficiente');
   });
 
-  it('solo publica partidos que superan la puerta documental y nunca marca referencias como provisionales', () => {
+  it('cada punto partidista lleva un grado declarado y nunca marca referencias con niveles partidistas', () => {
     const partidosBrujula = ENTIDADES_MAPA.filter(
       (entidad) =>
         entidad.tipo === 'partido' &&
         typeof entidad.valores[EJE_ECONOMIA_BRUJULA.id] === 'number' &&
         typeof entidad.valores[EJE_PODER_BRUJULA.id] === 'number',
     );
+    // Con el nivel «estimada» (orden de producto: todos los partidos con
+    // coordenada calculable a la vista) publicar deja de ser binario: cada
+    // punto declara su grado y el tenue lleva recibo. Lo que NO se rebaja:
+    // un perfil sin coordenada auditable (grado insuficiente del auditor)
+    // sigue sin dibujarse jamás en la brújula.
     expect(
       partidosBrujula.every(
         (partido) =>
           partido.evidenciaBrujula?.grado === 'solida' ||
-          partido.evidenciaBrujula?.grado === 'provisional',
+          partido.evidenciaBrujula?.grado === 'provisional' ||
+          partido.evidenciaBrujula?.grado === 'estimada',
       ),
     ).toBe(true);
-    // El atlas puede quedar temporalmente sin puntos partidistas mientras el
-    // inventario documental sigue abierto. La puerta no se rebaja para
-    // satisfacer un mínimo visual: el cierre estricto del TODO exige completar
-    // después todos los perfiles, y aquí verificamos que ninguno insuficiente
-    // se cuele en el mapa durante ese trabajo.
     const auditoria = crearAuditoria({
       items: ITEMS,
       partidos: PARTIDOS,
@@ -232,10 +233,17 @@ describe('capas del atlas ideologico', () => {
         .filter((resultado) => resultado.grado === 'insuficiente')
         .every((resultado) => !idsPublicados.has(resultado.id)),
     ).toBe(true);
+    // Y el nivel estimado EXISTE de verdad en el catálogo actual: los polos
+    // honestos y los perfiles a media documentación se ven, no se esconden.
+    expect(
+      partidosBrujula.some((partido) => partido.evidenciaBrujula?.grado === 'estimada'),
+    ).toBe(true);
     expect(
       ENTIDADES_MAPA.some(
         (entidad) =>
-          entidad.tipo === 'referencia' && entidad.evidenciaBrujula?.grado === 'provisional',
+          entidad.tipo === 'referencia' &&
+          (entidad.evidenciaBrujula?.grado === 'provisional' ||
+            entidad.evidenciaBrujula?.grado === 'estimada'),
       ),
     ).toBe(false);
   });

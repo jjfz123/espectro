@@ -211,6 +211,60 @@
         "cita": "son la encarnación de la ideología y del sistema feudal-patriarcal"
       },
       "grupoEvidencia": "pasaje-f2eb317dd64c15819cc2"
+    },
+    "izq-016": {
+      "valor": 2,
+      "justificacion": "Los tres principios cardinales del programa económico de la nueva democracia incluyen confiscar —expropiar sin pago— el capital monopolista de las cuatro grandes familias, que controlaba la gran banca y los grandes consorcios, y entregarlo al Estado; la protección se reserva a la industria y el comercio de la burguesía nacional no monopolista, que no son el objeto del ítem.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Mao Zedong, La situación actual y nuestras tareas (1947) (marxists.org/espanol)",
+        "url": "https://www.marxists.org/espanol/mao/escritos/PSOT47s.html",
+        "fecha": "1947-12-25",
+        "consultado": "2026-07-12",
+        "cita": "Confiscar la tierra de la clase feudal y entregarla a los campesinos; confiscar el capital monopolista, cuyos cabecillas son Chiang Kai-shek, T. V. Soong, H. H. Kung y Chen Li-fu, y entregarlo al Estado de nueva democracia; proteger la industria y el comercio de la burguesía nacional"
+      },
+      "grupoEvidencia": "pasaje-fb77dbe6968648b6b27a"
+    },
+    "izq-044": {
+      "valor": -2,
+      "justificacion": "Lejos de reducir la policía trasladando los conflictos a mecanismos comunitarios, la doctrina fija como tarea fortalecer el aparato estatal del pueblo —ejército, policía y tribunales populares— mientras subsistan clases y enemigos, y solo prevé su extinción en un futuro lejano; la persuasión queda para las contradicciones en el seno del pueblo y no sustituye al aparato coercitivo.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Mao Zedong, Sobre la dictadura democrática popular (1949) (marxists.org/espanol)",
+        "url": "https://www.marxists.org/espanol/mao/escritos/PDD49s.html",
+        "fecha": "1949-06-30",
+        "consultado": "2026-07-12",
+        "cita": "El aparato estatal, incluidos el ejército, la policía y los tribunales, es el instrumento con que una clase oprime a otra"
+      },
+      "grupoEvidencia": "pasaje-9e43bfe20347c1a1d04e"
+    },
+    "izq-042": {
+      "valor": 1,
+      "justificacion": "El Informe defiende como justas las acciones directas de masas contra la propiedad de los déspotas —irrupciones, confiscaciones y ocupaciones—, cuya síntesis doctrinal es el pasaje citado; de ahí el acuerdo con la ocupación como acción política legítima, moderado porque su criterio es el contenido de clase de la acción dirigida por el partido, no el repertorio okupa autogestionario.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Mao Zedong, Informe sobre una investigación del movimiento campesino en Junán (1927), Obras Escogidas t. I (marxists.org/espanol, PDF)",
+        "url": "https://www.marxists.org/espanol/mao/escritos/libros/oe/tomo1/mao-oe-tomo1.pdf",
+        "fecha": "1927",
+        "consultado": "2026-07-12",
+        "cita": "Hacer la revolución no es ofrecer un banquete, ni escribir una obra, ni pintar un cuadro o hacer un bordado; no puede ser tan elegante, tan pausada y fina, tan apacible, amable, cortés, moderada y magnánima. Una revolución es una insurrección, es un acto de violencia mediante el cual una clase derroca a otra"
+      },
+      "grupoEvidencia": "pasaje-9e5b8d9dd47ff4815e3c"
+    },
+    "lim-007": {
+      "valor": -2,
+      "justificacion": "La directiva constata que el chovinismo de gran jan sigue presente casi en todas partes y ordena combatirlo con crítica y educación dentro del partido; una doctrina que combate la supremacía étnica de la nación mayoritaria no hace depender los derechos políticos del origen étnico: afirma la igualdad de las nacionalidades.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Mao Zedong, Criticar el chovinismo de gran jan (directiva del 16 de marzo de 1953) (marxists.org/espanol)",
+        "url": "https://www.marxists.org/espanol/mao/escritos/CHC53s.html",
+        "fecha": "1953-03-16",
+        "consultado": "2026-07-12"
+      }
     }
   }
 }

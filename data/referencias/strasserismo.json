@@ -136,6 +136,54 @@
         "fecha": "2026",
         "consultado": "2026-07-12"
       }
+    },
+    "der-004": {
+      "valor": 2,
+      "justificacion": "El programa económico del «socialismo alemán» de Otto Strasser somete todo el comercio exterior a un monopolio estatal que protege la producción nacional; una doctrina que estataliza el comercio exterior asume con creces la legitimidad del proteccionismo en defensa de la producción y el empleo del país.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Otto Strasser, Germany Tomorrow (1940): sección «State Monopoly of Foreign Trade» del programa económico (en inglés)",
+        "url": "https://archive.org/details/in.ernet.dli.2015.174648",
+        "fecha": "1940",
+        "consultado": "2026-07-12"
+      }
+    },
+    "lab-016": {
+      "valor": 2,
+      "justificacion": "El programa que los hermanos Strasser defendieron dentro del NSDAP reclamaba nacionalizar los grandes trusts y la banca como principio doctrinal del «socialismo alemán», no como corrección de un fallo de mercado: la dirección estatal de los sectores estratégicos vale aunque fueran rentables en manos privadas.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Gregor Strasser: nacionalización de trusts y banca como principio programático (síntesis enciclopédica de contraste, en inglés)",
+        "url": "https://en.wikipedia.org/wiki/Gregor_Strasser",
+        "fecha": "2026",
+        "consultado": "2026-07-12"
+      }
+    },
+    "dr-003": {
+      "valor": 2,
+      "justificacion": "La sección sobre la «cuestión judía» del borrador programático de 1925-1926 exigía la expulsión de los inmigrantes judíos y retirar la ciudadanía a los judíos alemanes, reclasificados como extranjeros; promover desde el Estado la salida de inmigrantes en situación regular es ese mismo principio, aplicado con criterio racial.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Otto Strasser: el borrador programático de 1925-1926 pedía la expulsión de los inmigrantes judíos y la desnacionalización de los judíos alemanes (síntesis enciclopédica de contraste, en inglés)",
+        "url": "https://en.wikipedia.org/wiki/Otto_Strasser",
+        "fecha": "2026",
+        "consultado": "2026-07-12"
+      }
+    },
+    "cul-003": {
+      "valor": 2,
+      "justificacion": "El ultranacionalismo völkisch que define al strasserismo sostiene que la vida y la cultura alemanas están amenazadas por un elemento ajeno a la comunidad racial, y su programa de 1925-1926 pedía por ello expulsar a los inmigrantes judíos; es la tesis nuclear del ítem —el modo de vida propio amenazado por la llegada de otros— en clave racial.",
+      "calidadEvidencia": "baja",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Strasserism: ultranacionalismo racial y antisemitismo como amenaza percibida a la comunidad alemana (síntesis enciclopédica de contraste, en inglés)",
+        "url": "https://en.wikipedia.org/wiki/Strasserism",
+        "fecha": "2026",
+        "consultado": "2026-07-12"
+      }
     }
   }
 }
