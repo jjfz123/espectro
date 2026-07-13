@@ -121,6 +121,20 @@
         "consultado": "2026-07-13"
       },
       "grupoEvidencia": "pasaje-836f7cf5dfe955d5f3a0"
+    },
+    "dem-015": {
+      "valor": -2,
+      "justificacion": "Teruel Existe es una agrupación de electores, no un partido tradicional: su líder Tomás Guitarte declara que su única obediencia es el cumplimiento de las promesas hechas a Teruel y que sus diputados no quedan sujetos a disciplina de partido; rechaza por tanto que una dirección deba poder exigir disciplina pública a sus miembros.",
+      "calidadEvidencia": "media",
+      "grupoEvidencia": "guitarte-existe-sin-disciplina-de-partido",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Tomás Guitarte: «Nuestra única obediencia es el cumplimiento de las promesas hechas a Teruel» (AraInfo)",
+        "url": "https://arainfo.org/tomas-guitarte-nuestra-unica-obediencia-es-el-cumplimiento-de-las-promesas-hechas-a-teruel/",
+        "cita": "Nuestra única obediencia es el cumplimiento de las promesas hechas a Teruel",
+        "fecha": "2019-11",
+        "consultado": "2026-07-13"
+      }
     }
   }
 }
