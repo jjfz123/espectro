@@ -4,7 +4,9 @@
   "siglas": "PB",
   "ambito": "autonomico",
   "tipo": "partido",
-  "ccaa": ["castilla-y-leon"],
+  "ccaa": [
+    "castilla-y-leon"
+  ],
   "confianza": "verificada",
   "web": "https://www.partidodeelbierzo.org/",
   "revisado": "2026-07-10",
@@ -20,6 +22,20 @@
         "url": "https://www.partidodeelbierzo.org/quienes-somos/",
         "consultado": "2026-07-10"
       }
+    },
+    "nac-013": {
+      "valor": 2,
+      "justificacion": "El Partido de El Bierzo, formación bercianista, defiende la cooficialidad del gallego que se habla en El Bierzo y una Ley de Lenguas de Castilla y León que proteja el gallego, el leonés y el euskera; el bercianismo «maniobra para considerar el gallego lengua oficial en Castilla y León».",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "El bercianismo maniobra para considerar el gallego lengua oficial en Castilla y León mientras aguarda su provincia (El Debate)",
+        "url": "https://www.eldebate.com/espana/castilla-y-leon/20260217/bercianismo-maniobra-considerar-gallego-lengua-oficial-castilla-leon-mientras-aguarda-provincia_385696.html",
+        "cita": "El bercianismo maniobra para considerar el gallego lengua oficial en Castilla y León mientras aguarda su provincia",
+        "fecha": "2026-02-17",
+        "consultado": "2026-07-13"
+      },
+      "grupoEvidencia": "pasaje-76dc0794bfbe7df8e6fe"
     }
   }
 }
