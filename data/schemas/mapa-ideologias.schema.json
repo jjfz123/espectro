@@ -190,6 +190,12 @@
         "sensibilidad": { "enum": ["normal", "antipluralista", "violenta"] },
         "desviacionJustificada": { "type": "string", "minLength": 50, "maxLength": 600 },
         "revisionEditorialDoble": { "type": "string", "minLength": 80, "maxLength": 800 },
+        "comunidadAutonoma": {
+          "type": "array",
+          "minItems": 1,
+          "uniqueItems": true,
+          "items": { "type": "string", "pattern": "^[a-z-]+$" }
+        },
         "trazabilidadOriginal": {
           "type": "object",
           "required": ["etiquetaOriginal", "nombreOriginal", "numeroOriginal", "decisionOriginal", "capa", "motivo", "coordenadasOriginales"],

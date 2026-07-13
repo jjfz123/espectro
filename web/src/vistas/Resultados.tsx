@@ -511,6 +511,7 @@ export function Resultados({ estado, despachar, puedeRecargar, alConfirmarGuarda
             puedeRecargar={puedeRecargar}
             alConfirmarGuardado={alConfirmarGuardado}
             alMontar={enfocarMapaTrasRecarga ? enfocarTituloMapa : undefined}
+            ccaa={estado.ccaa}
           />
         </Suspense>
       </section>

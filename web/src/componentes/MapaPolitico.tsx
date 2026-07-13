@@ -58,6 +58,10 @@ interface Props {
   alConfirmarGuardado: () => boolean;
   /** Devuelve el foco al contexto persistente tras resolver el chunk perezoso. */
   alMontar?: () => void;
+  /** Comunidad autónoma elegida al inicio ('' o ausente = sin territorio). Los
+      regionalismos ligados a un territorio solo se cartografían y puntúan si
+      coincide con esta comunidad. */
+  ccaa?: string;
   /** Controla qué capa abre el atlas sin confundir profundidad con identidad. */
 }
 
@@ -494,6 +498,7 @@ function CapaCorrientes({
   alFijar,
   reservadosExtra = [],
   incluirProfundidad = false,
+  ccaa,
 }: {
   par: ParEjes;
   parte: 'fondo' | 'rotulos';
@@ -505,6 +510,7 @@ function CapaCorrientes({
   alFijar?: (id: string) => void;
   reservadosExtra?: Rect[];
   incluirProfundidad?: boolean;
+  ccaa?: string;
 }) {
   const capa = capaCorrientes(
     par.id,
@@ -517,6 +523,7 @@ function CapaCorrientes({
       ...reservadosExtra,
     ],
     incluirProfundidad,
+    ccaa,
   );
   const [zonaConTab, setZonaConTab] = useState<string | null>(null);
   if (capa.zonas.length === 0) return null;
@@ -763,6 +770,7 @@ function Brujula({
   alFijarCorriente,
   alFijarPartido,
   incluirProfundidad,
+  ccaa,
 }: {
   puntos: PuntoPlano[];
   anclasBloqueadas: readonly CorrienteAtlas[];
@@ -776,6 +784,7 @@ function Brujula({
   alFijarCorriente: (id: string) => void;
   alFijarPartido: (id: string) => void;
   incluirProfundidad: boolean;
+  ccaa?: string;
 }) {
   /* En la brújula solo «Tú» queda rotulado de forma permanente. Cada partido
      revela sus siglas al pasar, enfocar o tocar su punto; así el cúmulo de la
@@ -858,6 +867,7 @@ function Brujula({
           alFijar={alFijarCorriente}
           reservadosExtra={reservadosCorrientes}
           incluirProfundidad={incluirProfundidad}
+          ccaa={ccaa}
         />
       ) : null}
       {corrientes ? (
@@ -879,6 +889,7 @@ function Brujula({
           activa={corrienteActiva}
           reservadosExtra={reservadosCorrientes}
           incluirProfundidad={incluirProfundidad}
+          ccaa={ccaa}
         />
       ) : null}
       {puntos.map((punto) => {
@@ -972,6 +983,7 @@ export function MapaPolitico({
   puedeRecargar,
   alConfirmarGuardado,
   alMontar,
+  ccaa,
 }: Props) {
   const idBase = useId();
   const [parId, setParId] = useState(PARES[0]?.id ?? 'economico-social');
@@ -1000,7 +1012,11 @@ export function MapaPolitico({
   useEffect(() => {
     if (cumuloDetalle.length > 1) cumuloDetalleRef.current?.focus();
   }, [cumuloDetalle]);
-  const corrientesVisibles = useMemo(() => corrientesAtlasVisibles(true), []);
+  // La capa dibujada, «hay corrientes» y la corriente más cercana respetan la
+  // comunidad elegida: un regionalismo territorial no entra en el eje si no es
+  // tu comunidad. El recuento descriptivo del atlas (más abajo) sigue contando
+  // el catálogo completo, que existe con independencia del territorio.
+  const corrientesVisibles = useMemo(() => corrientesAtlasVisibles(true, ccaa), [ccaa]);
   const anclasBloqueadasVisibles = useMemo(() => anclasAtlasBloqueadasVisibles(true), []);
   const opcionesAtlas = useMemo(() => opcionesBusquedaAtlas(true), []);
   const numeroRegionesPrincipales = corrientesAtlasVisibles(false).length;
@@ -1354,6 +1370,7 @@ export function MapaPolitico({
               seleccionarPartidoBrujula(id);
             }}
             incluirProfundidad={true}
+            ccaa={ccaa}
           />
         </PolosPlano>
       </div>
