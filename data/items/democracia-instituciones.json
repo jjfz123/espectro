@@ -1,27 +1,5 @@
 [
   {
-    "id": "dem-001",
-    "texto": "Las decisiones políticas de mayor alcance deberían someterse habitualmente a referéndum vinculante.",
-    "modulo": "democracia-instituciones",
-    "ejes": [
-      {
-        "eje": "democracia-directa",
-        "carga": 1
-      },
-      {
-        "eje": "autoridad-politica",
-        "carga": -0.25
-      }
-    ],
-    "polaridad": "positiva",
-    "tags": [
-      "referendum",
-      "democracia-directa"
-    ],
-    "estado": "piloto",
-    "notas": "Distingue la decisión directa habitual de la delegación representativa. 'Mayor alcance' evita convertir cualquier trámite en referéndum."
-  },
-  {
     "id": "dem-002",
     "terminos": [
       "revocatoria-mandato"
@@ -171,31 +149,6 @@
     ],
     "estado": "piloto",
     "notas": "Indicador directo de subordinación judicial al ejecutivo; el adverbio temporal reduce una lectura exclusivamente punitiva."
-  },
-  {
-    "id": "dem-008",
-    "texto": "La separación de poderes debe respetarse incluso cuando retrase decisiones apoyadas por una mayoría social.",
-    "terminos": [
-      "separacion-de-poderes"
-    ],
-    "modulo": "democracia-instituciones",
-    "ejes": [
-      {
-        "eje": "pluralismo-institucional",
-        "carga": 1
-      },
-      {
-        "eje": "autoridad-politica",
-        "carga": -1
-      }
-    ],
-    "polaridad": "positiva",
-    "tags": [
-      "separacion-poderes",
-      "contrapesos"
-    ],
-    "estado": "piloto",
-    "notas": "Introduce un coste real al apoyo abstracto a la separación de poderes y reduce deseabilidad social."
   },
   {
     "id": "dem-009",
@@ -469,29 +422,6 @@
     ],
     "estado": "piloto",
     "notas": "Aplica la forma de decisión a la organización interna, transversal a todas las familias ideológicas."
-  },
-  {
-    "id": "dem-015",
-    "texto": "Una dirección política cohesionada debe poder exigir disciplina pública a sus miembros aunque exista desacuerdo interno.",
-    "modulo": "democracia-instituciones",
-    "ejes": [
-      {
-        "eje": "organizacion",
-        "carga": 1
-      },
-      {
-        "eje": "autoridad-politica",
-        "carga": 0.5
-      }
-    ],
-    "polaridad": "positiva",
-    "tags": [
-      "disciplina",
-      "direccion",
-      "organizacion-interna"
-    ],
-    "estado": "piloto",
-    "notas": "Separa centralización organizativa de ideología sustantiva; aplicable a partidos de izquierda, derecha y nacionalistas."
   },
   {
     "id": "dem-016",

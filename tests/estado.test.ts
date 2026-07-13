@@ -68,8 +68,11 @@ function estadoAlcanzandoHito() {
 }
 
 describe('estado del cuestionario', () => {
-  it('mantiene un núcleo rápido de exactamente 50 preguntas y la ampliación acordada', () => {
-    expect(ITEMS_NUCLEO).toHaveLength(50);
+  it('mantiene un núcleo rápido de exactamente 65 preguntas y la ampliación acordada', () => {
+    /* v5 (2026-07-13, orden del propietario): 50 → 65. Los 15 nuevos suben la
+       cobertura comparable de todos los grandes (Cs 12→18, PSOE 26→34,
+       Sumar 21→31…) y cierran el recorrido como parte de la ampliación. */
+    expect(ITEMS_NUCLEO).toHaveLength(65);
     expect(ITEMS_NUCLEO.slice(-IDS_AMPLIACION_NUCLEO.length).map((item) => item.id)).toEqual(
       [...IDS_AMPLIACION_NUCLEO],
     );
@@ -259,10 +262,10 @@ describe('estado del cuestionario', () => {
     });
   });
 
-  it('migra el instrumento v3 a v4 sin perder respuestas ni prioridades', () => {
+  it('migra el instrumento v4 a v5 sin perder respuestas ni prioridades', () => {
     const anterior = {
       ...ESTADO_INICIAL,
-      versionInstrumento: '3',
+      versionInstrumento: '4',
       fase: 'cuestionario',
       modo: 'completo',
       respuestas: { 'eco-001': 2, 'dem-008': -1, 'soc-006': null },
@@ -292,6 +295,8 @@ describe('estado del cuestionario', () => {
     };
     const casos: Array<[string, string]> = [
       [JSON.stringify({ ...base, versionInstrumento: 'instrumento-incompatible' }), 'instrumento'],
+      // La migración v3→v4 expiró al llegar v5: cada salto declara la suya.
+      [JSON.stringify({ ...base, versionInstrumento: '3' }), 'instrumento'],
       [
         JSON.stringify({
           ...base,

@@ -44,28 +44,6 @@
     ]
   },
   {
-    "id": "cat-003",
-    "texto": "Ante conflictos políticos como el independentista, la amnistía es una salida mejor que la vía penal.",
-    "modulo": "territorial-catalunya",
-    "ejes": [
-      {
-        "eje": "territorial",
-        "carga": -0.5
-      }
-    ],
-    "polaridad": "positiva",
-    "tags": [
-      "amnistía",
-      "resolución de conflictos",
-      "procés"
-    ],
-    "estado": "piloto",
-    "notas": "Discrimina: Soberanismo y Comuns (principio general) frente a PP/Vox (rechazo frontal); el PSC la acepta como excepción, no como principio, lo que lo sitúa en un punto intermedio. | Esperado: ERC +2, Junts +2, CUP +2, Comuns +2, PSC +1, Aliança Catalana +1, PP -2, VOX -2. | Formulado como principio de resolución de conflictos para que no caduque con la ley concreta.",
-    "terminos": [
-      "amnistia"
-    ]
-  },
-  {
     "id": "cat-004",
     "texto": "La inmigración de origen musulmán es una amenaza para la identidad y la lengua catalanas.",
     "modulo": "territorial-catalunya",

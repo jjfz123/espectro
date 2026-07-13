@@ -38,7 +38,10 @@
       "multilateralismo"
     ],
     "estado": "piloto",
-    "notas": "Caso favorable difícil para el pacifismo; especificar el Consejo de Seguridad de la ONU evita mezclar legitimidad multilateral, OTAN, UE o invitación unilateral."
+    "notas": "Caso favorable difícil para el pacifismo; especificar el Consejo de Seguridad de la ONU evita mezclar legitimidad multilateral, OTAN, UE o invitación unilateral.",
+    "terminos": [
+      "consejo-seguridad-onu"
+    ]
   },
   {
     "id": "geo-003",

@@ -2,6 +2,13 @@ import type { ReactNode } from 'react';
 import type { PerfilAfinidad, ResultadoAfinidad } from '@engine';
 import { formatearNumero, nombrePerfil } from '../datos';
 
+/* Piso de publicación del porcentaje (feedback del propietario, 2026-07-13):
+   con 1-2 preguntas en común un 100 % es una anécdota disfrazada de resultado
+   («responder que los animales tienen derechos te saca 100 % PACMA»). El motor
+   sigue calculando y ordenando igual; solo se retira la CIFRA hasta tener
+   al menos 3 comparaciones. */
+const MINIMO_ITEMS_PORCENTAJE = 3;
+
 interface Props {
   resultados: ResultadoAfinidad[];
   entidades: ReadonlyMap<string, PerfilAfinidad>;
@@ -204,7 +211,7 @@ export function Ranking({
             {doble ? (
               <small className="ranking-pct__etiqueta">{doble.etiquetaBase}</small>
             ) : null}
-            {calculable ? (
+            {calculable && r.itemsComparados >= MINIMO_ITEMS_PORCENTAJE ? (
               <>
                 {r.bajaCobertura ? (
                   <small className="ranking-pct__etiqueta">
@@ -214,13 +221,17 @@ export function Ranking({
                 {formatearNumero(r.puntuacion ?? 0)}
                 <small> %</small>
               </>
+            ) : calculable ? (
+              <small>
+                solo {r.itemsComparados} pregunta{r.itemsComparados === 1 ? '' : 's'} en común
+              </small>
             ) : (
               <small>sin datos comparables</small>
             )}
           </span>
         </div>
         {contexto ? <p className="ranking-contexto">{contexto}</p> : null}
-        {calculable ? (
+        {calculable && r.itemsComparados >= MINIMO_ITEMS_PORCENTAJE ? (
           <>
             <div
               className={`barra${r.bajaCobertura ? ' barra--orientativa' : ''}`}
@@ -233,6 +244,12 @@ export function Ranking({
               {' · '}cobertura del {formatearNumero(100 * r.cobertura, 0)} %
             </p>
           </>
+        ) : calculable ? (
+          <p className="ranking-meta">
+            Con {r.itemsComparados} pregunta{r.itemsComparados === 1 ? '' : 's'} en común un
+            porcentaje engaña más que informa: responder más preguntas (o completar el mapeo de
+            este {singular}) activará la comparación.
+          </p>
         ) : (
           <p className="ranking-meta">
             El {singular} no tiene posición conocida en las preguntas que has contestado.

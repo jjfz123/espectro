@@ -8,8 +8,9 @@ import {
   indiceProximoPendiente,
   pad2,
   secuenciaItems,
-  terminosDeItem,
 } from '../datos';
+import type { TerminoGlosario } from '../datos';
+import { cargarGlosario, glosarioCargado, terminosDeItem } from '../glosario';
 import type { Accion, Estado } from '../estado';
 
 interface Props {
@@ -99,7 +100,19 @@ export function Cuestionario({ estado, despachar }: Props) {
 
   const valor = estado.respuestas[itemId];
   const importante = Boolean(estado.importantes[itemId]);
-  const terminos = terminosDeItem(item);
+  const [glosario, setGlosario] = useState<ReadonlyMap<string, TerminoGlosario> | null>(
+    glosarioCargado,
+  );
+  useEffect(() => {
+    let vigente = true;
+    cargarGlosario().then((mapa) => {
+      if (vigente) setGlosario(mapa);
+    });
+    return () => {
+      vigente = false;
+    };
+  }, []);
+  const terminos = terminosDeItem(item, glosario);
   const itemPadre = item.condicion ? ITEM_POR_ID.get(item.condicion.itemId) : undefined;
   const respuestaPadre = item.condicion
     ? estado.respuestas[item.condicion.itemId]

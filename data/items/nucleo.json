@@ -40,7 +40,10 @@
       "privatizacion"
     ],
     "estado": "piloto",
-    "notas": "Separa confianza en gestión privada de preferencia por provisión pública; el ejemplo sanitario concreta el coste, aunque propiedad y financiación se afinan en módulos."
+    "notas": "Separa confianza en gestión privada de preferencia por provisión pública; el ejemplo sanitario concreta el coste, aunque propiedad y financiación se afinan en módulos.",
+    "terminos": [
+      "colaboracion-publico-privada"
+    ]
   },
   {
     "id": "eco-003",
@@ -167,7 +170,10 @@
       "competencias"
     ],
     "estado": "piloto",
-    "notas": "Ancla recentralización competencial frente a autonomía; se completa con autodeterminación y modelos federales para no reducir todo el eje territorial a centralismo/independencia."
+    "notas": "Ancla recentralización competencial frente a autonomía; se completa con autodeterminación y modelos federales para no reducir todo el eje territorial a centralismo/independencia.",
+    "terminos": [
+      "competencias-autonomicas"
+    ]
   },
   {
     "id": "ter-002",
@@ -263,7 +269,10 @@
       "regulacion"
     ],
     "estado": "piloto",
-    "notas": "Discrimina: Separa Sumar/Podemos/ERC/Bildu (+2, impulsores de la ley de vivienda) del PSOE (+1, solo zonas tensionadas y con condiciones) y de PP/Vox/Junts (−2/−1, confían en aumentar oferta); PNV aplicó la ley con reticencia. | Esperado: Sumar/Podemos +2, ERC +2, EH Bildu +2, PSOE +1, PNV -1, Junts -1, PP -2, Vox -2."
+    "notas": "Discrimina: Separa Sumar/Podemos/ERC/Bildu (+2, impulsores de la ley de vivienda) del PSOE (+1, solo zonas tensionadas y con condiciones) y de PP/Vox/Junts (−2/−1, confían en aumentar oferta); PNV aplicó la ley con reticencia. | Esperado: Sumar/Podemos +2, ERC +2, EH Bildu +2, PSOE +1, PNV -1, Junts -1, PP -2, Vox -2.",
+    "terminos": [
+      "zona-tensionada"
+    ]
   },
   {
     "id": "eco-006",
@@ -285,7 +294,10 @@
       "gasto-publico"
     ],
     "estado": "piloto",
-    "notas": "Discrimina: Separa a la izquierda (PSOE/Sumar/CUP, +2) de PP (−1, prefiere suelo y colaboración privada) y Vox (−1); dentro de la derecha, distingue al PP intervencionista-moderado de los liberales puros (−2). | Esperado: Sumar/Podemos +2, PSOE +2, CUP +2, PNV +1, PP -1, Vox -1, liberalismo (Cs) -1. | La cláusula 'aunque exija un fuerte aumento del gasto' evita el consenso retórico: todos dicen querer vivienda pública, pero solo la izquierda acepta el coste fiscal."
+    "notas": "Discrimina: Separa a la izquierda (PSOE/Sumar/CUP, +2) de PP (−1, prefiere suelo y colaboración privada) y Vox (−1); dentro de la derecha, distingue al PP intervencionista-moderado de los liberales puros (−2). | Esperado: Sumar/Podemos +2, PSOE +2, CUP +2, PNV +1, PP -1, Vox -1, liberalismo (Cs) -1. | La cláusula 'aunque exija un fuerte aumento del gasto' evita el consenso retórico: todos dicen querer vivienda pública, pero solo la izquierda acepta el coste fiscal.",
+    "terminos": [
+      "parque-publico-vivienda"
+    ]
   },
   {
     "id": "eco-007",
@@ -312,7 +324,10 @@
       "propiedad"
     ],
     "estado": "piloto",
-    "notas": "Discrimina: Separa el bloque propietarista (PP/Vox/Cs/Junts/PNV, que impulsaron o apoyaron el desalojo exprés) del PSOE (−1, distingue okupación de vulnerabilidad) y de Sumar/CUP (−2, prioridad al realojo). | Esperado: Vox +2, PP +2, Junts +2, PNV +1, PSOE -1, Sumar/Podemos -2, CUP -2."
+    "notas": "Discrimina: Separa el bloque propietarista (PP/Vox/Cs/Junts/PNV, que impulsaron o apoyaron el desalojo exprés) del PSOE (−1, distingue okupación de vulnerabilidad) y de Sumar/CUP (−2, prioridad al realojo). | Esperado: Vox +2, PP +2, Junts +2, PNV +1, PSOE -1, Sumar/Podemos -2, CUP -2.",
+    "terminos": [
+      "ocupacion-de-vivienda"
+    ]
   },
   {
     "id": "eco-008",
@@ -355,7 +370,10 @@
       "sucesiones"
     ],
     "estado": "piloto",
-    "notas": "Discrimina: Separa PP/Vox/Cs (+2, lo bonifican al 99% donde gobiernan) del PSOE (−1, defiende armonizarlo) y de Sumar/IU (−2, quieren un mínimo estatal); PNV neutro por tener fiscalidad foral propia. | Esperado: Vox +2, PP +2, Ciudadanos +2, PNV +0, PSOE -1, Sumar/IU -2, EH Bildu -2."
+    "notas": "Discrimina: Separa PP/Vox/Cs (+2, lo bonifican al 99% donde gobiernan) del PSOE (−1, defiende armonizarlo) y de Sumar/IU (−2, quieren un mínimo estatal); PNV neutro por tener fiscalidad foral propia. | Esperado: Vox +2, PP +2, Ciudadanos +2, PNV +0, PSOE -1, Sumar/IU -2, EH Bildu -2.",
+    "terminos": [
+      "impuesto-sucesiones"
+    ]
   },
   {
     "id": "eco-010",
@@ -377,7 +395,10 @@
       "despido"
     ],
     "estado": "piloto",
-    "notas": "Discrimina: Separa el liberalismo (Cs +2, contrato único/mochila austriaca) del PP (+1, lo apoya sin abanderarlo) y de Vox (0, obrerismo retórico reciente); toda la izquierda en contra, con Sumar impulsando encarecerlo. | Esperado: Ciudadanos +2, PP +1, Vox +0, PNV +0, PSOE -2, Sumar/Podemos -2, Frente Obrero -2. | [Corregido en revisión: La cláusula final 'para favorecer la contratación' es un argumento persuasivo empíricamente disputado (efecto Kamoen & Holleman: la justificación en el enunciado infla el acuerdo y obliga al que discrepa a rechazar también la premisa). Sin ella el ítem discrimina igual y queda más corto y neutro. Cargas y polaridad correctas. Posiciones plausibles; Vox 0 defendible por su giro obrerista retórico, PP +1 porque evita abanderar el tema desde 2012.]"
+    "notas": "Discrimina: Separa el liberalismo (Cs +2, contrato único/mochila austriaca) del PP (+1, lo apoya sin abanderarlo) y de Vox (0, obrerismo retórico reciente); toda la izquierda en contra, con Sumar impulsando encarecerlo. | Esperado: Ciudadanos +2, PP +1, Vox +0, PNV +0, PSOE -2, Sumar/Podemos -2, Frente Obrero -2. | [Corregido en revisión: La cláusula final 'para favorecer la contratación' es un argumento persuasivo empíricamente disputado (efecto Kamoen & Holleman: la justificación en el enunciado infla el acuerdo y obliga al que discrepa a rechazar también la premisa). Sin ella el ítem discrimina igual y queda más corto y neutro. Cargas y polaridad correctas. Posiciones plausibles; Vox 0 defendible por su giro obrerista retórico, PP +1 porque evita abanderar el tema desde 2012.]",
+    "terminos": [
+      "coste-del-despido"
+    ]
   },
   {
     "id": "eco-011",
@@ -425,7 +446,10 @@
       "concertada"
     ],
     "estado": "piloto",
-    "notas": "Discrimina: Separa Podemos/IU/CUP (+2, red única pública) del PSOE (−1, concertada como red complementaria) — clave dentro de la izquierda — y del bloque PP/Vox/PNV (−2; en Euskadi la concertada es mayoritaria). | Esperado: Sumar/Podemos/IU +2, CUP +2, ERC +1, PSOE -1, PNV -2, PP -2, Vox -2."
+    "notas": "Discrimina: Separa Podemos/IU/CUP (+2, red única pública) del PSOE (−1, concertada como red complementaria) — clave dentro de la izquierda — y del bloque PP/Vox/PNV (−2; en Euskadi la concertada es mayoritaria). | Esperado: Sumar/Podemos/IU +2, CUP +2, ERC +1, PSOE -1, PNV -2, PP -2, Vox -2.",
+    "terminos": [
+      "educacion-concertada"
+    ]
   },
   {
     "id": "eco-013",
@@ -448,7 +472,10 @@
       "privada"
     ],
     "estado": "piloto",
-    "notas": "Discrimina: Separa PP/Vox/Cs (+2, colaboración público-privada estructural) del PSOE (0, la usa como parche pero no como modelo) y de Sumar/Bildu (−2, refuerzo exclusivo de lo público). | Esperado: PP +2, Ciudadanos +2, Vox +2, PNV +1, PSOE +0, Sumar/Podemos -2, EH Bildu -2. | No duplica el ítem existente de 'gestión privada de sanidad': aquí se mide la derivación puntual (conciertos asistenciales), que el PSOE practica pero la izquierda transformadora rechaza."
+    "notas": "Discrimina: Separa PP/Vox/Cs (+2, colaboración público-privada estructural) del PSOE (0, la usa como parche pero no como modelo) y de Sumar/Bildu (−2, refuerzo exclusivo de lo público). | Esperado: PP +2, Ciudadanos +2, Vox +2, PNV +1, PSOE +0, Sumar/Podemos -2, EH Bildu -2. | No duplica el ítem existente de 'gestión privada de sanidad': aquí se mide la derivación puntual (conciertos asistenciales), que el PSOE practica pero la izquierda transformadora rechaza.",
+    "terminos": [
+      "concierto-sanitario"
+    ]
   },
   {
     "id": "soc-004",
@@ -466,7 +493,10 @@
       "regularizacion"
     ],
     "estado": "piloto",
-    "notas": "Discrimina: Separa Sumar/ERC/Bildu/BNG (+2, ILP Regularización Ya) del PSOE (+1, apoyo condicionado), del PP (−1, votó tramitar la ILP pero rechaza regularizaciones masivas) y de Vox/Aliança Catalana (−2). | Esperado: Sumar/Podemos +2, ERC +2, EH Bildu +2, PSOE +1, PP -1, Junts -1, Vox -2, Aliança Catalana -2."
+    "notas": "Discrimina: Separa Sumar/ERC/Bildu/BNG (+2, ILP Regularización Ya) del PSOE (+1, apoyo condicionado), del PP (−1, votó tramitar la ILP pero rechaza regularizaciones masivas) y de Vox/Aliança Catalana (−2). | Esperado: Sumar/Podemos +2, ERC +2, EH Bildu +2, PSOE +1, PP -1, Junts -1, Vox -2, Aliança Catalana -2.",
+    "terminos": [
+      "regularizacion-extraordinaria"
+    ]
   },
   {
     "id": "soc-005",
@@ -589,7 +619,10 @@
       "federalismo"
     ],
     "estado": "piloto",
-    "notas": "Discrimina: Separa federalistas (Cs +2, PSOE/Sumar +1) de europeístas de statu quo (PP 0) y de soberanistas (Vox/SALF −2); Podemos (−1) marca su euroescepticismo de izquierda frente a Sumar. | Esperado: Ciudadanos +2, PSOE +1, Sumar +1, ERC +1, PP +0, Podemos -1, Vox -2, SALF -2. | Complementa (no duplica) el ítem existente de 'recuperar soberanía frente a Bruselas': aquel mide euroescepticismo; este separa a los federalistas de los europeístas de statu quo."
+    "notas": "Discrimina: Separa federalistas (Cs +2, PSOE/Sumar +1) de europeístas de statu quo (PP 0) y de soberanistas (Vox/SALF −2); Podemos (−1) marca su euroescepticismo de izquierda frente a Sumar. | Esperado: Ciudadanos +2, PSOE +1, Sumar +1, ERC +1, PP +0, Podemos -1, Vox -2, SALF -2. | Complementa (no duplica) el ítem existente de 'recuperar soberanía frente a Bruselas': aquel mide euroescepticismo; este separa a los federalistas de los europeístas de statu quo.",
+    "terminos": [
+      "federalismo-europeo"
+    ]
   },
   {
     "id": "ue-003",
@@ -627,7 +660,10 @@
       "combustion"
     ],
     "estado": "piloto",
-    "notas": "Discrimina: Separa Sumar/Verdes (+2) del PSOE (+1, la asume con matices industriales), del PP (−1, pide revisarla en la UE) y de Vox/SALF (−2, derogación); es el ítem climático que mejor divide a PP y PSOE. | Esperado: Sumar/Podemos +2, Verdes Equo +2, PSOE +1, ERC +1, PP -1, Junts -1, Vox -2, SALF -2."
+    "notas": "Discrimina: Separa Sumar/Verdes (+2) del PSOE (+1, la asume con matices industriales), del PP (−1, pide revisarla en la UE) y de Vox/SALF (−2, derogación); es el ítem climático que mejor divide a PP y PSOE. | Esperado: Sumar/Podemos +2, Verdes Equo +2, PSOE +1, ERC +1, PP -1, Junts -1, Vox -2, SALF -2.",
+    "terminos": [
+      "prohibicion-combustion-2035"
+    ]
   },
   {
     "id": "ecl-003",
@@ -767,7 +803,10 @@
       "grandes-fortunas"
     ],
     "estado": "piloto",
-    "notas": "Discrimina: Separa el bloque de izquierda (PSOE/Sumar, +2, creadores del impuesto de solidaridad) de PP/Vox/Cs (−2, lo recurrieron y bonifican patrimonio donde gobiernan); PNV y Junts (−1) se despegan de la izquierda por autonomía fiscal y perfil empresarial pese a apoyar la investidura. | Esperado: Sumar/Podemos +2, PSOE +2, EH Bildu +2, PNV -1, Junts -1, PP -2, Vox -2, Ciudadanos -2. | Cubre el hueco 'patrimonio' pedido por la familia. 'Permanente' es la palabra que discrimina: el impuesto de solidaridad nació como temporal y la izquierda quiere consolidarlo. | [Añadido por el revisor para cubrir un hueco]"
+    "notas": "Discrimina: Separa el bloque de izquierda (PSOE/Sumar, +2, creadores del impuesto de solidaridad) de PP/Vox/Cs (−2, lo recurrieron y bonifican patrimonio donde gobiernan); PNV y Junts (−1) se despegan de la izquierda por autonomía fiscal y perfil empresarial pese a apoyar la investidura. | Esperado: Sumar/Podemos +2, PSOE +2, EH Bildu +2, PNV -1, Junts -1, PP -2, Vox -2, Ciudadanos -2. | Cubre el hueco 'patrimonio' pedido por la familia. 'Permanente' es la palabra que discrimina: el impuesto de solidaridad nació como temporal y la izquierda quiere consolidarlo. | [Añadido por el revisor para cubrir un hueco]",
+    "terminos": [
+      "impuesto-grandes-fortunas"
+    ]
   },
   {
     "id": "eco-015",
@@ -845,5 +884,385 @@
     ],
     "estado": "piloto",
     "notas": "Discrimina: la posición ante Palestina/Israel corta el espectro de forma no lineal. | Esperado: PSOE +2, Sumar +2, Podemos +2, ERC/Bildu/BNG +2, IU +2, PP -1, VOX -2, IE 0, FE-JONS +1 (antisionismo tercerposicionista). | [Solo-matching por equifinalidad: el apoyo a Palestina une a la izquierda con el antisionismo de la extrema derecha clásica, y el apoyo a Israel une el giro sionista de VOX con sectores atlantistas: cargarlo sobre cualquier eje puntuaría al revés a alguno de ellos.]"
+  },
+  {
+    "id": "fem-001",
+    "texto": "Cualquier persona adulta debe poder cambiar su sexo en el registro civil por su sola voluntad, sin necesidad de informes médicos ni psicológicos.",
+    "modulo": "nucleo",
+    "ejes": [
+      {
+        "eje": "social",
+        "carga": -1
+      },
+      {
+        "eje": "tradicion-moral",
+        "carga": -0.5
+      }
+    ],
+    "polaridad": "positiva",
+    "tags": [
+      "trans",
+      "autodeterminacion-genero",
+      "ley-trans"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: El GRAN corte intra-izquierda: Podemos/Sumar/ERC (+2) frente al feminismo clásico del PSOE (−1/−2); el PSOE oficial queda en un +1 incómodo. También separa PP (−1) de VOX (−2). | Esperado: Podemos +2, Sumar +2, ERC +2, PSOE (oficial) +1, feminismo clásico (Contra el Borrado, sector Calvo del PSOE) -2, Cs -1, PP -1, VOX -2. | Núcleo de la ley trans de 2023 (autodeterminación registral desde 16 años). El PSOE la votó pero con disidencias sonadas (Carmen Calvo). | [Corregido en revisión: El ítem es sólido y es el gran discriminante intra-izquierda, pero 'Cualquier persona' incluye implícitamente a los menores, que ya tienen su propio ítem (fem-02). Sin acotar la edad, un votante conservador responde a la lectura más dura (niños) y uno de Podemos a la lectura de la ley (16+), generando ruido de medición y solapamiento con fem-02. Acotado a adultos, el ítem queda limpio. Cargas correctas (acuerdo = GAL, antitradicionalismo). Posiciones plausibles; PP en −1 es defendible (rechaza la autodeterminación pero Feijóo evitó comprometerse a derogar la ley), aunque −2 también sería razonable.]",
+    "terminos": [
+      "autodeterminacion-genero"
+    ]
+  },
+  {
+    "id": "dem-015",
+    "texto": "Una dirección política cohesionada debe poder exigir disciplina pública a sus miembros aunque exista desacuerdo interno.",
+    "modulo": "nucleo",
+    "ejes": [
+      {
+        "eje": "organizacion",
+        "carga": 1
+      },
+      {
+        "eje": "autoridad-politica",
+        "carga": 0.5
+      }
+    ],
+    "polaridad": "positiva",
+    "tags": [
+      "disciplina",
+      "direccion",
+      "organizacion-interna"
+    ],
+    "estado": "piloto",
+    "notas": "Separa centralización organizativa de ideología sustantiva; aplicable a partidos de izquierda, derecha y nacionalistas.",
+    "terminos": [
+      "disciplina-de-voto",
+      "mandato-imperativo"
+    ]
+  },
+  {
+    "id": "izq-007",
+    "texto": "El Estado, incluso uno obrero, es una estructura que hay que abolir, no conquistar.",
+    "modulo": "nucleo",
+    "ejes": [
+      {
+        "eje": "organizacion",
+        "carga": -0.5
+      },
+      {
+        "eje": "autoridad-politica",
+        "carga": -0.75
+      }
+    ],
+    "polaridad": "positiva",
+    "tags": [
+      "anarcocomunismo"
+    ],
+    "estado": "piloto",
+    "notas": "Distingue abolición antiestatal de conquista o transformación del Estado; el acuerdo puede proceder de anarquismo o comunismo libertario y no implica una economía de mercado.",
+    "terminos": [
+      "consejismo"
+    ]
+  },
+  {
+    "id": "dem-008",
+    "texto": "La separación de poderes debe respetarse incluso cuando retrase decisiones apoyadas por una mayoría social.",
+    "terminos": [
+      "separacion-de-poderes"
+    ],
+    "modulo": "nucleo",
+    "ejes": [
+      {
+        "eje": "pluralismo-institucional",
+        "carga": 1
+      },
+      {
+        "eje": "autoridad-politica",
+        "carga": -1
+      }
+    ],
+    "polaridad": "positiva",
+    "tags": [
+      "separacion-poderes",
+      "contrapesos"
+    ],
+    "estado": "piloto",
+    "notas": "Introduce un coste real al apoyo abstracto a la separación de poderes y reduce deseabilidad social."
+  },
+  {
+    "id": "der-026",
+    "texto": "Los partidos que promueven la secesión de una parte de España deben poder ser ilegalizados.",
+    "modulo": "nucleo",
+    "ejes": [
+      {
+        "eje": "territorial",
+        "carga": 0.5
+      },
+      {
+        "eje": "social",
+        "carga": 0.5
+      },
+      {
+        "eje": "autoridad-politica",
+        "carga": 0.75
+      }
+    ],
+    "polaridad": "negativa",
+    "tags": [
+      "partidos",
+      "unidad-nacional",
+      "pluralismo"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Frontera institucional entre derecha convencional y radical: Vox (+2, lo lleva en programa) frente a PP, democristianos y tecnócratas (−2, constitucionalismo pluralista: combatir la secesión con la ley, no proscribiendo idearios). Complementa a der-108: aquel marca la frontera climática, este la del pluralismo. No duplica 'unidad de España sobre reivindicación autonómica' (que mide prioridad, no proscripción). | Esperado: Vox +2, tradicionalismo/carlismo +1, neoconservadurismo +0, Ciudadanos -1, PP -2, democracia cristiana -2, ala tecnócrata -2, PSOE -2. | Vox ha propuesto la ilegalización de partidos separatistas; el PP la ha rechazado expresamente. Cs propuso endurecer la LO de partidos sin llegar a la proscripción por ideario (−1). | [Añadido por el revisor para cubrir un hueco]",
+    "terminos": [
+      "ilegalizacion-de-partidos"
+    ]
+  },
+  {
+    "id": "lib-017",
+    "texto": "La eutanasia debería estar reconocida por ley como un derecho para enfermos que la soliciten de forma libre y reiterada.",
+    "modulo": "nucleo",
+    "ejes": [
+      {
+        "eje": "tradicion-moral",
+        "carga": -0.5
+      },
+      {
+        "eje": "social",
+        "carga": -0.25
+      }
+    ],
+    "polaridad": "positiva",
+    "tags": [
+      "libertades-personales",
+      "eutanasia",
+      "liberal-vs-conservador"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Separa al liberal progresista (Cs votó a favor de la ley de eutanasia de 2021; Volt a favor) del conservador liberal (PP la recurrió al Tribunal Constitucional; Vox pide derogarla). Dentro de la familia, el ancap asiente por autopropiedad del cuerpo aunque rechace que sea prestación pública. | Esperado: Ciudadanos +2, Volt España +2, PSOE +2, anarcocapitalismo +1, liberalismo clásico +1, PP -1, Vox -2. | Redactado sobre el principio (derecho reconocido por ley), no sobre la ley concreta de 2021, para que sobreviva a reformas. | [Añadido por el revisor para cubrir un hueco]",
+    "terminos": [
+      "ley-eutanasia"
+    ]
+  },
+  {
+    "id": "nac-002",
+    "texto": "El objetivo final para mi nación debe ser un Estado independiente, no un encaje pactado de más autogobierno dentro de España.",
+    "modulo": "nucleo",
+    "ejes": [
+      {
+        "eje": "territorial",
+        "carga": -1
+      }
+    ],
+    "polaridad": "positiva",
+    "tags": [
+      "independencia",
+      "confederalismo",
+      "foralismo"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Independentistas (ERC, Junts, CUP, EH Bildu) frente a confederalistas/foralistas (PNV, Geroa Bai, PDeCAT) y frente al foralismo españolista (UPN); BNG soberanista pero gradualista. | Esperado: EH Bildu +2, ERC +2, CUP +2, Junts +2, PNV -1, Geroa Bai -1, BNG +1, UPN -2.",
+    "terminos": [
+      "autodeterminacion"
+    ]
+  },
+  {
+    "id": "lab-016",
+    "texto": "Las empresas estratégicas deberían estar dirigidas por el Estado aunque pudieran operar de forma rentable en manos privadas.",
+    "modulo": "nucleo",
+    "ejes": [
+      {
+        "eje": "estatismo",
+        "carga": 1
+      },
+      {
+        "eje": "economico",
+        "carga": -0.75
+      },
+      {
+        "eje": "propiedad-mercado",
+        "carga": -0.5
+      }
+    ],
+    "polaridad": "positiva",
+    "tags": [
+      "empresas-publicas",
+      "sectores-estrategicos"
+    ],
+    "estado": "piloto",
+    "notas": "Añade un coste de oportunidad para separar dirección estatal doctrinal de nacionalización por fallo de mercado.",
+    "terminos": [
+      "sector-estrategico"
+    ]
+  },
+  {
+    "id": "sd-004",
+    "terminos": [
+      "estado-plurinacional"
+    ],
+    "texto": "La Constitución debería reconocer a España como un Estado plurinacional.",
+    "modulo": "nucleo",
+    "ejes": [
+      {
+        "eje": "territorial",
+        "carga": -0.75
+      }
+    ],
+    "polaridad": "positiva",
+    "tags": [
+      "territorial",
+      "plurinacionalidad",
+      "constitucion"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Sumar, Podemos y Compromís (plurinacionalidad explícita) frente a Izquierda Española y el sector clásico del PSOE (nación única de ciudadanos); la dirección del PSOE y el PSC quedan en medio («nación de naciones» retórica sin reforma). | Esperado: Sumar +2, Podemos +2, Compromís +2, PSC +1, PSOE (dirección) +0, PSOE (sector clásico, p. ej. García-Page) -1, Izquierda Española -2."
+  },
+  {
+    "id": "fem-014",
+    "texto": "La venta regulada de cannabis a personas adultas debe ser legal.",
+    "modulo": "nucleo",
+    "ejes": [
+      {
+        "eje": "social",
+        "carga": -0.75
+      }
+    ],
+    "polaridad": "positiva",
+    "tags": [
+      "cannabis",
+      "moral-publica",
+      "drogas"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Corte intra-izquierda nítido que ningún otro ítem da: el PSOE se opone (−1, tumbó las proposiciones de regulación integral) frente a Podemos/Sumar/ERC (+2). E intra-derecha: Cs presentó su propia ley de regulación (+1) y los liberales están a favor (+2) frente a PP/VOX (−2). | Esperado: Podemos +2, Sumar +2, ERC +2, liberales (P-LIB) +2, Ciudadanos +1, PSOE -1, PP -2, VOX -2. | En 2021-2022 se debatieron en el Congreso las propuestas de regulación de Más País/Podemos y de Cs; el PSOE votó con PP y VOX contra la toma en consideración. Discriminante raro: junta a liberales con la izquierda alternativa contra los dos grandes polos del bipartidismo moral. | [Añadido por el revisor para cubrir un hueco]"
+  },
+  {
+    "id": "cat-003",
+    "texto": "Ante conflictos políticos como el independentista, la amnistía es una salida mejor que la vía penal.",
+    "modulo": "nucleo",
+    "ejes": [
+      {
+        "eje": "territorial",
+        "carga": -0.5
+      }
+    ],
+    "polaridad": "positiva",
+    "tags": [
+      "amnistía",
+      "resolución de conflictos",
+      "procés"
+    ],
+    "estado": "piloto",
+    "notas": "Discrimina: Soberanismo y Comuns (principio general) frente a PP/Vox (rechazo frontal); el PSC la acepta como excepción, no como principio, lo que lo sitúa en un punto intermedio. | Esperado: ERC +2, Junts +2, CUP +2, Comuns +2, PSC +1, Aliança Catalana +1, PP -2, VOX -2. | Formulado como principio de resolución de conflictos para que no caduque con la ley concreta.",
+    "terminos": [
+      "amnistia"
+    ]
+  },
+  {
+    "id": "izq-005",
+    "texto": "La planificación pública debe sustituir al mercado en los sectores estratégicos de la economía.",
+    "modulo": "nucleo",
+    "ejes": [
+      {
+        "eje": "economico",
+        "carga": -1
+      },
+      {
+        "eje": "propiedad-mercado",
+        "carga": -0.5
+      }
+    ],
+    "polaridad": "positiva",
+    "tags": [
+      "planificacion"
+    ],
+    "estado": "piloto",
+    "terminos": [
+      "planificacion-economica"
+    ],
+    "notas": "Separa planificación pública de coordinación por mercado, pero no distingue propiedad estatal, control obrero o planificación democrática; esas razones se miden en otros ítems."
+  },
+  {
+    "id": "dem-001",
+    "texto": "Las decisiones políticas de mayor alcance deberían someterse habitualmente a referéndum vinculante.",
+    "modulo": "nucleo",
+    "ejes": [
+      {
+        "eje": "democracia-directa",
+        "carga": 1
+      },
+      {
+        "eje": "autoridad-politica",
+        "carga": -0.25
+      }
+    ],
+    "polaridad": "positiva",
+    "tags": [
+      "referendum",
+      "democracia-directa"
+    ],
+    "estado": "piloto",
+    "notas": "Distingue la decisión directa habitual de la delegación representativa. 'Mayor alcance' evita convertir cualquier trámite en referéndum.",
+    "terminos": [
+      "referendum-vinculante"
+    ]
+  },
+  {
+    "id": "rel-002",
+    "terminos": [
+      "aconfesionalidad"
+    ],
+    "texto": "El Estado debe ser aconfesional: no adoptar una religión oficial y permitir la expresión pública de todas dentro de la ley.",
+    "modulo": "nucleo",
+    "ejes": [
+      {
+        "eje": "libertad-conciencia",
+        "carga": 1
+      },
+      {
+        "eje": "autoridad-politica",
+        "carga": -0.5
+      }
+    ],
+    "polaridad": "positiva",
+    "tags": [
+      "aconfesionalidad",
+      "libertad-religiosa"
+    ],
+    "estado": "piloto",
+    "notas": "Punto central del continuo institucional. No carga laicismo porque el acuerdo con una posición central no debe empujar hacia un polo; sí aporta al eje independiente de libertad de conciencia."
+  },
+  {
+    "id": "lab-017",
+    "texto": "Las grandes empresas privadas deberían transferirse a cooperativas gestionadas por sus trabajadores, no a ministerios estatales.",
+    "modulo": "nucleo",
+    "ejes": [
+      {
+        "eje": "economico",
+        "carga": -1
+      },
+      {
+        "eje": "propiedad-mercado",
+        "carga": -1
+      },
+      {
+        "eje": "poder-laboral",
+        "carga": 1
+      },
+      {
+        "eje": "estatismo",
+        "carga": -1
+      }
+    ],
+    "polaridad": "positiva",
+    "tags": [
+      "cooperativas",
+      "autogestion",
+      "propiedad"
+    ],
+    "estado": "piloto",
+    "notas": "Separa socialización autogestionaria de nacionalización estatal y de propiedad capitalista.",
+    "terminos": [
+      "autogestion"
+    ]
   }
 ]

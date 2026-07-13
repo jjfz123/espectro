@@ -101,7 +101,7 @@ function crearSesionEnHitoIntermedio() {
 
   return {
     version: 3,
-    versionInstrumento: '4',
+    versionInstrumento: '5',
     fase: 'hito-intermedio',
     ccaa: '',
     eleccion: 'generales',
@@ -132,8 +132,8 @@ function crearSesionResultadosRapidos(valor: -2 | -1 | 0 | 1 | 2 = 0) {
   const manifiesto = JSON.parse(
     readFileSync(resolve(directorioDatos, 'rapido.json'), 'utf8'),
   ) as { ids: string[] };
-  if (manifiesto.ids.length !== 50 || new Set(manifiesto.ids).size !== 50) {
-    throw new Error('El manifiesto rápido debe contener 50 ids únicos');
+  if (manifiesto.ids.length !== 65 || new Set(manifiesto.ids).size !== 65) {
+    throw new Error('El manifiesto rápido debe contener 65 ids únicos');
   }
   const rapido = manifiesto.ids.map((id) => {
     const item = itemsPorId.get(id);
@@ -145,7 +145,7 @@ function crearSesionResultadosRapidos(valor: -2 | -1 | 0 | 1 | 2 = 0) {
 
   return {
     version: 3,
-    versionInstrumento: '4',
+    versionInstrumento: '5',
     guardadoEn: new Date().toISOString(),
     fase: 'resultados',
     ccaa: '',
@@ -188,11 +188,11 @@ async function activarSinDesplazamiento(control: Locator): Promise<void> {
 
 async function completarRapido(page: Page) {
   await empezarTest(page);
-  for (let indice = 0; indice < 50; indice += 1) {
+  for (let indice = 0; indice < 65; indice += 1) {
     await page.keyboard.press('3');
     await page
       .getByRole('button', {
-        name: indice === 49 ? 'Finalizar modo rápido' : 'Siguiente',
+        name: indice === 64 ? 'Finalizar modo rápido' : 'Siguiente',
         exact: true,
       })
       .click();
@@ -274,7 +274,7 @@ test('glosario: se abre desde la marca, enlaza a Wikipedia y cierra con Escape',
   await empezarTest(page);
   const marca = page.getByRole('button', { name: /qué significa/i }).first();
   // Avanza por todo el modo rápido hasta encontrar un ítem con término de glosario.
-  for (let i = 0; i < 55 && !(await marca.isVisible()); i++) {
+  for (let i = 0; i < 70 && !(await marca.isVisible()); i++) {
     await page.keyboard.press('3');
     await page.keyboard.press('ArrowRight');
     await page.waitForTimeout(80); // deja pintar la pregunta antes de mirar la marca
@@ -283,7 +283,8 @@ test('glosario: se abre desde la marca, enlaza a Wikipedia y cierra con Escape',
   await marca.click();
   await expect(page.getByText('Del glosario')).toBeVisible();
   /* La ampliación llega plegada bajo «Más detalle» y se abre bajo demanda:
-     el primer ítem con glosario del rápido (autodeterminación) la tiene. */
+     el primer ítem con glosario del rápido (colaboración público-privada,
+     eco-002 desde la v5) la tiene. */
   const masDetalle = page.locator('.glosario-mas').first();
   await expect(masDetalle).toBeVisible();
   await expect(masDetalle).not.toHaveAttribute('open', '');
@@ -311,14 +312,14 @@ test('borrar mis datos limpia el almacenamiento y vuelve a empezar', async ({ pa
   expect(guardado).toBeNull();
 });
 
-test('rápido → perfil provisional → exhaustivo conserva las 50 respuestas', async ({ page }) => {
+test('rápido → perfil provisional → exhaustivo conserva las 65 respuestas', async ({ page }) => {
   await completarRapido(page);
 
   await page.getByRole('button', { name: 'Ver perfil provisional' }).click();
   await expect(
     page.getByRole('heading', { name: 'Tu posición provisional y tus afinidades' }),
   ).toBeVisible();
-  await expect(page.getByText(/50 ítems respondidos/)).toBeVisible();
+  await expect(page.getByText(/65 ítems respondidos/)).toBeVisible();
   await esperarMapaDesplegado(page);
   await expect(
     page.locator('.mapa-plano--brujula .mapa-punto[data-tipo="usuario"]'),
@@ -329,12 +330,31 @@ test('rápido → perfil provisional → exhaustivo conserva las 50 respuestas',
 
   const guardado = await page.evaluate((clave) => JSON.parse(localStorage.getItem(clave) ?? '{}'), CLAVE_ALMACEN);
   expect(guardado.modo).toBe('completo');
-  expect(Object.keys(guardado.respuestas ?? {})).toHaveLength(50);
+  expect(Object.keys(guardado.respuestas ?? {})).toHaveLength(65);
 
   await page.getByRole('button', { name: 'Saltar a los resultados sin profundizar' }).click();
   await expect(
     page.getByRole('heading', { name: 'Tu posición provisional y tus afinidades' }),
   ).toBeVisible();
+});
+
+test('una sesión del instrumento v4 migra a v5 conservando sus respuestas', async ({ page }) => {
+  /* v4→v5 amplía el núcleo de 50 a 65 sin tocar ids, textos ni cargas: la
+     sesión antigua debe restaurarse (no retirarse como «instrumento») y sus
+     respuestas conservan el resultado; solo aparecen preguntas nuevas
+     pendientes si sigue el recorrido. */
+  const sesion = { ...crearSesionResultadosRapidos(1), versionInstrumento: '4' };
+  await page.setViewportSize({ width: 390, height: 844 });
+  await page.addInitScript(
+    ({ clave, estado }) => localStorage.setItem(clave, JSON.stringify(estado)),
+    { clave: CLAVE_ALMACEN, estado: sesion },
+  );
+  await page.goto('/');
+  await expect(
+    page.getByRole('heading', { name: 'Tu posición provisional y tus afinidades' }),
+  ).toBeVisible();
+  await expect(page.locator('.lectura-rapida')).toContainText('Cómo leer esta página');
+  await expect(page.getByText(/Venía de una versión anterior del cuestionario/)).toHaveCount(0);
 });
 
 test('resultados: un único ranking por afinidad, sin bloque de mayoritarios (orden del propietario)', async ({ page }) => {
@@ -762,7 +782,7 @@ test('las ramas condicionales aparecen y sus respuestas se limpian al cambiar el
       clave,
       JSON.stringify({
         version: 3,
-        versionInstrumento: '4',
+        versionInstrumento: '5',
         guardadoEn: new Date().toISOString(),
         fase: 'revision',
         ccaa: '',
@@ -848,7 +868,7 @@ test('autonómicas sin comunidad no mezclan partidos de territorios distintos', 
       clave,
       JSON.stringify({
         version: 3,
-        versionInstrumento: '4',
+        versionInstrumento: '5',
         guardadoEn: new Date().toISOString(),
         fase: 'resultados',
         ccaa: '',
@@ -886,7 +906,7 @@ test('un partido monotemático aparece sin porcentaje de afinidad general', asyn
       clave,
       JSON.stringify({
         version: 3,
-        versionInstrumento: '4',
+        versionInstrumento: '5',
         guardadoEn: new Date().toISOString(),
         fase: 'resultados',
         ccaa: '',
@@ -931,7 +951,7 @@ test('una referencia violenta se contextualiza sin porcentaje ni identidad perso
       clave,
       JSON.stringify({
         version: 3,
-        versionInstrumento: '4',
+        versionInstrumento: '5',
         guardadoEn: new Date().toISOString(),
         fase: 'resultados',
         ccaa: '',
@@ -978,7 +998,7 @@ test('reintentar el 3D vuelve a solicitar el chunk después de un fallo', async 
       clave,
       JSON.stringify({
         version: 3,
-        versionInstrumento: '4',
+        versionInstrumento: '5',
         guardadoEn: new Date().toISOString(),
         fase: 'resultados',
         ccaa: '',
@@ -1038,7 +1058,7 @@ test('el recuento del plano coincide con los puntos realmente dibujados', async 
       clave,
       JSON.stringify({
         version: 3,
-        versionInstrumento: '4',
+        versionInstrumento: '5',
         guardadoEn: new Date().toISOString(),
         fase: 'resultados',
         ccaa: '',
@@ -1074,7 +1094,7 @@ test('la brújula degrada el fondo y revela corrientes solo al enfocar o tocar',
       clave,
       JSON.stringify({
         version: 3,
-        versionInstrumento: '4',
+        versionInstrumento: '5',
         guardadoEn: new Date().toISOString(),
         fase: 'resultados',
         ccaa: '',
@@ -1392,7 +1412,7 @@ test('la brújula móvil distingue evidencia provisional y resuelve con segurida
         clave,
         JSON.stringify({
           version: 3,
-          versionInstrumento: '4',
+          versionInstrumento: '5',
           guardadoEn: new Date().toISOString(),
           fase: 'resultados',
           ccaa: '',
@@ -1533,7 +1553,7 @@ test('resultados abiertos no introducen violaciones automáticas de accesibilida
       clave,
       JSON.stringify({
         version: 3,
-        versionInstrumento: '4',
+        versionInstrumento: '5',
         guardadoEn: new Date().toISOString(),
         fase: 'resultados',
         ccaa: 'madrid',
@@ -1578,7 +1598,7 @@ test('resultados y visor 3D siguen disponibles sin conexión tras instalar la PW
       clave,
       JSON.stringify({
         version: 3,
-        versionInstrumento: '4',
+        versionInstrumento: '5',
         guardadoEn: new Date().toISOString(),
         fase: 'resultados',
         ccaa: '',
@@ -1624,7 +1644,7 @@ function crearSesionConOfertaPendiente() {
   }
   return {
     version: 3,
-    versionInstrumento: '4',
+    versionInstrumento: '5',
     guardadoEn: new Date().toISOString(),
     fase: 'oferta-modulos',
     ccaa: '',

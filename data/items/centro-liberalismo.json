@@ -326,32 +326,6 @@
     "notas": "Discrimina: Propuesta identitaria del centrismo reformista (UPyD la lanzó, Cs la asumió) frente a PP y PSOE, cuyas estructuras territoriales viven de las diputaciones. Separa al regeneracionismo centrista tanto del bipartidismo como del regionalismo provincialista. | Esperado: UPyD +2, Ciudadanos +2, PRC +0, PSOE -1, Vox -1, PP -2. | [Corregido en revisión: Dos defectos: (1) 'por ser una capa administrativa prescindible' incrusta la justificación como hecho consumado, redacción sesgada que un votante del PP no firmaría como neutra; se elimina. (2) Error factual por omisión que rompe la carga de eje: IU y Podemos llevan AÑOS pidiendo suprimir las diputaciones (falta Sumar/Podemos en +1/+2 en posicionesEsperadas), así que la relación con el eje economico NO es monótona: asienten regeneracionistas de centro Y la izquierda municipalista. Debe pasar a solo-matching (ejes: []). Con esas dos correcciones el ítem discrimina limpiamente regeneracionismo vs bipartidismo territorial.]"
   },
   {
-    "id": "lib-017",
-    "texto": "La eutanasia debería estar reconocida por ley como un derecho para enfermos que la soliciten de forma libre y reiterada.",
-    "modulo": "centro-liberalismo",
-    "ejes": [
-      {
-        "eje": "tradicion-moral",
-        "carga": -0.5
-      },
-      {
-        "eje": "social",
-        "carga": -0.25
-      }
-    ],
-    "polaridad": "positiva",
-    "tags": [
-      "libertades-personales",
-      "eutanasia",
-      "liberal-vs-conservador"
-    ],
-    "estado": "piloto",
-    "notas": "Discrimina: Separa al liberal progresista (Cs votó a favor de la ley de eutanasia de 2021; Volt a favor) del conservador liberal (PP la recurrió al Tribunal Constitucional; Vox pide derogarla). Dentro de la familia, el ancap asiente por autopropiedad del cuerpo aunque rechace que sea prestación pública. | Esperado: Ciudadanos +2, Volt España +2, PSOE +2, anarcocapitalismo +1, liberalismo clásico +1, PP -1, Vox -2. | Redactado sobre el principio (derecho reconocido por ley), no sobre la ley concreta de 2021, para que sobreviva a reformas. | [Añadido por el revisor para cubrir un hueco]",
-    "terminos": [
-      "ley-eutanasia"
-    ]
-  },
-  {
     "id": "lib-018",
     "texto": "España debería ampliar de forma sustancial las vías legales de inmigración laboral para quien tenga una oferta de trabajo.",
     "modulo": "centro-liberalismo",

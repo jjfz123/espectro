@@ -60,28 +60,6 @@
     "notas": "Discrimina: PSOE e Izquierda Española (sí rotundo) frente a Podemos e IU (no, «la guerra no se soluciona con más armas»); Sumar y Más Madrid en posición intermedia de aceptación reticente. | Esperado: PSOE (dirección) +2, Izquierda Española +2, Sumar +1, Más Madrid +1, Podemos -2, PCE/IU (dentro de Sumar) -2. | [Corregido en revisión: Defecto de marco evaluativo (Kamoen & Holleman): 'es coherente con los valores de la izquierda' no pregunta por la política sino por una identidad — un votante puede apoyar el envío de armas y a la vez negar que sea 'de izquierdas', o viceversa. Además el adjetivo 'democrático' precarga la respuesta. Se reformula como afirmación de política pública manteniendo el ejemplo Ucrania como ancla (el principio general sobrevive al fin de la guerra). Eje y signo correctos; posiciones esperadas verosímiles (PSOE/IE sí; Podemos e IU 'la guerra no se soluciona con más armas'; Sumar aceptación reticente).]"
   },
   {
-    "id": "sd-004",
-    "terminos": [
-      "estado-plurinacional"
-    ],
-    "texto": "La Constitución debería reconocer a España como un Estado plurinacional.",
-    "modulo": "socialdemocracia-reformismo",
-    "ejes": [
-      {
-        "eje": "territorial",
-        "carga": -0.75
-      }
-    ],
-    "polaridad": "positiva",
-    "tags": [
-      "territorial",
-      "plurinacionalidad",
-      "constitucion"
-    ],
-    "estado": "piloto",
-    "notas": "Discrimina: Sumar, Podemos y Compromís (plurinacionalidad explícita) frente a Izquierda Española y el sector clásico del PSOE (nación única de ciudadanos); la dirección del PSOE y el PSC quedan en medio («nación de naciones» retórica sin reforma). | Esperado: Sumar +2, Podemos +2, Compromís +2, PSC +1, PSOE (dirección) +0, PSOE (sector clásico, p. ej. García-Page) -1, Izquierda Española -2."
-  },
-  {
     "id": "sd-005",
     "texto": "La financiación singular, como el concierto vasco, no debería extenderse a otras comunidades.",
     "modulo": "socialdemocracia-reformismo",
