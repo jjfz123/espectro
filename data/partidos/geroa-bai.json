@@ -325,6 +325,62 @@
         "cita": "Es un ataque grave al autogobierno"
       },
       "grupoEvidencia": "trbj-gb-dem008-supremo"
+    },
+    "ter-002": {
+      "valor": 2,
+      "justificacion": "Su programa foral de 2019 plantea que Navarra celebre a medio-largo plazo un pacto constituyente entre iguales con el Estado, con consulta sin exclusiones y aval de la ciudadanía: defiende que la ciudadanía navarra decida libremente su régimen político.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral de Geroa Bai para las elecciones forales de 2019",
+        "url": "https://geroabai.eus/files/2019/05/PROGRAMA-PARLAMENTO-2019%20(1).pdf",
+        "cita": "pacto constituyente entre iguales",
+        "fecha": "2019-05",
+        "consultado": "2026-07-13"
+      },
+      "grupoEvidencia": "pasaje-56d6e6ea175bfe13eb65"
+    },
+    "mon-001": {
+      "valor": 1,
+      "justificacion": "En la ley de abdicación de 2014 Geroa Bai presentó una enmienda para convocar un referéndum sobre el modelo de Estado y Barkos reprochó a PP y PSOE ignorar la demanda de consulta sobre la Monarquía: pide someter la jefatura del Estado a decisión ciudadana, sin proclamar expresamente una jefatura electa.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "Los dinásticos aprueban la entronización de Felipe VI y rechazan un referéndum (cuartopoder)",
+        "url": "https://www.cuartopoder.es/espana/2014/06/11/los-dinasticos-aprueban-la-entronizacion-de-felipe-vi-y-rechazan-un-referendum/",
+        "cita": "Los dinásticos aprueban la entronización de Felipe VI y rechazan un referéndum",
+        "fecha": "2014-06-11",
+        "consultado": "2026-07-13"
+      },
+      "grupoEvidencia": "pasaje-b2458a74d97e76dcdd4c"
+    },
+    "int-001": {
+      "valor": 2,
+      "justificacion": "Respaldó expresamente la decisión del Gobierno de reconocer el Estado de Palestina, que calificó de gesto político que aplaude aunque insuficiente. Titular como cita.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Geroa Bai apoya a Pedro Sánchez en el reconocimiento del Estado de Palestina (OKDiario Navarra)",
+        "url": "https://navarra.okdiario.com/articulo/politica/geroa-bai-apoya-pedro-sanchez-reconocimiento-estado-palestina/20240601111227539279.html",
+        "cita": "Geroa Bai apoya a Pedro Sánchez en el reconocimiento del Estado de Palestina",
+        "fecha": "2024-06-01",
+        "consultado": "2026-07-13"
+      },
+      "grupoEvidencia": "pasaje-cbb7c78a059cf4d599fd"
+    },
+    "lib-017": {
+      "valor": 2,
+      "justificacion": "Presentó y sacó adelante en el Parlamento de Navarra una moción que instaba al Gobierno de España a elaborar una ley reguladora de la eutanasia y el suicidio médicamente asistido, defendida por su portavoz Koldo Martínez. Titular como cita.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "El Parlamento de Navarra pide que se regule la eutanasia en España (InfoCatólica)",
+        "url": "https://www.infocatolica.com/?cod=25953&t=noticia",
+        "cita": "El Parlamento de Navarra pide que se regule la eutanasia en España",
+        "fecha": "2016-02-11",
+        "consultado": "2026-07-13"
+      },
+      "grupoEvidencia": "pasaje-f544621f84809758e686"
     }
   }
 }
