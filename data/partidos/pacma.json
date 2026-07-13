@@ -217,6 +217,20 @@
         "consultado": "2026-07-13"
       },
       "grupoEvidencia": "pasaje-f05b5d9d8d7f7e567509"
+    },
+    "dem-021": {
+      "valor": 2,
+      "justificacion": "En su campaña contra la Ley Mordaza, PACMA afirma que «El derecho a la protesta pacífica es fundamental» y se opone frontalmente a la Ley de Seguridad Ciudadana que sanciona las manifestaciones; de ese rechazo se sigue que participar pacíficamente en una manifestación no debería sancionarse por no haberse comunicado previamente.",
+      "calidadEvidencia": "media",
+      "grupoEvidencia": "pacma-ley-mordaza-protesta-pacifica",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "El Régimen que impone la Ley Mordaza (PACMA)",
+        "url": "https://pacma.es/campana-politica/el-regimen-que-impone-la-ley-mordaza/",
+        "cita": "El derecho a la protesta pacífica es fundamental",
+        "fecha": "2015",
+        "consultado": "2026-07-13"
+      }
     }
   }
 }
