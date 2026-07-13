@@ -351,6 +351,48 @@
         "cita": "Mira hacia arriba para descubrir a los verdaderos culpables de la desigualdad"
       },
       "grupoEvidencia": "pasaje-742b7fcd35534e081afc"
+    },
+    "fem-006": {
+      "valor": -2,
+      "justificacion": "Su colíder Mónica García, como ministra de Sanidad, defiende el aborto como un derecho a garantizar en la sanidad pública dentro de la ley de plazos vigente (protocolo de registro de objetores incluido): lo contrario de restringirlo a supuestos tasados. Titular como cita.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Mónica García sostiene que el registro de objetores al aborto garantiza «que los dos derechos se puedan ejercer» (Infosalus/Europa Press)",
+        "url": "https://www.infosalus.com/actualidad/noticia-monica-garcia-sostiene-registro-objetores-aborto-garantiza-dos-derechos-puedan-ejercer-20260527114403.html",
+        "cita": "Mónica García sostiene que el registro de objetores al aborto garantiza \"que los dos derechos se puedan ejercer\"",
+        "fecha": "2026-05-27",
+        "consultado": "2026-07-13"
+      },
+      "grupoEvidencia": "pasaje-5787503e6164cc2b9ed5"
+    },
+    "sd-002": {
+      "valor": -1,
+      "justificacion": "Su colíder expresó públicamente discrepancias con el aumento del gasto militar anunciado por Sánchez, aunque sin ruptura ni rechazo frontal desde su posición en el Gobierno de coalición: desacuerdo moderado con el incremento sustancial. Titular como cita.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Mónica García alude a «discrepancias sanas» con Sánchez en gasto militar y dice que Sumar es responsable en el Gobierno (Infobae/Europa Press)",
+        "url": "https://www.infobae.com/espana/agencias/2025/04/22/monica-garcia-alude-a-discrepancias-sanas-con-sanchez-en-gasto-militar-y-dice-que-sumar-es-responsable-en-el-gobierno/",
+        "cita": "Mónica García alude a \"discrepancias sanas\" con Sánchez en gasto militar y dice que Sumar es responsable en el Gobierno",
+        "fecha": "2025-04-22",
+        "consultado": "2026-07-13"
+      },
+      "grupoEvidencia": "pasaje-a512e711420f6b326c4c"
+    },
+    "eco-011": {
+      "valor": 1,
+      "justificacion": "Registró una proposición de ley para devolver a 35 horas semanales, sin reducción de sueldo, la jornada de los empleados públicos de la Comunidad de Madrid: apoya reducir la jornada por ley sin rebaja salarial, aunque la iniciativa citada se limita al empleo público regional. Titular como cita.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Más Madrid propone recuperar la reducción de la jornada de empleados públicos a 35 horas semanales (web oficial de Más Madrid)",
+        "url": "https://masmadrid.org/mas-madrid-propone-recuperar-la-reduccion-de-la-jornada-de-empleados-publicos-a-35-horas-semanales/",
+        "cita": "Más Madrid propone recuperar la reducción de la jornada de empleados públicos a 35 horas semanales",
+        "fecha": "2026-04-23",
+        "consultado": "2026-07-13"
+      },
+      "grupoEvidencia": "pasaje-868edb5ed156c1fdd0df"
     }
   }
 }
