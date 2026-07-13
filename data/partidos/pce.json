@@ -231,6 +231,34 @@
         "cita": "El fin de la monarquía no depende de las actitudes de Casa Real, sino de la madurez democrática del pueblo"
       },
       "grupoEvidencia": "pasaje-a5b9fa071a580f426589"
+    },
+    "ene-005": {
+      "valor": -2,
+      "justificacion": "El PCE reclama nacionalizar el sector eléctrico —sostiene que «Nacionalizar las eléctricas es asegurar industria, empleo y soberanía»— y sacarlo del mercado privado; rechaza de plano que la generación y comercialización de electricidad se realicen principalmente por empresas privadas en competencia.",
+      "calidadEvidencia": "media",
+      "grupoEvidencia": "pce-nacionalizar-el-sector-electrico",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Nacionalizar las eléctricas es asegurar industria, empleo y soberanía (PCE)",
+        "url": "https://www.pce.es/nacionalizar-el-sector-energetico-para-asegurar-la-industria-el-empleo-y-la-soberania-solucion-para-el-sector-electrointensivo/",
+        "cita": "Nacionalizar las eléctricas es asegurar industria, empleo y soberanía",
+        "fecha": "2019-06-07",
+        "consultado": "2026-07-13"
+      }
+    },
+    "soc-001": {
+      "valor": 2,
+      "justificacion": "El PCE se reivindica «a la vanguardia por los derechos del colectivo LGTBI», con un largo historial parlamentario a favor del matrimonio igualitario y de leyes integrales de igualdad LGTBI; defiende sin reservas mantener y ampliar esos derechos protegidos por ley.",
+      "calidadEvidencia": "media",
+      "grupoEvidencia": "pce-vanguardia-derechos-lgtbi",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "El PCE siempre a la vanguardia por los derechos del colectivo LGTBI (PCE)",
+        "url": "https://www.pce.es/el-pce-siempre-a-la-vanguardia-por-los-derechos-del-colectivo-lgtbi/",
+        "cita": "El PCE siempre a la vanguardia por los derechos del colectivo LGTBI",
+        "fecha": "2019-06",
+        "consultado": "2026-07-13"
+      }
     }
   }
 }
