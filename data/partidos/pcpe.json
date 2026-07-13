@@ -211,6 +211,34 @@
         "fecha": "2024-05",
         "consultado": "2026-07-09"
       }
+    },
+    "izq-005": {
+      "valor": 2,
+      "justificacion": "El programa del PCPE reclama la planificación central de la economía «en función exclusiva de la satisfacción de las necesidades objetivas de la inmensa mayoría social», combatiendo el consumismo capitalista; defiende sin reservas sustituir el mercado por la planificación pública en los sectores estratégicos.",
+      "calidadEvidencia": "media",
+      "grupoEvidencia": "pcpe-programa-planificacion-economia",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral del PCPE (versión larga)",
+        "url": "https://pcpe.es/wp-content/uploads/2022/06/Programa-electoral-LARGO-en-Word-maquetado.pdf",
+        "cita": "Planificación de la economía y la producción en función exclusiva de la satisfacción de las necesidades objetivas de la inmensa mayoría social",
+        "fecha": "2022",
+        "consultado": "2026-07-13"
+      }
+    },
+    "dem-015": {
+      "valor": 2,
+      "justificacion": "Los estatutos del PCPE organizan el partido con una estructura militante disciplinada, sin concesiones al fraccionalismo y «basando su funcionamiento interno en los principios del centralismo democrático»; defiende por tanto que la dirección exija disciplina pública a sus miembros pese al desacuerdo interno.",
+      "calidadEvidencia": "media",
+      "grupoEvidencia": "pcpe-estatutos-centralismo-democratico",
+      "fuente": {
+        "tipo": "estatutos",
+        "titulo": "Los estatutos, una cuestión de principios (PCPE)",
+        "url": "https://pcpe.es/estatutos-una-cuestion-de-principios/",
+        "cita": "basando su funcionamiento interno en los principios del centralismo democrático",
+        "fecha": "2017-05-19",
+        "consultado": "2026-07-13"
+      }
     }
   }
 }
