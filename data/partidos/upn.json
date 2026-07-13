@@ -375,11 +375,11 @@
     "eco-002": {
       "valor": 1,
       "justificacion": "UPN defiende la colaboración público-privada como forma de gestión eficiente de los servicios públicos: su programa propone recuperar la colaboración público-privada para los servicios sociales y su presidenta, Cristina Ibarrola, reivindica la colaboración público-privada en sanidad con criterios de eficiencia, calidad y efectividad, dentro de un marco de control público; endoso parcial de la participación privada para mejorar la eficiencia.",
-      "calidadEvidencia": "media",
+      "calidadEvidencia": "alta",
       "fuente": {
         "tipo": "programa",
-        "titulo": "Programa electoral de UPN para las Elecciones Autonómicas 2023 en Navarra",
-        "url": "https://www.politicaelectoral.com/es/espana/autonomicas-2023/navarra/upn",
+        "titulo": "Programa electoral de UPN — Elecciones al Parlamento de Navarra 2023 (web oficial de UPN, apartado de servicios sociales)",
+        "url": "https://elecciones.upn.org/programa/",
         "fecha": "2023",
         "consultado": "2026-07-12",
         "cita": "Recuperación de la colaboración público-privada como forma de gestión de servicios sociales de calidad"
@@ -403,14 +403,14 @@
     "dem-010": {
       "valor": 2,
       "justificacion": "UPN reclamó mantener el control parlamentario y la competencia política durante el estado de alarma, denunciando el «abuso» de un estado de alarma que «secuestra a los parlamentarios y acalla a los representantes» de los ciudadanos.",
-      "calidadEvidencia": "media",
+      "calidadEvidencia": "alta",
       "fuente": {
         "tipo": "declaracion",
-        "titulo": "UPN denuncia el «abuso» del Gobierno y la «cobardía impresentable» de Sánchez con el estado de alarma (Servimedia)",
+        "titulo": "UPN denuncia el «abuso» del Gobierno con el estado de alarma (Servimedia; declaración de Sergio Sayas en el Congreso)",
         "url": "https://www.servimedia.es/noticias/1327001",
         "fecha": "2020-10-29",
         "consultado": "2026-07-12",
-        "cita": "UPN denuncia el «abuso» del Gobierno y la «cobardía impresentable» de Sánchez con el estado de alarma"
+        "cita": "abuso de estado de alarma, que secuestra a los parlamentarios y calla la boca a los representantes"
       },
       "grupoEvidencia": "trbj-upn-dem010-alarma"
     },
