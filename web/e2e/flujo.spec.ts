@@ -25,6 +25,7 @@ interface CorrienteMapaDePrueba {
   decision: 'A' | 'B';
   capa: 'region' | 'faceta' | 'contexto' | 'diagnostico' | 'modelo-historico';
   publicacionGeometrica?: 'publicada' | 'bloqueada-investigacion';
+  comunidadAutonoma?: string[];
 }
 
 const CORRIENTES_MAPA = (
@@ -41,7 +42,15 @@ const REGIONES_MAPA = CORRIENTES_MAPA.filter(
 const ANCLAS_BLOQUEADAS_MAPA = CORRIENTES_MAPA.filter(
   (corriente) => corriente.publicacionGeometrica === 'bloqueada-investigacion',
 );
+// El recuento descriptivo del atlas («incluye N regiones geométricas») es el
+// catálogo completo, que existe con independencia del territorio.
 const TOTAL_CORRIENTES_MAPA = REGIONES_MAPA.length;
+// La brújula solo DIBUJA los regionalismos territoriales cuando el usuario elige
+// esa comunidad. Todas las sesiones de prueba usan ccaa='' (generales), así que
+// las zonas realmente dibujadas son las regiones estatales (sin etiqueta CCAA).
+const CORRIENTES_MAPA_DIBUJADAS_SIN_COMUNIDAD = REGIONES_MAPA.filter(
+  (corriente) => (corriente.comunidadAutonoma?.length ?? 0) === 0,
+).length;
 const CORRIENTES_PRINCIPALES_MAPA = CORRIENTES_MAPA.filter(
   (corriente) => corriente.publicacionGeometrica === 'publicada' && corriente.decision === 'A',
 ).length;
@@ -730,7 +739,7 @@ test('el hito de 150 persiste, ofrece perfil intermedio y reanuda sin repetirse'
   /* Orden del propietario (2026-07-12): el atlas completo es el ÚNICO modo,
      sin conmutadores de profundidad ni variante simplificada, en ningún nivel. */
   await expect(page.locator('.mapa-plano--brujula .mapa-zona--interactiva')).toHaveCount(
-    TOTAL_CORRIENTES_MAPA,
+    CORRIENTES_MAPA_DIBUJADAS_SIN_COMUNIDAD,
   );
   await expect(page.getByLabel('Incluir corrientes de profundidad')).toHaveCount(0);
   await expect(page.getByLabel('Explorar corrientes ideológicas')).toHaveCount(0);
@@ -924,7 +933,7 @@ test('un partido monotemático aparece sin porcentaje de afinidad general', asyn
 
   await esperarMapaDesplegado(page);
   await expect(page.locator('.mapa-plano--brujula .mapa-zona--interactiva')).toHaveCount(
-    TOTAL_CORRIENTES_MAPA,
+    CORRIENTES_MAPA_DIBUJADAS_SIN_COMUNIDAD,
   );
   await expect(page.getByLabel('Incluir corrientes de profundidad')).toHaveCount(0);
   await expect(
@@ -1119,7 +1128,7 @@ test('la brújula degrada el fondo y revela corrientes solo al enfocar o tocar',
   /* Atlas completo como único modo: sin conmutador y sin exigir clic. */
   await expect(page.getByLabel('Incluir corrientes de profundidad')).toHaveCount(0);
   await expect(page.locator('.mapa-plano--brujula .mapa-zona--interactiva')).toHaveCount(
-    TOTAL_CORRIENTES_MAPA,
+    CORRIENTES_MAPA_DIBUJADAS_SIN_COMUNIDAD,
   );
   await expect(page.locator('.mapa-plano--brujula .mapa-ancla-bloqueada')).toHaveCount(
     ANCLAS_BLOQUEADAS_MAPA.length,
@@ -1167,7 +1176,7 @@ test('la brújula degrada el fondo y revela corrientes solo al enfocar o tocar',
   /* Sin variante simplificada que restar: la profundidad no es conmutable. */
   await expect(page.getByLabel('Incluir corrientes de profundidad')).toHaveCount(0);
   await expect(page.locator('.mapa-plano--brujula .mapa-zona--interactiva')).toHaveCount(
-    TOTAL_CORRIENTES_MAPA,
+    CORRIENTES_MAPA_DIBUJADAS_SIN_COMUNIDAD,
   );
 
   const zonas = page.locator('.mapa-plano--brujula .mapa-zona--interactiva');
@@ -1382,7 +1391,7 @@ test('el atlas completo es el único modo: sin conmutadores ni variante simplifi
 
   /* El atlas completo está presente de entrada, con buscador operativo. */
   await expect(page.locator('.mapa-plano--brujula .mapa-zona--interactiva')).toHaveCount(
-    TOTAL_CORRIENTES_MAPA,
+    CORRIENTES_MAPA_DIBUJADAS_SIN_COMUNIDAD,
   );
   await expect(page.locator('.mapa-plano--brujula .mapa-ancla-bloqueada')).toHaveCount(
     ANCLAS_BLOQUEADAS_MAPA.length,

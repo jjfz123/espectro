@@ -703,6 +703,48 @@
         "cita": "ilegalizar a los partidos independentistas como ERC, Junts o Bildu"
       },
       "grupoEvidencia": "junts-contra-ilegalizacion-vox"
+    },
+    "der-018": {
+      "valor": -1,
+      "justificacion": "En marzo de 2026 Junts votó junto a PP y Vox una iniciativa que instaba al Gobierno a paralizar su plan de regularización extraordinaria de inmigrantes con años de residencia y trabajo en España. Condiciona además cualquier regularización a que se transfieran a Cataluña las competencias de inmigración, de modo que no respalda facilitarla en los términos planteados.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "El Congreso pide parar la regularización de inmigrantes con los votos del PP, Vox y Junts (El Debate)",
+        "url": "https://www.eldebate.com/espana/20260318/congreso-pide-parar-regularizacion-inmigrantes-votos-pp-vox-junts_397723.html",
+        "fecha": "2026-03-18",
+        "consultado": "2026-07-13",
+        "cita": "El Congreso pide parar la regularización de inmigrantes con los votos del PP, Vox y Junts"
+      },
+      "grupoEvidencia": "pasaje-6a3f215e89d5fd5a923d"
+    },
+    "soc-003": {
+      "valor": 2,
+      "justificacion": "El programa de Junts propone expresamente impulsar la videovigilancia con cámaras de seguridad por motivos de seguridad ciudadana.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa marco de Junts, elecciones 2023",
+        "url": "https://web.junts.cat/wp-content/uploads/2023/10/PROGRAMA-MARC-ELECCIONS-2023.pdf",
+        "fecha": "2023",
+        "consultado": "2026-07-13",
+        "cita": "Impulsarem la videovigilància (càmeres de seguretat)."
+      },
+      "grupoEvidencia": "pasaje-06b03ee89e673fae8019"
+    },
+    "izq-044": {
+      "valor": -2,
+      "justificacion": "Junts apuesta por reforzar la policía local con más recursos, lo contrario de reducir progresivamente las funciones policiales.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa marco de Junts, elecciones 2023",
+        "url": "https://web.junts.cat/wp-content/uploads/2023/10/PROGRAMA-MARC-ELECCIONS-2023.pdf",
+        "fecha": "2023",
+        "consultado": "2026-07-13",
+        "cita": "Apostarem per la policia local... Dotarem de més recursos les policies locals."
+      },
+      "grupoEvidencia": "pasaje-8be25513f4335e7f119c"
     }
   }
 }

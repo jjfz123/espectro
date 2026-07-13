@@ -824,6 +824,20 @@
         "cita": "dónde está la separación de poderes cuya bandera dicen enarbolar"
       },
       "grupoEvidencia": "pnv-separacion-poderes"
+    },
+    "lab-037": {
+      "valor": 1,
+      "justificacion": "El PNV defiende movilizar inversión mediante alianza financiera público-privada, orientando la inversión privada con incentivos públicos sin sustituir la iniciativa privada.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "EAJ-PNV refrenda su apuesta por la alianza financiera público-privada (Parlamento Vasco)",
+        "url": "https://parlamentovasco.eaj-pnv.eus/es/noticias/56436/eaj-pnv-refrenda-su-apuesta-por-la-alianza-financi",
+        "fecha": "2025-03-06",
+        "consultado": "2026-07-13",
+        "cita": "movilizar hasta 4.000 millones de euros gracias a la colaboración público-privada"
+      },
+      "grupoEvidencia": "pasaje-765dc20465a78945559d"
     }
   }
 }

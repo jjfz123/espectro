@@ -666,8 +666,8 @@
       }
     },
     "lab-016": {
-      "valor": 2,
-      "justificacion": "Defiende un mayor control público de los sectores estratégicos: propone un banco vasco de inversiones y una comercializadora pública de energía, y reforzar el sector público como palanca del modelo económico vasco.",
+      "valor": 1,
+      "justificacion": "Rebaja de +2 a +1: EH Bildu propone instrumentos públicos concretos (banco vasco de inversiones, comercializadora pública de energía), pero no acredita dirigir desde el Estado todas las empresas estratégicas.",
       "calidadEvidencia": "media",
       "fuente": {
         "tipo": "programa",
@@ -748,6 +748,20 @@
         "cita": "una convivencia laica"
       },
       "grupoEvidencia": "bildu-estado-laico-aconfesional"
+    },
+    "lab-037": {
+      "valor": 1,
+      "justificacion": "EH Bildu propone una política industrial que orienta y moviliza el tejido empresarial existente, no la sustitución de la iniciativa privada.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "EH Bildu presenta las bases para una Política Industrial Emprendedora",
+        "url": "https://ehbildu.eus/es/noticias/eh-bildu-presenta-la-propuesta-bases-para-una-politica-industrial-emprendedora",
+        "fecha": "2023-03-28",
+        "consultado": "2026-07-13",
+        "cita": "Necesitamos transitar hacia una Política Industrial Emprendedora... contamos con un vasto tejido empresarial."
+      },
+      "grupoEvidencia": "pasaje-3fdcc569cdbefa3cd65a"
     }
   }
 }

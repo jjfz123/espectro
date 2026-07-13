@@ -411,9 +411,10 @@ function anclasDelPar(
   ejeXId: string,
   ejeYId: string,
   incluirProfundidad: boolean,
+  ccaa?: string,
 ): AnclaZona[] {
   if (parId === 'propiedad-autoridad') {
-    return corrientesAtlasVisibles(incluirProfundidad).map((corriente) => ({
+    return corrientesAtlasVisibles(incluirProfundidad, ccaa).map((corriente) => ({
       id: corriente.id,
       nombre: corriente.nombre,
       valores: {
@@ -443,15 +444,16 @@ export function capaCorrientes(
   lado: number,
   reservados: RectReservado[],
   incluirProfundidad = false,
+  ccaa?: string,
 ): CapaCorrientes {
   const firmaReservados = reservados
     .map((rect) => [rect.x, rect.y, rect.ancho, rect.alto].map((n) => Math.round(n)).join(','))
     .join(';');
-  const claveCache = `${parId}|${incluirProfundidad ? 'profundo' : 'principal'}|${firmaReservados}`;
+  const claveCache = `${parId}|${incluirProfundidad ? 'profundo' : 'principal'}|${ccaa ?? ''}|${firmaReservados}`;
   const memo = cachePorPar.get(claveCache);
   if (memo) return memo;
 
-  const referencias = anclasDelPar(parId, ejeXId, ejeYId, incluirProfundidad);
+  const referencias = anclasDelPar(parId, ejeXId, ejeYId, incluirProfundidad, ccaa);
   if (referencias.length === 0) {
     const vacia: CapaCorrientes = { zonas: [], bordes: '' };
     cachePorPar.set(claveCache, vacia);

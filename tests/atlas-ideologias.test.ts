@@ -12,6 +12,7 @@ import {
   REGIONES_ATLAS,
   corrientesAtlasVisibles,
   corrienteAtlasMasCercana,
+  corrienteMapeableEnComunidad,
   entradasAtlasExplorables,
   gradoEvidenciaBrujula,
   nombreCapaAtlas,
@@ -171,6 +172,47 @@ describe('capas del atlas ideologico', () => {
         `${corriente.id} debe respetar su decisión de capa`,
       ).toBe(corriente.decision === 'A');
     }
+  });
+
+  it('los regionalismos solo se cartografían con su comunidad autónoma seleccionada', () => {
+    const territoriales = REGIONES_ATLAS.filter(
+      (corriente) => (corriente.comunidadAutonoma?.length ?? 0) > 0,
+    );
+    // Andalucismo, aranismo, galleguismo, blaverismo y foralismo, como mínimo.
+    expect(territoriales.length).toBeGreaterThanOrEqual(5);
+
+    // Sin filtro (undefined) = catálogo completo: enciclopedia y recuentos ven todo.
+    expect(corrientesAtlasVisibles(true).length).toBe(
+      REGIONES_ATLAS.filter((corriente) => corriente.decision !== 'E').length,
+    );
+
+    // «Sin comunidad» ('') deja fuera del eje a todos los regionalismos territoriales.
+    const sinComunidad = corrientesAtlasVisibles(true, '');
+    expect(sinComunidad.some((corriente) => (corriente.comunidadAutonoma?.length ?? 0) > 0)).toBe(
+      false,
+    );
+    expect(sinComunidad.length).toBe(
+      REGIONES_ATLAS.filter((corriente) => corriente.decision !== 'E').length -
+        territoriales.length,
+    );
+
+    // Andalucía revela el andalucismo, no el aranismo ni el galleguismo.
+    const idsAndalucia = new Set(corrientesAtlasVisibles(true, 'andalucia').map((c) => c.id));
+    expect(idsAndalucia.has('andalucismo-blasinfantiano')).toBe(true);
+    expect(idsAndalucia.has('aranismo-sabiniano')).toBe(false);
+    expect(idsAndalucia.has('galleguismo-castelaiano')).toBe(false);
+
+    // Euskadi revela aranismo y foralismo (etiquetados euskadi+navarra), no el andalucismo.
+    const idsEuskadi = new Set(corrientesAtlasVisibles(true, 'euskadi').map((c) => c.id));
+    expect(idsEuskadi.has('aranismo-sabiniano')).toBe(true);
+    expect(idsEuskadi.has('foralismo-fuerista-pactista')).toBe(true);
+    expect(idsEuskadi.has('andalucismo-blasinfantiano')).toBe(false);
+
+    // Una corriente estatal (sin etiqueta territorial) se cartografía siempre.
+    const estatal = REGIONES_ATLAS.find((corriente) => !corriente.comunidadAutonoma);
+    expect(estatal, 'debe existir alguna región estatal').toBeDefined();
+    expect(corrienteMapeableEnComunidad(estatal!, '')).toBe(true);
+    expect(corrienteMapeableEnComunidad(estatal!, 'madrid')).toBe(true);
   });
 
   it('expone nombres humanos de capa y no los ids internos del contrato', () => {

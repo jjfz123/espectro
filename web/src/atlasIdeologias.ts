@@ -42,6 +42,11 @@ export interface CorrienteAtlas {
   preguntasDiscriminantes: string[];
   sensibilidad: SensibilidadAtlas;
   desviacionJustificada?: string;
+  revisionEditorialDoble?: string;
+  /** Regionalismos ligados a un territorio: solo se cartografían y puntúan si
+      el usuario elige esa comunidad autónoma al inicio. Ausente o vacío = sin
+      restricción territorial (corriente estatal o transversal). */
+  comunidadAutonoma?: string[];
   trazabilidadOriginal?: {
     etiquetaOriginal: string;
     nombreOriginal: string;
@@ -111,13 +116,35 @@ export const CORRIENTE_ATLAS_POR_ID: ReadonlyMap<string, CorrienteAtlas> = new M
  * exhaustivo. Las exclusiones E nunca se convierten en zonas aunque sigan en
  * el contrato para que la decisión sea auditable.
  */
+/**
+ * Un regionalismo con `comunidadAutonoma` solo entra en el eje si el usuario
+ * eligió esa comunidad al inicio. Sin comunidad (o «prefiero no indicar») el
+ * regionalismo queda fuera del plano: que a un votante vasco le salga el
+ * andalucismo de Blas Infante no tiene sentido. Sigue explorable en la
+ * enciclopedia. Las corrientes sin etiqueta territorial son siempre visibles.
+ */
+export function corrienteMapeableEnComunidad(
+  corriente: CorrienteAtlas,
+  ccaa?: string,
+): boolean {
+  const territorios = corriente.comunidadAutonoma;
+  if (!territorios || territorios.length === 0) return true;
+  // `undefined` = el llamante no aporta contexto territorial (catálogo completo,
+  // enciclopedia, recuentos): no se filtra. `''` = el usuario eligió «sin
+  // comunidad»: el regionalismo territorial queda fuera del eje.
+  if (ccaa === undefined) return true;
+  return ccaa !== '' && territorios.includes(ccaa);
+}
+
 export function corrientesAtlasVisibles(
   incluirProfundidad: boolean,
+  ccaa?: string,
 ): readonly CorrienteAtlas[] {
   return REGIONES_ATLAS.filter(
     (corriente) =>
-      corriente.decision === 'A' ||
-      (incluirProfundidad && corriente.decision === 'B'),
+      (corriente.decision === 'A' ||
+        (incluirProfundidad && corriente.decision === 'B')) &&
+      corrienteMapeableEnComunidad(corriente, ccaa),
   );
 }
 
