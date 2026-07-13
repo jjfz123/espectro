@@ -390,6 +390,17 @@ test('resultados: un único ranking por afinidad, sin bloque de mayoritarios (or
   expect(porcentajes).toEqual([...porcentajes].sort((a, b) => b - a));
 
   const nombresTop = await rankingTop.locator('.ranking-nombre').allInnerTexts();
+
+  /* Bug reportado por el propietario (2026-07-13): el panel «Cómo leer esta
+     página» coronaba al máximo bruto de TODA la lista (un 75 % con 6 ítems,
+     cobertura baja) por delante del nº 1 real. Contrato: el partido del panel
+     es EXACTAMENTE el primero del ranking visible. */
+  const panelLectura = page.locator('.lectura-rapida');
+  await expect(panelLectura).toContainText('Cómo leer esta página');
+  await expect(panelLectura).toContainText('con datos suficientes');
+  const partidoPanel = await panelLectura.locator('strong').nth(1).innerText();
+  expect(nombresTop[0]).toContain(partidoPanel);
+
   const resto = maximos.locator('.ranking-resto');
   await expect(resto).not.toHaveAttribute('open', '');
   await resto.getByText(/Ver el resto del ranking/).click();
