@@ -309,20 +309,6 @@
         "fecha": "2026",
         "consultado": "2026-07-12"
       }
-    },
-    "soc-001": {
-      "valor": -2,
-      "justificacion": "En su artículo «Día del orgullo hetero», España 2000 reivindica «el valor de la familia tradicional» frente al feminismo y al «lobby gay», a los que acusa de destruir la familia; niega así que los derechos LGTB y el matrimonio igualitario deban mantenerse protegidos por ley.",
-      "calidadEvidencia": "media",
-      "grupoEvidencia": "e2000-orgullo-hetero-familia-tradicional",
-      "fuente": {
-        "tipo": "declaracion",
-        "titulo": "Día del orgullo hetero (Web oficial España 2000)",
-        "url": "https://espana2000.es/2020/06/17/dia-del-orgullo-hetero/",
-        "cita": "reivindicar el valor de la familia tradicional",
-        "fecha": "2020-06-17",
-        "consultado": "2026-07-13"
-      }
     }
   }
 }
