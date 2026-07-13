@@ -703,6 +703,20 @@
         "cita": "ilegalizar a los partidos independentistas como ERC, Junts o Bildu"
       },
       "grupoEvidencia": "junts-contra-ilegalizacion-vox"
+    },
+    "der-018": {
+      "valor": -1,
+      "justificacion": "En marzo de 2026 Junts votó junto a PP y Vox una iniciativa que instaba al Gobierno a paralizar su plan de regularización extraordinaria de inmigrantes con años de residencia y trabajo en España. Condiciona además cualquier regularización a que se transfieran a Cataluña las competencias de inmigración, de modo que no respalda facilitarla en los términos planteados.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "El Congreso pide parar la regularización de inmigrantes con los votos del PP, Vox y Junts (El Debate)",
+        "url": "https://www.eldebate.com/espana/20260318/congreso-pide-parar-regularizacion-inmigrantes-votos-pp-vox-junts_397723.html",
+        "fecha": "2026-03-18",
+        "consultado": "2026-07-13",
+        "cita": "El Congreso pide parar la regularización de inmigrantes con los votos del PP, Vox y Junts"
+      },
+      "grupoEvidencia": "pasaje-6a3f215e89d5fd5a923d"
     }
   }
 }
