@@ -685,15 +685,18 @@ for (const corriente of corrientesAtlas) {
     corriente.coordenadas,
   );
   if (distanciaPrior > (umbralesAtlas.maximaDistanciaConJustificacion ?? Infinity)) {
-    const sustitucionRevisada =
-      priorTrazable &&
+    // Superar el máximo se admite tanto en una sustitución de otro rótulo como
+    // en una reposición del propio prior visual cuando la imagen lo situó mal;
+    // en ambos casos exige justificación, revisión editorial doble registrada y
+    // no rebasar el tope absoluto. El prior original se conserva como traza.
+    const reposicionRevisada =
       corriente.desviacionJustificada &&
       corriente.revisionEditorialDoble &&
       distanciaPrior <= (umbralesAtlas.maximaDistanciaMotorConJustificacion ?? Infinity);
-    if (!sustitucionRevisada) {
+    if (!reposicionRevisada) {
       fallo(
         donde,
-        `se aleja ${distanciaPrior.toFixed(1)} puntos del prior visual; una sustitución que supera el máximo exige justificación y revisión editorial doble`,
+        `se aleja ${distanciaPrior.toFixed(1)} puntos del prior visual; superar el máximo exige justificación, revisión editorial doble y no rebasar el tope absoluto`,
       );
     }
   } else if (
