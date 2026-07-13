@@ -446,6 +446,90 @@
         "consultado": "2026-07-12",
         "cita": "Ciudadanos fue uno de los partidos que votó a favor de la autorización del Senado para aplicar las medidas del artículo 155"
       }
+    },
+    "fem-014": {
+      "valor": 1,
+      "justificacion": "Su programa de las generales de 2015 proponía despenalizar y regular la producción y distribución de cannabis; apoyo a la legalización sin detallar el modelo de venta a adultos, por lo que se registra acuerdo simple. Titular como cita.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Ciudadanos y Podemos proponen legalizar la marihuana (elDiario.es)",
+        "url": "https://www.eldiario.es/sociedad/podemos-partido-propone-legalizar-cannabis_1_2398398.html",
+        "cita": "Ciudadanos y Podemos proponen legalizar la marihuana",
+        "fecha": "2015-11-05",
+        "consultado": "2026-07-13"
+      },
+      "grupoEvidencia": "pasaje-4572b476b1384f9f3a37"
+    },
+    "eco-007": {
+      "valor": 2,
+      "justificacion": "Votó a favor de la Ley 5/2018 de desahucio exprés frente a la ocupación ilegal, que permite al propietario recuperar la posesión en plazos de días mediante juicio verbal sumario; el pasaje citado enumera a Ciudadanos entre los grupos que la apoyaron.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "Ley 5/2018, también denominada «Ley del desahucio exprés» o «Ley anti-okupas» (Safinco)",
+        "url": "https://safinco.com/jur%C3%ADdicas/428-ley-5-2018,-tambi%C3%A9n-denominada-ley-del-desahucio-expr%C3%A9s-o-ley-anti-okupas",
+        "cita": "PDeCAT, PNV, PP y Ciudadanos",
+        "fecha": "2018-06-11",
+        "consultado": "2026-07-13"
+      },
+      "grupoEvidencia": "pasaje-55fc248448bfbb9778bd"
+    },
+    "sd-004": {
+      "valor": -2,
+      "justificacion": "En la presentación de su candidatura europea de 2019, la número tres de Ciudadanos rechazó expresamente el Estado plurinacional frente a la idea de España como nación de ciudadanos iguales, doctrina troncal del partido en su etapa 2015-2019.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Soraya Rodríguez, nº 3 de Cs al Parlamento europeo: «No creo en un Estado plurinacional» (Noticiero Universal)",
+        "url": "https://noticierouniversal.com/actualidad/soraya-rodriguez-no-3-de-cs-al-parlamento-europeo-no-creo-en-un-estado-plurinacional/",
+        "cita": "No creo en un Estado plurinacional",
+        "fecha": "2019-04-02",
+        "consultado": "2026-07-13"
+      },
+      "grupoEvidencia": "pasaje-43caa58601c61b8d57e6"
+    },
+    "mon-001": {
+      "valor": 0,
+      "justificacion": "Rivera se definía republicano en los principios («creo en los principios republicanos de la cosa pública») pero asumía la monarquía parlamentaria mientras el rey se mantuviera neutral, y su partido no impulsó una jefatura del Estado electiva: ambivalencia resuelta expresamente en sus propios términos.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "La ideología de Rivera: socialdemócrata, laico y no monárquico: así era el antiguo Ciudadanos (Público, sobre el libro «El cambio sensato», 2015)",
+        "url": "https://www.publico.es/politica/ideologia-rivera-socialdemocrata-laico-no-monarquico-antiguo-ciudadanos.html",
+        "cita": "Siempre he defendido que mientras el rey de España no se meta en política, la cosa va bien",
+        "fecha": "2015",
+        "consultado": "2026-07-13"
+      },
+      "grupoEvidencia": "pasaje-236a672d3f04f2cab316"
+    },
+    "eco-001": {
+      "valor": -2,
+      "justificacion": "En la campaña de 2019 Rivera prometió compensar a la baja, en el tramo autonómico, cualquier subida del IRPF de Sánchez —planteada entonces sobre las rentas altas—, dentro de un programa de rebajas fiscales generalizadas: rechazo frontal a subir los impuestos a las rentas más altas.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Rivera: «Por cada euro de IRPF que suba Sánchez, Ciudadanos lo bajará en el tramo autonómico allí donde gobernemos» (web oficial de Ciudadanos)",
+        "url": "https://www.ciudadanos-cs.org/prensa/rivera-por-cada-euro-de-irpf-que-suba-sanchez-ciudadanos-lo-bajara-en-el-tramo-autonomico-alli-donde-gobernemos/11508",
+        "cita": "Por cada euro de IRPF que suba Sánchez, Ciudadanos lo bajará en el tramo autonómico allí donde gobernemos",
+        "fecha": "2019-05-12",
+        "consultado": "2026-07-13"
+      },
+      "grupoEvidencia": "pasaje-e4bd91585f317481f8b1"
+    },
+    "ter-003": {
+      "valor": -2,
+      "justificacion": "Rivera hizo bandera contra el «cuponazo» vasco y propuso eliminar la bilateralidad del Concierto, al que consideraba un privilegio insolidario: lo contrario de extender sistemas de financiación foral a más comunidades. Titular como cita.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Rivera rescata el «cuponazo» vasco y propone eliminar la bilateralidad del Concierto (Noticias de Álava)",
+        "url": "https://www.noticiasdealava.eus/politica/2019/04/17/rivera-rescata-cuponazo-vasco-propone-1270127.html",
+        "cita": "Rivera rescata el 'cuponazo' vasco y propone eliminar la bilateralidad del Concierto",
+        "fecha": "2019-04-17",
+        "consultado": "2026-07-13"
+      },
+      "grupoEvidencia": "pasaje-bc10654be371ce595ddc"
     }
   }
 }
