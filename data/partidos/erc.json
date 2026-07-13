@@ -591,6 +591,34 @@
         "cita": "La fórmula de Montenegro: así es el referéndum de independencia propuesto por ERC que el Gobierno rechaza"
       },
       "grupoEvidencia": "erc-referendum-montenegro"
+    },
+    "izq-044": {
+      "valor": -1,
+      "justificacion": "ERC propone ampliar los Mossos d'Esquadra hasta 22.000 efectivos, lo contrario de reducir progresivamente las funciones policiales.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral de ERC, eleccions 12M 2024",
+        "url": "https://locals.esquerra.cat/documents/programa-electoral_12m.pdf",
+        "fecha": "2024",
+        "consultado": "2026-07-13",
+        "cita": "Ampliar la plantilla de la Policia de la Generalitat-Mossos d'Esquadra... objectiu 22.000 efectius."
+      },
+      "grupoEvidencia": "pasaje-8e9dfcd2704a62db5792"
+    },
+    "soc-003": {
+      "valor": 1,
+      "justificacion": "ERC contempla videovigilancia perimetral en proyectos concretos, un respaldo moderado al uso de cámaras por seguridad.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral de ERC, eleccions 12M 2024",
+        "url": "https://locals.esquerra.cat/documents/programa-electoral_12m.pdf",
+        "fecha": "2024",
+        "consultado": "2026-07-13",
+        "cita": "càmeres perimetrals del projecte Lectio"
+      },
+      "grupoEvidencia": "pasaje-4d1b2d95baf363a8d2c8"
     }
   }
 }

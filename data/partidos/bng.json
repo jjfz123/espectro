@@ -729,6 +729,48 @@
         "cita": "Quieren ganar con leyes antidemocráticas lo que el pueblo les niega"
       },
       "grupoEvidencia": "bng-contra-ilegalizacion-vox"
+    },
+    "lab-037": {
+      "valor": 1,
+      "justificacion": "El BNG propone una estrategia de país plurianual que orienta la inversión y el trabajo autónomo con medidas fiscales, de financiación e innovación.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa de goberno do BNG, eleccións galegas 2024",
+        "url": "https://www.bng.gal/media/bnggaliza/files/2024/01/24/24_bng_galegas_programa_goberno.pdf",
+        "fecha": "2024-01-24",
+        "consultado": "2026-07-13",
+        "cita": "estratexia de país para o traballo autónomo... medidas lexislativas, fiscais, de financiamento e innovación"
+      },
+      "grupoEvidencia": "pasaje-12ab6e8f0a75bbe12d8f"
+    },
+    "lab-017": {
+      "valor": 1,
+      "justificacion": "El BNG fomenta la economía social y el cooperativismo; apoya la propiedad cooperativa, aunque el pasaje se refiere al fomento general, no a transferir grandes empresas privadas a cooperativas.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa de goberno do BNG, eleccións galegas 2024",
+        "url": "https://www.bng.gal/media/bnggaliza/files/2024/01/24/24_bng_galegas_programa_goberno.pdf",
+        "fecha": "2024-01-24",
+        "consultado": "2026-07-13",
+        "cita": "Fomento da economía social e o cooperativismo... estratexia para o desenvolvemento da economía social."
+      },
+      "grupoEvidencia": "pasaje-9700ef046255c1ff00ae"
+    },
+    "lab-038": {
+      "valor": 1,
+      "justificacion": "El BNG respaldó crear una empresa pública de energía que compitiese con las eléctricas privadas, sin excluirlas del mercado.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "PSOE y PP tumban en el Congreso el plan de Sumar de empresa pública (El Periódico de la Energía)",
+        "url": "https://elperiodicodelaenergia.com/psoe-pp-tumban-congreso-plan-sumar-empresa-publica-centrales-hidroelectricas/",
+        "fecha": "2024-09-18",
+        "consultado": "2026-07-13",
+        "cita": "crear una empresa pública de energía... compitiese con las eléctricas privadas"
+      },
+      "grupoEvidencia": "pasaje-fd7aa1c95da96da2246e"
     }
   }
 }

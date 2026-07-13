@@ -717,6 +717,34 @@
         "cita": "El Congreso pide parar la regularización de inmigrantes con los votos del PP, Vox y Junts"
       },
       "grupoEvidencia": "pasaje-6a3f215e89d5fd5a923d"
+    },
+    "soc-003": {
+      "valor": 2,
+      "justificacion": "El programa de Junts propone expresamente impulsar la videovigilancia con cámaras de seguridad por motivos de seguridad ciudadana.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa marco de Junts, elecciones 2023",
+        "url": "https://web.junts.cat/wp-content/uploads/2023/10/PROGRAMA-MARC-ELECCIONS-2023.pdf",
+        "fecha": "2023",
+        "consultado": "2026-07-13",
+        "cita": "Impulsarem la videovigilància (càmeres de seguretat)."
+      },
+      "grupoEvidencia": "pasaje-06b03ee89e673fae8019"
+    },
+    "izq-044": {
+      "valor": -2,
+      "justificacion": "Junts apuesta por reforzar la policía local con más recursos, lo contrario de reducir progresivamente las funciones policiales.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa marco de Junts, elecciones 2023",
+        "url": "https://web.junts.cat/wp-content/uploads/2023/10/PROGRAMA-MARC-ELECCIONS-2023.pdf",
+        "fecha": "2023",
+        "consultado": "2026-07-13",
+        "cita": "Apostarem per la policia local... Dotarem de més recursos les policies locals."
+      },
+      "grupoEvidencia": "pasaje-8be25513f4335e7f119c"
     }
   }
 }

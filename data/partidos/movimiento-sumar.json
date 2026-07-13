@@ -839,6 +839,48 @@
         "fecha": "2023-08-13",
         "consultado": "2026-07-10"
       }
+    },
+    "lab-037": {
+      "valor": 1,
+      "justificacion": "Sumar propone orientar la contratación e inversión pública con cláusulas sociales que favorezcan a autónomos y pymes, sin sustituir la iniciativa privada.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Un programa para ti — Sumar, elecciones generales 2023",
+        "url": "https://movimientosumar.es/wp-content/uploads/2023/07/Un-Programa-para-ti.pdf",
+        "fecha": "2023",
+        "consultado": "2026-07-13",
+        "cita": "cláusulas sociales... que favorezcan... autónomos y pymes"
+      },
+      "grupoEvidencia": "pasaje-3b98d21c34d53bdb0290"
+    },
+    "lab-017": {
+      "valor": 1,
+      "justificacion": "Sumar impulsa más economía social, cooperativa y solidaria; apoya la propiedad cooperativa, aunque el pasaje es de fomento general, no de transferir grandes empresas privadas a cooperativas.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Un programa para ti — Sumar, elecciones generales 2023",
+        "url": "https://movimientosumar.es/wp-content/uploads/2023/07/Un-Programa-para-ti.pdf",
+        "fecha": "2023",
+        "consultado": "2026-07-13",
+        "cita": "Más economía social, cooperativa y solidaria"
+      },
+      "grupoEvidencia": "pasaje-a1065a6797de7759da62"
+    },
+    "lab-038": {
+      "valor": 1,
+      "justificacion": "Sumar propone crear una empresa pública de energía que opere en el mercado junto a las privadas.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Un programa para ti — Sumar, elecciones generales 2023",
+        "url": "https://movimientosumar.es/wp-content/uploads/2023/07/Un-Programa-para-ti.pdf",
+        "fecha": "2023",
+        "consultado": "2026-07-13",
+        "cita": "Se creará una empresa pública de energía"
+      },
+      "grupoEvidencia": "pasaje-4219208302271205ad83"
     }
   }
 }
