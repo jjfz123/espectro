@@ -80,6 +80,34 @@
         "fecha": "2020",
         "consultado": "2026-07-09"
       }
+    },
+    "soc-001": {
+      "valor": 2,
+      "justificacion": "Verdes Equo presenta un programa LGTBI cuyas medidas principales son una ley contra la LGTBIfobia y una Ley Trans estatal; defiende ampliar y blindar por ley los derechos de las personas LGTBI, de modo que apoya sin reservas mantenerlos protegidos.",
+      "calidadEvidencia": "media",
+      "grupoEvidencia": "verdes-equo-ley-lgbifobia-ley-trans",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Proponemos una ley contra la LGBIfobia y una Ley Trans estatal (Verdes Equo)",
+        "url": "https://verdesequo.es/proponemos-una-ley-contra-la-lgbifobia-y-una-ley-trans-estatal",
+        "cita": "Proponemos una ley contra la LGBIfobia y una Ley Trans estatal",
+        "fecha": "2019-11",
+        "consultado": "2026-07-13"
+      }
+    },
+    "eco-014": {
+      "valor": 2,
+      "justificacion": "Verdes Equo propone gravar la riqueza con un «Impuesto de Solidaridad Cívica» sobre las grandes fortunas, coherente con su programa fiscal de aumentar la progresividad de la imposición sobre el patrimonio; respalda por tanto un impuesto sobre las grandes fortunas.",
+      "calidadEvidencia": "media",
+      "grupoEvidencia": "verdes-equo-impuesto-solidaridad-civica-fortunas",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Propuestas de Más País-EQUO para Cuidar España: Salir adelante en Comunidad (Verdes Equo)",
+        "url": "https://verdesequo.es/propuestas-de-mas-pais-equo-para-cuidar-espana-salir-adelante-en-comunidad",
+        "cita": "Impuesto de Solidaridad Cívica",
+        "fecha": "2020-03",
+        "consultado": "2026-07-13"
+      }
     }
   }
 }
