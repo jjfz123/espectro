@@ -4,8 +4,13 @@
   "siglas": "EXISTE",
   "ambito": "autonomico",
   "tipo": "coalicion",
-  "componentes": ["teruel-existe", "aragon-existe"],
-  "ccaa": ["aragon"],
+  "componentes": [
+    "teruel-existe",
+    "aragon-existe"
+  ],
+  "ccaa": [
+    "aragon"
+  ],
   "confianza": "sin-datos",
   "registroMir": "Coalición electoral formal de los partidos Teruel Existe y Aragón Existe, sellada en 2023; ha concurrido a las autonómicas de Aragón de 2023 y 2026 (grupo parlamentario Aragón-Teruel Existe, 3 y 2 escaños), a las generales de julio de 2023 como «Aragón Existe - Coalición Existe» y a las europeas de 2024 como «Existe» con Tomás Guitarte de cabeza de lista",
   "revisado": "2026-07-10",
@@ -19,5 +24,48 @@
       "fecha": "2023"
     }
   },
-  "posiciones": {}
+  "posiciones": {
+    "nac-016": {
+      "valor": 2,
+      "justificacion": "La transversalidad es la identidad declarada de la coalición: su cabeza de lista, Tomás Guitarte, candidato de la coalición Existe, sostiene que no cabe juzgarla en el eje izquierda-derecha, situándose en un eje propio de equilibrio y cohesión territorial.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Tomás Guitarte, candidato de la coalición Existe en las elecciones europeas (Diario de Teruel)",
+        "url": "https://www.diariodeteruel.es/teruel/tomas-guitarte-candidato-de-la-coalicion-existe-en-las-elecciones-europeas-no-se-nos-debe-juzgar-en-el-eje-derecha-e-izquierda-es-un-eje-en-el-que-no-nos-situamos",
+        "cita": "No se nos debe juzgar en el eje derecha e izquierda, es un eje en el que no nos situamos",
+        "fecha": "2024",
+        "consultado": "2026-07-13"
+      },
+      "grupoEvidencia": "pasaje-4ad289afaba008988ea5"
+    },
+    "nac-010": {
+      "valor": 2,
+      "justificacion": "Bandera de la España Vaciada aragonesa: la coalición reclama que los criterios de despoblación, envejecimiento y dispersión marquen el reparto de la financiación autonómica frente a la población real; Guitarte sostiene que «la despoblación no puede salir de los criterios de financiación autonómica».",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Guitarte: «La despoblación no puede salir de los criterios de financiación autonómica» (Teruel Existe Web Oficial)",
+        "url": "https://teruelexiste.info/guitarte-la-despoblacion-no-puede-salir-de-los-criterios-de-financiacion-autonomica/",
+        "cita": "La despoblación no puede salir de los criterios de financiación autonómica",
+        "fecha": "2026",
+        "consultado": "2026-07-13"
+      },
+      "grupoEvidencia": "pasaje-c719b12b2693fe7da8d3"
+    },
+    "eco-002": {
+      "valor": -2,
+      "justificacion": "El grupo de la coalición reclama internalizar (hacer público) el transporte sanitario urgente porque el modelo de concesión privada acumula «importantes deficiencias» y encarece el servicio, rechazando que la gestión privada mejore la eficiencia de la sanidad.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Aragón-Teruel Existe reclama que el transporte sanitario urgente pase a ser público para garantizar la atención en el medio rural (El Alto Jalón)",
+        "url": "https://www.elaltojalon.es/texto-diario/mostrar/5928109/aragon-teruel-existe-reclama-transporte-sanitario-urgente-pase-publico-garantizar-atencion-medio-rural",
+        "cita": "Aragón-Teruel Existe reclama que el transporte sanitario urgente pase a ser público para garantizar la atención en el medio rural",
+        "fecha": "2025",
+        "consultado": "2026-07-13"
+      },
+      "grupoEvidencia": "pasaje-1b10e903f7b156c51e7f"
+    }
+  }
 }
