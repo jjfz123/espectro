@@ -1221,6 +1221,31 @@ export function MapaPolitico({
         )
       : null;
 
+  /* Corriente de fondo bajo un cúmulo: cuando varios partidos casi coinciden,
+     sus puntos tapan la zona y el usuario no puede pinchar la ideología. Se
+     calcula sobre el centroide del cúmulo para ofrecerla como enlace directo. */
+  const corrienteHuecoBrujula = (() => {
+    if (cumuloPartidos.length < 2) return null;
+    const coordenadas = cumuloPartidos
+      .map((id) => ENTIDADES_MAPA.find((entidad) => entidad.id === id))
+      .flatMap((entidad) => {
+        const x = entidad?.valores[EJE_PROPIEDAD_MERCADO];
+        const y = entidad?.valores[EJE_AUTORIDAD_POLITICA];
+        return typeof x === 'number' && typeof y === 'number' ? [{ x, y }] : [];
+      });
+    if (!coordenadas.length) return null;
+    const x = coordenadas.reduce((suma, punto) => suma + punto.x, 0) / coordenadas.length;
+    const y = coordenadas.reduce((suma, punto) => suma + punto.y, 0) / coordenadas.length;
+    return corrienteAtlasMasCercana(x, y, corrientesVisibles);
+  })();
+
+  const abrirCorrienteHueco = (corrienteId: string) => {
+    setCumuloPartidos([]);
+    setCorrienteTemporal(null);
+    setVistaRotuloOriginalFijada(false);
+    setCorrienteFijada(corrienteId);
+  };
+
   const seleccionarPartidoBrujula = (id: string, detectarCumulo = true) => {
     const idsCercanos = detectarCumulo
       ? idsPartidosEnCumulo(partidosBrujula, id, radioCumuloEfectivo())
@@ -1451,6 +1476,23 @@ export function MapaPolitico({
           tabIndex={-1}
           ref={cumuloBrujulaRef}
         >
+          {hayCorrientes && corrienteHuecoBrujula ? (
+            <div className="mapa-cumulo__hueco">
+              <p>
+                En este hueco la corriente de fondo es{' '}
+                <strong>{corrienteHuecoBrujula.nombre}</strong>. Ábrela directamente aquí.
+              </p>
+              <div>
+                <button
+                  type="button"
+                  className="boton boton--secundario"
+                  onClick={() => abrirCorrienteHueco(corrienteHuecoBrujula.id)}
+                >
+                  Ver «{corrienteHuecoBrujula.nombre}»
+                </button>
+              </div>
+            </div>
+          ) : null}
           <p>Hay varios partidos casi en el mismo punto. Elige cuál quieres identificar:</p>
           <div>
             {cumuloPartidos.map((id) => {

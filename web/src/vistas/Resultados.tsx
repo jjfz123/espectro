@@ -17,7 +17,6 @@ import { CatalogoCandidaturas } from '../componentes/CatalogoCandidaturas';
 import { contextoParticipacionPorPartido } from '../participacionElectoral';
 import { DetalleAfinidad } from '../componentes/DetallePartido';
 import type { LecturaContraste } from '../componentes/DetallePartido';
-import { EspacioPatrocinado } from '../componentes/EspacioPatrocinado';
 import { PerfilFacetas } from '../componentes/PerfilFacetas';
 import { Ranking } from '../componentes/Ranking';
 import type { DobleMarcador } from '../componentes/Ranking';
@@ -953,8 +952,6 @@ export function Resultados({ estado, despachar, puedeRecargar, alConfirmarGuarda
           Empezar de nuevo
         </button>
       </div>
-
-      <EspacioPatrocinado />
     </div>
   );
 }

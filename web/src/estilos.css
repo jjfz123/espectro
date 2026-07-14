@@ -2942,6 +2942,23 @@ h3 {
   gap: 0.4rem;
 }
 
+.mapa-cumulo__hueco {
+  display: block;
+  margin: 0 0 0.7rem;
+  padding: 0 0 0.7rem;
+  border-bottom: 1px solid var(--filete);
+}
+
+.mapa-cumulo__hueco > p {
+  margin: 0 0 0.5rem;
+}
+
+.mapa-cumulo__hueco > div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
 .mapa-corriente-lectura {
   background: var(--superficie);
 }
@@ -3701,35 +3718,6 @@ h3 {
   font-size: 0.84rem;
   letter-spacing: normal;
   text-transform: none;
-}
-
-/* ————— Espacio patrocinado (autoservido, estático) ————— */
-
-.espacio-patrocinado {
-  border-top: 1px solid var(--filete);
-  border-bottom: 1px solid var(--filete);
-  margin-top: 2.75rem;
-  padding: 0.9rem 0 1rem;
-  max-width: 68ch;
-  font-size: 0.85rem;
-  color: var(--tinta-suave);
-}
-
-.espacio-patrocinado__titulo {
-  margin-top: 0.35rem;
-  font-family: var(--serif);
-  font-size: 1.05rem;
-  font-weight: 700;
-  color: var(--tinta);
-}
-
-.espacio-patrocinado__texto {
-  margin-block: 0.3rem 0.4rem;
-}
-
-.espacio-patrocinado__nota {
-  margin-top: 0.55rem;
-  font-size: 0.72rem;
 }
 
 /* ————— Resultados: detalle por partido ————— */
