@@ -239,6 +239,18 @@
         "fecha": "2017-05-19",
         "consultado": "2026-07-13"
       }
+    },
+    "lab-017": {
+      "valor": -2,
+      "justificacion": "Defiende dirección estatal y socialización de empresas estratégicas, incompatible con que la propiedad privada siga siendo la forma principal de la gran empresa.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral PCPE-PCPC para las elecciones europeas de 2024",
+        "url": "https://pcpe.es/wp-content/uploads/2024/05/Programa-electoral-2024.-COMPLETO-VOTA-1.pdf",
+        "fecha": "2024-05",
+        "consultado": "2026-07-09"
+      }
     }
   }
 }

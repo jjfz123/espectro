@@ -111,18 +111,6 @@
         "consultado": "2026-07-11"
       }
     },
-    "lab-017": {
-      "valor": -2,
-      "justificacion": "La Carta del Trabajo conserva la iniciativa y la responsabilidad del empleador privado como instrumento ordinario de producción. El corporativismo integra y subordina capital y trabajo al Estado, pero no transfiere la propiedad de las grandes empresas a cooperativas obreras ni adopta la autogestión como principio.",
-      "calidadEvidencia": "alta",
-      "fuente": {
-        "tipo": "otro",
-        "titulo": "Carta del Lavoro, declaraciones VII y IX (en francés)",
-        "url": "https://mjp.univ-perp.fr/constit/it1927.htm",
-        "fecha": "1927-04-21",
-        "consultado": "2026-07-11"
-      }
-    },
     "dem-011": {
       "valor": 2,
       "justificacion": "El fascismo no se limitó a reformar el parlamento liberal: sustituyó la representación política plural por categorías profesionales y culminó en la Cámara de Fascios y Corporaciones, dentro de un Estado de partido único.",
@@ -216,6 +204,18 @@
         "titulo": "Giulia Galeotti, Abortion between Crime and Care: Italy, 1889-1943 (Sapienza Università di Roma) (en inglés)",
         "url": "https://rosa.uniroma1.it/rosa01/medicina_nei_secoli/article/view/34",
         "fecha": "2016-03-01",
+        "consultado": "2026-07-11"
+      }
+    },
+    "lab-039": {
+      "valor": -2,
+      "justificacion": "La Carta del Trabajo conserva la iniciativa y la responsabilidad del empleador privado como instrumento ordinario de producción. El corporativismo integra y subordina capital y trabajo al Estado, pero no transfiere la propiedad de las grandes empresas a cooperativas obreras ni adopta la autogestión como principio.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Carta del Lavoro, declaraciones VII y IX (en francés)",
+        "url": "https://mjp.univ-perp.fr/constit/it1927.htm",
+        "fecha": "1927-04-21",
         "consultado": "2026-07-11"
       }
     }

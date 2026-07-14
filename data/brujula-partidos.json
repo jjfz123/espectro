@@ -1,0 +1,485 @@
+{
+  "version": "3",
+  "fechaCorte": "2026-07-14",
+  "metodologia": {
+    "descripcion": "Coordenadas editoriales auditables para el plano Propiedad/mercado × Poder. Cada partido se sitúa sobre su familia doctrinal real del atlas (su región más cercana es su corriente), recortado a ±80; la incertidumbre crece cuando faltan anclas directas. Los valores absolutos ±100 se reservan para tipos ideales.",
+    "rangoPartidos": [
+      -80,
+      80
+    ],
+    "reglaExtremos": "Ningún partido real se publica en ±100. Un extremo requiere varias familias documentales y se representa siempre con margen de incertidumbre.",
+    "reglaCobertura": "Todos los partidos activos aparecen en el plano y el selector. La calidad de la evidencia cambia el trazo y la incertidumbre, nunca la presencia.",
+    "formatoEntrada": [
+      "x",
+      "y",
+      "incertidumbreX",
+      "incertidumbreY",
+      "criterio"
+    ],
+    "codigosCriterio": {
+      "D": "síntesis-documental",
+      "P": "síntesis-documental-parcial",
+      "M": "programa-monotemático"
+    },
+    "reglaResumen": "Los resúmenes verbales se derivan de la coordenada por intervalos estables; no se repiten por partido en este archivo.",
+    "archivoEvidencia": "brujula-partidos-anclas.json",
+    "reglaDoctrinal": "La coordenada de cada partido coincide con su familia doctrinal en el atlas: su región más próxima en el plano es su corriente, no un vecino histórico incidental."
+  },
+  "partidos": {
+    "adelante-andalucia": [
+      -18,
+      -30,
+      24,
+      35,
+      "D"
+    ],
+    "alianca-catalana": [
+      68,
+      44,
+      24,
+      24,
+      "D"
+    ],
+    "alianza-futurista": [
+      -28,
+      -50,
+      58,
+      24,
+      "P"
+    ],
+    "alianza-verde": [
+      -46,
+      -34,
+      64,
+      64,
+      "P"
+    ],
+    "aragon-existe": [
+      17,
+      0,
+      35,
+      64,
+      "P"
+    ],
+    "bng": [
+      -25,
+      -35,
+      24,
+      24,
+      "D"
+    ],
+    "chunta-aragonesista": [
+      -26,
+      -32,
+      35,
+      35,
+      "D"
+    ],
+    "ciudadanos": [
+      25,
+      -48,
+      24,
+      24,
+      "D"
+    ],
+    "coalicion-canaria": [
+      24,
+      6,
+      24,
+      24,
+      "D"
+    ],
+    "coalicion-existe": [
+      16,
+      1,
+      35,
+      64,
+      "P"
+    ],
+    "coalicion-por-el-bierzo": [
+      15,
+      2,
+      64,
+      35,
+      "P"
+    ],
+    "compromis": [
+      -47,
+      -32,
+      24,
+      24,
+      "D"
+    ],
+    "comunion-tradicionalista-carlista": [
+      41,
+      46,
+      64,
+      35,
+      "P"
+    ],
+    "comunistes-de-catalunya": [
+      -58,
+      9,
+      24,
+      24,
+      "D"
+    ],
+    "crt": [
+      -78,
+      28,
+      24,
+      24,
+      "D"
+    ],
+    "cup": [
+      -56,
+      -50,
+      24,
+      24,
+      "D"
+    ],
+    "democracia-nacional": [
+      41,
+      72,
+      64,
+      35,
+      "P"
+    ],
+    "eaj-pnv": [
+      14,
+      1,
+      24,
+      24,
+      "D"
+    ],
+    "eh-bildu": [
+      -58,
+      -48,
+      24,
+      24,
+      "D"
+    ],
+    "el-bierzo-existe": [
+      13,
+      0,
+      64,
+      64,
+      "P"
+    ],
+    "el-pi": [
+      23,
+      8,
+      35,
+      35,
+      "D"
+    ],
+    "erc": [
+      -35,
+      -15,
+      24,
+      24,
+      "D"
+    ],
+    "escanos-en-blanco": [
+      0,
+      -8,
+      90,
+      70,
+      "M"
+    ],
+    "espana-2000": [
+      37,
+      72,
+      35,
+      64,
+      "P"
+    ],
+    "fe-jons": [
+      17,
+      72,
+      35,
+      35,
+      "D"
+    ],
+    "frente-obrero": [
+      -42,
+      31,
+      24,
+      35,
+      "D"
+    ],
+    "geroa-bai": [
+      -28,
+      -30,
+      24,
+      24,
+      "D"
+    ],
+    "iu": [
+      -60,
+      -50,
+      24,
+      24,
+      "D"
+    ],
+    "izquierda-espanola": [
+      -28,
+      -12,
+      35,
+      24,
+      "D"
+    ],
+    "junts": [
+      21,
+      8,
+      24,
+      24,
+      "D"
+    ],
+    "mas-madrid": [
+      -48,
+      -32,
+      24,
+      24,
+      "D"
+    ],
+    "movimiento-sumar": [
+      -50,
+      -33,
+      24,
+      24,
+      "D"
+    ],
+    "nacion-andaluza": [
+      -22,
+      -30,
+      24,
+      24,
+      "D"
+    ],
+    "noviembre-nacional": [
+      39,
+      80,
+      24,
+      24,
+      "D"
+    ],
+    "nueva-canarias": [
+      -30,
+      -32,
+      24,
+      24,
+      "D"
+    ],
+    "p-lib": [
+      78,
+      -61,
+      24,
+      24,
+      "D"
+    ],
+    "pacma": [
+      -45,
+      -22,
+      24,
+      35,
+      "D"
+    ],
+    "partido-carlista": [
+      -43,
+      11,
+      35,
+      24,
+      "D"
+    ],
+    "partido-del-bierzo": [
+      14,
+      -1,
+      64,
+      64,
+      "P"
+    ],
+    "pce": [
+      -61,
+      11,
+      35,
+      24,
+      "D"
+    ],
+    "pce-ml": [
+      -61,
+      72,
+      58,
+      24,
+      "P"
+    ],
+    "pcoe": [
+      -78,
+      50,
+      24,
+      24,
+      "D"
+    ],
+    "pcpc": [
+      -80,
+      52,
+      24,
+      58,
+      "P"
+    ],
+    "pcpe": [
+      -80,
+      48,
+      24,
+      35,
+      "D"
+    ],
+    "pcte": [
+      -80,
+      39,
+      24,
+      24,
+      "D"
+    ],
+    "podemos": [
+      -50,
+      -35,
+      24,
+      24,
+      "D"
+    ],
+    "por-andalucia": [
+      -48,
+      -36,
+      24,
+      35,
+      "D"
+    ],
+    "por-avila": [
+      20,
+      6,
+      35,
+      64,
+      "P"
+    ],
+    "posi": [
+      -80,
+      28,
+      35,
+      35,
+      "D"
+    ],
+    "pp": [
+      58,
+      17,
+      24,
+      24,
+      "D"
+    ],
+    "prepal": [
+      21,
+      4,
+      64,
+      64,
+      "P"
+    ],
+    "psoe": [
+      -28,
+      -34,
+      24,
+      24,
+      "D"
+    ],
+    "psuc-viu": [
+      -61,
+      7,
+      24,
+      35,
+      "D"
+    ],
+    "pum-j": [
+      -42,
+      -15,
+      64,
+      64,
+      "P"
+    ],
+    "recortes-cero": [
+      -55,
+      -5,
+      24,
+      35,
+      "D"
+    ],
+    "salf": [
+      65,
+      46,
+      24,
+      24,
+      "D"
+    ],
+    "soria-ya": [
+      15,
+      -2,
+      35,
+      35,
+      "D"
+    ],
+    "teruel-existe": [
+      16,
+      -1,
+      35,
+      35,
+      "D"
+    ],
+    "uce": [
+      -61,
+      61,
+      35,
+      64,
+      "P"
+    ],
+    "upg": [
+      -58,
+      -52,
+      35,
+      35,
+      "D"
+    ],
+    "upl": [
+      23,
+      4,
+      64,
+      35,
+      "P"
+    ],
+    "upn": [
+      54,
+      17,
+      24,
+      24,
+      "D"
+    ],
+    "verdes-equo": [
+      -47,
+      -36,
+      35,
+      35,
+      "D"
+    ],
+    "volt-espana": [
+      -32,
+      -50,
+      24,
+      24,
+      "D"
+    ],
+    "vox": [
+      65,
+      42,
+      24,
+      24,
+      "D"
+    ]
+  }
+}

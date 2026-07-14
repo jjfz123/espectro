@@ -214,18 +214,6 @@
         "consultado": "2026-07-09"
       }
     },
-    "lab-017": {
-      "valor": 2,
-      "justificacion": "Entre propiedad privada capitalista y dirección ministerial, elige asociaciones de productores y comunidades que administran directamente los medios socializados.",
-      "calidadEvidencia": "alta",
-      "fuente": {
-        "tipo": "otro",
-        "titulo": "The Conquest of Bread (en inglés)",
-        "url": "https://theanarchistlibrary.org/library/petr-kropotkin-the-conquest-of-bread",
-        "fecha": "1892",
-        "consultado": "2026-07-09"
-      }
-    },
     "izq-016": {
       "valor": 2,
       "justificacion": "La expropiación de banca y grandes empresas sin indemnizar es el programa mismo de esta doctrina: la riqueza es producto colectivo y nadie tiene derecho a apropiársela; indemnizar sería reconocer el título que se niega.",
@@ -342,6 +330,18 @@
         "url": "https://www.theanarchistlibrary.org/library/petr-kropotkin-the-state-its-historic-role",
         "fecha": "1896",
         "consultado": "2026-07-10"
+      }
+    },
+    "lab-039": {
+      "valor": 2,
+      "justificacion": "Entre propiedad privada capitalista y dirección ministerial, elige asociaciones de productores y comunidades que administran directamente los medios socializados.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "The Conquest of Bread (en inglés)",
+        "url": "https://theanarchistlibrary.org/library/petr-kropotkin-the-conquest-of-bread",
+        "fecha": "1892",
+        "consultado": "2026-07-09"
       }
     }
   }

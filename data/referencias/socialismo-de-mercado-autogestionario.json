@@ -197,18 +197,6 @@
         "consultado": "2026-07-11"
       }
     },
-    "lab-017": {
-      "valor": 2,
-      "justificacion": "Una gran corporación debe pasar a propiedad social y ser entregada a su plantilla para administración democrática, exactamente la alternativa cooperativa/autogestionaria frente a una empresa ministerial.",
-      "calidadEvidencia": "alta",
-      "fuente": {
-        "tipo": "otro",
-        "titulo": "Schweickart, Economic Democracy, future of the large corporation (en inglés)",
-        "url": "https://thenextsystem.org/node/204",
-        "fecha": "2016-03-01",
-        "consultado": "2026-07-11"
-      }
-    },
     "lab-020": {
       "valor": 2,
       "justificacion": "El derecho a votar el consejo nace de incorporarse a la empresa y alcanza a sus trabajadores como miembros de la comunidad productiva, sin depender de afiliarse antes a un sindicato.",
@@ -252,6 +240,18 @@
       "fuente": {
         "tipo": "otro",
         "titulo": "Schweickart, Economic Democracy, investment and environmental sustainability (en inglés)",
+        "url": "https://thenextsystem.org/node/204",
+        "fecha": "2016-03-01",
+        "consultado": "2026-07-11"
+      }
+    },
+    "lab-039": {
+      "valor": 2,
+      "justificacion": "Una gran corporación debe pasar a propiedad social y ser entregada a su plantilla para administración democrática, exactamente la alternativa cooperativa/autogestionaria frente a una empresa ministerial.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Schweickart, Economic Democracy, future of the large corporation (en inglés)",
         "url": "https://thenextsystem.org/node/204",
         "fecha": "2016-03-01",
         "consultado": "2026-07-11"

@@ -117,20 +117,6 @@
       },
       "grupoEvidencia": "pasaje-e9cbef274ba15688c431"
     },
-    "lab-017": {
-      "valor": 2,
-      "justificacion": "De Leon reserva la administración a la organización de las propias industrias, no al Estado político: encaja con transferir las grandes empresas a cooperativas gestionadas por sus trabajadores frente a los ministerios.",
-      "calidadEvidencia": "alta",
-      "fuente": {
-        "tipo": "otro",
-        "titulo": "Daniel De Leon, Socialist Reconstruction of Society (en inglés)",
-        "url": "https://www.marxists.org/archive/deleon/works/1905/050710.htm",
-        "fecha": "1905-07-10",
-        "consultado": "2026-07-11",
-        "cita": "The only organization fit for that is the organization of the several industries themselves (en inglés)"
-      },
-      "grupoEvidencia": "pasaje-f10156866de5e5e5656e"
-    },
     "izq-013": {
       "valor": -2,
       "justificacion": "De Leon niega que la inmigración baje los salarios y atribuye esa presión a la clase capitalista: contradice frontalmente limitar la entrada de trabajadores extranjeros para proteger salarios.",
@@ -144,6 +130,20 @@
         "cita": "Immigration does not lower wages. That is steadily and religiously being done by the capitalist class (en inglés)"
       },
       "grupoEvidencia": "pasaje-cf4b9bd7fc70241261a4"
+    },
+    "lab-039": {
+      "valor": 2,
+      "justificacion": "De Leon reserva la administración a la organización de las propias industrias, no al Estado político: encaja con transferir las grandes empresas a cooperativas gestionadas por sus trabajadores frente a los ministerios.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Daniel De Leon, Socialist Reconstruction of Society (en inglés)",
+        "url": "https://www.marxists.org/archive/deleon/works/1905/050710.htm",
+        "fecha": "1905-07-10",
+        "consultado": "2026-07-11",
+        "cita": "The only organization fit for that is the organization of the several industries themselves (en inglés)"
+      },
+      "grupoEvidencia": "pasaje-f10156866de5e5e5656e"
     }
   }
 }

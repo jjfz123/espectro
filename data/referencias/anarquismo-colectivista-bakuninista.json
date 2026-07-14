@@ -311,18 +311,6 @@
         "consultado": "2026-07-11"
       }
     },
-    "lab-017": {
-      "valor": 2,
-      "justificacion": "La unidad productiva característica es la asociación de trabajadores que administra directamente herramientas y fábrica dentro de federaciones solidarias.",
-      "calidadEvidencia": "alta",
-      "fuente": {
-        "tipo": "otro",
-        "titulo": "Ideas on Social Organization, sección III (en inglés)",
-        "url": "https://theanarchistlibrary.org/library/james-guillaume-ideas-on-social-organization",
-        "fecha": "1876",
-        "consultado": "2026-07-11"
-      }
-    },
     "izq-016": {
       "valor": 2,
       "justificacion": "La revolución debe tomar tierra, capital y herramientas a las clases propietarias para convertirlos en base de producción colectiva, sin reconocer derecho de indemnización al explotador.",
@@ -416,6 +404,18 @@
         "titulo": "Revolutionary Catechism, defensa de la federación (en inglés)",
         "url": "https://theanarchistlibrary.org/library/michail-bakunin-revolutionary-catechism",
         "fecha": "1866",
+        "consultado": "2026-07-11"
+      }
+    },
+    "lab-039": {
+      "valor": 2,
+      "justificacion": "La unidad productiva característica es la asociación de trabajadores que administra directamente herramientas y fábrica dentro de federaciones solidarias.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Ideas on Social Organization, sección III (en inglés)",
+        "url": "https://theanarchistlibrary.org/library/james-guillaume-ideas-on-social-organization",
+        "fecha": "1876",
         "consultado": "2026-07-11"
       }
     }

@@ -864,6 +864,90 @@
         "consultado": "2026-07-12",
         "cita": "El Grupo Popular reclama más cámaras de videovigilancia ante el incremento de episodios de vandalismo"
       }
+    },
+    "lab-017": {
+      "valor": 2,
+      "justificacion": "Su programa prioriza colaboración con operadores privados, libertad de empresa y ampliación de fórmulas privadas en servicios; apoyo claro a la primacía de la propiedad privada.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "El PP prioriza el refuerzo de la sanidad pública como eje de sus acuerdos autonómicos (Diariofarma)",
+        "url": "https://diariofarma.com/2026/02/24/el-pp-prioriza-el-refuerzo-de-la-sanidad-publica-como-eje-de-sus-acuerdos-autonomicos",
+        "fecha": "2026-02-24",
+        "consultado": "2026-07-10"
+      }
+    },
+    "ecl-001": {
+      "valor": -1,
+      "justificacion": "Defiende neutralidad tecnológica, precios competitivos y calendarios ligados a alternativas disponibles; se opone a acelerar cierres si encarecen de forma relevante la energía.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Ponencia Política del 21.º Congreso Nacional del PP",
+        "url": "https://www.pp.es/storage/2025/06/21_Congreso_Ponencia_Politica.pdf",
+        "fecha": "2025-06",
+        "consultado": "2026-07-09"
+      }
+    },
+    "ecl-002": {
+      "valor": -1,
+      "justificacion": "Pide revisar o flexibilizar la prohibición europea de 2035 en favor de neutralidad tecnológica y protección de la industria.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Ponencia Política del 21.º Congreso Nacional del PP",
+        "url": "https://www.pp.es/storage/2025/06/21_Congreso_Ponencia_Politica.pdf",
+        "fecha": "2025-06",
+        "consultado": "2026-07-09"
+      }
+    },
+    "ecl-003": {
+      "valor": -2,
+      "justificacion": "Rechaza subir impuestos a los combustibles como instrumento principal de transición y prioriza incentivos y tecnología.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Ponencia Política del 21.º Congreso Nacional del PP",
+        "url": "https://www.pp.es/storage/2025/06/21_Congreso_Ponencia_Politica.pdf",
+        "fecha": "2025-06",
+        "consultado": "2026-07-09"
+      }
+    },
+    "def-001": {
+      "valor": -2,
+      "justificacion": "Considera indispensable elevar capacidades y cumplir los objetivos de gasto de la OTAN; rechazo claro de una reducción.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Ponencia Política del 21.º Congreso Nacional del PP",
+        "url": "https://www.pp.es/storage/2025/06/21_Congreso_Ponencia_Politica.pdf",
+        "fecha": "2025-06",
+        "consultado": "2026-07-09"
+      }
+    },
+    "geo-002": {
+      "valor": 1,
+      "justificacion": "Defiende participar en misiones internacionales legitimadas por organismos multilaterales para proteger población civil, con objetivos y reglas de intervención definidos.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Ponencia Política del 21.º Congreso Nacional del PP",
+        "url": "https://www.pp.es/storage/2025/06/21_Congreso_Ponencia_Politica.pdf",
+        "fecha": "2025-06",
+        "consultado": "2026-07-09"
+      }
+    },
+    "va-001": {
+      "valor": -2,
+      "justificacion": "Su enfoque legislativo es bienestarista y mantiene usos culturales y productivos de animales; no propone reconocerlos como sujetos jurídicos de derechos.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "Ley 18/2013, de 12 de noviembre, para la regulación de la Tauromaquia como patrimonio cultural (BOE)",
+        "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2013-11837",
+        "fecha": "2013-11-12",
+        "consultado": "2026-07-10"
+      }
     }
   }
 }

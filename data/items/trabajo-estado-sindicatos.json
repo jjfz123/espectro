@@ -648,12 +648,46 @@
     ]
   },
   {
+    "id": "lab-039",
+    "texto": "Las grandes empresas privadas deberían transferirse a cooperativas gestionadas por sus trabajadores, no a ministerios estatales.",
+    "modulo": "trabajo-estado-sindicatos",
+    "ejes": [
+      {
+        "eje": "economico",
+        "carga": -1
+      },
+      {
+        "eje": "propiedad-mercado",
+        "carga": -1
+      },
+      {
+        "eje": "poder-laboral",
+        "carga": 1
+      },
+      {
+        "eje": "estatismo",
+        "carga": -1
+      }
+    ],
+    "polaridad": "positiva",
+    "tags": [
+      "cooperativas",
+      "autogestion",
+      "propiedad"
+    ],
+    "estado": "piloto",
+    "notas": "Versión exhaustiva del antiguo lab-017 (v5). Conserva la distinción entre transferencia cooperativa y dirección ministerial, pero ya no ocupa el núcleo porque el desacuerdo podía proceder de dos motivos opuestos. Sus seguimientos lab-032 y lab-033 separan el rechazo propietarista del estatista.",
+    "terminos": [
+      "autogestion"
+    ]
+  },
+  {
     "id": "lab-032",
     "texto": "Mi rechazo se debe a que las grandes empresas no deberían quitarse a sus dueños, sea cual sea quien las gestione después.",
     "modulo": "trabajo-estado-sindicatos",
     "ejes": [],
     "condicion": {
-      "itemId": "lab-017",
+      "itemId": "lab-039",
       "valores": [
         -2,
         -1
@@ -666,15 +700,15 @@
       "seguimiento"
     ],
     "estado": "piloto",
-    "notas": "Seguimiento del desacuerdo con lab-017 (petición expresa del propietario, 2026-07-12; dosier ADVERSARIAL-LEGIBILIDAD §5.1): aísla el motivo PROPIETARISTA (b) — rechazo a la transferencia, no a la forma cooperativa. Piloto solo-matching; cargas propuestas para calibración tras el piloto: propiedad-mercado +, economico + (el dosier documenta que sin este par el capitalista que rechaza lab-017 era empujado erróneamente hacia el polo pro-Estado). Esperado: liberales/conservadores +2; socialistas de ambas familias −2."
+    "notas": "Seguimiento del desacuerdo con lab-039 (petición expresa del propietario, 2026-07-12; dosier ADVERSARIAL-LEGIBILIDAD §5.1): aísla el motivo PROPIETARISTA (b) — rechazo a la transferencia, no a la forma cooperativa. Piloto solo-matching; cargas propuestas para calibración tras el piloto: propiedad-mercado +, economico + (el dosier documenta que sin este par el capitalista que rechaza lab-039 era empujado erróneamente hacia el polo pro-Estado). Esperado: liberales/conservadores +2; socialistas de ambas familias −2."
   },
   {
     "id": "lab-033",
-    "texto": "Mi rechazo se debe a que las grandes empresas debería dirigirlas el Estado, no cooperativas de trabajadores.",
+    "texto": "Mi rechazo se debe a que el Estado debería dirigir las grandes empresas, no cooperativas de trabajadores.",
     "modulo": "trabajo-estado-sindicatos",
     "ejes": [],
     "condicion": {
-      "itemId": "lab-017",
+      "itemId": "lab-039",
       "valores": [
         -2,
         -1
@@ -687,7 +721,7 @@
       "seguimiento"
     ],
     "estado": "piloto",
-    "notas": "Seguimiento del desacuerdo con lab-017 (petición expresa del propietario, 2026-07-12; dosier §5.1): aísla el motivo ESTATISTA (c) — prefiere la nacionalización ministerial a la cooperativa. Piloto solo-matching; cargas propuestas para calibración tras el piloto: estatismo +, organizacion + (sin este par el socialista estatista era empujado erróneamente hacia el polo de mercado). Esperado: marxismo-leninismo/estatistas +2; libertarios y autogestionarios −2."
+    "notas": "Seguimiento del desacuerdo con lab-039 (petición expresa del propietario, 2026-07-12; dosier §5.1): aísla el motivo ESTATISTA (c) — prefiere la nacionalización ministerial a la cooperativa. Piloto solo-matching; cargas propuestas para calibración tras el piloto: estatismo +, organizacion + (sin este par el socialista estatista era empujado erróneamente hacia el polo de mercado). Esperado: marxismo-leninismo/estatistas +2; libertarios y autogestionarios −2."
   },
   {
     "id": "lab-034",

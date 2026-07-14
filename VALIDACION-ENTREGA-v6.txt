@@ -1,0 +1,73 @@
+ESPECTRO — ENTREGA PARTIDOS/EJE v6
+Fecha de corte: 2026-07-14
+
+ALCANCE ENTREGADO
+- 65/65 partidos activos publicados como puntos en la brújula principal.
+- 65/65 partidos activos presentes en «Localizar un partido».
+- Coordenadas de partidos limitadas a [-80, 80]; rango actual X -74…70, Y -62…68.
+- Ningún partido real usa ±100, se oculta o se centra automáticamente por falta de cobertura.
+- Grados visibles: sólida, provisional, estimada, orientativa y programa monotemático.
+- Incertidumbre X/Y visible al seleccionar un partido.
+- Enciclopedia separada: 65 partidos activos y 85 referencias ideológicas.
+- Pregunta rápida 65 reemplazada por una afirmación monotónica sobre propiedad privada.
+- Formulación cooperativa anterior conservada como lab-039 en el exhaustivo.
+- Migración segura v5→v6: la respuesta antigua pasa a lab-039 y la nueva lab-017 queda pendiente.
+- Las 65 preguntas rápidas tienen al menos tres anclajes partidistas activos.
+- Atlas doctrinal preservado: 120 regiones publicadas, 0 bloqueadas.
+
+PUERTAS SUPERADAS
+[OK] npm run validate:data
+     Instrumento v6: 29 ejes, 20 módulos, 415 ítems (401 vigentes), 68 perfiles de partido,
+     85 referencias doctrinales, 21 convocatorias/323 candidaturas y 14 sindicatos.
+[OK] npm run validate:evidence-groups
+[OK] npm run validate:atlas-contract
+[OK] npm run validate:brujula
+     65/65 activos; X -74…70; Y -62…68; sin coordenadas ±100.
+[OK] npm run validate:todo-inventory
+[OK] npm run audit:partidos
+     Auditoría estricta de evidencia directa: 4 sólidas, 3 provisionales, 19 estimadas,
+     39 insuficientes y 13 extremos débiles. El registro visible no oculta esos 39: los
+     publica como orientativos/monotemático con incertidumbre y conserva el valor directo
+     de auditoría por separado.
+[OK] npm run audit:atlas
+[OK] npm run audit:electoral
+[OK] npm run audit:anexo
+[OK] npm run typecheck
+[OK] npm --prefix web exec tsc -- --noEmit
+[OK] npm test
+     43 archivos; 459 pruebas superadas.
+[OK] npm run web:build
+     Build PWA generado en web/dist; 23 entradas precacheadas.
+[OK] npm run web:budget
+     Aplicación inicial 107,3 KiB gzip; resultados/catálogos 351,0 KiB gzip;
+     atlas 2D 96,9 KiB gzip; visor 3D 246,0 KiB gzip; PWA completa 3,20 MiB.
+
+PUERTAS NO CERRADAS Y MOTIVO
+[NO CERRADA] npm run validate:todo
+     El inventario histórico global conserva 715 de 872 casillas abiertas. No se ha marcado
+     ese backlog como terminado; esta entrega cubre la recalibración de partidos/eje.
+
+[BLOQUEADA POR EL ENTORNO] npm run web:test:e2e
+     La suite Playwright está actualizada al instrumento v6 y al contrato de 65 puntos, pero
+     el Chromium administrado del entorno bloquea toda navegación local antes de cargar la app:
+     net::ERR_BLOCKED_BY_ADMINISTRATOR para localhost, 127.0.0.1, 0.0.0.0 y file://.
+     La descarga del Chromium propio de Playwright tampoco fue posible por falta de DNS de salida.
+     En un entorno normal: npm run web:test:e2e
+
+AVISOS NO BLOQUEANTES CONSERVADOS
+- validate:data avisa de posiciones bandera ±100 en otros macroejes detallados; la brújula
+  principal corregida no publica esos valores como coordenadas de partido.
+- validate:evidence-groups conserva un aviso de una cita demo sin URL HTTPS/localizador largo.
+- audit:electoral informa 84 relaciones de perfiles/componentes; sale con código 0.
+- audit:atlas conserva diagnósticos editoriales pendientes; sale con código 0.
+
+ARCHIVOS CLAVE
+- data/brujula-partidos.json
+- data/brujula-partidos-anclas.json
+- scripts/validar-brujula-partidos.mjs
+- web/src/brujulaPartidos.ts
+- web/src/mapaEspacial.ts
+- web/src/componentes/MapaPolitico.tsx
+- web/src/vistas/Enciclopedia.tsx
+- web/src/estado.ts
+- docs/ENTREGA-PARTIDOS-EJE-v6.md

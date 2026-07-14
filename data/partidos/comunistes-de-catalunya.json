@@ -4,7 +4,9 @@
   "siglas": "Comunistes",
   "ambito": "autonomico",
   "tipo": "partido",
-  "ccaa": ["catalunya"],
+  "ccaa": [
+    "catalunya"
+  ],
   "confianza": "verificada",
   "web": "https://comunistes.cat/",
   "revisado": "2026-07-09",
@@ -222,6 +224,18 @@
         "titulo": "Comunistes de Catalunya ante la convocatoria electoral del 12 de mayo",
         "url": "https://comunistes.cat/convocatoria-electoral/",
         "fecha": "2024-04-22",
+        "consultado": "2026-07-09"
+      }
+    },
+    "lab-017": {
+      "valor": -2,
+      "justificacion": "Su programa atribuye al sector público la dirección de empresas estratégicas, incompatible con que la propiedad privada siga siendo la forma principal en las grandes empresas.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "25 medidas prioritarias para las elecciones europeas de 2024",
+        "url": "https://drive.google.com/file/d/1fnE6JuQE4p5elVxSx_B2j3DHrsdXKW9a/view?usp=drive_link",
+        "fecha": "2024-05-22",
         "consultado": "2026-07-09"
       }
     }

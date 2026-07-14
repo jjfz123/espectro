@@ -530,6 +530,20 @@
         "consultado": "2026-07-13"
       },
       "grupoEvidencia": "pasaje-bc10654be371ce595ddc"
+    },
+    "lab-017": {
+      "valor": 2,
+      "justificacion": "Defiende explícitamente una economía de mercado frente a sustituirla por planificación pública; la propiedad privada de la gran empresa sigue siendo el modelo principal.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Pablo Iglesias y Albert Rivera enfrentan dos modelos económicos opuestos en el primer debate electoral (elDiario.es)",
+        "url": "https://www.eldiario.es/politica/pablo-iglesias-albert-rivera-economicos_1_2344872.html",
+        "fecha": "2015-12",
+        "consultado": "2026-07-12",
+        "cita": "Pablo Iglesias y Albert Rivera enfrentan dos modelos económicos opuestos"
+      },
+      "grupoEvidencia": "cs-modelo-mercado-2015"
     }
   }
 }

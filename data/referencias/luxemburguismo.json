@@ -223,18 +223,6 @@
         "consultado": "2026-07-11"
       }
     },
-    "lab-017": {
-      "valor": 1,
-      "justificacion": "La gran propiedad pasa a ser común y la dirección cotidiana recae en consejos elegidos en los centros de trabajo, más cerca de la autogestión que de un ministerio; no obtiene +2 porque la titularidad se articula mediante la república de consejos, no como cooperativas independientes.",
-      "calidadEvidencia": "alta",
-      "fuente": {
-        "tipo": "programa",
-        "titulo": "Luxemburg, What Does the Spartacus League Want?, secciones II y III (en inglés)",
-        "url": "https://www.rosalux.de/stiftung/rosa-luxemburg-1/what-does-the-spartacus-league-want",
-        "fecha": "1918-12-14",
-        "consultado": "2026-07-11"
-      }
-    },
     "dem-010": {
       "valor": 2,
       "justificacion": "Luxemburg considera imprescindibles elecciones generales, prensa, asociación, reunión y libre confrontación de opiniones incluso bajo un gobierno revolucionario; la emergencia no justifica eliminar la oposición.",
@@ -390,6 +378,18 @@
       "fuente": {
         "tipo": "programa",
         "titulo": "Luxemburg, What Does the Spartacus League Want?, demandas económicas (en inglés)",
+        "url": "https://www.rosalux.de/stiftung/rosa-luxemburg-1/what-does-the-spartacus-league-want",
+        "fecha": "1918-12-14",
+        "consultado": "2026-07-11"
+      }
+    },
+    "lab-039": {
+      "valor": 1,
+      "justificacion": "La gran propiedad pasa a ser común y la dirección cotidiana recae en consejos elegidos en los centros de trabajo, más cerca de la autogestión que de un ministerio; no obtiene +2 porque la titularidad se articula mediante la república de consejos, no como cooperativas independientes.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Luxemburg, What Does the Spartacus League Want?, secciones II y III (en inglés)",
         "url": "https://www.rosalux.de/stiftung/rosa-luxemburg-1/what-does-the-spartacus-league-want",
         "fecha": "1918-12-14",
         "consultado": "2026-07-11"

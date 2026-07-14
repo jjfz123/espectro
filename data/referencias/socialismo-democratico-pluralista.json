@@ -8,7 +8,14 @@
   "confianza": "verificada",
   "version": "1.0",
   "revisado": "2026-07-11",
-  "facetasDefinitorias": ["economico", "poder-laboral", "organizacion", "pluralismo-institucional", "libertades-civiles", "internacionalismo"],
+  "facetasDefinitorias": [
+    "economico",
+    "poder-laboral",
+    "organizacion",
+    "pluralismo-institucional",
+    "libertades-civiles",
+    "internacionalismo"
+  ],
   "sensibilidad": "normal",
   "advertencia": "Es un tipo ideal doctrinal y DSA se usa como una formulación primaria contemporánea especialmente explícita, no como organización a la que se adscriba al usuario. DSA contiene corrientes internas distintas y no monopoliza el socialismo democrático. La ficha tampoco equivale a la socialdemocracia clásica: mantiene como horizonte la sustitución del poder capitalista y la democratización de la propiedad, pero rechaza que una élite o partido único imponga la transformación desde arriba. En propiedad combina empresas públicas y cooperativas; por eso el ítem cooperativo se modera a +1.",
   "fuentesMarco": [
@@ -79,17 +86,6 @@
       "fuente": {
         "tipo": "programa",
         "titulo": "DSA, Where We Stand: Democratic Control of Productive and Social Life (en inglés)",
-        "url": "https://www.dsausa.org/strategy/where_we_stand/",
-        "consultado": "2026-07-11"
-      }
-    },
-    "lab-017": {
-      "valor": 1,
-      "justificacion": "Las cooperativas de trabajadores son centrales para la democracia económica, pero conviven con instituciones públicas y con la propiedad pública de las corporaciones mayores. Coincide con transferir poder empresarial a trabajadores, no con excluir siempre la propiedad pública ministerial.",
-      "calidadEvidencia": "alta",
-      "fuente": {
-        "tipo": "programa",
-        "titulo": "DSA, Where We Stand: Vision of a Socialist Economy (en inglés)",
         "url": "https://www.dsausa.org/strategy/where_we_stand/",
         "consultado": "2026-07-11"
       }
@@ -204,6 +200,17 @@
         "tipo": "programa",
         "titulo": "DSA, Workers Deserve More! Program y Thriving Working-Class Communities (en inglés)",
         "url": "https://platform.dsausa.org/program/",
+        "consultado": "2026-07-11"
+      }
+    },
+    "lab-039": {
+      "valor": 1,
+      "justificacion": "Las cooperativas de trabajadores son centrales para la democracia económica, pero conviven con instituciones públicas y con la propiedad pública de las corporaciones mayores. Coincide con transferir poder empresarial a trabajadores, no con excluir siempre la propiedad pública ministerial.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "DSA, Where We Stand: Vision of a Socialist Economy (en inglés)",
+        "url": "https://www.dsausa.org/strategy/where_we_stand/",
         "consultado": "2026-07-11"
       }
     }

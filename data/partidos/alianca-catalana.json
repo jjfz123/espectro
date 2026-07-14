@@ -637,6 +637,18 @@
         "fecha": "2025-01",
         "consultado": "2026-07-12"
       }
+    },
+    "lab-017": {
+      "valor": 2,
+      "justificacion": "Su programa fiscal y económico protege ahorro, patrimonio e iniciativa privada; la orientación documentada mantiene la propiedad privada como regla general.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Apujar o baixar impostos? Això defensa cadascun dels partits a Catalunya (e-noticies.cat)",
+        "url": "https://e-noticies.cat/politica/pujar-baixar-impostos-aixo-defensa-partits-cataluna-eleccions-catalanes-12m",
+        "fecha": "2024",
+        "consultado": "2026-07-10"
+      }
     }
   }
 }

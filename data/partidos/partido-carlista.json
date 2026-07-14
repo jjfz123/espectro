@@ -139,6 +139,18 @@
         "fecha": "2021-11-14",
         "consultado": "2026-07-09"
       }
+    },
+    "lab-017": {
+      "valor": -1,
+      "justificacion": "Su socialismo autogestionario subordina el mercado y la gran propiedad a formas sociales y comunitarias; rechazo moderado de la primacía privada.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "La construcción del Socialismo en tiempos de la globalización neoliberal, XV Congreso Federal",
+        "url": "https://partidocarlista.com/ideologia-la-construccion-del-socialismo-en-tiempos-de-la-globalizacion-neoliberal/",
+        "fecha": "2021-11-14",
+        "consultado": "2026-07-09"
+      }
     }
   }
 }

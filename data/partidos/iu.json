@@ -30,20 +30,6 @@
         "consultado": "2026-07-10"
       }
     },
-    "lab-017": {
-      "valor": -1,
-      "justificacion": "Para las grandes empresas de los sectores estratégicos IU prioriza la propiedad pública estatal —reclama nacionalizar energía, transporte y sectores clave y sitúa al sector público como garante de la reconstrucción industrial—, no su transferencia a cooperativas de trabajadores, aunque también apoye la economía social. Discrepa de la disyuntiva del ítem, de ahí -1.",
-      "calidadEvidencia": "media",
-      "fuente": {
-        "tipo": "programa",
-        "titulo": "Documento Político-Organizativo (Izquierda Unida)",
-        "url": "https://izquierdaunida.org/documento-politico-organizativo/",
-        "fecha": "2026",
-        "consultado": "2026-07-12",
-        "cita": "Documento Político-Organizativo"
-      },
-      "grupoEvidencia": "pasaje-182dd412b4cb2131e2f8"
-    },
     "eco-012": {
       "valor": 2,
       "justificacion": "IU defiende la eliminación progresiva de los conciertos educativos y la integración voluntaria de la concertada en una red única de escuela pública y laica, e impulsa enmiendas para que la escuela deje de ser un negocio sostenido con fondos públicos. Coincide con la eliminación gradual que plantea el ítem.",
@@ -533,6 +519,34 @@
         "cita": "IU amenaza con romper el Gobierno si no se cancelan todas las compras de armas a Israel"
       },
       "grupoEvidencia": "pasaje-5f0a3e3a4fa926320f7f"
+    },
+    "lab-039": {
+      "valor": -1,
+      "justificacion": "Para las grandes empresas de los sectores estratégicos IU prioriza la propiedad pública estatal —reclama nacionalizar energía, transporte y sectores clave y sitúa al sector público como garante de la reconstrucción industrial—, no su transferencia a cooperativas de trabajadores, aunque también apoye la economía social. Discrepa de la disyuntiva del ítem, de ahí -1.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Documento Político-Organizativo (Izquierda Unida)",
+        "url": "https://izquierdaunida.org/documento-politico-organizativo/",
+        "fecha": "2026",
+        "consultado": "2026-07-12",
+        "cita": "Documento Político-Organizativo"
+      },
+      "grupoEvidencia": "pasaje-182dd412b4cb2131e2f8"
+    },
+    "lab-017": {
+      "valor": -2,
+      "justificacion": "Su posición documentada prefiere propiedad y dirección públicas frente a transferir las grandes empresas a cooperativas; en cualquier caso rechaza la primacía de la gran propiedad privada.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Documento Político-Organizativo (Izquierda Unida)",
+        "url": "https://izquierdaunida.org/documento-politico-organizativo/",
+        "fecha": "2026",
+        "consultado": "2026-07-12",
+        "cita": "Documento Político-Organizativo"
+      },
+      "grupoEvidencia": "pasaje-182dd412b4cb2131e2f8"
     }
   }
 }

@@ -55,17 +55,6 @@
         "consultado": "2026-07-10"
       }
     },
-    "lab-017": {
-      "valor": 2,
-      "justificacion": "La transferencia de las grandes empresas a la gestión de sus trabajadores —no a ministerios— es la forma concreta del socialismo autogestionario que la doctrina opone al estatismo.",
-      "calidadEvidencia": "media",
-      "fuente": {
-        "tipo": "otro",
-        "titulo": "Una alternativa carlista: la ruptura democrática y el socialismo de autogestión global (RIPP)",
-        "url": "https://www.upo.es/revistas/index.php/ripp/article/view/7496",
-        "consultado": "2026-07-10"
-      }
-    },
     "lab-008": {
       "valor": 2,
       "justificacion": "La dirección de la producción y la inversión por órganos elegidos en los centros de trabajo es el contenido institucional de la autogestión frente a propietarios privados y ministerios.",
@@ -188,6 +177,17 @@
         "tipo": "otro",
         "titulo": "La división del carlismo que culminó en Montejurra 1976 (elDiario.es)",
         "url": "https://www.eldiario.es/navarra/division-carlismo-culmino-montejurra-1976-dios-patria-rey-socialismo-federalismo-autogestion_1_9862215.html",
+        "consultado": "2026-07-10"
+      }
+    },
+    "lab-039": {
+      "valor": 2,
+      "justificacion": "La transferencia de las grandes empresas a la gestión de sus trabajadores —no a ministerios— es la forma concreta del socialismo autogestionario que la doctrina opone al estatismo.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Una alternativa carlista: la ruptura democrática y el socialismo de autogestión global (RIPP)",
+        "url": "https://www.upo.es/revistas/index.php/ripp/article/view/7496",
         "consultado": "2026-07-10"
       }
     }

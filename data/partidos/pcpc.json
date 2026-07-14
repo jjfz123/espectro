@@ -4,7 +4,9 @@
   "siglas": "PCPC",
   "ambito": "autonomico",
   "tipo": "partido",
-  "ccaa": ["catalunya"],
+  "ccaa": [
+    "catalunya"
+  ],
   "confianza": "verificada",
   "web": "https://www.pcpc.cat/",
   "revisado": "2026-07-09",
@@ -169,6 +171,18 @@
       "valor": -2,
       "justificacion": "Concurrió en coalición con el PCPE a las elecciones europeas de 2024, lo que descarta un boicot electoral permanente.",
       "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral PCPE-PCPC para las elecciones europeas de 2024",
+        "url": "https://pcpe.es/wp-content/uploads/2024/05/Programa-electoral-2024.-COMPLETO-VOTA-1.pdf",
+        "fecha": "2024-05",
+        "consultado": "2026-07-09"
+      }
+    },
+    "lab-017": {
+      "valor": -2,
+      "justificacion": "Defiende dirección estatal y socialización de empresas estratégicas, incompatible con que la propiedad privada siga siendo la forma principal de la gran empresa.",
+      "calidadEvidencia": "media",
       "fuente": {
         "tipo": "programa",
         "titulo": "Programa electoral PCPE-PCPC para las elecciones europeas de 2024",

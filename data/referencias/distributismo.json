@@ -57,18 +57,6 @@
         "consultado": "2026-07-10"
       }
     },
-    "lab-017": {
-      "valor": 2,
-      "justificacion": "Transferir las grandes empresas privadas a cooperativas gestionadas por sus trabajadores, no a ministerios estatales, es precisamente la alternativa distributista tanto al capitalismo concentrado como al «Estado servil» socialista.",
-      "calidadEvidencia": "alta",
-      "fuente": {
-        "tipo": "otro",
-        "titulo": "Hilaire Belloc, The Servile State (en inglés)",
-        "url": "https://www.gutenberg.org/files/64882/64882-h/64882-h.htm",
-        "fecha": "1912",
-        "consultado": "2026-07-10"
-      }
-    },
     "lab-016": {
       "valor": -2,
       "justificacion": "La tesis central de Belloc es que el remedio estatal-socialista a la injusticia capitalista converge con el propio capitalismo en un «Estado servil»: dirigir empresas desde el Estado no es la alternativa distributista, es el otro cuerno del mismo problema.",
@@ -348,6 +336,18 @@
         "titulo": "G. K. Chesterton, The Outline of Sanity (en inglés)",
         "url": "https://archive.org/details/theoutlineofsanity",
         "fecha": "1927",
+        "consultado": "2026-07-10"
+      }
+    },
+    "lab-039": {
+      "valor": 2,
+      "justificacion": "Transferir las grandes empresas privadas a cooperativas gestionadas por sus trabajadores, no a ministerios estatales, es precisamente la alternativa distributista tanto al capitalismo concentrado como al «Estado servil» socialista.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Hilaire Belloc, The Servile State (en inglés)",
+        "url": "https://www.gutenberg.org/files/64882/64882-h/64882-h.htm",
+        "fecha": "1912",
         "consultado": "2026-07-10"
       }
     }

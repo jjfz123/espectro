@@ -69,7 +69,7 @@ export interface CoordenadaAuditable {
   omitidos: Array<{ itemId: string; motivo: string | null }>;
 }
 
-export type GradoAuditoriaBrujula = 'solida' | 'provisional' | 'insuficiente';
+export type GradoAuditoriaBrujula = 'solida' | 'provisional' | 'estimada' | 'insuficiente';
 
 export interface EjeAuditadoBrujula extends EvidenciaIndependiente {
   valor: number | null;
@@ -94,6 +94,7 @@ export interface AuditoriaBrujula {
     perfiles: number;
     solidas: number;
     provisionales: number;
+    estimadas: number;
     insuficientes: number;
     extremosInsuficientes: number;
     activas: number;

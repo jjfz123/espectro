@@ -293,20 +293,6 @@
       },
       "grupoEvidencia": "pasaje-55036b4273ea3fa27e55"
     },
-    "lab-017": {
-      "valor": 2,
-      "justificacion": "La administración directa de la producción por las organizaciones de productores —no por ministerios— es la definición misma del comunismo libertario confederal.",
-      "calidadEvidencia": "alta",
-      "fuente": {
-        "tipo": "otro",
-        "titulo": "CNT, Dictamen sobre el concepto confederal del comunismo libertario (Congreso de Zaragoza)",
-        "url": "https://www.cnt.es/noticias/concepto-confederal-del-comunismo-libertario/",
-        "fecha": "1936-05",
-        "consultado": "2026-07-10",
-        "cita": "Socializada la riqueza, las organizaciones de productoras, devenidos libres, se encargarán de la administración directa de la producción y el consumo"
-      },
-      "grupoEvidencia": "pasaje-1bc289e1425f508fd789"
-    },
     "izq-042": {
       "valor": 2,
       "justificacion": "La acción directa sobre la propiedad ociosa —ocupar y poner en uso— pertenece al repertorio doctrinal: quien declara abolida la propiedad privada no puede considerar ilegítimo convertir edificios abandonados en centros sociales.",
@@ -426,6 +412,20 @@
         "cita": "The organisation of Anarcho-Syndicalism is based upon the principles of Federalism, on free combination from below upward, putting the right of self-determination of every union above everything else"
       },
       "grupoEvidencia": "pasaje-e9e03e65c393a3ec3018"
+    },
+    "lab-039": {
+      "valor": 2,
+      "justificacion": "La administración directa de la producción por las organizaciones de productores —no por ministerios— es la definición misma del comunismo libertario confederal.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "CNT, Dictamen sobre el concepto confederal del comunismo libertario (Congreso de Zaragoza)",
+        "url": "https://www.cnt.es/noticias/concepto-confederal-del-comunismo-libertario/",
+        "fecha": "1936-05",
+        "consultado": "2026-07-10",
+        "cita": "Socializada la riqueza, las organizaciones de productoras, devenidos libres, se encargarán de la administración directa de la producción y el consumo"
+      },
+      "grupoEvidencia": "pasaje-1bc289e1425f508fd789"
     }
   }
 }

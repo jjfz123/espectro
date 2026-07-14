@@ -4,7 +4,9 @@
   "siglas": "RECORTES CERO",
   "ambito": "estatal",
   "tipo": "coalicion",
-  "componentes": ["uce"],
+  "componentes": [
+    "uce"
+  ],
   "confianza": "verificada",
   "web": "https://recortescero.es/",
   "revisado": "2026-07-09",
@@ -187,6 +189,18 @@
         "titulo": "BOE: candidaturas proclamadas para las elecciones al Parlamento Europeo de 2024",
         "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-9687",
         "fecha": "2024-05-14",
+        "consultado": "2026-07-09"
+      }
+    },
+    "lab-017": {
+      "valor": -1,
+      "justificacion": "Propone redistribución intensa y control de grandes monopolios dentro de una economía plural; cuestiona la primacía privada sin plantear su desaparición completa.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral de Recortes Cero para las elecciones generales del 23-J",
+        "url": "https://recortescero.es/wp-content/uploads/2023/07/PROG.-23J.pdf",
+        "fecha": "2023-07",
         "consultado": "2026-07-09"
       }
     }

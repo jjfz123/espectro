@@ -262,18 +262,6 @@
         "consultado": "2026-07-09"
       }
     },
-    "lab-017": {
-      "valor": 1,
-      "justificacion": "Una cooperativa de trabajadores es preferible a un ministerio y plenamente compatible con la doctrina, pero no exige transferir por ley toda gran empresa a esa única forma.",
-      "calidadEvidencia": "media",
-      "fuente": {
-        "tipo": "otro",
-        "titulo": "Instead of a Book: State Socialism and Anarchism (en inglés)",
-        "url": "https://theanarchistlibrary.org/library/benjamin-tucker-instead-of-a-book",
-        "fecha": "1897",
-        "consultado": "2026-07-09"
-      }
-    },
     "lib-002": {
       "valor": 2,
       "justificacion": "La protección y resolución de conflictos deben prestarse mediante asociaciones voluntarias o proveedores competitivos, sin monopolio fiscal de policía y tribunales.",
@@ -435,6 +423,18 @@
         "cita": "The Constitution has no inherent authority or obligation. It has no authority or obligation at all, unless as a contract between man and man."
       },
       "grupoEvidencia": "pasaje-8d76c68be23cf42666da"
+    },
+    "lab-039": {
+      "valor": 1,
+      "justificacion": "Una cooperativa de trabajadores es preferible a un ministerio y plenamente compatible con la doctrina, pero no exige transferir por ley toda gran empresa a esa única forma.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Instead of a Book: State Socialism and Anarchism (en inglés)",
+        "url": "https://theanarchistlibrary.org/library/benjamin-tucker-instead-of-a-book",
+        "fecha": "1897",
+        "consultado": "2026-07-09"
+      }
     }
   }
 }

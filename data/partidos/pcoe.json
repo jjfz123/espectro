@@ -247,6 +247,18 @@
         "fecha": "2024-10",
         "consultado": "2026-07-09"
       }
+    },
+    "lab-017": {
+      "valor": -2,
+      "justificacion": "Su programa comunista propone planificación y propiedad social de los medios de producción, por lo que rechaza claramente la primacía de la gran propiedad privada.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "La España por la que hoy luchamos: programa del XVII Congreso del PCOE",
+        "url": "https://pcoe.net/wp-content/uploads/2024/10/Programa-del-PCOE-XVII-Congreso.pdf",
+        "fecha": "2024-10",
+        "consultado": "2026-07-09"
+      }
     }
   }
 }

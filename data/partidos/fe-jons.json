@@ -380,6 +380,22 @@
         "fecha": "2026",
         "consultado": "2026-07-12"
       }
+    },
+    "lab-017": {
+      "valor": 0,
+      "justificacion": "Su programa combina propiedad privada subordinada al interés nacional con nacionalización o control público de banca y sectores estratégicos; es un modelo corporativo mixto.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral FE de las JONS Andalucía 2026",
+        "url": "https://falange.es/wp-content/uploads/2026/05/PROGRAMA-ELECTORAL-FEdelasJONS_ANDALUCIA-2026.pdf",
+        "fecha": "2026-05",
+        "consultado": "2026-07-09"
+      },
+      "resolucionCero": {
+        "tipo": "modelo-mixto",
+        "explicacion": "La fuente acredita una combinación estable de propiedad privada, regulación y provisión o control públicos, no ausencia de posición."
+      }
     }
   }
 }

@@ -11,10 +11,11 @@
  * tenga evidencia suficiente (umbral de entidades del motor). Una referencia
  * honesta cuyos textos no hablan del eje territorial (Bad Godesberg) aparece
  * en Economía × Sociedad y no en los pares territoriales; el cubo 3D exige
- * los tres macroejes. La brújula Propiedad/mercado × Poder exige tres anclas
- * de propiedad/coordinación y evidencia repartida entre al menos dos facetas
- * de su vertical. Sin un par publicable,
- * la entidad queda fuera con su evidencia explicada. Nunca se inventan posiciones.
+ * los tres macroejes. En la brújula Propiedad/mercado × Poder, en cambio, los
+ * 65 partidos activos permanecen siempre localizables. Su coordenada procede
+ * del registro editorial auditable y la cobertura documental se comunica con
+ * grado e incertidumbre: nunca se oculta un partido ni se lo empuja a ±100 por
+ * una sola posición bandera.
  *
  * Vive junto a datosResultados.ts: solo lo descarga el chunk de resultados.
  */
@@ -39,6 +40,8 @@ import {
   gradoEvidenciaBrujula,
 } from './atlasIdeologias';
 import type { EvidenciaEjeAtlas, GradoEvidenciaBrujula } from './atlasIdeologias';
+import { BRUJULA_PARTIDO_POR_ID } from './brujulaPartidos';
+import type { GradoBrujulaPartido } from './brujulaPartidos';
 
 export type TipoEntidadMapa = 'partido' | 'referencia';
 
@@ -60,9 +63,16 @@ export interface EntidadMapa {
    * documentación todavía no supera el contrato completo.
    */
   evidenciaBrujula?: {
-    grado: Exclude<GradoEvidenciaBrujula, 'insuficiente'>;
+    grado: GradoBrujulaPartido;
     propiedad: EvidenciaEjeAtlas;
     poder: EvidenciaEjeAtlas;
+    incertidumbreX: number;
+    incertidumbreY: number;
+    resumenX: string;
+    resumenY: string;
+    criterio: string;
+    valorDirectoX: number | null;
+    valorDirectoY: number | null;
   };
 }
 
@@ -183,13 +193,22 @@ function clasificar(
       : evidenciaAutoridadAtlas(idsPosicionados);
     const gradoCalculado = auditoriaPartido?.grado ??
       gradoEvidenciaBrujula(evidenciaPropiedad, evidenciaPoder);
-    /* La capa educativa del atlas sustituye los rombos doctrinales en esta
-       brújula. El tier provisional solo evita ocultar partidos mientras se
-       amplía su ficha; nunca rescata referencias para después omitirlas en el
-       render, porque quedarían fuera tanto del plano como de EXCLUIDAS_MAPA. */
-    const gradoBrujula: GradoEvidenciaBrujula =
+    const calibracionPartido = tipo === 'partido' ? BRUJULA_PARTIDO_POR_ID.get(perfil.id) : undefined;
+    if (tipo === 'partido' && !calibracionPartido) {
+      throw new Error(`Partido activo sin calibración de brújula: ${perfil.id}`);
+    }
+    /* Todos los partidos activos permanecen en el plano. El contrato estricto
+       sigue determinando si la coordenada es sólida, provisional o estimada;
+       cuando todavía es insuficiente se publica la síntesis documental del
+       registro con incertidumbre explícita, nunca un borde ±100 ni un punto
+       oculto. Los perfiles monotemáticos se distinguen del resto. */
+    const gradoBrujula: GradoEvidenciaBrujula | GradoBrujulaPartido =
       tipo === 'partido'
-        ? gradoCalculado
+        ? gradoCalculado === 'insuficiente'
+          ? perfil.monotematico
+            ? 'monotematica'
+            : 'orientativa'
+          : gradoCalculado
         : evidenciaPropiedad.suficiente && evidenciaPoder.suficiente
           ? 'solida'
           : 'insuficiente';
@@ -201,8 +220,10 @@ function clasificar(
     for (const faceta of suficientes) valores[faceta.facetaId] = faceta.valor as number;
     const propiedad = proyeccionPropiedad.facetas[0];
     const autoridad = proyeccionPoder.facetas[0];
-    const valorPropiedad = auditoriaPartido?.x.valor ?? propiedad?.valor;
-    const valorPoder = auditoriaPartido?.y.valor ?? autoridad?.valor;
+    const valorPropiedadDirecto = auditoriaPartido?.x.valor ?? propiedad?.valor ?? null;
+    const valorPoderDirecto = auditoriaPartido?.y.valor ?? autoridad?.valor ?? null;
+    const valorPropiedad = calibracionPartido?.x ?? valorPropiedadDirecto;
+    const valorPoder = calibracionPartido?.y ?? valorPoderDirecto;
     if (gradoBrujula !== 'insuficiente' && typeof valorPropiedad === 'number') {
       valores[EJE_PROPIEDAD_MERCADO] = valorPropiedad;
     }
@@ -243,12 +264,19 @@ function clasificar(
             : []),
         ],
         evidenciaBrujula:
-          gradoBrujula === 'insuficiente'
+          gradoBrujula === 'insuficiente' || !calibracionPartido
             ? undefined
             : {
                 grado: gradoBrujula,
                 propiedad: evidenciaPropiedad,
                 poder: evidenciaPoder,
+                incertidumbreX: calibracionPartido.incertidumbreX,
+                incertidumbreY: calibracionPartido.incertidumbreY,
+                resumenX: calibracionPartido.resumenX,
+                resumenY: calibracionPartido.resumenY,
+                criterio: calibracionPartido.criterio,
+                valorDirectoX: valorPropiedadDirecto,
+                valorDirectoY: valorPoderDirecto,
               },
       });
     } else {
@@ -288,7 +316,8 @@ function clasificar(
 
 const dentro: EntidadMapa[] = [];
 const fuera: EntidadExcluida[] = [];
-clasificar(PARTIDOS, 'partido', dentro, fuera);
+const PARTIDOS_ACTIVOS = PARTIDOS.filter((partido) => partido.actividad === 'activa');
+clasificar(PARTIDOS_ACTIVOS, 'partido', dentro, fuera);
 clasificar(REFERENCIAS, 'referencia', dentro, fuera);
 
 /** Entidades dibujables en al menos un plano (≥2 ejes con evidencia). */
@@ -302,5 +331,5 @@ export const ENTIDADES_CUBO: EntidadMapa[] = dentro.filter(
 /** Entidades fuera de todo plano, con el detalle de la evidencia que les falta. */
 export const EXCLUIDAS_MAPA: EntidadExcluida[] = fuera;
 
-export const TOTAL_PARTIDOS_CATALOGO = PARTIDOS.length;
+export const TOTAL_PARTIDOS_CATALOGO = PARTIDOS_ACTIVOS.length;
 export const TOTAL_REFERENCIAS_CATALOGO = REFERENCIAS.length;

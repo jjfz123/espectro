@@ -659,6 +659,18 @@
         "cita": "el TC declaró la inconstitucionalidad de la expresión «no autorizado» del artículo 36.23 que preveía como infracción grave el uso no autorizado de imágenes de las Fuerzas y Cuerpos de Seguridad"
       },
       "grupoEvidencia": "trbj-cc-dem022-grabar"
+    },
+    "lab-017": {
+      "valor": 1,
+      "justificacion": "Su ponencia promueve iniciativa privada y emprendimiento, aunque combina esa regla con protección pública de sectores estratégicos canarios; acuerdo moderado.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Ponencia ideológica de Coalición Canaria (iniciativa privada)",
+        "url": "https://coalicioncanaria.org/historia-e-ideologia/",
+        "fecha": "2026",
+        "consultado": "2026-07-12"
+      }
     }
   }
 }

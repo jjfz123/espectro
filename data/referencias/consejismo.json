@@ -227,20 +227,6 @@
       },
       "grupoEvidencia": "pasaje-819c056793806cd5def2"
     },
-    "lab-017": {
-      "valor": 2,
-      "justificacion": "En la misma obra, la propiedad común exige la gestión común del trabajo por los propios productores, no ministerios estatales: encaja con transferir las grandes empresas a cooperativas de trabajadores. Pasaje distinto del citado para lab-016.",
-      "calidadEvidencia": "alta",
-      "fuente": {
-        "tipo": "otro",
-        "titulo": "Anton Pannekoek, Public Ownership and Common Ownership (1947, archivo Pannekoek en marxists.org) (en inglés)",
-        "url": "https://www.marxists.org/archive/pannekoe/1947/public-ownership.htm",
-        "fecha": "1947",
-        "consultado": "2026-07-11",
-        "cita": "Common ownership demands common management of the work as well as common productive activity (en inglés)"
-      },
-      "grupoEvidencia": "pasaje-5a8169a40a59c731f432"
-    },
     "izq-005": {
       "valor": 1,
       "justificacion": "El conjunto de productores es dueño de los medios en un sistema de producción social planificada; pero el adjetivo \"pública\" del ítem designa el modelo estatal que Pannekoek rechaza, no la autogestión de los consejos: acuerdo parcial, de ahí +1. Pasaje distinto de la misma obra.",
@@ -282,6 +268,20 @@
         "cita": "The revolutionary proletariat of the whole world is today engaged in the struggle against the always-more-firmly-uniting international bourgeoisie (en inglés)"
       },
       "grupoEvidencia": "pasaje-f0c12a76c26dd3bc1e18"
+    },
+    "lab-039": {
+      "valor": 2,
+      "justificacion": "En la misma obra, la propiedad común exige la gestión común del trabajo por los propios productores, no ministerios estatales: encaja con transferir las grandes empresas a cooperativas de trabajadores. Pasaje distinto del citado para lab-016.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Anton Pannekoek, Public Ownership and Common Ownership (1947, archivo Pannekoek en marxists.org) (en inglés)",
+        "url": "https://www.marxists.org/archive/pannekoe/1947/public-ownership.htm",
+        "fecha": "1947",
+        "consultado": "2026-07-11",
+        "cita": "Common ownership demands common management of the work as well as common productive activity (en inglés)"
+      },
+      "grupoEvidencia": "pasaje-5a8169a40a59c731f432"
     }
   }
 }

@@ -236,20 +236,6 @@
         "consultado": "2026-07-10"
       }
     },
-    "lab-017": {
-      "valor": -1,
-      "justificacion": "Bordiga niega que la disposición futura sea una forma de propiedad o algo corporativo: será social, no individual ni corporativa. No respalda transferir las empresas a cooperativas de trabajadores (fórmula corporativa que rechaza), pero tampoco a ministerios: acuerdo negativo matizado, de ahí -1.",
-      "calidadEvidencia": "alta",
-      "fuente": {
-        "tipo": "otro",
-        "titulo": "Amadeo Bordiga, Propiedad y Capital (trad. española, ed. cast. 1980, marxists.org/espanol)",
-        "url": "https://www.marxists.org/espanol/bordiga/escritos/amadeo-bordiga-propiedad-y-capital.pdf",
-        "fecha": "1948",
-        "consultado": "2026-07-11",
-        "cita": "Será una disposición social, no individual, y ni siquiera corporativa. No será más una forma de propiedad, sino de organización"
-      },
-      "grupoEvidencia": "pasaje-8369d0324d4cc6babf5d"
-    },
     "izq-016": {
       "valor": 2,
       "justificacion": "El programa comunista exige abolir no solo las empresas sino la compraventa, el dinero, el salario y el mercado: a fortiori respalda expropiar la banca y los grandes grupos sin indemnizar a sus propietarios; la doctrina va más allá de lo que formula el ítem.",
@@ -291,6 +277,20 @@
         "cita": "the capitalist system has already deformed and dissolved the sanctity of the family institution, [communism] fights it openly and proposes to supplant it (en inglés)"
       },
       "grupoEvidencia": "pasaje-24821890514724798b9b"
+    },
+    "lab-039": {
+      "valor": -1,
+      "justificacion": "Bordiga niega que la disposición futura sea una forma de propiedad o algo corporativo: será social, no individual ni corporativa. No respalda transferir las empresas a cooperativas de trabajadores (fórmula corporativa que rechaza), pero tampoco a ministerios: acuerdo negativo matizado, de ahí -1.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Amadeo Bordiga, Propiedad y Capital (trad. española, ed. cast. 1980, marxists.org/espanol)",
+        "url": "https://www.marxists.org/espanol/bordiga/escritos/amadeo-bordiga-propiedad-y-capital.pdf",
+        "fecha": "1948",
+        "consultado": "2026-07-11",
+        "cita": "Será una disposición social, no individual, y ni siquiera corporativa. No será más una forma de propiedad, sino de organización"
+      },
+      "grupoEvidencia": "pasaje-8369d0324d4cc6babf5d"
     }
   }
 }

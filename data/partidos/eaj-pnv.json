@@ -838,6 +838,20 @@
         "cita": "movilizar hasta 4.000 millones de euros gracias a la colaboración público-privada"
       },
       "grupoEvidencia": "pasaje-765dc20465a78945559d"
+    },
+    "lab-017": {
+      "valor": 1,
+      "justificacion": "Defiende orientar inversión mediante colaboración público-privada sin sustituir la iniciativa ni la propiedad privadas; acuerdo moderado, no laissez-faire.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "EAJ-PNV refrenda su apuesta por la alianza financiera público-privada (Parlamento Vasco)",
+        "url": "https://parlamentovasco.eaj-pnv.eus/es/noticias/56436/eaj-pnv-refrenda-su-apuesta-por-la-alianza-financi",
+        "fecha": "2025-03-06",
+        "consultado": "2026-07-13",
+        "cita": "movilizar hasta 4.000 millones de euros gracias a la colaboración público-privada"
+      },
+      "grupoEvidencia": "pasaje-765dc20465a78945559d"
     }
   }
 }

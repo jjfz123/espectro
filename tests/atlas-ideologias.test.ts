@@ -27,6 +27,7 @@ import {
 } from '../web/src/mapaEspacial.js';
 import { ITEMS } from '../web/src/datos.js';
 import { PARTIDOS } from '../web/src/datosOrganizaciones.js';
+import { BRUJULA_PARTIDO_POR_ID } from '../web/src/brujulaPartidos.js';
 
 describe('capas del atlas ideologico', () => {
   it('expone siempre A y reserva B para la profundidad', () => {
@@ -251,17 +252,19 @@ describe('capas del atlas ideologico', () => {
         typeof entidad.valores[EJE_ECONOMIA_BRUJULA.id] === 'number' &&
         typeof entidad.valores[EJE_PODER_BRUJULA.id] === 'number',
     );
-    // Con el nivel «estimada» (orden de producto: todos los partidos con
-    // coordenada calculable a la vista) publicar deja de ser binario: cada
-    // punto declara su grado y el tenue lleva recibo. Lo que NO se rebaja:
-    // un perfil sin coordenada auditable (grado insuficiente del auditor)
-    // sigue sin dibujarse jamás en la brújula.
+    const partidosActivos = PARTIDOS.filter((partido) => partido.actividad === 'activa');
+    expect(partidosBrujula).toHaveLength(partidosActivos.length);
+    expect(new Set(partidosBrujula.map((partido) => partido.id))).toEqual(
+      new Set(partidosActivos.map((partido) => partido.id)),
+    );
     expect(
       partidosBrujula.every(
         (partido) =>
           partido.evidenciaBrujula?.grado === 'solida' ||
           partido.evidenciaBrujula?.grado === 'provisional' ||
-          partido.evidenciaBrujula?.grado === 'estimada',
+          partido.evidenciaBrujula?.grado === 'estimada' ||
+          partido.evidenciaBrujula?.grado === 'orientativa' ||
+          partido.evidenciaBrujula?.grado === 'monotematica',
       ),
     ).toBe(true);
     const auditoria = crearAuditoria({
@@ -269,28 +272,40 @@ describe('capas del atlas ideologico', () => {
       partidos: PARTIDOS,
       atlas: CONTRATO_ATLAS,
     }) as AuditoriaBrujula;
-    const idsPublicados = new Set(partidosBrujula.map((partido) => partido.id));
-    expect(
-      auditoria.resultados
-        .filter((resultado) => resultado.grado === 'insuficiente')
-        .every((resultado) => !idsPublicados.has(resultado.id)),
-    ).toBe(true);
-    // Y el nivel estimado EXISTE de verdad en el catálogo actual: los polos
-    // honestos y los perfiles a media documentación se ven, no se esconden.
+    const partidoActivoPorId = new Map(partidosActivos.map((partido) => [partido.id, partido]));
+    const entidadPorId = new Map(partidosBrujula.map((partido) => [partido.id, partido]));
+    for (const resultado of auditoria.resultados.filter((entrada) =>
+      partidoActivoPorId.has(entrada.id),
+    )) {
+      const entidad = entidadPorId.get(resultado.id);
+      const perfil = partidoActivoPorId.get(resultado.id);
+      const esperado =
+        resultado.grado === 'insuficiente'
+          ? perfil?.monotematico
+            ? 'monotematica'
+            : 'orientativa'
+          : resultado.grado;
+      expect(entidad?.evidenciaBrujula?.grado, resultado.id).toBe(esperado);
+    }
     expect(
       partidosBrujula.some((partido) => partido.evidenciaBrujula?.grado === 'estimada'),
+    ).toBe(true);
+    expect(
+      partidosBrujula.some((partido) => partido.evidenciaBrujula?.grado === 'orientativa'),
+    ).toBe(true);
+    expect(
+      partidosBrujula.some((partido) => partido.evidenciaBrujula?.grado === 'monotematica'),
     ).toBe(true);
     expect(
       ENTIDADES_MAPA.some(
         (entidad) =>
           entidad.tipo === 'referencia' &&
-          (entidad.evidenciaBrujula?.grado === 'provisional' ||
-            entidad.evidenciaBrujula?.grado === 'estimada'),
+          entidad.evidenciaBrujula !== undefined,
       ),
     ).toBe(false);
   });
 
-  it('publica exactamente las coordenadas y el grado del auditor compartido', () => {
+  it('publica las 65 coordenadas calibradas y conserva aparte el recibo estricto del auditor', () => {
     const auditoria = crearAuditoria({
       items: ITEMS,
       partidos: PARTIDOS,
@@ -302,15 +317,21 @@ describe('capas del atlas ideologico', () => {
         entidad,
       ]),
     );
+    const activos = new Set(
+      PARTIDOS.filter((partido) => partido.actividad === 'activa').map((partido) => partido.id),
+    );
 
-    for (const resultado of auditoria.resultados.filter(
-      (entrada) => entrada.grado !== 'insuficiente',
-    )) {
+    for (const resultado of auditoria.resultados.filter((entrada) => activos.has(entrada.id))) {
       const entidad = entidadPorId.get(resultado.id);
-      expect(entidad, `${resultado.id} debe reflejar el recibo de CI`).toBeDefined();
-      expect(entidad?.evidenciaBrujula?.grado).toBe(resultado.grado);
-      expect(entidad?.valores[EJE_ECONOMIA_BRUJULA.id]).toBe(resultado.x.valor);
-      expect(entidad?.valores[EJE_PODER_BRUJULA.id]).toBe(resultado.y.valor);
+      const calibracion = BRUJULA_PARTIDO_POR_ID.get(resultado.id);
+      expect(entidad, `${resultado.id} debe permanecer en el plano`).toBeDefined();
+      expect(calibracion, `${resultado.id} debe tener calibración explícita`).toBeDefined();
+      expect(entidad?.valores[EJE_ECONOMIA_BRUJULA.id]).toBe(calibracion?.x);
+      expect(entidad?.valores[EJE_PODER_BRUJULA.id]).toBe(calibracion?.y);
+      expect(entidad?.evidenciaBrujula?.valorDirectoX).toBe(resultado.x.valor);
+      expect(entidad?.evidenciaBrujula?.valorDirectoY).toBe(resultado.y.valor);
+      expect(entidad?.evidenciaBrujula?.propiedad.items).toBe(resultado.x.grupos);
+      expect(entidad?.evidenciaBrujula?.poder.items).toBe(resultado.y.grupos);
     }
   });
 
@@ -333,15 +354,12 @@ describe('capas del atlas ideologico', () => {
       const entidad = ENTIDADES_MAPA.find(
         (entrada) => entrada.tipo === 'partido' && entrada.id === id,
       );
-      if (resultado.grado === 'insuficiente') {
-        expect(
-          typeof entidad?.valores[EJE_ECONOMIA_BRUJULA.id] === 'number' &&
-            typeof entidad?.valores[EJE_PODER_BRUJULA.id] === 'number',
-        ).toBe(false);
-      } else {
-        expect(entidad?.valores[EJE_ECONOMIA_BRUJULA.id]).toBe(resultado.x.valorPorGrupos);
-        expect(entidad?.valores[EJE_PODER_BRUJULA.id]).toBe(resultado.y.valorPorGrupos);
-      }
+      const calibracion = BRUJULA_PARTIDO_POR_ID.get(id);
+      expect(entidad, `${id} debe permanecer visible aunque el recibo sea incompleto`).toBeDefined();
+      expect(entidad?.evidenciaBrujula?.valorDirectoX).toBe(resultado.x.valorPorGrupos);
+      expect(entidad?.evidenciaBrujula?.valorDirectoY).toBe(resultado.y.valorPorGrupos);
+      expect(entidad?.valores[EJE_ECONOMIA_BRUJULA.id]).toBe(calibracion?.x);
+      expect(entidad?.valores[EJE_PODER_BRUJULA.id]).toBe(calibracion?.y);
     },
   );
 

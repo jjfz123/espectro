@@ -250,18 +250,6 @@
         "consultado": "2026-07-09"
       }
     },
-    "lab-017": {
-      "valor": 2,
-      "justificacion": "Entre empresa capitalista y ministerio, la unidad mutualista preferida es la asociación de trabajadores que posee y gestiona directamente su actividad.",
-      "calidadEvidencia": "alta",
-      "fuente": {
-        "tipo": "otro",
-        "titulo": "General Idea of the Revolution in the Nineteenth Century (en inglés)",
-        "url": "https://fair-use.org/p-j-proudhon/general-idea-of-the-revolution/",
-        "fecha": "1851",
-        "consultado": "2026-07-09"
-      }
-    },
     "izq-042": {
       "valor": 2,
       "justificacion": "La posesión por ocupación y uso es el único título legítimo en esta doctrina: un edificio abandonado durante años es propiedad rentista sin uso, y ponerlo en uso colectivo restituye la posesión frente al derecho de aubana del propietario ocioso.",
@@ -383,6 +371,18 @@
         "cita": "the contracting parties, whether heads of family, towns, cantons, provinces, or states, not only undertake bilateral and commutative obligations, but in making the pact reserve for themselves more rights, more liberty, more authority, more property than they abandon"
       },
       "grupoEvidencia": "pasaje-0b84a005e5191188e588"
+    },
+    "lab-039": {
+      "valor": 2,
+      "justificacion": "Entre empresa capitalista y ministerio, la unidad mutualista preferida es la asociación de trabajadores que posee y gestiona directamente su actividad.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "General Idea of the Revolution in the Nineteenth Century (en inglés)",
+        "url": "https://fair-use.org/p-j-proudhon/general-idea-of-the-revolution/",
+        "fecha": "1851",
+        "consultado": "2026-07-09"
+      }
     }
   }
 }

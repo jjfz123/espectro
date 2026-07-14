@@ -69,9 +69,8 @@ function estadoAlcanzandoHito() {
 
 describe('estado del cuestionario', () => {
   it('mantiene un núcleo rápido de exactamente 65 preguntas y la ampliación acordada', () => {
-    /* v5 (2026-07-13, orden del propietario): 50 → 65. Los 15 nuevos suben la
-       cobertura comparable de todos los grandes (Cs 12→18, PSOE 26→34,
-       Sumar 21→31…) y cierran el recorrido como parte de la ampliación. */
+    /* v6 mantiene las 65 preguntas rápidas y sustituye solo la semántica de
+       lab-017; la formulación cooperativa anterior se conserva como lab-039. */
     expect(ITEMS_NUCLEO).toHaveLength(65);
     expect(ITEMS_NUCLEO.slice(-IDS_AMPLIACION_NUCLEO.length).map((item) => item.id)).toEqual(
       [...IDS_AMPLIACION_NUCLEO],
@@ -262,15 +261,15 @@ describe('estado del cuestionario', () => {
     });
   });
 
-  it('migra el instrumento v4 a v5 sin perder respuestas ni prioridades', () => {
+  it('migra v5 a v6 sin reinterpretar la antigua lab-017', () => {
     const anterior = {
       ...ESTADO_INICIAL,
-      versionInstrumento: '4',
+      versionInstrumento: '5',
       fase: 'cuestionario',
       modo: 'completo',
-      respuestas: { 'eco-001': 2, 'dem-008': -1, 'soc-006': null },
-      importantes: { 'dem-008': true },
-      modulosActivos: ['democracia-instituciones'],
+      respuestas: { 'eco-001': 2, 'lab-017': -1, 'soc-006': null },
+      importantes: { 'lab-017': true },
+      modulosActivos: ['trabajo-estado-sindicatos'],
       guardadoEn: new Date().toISOString(),
     };
     conLocalStorage({ [CLAVE_ALMACEN]: JSON.stringify(anterior) }, () => {
@@ -279,10 +278,38 @@ describe('estado del cuestionario', () => {
         versionInstrumento: VERSION_INSTRUMENTO,
         fase: 'cuestionario',
         modo: 'completo',
-        respuestas: anterior.respuestas,
-        importantes: anterior.importantes,
         modulosActivos: anterior.modulosActivos,
       });
+      expect(restaurado.respuestas).toMatchObject({
+        'eco-001': 2,
+        'lab-039': -1,
+        'soc-006': null,
+      });
+      expect(restaurado.respuestas['lab-017']).toBeUndefined();
+      expect(restaurado.importantes).toEqual({ 'lab-039': true });
+      expect(secuenciaItems(restaurado.modulosActivos, restaurado.respuestas).some(
+        (item) => item.id === 'lab-017',
+      )).toBe(true);
+    });
+  });
+
+  it('reabre una sesión v5 terminada exactamente en la nueva pregunta 65', () => {
+    const respuestasV5 = Object.fromEntries(
+      ITEMS_NUCLEO.map((item) => [item.id, item.id === 'lab-017' ? 2 : 0]),
+    );
+    const anterior = {
+      ...ESTADO_INICIAL,
+      versionInstrumento: '5',
+      fase: 'resultados',
+      respuestas: respuestasV5,
+      guardadoEn: new Date().toISOString(),
+    };
+    conLocalStorage({ [CLAVE_ALMACEN]: JSON.stringify(anterior) }, () => {
+      const restaurado = cargarEstado();
+      expect(restaurado.fase).toBe('cuestionario');
+      expect(restaurado.respuestas['lab-039']).toBe(2);
+      expect(restaurado.respuestas['lab-017']).toBeUndefined();
+      expect(secuenciaItems([], restaurado.respuestas)[restaurado.indice]?.id).toBe('lab-017');
     });
   });
 
@@ -295,8 +322,8 @@ describe('estado del cuestionario', () => {
     };
     const casos: Array<[string, string]> = [
       [JSON.stringify({ ...base, versionInstrumento: 'instrumento-incompatible' }), 'instrumento'],
-      // La migración v3→v4 expiró al llegar v5: cada salto declara la suya.
-      [JSON.stringify({ ...base, versionInstrumento: '3' }), 'instrumento'],
+      // Solo v5→v6 está declarada: los saltos anteriores ya no son compatibles.
+      [JSON.stringify({ ...base, versionInstrumento: '4' }), 'instrumento'],
       [
         JSON.stringify({
           ...base,

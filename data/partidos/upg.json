@@ -4,7 +4,9 @@
   "siglas": "UPG",
   "ambito": "autonomico",
   "tipo": "partido",
-  "ccaa": ["galicia"],
+  "ccaa": [
+    "galicia"
+  ],
   "confianza": "verificada",
   "web": "https://upg.gal/",
   "revisado": "2026-07-09",
@@ -186,6 +188,18 @@
         "titulo": "UPG: o partido da patria e do socialismo",
         "url": "https://upg.gal/upg-o-partido-da-patria-e-do-socialismo/",
         "fecha": "2025-09-23",
+        "consultado": "2026-07-09"
+      }
+    },
+    "lab-017": {
+      "valor": -2,
+      "justificacion": "Su programa comunista defiende dirección pública y socialización de sectores estratégicos, incompatible con la primacía de la gran propiedad privada.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa da UPG, ratificado en el XVI Congreso",
+        "url": "https://upg.gal/upg-o-partido-da-patria-e-do-socialismo/programa-da-upg/",
+        "fecha": "2024-07-07",
         "consultado": "2026-07-09"
       }
     }

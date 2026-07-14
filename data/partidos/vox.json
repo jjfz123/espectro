@@ -1185,6 +1185,90 @@
         "consultado": "2026-07-12",
         "cita": "Vox, único partido que habla de liberalizar el taxi tras una compensación previa"
       }
+    },
+    "lab-017": {
+      "valor": 2,
+      "justificacion": "Rechaza sustituir el mercado por planificación pública y defiende libertad de empresa y propiedad privada; apoyo claro a su primacía en las grandes empresas.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Bajada radical de impuestos, drástica reducción del gasto político ineficaz, simplificación de trámites… así es el programa económico de VOX para el 23J (voxespana.es)",
+        "url": "https://www.voxespana.es/actualidad/bajada-radical-de-impuestos-drastica-reduccion-del-gasto-politico-ineficaz-simplificacion-de-tramites-asi-es-el-programa-economico-de-vox-para-el-23j-20230707",
+        "fecha": "2023-07-07",
+        "consultado": "2026-07-10"
+      }
+    },
+    "ecl-001": {
+      "valor": -2,
+      "justificacion": "Rechaza el cierre acelerado de capacidad energética por objetivos climáticos cuando eleva precios y propone prolongar instalaciones existentes.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral de VOX para las elecciones generales de 2023",
+        "url": "https://www.voxespana.es/wp-content/uploads/2023/07/Programa-VOX-2023-con-menos-peso.pdf",
+        "fecha": "2023-07",
+        "consultado": "2026-07-09"
+      }
+    },
+    "ecl-002": {
+      "valor": -2,
+      "justificacion": "Se opone al veto europeo a la venta de coches de gasolina y diésel en 2035.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral de VOX para las elecciones generales de 2023",
+        "url": "https://www.voxespana.es/wp-content/uploads/2023/07/Programa-VOX-2023-con-menos-peso.pdf",
+        "fecha": "2023-07",
+        "consultado": "2026-07-09"
+      }
+    },
+    "ecl-003": {
+      "valor": -2,
+      "justificacion": "Rechaza la fiscalidad verde sobre combustibles y propone reducir cargas energéticas.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral de VOX para las elecciones generales de 2023",
+        "url": "https://www.voxespana.es/wp-content/uploads/2023/07/Programa-VOX-2023-con-menos-peso.pdf",
+        "fecha": "2023-07",
+        "consultado": "2026-07-09"
+      }
+    },
+    "pop-002": {
+      "valor": 1,
+      "justificacion": "VOX denuncia de forma recurrente a medios subvencionados y élites mediáticas; apoyo claro pero no máximo porque también reivindica pluralidad empresarial y medios privados.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral de VOX para las elecciones generales de 2023",
+        "url": "https://www.voxespana.es/wp-content/uploads/2023/07/Programa-VOX-2023-con-menos-peso.pdf",
+        "fecha": "2023-07",
+        "consultado": "2026-07-09"
+      }
+    },
+    "def-001": {
+      "valor": -2,
+      "justificacion": "Defiende reforzar las Fuerzas Armadas y elevar el esfuerzo de defensa; rechazo claro de reducir el gasto militar.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral de VOX para las elecciones generales de 2023",
+        "url": "https://www.voxespana.es/wp-content/uploads/2023/07/Programa-VOX-2023-con-menos-peso.pdf",
+        "fecha": "2023-07",
+        "consultado": "2026-07-09"
+      }
+    },
+    "va-001": {
+      "valor": -2,
+      "justificacion": "Defiende caza, ganadería y usos tradicionales bajo regulación de bienestar, y rechaza la equiparación de animales con sujetos de derechos.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Vox reafirma en el Congreso su compromiso con la caza social",
+        "url": "https://www.miciudadreal.es/2026/06/10/vox-reafirma-en-el-congreso-su-compromiso-con-la-caza-social/",
+        "fecha": "2026-06-10",
+        "consultado": "2026-07-10"
+      }
     }
   }
 }

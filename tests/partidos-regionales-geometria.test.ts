@@ -118,7 +118,7 @@ describe('evidencia independiente de la tanda regional', () => {
       grupo.url.includes('PONENCIA-FINAL-AN-CUP.pdf'),
     );
     const estado = propiedad?.find((grupo) => grupo.items.includes('lab-016'));
-    const cooperativas = propiedad?.find((grupo) => grupo.items.includes('lab-017'));
+    const cooperativas = propiedad?.find((grupo) => grupo.items.includes('lab-039'));
     expect(estado?.localizador).toBeTruthy();
     expect(cooperativas?.localizador).toBeTruthy();
     expect(estado?.localizador).not.toBe(cooperativas?.localizador);
@@ -130,7 +130,7 @@ describe('evidencia independiente de la tanda regional', () => {
     const pnv = evidenciaIndependiente(perfiles['eaj-pnv'].posiciones, gruposX) as EjeAuditado;
     const geroa = evidenciaIndependiente(perfiles['geroa-bai'].posiciones, gruposX) as EjeAuditado;
 
-    expect(cup.recibo.some((grupo) => grupo.items.includes('lab-017'))).toBe(true);
+    expect(cup.recibo.some((grupo) => grupo.items.includes('lab-039'))).toBe(true);
     expect(pnv.recibo.some((grupo) => grupo.items.includes('eco-002'))).toBe(true);
     expect(pnv.omitidos.map(({ itemId }) => itemId)).toEqual(
       expect.arrayContaining(['eco-011', 'eco-014']),
@@ -152,9 +152,11 @@ describe('correcciones semánticas regionales', () => {
 
   it('distingue control estatal, control colectivo y cooperativización en la CUP', () => {
     expect(perfiles.cup.posiciones['lab-016']?.valor).toBe(1);
-    expect(perfiles.cup.posiciones['lab-017']?.valor).toBe(0);
+    expect(perfiles.cup.posiciones['lab-017']?.valor).toBe(-2);
+    expect(perfiles.cup.posiciones['lab-039']?.valor).toBe(0);
     expect(perfiles.cup.posiciones['lab-016']?.fuente?.cita).toContain('control públic');
-    expect(perfiles.cup.posiciones['lab-017']?.fuente?.cita).toContain('cooperatives');
+    expect(perfiles.cup.posiciones['lab-017']?.fuente?.cita).toContain('banca pública');
+    expect(perfiles.cup.posiciones['lab-039']?.fuente?.cita).toContain('cooperatives');
     expect(perfiles.cup.posiciones['soc-001']?.fuente?.url).toBe('https://feminisme.cup.cat/');
   });
 

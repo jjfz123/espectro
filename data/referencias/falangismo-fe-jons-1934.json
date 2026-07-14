@@ -258,20 +258,6 @@
         "consultado": "2026-07-11"
       }
     },
-    "lab-017": {
-      "valor": -2,
-      "justificacion": "Los puntos 8 y 13 conservan y protegen la iniciativa y la propiedad privadas compatibles con el interés nacional; el 14 reserva nacionalizaciones a banca y grandes servicios. No propone transferir las grandes empresas a cooperativas autogestionadas por sus plantillas.",
-      "calidadEvidencia": "alta",
-      "fuente": {
-        "tipo": "otro",
-        "titulo": "Programa de la Falange Española de las JONS de 1934, puntos 8, 13 y 14",
-        "url": "https://www.uv.es/ivorra/Historia/SXX/Falange.html",
-        "cita": "El Estado reconocerá la propiedad privada como medio lícito para el cumplimiento de los fines individuales, familiares y sociales, y la protegerá contra los abusos del gran capital financiero, de los especuladores y de los prestamistas.",
-        "fecha": "1934-11-30",
-        "consultado": "2026-07-11"
-      },
-      "grupoEvidencia": "pasaje-a8b126a731d32f28a9e7"
-    },
     "lab-018": {
       "valor": 1,
       "justificacion": "El punto 6 sustituye la participación mediante partidos por funciones familiares, municipales y sindicales. La coincidencia es parcial porque el sindicato no es la única vía ni representa solo a trabajadores.",
@@ -339,6 +325,20 @@
         "cita": "Una nación no es una lengua, ni una raza, ni un territorio. Es una unidad de destino en lo universal."
       },
       "grupoEvidencia": "pasaje-38d8f6664bfc1ae559f5"
+    },
+    "lab-039": {
+      "valor": -2,
+      "justificacion": "Los puntos 8 y 13 conservan y protegen la iniciativa y la propiedad privadas compatibles con el interés nacional; el 14 reserva nacionalizaciones a banca y grandes servicios. No propone transferir las grandes empresas a cooperativas autogestionadas por sus plantillas.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Programa de la Falange Española de las JONS de 1934, puntos 8, 13 y 14",
+        "url": "https://www.uv.es/ivorra/Historia/SXX/Falange.html",
+        "cita": "El Estado reconocerá la propiedad privada como medio lícito para el cumplimiento de los fines individuales, familiares y sociales, y la protegerá contra los abusos del gran capital financiero, de los especuladores y de los prestamistas.",
+        "fecha": "1934-11-30",
+        "consultado": "2026-07-11"
+      },
+      "grupoEvidencia": "pasaje-a8b126a731d32f28a9e7"
     }
   }
 }

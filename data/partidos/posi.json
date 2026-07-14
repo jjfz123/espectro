@@ -200,6 +200,18 @@
         "fecha": "2011-10-31",
         "consultado": "2026-07-09"
       }
+    },
+    "lab-017": {
+      "valor": -2,
+      "justificacion": "Defiende expropiar la banca y grandes grupos empresariales y sustituir la propiedad capitalista, por lo que rechaza claramente el enunciado.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "autoubicacion",
+        "titulo": "Qué es el POSI y por qué lucha",
+        "url": "https://posicuarta.org/cartasblog/que-es-el-posi-y-por-que-lucha/",
+        "fecha": "2021-03-16",
+        "consultado": "2026-07-09"
+      }
     }
   }
 }
