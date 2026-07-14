@@ -1,4 +1,4 @@
-import { FECHA_CORTE_DATOS, URL_REPOSITORIO } from '../datos';
+import { FECHA_CORTE_DATOS, URL_KOFI } from '../datos';
 
 interface Props {
   alAbrirMetodologia: () => void;
@@ -10,15 +10,15 @@ export function Pie({ alAbrirMetodologia, alBorrarDatos }: Props) {
     <footer className="pie">
       <div className="contenedor pie-fila">
         <p>
-          Espectro · código abierto (AGPL-3.0) · datos con corte {FECHA_CORTE_DATOS} · tus
+          Espectro · sin anuncios ni rastreadores · datos con corte {FECHA_CORTE_DATOS} · tus
           respuestas no salen de tu navegador.
         </p>
         <div className="pie-enlaces">
           <button type="button" onClick={alAbrirMetodologia}>
             Metodología y privacidad
           </button>
-          <a href={URL_REPOSITORIO} rel="noopener noreferrer" target="_blank">
-            Código fuente
+          <a href={URL_KOFI} rel="noopener noreferrer" target="_blank">
+            Apoyar el proyecto
           </a>
           <button type="button" onClick={alBorrarDatos}>
             Borrar mis datos guardados

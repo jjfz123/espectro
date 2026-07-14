@@ -214,7 +214,7 @@ export function nombrePerfil(perfil: PerfilAfinidad): string {
 
 export const nombrePartido = nombrePerfil;
 
-export const URL_REPOSITORIO = 'https://github.com/jjfz123/espectro';
+export const URL_KOFI = 'https://ko-fi.com/jjfz123';
 
 /* ————— Formato ————— */
 

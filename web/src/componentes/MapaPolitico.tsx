@@ -1480,7 +1480,7 @@ export function MapaPolitico({
             <div className="mapa-cumulo__hueco">
               <p>
                 En este hueco la corriente de fondo es{' '}
-                <strong>{corrienteHuecoBrujula.nombre}</strong>: los puntos la tapan, ábrela aquí.
+                <strong>{corrienteHuecoBrujula.nombre}</strong>. Ábrela directamente aquí.
               </p>
               <div>
                 <button

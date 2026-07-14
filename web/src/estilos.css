@@ -3720,35 +3720,6 @@ h3 {
   text-transform: none;
 }
 
-/* ————— Espacio patrocinado (autoservido, estático) ————— */
-
-.espacio-patrocinado {
-  border-top: 1px solid var(--filete);
-  border-bottom: 1px solid var(--filete);
-  margin-top: 2.75rem;
-  padding: 0.9rem 0 1rem;
-  max-width: 68ch;
-  font-size: 0.85rem;
-  color: var(--tinta-suave);
-}
-
-.espacio-patrocinado__titulo {
-  margin-top: 0.35rem;
-  font-family: var(--serif);
-  font-size: 1.05rem;
-  font-weight: 700;
-  color: var(--tinta);
-}
-
-.espacio-patrocinado__texto {
-  margin-block: 0.3rem 0.4rem;
-}
-
-.espacio-patrocinado__nota {
-  margin-top: 0.55rem;
-  font-size: 0.72rem;
-}
-
 /* ————— Resultados: detalle por partido ————— */
 
 .detalle-partido {

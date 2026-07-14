@@ -1,4 +1,3 @@
-import { URL_REPOSITORIO } from '../datos';
 
 interface Props {
   alVolver: () => void;
@@ -13,9 +12,8 @@ export function Metodologia({ alVolver, alBorrarDatos }: Props) {
         Metodología y privacidad
       </h1>
       <p className="entradilla" style={{ fontSize: '1.05rem' }}>
-        Resumen de las decisiones metodológicas y de protección de datos del proyecto. La
-        versión completa, con sus justificaciones y referencias, está en el repositorio
-        público.
+        Resumen de las decisiones metodológicas y de protección de datos del proyecto. Cada
+        afirmación se apoya en las fuentes citadas junto a los propios datos de cada posición.
       </p>
 
       <section className="seccion prosa">
@@ -113,7 +111,7 @@ export function Metodologia({ alVolver, alBorrarDatos }: Props) {
             <strong>Los ejes son constructos normativos.</strong> Qué ejes existen, dónde
             están sus polos y cuánto carga cada pregunta son decisiones editoriales
             argumentadas y públicas, no hechos de la naturaleza: otro equipo podría trazar el
-            mapa de otra manera. Por eso cada carga es auditable en el repositorio.
+            mapa de otra manera. Por eso cada carga se declara y se puede discutir una a una.
           </li>
           <li>
             <strong>Parte de los datos son autodeclarados.</strong> Programas, estatutos y
@@ -163,14 +161,15 @@ export function Metodologia({ alVolver, alBorrarDatos }: Props) {
             Todo el cálculo ocurre en tu navegador. La página descarga datos públicos (ítems
             y posiciones de partidos); tus respuestas nunca salen de tu dispositivo.
           </li>
-          <li>Sin cuentas, sin cookies de terceros, sin analítica ni rastreadores.</li>
+          <li>Sin cuentas, sin cookies de terceros, sin analítica, sin rastreadores y sin publicidad.</li>
           <li>
             El progreso se guarda solo en el almacenamiento local de tu navegador, con
             botón de borrado siempre visible.
           </li>
           <li>
-            El código es libre (AGPL-3.0): cualquier despliegue derivado está obligado a
-            publicar el suyo, lo que hace auditable que nadie añada perfilado en silencio.
+            Todo lo que calcula tu resultado se descarga y se ejecuta en tu propio navegador,
+            así que puedes inspeccionarlo en tu dispositivo y comprobar que no hay perfilado
+            ni envíos ocultos.
           </li>
         </ul>
         <p>
@@ -184,12 +183,10 @@ export function Metodologia({ alVolver, alBorrarDatos }: Props) {
         <h2>Transparencia</h2>
         <p>
           Publicar el algoritmo, los datos y sus fuentes es parte del estándar del campo
-          (Declaración de Lausana sobre VAAs). El motor de cálculo, el banco de ítems, las
-          posiciones con sus citas y estos documentos completos están en{' '}
-          <a href={URL_REPOSITORIO} rel="noopener noreferrer" target="_blank">
-            el repositorio del proyecto
-          </a>
-          , en particular <code>docs/METODOLOGIA.md</code> y <code>docs/PRIVACIDAD.md</code>.
+          (Declaración de Lausana sobre VAAs). Aquí ese estándar se cumple llevándolo al
+          navegador: el motor de cálculo, el banco de ítems y las posiciones con sus citas
+          viajan con la página y se ejecutan a la vista, sin ningún servidor que reciba tus
+          respuestas.
         </p>
       </section>
 

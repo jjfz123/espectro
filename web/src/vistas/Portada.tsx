@@ -1,6 +1,5 @@
 import { useState } from 'react';
 import type { TipoEleccion } from '@engine';
-import { EspacioPatrocinado } from '../componentes/EspacioPatrocinado';
 import {
   COMUNIDADES,
   FECHA_CORTE_DATOS,
@@ -10,6 +9,7 @@ import {
   ITEMS_NUCLEO,
   MODULOS,
   PERFILES_REALES,
+  URL_KOFI,
   secuenciaItems,
 } from '../datos';
 import type { Accion, Estado, Modo, MotivoRetirada } from '../estado';
@@ -63,8 +63,8 @@ export function Portada({ estado, despachar, alAbrirMetodologia, alAbrirEnciclop
         <p className="entradilla">
           Los tests de afinidad existentes cubren unos diez partidos y dos ejes. Espectro
           está diseñado para el espectro completo: capta los matices que separan a partidos
-          y corrientes que suelen meterse en el mismo saco —dentro de la izquierda, del
-          centro y de la derecha—, incluye a las formaciones pequeñas y territoriales, y
+          y corrientes que suelen meterse en el mismo saco, ya sea en la izquierda, en el
+          centro o en la derecha, incluye a las formaciones pequeñas y territoriales, y
           trata la dimensión territorial como lo que es: la que explica el sistema de
           partidos español.
         </p>
@@ -86,6 +86,36 @@ export function Portada({ estado, despachar, alAbrirMetodologia, alAbrirEnciclop
             <span>perfiles reales en revisión</span>
           </div>
         </div>
+      </section>
+
+      <section className="seccion privacidad-bloque">
+        <h2>Sin anuncios y sin rastreo</h2>
+        <p>
+          Esta página no lleva publicidad de ningún tipo, y no es por descuido. Tu posición
+          política, y sobre todo el poder que la acompaña, es un dato demasiado goloso para
+          cualquier tercero; la mejor forma de protegerlo es no ponerlo nunca en circulación.
+          Aquí no se te rastrea, no se te perfila y no se vende nada sobre ti.
+        </p>
+        <p>
+          Hoy la privacidad se ha vuelto casi un lujo. Saber con calma dónde estás en el mapa,
+          y quién concentra el poder, es una de las pocas ventajas que te quedan: para decidir
+          tu voto con la cabeza si eliges votar, o simplemente para mirar más allá del velo que
+          ofrecen los partidos y sus voceros.
+        </p>
+        <p>
+          Si el proyecto te resulta útil y quieres que siga en pie, puedes apoyarlo con una
+          donación. Se agradece, pero nunca hace falta para usarlo entero.
+        </p>
+        <p>
+          <a
+            className="boton boton--secundario"
+            href={URL_KOFI}
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            Apoyar el proyecto en Ko-fi
+          </a>
+        </p>
       </section>
 
       {sesionRetirada ? (
@@ -134,15 +164,16 @@ export function Portada({ estado, despachar, alAbrirMetodologia, alAbrirEnciclop
         <h2>Por qué existe</h2>
         <p>
           Un cuestionario plano de treinta preguntas puede ordenar a los grandes partidos,
-          pero un estalinista y una luxemburguista responden idéntico a todas ellas: lo que
-          los separa no está en ese cuestionario. Espectro parte de otra premisa: las
-          preguntas crecen con las <em>distinciones</em>, no con el número de partidos.
+          pero dos personas de una misma familia política pueden responder idéntico a todas
+          ellas y aun así militar en corrientes distintas: lo que las separa no está en ese
+          cuestionario. Espectro parte de otra premisa: las preguntas crecen con las{' '}
+          <em>distinciones</em>, no con el número de partidos.
         </p>
         <p>
           Por eso el banco se organiza en módulos. Un núcleo común posiciona a cualquiera en
-          los ejes principales, y los módulos de profundización —corrientes de la izquierda
+          los ejes principales, y los módulos de profundización (corrientes de la izquierda
           y de la derecha, centro y liberalismo, nacionalismos, ecologismo, feminismos, tu
-          comunidad autónoma— hacen las preguntas que de verdad separan corrientes vecinas.
+          comunidad autónoma) hacen las preguntas que de verdad separan corrientes vecinas.
           Cada posición de partido lleva su justificación y su cita de fuente; cuando no hay
           datos suficientes, el resultado lo dice en lugar de disimularlo.
         </p>
@@ -157,7 +188,7 @@ export function Portada({ estado, despachar, alAbrirMetodologia, alAbrirEnciclop
         <p className="nota-al-margen nota-marco" style={{ maxWidth: '62ch' }}>
           <strong>Sobre qué respondes.</strong> Salvo que una pregunta indique otra cosa, responde
           pensando en el sistema vigente (el aquí y ahora). Cuando una afirmación solo tiene sentido
-          desde un orden concreto —el actual o el que tú defiendes— la propia pregunta lo avisa con
+          desde un orden concreto, el actual o el que tú defiendes, la propia pregunta lo avisa con
           una etiqueta de contexto, y algunas preguntas de seguimiento aclaran el motivo de tu
           respuesta sin cambiar su intensidad.
         </p>
@@ -247,8 +278,8 @@ export function Portada({ estado, despachar, alAbrirMetodologia, alAbrirEnciclop
         <h2>Enciclopedia ideológica</h2>
         <div className="privacidad-bloque">
           <p>
-            ¿Solo quieres leer? Explora todas las corrientes documentadas del proyecto —del
-            anarquismo al distributismo, con sus variantes datadas y sus fuentes— sin hacer el
+            ¿Solo quieres leer? Explora todas las corrientes documentadas del proyecto, del
+            anarquismo al distributismo, con sus variantes datadas y sus fuentes, sin hacer el
             test y sin que nada se guarde. Son tipos ideales descriptivos: nunca etiquetas
             sobre personas.
           </p>
@@ -271,7 +302,8 @@ export function Portada({ estado, despachar, alAbrirMetodologia, alAbrirEnciclop
             Las opiniones políticas son datos especialmente protegidos (art. 9 RGPD y art.
             9.1 LOPDGDD). Por eso Espectro no tiene servidor de cálculo: los ítems y las
             posiciones de los partidos se descargan con la página, y la afinidad se calcula
-            íntegramente en tu dispositivo. Sin cuentas, sin rastreadores, sin analítica.
+            íntegramente en tu dispositivo. Sin cuentas, sin rastreadores, sin analítica y sin
+            publicidad.
           </p>
           <p>
             El progreso se guarda en el almacenamiento local de tu navegador y puedes
@@ -285,8 +317,6 @@ export function Portada({ estado, despachar, alAbrirMetodologia, alAbrirEnciclop
           </p>
         </div>
       </section>
-
-      <EspacioPatrocinado />
     </div>
   );
 }
