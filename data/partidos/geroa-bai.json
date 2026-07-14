@@ -381,6 +381,18 @@
         "consultado": "2026-07-13"
       },
       "grupoEvidencia": "pasaje-f544621f84809758e686"
+    },
+    "lab-017": {
+      "valor": -1,
+      "justificacion": "Su modelo progresista y de economía mixta mantiene mercado y empresa privada, pero los subordina a planificación y servicios públicos; desacuerdo moderado.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa de Geroa Bai al Parlamento de Navarra 2023",
+        "url": "https://geroabai.eus/files/2023/05/programa-parlamento-completo-pag-2023.pdf",
+        "fecha": "2023-05-03",
+        "consultado": "2026-07-11"
+      }
     }
   }
 }

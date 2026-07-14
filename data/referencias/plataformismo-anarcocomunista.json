@@ -311,18 +311,6 @@
         "consultado": "2026-07-11"
       }
     },
-    "lab-017": {
-      "valor": 2,
-      "justificacion": "Industria y tierra pasan a propiedad común y gestión de consejos, comités y cooperativas de trabajadores, no a ministerios estatales.",
-      "calidadEvidencia": "alta",
-      "fuente": {
-        "tipo": "otro",
-        "titulo": "Organizational Platform, Constructive Section, Production and Land (en inglés)",
-        "url": "https://www.marxists.org/reference/archive/makhno-nestor/works/1926/platform/ch03.htm",
-        "fecha": "1926-06-20",
-        "consultado": "2026-07-11"
-      }
-    },
     "izq-016": {
       "valor": 2,
       "justificacion": "La primera tarea revolucionaria incluye expropiar a burguesía y sectores privilegiados de sus medios de poder y producción, sin reconocerles compensación.",
@@ -441,6 +429,18 @@
         "tipo": "otro",
         "titulo": "Organizational Platform, General Section, apartados 5 y 6 (en inglés)",
         "url": "https://www.marxists.org/reference/archive/makhno-nestor/works/1926/platform/ch02.htm",
+        "fecha": "1926-06-20",
+        "consultado": "2026-07-11"
+      }
+    },
+    "lab-039": {
+      "valor": 2,
+      "justificacion": "Industria y tierra pasan a propiedad común y gestión de consejos, comités y cooperativas de trabajadores, no a ministerios estatales.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Organizational Platform, Constructive Section, Production and Land (en inglés)",
+        "url": "https://www.marxists.org/reference/archive/makhno-nestor/works/1926/platform/ch03.htm",
         "fecha": "1926-06-20",
         "consultado": "2026-07-11"
       }

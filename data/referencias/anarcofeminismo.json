@@ -67,20 +67,6 @@
       },
       "grupoEvidencia": "pasaje-6e0ec3cc08fa0f3ee73d"
     },
-    "lab-017": {
-      "valor": 1,
-      "justificacion": "Prefiere la agrupación libre de quienes producen a la dirección ministerial, en la dirección cooperativa del ítem; +1 y no +2 porque el tipo ideal es comunista-libertario, no cooperativista-propietario. Pasaje distinto de la misma obra citada para lab-010, con eje económico compartido: se declara en ambas posiciones.",
-      "calidadEvidencia": "media",
-      "fuente": {
-        "tipo": "otro",
-        "titulo": "Emma Goldman, Anarquismo: lo que significa realmente (trad. esp., marxists.org/espanol)",
-        "url": "https://www.marxists.org/espanol/goldman/1910/002.htm",
-        "fecha": "1910",
-        "consultado": "2026-07-11",
-        "cita": "El anarquismo representa un orden social basado en la agrupación libre de los individuos, con el propósito de producir verdadera riqueza social"
-      },
-      "grupoEvidencia": "pasaje-b40a02b8be324569d5b6"
-    },
     "lab-011": {
       "valor": 1,
       "justificacion": "La objeción anarcofeminista es quién posee y manda —la esclavitud como productora—, no el gravamen del salario; +1 porque el pasaje no discute impuestos. El mismo pasaje de Nash refuerza izq-014 únicamente en su justificación y en eje distinto: la posición social cita a Goldman 1906.",
@@ -150,6 +136,20 @@
         "cita": "Si la maternidad es la realización más completa de la naturaleza femenina, ¿qué otra protección necesita si no es amor y libertad?"
       },
       "grupoEvidencia": "pasaje-2d194e4d022321b52fbc"
+    },
+    "lab-039": {
+      "valor": 1,
+      "justificacion": "Prefiere la agrupación libre de quienes producen a la dirección ministerial, en la dirección cooperativa del ítem; +1 y no +2 porque el tipo ideal es comunista-libertario, no cooperativista-propietario. Pasaje distinto de la misma obra citada para lab-010, con eje económico compartido: se declara en ambas posiciones.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Emma Goldman, Anarquismo: lo que significa realmente (trad. esp., marxists.org/espanol)",
+        "url": "https://www.marxists.org/espanol/goldman/1910/002.htm",
+        "fecha": "1910",
+        "consultado": "2026-07-11",
+        "cita": "El anarquismo representa un orden social basado en la agrupación libre de los individuos, con el propósito de producir verdadera riqueza social"
+      },
+      "grupoEvidencia": "pasaje-b40a02b8be324569d5b6"
     }
   }
 }

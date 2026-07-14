@@ -393,6 +393,20 @@
         "consultado": "2026-07-13"
       },
       "grupoEvidencia": "pasaje-868edb5ed156c1fdd0df"
+    },
+    "lab-017": {
+      "valor": -1,
+      "justificacion": "Su programa prioriza provisión pública y regulación económica intensa, manteniendo empresas privadas; se codifica como inclinación contra la primacía privada, no como abolición.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Mónica García: «No tengo ninguna disputa con la sanidad privada, pero sí con la privatización de la sanidad» (Público)",
+        "url": "https://www.publico.es/politica/monica-garcia-no-disputa-sanidad-privada-privatizacion-sanidad.html",
+        "fecha": "2024-07-28",
+        "consultado": "2026-07-10",
+        "cita": "No tengo ninguna disputa con la sanidad privada, pero sí con la privatización de la sanidad"
+      },
+      "grupoEvidencia": "pasaje-a4d24117a932775779a8"
     }
   }
 }

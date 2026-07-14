@@ -1233,36 +1233,25 @@
   },
   {
     "id": "lab-017",
-    "texto": "Las grandes empresas privadas deberían transferirse a cooperativas gestionadas por sus trabajadores, no a ministerios estatales.",
+    "texto": "La propiedad privada debería seguir siendo la forma principal de propiedad de las grandes empresas.",
     "modulo": "nucleo",
     "ejes": [
       {
-        "eje": "economico",
-        "carga": -1
-      },
-      {
         "eje": "propiedad-mercado",
-        "carga": -1
-      },
-      {
-        "eje": "poder-laboral",
         "carga": 1
       },
       {
-        "eje": "estatismo",
-        "carga": -1
+        "eje": "economico",
+        "carga": 0.6
       }
     ],
     "polaridad": "positiva",
     "tags": [
-      "cooperativas",
-      "autogestion",
-      "propiedad"
+      "propiedad-privada",
+      "grandes-empresas",
+      "titularidad"
     ],
     "estado": "piloto",
-    "notas": "Separa socialización autogestionaria de nacionalización estatal y de propiedad capitalista.",
-    "terminos": [
-      "autogestion"
-    ]
+    "notas": "Ítem directo y monotónico de titularidad (v6): separa propiedad privada de propiedad social, pública o cooperativa sin mezclar quién gestiona la empresa. Sustituye en el núcleo a la formulación cooperativa anterior, que pasa a lab-039 como discriminante exhaustivo."
   }
 ]

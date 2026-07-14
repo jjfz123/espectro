@@ -393,6 +393,20 @@
         "consultado": "2026-07-12",
         "cita": "Alvise Pérez: de paladín contra la corrupción a investigado por financiación ilegal"
       }
+    },
+    "lab-017": {
+      "valor": 1,
+      "justificacion": "Su plataforma defiende reducción de impuestos y menor intervención económica, una orientación compatible con la primacía privada; se mantiene en apoyo moderado por la escasa doctrina empresarial publicada.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Contrato Electoral SALF Castilla y León 2026 (PDF alojado por The Objective)",
+        "url": "https://theobjective.com/wp-content/uploads/2026/03/Programa-electoral-CyL-de-Alvise-Pe%CC%81rez.pdf",
+        "fecha": "2026-03",
+        "consultado": "2026-07-10",
+        "cita": "la mayor revolución fiscal en la historia autonómica: el dinero donde mejor está es en el bolsillo de quienes lo ganan honradamente, no en manos de políticos despilfarradores"
+      },
+      "grupoEvidencia": "pasaje-cf865871187b08fe6e00"
     }
   }
 }

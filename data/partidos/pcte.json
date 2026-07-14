@@ -471,6 +471,18 @@
         "cita": "¡NO A LA GUERRA IMPERIALISTA!"
       },
       "grupoEvidencia": "pasaje-02c517432588f88c5d3d"
+    },
+    "lab-017": {
+      "valor": -2,
+      "justificacion": "Su programa de lucha promueve propiedad social y planificación de los sectores estratégicos; rechazo claro de la primacía privada.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa de lucha 2023-2027",
+        "url": "https://www.pcte.es/wp-content/uploads/2023/07/PROGRAMA%20DE%20LUCHA%202023-2027.pdf",
+        "fecha": "2023-07",
+        "consultado": "2026-07-09"
+      }
     }
   }
 }

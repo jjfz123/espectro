@@ -18,12 +18,12 @@ Los tests españoles actuales (afinidadpolitica.es y similares) cubren ~10 parti
 espectro/
 ├── data/                    Capa de datos (JSON validado por esquema)
 │   ├── ejes.json            29 ejes y facetas principales, transversales y de profundización
-│   ├── modulos.json         19 módulos y sus reglas de desbloqueo (umbral, banda, CCAA, manual)
-│   ├── items/               Banco versionado (374 registros; 360 vigentes y 14 retirados)
-│   ├── partidos/            67 perfiles, con justificación y cita por posición
+│   ├── modulos.json         20 módulos y sus reglas de desbloqueo (umbral, banda, CCAA, manual)
+│   ├── items/               Banco versionado (415 registros; 401 vigentes y 14 retirados)
+│   ├── partidos/            68 perfiles (65 activos), con justificación y cita por posición
 │   ├── sindicatos/          14 perfiles separados del ranking electoral
-│   ├── referencias/         46 referencias doctrinales no electorales
-│   ├── mapa-ideologias.json Contrato del atlas visual: 78 corrientes A/B
+│   ├── referencias/         85 referencias doctrinales no electorales
+│   ├── mapa-ideologias.json Contrato del atlas visual: 120 regiones publicadas
 │   ├── convocatorias/       21 convocatorias y 323 candidaturas incluidas
 │   └── schemas/             JSON Schema de cada entidad
 ├── src/engine/              Motor puro TypeScript, sin dependencias ni E/S
@@ -58,11 +58,15 @@ ideológica general.
 **Mapa personal antes que partidos.** La posición del usuario se calcula aunque ningún partido la represente. Primero se muestran dimensiones y facetas con cobertura; después, por separado, similitud sindical y afinidad electoral. Los ítems *solo-matching* (`ejes: []`) separan organizaciones sin forzar una carga lineal; los ítems `solo-mapa` describen arquetipos doctrinales pero están vetados para recomendar organizaciones reales.
 
 La primera brújula combina un campo degradado **Propiedad y mercado × Poder político** con un atlas
-editorial continuo de 78 corrientes. Los nombres permanecen ocultos hasta pasar, enfocar o tocar
-una zona; cada corriente abre una ficha en español con definición, encaje, discriminantes, límites
-y fuentes cuando existe una referencia instrumentada. Los puntos de partido se identifican del
-mismo modo para conservar legibilidad en móvil. En rápido e intermedio se muestran 28 corrientes
-principales; las 50 de nicho exigen activar profundidad y el perfil exhaustivo abre las 78.
+editorial continuo de **120 regiones doctrinales publicadas**. Los nombres permanecen ocultos hasta
+pasar, enfocar, buscar o tocar una zona; cada corriente abre una ficha en español con definición,
+encaje, discriminantes, límites y fuentes cuando existe una referencia instrumentada. El atlas
+completo es el único modo: no se empobrece al usuario rápido ni se esconde una segunda capa.
+
+Los **65 partidos activos aparecen siempre como puntos y en el selector**. Su grado documental cambia
+el trazo y el margen de incertidumbre, nunca su presencia; ningún partido real se fuerza a ±100 ni se
+centra por falta de datos. La enciclopedia separa estas organizaciones reales de las ideologías y
+muestra para cada partido coordenada, cobertura estricta, fuentes y clasificaciones atribuidas.
 
 Ambas coordenadas del usuario se calculan desde preguntas directas. El horizontal separa
 propiedad social/pública/cooperativa de propiedad privada y coordinación por mercados, sin usar
@@ -103,9 +107,9 @@ El test más importante está en `tests/engine.test.ts` («tesis del proyecto»)
 - [x] Motor de matching + ejes + módulos, testado y tipado (incl. desbloqueo por banda y multi-CCAA)
 - [x] Modelo de datos con esquemas, citación por posición y niveles de confianza
 - [x] Banco semilla (33 ítems, 4 módulos) y partidos demo
-- [x] Banco ampliado: **374 registros, 19 módulos, 29 ejes/facetas**, con hipótesis de discriminación obligatoria y revisión adversarial ([docs/BANCO-ITEMS.md](docs/BANCO-ITEMS.md))
+- [x] Banco ampliado: **415 registros, 20 módulos, 29 ejes/facetas**, con hipótesis de discriminación obligatoria y revisión adversarial ([docs/BANCO-ITEMS.md](docs/BANCO-ITEMS.md))
 - [x] Frontend client-side: modo rápido y exhaustivo, itinerario condicional, revisión editable, resultados sin falsos ceros y persistencia defensiva
-- [x] Catálogo documentado: **67 partidos, 46 referencias doctrinales, 21 convocatorias con 323 candidaturas, 14 sindicatos y atlas de 78 corrientes**
+- [x] Catálogo documentado: **68 perfiles de partido (65 activos), 85 referencias doctrinales, 21 convocatorias con 323 candidaturas, 14 sindicatos y 120 regiones publicadas en el atlas**
 - [x] PWA con manifest, precache generado en build, actualización consentida y recuperación local ante errores
 - [ ] **Fase 1:** selección del núcleo definitivo tras entrevistas/piloto y partidos con representación estatal/autonómica (`verificada`)
 - [ ] **Fase 2:** campaña de autoubicación a partidos (modelo Wahl-O-Mat), partidos sin escaño (`estimada`), módulos territoriales de las 17 CCAA + Ceuta y Melilla, integración de votaciones del Congreso como fuente

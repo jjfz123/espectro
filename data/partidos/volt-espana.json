@@ -320,6 +320,22 @@
         "fecha": "2023",
         "consultado": "2026-07-11"
       }
+    },
+    "lab-017": {
+      "valor": 0,
+      "justificacion": "Combina mercado interior, empresa privada, servicios públicos y fiscalidad europea sobre grandes patrimonios; posición explícitamente mixta.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa electoral de Volt España 2023, p. 36",
+        "url": "https://voltespana.org/storage/pdf/programaelectoralespana2023/programaelectoral2023.pdf",
+        "fecha": "2023",
+        "consultado": "2026-07-11"
+      },
+      "resolucionCero": {
+        "tipo": "modelo-mixto",
+        "explicacion": "La fuente acredita una combinación estable de propiedad privada, regulación y provisión o control públicos, no ausencia de posición."
+      }
     }
   }
 }

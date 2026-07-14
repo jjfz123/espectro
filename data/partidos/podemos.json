@@ -49,20 +49,6 @@
       },
       "grupoEvidencia": "pasaje-76c72246a8bd0cb01433"
     },
-    "lab-017": {
-      "valor": -1,
-      "justificacion": "Para las grandes empresas de los sectores estratégicos Podemos prioriza la propiedad pública estatal (nacionalizar la energía, banca pública, empresas públicas de farmacia y telecomunicaciones), no su transferencia a cooperativas de trabajadores; reserva el cooperativismo para la economía social de menor escala. Discrepa de la disyuntiva del ítem, aunque no de forma frontal, de ahí -1.",
-      "calidadEvidencia": "media",
-      "fuente": {
-        "tipo": "programa",
-        "titulo": "Iglesias: «Se ha mentido a este país diciendo que eficiencia y privatización iban de la mano» (Podemos)",
-        "url": "https://podemos.info/en/podemos-propone-crear-empresa-publica-energia-bajar-factura-luz-garantizar-transicion-energetica/",
-        "fecha": "2021",
-        "consultado": "2026-07-12",
-        "cita": "Iglesias: Se ha mentido a este país diciendo que eficiencia y privatización iban de la mano"
-      },
-      "grupoEvidencia": "pasaje-1c54984ef06b86120052"
-    },
     "ene-005": {
       "valor": -2,
       "justificacion": "Podemos rechaza que la electricidad se genere y comercialice sobre todo por empresas privadas en competencia: denuncia el oligopolio eléctrico y propone nacionalizar o crear una gran empresa eléctrica pública que comercialice solo renovables. Se opone frontalmente al modelo privado del ítem.",
@@ -725,6 +711,58 @@
         "url": "https://www.eldiario.es/contrapoder/federalismo-plurinacional_132_4422230.html",
         "fecha": "2019",
         "consultado": "2026-07-10"
+      }
+    },
+    "lab-039": {
+      "valor": -1,
+      "justificacion": "Para las grandes empresas de los sectores estratégicos Podemos prioriza la propiedad pública estatal (nacionalizar la energía, banca pública, empresas públicas de farmacia y telecomunicaciones), no su transferencia a cooperativas de trabajadores; reserva el cooperativismo para la economía social de menor escala. Discrepa de la disyuntiva del ítem, aunque no de forma frontal, de ahí -1.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Iglesias: «Se ha mentido a este país diciendo que eficiencia y privatización iban de la mano» (Podemos)",
+        "url": "https://podemos.info/en/podemos-propone-crear-empresa-publica-energia-bajar-factura-luz-garantizar-transicion-energetica/",
+        "fecha": "2021",
+        "consultado": "2026-07-12",
+        "cita": "Iglesias: Se ha mentido a este país diciendo que eficiencia y privatización iban de la mano"
+      },
+      "grupoEvidencia": "pasaje-1c54984ef06b86120052"
+    },
+    "lab-017": {
+      "valor": -2,
+      "justificacion": "Propone empresas públicas y control público de sectores estratégicos, cuestionando de forma explícita la primacía de la gran propiedad privada.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Podemos quiere empresas públicas de banca, energía, farmacia y telecomunicaciones para 2030 (Servimedia)",
+        "url": "https://www.servimedia.es/noticias/1925892",
+        "fecha": "2021",
+        "consultado": "2026-07-12",
+        "cita": "Podemos quiere empresas públicas de banca, energía, farmacia y telecomunicaciones para 2030"
+      },
+      "grupoEvidencia": "pasaje-76c72246a8bd0cb01433"
+    },
+    "pop-002": {
+      "valor": 2,
+      "justificacion": "Su discurso programático describe una concentración mediática vinculada a grandes intereses económicos y reclama democratizar la propiedad y el acceso a la información.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa de Podemos para las elecciones europeas de 2024",
+        "url": "https://podemos.info/wp-content/uploads/2024/05/Programa-PODEMOS-elecciones-europeas-2024.pdf",
+        "fecha": "2024-05",
+        "consultado": "2026-07-09"
+      }
+    },
+    "geo-002": {
+      "valor": -1,
+      "justificacion": "Prioriza mediación, desmilitarización y protección civil no armada; aceptaría el marco multilateral, pero mantiene una presunción fuerte contra la intervención militar.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa de Podemos para las elecciones europeas de 2024",
+        "url": "https://podemos.info/wp-content/uploads/2024/05/Programa-PODEMOS-elecciones-europeas-2024.pdf",
+        "fecha": "2024-05",
+        "consultado": "2026-07-09"
       }
     }
   }

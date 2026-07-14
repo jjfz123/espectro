@@ -145,7 +145,8 @@
         "tipo": "declaracion",
         "titulo": "Sumar Aragón defiende una fiscalidad justa y progresiva que sustente un modelo de protección social basado en la garantía de derechos y servicios públicos",
         "url": "https://www.chunta.org/sumar-aragon-defiende-una-fiscalidad-justa-y-progresiva-que-sustente-un-modelo-de-proteccion-social-basado-en-la-garantia-de-derechos-y-servicios-publicos/",
-        "consultado": "2026-07-10"
+        "consultado": "2026-07-10",
+        "fecha": "2023"
       }
     },
     "fem-011": {
@@ -171,6 +172,18 @@
         "cita": "CHA reafirma su compromiso con los derechos, la dignidad y la libertad de las personas LGTBI+"
       },
       "grupoEvidencia": "pasaje-027f5a801f2676f9cb81"
+    },
+    "lab-017": {
+      "valor": -1,
+      "justificacion": "Su orientación de izquierda, fiscalidad progresiva y defensa de servicios públicos no convierte la gran propiedad privada en el principio rector; la evidencia disponible aconseja un desacuerdo moderado.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Sumar Aragón defiende una fiscalidad justa y progresiva que sustente un modelo de protección social basado en la garantía de derechos y servicios públicos",
+        "url": "https://www.chunta.org/sumar-aragon-defiende-una-fiscalidad-justa-y-progresiva-que-sustente-un-modelo-de-proteccion-social-basado-en-la-garantia-de-derechos-y-servicios-publicos/",
+        "consultado": "2026-07-10",
+        "fecha": "2023"
+      }
     }
   }
 }

@@ -110,7 +110,7 @@ function crearSesionEnHitoIntermedio() {
 
   return {
     version: 3,
-    versionInstrumento: '5',
+    versionInstrumento: '6',
     fase: 'hito-intermedio',
     ccaa: '',
     eleccion: 'generales',
@@ -154,7 +154,7 @@ function crearSesionResultadosRapidos(valor: -2 | -1 | 0 | 1 | 2 = 0) {
 
   return {
     version: 3,
-    versionInstrumento: '5',
+    versionInstrumento: '6',
     guardadoEn: new Date().toISOString(),
     fase: 'resultados',
     ccaa: '',
@@ -347,12 +347,8 @@ test('rápido → perfil provisional → exhaustivo conserva las 65 respuestas',
   ).toBeVisible();
 });
 
-test('una sesión del instrumento v4 migra a v5 conservando sus respuestas', async ({ page }) => {
-  /* v4→v5 amplía el núcleo de 50 a 65 sin tocar ids, textos ni cargas: la
-     sesión antigua debe restaurarse (no retirarse como «instrumento») y sus
-     respuestas conservan el resultado; solo aparecen preguntas nuevas
-     pendientes si sigue el recorrido. */
-  const sesion = { ...crearSesionResultadosRapidos(1), versionInstrumento: '4' };
+test('una sesión v5 reabre la nueva pregunta 65 sin reinterpretar la respuesta antigua', async ({ page }) => {
+  const sesion = { ...crearSesionResultadosRapidos(1), versionInstrumento: '5' };
   await page.setViewportSize({ width: 390, height: 844 });
   await page.addInitScript(
     ({ clave, estado }) => localStorage.setItem(clave, JSON.stringify(estado)),
@@ -360,10 +356,22 @@ test('una sesión del instrumento v4 migra a v5 conservando sus respuestas', asy
   );
   await page.goto('/');
   await expect(
-    page.getByRole('heading', { name: 'Tu posición provisional y tus afinidades' }),
+    page.getByRole('heading', {
+      name: 'La propiedad privada debería seguir siendo la forma principal de propiedad de las grandes empresas.',
+    }),
   ).toBeVisible();
-  await expect(page.locator('.lectura-rapida')).toContainText('Cómo leer esta página');
-  await expect(page.getByText(/Venía de una versión anterior del cuestionario/)).toHaveCount(0);
+  await expect.poll(async () =>
+    page.evaluate((clave) => JSON.parse(localStorage.getItem(clave) ?? '{}'), CLAVE_ALMACEN),
+  ).toMatchObject({
+    versionInstrumento: '6',
+    fase: 'cuestionario',
+    respuestas: { 'lab-039': 1 },
+  });
+  const guardado = await page.evaluate(
+    (clave) => JSON.parse(localStorage.getItem(clave) ?? '{}'),
+    CLAVE_ALMACEN,
+  );
+  expect(guardado.respuestas['lab-017']).toBeUndefined();
 });
 
 test('resultados: un único ranking por afinidad, sin bloque de mayoritarios (orden del propietario)', async ({ page }) => {
@@ -791,7 +799,7 @@ test('las ramas condicionales aparecen y sus respuestas se limpian al cambiar el
       clave,
       JSON.stringify({
         version: 3,
-        versionInstrumento: '5',
+        versionInstrumento: '6',
         guardadoEn: new Date().toISOString(),
         fase: 'revision',
         ccaa: '',
@@ -877,7 +885,7 @@ test('autonómicas sin comunidad no mezclan partidos de territorios distintos', 
       clave,
       JSON.stringify({
         version: 3,
-        versionInstrumento: '5',
+        versionInstrumento: '6',
         guardadoEn: new Date().toISOString(),
         fase: 'resultados',
         ccaa: '',
@@ -915,7 +923,7 @@ test('un partido monotemático aparece sin porcentaje de afinidad general', asyn
       clave,
       JSON.stringify({
         version: 3,
-        versionInstrumento: '5',
+        versionInstrumento: '6',
         guardadoEn: new Date().toISOString(),
         fase: 'resultados',
         ccaa: '',
@@ -960,7 +968,7 @@ test('una referencia violenta se contextualiza sin porcentaje ni identidad perso
       clave,
       JSON.stringify({
         version: 3,
-        versionInstrumento: '5',
+        versionInstrumento: '6',
         guardadoEn: new Date().toISOString(),
         fase: 'resultados',
         ccaa: '',
@@ -1007,7 +1015,7 @@ test('reintentar el 3D vuelve a solicitar el chunk después de un fallo', async 
       clave,
       JSON.stringify({
         version: 3,
-        versionInstrumento: '5',
+        versionInstrumento: '6',
         guardadoEn: new Date().toISOString(),
         fase: 'resultados',
         ccaa: '',
@@ -1067,7 +1075,7 @@ test('el recuento del plano coincide con los puntos realmente dibujados', async 
       clave,
       JSON.stringify({
         version: 3,
-        versionInstrumento: '5',
+        versionInstrumento: '6',
         guardadoEn: new Date().toISOString(),
         fase: 'resultados',
         ccaa: '',
@@ -1103,7 +1111,7 @@ test('la brújula degrada el fondo y revela corrientes solo al enfocar o tocar',
       clave,
       JSON.stringify({
         version: 3,
-        versionInstrumento: '5',
+        versionInstrumento: '6',
         guardadoEn: new Date().toISOString(),
         fase: 'resultados',
         ccaa: '',
@@ -1142,10 +1150,8 @@ test('la brújula degrada el fondo y revela corrientes solo al enfocar o tocar',
     '.mapa-plano--brujula .mapa-punto[data-tipo="partido"]',
   );
   const totalPartidosBrujula = await partidosBrujula.count();
-  expect(totalPartidosBrujula).toBeGreaterThan(0);
-  await expect(page.getByLabel('Localizar un partido').locator('option')).toHaveCount(
-    totalPartidosBrujula + 1,
-  );
+  expect(totalPartidosBrujula).toBe(65);
+  await expect(page.getByLabel('Localizar un partido').locator('option')).toHaveCount(66);
   for (const id of await partidosBrujula.evaluateAll((puntos) =>
     puntos.map((punto) => punto.getAttribute('data-entidad-id')).filter(Boolean),
   )) {
@@ -1421,7 +1427,7 @@ test('la brújula móvil distingue evidencia provisional y resuelve con segurida
         clave,
         JSON.stringify({
           version: 3,
-          versionInstrumento: '5',
+          versionInstrumento: '6',
           guardadoEn: new Date().toISOString(),
           fase: 'resultados',
           ccaa: '',
@@ -1452,17 +1458,18 @@ test('la brújula móvil distingue evidencia provisional y resuelve con segurida
     const partidos = page.locator('.mapa-plano--brujula .mapa-punto[data-tipo="partido"]');
     await expect(partidos.first()).toBeVisible();
     const numeroPartidos = await partidos.count();
-    expect(numeroPartidos).toBeGreaterThanOrEqual(1);
+    expect(numeroPartidos).toBe(65);
 
-    /* Nivel «estimada» (orden de producto: todos los partidos con coordenada
-       calculable a la vista): existe al menos un punto tenue, la nota colectiva
-       lo explica y solo los incomputables quedan fuera. */
     const estimados = page.locator(
       '.mapa-plano--brujula .mapa-punto[data-tipo="partido"][data-evidencia="estimada"]',
     );
+    const orientativos = page.locator(
+      '.mapa-plano--brujula .mapa-punto[data-tipo="partido"][data-evidencia="orientativa"]',
+    );
     expect(await estimados.count()).toBeGreaterThanOrEqual(1);
-    await expect(page.locator('.mapa-evidencia-estimada')).toContainText(
-      'posición estimada',
+    expect(await orientativos.count()).toBeGreaterThanOrEqual(1);
+    await expect(page.locator('.mapa-evidencia-resumen')).toContainText(
+      'Los 65 partidos activos están en el eje',
     );
     for (const ancho of [320, 360, 390]) {
       await page.setViewportSize({ width: ancho, height: 844 });
@@ -1562,7 +1569,7 @@ test('resultados abiertos no introducen violaciones automáticas de accesibilida
       clave,
       JSON.stringify({
         version: 3,
-        versionInstrumento: '5',
+        versionInstrumento: '6',
         guardadoEn: new Date().toISOString(),
         fase: 'resultados',
         ccaa: 'madrid',
@@ -1607,7 +1614,7 @@ test('resultados y visor 3D siguen disponibles sin conexión tras instalar la PW
       clave,
       JSON.stringify({
         version: 3,
-        versionInstrumento: '5',
+        versionInstrumento: '6',
         guardadoEn: new Date().toISOString(),
         fase: 'resultados',
         ccaa: '',
@@ -1653,7 +1660,7 @@ function crearSesionConOfertaPendiente() {
   }
   return {
     version: 3,
-    versionInstrumento: '5',
+    versionInstrumento: '6',
     guardadoEn: new Date().toISOString(),
     fase: 'oferta-modulos',
     ccaa: '',
@@ -1735,22 +1742,33 @@ test('el conmutador de tema alterna sistema→claro→oscuro y persiste tras rec
   expect(clave).toBeNull();
 });
 
-test('la enciclopedia ideológica se explora desde la portada sin hacer el test', async ({
+test('la enciclopedia separa los 65 partidos de las ideologías sin tocar la sesión', async ({
   page,
 }) => {
   await page.goto('/');
   await page.getByRole('button', { name: 'Abrir la enciclopedia ideológica' }).click();
-  await expect(page.getByRole('heading', { name: 'Enciclopedia ideológica' })).toBeVisible();
-  await expect(page.getByText(/corrientes, de la A a la Z/)).toBeVisible();
+  await expect(
+    page.getByRole('heading', { name: 'Enciclopedia de partidos e ideologías' }),
+  ).toBeVisible();
+  await expect(page.getByText(/65 partidos activos, de la A a la Z/)).toBeVisible();
+  await expect(page.locator('.enciclopedia-entrada')).toHaveCount(65);
 
+  const buscadorPartidos = page.getByLabel('Buscar un partido');
+  await buscadorPartidos.fill('PSOE');
+  let entrada = page.locator('.enciclopedia-entrada');
+  await expect(entrada).toHaveCount(1);
+  await entrada.locator('summary').click();
+  await expect(entrada.getByRole('heading', { name: 'Posición en el eje' })).toBeVisible();
+
+  await page.getByRole('tab', { name: 'Ideologías (85)' }).click();
+  await expect(page.getByText(/85 corrientes, de la A a la Z/)).toBeVisible();
   const buscador = page.getByLabel('Buscar una corriente');
   await buscador.fill('posadismo');
-  const entrada = page.locator('.enciclopedia-entrada');
+  entrada = page.locator('.enciclopedia-entrada');
   await expect(entrada).toHaveCount(1);
   await entrada.locator('summary').click();
   await expect(entrada.getByRole('heading', { name: 'Fuentes marco' })).toBeVisible();
 
-  // Explorar no toca la sesión: sin respuestas nuevas y la fase sigue en portada.
   const guardado = await page.evaluate(() => localStorage.getItem('espectro.v1'));
   const sesionGuardada = JSON.parse(guardado ?? '{}');
   expect(Object.keys(sesionGuardada.respuestas ?? {})).toHaveLength(0);
@@ -1767,6 +1785,7 @@ test('la enciclopedia muestra el aviso legal de las corrientes ilegalizadas al a
 }) => {
   await page.goto('/');
   await page.getByRole('button', { name: 'Abrir la enciclopedia ideológica' }).click();
+  await page.getByRole('tab', { name: 'Ideologías (85)' }).click();
   await page.getByLabel('Buscar una corriente').fill('reconstituido');
   const entrada = page.locator('.enciclopedia-entrada');
   await expect(entrada).toHaveCount(1);

@@ -259,6 +259,20 @@
         "fecha": "2019-06",
         "consultado": "2026-07-13"
       }
+    },
+    "lab-017": {
+      "valor": -2,
+      "justificacion": "Defiende nacionalizar sectores como el eléctrico y ampliar la propiedad pública, incompatible con mantener la titularidad privada como forma principal de las grandes empresas.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Nacionalizar las eléctricas es asegurar industria, empleo y soberanía (PCE)",
+        "url": "https://www.pce.es/nacionalizar-el-sector-energetico-para-asegurar-la-industria-el-empleo-y-la-soberania-solucion-para-el-sector-electrointensivo/",
+        "cita": "Nacionalizar las eléctricas es asegurar industria, empleo y soberanía",
+        "fecha": "2019-06-07",
+        "consultado": "2026-07-13"
+      },
+      "grupoEvidencia": "pce-nacionalizar-el-sector-electrico"
     }
   }
 }

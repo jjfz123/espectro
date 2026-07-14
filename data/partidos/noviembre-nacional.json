@@ -346,6 +346,18 @@
         "fecha": "2026-07-07",
         "consultado": "2026-07-12"
       }
+    },
+    "lab-017": {
+      "valor": 1,
+      "justificacion": "Rechaza la expropiación de banca y grandes grupos empresariales, aunque combina esa defensa con dirigismo nacional; apoyo moderado a la titularidad privada.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Iván Rico se quita la máscara para lanzar el partido Noviembre Nacional (El Español, vídeo de presentación del partido)",
+        "url": "https://www.elespanol.com/reportajes/20260707/ivan-rico-administrativo-ultra-hijo-exconcejal-pp-quita-mascara-lanzar-partido-noviembre-nacional/1003744311510_0.html",
+        "fecha": "2026-07-07",
+        "consultado": "2026-07-10"
+      }
     }
   }
 }

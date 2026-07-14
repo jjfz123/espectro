@@ -4,7 +4,9 @@
   "siglas": "N.A.",
   "ambito": "autonomico",
   "tipo": "partido",
-  "ccaa": ["andalucia"],
+  "ccaa": [
+    "andalucia"
+  ],
   "confianza": "verificada",
   "web": "https://nacionandaluza.org/",
   "revisado": "2026-07-09",
@@ -439,6 +441,18 @@
         "url": "https://nacionandaluza.org/wp-content/uploads/2026/04/maquetado-largo-pliegos.pdf",
         "fecha": "2026-04",
         "consultado": "2026-07-10"
+      }
+    },
+    "lab-017": {
+      "valor": -2,
+      "justificacion": "Propone dirección pública de sectores estratégicos y transformación socialista de la propiedad, incompatible con mantener la propiedad privada como forma principal de la gran empresa.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Sembrando Revolución Andaluza: programa para las elecciones andaluzas de 2026",
+        "url": "https://nacionandaluza.org/wp-content/uploads/2026/04/maquetado-largo-pliegos.pdf",
+        "fecha": "2026-04",
+        "consultado": "2026-07-09"
       }
     }
   }

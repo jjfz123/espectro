@@ -305,6 +305,18 @@
         "fecha": "2026",
         "consultado": "2026-07-10"
       }
+    },
+    "lab-017": {
+      "valor": -2,
+      "justificacion": "Su programa prioriza instrumentos públicos, economía social y control democrático de sectores estratégicos; no presenta la gran empresa privada como forma principal deseable.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Este es el programa electoral de Adelante Andalucía en las elecciones autonómicas de este 2026",
+        "url": "https://www.eldebate.com/espana/andalucia/20260512/este-programa-electoral-adelante-andalucia-elecciones-autonomicas-este-2026_413963.html",
+        "fecha": "2026-05-12",
+        "consultado": "2026-07-10"
+      }
     }
   }
 }

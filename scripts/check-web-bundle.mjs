@@ -165,6 +165,9 @@ contratoReferenciasLigeras();
 
 function tamanoDirectorio(ruta) {
   return readdirSync(ruta, { withFileTypes: true }).reduce((total, entrada) => {
+    // `.vite/manifest.json` es metadato del compilador: no lo solicita el
+    // navegador, no entra en el precache y no forma parte de la transferencia PWA.
+    if (ruta === dist && entrada.name === '.vite') return total;
     const hijo = join(ruta, entrada.name);
     return total + (entrada.isDirectory() ? tamanoDirectorio(hijo) : statSync(hijo).size);
   }, 0);

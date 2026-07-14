@@ -26,24 +26,6 @@
       },
       "grupoEvidencia": "pasaje-6f47f3d74d0c74cc8e22"
     },
-    "lab-017": {
-      "valor": 0,
-      "justificacion": "Combina propiedad y planificación públicas con poder obrero, estructuras comunitarias y cooperativas, sin establecer que todas las grandes empresas deban transferirse a cooperativas en vez de a entidades públicas. La alternativa del ítem divide su modelo real.",
-      "resolucionCero": {
-        "tipo": "modelo-mixto",
-        "explicacion": "La misma propuesta enumera y combina propiedad pública, colectiva, comunitaria y cooperativa, por lo que ninguno de los dos polos del ítem describe por sí solo el modelo documentado."
-      },
-      "calidadEvidencia": "media",
-      "fuente": {
-        "tipo": "programa",
-        "titulo": "Ponència final del Procés de Garbí",
-        "url": "https://procesdegarbi.cup.cat/wp-content/uploads/2024/09/PONENCIA-FINAL-AN-CUP.pdf",
-        "fecha": "2024-09",
-        "consultado": "2026-07-11",
-        "cita": "Promoure la transició cap a formes de propietat col·lectives, comunitàries, públiques i cooperatives."
-      },
-      "grupoEvidencia": "pasaje-0b0b0b0e0e9255036ea3"
-    },
     "eco-002": {
       "valor": -2,
       "justificacion": "La ponencia propone un único modelo de titularidad, provisión y gestión pública de los servicios y la desprivatización de estos. Rechaza frontalmente que la gestión privada sanitaria sea la vía para mejorar eficiencia.",
@@ -509,6 +491,38 @@
         "cita": "Què diu el programa electoral de la CUP per a les eleccions catalanes?"
       },
       "grupoEvidencia": "cup-referendum-programa-2024"
+    },
+    "lab-039": {
+      "valor": 0,
+      "justificacion": "Combina propiedad y planificación públicas con poder obrero, estructuras comunitarias y cooperativas, sin establecer que todas las grandes empresas deban transferirse a cooperativas en vez de a entidades públicas. La alternativa del ítem divide su modelo real.",
+      "resolucionCero": {
+        "tipo": "modelo-mixto",
+        "explicacion": "La misma propuesta enumera y combina propiedad pública, colectiva, comunitaria y cooperativa, por lo que ninguno de los dos polos del ítem describe por sí solo el modelo documentado."
+      },
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Ponència final del Procés de Garbí",
+        "url": "https://procesdegarbi.cup.cat/wp-content/uploads/2024/09/PONENCIA-FINAL-AN-CUP.pdf",
+        "fecha": "2024-09",
+        "consultado": "2026-07-11",
+        "cita": "Promoure la transició cap a formes de propietat col·lectives, comunitàries, públiques i cooperatives."
+      },
+      "grupoEvidencia": "pasaje-0b0b0b0e0e9255036ea3"
+    },
+    "lab-017": {
+      "valor": -2,
+      "justificacion": "Su programa anticapitalista contempla propiedad pública, comunitaria, colectiva y cooperativa, además de nacionalizaciones; rechaza la primacía de la gran propiedad privada.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "La CUP creu que Catalunya no tindrà «sobirania financera» sense «banca pública» (La República)",
+        "url": "https://www.larepublica.cat/noticies/la-cup-creu-que-catalunya-no-tindra-sobirania-financera-sense-banca-publica-pero-veu-negativa-lopa-del-bbva/",
+        "fecha": "2024",
+        "consultado": "2026-07-12",
+        "cita": "La CUP creu que Catalunya no tindrà «sobirania financera» sense «banca pública»"
+      },
+      "grupoEvidencia": "cup-banca-publica-sobirania"
     }
   }
 }

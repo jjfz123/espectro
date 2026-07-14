@@ -607,27 +607,17 @@ export function cargarEstado(): Estado {
     const datos = JSON.parse(crudo) as Partial<Estado> & { guardadoEn?: unknown };
     const guardadoEn =
       typeof datos.guardadoEn === 'string' ? Date.parse(datos.guardadoEn) : Number.NaN;
-    // v3 → v4 solo añade cargas a ejes nuevos: no cambia ids, texto, orden,
-    // escala ni significado de ninguna respuesta. Es una migración segura y
-    // deliberadamente acotada; futuras versiones vuelven a ser incompatibles
-    // hasta declarar su propia migración. El hash semántico de version.json
-    // (validate:data) obliga a decidir conscientemente cada cambio nuevo.
-    const migracionCargasV3aV4 =
-      VERSION_INSTRUMENTO === '4' && datos.versionInstrumento === '3';
-    // v4 → v5 amplía el núcleo/rápido de 50 a 65 preguntas moviendo 15 ítems
-    // desde sus módulos temáticos: ids, textos, escala y cargas intactos, así
-    // que cada respuesta guardada conserva exactamente su significado. Una
-    // sesión v4 en curso simplemente encuentra más preguntas pendientes (el
-    // avance salta lo contestado); una terminada conserva su resultado y
-    // puede ampliarlo. Nada que reinterpretar: migración compatible.
-    const migracionNucleoV4aV5 =
-      VERSION_INSTRUMENTO === '5' && datos.versionInstrumento === '4';
+    // v5 → v6 sustituye semánticamente lab-017 en el recorrido rápido. La
+    // respuesta antigua se conserva bajo lab-039 —la formulación cooperativa
+    // original, ahora exhaustiva— y la nueva lab-017 queda pendiente. Nunca se
+    // reinterpreta el valor antiguo como opinión sobre propiedad privada.
+    const migracionLab017V5aV6 =
+      VERSION_INSTRUMENTO === '6' && datos.versionInstrumento === '5';
     const motivoRetirada: MotivoRetirada | null =
       datos.version !== 3
         ? 'version-app'
         : datos.versionInstrumento !== VERSION_INSTRUMENTO &&
-            !migracionCargasV3aV4 &&
-            !migracionNucleoV4aV5
+            !migracionLab017V5aV6
           ? 'instrumento'
           : !Number.isFinite(guardadoEn)
             ? 'marca-temporal'
@@ -676,14 +666,16 @@ export function cargarEstado(): Estado {
 
     if (datos.respuestas && typeof datos.respuestas === 'object') {
       for (const [id, valor] of Object.entries(datos.respuestas)) {
-        if (ITEM_POR_ID.has(id) && VALORES_VALIDOS.has(valor as Valor | null)) {
-          estado.respuestas[id] = valor as Valor | null;
+        const idMigrado = migracionLab017V5aV6 && id === 'lab-017' ? 'lab-039' : id;
+        if (ITEM_POR_ID.has(idMigrado) && VALORES_VALIDOS.has(valor as Valor | null)) {
+          estado.respuestas[idMigrado] = valor as Valor | null;
         }
       }
     }
     if (datos.importantes && typeof datos.importantes === 'object') {
       for (const [id, marcado] of Object.entries(datos.importantes)) {
-        if (marcado === true && ITEM_POR_ID.has(id)) estado.importantes[id] = true;
+        const idMigrado = migracionLab017V5aV6 && id === 'lab-017' ? 'lab-039' : id;
+        if (marcado === true && ITEM_POR_ID.has(idMigrado)) estado.importantes[idMigrado] = true;
       }
     }
 
@@ -713,6 +705,17 @@ export function cargarEstado(): Estado {
     if (estado.perfilIntermedio && todoRespondido(estado)) estado.perfilIntermedio = false;
     if (estado.fase !== 'portada' && Object.keys(estado.respuestas).length === 0 && estado.fase !== 'cuestionario') {
       estado.fase = 'portada';
+    }
+    if (migracionLab017V5aV6 && estado.fase !== 'portada') {
+      // La pregunta nueva debe contestarse expresamente incluso si la sesión
+      // v5 ya había llegado a revisión o resultados. La respuesta antigua
+      // permanece guardada como lab-039 y puede entrar en el exhaustivo cuando
+      // su módulo esté activo.
+      estado.fase = 'cuestionario';
+      estado.indice = primerSinResponder(estado);
+      estado.editando = false;
+      estado.ofertaDesdeRevision = false;
+      estado.perfilIntermedio = false;
     }
     return estado;
   } catch {

@@ -231,6 +231,18 @@
         "fecha": "2015",
         "consultado": "2026-07-13"
       }
+    },
+    "lab-017": {
+      "valor": -1,
+      "justificacion": "Su programa económico defiende provisión pública y límites a la mercantilización en servicios esenciales; mantiene economía privada, pero no la presenta como principio dominante.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Pacma no solo habla de animales: 10 propuestas para sanidad en su programa (Redacción Médica)",
+        "url": "https://www.redaccionmedica.com/secciones/sanidad-hoy/pacma-no-solo-habla-de-animales-10-propuestas-para-sanidad-en-su-programa-4756",
+        "fecha": "2019-04",
+        "consultado": "2026-07-10"
+      }
     }
   }
 }

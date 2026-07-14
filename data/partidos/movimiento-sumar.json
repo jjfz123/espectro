@@ -854,20 +854,6 @@
       },
       "grupoEvidencia": "pasaje-3b98d21c34d53bdb0290"
     },
-    "lab-017": {
-      "valor": 1,
-      "justificacion": "Sumar impulsa más economía social, cooperativa y solidaria; apoya la propiedad cooperativa, aunque el pasaje es de fomento general, no de transferir grandes empresas privadas a cooperativas.",
-      "calidadEvidencia": "media",
-      "fuente": {
-        "tipo": "programa",
-        "titulo": "Un programa para ti — Sumar, elecciones generales 2023",
-        "url": "https://movimientosumar.es/wp-content/uploads/2023/07/Un-Programa-para-ti.pdf",
-        "fecha": "2023",
-        "consultado": "2026-07-13",
-        "cita": "Más economía social, cooperativa y solidaria"
-      },
-      "grupoEvidencia": "pasaje-a1065a6797de7759da62"
-    },
     "lab-038": {
       "valor": 1,
       "justificacion": "Sumar propone crear una empresa pública de energía que opere en el mercado junto a las privadas.",
@@ -881,6 +867,94 @@
         "cita": "Se creará una empresa pública de energía"
       },
       "grupoEvidencia": "pasaje-4219208302271205ad83"
+    },
+    "lab-039": {
+      "valor": 1,
+      "justificacion": "Sumar impulsa más economía social, cooperativa y solidaria; apoya la propiedad cooperativa, aunque el pasaje es de fomento general, no de transferir grandes empresas privadas a cooperativas.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Un programa para ti — Sumar, elecciones generales 2023",
+        "url": "https://movimientosumar.es/wp-content/uploads/2023/07/Un-Programa-para-ti.pdf",
+        "fecha": "2023",
+        "consultado": "2026-07-13",
+        "cita": "Más economía social, cooperativa y solidaria"
+      },
+      "grupoEvidencia": "pasaje-a1065a6797de7759da62"
+    },
+    "lab-017": {
+      "valor": -1,
+      "justificacion": "Su programa impulsa cooperativas y economía social junto a empresas privadas y públicas; cuestiona que la propiedad privada deba ser la forma principal de la gran empresa.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Un programa para ti — Sumar, elecciones generales 2023",
+        "url": "https://movimientosumar.es/wp-content/uploads/2023/07/Un-Programa-para-ti.pdf",
+        "fecha": "2023",
+        "consultado": "2026-07-13",
+        "cita": "Más economía social, cooperativa y solidaria"
+      },
+      "grupoEvidencia": "pasaje-a1065a6797de7759da62"
+    },
+    "ecl-001": {
+      "valor": 2,
+      "justificacion": "Prioriza el cierre acelerado de instalaciones fósiles y una transición energética rápida incluso con inversión y costes públicos de corto plazo.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Documento Político de la Asamblea de Movimiento Sumar",
+        "url": "https://movimientosumar.es/transparencia/wp-content/uploads/sites/6/2025/05/Documento_Politico_Asamblea_Mov_Sumar_2025.pdf",
+        "fecha": "2025-05",
+        "consultado": "2026-07-09"
+      }
+    },
+    "ecl-002": {
+      "valor": 2,
+      "justificacion": "Su programa asume la eliminación de ventas de turismos nuevos de combustión en 2035 como parte de la descarbonización del transporte.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Documento Político de la Asamblea de Movimiento Sumar",
+        "url": "https://movimientosumar.es/transparencia/wp-content/uploads/sites/6/2025/05/Documento_Politico_Asamblea_Mov_Sumar_2025.pdf",
+        "fecha": "2025-05",
+        "consultado": "2026-07-09"
+      }
+    },
+    "ecl-003": {
+      "valor": 1,
+      "justificacion": "Acepta fiscalidad verde para acelerar la transición, con compensaciones para hogares vulnerables; apoyo condicionado por la regresividad potencial.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Documento Político de la Asamblea de Movimiento Sumar",
+        "url": "https://movimientosumar.es/transparencia/wp-content/uploads/sites/6/2025/05/Documento_Politico_Asamblea_Mov_Sumar_2025.pdf",
+        "fecha": "2025-05",
+        "consultado": "2026-07-09"
+      }
+    },
+    "def-001": {
+      "valor": 2,
+      "justificacion": "Rechaza el rearme y el aumento del gasto militar como eje de la política exterior, por lo que favorece reducirlo y reasignar recursos a seguridad humana y servicios públicos.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Documento Político de la Asamblea de Movimiento Sumar",
+        "url": "https://movimientosumar.es/transparencia/wp-content/uploads/sites/6/2025/05/Documento_Politico_Asamblea_Mov_Sumar_2025.pdf",
+        "fecha": "2025-05",
+        "consultado": "2026-07-09"
+      }
+    },
+    "geo-002": {
+      "valor": -1,
+      "justificacion": "Su orientación pacifista y de prevención de conflictos hace que exija agotar vías diplomáticas incluso con mandato ONU; no formula una prohibición absoluta ante una matanza en curso.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Documento Político de la Asamblea de Movimiento Sumar",
+        "url": "https://movimientosumar.es/transparencia/wp-content/uploads/sites/6/2025/05/Documento_Politico_Asamblea_Mov_Sumar_2025.pdf",
+        "fecha": "2025-05",
+        "consultado": "2026-07-09"
+      }
     }
   }
 }

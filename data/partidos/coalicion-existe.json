@@ -66,6 +66,24 @@
         "consultado": "2026-07-13"
       },
       "grupoEvidencia": "pasaje-1b10e903f7b156c51e7f"
+    },
+    "lab-017": {
+      "valor": 0,
+      "justificacion": "La coalición defiende provisión y control públicos en servicios esenciales, sin proponer sustituir de forma general la propiedad privada de las grandes empresas; posición mixta.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Aragón-Teruel Existe reclama que el transporte sanitario urgente pase a ser público para garantizar la atención en el medio rural (El Alto Jalón)",
+        "url": "https://www.elaltojalon.es/texto-diario/mostrar/5928109/aragon-teruel-existe-reclama-transporte-sanitario-urgente-pase-publico-garantizar-atencion-medio-rural",
+        "cita": "Aragón-Teruel Existe reclama que el transporte sanitario urgente pase a ser público para garantizar la atención en el medio rural",
+        "fecha": "2025",
+        "consultado": "2026-07-13"
+      },
+      "resolucionCero": {
+        "tipo": "modelo-mixto",
+        "explicacion": "La fuente acredita una combinación estable de propiedad privada, regulación y provisión o control públicos, no ausencia de posición."
+      },
+      "grupoEvidencia": "pasaje-1b10e903f7b156c51e7f"
     }
   }
 }

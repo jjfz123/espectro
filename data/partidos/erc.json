@@ -619,6 +619,20 @@
         "cita": "càmeres perimetrals del projecte Lectio"
       },
       "grupoEvidencia": "pasaje-4d1b2d95baf363a8d2c8"
+    },
+    "lab-017": {
+      "valor": -1,
+      "justificacion": "Combina economía privada con banca pública, servicios públicos y fórmulas de economía social; la evidencia apunta a un modelo mixto, no a la primacía normativa de la gran propiedad privada.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "ERC i PSOE acorden impulsar la llicència bancària per a l'Institut Català de Finances (El Nacional / On Economia)",
+        "url": "https://www.elnacional.cat/oneconomia/ca/economia/erc-psoe-acorden-impulsar-llicencia-bancaria-institut-catala-finances-icf_1411741_102.html",
+        "fecha": "2024",
+        "consultado": "2026-07-12",
+        "cita": "ERC i PSOE acorden impulsar la llicència bancària per a l'Institut Català de Finances"
+      },
+      "grupoEvidencia": "erc-icf-banca-publica"
     }
   }
 }

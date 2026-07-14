@@ -679,20 +679,6 @@
       },
       "grupoEvidencia": "bildu-control-publico-estrategico"
     },
-    "lab-017": {
-      "valor": 1,
-      "justificacion": "Impulsa la economía social y cooperativa vasca y el poder de los trabajadores sobre las empresas, en la estela del cooperativismo del país; +1 y no +2 porque su modelo combina la propiedad cooperativa con un fuerte control público, no la transferencia exclusiva a cooperativas frente al Estado.",
-      "calidadEvidencia": "media",
-      "fuente": {
-        "tipo": "programa",
-        "titulo": "Programa de Gobierno de EH Bildu — Elecciones al Parlamento Vasco 2024 (PDF oficial en castellano, web del candidato Pello Otxandiano)",
-        "url": "https://pello.eus/wp-content/uploads/2024/04/Programa_de_Gobierno_EH_Bildu_CAS.pdf",
-        "fecha": "2024",
-        "consultado": "2026-07-12",
-        "cita": "economía social transformadora"
-      },
-      "grupoEvidencia": "bildu-economia-social-cooperativa"
-    },
     "dem-021": {
       "valor": 2,
       "justificacion": "Reclama la derogación completa de la Ley Mordaza y rechaza su régimen sancionador sobre la protesta, incluida la sanción por manifestaciones y concentraciones no comunicadas: defiende que el ejercicio pacífico del derecho de manifestación no debe castigarse.",
@@ -762,6 +748,34 @@
         "cita": "Necesitamos transitar hacia una Política Industrial Emprendedora... contamos con un vasto tejido empresarial."
       },
       "grupoEvidencia": "pasaje-3fdcc569cdbefa3cd65a"
+    },
+    "lab-039": {
+      "valor": 1,
+      "justificacion": "Impulsa la economía social y cooperativa vasca y el poder de los trabajadores sobre las empresas, en la estela del cooperativismo del país; +1 y no +2 porque su modelo combina la propiedad cooperativa con un fuerte control público, no la transferencia exclusiva a cooperativas frente al Estado.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa de Gobierno de EH Bildu — Elecciones al Parlamento Vasco 2024 (PDF oficial en castellano, web del candidato Pello Otxandiano)",
+        "url": "https://pello.eus/wp-content/uploads/2024/04/Programa_de_Gobierno_EH_Bildu_CAS.pdf",
+        "fecha": "2024",
+        "consultado": "2026-07-12",
+        "cita": "economía social transformadora"
+      },
+      "grupoEvidencia": "bildu-economia-social-cooperativa"
+    },
+    "lab-017": {
+      "valor": -1,
+      "justificacion": "Propone instrumentos públicos y control público de ámbitos estratégicos dentro de un tejido empresarial plural; desacuerdo moderado con la primacía de la gran propiedad privada.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "EH Bildu propone la creación de un banco vasco de inversiones y una comercializadora pública de energía (EITB)",
+        "url": "https://www.eitb.eus/es/noticias/politica/detalle/9986980/eh-bildu-plantea-14-propuestas-para-cambiar-politicas-industriales",
+        "fecha": "2024",
+        "consultado": "2026-07-12",
+        "cita": "EH Bildu propone la creación de un banco vasco de inversiones y una comercializadora pública de energía"
+      },
+      "grupoEvidencia": "bildu-control-publico-estrategico"
     }
   }
 }

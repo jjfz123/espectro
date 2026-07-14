@@ -108,6 +108,32 @@
         "fecha": "2020-03",
         "consultado": "2026-07-13"
       }
+    },
+    "lab-017": {
+      "valor": -1,
+      "justificacion": "Defiende fiscalidad permanente sobre grandes fortunas, economía verde regulada y fortalecimiento de lo público; cuestiona la primacía privada sin negar la economía mixta.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Propuestas de Más País-EQUO para Cuidar España: Salir adelante en Comunidad (Verdes Equo)",
+        "url": "https://verdesequo.es/propuestas-de-mas-pais-equo-para-cuidar-espana-salir-adelante-en-comunidad",
+        "cita": "Impuesto de Solidaridad Cívica",
+        "fecha": "2020-03",
+        "consultado": "2026-07-13"
+      },
+      "grupoEvidencia": "verdes-equo-impuesto-solidaridad-civica-fortunas"
+    },
+    "va-001": {
+      "valor": 1,
+      "justificacion": "Defiende avanzar desde el bienestar hacia el reconocimiento de intereses y derechos propios de los animales; apoyo moderado porque la formulación jurídica concreta varía por especie y ámbito.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Programa Electoral Continuo de Verdes Equo",
+        "url": "https://asamblea.verdesequo.es/wp-content/uploads/2025/11/Programa-Electoral-Continuo-VQ-VF.pdf",
+        "fecha": "2025-11",
+        "consultado": "2026-07-14"
+      }
     }
   }
 }

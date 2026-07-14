@@ -25,7 +25,8 @@
     "resultados:autonomicas": "node scripts/importar-candidaturas-autonomicas.mjs",
     "web:build": "npm --prefix web run build",
     "web:budget": "node scripts/check-web-bundle.mjs",
-    "web:test:e2e": "npm --prefix web run test:e2e"
+    "web:test:e2e": "npm --prefix web run test:e2e",
+    "validate:brujula": "node scripts/validar-brujula-partidos.mjs"
   },
   "devDependencies": {
     "@types/node": "^26.1.1",

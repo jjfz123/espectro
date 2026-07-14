@@ -128,6 +128,18 @@
         "fecha": "2022",
         "consultado": "2026-07-09"
       }
+    },
+    "lab-017": {
+      "valor": -1,
+      "justificacion": "Defiende control público de sectores estratégicos dentro de una economía mixta, por lo que no acepta sin matices la primacía de la propiedad privada de la gran empresa.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Estatutos y declaración programática de Izquierda Española",
+        "url": "https://www.izqesp.es/docs/Estatutos%20Izquierda%20Espan%CC%83ola.pdf",
+        "fecha": "2022",
+        "consultado": "2026-07-09"
+      }
     }
   }
 }

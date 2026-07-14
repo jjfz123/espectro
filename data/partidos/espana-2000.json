@@ -309,6 +309,20 @@
         "fecha": "2026",
         "consultado": "2026-07-12"
       }
+    },
+    "lab-017": {
+      "valor": -1,
+      "justificacion": "Defiende intervención y dirección estatal de empresas estratégicas; mantiene propiedad privada en otros ámbitos, pero no la acepta como principio rector absoluto para la gran empresa.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "España 2000 — Programa político (web oficial)",
+        "url": "https://espana2000.es/programa-politico/",
+        "consultado": "2026-07-10",
+        "cita": "controlada por el Estado y/o sus organizaciones para la intervención directa en su actividad económica",
+        "fecha": "2026"
+      },
+      "grupoEvidencia": "pasaje-fd1ed3828f4cdd5254bb"
     }
   }
 }

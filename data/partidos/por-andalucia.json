@@ -4,8 +4,15 @@
   "siglas": "Por And.",
   "ambito": "autonomico",
   "tipo": "coalicion",
-  "componentes": ["podemos", "movimiento-sumar", "verdes-equo", "alianza-verde"],
-  "ccaa": ["andalucia"],
+  "componentes": [
+    "podemos",
+    "movimiento-sumar",
+    "verdes-equo",
+    "alianza-verde"
+  ],
+  "ccaa": [
+    "andalucia"
+  ],
   "confianza": "verificada",
   "web": "https://porandalucia.org/",
   "revisado": "2026-07-10",
@@ -284,6 +291,18 @@
         "titulo": "Maíllo promete prohibir pisos turísticos en zonas saturadas y reversión a uso residencial (La Noción)",
         "url": "https://www.lanocion.es/andalucia/20260505/maillo-promete-prohibir-pisos-turisticos-en-z111-9511z.html",
         "fecha": "2026-05-05",
+        "consultado": "2026-07-10"
+      }
+    },
+    "lab-017": {
+      "valor": -1,
+      "justificacion": "Defiende empresas públicas que compitan en sectores estratégicos y una economía mixta regulada; rechazo moderado de la primacía privada, sin exclusión general de empresas privadas.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Por Andalucía apuesta por los tejados solares y la creación de una Empresa Pública de Energía para «democratizar» el sector fotovoltaico (El Independiente de Granada)",
+        "url": "https://www.elindependientedegranada.es/politica/andalucia-apuesta-tejados-solares-creacion-empresa-publica-energia-democratizar-sector",
+        "fecha": "2026-05",
         "consultado": "2026-07-10"
       }
     }

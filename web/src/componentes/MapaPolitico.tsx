@@ -41,8 +41,10 @@ import {
   opcionesBusquedaAtlas,
   resolverOpcionBusquedaAtlas,
 } from '../atlasIdeologias';
-import type { CorrienteAtlas, GradoEvidenciaBrujula } from '../atlasIdeologias';
+import type { CorrienteAtlas } from '../atlasIdeologias';
 import { idsPartidosEnCumulo } from '../cumuloPartidos';
+import { nombreGradoBrujula } from '../brujulaPartidos';
+import type { GradoBrujulaPartido } from '../brujulaPartidos';
 
 const Mapa3D = lazy(() => import('./Mapa3D'));
 
@@ -156,9 +158,31 @@ interface PuntoPlano {
   etiqueta: string;
   nombre: string;
   tipo: 'usuario' | 'partido' | 'referencia';
-  evidenciaBrujula?: Exclude<GradoEvidenciaBrujula, 'insuficiente'>;
+  evidenciaBrujula?: GradoBrujulaPartido;
+  incertidumbreX?: number;
+  incertidumbreY?: number;
   cx: number;
   cy: number;
+}
+
+function sufijoGradoBrujula(grado: GradoBrujulaPartido | undefined): string {
+  return grado && grado !== 'solida' ? ` — ${nombreGradoBrujula(grado)}` : '';
+}
+
+function descripcionGradoBrujula(grado: GradoBrujulaPartido | undefined): string {
+  switch (grado) {
+    case 'provisional':
+      return ' Posición provisional: supera el mínimo reducido, pero aún no el contrato completo.';
+    case 'estimada':
+      return ' Posición estimada: hay coordenada documental, todavía con cobertura limitada.';
+    case 'orientativa':
+      return ' Posición orientativa: el partido permanece visible con incertidumbre amplia mientras se completa su evidencia.';
+    case 'monotematica':
+      return ' Programa monotemático: el punto resume su documentación disponible y no equivale a una ideología general completa.';
+    case 'solida':
+    default:
+      return '';
+  }
 }
 
 interface EtiquetaColocada {
@@ -413,6 +437,10 @@ function puntosDelPar(
       tipo: entidad.tipo,
       evidenciaBrujula:
         par.id === 'propiedad-autoridad' ? entidad.evidenciaBrujula?.grado : undefined,
+      incertidumbreX:
+        par.id === 'propiedad-autoridad' ? entidad.evidenciaBrujula?.incertidumbreX : undefined,
+      incertidumbreY:
+        par.id === 'propiedad-autoridad' ? entidad.evidenciaBrujula?.incertidumbreY : undefined,
       cx: aCoordenada(vx),
       cy: TOTAL - aCoordenada(vy),
     });
@@ -822,6 +850,9 @@ function Brujula({
       aria-describedby={descripcionId}
     >
       <defs>
+        <clipPath id={`${descripcionId}-recorte`}>
+          <rect x={MARGEN} y={MARGEN} width={LADO} height={LADO} />
+        </clipPath>
         {[
           { id: 'io', cx: MARGEN, cy: MARGEN, clase: 'mapa-gradiente__io' },
           { id: 'do', cx: TOTAL - MARGEN, cy: MARGEN, clase: 'mapa-gradiente__do' },
@@ -896,15 +927,17 @@ function Brujula({
         const etiqueta = etiquetas.get(punto.id);
         const partidoInteractivo = punto.tipo === 'partido';
         const partidoSeleccionado = partidoInteractivo && partidoFijado === punto.id;
-        const posicionProvisional =
-          partidoInteractivo && punto.evidenciaBrujula === 'provisional';
         const posicionEstimada =
           partidoInteractivo && punto.evidenciaBrujula === 'estimada';
-        const descripcionEvidencia = posicionProvisional
-          ? ' Posición provisional: se calcula con evidencia parcial y se dibuja hueca.'
-          : posicionEstimada
-            ? ' Posición estimada: la evidencia todavía no alcanza el contrato y el punto se dibuja tenue; el detalle lista lo que falta.'
-            : '';
+        const posicionOrientativa =
+          partidoInteractivo && punto.evidenciaBrujula === 'orientativa';
+        const posicionMonotematica =
+          partidoInteractivo && punto.evidenciaBrujula === 'monotematica';
+        const descripcionEvidencia = descripcionGradoBrujula(punto.evidenciaBrujula);
+        const incertidumbreX =
+          typeof punto.incertidumbreX === 'number' ? (punto.incertidumbreX / 200) * LADO : 0;
+        const incertidumbreY =
+          typeof punto.incertidumbreY === 'number' ? (punto.incertidumbreY / 200) * LADO : 0;
         return (
           <g
             key={punto.id}
@@ -934,6 +967,17 @@ function Brujula({
             }
           >
             <title>{`${punto.nombre}.${descripcionEvidencia}`}</title>
+            {partidoInteractivo && partidoSeleccionado && incertidumbreX > 0 && incertidumbreY > 0 ? (
+              <ellipse
+                className="mapa-punto__incertidumbre"
+                cx={punto.cx}
+                cy={punto.cy}
+                rx={incertidumbreX}
+                ry={incertidumbreY}
+                clipPath={`url(#${descripcionId}-recorte)`}
+                aria-hidden="true"
+              />
+            ) : null}
             {partidoInteractivo ? (
               <circle
                 className="mapa-punto__hit"
@@ -957,7 +1001,15 @@ function Brujula({
                 className="mapa-punto__forma"
                 cx={punto.cx}
                 cy={punto.cy}
-                r={punto.tipo === 'usuario' ? 7 : 5}
+                r={
+                  punto.tipo === 'usuario'
+                    ? 7
+                    : posicionOrientativa || posicionMonotematica
+                      ? 4.5
+                      : posicionEstimada
+                        ? 4.75
+                        : 5
+                }
               />
             )}
             {etiqueta ? (
@@ -1104,6 +1156,15 @@ export function MapaPolitico({
   );
   const partidosEstimadosBrujula = partidosBrujula.filter(
     (punto) => punto.evidenciaBrujula === 'estimada',
+  );
+  const partidosOrientativosBrujula = partidosBrujula.filter(
+    (punto) => punto.evidenciaBrujula === 'orientativa',
+  );
+  const partidosMonotematicosBrujula = partidosBrujula.filter(
+    (punto) => punto.evidenciaBrujula === 'monotematica',
+  );
+  const partidosSolidosBrujula = partidosBrujula.filter(
+    (punto) => punto.evidenciaBrujula === 'solida',
   );
   const usuarioEnBrujula = puntosBrujula.some((punto) => punto.tipo === 'usuario');
 
@@ -1332,12 +1393,7 @@ export function MapaPolitico({
                   .sort((a, b) => a.nombre.localeCompare(b.nombre, 'es'))
                   .map((partido) => (
                     <option key={partido.id} value={partido.id}>
-                      {partido.nombre}
-                      {partido.evidenciaBrujula === 'provisional'
-                        ? ' — posición provisional'
-                        : partido.evidenciaBrujula === 'estimada'
-                          ? ' — posición estimada'
-                          : ''}
+                      {partido.nombre}{sufijoGradoBrujula(partido.evidenciaBrujula)}
                     </option>
                   ))}
               </select>
@@ -1375,26 +1431,17 @@ export function MapaPolitico({
         </PolosPlano>
       </div>
 
-      {partidosProvisionalesBrujula.length > 0 ? (
-        <p className="mapa-evidencia-provisional">
-          <strong>Puntos huecos: evidencia parcial.</strong>{' '}
-          {partidosProvisionalesBrujula.length} de {partidosBrujula.length} partidos tienen
-          suficientes posiciones independientes para una coordenada orientativa, pero todavía no
-          alcanzan el contrato completo de cobertura. No se rellenan huecos ni se altera el ranking
-          de afinidad; el selector permite identificarlos sin depender del punto.
-        </p>
-      ) : null}
-
-      {partidosEstimadosBrujula.length > 0 ? (
-        <p className="mapa-evidencia-provisional mapa-evidencia-estimada">
-          <strong>Puntos tenues: posición estimada.</strong>{' '}
-          {partidosEstimadosBrujula.length} de {partidosBrujula.length} partidos se dibujan con la
-          media de las posiciones documentadas que tienen, aunque su evidencia aún no llega ni al
-          nivel provisional — puede descansar en pocas fuentes o carecer de contrapesos. Están a la
-          vista para no esconder el sistema de partidos, pero cada punto tenue lleva su recibo de
-          lo que falta al tocarlo; solo quedan fuera los partidos sin ninguna coordenada calculable.
-        </p>
-      ) : null}
+      <p className="mapa-evidencia-provisional mapa-evidencia-resumen">
+        <strong>Los {partidosBrujula.length} partidos activos están en el eje.</strong>{' '}
+        {partidosSolidosBrujula.length} con posición sólida,{' '}
+        {partidosProvisionalesBrujula.length} provisional,{' '}
+        {partidosEstimadosBrujula.length} estimada,{' '}
+        {partidosOrientativosBrujula.length} orientativa y{' '}
+        {partidosMonotematicosBrujula.length} con programa monotemático. La evidencia incompleta no
+        borra ningún partido ni lo coloca automáticamente en el centro: cambia el trazo y amplía su
+        incertidumbre. Al seleccionar un punto se muestra su área de incertidumbre y el recibo de la
+        coordenada.
+      </p>
 
       {cumuloPartidos.length > 1 ? (
         <div
@@ -1419,11 +1466,9 @@ export function MapaPolitico({
                   }}
                 >
                   {partido.nombre}
-                  {partido.evidenciaBrujula === 'provisional'
-                    ? ' (posición provisional)'
-                    : partido.evidenciaBrujula === 'estimada'
-                      ? ' (posición estimada)'
-                      : ''}
+                  {partido.evidenciaBrujula && partido.evidenciaBrujula !== 'solida'
+                    ? ` (${nombreGradoBrujula(partido.evidenciaBrujula)})`
+                    : ''}
                 </button>
               ) : null;
             })}
@@ -1432,25 +1477,32 @@ export function MapaPolitico({
       ) : null}
 
       {(() => {
-        /* Recibo del punto fijado: qué evidencia sostiene la coordenada y qué
-           pide el contrato. Es lo que convierte un punto tenue o hueco en una
-           lectura auditable en vez de una etiqueta sin explicación. */
+        /* Recibo del punto fijado: qué evidencia sostiene la coordenada, su
+           incertidumbre y qué pide el contrato. */
         const fijado = partidoBrujulaFijado
           ? ENTIDADES_MAPA.find((entidad) => entidad.id === partidoBrujulaFijado)
           : null;
         const evidencia = fijado?.evidenciaBrujula;
-        if (!fijado || !evidencia || evidencia.grado === 'solida') return null;
+        if (!fijado || !evidencia) return null;
+        const x = fijado.valores[EJE_PROPIEDAD_MERCADO];
+        const y = fijado.valores[EJE_AUTORIDAD_POLITICA];
         return (
-          <p className="mapa-lectura__distancia mapa-recibo-brujula" role="status">
-            <strong>{fijado.nombre}</strong> — posición{' '}
-            {evidencia.grado === 'provisional' ? 'provisional' : 'estimada'}. Propiedad y
-            mercado: {evidencia.propiedad.items} grupos independientes en{' '}
-            {evidencia.propiedad.familias} subdimensiones. Poder:{' '}
-            {evidencia.poder.items} grupos en {evidencia.poder.familias} familias, con{' '}
-            {evidencia.poder.itemsNucleo} de contrapesos o libertades. El contrato completo pide
-            6 grupos y 3 subdimensiones o familias por eje (2 de núcleo en Poder); hasta
-            entonces la coordenada es la media de lo documentado, sin rellenar huecos.
-          </p>
+          <div className="mapa-recibo-brujula" role="status">
+            <p>
+              <strong>{fijado.nombre}</strong> — {nombreGradoBrujula(evidencia.grado)}. Coordenada:{' '}
+              propiedad/mercado {typeof x === 'number' ? Math.round(x) : '—'} ±{' '}
+              {evidencia.incertidumbreX}; poder {typeof y === 'number' ? Math.round(y) : '—'} ±{' '}
+              {evidencia.incertidumbreY}.
+            </p>
+            <p>{evidencia.resumenX} {evidencia.resumenY}</p>
+            <p>
+              Evidencia directa auditada: {evidencia.propiedad.items} grupos en{' '}
+              {evidencia.propiedad.familias} subdimensiones de propiedad y{' '}
+              {evidencia.poder.items} grupos en {evidencia.poder.familias} familias de poder, con{' '}
+              {evidencia.poder.itemsNucleo} de contrapesos o libertades. Criterio editorial:{' '}
+              {evidencia.criterio}.
+            </p>
+          </div>
         );
       })()}
 
@@ -1547,6 +1599,22 @@ export function MapaPolitico({
               <circle cx="8" cy="8" r="4" className="mapa-leyenda__partido-estimado" />
             </svg>
             Partido con posición estimada (evidencia inicial)
+          </li>
+        ) : null}
+        {partidosOrientativosBrujula.length > 0 ? (
+          <li>
+            <svg viewBox="0 0 16 16" aria-hidden="true" focusable="false">
+              <circle cx="8" cy="8" r="4" className="mapa-leyenda__partido-orientativo" />
+            </svg>
+            Partido con posición orientativa e incertidumbre amplia
+          </li>
+        ) : null}
+        {partidosMonotematicosBrujula.length > 0 ? (
+          <li>
+            <svg viewBox="0 0 16 16" aria-hidden="true" focusable="false">
+              <circle cx="8" cy="8" r="4" className="mapa-leyenda__partido-monotematico" />
+            </svg>
+            Partido con programa monotemático
           </li>
         ) : null}
         <li>
@@ -1810,19 +1878,20 @@ export function MapaPolitico({
           En este plano: {usuarioEnPlano ? 'tu posición, ' : ''}
           {partidosEnPlano} de {TOTAL_PARTIDOS_CATALOGO} partidos y {referenciasEnPlano} de{' '}
           {TOTAL_REFERENCIAS_CATALOGO} referencias doctrinales del catálogo.{' '}
-          En cada uno de los tres planos detallados, un partido aparece solo al alcanzar al menos
+          La brújula principal mantiene visibles los {TOTAL_PARTIDOS_CATALOGO} partidos activos y
+          expresa la cobertura mediante trazo, grado e incertidumbre. En cada uno de los tres planos
+          detallados, un partido aparece solo al alcanzar al menos
           4 grupos documentales independientes por eje, con URL, título, fecha de consulta y pasaje
           reproducible; repetir el mismo pasaje no suma cobertura y un extremo sin evidencia
           moderadora se omite. La brújula aplica su contrato propio: una posición sólida exige 6
           grupos por eje, 3 familias o subdimensiones y, para Poder, al menos dos grupos de
-          contrapesos o libertades. Solo los partidos pueden publicarse provisionalmente —como
-          puntos huecos— con 3 grupos y 2 familias por eje, y con al menos un grupo de contrapesos
-          o libertades; y, por debajo, como posición estimada —punto tenue a trazos— cuando existe
-          una coordenada calculable desde posiciones documentadas aunque la evidencia no llegue a
-          esos mínimos: cada punto tenue lleva su recibo de lo que falta. Las referencias
-          doctrinales nunca usan estos umbrales reducidos.{' '}
+          contrapesos o libertades. Por debajo hay grados provisional, estimado y orientativo; el
+          último usa una síntesis editorial explícita y un intervalo amplio hasta completar anclas,
+          sin convertir la ausencia de datos en neutralidad ni en un extremo. Los perfiles
+          monotemáticos se señalan aparte. Las referencias doctrinales nunca usan estos umbrales
+          reducidos.{' '}
           {partidosFuera + referenciasFuera > 0
-            ? `Quedan fuera de todos los planos ${partidosFuera} partidos y ${referenciasFuera} referencias: sin ninguna coordenada calculable desde posiciones documentadas no se dibuja nada — los huecos no se rellenan ni se estiman.`
+            ? `Fuera de los tres planos detallados quedan ${partidosFuera} partidos y ${referenciasFuera} referencias por cobertura insuficiente en esos cruces; los partidos siguen presentes en la brújula principal.`
             : ''}
         </p>
         {EXCLUIDAS_MAPA.length > 0 ? (

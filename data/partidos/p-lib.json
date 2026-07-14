@@ -496,6 +496,18 @@
         "consultado": "2026-07-12",
         "cita": "Aligeremos el peso fiscal al contribuyente"
       }
+    },
+    "lab-017": {
+      "valor": 2,
+      "justificacion": "Defiende de forma explícita empresas privadas en competencia y rechaza la propiedad pública empresarial; apoyo claro a la primacía de la propiedad privada.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Pedro Sánchez miente: la causa de fondo del apagón es el mercantilismo",
+        "url": "https://www.p-lib.es/2025/04/30/pedro-sanchez-miente-la-causa-de-fondo-del-apagon-es-el-mercantilismo/",
+        "fecha": "2025-04-30",
+        "consultado": "2026-07-09"
+      }
     }
   }
 }

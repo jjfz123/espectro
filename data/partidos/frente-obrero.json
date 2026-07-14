@@ -426,7 +426,8 @@
         "titulo": "Nuestro Programa — Frente Obrero («Recuperemos España»)",
         "url": "https://frenteobrero.es/nuestro-programa-2/",
         "consultado": "2026-07-10",
-        "cita": "El feminismo hegemónico y el lobby LGTBI son algo sistémico que no tiene nada de progreso, adoctrinan a los niños en las escuelas y pervierten nuestra sociedad."
+        "cita": "El feminismo hegemónico y el lobby LGTBI son algo sistémico que no tiene nada de progreso, adoctrinan a los niños en las escuelas y pervierten nuestra sociedad.",
+        "fecha": "2026-01-20"
       },
       "grupoEvidencia": "pasaje-42cae7f5cb5dd6bb719d"
     },
@@ -439,7 +440,8 @@
         "titulo": "Nuestro Programa — Frente Obrero («Recuperemos España»)",
         "url": "https://frenteobrero.es/nuestro-programa-2/",
         "consultado": "2026-07-10",
-        "cita": "Derogación parcial o total de todas las leyes basadas en la discriminación positiva [...] Supresión de los cupos."
+        "cita": "Derogación parcial o total de todas las leyes basadas en la discriminación positiva [...] Supresión de los cupos.",
+        "fecha": "2026-01-20"
       },
       "grupoEvidencia": "pasaje-1a24d5a8b67ebcb99daf"
     },
@@ -496,6 +498,34 @@
         "cita": "Nacionalización de los sectores estratégicos del país para ponerlos al servicio del pueblo para tener una sanidad pública digna contra los chiringuitos que sirven a entidades privadas que juegan con nuestra salud."
       },
       "grupoEvidencia": "pasaje-b384a3897279e86b2305"
+    },
+    "lab-017": {
+      "valor": -2,
+      "justificacion": "Defiende control estatal de sectores estratégicos y una economía socialista y dirigista; rechaza que la gran empresa privada sea la forma principal.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "redes",
+        "titulo": "Publicación de Frente Obrero España en X sobre la nacionalización de los sectores estratégicos",
+        "url": "https://x.com/frenteobreroesp/status/1364884170506436610",
+        "fecha": "2021-02",
+        "consultado": "2026-07-10",
+        "cita": "Desde el Frente Obrero tenemos claro cuál es la solución. Nacionalización de los sectores estratégicos del país para ponerlos al servicio del pueblo"
+      },
+      "grupoEvidencia": "pasaje-859edfcb536b2da40095"
+    },
+    "pop-002": {
+      "valor": 2,
+      "justificacion": "Su programa y comunicación política presentan a los grandes medios como aparatos vinculados a élites económicas y políticas y contraponen a ellos comunicación obrera propia.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Nuestro Programa — Frente Obrero («Recuperemos España»)",
+        "url": "https://frenteobrero.es/nuestro-programa-2/",
+        "consultado": "2026-07-10",
+        "cita": "El feminismo hegemónico y el lobby LGTBI son algo sistémico que no tiene nada de progreso, adoctrinan a los niños en las escuelas y pervierten nuestra sociedad.",
+        "fecha": "2026-01-20"
+      },
+      "grupoEvidencia": "pasaje-42cae7f5cb5dd6bb719d"
     }
   }
 }

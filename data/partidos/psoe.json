@@ -786,6 +786,108 @@
         "cita": "la base más seria, creíble y realista"
       },
       "grupoEvidencia": "pasaje-f0284d2740b5838de769"
+    },
+    "lab-017": {
+      "valor": 0,
+      "justificacion": "Defiende una economía mixta: empresa privada como componente central junto a servicios públicos, regulación y empresas públicas selectivas. No respalda ninguno de los dos polos absolutos.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Sánchez promete blindar al SNS de la «corriente de privatización» mundial (Redacción Médica)",
+        "url": "https://www.redaccionmedica.com/secciones/sanidad-hoy/sanchez-promete-blindar-al-sns-de-la-corriente-de-privatizacion-mundial-7003",
+        "fecha": "2023",
+        "consultado": "2026-07-12",
+        "cita": "Sánchez promete blindar al SNS de la corriente de privatización mundial"
+      },
+      "resolucionCero": {
+        "tipo": "modelo-mixto",
+        "explicacion": "La fuente acredita una combinación estable de propiedad privada, regulación y provisión o control públicos, no ausencia de posición."
+      },
+      "grupoEvidencia": "pasaje-be0a3c4ebd679eb0af5b"
+    },
+    "ecl-001": {
+      "valor": 1,
+      "justificacion": "La resolución congresual prioriza la descarbonización y el cierre ordenado de las instalaciones más contaminantes, pero acompasa el ritmo a seguridad de suministro y protección social.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Resolución del 41.º Congreso Federal del PSOE",
+        "url": "https://41congreso.psoe.es/wp-content/uploads/2024/12/RESOLUCION-41Congreso.pdf",
+        "fecha": "2024-12",
+        "consultado": "2026-07-09"
+      }
+    },
+    "ecl-002": {
+      "valor": 1,
+      "justificacion": "Mantiene el marco europeo de fin de ventas de coches nuevos de combustión en 2035, con adaptación industrial; apoyo moderado.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Resolución del 41.º Congreso Federal del PSOE",
+        "url": "https://41congreso.psoe.es/wp-content/uploads/2024/12/RESOLUCION-41Congreso.pdf",
+        "fecha": "2024-12",
+        "consultado": "2026-07-09"
+      }
+    },
+    "ecl-003": {
+      "valor": 1,
+      "justificacion": "Apoya señales fiscales ambientales dentro de una transición justa, con compensaciones para evitar impactos regresivos.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Resolución del 41.º Congreso Federal del PSOE",
+        "url": "https://41congreso.psoe.es/wp-content/uploads/2024/12/RESOLUCION-41Congreso.pdf",
+        "fecha": "2024-12",
+        "consultado": "2026-07-09"
+      }
+    },
+    "pop-002": {
+      "valor": -1,
+      "justificacion": "La resolución del PSOE defiende pluralismo, profesionalidad y regulación democrática del sistema mediático; critica concentraciones concretas, pero no sostiene que los grandes medios en bloque estén contra la información veraz.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Resolución del 41.º Congreso Federal del PSOE",
+        "url": "https://41congreso.psoe.es/wp-content/uploads/2024/12/RESOLUCION-41Congreso.pdf",
+        "fecha": "2024-12",
+        "consultado": "2026-07-09"
+      }
+    },
+    "def-001": {
+      "valor": -2,
+      "justificacion": "Respalda aumentar capacidades y cumplir los compromisos de gasto de defensa asumidos con los aliados; posición opuesta a reducir el presupuesto militar.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Resolución del 41.º Congreso Federal del PSOE",
+        "url": "https://41congreso.psoe.es/wp-content/uploads/2024/12/RESOLUCION-41Congreso.pdf",
+        "fecha": "2024-12",
+        "consultado": "2026-07-09"
+      }
+    },
+    "geo-002": {
+      "valor": 1,
+      "justificacion": "Su doctrina exterior acepta operaciones multilaterales con cobertura de Naciones Unidas para proteger civiles, sujeta a legalidad internacional y mandato definido.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Resolución del 41.º Congreso Federal del PSOE",
+        "url": "https://41congreso.psoe.es/wp-content/uploads/2024/12/RESOLUCION-41Congreso.pdf",
+        "fecha": "2024-12",
+        "consultado": "2026-07-09"
+      }
+    },
+    "va-001": {
+      "valor": -1,
+      "justificacion": "La Ley 7/2023 reconoce protección y bienestar de animales como seres sintientes, pero no les atribuye subjetividad jurídica plena; desacuerdo moderado con el salto que plantea el ítem.",
+      "calidadEvidencia": "alta",
+      "fuente": {
+        "tipo": "votacion",
+        "titulo": "Ley 7/2023, de 28 de marzo, de protección de los derechos y el bienestar de los animales (BOE)",
+        "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2023-7936",
+        "fecha": "2023-03-28",
+        "consultado": "2026-07-10"
+      }
     }
   }
 }

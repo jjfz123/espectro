@@ -259,6 +259,18 @@
         "fecha": "2024-05",
         "consultado": "2026-07-09"
       }
+    },
+    "lab-017": {
+      "valor": -2,
+      "justificacion": "La CRT plantea sustituir el mercado por planificación pública en sectores estratégicos y avanzar hacia propiedad social, por lo que rechaza la primacía de la gran propiedad privada.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "programa",
+        "titulo": "Ocho propuestas de la CRT para las elecciones europeas de 2024",
+        "url": "https://crtweb.org/programa-elecciones-europeas/",
+        "fecha": "2024-05",
+        "consultado": "2026-07-09"
+      }
     }
   }
 }

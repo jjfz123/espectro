@@ -128,6 +128,18 @@
         "fecha": "2026-02-06",
         "consultado": "2026-07-09"
       }
+    },
+    "lab-017": {
+      "valor": -2,
+      "justificacion": "Se define como fuerza revolucionaria y socialista y propone redistribuir la riqueza de monopolios y banca; rechazo claro de la primacía de la gran propiedad privada.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "UCE apoya el manifiesto de Recortes Cero pidiendo el voto para la Chunta",
+        "url": "https://uce.es/actualidad/unificacion-comunista-apoyo-chunta-aragonesista-manifiesto/",
+        "fecha": "2026-02-06",
+        "consultado": "2026-07-09"
+      }
     }
   }
 }

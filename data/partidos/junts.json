@@ -745,6 +745,20 @@
         "cita": "Apostarem per la policia local... Dotarem de més recursos les policies locals."
       },
       "grupoEvidencia": "pasaje-8be25513f4335e7f119c"
+    },
+    "lab-017": {
+      "valor": 1,
+      "justificacion": "Rechaza nacionalizar la banca y sostiene un marco proempresa, aunque admite intervención catalana en sectores estratégicos; apoyo moderado a la primacía privada.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Giró alimentará la tensión con la CUP al enterrar la idea de un banco público catalán (Vozpópuli)",
+        "url": "https://www.vozpopuli.com/espana/cataluna/giro-enterrar-banco-catalan.html",
+        "fecha": "2022",
+        "consultado": "2026-07-12",
+        "cita": "Giró alimentará la tensión con la CUP al enterrar la idea de un banco público catalán"
+      },
+      "grupoEvidencia": "junts-contra-banca-publica"
     }
   }
 }
