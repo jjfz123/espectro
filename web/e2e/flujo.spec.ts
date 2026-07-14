@@ -1562,6 +1562,67 @@ test('la brújula móvil distingue evidencia provisional y resuelve con segurida
   }
 });
 
+test('el cúmulo de la brújula ofrece abrir la corriente de fondo que tapan los puntos', async ({
+  browser,
+}) => {
+  const contexto = await browser.newContext({
+    baseURL: BASE_URL_E2E,
+    viewport: { width: 390, height: 844 },
+    hasTouch: true,
+    isMobile: true,
+  });
+  const page = await contexto.newPage();
+  try {
+    await page.addInitScript((clave) => {
+      localStorage.setItem(
+        clave,
+        JSON.stringify({
+          version: 3,
+          versionInstrumento: '6',
+          guardadoEn: new Date().toISOString(),
+          fase: 'resultados',
+          ccaa: '',
+          eleccion: 'generales',
+          modo: 'rapido',
+          respuestas: { 'eco-001': 0 },
+          importantes: {},
+          modulosActivos: [],
+          indice: 0,
+          editando: false,
+        }),
+      );
+    }, CLAVE_ALMACEN);
+    await page.goto('/');
+    await expect(page.locator('.mapa-politico')).toBeVisible({ timeout: 20_000 });
+
+    /* El campo eco-izquierda concentra muchos partidos casi coincidentes: en
+       ese hueco los puntos tapan la zona y sin este atajo no podrías pinchar
+       la corriente de fondo. */
+    const punto = page.locator(
+      '.mapa-plano--brujula .mapa-punto[data-entidad-id="movimiento-sumar"]',
+    );
+    await punto.scrollIntoViewIfNeeded();
+    await punto.click({ force: true });
+
+    const cumulo = page.locator('.mapa-cumulo');
+    await expect(cumulo).toBeVisible();
+    const hueco = cumulo.locator('.mapa-cumulo__hueco');
+    await expect(hueco).toBeVisible();
+    await expect(hueco).toContainText('corriente de fondo');
+    const botonHueco = hueco.getByRole('button');
+    await expect(botonHueco).toBeVisible();
+    expect((await botonHueco.boundingBox())!.height).toBeGreaterThanOrEqual(44);
+
+    /* Abrir la corriente cierra la desambiguación y muestra su ficha, aunque
+       los partidos sigan tapando la zona en el plano. */
+    await botonHueco.click();
+    await expect(page.locator('.mapa-corriente-lectura')).toBeVisible();
+    await expect(cumulo).toHaveCount(0);
+  } finally {
+    await contexto.close();
+  }
+});
+
 test('resultados abiertos no introducen violaciones automáticas de accesibilidad', async ({ page }) => {
   await page.setViewportSize({ width: 390, height: 844 });
   await page.addInitScript((clave) => {

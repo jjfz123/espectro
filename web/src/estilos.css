@@ -2942,6 +2942,23 @@ h3 {
   gap: 0.4rem;
 }
 
+.mapa-cumulo__hueco {
+  display: block;
+  margin: 0 0 0.7rem;
+  padding: 0 0 0.7rem;
+  border-bottom: 1px solid var(--filete);
+}
+
+.mapa-cumulo__hueco > p {
+  margin: 0 0 0.5rem;
+}
+
+.mapa-cumulo__hueco > div {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
 .mapa-corriente-lectura {
   background: var(--superficie);
 }
