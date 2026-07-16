@@ -926,7 +926,31 @@
       "revisionismo"
     ],
     "estado": "piloto",
-    "notas": "Solo-matching (informe del propietario sobre el campo comunista, 2026-07-12; Eje 1 fino): fecha el momento de la degeneración. Esperado: hoxhaísmo y reconstitución +2 (traición revisionista de 1956); prosoviéticos ortodoxos −2 (la URSS fue socialista hasta 1991, sin degeneración); trotskismo −2 POR OTRA RAZÓN (la burocratización fue anterior, bajo Stalin: coincidencia entre ideologías por motivos distintos, se desambigua con izq-020/izq-021). Redacción propia.",
+    "notas": "Solo-matching (informe del propietario sobre el campo comunista, 2026-07-12; Eje 1 fino): fecha el momento de la degeneración. Esperado: hoxhaísmo y reconstitución +2 (traición revisionista de 1956); prosoviéticos ortodoxos −2 (la URSS fue socialista hasta 1991, sin degeneración); trotskismo −2 POR OTRA RAZÓN (la burocratización fue anterior, bajo Stalin: coincidencia entre ideologías por motivos distintos, se desambigua con izq-020/izq-021 y, desde v7, con el seguimiento izq-056 para quien niega que hubiera socialismo que abandonar). Redacción propia.",
+    "terminos": [
+      "xx-congreso-pcus"
+    ]
+  },
+  {
+    "id": "izq-056",
+    "texto": "Mi desacuerdo se debe a que en la URSS nunca llegó a existir el socialismo, ni antes ni después de 1956.",
+    "modulo": "corrientes-izquierda",
+    "ejes": [],
+    "condicion": {
+      "itemId": "izq-049",
+      "valores": [
+        -2,
+        -1
+      ]
+    },
+    "polaridad": "negativa",
+    "tags": [
+      "urss",
+      "capitalismo-de-estado",
+      "seguimiento"
+    ],
+    "estado": "piloto",
+    "notas": "Seguimiento condicional de izq-049 que separa los motivos del desacuerdo sin inferirlos: quien niega la premisa —nunca hubo socialismo que abandonar— frente a quien cree que la URSS siguió siendo socialista (prosoviéticos: hasta 1991) o que el giro fue una corrección acertada. Cubre el capitalismo de Estado (comunismo de izquierda, consejismo, parte del anarquismo) y el Estado obrero degenerado que nunca alcanzó el socialismo (trotskismo). Solo-matching, como su padre. | Esperado: bordiguismo +2, comunismo consejista +2, anarquismo +2, trotskismo +1/+2, PCE −1, PCTE −2, prosoviéticos ortodoxos −2 (hubo socialismo hasta 1991).",
     "terminos": [
       "xx-congreso-pcus"
     ]

@@ -434,6 +434,7 @@
     "id": "xx-congreso-pcus",
     "termino": "XX Congreso del PCUS (1956) y revisionismo",
     "definicion": "Congreso del Partido Comunista soviético de 1956 en el que Nikita Jruschov denunció en un discurso secreto los crímenes de Stalin y su «culto a la personalidad», iniciando la desestalinización. Para las corrientes prosoviéticas ortodoxas fue una corrección necesaria; para maoístas y hoxhaístas marcó el «revisionismo», el momento en que la URSS habría abandonado el socialismo e iniciado una restauración capitalista; el trotskismo, en cambio, sitúa la degeneración mucho antes, ya bajo Stalin. Fechar —o negar— ese punto de ruptura distingue a las familias comunistas entre sí.",
+    "ampliacion": "No todas las corrientes aceptan la premisa de que en la URSS se construyera socialismo. Para el trotskismo fue un «Estado obrero degenerado»: la revolución de 1917 fue auténtica, pero la burocracia encabezada por Stalin usurpó el poder político desde los años veinte y el socialismo nunca llegó a alcanzarse. Para el comunismo de izquierda (bordiguismo, consejismo) y buena parte del anarquismo fue directamente «capitalismo de Estado»: producción asalariada y acumulación dirigidas por el partido-Estado, sin poder obrero real, desde mucho antes de 1956. Frente a ellas, las corrientes prosoviéticas sostienen que la URSS fue socialista hasta su disolución en 1991, y maoístas y hoxhaístas que lo fue precisamente hasta el giro de 1956.",
     "url": "https://es.wikipedia.org/wiki/XX_Congreso_del_Partido_Comunista_de_la_Uni%C3%B3n_Sovi%C3%A9tica"
   },
   {
@@ -594,6 +595,13 @@
     "termino": "Ocupación de vivienda",
     "definicion": "Uso de una vivienda sin título legal. El Código Penal distingue el allanamiento de morada (vivienda habitada, delito más grave y desalojo inmediato) de la usurpación (inmueble deshabitado); los tiempos de desalojo dependen de la vía penal o civil y de si hay vulnerabilidad acreditada.",
     "url": "https://es.wikipedia.org/wiki/Ocupaci%C3%B3n_de_inmuebles_en_Espa%C3%B1a"
+  },
+  {
+    "id": "supranacionalidad",
+    "termino": "Supranacionalidad",
+    "definicion": "Capacidad de una organización internacional de tomar decisiones que obligan a sus Estados miembros incluso si alguno vota en contra, a diferencia de la cooperación intergubernamental clásica, donde cada Estado conserva su veto. La UE combina ambas lógicas según la materia. Aceptarla o rechazarla no equivale a estar a la izquierda o a la derecha: hay soberanistas en ambos extremos y partidarios de ceder soberanía por motivos federalistas, internacionalistas o pragmáticos.",
+    "ampliacion": "En la UE son supranacionales, por ejemplo, las normas de mercado interior o de competencia (mayoría cualificada en el Consejo, efecto directo del Derecho europeo y sanciones del Tribunal de Justicia), mientras que la política exterior o la fiscalidad exigen unanimidad. Fuera de la UE casi ningún organismo global tiene ese poder: las resoluciones de la Asamblea General de la ONU no son vinculantes, la OMS emite recomendaciones y el Acuerdo de París fija objetivos sin sanción. Los defensores alegan que los problemas transfronterizos (clima, elusión fiscal, pandemias) superan a cualquier Estado; los críticos, que aleja las decisiones del control democrático nacional o que estos organismos sirven a los intereses de las potencias que los dominan.",
+    "url": "https://es.wikipedia.org/wiki/Supranacionalidad"
   },
   {
     "id": "competencias-autonomicas",

@@ -285,7 +285,7 @@
     "ejes": [
       {
         "eje": "internacionalismo",
-        "carga": -0.75
+        "carga": -0.5
       },
       {
         "eje": "implicacion-internacional",
@@ -299,7 +299,64 @@
       "soberania"
     ],
     "estado": "piloto",
-    "notas": "Mide la disposición a aceptar autoridad supranacional sin nombrar a la UE: separa al europeísta instrumental (defiende la UE por interés nacional pero rechaza obligaciones globales) del internacionalista, y permite que un euroescéptico internacionalista puntúe hacia ese polo aunque rechace Bruselas. No duplica geo-015: allí la escala es la UE y una regla de voto concreta; aquí la autoridad vinculante es global y genérica. | Esperado: Volt +2, Sumar +1, PSOE +1, ERC +1, PP -1, Junts -1, PCTE -1 (ve los organismos actuales como instrumentos de bloque), Vox -2, SALF -2."
+    "notas": "Mide la disposición a aceptar autoridad supranacional sin nombrar a la UE: separa al europeísta instrumental (defiende la UE por interés nacional pero rechaza obligaciones globales) del internacionalista. El desacuerdo es equifinal —soberanista o antisistema que ve los organismos existentes como instituciones de parte—, por eso la carga es moderada (−0.5) y los seguimientos geo-017/geo-018 desambiguan el motivo sin decidirlo por el usuario. No duplica geo-015: allí la escala es la UE y una regla de voto concreta; aquí la autoridad vinculante es global y genérica. | Esperado: Volt +2, Sumar +1, PSOE +1, ERC +1, PP -1, Junts -1, PCTE -2 (organismos actuales como instrumentos de bloque), Vox -2, SALF -2.",
+    "terminos": [
+      "supranacionalidad"
+    ]
+  },
+  {
+    "id": "geo-017",
+    "texto": "Mi rechazo se debe a que las decisiones importantes deben quedar en manos de cada nación, no de organismos por encima de los Estados.",
+    "modulo": "geopolitica-defensa",
+    "ejes": [
+      {
+        "eje": "internacionalismo",
+        "carga": 0.75
+      }
+    ],
+    "condicion": {
+      "itemId": "geo-016",
+      "valores": [
+        -2,
+        -1
+      ]
+    },
+    "polaridad": "negativa",
+    "tags": [
+      "soberania",
+      "seguimiento"
+    ],
+    "estado": "piloto",
+    "notas": "Seguimiento condicional de geo-016 para el motivo soberanista del rechazo a la autoridad supranacional: la nación como sede legítima de las decisiones, sea cual sea el color político. Convive con geo-018: un antiglobalista puede afirmar ambos motivos con intensidades propias y el eje recoge el saldo. | Esperado: Vox +2, SALF +2, Frente Obrero +2, Junts +1, PCTE +1 (defiende la soberanía nacional frente a UE/OTAN), trotskismo -2, Volt -2.",
+    "terminos": [
+      "supranacionalidad"
+    ]
+  },
+  {
+    "id": "geo-018",
+    "texto": "Mi rechazo se debe a que los organismos internacionales existentes sirven a los intereses de las grandes potencias y corporaciones, no a que la cooperación vinculante entre países sea mala en sí.",
+    "modulo": "geopolitica-defensa",
+    "ejes": [
+      {
+        "eje": "internacionalismo",
+        "carga": -0.5
+      }
+    ],
+    "condicion": {
+      "itemId": "geo-016",
+      "valores": [
+        -2,
+        -1
+      ]
+    },
+    "polaridad": "negativa",
+    "tags": [
+      "internacionalismo",
+      "antiimperialismo",
+      "seguimiento"
+    ],
+    "estado": "piloto",
+    "notas": "Seguimiento condicional de geo-016 para el rechazo internacionalista o antiimperialista de las instituciones actuales (vistas como instituciones de las potencias o «burguesas»): permite rechazar la gobernanza global existente sin puntuar como soberanista. La carga es moderada porque parte de la derecha antiglobalista también puede suscribirlo; su motivo dominante queda recogido por geo-017 y el saldo de ambos evita el sesgo en cualquier dirección. | Esperado: PCTE +2, trotskismo +2, CUP +2, Podemos +1, Vox +1 (lectura antiglobalista, con geo-017 +2 dominante), PSOE -1, Volt -2."
   },
   {
     "id": "sd-019",

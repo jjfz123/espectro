@@ -237,7 +237,10 @@
       "seguimiento"
     ],
     "estado": "piloto",
-    "notas": "Subpregunta condicional de ue-001 que identifica el motivo soberanista del euroescepticismo: el problema es la supranacionalidad en sí, no las políticas de esta UE concreta. No se infiere de ue-001 porque también existe euroescepticismo internacionalista (ue-005). Definida en nucleo.json junto a su padre porque el orden del banco sigue el orden de ficheros y el validador exige que el padre aparezca antes. | Esperado: Vox +2, SALF +2, Frente Obrero +2, falangismo +2, PCTE +1, PCE -1, trotskismo -2, Volt -2."
+    "notas": "Subpregunta condicional de ue-001 que identifica el motivo soberanista del euroescepticismo: el problema es la supranacionalidad en sí, no las políticas de esta UE concreta. No se infiere de ue-001 porque también existe euroescepticismo internacionalista (ue-005). Definida en nucleo.json junto a su padre porque el orden del banco sigue el orden de ficheros y el validador exige que el padre aparezca antes. | Esperado: Vox +2, SALF +2, Frente Obrero +2, falangismo +2, PCTE +1, PCE -1, trotskismo -2, Volt -2.",
+    "terminos": [
+      "supranacionalidad"
+    ]
   },
   {
     "id": "ue-005",
@@ -263,7 +266,10 @@
       "seguimiento"
     ],
     "estado": "piloto",
-    "notas": "Subpregunta condicional de ue-001 para el euroescepticismo internacionalista («otra Europa»): rechaza el marco vigente sin rechazar compartir soberanía. Junto a ue-004 separa la oposición a la UE del soberanismo: se puede querer romper con Bruselas siendo internacionalista, y ambas pueden puntuarse con independencia. Definida en nucleo.json junto a su padre por la regla de orden del banco. | Esperado: trotskismo +2 (Estados Unidos Socialistas de Europa), Podemos +1, PCE +1, PCTE -1 (entiende la salida como recuperación de soberanía nacional), Vox -2, SALF -2, Frente Obrero -2."
+    "notas": "Subpregunta condicional de ue-001 para el euroescepticismo internacionalista («otra Europa»): rechaza el marco vigente sin rechazar compartir soberanía. Junto a ue-004 separa la oposición a la UE del soberanismo: se puede querer romper con Bruselas siendo internacionalista, y ambas pueden puntuarse con independencia. Definida en nucleo.json junto a su padre por la regla de orden del banco. | Esperado: trotskismo +2 (Estados Unidos Socialistas de Europa), Podemos +1, PCE +1, PCTE -1 (entiende la salida como recuperación de soberanía nacional), Vox -2, SALF -2, Frente Obrero -2.",
+    "terminos": [
+      "supranacionalidad"
+    ]
   },
   {
     "id": "ecl-001",
