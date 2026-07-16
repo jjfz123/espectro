@@ -1,4 +1,5 @@
-import { useMemo, type CSSProperties } from 'react';
+import { lazy, Suspense, useMemo, type CSSProperties } from 'react';
+import type { ResultadoFaceta } from '@engine';
 import { COMUNIDADES, EJES } from '../datos';
 import {
   nombrePartidoCompartible,
@@ -16,6 +17,39 @@ import {
 interface Props {
   hash: string;
   alCerrar: () => void;
+}
+
+/**
+ * El atlas canónico (corrientes doctrinales + brújula) también se pinta en la
+ * vista compartida: sus capas son datos estáticos del bundle y el punto del
+ * usuario sale de las facetas del snapshot. Va en chunk perezoso, como en
+ * Resultados, para no cargar el presupuesto de la ruta compartida.
+ */
+const MapaPolitico = lazy(() =>
+  import('../componentes/MapaPolitico').then((modulo) => ({
+    default: modulo.MapaPolitico,
+  })),
+);
+
+/**
+ * Reconstruye las facetas mínimas que consume el mapa (facetaId, valor,
+ * cobertura y suficiencia). Los campos internos de cálculo (cargas,
+ * numeradores) no viajan en el enlace y el mapa no los lee: se rellenan a
+ * cero para cumplir el tipo sin fingir evidencia.
+ */
+function facetasDelSnapshot(resultado: ResultadoCompartidoV1): ResultadoFaceta[] {
+  return resultado.f.map(([facetaId, valor, cobertura, itemsRespondidos, suficiente]) => ({
+    facetaId,
+    valor: valor === null ? null : valor / 10,
+    itemsRespondidos,
+    itemsDisponibles: itemsRespondidos,
+    cargaRespondida: 0,
+    cargaDisponible: 0,
+    numerador: 0,
+    denominador: 0,
+    cobertura: cobertura / 1_000,
+    coberturaSuficiente: suficiente === 1,
+  }));
 }
 
 const EJE_POR_ID = new Map(EJES.map((eje) => [eje.id, eje]));
@@ -69,31 +103,26 @@ function BrujulaCompartida({ resultado }: { resultado: ResultadoCompartidoV1 }) 
       } as CSSProperties)
     : undefined;
 
+  // Sin sección propia: hoy solo actúa de plano provisional mientras resuelve
+  // el chunk perezoso del atlas canónico (y de vista mínima si aquel fallara).
   return (
-    <section className="seccion compartido-seccion" aria-labelledby="compartido-brujula-titulo">
-      <h2 id="compartido-brujula-titulo">Brújula principal</h2>
-      <p className="nota-al-margen">
-        Propiedad social y cooperativa ↔ propiedad privada y mercado; poder distribuido ↔ poder
-        concentrado.
-      </p>
-      <div
-        className="compartido-brujula"
-        role="img"
-        aria-label={
-          calculable
-            ? `Posición compartida: propiedad y mercado ${formatearEje(propiedad)}, poder político ${formatearEje(autoridad)}.`
-            : 'La instantánea no contiene evidencia suficiente para situar la brújula principal.'
-        }
-      >
-        <span className="compartido-brujula__eje compartido-brujula__eje--vertical" aria-hidden="true" />
-        <span className="compartido-brujula__eje compartido-brujula__eje--horizontal" aria-hidden="true" />
-        {calculable ? (
-          <span className="compartido-brujula__punto" style={estiloPunto} aria-hidden="true" />
-        ) : (
-          <span className="compartido-brujula__sin-datos">Evidencia insuficiente</span>
-        )}
-      </div>
-    </section>
+    <div
+      className="compartido-brujula"
+      role="img"
+      aria-label={
+        calculable
+          ? `Posición compartida: propiedad y mercado ${formatearEje(propiedad)}, poder político ${formatearEje(autoridad)}.`
+          : 'La instantánea no contiene evidencia suficiente para situar la brújula principal.'
+      }
+    >
+      <span className="compartido-brujula__eje compartido-brujula__eje--vertical" aria-hidden="true" />
+      <span className="compartido-brujula__eje compartido-brujula__eje--horizontal" aria-hidden="true" />
+      {calculable ? (
+        <span className="compartido-brujula__punto" style={estiloPunto} aria-hidden="true" />
+      ) : (
+        <span className="compartido-brujula__sin-datos">Evidencia insuficiente</span>
+      )}
+    </div>
   );
 }
 
@@ -214,7 +243,21 @@ export function ResultadoCompartido({ hash, alCerrar }: Props) {
         </p>
       </div>
 
-      <BrujulaCompartida resultado={resultado} />
+      <section className="seccion compartido-seccion" aria-labelledby="compartido-mapa-titulo">
+        <h2 id="compartido-mapa-titulo">Mapa del espectro</h2>
+        <p className="nota-al-margen">
+          El atlas de corrientes es el mismo de la vista completa; el punto marca la posición
+          del snapshot. Solo lectura: nada de lo que abras aquí toca el test de este navegador.
+        </p>
+        <Suspense fallback={<BrujulaCompartida resultado={resultado} />}>
+          <MapaPolitico
+            facetasUsuario={facetasDelSnapshot(resultado)}
+            puedeRecargar={false}
+            alConfirmarGuardado={() => false}
+            ccaa={resultado.c}
+          />
+        </Suspense>
+      </section>
       <AfinidadesCompartidas resultado={resultado} />
       <FacetasCompartidas resultado={resultado} />
 

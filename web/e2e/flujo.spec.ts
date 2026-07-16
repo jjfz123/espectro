@@ -664,7 +664,14 @@ test('el enlace compartido es mínimo, accesible y no toca la sesión local', as
   await expect.poll(() => page.evaluate(() => window.scrollY)).toBe(0);
   await expect(page.getByText('Vista compartida · solo lectura')).toBeVisible();
   await expect(page.getByText(/abrirlo no lee, guarda ni renueva el test/i)).toBeVisible();
-  await expect(page.getByText('Aceleracionismo neonazi')).toHaveCount(0);
+  // Desde 2026-07-16 (orden del propietario) la vista compartida pinta el
+  // atlas canónico: sus capas salen del bundle estático, nunca del enlace.
+  // El payload sigue siendo mínimo (facetas + top de afinidades) y eso lo
+  // vigilan crearSnapshotResultadoCompartido y el presupuesto de la ruta.
+  await expect(page.locator('.mapa-plano').first()).toBeVisible({ timeout: 15_000 });
+  expect(
+    await page.locator('.mapa-plano .mapa-punto').count(),
+  ).toBeGreaterThan(0);
 
   const operaciones = await page.evaluate(
     () =>
