@@ -607,17 +607,24 @@ export function cargarEstado(): Estado {
     const datos = JSON.parse(crudo) as Partial<Estado> & { guardadoEn?: unknown };
     const guardadoEn =
       typeof datos.guardadoEn === 'string' ? Date.parse(datos.guardadoEn) : Number.NaN;
-    // v5 → v6 sustituye semánticamente lab-017 en el recorrido rápido. La
+    // v5 → v6/v7 sustituye semánticamente lab-017 en el recorrido rápido. La
     // respuesta antigua se conserva bajo lab-039 —la formulación cooperativa
     // original, ahora exhaustiva— y la nueva lab-017 queda pendiente. Nunca se
     // reinterpreta el valor antiguo como opinión sobre propiedad privada.
-    const migracionLab017V5aV6 =
-      VERSION_INSTRUMENTO === '6' && datos.versionInstrumento === '5';
+    const migracionLab017DesdeV5 =
+      VERSION_INSTRUMENTO === '7' && datos.versionInstrumento === '5';
+    // v6 → v7 solo corrige signos de carga erróneos (lab-027: la prioridad
+    // nacional puntuaba hacia el polo internacionalista). Las respuestas
+    // guardadas conservan su significado literal y se restauran tal cual;
+    // únicamente cambia la proyección a ejes, que se recalcula siempre.
+    const migracionCompatibleV6aV7 =
+      VERSION_INSTRUMENTO === '7' && datos.versionInstrumento === '6';
+    const migracionDeclarada = migracionLab017DesdeV5 || migracionCompatibleV6aV7;
     const motivoRetirada: MotivoRetirada | null =
       datos.version !== 3
         ? 'version-app'
         : datos.versionInstrumento !== VERSION_INSTRUMENTO &&
-            !migracionLab017V5aV6
+            !migracionDeclarada
           ? 'instrumento'
           : !Number.isFinite(guardadoEn)
             ? 'marca-temporal'
@@ -666,7 +673,7 @@ export function cargarEstado(): Estado {
 
     if (datos.respuestas && typeof datos.respuestas === 'object') {
       for (const [id, valor] of Object.entries(datos.respuestas)) {
-        const idMigrado = migracionLab017V5aV6 && id === 'lab-017' ? 'lab-039' : id;
+        const idMigrado = migracionLab017DesdeV5 && id === 'lab-017' ? 'lab-039' : id;
         if (ITEM_POR_ID.has(idMigrado) && VALORES_VALIDOS.has(valor as Valor | null)) {
           estado.respuestas[idMigrado] = valor as Valor | null;
         }
@@ -674,7 +681,7 @@ export function cargarEstado(): Estado {
     }
     if (datos.importantes && typeof datos.importantes === 'object') {
       for (const [id, marcado] of Object.entries(datos.importantes)) {
-        const idMigrado = migracionLab017V5aV6 && id === 'lab-017' ? 'lab-039' : id;
+        const idMigrado = migracionLab017DesdeV5 && id === 'lab-017' ? 'lab-039' : id;
         if (marcado === true && ITEM_POR_ID.has(idMigrado)) estado.importantes[idMigrado] = true;
       }
     }
@@ -706,7 +713,7 @@ export function cargarEstado(): Estado {
     if (estado.fase !== 'portada' && Object.keys(estado.respuestas).length === 0 && estado.fase !== 'cuestionario') {
       estado.fase = 'portada';
     }
-    if (migracionLab017V5aV6 && estado.fase !== 'portada') {
+    if (migracionLab017DesdeV5 && estado.fase !== 'portada') {
       // La pregunta nueva debe contestarse expresamente incluso si la sesión
       // v5 ya había llegado a revisión o resultados. La respuesta antigua
       // permanece guardada como lab-039 y puede entrar en el exhaustivo cuando

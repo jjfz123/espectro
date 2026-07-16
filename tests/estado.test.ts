@@ -261,7 +261,40 @@ describe('estado del cuestionario', () => {
     });
   });
 
-  it('migra v5 a v6 sin reinterpretar la antigua lab-017', () => {
+  it('migra v6 a v7 restaurando las respuestas tal cual, sin remapeos ni reapertura', () => {
+    const anterior = {
+      ...ESTADO_INICIAL,
+      versionInstrumento: '6',
+      fase: 'resultados',
+      modo: 'completo',
+      respuestas: { 'eco-001': 2, 'lab-009': 2, 'lab-017': -1, 'lab-027': 2, 'soc-006': null },
+      importantes: { 'lab-027': true },
+      modulosActivos: ['trabajo-estado-sindicatos'],
+      guardadoEn: new Date().toISOString(),
+    };
+    conLocalStorage({ [CLAVE_ALMACEN]: JSON.stringify(anterior) }, () => {
+      const restaurado = cargarEstado();
+      // v6→v7 solo corrige signos de carga (lab-027): la respuesta guardada
+      // conserva su significado literal y no debe moverse ni reinterpretarse.
+      expect(restaurado).toMatchObject({
+        versionInstrumento: VERSION_INSTRUMENTO,
+        fase: 'resultados',
+        modo: 'completo',
+        modulosActivos: anterior.modulosActivos,
+      });
+      expect(restaurado.respuestas).toMatchObject({
+        'eco-001': 2,
+        'lab-009': 2,
+        'lab-017': -1,
+        'lab-027': 2,
+        'soc-006': null,
+      });
+      expect(restaurado.respuestas['lab-039']).toBeUndefined();
+      expect(restaurado.importantes).toEqual({ 'lab-027': true });
+    });
+  });
+
+  it('migra v5 a v7 sin reinterpretar la antigua lab-017', () => {
     const anterior = {
       ...ESTADO_INICIAL,
       versionInstrumento: '5',
@@ -322,7 +355,7 @@ describe('estado del cuestionario', () => {
     };
     const casos: Array<[string, string]> = [
       [JSON.stringify({ ...base, versionInstrumento: 'instrumento-incompatible' }), 'instrumento'],
-      // Solo v5→v6 está declarada: los saltos anteriores ya no son compatibles.
+      // Solo v5→v7 y v6→v7 están declaradas: los saltos anteriores ya no son compatibles.
       [JSON.stringify({ ...base, versionInstrumento: '4' }), 'instrumento'],
       [
         JSON.stringify({

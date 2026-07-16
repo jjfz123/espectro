@@ -329,7 +329,7 @@
       },
       {
         "eje": "internacionalismo",
-        "carga": -0.75
+        "carga": 0.75
       },
       {
         "eje": "implicacion-internacional",
@@ -350,7 +350,7 @@
       "nativismo"
     ],
     "estado": "piloto",
-    "notas": "Seguimiento condicional para la justificación nacional-prioritaria o de chovinismo de bienestar, que puede coexistir con protesta fiscal en corrientes de extrema derecha. No se infiere esta motivación de lab-009 ni se usa el nombre de ninguna corriente en la pregunta.",
+    "notas": "Seguimiento condicional para la justificación nacional-prioritaria o de chovinismo de bienestar, que puede coexistir con protesta fiscal en corrientes de extrema derecha. No se infiere esta motivación de lab-009 ni se usa el nombre de ninguna corriente en la pregunta. Signo de internacionalismo corregido en v7: la prioridad nacional carga hacia el polo soberanista (+), coherente con der-015/izq-013/izq-025; el signo negativo original puntuaba el chovinismo de bienestar como internacionalista.",
     "terminos": [
       "chovinismo-bienestar"
     ]
