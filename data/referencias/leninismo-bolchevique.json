@@ -6,9 +6,16 @@
   "variante": "Lenin y el bolchevismo entre ¿Qué hacer? (1902), El Estado y la revolución (1917) y la NEP (1921); distinto del marxismo-leninismo soviético codificado después de 1924 y de sus variantes estalinista, maoísta, hoxhaísta o eurocomunista",
   "periodo": "1902-1921",
   "confianza": "verificada",
-  "version": "1.0",
-  "revisado": "2026-07-11",
-  "facetasDefinitorias": ["metodo-cambio", "organizacion", "institucionalismo", "economico", "estatismo", "internacionalismo"],
+  "version": "1.1",
+  "revisado": "2026-07-16",
+  "facetasDefinitorias": [
+    "metodo-cambio",
+    "organizacion",
+    "institucionalismo",
+    "economico",
+    "estatismo",
+    "internacionalismo"
+  ],
   "sensibilidad": "antipluralista",
   "advertencia": "Es un tipo ideal histórico, no la ficha de ningún partido actual ni una etiqueta personal. Mantiene a la vista una tensión real del corpus: El Estado y la revolución propone sustituir policía y ejército permanente por el pueblo armado, mientras el gobierno revolucionario construyó órganos coercitivos y en 1921 prohibió las fracciones internas. La posición sobre policía refleja el horizonte doctrinal y se modera a +1; la organización del partido refleja la decisión efectiva de 1921. La NEP tampoco convierte a Lenin en partidario de una economía mixta permanente: tolera mercado y capital privado de forma subordinada y transitoria.",
   "fuentesMarco": [
@@ -225,6 +232,42 @@
         "url": "https://www.marxists.org/archive/lenin/works/1905/dec/03.htm",
         "fecha": "1905-12-03",
         "consultado": "2026-07-11"
+      }
+    },
+    "dem-010": {
+      "valor": -2,
+      "justificacion": "La revolución proletaria y el renegado Kautsky (1918) defiende la dictadura del proletariado como poder no restringido por ley y rechaza la igualdad política con la burguesía; en el periodo, los kadetes fueron ilegalizados (noviembre de 1917) y mencheviques y eseristas expulsados de los soviets (junio de 1918). La competencia permanente entre partidos no forma parte del horizonte doctrinal de la transición.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "V. I. Lenin, The Proletarian Revolution and the Renegade Kautsky (en inglés)",
+        "url": "https://www.marxists.org/archive/lenin/works/1918/prrk/",
+        "fecha": "1918-11",
+        "consultado": "2026-07-16"
+      }
+    },
+    "dem-019": {
+      "valor": 2,
+      "justificacion": "La dictadura del proletariado se ejerce a través del partido de vanguardia: La enfermedad infantil del «izquierdismo» (1920) teoriza la dirección del Estado soviético por el partido, y tras el X Congreso (1921) no subsisten partidos rivales legales ni fracciones internas. El pluralismo entre partidos queda descartado durante la transición, aunque el horizonte final sea la extinción del Estado.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "V. I. Lenin, «Left-Wing» Communism: an Infantile Disorder (en inglés)",
+        "url": "https://www.marxists.org/archive/lenin/works/1920/lwc/",
+        "fecha": "1920-06",
+        "consultado": "2026-07-16"
+      }
+    },
+    "lim-005": {
+      "valor": 2,
+      "justificacion": "El Decreto sobre la prensa (noviembre de 1917) cerró los periódicos considerados contrarrevolucionarios sin exigir delito violento, y la polémica con Kautsky justifica expresamente privar a la burguesía de libertades de prensa y reunión como medida de clase durante la dictadura del proletariado.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "V. I. Lenin, The Proletarian Revolution and the Renegade Kautsky (en inglés)",
+        "url": "https://www.marxists.org/archive/lenin/works/1918/prrk/",
+        "fecha": "1918-11",
+        "consultado": "2026-07-16"
       }
     }
   }
