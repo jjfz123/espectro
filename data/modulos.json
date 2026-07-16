@@ -2,7 +2,7 @@
   {
     "id": "nucleo",
     "nombre": "Núcleo",
-    "descripcion": "50 ítems generales que posicionan en los ejes principales y sirven para el perfil y el matching electoral provisional.",
+    "descripcion": "65 ítems generales que posicionan en los ejes principales y sirven para el perfil y el matching electoral provisional.",
     "orden": 1,
     "desbloqueo": {
       "tipo": "siempre"
@@ -226,7 +226,7 @@
   {
     "id": "geopolitica-defensa",
     "nombre": "Geopolítica, defensa y paz",
-    "descripcion": "Pacifismo, intervención, neutralidad, OTAN, armas nucleares, Sáhara Occidental, reclamaciones históricas e hipótesis de integración ibérica.",
+    "descripcion": "Pacifismo, intervención, neutralidad, OTAN, armas nucleares, Sáhara Occidental, reclamaciones históricas, hipótesis de integración ibérica y los motivos del euroescepticismo: soberanista o internacionalista.",
     "orden": 5,
     "eleccionUsuario": true,
     "desbloqueo": {
