@@ -6,8 +6,8 @@
   "variante": "Fase nacionalcatólica delimitada entre el Fuero de los Españoles de 1945 y el giro tecnocrático de 1957; conserva instituciones anteriores que siguieron vigentes, pero no se confunde con el proyecto propio de FE de las JONS de 1934, con el carlismo tradicionalista ni con el desarrollismo posterior",
   "periodo": "1945-1957",
   "confianza": "verificada",
-  "version": "1.0",
-  "revisado": "2026-07-11",
+  "version": "1.1",
+  "revisado": "2026-07-16",
   "facetasDefinitorias": [
     "laicismo",
     "tradicion-moral",
@@ -342,6 +342,54 @@
         "cita": "La lengua española, vínculo fundamental de la comunidad hispánica, será obligatoria y objeto de cultivo especial, como imprescindible instrumento de expresión y de formación humana, en toda la educación primaria nacional."
       },
       "grupoEvidencia": "pasaje-45e64d65b9fb94877485"
+    },
+    "lab-017": {
+      "valor": 2,
+      "justificacion": "El régimen consagra la propiedad privada de las grandes empresas: el Fuero del Trabajo la reconoce como «medio natural» para los fines familiares y sociales y hace del empresario el jefe de la empresa; banca y gran industria siguieron mayoritariamente en manos privadas, con el INI como complemento subsidiario, no como sustituto.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Fuero del Trabajo de 1938 (síntesis y texto, Wikipedia)",
+        "url": "https://es.wikipedia.org/wiki/Fuero_del_Trabajo",
+        "fecha": "1938-03-09",
+        "consultado": "2026-07-16"
+      }
+    },
+    "eco-001": {
+      "valor": -2,
+      "justificacion": "Sistema fiscal regresivo apoyado en imposición indirecta y de producto, sin impuesto personal progresivo efectivo sobre las rentas altas: la imposición progresiva moderna (IRPF) llega con la reforma de 1977-1978, después de la dictadura.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Historia del IRPF en España: la imposición personal progresiva llega con la reforma de 1977-1978 (Wikipedia)",
+        "url": "https://es.wikipedia.org/wiki/Impuesto_sobre_la_renta_de_las_personas_f%C3%ADsicas_(Espa%C3%B1a)",
+        "fecha": "1978",
+        "consultado": "2026-07-16"
+      }
+    },
+    "lab-039": {
+      "valor": -2,
+      "justificacion": "Ni socialización ni cooperativización de las grandes empresas: el Fuero del Trabajo fija la jerarquía interna con el empresario como responsable ante el Estado y el sindicato vertical excluye el control obrero de la gestión.",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Fuero del Trabajo de 1938 (síntesis y texto, Wikipedia)",
+        "url": "https://es.wikipedia.org/wiki/Fuero_del_Trabajo",
+        "fecha": "1938-03-09",
+        "consultado": "2026-07-16"
+      }
+    },
+    "eco-005": {
+      "valor": 2,
+      "justificacion": "El intervencionismo alcanzó también la vivienda: la Ley de Arrendamientos Urbanos de 1946 y sus prórrogas congelaron las rentas de alquiler durante décadas (la «renta antigua»).",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "otro",
+        "titulo": "Renta antigua: congelación de los alquileres desde la LAU de 1946 (Wikipedia)",
+        "url": "https://es.wikipedia.org/wiki/Renta_antigua",
+        "fecha": "1946",
+        "consultado": "2026-07-16"
+      }
     }
   }
 }

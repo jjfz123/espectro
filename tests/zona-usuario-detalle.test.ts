@@ -31,17 +31,30 @@ describe('rótulo de zona con periodo histórico', () => {
 });
 
 describe('zona más cercana bajo el punto del usuario', () => {
-  it('el caso del feedback: izquierda + orden nombra al franquismo CON distancia y aviso', () => {
+  it('izquierda + orden nombra a la izquierda social-patriótica CON distancia y aviso', () => {
+    // 2026-07-16 (orden del propietario): el franquismo nacionalcatólico ya no
+    // proyecta como izquierda económica — su ficha ganó los contrapesos
+    // documentados de propiedad privada (Fuero del Trabajo) y fiscalidad
+    // regresiva (sin IRPF hasta 1978) y queda en el centro-alto del plano.
+    // La zona izquierda+orden pasa a nombrarse por su vecina real.
     const zona = zonaMasCercanaDelPar('economico', 'social', {
       economico: -60,
       social: 70,
     });
     expect(zona).not.toBeNull();
-    expect(zona!.id).toBe('franquismo-nacionalcatolico-1945-1957');
+    expect(zona!.id).toBe('izquierda-social-patriotica-espanola');
     // A decenas de unidades del ancla: la advertencia de capa poco poblada aplica.
     expect(zona!.distancia).toBeGreaterThanOrEqual(UMBRAL_ZONA_LEJANA);
     expect(zona!.distancia).toBeLessThan(60);
     expect(zona!.dibujadas).toBeGreaterThanOrEqual(5);
+  });
+
+  it('el franquismo nacionalcatólico ya no reclama la esquina izquierda + orden', () => {
+    const zona = zonaMasCercanaDelPar('economico', 'social', {
+      economico: -60,
+      social: 70,
+    });
+    expect(zona!.id).not.toBe('franquismo-nacionalcatolico-1945-1957');
   });
 
   it('sin valor en uno de los ejes no se inventa zona', () => {
