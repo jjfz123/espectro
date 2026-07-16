@@ -134,6 +134,10 @@
     "id": "ene-007",
     "texto": "Debería existir una empresa pública de generación y comercialización de energía que compita con las privadas.",
     "modulo": "energia-modelo-productivo",
+    "marco": {
+      "supuesto": "sistema-actual",
+      "aclaracion": "Pregunta solo por añadir una competidora pública al mercado eléctrico actual, no por nacionalizar todo el sector: valora este paso en sí mismo aunque tu preferencia vaya más lejos (o se quede más corta)."
+    },
     "ejes": [
       {
         "eje": "economico",
@@ -154,7 +158,7 @@
       "empresas-energeticas"
     ],
     "estado": "piloto",
-    "notas": "Distingue una empresa pública que compite de nacionalizar todo el sector y de la titularidad de la red; permite apoyar provisión mixta sin atribuir monopolio estatal."
+    "notas": "Distingue una empresa pública que compite de nacionalizar todo el sector y de la titularidad de la red; permite apoyar provisión mixta sin atribuir monopolio estatal. El marco aclara al partidario de la nacionalización total que aquí se valora el paso intermedio, para que su desacuerdo «por insuficiente» no se lea como defensa del mercado puro."
   },
   {
     "id": "ene-008",

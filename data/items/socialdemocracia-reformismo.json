@@ -177,6 +177,10 @@
     "id": "sd-011",
     "texto": "El Estado debe crear una empresa pública de energía que compita con las grandes eléctricas privadas.",
     "modulo": "socialdemocracia-reformismo",
+    "marco": {
+      "supuesto": "sistema-actual",
+      "aclaracion": "Una competidora pública dentro del mercado actual, no la nacionalización del sector: la titularidad pública de las grandes eléctricas se pregunta justo después."
+    },
     "ejes": [
       {
         "eje": "economico",

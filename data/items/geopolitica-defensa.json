@@ -279,6 +279,29 @@
     "notas": "Caso institucional con coste de soberanía que distingue integración multilateral de unanimidad estatal; evita el acuerdo abstracto con «compromisos internacionales»."
   },
   {
+    "id": "geo-016",
+    "texto": "Los grandes problemas globales, como el clima o los impuestos a las multinacionales, deberían decidirse en organismos internacionales con capacidad de obligar a los Estados.",
+    "modulo": "geopolitica-defensa",
+    "ejes": [
+      {
+        "eje": "internacionalismo",
+        "carga": -0.75
+      },
+      {
+        "eje": "implicacion-internacional",
+        "carga": 0.5
+      }
+    ],
+    "polaridad": "positiva",
+    "tags": [
+      "multilateralismo",
+      "gobernanza-global",
+      "soberania"
+    ],
+    "estado": "piloto",
+    "notas": "Mide la disposición a aceptar autoridad supranacional sin nombrar a la UE: separa al europeísta instrumental (defiende la UE por interés nacional pero rechaza obligaciones globales) del internacionalista, y permite que un euroescéptico internacionalista puntúe hacia ese polo aunque rechace Bruselas. No duplica geo-015: allí la escala es la UE y una regla de voto concreta; aquí la autoridad vinculante es global y genérica. | Esperado: Volt +2, Sumar +1, PSOE +1, ERC +1, PP -1, Junts -1, PCTE -1 (ve los organismos actuales como instrumentos de bloque), Vox -2, SALF -2."
+  },
+  {
     "id": "sd-019",
     "texto": "España debe defender un referéndum de autodeterminación para el Sáhara Occidental.",
     "modulo": "geopolitica-defensa",

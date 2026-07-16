@@ -211,7 +211,59 @@
       "soberania"
     ],
     "estado": "piloto",
-    "notas": "Ancla soberanía estatal frente a mayor integración europea; puede unir izquierdas y derechas euroescépticas por razones incompatibles que se afinan después."
+    "notas": "Ancla soberanía estatal frente a mayor integración europea; puede unir izquierdas y derechas euroescépticas por razones incompatibles. Las subpreguntas ue-004 y ue-005 (módulo geopolitica-defensa) separan el motivo soberanista del internacionalista sin inferirlo de esta respuesta."
+  },
+  {
+    "id": "ue-004",
+    "texto": "Mi recelo hacia la integración europea vale para cualquier organismo supranacional: las decisiones importantes deben tomarse en la nación.",
+    "modulo": "geopolitica-defensa",
+    "ejes": [
+      {
+        "eje": "internacionalismo",
+        "carga": 0.75
+      }
+    ],
+    "condicion": {
+      "itemId": "ue-001",
+      "valores": [
+        1,
+        2
+      ]
+    },
+    "polaridad": "negativa",
+    "tags": [
+      "ue",
+      "soberania",
+      "seguimiento"
+    ],
+    "estado": "piloto",
+    "notas": "Subpregunta condicional de ue-001 que identifica el motivo soberanista del euroescepticismo: el problema es la supranacionalidad en sí, no las políticas de esta UE concreta. No se infiere de ue-001 porque también existe euroescepticismo internacionalista (ue-005). Definida en nucleo.json junto a su padre porque el orden del banco sigue el orden de ficheros y el validador exige que el padre aparezca antes. | Esperado: Vox +2, SALF +2, Frente Obrero +2, falangismo +2, PCTE +1, PCE -1, trotskismo -2, Volt -2."
+  },
+  {
+    "id": "ue-005",
+    "texto": "Mi oposición apunta a las políticas y tratados de esta UE concreta: vería con buenos ojos una integración supranacional con otras políticas.",
+    "modulo": "geopolitica-defensa",
+    "ejes": [
+      {
+        "eje": "internacionalismo",
+        "carga": -0.75
+      }
+    ],
+    "condicion": {
+      "itemId": "ue-001",
+      "valores": [
+        1,
+        2
+      ]
+    },
+    "polaridad": "negativa",
+    "tags": [
+      "ue",
+      "otra-europa",
+      "seguimiento"
+    ],
+    "estado": "piloto",
+    "notas": "Subpregunta condicional de ue-001 para el euroescepticismo internacionalista («otra Europa»): rechaza el marco vigente sin rechazar compartir soberanía. Junto a ue-004 separa la oposición a la UE del soberanismo: se puede querer romper con Bruselas siendo internacionalista, y ambas pueden puntuarse con independencia. Definida en nucleo.json junto a su padre por la regla de orden del banco. | Esperado: trotskismo +2 (Estados Unidos Socialistas de Europa), Podemos +1, PCE +1, PCTE -1 (entiende la salida como recuperación de soberanía nacional), Vox -2, SALF -2, Frente Obrero -2."
   },
   {
     "id": "ecl-001",
