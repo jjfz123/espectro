@@ -794,7 +794,10 @@
       "autogestion"
     ],
     "estado": "piloto",
-    "notas": "Discrimina: Marcador del autonomismo y la cultura okupa (CSOA), compartido por CUP y anarquismo (muy de acuerdo); la izquierda institucional es tibia (PCE/IU, Podemos) y el PSOE lo rechaza por respeto a la propiedad. | Esperado: autonomismo +2, anarcocomunismo +2, CUP +2, Podemos +1, PCE/IU +1, PSOE -1. | [Corregido en revisión: Tal como está, no discrimina: 'deberían poder convertirse' admite la lectura institucional blanda (cesión municipal de solares, programas tipo 'esto no es un solar') con la que hasta un votante del PSOE está de acuerdo; el -1 esperado del PSOE es probablemente erróneo con ese texto. Lo que separa autonomismo/CSOA de la izquierda institucional no es el fin (centros sociales) sino el medio (la ocupación sin permiso de la propiedad). Hay que nombrar la práctica; 'ocupar' no es palabra-bandera peyorativa, es el objeto medido.]"
+    "notas": "Discrimina: Marcador del autonomismo y la cultura okupa (CSOA), compartido por CUP y anarquismo (muy de acuerdo); la izquierda institucional es tibia (PCE/IU, Podemos) y el PSOE lo rechaza por respeto a la propiedad. | Esperado: autonomismo +2, anarcocomunismo +2, CUP +2, Podemos +1, PCE/IU +1, PSOE -1. | [Corregido en revisión: Tal como está, no discrimina: 'deberían poder convertirse' admite la lectura institucional blanda (cesión municipal de solares, programas tipo 'esto no es un solar') con la que hasta un votante del PSOE está de acuerdo; el -1 esperado del PSOE es probablemente erróneo con ese texto. Lo que separa autonomismo/CSOA de la izquierda institucional no es el fin (centros sociales) sino el medio (la ocupación sin permiso de la propiedad). Hay que nombrar la práctica; 'ocupar' no es palabra-bandera peyorativa, es el objeto medido.]",
+    "terminos": [
+      "autogestion"
+    ]
   },
   {
     "id": "izq-043",

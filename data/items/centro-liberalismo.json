@@ -116,7 +116,8 @@
     "estado": "piloto",
     "notas": "Discrimina: Capitalización vs reparto: liberal clásico y P-LIB (sustitución) frente a socioliberal (sistema mixto, capitalización solo complementaria) y frente a PP y Vox, que defienden el reparto público pese a su discurso de bajada de impuestos. | Esperado: P-LIB +2, liberalismo clásico +2, Ciudadanos +1, PP -1, Vox -1, PRC -1, PSOE -2.",
     "terminos": [
-      "pensiones-capitalizacion"
+      "pensiones-capitalizacion",
+      "reparto-capitalizacion"
     ]
   },
   {

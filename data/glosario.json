@@ -608,5 +608,23 @@
     "termino": "Competencias autonómicas",
     "definicion": "Materias que la Constitución y los estatutos reparten entre el Estado y las comunidades autónomas (sanidad, educación o vivienda son autonómicas; defensa o pensiones, estatales). «Devolver competencias» significa recentralizar ese reparto.",
     "url": "https://app.congreso.es/consti/constitucion/indice/titulos/articulos.jsp?ini=148&fin=149&tipo=2"
+  },
+  {
+    "id": "taxonomia-europea",
+    "termino": "Taxonomía europea de inversiones sostenibles",
+    "definicion": "Clasificación de la Unión Europea (Reglamento 2020/852) que fija qué actividades económicas cuentan como ambientalmente sostenibles para orientar la inversión «verde». En 2022 un acto delegado incluyó, con condiciones y de forma transitoria, determinadas actividades de gas y nucleares, lo que dividió a gobiernos y a ecologistas: para unos reconoce tecnologías bajas en carbono necesarias para la transición; para otros es un lavado verde que desvía fondos de las renovables.",
+    "url": "https://finance.ec.europa.eu/sustainable-finance/tools-and-standards/eu-taxonomy-sustainable-activities_en"
+  },
+  {
+    "id": "reparto-capitalizacion",
+    "termino": "Pensiones de reparto y de capitalización",
+    "definicion": "En un sistema de reparto, como el español, las cotizaciones de quienes trabajan hoy pagan las pensiones de quienes ya están jubilados. En uno de capitalización, cada persona acumula sus aportaciones en una cuenta o fondo propio que financia su pensión futura. Los defensores del reparto subrayan la solidaridad intergeneracional y la protección frente a las crisis financieras; los de la capitalización, la propiedad individual del ahorro y la menor dependencia de la demografía. Hay modelos mixtos, como las cuentas nocionales suecas.",
+    "url": "https://es.wikipedia.org/wiki/Sistema_de_reparto"
+  },
+  {
+    "id": "mayoria-cualificada-ue",
+    "termino": "Mayoría cualificada en el Consejo de la UE",
+    "definicion": "Regla de voto del Consejo de la Unión Europea: una decisión se aprueba con al menos el 55 % de los Estados que representen el 65 % de la población, sin veto individual. Se aplica ya a la mayoría de materias, pero la política exterior, la fiscalidad o la ampliación siguen exigiendo unanimidad. Extenderla agiliza la decisión común a costa del veto nacional: es el núcleo del debate entre más integración y soberanía.",
+    "url": "https://es.wikipedia.org/wiki/Mayor%C3%ADa_cualificada"
   }
 ]

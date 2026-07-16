@@ -369,7 +369,10 @@
       "regularizacion"
     ],
     "estado": "piloto",
-    "notas": "Discrimina: Sumar, Podemos, Más Madrid y Compromís (apoyo activo a la ILP de regularización extraordinaria) frente a la cautela de la dirección del PSOE (reforma reglamentaria y canales ordinarios, sin regularización masiva) e Izquierda Española (orden migratorio). Único ítem migratorio que separa dentro de la izquierda, cosa que el ítem de devoluciones del núcleo no hace. | Esperado: Podemos +2, Sumar +2, Más Madrid +2, Compromís +2, PSOE (dirección) +0, Izquierda Española -1. | Redacción de principio ('regularización extraordinaria' es figura estable, usada en 1991, 2000, 2005) para no atarse a la ILP concreta. Carga parcial en el eje social (polo GAL) porque la posición migratoria es el mejor indicador GAL-TAN disponible dentro de la familia. | [Añadido por el revisor para cubrir un hueco]"
+    "notas": "Discrimina: Sumar, Podemos, Más Madrid y Compromís (apoyo activo a la ILP de regularización extraordinaria) frente a la cautela de la dirección del PSOE (reforma reglamentaria y canales ordinarios, sin regularización masiva) e Izquierda Española (orden migratorio). Único ítem migratorio que separa dentro de la izquierda, cosa que el ítem de devoluciones del núcleo no hace. | Esperado: Podemos +2, Sumar +2, Más Madrid +2, Compromís +2, PSOE (dirección) +0, Izquierda Española -1. | Redacción de principio ('regularización extraordinaria' es figura estable, usada en 1991, 2000, 2005) para no atarse a la ILP concreta. Carga parcial en el eje social (polo GAL) porque la posición migratoria es el mejor indicador GAL-TAN disponible dentro de la familia. | [Añadido por el revisor para cubrir un hueco]",
+    "terminos": [
+      "regularizacion-extraordinaria"
+    ]
   },
   {
     "id": "sd-022",

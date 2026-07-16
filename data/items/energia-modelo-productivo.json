@@ -35,7 +35,10 @@
       "residuos"
     ],
     "estado": "piloto",
-    "notas": "Captura ecologismo pronuclear con el alcance real de la taxonomía europea: determinadas actividades bajo requisitos, no toda la tecnología sin condiciones; evita identificar toda defensa nuclear con productivismo."
+    "notas": "Captura ecologismo pronuclear con el alcance real de la taxonomía europea: determinadas actividades bajo requisitos, no toda la tecnología sin condiciones; evita identificar toda defensa nuclear con productivismo.",
+    "terminos": [
+      "taxonomia-europea"
+    ]
   },
   {
     "id": "ene-003",

@@ -389,7 +389,10 @@
       "populismo"
     ],
     "estado": "piloto",
-    "notas": "Discrimina: Distingue las dos antipolíticas de la familia que dr-13 y dr-14 no separan entre sí: la plebiscitaria de SALF (+2, democracia directa digital) frente a la orgánica de la Falange (-1, que rechaza el plebiscitarismo liberal tanto como los partidos) y frente a VOX (-1, que recela de los referéndums por el precedente territorial catalán). Ancla externa Podemos +1 documenta la no exclusividad derechista del plebiscitarismo. | Esperado: SALF +2, Democracia Nacional +1, VOX -1, Falange (FE-JONS / La Falange) -1, nacional-catolicismo -1, PP -1, Podemos +1. | [Añadido por el revisor para cubrir un hueco]"
+    "notas": "Discrimina: Distingue las dos antipolíticas de la familia que dr-13 y dr-14 no separan entre sí: la plebiscitaria de SALF (+2, democracia directa digital) frente a la orgánica de la Falange (-1, que rechaza el plebiscitarismo liberal tanto como los partidos) y frente a VOX (-1, que recela de los referéndums por el precedente territorial catalán). Ancla externa Podemos +1 documenta la no exclusividad derechista del plebiscitarismo. | Esperado: SALF +2, Democracia Nacional +1, VOX -1, Falange (FE-JONS / La Falange) -1, nacional-catolicismo -1, PP -1, Podemos +1. | [Añadido por el revisor para cubrir un hueco]",
+    "terminos": [
+      "referendum-vinculante"
+    ]
   },
   {
     "id": "dr-021",

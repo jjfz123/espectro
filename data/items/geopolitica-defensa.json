@@ -187,7 +187,10 @@
       "tropas"
     ],
     "estado": "piloto",
-    "notas": "Aplica democracia directa a una operación de combate y reconoce el control parlamentario vigente; evita incluir evacuación o mantenimiento de paz y separa procedimiento de pacifismo."
+    "notas": "Aplica democracia directa a una operación de combate y reconoce el control parlamentario vigente; evita incluir evacuación o mantenimiento de paz y separa procedimiento de pacifismo.",
+    "terminos": [
+      "referendum-vinculante"
+    ]
   },
   {
     "id": "geo-010",
@@ -276,7 +279,10 @@
       "soberania"
     ],
     "estado": "piloto",
-    "notas": "Caso institucional con coste de soberanía que distingue integración multilateral de unanimidad estatal; evita el acuerdo abstracto con «compromisos internacionales»."
+    "notas": "Caso institucional con coste de soberanía que distingue integración multilateral de unanimidad estatal; evita el acuerdo abstracto con «compromisos internacionales».",
+    "terminos": [
+      "mayoria-cualificada-ue"
+    ]
   },
   {
     "id": "geo-016",
