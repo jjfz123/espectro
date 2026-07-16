@@ -77,43 +77,12 @@ function minimizarCatalogosResultados() {
         Object.values(objeto).forEach(eliminarNotasNoRenderizadas);
       };
       eliminarNotasNoRenderizadas(dato);
-      // Recibos de auditoría que ninguna vista pinta: `grupoEvidencia` agrupa
-      // pasajes para el auditor de la brújula (CI), y una `cita` que solo
-      // repite el titular ya visible como `titulo` (titular-como-cita) no
-      // añade información en DetallePartido — se muestra el título y basta.
-      // Los pasajes genuinos (cita ≠ titular) SÍ viajan y se siguen citando.
-      const normalizarTitular = (texto: string) =>
-        texto
-          .normalize('NFKD')
-          .replace(/[̀-ͯ]/g, '')
-          .toLocaleLowerCase('es')
-          .replace(/[\p{P}\p{S}]+/gu, ' ')
-          .replace(/\s+/g, ' ')
-          .trim();
-      const podarRecibosAuditoria = (coleccion: unknown) => {
-        if (!coleccion || typeof coleccion !== 'object') return;
-        for (const posicion of Object.values(coleccion as Record<string, unknown>)) {
-          if (!posicion || typeof posicion !== 'object') continue;
-          const registro = posicion as Record<string, unknown>;
-          delete registro.grupoEvidencia;
-          const fuente = registro.fuente as Record<string, unknown> | undefined;
-          if (
-            fuente &&
-            typeof fuente.cita === 'string' &&
-            typeof fuente.titulo === 'string' &&
-            normalizarTitular(fuente.titulo).includes(normalizarTitular(fuente.cita))
-          ) {
-            delete fuente.cita;
-          }
-        }
-      };
-      if (id.includes('/data/partidos/') || id.includes('/data/sindicatos/')) {
-        podarRecibosAuditoria((dato as { posiciones?: unknown }).posiciones);
-        podarRecibosAuditoria(
-          (dato as { dobleLectura?: { contraste?: { posiciones?: unknown } } }).dobleLectura
-            ?.contraste?.posiciones,
-        );
-      }
+      // NO podar `grupoEvidencia` ni `fuente.cita` de partidos/sindicatos:
+      // no son solo metadatos de CI — mapaEspacial.ts ejecuta
+      // auditarPerfilBrujula en el navegador para clasificar cada punto
+      // (sólida/provisional/estimada) y esa evaluación exige pasaje citado y
+      // grupo de evidencia. Podarlos degrada todos los puntos a estimada
+      // (lo cazó la e2e de la brújula el 2026-07-16).
       if (id.includes('/data/partidos/')) {
         delete dato.registroMir;
         delete dato.autodescripcion;

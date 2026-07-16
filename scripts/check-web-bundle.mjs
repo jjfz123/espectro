@@ -174,9 +174,15 @@ function tamanoDirectorio(ruta) {
 }
 
 const total = tamanoDirectorio(dist);
-const maxTotal = 3.2 * 1024 * 1024;
+// 2026-07-16: 3,20→3,30. La tanda de anclaje completó ~1.280 citas
+// (titular-como-cita) en las fichas de partidos; medido: 3,28. Ese payload es
+// FUNCIONAL: auditarPerfilBrujula clasifica los puntos en el navegador y
+// exige pasaje citado + grupo de evidencia (podarlos degradó la brújula y lo
+// cazó la e2e). Próxima palanca real si vuelve a crecer: cargar las fichas
+// completas en diferido desde la enciclopedia en vez de en el precache.
+const maxTotal = 3.3 * 1024 * 1024;
 if (total > maxTotal) {
-  errores.push(`PWA completa: ${(total / 1024 / 1024).toFixed(2)} MiB supera 3,20 MiB`);
+  errores.push(`PWA completa: ${(total / 1024 / 1024).toFixed(2)} MiB supera 3,30 MiB`);
 } else {
   console.log(`✓ PWA completa: ${(total / 1024 / 1024).toFixed(2)} MiB`);
 }

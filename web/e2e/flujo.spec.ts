@@ -110,7 +110,7 @@ function crearSesionEnHitoIntermedio() {
 
   return {
     version: 3,
-    versionInstrumento: '6',
+    versionInstrumento: '7',
     fase: 'hito-intermedio',
     ccaa: '',
     eleccion: 'generales',
@@ -154,7 +154,7 @@ function crearSesionResultadosRapidos(valor: -2 | -1 | 0 | 1 | 2 = 0) {
 
   return {
     version: 3,
-    versionInstrumento: '6',
+    versionInstrumento: '7',
     guardadoEn: new Date().toISOString(),
     fase: 'resultados',
     ccaa: '',
@@ -363,7 +363,7 @@ test('una sesión v5 reabre la nueva pregunta 65 sin reinterpretar la respuesta 
   await expect.poll(async () =>
     page.evaluate((clave) => JSON.parse(localStorage.getItem(clave) ?? '{}'), CLAVE_ALMACEN),
   ).toMatchObject({
-    versionInstrumento: '6',
+    versionInstrumento: '7',
     fase: 'cuestionario',
     respuestas: { 'lab-039': 1 },
   });
@@ -799,7 +799,7 @@ test('las ramas condicionales aparecen y sus respuestas se limpian al cambiar el
       clave,
       JSON.stringify({
         version: 3,
-        versionInstrumento: '6',
+        versionInstrumento: '7',
         guardadoEn: new Date().toISOString(),
         fase: 'revision',
         ccaa: '',
@@ -885,7 +885,7 @@ test('autonómicas sin comunidad no mezclan partidos de territorios distintos', 
       clave,
       JSON.stringify({
         version: 3,
-        versionInstrumento: '6',
+        versionInstrumento: '7',
         guardadoEn: new Date().toISOString(),
         fase: 'resultados',
         ccaa: '',
@@ -923,7 +923,7 @@ test('un partido monotemático aparece sin porcentaje de afinidad general', asyn
       clave,
       JSON.stringify({
         version: 3,
-        versionInstrumento: '6',
+        versionInstrumento: '7',
         guardadoEn: new Date().toISOString(),
         fase: 'resultados',
         ccaa: '',
@@ -968,7 +968,7 @@ test('una referencia violenta se contextualiza sin porcentaje ni identidad perso
       clave,
       JSON.stringify({
         version: 3,
-        versionInstrumento: '6',
+        versionInstrumento: '7',
         guardadoEn: new Date().toISOString(),
         fase: 'resultados',
         ccaa: '',
@@ -1015,7 +1015,7 @@ test('reintentar el 3D vuelve a solicitar el chunk después de un fallo', async 
       clave,
       JSON.stringify({
         version: 3,
-        versionInstrumento: '6',
+        versionInstrumento: '7',
         guardadoEn: new Date().toISOString(),
         fase: 'resultados',
         ccaa: '',
@@ -1075,7 +1075,7 @@ test('el recuento del plano coincide con los puntos realmente dibujados', async 
       clave,
       JSON.stringify({
         version: 3,
-        versionInstrumento: '6',
+        versionInstrumento: '7',
         guardadoEn: new Date().toISOString(),
         fase: 'resultados',
         ccaa: '',
@@ -1111,7 +1111,7 @@ test('la brújula degrada el fondo y revela corrientes solo al enfocar o tocar',
       clave,
       JSON.stringify({
         version: 3,
-        versionInstrumento: '6',
+        versionInstrumento: '7',
         guardadoEn: new Date().toISOString(),
         fase: 'resultados',
         ccaa: '',
@@ -1427,7 +1427,7 @@ test('la brújula móvil distingue evidencia provisional y resuelve con segurida
         clave,
         JSON.stringify({
           version: 3,
-          versionInstrumento: '6',
+          versionInstrumento: '7',
           guardadoEn: new Date().toISOString(),
           fase: 'resultados',
           ccaa: '',
@@ -1578,7 +1578,7 @@ test('el cúmulo de la brújula ofrece abrir la corriente de fondo que tapan los
         clave,
         JSON.stringify({
           version: 3,
-          versionInstrumento: '6',
+          versionInstrumento: '7',
           guardadoEn: new Date().toISOString(),
           fase: 'resultados',
           ccaa: '',
@@ -1630,7 +1630,7 @@ test('resultados abiertos no introducen violaciones automáticas de accesibilida
       clave,
       JSON.stringify({
         version: 3,
-        versionInstrumento: '6',
+        versionInstrumento: '7',
         guardadoEn: new Date().toISOString(),
         fase: 'resultados',
         ccaa: 'madrid',
@@ -1675,7 +1675,7 @@ test('resultados y visor 3D siguen disponibles sin conexión tras instalar la PW
       clave,
       JSON.stringify({
         version: 3,
-        versionInstrumento: '6',
+        versionInstrumento: '7',
         guardadoEn: new Date().toISOString(),
         fase: 'resultados',
         ccaa: '',
@@ -1721,7 +1721,7 @@ function crearSesionConOfertaPendiente() {
   }
   return {
     version: 3,
-    versionInstrumento: '6',
+    versionInstrumento: '7',
     guardadoEn: new Date().toISOString(),
     fase: 'oferta-modulos',
     ccaa: '',
