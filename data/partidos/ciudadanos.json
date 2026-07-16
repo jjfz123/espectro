@@ -182,8 +182,10 @@
         "titulo": "El Congreso aprueba la Ley de Eutanasia, con Cs en el bloque gubernamental y el voto en contra de PP y Vox (El Español)",
         "url": "https://www.elespanol.com/espana/politica/20201217/congreso-ley-eutanasia-cs-gubernamental-pp-vox/544196169_0.html",
         "fecha": "2020-12-17",
-        "consultado": "2026-07-12"
-      }
+        "consultado": "2026-07-12",
+        "cita": "El Congreso aprueba la Ley de Eutanasia, con Cs en el bloque gubernamental y el voto en contra de PP y Vox"
+      },
+      "grupoEvidencia": "pasaje-505edd1e0401f5d4a745"
     },
     "lib-012": {
       "valor": 2,
@@ -234,8 +236,10 @@
         "titulo": "Qué opina cada partido político sobre el conflicto entre el taxi, Uber y las licencias VTC (Xataka Magnet)",
         "url": "https://magnet.xataka.com/en-diez-minutos/que-opina-cada-partido-politico-conflicto-taxi-uber-licencias-vtc",
         "fecha": "2019",
-        "consultado": "2026-07-12"
-      }
+        "consultado": "2026-07-12",
+        "cita": "Qué opina cada partido político sobre el conflicto entre el taxi, Uber y las licencias VTC"
+      },
+      "grupoEvidencia": "pasaje-c269bf687b275665bce6"
     },
     "lib-016": {
       "valor": 2,
@@ -260,8 +264,10 @@
         "titulo": "La Ley Trans pasa su primer examen en el Congreso con la abstención de Ciudadanos (El Español)",
         "url": "https://www.elespanol.com/espana/politica/20221006/ley-trans-primer-examen-congreso-abstencion-ciudadanos/708679164_0.html",
         "fecha": "2022-10-06",
-        "consultado": "2026-07-12"
-      }
+        "consultado": "2026-07-12",
+        "cita": "La Ley Trans pasa su primer examen en el Congreso con la abstención de Ciudadanos"
+      },
+      "grupoEvidencia": "pasaje-e4fdb446104b9a74532e"
     },
     "lab-002": {
       "valor": -1,

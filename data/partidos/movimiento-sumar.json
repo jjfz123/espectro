@@ -569,8 +569,10 @@
         "titulo": "El debate europeo sobre el regreso a la austeridad sobrevuela la negociación de los Presupuestos entre PSOE y Sumar (Público)",
         "url": "https://www.publico.es/politica/debate-europeo-sobre-regreso-austeridad-sobrevuela-negociacion-presupuestos-psoe-sumar.html",
         "fecha": "2024-01-30",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "El debate europeo sobre el regreso a la austeridad sobrevuela la negociación de los Presupuestos entre PSOE y Sumar"
+      },
+      "grupoEvidencia": "pasaje-d830b760d09ef762b0a0"
     },
     "der-012": {
       "valor": 2,
@@ -581,8 +583,10 @@
         "titulo": "El Gobierno aprueba la reforma del mercado laboral para acabar con la precariedad y la temporalidad (La Moncloa)",
         "url": "https://www.lamoncloa.gob.es/consejodeministros/resumenes/Paginas/2021/281221-rp-cministros.aspx",
         "fecha": "2021-12-28",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "El Gobierno aprueba la reforma del mercado laboral para acabar con la precariedad y la temporalidad"
+      },
+      "grupoEvidencia": "pasaje-fb9c76dffb78dfae9533"
     },
     "eco-012": {
       "valor": 1,
@@ -593,8 +597,10 @@
         "titulo": "Sumar pide al Gobierno que el Estado refuerce a la escuela pública y no a la concertada (Infobae)",
         "url": "https://www.infobae.com/espana/agencias/2024/10/23/sumar-pide-al-gobierno-que-el-estado-refuerce-a-la-escuela-publica-y-no-a-la-concertada/",
         "fecha": "2024-10-23",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "Sumar pide al Gobierno que el Estado refuerce a la escuela pública y no a la concertada"
+      },
+      "grupoEvidencia": "pasaje-ead4321ef20e483e1b3b"
     },
     "sd-011": {
       "valor": 2,
@@ -629,8 +635,10 @@
         "titulo": "Yolanda Díaz se apoya en el apagón para exigir al Gobierno que la red eléctrica pase «a manos públicas» como un sector estratégico (El Economista)",
         "url": "https://www.eleconomista.es/energia/noticias/13340994/04/25/sumar-pide-la-depuracion-de-responsabilidades-del-oligopolio-energetico-tras-el-apagon-y-hacer-que-la-red-electrica-sea-100-publica.html",
         "fecha": "2025-04-30",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "Yolanda Díaz se apoya en el apagón para exigir al Gobierno que la red eléctrica pase «a manos públicas» como un sector estratégico"
+      },
+      "grupoEvidencia": "pasaje-331a9126eb2d77e60f7c"
     },
     "ene-005": {
       "valor": -1,
@@ -667,8 +675,10 @@
         "titulo": "El Congreso aprueba la ley de paridad con el voto en contra de PP y Vox (The Objective)",
         "url": "https://theobjective.com/espana/politica/2024-06-27/congreso-aprueba-paridad-pp-vox/",
         "fecha": "2024-06-27",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "El Congreso aprueba la ley de paridad con el voto en contra de PP y Vox"
+      },
+      "grupoEvidencia": "pasaje-f44fcc0b77e172b5316b"
     },
     "izq-046": {
       "valor": -1,
@@ -679,8 +689,10 @@
         "titulo": "Yolanda Díaz conocía el acuerdo entre PSOE y Junts y apunta que «no altera las competencias del Estado» en inmigración (Infobae)",
         "url": "https://www.infobae.com/espana/agencias/2025/03/04/yolanda-diaz-conocia-el-acuerdo-entre-psoe-y-junts-y-apunta-que-no-altera-las-competencias-del-estado-en-inmigracion/",
         "fecha": "2025-03-04",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "Yolanda Díaz conocía el acuerdo entre PSOE y Junts y apunta que «no altera las competencias del Estado» en inmigración"
+      },
+      "grupoEvidencia": "pasaje-2bab3a0fccb05f620c15"
     },
     "soc-002": {
       "valor": -2,
@@ -705,8 +717,10 @@
         "titulo": "Díaz rechaza «seguir las recetas de la derecha» y aboga por la regularización de inmigrantes (The Objective)",
         "url": "https://theobjective.com/espana/politica/2024-08-29/yolanda-diaz-deportaciones-regularizacion-inmigrantes/",
         "fecha": "2024-08-29",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "Díaz rechaza «seguir las recetas de la derecha» y aboga por la regularización de inmigrantes"
+      },
+      "grupoEvidencia": "pasaje-e360f0e2b41bc585bc9c"
     },
     "der-018": {
       "valor": 2,
@@ -717,8 +731,10 @@
         "titulo": "El Congreso aprueba debatir la ILP sobre la regularización extraordinaria de personas migrantes (La Marea)",
         "url": "https://www.lamarea.com/2024/04/09/el-congreso-aprueba-debatir-la-ilp-sobre-la-regularizacion-extraordinaria-de-personas-migrantes/",
         "fecha": "2024-04-09",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "El Congreso aprueba debatir la ILP sobre la regularización extraordinaria de personas migrantes"
+      },
+      "grupoEvidencia": "pasaje-b639c62b559296516ef5"
     },
     "fem-012": {
       "valor": 2,
@@ -729,8 +745,10 @@
         "titulo": "Ley Orgánica 1/2023, de 28 de febrero, de salud sexual y reproductiva y de la interrupción voluntaria del embarazo (BOE)",
         "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2023-5364",
         "fecha": "2023-02-28",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "Ley Orgánica 1/2023, de 28 de febrero, de salud sexual y reproductiva y de la interrupción voluntaria del embarazo"
+      },
+      "grupoEvidencia": "pasaje-4e1a1dec3a9745809097"
     },
     "der-019": {
       "valor": 2,
@@ -741,8 +759,10 @@
         "titulo": "Sumar pide derogar la prisión permanente revisable y cerrar los centros de inmigrantes (The Objective)",
         "url": "https://theobjective.com/espana/politica/2023-05-02/sumar-derogar-prision-permanente-revisable-cerrar-centros-inmigrantes/",
         "fecha": "2023-05-02",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "Sumar pide derogar la prisión permanente revisable y cerrar los centros de inmigrantes"
+      },
+      "grupoEvidencia": "pasaje-d4b571133be0326577b3"
     },
     "cat-006": {
       "valor": 1,
@@ -753,8 +773,10 @@
         "titulo": "El Congreso veta el traspaso de inmigración a Cataluña: Podemos y dos diputados de Sumar se suman al rechazo y abren una grieta entre el Gobierno y Junts (Infobae)",
         "url": "https://www.infobae.com/espana/2025/09/23/el-congreso-veta-al-traspaso-de-inmigracion-a-cataluna-con-177-votos-en-contra-podemos-y-dos-diputados-de-sumar-se-suman-al-rechazo-y-abren-una-grieta-entre-el-gobierno-y-junts/",
         "fecha": "2025-09-23",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "El Congreso veta el traspaso de inmigración a Cataluña: Podemos y dos diputados de Sumar se suman al rechazo y abren una grieta entre el Gobierno y Junts"
+      },
+      "grupoEvidencia": "pasaje-98675dbc3e7744b00215"
     },
     "ter-003": {
       "valor": 0,
@@ -789,8 +811,10 @@
         "titulo": "Sumar refuerza su identidad «plurinacional» con su nuevo grupo parlamentario (Mundiario)",
         "url": "https://www.mundiario.com/articulo/politica/sumar-refuerza-identidad-plurinacional-nuevo-grupo-parlamentario/20230813190654277263.html",
         "fecha": "2023-08-13",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "Sumar refuerza su identidad «plurinacional» con su nuevo grupo parlamentario"
+      },
+      "grupoEvidencia": "pasaje-bde78183a97a950b4315"
     },
     "dem-035": {
       "valor": -2,
@@ -825,8 +849,10 @@
         "titulo": "Sumar refuerza su identidad «plurinacional» con su nuevo grupo parlamentario (Mundiario)",
         "url": "https://www.mundiario.com/articulo/politica/sumar-refuerza-identidad-plurinacional-nuevo-grupo-parlamentario/20230813190654277263.html",
         "fecha": "2023-08-13",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "Sumar refuerza su identidad «plurinacional» con su nuevo grupo parlamentario"
+      },
+      "grupoEvidencia": "pasaje-bde78183a97a950b4315"
     },
     "der-014": {
       "valor": 1,
@@ -837,8 +863,10 @@
         "titulo": "Sumar refuerza su identidad «plurinacional» con su nuevo grupo parlamentario (Mundiario)",
         "url": "https://www.mundiario.com/articulo/politica/sumar-refuerza-identidad-plurinacional-nuevo-grupo-parlamentario/20230813190654277263.html",
         "fecha": "2023-08-13",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "Sumar refuerza su identidad «plurinacional» con su nuevo grupo parlamentario"
+      },
+      "grupoEvidencia": "pasaje-bde78183a97a950b4315"
     },
     "lab-037": {
       "valor": 1,

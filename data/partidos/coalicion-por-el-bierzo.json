@@ -4,8 +4,13 @@
   "siglas": "CB",
   "ambito": "autonomico",
   "tipo": "coalicion",
-  "componentes": ["partido-del-bierzo", "el-bierzo-existe"],
-  "ccaa": ["castilla-y-leon"],
+  "componentes": [
+    "partido-del-bierzo",
+    "el-bierzo-existe"
+  ],
+  "ccaa": [
+    "castilla-y-leon"
+  ],
   "confianza": "verificada",
   "web": "https://www.coalicionporelbierzo.org/",
   "revisado": "2026-07-10",
@@ -19,8 +24,10 @@
         "tipo": "declaracion",
         "titulo": "Razón de ser de Coalición por El Bierzo",
         "url": "https://www.coalicionporelbierzo.org/conocenos/razon-de-ser/",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "Razón de ser de Coalición por El Bierzo"
+      },
+      "grupoEvidencia": "pasaje-f85e7f5e561a5b7a25e1"
     },
     "nac-015": {
       "valor": 0,
@@ -31,8 +38,10 @@
         "titulo": "Posición de Coalición por El Bierzo en el encaje territorial berciano",
         "url": "https://www.coalicionporelbierzo.org/blog/2021/01/30/posicion-de-coalicion-por-el-bierzo-en-el-encaje-territorial-berciano/",
         "fecha": "2021-01-30",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "Posición de Coalición por El Bierzo en el encaje territorial berciano"
+      },
+      "grupoEvidencia": "pasaje-9b90247d3fded04ef6c3"
     },
     "dem-001": {
       "valor": 1,
@@ -43,8 +52,10 @@
         "titulo": "Posición de Coalición por El Bierzo en el encaje territorial berciano",
         "url": "https://www.coalicionporelbierzo.org/blog/2021/01/30/posicion-de-coalicion-por-el-bierzo-en-el-encaje-territorial-berciano/",
         "fecha": "2021-01-30",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "Posición de Coalición por El Bierzo en el encaje territorial berciano"
+      },
+      "grupoEvidencia": "pasaje-9b90247d3fded04ef6c3"
     }
   }
 }

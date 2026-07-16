@@ -210,8 +210,10 @@
         "titulo": "Qui ha limitat el preu del lloguer a Catalunya?",
         "url": "https://www.verificat.cat/qui-ha-limitat-el-preu-del-lloguer-a-catalunya/",
         "fecha": "2020-09",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "Qui ha limitat el preu del lloguer a Catalunya?"
+      },
+      "grupoEvidencia": "pasaje-962b82c319e2dd992d7f"
     },
     "eco-006": {
       "valor": 1,
@@ -235,8 +237,10 @@
         "tipo": "declaracion",
         "titulo": "Des de la CUP-CC i la CUP Capgirem Barcelona exigim a les institucions que garanteixin el dret a l'habitatge, i aturin la repressió",
         "url": "https://cup.cat/cup-cc-cup-capgirem-barcelona-exigim-institucions/",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "Des de la CUP-CC i la CUP Capgirem Barcelona exigim a les institucions que garanteixin el dret a l'habitatge, i aturin la repressió"
+      },
+      "grupoEvidencia": "pasaje-555f8f7c8ca014aa3298"
     },
     "eco-009": {
       "valor": -2,
@@ -259,8 +263,10 @@
         "tipo": "declaracion",
         "titulo": "La CUP intensifica la campanya per exigir la prohibició de l'activitat privada als centres sanitaris públics",
         "url": "https://cup.cat/noticia/la-cup-intensifica-la-campanya-exigir-la-prohibicio-de-lactivitat-privada-als-centres",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "La CUP intensifica la campanya per exigir la prohibició de l'activitat privada als centres sanitaris públics"
+      },
+      "grupoEvidencia": "pasaje-a761003179f114d93a57"
     },
     "eco-014": {
       "valor": 2,
@@ -270,8 +276,10 @@
         "tipo": "declaracion",
         "titulo": "La proposta del govern a la CUP: impost als grans vaixells i esperar a la consulta sobre els Jocs Olímpics",
         "url": "https://www.vilaweb.cat/noticies/la-proposta-del-govern-a-la-cup-impost-als-grans-vaixells-i-esperar-a-la-consulta-sobre-els-jocs-olimpics/",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "La proposta del govern a la CUP: impost als grans vaixells i esperar a la consulta sobre els Jocs Olímpics"
+      },
+      "grupoEvidencia": "pasaje-8f52ef4cf24af729cc77"
     },
     "eco-004": {
       "valor": -2,
@@ -282,8 +290,10 @@
         "titulo": "El Govern deixa d'imposar-se l'austeritat de què feia bandera",
         "url": "https://www.ara.cat/politica/govern-deixa-dimposar-se-lausteritat-bandera_1_1473002.html",
         "fecha": "2016",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "El Govern deixa d'imposar-se l'austeritat de què feia bandera"
+      },
+      "grupoEvidencia": "pasaje-6cb43a5e7d645af361d2"
     },
     "ene-004": {
       "valor": 2,
@@ -317,8 +327,10 @@
         "tipo": "declaracion",
         "titulo": "La CUP repta JxCat i ERC a establir una renda bàsica universal per lluitar contra 'l'extrema pobresa'",
         "url": "https://www.vilaweb.cat/noticies/cup-repta-jxcat-erc-renda-basica-universal-extrema-pobresa/",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "La CUP repta JxCat i ERC a establir una renda bàsica universal per lluitar contra 'l'extrema pobresa'"
+      },
+      "grupoEvidencia": "pasaje-673cedcd6b7d0167d656"
     },
     "izq-042": {
       "valor": 2,
@@ -328,8 +340,10 @@
         "tipo": "declaracion",
         "titulo": "Comunicat de suport al CSO Ca la Bandida",
         "url": "https://corbera.cup.cat/noticia/comunicat-de-suport-al-cso-ca-la-bandida",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "Comunicat de suport al CSO Ca la Bandida"
+      },
+      "grupoEvidencia": "pasaje-92339055290ebbfa007a"
     },
     "fem-001": {
       "valor": 2,
@@ -339,8 +353,10 @@
         "tipo": "votacion",
         "titulo": "La llei de l'erradicació de l'LGBTI-fòbia tira endavant amb els vots de PSC, Junts, ERC, Comuns i CUP",
         "url": "https://www.larepublica.cat/noticies/politica/la-llei-de-lerradicacio-de-llgbti-fobia-tira-endavant-amb-els-vots-de-psc-junts-erc-comuns-i-cup/",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "La llei de l'erradicació de l'LGBTI-fòbia tira endavant amb els vots de PSC, Junts, ERC, Comuns i CUP"
+      },
+      "grupoEvidencia": "pasaje-9b76ff997d321f8fd6e7"
     },
     "fem-012": {
       "valor": 2,
@@ -402,8 +418,10 @@
         "tipo": "declaracion",
         "titulo": "La CUP torna a obrir la porta a un referèndum després de les pròximes eleccions",
         "url": "https://www.ara.cat/politica/cup-referendum-correlacio-forces-parlament_1_1197016.html",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "La CUP torna a obrir la porta a un referèndum després de les pròximes eleccions"
+      },
+      "grupoEvidencia": "pasaje-404b3c3252b47b57fc24"
     },
     "der-005": {
       "valor": -2,
@@ -425,8 +443,10 @@
         "titulo": "Per a la CUP-CC la independència és per als treballadors independentment del seu origen",
         "url": "https://www.llibertat.cat/2015/09/per-a-la-cup-cc-la-independencia-es-per-als-treballadors-independentment-del-seu-origen-32288",
         "fecha": "2015-09",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "Per a la CUP-CC la independència és per als treballadors independentment del seu origen"
+      },
+      "grupoEvidencia": "pasaje-bc7a1d85685fcac5ac0d"
     },
     "cat-003": {
       "valor": 1,
@@ -436,8 +456,10 @@
         "tipo": "declaracion",
         "titulo": "La CUP rebutja una llei d'amnistia que sigui de 'punt final'",
         "url": "https://elmon.cat/politica/independentisme/la-cup-rebutja-una-llei-amnistia-puigdemont-psoe-punt-final-750344/",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "La CUP rebutja una llei d'amnistia que sigui de 'punt final'"
+      },
+      "grupoEvidencia": "pasaje-ec59bdb7b01c959407f6"
     },
     "cat-006": {
       "valor": 0,
@@ -447,8 +469,10 @@
         "tipo": "declaracion",
         "titulo": "La CUP vol les competències en immigració per 'tancar CIES' i 'acollir millor'",
         "url": "https://e-noticies.cat/politica/cup-competencies-immigracio-tancar-cies-acollir-millor",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "La CUP vol les competències en immigració per 'tancar CIES' i 'acollir millor'"
+      },
+      "grupoEvidencia": "pasaje-3dfeaa9cffe1495657bb"
     },
     "dr-001": {
       "valor": 2,

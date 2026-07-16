@@ -20,8 +20,10 @@
         "tipo": "declaracion",
         "titulo": "Quiénes somos y programa del Partido de El Bierzo",
         "url": "https://www.partidodeelbierzo.org/quienes-somos/",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "Quiénes somos y programa del Partido de El Bierzo"
+      },
+      "grupoEvidencia": "pasaje-2ffe92ad4be64bef40ad"
     },
     "nac-013": {
       "valor": 2,

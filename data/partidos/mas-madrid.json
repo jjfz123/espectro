@@ -118,8 +118,10 @@
         "titulo": "Elecciones en Madrid: ¿Qué propone Más Madrid en materia de vivienda? (Fotocasa)",
         "url": "https://blogprofesional.fotocasa.es/elecciones-en-madrid-que-propone-mas-madrid-en-materia-de-vivienda/",
         "fecha": "2023",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "Elecciones en Madrid: ¿Qué propone Más Madrid en materia de vivienda?"
+      },
+      "grupoEvidencia": "pasaje-9d2ccd015f1aa2f0bbb5"
     },
     "eco-006": {
       "valor": 2,
@@ -130,8 +132,10 @@
         "titulo": "Programa municipal de Más Madrid 2023 — «Quiero una casa»",
         "url": "https://programa.masmadrid.org/pdf/Ayuntamiento%20de%20Madrid/7-Quierounacasa.pdf",
         "fecha": "2023",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "Programa municipal de Más Madrid 2023 — «Quiero una casa»"
+      },
+      "grupoEvidencia": "pasaje-f590f2bd13bbf520b025"
     },
     "eco-007": {
       "valor": -1,
@@ -154,8 +158,10 @@
         "titulo": "Madrid lleva a pleno el jueves bonificar un 50% el impuesto de sucesiones entre tíos y sobrinos (Infobae)",
         "url": "https://www.infobae.com/espana/2025/06/09/madrid-aprueba-el-jueves-la-bonificacion-del-50-del-impuesto-de-sucesiones-entre-tios-y-sobrinos-a-vox-se-le-queda-corta-pide-el-99/",
         "fecha": "2025-06-09",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "Madrid lleva a pleno el jueves bonificar un 50% el impuesto de sucesiones entre tíos y sobrinos"
+      },
+      "grupoEvidencia": "pasaje-efbad7e6dc9a354c059c"
     },
     "eco-013": {
       "valor": -2,
@@ -172,16 +178,18 @@
       "grupoEvidencia": "pasaje-f41da944f10626a8510d"
     },
     "eco-014": {
-      "valor": 1,
-      "justificacion": "Más Madrid apoyó en la Asamblea la propuesta del PSOE para recuperar el Impuesto de Patrimonio sobre los patrimonios madrileños superiores a 3 millones de euros, que Ayuso bonifica al 100%; la evidencia documentada es sobre el tributo autonómico de patrimonio, no directamente sobre el impuesto estatal a grandes fortunas, de ahí el valor moderado.",
+      "valor": 2,
+      "justificacion": "Más Madrid registró en la Asamblea una propuesta de impuesto autonómico propio a las grandes fortunas (además de apoyar recuperar Patrimonio sobre los patrimonios superiores a 3 millones que Ayuso bonifica): defiende el gravamen permanente a las grandes fortunas como política propia, no solo el tributo estatal.",
       "calidadEvidencia": "media",
       "fuente": {
         "tipo": "declaracion",
-        "titulo": "Qué supone el cambio del impuesto de patrimonio anunciado por Ayuso en Madrid para «quedarse» con lo recaudado de las grandes fortunas (Newtral)",
-        "url": "https://www.newtral.es/ayuso-impuesto-grandes-fortunas-recaudacion-patrimonio/20231108/",
-        "fecha": "2023-11-08",
-        "consultado": "2026-07-10"
-      }
+        "titulo": "Más Madrid plantea un nuevo impuesto autonómico a las grandes fortunas en la Comunidad (Telemadrid)",
+        "url": "https://www.telemadrid.es/noticias/madrid/Mas-Madrid-plantea-un-nuevo-impuesto-autonomico-a-las-grandes-fortunas-en-la-Comunidad-0-2815518422--20250912072004.html",
+        "fecha": "2025-09-12",
+        "consultado": "2026-07-16",
+        "cita": "Más Madrid plantea un nuevo impuesto autonómico a las grandes fortunas en la Comunidad"
+      },
+      "grupoEvidencia": "pasaje-79654be960aba03bfdfb"
     },
     "soc-001": {
       "valor": 2,
@@ -192,8 +200,10 @@
         "titulo": "Mónica García acusa al PP de poner a las personas trans «en el punto de mira» (Infobae)",
         "url": "https://www.infobae.com/espana/agencias/2026/07/04/monica-garcia-acusa-al-pp-de-poner-a-las-personas-trans-en-el-punto-de-mira/",
         "fecha": "2026-07-04",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "Mónica García acusa al PP de poner a las personas trans «en el punto de mira»"
+      },
+      "grupoEvidencia": "pasaje-03101232f2adc16b8799"
     },
     "soc-002": {
       "valor": -2,
@@ -232,8 +242,10 @@
         "titulo": "Más Madrid exige al Gobierno la regulación integral del cannabis en adultos (masmadrid.org)",
         "url": "https://masmadrid.org/mas-madrid-exige-al-gobierno-la-regulacion-integral-del-cannabis-en-adultos/",
         "fecha": "2022-05",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "Más Madrid exige al Gobierno la regulación integral del cannabis en adultos"
+      },
+      "grupoEvidencia": "pasaje-cfb0be323352166b0a00"
     },
     "der-026": {
       "valor": -2,
@@ -272,8 +284,10 @@
         "titulo": "Mónica García tacha a Aguirre y Ayuso de «kale borroka» y saca la guerra de Irak y Franco para defender la amnistía (Libertad Digital)",
         "url": "https://www.libertaddigital.com/madrid/2023-11-06/monica-garcia-tacha-a-aguirre-y-ayuso-de-kale-borroka-y-saca-la-guerra-de-irak-y-franco-para-defender-la-amnistia-7066543/",
         "fecha": "2023-11-06",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "Mónica García tacha a Aguirre y Ayuso de «kale borroka» y saca la guerra de Irak y Franco para defender la amnistía"
+      },
+      "grupoEvidencia": "pasaje-cf98eca3e66ed4ae97e8"
     },
     "der-005": {
       "valor": -1,
@@ -284,8 +298,10 @@
         "titulo": "PP y Ciudadanos apoyan a Vox y piden ilegalizar partidos independentistas (Izquierda Diario)",
         "url": "https://www.izquierdadiario.es/PP-y-Ciudadanos-apoyan-a-Vox-y-piden-ilegalizar-partidos-independentistas",
         "fecha": "2019-11",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "PP y Ciudadanos apoyan a Vox y piden ilegalizar partidos independentistas"
+      },
+      "grupoEvidencia": "pasaje-d6bb89eb6399873c3a9f"
     },
     "sd-006": {
       "valor": -2,
@@ -296,8 +312,10 @@
         "titulo": "Mónica García (Más Madrid): La derecha no va a «amedrentar» ni «arrugar» al nuevo Gobierno (COPE)",
         "url": "https://www.cope.es/actualidad/espana/noticias/monica-garcia-mas-madrid-derecha-amedrentar-arrugar-nuevo-gobierno-20231118_3007970",
         "fecha": "2023-11-18",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "Mónica García (Más Madrid): La derecha no va a «amedrentar» ni «arrugar» al nuevo Gobierno"
+      },
+      "grupoEvidencia": "pasaje-6ad3bbb506f327b0eb9a"
     },
     "dr-021": {
       "valor": -2,
@@ -308,8 +326,10 @@
         "titulo": "Mónica García y Rita Maestre ganan las primarias de Más Madrid para las elecciones de 2027 (Infobae)",
         "url": "https://www.infobae.com/espana/agencias/2026/07/07/monica-garcia-y-rita-maestre-ganan-las-primarias-de-mas-madrid-para-las-elecciones-de-2027/",
         "fecha": "2026-07-07",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "Mónica García y Rita Maestre ganan las primarias de Más Madrid para las elecciones de 2027"
+      },
+      "grupoEvidencia": "pasaje-ed687f9e01b9a8d52506"
     },
     "eco-001": {
       "valor": 2,
@@ -407,6 +427,20 @@
         "cita": "No tengo ninguna disputa con la sanidad privada, pero sí con la privatización de la sanidad"
       },
       "grupoEvidencia": "pasaje-a4d24117a932775779a8"
+    },
+    "dem-023": {
+      "valor": -1,
+      "justificacion": "Más Madrid registró una PNL para que Policía Nacional y policías municipales rellenen formularios de cada parada e identificación, con datos desagregados, para prevenir las identificaciones por perfil racial y evaluar la práctica policial. Recela de la identificación preventiva discrecional, aunque la iniciativa documentada pide trazabilidad y no una prohibición: por eso el valor es moderado (−1).",
+      "calidadEvidencia": "media",
+      "fuente": {
+        "tipo": "declaracion",
+        "titulo": "Más Madrid solicita que la Policía complete formularios de paradas para prevenir «identificaciones por perfil racial» (Madridon)",
+        "url": "https://www.madridon.com/2026/03/27/mas-madrid-solicita-que-la-policia-complete-formularios-de-paradas-para-prevenir-identificaciones-por-perfil-racial/",
+        "fecha": "2026-03-27",
+        "consultado": "2026-07-16",
+        "cita": "Más Madrid solicita que la Policía complete formularios de paradas para prevenir «identificaciones por perfil racial»"
+      },
+      "grupoEvidencia": "pasaje-128203ec181de745d934"
     }
   }
 }

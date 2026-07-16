@@ -53,8 +53,10 @@
         "titulo": "El PSOE reconoce el catalán como \"lengua propia\" de Aragón",
         "url": "https://www.elespanol.com/espana/20160120/95990441_0.html",
         "fecha": "2016-01-20",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "El PSOE reconoce el catalán como \"lengua propia\" de Aragón"
+      },
+      "grupoEvidencia": "pasaje-ec5d498c3697a80a990c"
     },
     "nac-010": {
       "valor": 1,
@@ -65,8 +67,10 @@
         "titulo": "CHA exige un déficit diferenciado para Aragón y activar el artículo 108",
         "url": "https://www.ondaaragonesa.com/noticias/cha-exige-deficit-diferenciado-aragon-activar-articulo-108/20260707123106008729.html",
         "fecha": "2026-07-07",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "CHA exige un déficit diferenciado para Aragón y activar el artículo 108"
+      },
+      "grupoEvidencia": "pasaje-c346fa3424c0ea231fab"
     },
     "nac-012": {
       "valor": 2,
@@ -100,8 +104,10 @@
         "titulo": "\"Aragón es una nación\": Chunta reivindica el derecho de autodeterminación del pueblo aragonés",
         "url": "https://www.hoyaragon.es/articulo/noticias-aragon/aragon-es-una-nacion-chunta-reivindica-el-derecho-de-autodeterminacion-del-pueblo-aragones/20171103021208054573.html",
         "fecha": "2017-11-03",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "\"Aragón es una nación\": Chunta reivindica el derecho de autodeterminación del pueblo aragonés"
+      },
+      "grupoEvidencia": "pasaje-5c2a26ce85765f8ef451"
     },
     "dem-033": {
       "valor": 2,
@@ -111,8 +117,10 @@
         "tipo": "declaracion",
         "titulo": "Chunta Aragonesista: Un Estatuto que cumplir",
         "url": "https://www.chunta.org/un-estatuto-que-cumplir/",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "Chunta Aragonesista: Un Estatuto que cumplir"
+      },
+      "grupoEvidencia": "pasaje-b6b1381bfc2dbabcb1cf"
     },
     "mon-001": {
       "valor": 2,
@@ -134,8 +142,10 @@
         "titulo": "Campaña unitaria 2025 «Por una escuela pública y laica. Religión fuera de la escuela»",
         "url": "https://laicismo.org/campana-unitaria-2025-por-una-escuela-publica-y-laica-religion-fuera-de-la-escuela/",
         "fecha": "2025",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "Campaña unitaria 2025 «Por una escuela pública y laica. Religión fuera de la escuela»"
+      },
+      "grupoEvidencia": "pasaje-416109f28d34e0db2b9c"
     },
     "eco-014": {
       "valor": 1,
@@ -146,8 +156,10 @@
         "titulo": "Sumar Aragón defiende una fiscalidad justa y progresiva que sustente un modelo de protección social basado en la garantía de derechos y servicios públicos",
         "url": "https://www.chunta.org/sumar-aragon-defiende-una-fiscalidad-justa-y-progresiva-que-sustente-un-modelo-de-proteccion-social-basado-en-la-garantia-de-derechos-y-servicios-publicos/",
         "consultado": "2026-07-10",
-        "fecha": "2023"
-      }
+        "fecha": "2023",
+        "cita": "Sumar Aragón defiende una fiscalidad justa y progresiva que sustente un modelo de protección social basado en la garantía de derechos y servicios públicos"
+      },
+      "grupoEvidencia": "pasaje-a7448aac32a2e9c501b8"
     },
     "fem-011": {
       "valor": 2,
@@ -157,8 +169,10 @@
         "tipo": "declaracion",
         "titulo": "CHA condena el último asesinato machista ocurrido en Sevilla y reafirma su compromiso con la lucha contra la violencia contra las mujeres",
         "url": "https://www.chunta.org/cha-condena-el-ultimo-asesinato-machista-ocurrido-en-sevilla-y-reafirma-su-compromiso-con-la-lucha-contra-la-violencia-contra-las-mujeres/",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "CHA condena el último asesinato machista ocurrido en Sevilla y reafirma su compromiso con la lucha contra la violencia contra las mujeres"
+      },
+      "grupoEvidencia": "pasaje-2656816c34cc4c0c660e"
     },
     "soc-001": {
       "valor": 2,
@@ -182,8 +196,10 @@
         "titulo": "Sumar Aragón defiende una fiscalidad justa y progresiva que sustente un modelo de protección social basado en la garantía de derechos y servicios públicos",
         "url": "https://www.chunta.org/sumar-aragon-defiende-una-fiscalidad-justa-y-progresiva-que-sustente-un-modelo-de-proteccion-social-basado-en-la-garantia-de-derechos-y-servicios-publicos/",
         "consultado": "2026-07-10",
-        "fecha": "2023"
-      }
+        "fecha": "2023",
+        "cita": "Sumar Aragón defiende una fiscalidad justa y progresiva que sustente un modelo de protección social basado en la garantía de derechos y servicios públicos"
+      },
+      "grupoEvidencia": "pasaje-a7448aac32a2e9c501b8"
     }
   }
 }

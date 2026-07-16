@@ -120,8 +120,10 @@
         "tipo": "declaracion",
         "titulo": "España 2000 — Quiénes somos (web oficial)",
         "url": "https://espana2000.es/quienes-somos/",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "España 2000 — Quiénes somos"
+      },
+      "grupoEvidencia": "pasaje-3eb6a9f9ce734d769495"
     },
     "soc-005": {
       "valor": -1,
@@ -144,8 +146,10 @@
         "tipo": "declaracion",
         "titulo": "España 2000 — Quiénes somos (web oficial)",
         "url": "https://espana2000.es/quienes-somos/",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "España 2000 — Quiénes somos"
+      },
+      "grupoEvidencia": "pasaje-3eb6a9f9ce734d769495"
     },
     "ter-001": {
       "valor": 2,
@@ -155,8 +159,10 @@
         "tipo": "declaracion",
         "titulo": "España 2000 — Quiénes somos (web oficial)",
         "url": "https://espana2000.es/quienes-somos/",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "España 2000 — Quiénes somos"
+      },
+      "grupoEvidencia": "pasaje-3eb6a9f9ce734d769495"
     },
     "der-005": {
       "valor": 2,
@@ -166,8 +172,10 @@
         "tipo": "declaracion",
         "titulo": "España 2000 — Quiénes somos (web oficial)",
         "url": "https://espana2000.es/quienes-somos/",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "España 2000 — Quiénes somos"
+      },
+      "grupoEvidencia": "pasaje-3eb6a9f9ce734d769495"
     },
     "mon-001": {
       "valor": 2,
@@ -200,8 +208,10 @@
         "titulo": "Conflicto Palestino, por José Luis Roberto (web oficial de España 2000)",
         "url": "https://espana2000.es/2023/10/14/conflicto-palestino-por-jose-luis-roberto/",
         "fecha": "2023-10-14",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "Conflicto Palestino, por José Luis Roberto"
+      },
+      "grupoEvidencia": "pasaje-a22fba47f04dd925f06b"
     },
     "dr-019": {
       "valor": 1,
@@ -259,8 +269,10 @@
         "titulo": "España 2000 — Los españoles primero (web oficial)",
         "url": "https://espana2000.es/los-espanoles-primero/",
         "fecha": "2026",
-        "consultado": "2026-07-12"
-      }
+        "consultado": "2026-07-12",
+        "cita": "España 2000 — Los españoles primero"
+      },
+      "grupoEvidencia": "pasaje-9edad35acd71e6386495"
     },
     "pop-001": {
       "valor": 2,
@@ -295,8 +307,10 @@
         "titulo": "España 2000 — web oficial",
         "url": "https://espana2000.es/",
         "fecha": "2026",
-        "consultado": "2026-07-12"
-      }
+        "consultado": "2026-07-12",
+        "cita": "España 2000 — web oficial"
+      },
+      "grupoEvidencia": "pasaje-5f578d1241f7a3e5e9b7"
     },
     "geo-003": {
       "valor": 1,

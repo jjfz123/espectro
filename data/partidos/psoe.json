@@ -300,8 +300,10 @@
         "titulo": "Ley 12/2023, de 24 de mayo, por el derecho a la vivienda (aprobada con el voto del PSOE)",
         "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2023-12203",
         "fecha": "2023-05-24",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "Ley 12/2023, de 24 de mayo, por el derecho a la vivienda"
+      },
+      "grupoEvidencia": "pasaje-490214d6159b762f7589"
     },
     "eco-006": {
       "valor": 2,
@@ -410,8 +412,10 @@
         "titulo": "Ley Orgánica 1/2023, de 28 de febrero, de salud sexual y reproductiva y de la interrupción voluntaria del embarazo (BOE)",
         "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2023-5364",
         "fecha": "2023-02-28",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "Ley Orgánica 1/2023, de 28 de febrero, de salud sexual y reproductiva y de la interrupción voluntaria del embarazo"
+      },
+      "grupoEvidencia": "pasaje-4e1a1dec3a9745809097"
     },
     "fem-014": {
       "valor": -1,
@@ -544,8 +548,10 @@
         "titulo": "El PSOE impulsa los desalojos exprés de viviendas ocupadas y Podemos le acusa de asumir la agenda de la derecha (elDiario.es)",
         "url": "https://www.eldiario.es/politica/psoe-impulsa-desalojos-expres-viviendas-ocupadas-le-acusa-asumir-agenda-derecha_1_9577006.html",
         "fecha": "2022-09-28",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "El PSOE impulsa los desalojos exprés de viviendas ocupadas y Podemos le acusa de asumir la agenda de la derecha"
+      },
+      "grupoEvidencia": "pasaje-6a04abf5c547178ca494"
     },
     "eco-015": {
       "valor": 1,
@@ -596,8 +602,10 @@
         "titulo": "Ley Orgánica 2/2024, de 1 de agosto, de representación paritaria y presencia equilibrada de mujeres y hombres (BOE)",
         "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-15936",
         "fecha": "2024-08-01",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "Ley Orgánica 2/2024, de 1 de agosto, de representación paritaria y presencia equilibrada de mujeres y hombres"
+      },
+      "grupoEvidencia": "pasaje-ad2f585c41377826a9e7"
     },
     "soc-004": {
       "valor": -1,
@@ -634,8 +642,10 @@
         "titulo": "El PSOE vota «no» a la ley de Más País de legalización del cannabis (Público)",
         "url": "https://www.publico.es/sociedad/psoe-vota-no-ley-mas-pais-cannabis.html",
         "fecha": "2021-10-19",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "El PSOE vota «no» a la ley de Más País de legalización del cannabis"
+      },
+      "grupoEvidencia": "pasaje-aa8a041102fd96845f61"
     },
     "va-003": {
       "valor": -1,
@@ -646,8 +656,10 @@
         "titulo": "Ley 7/2023, de 28 de marzo, de protección de los derechos y el bienestar de los animales (BOE)",
         "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2023-7936",
         "fecha": "2023-03-28",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "Ley 7/2023, de 28 de marzo, de protección de los derechos y el bienestar de los animales"
+      },
+      "grupoEvidencia": "pasaje-9257786f18987bd77b0a"
     },
     "soc-002": {
       "valor": 0,
@@ -770,8 +782,10 @@
         "titulo": "PSOE, Podemos y ERC aprueban que el castellano deje de ser lengua vehicular en la Educación (El Independiente)",
         "url": "https://www.elindependiente.com/espana/2020/11/05/psoe-podemos-y-erc-aprueban-que-el-castellano-deje-de-ser-lengua-vehicular-en-la-educacion/",
         "fecha": "2020-11-05",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "PSOE, Podemos y ERC aprueban que el castellano deje de ser lengua vehicular en la Educación"
+      },
+      "grupoEvidencia": "pasaje-9f11046545559d6995a4"
     },
     "sd-019": {
       "valor": -1,
@@ -886,8 +900,10 @@
         "titulo": "Ley 7/2023, de 28 de marzo, de protección de los derechos y el bienestar de los animales (BOE)",
         "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2023-7936",
         "fecha": "2023-03-28",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "Ley 7/2023, de 28 de marzo, de protección de los derechos y el bienestar de los animales"
+      },
+      "grupoEvidencia": "pasaje-9257786f18987bd77b0a"
     }
   }
 }

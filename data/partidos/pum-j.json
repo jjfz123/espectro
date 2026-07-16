@@ -27,8 +27,10 @@
         "tipo": "declaracion",
         "titulo": "ILP Regularización — Por Un Mundo Más Justo (web oficial)",
         "url": "https://www.porunmundomasjusto.es/ilp-regularizacion/",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "ILP Regularización — Por Un Mundo Más Justo"
+      },
+      "grupoEvidencia": "pasaje-304cbe43f5d6c99c91c3"
     },
     "der-018": {
       "valor": 2,
@@ -38,8 +40,10 @@
         "tipo": "declaracion",
         "titulo": "ILP Regularización — Por Un Mundo Más Justo (web oficial)",
         "url": "https://www.porunmundomasjusto.es/ilp-regularizacion/",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "ILP Regularización — Por Un Mundo Más Justo"
+      },
+      "grupoEvidencia": "pasaje-304cbe43f5d6c99c91c3"
     },
     "soc-002": {
       "valor": -2,
@@ -49,8 +53,10 @@
         "tipo": "declaracion",
         "titulo": "Un mundo sin pobreza — Por Un Mundo Más Justo (web oficial: cierre de los CIE y regularización)",
         "url": "https://www.porunmundomasjusto.es/un-mundo-sin-pobreza/",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "Un mundo sin pobreza — Por Un Mundo Más Justo (web oficial: cierre de los CIE y regularización)"
+      },
+      "grupoEvidencia": "pasaje-649d7e6d7134781f98c8"
     },
     "soc-005": {
       "valor": 1,
@@ -75,8 +81,10 @@
         "titulo": "Entrevista a Antonio Sieira Mucientes, candidato de M+J a la presidencia del Gobierno (Contrainformación)",
         "url": "https://contrainformacion.es/entrevista-a-antonio-sieira-mucientes-candidato-de-mj-a-la-presidencia-del-gobierno/",
         "fecha": "2019",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "Entrevista a Antonio Sieira Mucientes, candidato de M+J a la presidencia del Gobierno"
+      },
+      "grupoEvidencia": "pasaje-593e9fabb31b6b98d92d"
     },
     "fem-012": {
       "valor": -1,
@@ -86,8 +94,10 @@
         "tipo": "declaracion",
         "titulo": "El imprescindible rol de la sociedad civil en el debate sobre la educación, el aborto y la eutanasia (web oficial de Por Un Mundo Más Justo)",
         "url": "https://www.porunmundomasjusto.es/el-imprescindible-rol-de-la-sociedad-civil-en-el-debate-sobre-la-educacion-el-aborto-y-la-eutanasia/",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "El imprescindible rol de la sociedad civil en el debate sobre la educación, el aborto y la eutanasia"
+      },
+      "grupoEvidencia": "pasaje-9d9fc0202c0e253ecdc5"
     }
   }
 }

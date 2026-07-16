@@ -77,8 +77,10 @@
         "titulo": "Ante las próximas elecciones autonómicas y municipales",
         "url": "https://pceml.info/ante-las-proximas-elecciones-autonomicas-y-municipales/",
         "fecha": "2023-04-19",
-        "consultado": "2026-07-09"
-      }
+        "consultado": "2026-07-09",
+        "cita": "Ante las próximas elecciones autonómicas y municipales"
+      },
+      "grupoEvidencia": "pasaje-fc00631cd6fd0e3c8311"
     },
     "mon-001": {
       "valor": 2,
@@ -89,8 +91,10 @@
         "titulo": "Ante las próximas elecciones autonómicas y municipales",
         "url": "https://pceml.info/ante-las-proximas-elecciones-autonomicas-y-municipales/",
         "fecha": "2023-04-19",
-        "consultado": "2026-07-09"
-      }
+        "consultado": "2026-07-09",
+        "cita": "Ante las próximas elecciones autonómicas y municipales"
+      },
+      "grupoEvidencia": "pasaje-fc00631cd6fd0e3c8311"
     },
     "izq-031": {
       "valor": -2,
@@ -101,8 +105,10 @@
         "titulo": "Ante las próximas elecciones autonómicas y municipales",
         "url": "https://pceml.info/ante-las-proximas-elecciones-autonomicas-y-municipales/",
         "fecha": "2023-04-19",
-        "consultado": "2026-07-09"
-      }
+        "consultado": "2026-07-09",
+        "cita": "Ante las próximas elecciones autonómicas y municipales"
+      },
+      "grupoEvidencia": "pasaje-fc00631cd6fd0e3c8311"
     },
     "izq-019": {
       "valor": 1,
@@ -113,8 +119,10 @@
         "titulo": "Ante las próximas elecciones autonómicas y municipales",
         "url": "https://pceml.info/ante-las-proximas-elecciones-autonomicas-y-municipales/",
         "fecha": "2023-04-19",
-        "consultado": "2026-07-09"
-      }
+        "consultado": "2026-07-09",
+        "cita": "Ante las próximas elecciones autonómicas y municipales"
+      },
+      "grupoEvidencia": "pasaje-fc00631cd6fd0e3c8311"
     },
     "def-002": {
       "valor": 2,
@@ -125,8 +133,10 @@
         "titulo": "Informe aprobado por el Pleno Ampliado del Comité Central del PCE(m-l)",
         "url": "https://pceml.info/informe-aprobado-por-el-pleno-ampliado-del-comite-central-del-pcem-l/",
         "fecha": "2025-04-04",
-        "consultado": "2026-07-09"
-      }
+        "consultado": "2026-07-09",
+        "cita": "Informe aprobado por el Pleno Ampliado del Comité Central del PCE"
+      },
+      "grupoEvidencia": "pasaje-6c3b8c60cea05da3e7a1"
     },
     "sd-002": {
       "valor": -2,
@@ -137,8 +147,10 @@
         "titulo": "Informe aprobado por el Pleno Ampliado del Comité Central del PCE(m-l)",
         "url": "https://pceml.info/informe-aprobado-por-el-pleno-ampliado-del-comite-central-del-pcem-l/",
         "fecha": "2025-04-04",
-        "consultado": "2026-07-09"
-      }
+        "consultado": "2026-07-09",
+        "cita": "Informe aprobado por el Pleno Ampliado del Comité Central del PCE"
+      },
+      "grupoEvidencia": "pasaje-6c3b8c60cea05da3e7a1"
     }
   }
 }

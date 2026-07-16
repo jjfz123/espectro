@@ -276,8 +276,10 @@
         "titulo": "El Congreso tumba la reducción de jornada laboral al prosperar el veto de PP, Vox y Junts (Idealista News)",
         "url": "https://www.idealista.com/news/finanzas/economia/2025/09/11/859545-el-congreso-tumba-la-reduccion-de-jornada-laboral-al-prosperar-el-veto-de-pp-vox-y",
         "fecha": "2025-09-10",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "El Congreso tumba la reducción de jornada laboral al prosperar el veto de PP, Vox y Junts"
+      },
+      "grupoEvidencia": "pasaje-dfc035df577f2ca75092"
     },
     "eco-014": {
       "valor": 2,
@@ -330,8 +332,10 @@
         "titulo": "Unidas Podemos presiona al PSOE para derogar «directamente» la Ley 15/1997 que permite gestión privada en la sanidad pública (iSanidad)",
         "url": "https://isanidad.com/242298/unidas-podemos-presiona-psoe-derogar-directamente-ley-15-1997-permite-gestion-privada-sanidad-publica/",
         "fecha": "2023-02",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "Unidas Podemos presiona al PSOE para derogar «directamente» la Ley 15/1997 que permite gestión privada en la sanidad pública"
+      },
+      "grupoEvidencia": "pasaje-ee8e0b91f27cd9052661"
     },
     "fem-001": {
       "valor": 2,
@@ -398,8 +402,10 @@
         "titulo": "El Congreso vota contra la prisión permanente revisable con acusaciones a PP y Cs de «utilizar a las víctimas» (infoLibre)",
         "url": "https://www.infolibre.es/noticias/politica/2018/03/15/debate_derogacion_prision_permanente_revisable_80676_1012.html",
         "fecha": "2018-03-15",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "El Congreso vota contra la prisión permanente revisable con acusaciones a PP y Cs de «utilizar a las víctimas»"
+      },
+      "grupoEvidencia": "pasaje-bbf93b860a467a129891"
     },
     "ter-002": {
       "valor": 2,
@@ -438,8 +444,10 @@
         "titulo": "Ley Orgánica 1/2024, de amnistía para la normalización institucional, política y social en Cataluña (BOE)",
         "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2024-11776",
         "fecha": "2024-06-11",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "Ley Orgánica 1/2024, de amnistía para la normalización institucional, política y social en Cataluña"
+      },
+      "grupoEvidencia": "pasaje-f652f95d52335f9fac85"
     },
     "ter-001": {
       "valor": -2,
@@ -450,8 +458,10 @@
         "titulo": "Podemos concurre con Bildu y Geroa Bai en una candidatura conjunta al Senado por Navarra, con manifiesto contra la recentralización (El Español)",
         "url": "https://www.elespanol.com/espana/politica/20190309/podemos-bildu-geroa-bai-candidatura-senado-navarra/381962027_0.html",
         "fecha": "2019-03-09",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "Podemos concurre con Bildu y Geroa Bai en una candidatura conjunta al Senado por Navarra, con manifiesto contra la recentralización"
+      },
+      "grupoEvidencia": "pasaje-60510b521153dbd70ff9"
     },
     "sd-006": {
       "valor": -2,
@@ -504,8 +514,10 @@
         "titulo": "El 128 de la Constitución: el artículo que permite al Gobierno poner a las eléctricas al servicio del interés general (elDiario.es)",
         "url": "https://www.eldiario.es/economia/128-constitucion-articulo-permite-gobierno-poner-electricas-servicio-interes-general_1_8305431.html",
         "fecha": "2021-10",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "El 128 de la Constitución: el artículo que permite al Gobierno poner a las eléctricas al servicio del interés general"
+      },
+      "grupoEvidencia": "pasaje-9b4cdb742596b2dbc9df"
     },
     "eco-002": {
       "valor": -2,
@@ -516,8 +528,10 @@
         "titulo": "Unidas Podemos presiona al PSOE para derogar «directamente» la Ley 15/1997 que permite gestión privada en la sanidad pública (iSanidad)",
         "url": "https://isanidad.com/242298/unidas-podemos-presiona-psoe-derogar-directamente-ley-15-1997-permite-gestion-privada-sanidad-publica/",
         "fecha": "2023-02",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "Unidas Podemos presiona al PSOE para derogar «directamente» la Ley 15/1997 que permite gestión privada en la sanidad pública"
+      },
+      "grupoEvidencia": "pasaje-ee8e0b91f27cd9052661"
     },
     "eco-006": {
       "valor": 2,
@@ -528,8 +542,10 @@
         "titulo": "El Congreso aprueba proposición para aumentar el número de viviendas públicas en alquiler (Público)",
         "url": "https://www.publico.es/politica/congreso-aprueba-proposicion-aumentar-numero-viviendas-publicas-alquiler.html",
         "fecha": "2021-03-25",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "El Congreso aprueba proposición para aumentar el número de viviendas públicas en alquiler"
+      },
+      "grupoEvidencia": "pasaje-ca5a1577680fbf8f6bbb"
     },
     "eco-008": {
       "valor": 2,
@@ -540,8 +556,10 @@
         "titulo": "El Congreso aprueba la reforma que garantiza la revalorización de las pensiones según el IPC (elDiario.es)",
         "url": "https://www.eldiario.es/politica/congreso-aprueba-reforma-garantiza-revalorizacion-pensiones-ipc_1_8548144.html",
         "fecha": "2021-12",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "El Congreso aprueba la reforma que garantiza la revalorización de las pensiones según el IPC"
+      },
+      "grupoEvidencia": "pasaje-58784f4da54ad8f60149"
     },
     "fem-010": {
       "valor": 2,
@@ -552,8 +570,10 @@
         "titulo": "El Congreso aprueba la ley que obligará a gobiernos y órganos directivos de empresas a cumplir con la paridad (elDiario.es)",
         "url": "https://www.eldiario.es/politica/congreso-aprueba-ley-obligara-gobiernos-organos-directivos-empresas-cumplir-paridad_1_11481856.html",
         "fecha": "2024-06",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "El Congreso aprueba la ley que obligará a gobiernos y órganos directivos de empresas a cumplir con la paridad"
+      },
+      "grupoEvidencia": "pasaje-5c46c26789e3905151bf"
     },
     "fem-007": {
       "valor": -2,
@@ -576,8 +596,10 @@
         "titulo": "El reportaje de la BBC sobre la tragedia en Melilla desata una batalla de las ministras de Podemos contra Marlaska (El Confidencial Digital)",
         "url": "https://www.elconfidencialdigital.com/articulo/politica/investigacion-bbc-tragedia-melilla-desata-batalla-ministras-podemos-marlaska/20221102200532471761.html",
         "fecha": "2022-11-02",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "El reportaje de la BBC sobre la tragedia en Melilla desata una batalla de las ministras de Podemos contra Marlaska"
+      },
+      "grupoEvidencia": "pasaje-5d6b0a776a0146b2c842"
     },
     "sd-021": {
       "valor": 2,
@@ -588,8 +610,10 @@
         "titulo": "El Congreso tramita la regularización de casi 400.000 inmigrantes (Newtral)",
         "url": "https://www.newtral.es/congreso-luz-verde-regularizacion-inmigrantes/20240410/",
         "fecha": "2024-04-10",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "El Congreso tramita la regularización de casi 400.000 inmigrantes"
+      },
+      "grupoEvidencia": "pasaje-68161ec63feed7fb4f57"
     },
     "der-018": {
       "valor": 2,
@@ -600,8 +624,10 @@
         "titulo": "El Congreso tramita la regularización de casi 400.000 inmigrantes (Newtral)",
         "url": "https://www.newtral.es/congreso-luz-verde-regularizacion-inmigrantes/20240410/",
         "fecha": "2024-04-10",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "El Congreso tramita la regularización de casi 400.000 inmigrantes"
+      },
+      "grupoEvidencia": "pasaje-68161ec63feed7fb4f57"
     },
     "der-019": {
       "valor": 2,
@@ -612,8 +638,10 @@
         "titulo": "El Congreso vota contra la prisión permanente revisable con acusaciones a PP y Cs de «utilizar a las víctimas» (infoLibre)",
         "url": "https://www.infolibre.es/noticias/politica/2018/03/15/debate_derogacion_prision_permanente_revisable_80676_1012.html",
         "fecha": "2018-03-15",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "El Congreso vota contra la prisión permanente revisable con acusaciones a PP y Cs de «utilizar a las víctimas»"
+      },
+      "grupoEvidencia": "pasaje-bbf93b860a467a129891"
     },
     "dr-015": {
       "valor": -2,
@@ -624,8 +652,10 @@
         "titulo": "El Congreso aprueba la Ley de Memoria Democrática con la oposición de las derechas (elDiario.es)",
         "url": "https://www.eldiario.es/sociedad/congreso-aprueba-ley-memoria-democratica-oposicion-derechas-abstencion-erc_1_9170059.html",
         "fecha": "2022-07-14",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "El Congreso aprueba la Ley de Memoria Democrática con la oposición de las derechas"
+      },
+      "grupoEvidencia": "pasaje-b24c19e22106abf89757"
     },
     "izq-044": {
       "valor": -1,
@@ -636,8 +666,10 @@
         "titulo": "Omisiones y carga ideológica en el decálogo de la protesta policial contra la reforma de la ley mordaza (elDiario.es)",
         "url": "https://www.eldiario.es/politica/omisiones-carga-ideologica-decalogo-protesta-policial-reforma-ley-mordaza_1_8518493.html",
         "fecha": "2021",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "Omisiones y carga ideológica en el decálogo de la protesta policial contra la reforma de la ley mordaza"
+      },
+      "grupoEvidencia": "pasaje-f1fd1b5e6ddb9e71d1e2"
     },
     "nac-001": {
       "valor": -1,
@@ -648,8 +680,10 @@
         "titulo": "Pablo Iglesias rechaza la «ilegítima» independencia de Cataluña (Press Digital)",
         "url": "https://www.pressdigital.es/texto-diario/mostrar/874034/pablo-iglesias-rechaza-ilegitima-independencia-cataluna",
         "fecha": "2017-10",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "Pablo Iglesias rechaza la «ilegítima» independencia de Cataluña"
+      },
+      "grupoEvidencia": "pasaje-132a4f47b15b9b113b13"
     },
     "dem-035": {
       "valor": -1,
@@ -660,8 +694,10 @@
         "titulo": "Pablo Iglesias rechaza la «ilegítima» independencia de Cataluña (Press Digital)",
         "url": "https://www.pressdigital.es/texto-diario/mostrar/874034/pablo-iglesias-rechaza-ilegitima-independencia-cataluna",
         "fecha": "2017-10",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "Pablo Iglesias rechaza la «ilegítima» independencia de Cataluña"
+      },
+      "grupoEvidencia": "pasaje-132a4f47b15b9b113b13"
     },
     "izq-025": {
       "valor": 0,
@@ -686,8 +722,10 @@
         "titulo": "El pacto PSOE-ERC fractura al bloque de la investidura: la izquierda exige mayor «equidad territorial» (El Plural)",
         "url": "https://www.elplural.com/politica/espana/pacto-psoe-erc-fractura-bloque-investidura-izquierda-exige-mayor-equidad-territorial_378280102",
         "fecha": "2024-08",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "El pacto PSOE-ERC fractura al bloque de la investidura: la izquierda exige mayor «equidad territorial»"
+      },
+      "grupoEvidencia": "pasaje-17c1c04b30128ca3619a"
     },
     "nac-008": {
       "valor": -1,
@@ -698,8 +736,10 @@
         "titulo": "El pacto PSOE-ERC fractura al bloque de la investidura: la izquierda exige mayor «equidad territorial» (El Plural)",
         "url": "https://www.elplural.com/politica/espana/pacto-psoe-erc-fractura-bloque-investidura-izquierda-exige-mayor-equidad-territorial_378280102",
         "fecha": "2024-08",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "El pacto PSOE-ERC fractura al bloque de la investidura: la izquierda exige mayor «equidad territorial»"
+      },
+      "grupoEvidencia": "pasaje-17c1c04b30128ca3619a"
     },
     "dem-033": {
       "valor": 1,

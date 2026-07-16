@@ -27,8 +27,10 @@
             "titulo": "Enmiendas a la totalidad al proyecto de reforma del artículo 43 de la Constitución",
             "url": "https://www.congreso.es/ca/busqueda-de-publicaciones?_publicaciones_id_texto=BOCG-15-A-92-2.CODI.&_publicaciones_legislatura=XV&_publicaciones_mode=mostrarTextoIntegro&p_p_id=publicaciones&p_p_lifecycle=0&p_p_mode=view&p_p_state=normal",
             "fecha": "2026-04-23",
-            "consultado": "2026-07-09"
-          }
+            "consultado": "2026-07-09",
+            "cita": "Enmiendas a la totalidad al proyecto de reforma del artículo 43 de la Constitución"
+          },
+          "grupoEvidencia": "pasaje-f8161e58a880d8e9898f"
         },
         "soc-002": {
           "valor": 2,
@@ -76,8 +78,10 @@
             "titulo": "El Congreso elige a los 10 nuevos vocales del CGPJ que le corresponden con los votos de PSOE, PP y Sumar (Infobae)",
             "url": "https://www.infobae.com/espana/agencias/2024/07/23/el-congreso-elige-a-los-10-nuevos-vocales-del-cgpj-que-le-corresponden-con-los-votos-de-psoe-pp-y-sumar/",
             "fecha": "2024-07-23",
-            "consultado": "2026-07-12"
-          }
+            "consultado": "2026-07-12",
+            "cita": "El Congreso elige a los 10 nuevos vocales del CGPJ que le corresponden con los votos de PSOE, PP y Sumar"
+          },
+          "grupoEvidencia": "pasaje-505cb6208caf222adf11"
         },
         "fem-001": {
           "valor": -1,
@@ -89,8 +93,10 @@
             "titulo": "PP y Vox chocan también en las Cortes por la «Ley trans» aragonesa (Aragón Digital)",
             "url": "https://www.aragondigital.es/articulo/politica/pp-vox-chocan-tambien-cortes-ley-trans-aragonesa/20250313174127911673.html",
             "fecha": "2025-03-13",
-            "consultado": "2026-07-12"
-          }
+            "consultado": "2026-07-12",
+            "cita": "PP y Vox chocan también en las Cortes por la «Ley trans» aragonesa"
+          },
+          "grupoEvidencia": "pasaje-a300a5e25998486f0696"
         }
       }
     }
@@ -237,8 +243,10 @@
         "titulo": "Feijóo: posición nacional sobre la regulación de la interrupción voluntaria del embarazo",
         "url": "https://www.pp.es/actualidad/articulos/feijoo-urge-al-gobierno-dar-explicaciones-por-casi-300000-euros-gastados-por/",
         "fecha": "2023-02-15",
-        "consultado": "2026-07-09"
-      }
+        "consultado": "2026-07-09",
+        "cita": "Feijóo: posición nacional sobre la regulación de la interrupción voluntaria del embarazo"
+      },
+      "grupoEvidencia": "pasaje-55c15e46e6de1c51315b"
     },
     "fem-012": {
       "valor": -2,
@@ -249,8 +257,10 @@
         "titulo": "Feijóo: posición nacional sobre la regulación de la interrupción voluntaria del embarazo",
         "url": "https://www.pp.es/actualidad/articulos/feijoo-urge-al-gobierno-dar-explicaciones-por-casi-300000-euros-gastados-por/",
         "fecha": "2023-02-15",
-        "consultado": "2026-07-09"
-      }
+        "consultado": "2026-07-09",
+        "cita": "Feijóo: posición nacional sobre la regulación de la interrupción voluntaria del embarazo"
+      },
+      "grupoEvidencia": "pasaje-55c15e46e6de1c51315b"
     },
     "ene-001": {
       "valor": 2,
@@ -341,8 +351,10 @@
         "titulo": "Privatizaciones, listas de espera y crisis de los cribados: la sanidad centra el debate electoral andaluz (Gaceta Médica)",
         "url": "https://gacetamedica.com/politica/privatizaciones-listas-espera-crisis-cribados-sanidad-debate-electoral-andalucia/",
         "fecha": "2026-02",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "Privatizaciones, listas de espera y crisis de los cribados: la sanidad centra el debate electoral andaluz"
+      },
+      "grupoEvidencia": "pasaje-0a522d1eb2c50105b312"
     },
     "eco-014": {
       "valor": -2,
@@ -381,8 +393,10 @@
         "titulo": "Las comunidades del PP piden facilitar la contratación de inmigrantes mientras Feijóo endurece el discurso (elDiario.es)",
         "url": "https://www.eldiario.es/politica/comunidades-pp-piden-facilitar-contratacion-inmigrantes-feijoo-endurece-discurso_1_11651966.html",
         "fecha": "2024",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "Las comunidades del PP piden facilitar la contratación de inmigrantes mientras Feijóo endurece el discurso"
+      },
+      "grupoEvidencia": "pasaje-987ec024b55691e3ac0b"
     },
     "soc-006": {
       "valor": -2,
@@ -543,8 +557,10 @@
         "titulo": "El Congreso tumba la reducción de la jornada con los votos en contra de PP, Vox y Junts (The Objective)",
         "url": "https://theobjective.com/espana/politica/2025-09-10/congreso-reduccion-jornada-laboral-pp-vox-junts/",
         "fecha": "2025-09-10",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "El Congreso tumba la reducción de la jornada con los votos en contra de PP, Vox y Junts"
+      },
+      "grupoEvidencia": "pasaje-6a86a6047f4b881cca9c"
     },
     "eco-002": {
       "valor": 1,
@@ -555,8 +571,10 @@
         "titulo": "El PP prioriza el refuerzo de la sanidad pública como eje de sus acuerdos autonómicos (Diariofarma)",
         "url": "https://diariofarma.com/2026/02/24/el-pp-prioriza-el-refuerzo-de-la-sanidad-publica-como-eje-de-sus-acuerdos-autonomicos",
         "fecha": "2026-02-24",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "El PP prioriza el refuerzo de la sanidad pública como eje de sus acuerdos autonómicos"
+      },
+      "grupoEvidencia": "pasaje-b8b39ad6d7a4dd33103b"
     },
     "eco-015": {
       "valor": 2,
@@ -567,8 +585,10 @@
         "titulo": "Ley 23/2013, de 23 de diciembre, reguladora del Factor de Sostenibilidad y del Índice de Revalorización del Sistema de Pensiones de la Seguridad Social (BOE)",
         "url": "https://www.boe.es/buscar/doc.php?id=BOE-A-2013-13617",
         "fecha": "2013-12-23",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "Ley 23/2013, de 23 de diciembre, reguladora del Factor de Sostenibilidad y del Índice de Revalorización del Sistema de Pensiones de la Seguridad Social"
+      },
+      "grupoEvidencia": "pasaje-b9bad55323f1f92995c2"
     },
     "eco-012": {
       "valor": -2,
@@ -579,8 +599,10 @@
         "titulo": "El PP pide ampliar los conciertos educativos en Euskadi más allá de la enseñanza obligatoria (elDiario.es)",
         "url": "https://www.eldiario.es/euskadi/pp-pide-ampliar-conciertos-educativos-euskadi-ensenanza-obligatoria_1_11490843.html",
         "fecha": "2024-07-01",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "El PP pide ampliar los conciertos educativos en Euskadi más allá de la enseñanza obligatoria"
+      },
+      "grupoEvidencia": "pasaje-03fe9b2f018e0e50c7a5"
     },
     "eco-003": {
       "valor": -1,
@@ -605,8 +627,10 @@
         "titulo": "Todos los partidos, salvo Vox, respaldan el Pacto de Estado contra la Violencia de Género (The Objective)",
         "url": "https://theobjective.com/espana/politica/2025-02-17/partidos-pacto-estado-violencia-genero/",
         "fecha": "2025-02-17",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "Todos los partidos, salvo Vox, respaldan el Pacto de Estado contra la Violencia de Género"
+      },
+      "grupoEvidencia": "pasaje-59c4fe068a1bec8a596b"
     },
     "lib-017": {
       "valor": -1,
@@ -617,8 +641,10 @@
         "titulo": "Aborto, eutanasia, vientres de alquiler... el PP más conservador quiere fijar el rumbo moral a Feijóo en el congreso de julio (El Independiente)",
         "url": "https://www.elindependiente.com/espana/2025/05/19/aborto-eutanasia-vientres-de-alquiler-el-pp-mas-conservador-quiere-fijar-el-rumbo-moral-a-feijoo-en-el-congreso-de-julio/",
         "fecha": "2025-05-19",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "Aborto, eutanasia, vientres de alquiler... el PP más conservador quiere fijar el rumbo moral a Feijóo en el congreso de julio"
+      },
+      "grupoEvidencia": "pasaje-4df2dd955b4b0afd1105"
     },
     "dr-005": {
       "valor": -1,
@@ -641,8 +667,10 @@
         "titulo": "Ley 18/2013, de 12 de noviembre, para la regulación de la Tauromaquia como patrimonio cultural (BOE)",
         "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2013-11837",
         "fecha": "2013-11-12",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "Ley 18/2013, de 12 de noviembre, para la regulación de la Tauromaquia como patrimonio cultural"
+      },
+      "grupoEvidencia": "pasaje-7c2507715f7ec911dc96"
     },
     "der-014": {
       "valor": 2,
@@ -666,8 +694,10 @@
         "titulo": "Feijóo dice que quienes no estén dispuestos a defender el Estado de las autonomías «no quieren mucho a España» (Lanza Digital)",
         "url": "https://www.lanzadigital.com/nacional/feijoo-dice-que-quienes-no-esten-dispuestos-a-defender-el-estado-de-las-autonomias-no-quieren-mucho-a-espana/",
         "fecha": "2026-07-07",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "Feijóo dice que quienes no estén dispuestos a defender el Estado de las autonomías «no quieren mucho a España»"
+      },
+      "grupoEvidencia": "pasaje-628d73f5aff056a4280d"
     },
     "sd-005": {
       "valor": 2,
@@ -678,8 +708,10 @@
         "titulo": "Feijóo se planta ante la burguesía catalana: rechaza el cupo y avisa que no les va «a pedir favores ni a regalarlos» (El Debate)",
         "url": "https://www.eldebate.com/espana/cataluna/20260603/feijoo-planta-ante-burguesia-catalana-rechaza-cupo-avisa-no-les-pedir-favores-regalarlos_424489.html",
         "fecha": "2026-06-03",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "Feijóo se planta ante la burguesía catalana: rechaza el cupo y avisa que no les va «a pedir favores ni a regalarlos»"
+      },
+      "grupoEvidencia": "pasaje-c97b003976922c525523"
     },
     "sd-006": {
       "valor": 1,
@@ -690,8 +722,10 @@
         "titulo": "Feijóo: «El PP es la alternativa constitucional al PSOE, la alternativa de gestión al PNV y la alternativa moral a Bildu» (pp.es)",
         "url": "https://www.pp.es/actualidad-noticia/feijoo-pp-es-alternativa-constitucional-al-psoe-alternativa-gestion-al-pnv",
         "fecha": "2023-11-04",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "Feijóo: «El PP es la alternativa constitucional al PSOE, la alternativa de gestión al PNV y la alternativa moral a Bildu»"
+      },
+      "grupoEvidencia": "pasaje-cb8220d91c33879ef5f6"
     },
     "cat-001": {
       "valor": -2,
@@ -716,8 +750,10 @@
         "titulo": "El PP reivindica los avances en derechos LGTBI de España: todas las veces que votó contra las leyes que los impulsaron (elDiario.es)",
         "url": "https://www.eldiario.es/sociedad/pp-reivindica-avances-derechos-lgtbi-espana-veces-voto-leyes-impulsaron_1_13345879.html",
         "fecha": "2023-02-16",
-        "consultado": "2026-07-12"
-      }
+        "consultado": "2026-07-12",
+        "cita": "El PP reivindica los avances en derechos LGTBI de España: todas las veces que votó contra las leyes que los impulsaron"
+      },
+      "grupoEvidencia": "pasaje-a7aad1634fdb63707560"
     },
     "der-020": {
       "valor": 2,
@@ -740,8 +776,10 @@
         "titulo": "La Ley de Seguridad Ciudadana amplía las garantías de los ciudadanos (Partido Popular)",
         "url": "https://www.pp.es/actualidad-noticia/ley-seguridad-ciudadana-amplia-las-garantias-ciudadanos",
         "fecha": "2015",
-        "consultado": "2026-07-12"
-      }
+        "consultado": "2026-07-12",
+        "cita": "La Ley de Seguridad Ciudadana amplía las garantías de los ciudadanos"
+      },
+      "grupoEvidencia": "pasaje-e32ab6ee6b07a6e1e24a"
     },
     "pop-001": {
       "valor": -1,
@@ -874,8 +912,10 @@
         "titulo": "El PP prioriza el refuerzo de la sanidad pública como eje de sus acuerdos autonómicos (Diariofarma)",
         "url": "https://diariofarma.com/2026/02/24/el-pp-prioriza-el-refuerzo-de-la-sanidad-publica-como-eje-de-sus-acuerdos-autonomicos",
         "fecha": "2026-02-24",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "El PP prioriza el refuerzo de la sanidad pública como eje de sus acuerdos autonómicos"
+      },
+      "grupoEvidencia": "pasaje-b8b39ad6d7a4dd33103b"
     },
     "ecl-001": {
       "valor": -1,
@@ -946,8 +986,10 @@
         "titulo": "Ley 18/2013, de 12 de noviembre, para la regulación de la Tauromaquia como patrimonio cultural (BOE)",
         "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2013-11837",
         "fecha": "2013-11-12",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "Ley 18/2013, de 12 de noviembre, para la regulación de la Tauromaquia como patrimonio cultural"
+      },
+      "grupoEvidencia": "pasaje-7c2507715f7ec911dc96"
     }
   }
 }

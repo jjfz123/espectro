@@ -4,7 +4,9 @@
   "siglas": "SY",
   "ambito": "autonomico",
   "tipo": "partido",
-  "ccaa": ["castilla-y-leon"],
+  "ccaa": [
+    "castilla-y-leon"
+  ],
   "confianza": "verificada",
   "web": "https://soriaya.org/",
   "revisado": "2026-07-10",
@@ -55,8 +57,10 @@
         "titulo": "Soria ¡YA! convoca para exigir un ferrocarril digno para la provincia",
         "url": "https://soriaya.org/soria-ya-convoca-a-la-ciudadania-soriana-a-manifestarse-el-11-de-julio-para-exigir-un-ferrocarril-digno-para-la-provincia/",
         "fecha": "2025",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "Soria ¡YA! convoca para exigir un ferrocarril digno para la provincia"
+      },
+      "grupoEvidencia": "pasaje-0b5cc79159f4fd2bd837"
     },
     "nac-015": {
       "valor": -1,

@@ -4,7 +4,9 @@
   "siglas": "PREPAL",
   "ambito": "autonomico",
   "tipo": "partido",
-  "ccaa": ["castilla-y-leon"],
+  "ccaa": [
+    "castilla-y-leon"
+  ],
   "confianza": "verificada",
   "revisado": "2026-07-10",
   "actividad": "activa",
@@ -18,8 +20,10 @@
         "titulo": "XLV años Partido Regionalista del País Leonés PREPAL",
         "url": "https://www.heraldodeleon.es/articulo/cartas-al-director/xlv-anos-partido-regionalista-pais-leones-prepal/20250919151954048119.html",
         "fecha": "2025-09-19",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "XLV años Partido Regionalista del País Leonés PREPAL"
+      },
+      "grupoEvidencia": "pasaje-0f5117bf8c96ce4f8511"
     },
     "nac-015": {
       "valor": 2,
@@ -30,8 +34,10 @@
         "titulo": "Estatuto Comunidad Autónoma Región Reino Leonés (anteproyecto)",
         "url": "https://eldiadezamora.es/archive/43796/estatuto-comunidad-autonoma-region-reino-leones-anteproyecto",
         "fecha": "2022-04-23",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "Estatuto Comunidad Autónoma Región Reino Leonés"
+      },
+      "grupoEvidencia": "pasaje-e19cf665b285a794d4c9"
     },
     "dem-012": {
       "valor": 2,
@@ -42,8 +48,10 @@
         "titulo": "XLV años Partido Regionalista del País Leonés PREPAL",
         "url": "https://www.heraldodeleon.es/articulo/cartas-al-director/xlv-anos-partido-regionalista-pais-leones-prepal/20250919151954048119.html",
         "fecha": "2025-09-19",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "XLV años Partido Regionalista del País Leonés PREPAL"
+      },
+      "grupoEvidencia": "pasaje-0f5117bf8c96ce4f8511"
     }
   }
 }

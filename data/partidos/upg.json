@@ -116,8 +116,10 @@
         "titulo": "60 años de lucha por la soberanía de Galicia y el socialismo: XVI Congreso",
         "url": "https://upg.gal/60-anos-loita-pola-soberania-da-galiza-socialismo-xvi-congreso-da-upg/",
         "fecha": "2024-07-05",
-        "consultado": "2026-07-09"
-      }
+        "consultado": "2026-07-09",
+        "cita": "60 años de lucha por la soberanía de Galicia y el socialismo: XVI Congreso"
+      },
+      "grupoEvidencia": "pasaje-6b69b802ce93f913873e"
     },
     "nac-008": {
       "valor": 2,
@@ -128,8 +130,10 @@
         "titulo": "Documento aprobado por el Comité Central de la UPG del 20 de enero de 2024",
         "url": "https://upg.gal/documento-aprobado-no-comite-central-do-20-xaneiro-2024/",
         "fecha": "2024-01-20",
-        "consultado": "2026-07-09"
-      }
+        "consultado": "2026-07-09",
+        "cita": "Documento aprobado por el Comité Central de la UPG del 20 de enero de 2024"
+      },
+      "grupoEvidencia": "pasaje-fa26b57ed63ef83d3ea4"
     },
     "lab-016": {
       "valor": 2,
@@ -152,8 +156,10 @@
         "titulo": "Sobre a nova conxuntura política internacional",
         "url": "https://upg.gal/sobre-a-nova-conxuntura-politica-internacional/",
         "fecha": "2025-03-14",
-        "consultado": "2026-07-09"
-      }
+        "consultado": "2026-07-09",
+        "cita": "Sobre a nova conxuntura política internacional"
+      },
+      "grupoEvidencia": "pasaje-89513b274f70d82038c0"
     },
     "sd-002": {
       "valor": -2,
@@ -164,8 +170,10 @@
         "titulo": "Sobre a nova conxuntura política internacional",
         "url": "https://upg.gal/sobre-a-nova-conxuntura-politica-internacional/",
         "fecha": "2025-03-14",
-        "consultado": "2026-07-09"
-      }
+        "consultado": "2026-07-09",
+        "cita": "Sobre a nova conxuntura política internacional"
+      },
+      "grupoEvidencia": "pasaje-89513b274f70d82038c0"
     },
     "geo-003": {
       "valor": 1,
@@ -176,8 +184,10 @@
         "titulo": "Sobre a nova conxuntura política internacional",
         "url": "https://upg.gal/sobre-a-nova-conxuntura-politica-internacional/",
         "fecha": "2025-03-14",
-        "consultado": "2026-07-09"
-      }
+        "consultado": "2026-07-09",
+        "cita": "Sobre a nova conxuntura política internacional"
+      },
+      "grupoEvidencia": "pasaje-89513b274f70d82038c0"
     },
     "izq-031": {
       "valor": -2,

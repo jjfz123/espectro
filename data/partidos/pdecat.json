@@ -45,8 +45,10 @@
         "titulo": "PP, Vox, Ciudadanos, PNV, Junts y PDeCAT rechazan la Ley de Vivienda: \"Invade competencias\"",
         "url": "https://www.elespanol.com/espana/politica/20230427/pp-ciudadanos-pnv-junts-pdecat-vivienda-invade/759424267_0.html",
         "fecha": "2023-04-27",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "PP, Vox, Ciudadanos, PNV, Junts y PDeCAT rechazan la Ley de Vivienda: \"Invade competencias\""
+      },
+      "grupoEvidencia": "pasaje-84a358ec402d80aac1bb"
     },
     "eco-007": {
       "valor": 2,
@@ -57,8 +59,10 @@
         "titulo": "PDeCAT registra una ley para desalojar okupas en 48 horas y dar competencias a vecinos y ayuntamientos",
         "url": "https://www.idealista.com/news/inmobiliario/vivienda/2022/05/31/796964-pdecat-registra-una-ley-para-desalojar-okupas-en-48-horas-y-dar-de-competencias-a-vecinos-y",
         "fecha": "2022-05-31",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "PDeCAT registra una ley para desalojar okupas en 48 horas y dar competencias a vecinos y ayuntamientos"
+      },
+      "grupoEvidencia": "pasaje-bf0a7fece351cc3524de"
     },
     "eco-009": {
       "valor": 2,
@@ -69,8 +73,10 @@
         "titulo": "PDeCAT dice que trabajará para \"eliminar\" el impuesto de Sucesiones",
         "url": "https://www.moncloa.com/pdecat-eliminar-impuestos-sucesiones/",
         "fecha": "2020",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "PDeCAT dice que trabajará para \"eliminar\" el impuesto de Sucesiones"
+      },
+      "grupoEvidencia": "pasaje-cb059492bccd6be3866d"
     },
     "eco-012": {
       "valor": -2,
@@ -93,8 +99,10 @@
         "titulo": "El Congreso aprueba el impuesto a grandes fortunas y lo remite al Senado",
         "url": "https://www.idealista.com/news/finanzas/economia/2022/11/25/800323-el-congreso-aprueba-el-impuesto-a-grandes-fortunas-y-lo-remite-al-senado",
         "fecha": "2022-11-25",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "El Congreso aprueba el impuesto a grandes fortunas y lo remite al Senado"
+      },
+      "grupoEvidencia": "pasaje-70f3c6590d15005ad1f1"
     },
     "lib-017": {
       "valor": 2,
@@ -119,8 +127,10 @@
         "titulo": "La votación de la ley trans divide más a la derecha que a la izquierda",
         "url": "https://www.publico.es/politica/votacion-ley-trans-divide-derecha-izquierda.html",
         "fecha": "2022-12",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "La votación de la ley trans divide más a la derecha que a la izquierda"
+      },
+      "grupoEvidencia": "pasaje-1c14b04d309e91ce2a7a"
     },
     "soc-006": {
       "valor": 2,
@@ -131,8 +141,10 @@
         "titulo": "PP y Ciudadanos pierden la votación en el Congreso para endurecer la prisión permanente revisable",
         "url": "https://www.eldiario.es/politica/pp-oposicion-victimas-permanente-revisable_1_2227447.html",
         "fecha": "2018-03-15",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "PP y Ciudadanos pierden la votación en el Congreso para endurecer la prisión permanente revisable"
+      },
+      "grupoEvidencia": "pasaje-460baa1e8b0a33583ddc"
     },
     "der-026": {
       "valor": -2,
@@ -157,8 +169,10 @@
         "titulo": "El Congreso da luz verde definitiva a la reforma del aborto y a la Ley Trans",
         "url": "https://www.elindependiente.com/espana/2023/02/16/el-congreso-da-luz-verde-definitiva-a-la-reforma-del-aborto-y-a-la-ley-trans/",
         "fecha": "2023-02-16",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "El Congreso da luz verde definitiva a la reforma del aborto y a la Ley Trans"
+      },
+      "grupoEvidencia": "pasaje-ae128b3fc541a28cdd20"
     },
     "nac-001": {
       "valor": -1,
@@ -169,8 +183,10 @@
         "titulo": "Bajas en el PDeCAT por el bloqueo a la declaración de independencia",
         "url": "https://www.elconfidencialdigital.com/articulo/politica/Bajas-PDeCAT-bloqueo-declaracion-independencia/20171018205134087112.html",
         "fecha": "2017-10-18",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "Bajas en el PDeCAT por el bloqueo a la declaración de independencia"
+      },
+      "grupoEvidencia": "pasaje-d7aa5048316f3390e7a4"
     },
     "nac-002": {
       "valor": 1,

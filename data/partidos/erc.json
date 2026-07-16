@@ -269,8 +269,10 @@
         "titulo": "El Congreso aprueba la reforma fiscal con el impuesto a la banca y el compromiso de prorrogar el de las energéticas (elDiario.es)",
         "url": "https://www.eldiario.es/economia/congreso-aprueba-reforma-fiscal-impuesto-banca-compromiso-prorrogar-energeticas_1_11839252.html",
         "fecha": "2024-11-21",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "El Congreso aprueba la reforma fiscal con el impuesto a la banca y el compromiso de prorrogar el de las energéticas"
+      },
+      "grupoEvidencia": "pasaje-ec031fb6c5e1eda6412d"
     },
     "eco-001": {
       "valor": 1,
@@ -293,8 +295,10 @@
         "titulo": "El Congreso aprueba la Ley Trans (elDiario.es)",
         "url": "https://www.eldiario.es/sociedad/congreso-aprueba-ley-trans_1_9814748.html",
         "fecha": "2023-02-16",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "El Congreso aprueba la Ley Trans"
+      },
+      "grupoEvidencia": "pasaje-bf9c6d4331924d16a042"
     },
     "fem-014": {
       "valor": 2,
@@ -333,8 +337,10 @@
         "titulo": "El Congreso vota contra la prisión permanente revisable con acusaciones a PP y Cs de «utilizar a las víctimas» (infoLibre)",
         "url": "https://www.infolibre.es/noticias/politica/2018/03/15/debate_derogacion_prision_permanente_revisable_80676_1012.html",
         "fecha": "2018-03-15",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "El Congreso vota contra la prisión permanente revisable con acusaciones a PP y Cs de «utilizar a las víctimas»"
+      },
+      "grupoEvidencia": "pasaje-bbf93b860a467a129891"
     },
     "eco-004": {
       "valor": 1,
@@ -345,8 +351,10 @@
         "titulo": "El Congreso aprueba los objetivos de déficit y abre camino a los Presupuestos de 2024 (elEconomista)",
         "url": "https://www.eleconomista.es/economia/noticias/12618160/01/24/el-congreso-aprueba-los-objetivos-de-deficit-y-abre-camino-a-los-presupuestos-de-2024.html",
         "fecha": "2024-01-10",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "El Congreso aprueba los objetivos de déficit y abre camino a los Presupuestos de 2024"
+      },
+      "grupoEvidencia": "pasaje-0a020870640019cecbfb"
     },
     "eco-007": {
       "valor": 0,
@@ -357,8 +365,10 @@
         "titulo": "Bildu y ERC votan en el Congreso junto al PP, Junts y PNV una reforma para agilizar los desahucios de 'okupas' (El Español)",
         "url": "https://www.elespanol.com/espana/politica/20241114/bildu-erc-votan-congreso-junto-pp-junts-pnv-cambio-legal-agilizar-desahucios/901160469_0.html",
         "fecha": "2024-11-14",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "Bildu y ERC votan en el Congreso junto al PP, Junts y PNV una reforma para agilizar los desahucios de 'okupas'"
+      },
+      "grupoEvidencia": "pasaje-2e73c0d6bbb478ef6b44"
     },
     "eco-009": {
       "valor": -2,
@@ -419,8 +429,10 @@
         "titulo": "El Congreso aprueba la reforma de la ley del aborto con 185 votos: sólo se oponen PP, Vox y Cs (El Español)",
         "url": "https://www.elespanol.com/espana/politica/20230216/congreso-aprueba-reforma-aborto-pp-vox-cs/741925881_0.html",
         "fecha": "2023-02-16",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "El Congreso aprueba la reforma de la ley del aborto con 185 votos: sólo se oponen PP, Vox y Cs"
+      },
+      "grupoEvidencia": "pasaje-ca58c5b38e7b15a7d44e"
     },
     "soc-002": {
       "valor": -2,
@@ -443,8 +455,10 @@
         "titulo": "El Congreso aprueba el uso de las lenguas cooficiales, en directo (elDiario.es)",
         "url": "https://www.eldiario.es/politica/congreso-aprueba-lenguas-cooficiales-directo_6_10525819.html",
         "fecha": "2023-09-21",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "El Congreso aprueba el uso de las lenguas cooficiales, en directo"
+      },
+      "grupoEvidencia": "pasaje-63ca94c601fdb52d2562"
     },
     "ter-002": {
       "valor": 2,
@@ -479,8 +493,10 @@
         "titulo": "PSOE, Podemos y ERC aprueban que el castellano deje de ser lengua vehicular en la Educación (El Independiente)",
         "url": "https://www.elindependiente.com/espana/2020/11/05/psoe-podemos-y-erc-aprueban-que-el-castellano-deje-de-ser-lengua-vehicular-en-la-educacion/",
         "fecha": "2020-11-05",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "PSOE, Podemos y ERC aprueban que el castellano deje de ser lengua vehicular en la Educación"
+      },
+      "grupoEvidencia": "pasaje-9f11046545559d6995a4"
     },
     "ter-005": {
       "valor": -2,
@@ -491,8 +507,10 @@
         "titulo": "El Senado tramita una ley para sancionar a cargos y funcionarios que no respeten la bandera española (Noticias de Álava)",
         "url": "https://www.noticiasdealava.eus/politica/2026/02/04/senado-comienza-tramitar-ley-pp-bandera-espana-10656526.html",
         "fecha": "2026-02-04",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "El Senado tramita una ley para sancionar a cargos y funcionarios que no respeten la bandera española"
+      },
+      "grupoEvidencia": "pasaje-466dc217bda83b2b726d"
     },
     "cat-003": {
       "valor": 2,
@@ -503,8 +521,10 @@
         "titulo": "El Congreso aprueba definitivamente la ley de amnistía con 177 votos a favor y 172 en contra (COPE)",
         "url": "https://www.cope.es/actualidad/espana/noticias/congreso-aprueba-ley-amnistia-20240530_3324407",
         "fecha": "2024-05-30",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "El Congreso aprueba definitivamente la ley de amnistía con 177 votos a favor y 172 en contra"
+      },
+      "grupoEvidencia": "pasaje-716bfe74b61adba49514"
     },
     "sd-004": {
       "valor": 1,
@@ -515,8 +535,10 @@
         "titulo": "Junqueras y Otegi abordan la situación internacional y profundizar en la relación de ERC y Bildu (Infobae)",
         "url": "https://www.infobae.com/espana/agencias/2026/03/10/junqueras-y-otegi-abordan-la-situacion-internacional-y-profundizar-en-la-relacion-de-erc-y-bildu/",
         "fecha": "2026-03-10",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "Junqueras y Otegi abordan la situación internacional y profundizar en la relación de ERC y Bildu"
+      },
+      "grupoEvidencia": "pasaje-ead303a8fe1bc938dda5"
     },
     "dr-001": {
       "valor": 0,

@@ -93,8 +93,10 @@
         "titulo": "Nación Andaluza ante los comicios al Parlamento Europeo del 9 de junio",
         "url": "https://nacionandaluza.org/2024/05/14/nacion-andaluza-ante-los-comicios-al-parlamento-europeo-del-9-de-junio/",
         "fecha": "2024-05-14",
-        "consultado": "2026-07-09"
-      }
+        "consultado": "2026-07-09",
+        "cita": "Nación Andaluza ante los comicios al Parlamento Europeo del 9 de junio"
+      },
+      "grupoEvidencia": "pasaje-e46fc7f31d4b04b896ee"
     },
     "dem-001": {
       "valor": 2,
@@ -381,8 +383,10 @@
         "titulo": "BOJA: candidaturas proclamadas para las elecciones al Parlamento de Andalucía de 2026",
         "url": "https://www.juntadeandalucia.es/boja/2026/75/c01/1",
         "fecha": "2026-04-21",
-        "consultado": "2026-07-09"
-      }
+        "consultado": "2026-07-09",
+        "cita": "BOJA: candidaturas proclamadas para las elecciones al Parlamento de Andalucía de 2026"
+      },
+      "grupoEvidencia": "pasaje-66e2b7fae68eb437c23c"
     },
     "soc-001": {
       "valor": 2,
@@ -393,8 +397,10 @@
         "titulo": "Nación Andaluza ante el 28 de junio Por un Día del Orgullo andaluz, de clase, socialista y antiimperialista",
         "url": "https://nacionandaluza.org/2023/06/27/nacion-andaluza-ante-el-28-de-junio-por-un-dia-del-orgullo-andaluz-de-clase-socialista-y-antiimperialista/",
         "fecha": "2023-06-27",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "Nación Andaluza ante el 28 de junio Por un Día del Orgullo andaluz, de clase, socialista y antiimperialista"
+      },
+      "grupoEvidencia": "pasaje-300a4ff3b86891f7650d"
     },
     "izq-014": {
       "valor": -2,
@@ -416,8 +422,10 @@
         "titulo": "Nación Andaluza por una política de vivienda al servicio del Pueblo Trabajador Andaluz",
         "url": "https://nacionandaluza.org/2022/01/13/nacion-andaluza-por-una-politica-de-vivienda-al-servicio-del-pueblo-trabajador-andaluz/",
         "fecha": "2022-01-13",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "Nación Andaluza por una política de vivienda al servicio del Pueblo Trabajador Andaluz"
+      },
+      "grupoEvidencia": "pasaje-16b6d41708a5da4bd8d2"
     },
     "der-018": {
       "valor": 2,

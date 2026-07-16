@@ -189,8 +189,10 @@
         "titulo": "BOE: candidaturas proclamadas para las elecciones al Parlamento Europeo de 2024",
         "url": "https://www.boe.es/diario_boe/txt.php?id=BOE-A-2024-9687",
         "fecha": "2024-05-14",
-        "consultado": "2026-07-09"
-      }
+        "consultado": "2026-07-09",
+        "cita": "BOE: candidaturas proclamadas para las elecciones al Parlamento Europeo de 2024"
+      },
+      "grupoEvidencia": "pasaje-e98486d3f47b55284aae"
     },
     "lab-017": {
       "valor": -1,

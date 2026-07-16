@@ -210,8 +210,10 @@
         "tipo": "declaracion",
         "titulo": "Uxue Barkos: \"En Navarra no estamos por el independentismo, hay otras prioridades\"",
         "url": "https://www.publico.es/politica/uxue-barkos-navarra-independentismo-hay-prioridades.html",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "Uxue Barkos: \"En Navarra no estamos por el independentismo, hay otras prioridades\""
+      },
+      "grupoEvidencia": "pasaje-94dff5d26a148c3c9235"
     },
     "eus-006": {
       "valor": 2,
@@ -221,8 +223,10 @@
         "tipo": "declaracion",
         "titulo": "Geroa Bai apuesta por eliminar la zonificación lingüística y que se valore el euskera como mérito en toda Navarra",
         "url": "https://geroabai.eus/es/actualidad/geroa-bai-apuesta-por-eliminar-la-zonificacion-lingueistica-y-que-se-valore-el-euskera-como-merito-en-toda-navarra",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "Geroa Bai apuesta por eliminar la zonificación lingüística y que se valore el euskera como mérito en toda Navarra"
+      },
+      "grupoEvidencia": "pasaje-fcc6d11048d466615105"
     },
     "eus-003": {
       "valor": -1,
@@ -232,8 +236,10 @@
         "tipo": "declaracion",
         "titulo": "Geroa Bai apuesta por eliminar la zonificación lingüística y que se valore el euskera como mérito en toda Navarra",
         "url": "https://geroabai.eus/es/actualidad/geroa-bai-apuesta-por-eliminar-la-zonificacion-lingueistica-y-que-se-valore-el-euskera-como-merito-en-toda-navarra",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "Geroa Bai apuesta por eliminar la zonificación lingüística y que se valore el euskera como mérito en toda Navarra"
+      },
+      "grupoEvidencia": "pasaje-fcc6d11048d466615105"
     },
     "nac-007": {
       "valor": 2,
@@ -267,8 +273,10 @@
         "titulo": "Geroa Bai apuesta por una \"buena financiación local\" y \"más servicios\" para \"atajar\" la despoblación",
         "url": "https://www.noticiasdenavarra.com/elecciones-en-navarra/2023/05/18/geroa-bai-despoblacion-6817860.html",
         "fecha": "2023-05-18",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "Geroa Bai apuesta por una \"buena financiación local\" y \"más servicios\" para \"atajar\" la despoblación"
+      },
+      "grupoEvidencia": "pasaje-cc647018a12196e40cff"
     },
     "eco-009": {
       "valor": -1,

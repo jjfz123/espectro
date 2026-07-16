@@ -4,7 +4,9 @@
   "siglas": "XAV",
   "ambito": "autonomico",
   "tipo": "partido",
-  "ccaa": ["castilla-y-leon"],
+  "ccaa": [
+    "castilla-y-leon"
+  ],
   "confianza": "verificada",
   "web": "https://poravila.es/",
   "revisado": "2026-07-10",
@@ -55,8 +57,10 @@
         "titulo": "Pascual pide el voto a los abulenses decepcionados por los partidos de siempre",
         "url": "https://poravila.es/pascual-pide-el-voto-a-los-abulenses-que-estan-decepcionados-por-los-partidos-de-siempre-para-seguir-siendo-la-voz-reivindicativa-de-la-provincia",
         "fecha": "2026-03-13",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "Pascual pide el voto a los abulenses decepcionados por los partidos de siempre"
+      },
+      "grupoEvidencia": "pasaje-ef69b05388afd2d9cdf2"
     }
   }
 }

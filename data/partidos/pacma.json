@@ -138,8 +138,10 @@
         "titulo": "PACMA, el partido que también se preocupa por las personas",
         "url": "https://pacma.es/noticias/pacma-el-partido-que-tambien-se-preocupa-por-las-personas/",
         "fecha": "2023-01-26",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "PACMA, el partido que también se preocupa por las personas"
+      },
+      "grupoEvidencia": "pasaje-d9b79aa0e1de12369406"
     },
     "eco-008": {
       "valor": 1,
@@ -150,8 +152,10 @@
         "titulo": "PACMA se suma a la Mesa Estatal Pro Referéndum de las Pensiones",
         "url": "https://pacma.es/campana-politica/pacma-se-suma-a-la-mesa-estatal-pro-referendum-de-las-pensiones/",
         "fecha": "2023-01-26",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "PACMA se suma a la Mesa Estatal Pro Referéndum de las Pensiones"
+      },
+      "grupoEvidencia": "pasaje-22c56bc390b797eddf4c"
     },
     "sd-008": {
       "valor": -1,
@@ -174,8 +178,10 @@
         "titulo": "El partido animalista Pacma considera la sentencia \"lamentable\" y anuncia una \"respuesta jurídica y social potente\" (elDiario.es)",
         "url": "https://www.eldiario.es/sociedad/pacma-sentencia-tc-toros-cataluna_1_3779855.html",
         "fecha": "2016-10-20",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "El partido animalista Pacma considera la sentencia \"lamentable\" y anuncia una \"respuesta jurídica y social potente\""
+      },
+      "grupoEvidencia": "pasaje-42da754f1ac7e7746ebe"
     },
     "mon-001": {
       "valor": 1,

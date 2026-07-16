@@ -184,8 +184,10 @@
         "titulo": "La alcaldesa ultra de Ripoll, Sílvia Orriols, considera que Cataluña es \"un grupo étnico\" (Crónica Global)",
         "url": "https://cronicaglobal.elespanol.com/politica/20240409/orriols-responde-propuesta-sanitario-alianca-catalana-no/846415361_0.html",
         "fecha": "2024-04-09",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "La alcaldesa ultra de Ripoll, Sílvia Orriols, considera que Cataluña es \"un grupo étnico\""
+      },
+      "grupoEvidencia": "pasaje-bc21941c66aa915e93b6"
     },
     "nac-006": {
       "valor": -1,
@@ -220,8 +222,10 @@
         "titulo": "PP y Vox se alían con Sílvia Orriols para intentar cerrar mezquitas en Catalunya (Ara)",
         "url": "https://es.ara.cat/politica/parlament-de-catalunya/pp-vox-alian-silvia-orriols-cerrar-mezquitas-catalunya_1_5270650.html",
         "fecha": "2025-01",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "PP y Vox se alían con Sílvia Orriols para intentar cerrar mezquitas en Catalunya"
+      },
+      "grupoEvidencia": "pasaje-a81bb7564d3c5dd31455"
     },
     "soc-002": {
       "valor": 2,
@@ -244,8 +248,10 @@
         "titulo": "Cataluña vive una explosión de moras y Sílvia Orriols hace un comentario racista que se hace viral (Infobae)",
         "url": "https://www.infobae.com/espana/2025/07/31/cataluna-vive-una-explosion-de-moras-y-silvia-orriols-hace-un-comentario-racista-que-se-hace-viral-ni-que-lo-jures/",
         "fecha": "2025-07-31",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "Cataluña vive una explosión de moras y Sílvia Orriols hace un comentario racista que se hace viral"
+      },
+      "grupoEvidencia": "pasaje-450f0a7c19594ef2c5e5"
     },
     "soc-005": {
       "valor": -1,
@@ -278,8 +284,10 @@
         "titulo": "El Parlament aprova la llei de l'erradicació de l'LGBTI-fòbia amb els vots de PSC, Junts, ERC, Comuns i CUP (ACN)",
         "url": "https://www.acn.cat/new/el-parlament-aprova-la-llei-de-lerradicacio-de-llgbti-fobia-amb-els-vots-de-psc-junts-erc-comuns-i-cup/texts",
         "fecha": "2025-12-17",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "El Parlament aprova la llei de l'erradicació de l'LGBTI-fòbia amb els vots de PSC, Junts, ERC, Comuns i CUP"
+      },
+      "grupoEvidencia": "pasaje-cf7e9bc0502acb5958ab"
     },
     "cat-004": {
       "valor": 2,
@@ -316,8 +324,10 @@
         "titulo": "Aliança Catalana pide «desokupaciones» en 48 horas y penas más duras para los infractores (The Objective)",
         "url": "https://theobjective.com/espana/politica/2025-06-26/alianca-catalana-desokupaciones-48-horas/",
         "fecha": "2025-06-26",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "Aliança Catalana pide «desokupaciones» en 48 horas y penas más duras para los infractores"
+      },
+      "grupoEvidencia": "pasaje-369d1c3f52f64ff2b02e"
     },
     "fem-001": {
       "valor": -2,
@@ -328,8 +338,10 @@
         "titulo": "El Parlament aprova la llei de l'erradicació de l'LGBTI-fòbia amb els vots de PSC, Junts, ERC, Comuns i CUP (ACN)",
         "url": "https://www.acn.cat/new/el-parlament-aprova-la-llei-de-lerradicacio-de-llgbti-fobia-amb-els-vots-de-psc-junts-erc-comuns-i-cup/texts",
         "fecha": "2025-12-17",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "El Parlament aprova la llei de l'erradicació de l'LGBTI-fòbia amb els vots de PSC, Junts, ERC, Comuns i CUP"
+      },
+      "grupoEvidencia": "pasaje-cf7e9bc0502acb5958ab"
     },
     "fem-007": {
       "valor": 1,
@@ -387,8 +399,10 @@
         "titulo": "Aliança Catalana explica sus propuestas de vivienda en la casa de los burgueses catalanes (Crónica Global)",
         "url": "https://cronicaglobal.elespanol.com/business/20250626/alianca-catalana-explica-propuestas-vivienda-burgueses-catalanes/1003742668880_0.html",
         "fecha": "2025-06-26",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "Aliança Catalana explica sus propuestas de vivienda en la casa de los burgueses catalanes"
+      },
+      "grupoEvidencia": "pasaje-901920bdf660640275e4"
     },
     "eco-006": {
       "valor": -2,
@@ -547,8 +561,10 @@
         "tipo": "declaracion",
         "titulo": "Contundent discurs de Sílvia Orriols contra Salvador Illa: acabarem amb la partitocràcia (XCatalunya.cat)",
         "url": "https://xcatalunya.cat/actualitat/contundent-discurs-silvia-orriols-contra-salvador-illa-acabarem-partitocracia",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "Contundent discurs de Sílvia Orriols contra Salvador Illa: acabarem amb la partitocràcia"
+      },
+      "grupoEvidencia": "pasaje-55ad6de55fdbbb3c8f61"
     },
     "lib-017": {
       "valor": 2,
@@ -573,8 +589,10 @@
         "titulo": "El Ple aprova tramitar per lectura única la proposta per portar al Congrés la reforma de la llei sobre l'eutanàsia (Parlament de Catalunya)",
         "url": "https://www.parlament.cat/web/actualitat/noticies/index.html?p_format=D&p_id=358071392",
         "fecha": "2026-04-15",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "El Ple aprova tramitar per lectura única la proposta per portar al Congrés la reforma de la llei sobre l'eutanàsia"
+      },
+      "grupoEvidencia": "pasaje-9e54748d402ecb405c34"
     },
     "dem-012": {
       "valor": -2,
@@ -635,8 +653,10 @@
         "titulo": "PP y Vox se alían con Sílvia Orriols para intentar cerrar mezquitas en Catalunya (Ara)",
         "url": "https://es.ara.cat/politica/parlament-de-catalunya/pp-vox-alian-silvia-orriols-cerrar-mezquitas-catalunya_1_5270650.html",
         "fecha": "2025-01",
-        "consultado": "2026-07-12"
-      }
+        "consultado": "2026-07-12",
+        "cita": "PP y Vox se alían con Sílvia Orriols para intentar cerrar mezquitas en Catalunya"
+      },
+      "grupoEvidencia": "pasaje-a81bb7564d3c5dd31455"
     },
     "lab-017": {
       "valor": 2,

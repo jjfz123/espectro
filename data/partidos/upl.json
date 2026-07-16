@@ -4,7 +4,9 @@
   "siglas": "UPL",
   "ambito": "autonomico",
   "tipo": "partido",
-  "ccaa": ["castilla-y-leon"],
+  "ccaa": [
+    "castilla-y-leon"
+  ],
   "confianza": "verificada",
   "web": "https://www.upl.es/",
   "revisado": "2026-07-10",
@@ -18,8 +20,10 @@
         "tipo": "declaracion",
         "titulo": "Preguntas frecuentes de Unión del Pueblo Leonés",
         "url": "https://www.upl.es/preguntas-frecuentes/",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "Preguntas frecuentes de Unión del Pueblo Leonés"
+      },
+      "grupoEvidencia": "pasaje-b973df33c01c40e3e973"
     },
     "nac-010": {
       "valor": 1,
@@ -66,8 +70,10 @@
         "titulo": "UPL solicitará una consulta popular en León, Zamora y Salamanca",
         "url": "https://www.upl.es/celebracion-consulta-popular/",
         "fecha": "2025-09-26",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "UPL solicitará una consulta popular en León, Zamora y Salamanca"
+      },
+      "grupoEvidencia": "pasaje-9318d564839263e5deb7"
     },
     "dem-012": {
       "valor": 2,

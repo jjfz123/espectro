@@ -33,8 +33,10 @@
         "titulo": "Acuerdos de Coalición Canaria",
         "url": "https://coalicioncanaria.org/acuerdos/",
         "fecha": "2023-12-12",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "Acuerdos de Coalición Canaria"
+      },
+      "grupoEvidencia": "pasaje-bc14d53ade478f091f7e"
     },
     "nac-006": {
       "valor": -2,
@@ -45,8 +47,10 @@
         "titulo": "Manifiesto Coalición por Canarias para las elecciones generales de 2023",
         "url": "https://coalicioncanaria.org/wp-content/uploads/2023/06/COALICION_POR_CANARIAS.pdf",
         "fecha": "2023-06-26",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "Manifiesto Coalición por Canarias para las elecciones generales de 2023"
+      },
+      "grupoEvidencia": "pasaje-09dd3cf401600aa5a817"
     },
     "nac-009": {
       "valor": 1,
@@ -57,8 +61,10 @@
         "titulo": "CC no apoyará un Gobierno en el que esté Vox o Sumar",
         "url": "https://coalicioncanaria.org/cc-no-apoyara-un-gobierno-en-el-que-este-vox-o-sumar/",
         "fecha": "2023-07-24",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "CC no apoyará un Gobierno en el que esté Vox o Sumar"
+      },
+      "grupoEvidencia": "pasaje-bb05ee4eaf7c6305e031"
     },
     "dem-001": {
       "valor": 1,
@@ -81,8 +87,10 @@
         "titulo": "Resolución del VIII Congreso Nacional sobre el REF",
         "url": "https://coalicioncanaria.org/wp-content/uploads/2025/04/Propuesta-de-resolucion.-REF.pdf",
         "fecha": "2025-04",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "Resolución del VIII Congreso Nacional sobre el REF"
+      },
+      "grupoEvidencia": "pasaje-046112f8b89da638ef6b"
     },
     "can-002": {
       "valor": 2,
@@ -153,8 +161,10 @@
         "titulo": "Turismo aclara que no contempla una moratoria general del uso turístico de viviendas",
         "url": "https://www3.gobiernodecanarias.org/noticias/hemeroteca/tag/moratoria-turistica/",
         "fecha": "2023",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "Turismo aclara que no contempla una moratoria general del uso turístico de viviendas"
+      },
+      "grupoEvidencia": "pasaje-e9fa2973e661bf3a9cbe"
     },
     "can-008": {
       "valor": 2,
@@ -165,8 +175,10 @@
         "titulo": "CC no apoyará un Gobierno en el que esté Vox o Sumar",
         "url": "https://coalicioncanaria.org/cc-no-apoyara-un-gobierno-en-el-que-este-vox-o-sumar/",
         "fecha": "2023-07-24",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "CC no apoyará un Gobierno en el que esté Vox o Sumar"
+      },
+      "grupoEvidencia": "pasaje-bb05ee4eaf7c6305e031"
     },
     "can-009": {
       "valor": -2,
@@ -189,8 +201,10 @@
         "titulo": "CC denuncia que se impida a Canarias participar en las negociaciones con Marruecos",
         "url": "https://coalicioncanaria.org/cc-denuncia-la-alianza-del-psoe-con-vox-para-impedir-el-desarrollo-del-estatuto-de-autonomia/",
         "fecha": "2022-07-15",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "CC denuncia que se impida a Canarias participar en las negociaciones con Marruecos"
+      },
+      "grupoEvidencia": "pasaje-d2e3217beee83517f1b2"
     },
     "can-011": {
       "valor": -2,
@@ -201,8 +215,10 @@
         "titulo": "Diario de Sesiones del Parlamento de Canarias: tributo a estancias turísticas",
         "url": "https://www.parcan.es/pub/ds.py/2024/34/12/",
         "fecha": "2024-04-24",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "Diario de Sesiones del Parlamento de Canarias: tributo a estancias turísticas"
+      },
+      "grupoEvidencia": "pasaje-1d2fad1ccbcff2476e6d"
     },
     "sd-019": {
       "valor": 2,
@@ -213,8 +229,10 @@
         "titulo": "Resolución del VIII Congreso Nacional en favor del pueblo saharaui",
         "url": "https://coalicioncanaria.org/wp-content/uploads/2025/04/PONENCIA-IDENTIDAD-CANARIA-Y-RES.pdf",
         "fecha": "2025-04",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "Resolución del VIII Congreso Nacional en favor del pueblo saharaui"
+      },
+      "grupoEvidencia": "pasaje-53d58d67d9ecce63afd1"
     },
     "eco-008": {
       "valor": 1,
@@ -225,8 +243,10 @@
         "titulo": "Convalidado el decreto de reforma de pensiones (RTVC)",
         "url": "https://rtvc.es/convalidado-el-decreto-de-reforma-de-pensiones/",
         "fecha": "2023-03-30",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "Convalidado el decreto de reforma de pensiones"
+      },
+      "grupoEvidencia": "pasaje-9ddf2fe97f860cb5b832"
     },
     "eco-011": {
       "valor": 1,
@@ -237,8 +257,10 @@
         "titulo": "El Congreso tumba la reducción de jornada laboral con los votos de PP, Vox y Junts (Atlántico)",
         "url": "https://www.atlantico.net/economia/congreso-tumba-reduccion-jornada-laboral_1_20250910-3976245.html",
         "fecha": "2025-09-10",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "El Congreso tumba la reducción de jornada laboral con los votos de PP, Vox y Junts"
+      },
+      "grupoEvidencia": "pasaje-009971600811af3ac8c6"
     },
     "eco-014": {
       "valor": 1,
@@ -249,8 +271,10 @@
         "titulo": "El Congreso aprueba el impuesto a grandes fortunas y lo remite al Senado (Idealista News)",
         "url": "https://www.idealista.com/news/finanzas/economia/2022/11/25/800323-el-congreso-aprueba-el-impuesto-a-grandes-fortunas-y-lo-remite-al-senado",
         "fecha": "2022-11-25",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "El Congreso aprueba el impuesto a grandes fortunas y lo remite al Senado"
+      },
+      "grupoEvidencia": "pasaje-70f3c6590d15005ad1f1"
     },
     "sd-023": {
       "valor": 0,
@@ -261,8 +285,10 @@
         "titulo": "El Congreso tumba el decreto del impuesto a las energéticas, con el voto de PP, Vox, Junts, PNV y UPN (El Periódico de la Energía)",
         "url": "https://elperiodicodelaenergia.com/el-congreso-tumba-el-decreto-del-impuesto-a-las-energeticas-con-el-voto-de-pp-vox-junts-pnv-y-upn/",
         "fecha": "2025-01-22",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "El Congreso tumba el decreto del impuesto a las energéticas, con el voto de PP, Vox, Junts, PNV y UPN"
+      },
+      "grupoEvidencia": "pasaje-ba22a8ebb9954b023677"
     },
     "eco-005": {
       "valor": -1,
@@ -287,8 +313,10 @@
         "titulo": "El Congreso toma en consideración la ley antiokupas del PP (Europa Press/Infobae; con el apoyo de Vox, UPN y CC)",
         "url": "https://www.infobae.com/espana/agencias/2026/05/19/el-congreso-toma-en-consideracion-la-ley-antiokupas-del-pp-gracias-a-la-abstencion-del-pnv-y-junts/",
         "fecha": "2026-05-19",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "El Congreso toma en consideración la ley antiokupas del PP (Europa Press/Infobae; con el apoyo de Vox, UPN y CC)"
+      },
+      "grupoEvidencia": "pasaje-dd6b14b1761c28894187"
     },
     "soc-004": {
       "valor": 2,
@@ -299,8 +327,10 @@
         "titulo": "El Congreso apoya la iniciativa de regularización extraordinaria de extranjeros (Infobae)",
         "url": "https://www.infobae.com/espana/2024/04/09/el-congreso-apoya-la-iniciativa-de-regularizacion-extraordinaria-de-extranjeros/",
         "fecha": "2024-04-09",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "El Congreso apoya la iniciativa de regularización extraordinaria de extranjeros"
+      },
+      "grupoEvidencia": "pasaje-dabd5103f8d7244cb623"
     },
     "soc-002": {
       "valor": -1,
@@ -325,8 +355,10 @@
         "titulo": "España aprueba la ley trans: el desglose de los grupos que la apoyaron, entre ellos Coalición Canaria (CNN en Español)",
         "url": "https://cnnespanol.cnn.com/2022/12/22/espana-aprobo-ley-trans-diputados-senado-orix/amp/",
         "fecha": "2022-12-22",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "España aprueba la ley trans: el desglose de los grupos que la apoyaron, entre ellos Coalición Canaria"
+      },
+      "grupoEvidencia": "pasaje-01742a2834ae827b34e7"
     },
     "lib-017": {
       "valor": 2,
@@ -365,8 +397,10 @@
         "titulo": "Recelos en la sanidad canaria por la idea de derivar consultas a la privada: «Ya hay saturación en las clínicas concertadas»",
         "url": "https://www.eldiario.es/canariasahora/sociedad/recelos-sanidad-canaria-idea-derivar-consultas-privada-hay-saturacion-clinicas-concertadas_1_12035808.html",
         "fecha": "2025-02-08",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "Recelos en la sanidad canaria por la idea de derivar consultas a la privada: «Ya hay saturación en las clínicas concertadas»"
+      },
+      "grupoEvidencia": "pasaje-c471f5b0513f1187ceae"
     },
     "eco-006": {
       "valor": 0,
@@ -377,8 +411,10 @@
         "titulo": "El Instituto Canario de la Vivienda y el Consorcio de Viviendas de Gran Canaria formalizan un convenio para construir 126 viviendas públicas en la isla",
         "url": "https://www.digitalfarocanarias.com/index.php/2025/12/03/el-instituto-canario-de-la-vivienda-y-el-consorcio-de-viviendas-de-gran-canaria-formalizan-un-convenio-para-construir-126-viviendas-publicas-en-la-isla/",
         "fecha": "2025-12-03",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "El Instituto Canario de la Vivienda y el Consorcio de Viviendas de Gran Canaria formalizan un convenio para construir 126 viviendas públicas en la isla"
+      },
+      "grupoEvidencia": "pasaje-8f61b5a9c391dcb6d271"
     },
     "eco-009": {
       "valor": 2,
@@ -401,8 +437,10 @@
         "titulo": "68,7 millones para derivar a la concertada a pacientes de la sanidad pública canaria",
         "url": "https://www.canarias7.es/sociedad/salud/687-millones-derivar-concertada-pacientes-sanidad-publica-20250224193620-nt.html",
         "fecha": "2025-02-24",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "68,7 millones para derivar a la concertada a pacientes de la sanidad pública canaria"
+      },
+      "grupoEvidencia": "pasaje-995b8c8d87fef32285b2"
     },
     "der-018": {
       "valor": 2,
@@ -413,8 +451,10 @@
         "titulo": "El Congreso apoya la iniciativa de regularización extraordinaria de extranjeros (Infobae)",
         "url": "https://www.infobae.com/espana/2024/04/09/el-congreso-apoya-la-iniciativa-de-regularizacion-extraordinaria-de-extranjeros/",
         "fecha": "2024-04-09",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "El Congreso apoya la iniciativa de regularización extraordinaria de extranjeros"
+      },
+      "grupoEvidencia": "pasaje-dabd5103f8d7244cb623"
     },
     "der-019": {
       "valor": -2,
@@ -439,8 +479,10 @@
         "titulo": "Diario de Sesiones 90, de fecha 10/9/2025 - Punto 16 - Parlamento de Canarias",
         "url": "https://www.parcan.es/pub/ds.py/2025/90/16/",
         "fecha": "2025-09-10",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "Diario de Sesiones 90, de fecha 10/9/2025 - Punto 16 - Parlamento de Canarias"
+      },
+      "grupoEvidencia": "pasaje-92486121a88695c4d60c"
     },
     "sd-021": {
       "valor": 2,
@@ -451,8 +493,10 @@
         "titulo": "El Congreso apoya la iniciativa de regularización extraordinaria de extranjeros (Infobae)",
         "url": "https://www.infobae.com/espana/2024/04/09/el-congreso-apoya-la-iniciativa-de-regularizacion-extraordinaria-de-extranjeros/",
         "fecha": "2024-04-09",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "El Congreso apoya la iniciativa de regularización extraordinaria de extranjeros"
+      },
+      "grupoEvidencia": "pasaje-dabd5103f8d7244cb623"
     },
     "soc-005": {
       "valor": 1,
@@ -463,8 +507,10 @@
         "titulo": "Clavijo apoya regularizar a los inmigrantes para no condenarlos a la economía sumergida (Infobae)",
         "url": "https://www.infobae.com/espana/agencias/2025/05/20/clavijo-apoya-regularizar-a-los-inmigrantes-para-no-condenarlos-a-la-economia-sumergida/",
         "fecha": "2025-05-20",
-        "consultado": "2026-07-10"
-      }
+        "consultado": "2026-07-10",
+        "cita": "Clavijo apoya regularizar a los inmigrantes para no condenarlos a la economía sumergida"
+      },
+      "grupoEvidencia": "pasaje-a7feaaeb9bc528df74e0"
     },
     "dem-034": {
       "valor": -2,
@@ -537,8 +583,10 @@
         "titulo": "Coalición Canaria — quiénes somos (autonomismo constitucional)",
         "url": "https://coalicioncanaria.org/quienes-somos/",
         "fecha": "2026",
-        "consultado": "2026-07-12"
-      }
+        "consultado": "2026-07-12",
+        "cita": "Coalición Canaria — quiénes somos"
+      },
+      "grupoEvidencia": "pasaje-894c2b2c8244d8110fc5"
     },
     "lab-016": {
       "valor": -1,
@@ -561,8 +609,10 @@
         "titulo": "El Congreso apoya la iniciativa de regularización extraordinaria de extranjeros (Infobae)",
         "url": "https://www.infobae.com/espana/2024/04/09/el-congreso-apoya-la-iniciativa-de-regularizacion-extraordinaria-de-extranjeros/",
         "fecha": "2024-04-09",
-        "consultado": "2026-07-12"
-      }
+        "consultado": "2026-07-12",
+        "cita": "El Congreso apoya la iniciativa de regularización extraordinaria de extranjeros"
+      },
+      "grupoEvidencia": "pasaje-dabd5103f8d7244cb623"
     },
     "dem-015": {
       "valor": -1,
