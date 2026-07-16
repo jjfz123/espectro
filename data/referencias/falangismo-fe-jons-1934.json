@@ -6,8 +6,8 @@
   "variante": "Programa original de FE de las JONS publicado en noviembre de 1934; no incluye la unificación forzosa con el tradicionalismo en FET y de las JONS en 1937, la doctrina del régimen de Franco, el nacionalcatolicismo de posguerra ni los programas de organizaciones falangistas actuales Incluye también el discurso de proclamación de FE de las JONS (Teatro Calderón de Valladolid, 4 de marzo de 1934) como documento fundacional del mismo corpus de 1934.",
   "periodo": "1934",
   "confianza": "verificada",
-  "version": "1.0",
-  "revisado": "2026-07-11",
+  "version": "1.1",
+  "revisado": "2026-07-16",
   "facetasDefinitorias": [
     "economico",
     "institucionalismo",
@@ -208,7 +208,8 @@
         "url": "https://www.uv.es/ivorra/Historia/SXX/Falange.html",
         "fecha": "1934-11-30",
         "consultado": "2026-07-11"
-      }
+      },
+      "definitoria": true
     },
     "dr-026": {
       "valor": -2,
@@ -220,7 +221,8 @@
         "url": "https://www.uv.es/ivorra/Historia/SXX/Falange.html",
         "fecha": "1934-11-30",
         "consultado": "2026-07-11"
-      }
+      },
+      "definitoria": true
     },
     "lab-005": {
       "valor": -2,
@@ -244,7 +246,8 @@
         "url": "https://www.uv.es/ivorra/Historia/SXX/Falange.html",
         "fecha": "1934-11-30",
         "consultado": "2026-07-11"
-      }
+      },
+      "definitoria": true
     },
     "lab-016": {
       "valor": 1,

@@ -35,10 +35,25 @@ export function compararReferenciasDoctrinales(
       // la semántica de ResultadoAfinidad y no se sobrescriben.
       const coberturaDefinitoria =
         itemsDefinitorios > 0 ? base.itemsComparados / itemsDefinitorios : 0;
+      // Veto definitorio: rechazar una posición nuclear del tipo ideal (signo
+      // contrario, con opinión) excluye la referencia aunque la similitud
+      // media supere el umbral. Un 0 o «sin opinión» no es rechazo.
+      const respuestaPorItem = new Map(
+        relevantes.map((respuesta) => [respuesta.itemId, respuesta.valor]),
+      );
+      const definitoriasContradichas = Object.entries(referencia.posiciones).filter(
+        ([itemId, posicion]) => {
+          if (posicion.definitoria !== true) return false;
+          if (typeof posicion.valor !== 'number' || posicion.valor === 0) return false;
+          const valorUsuario = respuestaPorItem.get(itemId);
+          return typeof valorUsuario === 'number' && valorUsuario * posicion.valor < 0;
+        },
+      ).length;
       const publicable =
         base.estado === 'calculable' &&
         base.itemsComparados >= referencia.reglaPublicacion.minimoItems &&
         coberturaDefinitoria >= referencia.reglaPublicacion.minimoCobertura &&
+        definitoriasContradichas === 0 &&
         (base.puntuacion ?? 0) >= referencia.reglaPublicacion.umbralAfinidad;
 
       return {
@@ -48,6 +63,7 @@ export function compararReferenciasDoctrinales(
           coberturaDefinitoria < referencia.reglaPublicacion.minimoCobertura,
         itemsDefinitorios,
         coberturaDefinitoria: redondear(coberturaDefinitoria, 3),
+        definitoriasContradichas,
         publicable,
         umbralAfinidad: referencia.reglaPublicacion.umbralAfinidad,
       };

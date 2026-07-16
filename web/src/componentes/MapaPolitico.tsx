@@ -54,7 +54,13 @@ interface Props {
       doctrinal y con cuántas preguntas compartidas (fase 2 de legibilidad). */
   resumenDoctrinal?: Map<
     string,
-    { publicable: boolean; itemsComparados: number; itemsDefinitorios: number }
+    {
+      publicable: boolean;
+      itemsComparados: number;
+      itemsDefinitorios: number;
+      /** Posiciones nucleares del tipo ideal que el usuario respondió al revés. */
+      definitoriasContradichas?: number;
+    }
   >;
   puedeRecargar: boolean;
   alConfirmarGuardado: () => boolean;
@@ -1589,8 +1595,11 @@ export function MapaPolitico({
                         ' mide dos ejes; aquello, sus preguntas definitorias.'
                       );
                     }
-                    return cruce.publicable
-                      ? ` Ahí también apareces: coincides en ${cruce.itemsComparados} de sus ${cruce.itemsDefinitorios} preguntas definitorias (ver «corrientes afines»).`
+                    if (cruce.publicable) {
+                      return ` Ahí también apareces: coincides en ${cruce.itemsComparados} de sus ${cruce.itemsDefinitorios} preguntas definitorias (ver «corrientes afines»).`;
+                    }
+                    return (cruce.definitoriasContradichas ?? 0) > 0
+                      ? ` Has respondido en sentido contrario a ${cruce.definitoriasContradichas === 1 ? 'una pregunta que la define' : `${cruce.definitoriasContradichas} preguntas que la definen`}: por eso queda descartada de «corrientes afines» aunque la geometría te acerque.`
                       : ` En sus preguntas definitorias no llegas a su umbral: por eso NO aparece en «corrientes afines». Cercanía geométrica sin coincidencia doctrinal — es normal.`;
                   })()}
                 </span>{' '}

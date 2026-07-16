@@ -6,7 +6,7 @@
   "variante": "Lenin y el bolchevismo entre ¿Qué hacer? (1902), El Estado y la revolución (1917) y la NEP (1921); distinto del marxismo-leninismo soviético codificado después de 1924 y de sus variantes estalinista, maoísta, hoxhaísta o eurocomunista",
   "periodo": "1902-1921",
   "confianza": "verificada",
-  "version": "1.1",
+  "version": "1.2",
   "revisado": "2026-07-16",
   "facetasDefinitorias": [
     "metodo-cambio",
@@ -64,7 +64,8 @@
         "url": "https://www.marxists.org/archive/lenin/works/1917/staterev/ch01.htm",
         "fecha": "1917",
         "consultado": "2026-07-11"
-      }
+      },
+      "definitoria": true
     },
     "izq-002": {
       "valor": 2,
@@ -76,7 +77,8 @@
         "url": "https://www.marxists.org/archive/lenin/works/1901/witbd/ch04.htm",
         "fecha": "1902",
         "consultado": "2026-07-11"
-      }
+      },
+      "definitoria": true
     },
     "izq-018": {
       "valor": -2,

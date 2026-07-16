@@ -101,6 +101,14 @@ export interface Posicion {
   /** Calidad de la evidencia concreta, independiente de la ficha global. */
   calidadEvidencia?: 'alta' | 'media' | 'baja';
   /**
+   * Solo en referencias doctrinales: marca una posición NUCLEAR del tipo
+   * ideal (p. ej., el corporativismo para el falangismo o el partido de
+   * vanguardia para el bolchevismo). Si el usuario responde en sentido
+   * contrario, la referencia no se publica como afín por alta que sea la
+   * similitud media: rechazar lo que define a la corriente excluye de ella.
+   */
+  definitoria?: boolean;
+  /**
    * Un cero solo entra en coordenadas documentales cuando la fuente resuelve
    * de forma explícita la dicotomía; evita convertir silencio en moderación.
    */
@@ -360,6 +368,12 @@ export interface ResultadoReferencia extends ResultadoAfinidad {
    * respuestas del usuario) y es la que gobierna la publicación.
    */
   coberturaDefinitoria: number;
+  /**
+   * Posiciones marcadas `definitoria` que el usuario respondió en sentido
+   * contrario. Una sola basta para no publicar la afinidad: la media alta no
+   * rescata a quien rechaza el núcleo del tipo ideal.
+   */
+  definitoriasContradichas: number;
   /** Supera simultáneamente mínimos de cobertura, ítems y similitud. */
   publicable: boolean;
   umbralAfinidad: number;

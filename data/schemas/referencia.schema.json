@@ -79,6 +79,10 @@
           "required": ["valor", "justificacion", "calidadEvidencia", "fuente"],
           "properties": {
             "valor": { "type": "integer", "minimum": -2, "maximum": 2 },
+            "definitoria": {
+              "type": "boolean",
+              "description": "Posición nuclear del tipo ideal: si el usuario responde en sentido contrario (con opinión), la referencia no se publica como afín aunque la similitud media supere el umbral. Rechazar lo que define a la corriente excluye de ella."
+            },
             "justificacion": { "type": "string", "minLength": 20, "maxLength": 500 },
             "calidadEvidencia": { "enum": ["alta", "media", "baja"] },
             "resolucionCero": {

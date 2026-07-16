@@ -359,7 +359,15 @@ export function Resultados({ estado, despachar, puedeRecargar, alConfirmarGuarda
      presupuesto (§60). Mientras llega, la frase de zona usa su variante
      estática — la prop es opcional a propósito. */
   const [resumenDoctrinal, setResumenDoctrinal] = useState<
-    Map<string, { publicable: boolean; itemsComparados: number; itemsDefinitorios: number }>
+    Map<
+      string,
+      {
+        publicable: boolean;
+        itemsComparados: number;
+        itemsDefinitorios: number;
+        definitoriasContradichas: number;
+      }
+    >
     | undefined
   >(undefined);
   useEffect(() => {
@@ -368,13 +376,19 @@ export function Resultados({ estado, despachar, puedeRecargar, alConfirmarGuarda
       if (!vigente) return;
       const mapa = new Map<
         string,
-        { publicable: boolean; itemsComparados: number; itemsDefinitorios: number }
+        {
+          publicable: boolean;
+          itemsComparados: number;
+          itemsDefinitorios: number;
+          definitoriasContradichas: number;
+        }
       >();
       for (const r of compararReferenciasDoctrinales(respuestas, REFERENCIAS)) {
         mapa.set(r.entidadId, {
           publicable: r.publicable,
           itemsComparados: r.itemsComparados,
           itemsDefinitorios: r.itemsDefinitorios,
+          definitoriasContradichas: r.definitoriasContradichas,
         });
       }
       setResumenDoctrinal(mapa);
